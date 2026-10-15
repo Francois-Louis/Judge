@@ -37,7 +37,13 @@ court entretien de qualification ci-dessous dans la conversation et continuer
 sur les points documentés ; ne pas exiger un profil d'entreprise, un handbook,
 un playbook, des mémos de rupture ou une consultation préalable à l'explication.
 Pas de création de profil, registre ou archive par défaut. Une configuration
-persistante volontaire passe par le chemin court de `cold-start-interview`.
+persistante volontaire suit le [parcours candidat et préférences](../../references/candidate-preferences.md),
+commun au chemin court de `cold-start-interview` et à `customize`. Le statut
+`interview-required` du helper signifie ici entretien en conversation, sans
+sauvegarde obligatoire. Sans exécuteur Python, aucun accès persistant de
+remplacement : expliquer cette limite et poursuivre sur les pièces fournies.
+Au retour d'une préférence, reprendre les faits confirmés et le format demandé
+sans refaire le setup. Une préférence de présentation ne valide aucune clause.
 
 Si des dossiers sont activés dans un profil existant, respecter le dossier
 actif et l'absence de lecture des autres dossiers. Si le dossier est inconnu,
@@ -163,8 +169,10 @@ Utiliser « **Note de lecture — [document/date]** », sans marquage automatiqu
 de secret professionnel ou de protection juridique. Le profil hérité n'impose
 ni en-tête américain, ni brief d'avocat en tête, ni arbre de cinq options.
 
-Pour une revue, rendre le tableau suivant ; pour une explication ciblée ou un
-besoin d'accessibilité, donner les mêmes éléments en texte court ou liste.
+Respecter le format explicitement demandé, en conversation ou mémorisé dans la
+préférence candidat (la demande actuelle prime). Sans préférence, utiliser le
+tableau suivant pour une revue ; pour une explication ciblée ou un besoin
+d'accessibilité, donner les mêmes éléments en texte court ou liste.
 
 | Clause / pièce et constat | Source, version, consultation et statut | Conséquence concrète | Proposition ou question et destinataire |
 |---|---|---|---|

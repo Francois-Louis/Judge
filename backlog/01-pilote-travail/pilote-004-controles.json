@@ -1,0 +1,787 @@
+{
+  "scope": "helper embarqué sur fixtures ; aucune exécution de skill",
+  "runner_sha256": "1b2a3c925be30318f70ce6f6ea995b07300b0447dabce6f09986ebbd4a8ca2a9",
+  "client": {
+    "claude": null,
+    "executed": false
+  },
+  "scenarios": [
+    {
+      "test": "test_H12_absent_profile_read_does_not_persist",
+      "calls": [
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gfiywjbj"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gfiywjbj\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": null,
+            "status": "interview-required",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gfiywjbj\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ]
+          }
+        }
+      ],
+      "before": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/company-profile.md": "2fae1211a6729e54090f50c568591f3612bfde53bd08fc7b67a420f60d818bbe",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "after": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/company-profile.md": "2fae1211a6729e54090f50c568591f3612bfde53bd08fc7b67a420f60d818bbe",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "witnesses_unchanged": true,
+      "package_unchanged": true
+    },
+    {
+      "test": "test_US_profile_without_candidate_section_is_preserved",
+      "calls": [
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-enobxf1k"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-enobxf1k\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": "# Legacy practice profile\n## Hiring rules\nAt-will example, exempt and non-compete defaults: NOT FR SOURCES\n## Outputs\nATTORNEY WORK PRODUCT\n## Matter workspaces\nEnabled: yes ; active: inconnu\n",
+            "status": "present",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-enobxf1k\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "4850d23426abffb451a7b87a8d9411bb40a1c479adc9eaa5e6b962343f4d8266"
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "replace",
+            "CLAUDE.md",
+            "--expected-sha256",
+            "4850d23426abffb451a7b87a8d9411bb40a1c479adc9eaa5e6b962343f4d8266",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-enobxf1k"
+          ],
+          "stdin": "# Legacy practice profile\n## Hiring rules\nAt-will example, exempt and non-compete defaults: NOT FR SOURCES\n## Outputs\nATTORNEY WORK PRODUCT\n## Matter workspaces\nEnabled: yes ; active: inconnu\n\n# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | tableau |\n",
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-enobxf1k\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "events": [
+              {
+                "operation": "create",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-enobxf1k\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md.judge-pending"
+              },
+              {
+                "operation": "replace",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-enobxf1k\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "aab4f8d6717fa3b29bd806cfc434d2726a9a41bb412209083cb3a06cd47daa34"
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-enobxf1k"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-enobxf1k\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": "# Legacy practice profile\n## Hiring rules\nAt-will example, exempt and non-compete defaults: NOT FR SOURCES\n## Outputs\nATTORNEY WORK PRODUCT\n## Matter workspaces\nEnabled: yes ; active: inconnu\n\n# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | tableau |\n",
+            "status": "present",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-enobxf1k\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "aab4f8d6717fa3b29bd806cfc434d2726a9a41bb412209083cb3a06cd47daa34"
+          }
+        }
+      ],
+      "before_content": "# Legacy practice profile\n## Hiring rules\nAt-will example, exempt and non-compete defaults: NOT FR SOURCES\n## Outputs\nATTORNEY WORK PRODUCT\n## Matter workspaces\nEnabled: yes ; active: inconnu\n",
+      "before": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/company-profile.md": "2fae1211a6729e54090f50c568591f3612bfde53bd08fc7b67a420f60d818bbe",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md": "4850d23426abffb451a7b87a8d9411bb40a1c479adc9eaa5e6b962343f4d8266",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "after": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/company-profile.md": "2fae1211a6729e54090f50c568591f3612bfde53bd08fc7b67a420f60d818bbe",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md": "aab4f8d6717fa3b29bd806cfc434d2726a9a41bb412209083cb3a06cd47daa34",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "witnesses_unchanged": true,
+      "package_unchanged": true
+    },
+    {
+      "test": "test_exclusive_create_refuses_profile_appearing_after_read",
+      "calls": [
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-feymcdm0"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-feymcdm0\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": null,
+            "status": "interview-required",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-feymcdm0\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ]
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "create",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-feymcdm0"
+          ],
+          "stdin": "# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | texte court |\n",
+          "exit_code": 1,
+          "stderr": "REFUSED: [Errno 17] File exists: 'C:\\\\Users\\\\fltou\\\\AppData\\\\Local\\\\Temp\\\\judge-pilote004-home-feymcdm0\\\\.claude\\\\plugins\\\\config\\\\judge-fr-eu\\\\employment-legal\\\\CLAUDE.md'\n",
+          "result": null
+        }
+      ],
+      "before_content": "# Réponses apparues entre-temps\nNe pas effacer.\n",
+      "before": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/company-profile.md": "2fae1211a6729e54090f50c568591f3612bfde53bd08fc7b67a420f60d818bbe",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md": "f1ac7599cf519a1f6053b5fe925904e9d36f0055760c351ccb6d26f9c5d7a30e",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "after": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/company-profile.md": "2fae1211a6729e54090f50c568591f3612bfde53bd08fc7b67a420f60d818bbe",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md": "f1ac7599cf519a1f6053b5fe925904e9d36f0055760c351ccb6d26f9c5d7a30e",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "witnesses_unchanged": true,
+      "package_unchanged": true
+    },
+    {
+      "test": "test_explicit_short_then_table_only_changes_format",
+      "calls": [
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": null,
+            "status": "interview-required",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ]
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "create",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im"
+          ],
+          "stdin": "# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | texte court |\n",
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "events": [
+              {
+                "operation": "create",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "6a50747473d796a71ef746562c06b95606b9880454b9043d6a60bc3b3c856c3f"
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": "# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | texte court |\n",
+            "status": "present",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "6a50747473d796a71ef746562c06b95606b9880454b9043d6a60bc3b3c856c3f"
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "replace",
+            "CLAUDE.md",
+            "--expected-sha256",
+            "6a50747473d796a71ef746562c06b95606b9880454b9043d6a60bc3b3c856c3f",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im"
+          ],
+          "stdin": "# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | tableau |\n",
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "events": [
+              {
+                "operation": "create",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md.judge-pending"
+              },
+              {
+                "operation": "replace",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "dc8bda6f40ce92d0250b9e79d90e772dc00ef386720bfbe5865252b2261d1ae0"
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": "# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | tableau |\n",
+            "status": "present",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-h9e0q_im\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "dc8bda6f40ce92d0250b9e79d90e772dc00ef386720bfbe5865252b2261d1ae0"
+          }
+        }
+      ],
+      "before": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "after": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md": "dc8bda6f40ce92d0250b9e79d90e772dc00ef386720bfbe5865252b2261d1ae0",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "witnesses_unchanged": true,
+      "package_unchanged": true
+    },
+    {
+      "test": "test_partial_profile_preserves_answers_and_language",
+      "calls": [
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gr3z9gkl"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gr3z9gkl\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": "# Profil partiel\n<!-- SETUP PAUSED AT: rôle -->\n| Rôle / besoin | candidat ; offre reçue |\n| Format / langue | texte court ; français |\n| Travail / dates | Lyon ; début à confirmer |\n",
+            "status": "present",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gr3z9gkl\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "477082d0f9d40a4fc09185f8877611c50e97b2c9d023c0866a56db5ccdb8f35a"
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "replace",
+            "CLAUDE.md",
+            "--expected-sha256",
+            "477082d0f9d40a4fc09185f8877611c50e97b2c9d023c0866a56db5ccdb8f35a",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gr3z9gkl"
+          ],
+          "stdin": "# Profil partiel\n<!-- SETUP PAUSED AT: rôle -->\n| Rôle / besoin | candidat ; offre reçue |\n| Format / langue | tableau ; français |\n| Travail / dates | Lyon ; début à confirmer |\n",
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gr3z9gkl\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "events": [
+              {
+                "operation": "create",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gr3z9gkl\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md.judge-pending"
+              },
+              {
+                "operation": "replace",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gr3z9gkl\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "51269af14372b401d967efe6a8ea8920a97728bdb8a76f92f78c4fe7c5bc9632"
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gr3z9gkl"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gr3z9gkl\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": "# Profil partiel\n<!-- SETUP PAUSED AT: rôle -->\n| Rôle / besoin | candidat ; offre reçue |\n| Format / langue | tableau ; français |\n| Travail / dates | Lyon ; début à confirmer |\n",
+            "status": "present",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-gr3z9gkl\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "51269af14372b401d967efe6a8ea8920a97728bdb8a76f92f78c4fe7c5bc9632"
+          }
+        }
+      ],
+      "before_content": "# Profil partiel\n<!-- SETUP PAUSED AT: rôle -->\n| Rôle / besoin | candidat ; offre reçue |\n| Format / langue | texte court ; français |\n| Travail / dates | Lyon ; début à confirmer |\n",
+      "before": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/company-profile.md": "2fae1211a6729e54090f50c568591f3612bfde53bd08fc7b67a420f60d818bbe",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md": "477082d0f9d40a4fc09185f8877611c50e97b2c9d023c0866a56db5ccdb8f35a",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "after": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/company-profile.md": "2fae1211a6729e54090f50c568591f3612bfde53bd08fc7b67a420f60d818bbe",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md": "51269af14372b401d967efe6a8ea8920a97728bdb8a76f92f78c4fe7c5bc9632",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "witnesses_unchanged": true,
+      "package_unchanged": true
+    },
+    {
+      "test": "test_professional_placeholders_remain_untouched",
+      "calls": [
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-drrqxqeg"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-drrqxqeg\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": "# Profil\n## Who we are\n[PLACEHOLDER — Company]\n<!-- SETUP PAUSED AT: handbook -->\n# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | texte court |\n",
+            "status": "present",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-drrqxqeg\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "f401748e532d3185aa609ff08f5540448af2f8474a9a7ebc033c9205b7e84512"
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "replace",
+            "CLAUDE.md",
+            "--expected-sha256",
+            "f401748e532d3185aa609ff08f5540448af2f8474a9a7ebc033c9205b7e84512",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-drrqxqeg"
+          ],
+          "stdin": "# Profil\n## Who we are\n[PLACEHOLDER — Company]\n<!-- SETUP PAUSED AT: handbook -->\n# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | tableau |\n",
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-drrqxqeg\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "events": [
+              {
+                "operation": "create",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-drrqxqeg\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md.judge-pending"
+              },
+              {
+                "operation": "replace",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-drrqxqeg\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "c6018c0a179585dac725c6e3530da5a31d137a083753becd749293a8568dc191"
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-drrqxqeg"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-drrqxqeg\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": "# Profil\n## Who we are\n[PLACEHOLDER — Company]\n<!-- SETUP PAUSED AT: handbook -->\n# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | tableau |\n",
+            "status": "present",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-drrqxqeg\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "c6018c0a179585dac725c6e3530da5a31d137a083753becd749293a8568dc191"
+          }
+        }
+      ],
+      "before_content": "# Profil\n## Who we are\n[PLACEHOLDER — Company]\n<!-- SETUP PAUSED AT: handbook -->\n# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | texte court |\n",
+      "before": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/company-profile.md": "2fae1211a6729e54090f50c568591f3612bfde53bd08fc7b67a420f60d818bbe",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md": "f401748e532d3185aa609ff08f5540448af2f8474a9a7ebc033c9205b7e84512",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "after": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/company-profile.md": "2fae1211a6729e54090f50c568591f3612bfde53bd08fc7b67a420f60d818bbe",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md": "c6018c0a179585dac725c6e3530da5a31d137a083753becd749293a8568dc191",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "witnesses_unchanged": true,
+      "package_unchanged": true
+    },
+    {
+      "test": "test_stale_fingerprint_refuses_and_reread_preserves_new_answer",
+      "calls": [
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": "# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | texte court |\n",
+            "status": "present",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "6a50747473d796a71ef746562c06b95606b9880454b9043d6a60bc3b3c856c3f"
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "replace",
+            "CLAUDE.md",
+            "--expected-sha256",
+            "6a50747473d796a71ef746562c06b95606b9880454b9043d6a60bc3b3c856c3f",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3"
+          ],
+          "stdin": "# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | tableau |\n",
+          "exit_code": 1,
+          "stderr": "REFUSED: file changed since review; refusing replacement\n",
+          "result": null
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": "# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | texte court |\n\nRéponse confirmée entre-temps : annexe manquante.\n",
+            "status": "present",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "c908b9d0e07a48d67c2e5daaef8444b796028a7159497c6dff8a7025c7a3ba66"
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "replace",
+            "CLAUDE.md",
+            "--expected-sha256",
+            "c908b9d0e07a48d67c2e5daaef8444b796028a7159497c6dff8a7025c7a3ba66",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3"
+          ],
+          "stdin": "# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | tableau |\n\nRéponse confirmée entre-temps : annexe manquante.\n",
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "events": [
+              {
+                "operation": "create",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md.judge-pending"
+              },
+              {
+                "operation": "replace",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "0e3ecc23a3bfa43f8ff814049d42a311fdb6637bcad6076b9dd1574a10868219"
+          }
+        },
+        {
+          "command": [
+            "C:\\ProgramData\\miniconda3\\python.exe",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-package-8u7eowzo\\employment-legal\\scripts\\judge_store.py",
+            "read",
+            "CLAUDE.md",
+            "--home",
+            "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3"
+          ],
+          "stdin": null,
+          "exit_code": 0,
+          "stderr": "",
+          "result": {
+            "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md",
+            "content": "# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | tableau |\n\nRéponse confirmée entre-temps : annexe manquante.\n",
+            "status": "present",
+            "events": [
+              {
+                "operation": "read",
+                "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-home-cy8ueok3\\.claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+              }
+            ],
+            "sha256": "0e3ecc23a3bfa43f8ff814049d42a311fdb6637bcad6076b9dd1574a10868219"
+          }
+        }
+      ],
+      "before_content": "# Préférences de lecture d'embauche\n\n## Faits et préférences de revue d'embauche\n\n| Champ | Valeur confirmée |\n|---|---|\n| Format | texte court |\n\nRéponse confirmée entre-temps : annexe manquante.\n",
+      "before": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/company-profile.md": "2fae1211a6729e54090f50c568591f3612bfde53bd08fc7b67a420f60d818bbe",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md": "c908b9d0e07a48d67c2e5daaef8444b796028a7159497c6dff8a7025c7a3ba66",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "after": {
+        ".claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md": "6fd449aa33f47fb87d85c52a1af6cf2c6709123163fa20ba68830a11ee143fe3",
+        ".claude/plugins/config/judge-fr-eu/company-profile.md": "2fae1211a6729e54090f50c568591f3612bfde53bd08fc7b67a420f60d818bbe",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md": "0e3ecc23a3bfa43f8ff814049d42a311fdb6637bcad6076b9dd1574a10868219",
+        ".claude/plugins/config/judge-fr-eu/employment-legal/matters/autre-salarie/matter.md": "cffbeadb04305b166f2ffd806490dccb3beaa9e88ee0e6e2175a801ce4a9b8dc"
+      },
+      "witnesses_unchanged": true,
+      "package_unchanged": true
+    }
+  ],
+  "artifact": {
+    "files": {
+      ".claude-plugin/plugin.json": "6a12d09b21cf8f244b5d16706fc36b4697f884f25aff5abb4530112b8ca28c13",
+      ".gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+      ".mcp.json": "bc8eca5209f34144a43ecde0dcc7cd9eeed74f86c6ae4df7f5ba27e27c2bf613",
+      "agents/leave-tracker.md": "5272f550f2e2bc09518df72c76f9960829be081f86e5d8180865b6cba0cc266c",
+      "CLAUDE.md": "9f684f99b6ee100bdfd64d6cd6beaf8a620684c2a3f5fae082beae0a4655d332",
+      "data/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hooks/hooks.json": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+      "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "NOTICE": "5492e38397a259668b75f88ab4627e7fabf1b99ec31ca313a55fb2a0ade65559",
+      "README.md": "b629b0f6c2c1c16ea51ca8ac27a93f1082195b90f56d4970a1c69a7103a5e16f",
+      "references/candidate-preferences.md": "0e822356ca851982c4392c5cb6aacc6be0ee22835e6726512018c50e71c8aa9e",
+      "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+      "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+      "references/hiring-review-fr.md": "c459bb76a9b3201d09109193bff9eead7ec5a8c59b15cca20f88be39247af1db",
+      "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+      "references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+      "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+      "skills/cold-start-interview/SKILL.md": "61e75d6acd82970e7992c4f6d53faeb060018a5509b28590bcd46701dc4c3ee0",
+      "skills/customize/SKILL.md": "9b7befc41e8d8a3e582f00af30b5291a94e2d5b40a25a05836473684dd2275cc",
+      "skills/expansion-kickoff/SKILL.md": "d9380c6381af98cd75332911cab4c1499c35b6748200635ba09ee577a752042c",
+      "skills/expansion-update/SKILL.md": "cbf7419813711c6b741f31f98b8855306c221ea25be34b5ee72badd0ae8cd50a",
+      "skills/handbook-updates/SKILL.md": "0fa25907f89521d26b09e1d87ad70b2d22b133db7cb287f4b3448d64b2a2a3cc",
+      "skills/hiring-review/SKILL.md": "b1dfc116bccc2395d77bc4363d87954f5ef8a34fe3b055b9a67ff81e96193490",
+      "skills/internal-investigation/SKILL.md": "a2629733586e723f3f1301151b26994cba444caed68ca0463a5c8d708747b870",
+      "skills/international-expansion/SKILL.md": "d23a2b706b5d213c34a3cf09fb0205d928abe87b1ef9fa4aef6db14b42c005b7",
+      "skills/investigation-add/SKILL.md": "7e1cdb3e0a17ac1744aaf5649ed4612405d601299653e7c93518c5866ce8be6b",
+      "skills/investigation-memo/SKILL.md": "6e7a4fcac56471b202d37de725a18d4a13fa99fdc6fb265424ba8ad168e8b947",
+      "skills/investigation-open/SKILL.md": "eed8f997933e09e1530678f714d3e98ff85be662e42a0caa96ba912041a2942d",
+      "skills/investigation-query/SKILL.md": "5020badcc24a30cc8aaf604dcba5d34c5cbbc9f617ea17a37a715bb7eb58bc6b",
+      "skills/investigation-summary/SKILL.md": "c94637fd37aa0fb465bd50cfe303131549de8675780295d14265f1d42410a33a",
+      "skills/leave-tracker/SKILL.md": "442762e338d34ac93c0a81513c2cd03e331529db6b6592687d6507119ea4432a",
+      "skills/log-leave/SKILL.md": "321b136138d04e57fb048f96f3f2e2f2b9429e980bc6908e14e9385ebae8b9e7",
+      "skills/matter-workspace/SKILL.md": "7ddfd6905a28693b6e7ba58442dc01c4462f17f294ce46b02fb07dae2cfe7a9b",
+      "skills/policy-drafting/SKILL.md": "c7c6060d12424793854a0c721e2f5e7a7868f83aa3241b7b5eacc0e612f6f4ae",
+      "skills/termination-review/SKILL.md": "799e19e110ee79d4da99a7c6cb5f928c141043c43f23f9e0973d0a4283fdcc57",
+      "skills/wage-hour-qa/SKILL.md": "3fb71f569807838269e4b852ad937217ed752f290eea7694a2c3379ec7bff706",
+      "skills/worker-classification/SKILL.md": "6692c9862b2df832155e69ad2e63f7460f05c061b13f5f17112552492cdb75e7"
+    },
+    "unchanged": true
+  },
+  "result": {
+    "tests": 7,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "structure": {
+    "command": [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-check-hwd1owji\\check-plugin-package.py",
+      ".",
+      "--schema"
+    ],
+    "cwd": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote004-check-hwd1owji\\employment-legal",
+    "exit_code": 2,
+    "stdout": "A_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/verification-log.md\nA_RELIRE README.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE agents/leave-tracker.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE agents/leave-tracker.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE references/candidate-preferences.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE references/dashboard-template.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/<domain>/outputs/dashboard-<topic>-<date>.html\nA_RELIRE references/isolation.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/\nA_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md\nA_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/CLAUDE.md\nA_RELIRE skills/cold-start-interview/SKILL.md: commande d'un autre plugin à qualifier: /judge-fr-eu-legal-builder-hub:related-skills-surfacer\nA_RELIRE skills/customize/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md\nA_RELIRE skills/customize/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/expansion-kickoff/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/expansion-kickoff/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[slug].yaml\nA_RELIRE skills/expansion-update/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/expansion-update/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[slug].yaml\nA_RELIRE skills/handbook-updates/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/handbook-updates/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[matter-slug]/documents-reviewed.yaml\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[matter-slug]/log.yaml\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[matter-slug]/sources-checklist.yaml\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[slug]/memo.md\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[slug]/sources-checklist.yaml\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/international-expansion/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/international-expansion/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[country-slug].yaml\nA_RELIRE skills/international-expansion/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/investigation-add/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/investigation-open/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/leave-tracker/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE skills/log-leave/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/log-leave/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/*/matter.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<slug>/\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<slug>/matter.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/_archived/\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/_archived/<slug>/\nA_RELIRE skills/policy-drafting/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/policy-drafting/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/termination-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/termination-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/wage-hour-qa/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/wage-hour-qa/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/worker-classification/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/worker-classification/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nSTRUCTURE INCOMPLET: 29 fichiers Markdown; contrôle statique borné\nSCHEMA NON_EXECUTE: CLI claude absente\nEXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE\n",
+    "stderr": "",
+    "errors": 0,
+    "reviews": 53
+  },
+  "provenance": {
+    "date": "2026-10-15",
+    "timezone": "Europe/Paris",
+    "python": "3.12.9 | packaged by Anaconda, Inc. | (main, Feb  6 2025, 18:49:16) [MSC v.1929 64 bit (AMD64)]",
+    "head": "c3fea8dc8c4146988d1446eadc8c5f860af71499",
+    "working_tree": " M .claude-plugin/marketplace.json\n M NOTICE\n M README.md\n M backlog/01-pilote-travail/pilote-001-decoupage-travail.md\n M backlog/01-pilote-travail/pilote-002-revue-embauche.md\n M backlog/01-pilote-travail/pilote-003-bilan-pilote.md\n M backlog/01-pilote-travail/suites/trav-008-suivre-retour-arret-maladie.md\n M backlog/README.md\n M employment-legal/.claude-plugin/plugin.json\n M employment-legal/CLAUDE.md\n M employment-legal/NOTICE\n M employment-legal/README.md\n M employment-legal/skills/cold-start-interview/SKILL.md\n M employment-legal/skills/customize/SKILL.md\n M employment-legal/skills/hiring-review/SKILL.md\n M scripts/test-base008-isolation.py\n?? backlog/01-pilote-travail/pilote-002-controles.json\n?? backlog/01-pilote-travail/pilote-002-pieces-fictives.md\n?? backlog/01-pilote-travail/pilote-002-sorties-relecture.md\n?? backlog/01-pilote-travail/pilote-002-sources-lues.json\n?? backlog/01-pilote-travail/pilote-002-verification.md\n?? backlog/01-pilote-travail/pilote-003-controles.json\n?? backlog/01-pilote-travail/pilote-003-relecture.md\n?? backlog/01-pilote-travail/pilote-003-sources-lues.json\n?? backlog/01-pilote-travail/pilote-003-verification.md\n?? backlog/01-pilote-travail/pilote-004-controles.json\n?? backlog/01-pilote-travail/pilote-004-preferences-candidat.md\n?? backlog/01-pilote-travail/pilote-004-verification.md\n?? backlog/01-pilote-travail/suites/trav-017-clause-non-concurrence.md\n?? employment-legal/references/candidate-preferences.md\n?? employment-legal/references/hiring-review-fr.md\n?? scripts/test-pilote004-preferences.py\n"
+  },
+  "test_run": {
+    "command": [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "scripts/test-pilote004-preferences.py",
+      "--evidence",
+      "C:\\Users\\fltou\\Desktop\\Judge\\backlog\\01-pilote-travail\\pilote-004-controles.json",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_H12_absent_profile_read_does_not_persist (__main__.CandidateStorage.test_H12_absent_profile_read_does_not_persist) ... ok\ntest_US_profile_without_candidate_section_is_preserved (__main__.CandidateStorage.test_US_profile_without_candidate_section_is_preserved) ... ok\ntest_exclusive_create_refuses_profile_appearing_after_read (__main__.CandidateStorage.test_exclusive_create_refuses_profile_appearing_after_read) ... ok\ntest_explicit_short_then_table_only_changes_format (__main__.CandidateStorage.test_explicit_short_then_table_only_changes_format) ... ok\ntest_partial_profile_preserves_answers_and_language (__main__.CandidateStorage.test_partial_profile_preserves_answers_and_language) ... ok\ntest_professional_placeholders_remain_untouched (__main__.CandidateStorage.test_professional_placeholders_remain_untouched) ... ok\ntest_stale_fingerprint_refuses_and_reread_preserves_new_answer (__main__.CandidateStorage.test_stale_fingerprint_refuses_and_reread_preserves_new_answer) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 3.088s\n\nOK\n"
+  },
+  "regressions": [
+    {
+      "command": "python scripts/test-base008-isolation.py",
+      "exit_code": 0,
+      "tests": 16,
+      "passed": 14,
+      "skipped": [
+        "jsonschema absent",
+        "Windows symlink privilege absent"
+      ]
+    },
+    {
+      "command": "python scripts/test-check-plugin-package.py",
+      "exit_code": 0,
+      "tests": 11,
+      "passed": 11
+    }
+  ]
+}

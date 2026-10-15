@@ -2,8 +2,8 @@
 
 Ce dossier organise le travail à venir. Le backlog contient 84 stories :
 BASE-001 à BASE-007, BASE-009, BASE-010, PILOTE-001 et USAGE-001 à USAGE-003 sont `terminee`,
-BASE-008 est `en-cours`, PILOTE-002 et PILOTE-003 sont `a-verifier` ;
-les 68 autres sont `proposee`.
+BASE-008 est `en-cours`, PILOTE-002, PILOTE-003 et PILOTE-004 sont `a-verifier` ;
+les 67 autres sont `proposee`.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
 fait le bilan de l'epic 00 et de ses points ouverts.
 Le [relevé BASE-001](00-fondations/base-001-releve-audit.md) consigne l'audit du
@@ -117,9 +117,11 @@ Le [bilan PILOTE-003](01-pilote-travail/pilote-003-verification.md) rapporte
 les contrôles sur le paquet détaché et les vérifications impossibles :
 installation/invocation et essai avec lecteur réel restent non exécutés.
 Les deux stories restent `a-verifier`. La correction candidate
-[PILOTE-004](01-pilote-travail/pilote-004-preferences-candidat.md) et la tranche
-[TRAV-017](01-pilote-travail/suites/trav-017-clause-non-concurrence.md) sont
-proposées ; aucune extension métier n'est engagée.
+[PILOTE-004](01-pilote-travail/pilote-004-preferences-candidat.md) est implémentée,
+avec sept tests du helper sur paquet détaché ; sa recette client et utilisateur
+reste ouverte (`a-verifier`). La tranche
+[TRAV-017](01-pilote-travail/suites/trav-017-clause-non-concurrence.md) reste
+proposée ; aucune extension métier n'est engagée.
 La lecture des sources bloquées dans l'outil web dispose désormais de
 [voies officielles testées sans souscription API](../references/legal-source-access.md)
 (BASE-010) : CDTN, CELLAR et extractions XML ciblées DILA ; l'indexation complète
@@ -231,7 +233,8 @@ Les suites du plugin travail sont détaillées dans le
 [découpage TRAV-001 à TRAV-017](01-pilote-travail/pilote-001-decoupage-travail.md).
 Chaque story a son fichier, ses dépendances et ses scénarios. Elles attendent
 la clôture de PILOTE-003 et une sélection explicite ; PILOTE-002 reste la seule
-tranche métier d'embauche réécrite.
+tranche métier d'embauche réécrite. PILOTE-004 corrige son setup candidat,
+avec une recette client et utilisateur encore ouverte.
 
 | Story | Résultat attendu | Nature | Priorité |
 |---|---|---|---|

@@ -29,10 +29,19 @@ Pour conserver volontairement des préférences, utiliser le chemin court :
 /judge-fr-eu-employment-legal:customize
 ```
 
-Indiquer que le besoin est la lecture d'une offre en France. La configuration
-courte renseigne seulement les faits utiles et le format souhaité. Le profil
+Indiquer que le besoin est la lecture d'une offre en France. « En texte court
+pour cette réponse » reste dans la conversation ; « mémorise texte court »
+crée seulement cette préférence, puis `customize` peut la passer à « tableau ».
+Les autres réponses restent inchangées, y compris avec un ancien profil US ou
+des champs professionnels vides. Aucun profil société, registre ou test de
+connecteur n'est nécessaire. Le profil
 reste sous `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`,
 hors du paquet remplaçable. Un profil minimal n'active pas les autres parcours.
+Le résultat indique la valeur mémorisée et son emplacement avant de revenir
+à la revue. Sans exécuteur Python, la lecture des pièces fournies continue en
+conversation et la préférence n'est pas enregistrée. Voir le
+[parcours candidat](references/candidate-preferences.md) (PILOTE-004) ; sa
+recette dans le client cible et avec un lecteur réel reste à effectuer.
 
 La restitution explique les engagements des deux parties, puis rapproche
 clause/pièce, source et version, conséquence concrète, proposition ou question

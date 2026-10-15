@@ -1,7 +1,7 @@
 ---
 id: PILOTE-004
 titre: "Modifier une préférence candidat sans initialisation professionnelle"
-statut: proposee
+statut: a-verifier
 priorite: P1
 nature: implementation
 dependances: [PILOTE-002, BASE-006, BASE-008]
@@ -62,3 +62,19 @@ Vérifier l'offre sans profil sans interpréter ce test comme validation juridiq
 Migration de profils d'une autre distribution, adaptation des congés/enquêtes,
 refonte de tous les profils, nouveau connecteur, publication ou envoi.
 
+## Bilan d'exécution
+
+Implémentation réalisée le 15 octobre 2026 à la demande de l'utilisateur :
+contrat candidat embarqué commun aux trois skills, branches terminales,
+profil minimal volontaire, préservation des autres réponses et reprise de la
+revue selon le format demandé. Helper et méthode BASE-005 inchangés, aucune
+nouvelle règle de droit. Sept tests du helper sur paquet détaché réussis ;
+régressions BASE-006/BASE-008 exécutées. Voir le
+[bilan de vérification](pilote-004-verification.md) et les
+[accès et contenus observés](pilote-004-controles.json).
+
+La story reste `a-verifier` : CLI Claude absente, aucune invocation dans un
+client isolé ni lecture avec un participant réel. Les cases ci-dessus ne sont
+pas cochées sur la seule base des consignes ou des tests du helper. La recette
+sans exécuteur et le retour effectif à la revue restent à observer. Aucune
+extension aux autres parcours ni publication réalisée.

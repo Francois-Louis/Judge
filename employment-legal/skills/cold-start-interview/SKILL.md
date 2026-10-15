@@ -19,41 +19,27 @@ Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_
 
 <!-- Modified by Judge FR/UE for PILOTE-002 (2026-10-15): candidate setup branch. -->
 
-## D'abord : chemin court revue d'embauche France
+## D'abord : choisir le parcours
+
+<!-- Modified by Judge FR/UE for PILOTE-004 (2026-10-15): terminal candidate branch. -->
 
 Si la personne vient comprendre une offre ou un contrat reçu, est candidat ou
-salarié, ou demande la configuration du pilote, suivre cette branche **avant**
-l'entretien professionnel hérité ci-dessous. Si le besoin n'est pas encore
-connu, demander simplement ce qu'elle veut comprendre ou faire. Ce chemin
-applique USAGE-001 `1.0.0` et ne valide pas les autres tâches du plugin.
+salarié, ou demande la configuration du pilote, suivre **uniquement** le
+[parcours candidat et préférences](../../references/candidate-preferences.md),
+y compris avec `--redo`, `--check-integrations`, un profil US ou des placeholders.
+Reprendre les faits déjà donnés ; demander une ou deux précisions utiles à la
+revue à la fois, sans imposer ces questions pour une simple préférence de format.
+Ce chemin applique USAGE-001 `1.0.0` et ne valide pas les autres tâches.
 
-1. Par le helper de stockage, lire seulement le profil du fork s'il existe.
-   Sans profil, commencer un entretien neuf ; aucun cache ni profil société
-   requis. Préserver les réponses existantes et les champs hors de la demande.
-2. Reprendre les faits déjà donnés, puis demander une ou deux précisions utiles
-   à la fois : rôle/besoin, lieux effectifs et habituels de travail, dates,
-   privé/public, type de contrat, fonctions réelles. Les champs de la section
-   PILOTE-002 du modèle sont facultatifs ; « inconnu » reste inconnu. Une
-   convention/IDCC annoncée n'est pas une qualification collective vérifiée.
-3. Ne demander ni handbook, ni trois mémos de rupture, ni modèle d'offre maison,
-   ni régime de congés ou paie. Ne pas remplir de règles d'essai, minimum,
-   non-concurrence ou forfait par défaut. Aucun at-will, exempt ou barème US.
-   Ne pas déduire une limitation d'accès du seul répertoire courant ; annoncer
-   uniquement les accès effectivement observés et le moyen de fournir l'extrait.
-4. Une revue peut continuer avec ces faits en conversation, sans sauvegarde.
-   Si la personne veut mémoriser ses préférences, montrer les seuls champs
-   utiles et le chemin du profil. Écrire par le helper (création exclusive ou
-   remplacement avec empreinte relue), sans profil société ni documents privés
-   copiés dans le paquet. Les inconnues restent visibles ; dossiers désactivés
-   par défaut, aucun registre/suivi créé. Un profil minimal n'est complet que
-   pour ce parcours ; ne pas annoncer les autres commandes prêtes.
-5. Revenir à `/judge-fr-eu-employment-legal:hiring-review` pour la revue. Pour
-   `--check-integrations`, ne tester que les capacités demandées ; aucun envoi
-   de pièce. Un connecteur déclaré sans appel réussi reste « non testé ».
+**Fin de branche candidat :** après le bilan de mémorisation ou le choix sans
+sauvegarde, revenir à `/judge-fr-eu-employment-legal:hiring-review` si une revue
+est demandée, puis arrêter ce setup. Ne pas exécuter les instructions suivantes,
+y compris « After writing » et « Judge FR/UE setup boundary ».
 
-Pour une configuration professionnelle d'un autre parcours, les étapes héritées
-suivent. Elles ne constituent pas une adaptation France/UE de ces workflows.
-Ne jamais utiliser leurs exemples américains comme valeurs légales françaises.
+Si le besoin est inconnu, demander ce que la personne souhaite faire avant
+de choisir. La suite est réservée à une configuration professionnelle d'un
+autre parcours expressément demandée ; elle n'est pas adaptée à la France/UE.
+Ne jamais utiliser ses exemples américains comme valeurs légales françaises.
 
 1. Check `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`. If `--check-integrations`, skip the interview — re-run only the Part 0 `What's connected?` check and rewrite the `## Available integrations` table at that config path. When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 2. Run the interview below (Part 0 first — role + integrations — then footprint): states/countries, hiring/term review triggers, severance practice.

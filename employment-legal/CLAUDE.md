@@ -10,17 +10,17 @@ User-specific configuration for this plugin lives at a version-independent path 
 Rules for every skill, command, and agent in this plugin:
 First load `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`; use its guarded storage helper for all durable data access.
 1. READ configuration from that path. Not from this file.
-2. For inherited skills, if that file does not exist or still contains [PLACEHOLDER] markers, require fresh setup before substantive work; do not use placeholder/default legal rules. Exception PILOTE-002: hiring-review qualifies the candidate's facts through a short interview in the conversation and can explain supplied pieces without a persistent profile. cold-start-interview also runs without setup, including --check-integrations.
+2. For inherited skills, if that file does not exist or still contains [PLACEHOLDER] markers, require fresh setup before substantive work; do not use placeholder/default legal rules. Exception PILOTE-002/PILOTE-004: hiring-review and the candidate branches of cold-start-interview/customize use the packaged references/candidate-preferences.md contract. A missing profile (helper status interview-required) or professional placeholders require only useful questions in conversation, never professional setup or mandatory saving. cold-start-interview also runs without setup, including --check-integrations.
 3. Setup and cold-start-interview WRITE to that path, creating parent directories as needed.
 4. If the fork profile is missing, start a fresh interview from confirmed answers. Never search a cache or another distribution for a profile. Preserve existing fork answers; no automatic import.
 5. This file (the one you are reading) is the TEMPLATE. It ships with the plugin and shows the
    structure the config should have. It is replaced on every plugin update. Never write user data here.
 
-**Shared company profile.** Company-level facts (who you are, what you do, where you operate, your risk posture, key people) live in `~/.claude/plugins/config/judge-fr-eu/company-profile.md` — one level above this file, shared by all 12 plugins. Read it before this plugin's practice profile. If it doesn't exist, this plugin's setup will create it.
+**Shared company profile — professional branches only.** Company-level facts (who you are, what you do, where you operate, your risk posture, key people) live in `~/.claude/plugins/config/judge-fr-eu/company-profile.md` — one level above this file, shared by all 12 plugins. Read it before this plugin's practice profile. If it doesn't exist, this plugin's professional setup will create it. Exception PILOTE-004: candidate review/preferences neither read nor create this shared profile.
 -->
 
 # Employment Law Practice Profile
-*Written by cold-start on [DATE]. If `[PLACEHOLDER]`, run `/judge-fr-eu-employment-legal:cold-start-interview`.*
+*Professional template written by cold-start on [DATE]. For inherited professional tasks, if `[PLACEHOLDER]`, run `/judge-fr-eu-employment-legal:cold-start-interview`. Candidate review/preferences can continue in conversation.*
 
 <!-- Modified by Judge FR/UE for PILOTE-002 (2026-10-15): hiring-only profile contract. -->
 
@@ -35,7 +35,8 @@ Pour `hiring-review` et son chemin court de configuration, cette section
 précise les exceptions aux consignes héritées plus bas (Outputs, Shared
 guardrails, Jurisdiction recognition, création de journaux et profil société) :
 
-- Profil et société facultatifs pour lire l'offre ; aucun champ employeur,
+- Profil facultatif pour lire l'offre ; aucun accès au profil société pour
+  la lecture ou une préférence candidat ; aucun champ employeur,
   handbook ou mémo de rupture exigé d'un candidat. Sans profil, entretien
   factuel dans la conversation ; aucune écriture persistante par défaut.
 - Charger les références locales `hiring-review-fr.md` et la méthode BASE-005
@@ -57,6 +58,19 @@ guardrails, Jurisdiction recognition, création de journaux et profil société)
   pour compléter le pilote. La configuration ne rend pas ces tâches adaptées.
 
 ### Faits et préférences de revue d'embauche
+
+<!-- Modified by Judge FR/UE for PILOTE-004 (2026-10-15): minimal candidate persistence. -->
+
+Pour créer ou modifier une préférence candidat, suivre le
+[contrat candidat embarqué](references/candidate-preferences.md). Un profil neuf
+contient seulement la préférence dont la conservation est demandée, sous cette
+section ; ne pas recopier ce modèle professionnel entier. Les autres réponses
+restent dans la conversation sauf demande de conservation. Pour un profil
+existant, modifier le seul champ demandé avec empreinte relue, en préservant
+notamment la langue si seul le format change et les rubriques US hors demande.
+Ces rubriques restent des données conservées, jamais des règles françaises.
+Les branches candidat se terminent après le bilan et le retour éventuel à la
+revue : aucune poursuite vers les rubriques professionnelles ci-dessous.
 
 Champs facultatifs, remplis seulement avec réponses confirmées ; écrire
 « inconnu » si une donnée manque, « non applicable » si elle ne concerne pas

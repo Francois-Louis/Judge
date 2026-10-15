@@ -49,3 +49,14 @@ remain pending. No legal privilege is claimed by a document label.
   skills/hiring-review/SKILL.md
   skills/cold-start-interview/SKILL.md (candidate branch only)
   skills/customize/SKILL.md (hiring configuration only)
+
+PILOTE-004 changes (2026-10-15): terminal candidate preference branches,
+minimal voluntary persistence, preservation of existing answers and return
+to hiring review. No substantive legal rule added; storage helper and
+BASE-005 method unchanged. Client and participant validation pending.
+  references/candidate-preferences.md (new)
+  CLAUDE.md
+  README.md
+  skills/cold-start-interview/SKILL.md
+  skills/customize/SKILL.md
+  skills/hiring-review/SKILL.md

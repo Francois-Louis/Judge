@@ -1,6 +1,8 @@
 ---
 name: customize
 description: >
+  Modifier une préférence de lecture candidat, même sans profil ou avec un
+  profil partiel, sans entretien professionnel ni sauvegarde obligatoire.
   Guided customization of your employment practice profile — change one thing
   without re-running the whole cold-start interview. Adjust jurisdictional
   footprint, risk posture, escalation contacts, hiring review rules,
@@ -20,25 +22,26 @@ Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_
 
 ## Champs du pilote revue d'embauche France
 
+<!-- Modified by Judge FR/UE for PILOTE-004 (2026-10-15): terminal preference edit. -->
+
 Pour un candidat/salarié ou une modification de `hiring-review`, appliquer
-cette branche avant le parcours professionnel hérité : lire seulement le
-profil du fork via le helper. Le profil société n'est pas requis. L'absence
-de profil ou les champs professionnels non renseignés ne bloquent pas la
-lecture du contrat : proposer le chemin court de `cold-start-interview` si
-la personne veut conserver ses préférences, ou poursuivre en conversation.
+**uniquement** le [parcours candidat et préférences](../../references/candidate-preferences.md).
+Il couvre directement le profil absent, partiel, US ou contenant des placeholders ;
+ne pas renvoyer à un entretien complet avant de modifier une préférence.
+Modifier le seul champ demandé, préserver les autres réponses et reprendre la
+revue avec les faits déjà donnés. Ni APE ni titre de poste ne détermine une CCN ;
+ni « cadre » ni salaire ne détermine un forfait. Une modification de lieu peut
+nécessiter une orientation hors du cas nominal, sans règle US par défaut.
 
-Afficher uniquement les champs utiles de la section PILOTE-002 : rôle/besoin,
-format, lieux/dates, contrat, fonctions, textes collectifs mentionnés et
-interlocuteur. Modifier le champ demandé sur les faits confirmés, préserver
-le reste et écrire via le helper avec l'empreinte relue. Ni APE ni titre de
-poste ne détermine une CCN ; ni « cadre » ni salaire ne détermine un forfait.
-Une règle annoncée dans le profil reste à vérifier selon la méthode locale.
-Ne pas introduire at-will, exempt, barème ou en-tête américain, ni politique
-maison obligatoire. Une modification de lieu peut nécessiter une orientation
-hors du cas nominal. Aucun changement ne rend les autres skills adaptés.
-Ne pas créer de profil société, de registre ou de suivi pour cette modification.
+**Fin de branche candidat :** annoncer le résultat et l'emplacement (ou l'absence
+de sauvegarde), revenir à `/judge-fr-eu-employment-legal:hiring-review` si demandé,
+puis arrêter cette personnalisation. Ne pas exécuter la carte professionnelle,
+la lecture du profil société, le contrôle de placeholders ou les guardrails
+hérités ci-dessous. Aucun changement ne rend les autres skills adaptés.
 
-Les instructions suivantes concernent les autres parcours, hérités et non adaptés.
+Si le besoin est inconnu, le préciser avant de choisir la branche. La suite
+concerne seulement un autre parcours professionnel expressément demandé,
+hérité et non adapté à la France/UE.
 
 ## When this runs
 
