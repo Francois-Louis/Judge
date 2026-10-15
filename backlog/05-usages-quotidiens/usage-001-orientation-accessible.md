@@ -1,7 +1,7 @@
 ---
 id: USAGE-001
 titre: "Définir une orientation accessible à partir d'un problème concret"
-statut: proposee
+statut: terminee
 priorite: P0
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -41,12 +41,12 @@ de restitution ; elle ne crée pas un plugin généraliste France/UE.
 
 ## Critères d'acceptation
 
-- [ ] Les situations de la matrice ont un domaine principal identifiable et des frontières explicites.
-- [ ] Des mots ordinaires suffisent à commencer ; le nom du code ou de la procédure n'est pas une entrée obligatoire.
-- [ ] Les sorties expliquent les options et leur utilité sans jargon non expliqué.
-- [ ] La collecte et la diffusion de pièces sont limitées au besoin ; aucun envoi n'est fait sans autorisation adaptée.
-- [ ] Un conflit n'est pas qualifié d'abus du seul fait que l'utilisateur le conteste ; la demande et les obligations des deux parties sont examinées.
-- [ ] Les règles d'orientation restent séparées des raisonnements métier et ne dupliquent pas tous les domaines.
+- [x] Les situations de la matrice ont un domaine principal identifiable et des frontières explicites.
+- [x] Des mots ordinaires suffisent à commencer ; le nom du code ou de la procédure n'est pas une entrée obligatoire.
+- [x] Les sorties expliquent les options et leur utilité sans jargon non expliqué.
+- [x] La collecte et la diffusion de pièces sont limitées au besoin ; aucun envoi n'est fait sans autorisation adaptée.
+- [x] Un conflit n'est pas qualifié d'abus du seul fait que l'utilisateur le conteste ; la demande et les obligations des deux parties sont examinées.
+- [x] Les règles d'orientation restent séparées des raisonnements métier et ne dupliquent pas tous les domaines.
 
 ## Vérification
 
@@ -60,3 +60,32 @@ pas un seuil juridique.
 
 Construire une application, créer un assistant juridique universel ou résoudre
 toutes les demandes de la matrice dans cette story.
+
+## Bilan d'exécution — 15 octobre 2026
+
+- Support retenu : [protocole documentaire](usage-001-protocole-orientation.md)
+  dans le backlog et [index des 42 situations](../usages-quotidiens.md) enrichi
+  avec domaine principal et frontière. La correspondance vers les plugins
+  reste celle de BASE-003 ; les noms proposés ne deviennent pas disponibles.
+- Le protocole définit l'accueil progressif sans profil de cabinet, le domaine
+  principal par tâche, les compléments bornés, les six formes de restitution,
+  les besoins d'accessibilité et les limites de collecte, stockage et envoi.
+  Il demande d'examiner les engagements des deux parties et la provenance des
+  faits, sans présumer un abus ni une issue favorable.
+- [Relecture sur cas fictifs](usage-001-verification.md) : les trois récits
+  demandés et leurs variantes distinguent facture, dette, décision et travaux.
+  Le cas achat/paiement sépare vendeur et prestataire de paiement ; les limites
+  aidant, retraite, agriculture, statut public, langue et manque de pièces
+  sont explicitées. Chaque sortie rend identifiables action, interlocuteur et
+  incertitude ; aucune transmission n'est effectuée.
+- Contrôles structurels : couverture des 42 lignes et des 38 domaines DOM,
+  cohérence avec BASE-003, liens locaux, tableaux Markdown, statuts et espaces
+  de fin de ligne vérifiés. Le résultat technique détaillé figure dans le
+  relevé de vérification.
+- Limites : cadrage relu sur papier, sans utilisateur réel, moteur de routage,
+  exécution de skill ni installation isolée. Aucune règle métier ou source
+  juridique nouvelle n'est validée. BASE-005 reste la méthode applicable aux
+  futures analyses ; BASE-006 encadre leur recette. Le protocole définit le
+  contrôle de compréhension à réaliser avec les utilisateurs des futurs lots.
+- Suite : USAGE-002 compare et priorise les petites tâches ; aucun second
+  pilote ni changement de priorité n'est déclenché par cette story.

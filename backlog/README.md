@@ -1,8 +1,8 @@
 # Backlog — adaptation juridique France / Union européenne
 
 Ce dossier organise le travail à venir. Le backlog contient 81 stories :
-BASE-001 à BASE-007, BASE-009, BASE-010 et PILOTE-001 sont `terminee`,
-BASE-008 est `en-cours` ; les 70 autres sont `proposee`.
+BASE-001 à BASE-007, BASE-009, BASE-010, PILOTE-001, USAGE-001 et USAGE-002 sont `terminee`,
+BASE-008 est `en-cours` ; les 68 autres sont `proposee`.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
 fait le bilan de l'epic 00 et de ses points ouverts.
 Le [relevé BASE-001](00-fondations/base-001-releve-audit.md) consigne l'audit du
@@ -25,6 +25,22 @@ La [matrice des situations du quotidien](usages-quotidiens.md) donne une entrée
 par problème rencontré : facture, bail, devis, héritage, décision d'une caisse,
 contrat, activité agricole, scolarité, compte en ligne, etc. Elle couvre aussi
 les aidants, indépendants, artisans, petites associations et petits exploitants.
+
+[USAGE-001](05-usages-quotidiens/usage-001-orientation-accessible.md) a défini le
+[protocole documentaire d'orientation](05-usages-quotidiens/usage-001-protocole-orientation.md)
+et enrichi les 42 situations avec leur domaine principal et leurs frontières.
+Sa [vérification sur récits fictifs](05-usages-quotidiens/usage-001-verification.md)
+ne vaut ni essai utilisateur réel, ni exécution de skill. Ce cadrage précise
+les sorties attendues, sans créer de commande ou adapter un domaine métier.
+
+[USAGE-002](05-usages-quotidiens/usage-002-priorites-utilite.md) a comparé
+[cinq tâches bornées](05-usages-quotidiens/usage-002-comparaison-priorites.md)
+et proposé l'ordre contrat reçu par un candidat, justificatifs d'une facture
+ciblée, pièces du notaire, retenue sur dépôt, devis. La
+[relecture avec trois profils fictifs](05-usages-quotidiens/usage-002-verification.md)
+explicite bénéfices et obstacles, sans essai utilisateur réel. Le premier lot
+reste PILOTE-002 proposé, avec ses exclusions ; le classement est une hypothèse,
+sans choix du pilote arrêté ni lancement de développement ou de second pilote.
 
 Il n'y a pas de plugin généraliste `france-eu-legal` prévu. Les références métier
 restent dans leur domaine. Seule une méthode transverse limitée (recherche,
@@ -95,8 +111,8 @@ des stocks reste à réaliser. L'accès PISTE refusé à l'utilisateur n'est pas
 1. BASE-001 : audit local du fork. BASE-003 : architecture par domaines.
 2. BASE-002 : choix du lien GitHub, sur une piste séparée du travail juridique.
 3. BASE-004 à BASE-006 : identité/configurations, méthode de sources et contrôles.
-4. USAGE-001 et USAGE-002 : définir l'orientation accessible et comparer de petites
-   tâches selon leur utilité concrète. Confirmer ou réviser le pilote proposé.
+4. USAGE-001 et USAGE-002 ont défini l'orientation accessible et comparé cinq
+   petites tâches. Le maintien du pilote travail est proposé ; son choix reste à arrêter.
 5. Si le pilote travail est retenu, PILOTE-001 inventorie ce plugin et PILOTE-002
    adapte un seul skill, la revue d'un contrat reçu par un candidat.
 6. PILOTE-003 : vérifier ce résultat et ajuster la méthode avant de généraliser.

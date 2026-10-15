@@ -6,6 +6,28 @@ No affiliation or endorsement by Anthropic is claimed.
 Technical identity and storage changes do not certify France/EU legal adaptation.
 No upstream NOTICE was present in the source snapshot.
 
+USAGE-002 changes (2026-10-15): comparison of five bounded everyday tasks,
+proposed first-lot scope and fictional review across three user profiles.
+The employment pilot remains proposed; no runtime skill was changed or started.
+  backlog/05-usages-quotidiens/usage-002-priorites-utilite.md
+  backlog/05-usages-quotidiens/usage-002-comparaison-priorites.md
+  backlog/05-usages-quotidiens/usage-002-verification.md
+  backlog/01-pilote-travail/pilote-002-revue-embauche.md
+  backlog/usages-quotidiens.md
+  backlog/README.md
+  NOTICE
+
+USAGE-001 changes (2026-10-15): documentary orientation protocol, explicit
+domain boundaries for everyday situations, and fictional scenario review.
+No runtime skill or legal domain was implemented by this framing story.
+  backlog/05-usages-quotidiens/usage-001-orientation-accessible.md
+  backlog/05-usages-quotidiens/usage-001-protocole-orientation.md
+  backlog/05-usages-quotidiens/usage-001-verification.md
+  backlog/usages-quotidiens.md
+  backlog/00-fondations/base-003-dossier-architecture.md
+  backlog/README.md
+  NOTICE
+
 BASE-008 files added or modified, relative to the pre-story worktree:
   .claude-plugin/marketplace.json
   .gitignore

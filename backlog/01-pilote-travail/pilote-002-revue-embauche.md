@@ -17,11 +17,17 @@ Livrer une première adaptation verticale et relisible de `employment-legal:hiri
 
 - [Inventaire et dépendances PILOTE-001](pilote-001-releve-inventaire.md).
 - [Sections à reprendre et scénarios de contrôle](pilote-001-plan-hiring-review.md).
+- [Comparaison USAGE-002 et premier lot proposé](../05-usages-quotidiens/usage-002-comparaison-priorites.md).
 
 - [employment-legal/skills/hiring-review/SKILL.md](../../employment-legal/skills/hiring-review/SKILL.md)
 - [employment-legal/CLAUDE.md](../../employment-legal/CLAUDE.md)
 - [employment-legal/README.md](../../employment-legal/README.md)
 - [employment-legal/.claude-plugin/plugin.json](../../employment-legal/.claude-plugin/plugin.json)
+
+USAGE-002 propose de conserver ce pilote ; son choix reste à arrêter. Ce
+classement n'engage pas l'implémentation. Le cas nominal, le CDD en vérification
+spécifique et les exclusions restent ceux du plan PILOTE-001 ; les dépendances
+de cette story et le bilan PILOTE-003 sont conservés.
 
 ## Travail attendu
 
@@ -47,4 +53,3 @@ Rejouer sur pièces fictives : CDI simple, CDD nécessitant une vérification sp
 ## Hors périmètre
 
 Licenciement, paie complète, congés, enquête interne, droit de la fonction publique ou adaptation du plugin entier.
-

@@ -23,7 +23,9 @@ utilise le récit, le document, la qualité des parties et l'objectif. Elle
 retourne un domaine principal, les seules questions complémentaires utiles et
 la disponibilité réelle de la tâche. Elle garde un index de routage, sans
 héberger les raisonnements, corpus, modèles de recours ou délais des domaines.
-Son support reste à cadrer dans USAGE-001 ; aucun plugin d'orientation n'est créé.
+Son support est le [protocole documentaire USAGE-001](../05-usages-quotidiens/usage-001-protocole-orientation.md)
+et l'index enrichi des situations du quotidien ; aucun plugin d'orientation
+n'est créé. Ce cadrage n'ajoute pas de point d'entrée exécutable.
 
 ## Inventaire existant et adaptations
 
