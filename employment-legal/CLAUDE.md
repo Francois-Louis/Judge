@@ -10,7 +10,7 @@ User-specific configuration for this plugin lives at a version-independent path 
 Rules for every skill, command, and agent in this plugin:
 First load `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`; use its guarded storage helper for all durable data access.
 1. READ configuration from that path. Not from this file.
-2. If that file does not exist or still contains [PLACEHOLDER] markers, STOP before doing substantive work. Say: "This plugin needs setup before it can give you useful output. Run /judge-fr-eu-employment-legal:cold-start-interview — it takes about 10-15 minutes and every command in this plugin depends on it. Without it, outputs will be generic and may not match how your practice actually works." Do NOT proceed with placeholder or default configuration. The only skills that run without setup are /judge-fr-eu-employment-legal:cold-start-interview itself and any --check-integrations flag.
+2. For inherited skills, if that file does not exist or still contains [PLACEHOLDER] markers, require fresh setup before substantive work; do not use placeholder/default legal rules. Exception PILOTE-002: hiring-review qualifies the candidate's facts through a short interview in the conversation and can explain supplied pieces without a persistent profile. cold-start-interview also runs without setup, including --check-integrations.
 3. Setup and cold-start-interview WRITE to that path, creating parent directories as needed.
 4. If the fork profile is missing, start a fresh interview from confirmed answers. Never search a cache or another distribution for a profile. Preserve existing fork answers; no automatic import.
 5. This file (the one you are reading) is the TEMPLATE. It ships with the plugin and shows the
@@ -21,6 +21,61 @@ First load `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`; use its guarded stor
 
 # Employment Law Practice Profile
 *Written by cold-start on [DATE]. If `[PLACEHOLDER]`, run `/judge-fr-eu-employment-legal:cold-start-interview`.*
+
+<!-- Modified by Judge FR/UE for PILOTE-002 (2026-10-15): hiring-only profile contract. -->
+
+## Périmètre PILOTE-002 — priorité pour hiring-review uniquement
+
+Seul `hiring-review` dispose d'un parcours adapté à l'embauche salariée privée
+en France : CDI métropolitain et vérifications ciblées CDD. La validation
+d'exécution dans un client isolé et la compréhension par un participant réel
+restent à effectuer. Les autres tâches ci-dessous sont héritées et non adaptées.
+
+Pour `hiring-review` et son chemin court de configuration, cette section
+précise les exceptions aux consignes héritées plus bas (Outputs, Shared
+guardrails, Jurisdiction recognition, création de journaux et profil société) :
+
+- Profil et société facultatifs pour lire l'offre ; aucun champ employeur,
+  handbook ou mémo de rupture exigé d'un candidat. Sans profil, entretien
+  factuel dans la conversation ; aucune écriture persistante par défaut.
+- Charger les références locales `hiring-review-fr.md` et la méthode BASE-005
+  `1.0.0` dans le dossier references du paquet. Recherche officielle à chaque
+  dossier ; ne pas appliquer de règle mémorisée même étiquetée « verify ».
+  Essayer une autre voie officielle après un échec d'accès, sans nouvelle
+  permission de lecture. Réserver la seule conclusion non vérifiable.
+- Restitution selon USAGE-001 `1.0.0` : langage courant, engagements des deux
+  parties, tableau clause/source/conséquence/proposition ou texte accessible,
+  faits manquants courts, prochaine démarche et interlocuteur concret.
+- En-tête « Note de lecture — document/date ». Aucun marquage américain ou
+  garantie de secret/protection, aucun brief d'avocat ni arbre imposé. La simple
+  explication et un brouillon ne sont pas conditionnés à une consultation.
+- Aucun envoi, acceptation, signature, registre, suivi ou journal automatique.
+  Toute conservation volontaire respecte le helper de stockage et le dossier
+  actif. Ne pas utiliser les autres dossiers ni les profils d'une autre distribution.
+- Public, spécial, outre-mer ou transfrontalier : qualifier/orienter ; aucune
+  analyse américaine « comme point de départ », aucun appel aux skills hérités
+  pour compléter le pilote. La configuration ne rend pas ces tâches adaptées.
+
+### Faits et préférences de revue d'embauche
+
+Champs facultatifs, remplis seulement avec réponses confirmées ; écrire
+« inconnu » si une donnée manque, « non applicable » si elle ne concerne pas
+la personne. Ils ne sont pas des règles de droit prévalidées.
+
+| Champ | Valeur à renseigner si utile |
+|---|---|
+| Rôle / besoin | candidat, salarié, aidant, employeur ou professionnel ; explication/revue/questions |
+| Format / langue | texte court, tableau, liste ; langue souhaitée |
+| Statut de l'emploi | privé/public/à déterminer ; type de contrat et temps prévu |
+| Employeur / activité réelle | faits confirmés ; sans identité complète inutile |
+| Travail / territoires / dates | lieux habituel/effectifs, télétravail, date de réponse et de début ; provenance |
+| Fonctions / classification | tâches réelles, autonomie, catégorie, coefficient ; source |
+| Textes collectifs | convention mentionnée, IDCC, champ à confirmer, accords et versions utiles |
+| Rémunération / essai / clauses | passages fournis et annexes manquantes ; aucune valeur légale par défaut |
+| Interlocuteur | recruteur/RH ou professionnel choisi ; coordonnées seulement si utiles et vérifiées |
+
+Les modèles professionnels qui suivent sont conservés pour les parcours
+hérités ; ne pas les remplir pour compléter artificiellement ce tableau.
 
 ---
 
@@ -320,11 +375,12 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 ## Hiring review
 
-**When legal reviews hires:** [PLACEHOLDER — all offers / exec only / only with restrictive covenants]
-
-**Offer letter template:** [PLACEHOLDER — location]
-**Restrictive covenant policy:** [PLACEHOLDER — non-competes Y/N by jurisdiction, non-solicits, etc.]
-**Background check policy:** [PLACEHOLDER]
+Voir « Périmètre PILOTE-002 » et ses faits facultatifs. Pour un professionnel,
+ajouter seulement les préférences confirmées de revue et les modèles fournis.
+Une politique d'employeur ne prime pas les règles vérifiées ; aucun modèle
+entreprise n'est requis du candidat. APE, intitulé, catégorie cadre et forfait
+ne sont pas des équivalences juridiques. Les règles françaises et textes
+collectifs restent à rechercher pour chaque dossier.
 
 ---
 

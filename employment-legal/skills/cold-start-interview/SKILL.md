@@ -1,7 +1,9 @@
 ---
 name: cold-start-interview
 description: >
-  Cold-start setup — learns your jurisdictional footprint and escalation rules
+  Configuration courte candidat/salarié pour la revue d'embauche en France,
+  sans profil entreprise obligatoire. Pour les autres parcours hérités :
+  cold-start setup — learns your jurisdictional footprint and escalation rules
   from your handbook and termination memos. Asks which states and countries
   have employees, reads seed documents, and builds a jurisdiction-aware
   escalation table. Use on fresh install, when CLAUDE.md still has
@@ -14,6 +16,44 @@ argument-hint: "[--redo | --check-integrations]"
 Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
 
 # /cold-start-interview
+
+<!-- Modified by Judge FR/UE for PILOTE-002 (2026-10-15): candidate setup branch. -->
+
+## D'abord : chemin court revue d'embauche France
+
+Si la personne vient comprendre une offre ou un contrat reçu, est candidat ou
+salarié, ou demande la configuration du pilote, suivre cette branche **avant**
+l'entretien professionnel hérité ci-dessous. Si le besoin n'est pas encore
+connu, demander simplement ce qu'elle veut comprendre ou faire. Ce chemin
+applique USAGE-001 `1.0.0` et ne valide pas les autres tâches du plugin.
+
+1. Par le helper de stockage, lire seulement le profil du fork s'il existe.
+   Sans profil, commencer un entretien neuf ; aucun cache ni profil société
+   requis. Préserver les réponses existantes et les champs hors de la demande.
+2. Reprendre les faits déjà donnés, puis demander une ou deux précisions utiles
+   à la fois : rôle/besoin, lieux effectifs et habituels de travail, dates,
+   privé/public, type de contrat, fonctions réelles. Les champs de la section
+   PILOTE-002 du modèle sont facultatifs ; « inconnu » reste inconnu. Une
+   convention/IDCC annoncée n'est pas une qualification collective vérifiée.
+3. Ne demander ni handbook, ni trois mémos de rupture, ni modèle d'offre maison,
+   ni régime de congés ou paie. Ne pas remplir de règles d'essai, minimum,
+   non-concurrence ou forfait par défaut. Aucun at-will, exempt ou barème US.
+   Ne pas déduire une limitation d'accès du seul répertoire courant ; annoncer
+   uniquement les accès effectivement observés et le moyen de fournir l'extrait.
+4. Une revue peut continuer avec ces faits en conversation, sans sauvegarde.
+   Si la personne veut mémoriser ses préférences, montrer les seuls champs
+   utiles et le chemin du profil. Écrire par le helper (création exclusive ou
+   remplacement avec empreinte relue), sans profil société ni documents privés
+   copiés dans le paquet. Les inconnues restent visibles ; dossiers désactivés
+   par défaut, aucun registre/suivi créé. Un profil minimal n'est complet que
+   pour ce parcours ; ne pas annoncer les autres commandes prêtes.
+5. Revenir à `/judge-fr-eu-employment-legal:hiring-review` pour la revue. Pour
+   `--check-integrations`, ne tester que les capacités demandées ; aucun envoi
+   de pièce. Un connecteur déclaré sans appel réussi reste « non testé ».
+
+Pour une configuration professionnelle d'un autre parcours, les étapes héritées
+suivent. Elles ne constituent pas une adaptation France/UE de ces workflows.
+Ne jamais utiliser leurs exemples américains comme valeurs légales françaises.
 
 1. Check `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`. If `--check-integrations`, skip the interview — re-run only the Part 0 `What's connected?` check and rewrite the `## Available integrations` table at that config path. When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 2. Run the interview below (Part 0 first — role + integrations — then footprint): states/countries, hiring/term review triggers, severance practice.
@@ -67,7 +107,12 @@ Open with the fork-first preamble. Keep it to 3-4 short lines. Ask quick-or-full
 >
 > Quick or full? (Upgrade any time with `/cold-start-interview --full`.)
 
-**Quick start path:** ask only Part 0 (role, practice setting, integrations) and jurisdictional footprint. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for termination risk thresholds, severance posture, and handbook policies. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/judge-fr-eu-employment-legal:cold-start-interview --full` anytime to do the whole interview, or `/judge-fr-eu-employment-legal:cold-start-interview --redo <section>` to re-do one part."
+**Quick start professionnel hérité :** ne renseigner que les réponses confirmées
+de la partie 0 et les lieux concernés. Laisser explicitement inconnus les
+champs sans réponse ; aucun défaut juridique américain. Annoncer les limites
+de configuration et l'absence d'adaptation des autres tâches, sans promettre
+que toutes les commandes sont utilisables. Pour la revue d'embauche française,
+utiliser le chemin court candidat ci-dessus.
 
 **Full setup path:** the existing interview flow below. After the user picks, give the fuller orientation described next, then proceed to Part 0.
 

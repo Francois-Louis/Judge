@@ -2,7 +2,8 @@
 
 Ce dossier organise le travail à venir. Le backlog contient 82 stories :
 BASE-001 à BASE-007, BASE-009, BASE-010, PILOTE-001 et USAGE-001 à USAGE-003 sont `terminee`,
-BASE-008 est `en-cours` ; les 68 autres sont `proposee`.
+BASE-008 est `en-cours`, PILOTE-002 est `a-verifier` ;
+les 67 autres sont `proposee`.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
 fait le bilan de l'epic 00 et de ses points ouverts.
 Le [relevé BASE-001](00-fondations/base-001-releve-audit.md) consigne l'audit du
@@ -39,8 +40,9 @@ et proposé l'ordre contrat reçu par un candidat, justificatifs d'une facture
 ciblée, pièces du notaire, retenue sur dépôt, devis. La
 [relecture avec trois profils fictifs](05-usages-quotidiens/usage-002-verification.md)
 explicite bénéfices et obstacles, sans essai utilisateur réel. Le premier lot
-reste PILOTE-002 proposé, avec ses exclusions ; le classement est une hypothèse,
-sans choix du pilote arrêté ni lancement de développement ou de second pilote.
+est PILOTE-002, retenu par la demande d'implémentation du 15 octobre 2026,
+avec ses exclusions. Le classement reste une hypothèse ; aucun second pilote
+n'est lancé.
 Le critère déterminant de ce rang est la capacité à vérifier un premier lot,
 non une utilité supérieure : la relecture montre un bénéfice direct limité de
 cette tâche pour un retraité ou un petit exploitant.
@@ -76,8 +78,8 @@ incertitudes et les informations minimales d'un délai. Son
 [compte rendu de vérification](00-fondations/base-005-verification-methode.md)
 distingue les scénarios fictifs des accès officiels réellement effectués.
 BASE-008 en a embarqué une copie identique dans les 12 plugins internes,
-sous `references/shared/`. Aucun skill ne la charge encore : ce chargement
-fera partie de l'adaptation de chaque skill.
+sous `references/shared/`. `hiring-review` charge désormais sa copie locale
+dans PILOTE-002 ; le chargement des autres skills reste à adapter.
 
 La [recette BASE-006](../references/package-validation.md) définit les contrôles
 du skill puis du plugin, l'installation isolée, les scénarios juridiques et
@@ -110,6 +112,8 @@ l'[inventaire des 20 skills](01-pilote-travail/pilote-001-releve-inventaire.md),
 le [plan hiring-review](01-pilote-travail/pilote-001-plan-hiring-review.md) et
 16 [stories de suite](01-pilote-travail/pilote-001-decoupage-travail.md), encore
 proposées et dépendantes du bilan PILOTE-003. Aucun skill n'est adapté par cet audit.
+PILOTE-002 a depuis réécrit `hiring-review`, version de plugin `0.2.0`. Sa recette, objet de
+PILOTE-003, reste ouverte : la story est `a-verifier`.
 La lecture des sources bloquées dans l'outil web dispose désormais de
 [voies officielles testées sans souscription API](../references/legal-source-access.md)
 (BASE-010) : CDTN, CELLAR et extractions XML ciblées DILA ; l'indexation complète
@@ -119,16 +123,16 @@ des stocks reste à réaliser. L'accès PISTE refusé à l'utilisateur n'est pas
 2. BASE-002 : choix du lien GitHub, sur une piste séparée du travail juridique.
 3. BASE-004 à BASE-006 : identité/configurations, méthode de sources et contrôles.
 4. USAGE-001 et USAGE-002 ont défini l'orientation accessible et comparé cinq
-   petites tâches. Le maintien du pilote travail est proposé ; son choix reste à arrêter.
-5. Si le pilote travail est retenu, PILOTE-001 inventorie ce plugin et PILOTE-002
-   adapte un seul skill, la revue d'un contrat reçu par un candidat.
+   petites tâches. Le pilote travail a été retenu lors de l'implémentation de PILOTE-002.
+5. PILOTE-001 a inventorié ce plugin ; PILOTE-002 a réécrit un seul skill,
+   la revue d'un contrat reçu par un candidat, avec une recette encore ouverte.
 6. PILOTE-003 : vérifier ce résultat et ajuster la méthode avant de généraliser.
 7. Choisir ensuite un autre skill ou un premier nouveau domaine, puis préparer
    une livraison correspondant seulement au périmètre terminé.
 
-Le choix du travail comme pilote, les priorités et les noms des futurs plugins
-sont des propositions de planification. Ils ne sont pas des décisions déjà prises
-par l'utilisateur. Les domaines P3 sont des extensions possibles à prioriser,
+Le choix du travail comme pilote est acté pour PILOTE-002. Les priorités des
+suites et les noms des futurs plugins restent des propositions de planification,
+sans choix d'extension par l'utilisateur. Les domaines P3 sont des extensions possibles à prioriser,
 pas une obligation de les développer.
 
 Les nouveaux cadrages séparent notamment agriculture, construction, successions,
@@ -218,7 +222,8 @@ besoin. Les exemples ci-dessus n'annoncent pas des fonctionnalités déjà prés
 Les suites du plugin travail sont détaillées dans le
 [découpage TRAV-001 à TRAV-016](01-pilote-travail/pilote-001-decoupage-travail.md).
 Chaque story a son fichier, ses dépendances et ses scénarios. Elles attendent
-PILOTE-003 ; PILOTE-002 reste la seule tranche d'embauche proposée avant ce bilan.
+la clôture de PILOTE-003 ; PILOTE-002 reste la seule tranche métier d'embauche
+réécrite.
 
 | Story | Résultat attendu | Nature | Priorité |
 |---|---|---|---|

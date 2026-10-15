@@ -5,7 +5,9 @@
 **Version technique 0.1.0.** Fork indépendant de Claude for Legal / Anthropic,
 maintenu sur [Francois-Louis/Judge](https://github.com/Francois-Louis/Judge),
 sans affiliation revendiquée. BASE-008 isole les noms, profils et données ;
-les tâches juridiques héritées restent à adapter à la France et à l'UE.
+le pilote `employment-legal:hiring-review` 0.2.0 est réécrit pour l'embauche
+privée en France, avec recette client et utilisateur à compléter ; les autres
+tâches juridiques héritées restent à adapter à la France et à l'UE.
 Voir le [démarrage du fork](QUICKSTART.md), les [preuves et limites de validation](references/base008-validation.md),
 la [licence](LICENSE) et les [fichiers modifiés](NOTICE).
 Les intégrations Cowork/Office et l'exécution distante décrites ci-dessous

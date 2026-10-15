@@ -37,3 +37,15 @@ Files added or modified for this package:
   skills/termination-review/SKILL.md
   skills/wage-hour-qa/SKILL.md
   skills/worker-classification/SKILL.md
+
+PILOTE-002 changes (2026-10-15): scoped French private-sector hiring review,
+candidate setup and plain-language outputs. Plugin version 0.2.0; inherited
+workflows remain unadapted. Isolated-client and real-participant validation
+remain pending. No legal privilege is claimed by a document label.
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  README.md
+  references/hiring-review-fr.md (new)
+  skills/hiring-review/SKILL.md
+  skills/cold-start-interview/SKILL.md (candidate branch only)
+  skills/customize/SKILL.md (hiring configuration only)

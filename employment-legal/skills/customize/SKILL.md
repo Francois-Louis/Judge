@@ -16,6 +16,30 @@ Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_
 
 # /customize
 
+<!-- Modified by Judge FR/UE for PILOTE-002 (2026-10-15): hiring-only configuration. -->
+
+## Champs du pilote revue d'embauche France
+
+Pour un candidat/salarié ou une modification de `hiring-review`, appliquer
+cette branche avant le parcours professionnel hérité : lire seulement le
+profil du fork via le helper. Le profil société n'est pas requis. L'absence
+de profil ou les champs professionnels non renseignés ne bloquent pas la
+lecture du contrat : proposer le chemin court de `cold-start-interview` si
+la personne veut conserver ses préférences, ou poursuivre en conversation.
+
+Afficher uniquement les champs utiles de la section PILOTE-002 : rôle/besoin,
+format, lieux/dates, contrat, fonctions, textes collectifs mentionnés et
+interlocuteur. Modifier le champ demandé sur les faits confirmés, préserver
+le reste et écrire via le helper avec l'empreinte relue. Ni APE ni titre de
+poste ne détermine une CCN ; ni « cadre » ni salaire ne détermine un forfait.
+Une règle annoncée dans le profil reste à vérifier selon la méthode locale.
+Ne pas introduire at-will, exempt, barème ou en-tête américain, ni politique
+maison obligatoire. Une modification de lieu peut nécessiter une orientation
+hors du cas nominal. Aucun changement ne rend les autres skills adaptés.
+Ne pas créer de profil société, de registre ou de suivi pour cette modification.
+
+Les instructions suivantes concernent les autres parcours, hérités et non adaptés.
+
 ## When this runs
 
 The user typed `/judge-fr-eu-employment-legal:customize`. They want to change something
@@ -48,8 +72,8 @@ interview and without hand-editing YAML.
      leave accommodation
    - **People** — HR partners, people team lead, outside counsel, escalation
      chain, investigation sponsor
-   - **Hiring review** — offer letter template, restrictive covenants
-     posture, background check vendor, standard at-will language
+   - **Hiring review** — utiliser la branche PILOTE-002 ci-dessus : faits,
+     textes collectifs mentionnés et préférences de restitution, sans règle US
    - **Termination review** — severance framework, release language, final
      pay timing rules per state, high-risk flags
    - **Handbook** — handbook file path, state supplements approach, review
@@ -71,8 +95,8 @@ interview and without hand-editing YAML.
    Examples:
    - *Adding Washington to the jurisdictional footprint:* "`/wage-hour-qa`
      and `/termination-review` will start applying WA rules. `/handbook-
-     updates` will prompt for a WA supplement. `/hiring-review` will now
-     flag non-compete attempts in WA (unenforceable)."
+     updates` will prompt for a WA supplement. La revue d'embauche française
+     orientera ce cas hors de son périmètre ; elle n'applique pas le droit de WA."
    - *Severance framework 2 weeks/year → 4 weeks/year:* "`/termination-
      review` will use the new baseline in severance calculations."
    - *Risk posture middle → conservative:* "I'll flag more terminations for

@@ -1,0 +1,110 @@
+{
+  "story": "PILOTE-002",
+  "date": "2026-10-15",
+  "base_revision": "c3fea8dc8c4146988d1446eadc8c5f860af71499",
+  "version": "0.2.0",
+  "python": "3.12.9",
+  "artifact_root": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote002-final-xgl_026w\\extracted\\employment-legal",
+  "artifact_kind": "archive extraite hors checkout ; pas installation client",
+  "archive": {
+    "path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote002-final-xgl_026w\\judge-fr-eu-employment-legal-0.2.0.zip",
+    "sha256": "c06de39fb3139f2df031b60d852610a6beb74960e42ac8827551d8ea108b426e",
+    "files": [
+      ".claude-plugin/plugin.json",
+      ".gitignore",
+      ".mcp.json",
+      "agents/leave-tracker.md",
+      "CLAUDE.md",
+      "data/.gitkeep",
+      "hooks/hooks.json",
+      "LICENSE",
+      "NOTICE",
+      "README.md",
+      "references/company-profile-template.md",
+      "references/dashboard-template.md",
+      "references/hiring-review-fr.md",
+      "references/isolation.md",
+      "references/shared/research-citation-method.md",
+      "scripts/judge_store.py",
+      "skills/cold-start-interview/SKILL.md",
+      "skills/customize/SKILL.md",
+      "skills/expansion-kickoff/SKILL.md",
+      "skills/expansion-update/SKILL.md",
+      "skills/handbook-updates/SKILL.md",
+      "skills/hiring-review/SKILL.md",
+      "skills/internal-investigation/SKILL.md",
+      "skills/international-expansion/SKILL.md",
+      "skills/investigation-add/SKILL.md",
+      "skills/investigation-memo/SKILL.md",
+      "skills/investigation-open/SKILL.md",
+      "skills/investigation-query/SKILL.md",
+      "skills/investigation-summary/SKILL.md",
+      "skills/leave-tracker/SKILL.md",
+      "skills/log-leave/SKILL.md",
+      "skills/matter-workspace/SKILL.md",
+      "skills/policy-drafting/SKILL.md",
+      "skills/termination-review/SKILL.md",
+      "skills/wage-hour-qa/SKILL.md",
+      "skills/worker-classification/SKILL.md"
+    ]
+  },
+  "method": {
+    "version": "1.0.0",
+    "source_sha256": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "copy_sha256": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "identical": true
+  },
+  "package_check": {
+    "command": [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote002-final-xgl_026w\\check-plugin-package.py",
+      "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote002-final-xgl_026w\\extracted\\employment-legal",
+      "--schema"
+    ],
+    "exit_code": 2,
+    "stdout": "A_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/verification-log.md\nA_RELIRE README.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE agents/leave-tracker.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE agents/leave-tracker.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE references/dashboard-template.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/<domain>/outputs/dashboard-<topic>-<date>.html\nA_RELIRE references/isolation.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/\nA_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md\nA_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/CLAUDE.md\nA_RELIRE skills/cold-start-interview/SKILL.md: commande d'un autre plugin à qualifier: /judge-fr-eu-legal-builder-hub:related-skills-surfacer\nA_RELIRE skills/customize/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md\nA_RELIRE skills/customize/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/expansion-kickoff/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/expansion-kickoff/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[slug].yaml\nA_RELIRE skills/expansion-update/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/expansion-update/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[slug].yaml\nA_RELIRE skills/handbook-updates/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/handbook-updates/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[matter-slug]/documents-reviewed.yaml\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[matter-slug]/log.yaml\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[matter-slug]/sources-checklist.yaml\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[slug]/memo.md\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[slug]/sources-checklist.yaml\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/international-expansion/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/international-expansion/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[country-slug].yaml\nA_RELIRE skills/international-expansion/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/investigation-add/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/investigation-open/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/leave-tracker/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE skills/log-leave/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/log-leave/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/*/matter.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<slug>/\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<slug>/matter.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/_archived/\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/_archived/<slug>/\nA_RELIRE skills/policy-drafting/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/policy-drafting/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/termination-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/termination-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/wage-hour-qa/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/wage-hour-qa/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/worker-classification/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/worker-classification/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nSTRUCTURE INCOMPLET: 28 fichiers Markdown; contrôle statique borné\nSCHEMA NON_EXECUTE: CLI claude absente\nEXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE\n",
+    "stderr": ""
+  },
+  "client_installation": "non executee : CLI claude absente",
+  "skill_execution": "non executee dans un client isole ; sorties de relecture separees",
+  "participant": "non execute : aucun participant reel",
+  "regression_isolation": {
+    "command": "python scripts/test-base008-isolation.py",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_five_cookbooks_outputs_audit_and_separate_deployments (__main__.CookbookStorage.test_five_cookbooks_outputs_audit_and_separate_deployments) ... ok\ntest_orchestrator_audit_and_report_paths (__main__.CookbookStorage.test_orchestrator_audit_and_report_paths) ... skipped 'jsonschema absent: orchestrator test not executed'\ntest_all_documented_qualified_commands_resolve (__main__.MigratedPackages.test_all_documented_qualified_commands_resolve) ... ok\ntest_all_entrypoints_load_boundary_and_no_legacy_access (__main__.MigratedPackages.test_all_entrypoints_load_boundary_and_no_legacy_access) ... ok\ntest_detached_package_structure (__main__.MigratedPackages.test_detached_package_structure) ... ok\ntest_guard_refuses_traversal_windows_paths_and_existing_destinations (__main__.MigratedPackages.test_guard_refuses_traversal_windows_paths_and_existing_destinations) ... ok\ntest_hard_links_refused (__main__.MigratedPackages.test_hard_links_refused) ... ok\ntest_hub_lifecycle_leaves_original_and_durable_data_untouched (__main__.MigratedPackages.test_hub_lifecycle_leaves_original_and_durable_data_untouched) ... ok\ntest_hub_local_edits_and_backup_collision_preserved (__main__.MigratedPackages.test_hub_local_edits_and_backup_collision_preserved) ... ok\ntest_hub_refuses_existing_destination_unknown_skill_and_original_log (__main__.MigratedPackages.test_hub_refuses_existing_destination_unknown_skill_and_original_log) ... ok\ntest_hub_rejects_forged_logged_path_and_changed_backup (__main__.MigratedPackages.test_hub_rejects_forged_logged_path_and_changed_backup) ... ok\ntest_manifest_contract_and_150_skill_names (__main__.MigratedPackages.test_manifest_contract_and_150_skill_names) ... ok\ntest_real_storage_cli_all_domains_and_missing_cache_trap (__main__.MigratedPackages.test_real_storage_cli_all_domains_and_missing_cache_trap) ... ok\ntest_shared_profile_and_package_update_rollback_preserve_data (__main__.MigratedPackages.test_shared_profile_and_package_update_rollback_preserve_data) ... ok\ntest_symbolic_links_refused (__main__.MigratedPackages.test_symbolic_links_refused) ... skipped \"OS cannot create a symbolic link: [WinError 1314] Le client ne dispose pas d’un privilège nécessaire: 'C:\\\\\\\\Users\\\\\\\\fltou\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\judge-base008-home-d70slv28\\\\\\\\outside' -> 'C:\\\\\\\\Users\\\\\\\\fltou\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\judge-base008-home-d70slv28\\\\\\\\fork\\\\\\\\linked'\"\ntest_windows_junctions_refused (__main__.MigratedPackages.test_windows_junctions_refused) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 28.150s\n\nOK (skipped=2)\n"
+  },
+  "other_checks": {
+    "tool_scope": {
+      "command": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/lint-tool-scope.py"
+      ],
+      "exit_code": 0,
+      "stdout": "  ✓ diligence-grid           orchestrator tool scope clean\n  ✓ docket-watcher           orchestrator tool scope clean\n  ✓ launch-radar             orchestrator tool scope clean\n  ✓ reg-monitor              orchestrator tool scope clean\n  ✓ renewal-watcher          orchestrator tool scope clean\n",
+      "stderr": ""
+    },
+    "diff_check": {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "warning: in the working copy of '.claude-plugin/marketplace.json', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'NOTICE', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'employment-legal/.claude-plugin/plugin.json', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'employment-legal/NOTICE', CRLF will be replaced by LF the next time Git touches it\n"
+    },
+    "json_syntax": {
+      "files": 55,
+      "status": "OK"
+    },
+    "generic_skill_validation": {
+      "exit_code": 1,
+      "stdout": "Unexpected key(s) in SKILL.md frontmatter: argument-hint. Allowed properties are: allowed-tools, description, license, metadata, name\n",
+      "stderr": "",
+      "limitation": "argument-hint inherited Claude field not supported by generic Codex validator"
+    }
+  }
+}

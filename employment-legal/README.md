@@ -1,83 +1,84 @@
-<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+<!-- Modified by Judge FR/UE for PILOTE-002 (2026-10-15): scope and setup of French hiring pilot. -->
 
-# Employment Counsel Plugin
+# Judge FR/UE — revue d'embauche
 
-In-house employment law workflows: hiring review, termination review, policy drafting, handbook updates, jurisdiction-aware wage & hour Q&A. Built around a jurisdictional footprint learned at cold-start — the plugin knows which states you're in and what's different about each.
+Version du plugin **0.2.0**. Seul `hiring-review` est réécrit pour l'embauche
+salariée du privé en France : lire une offre ou un contrat reçu, comprendre
+les engagements et préparer les questions au recruteur. CDI métropolitain
+comme cas nominal ; CDD ordinaire avec contrôles spécifiques limités.
+La recette dans un client isolé et l'essai avec un participant non juriste
+restent à réaliser. Ce paquet n'est pas une certification de conformité.
 
-**Every output is a draft for attorney review — cited, flagged, and gated — not a legal conclusion.** The plugin does the work: reads the documents, applies your playbook, finds the issues, drafts the memo. A lawyer reviews, verifies, and decides. Citations are tagged by source so you know which ones came from a research tool and which ones need checking. Privilege markers are applied conservatively so nothing waives by accident. Consequential actions — filing, sending, executing — are gated behind explicit confirmation.
-
-## Who this is for
-
-| Role | Primary workflows |
-|---|---|
-| **Employment counsel** | Termination review, policy drafting, wage/hour analysis |
-| **HR business partners** | Hiring review, handbook questions, first-line wage/hour Q&A |
-| **GC** | Escalation recipient for high-risk terms and RIFs |
-
-## First run: cold-start
-
-Asks which states and countries you have employees in, reads your handbook and three recent termination memos, builds a jurisdiction-aware escalation table.
-
-```
-/judge-fr-eu-employment-legal:cold-start-interview
-```
-
-Your configuration is stored at `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md` and survives plugin updates.
-
-## Prerequisites
-
-- **Persistent data path.** The leave register, investigation logs, and expansion trackers are written to `~/.claude/plugins/config/judge-fr-eu/employment-legal/`, a version-independent path that survives plugin updates. These files contain privileged and sensitive personnel information — make sure that directory is backed up and access-controlled.
-- **Legal research access.** Skills in this plugin intentionally do not store substantive legal rules (salary thresholds, restrictive-covenant enforceability, final-pay timing, release consideration periods, country-specific employment frameworks, etc.). Every jurisdiction-specific rule is researched and cited at the time of review. Make sure the session has access to the research tools you rely on (web search, internal legal research integrations, team reference materials).
-- **Outside counsel.** No country-specific or jurisdiction-specific legal advice is produced without outside counsel engagement on any close call or new jurisdiction.
-
-## Skills
-
-| Skill | Does |
-|---|---|
-| `/judge-fr-eu-employment-legal:cold-start-interview` | Cold-start interview — learns jurisdictional footprint + escalation rules from handbook + term memos |
-| `/judge-fr-eu-employment-legal:hiring-review` | Offer letter + restrictive covenant review, jurisdiction check |
-| `/judge-fr-eu-employment-legal:termination-review` | Termination review with high-risk flag detection |
-| `/judge-fr-eu-employment-legal:policy-drafting [topic]` | Draft a policy with state supplements where needed |
-| `/judge-fr-eu-employment-legal:wage-hour-qa [question]` | Wage/hour or general employment Q&A, jurisdiction-aware |
-| `/judge-fr-eu-employment-legal:worker-classification` | Classify a proposed worker engagement and flag misclassification gaps |
-| `/judge-fr-eu-employment-legal:expansion-kickoff [country]` | Kick off international expansion planning for a new country |
-| `/judge-fr-eu-employment-legal:expansion-update [country]` | Update an in-progress expansion tracker |
-| `/judge-fr-eu-employment-legal:investigation-open` | Open a new internal investigation matter |
-| `/judge-fr-eu-employment-legal:investigation-add` | Add documents, interview notes, or observations to an open investigation |
-| `/judge-fr-eu-employment-legal:investigation-query` | Ask questions against an open investigation log |
-| `/judge-fr-eu-employment-legal:investigation-memo` | Draft or update the privileged investigation memo |
-| `/judge-fr-eu-employment-legal:investigation-summary` | Draft an audience-specific summary from the investigation memo |
-| `/judge-fr-eu-employment-legal:leave-tracker` | Check open leaves for deadline alerts and required decisions |
-| `/judge-fr-eu-employment-legal:log-leave` | Add a new leave to the leave register |
-| `/judge-fr-eu-employment-legal:matter-workspace` | Manage matter workspaces (multi-client private practice only) — new, list, switch, close, none |
-| **handbook-updates** | Diff proposed changes against current handbook, flag state supplement impact |
-
-Reference skills `internal-investigation` and `international-expansion` carry the detailed frameworks and templates — the per-mode skills above load them as needed.
-
-## Interactive skills vs. scheduled agents
-
-The skills above run when you invoke them — for when you're working a matter. The agents below run on a schedule — for what moves while you're not looking:
-
-| Agent | What it watches | Default cadence |
-|---|---|---|
-| **leave-tracker** | Open leaves with hard legal deadlines — FMLA, state equivalents (CA CFRA, NY PFL), USERRA, ADA leave as accommodation; fires decision-point alerts before deadlines are missed | Weekly (Monday) |
-
-## How it learns
-
-Your practice profile at `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md` isn't static — it improves as you use the plugin. Skills tell you when an output used a default you should tune. You can re-run setup, edit the file directly, or tell a skill to record a new position.
-
-## Notes
-
-- Jurisdiction awareness is the whole point. The plugin knows California final pay is due on the last day and New York's is the next regular payday.
-- Termination review is NOT a replacement for the conversation with HR and the manager. It's a checklist that catches the thing everyone forgot.
-- Wage/hour Q&A cites the rule but flags close calls for human review. Classification decisions have consequences.
-
-## Judge FR/UE 0.1.0
-
-Technical identity/storage migration only; inherited legal tasks still require their France/EU adaptation stories. Maintained by the Judge FR/UE maintainers at https://github.com/Francois-Louis/Judge, derived from Claude for Legal / Anthropic without claiming affiliation.
-
-Install `judge-fr-eu-employment-legal@judge-fr-eu` with explicit scope. Data lives under `config/judge-fr-eu/employment-legal/`, outside replaceable packages. See [storage boundary](references/isolation.md), [license](LICENSE) and [modification notice](NOTICE). Commands use the `judge-fr-eu-employment-legal:` prefix.
+## Commencer avec un contrat reçu
 
 ```text
 /plugin install judge-fr-eu-employment-legal@judge-fr-eu --scope user
+/judge-fr-eu-employment-legal:hiring-review
 ```
+
+Présenter le contrat, un extrait ou une description en mots courants, avec
+les lieux de travail, dates et fonctions connus. Masquer les identifiants et
+coordonnées inutiles. Aucun profil d'entreprise, handbook ou playbook requis.
+Un bref entretien dans la conversation permet de démarrer sans profil ; les
+inconnues restent visibles. Pas de profil persistant créé par défaut.
+
+Pour conserver volontairement des préférences, utiliser le chemin court :
+
+```text
+/judge-fr-eu-employment-legal:cold-start-interview
+/judge-fr-eu-employment-legal:customize
+```
+
+Indiquer que le besoin est la lecture d'une offre en France. La configuration
+courte renseigne seulement les faits utiles et le format souhaité. Le profil
+reste sous `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`,
+hors du paquet remplaçable. Un profil minimal n'active pas les autres parcours.
+
+La restitution explique les engagements des deux parties, puis rapproche
+clause/pièce, source et version, conséquence concrète, proposition ou question
+avec son destinataire. Elle rend les faits manquants prioritaires et une
+prochaine étape. Un texte court ou une liste peut remplacer le tableau selon
+le besoin. Les montants bruts, versements fixes et variables sont distingués.
+Aucun feu vert à signer, acceptation, envoi, suivi ou inscription à un registre.
+
+## Sources et prérequis réels
+
+- Python 3.12 ou ultérieur pour le helper de stockage, avant tout accès aux
+  profils ou sorties persistantes ; voir [la frontière de stockage](references/isolation.md).
+- Les références nécessaires sont embarquées : [méthode BASE-005 1.0.0](references/shared/research-citation-method.md)
+  et [repères d'embauche France 1.0.0](references/hiring-review-fr.md).
+  Le parcours reprend USAGE-001 1.0.0 dans ses propres instructions.
+- Lecture de sources officielles par les outils disponibles dans la session,
+  sans connecteur spécifique ni abonnement API obligatoire. Leur disponibilité
+  doit être observée. Si une source manque, la conclusion concernée reste
+  réservée ; les pièces et questions peuvent être expliquées.
+- Aucune convention collective n'est certifiée ici. L'activité réelle,
+  le champ, les textes et accords applicables demandent vérification. L'APE
+  seul et l'intitulé du poste ne permettent pas de conclure.
+
+Le contrôle CDD initial couvre recours/motif, terme ou durée minimale,
+mentions, essai et transmission. Il ne valide pas durée maximale,
+renouvellements/successions, carence, indemnités ou rupture. Non-concurrence,
+forfait et autres clauses sensibles exigent leurs textes et décisions utiles.
+Les sources non lues et les limites sont signalées dans les repères métier.
+Emploi public, contrats spéciaux, particulier employeur, outre-mer à qualifier
+et travail transfrontalier reçoivent une orientation explicite.
+
+## Reste du paquet : hérité et non adapté à la France/UE
+
+Les commandes de rupture, classification d'indépendants, congés, enquêtes,
+politiques, handbook, expansion et questions de paie restent dans le paquet
+hérité. L'agent `leave-tracker`, les hooks et les connecteurs déclarés ne sont
+pas validés par ce pilote. La configuration professionnelle historique reste
+présente pour ces parcours, avec ses limites. Ne pas les appeler pour
+compléter la revue adaptée ni présenter leur installation comme une adaptation.
+
+Les seuls changements à `cold-start-interview`, `customize` et au modèle de
+profil servent le chemin court d'embauche. Le pilote ne garantit aucun secret
+professionnel du seul fait d'un en-tête. L'explication et la préparation d'un
+brouillon sont accessibles sans consultation préalable ; les questions hors
+champ ou non résolues peuvent être préparées pour un professionnel compétent.
+
+Fork indépendant de Claude for Legal / Anthropic, maintenu par Judge FR/UE
+sur [Francois-Louis/Judge](https://github.com/Francois-Louis/Judge), sans
+revendication d'affiliation. Voir [licence](LICENSE) et [modifications](NOTICE).

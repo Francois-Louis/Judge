@@ -404,3 +404,24 @@ automatically; cookbook scripts resolve a working Python interpreter.
   legal-builder-hub/skills/customize/SKILL.md
   scripts/deploy-managed-agent.sh
   scripts/test-cookbooks.sh
+
+PILOTE-002 changes (2026-10-15): scoped French private-sector hiring review,
+candidate setup and plain-language outputs. Plugin version 0.2.0; inherited
+workflows remain unadapted. Isolated-client and real-participant validation
+remain pending. No legal privilege is claimed by a document label.
+  employment-legal/.claude-plugin/plugin.json
+  employment-legal/CLAUDE.md
+  employment-legal/README.md
+  employment-legal/references/hiring-review-fr.md (new)
+  employment-legal/skills/hiring-review/SKILL.md
+  employment-legal/skills/cold-start-interview/SKILL.md (candidate branch only)
+  employment-legal/skills/customize/SKILL.md (hiring configuration only)
+  .claude-plugin/marketplace.json
+  README.md
+  scripts/test-base008-isolation.py (version-aware upgrade fixture)
+  backlog/01-pilote-travail/pilote-002-revue-embauche.md
+  backlog/01-pilote-travail/pilote-002-pieces-fictives.md
+  backlog/01-pilote-travail/pilote-002-sorties-relecture.md
+  backlog/01-pilote-travail/pilote-002-sources-lues.json
+  backlog/01-pilote-travail/pilote-002-verification.md
+  backlog/01-pilote-travail/pilote-002-controles.json

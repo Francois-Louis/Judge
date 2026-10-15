@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "judge-fr-eu",
-  "description": "Judge FR/UE — independent fork of Claude for Legal (Anthropic). Technical isolation 0.1.0; France/EU legal adaptation remains pending.",
+  "description": "Judge FR/UE — independent fork of Claude for Legal (Anthropic). Technical isolation 0.1.0; scoped French hiring pilot 0.2.0 under validation, other legal tasks not adapted.",
   "owner": {
     "name": "Judge FR/UE maintainers",
     "url": "https://github.com/Francois-Louis/Judge"
@@ -47,7 +47,7 @@
       "name": "judge-fr-eu-employment-legal",
       "displayName": "Judge FR/UE — Employment Legal",
       "source": "./employment-legal",
-      "description": "Judge FR/UE 0.1.0: technical isolation; legal adaptation pending. Reviews hires and terminations for jurisdiction-specific risk flags, classifies workers against the controlling state test, tracks leave deadlines before they're missed, runs internal investigations, and drafts policies with state supplements where the law differs.",
+      "description": "Judge FR/UE 0.2.0 : pilote hiring-review pour comprendre une offre ou un contrat salarié privé en France (CDI, contrôles CDD ciblés). Recette client et utilisateur à compléter ; autres tâches héritées non adaptées.",
       "author": {
         "name": "Anthropic"
       }

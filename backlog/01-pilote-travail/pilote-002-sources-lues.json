@@ -1,0 +1,845 @@
+[
+  {
+    "source_family": "travail",
+    "reference": "L1221-1",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1221-1",
+        "attempted_at": "2026-10-15T20:44:38.282397+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1221-1",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:38.881916+00:00",
+        "bytes": 51530,
+        "sha256": "9a75bb10c448648226bbfaface9ab8668b0b43ac95e5438ae42194fc6f00427e"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/05/2008\nLe contrat de travail est soumis aux règles du droit commun. Il peut être établi selon les formes que les parties contractantes décident d'adopter.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1221-5-1",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1221-5-1",
+        "attempted_at": "2026-10-15T20:44:38.283397+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1221-5-1",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:38.911481+00:00",
+        "bytes": 55462,
+        "sha256": "83bb00bc7ff3e83ff93f15b59cc0f456ec304dca770c341d9e05f358fbcfafd4"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n11/03/2023\nL'employeur remet au salarié un ou plusieurs documents écrits contenant les informations principales relatives à la relation de travail.\nUn salarié qui n'a pas reçu les informations mentionnées au premier alinéa ne peut saisir le juge compétent afin de les obtenir qu'après avoir mis en demeure son employeur de lui communiquer les documents requis ou, le cas échéant, de compléter les documents remis.\nUn décret en Conseil d'Etat fixe les modalités d'application du présent article, notamment la liste des informations devant figurer dans les documents mentionnés au premier alinéa.\nNOTA\nSe reporter aux conditions d'application prévues au second alinéa du II de l’article 19 de la loi n° 2023-171 du 9 mars 2023.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "R1221-34",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/r1221-34",
+        "attempted_at": "2026-10-15T20:44:38.283397+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/r1221-34",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:38.956130+00:00",
+        "bytes": 74700,
+        "sha256": "c6c81a41a99bdf657fdc7b0d6477f4560eca7aeba60b8963ab293757da5f28b4"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/11/2023\nLes documents mentionnés à l'article\nL. 1221-5-1\ncomportent au moins les informations suivantes :\n1° L'identité des parties à la relation de travail ;\n2° Le lieu ou les lieux de travail et, si elle est distincte, l'adresse de l'employeur ;\n3° L'intitulé du poste, les fonctions, la catégorie socioprofessionnelle ou la catégorie d'emploi ;\n4° La date d'embauche ;\n5° Dans le cas d'une relation de travail à durée déterminée, la date de fin ou la durée prévue de celle-ci ;\n6° Dans le cas du salarié temporaire mentionné à l'article\nL. 1251-1\n, l'identité de l'entreprise utilisatrice, lorsqu'elle est connue et aussitôt qu'elle l'est ;\n7° Le cas échéant, la durée et les conditions de la période d'essai ;\n8° Le droit à la formation assuré par l'employeur conformément à l'article\nL. 6321-1\n;\n9° La durée du congé payé auquel le salarié a droit, ou les modalités de calcul de cette durée ;\n10° La procédure à observer par l'employeur et le salarié en cas de cessation de leur relation de travail ;\n11° Les éléments constitutifs de la rémunération mentionnés à l'article\nL. 3221-3\n, indiqués séparément, y compris les majorations pour les heures supplémentaires, ainsi que la périodicité et les modalités de paiement de cette rémunération ;\n12° La durée de travail quotidienne, hebdomadaire, mensuelle ou ses modalités d'aménagement sur une autre période de référence lorsqu'il est fait application des dispositions des articles\nL. 3121-41 à L. 3121-47\n, les conditions dans lesquelles le salarié peut être conduit à effectuer des heures supplémentaires ou complémentaires, ainsi que, le cas échéant, toute modalité concernant les changements d'équipe en cas d'organisation du travail en équipes successives alternantes ;\n13° Les conventions et accords collectifs applicables au salarié dans l'entreprise ou l'établissement ;\n14° Les régimes obligatoires auxquels est affilié le salarié, la mention des contrats de protection sociale complémentaire dont les salariés bénéficient collectivement en application d'un accord collectif ou d'une décision unilatérale de l'employeur ainsi que, le cas échéant, les conditions d'ancienneté qui y sont attachées.\nNOTA\nConformément au II de l'article 7 du décret n° 2023-1004 du 30 octobre 2023, ces dispositions entrent en vigueur le 1er novembre 2023.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "R1221-35",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/r1221-35",
+        "attempted_at": "2026-10-15T20:44:38.284398+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/r1221-35",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:38.936027+00:00",
+        "bytes": 55290,
+        "sha256": "a297689016cd1d570bfd1b72093f205d2c01bcbbd6c1a9c8d8898f1da9a98a0d"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/11/2023\nLa communication des informations mentionnées aux 7° à 12° et 14° de l'article\nR. 1221-34\npeut prendre la forme d'un renvoi aux dispositions législatives et réglementaires ou aux stipulations conventionnelles applicables.\nLes informations mentionnées aux 1° à 5°, 7° et aux 11° et 12° du même article sont communiquées individuellement au salarié au plus tard le septième jour calendaire à compter de la date d'embauche. Les autres informations sont communiquées au plus tard un mois à compter de la même date.\nNOTA\nConformément au II de l'article 7 du décret n° 2023-1004 du 30 octobre 2023, ces dispositions entrent en vigueur le 1er novembre 2023.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1221-19",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1221-19",
+        "attempted_at": "2026-10-15T20:44:38.881916+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1221-19",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:39.438603+00:00",
+        "bytes": 51992,
+        "sha256": "46eface295727a0e8cf1568de5c8a3d4ba7625f7384384f98ac009bb2cf2be25"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n27/06/2008\nLe contrat de travail à durée indéterminée peut comporter une période d'essai dont la durée maximale est :\n1° Pour les ouvriers et les employés, de deux mois ;\n2° Pour les agents de maîtrise et les techniciens, de trois mois ;\n3° Pour les cadres, de quatre mois.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1221-20",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1221-20",
+        "attempted_at": "2026-10-15T20:44:38.911481+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1221-20",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:39.480684+00:00",
+        "bytes": 51077,
+        "sha256": "20df7d931e18673d121fb5a62cabb034a72f84e519ddac33ad390fabba777977"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n27/06/2008\nLa période d'essai permet à l'employeur d'évaluer les compétences du salarié dans son travail, notamment au regard de son expérience, et au salarié d'apprécier si les fonctions occupées lui conviennent.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1221-21",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1221-21",
+        "attempted_at": "2026-10-15T20:44:38.936027+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1221-21",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:39.477086+00:00",
+        "bytes": 52766,
+        "sha256": "805a99ab1262e2d80c859043ece551ee5f60d715f62e7b20f0ee57d1bfd58d74"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n27/06/2008\nLa période d'essai peut être renouvelée une fois si un accord de branche étendu le prévoit. Cet accord fixe les conditions et les durées de renouvellement.\nLa durée de la période d'essai, renouvellement compris, ne peut pas dépasser :\n1° Quatre mois pour les ouvriers et employés ;\n2° Six mois pour les agents de maîtrise et techniciens ;\n3° Huit mois pour les cadres.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1221-22",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1221-22",
+        "attempted_at": "2026-10-15T20:44:38.956130+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1221-22",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:39.484773+00:00",
+        "bytes": 55342,
+        "sha256": "c59f5ce08d3e5e4b4745b74f774fed61709c658c3f183b1d32823b89311fa4c3"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n09/09/2023\nLes durées des périodes d'essai fixées par les articles\nL. 1221-19\net\nL. 1221-21\nont un caractère impératif, à l'exception :\n-de durées plus courtes fixées par des accords collectifs conclus après la date de publication de la\nloi n° 2008-596 du 25 juin 2008\nprécitée ;\n-de durées plus courtes fixées dans la lettre d'engagement ou le contrat de travail.\nNOTA\nConformément au II de l’article 19 de la loi n° 2023-171 du 9 mars 2023, ces dispositions entrent en vigueur six mois après la promulgation de ladite loi.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1221-23",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1221-23",
+        "attempted_at": "2026-10-15T20:44:39.438603+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1221-23",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:39.911696+00:00",
+        "bytes": 51515,
+        "sha256": "b1ee6495d09454a5e793d622421e7f266a04feba13f02099179b5ec4dcd28fa9"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n27/06/2008\nLa période d'essai et la possibilité de la renouveler ne se présument pas. Elles sont expressément stipulées dans la lettre d'engagement ou le contrat de travail.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L2261-2",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006901780",
+        "attempted_at": "2026-10-15T20:55:36.219990+00:00",
+        "state": "http-error",
+        "http_status": 403
+      },
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l2261-2",
+        "attempted_at": "2026-10-15T20:55:36.658152+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l2261-2",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:55:37.088641+00:00",
+        "bytes": 53833,
+        "sha256": "0230c1adb70bd76815543668807186bedaac32d3dd3b6cec4d99aac22a41de23"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/05/2008\nLa convention collective applicable est celle dont relève l'activité principale exercée par l'employeur.\nEn cas de pluralité d'activités rendant incertaine l'application de ce critère pour le rattachement d'une entreprise à un champ conventionnel, les conventions collectives et les accords professionnels peuvent, par des clauses réciproques et de nature identique, prévoir les conditions dans lesquelles l'entreprise détermine les conventions et accords qui lui sont applicables.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L2253-1",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036761771",
+        "attempted_at": "2026-10-15T20:55:37.088641+00:00",
+        "state": "http-error",
+        "http_status": 403
+      },
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l2253-1",
+        "attempted_at": "2026-10-15T20:55:37.393646+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l2253-1",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:55:37.803182+00:00",
+        "bytes": 84537,
+        "sha256": "a1022b018db5fa95a01fa6d86fb82be5f42eafd54079138079da1c7e94385cb3"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/04/2018\nLa convention de branche définit les conditions d'emploi et de travail des salariés. Elle peut en particulier définir les garanties qui leur sont applicables dans les matières suivantes :\n1° Les salaires minima hiérarchiques ;\n2° Les classifications ;\n3° La mutualisation des fonds de financement du paritarisme ;\n4° La mutualisation des fonds de la formation professionnelle ;\n5° Les garanties collectives complémentaires mentionnées à l'article\nL. 912-1\ndu code de la sécurité sociale ;\n6° Les mesures énoncées à l'article\nL. 3121-14\n, au 1° de l'article\nL. 3121-44\n, à l'article\nL. 3122-16\n, au premier alinéa de l'article\nL. 3123-19\net aux articles\nL. 3123-21 et L. 3123-22\ndu présent code et relatives à la durée du travail, à la répartition et à l'aménagement des horaires ;\n7° Les mesures relatives aux contrats de travail à durée déterminée et aux contrats de travail temporaire énoncées aux articles\nL. 1242-8\n,\nL. 1243-13\n,\nL. 1244-3\n,\nL. 1244-4\n,\nL. 1251-12\n,\nL. 1251-35\n,\nL. 1251-36\net\nL. 1251-37\ndu présent code ;\n8° Les mesures relatives au contrat à durée indéterminée de chantier ou d'opération énoncées aux articles\nL. 1223-8 et L. 1223-9\ndu présent code ;\n9° L'égalité professionnelle entre les femmes et les hommes ;\n10° Les conditions et les durées de renouvellement de la période d'essai mentionnées à l'article\nL. 1221-21\ndu code du travail ;\n11° Les modalités selon lesquelles la poursuite des contrats de travail est organisée entre deux entreprises lorsque les conditions d'application de l'article\nL. 1224-1\nne sont pas réunies ;\n12° Les cas de mise à disposition d'un salarié temporaire auprès d'une entreprise utilisatrice mentionnés aux 1° et 2° de l'article\nL. 1251-7\ndu présent code ;\n13° La rémunération minimale du salarié porté, ainsi que le montant de l'indemnité d'apport d'affaire, mentionnée aux articles\nL. 1254-2\net\nL. 1254-9\ndu présent code ;\nDans les matières énumérées au 1° à 13°, les stipulations de la convention de branche ou de l'accord couvrant un champ territorial ou professionnel plus large prévalent sur la convention d'entreprise conclue antérieurement ou postérieurement à la date de leur entrée en vigueur, sauf lorsque la convention d'entreprise assure des garanties au moins équivalentes. Cette équivalence des garanties s'apprécie par ensemble de garanties se rapportant à la même matière.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L2253-2",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l2253-2",
+        "attempted_at": "2026-10-15T20:44:39.496314+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l2253-2",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:40.027742+00:00",
+        "bytes": 62469,
+        "sha256": "937c9564e82ef69adc0667ea04f8f9a1592f053e6f58caa491a35a4b8de1da5e"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/04/2018\nDans les matières suivantes, lorsque la convention de branche ou l'accord couvrant un champ territorial ou professionnel plus large le stipule expressément, la convention d'entreprise conclue postérieurement à cette convention ou à cet accord ne peut comporter des stipulations différentes de celles qui lui sont applicables en vertu de cette convention ou de cet accord sauf lorsque la convention d'entreprise assure des garanties au moins équivalentes :\n1° La prévention des effets de l'exposition aux facteurs de risques professionnels énumérés à l'article\nL. 4161-1\n;\n2° L'insertion professionnelle et le maintien dans l'emploi des travailleurs handicapés ;\n3° L'effectif à partir duquel les délégués syndicaux peuvent être désignés, leur nombre et la valorisation de leurs parcours syndical ;\n4° Les primes pour travaux dangereux ou insalubres.\nL'équivalence des garanties mentionnée au premier alinéa du présent article s'apprécie par ensemble de garanties se rapportant à la même matière.\nNOTA\nConformément aux I et II de l'article 16 de l'ordonnance n° 2017-1385 du 22 septembre 2017, dans les matières mentionnées au présent article, les clauses des conventions et accords de branche, des accords professionnels et des accords interbranches conclues sur le fondement du deuxième alinéa de l'article L. 2253-3 dans sa rédaction antérieure à ladite ordonnance faisant obstacle à des clauses dérogatoires de conventions ou accords d'entreprise ou d'établissement continuent de produire effet si un avenant confirme, avant le 1er janvier 2019, la portée de ces clauses au regard de la convention ou de l'accord d'entreprise ou d'établissement. Les stipulations confirmant ces clauses s'appliquent aux accords étendus.\nDans les matières mentionnées au présent article, les clauses des conventions et accords de branche, des accords professionnels et des accords interbranches mentionnées par l'article 45 de la loi n° 2004-391 du 4 mai 2004 continuent de produire effet si un avenant confirme, avant le 1er janvier 2019, la portée de ces clauses au regard de la convention ou de l'accord d'entreprise ou d'établissement. Les stipulations confirmant ces clauses s'appliquent aux accords étendus.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L2253-3",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l2253-3",
+        "attempted_at": "2026-10-15T20:44:39.911696+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l2253-3",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:40.350218+00:00",
+        "bytes": 56780,
+        "sha256": "38378158929fc07747e09cb818a5ac483699ffc917e46551d5a04a41714699d9"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n22/12/2017\nDans les matières autres que celles mentionnées aux articles\nL. 2253-1\net\nL. 2253-2\n, les stipulations de la convention d'entreprise conclue antérieurement ou postérieurement à la date d'entrée en vigueur de la convention de branche ou de l'accord couvrant un champ territorial ou professionnel plus large prévalent sur celles ayant le même objet prévues par la convention de branche ou l'accord couvrant un champ territorial ou professionnel plus large. En l'absence d'accord d'entreprise, la convention de branche ou l'accord couvrant un champ territorial ou professionnel plus large s'applique.\nNOTA\nConformément au IV de l'article 16 de l'ordonnance n° 2017-1385 du 22 septembre 2017, pour l'application du présent article, les clauses des accords de branche, quelle que soit leur date de conclusion, cessent de produire leurs effets vis-à-vis des accords d'entreprise à compter du 1er janvier 2018.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L2254-1",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l2254-1",
+        "attempted_at": "2026-10-15T20:44:39.994457+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l2254-1",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:40.466446+00:00",
+        "bytes": 51295,
+        "sha256": "49f4a25e61cad632216bdd8b17e1c9db27694c8aad3d382f4b25c34f1d6ac046"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/05/2008\nLorsqu'un employeur est lié par les clauses d'une convention ou d'un accord, ces clauses s'appliquent aux contrats de travail conclus avec lui, sauf stipulations plus favorables.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1121-1",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1121-1",
+        "attempted_at": "2026-10-15T20:44:40.013625+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1121-1",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:40.485904+00:00",
+        "bytes": 51682,
+        "sha256": "a469f6d7e56ffe929bbf4653edd189011ba31e9ebcb606b850b3d31e32e6b005"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/05/2008\nNul ne peut apporter aux droits des personnes et aux libertés individuelles et collectives de restrictions qui ne seraient pas justifiées par la nature de la tâche à accomplir ni proportionnées au but recherché.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L3121-27",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l3121-27",
+        "attempted_at": "2026-10-15T20:44:40.027742+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l3121-27",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:40.488936+00:00",
+        "bytes": 50125,
+        "sha256": "7efcc3b97afd3d48dd04ddbf8d2b1ce5cc644aabea37e87900bc5fc1c78b9843"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n10/08/2016\nLa durée légale de travail effectif des salariés à temps complet est fixée à trente-cinq heures par semaine.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L3121-55",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l3121-55",
+        "attempted_at": "2026-10-15T20:44:40.350218+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l3121-55",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:40.749707+00:00",
+        "bytes": 51003,
+        "sha256": "c436fb0cf2d28027de1a058b691ab8c74cb2176a3693200d2f18b4ca1c1bb54f"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n10/08/2016\nLa forfaitisation de la durée du travail doit faire l'objet de l'accord du salarié et d'une convention individuelle de forfait établie par écrit.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L3121-58",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l3121-58",
+        "attempted_at": "2026-10-15T20:44:40.466446+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l3121-58",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:40.927028+00:00",
+        "bytes": 56959,
+        "sha256": "c22df37e4fa8757f6a31a3f6e3ae9a0870f65082235e6f6e36771a82741bba1a"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n10/08/2016\nPeuvent conclure une convention individuelle de forfait en jours sur l'année, dans la limite du nombre de jours fixé en application du 3° du I de l'article\nL. 3121-64\n:\n1° Les cadres qui disposent d'une autonomie dans l'organisation de leur emploi du temps et dont la nature des fonctions ne les conduit pas à suivre l'horaire collectif applicable au sein de l'atelier, du service ou de l'équipe auquel ils sont intégrés ;\n2° Les salariés dont la durée du temps de travail ne peut être prédéterminée et qui disposent d'une réelle autonomie dans l'organisation de leur emploi du temps pour l'exercice des responsabilités qui leur sont confiées.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L3121-63",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l3121-63",
+        "attempted_at": "2026-10-15T20:44:40.485904+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l3121-63",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:40.970138+00:00",
+        "bytes": 51295,
+        "sha256": "f696598d237bbc546ebfa7181e263d2015f660117af6a044550b22e4e6716e7e"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n10/08/2016\nLes forfaits annuels en heures ou en jours sur l'année sont mis en place par un accord collectif d'entreprise ou d'établissement ou, à défaut, par une convention ou un accord de branche.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1242-1",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1242-1",
+        "attempted_at": "2026-10-15T20:44:40.488936+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1242-1",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:40.951663+00:00",
+        "bytes": 51429,
+        "sha256": "15cf209c44ca38cddd3d2bd208e9a79f10ba2bad8d5f6e3a7241292e686fca38"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/05/2008\nUn contrat de travail à durée déterminée, quel que soit son motif, ne peut avoir ni pour objet ni pour effet de pourvoir durablement un emploi lié à l'activité normale et permanente de l'entreprise.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1242-2",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1242-2",
+        "attempted_at": "2026-10-15T20:44:40.749707+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1242-2",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:41.145273+00:00",
+        "bytes": 80339,
+        "sha256": "85785f26ade7916c66f414c07b888ba33f00ab23f9b24ddfd6c0e88751b01ba6"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n12/08/2018\nSous réserve des dispositions de\nl'article L. 1242-3\n, un contrat de travail à durée déterminée ne peut être conclu que pour l'exécution d'une tâche précise et temporaire, et seulement dans les cas suivants :\n1° Remplacement d'un salarié en cas :\na) D'absence ;\nb) De passage provisoire à temps partiel, conclu par avenant à son contrat de travail ou par échange écrit entre ce salarié et son employeur ;\nc) De suspension de son contrat de travail ;\nd) De départ définitif précédant la suppression de son poste de travail après consultation du comité social et économique, s'il existe ;\ne) D'attente de l'entrée en service effective du salarié recruté par contrat à durée indéterminée appelé à le remplacer ;\n2° Accroissement temporaire de l'activité de l'entreprise ;\n3° Emplois à caractère saisonnier, dont les tâches sont appelées à se répéter chaque année selon une périodicité à peu près fixe, en fonction du rythme des saisons ou des modes de vie collectifs ou emplois pour lesquels, dans certains secteurs d'activité définis par décret ou par convention ou accord collectif de travail étendu, il est d'usage constant de ne pas recourir au contrat de travail à durée indéterminée en raison de la nature de l'activité exercée et du caractère par nature temporaire de ces emplois. Lorsque la durée du contrat de travail est inférieure à un mois, un seul bulletin de paie est émis par l'employeur ;\n4° Remplacement d'un chef d'entreprise artisanale, industrielle ou commerciale, d'une personne exerçant une profession libérale, de son conjoint participant effectivement à l'activité de l'entreprise à titre professionnel et habituel ou d'un associé non salarié d'une société civile professionnelle, d'une société civile de moyens d'une société d'exercice libéral ou de toute autre personne morale exerçant une profession libérale ;\n5° Remplacement du chef d'une exploitation agricole ou d'une entreprise mentionnée aux 1° à 4° de\nl'article L. 722-1 du code rural et de la pêche maritime\n, d'un aide familial, d'un associé d'exploitation, ou de leur conjoint mentionné à\nl'article L. 722-10\ndu même code dès lors qu'il participe effectivement à l'activité de l'exploitation agricole ou de l'entreprise ;\n6° Recrutement d'ingénieurs et de cadres, au sens des conventions collectives, en vue de la réalisation d'un objet défini lorsqu'un accord de branche étendu ou, à défaut, un accord d'entreprise le prévoit et qu'il définit :\na) Les nécessités économiques auxquelles ces contrats sont susceptibles d'apporter une réponse adaptée ;\nb) Les conditions dans lesquelles les salariés sous contrat à durée déterminée à objet défini bénéficient de garanties relatives à l'aide au reclassement, à la validation des acquis de l'expérience, à la priorité de réembauche et à l'accès à la formation professionnelle continue et peuvent, au cours du délai de prévenance, mobiliser les moyens disponibles pour organiser la suite de leur parcours professionnel ;\nc) Les conditions dans lesquelles les salariés sous contrat à durée déterminée à objet défini ont priorité d'accès aux emplois en contrat à durée indéterminée dans l'entreprise.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1242-7",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1242-7",
+        "attempted_at": "2026-10-15T20:44:40.927028+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1242-7",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:41.490875+00:00",
+        "bytes": 61631,
+        "sha256": "0eaf3b0af5fb14f026a08f40b2a7820d58a3247e49f2ce399bdfb7308153117e"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n10/08/2016\nLe contrat de travail à durée déterminée comporte un terme fixé avec précision dès sa conclusion.\nToutefois, le contrat peut ne pas comporter de terme précis lorsqu'il est conclu dans l'un des cas suivants :\n1° Remplacement d'un salarié absent ;\n2° Remplacement d'un salarié dont le contrat de travail est suspendu ;\n3° Dans l'attente de l'entrée en service effective d'un salarié recruté par contrat à durée indéterminée ;\n4° Emplois à caractère saisonnier définis au 3° de l'article\nL. 1242-2\nou pour lesquels, dans certains secteurs d'activité définis par décret ou par voie de convention ou d'accord collectif étendu, il est d'usage constant de ne pas recourir au contrat de travail à durée indéterminée en raison de la nature de l'activité exercée et du caractère par nature temporaire de ces emplois ;\n5° Remplacement de l'une des personnes mentionnées aux 4° et 5° de\nl'article L. 1242-2\n;\n6° Recrutement d'ingénieurs et de cadres en vue de la réalisation d'un objet défini, prévu au 6° de l'article L. 1242-2.\nLe contrat de travail à durée déterminée est alors conclu pour une durée minimale. Il a pour terme la fin de l'absence de la personne remplacée ou la réalisation de l'objet pour lequel il a été conclu.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1242-10",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1242-10",
+        "attempted_at": "2026-10-15T20:44:40.951663+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1242-10",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:41.469628+00:00",
+        "bytes": 53992,
+        "sha256": "9df05b75ffc7dfa216bbd1f9d52024fb8d9ac6ac8a2d11f33d54531061cc9662"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/05/2008\nLe contrat de travail à durée déterminée peut comporter une période d'essai.\nSauf si des usages ou des stipulations conventionnelles prévoient des durées moindres, cette période d'essai ne peut excéder une durée calculée à raison d'un jour par semaine, dans la limite de deux semaines lorsque la durée initialement prévue au contrat est au plus égale à six mois et d'un mois dans les autres cas.\nLorsque le contrat ne comporte pas de terme précis, la période d'essai est calculée par rapport à la durée minimale du contrat.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1242-12",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1242-12",
+        "attempted_at": "2026-10-15T20:44:40.970138+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1242-12",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:42.463004+00:00",
+        "bytes": 65520,
+        "sha256": "749aa9917e20fed312cf27c6f5afb9fc22f5ae615dde2b03f34522cfe67aa1ae"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/05/2008\nLe contrat de travail à durée déterminée est établi par écrit et comporte la définition précise de son motif. A défaut, il est réputé conclu pour une durée indéterminée.\nIl comporte notamment :\n1° Le nom et la qualification professionnelle de la personne remplacée lorsqu'il est conclu au titre des 1°, 4° et 5° de l'article\nL. 1242-2\n;\n2° La date du terme et, le cas échéant, une clause de renouvellement lorsqu'il comporte un terme précis ;\n3° La durée minimale pour laquelle il est conclu lorsqu'il ne comporte pas de terme précis ;\n4° La désignation du poste de travail en précisant, le cas échéant, si celui-ci figure sur la liste des postes de travail présentant des risques particuliers pour la santé ou la sécurité des salariés prévue à l'article\nL. 4154-2\n, la désignation de l'emploi occupé ou, lorsque le contrat est conclu pour assurer un complément de formation professionnelle au salarié au titre du 2° de l'article\nL. 1242-3\n, la désignation de la nature des activités auxquelles participe le salarié dans l'entreprise ;\n5° L'intitulé de la convention collective applicable ;\n6° La durée de la période d'essai éventuellement prévue ;\n7° Le montant de la rémunération et de ses différentes composantes, y compris les primes et accessoires de salaire s'il en existe ;\n8° Le nom et l'adresse de la caisse de retraite complémentaire ainsi que, le cas échéant, ceux de l'organisme de prévoyance.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1242-13",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1242-13",
+        "attempted_at": "2026-10-15T20:44:41.145273+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1242-13",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:41.550140+00:00",
+        "bytes": 50642,
+        "sha256": "8893b3a34ffaeef428e297487abac14a31f190f7ae224128f039650bf4a79399"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/05/2008\nLe contrat de travail est transmis au salarié, au plus tard, dans les deux jours ouvrables suivant l'embauche.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L1245-1",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l1245-1",
+        "attempted_at": "2026-10-15T20:44:41.469628+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l1245-1",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:44:41.848844+00:00",
+        "bytes": 65043,
+        "sha256": "81f79bb7c7eac702a1e5860e8971cf8f51a77a8a1cdde3df638873315811e474"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n22/12/2017\nEst réputé à durée indéterminée tout contrat de travail conclu en méconnaissance des dispositions des articles\nL. 1242-1\nà L. 1242-4,\nL. 1242-6\n,\nL. 1242-7\n,\nL. 1242-8-1\n,\nL. 1242-12\n, alinéa premier,\nL. 1243-11\n, alinéa premier,\nL. 1243-13-1\n,\nL. 1244-3-1\net\nL. 1244-4-1\n, et des stipulations des conventions ou accords de branche conclus en application des\narticles L. 1242-8\n,\nL. 1243-13\n,\nL. 1244-3\net\nL. 1244-4\n.\nLa méconnaissance de l'obligation de transmission du contrat de mission au salarié dans le délai fixé par l'article\nL. 1242-13\nne saurait, à elle seule, entraîner la requalification en contrat à durée indéterminée. Elle ouvre droit, pour le salarié, à une indemnité, à la charge de l'employeur, qui ne peut être supérieure à un mois de salaire.\nNOTA\nConformément à l'article 40-I et 40-VIII de l'ordonnance n° 2017-1387 du 22 septembre 2017, ces dispositions sont applicables aux licenciements prononcés et aux contrats de travail conclus postérieurement à la publication de ladite ordonnance.",
+    "text_scope": "Article et date affichee seulement; navigation retiree. Empreinte HTTP sur corps integral.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L3231-2",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l3231-2",
+        "attempted_at": "2026-10-15T20:45:41.504702+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l3231-2",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:45:42.721461+00:00",
+        "bytes": 51355,
+        "sha256": "cf44dea76b4da50baab7f6849b7104412fd1968a7f6b9e3ffdf7c12bfae19470"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n01/05/2008\nLe salaire minimum de croissance assure aux salariés dont les rémunérations sont les plus faibles :\n1° La garantie de leur pouvoir d'achat ;\n2° Une participation au développement économique de la nation.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "source_family": "travail",
+    "reference": "L3123-6",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://code.travail.gouv.fr/code-du-travail/l3123-6",
+        "attempted_at": "2026-10-15T20:45:42.721461+00:00",
+        "http_status": 200,
+        "final_url": "https://code.travail.gouv.fr/code-du-travail/l3123-6",
+        "content_type": "text/html",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-15T20:45:43.097134+00:00",
+        "bytes": 61116,
+        "sha256": "152680df915821032bd325c6ba5e54391e9d92b7f1ec2a0d678b18dd001e4748"
+      }
+    ],
+    "text": "Source :\nCode du travail\n- Mis à jour le :\n10/08/2016\nLe contrat de travail du salarié à temps partiel est un contrat écrit.\nIl mentionne :\n1° La qualification du salarié, les éléments de la rémunération, la durée hebdomadaire ou mensuelle prévue et, sauf pour les salariés des associations et entreprises d'aide à domicile et les salariés relevant d'un accord collectif conclu en application de l'article\nL. 3121-44\n, la répartition de la durée du travail entre les jours de la semaine ou les semaines du mois ;\n2° Les cas dans lesquels une modification éventuelle de cette répartition peut intervenir ainsi que la nature de cette modification ;\n3° Les modalités selon lesquelles les horaires de travail pour chaque journée travaillée sont communiqués par écrit au salarié. Dans les associations et entreprises d'aide à domicile, les horaires de travail sont communiqués par écrit chaque mois au salarié ;\n4° Les limites dans lesquelles peuvent être accomplies des heures complémentaires au delà de la durée de travail fixée par le contrat.\nL'avenant au contrat de travail prévu à l'article\nL. 3123-22\nmentionne les modalités selon lesquelles des compléments d'heures peuvent être accomplis au delà de la durée fixée par le contrat.",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "passage lu",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  },
+  {
+    "reference": "Cass. soc., 10 juillet 2002, 00-45.135",
+    "state": "unavailable",
+    "attempts": [
+      {
+        "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007046365/",
+        "attempted_at": "2026-10-15T20:45:43.097134+00:00",
+        "state": "http-error",
+        "http_status": 403
+      }
+    ],
+    "text": null,
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "maintenance_review": {
+      "read_at": "2026-10-15",
+      "reader": "Agent de maintenance PILOTE-002",
+      "status": "non lu - acces refuse",
+      "limit": "Reproduction courante et date affichee ; pas de version historique ni de convention particuliere verifiee. Applicabilite a etablir par dossier."
+    }
+  }
+]

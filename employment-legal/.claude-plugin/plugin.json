@@ -1,7 +1,7 @@
 {
   "name": "judge-fr-eu-employment-legal",
-  "version": "0.1.0",
-  "description": "Judge FR/UE 0.1.0: technical isolation; legal adaptation pending. Reviews hires and terminations for jurisdiction-specific risk flags, classifies workers against the controlling state test, tracks leave deadlines before they're missed, runs internal investigations, and drafts policies with state supplements where the law differs.",
+  "version": "0.2.0",
+  "description": "Judge FR/UE 0.2.0 : pilote hiring-review pour comprendre une offre ou un contrat salarié privé en France (CDI, contrôles CDD ciblés). Recette client et utilisateur à compléter ; autres tâches héritées non adaptées.",
   "author": {
     "name": "Anthropic"
   },

@@ -100,7 +100,8 @@ class MigratedPackages(unittest.TestCase):
                 self.assertEqual(entry[field], manifest[field])
             self.assertEqual(manifest["name"], "judge-fr-eu-" + domain)
             self.assertEqual(manifest["author"]["name"], "Anthropic")
-            self.assertEqual(manifest["version"], "0.1.0")
+            expected_version = "0.2.0" if domain == "employment-legal" else "0.1.0"
+            self.assertEqual(manifest["version"], expected_version)
             self.assertEqual((package / "LICENSE").read_bytes(), (ROOT / "LICENSE").read_bytes())
             self.assertTrue((package / "NOTICE").is_file())
             self.assertEqual((package / "scripts/judge_store.py").read_bytes(), (ROOT / "scripts/judge_store.py").read_bytes())
@@ -181,11 +182,13 @@ class MigratedPackages(unittest.TestCase):
         self.assertEqual(self.cli("privacy-legal", "read", "company-profile.md", "--shared")["content"], "FR_COMPANY")
         self.cli(d, "create", "company-profile.md", "--shared", content="replace", ok=False)
         self.cli(d, "read", "employment-legal/CLAUDE.md", "--shared", ok=False)
-        update = self.home / "package-0.2.0"
+        update = self.home / "package-next-version"
         shutil.copytree(self.packages[d], update)
         manifest = update / ".claude-plugin/plugin.json"
-        text = manifest.read_text(encoding="utf-8").replace('"0.1.0"', '"0.2.0"')
-        manifest.write_text(text, encoding="utf-8")
+        metadata = json.loads(manifest.read_text(encoding="utf-8"))
+        major, minor, _ = map(int, metadata["version"].split("."))
+        metadata["version"] = f"{major}.{minor + 1}.0"
+        manifest.write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
         (update / "CLAUDE.md").write_text("NEW_PACKAGE_TEMPLATE", encoding="utf-8")
         self.assertIn("Personal threshold", self.cli(d, "read", "CLAUDE.md", package=update)["content"])
         self.assertIn("Personal threshold", self.cli(d, "read", "CLAUDE.md")["content"])
