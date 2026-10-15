@@ -1,9 +1,9 @@
 # Backlog — adaptation juridique France / Union européenne
 
-Ce dossier organise le travail à venir. Le backlog contient 82 stories :
+Ce dossier organise le travail à venir. Le backlog contient 84 stories :
 BASE-001 à BASE-007, BASE-009, BASE-010, PILOTE-001 et USAGE-001 à USAGE-003 sont `terminee`,
-BASE-008 est `en-cours`, PILOTE-002 est `a-verifier` ;
-les 67 autres sont `proposee`.
+BASE-008 est `en-cours`, PILOTE-002 et PILOTE-003 sont `a-verifier` ;
+les 68 autres sont `proposee`.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
 fait le bilan de l'epic 00 et de ses points ouverts.
 Le [relevé BASE-001](00-fondations/base-001-releve-audit.md) consigne l'audit du
@@ -112,8 +112,14 @@ l'[inventaire des 20 skills](01-pilote-travail/pilote-001-releve-inventaire.md),
 le [plan hiring-review](01-pilote-travail/pilote-001-plan-hiring-review.md) et
 16 [stories de suite](01-pilote-travail/pilote-001-decoupage-travail.md), encore
 proposées et dépendantes du bilan PILOTE-003. Aucun skill n'est adapté par cet audit.
-PILOTE-002 a depuis réécrit `hiring-review`, version de plugin `0.2.0`. Sa recette, objet de
-PILOTE-003, reste ouverte : la story est `a-verifier`.
+PILOTE-002 a depuis réécrit `hiring-review`, version de plugin `0.2.0`.
+Le [bilan PILOTE-003](01-pilote-travail/pilote-003-verification.md) rapporte
+les contrôles sur le paquet détaché et les vérifications impossibles :
+installation/invocation et essai avec lecteur réel restent non exécutés.
+Les deux stories restent `a-verifier`. La correction candidate
+[PILOTE-004](01-pilote-travail/pilote-004-preferences-candidat.md) et la tranche
+[TRAV-017](01-pilote-travail/suites/trav-017-clause-non-concurrence.md) sont
+proposées ; aucune extension métier n'est engagée.
 La lecture des sources bloquées dans l'outil web dispose désormais de
 [voies officielles testées sans souscription API](../references/legal-source-access.md)
 (BASE-010) : CDTN, CELLAR et extractions XML ciblées DILA ; l'indexation complète
@@ -126,7 +132,8 @@ des stocks reste à réaliser. L'accès PISTE refusé à l'utilisateur n'est pas
    petites tâches. Le pilote travail a été retenu lors de l'implémentation de PILOTE-002.
 5. PILOTE-001 a inventorié ce plugin ; PILOTE-002 a réécrit un seul skill,
    la revue d'un contrat reçu par un candidat, avec une recette encore ouverte.
-6. PILOTE-003 : vérifier ce résultat et ajuster la méthode avant de généraliser.
+6. PILOTE-003 a produit le bilan et les corrections ; achever la recette
+   d'installation et d'usage avant de statuer sur une extension.
 7. Choisir ensuite un autre skill ou un premier nouveau domaine, puis préparer
    une livraison correspondant seulement au périmètre terminé.
 
@@ -216,14 +223,15 @@ besoin. Les exemples ci-dessus n'annoncent pas des fonctionnalités déjà prés
 | [PILOTE-001](01-pilote-travail/pilote-001-inventaire-travail.md) | Inventorier le plugin travail et découper son adaptation | audit | P1 |
 | [PILOTE-002](01-pilote-travail/pilote-002-revue-embauche.md) | Adapter un premier skill : revue d'embauche en France | implementation | P1 |
 | [PILOTE-003](01-pilote-travail/pilote-003-bilan-pilote.md) | Vérifier le pilote avant d'étendre l'adaptation | validation | P1 |
+| [PILOTE-004](01-pilote-travail/pilote-004-preferences-candidat.md) | Modifier une préférence candidat sans initialisation professionnelle | implementation | P1 |
 
 ## Adaptations à découper — P2
 
 Les suites du plugin travail sont détaillées dans le
-[découpage TRAV-001 à TRAV-016](01-pilote-travail/pilote-001-decoupage-travail.md).
+[découpage TRAV-001 à TRAV-017](01-pilote-travail/pilote-001-decoupage-travail.md).
 Chaque story a son fichier, ses dépendances et ses scénarios. Elles attendent
-la clôture de PILOTE-003 ; PILOTE-002 reste la seule tranche métier d'embauche
-réécrite.
+la clôture de PILOTE-003 et une sélection explicite ; PILOTE-002 reste la seule
+tranche métier d'embauche réécrite.
 
 | Story | Résultat attendu | Nature | Priorité |
 |---|---|---|---|

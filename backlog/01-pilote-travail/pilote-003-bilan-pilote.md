@@ -1,7 +1,7 @@
 ---
 id: PILOTE-003
 titre: "Vérifier le pilote avant d'étendre l'adaptation"
-statut: proposee
+statut: a-verifier
 priorite: P1
 nature: validation
 dependances: [PILOTE-002]
@@ -29,14 +29,41 @@ Vérifier que le découpage, les sources et l'installation fonctionnent sur un c
 
 ## Critères d'acceptation
 
-- [ ] Les résultats observés et les vérifications impossibles sont rapportés séparément.
-- [ ] Aucun simple contrôle de structure n'est présenté comme une validation juridique.
-- [ ] Les défauts du pilote ont une correction identifiée avant généralisation.
-- [ ] L'extension à un autre skill ou domaine est un choix explicite ; elle n'est pas lancée automatiquement par cette story.
+- [x] Les résultats observés et les vérifications impossibles sont rapportés séparément dans le bilan du 15 octobre 2026.
+- [x] Aucun simple contrôle de structure n'est présenté comme une validation juridique.
+- [x] Les défauts du pilote ont une correction identifiée avant généralisation ; leur correction effective reste à vérifier.
+- [x] L'extension à un autre skill ou domaine est un choix explicite ; elle n'est pas lancée automatiquement par cette story.
 
 ## Vérification
 
 Installer le plugin seul dans un environnement de test et rejouer au moins un scénario sans profil préalable et un scénario sans accès à une source.
+
+## Bilan d'exécution — 15 octobre 2026
+
+Le [bilan de recette](pilote-003-verification.md) distingue les constats,
+les contrôles impossibles, les défauts et leurs corrections. Les
+[preuves techniques](pilote-003-controles.json) portent sur un paquet détaché
+de 36 fichiers, version `0.2.0`, sans modifier le plugin de PILOTE-002.
+La [relecture des scénarios](pilote-003-relecture.md) couvre H01–H14 et ajoute
+deux pièces complémentaires ; les [lectures officielles](pilote-003-sources-lues.json)
+sont conservées séparément des sorties rédactionnelles.
+
+Les suites existantes TRAV-001 à TRAV-016 sont reprises sans les lancer.
+[PILOTE-004](pilote-004-preferences-candidat.md) borne la correction du parcours
+de préférences ; [TRAV-017](suites/trav-017-clause-non-concurrence.md) propose
+l'approfondissement d'une seule clause. Le [découpage actualisé](pilote-001-decoupage-travail.md)
+relie ces propositions aux défauts constatés et maintient le choix explicite
+d'une prochaine tranche.
+
+**Portée :** contrôles statiques et essais du helper sur données fictives
+effectués ; relecture par l'agent de maintenance, sans avis juridique
+indépendant. Installation, invocation réelle sans profil/sans source et
+compréhension par un participant réel **non exécutées** : CLI Claude absente,
+moteur Docker indisponible, aucun participant. Une copie détachée n'est pas
+une installation ni un environnement inaccessible au checkout et au profil
+réel. PILOTE-002 et PILOTE-003 restent `a-verifier` jusqu'à la recette décrite
+dans le bilan ; les cases de compte rendu cochées ne valent pas clôture.
+La généralisation n'est pas engagée.
 
 ## Hors périmètre
 

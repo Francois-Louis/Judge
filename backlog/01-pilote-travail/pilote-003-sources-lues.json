@@ -1,0 +1,414 @@
+{
+  "story": "PILOTE-003",
+  "review_date": "2026-10-15",
+  "timezone": "Europe/Paris",
+  "captured_at_utc": "2026-10-15T21:02:00.401739+00:00",
+  "source_revision": "c3fea8dc8c4146988d1446eadc8c5f860af71499",
+  "source_worktree_status": " M .claude-plugin/marketplace.json\n M NOTICE\n M README.md\n M backlog/01-pilote-travail/pilote-002-revue-embauche.md\n M employment-legal/.claude-plugin/plugin.json\n M employment-legal/CLAUDE.md\n M employment-legal/NOTICE\n M employment-legal/README.md\n M employment-legal/skills/cold-start-interview/SKILL.md\n M employment-legal/skills/customize/SKILL.md\n M employment-legal/skills/hiring-review/SKILL.md\n M scripts/test-base008-isolation.py\n?? backlog/01-pilote-travail/pilote-002-controles.json\n?? backlog/01-pilote-travail/pilote-002-pieces-fictives.md\n?? backlog/01-pilote-travail/pilote-002-sorties-relecture.md\n?? backlog/01-pilote-travail/pilote-002-sources-lues.json\n?? backlog/01-pilote-travail/pilote-002-verification.md\n?? employment-legal/references/hiring-review-fr.md\n",
+  "environment": {
+    "python": "3.12.9 | packaged by Anaconda, Inc. | (main, Feb  6 2025, 18:49:16) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "claude": null,
+    "docker_server": {
+      "command": [
+        "docker",
+        "info",
+        "--format",
+        "{{.ServerVersion}}"
+      ],
+      "cwd": "C:\\Users\\fltou\\Desktop\\Judge",
+      "exit_code": 0,
+      "stdout": "\n",
+      "stderr": "error during connect: Get \"http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.47/info\": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.\n"
+    }
+  },
+  "artifact": {
+    "root": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\artifact\\employment-legal",
+    "archive": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\judge-fr-eu-employment-legal-0.2.0.zip",
+    "sha256": "c98a736c7558ce2d26a09193cef8fb793eba88cffb4521adc83a1c6e48d064db",
+    "files": [
+      {
+        "path": ".claude-plugin/plugin.json",
+        "sha256": "6a12d09b21cf8f244b5d16706fc36b4697f884f25aff5abb4530112b8ca28c13",
+        "bytes": 451
+      },
+      {
+        "path": ".gitignore",
+        "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+        "bytes": 10
+      },
+      {
+        "path": ".mcp.json",
+        "sha256": "bc8eca5209f34144a43ecde0dcc7cd9eeed74f86c6ae4df7f5ba27e27c2bf613",
+        "bytes": 530
+      },
+      {
+        "path": "agents/leave-tracker.md",
+        "sha256": "5272f550f2e2bc09518df72c76f9960829be081f86e5d8180865b6cba0cc266c",
+        "bytes": 12807
+      },
+      {
+        "path": "CLAUDE.md",
+        "sha256": "04ee28981cb225bfa02bae4e55aa68bb6c996483f0eddaaf8d7907938366799a",
+        "bytes": 43774
+      },
+      {
+        "path": "data/.gitkeep",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "hooks/hooks.json",
+        "sha256": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+        "bytes": 18
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "bytes": 11358
+      },
+      {
+        "path": "NOTICE",
+        "sha256": "8c0258e0c9c16fe430e238bd9581677af374534a90da51b659f07dc3b6850b89",
+        "bytes": 2059
+      },
+      {
+        "path": "README.md",
+        "sha256": "8a2b9d27ae195c85f5bd11d83dd07b6ecfbe147295ae64938e00a2474a573331",
+        "bytes": 4784
+      },
+      {
+        "path": "references/company-profile-template.md",
+        "sha256": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+        "bytes": 1541
+      },
+      {
+        "path": "references/dashboard-template.md",
+        "sha256": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+        "bytes": 4372
+      },
+      {
+        "path": "references/hiring-review-fr.md",
+        "sha256": "c459bb76a9b3201d09109193bff9eead7ec5a8c59b15cca20f88be39247af1db",
+        "bytes": 8302
+      },
+      {
+        "path": "references/isolation.md",
+        "sha256": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+        "bytes": 4461
+      },
+      {
+        "path": "references/shared/research-citation-method.md",
+        "sha256": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+        "bytes": 18828
+      },
+      {
+        "path": "scripts/judge_store.py",
+        "sha256": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+        "bytes": 7848
+      },
+      {
+        "path": "skills/cold-start-interview/SKILL.md",
+        "sha256": "5027d9ead20d51892d959d98380729c6f8679b7549e7c39dadc20a1bd7f6df43",
+        "bytes": 35827
+      },
+      {
+        "path": "skills/customize/SKILL.md",
+        "sha256": "04835cacebc9a67f3d709324f0a960b6cf0efeb1607e452b36e4bdf02e07ab46",
+        "bytes": 6703
+      },
+      {
+        "path": "skills/expansion-kickoff/SKILL.md",
+        "sha256": "d9380c6381af98cd75332911cab4c1499c35b6748200635ba09ee577a752042c",
+        "bytes": 1928
+      },
+      {
+        "path": "skills/expansion-update/SKILL.md",
+        "sha256": "cbf7419813711c6b741f31f98b8855306c221ea25be34b5ee72badd0ae8cd50a",
+        "bytes": 2713
+      },
+      {
+        "path": "skills/handbook-updates/SKILL.md",
+        "sha256": "0fa25907f89521d26b09e1d87ad70b2d22b133db7cb287f4b3448d64b2a2a3cc",
+        "bytes": 3952
+      },
+      {
+        "path": "skills/hiring-review/SKILL.md",
+        "sha256": "00fa9c89e08af03fcc51cdb380250164168e964d2c0c1769449bd5e720a1d533",
+        "bytes": 13467
+      },
+      {
+        "path": "skills/internal-investigation/SKILL.md",
+        "sha256": "a2629733586e723f3f1301151b26994cba444caed68ca0463a5c8d708747b870",
+        "bytes": 28235
+      },
+      {
+        "path": "skills/international-expansion/SKILL.md",
+        "sha256": "d23a2b706b5d213c34a3cf09fb0205d928abe87b1ef9fa4aef6db14b42c005b7",
+        "bytes": 15953
+      },
+      {
+        "path": "skills/investigation-add/SKILL.md",
+        "sha256": "7e1cdb3e0a17ac1744aaf5649ed4612405d601299653e7c93518c5866ce8be6b",
+        "bytes": 1652
+      },
+      {
+        "path": "skills/investigation-memo/SKILL.md",
+        "sha256": "6e7a4fcac56471b202d37de725a18d4a13fa99fdc6fb265424ba8ad168e8b947",
+        "bytes": 1454
+      },
+      {
+        "path": "skills/investigation-open/SKILL.md",
+        "sha256": "eed8f997933e09e1530678f714d3e98ff85be662e42a0caa96ba912041a2942d",
+        "bytes": 1452
+      },
+      {
+        "path": "skills/investigation-query/SKILL.md",
+        "sha256": "5020badcc24a30cc8aaf604dcba5d34c5cbbc9f617ea17a37a715bb7eb58bc6b",
+        "bytes": 1719
+      },
+      {
+        "path": "skills/investigation-summary/SKILL.md",
+        "sha256": "c94637fd37aa0fb465bd50cfe303131549de8675780295d14265f1d42410a33a",
+        "bytes": 1615
+      },
+      {
+        "path": "skills/leave-tracker/SKILL.md",
+        "sha256": "442762e338d34ac93c0a81513c2cd03e331529db6b6592687d6507119ea4432a",
+        "bytes": 1579
+      },
+      {
+        "path": "skills/log-leave/SKILL.md",
+        "sha256": "321b136138d04e57fb048f96f3f2e2f2b9429e980bc6908e14e9385ebae8b9e7",
+        "bytes": 2809
+      },
+      {
+        "path": "skills/matter-workspace/SKILL.md",
+        "sha256": "7ddfd6905a28693b6e7ba58442dc01c4462f17f294ce46b02fb07dae2cfe7a9b",
+        "bytes": 10273
+      },
+      {
+        "path": "skills/policy-drafting/SKILL.md",
+        "sha256": "c7c6060d12424793854a0c721e2f5e7a7868f83aa3241b7b5eacc0e612f6f4ae",
+        "bytes": 5787
+      },
+      {
+        "path": "skills/termination-review/SKILL.md",
+        "sha256": "799e19e110ee79d4da99a7c6cb5f928c141043c43f23f9e0973d0a4283fdcc57",
+        "bytes": 16972
+      },
+      {
+        "path": "skills/wage-hour-qa/SKILL.md",
+        "sha256": "3fb71f569807838269e4b852ad937217ed752f290eea7694a2c3379ec7bff706",
+        "bytes": 13663
+      },
+      {
+        "path": "skills/worker-classification/SKILL.md",
+        "sha256": "6692c9862b2df832155e69ad2e63f7460f05c061b13f5f17112552492cdb75e7",
+        "bytes": 22534
+      }
+    ],
+    "version": "0.2.0",
+    "installation_status": "non executee",
+    "isolation_scope": "Detached files only; host checkout/home remain accessible. Not an OS sandbox.",
+    "unchanged_after_helper": true
+  },
+  "marketplace": {
+    "path": ".claude-plugin/marketplace.json",
+    "sha256": "e7405b4ed51a31886a8b97b878abf9b934804ad7f57f90fd15dbd9dceac13dff",
+    "source_matches": true,
+    "fields_match": {
+      "name": true,
+      "description": true,
+      "author": true
+    },
+    "schema_status": "non execute : CLI claude absente"
+  },
+  "method": {
+    "version": "1.0.0",
+    "source_sha256": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "artifact_sha256": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "identical": true
+  },
+  "components": {
+    "skills": [
+      "cold-start-interview",
+      "customize",
+      "expansion-kickoff",
+      "expansion-update",
+      "handbook-updates",
+      "hiring-review",
+      "internal-investigation",
+      "international-expansion",
+      "investigation-add",
+      "investigation-memo",
+      "investigation-open",
+      "investigation-query",
+      "investigation-summary",
+      "leave-tracker",
+      "log-leave",
+      "matter-workspace",
+      "policy-drafting",
+      "termination-review",
+      "wage-hour-qa",
+      "worker-classification"
+    ],
+    "agents": [
+      "agents/leave-tracker.md"
+    ],
+    "hooks": {
+      "hooks": {}
+    },
+    "mcp": {
+      "mcpServers": {
+        "Slack": {
+          "type": "http",
+          "url": "https://mcp.slack.com/mcp",
+          "title": "Slack",
+          "description": "Search messages, read channels, find discussions across your workspace."
+        },
+        "Google Drive": {
+          "type": "http",
+          "url": "https://drivemcp.googleapis.com/mcp/v1",
+          "title": "Google Drive",
+          "description": "Search, read, and fetch documents from Google Drive."
+        }
+      },
+      "recommendedCategories": [
+        "hris",
+        "documents",
+        "chat",
+        "email"
+      ]
+    }
+  },
+  "structure": {
+    "command": [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\tools\\check-plugin-package.py",
+      "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\artifact\\employment-legal",
+      "--schema"
+    ],
+    "cwd": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\artifact\\employment-legal",
+    "exit_code": 2,
+    "stdout": "A_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/verification-log.md\nA_RELIRE README.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE agents/leave-tracker.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE agents/leave-tracker.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE references/dashboard-template.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/<domain>/outputs/dashboard-<topic>-<date>.html\nA_RELIRE references/isolation.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/\nA_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md\nA_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/CLAUDE.md\nA_RELIRE skills/cold-start-interview/SKILL.md: commande d'un autre plugin à qualifier: /judge-fr-eu-legal-builder-hub:related-skills-surfacer\nA_RELIRE skills/customize/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md\nA_RELIRE skills/customize/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/expansion-kickoff/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/expansion-kickoff/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[slug].yaml\nA_RELIRE skills/expansion-update/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/expansion-update/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[slug].yaml\nA_RELIRE skills/handbook-updates/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/handbook-updates/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[matter-slug]/documents-reviewed.yaml\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[matter-slug]/log.yaml\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[matter-slug]/sources-checklist.yaml\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[slug]/memo.md\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[slug]/sources-checklist.yaml\nA_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/international-expansion/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/international-expansion/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[country-slug].yaml\nA_RELIRE skills/international-expansion/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/investigation-add/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/investigation-open/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/leave-tracker/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE skills/log-leave/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/log-leave/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/*/matter.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<slug>/\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<slug>/matter.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/_archived/\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/_archived/<slug>/\nA_RELIRE skills/policy-drafting/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/policy-drafting/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/termination-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/termination-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/wage-hour-qa/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/wage-hour-qa/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/worker-classification/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/worker-classification/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nSTRUCTURE INCOMPLET: 28 fichiers Markdown; contrôle statique borné\nSCHEMA NON_EXECUTE: CLI claude absente\nEXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE\n",
+    "stderr": ""
+  },
+  "client_scenarios": {
+    "status": "non execute",
+    "reason": "CLI Claude absente ; moteur Docker indisponible. Aucun client authentifie ni environnement de recette isole disponible."
+  },
+  "user_comprehension": {
+    "status": "non execute",
+    "reason": "Aucun participant reel."
+  },
+  "helper_fixtures": {
+    "scope": "Real packaged Python helper only; fake home passed with --home. No client or LLM behavior tested.",
+    "home": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\fake-home",
+    "missing_profile": {
+      "command": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\artifact\\employment-legal\\scripts\\judge_store.py",
+        "read",
+        "CLAUDE.md",
+        "--home",
+        "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\fake-home"
+      ],
+      "cwd": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\artifact\\employment-legal",
+      "exit_code": 0,
+      "stdout": "{\"path\": \"C:\\\\Users\\\\fltou\\\\AppData\\\\Local\\\\Temp\\\\judge-pilote003-py8q3r4m\\\\fake-home\\\\.claude\\\\plugins\\\\config\\\\judge-fr-eu\\\\employment-legal\\\\CLAUDE.md\", \"content\": null, \"status\": \"interview-required\", \"events\": [{\"operation\": \"read\", \"path\": \"C:\\\\Users\\\\fltou\\\\AppData\\\\Local\\\\Temp\\\\judge-pilote003-py8q3r4m\\\\fake-home\\\\.claude\\\\plugins\\\\config\\\\judge-fr-eu\\\\employment-legal\\\\CLAUDE.md\"}]}\n",
+      "stderr": ""
+    },
+    "create_minimal_profile": {
+      "command": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\artifact\\employment-legal\\scripts\\judge_store.py",
+        "create",
+        "CLAUDE.md",
+        "--home",
+        "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\fake-home"
+      ],
+      "cwd": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\artifact\\employment-legal",
+      "exit_code": 0,
+      "stdout": "{\"path\": \"C:\\\\Users\\\\fltou\\\\AppData\\\\Local\\\\Temp\\\\judge-pilote003-py8q3r4m\\\\fake-home\\\\.claude\\\\plugins\\\\config\\\\judge-fr-eu\\\\employment-legal\\\\CLAUDE.md\", \"events\": [{\"operation\": \"create\", \"path\": \"C:\\\\Users\\\\fltou\\\\AppData\\\\Local\\\\Temp\\\\judge-pilote003-py8q3r4m\\\\fake-home\\\\.claude\\\\plugins\\\\config\\\\judge-fr-eu\\\\employment-legal\\\\CLAUDE.md\"}], \"sha256\": \"cd63caa8d6d6e53b77c57fa0d2eeca05c8b2fb1bd25d44ca6c9f94bdc2877625\"}\n",
+      "stderr": ""
+    },
+    "present_profile": {
+      "command": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\artifact\\employment-legal\\scripts\\judge_store.py",
+        "read",
+        "CLAUDE.md",
+        "--home",
+        "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\fake-home"
+      ],
+      "cwd": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\artifact\\employment-legal",
+      "exit_code": 0,
+      "stdout": "{\"path\": \"C:\\\\Users\\\\fltou\\\\AppData\\\\Local\\\\Temp\\\\judge-pilote003-py8q3r4m\\\\fake-home\\\\.claude\\\\plugins\\\\config\\\\judge-fr-eu\\\\employment-legal\\\\CLAUDE.md\", \"content\": \"# Profil fictif candidat\\nFormat : texte court\\nLieu : Lyon\\nTextes collectifs : inconnu\\n\", \"status\": \"present\", \"events\": [{\"operation\": \"read\", \"path\": \"C:\\\\Users\\\\fltou\\\\AppData\\\\Local\\\\Temp\\\\judge-pilote003-py8q3r4m\\\\fake-home\\\\.claude\\\\plugins\\\\config\\\\judge-fr-eu\\\\employment-legal\\\\CLAUDE.md\"}], \"sha256\": \"cd63caa8d6d6e53b77c57fa0d2eeca05c8b2fb1bd25d44ca6c9f94bdc2877625\"}\n",
+      "stderr": ""
+    },
+    "sentinels_unchanged": true,
+    "files_created": [
+      ".claude\\plugins\\config\\judge-fr-eu\\employment-legal\\CLAUDE.md"
+    ],
+    "assertions": {
+      "missing_profile_not_imported": true,
+      "missing_profile_status": "interview-required",
+      "created_profile_exact": true,
+      "sentinels_unchanged": true
+    }
+  },
+  "regressions": [
+    {
+      "command": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/test-check-plugin-package.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_command_file_and_builtin_are_distinguished (__main__.InstalledArtifactTests.test_command_file_and_builtin_are_distinguished) ... ok\ntest_dynamic_profile_does_not_pass_silently (__main__.InstalledArtifactTests.test_dynamic_profile_does_not_pass_silently) ... ok\ntest_escape_and_missing_reference_definition (__main__.InstalledArtifactTests.test_escape_and_missing_reference_definition) ... ok\ntest_frontmatter_parse_and_manifest_entry_point (__main__.InstalledArtifactTests.test_frontmatter_parse_and_manifest_entry_point) ... ok\ntest_missing_yaml_is_not_success (__main__.InstalledArtifactTests.test_missing_yaml_is_not_success) ... ok\ntest_other_plugin_is_manual_review (__main__.InstalledArtifactTests.test_other_plugin_is_manual_review) ... ok\ntest_removed_embedded_reference_fails_even_if_source_exists (__main__.InstalledArtifactTests.test_removed_embedded_reference_fails_even_if_source_exists) ... ok\ntest_schema_invocation_uses_artifact_as_working_directory (__main__.InstalledArtifactTests.test_schema_invocation_uses_artifact_as_working_directory) ... ok\ntest_schema_tool_absence_is_not_success (__main__.InstalledArtifactTests.test_schema_tool_absence_is_not_success) ... ok\ntest_standalone_package_with_real_method (__main__.InstalledArtifactTests.test_standalone_package_with_real_method) ... ok\ntest_typo_command_fails (__main__.InstalledArtifactTests.test_typo_command_fails) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.339s\n\nOK\n"
+    },
+    {
+      "command": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/test-base008-isolation.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_five_cookbooks_outputs_audit_and_separate_deployments (__main__.CookbookStorage.test_five_cookbooks_outputs_audit_and_separate_deployments) ... ok\ntest_orchestrator_audit_and_report_paths (__main__.CookbookStorage.test_orchestrator_audit_and_report_paths) ... skipped 'jsonschema absent: orchestrator test not executed'\ntest_all_documented_qualified_commands_resolve (__main__.MigratedPackages.test_all_documented_qualified_commands_resolve) ... ok\ntest_all_entrypoints_load_boundary_and_no_legacy_access (__main__.MigratedPackages.test_all_entrypoints_load_boundary_and_no_legacy_access) ... ok\ntest_detached_package_structure (__main__.MigratedPackages.test_detached_package_structure) ... ok\ntest_guard_refuses_traversal_windows_paths_and_existing_destinations (__main__.MigratedPackages.test_guard_refuses_traversal_windows_paths_and_existing_destinations) ... ok\ntest_hard_links_refused (__main__.MigratedPackages.test_hard_links_refused) ... ok\ntest_hub_lifecycle_leaves_original_and_durable_data_untouched (__main__.MigratedPackages.test_hub_lifecycle_leaves_original_and_durable_data_untouched) ... ok\ntest_hub_local_edits_and_backup_collision_preserved (__main__.MigratedPackages.test_hub_local_edits_and_backup_collision_preserved) ... ok\ntest_hub_refuses_existing_destination_unknown_skill_and_original_log (__main__.MigratedPackages.test_hub_refuses_existing_destination_unknown_skill_and_original_log) ... ok\ntest_hub_rejects_forged_logged_path_and_changed_backup (__main__.MigratedPackages.test_hub_rejects_forged_logged_path_and_changed_backup) ... ok\ntest_manifest_contract_and_150_skill_names (__main__.MigratedPackages.test_manifest_contract_and_150_skill_names) ... ok\ntest_real_storage_cli_all_domains_and_missing_cache_trap (__main__.MigratedPackages.test_real_storage_cli_all_domains_and_missing_cache_trap) ... ok\ntest_shared_profile_and_package_update_rollback_preserve_data (__main__.MigratedPackages.test_shared_profile_and_package_update_rollback_preserve_data) ... ok\ntest_symbolic_links_refused (__main__.MigratedPackages.test_symbolic_links_refused) ... skipped \"OS cannot create a symbolic link: [WinError 1314] Le client ne dispose pas d’un privilège nécessaire: 'C:\\\\\\\\Users\\\\\\\\fltou\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\judge-base008-home-26qbqkcr\\\\\\\\outside' -> 'C:\\\\\\\\Users\\\\\\\\fltou\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\judge-base008-home-26qbqkcr\\\\\\\\fork\\\\\\\\linked'\"\ntest_windows_junctions_refused (__main__.MigratedPackages.test_windows_junctions_refused) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 24.423s\n\nOK (skipped=2)\n"
+    }
+  ],
+  "checker": {
+    "source": "scripts/check-plugin-package.py",
+    "detached_copy": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-pilote003-py8q3r4m\\tools\\check-plugin-package.py",
+    "sha256": "24a0d15959758ad428648bd7bf9dd35dcf6f164315dca62f3d3b5d6222f741a5"
+  },
+  "documentary_checks": {
+    "markdown_files_checked": 8,
+    "local_links_checked": 141,
+    "stories": 84,
+    "statuses": {
+      "terminee": 13,
+      "en-cours": 1,
+      "a-verifier": 2,
+      "proposee": 68
+    },
+    "dependency_graph": "acyclic",
+    "json": "parseable",
+    "artifact_matches_source_and_archive": true,
+    "git_diff_check": 0,
+    "errors": []
+  }
+}

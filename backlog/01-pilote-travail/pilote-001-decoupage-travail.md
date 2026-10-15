@@ -6,7 +6,8 @@ dans [PILOTE-002](pilote-002-revue-embauche.md), puis sa validation
 [PILOTE-003](pilote-003-bilan-pilote.md). La dépendance USAGE-002 est conservée :
 l'audit ne remplace pas la priorisation des usages.
 
-Les 16 stories ci-dessous sont `proposee`, priorité P2. Leurs implémentations
+Les 17 stories métier ci-dessous sont `proposee`, priorité P2. Les 16 premières
+proviennent de PILOTE-001 ; TRAV-017 est proposée par PILOTE-003. Leurs implémentations
 attendent PILOTE-003 et une sélection de tranche ; aucun développement
 simultané de tout le plugin n'est lancé. TRAV-006 est un **cadrage**, car une
 adaptation de tout le licenciement économique collectif resterait trop vaste.
@@ -29,6 +30,29 @@ adaptation de tout le licenciement économique collectif resterait trop vaste.
 | [TRAV-014](suites/trav-014-premiere-embauche-france.md) | Préparer les questions d'une première embauche en France par un employeur étranger — `expansion-kickoff ; international-expansion` | Socle et PILOTE-003 seulement |
 | [TRAV-015](suites/trav-015-suivi-premiere-embauche.md) | Mettre à jour les tâches d'une première embauche en France — `expansion-update ; schéma international-expansion` | TRAV-014 |
 | [TRAV-016](suites/trav-016-profils-dossiers-travail.md) | Compléter les profils et dossiers des parcours travail adaptés — `cold-start-interview ; customize ; matter-workspace ; CLAUDE.md` | Socle et PILOTE-003 seulement |
+| [TRAV-017](suites/trav-017-clause-non-concurrence.md) | Expliquer une clause de non-concurrence reçue à l'embauche — `hiring-review`, reliquat H02 | Socle et PILOTE-003 seulement |
+
+## Réexamen PILOTE-003 — 15 octobre 2026
+
+Le [bilan de recette](pilote-003-verification.md) maintient la dépendance
+PILOTE-003 : installation, invocation réelle et compréhension non juriste
+restent non exécutées. Aucune de ces propositions ne passe à `prete`.
+Les stories existantes ne sont pas recréées en doublon.
+
+- La configuration volontaire d'une préférence candidat reçoit la correction
+  bornée [PILOTE-004](pilote-004-preferences-candidat.md), priorité P1,
+  dans le périmètre du pilote. TRAV-016 conserve la refonte des autres parcours.
+- TRAV-008 reprend le défaut d'outillage du helper de l'agent congés (D04).
+  Son résultat reste une alerte de retour d'arrêt maladie, sans ordonnanceur.
+- TRAV-017 borne une lecture approfondie de la non-concurrence (D05), sans
+  lancer ce complément ni créer un nouveau domaine. Les exclusions du CDD,
+  les minima non vérifiés et le nominal incomplet ne deviennent pas couverts.
+- H01 complet et les essais sans profil/sans source restent à finir dans
+  PILOTE-002/PILOTE-003 ; aucune story d'implémentation ne les remplace.
+
+Choisir ensuite une seule tranche avec son résultat et ses sources vérifiables.
+Ni cette liste ni le présent bilan ne sélectionnent automatiquement TRAV-002,
+TRAV-017 ou un autre domaine. Les dépendances métier du tableau sont conservées.
 
 ## Regroupement des axes et ordre justifié
 

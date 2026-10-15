@@ -32,6 +32,13 @@ transfrontalier compris), dates et versions. Orienter ce qui sort de la tranche.
 
 Remplacer compteurs FMLA, épuisement ADA/USERRA et exclusions PTO ; rechercher les obligations françaises pertinentes au retour ; distinguer prévision et délai calculable.
 
+Traiter aussi D04 du [bilan PILOTE-003](../pilote-003-verification.md) :
+l'agent livré n'a aucun outil d'exécution Python dans sa liste alors que la
+frontière de stockage exige le helper. Arrêter les capacités minimales du
+parcours avant activation, puis vérifier l'appel réel du helper sur registre
+fictif. Sans exécuteur disponible, annoncer la limite et ne pas contourner le
+helper avec Read/Write ; ne pas élargir les droits MCP pour masquer ce défaut.
+
 Sources primaires à rechercher : Code du travail et textes de santé au travail, règles conventionnelles et computation applicables à la situation.
 Ces pistes sont **non vérifiées pour cette story**. Lire les dispositions,
 versions et transitions applicables lors de l'implémentation ; conserver
@@ -50,11 +57,13 @@ nécessaires/optionnels et prévoir la sortie utile si la recherche reste empêc
 - [ ] Sources et données sont traçables ; le paquet isolé ne requiert aucun fichier voisin du dépôt.
 - [ ] Une personne sans formation juridique comprend ce qui est établi, les pièces à demander et la prochaine démarche.
 - [ ] Le périmètre adapté et le reste non adapté sont explicitement distingués.
+- [ ] Les outils déclarés permettent réellement le helper obligatoire ; son absence provoque un arrêt des accès persistants, sans contournement ni droits externes supplémentaires.
 
 ## Vérification
 
 - Cas normal : Retour documenté : alerte utile reliée à une obligation vérifiée.
 - Limite : Date ou régime absent : pas de statut « aucun risque », pas de rupture automatique ; données manquantes identifiées.
+- Limite technique D04 : exécuteur Python absent ou refusé ; aucune lecture/écriture directe du registre. Avec exécuteur, conserver l'appel et la trace du helper sur le seul dossier autorisé.
 
 Exécuter sur pièces fictives, garder sorties, ressources lues et résultats
 par couche BASE-006 ; faire reformuler par un lecteur non juriste.
