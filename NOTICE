@@ -425,3 +425,15 @@ remain pending. No legal privilege is claimed by a document label.
   backlog/01-pilote-travail/pilote-002-sources-lues.json
   backlog/01-pilote-travail/pilote-002-verification.md
   backlog/01-pilote-travail/pilote-002-controles.json
+
+PILOTE-004 changes (2026-10-15): terminal candidate preference branches,
+minimal voluntary persistence, preservation of existing answers and return
+to hiring review. No substantive legal rule added; storage helper and
+BASE-005 method unchanged. Client and participant validation pending.
+  employment-legal/references/candidate-preferences.md (new)
+  employment-legal/CLAUDE.md
+  employment-legal/README.md
+  employment-legal/skills/cold-start-interview/SKILL.md
+  employment-legal/skills/customize/SKILL.md
+  employment-legal/skills/hiring-review/SKILL.md
+  scripts/test-pilote004-preferences.py (new)

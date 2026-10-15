@@ -46,11 +46,11 @@ Google Drive restent déclarés, aucun appel ni disponibilité déduit du manife
 |---|---|
 | JSON/YAML, nom canonique et liens locaux | Contrôle du paquet séparé : aucun `ECHEC`. `STRUCTURE INCOMPLET`, code 2, en raison des `A_RELIRE` de profils/chemins dynamiques et d'une orientation historique vers le hub. Ce n'est pas un paquet entièrement validé. |
 | Comparaison de méthode | Réussie, copie complète identique à BASE-005 `1.0.0` ; empreintes conservées. |
-| Schéma officiel plugin | `NON_EXECUTE` : CLI `claude` absente. Option `--schema` effectivement demandée au contrôleur. |
-| Schéma officiel marketplace | `NON_EXECUTE`, même absence de CLI. Syntaxe JSON et cohérence nom/description/auteur vérifiées par la suite d'isolation. |
+| Schéma officiel plugin | Initialement `NON_EXECUTE` (CLI absente). **Reprise le 15 octobre 2026** sur l'artefact exact de PILOTE-003 et sur le paquet courant : `SCHEMA OK: code 0`, avertissement `CLAUDE.md` attendu ; voir le [schéma CLI](pilote-003-schema-cli.json). |
+| Schéma officiel marketplace | **Reprise** : `claude plugin validate` code 0 sur le fichier dont l'empreinte est conservée. |
 | Skill Creator `quick_validate.py` | Exécuté : refuse le champ `argument-hint` déjà présent dans le skill Claude hérité. Champ conservé ; le validateur Codex générique ne valide pas ce dialecte. Le contrôle de paquet parse le frontmatter ; aucun succès de schéma officiel n'en est déduit. |
 | Régression stockage / noms / paquets détachés | Suite BASE-008 exécutée : 16 tests, 14 réussis et 2 ignorés (jsonschema absent ; privilège Windows de lien symbolique absent). La version attendue d'employment est mise à jour ; le test de mise à jour incrémente désormais la version de son paquet factice. |
-| Installation / invocation réelle | `NON_EXECUTE`, CLI Claude absente ; copie et archive hors checkout ne constituent pas une installation. Aucune observation de comportement autonome revendiquée. |
+| Installation / invocation réelle | `NON_EXECUTE` : la CLI est désormais disponible, mais aucun client isolé et authentifié de test n'a été lancé ; copie et archive hors checkout ne constituent pas une installation. Aucune observation de comportement autonome revendiquée. |
 | Sources juridiques | 28 articles reproduits par le CDTN lus, avec texte et dates affichées conservés. Deux accès Légifrance 403 suivis d'une lecture CDTN traçables ; décision sur non-concurrence inaccessible. Aucun texte conventionnel spécifique certifié. |
 | Relecture rédactionnelle | Quatre cas de revue/orientation et un brouillon consignés ; calculs simples vérifiés. Ce travail par le rédacteur ne remplace ni le client isolé ni une relecture juridique indépendante. |
 | Compréhension non juriste | `NON_EXECUTE` : aucun participant réel, aucune réponse inventée. |

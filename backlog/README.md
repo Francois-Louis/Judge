@@ -1,11 +1,14 @@
 # Backlog — adaptation juridique France / Union européenne
 
-Ce dossier organise le travail à venir. Le backlog contient 84 stories :
-BASE-001 à BASE-007, BASE-009, BASE-010, PILOTE-001 et USAGE-001 à USAGE-003 sont `terminee`,
+Ce dossier organise le travail à venir. Le backlog contient 86 stories :
+BASE-001 à BASE-007, BASE-009, BASE-010, PILOTE-001, PILOTE-005 et USAGE-001 à USAGE-003 sont `terminee`,
 BASE-008 est `en-cours`, PILOTE-002, PILOTE-003 et PILOTE-004 sont `a-verifier` ;
-les 67 autres sont `proposee`.
+les 68 autres sont `proposee`.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
 fait le bilan de l'epic 00 et de ses points ouverts.
+La [rétrospective du pilote travail](01-pilote-travail/retrospective-pilote-travail.md)
+fait celui de l'epic 01 ; ses corrections sans décision sont dans
+[PILOTE-005](01-pilote-travail/pilote-005-corrections-retrospective.md).
 Le [relevé BASE-001](00-fondations/base-001-releve-audit.md) consigne l'audit du
 15 octobre 2026. Le retrait local du contrôle CLA et les consignes de contribution
 au fork sont réalisés dans [BASE-007](00-fondations/base-007-cla-contributions-fork.md).
@@ -226,6 +229,7 @@ besoin. Les exemples ci-dessus n'annoncent pas des fonctionnalités déjà prés
 | [PILOTE-002](01-pilote-travail/pilote-002-revue-embauche.md) | Adapter un premier skill : revue d'embauche en France | implementation | P1 |
 | [PILOTE-003](01-pilote-travail/pilote-003-bilan-pilote.md) | Vérifier le pilote avant d'étendre l'adaptation | validation | P1 |
 | [PILOTE-004](01-pilote-travail/pilote-004-preferences-candidat.md) | Modifier une préférence candidat sans initialisation professionnelle | implementation | P1 |
+| [PILOTE-005](01-pilote-travail/pilote-005-corrections-retrospective.md) | Appliquer les corrections issues de la rétrospective du pilote travail | implementation | P1 |
 
 ## Adaptations à découper — P2
 

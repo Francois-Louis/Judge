@@ -64,8 +64,9 @@ certifient pas une exécution dans un client installé. Voir le
 [sources réellement lues](pilote-002-sources-lues.json) et les
 [preuves techniques](pilote-002-controles.json).
 
-La story reste `a-verifier` : schéma officiel et exécution isolée non réalisés
-(CLI Claude absente), nominal complet avec textes collectifs à compléter,
+La story reste `a-verifier` : schémas officiels désormais passés
+([reprise](pilote-003-schema-cli.json)), mais exécution isolée non réalisée
+(aucun client de test authentifié), nominal complet avec textes collectifs à compléter,
 scénarios complémentaires et essai avec participant réel à effectuer.
 Les conclusions dépendant de décisions ou de textes non lus restent réservées.
 

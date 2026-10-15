@@ -58,8 +58,10 @@ d'une prochaine tranche.
 **Portée :** contrôles statiques et essais du helper sur données fictives
 effectués ; relecture par l'agent de maintenance, sans avis juridique
 indépendant. Installation, invocation réelle sans profil/sans source et
-compréhension par un participant réel **non exécutées** : CLI Claude absente,
-moteur Docker indisponible, aucun participant. Une copie détachée n'est pas
+compréhension par un participant réel **non exécutées** : aucun client isolé
+et authentifié de test, moteur Docker indisponible, aucun participant. Les
+schémas officiels plugin et marketplace ont été passés en reprise
+([preuve](pilote-003-schema-cli.json)). Une copie détachée n'est pas
 une installation ni un environnement inaccessible au checkout et au profil
 réel. PILOTE-002 et PILOTE-003 restent `a-verifier` jusqu'à la recette décrite
 dans le bilan ; les cases de compte rendu cochées ne valent pas clôture.
@@ -68,4 +70,3 @@ La généralisation n'est pas engagée.
 ## Hors périmètre
 
 Publier une version, installer des plugins sur le compte de l'utilisateur ou poursuivre tous les domaines dans la foulée.
-

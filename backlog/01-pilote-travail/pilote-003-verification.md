@@ -42,8 +42,8 @@ revue. Aucun signalement n'est masqué ni converti en succès de structure.
 
 | Contrôle | Statut et cause constatée | Condition de reprise |
 |---|---|---|
-| Schéma officiel du plugin | **Non exécuté**. `--schema` demandé au contrôleur ; CLI `claude` absente du PATH. | Client Claude disponible dans l'environnement de recette, puis `claude plugin validate` sur l'artefact exact. |
-| Schéma officiel du marketplace | **Non exécuté**, même absence de CLI ; cohérence JSON seulement vérifiée. | Valider séparément le fichier du lot, dont l'empreinte est conservée. |
+| Schéma officiel du plugin | **Exécuté en reprise le 15 octobre 2026** avec le binaire `claude` 2.1.299 embarqué par l'application desktop, sans installation : artefact exact (ZIP et 36 empreintes inchangés), contrôleur `--schema` code 2 avec `SCHEMA OK: code 0`, mêmes 52 `A_RELIRE` ; `claude plugin validate` passe avec le seul avertissement attendu sur `CLAUDE.md`. Voir le [schéma CLI](pilote-003-schema-cli.json). | Clos pour cet artefact. À rejouer sur tout nouvel artefact. |
+| Schéma officiel du marketplace | **Exécuté en reprise** : fichier d'empreinte identique au lot, `claude plugin validate` code 0. | Clos pour ce fichier. |
 | Installation du seul plugin | **Non exécutée**. Aucun client Claude disponible ; `docker info` échoue car le moteur Docker Desktop n'est pas joignable. | Environnement jetable avec client authentifié et accès au seul paquet et aux fixtures. Le Docker présent sur le PATH ne suffit pas. |
 | Commande et scénarios réels | **Non exécutés**, H01–H16 compris, installation préalable indisponible. | Invocation de `/judge-fr-eu-employment-legal:hiring-review`, conservation des ressources lues, outils, sorties et erreurs. |
 | Compréhension non juriste | **Non exécutée**, aucun participant réel. | Recueillir sans aide du rédacteur engagement, question, interlocuteur et réserve, corriger puis refaire lire si nécessaire. |

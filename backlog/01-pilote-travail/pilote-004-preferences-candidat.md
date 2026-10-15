@@ -73,7 +73,8 @@ régressions BASE-006/BASE-008 exécutées. Voir le
 [bilan de vérification](pilote-004-verification.md) et les
 [accès et contenus observés](pilote-004-controles.json).
 
-La story reste `a-verifier` : CLI Claude absente, aucune invocation dans un
+La story reste `a-verifier` : schéma officiel du paquet courant passé
+([reprise](pilote-003-schema-cli.json)), mais aucune invocation dans un
 client isolé ni lecture avec un participant réel. Les cases ci-dessus ne sont
 pas cochées sur la seule base des consignes ou des tests du helper. La recette
 sans exécuteur et le retour effectif à la revue restent à observer. Aucune

@@ -44,6 +44,11 @@ Quel problème cette story résout et quel résultat concret doit exister à la 
 Décrire des scénarios et résultats attendus, pas une simple recherche de mots-clés.
 À l'exécution, ajouter les résultats observés et les limites de vérification.
 
+Pour une story de validation, au moins un critère porte sur le résultat de la
+vérification elle-même ; il reste non coché tant qu'elle n'est pas exécutée.
+Avant de déclarer un outil absent, chercher aussi hors du PATH (binaires
+embarqués, installations connues) et consigner les emplacements examinés.
+
 ## Hors périmètre
 
 Ce qui doit rester dans une autre story.

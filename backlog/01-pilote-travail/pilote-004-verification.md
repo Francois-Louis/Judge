@@ -51,7 +51,7 @@ de fixtures jetables, **pas d'une isolation système ou d'un client installé**.
 | Suite PILOTE-004 | **7 tests réussis**, opérations de fixture explicitement choisies par le test, sans exécution de skill. |
 | Régression BASE-008 | **14 réussis, 2 ignorés sur 16** : `jsonschema` absent et privilège Windows manquant pour le lien symbolique ; liens physiques et jonctions testés. |
 | Contrôleur BASE-006 | **11 tests réussis**. |
-| Structure du paquet détaché | **Code 2**, aucun `ECHEC`, **53 `A_RELIRE`**, 29 Markdown ; schéma non exécuté, CLI `claude` absente. Les chemins persistants/dynamiques et les références héritées restent à relire ; aucun succès global annoncé. |
+| Structure du paquet détaché | **Code 2**, aucun `ECHEC`, **53 `A_RELIRE`**, 29 Markdown. Schéma non exécuté lors de ce contrôle ; [reprise](pilote-003-schema-cli.json) du même paquet : `SCHEMA OK`. Les chemins persistants/dynamiques et les références héritées restent à relire ; aucun succès global annoncé. |
 | Validateur du skill-creator | Refuse le champ Claude `argument-hint` sur les trois skills concernés. Champ préexistant conservé pour le client cible ; YAML et liens contrôlés par BASE-006, sans prétendre à la validation officielle. |
 
 Pour rejouer les opérations de stockage :
@@ -71,7 +71,7 @@ python scripts/test-check-plugin-package.py
 
 ## Recette encore nécessaire
 
-La CLI `claude` est absente du PATH observé. L'installation, les commandes,
+Les schémas officiels passent en [reprise](pilote-003-schema-cli.json). L'installation, les commandes,
 le retour effectif à la revue et l'absence d'appel à des connecteurs n'ont pas
 été exécutés dans un client. Aucun lecteur non juriste réel n'a participé.
 Les critères d'acceptation restent ouverts pour cette raison, malgré les
