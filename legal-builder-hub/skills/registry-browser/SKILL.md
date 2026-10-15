@@ -8,9 +8,15 @@ description: >
 argument-hint: "[search query]"
 ---
 
+For every community lifecycle operation, first load `${CLAUDE_PLUGIN_ROOT}/references/community-lifecycle.md`. Its helper owns installation, updates, backups, rollback, disabling, enabling, uninstall and the fork journal.
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /registry-browser
 
-1. Load `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` → watched registries.
+1. Load `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` → watched registries.
 2. Use the workflow below.
 3. Search each registry. Show matches with descriptions.
 4. Offer to show full SKILL.md for any match.
@@ -23,7 +29,7 @@ Find skills across the watched registries. Search, preview, decide.
 
 ## Load context
 
-`~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` → watched registries list.
+`~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` → watched registries list.
 
 ## Workflow
 
@@ -31,10 +37,10 @@ Find skills across the watched registries. Search, preview, decide.
 
 For each watched registry:
 
-- GitHub repos: fetch `skills/` directory listing and each `SKILL.md` frontmatter (name + description).
+- GitHub repos: fetch the registry's skills directory directory listing and each `SKILL.md` frontmatter (name + description).
 - Marketplace-style registries: fetch the index.
 
-Cache the index locally (`references/registry-cache.json`) so browsing is fast. Refresh cache if >7 days old or on request.
+Cache the index locally (`~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/registry-cache.json`) so browsing is fast. Refresh cache if >7 days old or on request.
 
 ### Step 2: Search
 
@@ -66,9 +72,9 @@ On "view full SKILL.md": fetch and show the whole file. User reads it before dec
 
 If the user has a URL to a registry not in the watchlist:
 
-1. Fetch it, validate it's a skills repo (has `skills/` or `.claude-plugin/`)
+1. Fetch it, validate it's a skills repo (has the registry's skills directory or `.claude-plugin/`)
 2. Show what's in it
-3. Add to `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` → watched registries on confirmation
+3. Add to `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` → watched registries on confirmation
 
 ## Default registries
 

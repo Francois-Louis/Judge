@@ -1,3 +1,5 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Law Student Plugin
 
 Learning mode, not answer mode. Socratic drilling that asks YOU questions and pushes back on sloppy reasoning. Case briefing, outline building, flashcards, IRAC grading, cold-call prep, writing feedback that never rewrites for you, and exam forecasting from past professor exams. Calibrated to you — your classes, your bar jurisdiction, whether you want to be drilled or scaffolded.
@@ -13,27 +15,27 @@ Law students. 1L through bar prep.
 This one's about you, not an org. Your classes, your bar jurisdiction, your learning style — drill-me vs. explain-to-me. Bring materials: past outlines, graded essays, old exams (especially same-professor), MBE sets, syllabi, papers. Ten to twenty items is the target; below that the practice profile is flagged `LIMITED DATA` and downstream skills will be thinner until more is added.
 
 ```
-/law-student:cold-start-interview
+/judge-fr-eu-law-student:cold-start-interview
 ```
 
 ## Skills
 
-Every skill is invoked as `/law-student:<skill-name>`.
+Every skill is invoked as `/judge-fr-eu-law-student:<skill-name>`.
 
 | Skill | Does |
 |---|---|
-| `/law-student:cold-start-interview` | About-you interview + materials intake — classes, bar, learning style, materials |
-| `/law-student:socratic-drill [subject]` | Socratic drilling — it asks, you answer, it pushes back. Does not give the answer. |
-| `/law-student:case-brief [case]` | Case brief in your preferred format |
-| `/law-student:outline-builder [subject]` | Build or extend an outline in your format from class materials |
-| `/law-student:bar-prep-questions [subject]` | Bar prep questions, MBE or essay — jurisdiction-aware (UBE / NextGen / state-specific), flags majority/UBE vs. your state's rule |
-| `/law-student:flashcards [subject]` | Generate or drill flashcards; Leitner-style buckets; per-subject markdown; `--session <n>` mode |
-| `/law-student:study-plan` | Build or update a long-term study plan — phases, subjects by weakness, adaptive daily schedule from session history |
-| `/law-student:session <subject> <n>` | Focused N-question session on a subject; updates the plan with results |
-| `/law-student:irac-practice` | Grade your IRAC essay — structure, issues, rules, analysis. Tracks patterns across sessions. Never rewrites. |
-| `/law-student:cold-call-prep [case]` | Prep for cold-call — predict professor questions and drill them |
-| `/law-student:legal-writing [path-or-paste]` | Structural feedback on any draft — never rewrites, ever |
-| `/law-student:exam-forecast [class]` | Analyze past exams from same professor; forecast upcoming |
+| `/judge-fr-eu-law-student:cold-start-interview` | About-you interview + materials intake — classes, bar, learning style, materials |
+| `/judge-fr-eu-law-student:socratic-drill [subject]` | Socratic drilling — it asks, you answer, it pushes back. Does not give the answer. |
+| `/judge-fr-eu-law-student:case-brief [case]` | Case brief in your preferred format |
+| `/judge-fr-eu-law-student:outline-builder [subject]` | Build or extend an outline in your format from class materials |
+| `/judge-fr-eu-law-student:bar-prep-questions [subject]` | Bar prep questions, MBE or essay — jurisdiction-aware (UBE / NextGen / state-specific), flags majority/UBE vs. your state's rule |
+| `/judge-fr-eu-law-student:flashcards [subject]` | Generate or drill flashcards; Leitner-style buckets; per-subject markdown; `--session <n>` mode |
+| `/judge-fr-eu-law-student:study-plan` | Build or update a long-term study plan — phases, subjects by weakness, adaptive daily schedule from session history |
+| `/judge-fr-eu-law-student:session <subject> <n>` | Focused N-question session on a subject; updates the plan with results |
+| `/judge-fr-eu-law-student:irac-practice` | Grade your IRAC essay — structure, issues, rules, analysis. Tracks patterns across sessions. Never rewrites. |
+| `/judge-fr-eu-law-student:cold-call-prep [case]` | Prep for cold-call — predict professor questions and drill them |
+| `/judge-fr-eu-law-student:legal-writing [path-or-paste]` | Structural feedback on any draft — never rewrites, ever |
+| `/judge-fr-eu-law-student:exam-forecast [class]` | Analyze past exams from same professor; forecast upcoming |
 
 ## What "learning mode" means
 
@@ -71,7 +73,7 @@ The legal research connectors in this plugin aren't just data sources — they'r
 
 ## Storage
 
-Your practice profile is stored at `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` and survives plugin updates. Everything else is in your working directory:
+Your practice profile is stored at `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` and survives plugin updates. Everything else is in your working directory:
 
 ```
 law-student/
@@ -95,11 +97,21 @@ law-student/
 
 ## How it learns
 
-Your study profile at `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` isn't static — it improves as you use the plugin. Skills tell you when an output used a default you should tune. You can re-run setup, edit the file directly, or tell a skill to record a new position.
+Your study profile at `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` isn't static — it improves as you use the plugin. Skills tell you when an output used a default you should tune. You can re-run setup, edit the file directly, or tell a skill to record a new position.
 
 ## Notes
 
 - Drill-me vs. explain-to-me is set at cold-start; switch per session.
 - Case briefs and outlines use YOUR format. If you have existing outlines, point cold-start at them.
-- Bar prep targets your weak subjects from ~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md. It will keep coming back to them.
+- Bar prep targets your weak subjects from ~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md. It will keep coming back to them.
 - Every content-generating skill flags when it's uncertain. Trust the flags more than the absence of flags — an unflagged rule is something I'm confident on; check your source anyway before an exam.
+
+## Judge FR/UE 0.1.0
+
+Technical identity/storage migration only; inherited legal tasks still require their France/EU adaptation stories. Maintained by the Judge FR/UE maintainers at https://github.com/Francois-Louis/Judge, derived from Claude for Legal / Anthropic without claiming affiliation.
+
+Install `judge-fr-eu-law-student@judge-fr-eu` with explicit scope. Data lives under `config/judge-fr-eu/law-student/`, outside replaceable packages. See [storage boundary](references/isolation.md), [license](LICENSE) and [modification notice](NOTICE). Commands use the `judge-fr-eu-law-student:` prefix.
+
+```text
+/plugin install judge-fr-eu-law-student@judge-fr-eu --scope user
+```

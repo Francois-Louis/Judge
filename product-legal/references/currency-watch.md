@@ -1,3 +1,6 @@
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Product Legal Currency Watch
 
 **Last verified: 2026-05-10.**
@@ -32,6 +35,6 @@ Product/consumer protection law moves. These are the areas most likely to have c
 
 ## How to use this file
 
-When a launch review cites a rule, effective date, or enforcement posture, it should note: "This area moves — verify at [source]. See `references/currency-watch.md`."
+When a launch review cites a rule, effective date, or enforcement posture, it should note: "This area moves — verify at [source]. See `${CLAUDE_PLUGIN_ROOT}/references/currency-watch.md`."
 
 **This file goes stale.** Current as of May 2026. Update when you notice drift.

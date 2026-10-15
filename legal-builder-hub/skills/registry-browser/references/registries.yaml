@@ -1,5 +1,7 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Watched Registries
-# Default set. User adds more via /legal-builder-hub:registry-browser.
+# Default set. User adds more via /judge-fr-eu-legal-builder-hub:registry-browser.
 
 registries:
   - name: "lpm-skills"

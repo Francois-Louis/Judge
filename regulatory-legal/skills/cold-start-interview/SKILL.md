@@ -4,12 +4,16 @@ description: Cold-start interview — builds your watchlist, indexes the policy 
 argument-hint: "[--redo | --check-integrations]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /cold-start-interview
 
-1. Check `~/.claude/plugins/config/claude-for-legal/regulatory-legal/CLAUDE.md`. If a populated CLAUDE.md (no `[PLACEHOLDER]` markers) exists at `~/.claude/plugins/cache/claude-for-legal/regulatory-legal/*/CLAUDE.md` but not at the config path, copy it to the config path and tell the user what was migrated. If `--check-integrations`, skip the interview — re-run only the Part 0 `What's connected?` check and rewrite the `## Available integrations` table in `~/.claude/plugins/config/claude-for-legal/regulatory-legal/CLAUDE.md`.
+1. Check `~/.claude/plugins/config/judge-fr-eu/regulatory-legal/CLAUDE.md`. If the fork profile is absent, start a fresh France/EU interview; never read a cache or another distribution. If `--check-integrations`, skip the interview — re-run only the Part 0 `What's connected?` check and rewrite the `## Available integrations` table in `~/.claude/plugins/config/judge-fr-eu/regulatory-legal/CLAUDE.md`.
 2. Use the interview workflow below. Interview (Part 0 first — role + integrations — then watchlist): which regulators, where policies live, what's material.
 3. Connect policy folder. Index policies.
-4. Write `~/.claude/plugins/config/claude-for-legal/regulatory-legal/CLAUDE.md` (creating parent directories as needed) with watchlist + materiality threshold.
+4. Write `~/.claude/plugins/config/judge-fr-eu/regulatory-legal/CLAUDE.md` (creating parent directories as needed) with watchlist + materiality threshold.
 
 When probing integrations: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 
@@ -21,7 +25,7 @@ Every regulator publishes constantly. Most of it doesn't matter to you. This int
 
 ## Cold-start check
 
-Read `~/.claude/plugins/config/claude-for-legal/regulatory-legal/CLAUDE.md`:
+Read `~/.claude/plugins/config/judge-fr-eu/regulatory-legal/CLAUDE.md`:
 - **Does not exist** → start the interview.
 - **Contains `<!-- SETUP PAUSED AT: -->`** → greet the user and offer to resume from that section.
 - **Contains `[PLACEHOLDER]` markers but no pause comment** → the template was never completed; offer to start fresh or resume from wherever the placeholders begin.
@@ -29,14 +33,14 @@ Read `~/.claude/plugins/config/claude-for-legal/regulatory-legal/CLAUDE.md`:
 
 The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed.
 
-If a CLAUDE.md exists at the old cache path `~/.claude/plugins/cache/claude-for-legal/regulatory-legal/*/CLAUDE.md` but not at the config path, copy it forward.
+If the fork profile is absent, start a fresh interview; never import a cached profile.
 
 ## Check for the shared company profile
 
-Look for `~/.claude/plugins/config/claude-for-legal/company-profile.md`.
+Look for `~/.claude/plugins/config/judge-fr-eu/company-profile.md`.
 
 - **If it exists:** Read it. Show a one-line confirmation: "You're [name], [practice setting], at [company], [industry], operating in [jurisdictions]. Right? (Or say 'update' to change the shared profile.)" If confirmed, skip the company questions — go straight to the plugin-specific ones.
-- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
+- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `${CLAUDE_PLUGIN_ROOT}/references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
 
 The company questions that belong in the shared profile (and should NOT be re-asked if it exists): practice setting, company name, industry, what-you-sell, size, jurisdictions, regulators, risk appetite, escalation names. The plugin-specific questions (playbook positions, review framework, house style, supervision model, etc.) stay per-plugin.
 
@@ -52,11 +56,11 @@ Ask the user to confirm before proceeding: continue with project scope, or pause
 
 Show this preamble first (3-4 short lines, nothing more):
 
-> **`regulatory-legal` is for people who track regulatory developments, assess policy gaps, and manage compliance obligations.** Not your area? `/legal-builder-hub:related-skills-surfacer`.
+> **`regulatory-legal` is for people who track regulatory developments, assess policy gaps, and manage compliance obligations.** Not your area? `/judge-fr-eu-legal-builder-hub:related-skills-surfacer`.
 >
 > **2 minutes** gets you your role, practice setting, and primary regulatory regime. **15 minutes** adds your full watchlist, materiality thresholds, feed cadence, policy library index, and comment-period sources.
 >
-> Quick or full? (Upgrade any time with `/regulatory-legal:cold-start-interview --full`.)
+> Quick or full? (Upgrade any time with `/judge-fr-eu-regulatory-legal:cold-start-interview --full`.)
 
 Do not read the user's home-directory `~/CLAUDE.md`, `~/user.md`, or other personal memory to pre-populate the interview. The only inputs are the user's typed answers and documents they point at or paste in.
 
@@ -81,7 +85,7 @@ Once the user has picked, orient them. Cover, in your own voice:
 - **For uploads or path pointers (policy folder, existing watchlist, feed URLs):** "Paste the contents, share a file path, or say 'skip for now.' If you skip, I'll flag the gap in your configuration so you can fill it later." Then actually wait.
 - **Before writing the practice profile:** review the interview. List every question that was skipped or answered with a placeholder. Say: "Before I write your configuration, here's what's still open: [list]. Want to fill any of these now, or leave them as placeholders?" Wait for the answer before writing.
 - **Never** write the practice profile with silent gaps. Every placeholder should be a deliberate user choice to skip, not a question that scrolled past unanswered.
-- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/regulatory-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/claude-for-legal/regulatory-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /regulatory-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
+- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/judge-fr-eu-regulatory-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/judge-fr-eu/regulatory-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /judge-fr-eu-regulatory-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
 
 **Verify user-stated legal facts as they come up in setup.** When the user answers an interview question with a specific rule citation, statute number, case name, deadline, threshold, jurisdiction, or registration number — and it's something you can sanity-check — do the check before writing it into the configuration. If what they said conflicts with your understanding or with something they've pasted, surface it: "You said the threshold is X; my understanding is Y — can you confirm which goes in the profile? `[premise flagged — verify]`" A wrong fact written into CLAUDE.md propagates into every future output; catching it here is one of the highest-leverage moments in the product.
 
@@ -95,7 +99,7 @@ Once the user has picked, orient them. Cover, in your own voice:
 
 The user picked quick or full in the preamble. Branch:
 
-**Quick start path:** ask only Part 0 (role, practice setting, integrations) and watchlist scope. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for materiality threshold, digest cadence, and policy library structure. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/regulatory-legal:cold-start-interview --full` anytime to do the whole interview, or `/regulatory-legal:cold-start-interview --redo <section>` to re-do one part."
+**Quick start path:** ask only Part 0 (role, practice setting, integrations) and watchlist scope. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for materiality threshold, digest cadence, and policy library structure. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/judge-fr-eu-regulatory-legal:cold-start-interview --full` anytime to do the whole interview, or `/judge-fr-eu-regulatory-legal:cold-start-interview --redo <section>` to re-do one part."
 
 **Full setup path:** the existing interview flow below.
 
@@ -144,7 +148,7 @@ Then report findings in this form:
 > - ⚪ [Integration] — configured but not verified. Open your MCP settings to confirm.
 > - ✗ [Integration] — not found. [Feature] will fall back to [manual alternative]. [How to connect.]
 
-You don't need all of these. Core features work with free feeds (Federal Register API) and file access alone. Paid feeds add enrichment; manual paste-in always works. If you set something up later, re-run `/regulatory-legal:cold-start-interview --check-integrations`.
+You don't need all of these. Core features work with free feeds (Federal Register API) and file access alone. Paid feeds add enrichment; manual paste-in always works. If you set something up later, re-run `/judge-fr-eu-regulatory-legal:cold-start-interview --check-integrations`.
 
 #### Write to the config
 
@@ -179,7 +183,7 @@ Record the practice setting in the practice profile under `## Who's using this`.
 
 ### Part 1: The watchlist (2-3 min)
 
-*(This feeds `/regulatory-legal:reg-feed-watcher` and the `reg-change-monitor` agent — the feed only pulls from regulators on this list. Anything not on the list is invisible to the plugin until you paste it in via `/regulatory-legal:policy-diff`.)*
+*(This feeds `/judge-fr-eu-regulatory-legal:reg-feed-watcher` and the `reg-change-monitor` agent — the feed only pulls from regulators on this list. Anything not on the list is invisible to the plugin until you paste it in via `/judge-fr-eu-regulatory-legal:policy-diff`.)*
 
 **What does [your company] do?** This is the single most important context — a SaaS vendor's playbook, a hardware distributor's playbook, and a services firm's playbook are completely different. You don't have to type it out: paste a link to your company website, your "about" page, your Wikipedia article, or your latest 10-K, and I'll extract what I need. Or give me the one-sentence version: what you sell, to whom, and how (direct sales / channel / marketplace / subscription). This also tells me which regulators are even plausibly in your watchlist.
 
@@ -196,7 +200,7 @@ If not:
 
 ### Part 2: Materiality (the key question) (3-4 min)
 
-*(This feeds `/regulatory-legal:reg-feed-watcher` and the `reg-change-monitor` agent — your materiality threshold is the filter that decides whether a new development shows up immediately, in the weekly digest, or not at all. Wrong calibration here = noisy digests you stop reading.)*
+*(This feeds `/judge-fr-eu-regulatory-legal:reg-feed-watcher` and the `reg-change-monitor` agent — your materiality threshold is the filter that decides whether a new development shows up immediately, in the weekly digest, or not at all. Wrong calibration here = noisy digests you stop reading.)*
 
 Walk through examples. For each, would you want to know immediately, in a weekly digest, or not at all?
 
@@ -215,7 +219,7 @@ This builds the materiality threshold. Different companies calibrate very differ
 
 ### Part 3: The policy library (2-3 min)
 
-*(This feeds `/regulatory-legal:policy-diff` and `/regulatory-legal:gaps` — every incoming regulatory change is diffed against this library to find which policies it touches and who owns them.)*
+*(This feeds `/judge-fr-eu-regulatory-legal:policy-diff` and `/judge-fr-eu-regulatory-legal:gaps` — every incoming regulatory change is diffed against this library to find which policies it touches and who owns them.)*
 
 > Before I ask: do you have an existing policy library index — a spreadsheet, a table of contents, a wiki page — mapping each policy to its owner? Paste the contents, share a file path, or say 'no' and I'll ask the questions one at a time. If you share one, I'll import it rather than making you rebuild it from memory.
 
@@ -255,7 +259,7 @@ If yes: configure as enrichment layer on top of free feeds. If no: free feeds ar
 
 Record in the config that manual entry is enabled.
 
-**Step 4: Comment period tracking** *(This feeds `/regulatory-legal:comments` — the comment-period calendar logs deadlines and surfaces decisions when a comment window opens.)*
+**Step 4: Comment period tracking** *(This feeds `/judge-fr-eu-regulatory-legal:comments` — the comment-period calendar logs deadlines and surfaces decisions when a comment window opens.)*
 
 > When I see a proposed rule (NPRM) from your watchlist, I'll automatically log the comment deadline. Do you want me to flag these so you can decide whether to file a comment?
 
@@ -316,12 +320,12 @@ If yes, show this tailored list (not a generic template — these are the concre
 
 > **Here's what I'm good at in regulatory practice:**
 >
-> - **Check regulatory feeds for what's new** — e.g., "Filtered digest of rulemaking, guidance, and enforcement against your watchlist." Try: `/regulatory-legal:reg-feed-watcher`
-> - **Diff a regulatory change against your policy library** — e.g., "See exactly which internal policies a new rule impacts and what needs updating." Try: `/regulatory-legal:policy-diff`
-> - **Open gaps tracker** — e.g., "What's flagged and not yet closed across your portfolio, with owner and deadline." Try: `/regulatory-legal:gaps`
-> - **Track NPRM comment periods** — e.g., "What's open, comment deadlines, and a decision log on whether to file." Try: `/regulatory-legal:comments`
+> - **Check regulatory feeds for what's new** — e.g., "Filtered digest of rulemaking, guidance, and enforcement against your watchlist." Try: `/judge-fr-eu-regulatory-legal:reg-feed-watcher`
+> - **Diff a regulatory change against your policy library** — e.g., "See exactly which internal policies a new rule impacts and what needs updating." Try: `/judge-fr-eu-regulatory-legal:policy-diff`
+> - **Open gaps tracker** — e.g., "What's flagged and not yet closed across your portfolio, with owner and deadline." Try: `/judge-fr-eu-regulatory-legal:gaps`
+> - **Track NPRM comment periods** — e.g., "What's open, comment deadlines, and a decision log on whether to file." Try: `/judge-fr-eu-regulatory-legal:comments`
 >
-> **My suggestion for your first one:** Run `/regulatory-legal:reg-feed-watcher` — it tells you immediately whether the feeds are calibrated to your materiality threshold. Or tell me what's on your plate and I'll pick.
+> **My suggestion for your first one:** Run `/judge-fr-eu-regulatory-legal:reg-feed-watcher` — it tells you immediately whether the feeds are calibrated to your materiality threshold. Or tell me what's on your plate and I'll pick.
 
 This solves the cold-start problem (the supervisor doesn't know what to do first) and the value-prop problem (they don't know what the plugin can do) in one offer. Make the list specific. Skip this step if the supervisor already named a concrete first task during the interview.
 
@@ -332,15 +336,15 @@ This solves the cold-start problem (the supervisor doesn't know what to do first
 - **Before your first digest or gap check, connect a research tool.** Say: "Before your first digest or gap check: connect a research tool. Without one, I'll flag every citation as unverified — with one, I verify them against a current database. In Cowork: Settings → Connectors. In Claude Code: authorize when a skill prompts you."
 
 <!-- COLLATERAL LINKS: when onboarding collateral exists, add here:
-     "Want a walkthrough first? [Watch the 3-minute intro](URL) or [read the getting-started guide](URL)." -->
+     "Want a walkthrough first? the introduction (link not yet supplied) or the getting-started guide (link not yet supplied)." -->
 
 - Close with the changeability note:
 
-  > "Done. Your configuration is at `~/.claude/plugins/config/claude-for-legal/regulatory-legal/CLAUDE.md` — a plain-text file you can read and edit directly. Anything you answered can be changed:
+  > "Done. Your configuration is at `~/.claude/plugins/config/judge-fr-eu/regulatory-legal/CLAUDE.md` — a plain-text file you can read and edit directly. Anything you answered can be changed:
   >
   > - Edit the file directly for a quick change
-  > - Run `/regulatory-legal:cold-start-interview --redo` for a full re-interview
-  > - Run `/regulatory-legal:cold-start-interview --check-integrations` to re-check what's connected
+  > - Run `/judge-fr-eu-regulatory-legal:cold-start-interview --redo` for a full re-interview
+  > - Run `/judge-fr-eu-regulatory-legal:cold-start-interview --check-integrations` to re-check what's connected
   >
   > The settings people tune most often: the watchlist (which regulators you actually care about), the materiality threshold (what's immediate vs. digest vs. FYI), and the check cadence. Your configuration will improve as you use the plugin — when a digest feels off (too noisy, too quiet), the fix is usually here."
 
@@ -353,6 +357,19 @@ After writing the practice profile, close with this note:
 > - When a skill's output feels off, that's usually a position to tune. The output will tell you which one.
 > - The `reg-change-monitor` agent watches the regulatory feeds; when a change matches something in your policy library, it flags it for a gap-check.
 > - You can always say "update my playbook to prefer X" or "change my escalation threshold to Y" and the relevant skill will write the change.
-> - Run `/regulatory-legal:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
+> - Run `/judge-fr-eu-regulatory-legal:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
 >
 > Ten minutes of setup gets you a working profile. A month of use gets you one that reads like you wrote it yourself.
+
+## Judge FR/UE setup boundary
+
+Read only the fork profile and shared profile using the packaged storage helper.
+If the practice profile is absent, including with `--check-integrations`, start
+a new interview: confirm France/EU jurisdictions, role and dates from the user.
+Do not search or copy any other profile, cache, legal rules, matters or registers.
+Use the packaged template only as a section scaffold. Preserve an existing
+profile and its answers, including paused progress; `--redo` reviews only the
+requested sections and does not reset unrelated answers. Create new files
+exclusively; for an agreed edit, supply the digest of the file reviewed.
+Never use inherited US defaults to fill unanswered France/EU legal fields;
+leave them explicitly unresolved. Assisted import requires a separate story.

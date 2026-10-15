@@ -9,13 +9,17 @@ description: >
 argument-hint: "[file path | Drive link | paste text]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /ip-clause-review
 
-Reviews the IP clauses in an agreement against the practice profile in `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`. Flags assignment gaps, ownership ambiguity, license-scope issues, and IP warranty/indemnity problems. Produces a memo with per-clause findings, prioritized by risk, with suggested redline language where appropriate.
+Reviews the IP clauses in an agreement against the practice profile in `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`. Flags assignment gaps, ownership ambiguity, license-scope issues, and IP warranty/indemnity problems. Produces a memo with per-clause findings, prioritized by risk, with suggested redline language where appropriate.
 
 ## Instructions
 
-1. **Load `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`.** If placeholders present, stop and prompt: "Run `/ip-legal:cold-start-interview` first — I need to learn your practice profile before I can review IP clauses against it."
+1. **Load `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`.** If placeholders present, stop and prompt: "Run `/judge-fr-eu-ip-legal:cold-start-interview` first — I need to learn your practice profile before I can review IP clauses against it."
 
 2. **Get the agreement:** From file path, Drive link, or pasted text. If none provided, ask.
 
@@ -33,16 +37,16 @@ Reviews the IP clauses in an agreement against the practice profile in `~/.claud
 ## Examples
 
 ```
-/ip-legal:ip-clause-review ~/Documents/vendor-sow.pdf
-/ip-legal:ip-clause-review https://docs.google.com/document/d/...
-/ip-legal:ip-clause-review
+/judge-fr-eu-ip-legal:ip-clause-review ~/Documents/vendor-sow.pdf
+/judge-fr-eu-ip-legal:ip-clause-review https://docs.google.com/document/d/...
+/judge-fr-eu-ip-legal:ip-clause-review
 ```
 
 ---
 
 ## Matter context
 
-**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/ip-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/claude-for-legal/ip-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
+**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/judge-fr-eu-ip-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/judge-fr-eu/ip-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
 
 ---
 
@@ -54,7 +58,7 @@ Read the IP clauses in an agreement and tell the lawyer what each one does, how 
 
 ## Precondition: load the practice profile
 
-**Before reading the agreement, read `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`.** If it is missing or still contains placeholders, stop and run `/ip-legal:cold-start-interview`. The practice profile tells you:
+**Before reading the agreement, read `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`.** If it is missing or still contains placeholders, stop and run `/judge-fr-eu-ip-legal:cold-start-interview`. The practice profile tells you:
 
 - The jurisdiction footprint — which affects whether moral rights waivers are enforceable, whether work-for-hire applies, whether implied assignment fills a gap, how broad license grants can be
 - Who approves deviations and at what severity
@@ -109,7 +113,7 @@ thought we owned.
 **Proposed redline:**
 > "[specific replacement language]"
 
-**Escalation:** Per `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`, assignment-scope gaps escalate to [approver].
+**Escalation:** Per `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`, assignment-scope gaps escalate to [approver].
 ```
 
 > **Can the assignment convey AI-generated content?** *Thaler v. Perlmutter* and the Copyright Office's 2023 AI registration guidance suggest that AI-generated works without any human authorship may not be copyrightable, though the boundaries remain unclear and this area is evolving. If the contractor uses AI for substantial portions of the deliverables, the copyright status of those portions is uncertain — and an assignment clause can only convey rights that exist.
@@ -208,7 +212,7 @@ When in doubt, smaller. A client who receives a surgical redline trusts that you
 
 ### Step 6: Assemble the memo
 
-Prepend the work-product header from `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` → `## Outputs` (it differs by user role — see `## Who's using this`).
+Prepend the work-product header from `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md` → `## Outputs` (it differs by user role — see `## Who's using this`).
 
 This memo and the underlying agreement may be privileged, confidential, or both. The output inherits that status from the source. Distribute only within the privilege circle; mark and store it where privileged materials live; strip the work-product header before any external delivery.
 

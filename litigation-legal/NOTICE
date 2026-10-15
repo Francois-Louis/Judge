@@ -1,0 +1,42 @@
+Judge FR/UE - technical fork 0.1.0 (BASE-008, 2026-10-15)
+Derived from Claude for Legal. Copyright 2026 Anthropic PBC.
+Original authors and Apache License 2.0 are preserved.
+Fork maintenance: Judge FR/UE maintainers, https://github.com/Francois-Louis/Judge
+No affiliation or endorsement by Anthropic is claimed.
+Technical identity and storage changes do not certify France/EU legal adaptation.
+No upstream NOTICE was present in the source snapshot.
+
+Files added or modified for this package:
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  agents/docket-watcher.md
+  demand-letters/_README.md
+  inbound/_README.md
+  matters/_log.yaml
+  oc-status/_README.md
+  references/company-profile-template.md
+  references/dashboard-template.md
+  references/isolation.md
+  references/shared/research-citation-method.md
+  scripts/judge_store.py
+  skills/brief-section-drafter/SKILL.md
+  skills/chronology/SKILL.md
+  skills/claim-chart/SKILL.md
+  skills/cold-start-interview/SKILL.md
+  skills/customize/SKILL.md
+  skills/demand-draft/SKILL.md
+  skills/demand-intake/SKILL.md
+  skills/demand-received/SKILL.md
+  skills/deposition-prep/SKILL.md
+  skills/legal-hold/SKILL.md
+  skills/matter-briefing/SKILL.md
+  skills/matter-close/SKILL.md
+  skills/matter-intake/SKILL.md
+  skills/matter-update/SKILL.md
+  skills/matter-workspace/SKILL.md
+  skills/oc-status/SKILL.md
+  skills/portfolio-status/SKILL.md
+  skills/privilege-log-review/SKILL.md
+  skills/subpoena-triage/SKILL.md

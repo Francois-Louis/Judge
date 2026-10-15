@@ -1,0 +1,10 @@
+fichier	lignes	justification
+QUICKSTART.md	51	original install identifier compared with fork; no shared configuration
+backlog/00-fondations/base-001-releve-audit.md	146	historical audit, inventory or client recipe evidence; no runtime access
+backlog/00-fondations/base-002-dossier-decision.md	42	historical audit, inventory or client recipe evidence; no runtime access
+backlog/00-fondations/base-004-strategie-identite-configurations.md	17,22,64,74,78,98,99,101,131,154,156,262	historical audit, inventory or client recipe evidence; no runtime access
+backlog/00-fondations/base-008-isoler-identite-configurations.md	125	historical audit, inventory or client recipe evidence; no runtime access
+backlog/00-fondations/base-008-resultats-client.json	170,188,193,194,211,214,221,226,236	historical audit, inventory or client recipe evidence; no runtime access
+references/base008-validation.md	123,124	historical audit, inventory or client recipe evidence; no runtime access
+scripts/check-base004-isolation.py	23,169	historical inventory pattern and disposable BASE-004 policy model only
+scripts/test-base008-isolation.py	65,142,149,303	disposable original/cache fixtures and refusal assertions only

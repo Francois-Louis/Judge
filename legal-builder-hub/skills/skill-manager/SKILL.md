@@ -4,10 +4,16 @@ description: >
   Reference: detailed uninstall, disable, and re-enable workflows for community
   skills installed via the legal builder hub. Safe by default — refuses to
   touch first-party plugin skills, confirms before removing files, and logs
-  every action. Loaded by the /legal-builder-hub:uninstall and
-  /legal-builder-hub:disable skills.
+  every action. Loaded by the /judge-fr-eu-legal-builder-hub:uninstall and
+  /judge-fr-eu-legal-builder-hub:disable skills.
 user-invocable: false
 ---
+
+For every community lifecycle operation, first load `${CLAUDE_PLUGIN_ROOT}/references/community-lifecycle.md`. Its helper owns installation, updates, backups, rollback, disabling, enabling, uninstall and the fork journal.
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
 
 # Skill Manager
 
@@ -23,21 +29,21 @@ is the source of truth for what this skill may act on.
 Only community skills installed through this hub. Identification rule:
 
 - The skill's name must appear in
-  `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/install-log.yaml`
-  with a most-recent action of `install` or `enable` (not `uninstall`).
+  `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/install-log.yaml`
+  with an enabled or disabled latest state, matching prefixed identity, exact fork path and contents digest. No original journal authorizes an operation.
 - The skill's files must resolve to a path outside the built-in plugin
-  directories that ship with claude-for-legal.
+  directories that ship with Judge FR/UE.
 
 If either check fails, refuse and tell the user why. Never delete or rename
 files inside a first-party plugin.
 
 ## Built-in plugins (do not touch)
 
-The 12 core plugins that ship with claude-for-legal are off-limits from this
+The 12 core plugins that ship with Judge FR/UE are off-limits from this
 command. The canonical list lives in the hub's CLAUDE.md under "Built-in
 plugins." Examples include `commercial-legal`, `corporate-legal`,
 `employment-legal`, `privacy-legal`, `product-legal`, `regulatory-legal`,
-`ai-governance-legal`, `litigation-legal`, `litigation-legal`,
+`ai-governance-legal`, `ip-legal`, `litigation-legal`,
 `law-student`, `legal-clinic`, and the hub itself (`legal-builder-hub`). If
 the caller names a skill that resolves into any of these, refuse.
 
@@ -68,11 +74,11 @@ Prompt: "Delete these files? (yes / no)". No deletion without explicit `yes`.
 
 ### Step 4: Delete
 
-Remove the skill directory.
+Use the lifecycle helper to remove only the recorded fork skill directory.
 
 ### Step 5: Log and update CLAUDE.md
 
-Append to `install-log.yaml`:
+The lifecycle helper appends a schema-1 JSON event (valid YAML); do not append the following legacy YAML shape manually. Its core fields include:
 
 ```yaml
 - skill: <name>
@@ -127,6 +133,6 @@ to re-enable: reverse the renames, log `action: enable`.
 
 - Uninstall first-party plugin skills. Use `/plugin` for plugin management.
 - Delete user configuration by default. Configs in
-  `~/.claude/plugins/config/claude-for-legal/<plugin>/` are preserved unless
+  `~/.claude/plugins/config/judge-fr-eu/<plugin>/` are preserved unless
   the user asks for them explicitly.
 - Act on more than one skill per invocation. One name, one action.

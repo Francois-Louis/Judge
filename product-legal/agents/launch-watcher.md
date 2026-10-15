@@ -9,6 +9,10 @@ model: sonnet
 tools: ["Read", "Write", "mcp__jira__*", "mcp__linear__*", "mcp__*__slack_send_message"]
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # Launch Watcher Agent
 
 ## Purpose
@@ -23,7 +27,7 @@ Run daily. Set a morning reminder (calendar block, cron, or team ritual) to invo
 
 ## What it does
 
-1. Read `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md` → launch tracker location, calibration table, escalation channel.
+1. Read `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md` → launch tracker location, calibration table, escalation channel.
 2. Query the tracker for tickets with a target date ≤30 days out.
 3. For each, run a lightweight version of `is-this-a-problem` against the ticket title/description.
 4. Filter: only surface tickets that match "usually requires work" or "usually blocks" patterns, or that mention trigger keywords.

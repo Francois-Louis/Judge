@@ -1,9 +1,38 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # CLAUDE.md
 
-Guidance for working on this repo. `claude-for-legal` is a Claude Code plugin
-marketplace — twelve first-party legal plugins, one vendor plugin, and five
+Guidance for working on this repo. `judge-fr-eu` is the fork Claude Code plugin
+marketplace — twelve internal legal plugins and five
 managed-agent cookbooks. Most work here is editing prompt content (skills,
 agents, hooks), plugin metadata, or cookbook config — not application code.
+
+BASE-008 uses `judge-fr-eu-<domain>` as every published identifier; source
+directories and 150 skill names stay unchanged. Only the fork config root is
+active. Every entry point loads the packaged storage contract. Sync
+`scripts/judge_store.py` and `references/isolation.md` byte-for-byte into all
+twelve packages after changes, and include LICENSE/NOTICE. The vendor source
+is preserved but excluded from this marketplace. This is technical isolation;
+legal adaptation and live-client validation remain separate results.
+
+Run `python scripts/test-base008-isolation.py` for detached-package filesystem
+and hub lifecycle tests. Cookbook dry-runs require Bash, jq, Python/PyYAML;
+`bash scripts/test-cookbooks.sh` supplies disposable deployment IDs without
+network calls. The orchestrator storage test also needs jsonschema; a missing
+tool is reported as skipped, never as passed. Shell scripts use the first
+working `python3`/`python` (override with `PYTHON`), since Windows may expose a
+non-functional Store stub as `python3`. Real deployments require an explicit fresh `JUDGE_DEPLOYMENT_ID`.
+
+For the fork's France/EU adaptation, follow the
+[BASE-003 domain architecture](backlog/00-fondations/base-003-dossier-architecture.md).
+Each task has one primary domain plugin; proposed plugins and skills are not
+implemented features. Ship required references inside each adapted plugin,
+including a versioned copy of the shared research/citation method from
+`references/research-citation-method.md` (BASE-005). Copy it unchanged into
+`<plugin>/references/shared/research-citation-method.md` and make adapted skills
+load that local copy; root references are editing sources, not runtime dependencies.
+The architecture describes the target contract, not a claim that
+existing packages already meet it.
 
 ## Layout
 
@@ -42,6 +71,15 @@ python3 scripts/lint-tool-scope.py
 # 3. JSON/YAML sanity
 python3 -c "import json,glob; [json.load(open(f)) for f in glob.glob('**/*.json', recursive=True)]"
 ```
+
+For France/EU adaptation lots, also follow the
+[BASE-006 validation checklist](references/package-validation.md). Run
+`python scripts/check-plugin-package.py <installed-plugin-root>` against the
+single installed/extracted artifact, outside the checkout, and use `--schema`
+to request the official validator separately. This bounded static check needs
+PyYAML; it does not execute a skill or validate legal reasoning. Missing tools,
+manual-review findings, and unexecuted scenarios must remain explicit in the
+lot's report. Controller fixtures: `python scripts/test-check-plugin-package.py`.
 
 ### Marketplace invariants (I1–I11)
 
@@ -88,7 +126,7 @@ are fine.
 ### Plugin CLAUDE.md is a template, not project context
 
 Each `<plugin>/CLAUDE.md` is a practice-profile template that the
-`cold-start-interview` skill copies to `~/.claude/plugins/config/claude-for-legal/<plugin>/CLAUDE.md`
+`cold-start-interview` skill copies to `~/.claude/plugins/config/judge-fr-eu/<domain>/CLAUDE.md`
 on the user's machine. It is *not* loaded as project context when the plugin is
 installed — `claude plugin validate` warns about this and the warning is
 expected. Don't "fix" it by moving the content into a skill.
@@ -125,6 +163,4 @@ rules that `scripts/lint-tool-scope.py` enforces:
   intentional; ask before unifying.
 - `hooks/hooks.json` is missing in two plugins. Hooks are optional; the missing
   files are not a bug.
-- `references/` lives only at repo root and is not shipped inside any plugin
-  directory. Several plugin `CLAUDE.md` templates reference it as if it were —
-  that's a known gap, not a thing to silently move.
+- Root `references/` are editing sources. BASE-008 embeds the company/dashboard templates, shared method and storage boundary in every internal package. Keep shipped copies synchronized explicitly.

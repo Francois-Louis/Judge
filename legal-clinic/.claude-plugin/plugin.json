@@ -1,8 +1,10 @@
 {
-  "name": "legal-clinic",
-  "version": "1.0.2",
-  "description": "Sets up the clinic, onboards students, runs structured intake, tracks deadlines with malpractice-aware caution, and hands off cases at semester end \u2014 built within ABA Formal Op. 512.",
+  "name": "judge-fr-eu-legal-clinic",
+  "version": "0.1.0",
+  "description": "Judge FR/UE 0.1.0: technical isolation; legal adaptation pending. Sets up the clinic, onboards students, runs structured intake, tracks deadlines with malpractice-aware caution, and hands off cases at semester end — built within ABA Formal Op. 512.",
   "author": {
     "name": "Anthropic"
-  }
+  },
+  "repository": "https://github.com/Francois-Louis/Judge",
+  "license": "Apache-2.0"
 }

@@ -4,12 +4,16 @@ description: Append a dated event to a matter's history file and refresh the log
 argument-hint: "[slug] [brief event description]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /matter-update
 
 1. Follow the workflow and reference below.
-2. Confirm slug exists in `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/` and `_log.yaml`.
+2. Confirm slug exists in `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/` and `_log.yaml`.
 3. Prompt for event type, date (default today), summary, and any log field updates (risk change, status change, next deadline shift, materiality reclassification).
-4. Append dated entry to `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/[slug]/history.md`.
+4. Append dated entry to `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/[slug]/history.md`.
 5. Update `_log.yaml` — set `last_updated` to today, apply any field updates.
 6. Confirm.
 
@@ -23,14 +27,14 @@ The portfolio only stays useful if it stays current. This skill makes logging an
 
 ## Load context
 
-- `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/_log.yaml` — find the row
-- `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/[slug]/history.md` — append target
-- `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/[slug]/matter.md` — reference (don't rewrite)
-- `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` — risk calibration (if re-assessing risk)
+- `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/_log.yaml` — find the row
+- `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/[slug]/history.md` — append target
+- `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/[slug]/matter.md` — reference (don't rewrite)
+- `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` — risk calibration (if re-assessing risk)
 
 **Conflicts gate — unbypassable.** Before logging an update, check `_log.yaml` for the matter slug. If the matter is not in `_log.yaml`, refuse and route:
 
-> "I don't see [matter slug] in the matter log. Run `/litigation-legal:matter-intake` first so the conflicts check runs and the matter workspace exists. I won't append history to an unmanaged matter — the conflicts check is the gate, and there's no `history.md` to append to until the matter is intaken."
+> "I don't see [matter slug] in the matter log. Run `/judge-fr-eu-litigation-legal:matter-intake` first so the conflicts check runs and the matter workspace exists. I won't append history to an unmanaged matter — the conflicts check is the gate, and there's no `history.md` to append to until the matter is intaken."
 
 ## Input
 
@@ -78,11 +82,11 @@ Only prompt for fields likely affected by the event type. Procedural updates usu
 
 ### 4pre. Settlement-acceptance gate
 
-If the Strategy update is a **settlement acceptance** (the company is accepting a settlement offer, executing a settlement agreement, or authorizing acceptance in principle — not merely logging an offer made or received): Read `## Who's using this` in `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md`. If the Role is Non-lawyer:
+If the Strategy update is a **settlement acceptance** (the company is accepting a settlement offer, executing a settlement agreement, or authorizing acceptance in principle — not merely logging an offer made or received): Read `## Who's using this` in `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md`. If the Role is Non-lawyer:
 
 > Accepting a settlement has legal consequences — it resolves claims, typically requires a release, and can affect insurance, tax, and related matters. Have you reviewed this with an attorney? If yes, proceed. If no, here's a brief to bring to them:
 >
-> [Generate a 1-page summary: the matter, proposed settlement terms (dollar, structural, release scope, confidentiality, non-disparagement), exposure at stake, authority ladder status (see `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` settlement authority), what could go wrong, what to ask the attorney before accepting.]
+> [Generate a 1-page summary: the matter, proposed settlement terms (dollar, structural, release scope, confidentiality, non-disparagement), exposure at stake, authority ladder status (see `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` settlement authority), what could go wrong, what to ask the attorney before accepting.]
 >
 > If you need to find a licensed attorney, solicitor, barrister, or other authorised legal professional in your jurisdiction: your professional regulator's referral service is the fastest starting point (state bar in the US, SRA/Bar Standards Board in England & Wales, Law Society in Scotland/NI/Ireland/Canada/Australia, or your jurisdiction's equivalent).
 
@@ -106,7 +110,7 @@ Acceptable answers include `no change` — but `no change` must be explicit, not
 **Reasoning:** [one sentence]
 ```
 
-If materiality moves to `reserved` or `disclosed`, and the matter did not previously carry a reserve or disclosure, flag the event as requiring finance / audit-committee notification per `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` materiality thresholds.
+If materiality moves to `reserved` or `disclosed`, and the matter did not previously carry a reserve or disclosure, flag the event as requiring finance / audit-committee notification per `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` materiality thresholds.
 
 ### 5. Seed doc prompt (optional)
 
@@ -114,7 +118,7 @@ If the update references a document (order, filing, correspondence), ask if ther
 
 ## Writing
 
-### Append to `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/[slug]/history.md`
+### Append to `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/[slug]/history.md`
 
 Most recent at top, directly under the `---` that follows the header.
 
@@ -132,7 +136,7 @@ Most recent at top, directly under the `---` that follows the header.
 
 If no fields changed, omit the "Fields changed" block.
 
-### Update `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/_log.yaml`
+### Update `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/_log.yaml`
 
 - Apply any field changes.
 - Set `last_updated: [today]` (or the event date if the user overrode — the log tracks when the record was last touched).

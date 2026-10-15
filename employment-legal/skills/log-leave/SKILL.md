@@ -8,15 +8,19 @@ description: >
 argument-hint: "[describe the leave — employee/role, type, jurisdiction, start date]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /log-leave
 
-Adds a new leave entry to `~/.claude/plugins/config/claude-for-legal/employment-legal/leave-register.yaml` with the minimum
+Adds a new leave entry to `~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml` with the minimum
 information needed to start tracking deadlines. Use when an employee goes on
 leave and you want the tracker to watch the clocks from day one.
 
 ## Instructions
 
-1. Read `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md` → jurisdiction table and Systems section.
+1. Read `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md` → jurisdiction table and Systems section.
 
 2. Ask all of the following in a single prompt — do not drip them one at a time:
 
@@ -31,7 +35,7 @@ leave and you want the tracker to watch the clocks from day one.
    > - Has the designation notice been sent? If yes, when?
    > - Has medical certification been requested? If yes, when?
 
-3. Using the jurisdiction table in `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md`, look up the applicable leave
+3. Using the jurisdiction table in `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`, look up the applicable leave
    entitlement (hours/weeks) for this leave type in this jurisdiction.
 
 4. Compute the first upcoming deadline based on the information provided:
@@ -39,7 +43,7 @@ leave and you want the tracker to watch the clocks from day one.
    - Med cert requested but not received → deadline is 15 days from request date
    - Both sent and received → next deadline is at 75% exhaustion
 
-5. Write a new entry to `~/.claude/plugins/config/claude-for-legal/employment-legal/leave-register.yaml` using the leave register
+5. Write a new entry to `~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml` using the leave register
    format from the leave-tracker agent. If the file doesn't exist, create it.
 
 6. Confirm with a single line:
@@ -49,11 +53,11 @@ leave and you want the tracker to watch the clocks from day one.
 ## Examples
 
 ```
-/employment-legal:log-leave
+/judge-fr-eu-employment-legal:log-leave
 ```
 
 ```
-/employment-legal:log-leave
+/judge-fr-eu-employment-legal:log-leave
 Sarah (Sr. Engineer, works in California) just started FMLA today for a
 serious health condition. Intermittent. No designation sent yet.
 ```

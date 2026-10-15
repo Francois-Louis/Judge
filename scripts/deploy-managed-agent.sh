@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Copyright 2026 Anthropic PBC
 # SPDX-License-Identifier: Apache-2.0
+# Modified by Judge FR/UE for BASE-008, 2026-10-15; BASE-009 interpreter portability.
 # Deploy a managed-agent template to POST /v1/agents.
 #
 # Resolves manifest conveniences before posting:
@@ -15,9 +16,21 @@
 #   e.g. scripts/deploy-managed-agent.sh reg-monitor
 
 set -euo pipefail
+export PYTHONUTF8=1
+# Windows ships a Store stub named python3; use the first interpreter that runs.
+if [[ -z "${PYTHON:-}" ]]; then
+  for c in python3 python; do "$c" -c '' 2>/dev/null && { PYTHON=$c; break; }; done
+fi
+[[ -n "${PYTHON:-}" ]] || { echo "requires python 3" >&2; exit 1; }
+# Native Windows jq otherwise emits CRLF into Bash path-valued reads.
+case "${OSTYPE:-}" in msys*|cygwin*) jq() { command jq --binary "$@"; } ;; esac
 
 ROLE="${1:?usage: deploy-managed-agent.sh <slug> [--dry-run]}"
 DRY_RUN=0; [[ "${2:-}" == "--dry-run" ]] && DRY_RUN=1
+case "$ROLE" in
+  reg-monitor|renewal-watcher|docket-watcher|diligence-grid|launch-radar) ;;
+  *) echo "unknown cookbook role" >&2; exit 1 ;;
+esac
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 DIR="$ROOT/managed-agent-cookbooks/$ROLE"
 API="${ANTHROPIC_API_BASE:-https://api.anthropic.com}"
@@ -25,10 +38,20 @@ API="${ANTHROPIC_API_BASE:-https://api.anthropic.com}"
 
 [[ -f "$DIR/agent.yaml" ]] || { echo "no manifest at $DIR/agent.yaml" >&2; exit 1; }
 
-# REPO_SLUG derives from the git remote so this script stays copy-identical
-# across vertical repos; override via env if running outside a checkout.
-REPO_SLUG="${REPO_SLUG:-$(basename -s .git "$(git config --get remote.origin.url)")}"
-: "${REPO_SLUG:?cannot derive REPO_SLUG from git remote; set REPO_SLUG env var}"
+# The fork never inherits deployment identity from an upstream remote.
+REPO_SLUG="${REPO_SLUG:-judge-fr-eu}"
+SKILL_TITLE_PREFIX="${SKILL_TITLE_PREFIX:-judge-fr-eu-}"
+[[ "$REPO_SLUG" == judge-fr-eu && "$SKILL_TITLE_PREFIX" == judge-fr-eu-* ]] || {
+  echo "fork deployment identity required" >&2; exit 1;
+}
+export SKILL_TITLE_PREFIX
+: "${JUDGE_DEPLOYMENT_ID:?set a fresh deployment slug (including for dry-run)}"
+if [[ $DRY_RUN -eq 1 ]]; then
+  JUDGE_OUTPUT_PREFIX=$("$PYTHON" "$ROOT/scripts/cookbook_paths.py" "$ROLE" --deployment "$JUDGE_DEPLOYMENT_ID")
+else
+  JUDGE_OUTPUT_PREFIX=$("$PYTHON" "$ROOT/scripts/cookbook_paths.py" "$ROLE" --deployment "$JUDGE_DEPLOYMENT_ID" --prepare)
+fi
+export JUDGE_OUTPUT_PREFIX
 COOKBOOK_TAG="${REPO_SLUG}/${ROLE}"
 
 # Validate SKILL_TITLE_PREFIX against the same allowlist the YAML env-var
@@ -51,9 +74,9 @@ req() {
 
 # jq + python(pyyaml) do the manifest→payload transform
 command -v jq >/dev/null || { echo "requires jq" >&2; exit 1; }
-python3 -c 'import yaml' 2>/dev/null || { echo "requires python3 + pyyaml" >&2; exit 1; }
+"$PYTHON" -c 'import yaml' 2>/dev/null || { echo "requires python 3 + pyyaml" >&2; exit 1; }
 yaml2json() {
-  python3 -c '
+  "$PYTHON" -c '
 import sys,os,re,yaml,json
 SAFE = re.compile(r"^[A-Za-z0-9._/:@-]*$")
 def sub(m):
@@ -153,6 +176,16 @@ create_agent() {
   base="$(cd "$(dirname "$file")" && pwd)"
   json=$(resolve_manifest "$file")
   json=$(inline_system "$json" "$base")
+  # Bind every leaf and orchestrator to this deployment's output namespace.
+  # Remote workflow engines must provision and enforce the same workspace.
+  json=$(jq --arg out "$JUDGE_OUTPUT_PREFIX" --arg deployment "$JUDGE_DEPLOYMENT_ID" '
+    .name = ("judge-fr-eu-" + .name) |
+    .system |= (split("./out/") | join($out) |
+      split("~/.claude/plugins/config/judge-fr-eu/litigation-legal/outputs/") | join($out)) |
+    .system += ("\n\nJudge FR/UE technical fork; legal adaptation pending. Deployment: " + $deployment +
+      ". All outputs, logs and audit files must stay under " + $out +
+      ". Refuse traversal, symlinks, junctions and existing output destinations. Never use another deployment workspace.")
+  ' <<<"$json")
 
   skills_json="[]"
   while IFS= read -r p; do
@@ -171,7 +204,8 @@ create_agent() {
     sub_ids=$(jq --arg i "$sid" --argjson v "$sver" '. + [{type:"agent", id:$i, version:$v}]' <<<"$sub_ids")
   done < <(jq -r '.callable_agents[]?.manifest // empty' <<<"$json")
   json=$(jq --argjson c "$sub_ids" '.callable_agents=$c | del(.output_schema)' <<<"$json")
-  json=$(jq --arg ck "$COOKBOOK_TAG" '.metadata = ((.metadata // {}) + {anthropic_cookbook: $ck})' <<<"$json")
+  json=$(jq --arg ck "$COOKBOOK_TAG" --arg deployment "$JUDGE_DEPLOYMENT_ID" \
+    '.metadata = ((.metadata // {}) + {judge_fr_eu_cookbook: $ck, judge_fr_eu_deployment: $deployment})' <<<"$json")
   [[ -n "${DEPLOY_DEBUG:-}" ]] && jq -c '{name, callable_agents}' <<<"$json" >&2
 
   if [[ $DRY_RUN -eq 1 ]]; then

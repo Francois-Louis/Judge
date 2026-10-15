@@ -9,9 +9,13 @@ description: >
 argument-hint: "[optional: item ID + status update]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /closing-checklist
 
-1. Read `~/.claude/plugins/config/claude-for-legal/corporate-legal/deals/[code]/closing-checklist.yaml` and use the modes below.
+1. Read `~/.claude/plugins/config/judge-fr-eu/corporate-legal/deals/[code]/closing-checklist.yaml` and use the modes below.
 2. If status update provided: Mode 3 (update item).
 3. Otherwise Mode 4: blocking items, critical path, days to close.
 
@@ -19,7 +23,7 @@ argument-hint: "[optional: item ID + status update]"
 
 ## Matter context
 
-**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/corporate-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/claude-for-legal/corporate-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
+**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/judge-fr-eu-corporate-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/judge-fr-eu/corporate-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
 
 ---
 
@@ -29,7 +33,7 @@ Deals close when the checklist is done. Everything on it, done. Nothing missing.
 
 ## The checklist
 
-Lives at `~/.claude/plugins/config/claude-for-legal/corporate-legal/deals/[code]/closing-checklist.yaml`. Structure:
+Lives at `~/.claude/plugins/config/judge-fr-eu/corporate-legal/deals/[code]/closing-checklist.yaml`. Structure:
 
 ```yaml
 deal_code: "Project Falcon"
@@ -122,7 +126,7 @@ handoff:
   must_occur_before: "[e.g., closing | signing | end of hiatus period]"
 ```
 
-Preserve every field the upstream skill populated. A "Dunmore consent required, with replacement guaranty condition and 30-day notice" should surface on the checklist with all three elements (consent, guarantor, notice), not collapse to "Dunmore consent to change of control." When the upstream skill provides a severity, carry it — see the cross-skill severity floor rule in `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md`.
+Preserve every field the upstream skill populated. A "Dunmore consent required, with replacement guaranty condition and 30-day notice" should surface on the checklist with all three elements (consent, guarantor, notice), not collapse to "Dunmore consent to change of control." When the upstream skill provides a severity, carry it — see the cross-skill severity floor rule in `~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md`.
 
 Append to the checklist. De-dupe on (counterparty + action type), not on the freeform item name — a Dunmore consent and a Dunmore release are different items even though both name Dunmore. When de-duping, merge fields rather than overwrite: if one handoff populated `guarantor` and a later handoff populated `notice_deadline`, the checklist row carries both.
 
@@ -131,7 +135,7 @@ Append to the checklist. De-dupe on (counterparty + action type), not on the fre
 User (or dataroom-watcher agent) provides a status update. Find the item, update status and last-updated.
 
 ```
-/corporate-legal:closing-checklist
+/judge-fr-eu-corporate-legal:closing-checklist
 CP-002: Acme responded, consent form attached, needs countersignature
 ```
 
@@ -184,7 +188,7 @@ The agent checks the checklist daily, pulls any status updates from email/Slack 
 
 ## Consequential-action gate (certify closing)
 
-**Before producing a "ready to close / all CPs satisfied" certification or closing memo:** Read `## Who's using this` in `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md`. If the Role is **Non-lawyer**:
+**Before producing a "ready to close / all CPs satisfied" certification or closing memo:** Read `## Who's using this` in `~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md`. If the Role is **Non-lawyer**:
 
 > Certifying that closing conditions have been satisfied (or producing a closing memo asserting this) has legal consequences — it's the signal that drives funds flow and post-closing obligations. Have you reviewed this with an attorney? If yes, proceed. If no, here's a brief to bring to them:
 >

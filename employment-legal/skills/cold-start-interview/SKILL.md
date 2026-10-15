@@ -9,14 +9,18 @@ description: >
 argument-hint: "[--redo | --check-integrations]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /cold-start-interview
 
-1. Check `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md`. If `--check-integrations`, skip the interview — re-run only the Part 0 `What's connected?` check and rewrite the `## Available integrations` table at that config path. When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
+1. Check `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`. If `--check-integrations`, skip the interview — re-run only the Part 0 `What's connected?` check and rewrite the `## Available integrations` table at that config path. When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 2. Run the interview below (Part 0 first — role + integrations — then footprint): states/countries, hiring/term review triggers, severance practice.
 3. Seed docs: handbook + 3 termination memos.
 4. Build jurisdiction-specific escalation table.
-5. If a populated CLAUDE.md (no `[PLACEHOLDER]` markers) exists at `~/.claude/plugins/cache/claude-for-legal/employment-legal/*/CLAUDE.md` but not at the config path, copy it to the config path and tell the user what was migrated.
-6. Write `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md`, creating parent directories as needed.
+5. If the fork profile is absent, start a fresh France/EU interview; never read a cache or another distribution.
+6. Write `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`, creating parent directories as needed.
 
 ---
 
@@ -28,20 +32,20 @@ Employment law is jurisdictional down to the bone. The right answer in Texas is 
 
 ## Cold-start check
 
-Read `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md`:
+Read `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`:
 - **Does not exist** → start the interview.
 - **Contains `<!-- SETUP PAUSED AT: -->`** → greet the user and offer to resume from that section.
 - **Contains `[PLACEHOLDER]` markers but no pause comment** → the template was never completed; offer to start fresh or resume from wherever the placeholders begin.
 - **Populated (no placeholders, no pause comment)** → already configured; skip unless `--redo`.
 
-The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed. If a CLAUDE.md exists at the old cache path `~/.claude/plugins/cache/claude-for-legal/employment-legal/*/CLAUDE.md` but not here, copy it forward.
+The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed. If the fork profile is absent, start a fresh interview; never import a cached profile.
 
 ## Check for the shared company profile
 
-Look for `~/.claude/plugins/config/claude-for-legal/company-profile.md`.
+Look for `~/.claude/plugins/config/judge-fr-eu/company-profile.md`.
 
 - **If it exists:** Read it. Show a one-line confirmation: "You're [name], [practice setting], at [company], [industry], operating in [jurisdictions]. Right? (Or say 'update' to change the shared profile.)" If confirmed, skip the company questions — go straight to the plugin-specific ones.
-- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
+- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `${CLAUDE_PLUGIN_ROOT}/references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
 
 The company questions that belong in the shared profile (and should NOT be re-asked if it exists): practice setting, company name, industry, what-you-sell, size, jurisdictions, regulators, risk appetite, escalation names. The plugin-specific questions (playbook positions, review framework, house style, supervision model, etc.) stay per-plugin.
 
@@ -57,13 +61,13 @@ Ask the user to confirm before proceeding: continue with project scope, or pause
 
 Open with the fork-first preamble. Keep it to 3-4 short lines. Ask quick-or-full before anything else.
 
-> **`employment-legal` is for people who handle hiring, terminations, investigations, leave, policies, worker classification, and international expansion.** Not your area? `/legal-builder-hub:related-skills-surfacer`.
+> **`employment-legal` is for people who handle hiring, terminations, investigations, leave, policies, worker classification, and international expansion.** Not your area? `/judge-fr-eu-legal-builder-hub:related-skills-surfacer`.
 >
 > **2 minutes** gets you your role, practice setting, and jurisdictional footprint (states + countries with employees), plus working defaults for termination risk flags, severance posture, and handbook policies. **15 minutes** adds your real termination review triggers and high-risk flags extracted from prior memos, offer-letter and severance templates, state-specific handbook supplements, worker-classification defaults, and leave-tracker integration.
 >
 > Quick or full? (Upgrade any time with `/cold-start-interview --full`.)
 
-**Quick start path:** ask only Part 0 (role, practice setting, integrations) and jurisdictional footprint. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for termination risk thresholds, severance posture, and handbook policies. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/employment-legal:cold-start-interview --full` anytime to do the whole interview, or `/employment-legal:cold-start-interview --redo <section>` to re-do one part."
+**Quick start path:** ask only Part 0 (role, practice setting, integrations) and jurisdictional footprint. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for termination risk thresholds, severance posture, and handbook policies. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/judge-fr-eu-employment-legal:cold-start-interview --full` anytime to do the whole interview, or `/judge-fr-eu-employment-legal:cold-start-interview --redo <section>` to re-do one part."
 
 **Full setup path:** the existing interview flow below. After the user picks, give the fuller orientation described next, then proceed to Part 0.
 
@@ -94,7 +98,7 @@ The interview's information comes only from the user's typed answers and documen
 - **For uploads:** "Paste the contents, share a file path, or say 'skip for now.' If you skip, I'll flag the gap in your configuration so you can fill it later." Then actually wait.
 - **Before writing the configuration:** review the interview. List any questions that were skipped or answered with placeholders. Say: "Before I write your configuration, here's what's still open: [list]. Want to fill any of these now, or leave them as placeholders?" Then wait for the answer.
 - **Never** write a configuration with silent gaps. Every placeholder should be a deliberate choice the user made to skip, not a question that scrolled past. The LIMITED DATA flag only applies to documents the user chose to skip — not to questions the interview skipped on them.
-- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/employment-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /employment-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
+- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/judge-fr-eu-employment-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /judge-fr-eu-employment-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
 
 **Verify user-stated legal facts as they come up in setup.** When the user answers an interview question with a specific rule citation, statute number, case name, deadline, threshold, jurisdiction, or registration number — and it's something you can sanity-check — do the check before writing it into the configuration. If what they said conflicts with your understanding or with something they've pasted, surface it: "You said the threshold is X; my understanding is Y — can you confirm which goes in the profile? `[premise flagged — verify]`" A wrong fact written into CLAUDE.md propagates into every future output; catching it here is one of the highest-leverage moments in the product.
 
@@ -171,7 +175,7 @@ Then report findings in this form:
 
 > - ✓ [Integration] — connected (tested)
 > - ⚪ [Integration] — configured but not verified. Open your MCP settings to confirm.
-> - ✗ [Integration] — not found. [Feature] will fall back to [manual alternative]. [How to connect.] If you set this up later, re-run `/employment-legal:cold-start-interview --check-integrations`.
+> - ✗ [Integration] — not found. [Feature] will fall back to [manual alternative]. [How to connect.] If you set this up later, re-run `/judge-fr-eu-employment-legal:cold-start-interview --check-integrations`.
 >
 > You don't need all of these. Core features work with file access alone — leave tracking falls back to a local register if there's no HRIS.
 
@@ -275,12 +279,12 @@ If yes, show this tailored list (not a generic template — these are the concre
 
 > **Here's what I'm good at in employment law practice:**
 >
-> - **Review an offer letter and restrictive covenants** — e.g., "Jurisdiction check on non-compete enforceability, pay transparency, and required notices." Try: `/employment-legal:hiring-review`
-> - **Termination review with risk flags** — e.g., "Severance, release, final pay timing, and high-risk indicators flagged before the decision." Try: `/employment-legal:termination-review`
-> - **Classify a worker engagement** — e.g., "Employee / IC / temp / vendor — with misclassification gap analysis." Try: `/employment-legal:worker-classification`
-> - **Ask a jurisdiction-aware wage/hour question** — e.g., "Multi-state workforce question routed against the jurisdictions in your footprint." Try: `/employment-legal:wage-hour-qa`
-> - **Kick off international expansion** — e.g., "New country on the roadmap — plan the employment-law workstream." Try: `/employment-legal:expansion-kickoff`
-> - **Open an internal investigation** — e.g., "Create the privileged workspace, start the log, route interviews." Try: `/employment-legal:investigation-open`
+> - **Review an offer letter and restrictive covenants** — e.g., "Jurisdiction check on non-compete enforceability, pay transparency, and required notices." Try: `/judge-fr-eu-employment-legal:hiring-review`
+> - **Termination review with risk flags** — e.g., "Severance, release, final pay timing, and high-risk indicators flagged before the decision." Try: `/judge-fr-eu-employment-legal:termination-review`
+> - **Classify a worker engagement** — e.g., "Employee / IC / temp / vendor — with misclassification gap analysis." Try: `/judge-fr-eu-employment-legal:worker-classification`
+> - **Ask a jurisdiction-aware wage/hour question** — e.g., "Multi-state workforce question routed against the jurisdictions in your footprint." Try: `/judge-fr-eu-employment-legal:wage-hour-qa`
+> - **Kick off international expansion** — e.g., "New country on the roadmap — plan the employment-law workstream." Try: `/judge-fr-eu-employment-legal:expansion-kickoff`
+> - **Open an internal investigation** — e.g., "Create the privileged workspace, start the log, route interviews." Try: `/judge-fr-eu-employment-legal:investigation-open`
 >
 > **My suggestion for your first one:** Run `/termination-review` on a hypothetical termination — it's the skill most likely to surface how the risk calibration reads. Or tell me what's on your plate and I'll pick.
 
@@ -291,23 +295,23 @@ This solves the cold-start problem (the supervisor doesn't know what to do first
 - "What's the next termination? Let me take a look."
 - Flag handbook gaps: "Your handbook doesn't have a remote work policy and you're remote-first. Want one?"
 - Check HRIS field: "You said your HRIS is [system] — want me to run the leave tracker now to see if anything is open?"
-- If manual leave tracking: "You don't have an HRIS leave module — I'll track leaves in a register file. Use /employment-legal:log-leave to add any leaves that are currently open."
+- If manual leave tracking: "You don't have an HRIS leave module — I'll track leaves in a register file. Use /judge-fr-eu-employment-legal:log-leave to add any leaves that are currently open."
 
 **Before your first review**: connect a research tool. Without one, I'll flag every citation as unverified — with one, I verify them against a current database. In Cowork: Settings → Connectors. In Claude Code: authorize when a skill prompts you.
 
 <!-- COLLATERAL LINKS: when onboarding collateral exists, add here:
-     "Want a walkthrough? [Watch the 3-minute intro](URL) or [read the getting-started guide](URL)." -->
+     "Want a walkthrough? the introduction (link not yet supplied) or the getting-started guide (link not yet supplied)." -->
 
 
 ### Close with the "you can change anything later" note
 
 After writing the configuration, say:
 
-> "Done. Your configuration is at `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md` — a plain text file you can read and edit directly. Anything you answered can be changed:
+> "Done. Your configuration is at `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md` — a plain text file you can read and edit directly. Anything you answered can be changed:
 >
 > - Edit the file directly for a quick change
-> - Run `/employment-legal:cold-start-interview --redo` for a full re-interview
-> - Run `/employment-legal:cold-start-interview --check-integrations` to re-check what's connected
+> - Run `/judge-fr-eu-employment-legal:cold-start-interview --redo` for a full re-interview
+> - Run `/judge-fr-eu-employment-legal:cold-start-interview --check-integrations` to re-check what's connected
 >
 > The three settings people adjust most: the **jurisdiction list** (as your footprint grows), the **high-risk termination flags** (as you calibrate what's actually scary vs. what's noise), and the **escalation matrix** (as reporting lines shift)."
 
@@ -319,6 +323,19 @@ After writing the configuration, close with this note:
 >
 > - When a skill's output feels off, that's usually a position to tune. The output will tell you which one.
 > - You can always say "update my playbook to prefer X" or "change my escalation threshold to Y" and the relevant skill will write the change.
-> - Run `/employment-legal:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
+> - Run `/judge-fr-eu-employment-legal:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
 >
 > Ten minutes of setup gets you a working profile. A month of use gets you one that reads like you wrote it yourself.
+
+## Judge FR/UE setup boundary
+
+Read only the fork profile and shared profile using the packaged storage helper.
+If the practice profile is absent, including with `--check-integrations`, start
+a new interview: confirm France/EU jurisdictions, role and dates from the user.
+Do not search or copy any other profile, cache, legal rules, matters or registers.
+Use the packaged template only as a section scaffold. Preserve an existing
+profile and its answers, including paused progress; `--redo` reviews only the
+requested sections and does not reset unrelated answers. Create new files
+exclusively; for an agreed edit, supply the digest of the file reviewed.
+Never use inherited US defaults to fill unanswered France/EU legal fields;
+leave them explicitly unresolved. Assisted import requires a separate story.

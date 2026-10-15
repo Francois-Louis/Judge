@@ -9,12 +9,16 @@ description: >
 argument-hint: "[--add | --report (default) | --update [id] | --complete [id] | --close [id] | --horizon=N]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /deadlines
 
-1. Load `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → jurisdiction, practice areas, warning-day cadence.
+1. Load `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` → jurisdiction, practice areas, warning-day cadence.
 2. Use the workflow below.
 3. Route by flag:
-   - `--add`: capture case, type, description, due date, source, owner. Write to `~/.claude/plugins/config/claude-for-legal/legal-clinic/deadlines.yaml`. Check for duplicates first.
+   - `--add`: capture case, type, description, due date, source, owner. Write to `~/.claude/plugins/config/judge-fr-eu/legal-clinic/deadlines.yaml`. Check for duplicates first.
    - `--report` (default): cross-case rollup — overdue, next 3d, next 7d, next 14d; by owner; by practice area; unassigned flags.
    - `--update [id]`: modify fields; log note with date.
    - `--complete [id]`: mark done; confirm with student that work is actually filed/submitted.
@@ -33,8 +37,8 @@ The supervising attorney is on the hook if a deadline is missed. The skill is ca
 
 ## Load context
 
-- `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → jurisdiction, practice areas, deadline warning days (default 14/7/3/1), supervising attorneys
-- `~/.claude/plugins/config/claude-for-legal/legal-clinic/deadlines.yaml` — the ledger
+- `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` → jurisdiction, practice areas, deadline warning days (default 14/7/3/1), supervising attorneys
+- `~/.claude/plugins/config/judge-fr-eu/legal-clinic/deadlines.yaml` — the ledger
 
 **Jurisdiction assumption.** Deadline calculations and warning thresholds assume the jurisdiction set in CLAUDE.md. Deadlines, tolling rules, computation-of-time rules, and local court practices vary materially by jurisdiction and by specific court. If a matter involves a different state, a specific court's local rules, or a federal vs. state forum question, confirm the deadline against the governing rule with your supervisor before relying on it.
 
@@ -61,17 +65,17 @@ The skill generates an `id` slug automatically: `[case]-[short-desc]-[YYYY-MM]`.
 
 **Plausibility sanity band.** After the student enters a due date, do NOT compute or verify — but apply a rough plausibility check against typical ranges for the filing type, and flag the student if the date falls far outside. This is scaffolding to catch gross errors in the student's own math, not an alternative to computing against the rule.
 
-**Bands are jurisdiction-keyed.** Load the band file for this clinic's jurisdiction from `references/plausibility-bands/{state}.md` where `{state}` is the two-letter code from `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → clinic jurisdiction (and federal always loads alongside). The legal-clinic plugin ships `references/plausibility-bands/CA.md` (fully populated) and `references/plausibility-bands/IL.md` (placeholder structure) as starting points.
+**Bands are jurisdiction-keyed.** Load the band file for this clinic's jurisdiction from `~/.claude/plugins/config/judge-fr-eu/legal-clinic/plausibility-bands/<state>.md` where `{state}` is the two-letter code from `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` → clinic jurisdiction (and federal always loads alongside). The legal-clinic plugin ships `${CLAUDE_PLUGIN_ROOT}/references/plausibility-bands/CA.md` (fully populated) and `${CLAUDE_PLUGIN_ROOT}/references/plausibility-bands/IL.md` (placeholder structure) as starting points.
 
-**Hard stop at cold-start if the band file is missing.** If `references/plausibility-bands/{state}.md` does not exist for the clinic's jurisdiction, do NOT silently run without plausibility checks. At cold-start, tell the supervisor:
+**Hard stop at cold-start if the band file is missing.** If `~/.claude/plugins/config/judge-fr-eu/legal-clinic/plausibility-bands/<state>.md` does not exist for the clinic's jurisdiction, do NOT silently run without plausibility checks. At cold-start, tell the supervisor:
 
-> "I don't have deadline plausibility checks for [state] — the sanity band for this clinic's jurisdiction isn't in the shipped reference files. I can still track deadlines (add, report, update, complete, close), but I cannot sanity-check them against typical ranges. Here's how to build the band file from your state's rules: copy `references/plausibility-bands/IL.md` as a template, fill in one row per deadline type your clinic sees most (typical range, triggering-event handling, computation-of-time rule, short cite), save at `references/plausibility-bands/{state}.md`, and re-run `/legal-clinic:deadlines`. Until then, every deadline I accept will carry `warnings: no-plausibility-band` and your review should treat dates as unchecked."
+> "I don't have deadline plausibility checks for [state] — the sanity band for this clinic's jurisdiction isn't in the shipped reference files. I can still track deadlines (add, report, update, complete, close), but I cannot sanity-check them against typical ranges. Here's how to build the band file from your state's rules: copy `${CLAUDE_PLUGIN_ROOT}/references/plausibility-bands/IL.md` as a template, fill in one row per deadline type your clinic sees most (typical range, triggering-event handling, computation-of-time rule, short cite), save at `~/.claude/plugins/config/judge-fr-eu/legal-clinic/plausibility-bands/<state>.md`, and re-run `/judge-fr-eu-legal-clinic:deadlines`. Until then, every deadline I accept will carry `warnings: no-plausibility-band` and your review should treat dates as unchecked."
 
 Do not fall back to the CA table for a non-CA clinic. The silent-degradation case — shipping a California sanity check to an Illinois clinic — is the failure this fix exists to close.
 
 **Sanity check logic:**
 
-1. Load the bands table for this clinic's jurisdiction from `references/plausibility-bands/{state}.md` (plus federal-always).
+1. Load the bands table for this clinic's jurisdiction from `~/.claude/plugins/config/judge-fr-eu/legal-clinic/plausibility-bands/<state>.md` (plus federal-always).
 2. After the student enters `due:`, compare to triggering-event date + typical range for that `type:` (if a typical range exists in the loaded band file for the filing type).
 3. If inside the range, write the entry. Say nothing — the band exists to catch errors, not to congratulate correct math.
 4. If outside the range by a material margin, stop before writing and say:
@@ -83,7 +87,7 @@ Do not fall back to the CA table for a non-CA clinic. The silent-degradation cas
 
 ### `--report` (default) — cross-case rollup
 
-Read `~/.claude/plugins/config/claude-for-legal/legal-clinic/deadlines.yaml`. Produce:
+Read `~/.claude/plugins/config/judge-fr-eu/legal-clinic/deadlines.yaml`. Produce:
 
 ```markdown
 # Deadline Report — [today]
@@ -151,7 +155,7 @@ For deadlines that no longer apply — case settled, motion withdrawn, client dr
 
 ## Warning cadence
 
-Per `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` deadline warning days. Default 14, 7, 3, 1.
+Per `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` deadline warning days. Default 14, 7, 3, 1.
 
 Warnings don't auto-surface — this plugin has no scheduled/agent behavior. But any time `/deadlines` is invoked (or `/status`, which routes to this skill for deadline checks), the report pulls forward anything hitting a warning threshold.
 
@@ -161,7 +165,7 @@ If a deadline passes its due date without being marked complete, it moves to `st
 
 - **`/client-intake`:** when intake surfaces a timeline urgency (eviction notice date, asylum filing deadline, hearing date), offer to `/deadlines --add` with pre-populated fields.
 - **`/draft`:** when a filing draft references a deadline (answer due, objection window), offer to add.
-- **`/status`:** the status skill reads `~/.claude/plugins/config/claude-for-legal/legal-clinic/deadlines.yaml` for the relevant case and includes upcoming deadlines in its output.
+- **`/status`:** the status skill reads `~/.claude/plugins/config/judge-fr-eu/legal-clinic/deadlines.yaml` for the relevant case and includes upcoming deadlines in its output.
 - **`/semester-handoff`:** reads deadlines.yaml to identify all active deadlines across departing-student cases; each handoff memo carries the deadlines forward.
 - **`/supervisor-review-queue` (if formal review enabled):** deadlines near their cutoff get priority in the review queue.
 

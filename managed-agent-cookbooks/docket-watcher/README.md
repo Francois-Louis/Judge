@@ -17,6 +17,7 @@ Same source as the [`docket-watcher`](../../litigation-legal/agents/docket-watch
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
+export JUDGE_DEPLOYMENT_ID=demo-2026-10-15
 export TRELLIS_MCP_URL=...
 export COURTLISTENER_MCP_URL=...
 export GDRIVE_MCP_URL=...
@@ -56,3 +57,7 @@ This cookbook is a starting point. It will not work in production until you have
 Every deadline carries `confidence` and `needs_verification` fields. The report segregates low-confidence entries and stamps a verification callout on anything not derived from an unambiguous federal rule. Treat that as the minimum — not the ceiling — of human review. Judges override defaults by individual order, local rules change, and the date the clerk actually docketed service may differ from the date the docket displays.
 
 **Not guaranteed:** this agent recommends a deadline; the docketing attorney confirms against the controlling rule and books the date.
+
+## Judge FR/UE storage
+
+Modified for BASE-008 (2026-10-15), technical version 0.1.0; legal adaptation pending. Use a fresh `JUDGE_DEPLOYMENT_ID`. The launcher binds outputs to `./judge-fr-eu-runs/<deployment>/docket-watcher/out/` and uses fork agent names/titles. Do not reuse original working directories. See the [workspace contract and remote limitations](../README.md).

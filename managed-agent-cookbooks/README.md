@@ -1,5 +1,29 @@
 # Managed-agent templates for legal
 
+<!-- Modified by Judge FR/UE for BASE-008, 2026-10-15. -->
+
+Judge FR/UE 0.1.0 changes technical identity and output storage only. Inherited
+legal tasks and remote execution require their own validation. Set a fresh
+`JUDGE_DEPLOYMENT_ID` before deployment; the launcher uses `REPO_SLUG=judge-fr-eu`
+and `SKILL_TITLE_PREFIX=judge-fr-eu-`, prefixes remote agent names, and binds
+every prompt to `./judge-fr-eu-runs/<deployment>/<cookbook>/out/`. A real launch
+refuses an existing workspace; dry-run resolves payloads without creating one.
+Do not share a working directory or outputs with an original deployment.
+
+Remote workflow engines must provision this workspace and enforce the same
+path checks; the API payload carries instructions, not an OS filesystem sandbox.
+They must also bind the uploaded skills' plugin-root references to an installed
+isolated Judge package with its bundled references and Python storage helper.
+The launcher uploads skill directories; it does not provision a remote plugin
+installation. Offline resolution does not prove that remote binding works.
+No cloud deployment was performed for BASE-008.
+
+The local reference orchestrator requires `JUDGE_DEPLOYMENT_ID` and
+`SOURCE_AGENT=<cookbook>`; its audit and report-path checks use the same isolated
+output root through `scripts/cookbook_paths.py`. Keep `AGENT_IDS` restricted to
+the matching fork deployments; a provider ID alone does not prove provenance.
+Use `bash scripts/test-cookbooks.sh` for all five offline payload checks.
+
 Every agent in this repo ships **two ways**: as a Claude Code plugin you install today (see the vertical directories at repo root), and as a **Claude Managed Agent** template your platform team deploys behind your own workflow engine. **Same agent, same skills — pick your surface.** Each directory below is a deploy manifest that references the canonical system prompt and skills from the matching plugin, so there is one source of truth.
 
 These are **cookbooks, not products.** They are starting points. Adapt them to your document management system, your contract repository, your Slack workspace, your notification routing, your review cadence. They will not work out of the box without that adaptation, and they are not supposed to.

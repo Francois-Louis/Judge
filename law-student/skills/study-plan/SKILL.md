@@ -8,10 +8,14 @@ description: >
 argument-hint: "[--build | --update | --status | --cram]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /study-plan
 
-1. Load `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` → bar jurisdiction, exam format, bar date, weak subjects, target study hours/day, prep course.
-2. Load `~/.claude/plugins/config/claude-for-legal/law-student/study-plan.yaml` if it exists.
+1. Load `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` → bar jurisdiction, exam format, bar date, weak subjects, target study hours/day, prep course.
+2. Load `~/.claude/plugins/config/judge-fr-eu/law-student/study-plan.yaml` if it exists.
 3. Apply the framework below.
 4. Route by flag:
    - `--build` (default if no plan exists): walk the inputs gate (exam, subjects, hours/week, days off, methods). Build the phase structure + daily schedule for the first two weeks. Write `study-plan.yaml`.
@@ -39,14 +43,14 @@ A plan is opinion, not doctrine. The skill states clearly what's an estimate:
 
 ## Load context
 
-`~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md`:
+`~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md`:
 - Bar jurisdiction, exam format, bar date
 - Current classes (for non-bar use)
 - Weak subjects (MBE, essay)
 - Prep course
 - Target study hours/day
 
-`~/.claude/plugins/config/claude-for-legal/law-student/study-plan.yaml` if it exists — extend, don't overwrite.
+`~/.claude/plugins/config/judge-fr-eu/law-student/study-plan.yaml` if it exists — extend, don't overwrite.
 
 ## Workflow
 
@@ -87,7 +91,7 @@ For (3) semester: ask for the term-end date as the anchor.
 
 ### Step 2.5: Supplement vs. replace (prep-course users)
 
-If `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` → `Prep course` names a structured commercial prep course (i.e., is NOT `self` or `N/A`), the student already has a prep-course calendar. This skill's plan must choose one of two roles — it cannot run a full parallel curriculum alongside the prep course without burning the student out.
+If `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` → `Prep course` names a structured commercial prep course (i.e., is NOT `self` or `N/A`), the student already has a prep-course calendar. This skill's plan must choose one of two roles — it cannot run a full parallel curriculum alongside the prep course without burning the student out.
 
 Ask, one question, wait:
 
@@ -126,7 +130,7 @@ Calculate weeks-to-exam from today's date. Then:
 
 ### Step 4: Write it
 
-Write to `~/.claude/plugins/config/claude-for-legal/law-student/study-plan.yaml`:
+Write to `~/.claude/plugins/config/judge-fr-eu/law-student/study-plan.yaml`:
 
 ```yaml
 plan_type: bar  # or law-school-exam or semester
@@ -220,7 +224,7 @@ session_history:
     weak_subtopics: [hearsay-exceptions, character-evidence]
 ```
 
-On the next `/law-student:study-plan --update` run (or when any skill detects the plan is stale):
+On the next `/judge-fr-eu-law-student:study-plan --update` run (or when any skill detects the plan is stale):
 - Subjects with consistently low scores get promoted in `priority` and `weekly_hours`.
 - Weak subtopics within a subject get flagged for the next scheduled session on that subject.
 - If the student is falling behind (scheduled sessions not appearing in history), adjust: either compress coverage or note the gap and ask.
@@ -235,10 +239,10 @@ On the next `/law-student:study-plan --update` run (or when any skill detects th
 
 ## Integration
 
-- `/law-student:session <subject> <n>` writes results to this plan's `session_history`.
-- `/law-student:bar-prep-questions` reads the plan to know which subject is scheduled for today.
-- `/law-student:flashcards` can `--session <n>` and results land in the plan.
-- `/law-student:socratic-drill` and `/law-student:irac-practice` session completions also append.
+- `/judge-fr-eu-law-student:session <subject> <n>` writes results to this plan's `session_history`.
+- `/judge-fr-eu-law-student:bar-prep-questions` reads the plan to know which subject is scheduled for today.
+- `/judge-fr-eu-law-student:flashcards` can `--session <n>` and results land in the plan.
+- `/judge-fr-eu-law-student:socratic-drill` and `/judge-fr-eu-law-student:irac-practice` session completions also append.
 
 ## What this skill does not do
 

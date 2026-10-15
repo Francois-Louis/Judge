@@ -1,6 +1,8 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # client-comms/ — per-case communication logs
 
-One folder per case. Inside, a running `log.md` tracking every client contact — incoming and outgoing, across phone, email, text, letter, and in-person meetings. Produced and appended by `/legal-clinic:client-comms-log`.
+One folder per case. Inside, a running `log.md` tracking every client contact — incoming and outgoing, across phone, email, text, letter, and in-person meetings. Produced and appended by `/judge-fr-eu-legal-clinic:client-comms-log`.
 
 ## Layout
 

@@ -1,6 +1,8 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. BASE-009 (2026-10-15): updates are never applied automatically. -->
+
 # Legal Builder Hub Plugin
 
-Community legal skills discovery and installation. Browses GitHub registries (lpm-skills, [additional registries — add via /legal-builder-hub:registry-browser], and others), installs and auto-updates, surfaces related community skills inside your other legal plugins. The cold-start interview IS the starter pack recommender — asks your practice type, recommends what to install.
+Community legal skills discovery and installation. Browses GitHub registries (lpm-skills, [additional registries — add via /judge-fr-eu-legal-builder-hub:registry-browser], and others), installs, checks for updates (applied only after review and approval), surfaces related community skills inside your other legal plugins. The cold-start interview IS the starter pack recommender — asks your practice type, recommends what to install.
 
 **Every community skill is surfaced raw before install, scanned for prompt-injection patterns, and evaluated against the Legal Skill Design Framework. The plugin helps you find and evaluate; you decide what to trust.**
 
@@ -13,41 +15,41 @@ Everyone using the other legal plugins. This is the app store.
 Asks your practice type, industry, team size, tooling comfort. Recommends a starter pack of community skills that match. Installs the ones you pick.
 
 ```
-/legal-builder-hub:cold-start-interview
+/judge-fr-eu-legal-builder-hub:cold-start-interview
 ```
 
-Your configuration is stored at `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` and survives plugin updates.
+Your configuration is stored at `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` and survives plugin updates.
 
 ## Security posture
 
 Installed community skills run with your access to client data, matter files, and your team's playbook. The hub treats every install and every update as a trust decision. Four layers of defense, none of which is sufficient on its own:
 
-- **Allowlist (admin-controlled):** `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/allowlist.yaml` declares which registries, publishers, and MCP connectors community skills may use. `permissive` mode (default) warns on anything off-list; `restrictive` mode (recommended for firm / enterprise deployments) refuses it. The allowlist is checked before the installer reads any third-party content. See `skills/skill-installer/references/allowlist.md` for the schema.
+- **Allowlist (admin-controlled):** `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/allowlist.yaml` declares which registries, publishers, and MCP connectors community skills may use. `permissive` mode (default) warns on anything off-list; `restrictive` mode (recommended for firm / enterprise deployments) refuses it. The allowlist is checked before the installer reads any third-party content. See `skills/skill-installer/references/allowlist.md` for the schema.
 - **Raw source, not summary:** the installer shows you the full raw `SKILL.md` — not an AI summary — before anything is written. A summary is a convenience; a skill that does something dodgy has to do it in text the raw display will show.
 - **Heuristic scans:** both the installer and `skills-qa` scan the skill for prompt-injection patterns (override/authority claims, out-of-scope reads and writes, external URLs, hidden unicode, shell execution, credential asks). These are AI-heuristic scans, explicitly labeled as such — a clean scan is not a security audit, it is a prompt to read the text yourself.
 - **Human approval, every time:** nothing is written to disk without a fresh typed `yes`. Approval is not inferred from earlier messages. For defense in depth, the installer recommends running the fetch / analysis in a read-only subagent so Write capabilities only become available after approval.
 
 Updates use the same posture: the auto-updater pins to commit SHAs (not mutable tags), shows the full diff including hooks and MCP changes, and requires explicit approval per update. There is no auto-apply mode.
 
-If a skill goes wrong after install: `/legal-builder-hub:disable [skill]` quiets it without removing files; `/legal-builder-hub:uninstall [skill]` removes it entirely. Both are restricted to community skills installed through this hub — they refuse to touch first-party plugin skills.
+If a skill goes wrong after install: `/judge-fr-eu-legal-builder-hub:disable [skill]` quiets it without removing files; `/judge-fr-eu-legal-builder-hub:uninstall [skill]` removes it entirely. Both are restricted to community skills installed through this hub — they refuse to touch first-party plugin skills.
 
 ## Prerequisites
 
 - Slack notifications from the registry-sync agent require a Slack MCP server configured in your environment. Without one, the agent writes its digest to a file.
-- The default registry list in `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` ships empty except for `lpm-skills`. Add registries you trust via `/legal-builder-hub:registry-browser` or by editing `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md`.
+- The default registry list in `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` ships empty except for `lpm-skills`. Add registries you trust via `/judge-fr-eu-legal-builder-hub:registry-browser` or by editing `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md`.
 
 ## Commands
 
 | Command | Does |
 |---|---|
-| `/legal-builder-hub:cold-start-interview` | Practice profile + starter pack recommendation |
-| `/legal-builder-hub:registry-browser [query]` | Search watched registries for skills |
-| `/legal-builder-hub:skill-installer [skill]` | Install a community skill |
-| `/legal-builder-hub:auto-updater` | Check for updates to installed skills |
-| `/legal-builder-hub:related-skills-surfacer` | Suggest skills based on what you've been doing |
-| `/legal-builder-hub:skills-qa [skill]` | Evaluate a skill against the Legal Skill Design Framework before installing |
-| `/legal-builder-hub:disable [skill]` | Disable an installed community skill without removing files |
-| `/legal-builder-hub:uninstall [skill]` | Uninstall a community skill installed through the hub |
+| `/judge-fr-eu-legal-builder-hub:cold-start-interview` | Practice profile + starter pack recommendation |
+| `/judge-fr-eu-legal-builder-hub:registry-browser [query]` | Search watched registries for skills |
+| `/judge-fr-eu-legal-builder-hub:skill-installer [skill]` | Install a community skill |
+| `/judge-fr-eu-legal-builder-hub:auto-updater` | Check for updates to installed skills |
+| `/judge-fr-eu-legal-builder-hub:related-skills-surfacer` | Suggest skills based on what you've been doing |
+| `/judge-fr-eu-legal-builder-hub:skills-qa [skill]` | Evaluate a skill against the Legal Skill Design Framework before installing |
+| `/judge-fr-eu-legal-builder-hub:disable [skill]` | Disable an installed community skill without removing files |
+| `/judge-fr-eu-legal-builder-hub:uninstall [skill]` | Uninstall a community skill installed through the hub |
 
 ## Skills
 
@@ -73,20 +75,30 @@ The commands above run when you invoke them — for when you're working a matter
 
 ## Watched registries (default)
 
-The default allowlist ships with the community registries we've reviewed pre-configured. Edit `references/allowlist-default.yaml` in the repo, or your per-install allowlist at `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/allowlist.yaml`, to add, remove, or switch between restrictive and permissive modes.
+The default allowlist ships with the community registries we've reviewed pre-configured. Edit `references/allowlist-default.yaml` in the repo, or your per-install allowlist at `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/allowlist.yaml`, to add, remove, or switch between restrictive and permissive modes.
 
 - **lpm-skills** — Legal project management (Scott Margetts / LegalOps Consulting) — `github.com/legalopsconsulting/lpm-skills`
 - **Lawvable / awesome-legal-skills** — Curated list of AI agent skills for legal work — `github.com/lawvable/awesome-legal-skills`
 - **Lawvable / agent-skills** — Curated collection of agent skills for legal work — `github.com/lawvable/agent-skills`
-- Add your own via `/legal-builder-hub:registry-browser` or by editing the allowlist
+- Add your own via `/judge-fr-eu-legal-builder-hub:registry-browser` or by editing the allowlist
 
 ## How it learns
 
-Your practice profile at `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` isn't static — it improves as you use the plugin. The hub re-reads it on every `/legal-builder-hub:registry-browser` and `/legal-builder-hub:related-skills-surfacer`, so adjusting your practice type, industry, or watched registries sharpens future recommendations. Edit the file directly or re-run `/legal-builder-hub:cold-start-interview --redo` when your work shifts.
+Your practice profile at `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` isn't static — it improves as you use the plugin. The hub re-reads it on every `/judge-fr-eu-legal-builder-hub:registry-browser` and `/judge-fr-eu-legal-builder-hub:related-skills-surfacer`, so adjusting your practice type, industry, or watched registries sharpens future recommendations. Edit the file directly or re-run `/judge-fr-eu-legal-builder-hub:cold-start-interview --redo` when your work shifts.
 
 ## Notes
 
 - Community skills are read before install. You see the **raw** SKILL.md — not a summary — before you accept.
-- Auto-update is off by default. Turn it on per-skill if you trust the source.
+- Updates are never applied automatically. Each update shows its diff and trust check and needs explicit approval.
 - The related-skills-surfacer runs inside other plugins: when you're doing a task, it checks if the community has something relevant.
 - Enterprise / firm deployments: set `mode: restrictive` in `allowlist.yaml` and populate the `registries`, `publishers`, and `connectors` lists. In restrictive mode the installer refuses to fetch, analyze, or install anything from an unlisted source.
+
+## Judge FR/UE 0.1.0
+
+Technical identity/storage migration only; inherited legal tasks still require their France/EU adaptation stories. Maintained by the Judge FR/UE maintainers at https://github.com/Francois-Louis/Judge, derived from Claude for Legal / Anthropic without claiming affiliation.
+
+Install `judge-fr-eu-legal-builder-hub@judge-fr-eu` with explicit scope. Data lives under `config/judge-fr-eu/legal-builder-hub/`, outside replaceable packages. See [storage boundary](references/isolation.md), [license](LICENSE) and [modification notice](NOTICE). Commands use the `judge-fr-eu-legal-builder-hub:` prefix.
+
+```text
+/plugin install judge-fr-eu-legal-builder-hub@judge-fr-eu --scope user
+```

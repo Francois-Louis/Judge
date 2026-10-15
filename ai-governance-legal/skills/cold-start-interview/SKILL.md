@@ -2,7 +2,7 @@
 name: cold-start-interview
 description: >
   Run the cold-start interview — learns your AI governance practice and writes
-  `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` from
+  `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` from
   your AI policy, a reference impact assessment, and key vendor AI agreements.
   Use when the practice profile is missing or contains `[PLACEHOLDER]` markers,
   or when user says "set up ai governance plugin", "onboard me", "configure ai
@@ -10,25 +10,29 @@ description: >
 argument-hint: "[--redo | --check-integrations]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /cold-start-interview
 
-1. Check `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` — if populated and no `--redo`, confirm before overwriting.
+1. Check `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` — if populated and no `--redo`, confirm before overwriting.
 2. Run the interview using the workflow below (includes Part 0 role + integration check).
 3. Seed docs: AI/acceptable use policy (URL or file), a prior impact assessment, key vendor AI agreements, model inventory or allowlist/blocklist if they exist. Read all provided.
 4. Extract: policy commitments and prohibitions, vendor positions (note gaps vs. stated), impact assessment structure, approved/prohibited tool lists.
-5. Migration: if a populated CLAUDE.md (no `[PLACEHOLDER]` markers) exists at `~/.claude/plugins/cache/claude-for-legal/ai-governance-legal/*/CLAUDE.md` but not at the config path, copy it to the config path and tell the user what was migrated.
-6. Write `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` (create parent directories as needed). Show summary. Offer first task.
+5. If the fork profile is absent, start a fresh France/EU interview; never read a cache or another distribution.
+6. Write `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` (create parent directories as needed). Show summary. Offer first task.
 
 ## Flags
 
-- `--redo` — re-run the full interview and overwrite `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`.
-- `--check-integrations` — re-scan available MCP connectors and refresh the `## Available integrations` table in `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` without re-running the full interview. Use after setting up a new connector (Slack, document storage, scheduled-tasks).
+- `--redo` — re-run the full interview and overwrite `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md`.
+- `--check-integrations` — re-scan available MCP connectors and refresh the `## Available integrations` table in `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` without re-running the full interview. Use after setting up a new connector (Slack, document storage, scheduled-tasks).
 
 When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 
 ```
-/ai-governance-legal:cold-start-interview
-/ai-governance-legal:cold-start-interview --check-integrations
+/judge-fr-eu-ai-governance-legal:cold-start-interview
+/judge-fr-eu-ai-governance-legal:cold-start-interview --check-integrations
 ```
 
 ---
@@ -47,7 +51,7 @@ because builder obligations and deployer obligations are nearly opposite exercis
 
 ## Cold-start check
 
-Read `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`:
+Read `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md`:
 - **Does not exist** → start the interview.
 - **Contains `<!-- SETUP PAUSED AT: -->`** → greet the user and offer to resume from that section.
 - **Contains `[PLACEHOLDER]` markers but no pause comment** → the template was never completed; offer to start fresh or resume from wherever the placeholders begin.
@@ -55,14 +59,14 @@ Read `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`:
 
 The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed.
 
-If a CLAUDE.md exists at the old cache path `~/.claude/plugins/cache/claude-for-legal/ai-governance-legal/*/CLAUDE.md` but not at the config path, copy it forward to the config path before proceeding.
+If the fork profile is absent, start a fresh interview; never import a cached profile.
 
 ## Check for the shared company profile
 
-Look for `~/.claude/plugins/config/claude-for-legal/company-profile.md`.
+Look for `~/.claude/plugins/config/judge-fr-eu/company-profile.md`.
 
 - **If it exists:** Read it. Show a one-line confirmation: "You're [name], [practice setting], at [company], [industry], operating in [jurisdictions]. Right? (Or say 'update' to change the shared profile.)" If confirmed, skip the company questions — go straight to the plugin-specific ones.
-- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
+- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `${CLAUDE_PLUGIN_ROOT}/references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
 
 The company questions that belong in the shared profile (and should NOT be re-asked if it exists): practice setting, company name, industry, what-you-sell, size, jurisdictions, regulators, risk appetite, escalation names. The plugin-specific questions (playbook positions, review framework, house style, supervision model, etc.) stay per-plugin.
 
@@ -78,13 +82,13 @@ Ask the user to confirm before proceeding: continue with project scope, or pause
 
 Open with the fork-first preamble. Keep it to 3-4 short lines. Ask quick-or-full before anything else.
 
-> **`ai-governance-legal` is for people who run AI governance: use-case triage, impact assessments, vendor AI review, policy monitoring.** Not your area? `/legal-builder-hub:related-skills-surfacer`.
+> **`ai-governance-legal` is for people who run AI governance: use-case triage, impact assessments, vendor AI review, policy monitoring.** Not your area? `/judge-fr-eu-legal-builder-hub:related-skills-surfacer`.
 >
 > **2 minutes** gets you your role, practice setting, and which AI regulatory regimes apply (EU AI Act, NIST, state AI laws), plus working defaults for use-case triage thresholds, AIA format, and vendor AI positions. **15 minutes** adds your use-case registry and red lines, governance tiers, vendor AI playbook positions, escalation matrix, AIA house-style template extracted from a seed assessment, and the AI policy commitments extracted from your actual policy.
 >
 > Quick or full? (Upgrade any time with `/cold-start-interview --full`.)
 
-**Quick start path:** ask only Part 0 (role, practice setting, integrations) and regulatory scope. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for use-case triage thresholds, AIA format, and vendor AI positions. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/ai-governance-legal:cold-start-interview --full` anytime to do the whole interview, or `/ai-governance-legal:cold-start-interview --redo <section>` to re-do one part."
+**Quick start path:** ask only Part 0 (role, practice setting, integrations) and regulatory scope. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for use-case triage thresholds, AIA format, and vendor AI positions. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/judge-fr-eu-ai-governance-legal:cold-start-interview --full` anytime to do the whole interview, or `/judge-fr-eu-ai-governance-legal:cold-start-interview --redo <section>` to re-do one part."
 
 **Full setup path:** the existing interview flow below. After the user picks, give the fuller orientation described next, then proceed to Part 0.
 
@@ -92,7 +96,7 @@ Open with the fork-first preamble. Keep it to 3-4 short lines. Ask quick-or-full
 
 Give the fuller orientation. One paragraph, in your own voice:
 
-> "This plugin maintains: your practice profile (governance tiers, red lines, policy commitments), a use-case registry, impact assessments, and vendor AI reviews — all in `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/`. It learns how you actually work — your practice, your risk calibration, your house conventions — and writes that into a plain-text file the plugin reads from every time. Everything you answer can be changed later."
+> "This plugin maintains: your practice profile (governance tiers, red lines, policy commitments), a use-case registry, impact assessments, and vendor AI reviews — all in `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/`. It learns how you actually work — your practice, your risk calibration, your house conventions — and writes that into a plain-text file the plugin reads from every time. Everything you answer can be changed later."
 
 Then: "Ready? A few quick questions first, then we'll go deeper."
 
@@ -113,7 +117,7 @@ Corollary: the interview's inputs are the user's typed answers and documents the
 - **For uploads or shared documents:** "Paste the contents, share a file path, or say 'skip for now.' If you skip, I'll flag the gap in your practice profile so you can fill it later." Then actually wait.
 - **Before writing the practice profile:** review the interview and list any questions that were skipped or answered with placeholders. Say: "Before I write your configuration, here's what's still open: [list]. Want to fill any of these now, or leave them as placeholders?" Then wait for the answer.
 - **Never** write a practice profile with silent gaps. Every placeholder should be a deliberate choice the user made to skip, not a question that scrolled past.
-- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/ai-governance-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /ai-governance-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
+- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/judge-fr-eu-ai-governance-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /judge-fr-eu-ai-governance-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
 
 **Verify user-stated legal facts as they come up in setup.** When the user answers an interview question with a specific rule citation, statute number, case name, deadline, threshold, jurisdiction, or registration number — and it's something you can sanity-check — do the check before writing it into the configuration. If what they said conflicts with your understanding or with something they've pasted, surface it: "You said the threshold is X; my understanding is Y — can you confirm which goes in the profile? `[premise flagged — verify]`" A wrong fact written into CLAUDE.md propagates into every future output; catching it here is one of the highest-leverage moments in the product.
 
@@ -197,7 +201,7 @@ Then report findings in this form:
 > - ⚪ [Integration] — configured but not verified. Open your MCP settings to confirm.
 > - ✗ [Integration] — not found. [Feature] will fall back to [manual alternative]. [How to connect.]
 
-You don't need all of these. Core features work with file access alone. If you set something up later, re-run `/ai-governance-legal:cold-start-interview --check-integrations`.
+You don't need all of these. Core features work with file access alone. If you set something up later, re-run `/judge-fr-eu-ai-governance-legal:cold-start-interview --check-integrations`.
 
 Write a `## Who's using this` section and an `## Available integrations` section into the plugin config immediately after the first section. Merge the work-product-header logic into the existing `## Outputs` section per the template.
 
@@ -215,7 +219,7 @@ Write a `## Who's using this` section and an `## Available integrations` section
 > are assessed for each AI system separately — you might be a deployer of
 > one system and a provider of another. Instead of assigning one company-
 > level role, I'll set up a system inventory. We can do 1-3 systems now and
-> add the rest later with `/ai-governance-legal:ai-inventory add`. Or skip
+> add the rest later with `/judge-fr-eu-ai-governance-legal:ai-inventory add`. Or skip
 > the inventory for now if you're not in the EU or not ready.
 
 Walk through the role options if the user isn't sure:
@@ -234,10 +238,10 @@ Walk through the role options if the user isn't sure:
 
 **Offer to populate the inventory now.** Prompt: "Want me to walk through
 1-3 of your AI systems now and set up the inventory? Or skip and come back
-with `/ai-governance-legal:ai-inventory add` later?" If they accept, run the
+with `/judge-fr-eu-ai-governance-legal:ai-inventory add` later?" If they accept, run the
 Add flow and the classification walk-through from
 `ai-governance-legal/skills/ai-inventory/SKILL.md` for each system. Save to
-`~/.claude/plugins/config/claude-for-legal/ai-governance-legal/ai-systems.yaml`.
+`~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/ai-systems.yaml`.
 
 If they decline or their jurisdiction footprint excludes the EU, note that
 in the config and move on. The inventory can be populated later.
@@ -589,7 +593,7 @@ to customers, employees, or affected parties]
 
 ---
 
-*Re-run: `/ai-governance-legal:cold-start-interview --redo`*
+*Re-run: `/judge-fr-eu-ai-governance-legal:cold-start-interview --redo`*
 ```
 
 ## After writing
@@ -602,11 +606,11 @@ If yes, show this tailored list (not a generic template — these are the concre
 
 > **Here's what I'm good at in AI governance:**
 >
-> - **Review vendor AI terms** — e.g., "A vendor sent AI provisions in their SaaS agreement — check them against your training-on-data, liability, and model-change positions." Try: `/ai-governance-legal:vendor-ai-review`
-> - **Triage a proposed AI use case** — e.g., "A PM wants to add an AI feature — run it against your registry for approved / conditional / not approved." Try: `/ai-governance-legal:use-case-triage`
-> - **Run an AI impact assessment** — e.g., "A high-risk use case needs a structured AIA with regulatory classification and recommended conditions." Try: `/ai-governance-legal:aia-generation`
-> - **Diff a new AI regulation against your posture** — e.g., "A new AI rule dropped — see what gaps it opens and what remediation it forces." Try: `/ai-governance-legal:reg-gap-analysis`
-> - **Sweep for policy drift** — e.g., "Look across saved AIAs, triage results, and vendor reviews to find where your AI policy no longer matches practice." Try: `/ai-governance-legal:policy-monitor`
+> - **Review vendor AI terms** — e.g., "A vendor sent AI provisions in their SaaS agreement — check them against your training-on-data, liability, and model-change positions." Try: `/judge-fr-eu-ai-governance-legal:vendor-ai-review`
+> - **Triage a proposed AI use case** — e.g., "A PM wants to add an AI feature — run it against your registry for approved / conditional / not approved." Try: `/judge-fr-eu-ai-governance-legal:use-case-triage`
+> - **Run an AI impact assessment** — e.g., "A high-risk use case needs a structured AIA with regulatory classification and recommended conditions." Try: `/judge-fr-eu-ai-governance-legal:aia-generation`
+> - **Diff a new AI regulation against your posture** — e.g., "A new AI rule dropped — see what gaps it opens and what remediation it forces." Try: `/judge-fr-eu-ai-governance-legal:reg-gap-analysis`
+> - **Sweep for policy drift** — e.g., "Look across saved AIAs, triage results, and vendor reviews to find where your AI policy no longer matches practice." Try: `/judge-fr-eu-ai-governance-legal:policy-monitor`
 >
 > **My suggestion for your first one:** Triage one real use case from your backlog — it's the fastest way to feel what the registry gives you. Or tell me what's on your plate and I'll pick.
 
@@ -643,18 +647,18 @@ This solves the cold-start problem (the supervisor doesn't know what to do first
 
 5. **Close with a note on changeability.** End with something like:
 
-   > "Done. Your configuration is at `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` — it's a plain text file you can read and edit directly. Anything you answered can be changed:
+   > "Done. Your configuration is at `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` — it's a plain text file you can read and edit directly. Anything you answered can be changed:
    >
    > - Edit the file directly for a quick change
-   > - Run `/ai-governance-legal:cold-start-interview --redo` for a full re-interview
-   > - Run `/ai-governance-legal:cold-start-interview --check-integrations` to re-check what's connected
+   > - Run `/judge-fr-eu-ai-governance-legal:cold-start-interview --redo` for a full re-interview
+   > - Run `/judge-fr-eu-ai-governance-legal:cold-start-interview --check-integrations` to re-check what's connected
    >
    > The sections most often adjusted after first setup are the use case registry and red lines, vendor AI review red lines, and the regulatory regimes in scope. Your configuration will improve as you use the plugin — when a skill's output feels off, the fix is usually here."
 
 6. **Before your first triage**: connect a research tool. Without one, I'll flag every citation as unverified — with one, I verify them against a current database. In Cowork: Settings → Connectors. In Claude Code: authorize when a skill prompts you.
 
 <!-- COLLATERAL LINKS: when onboarding collateral exists, add here:
-     "Want a walkthrough? [Watch the 3-minute intro](URL) or [read the getting-started guide](URL)." -->
+     "Want a walkthrough? the introduction (link not yet supplied) or the getting-started guide (link not yet supplied)." -->
 
 ## Your practice profile learns
 
@@ -686,3 +690,16 @@ After writing the practice profile, close with this note:
   vendor assessments, policy frameworks — but the orientation is different enough
   that running them together loses sharpness. If both plugins are being set up, run
   them sequentially.
+
+## Judge FR/UE setup boundary
+
+Read only the fork profile and shared profile using the packaged storage helper.
+If the practice profile is absent, including with `--check-integrations`, start
+a new interview: confirm France/EU jurisdictions, role and dates from the user.
+Do not search or copy any other profile, cache, legal rules, matters or registers.
+Use the packaged template only as a section scaffold. Preserve an existing
+profile and its answers, including paused progress; `--redo` reviews only the
+requested sections and does not reset unrelated answers. Create new files
+exclusively; for an agreed edit, supply the digest of the file reviewed.
+Never use inherited US defaults to fill unanswered France/EU legal fields;
+leave them explicitly unresolved. Assisted import requires a separate story.

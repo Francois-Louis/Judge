@@ -16,6 +16,7 @@ This is a **cookbook, not a product.** It assumes Ironclad as the CLM of record 
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
+export JUDGE_DEPLOYMENT_ID=demo-2026-10-15
 export IRONCLAD_MCP_URL=...
 export GDRIVE_MCP_URL=...
 # Optional — enable in the manifest if your signed agreements live here
@@ -56,3 +57,7 @@ Before you trust the output on your workflow:
 - **Adjust the escalation matrix.** The deadline-calculator reads your playbook's escalation matrix to decide whether to set `escalation_needed: true` and who to route to. Confirm the matrix reflects your current approval authority (who signs off on letting an auto-renewal lapse, who signs off on a renegotiation above a dollar threshold) before enabling scheduled runs. The [`escalation-flagger`](../../commercial-legal/skills/escalation-flagger) skill is loaded in `alert-writer` for formatting.
 - **Confirm the work-product header.** The headless append in `agent.yaml` instructs the agent to prepend your playbook's work-product header. Verify the header language with your GC before turning this on.
 - **Cadence.** Weekly is the default. High-volume teams should run daily; small teams can run monthly. The cadence lives in your own workflow engine — the cookbook does not schedule itself.
+
+## Judge FR/UE storage
+
+Modified for BASE-008 (2026-10-15), technical version 0.1.0; legal adaptation pending. Use a fresh `JUDGE_DEPLOYMENT_ID`. The launcher binds outputs to `./judge-fr-eu-runs/<deployment>/renewal-watcher/out/` and uses fork agent names/titles. Do not reuse original working directories. See the [workspace contract and remote limitations](../README.md).

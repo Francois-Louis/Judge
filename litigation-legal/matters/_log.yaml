@@ -1,8 +1,10 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Portfolio Ledger — litigation-legal
 #
 # One entry per matter under `matters:`. Source of truth for /portfolio-status rollups.
 # Closed matters stay in this file (searchable history) but are filtered out
-# of active rollups by default. Edit via /litigation-legal:matter-intake,
+# of active rollups by default. Edit via /judge-fr-eu-litigation-legal:matter-intake,
 # /matter-update, and /matter-close — direct edits are fine but show your work in
 # the matter's history.md.
 #

@@ -10,11 +10,15 @@ description: >
 argument-hint: "[section name, or describe what you want to change]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /customize
 
 ## When this runs
 
-The user typed `/legal-clinic:customize`. They (usually the professor, sometimes
+The user typed `/judge-fr-eu-legal-clinic:customize`. They (usually the professor, sometimes
 a student) want to change something in the clinic profile — a jurisdiction, a
 supervision style, a practice-area template, a semester rollover — without
 re-running the whole cold-start interview and without hand-editing YAML.
@@ -22,11 +26,11 @@ re-running the whole cold-start interview and without hand-editing YAML.
 ## What to do
 
 1. **Read the config.** Read
-   `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md`.
+   `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md`.
    If the plugin config does not exist or still contains `[PLACEHOLDER]`
    values, say:
 
-   > You haven't run setup yet. Run `/legal-clinic:cold-start-interview`
+   > You haven't run setup yet. Run `/judge-fr-eu-legal-clinic:cold-start-interview`
    > first — customize is for adjusting a profile you already have.
 
 2. **Show the customizable map.** List what's in the profile, grouped, with a
@@ -76,7 +80,7 @@ re-running the whole cold-start interview and without hand-editing YAML.
 5. **Close.**
 
    > Done. Your next output will reflect the change. Anything else? You can
-   > run `/legal-clinic:customize` anytime.
+   > run `/judge-fr-eu-legal-clinic:customize` anytime.
 
 ## Guardrails
 

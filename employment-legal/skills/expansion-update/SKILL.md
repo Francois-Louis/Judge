@@ -8,6 +8,10 @@ description: >
 argument-hint: "[country name]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /expansion-update
 
 Returns to an open expansion tracker and updates item status based on what
@@ -16,11 +20,11 @@ flags anything overdue, and surfaces the next priorities.
 
 ## Instructions
 
-1. Load `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md`.
+1. Load `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`.
 
-2. Identify the tracker file: `~/.claude/plugins/config/claude-for-legal/employment-legal/expansion-[slug].yaml`. If it doesn't
+2. Identify the tracker file: `~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[slug].yaml`. If it doesn't
    exist, respond: "No expansion tracker found for [country]. Run
-   `/employment-legal:expansion-kickoff [country]` to start one."
+   `/judge-fr-eu-employment-legal:expansion-kickoff [country]` to start one."
 
 3. Read the tracker. Show the current state:
 
@@ -61,11 +65,11 @@ Next priority: [top open item].
 ## Examples
 
 ```
-/employment-legal:expansion-update Germany
+/judge-fr-eu-employment-legal:expansion-update Germany
 ```
 
 ```
-/employment-legal:expansion-update
+/judge-fr-eu-employment-legal:expansion-update
 (will ask which country if multiple trackers exist)
 ```
 

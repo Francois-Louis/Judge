@@ -9,6 +9,10 @@ description: >
 argument-hint: "[--report [--days N] | --add | --update | --audit]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /portfolio
 
 Surfaces what's renewing, adds assets, records filings, and audits the register.
@@ -16,7 +20,7 @@ Surfaces what's renewing, adds assets, records filings, and audits the register.
 ## Instructions
 
 1. **Follow the workflow below** and read
-   `~/.claude/plugins/config/claude-for-legal/ip-legal/portfolio.yaml`.
+   `~/.claude/plugins/config/judge-fr-eu/ip-legal/portfolio.yaml`.
 
 2. **Default (no args):** equivalent to `--report` — show deadlines in the
    next 90 days grouped by urgency (🔴 lapsed/grace, ⏰ due within window,
@@ -53,23 +57,23 @@ Surfaces what's renewing, adds assets, records filings, and audits the register.
 ## Examples
 
 ```
-/ip-legal:portfolio
+/judge-fr-eu-ip-legal:portfolio
 ```
 
 ```
-/ip-legal:portfolio --report --days 180
+/judge-fr-eu-ip-legal:portfolio --report --days 180
 ```
 
 ```
-/ip-legal:portfolio --add
+/judge-fr-eu-ip-legal:portfolio --add
 ```
 
 ```
-/ip-legal:portfolio --update
+/judge-fr-eu-ip-legal:portfolio --update
 ```
 
 ```
-/ip-legal:portfolio --audit
+/judge-fr-eu-ip-legal:portfolio --audit
 ```
 
 ---
@@ -155,7 +159,7 @@ foreign associate rather than computing a date this skill doesn't understand.
 
 ## The register
 
-Lives at `~/.claude/plugins/config/claude-for-legal/ip-legal/portfolio.yaml`.
+Lives at `~/.claude/plugins/config/judge-fr-eu/ip-legal/portfolio.yaml`.
 Structure:
 
 ```yaml
@@ -247,7 +251,7 @@ Run when no register exists, or with `--rebuild`.
 
 ### Step 1: Determine the source
 
-Read `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`:
+Read `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`:
 - **IP management system connected** (Anaqua, CPA Global, etc.): pull the portfolio via its integration. The IP system is the authoritative source; this register mirrors it and adds no deadlines the system doesn't already have.
 - **No IP management system, but spreadsheet / export available:** ask the user to share the export. Import what's present; flag any asset missing a registration or grant date as `unknown` for deadline computation.
 - **Nothing at hand:** walk through assets interactively — type, jurisdiction, number, key dates, owner.
@@ -284,7 +288,7 @@ Deadlines computed: [N]
 Agent-managed / jurisdiction TBC: [N] — confirm with foreign associates
 Unknown (missing key dates): [N] — fill in before relying on reports
 
-Run /ip-legal:portfolio --report to see what's due.
+Run /judge-fr-eu-ip-legal:portfolio --report to see what's due.
 ```
 
 ---
@@ -292,13 +296,13 @@ Run /ip-legal:portfolio --report to see what's due.
 ## Mode 2: Report
 
 ```
-/ip-legal:portfolio --report [--days 30|60|90|180]
+/judge-fr-eu-ip-legal:portfolio --report [--days 30|60|90|180]
 ```
 
 Default window: 90 days. Refresh computed deadlines for every asset before
 producing the report — don't rely on stored dates alone.
 
-Output (prepend work-product header per `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` → Outputs):
+Output (prepend work-product header per `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md` → Outputs):
 
 ```
 IP PORTFOLIO DEADLINE REPORT — [date]
@@ -341,7 +345,7 @@ If the report lists more than ~10 assets, or any time the user asks: offer the d
 ## Mode 3: Add
 
 ```
-/ip-legal:portfolio --add
+/judge-fr-eu-ip-legal:portfolio --add
 ```
 
 Interactive add of a single asset. Ask for:
@@ -382,13 +386,13 @@ Store under `custom_rules:` and apply to future assets in that jurisdiction.
 ## Mode 4: Update
 
 ```
-/ip-legal:portfolio --update
+/judge-fr-eu-ip-legal:portfolio --update
 ```
 
 ### Consequential-action gate
 
 **Before recording that a maintenance filing or fee payment was made:** Read
-`## Who's using this` in `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`. If the Role is **Non-lawyer**:
+`## Who's using this` in `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`. If the Role is **Non-lawyer**:
 
 > Recording a §8 declaration, a §9 renewal, a patent maintenance fee payment,
 > or an international annuity as "filed" has consequences. If the record is
@@ -431,7 +435,7 @@ system doesn't.
 ## Mode 5: Audit
 
 ```
-/ip-legal:portfolio --audit
+/judge-fr-eu-ip-legal:portfolio --audit
 ```
 
 Broader health check beyond this month's deadlines:

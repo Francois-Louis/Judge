@@ -8,27 +8,31 @@ description: >
 argument-hint: "<new | list | switch | close | none> [slug]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /matter-workspace
 
 Practitioners work across multiple clients and matters. A matter workspace keeps one client or engagement's context separate from every other. This skill manages those workspaces.
 
 ## Subcommands
 
-- `/ip-legal:matter-workspace new <slug>` — create a new matter workspace, run a short intake, write `matter.md`
-- `/ip-legal:matter-workspace list` — list matters with status and active flag
-- `/ip-legal:matter-workspace switch <slug>` — set the active matter
-- `/ip-legal:matter-workspace close <slug>` — archive a matter (move to `~/.claude/plugins/config/claude-for-legal/ip-legal/matters/_archived/`, never delete)
-- `/ip-legal:matter-workspace none` — detach from any active matter, work at practice-level only
+- `/judge-fr-eu-ip-legal:matter-workspace new <slug>` — create a new matter workspace, run a short intake, write `matter.md`
+- `/judge-fr-eu-ip-legal:matter-workspace list` — list matters with status and active flag
+- `/judge-fr-eu-ip-legal:matter-workspace switch <slug>` — set the active matter
+- `/judge-fr-eu-ip-legal:matter-workspace close <slug>` — archive a matter (move to `~/.claude/plugins/config/judge-fr-eu/ip-legal/matters/_archived/`, never delete)
+- `/judge-fr-eu-ip-legal:matter-workspace none` — detach from any active matter, work at practice-level only
 
 ## Instructions
 
-1. Read `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` — confirm the `## Matter workspaces` section is populated. If `Enabled` is `✗`, tell the user: "Matter workspaces are off — you're configured as an in-house practice with one client, so the plugin works from practice-level context automatically. If you actually work across multiple clients, re-run `/ip-legal:cold-start-interview --redo` and select a private-practice setting. Otherwise, you don't need `/ip-legal:matter-workspace` at all." Don't error — the disabled state is the expected one for in-house users.
+1. Read `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md` — confirm the `## Matter workspaces` section is populated. If `Enabled` is `✗`, tell the user: "Matter workspaces are off — you're configured as an in-house practice with one client, so the plugin works from practice-level context automatically. If you actually work across multiple clients, re-run `/judge-fr-eu-ip-legal:cold-start-interview --redo` and select a private-practice setting. Otherwise, you don't need `/judge-fr-eu-ip-legal:matter-workspace` at all." Don't error — the disabled state is the expected one for in-house users.
 2. Follow the subcommand logic below.
 3. Dispatch on the first token of `$ARGUMENTS`:
-   - `new` → run the intake interview, write `~/.claude/plugins/config/claude-for-legal/ip-legal/matters/<slug>/matter.md`, seed `history.md` and `notes.md`.
-   - `list` → enumerate `~/.claude/plugins/config/claude-for-legal/ip-legal/matters/*/matter.md`, print a table, mark the active matter.
+   - `new` → run the intake interview, write `~/.claude/plugins/config/judge-fr-eu/ip-legal/matters/<slug>/matter.md`, seed `history.md` and `notes.md`.
+   - `list` → enumerate `~/.claude/plugins/config/judge-fr-eu/ip-legal/matters/*/matter.md`, print a table, mark the active matter.
    - `switch` → update the `Active matter:` line in the practice-level CLAUDE.md.
-   - `close` → move `~/.claude/plugins/config/claude-for-legal/ip-legal/matters/<slug>/` to `~/.claude/plugins/config/claude-for-legal/ip-legal/matters/_archived/<slug>/`, log the close date in `history.md`.
+   - `close` → move `~/.claude/plugins/config/judge-fr-eu/ip-legal/matters/<slug>/` to `~/.claude/plugins/config/judge-fr-eu/ip-legal/matters/_archived/<slug>/`, log the close date in `history.md`.
    - `none` → set `Active matter:` to `none — practice-level context only`.
 4. Show the user what changed and confirm before writing.
 
@@ -42,14 +46,14 @@ Practitioners work across multiple clients and matters. A matter workspace keeps
 
 Multi-client practitioners (private practice — solo, small firm, large firm) work across many matters. Context from one must not leak into another. This skill is the thin file-management layer that makes that true.
 
-**Default state is off.** In-house users never see this — they run at practice-level only. Matter workspaces turn on at cold-start for private-practice users, or by editing `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗`, this skill does not run; instead it explains the disabled state and suggests `/ip-legal:cold-start-interview --redo` for users who actually need matter isolation.
+**Default state is off.** In-house users never see this — they run at practice-level only. Matter workspaces turn on at cold-start for private-practice users, or by editing `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗`, this skill does not run; instead it explains the disabled state and suggests `/judge-fr-eu-ip-legal:cold-start-interview --redo` for users who actually need matter isolation.
 
 ## Storage layout
 
 All matter data lives under:
 
 ```
-~/.claude/plugins/config/claude-for-legal/ip-legal/
+~/.claude/plugins/config/judge-fr-eu/ip-legal/
 ├── CLAUDE.md                       # practice-level practice profile
 └── matters/
     ├── <slug>/
@@ -75,7 +79,7 @@ The `Active matter:` line under `## Matter workspaces` in the practice-level CLA
 2. Run the intake interview:
    - **Client** (the party we represent, or the internal business unit if in-house)
    - **Counterparty** (the other side — may be multiple; may be "unknown third-party infringer" for watch-triggered matters)
-   - **Matter type** (read the plugin's practice profile for typical categories; for ip-legal: trademark clearance | trademark enforcement | DMCA | patent FTO | patent infringement | IP clause review | OSS compliance | portfolio maintenance | other)
+   - **Matter type** (read the plugin's practice profile for typical categories; for judge-fr-eu-ip-legal: trademark clearance | trademark enforcement | DMCA | patent FTO | patent infringement | IP clause review | OSS compliance | portfolio maintenance | other)
    - **Confidentiality level** (standard | heightened | clean-team — heightened prompts extra care in cross-matter settings; clean-team common in patent FTO work)
    - **Key facts** (2–5 sentences: what this matter is about, who the stakeholders are, what's at stake)
    - **Matter-specific overrides to the practice posture** (e.g., "client wants aggressive posture for this mark only", "counterparty is a strategic partner — measured tone only", "inventor unavailable — don't surface for interview")
@@ -83,7 +87,7 @@ The `Active matter:` line under `## Matter workspaces` in the practice-level CLA
 3. Write `matters/<slug>/matter.md` using the template below.
 4. Seed `matters/<slug>/history.md` with a single "Opened" entry.
 5. Create an empty `matters/<slug>/notes.md`.
-6. Do **not** auto-switch to the new matter. Ask: "Want to switch to `<slug>` now? (`/ip-legal:matter-workspace switch <slug>`)"
+6. Do **not** auto-switch to the new matter. Ask: "Want to switch to `<slug>` now? (`/judge-fr-eu-ip-legal:matter-workspace switch <slug>`)"
 
 ### `list`
 
@@ -96,7 +100,7 @@ Mark the currently-active matter with `*`. Include `_archived/*` under a separat
 
 ### `switch <slug>`
 
-1. Confirm `matters/<slug>/matter.md` exists. If not, offer `/ip-legal:matter-workspace new <slug>`.
+1. Confirm `matters/<slug>/matter.md` exists. If not, offer `/judge-fr-eu-ip-legal:matter-workspace new <slug>`.
 2. Edit the `Active matter:` line in the practice-level CLAUDE.md to `Active matter: <slug>`.
 3. Show the user the matter.md summary so they can confirm they're on the right matter.
 

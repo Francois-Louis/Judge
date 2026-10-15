@@ -1,4 +1,7 @@
-# Contributing to Claude for Legal
+# Contributing to Judge
+
+Fork contribution guidance updated for BASE-007; the plugin design guidance
+below is retained from Claude for Legal.
 
 Notes for anyone writing or editing a plugin in this repo. Keep this short — the
 design principles that matter most for the quality of the output, not a style
@@ -6,10 +9,20 @@ guide.
 
 ## Before your first PR
 
-Sign the CLA. The first time you open a pull request, the CLA Assistant bot will
-comment with a link to the [CLA](CLA.md) and ask you to confirm. Reply with
-`I have read the CLA Document and I hereby sign the CLA` and the check will pass.
-You only need to do this once.
+Open pull requests against [Francois-Louis/Judge](https://github.com/Francois-Louis/Judge).
+Check the base repository before submitting. Contributing to the original
+Claude for Legal project is a separate, voluntary step, subject to that
+project's contribution instructions.
+
+This fork does not require signing the original project's CLA. [CLA.md](CLA.md)
+is retained unchanged as a historical document from Claude for Legal, naming
+Anthropic PBC; it is not the contribution agreement for this fork. Preserve the
+existing licenses and attributions, including [LICENSE](LICENSE).
+
+The inherited CLA workflow has been removed from the local files. If a CLA
+status check is still required by GitHub branch protections or rulesets, a
+maintainer must review that requirement separately. Remote settings and the
+signature branch have not been inspected or changed as part of this removal.
 
 ## Design principle: SKILL.md encodes the right behavior; CLAUDE.md guardrails
 are the net

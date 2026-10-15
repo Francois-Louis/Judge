@@ -8,6 +8,12 @@ description: >
 argument-hint: "[skill name]"
 ---
 
+For every community lifecycle operation, first load `${CLAUDE_PLUGIN_ROOT}/references/community-lifecycle.md`. Its helper owns installation, updates, backups, rollback, disabling, enabling, uninstall and the fork journal.
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /disable
 
 Run the `disable` workflow from the skill-manager reference skill against the
@@ -22,7 +28,7 @@ What disable does:
   `hooks.json.disabled` so no automatic triggers fire while the skill is
   disabled.
 - Logs the action to
-  `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/install-log.yaml`.
+  `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/install-log.yaml`.
 
 Safety rules:
 

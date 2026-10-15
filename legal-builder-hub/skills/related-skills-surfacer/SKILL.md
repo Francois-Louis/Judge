@@ -8,9 +8,15 @@ description: >
   passively as part of other plugins' workflows.
 ---
 
+For every community lifecycle operation, first load `${CLAUDE_PLUGIN_ROOT}/references/community-lifecycle.md`. Its helper owns installation, updates, backups, rollback, disabling, enabling, uninstall and the fork journal.
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /related-skills-surfacer
 
-1. Load `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` → practice profile.
+1. Load `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` → practice profile.
 2. Use the workflow below.
 3. Check what other plugins have been doing. Match against registry.
 4. Suggest: "You've been doing X — community has a skill for Y that's related."
@@ -30,7 +36,7 @@ Other plugins can include a light check at the end of a task:
 
 ## Load context
 
-`~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` → practice profile, installed skills (don't suggest what's already installed).
+`~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` → practice profile, installed skills (don't suggest what's already installed).
 Registry cache from registry-browser.
 
 ## The match
@@ -46,17 +52,17 @@ Given a task description (what the user was just doing), find registry skills th
 ## Output
 
 If strong match:
-> 💡 The community has a skill for this: **[name]** from [registry] — "[description]". `/legal-builder-hub:skill-installer [name]` to try it.
+> 💡 The community has a skill for this: **[name]** from [registry] — "[description]". `/judge-fr-eu-legal-builder-hub:skill-installer [name]` to try it.
 
 If no strong match: silent. No output. Don't announce "I found nothing."
 
 ## Frequency limit
 
-Don't surface the same skill twice. If the user didn't install it the first time, they saw it and decided no. Track dismissals in `references/surfaced.json`.
+Don't surface the same skill twice. If the user didn't install it the first time, they saw it and decided no. Track dismissals in `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/surfaced.json`.
 
 ## User control
 
-Per `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` → new skill notifications:
+Per `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` → new skill notifications:
 - **All:** Surface any match
 - **Matching practice profile:** Filter by profile (default)
 - **None:** This skill is off

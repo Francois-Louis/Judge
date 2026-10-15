@@ -8,6 +8,10 @@ description: >
 argument-hint: "[paste or describe the invention disclosure — or just the title and I'll ask]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /invention-intake
 
 **This is a first-pass screen by a non-specialist, not a patentability
@@ -19,8 +23,8 @@ does not do one.
 
 ## Instructions
 
-1. Read `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`. If it
-   contains `[PLACEHOLDER]`, stop and direct to `/ip-legal:cold-start-interview`. If the
+1. Read `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`. If it
+   contains `[PLACEHOLDER]`, stop and direct to `/judge-fr-eu-ip-legal:cold-start-interview`. If the
    practice profile shows trademark- or copyright-only (no patent practice),
    say so and route the user elsewhere — this is the wrong tool.
 2. Follow the workflow below.
@@ -48,11 +52,11 @@ flag — a registered patent attorney or agent decides.
 ## Examples
 
 ```
-/ip-legal:invention-intake "a new cache-eviction algorithm that uses a learned model rather than LRU; conceived Q1 this year, not yet disclosed, engineering prototype in internal staging"
+/judge-fr-eu-ip-legal:invention-intake "a new cache-eviction algorithm that uses a learned model rather than LRU; conceived Q1 this year, not yet disclosed, engineering prototype in internal staging"
 ```
 
 ```
-/ip-legal:invention-intake
+/judge-fr-eu-ip-legal:invention-intake
 ```
 
 (And the skill will ask for the invention, the problem it solves, how it
@@ -90,10 +94,10 @@ back empty. Stay on the two-way door side.
 CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest
 of this paragraph — skills use practice-level context and the matter machinery
 is invisible. If enabled and there is no active matter, ask: "Which matter is
-this for? Run `/ip-legal:matter-workspace switch <slug>` or say `practice-level`." Load
+this for? Run `/judge-fr-eu-ip-legal:matter-workspace switch <slug>` or say `practice-level`." Load
 the active matter's `matter.md` for matter-specific context and overrides.
 Write outputs to the matter folder at
-`~/.claude/plugins/config/claude-for-legal/ip-legal/matters/<matter-slug>/`.
+`~/.claude/plugins/config/judge-fr-eu/ip-legal/matters/<matter-slug>/`.
 Never read another matter's files unless `Cross-matter context` is `on`.
 
 Invention disclosures are particularly common candidates for **clean-team** or
@@ -107,8 +111,8 @@ channels.
 ## Load the practice profile first
 
 **Before reading the disclosure, read
-`~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`.** If it is
-missing or still contains placeholders, stop and run `/ip-legal:cold-start-interview`. The
+`~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`.** If it is
+missing or still contains placeholders, stop and run `/judge-fr-eu-ip-legal:cold-start-interview`. The
 practice profile tells you:
 
 - The company's **patent filing strategy** — offensive (building an assertion

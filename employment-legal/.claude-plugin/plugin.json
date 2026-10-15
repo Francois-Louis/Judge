@@ -1,8 +1,10 @@
 {
-  "name": "employment-legal",
-  "version": "1.0.2",
-  "description": "Reviews hires and terminations for jurisdiction-specific risk flags, classifies workers against the controlling state test, tracks leave deadlines before they're missed, runs internal investigations, and drafts policies with state supplements where the law differs.",
+  "name": "judge-fr-eu-employment-legal",
+  "version": "0.1.0",
+  "description": "Judge FR/UE 0.1.0: technical isolation; legal adaptation pending. Reviews hires and terminations for jurisdiction-specific risk flags, classifies workers against the controlling state test, tracks leave deadlines before they're missed, runs internal investigations, and drafts policies with state supplements where the law differs.",
   "author": {
     "name": "Anthropic"
-  }
+  },
+  "repository": "https://github.com/Francois-Louis/Judge",
+  "license": "Apache-2.0"
 }

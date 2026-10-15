@@ -1,3 +1,5 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Litigation Counsel Plugin
 
 In-house litigation counsel support for managing a portfolio of matters. Cold-start captures your risk calibration, dispute landscape, and house style — the frame every matter is triaged against. Uniform intake turns new matters into structured log entries and per-matter history files. Status rollups and deep-dive briefings read from the log.
@@ -34,29 +36,29 @@ The cold-start interview writes the *house* practice profile — persistent acro
 It offers sensible defaults at each step (e.g., a 3×3 severity-likelihood grid) and keeps everything freeform-editable. If you don't have a written framework yet, this is the thing that forces the articulation.
 
 ```
-/litigation-legal:cold-start-interview
+/judge-fr-eu-litigation-legal:cold-start-interview
 ```
 
-Your configuration is stored at `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` and survives plugin updates.
+Your configuration is stored at `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` and survives plugin updates.
 
 ## Commands
 
 | Command | Does |
 |---|---|
-| `/litigation-legal:cold-start-interview` | Cold-start → writes house `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` |
-| `/litigation-legal:matter-intake` | Uniform intake → writes `matters/[slug]/` + appends to `_log.yaml` |
-| `/litigation-legal:portfolio-status` | Portfolio rollup — risk distribution, upcoming deadlines, stale matters |
-| `/litigation-legal:matter-briefing [slug]` | Deep briefing on one matter — read-ready before a GC or outside counsel call |
-| `/litigation-legal:matter-update [slug]` | Append a dated event to a matter's history; refresh the log's `last_updated` |
-| `/litigation-legal:matter-close [slug]` | Archive a matter out of the active portfolio (retained, not deleted) |
-| `/litigation-legal:demand-intake [title]` | Pre-drafting context gathering for a demand letter (payment / breach / C&D / employment separation / preservation) |
-| `/litigation-legal:demand-draft [slug]` | Draft the letter from intake — runs FRE 408 / privilege gate, outputs `.docx`, writes post-send checklist |
-| `/litigation-legal:demand-received [path]` | Triage an inbound demand letter — options analysis, portfolio cross-check, hand off to matter/demand-intake |
-| `/litigation-legal:subpoena-triage [path]` | Triage a subpoena — classify, scope/burden/privilege, objections framework, compliance plan |
-| `/litigation-legal:legal-hold [slug] [--issue/--refresh/--release/--status]` | Issue, refresh, release, or report holds — writes `.docx` + updates log |
-| `/litigation-legal:chronology [slug]` | Build or update a chronology from declared doc sources + uploads — tagged by significance per matter theory |
-| `/litigation-legal:oc-status` | Draft weekly OC status-request emails across the portfolio; Gmail drafts if MCP available |
-| `/litigation-legal:claim-chart` | Build or review an element chart — patent claim chart (infringement / invalidity / review) or civil element chart (any cause of action or defense) with gap detection |
+| `/judge-fr-eu-litigation-legal:cold-start-interview` | Cold-start → writes house `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` |
+| `/judge-fr-eu-litigation-legal:matter-intake` | Uniform intake → writes `matters/[slug]/` + appends to `_log.yaml` |
+| `/judge-fr-eu-litigation-legal:portfolio-status` | Portfolio rollup — risk distribution, upcoming deadlines, stale matters |
+| `/judge-fr-eu-litigation-legal:matter-briefing [slug]` | Deep briefing on one matter — read-ready before a GC or outside counsel call |
+| `/judge-fr-eu-litigation-legal:matter-update [slug]` | Append a dated event to a matter's history; refresh the log's `last_updated` |
+| `/judge-fr-eu-litigation-legal:matter-close [slug]` | Archive a matter out of the active portfolio (retained, not deleted) |
+| `/judge-fr-eu-litigation-legal:demand-intake [title]` | Pre-drafting context gathering for a demand letter (payment / breach / C&D / employment separation / preservation) |
+| `/judge-fr-eu-litigation-legal:demand-draft [slug]` | Draft the letter from intake — runs FRE 408 / privilege gate, outputs `.docx`, writes post-send checklist |
+| `/judge-fr-eu-litigation-legal:demand-received [path]` | Triage an inbound demand letter — options analysis, portfolio cross-check, hand off to matter/demand-intake |
+| `/judge-fr-eu-litigation-legal:subpoena-triage [path]` | Triage a subpoena — classify, scope/burden/privilege, objections framework, compliance plan |
+| `/judge-fr-eu-litigation-legal:legal-hold [slug] [--issue/--refresh/--release/--status]` | Issue, refresh, release, or report holds — writes `.docx` + updates log |
+| `/judge-fr-eu-litigation-legal:chronology [slug]` | Build or update a chronology from declared doc sources + uploads — tagged by significance per matter theory |
+| `/judge-fr-eu-litigation-legal:oc-status` | Draft weekly OC status-request emails across the portfolio; Gmail drafts if MCP available |
+| `/judge-fr-eu-litigation-legal:claim-chart` | Build or review an element chart — patent claim chart (infringement / invalidity / review) or civil element chart (any cause of action or defense) with gap detection |
 
 ## Skills
 
@@ -134,12 +136,12 @@ Designed to be useful with nothing connected. If/when you want to pull from Rela
 
 ## How it learns
 
-Your practice profile at `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` isn't static — it improves as you use the plugin. Skills tell you when an output used a default you should tune. You can re-run setup, edit the file directly, or tell a skill to record a new position.
+Your practice profile at `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` isn't static — it improves as you use the plugin. Skills tell you when an output used a default you should tune. You can re-run setup, edit the file directly, or tell a skill to record a new position.
 
 ## Notes
 
-- Every skill reads from `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` first. If your risk appetite changes or you bring on new outside counsel, update it — don't paper over it in individual matters.
-- `## Company profile` is the first section of `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` by convention. If you run other `-legal` plugins, you can copy it across rather than re-entering the same context.
+- Every skill reads from `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` first. If your risk appetite changes or you bring on new outside counsel, update it — don't paper over it in individual matters.
+- `## Company profile` is the first section of `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` by convention. If you run other `-legal` plugins, you can copy it across rather than re-entering the same context.
 - `_log.yaml` is the source of truth for portfolio state. Keep it clean.
 - Matter history is append-only. If something was wrong, note the correction as a new entry — don't edit the past.
 - Closed matters stay in `_log.yaml` (searchable history). `/portfolio-status` filters them out of active rollups by default.
@@ -156,3 +158,13 @@ A draft or triage with unresolved markers is not final, regardless of how polish
 
 ## Testing & QA
 
+
+## Judge FR/UE 0.1.0
+
+Technical identity/storage migration only; inherited legal tasks still require their France/EU adaptation stories. Maintained by the Judge FR/UE maintainers at https://github.com/Francois-Louis/Judge, derived from Claude for Legal / Anthropic without claiming affiliation.
+
+Install `judge-fr-eu-litigation-legal@judge-fr-eu` with explicit scope. Data lives under `config/judge-fr-eu/litigation-legal/`, outside replaceable packages. See [storage boundary](references/isolation.md), [license](LICENSE) and [modification notice](NOTICE). Commands use the `judge-fr-eu-litigation-legal:` prefix.
+
+```text
+/plugin install judge-fr-eu-litigation-legal@judge-fr-eu --scope user
+```

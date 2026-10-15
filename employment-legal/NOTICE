@@ -1,0 +1,39 @@
+Judge FR/UE - technical fork 0.1.0 (BASE-008, 2026-10-15)
+Derived from Claude for Legal. Copyright 2026 Anthropic PBC.
+Original authors and Apache License 2.0 are preserved.
+Fork maintenance: Judge FR/UE maintainers, https://github.com/Francois-Louis/Judge
+No affiliation or endorsement by Anthropic is claimed.
+Technical identity and storage changes do not certify France/EU legal adaptation.
+No upstream NOTICE was present in the source snapshot.
+
+Files added or modified for this package:
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  agents/leave-tracker.md
+  references/company-profile-template.md
+  references/dashboard-template.md
+  references/isolation.md
+  references/shared/research-citation-method.md
+  scripts/judge_store.py
+  skills/cold-start-interview/SKILL.md
+  skills/customize/SKILL.md
+  skills/expansion-kickoff/SKILL.md
+  skills/expansion-update/SKILL.md
+  skills/handbook-updates/SKILL.md
+  skills/hiring-review/SKILL.md
+  skills/internal-investigation/SKILL.md
+  skills/international-expansion/SKILL.md
+  skills/investigation-add/SKILL.md
+  skills/investigation-memo/SKILL.md
+  skills/investigation-open/SKILL.md
+  skills/investigation-query/SKILL.md
+  skills/investigation-summary/SKILL.md
+  skills/leave-tracker/SKILL.md
+  skills/log-leave/SKILL.md
+  skills/matter-workspace/SKILL.md
+  skills/policy-drafting/SKILL.md
+  skills/termination-review/SKILL.md
+  skills/wage-hour-qa/SKILL.md
+  skills/worker-classification/SKILL.md

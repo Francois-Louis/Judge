@@ -8,12 +8,16 @@ description: >
 argument-hint: "[subject] [--generate | --drill | --review | --stats | --session <n>]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /flashcards
 
-1. Load `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` → current classes, weak subjects, outline locations.
+1. Load `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` → current classes, weak subjects, outline locations.
 2. Apply the framework below.
 3. Route by flag:
-   - `--generate`: build cards from source (outline path, notes, casebook) per card-writing rules. Write to `~/.claude/plugins/config/claude-for-legal/law-student/flashcards/[subject]/cards.md`.
+   - `--generate`: build cards from source (outline path, notes, casebook) per card-writing rules. Write to `~/.claude/plugins/config/judge-fr-eu/law-student/flashcards/[subject]/cards.md`.
    - `--drill` (default): prioritize due cards + new; show Q, wait for answer, show A, take self-assessment, update buckets + next review.
    - `--review`: browse deck by bucket.
    - `--stats`: progress snapshot; flag stuck cards for verbal drill.
@@ -46,8 +50,8 @@ Same rule as the other content-generating skills:
 
 ## Load context
 
-- `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` → current classes, weak subjects, existing outlines
-- `~/.claude/plugins/config/claude-for-legal/law-student/flashcards/[subject]/cards.md` if it exists (incremental build)
+- `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` → current classes, weak subjects, existing outlines
+- `~/.claude/plugins/config/judge-fr-eu/law-student/flashcards/[subject]/cards.md` if it exists (incremental build)
 - User-provided source (outline path, notes, casebook excerpt) if given
 
 ## Modes
@@ -56,9 +60,9 @@ Flag: `--generate | --drill | --review | --stats | --session <n>` (default: prom
 
 ### `--session <n>` — focused N-card session
 
-For when the student says "let's do 5 cards on Contracts" or runs `/law-student:session Contracts 5 --flashcards`.
+For when the student says "let's do 5 cards on Contracts" or runs `/judge-fr-eu-law-student:session Contracts 5 --flashcards`.
 
-- Load `~/.claude/plugins/config/claude-for-legal/law-student/study-plan.yaml` if it exists and read `session_history` for this subject.
+- Load `~/.claude/plugins/config/judge-fr-eu/law-student/study-plan.yaml` if it exists and read `session_history` for this subject.
 - Prioritize: cards previously marked wrong > due cards > new cards.
 - Run N cards one at a time per the `--drill` flow.
 - At session end, append results to `study-plan.yaml` → `session_history`:
@@ -75,13 +79,13 @@ session_history:
     stuck_topics: [parol-evidence-rule]
 ```
 
-- If no `study-plan.yaml`, write to `~/.claude/plugins/config/claude-for-legal/law-student/session-history.yaml` instead.
+- If no `study-plan.yaml`, write to `~/.claude/plugins/config/judge-fr-eu/law-student/session-history.yaml` instead.
 
 ### `--generate` — create cards
 
 **Inputs:**
 - Subject (class name or topic)
-- Source (outline path, notes, or "use my existing outline from ~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md")
+- Source (outline path, notes, or "use my existing outline from ~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md")
 - Optional: card count target (default 10-20 per session)
 
 **Card structure:**
@@ -132,12 +136,12 @@ Show all cards in a subject. Grouped by bucket. Useful for scanning what's in th
 
 ### `--stats` — progress snapshot
 
-Per subject: total cards, bucket distribution, due today, reviewed this week. Highlight any cards that have bounced down to `new` more than twice — those are the stuck concepts worth drilling verbally via `/law-student:socratic-drill`.
+Per subject: total cards, bucket distribution, due today, reviewed this week. Highlight any cards that have bounced down to `new` more than twice — those are the stuck concepts worth drilling verbally via `/judge-fr-eu-law-student:socratic-drill`.
 
 ## Integration with other skills
 
 - **outline-builder:** after building or extending an outline, offer to generate flashcards from the new material
-- **socratic-drill:** if a card has been wrong 2+ times, route it to `/law-student:socratic-drill` for verbal working-through — flashcards aren't enough for concepts you don't actually understand
+- **socratic-drill:** if a card has been wrong 2+ times, route it to `/judge-fr-eu-law-student:socratic-drill` for verbal working-through — flashcards aren't enough for concepts you don't actually understand
 - **bar-prep-questions:** bar prep subjects with poor flashcard stats weight higher in MBE drilling
 
 ## Storage
@@ -155,4 +159,4 @@ One file per subject. Cards are markdown. Bucket/review metadata is inline per c
 - **Replace Anki.** If you already have a flashcard habit, keep it. This is for when you're in chat and want to drill without switching apps.
 - **Invent cards to hit a count target.** If I can only generate 8 confident cards from your source, you get 8. Padding with `[VERIFY]`-heavy guesses is worse than a smaller deck.
 - **Enforce study discipline.** Missed review days compound; the skill just shows what's due. You decide whether to drill.
-- **Teach you the rule.** Cards are for drilling what you've already studied. If a card is consistently wrong, the problem is upstream — use `/law-student:socratic-drill` or re-read the source.
+- **Teach you the rule.** Cards are for drilling what you've already studied. If a card is consistently wrong, the problem is upstream — use `/judge-fr-eu-law-student:socratic-drill` or re-read the source.

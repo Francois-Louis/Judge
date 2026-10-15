@@ -8,6 +8,10 @@ description: >
 argument-hint: "[matter name] [audience: hr / leadership / outside-counsel]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /investigation-summary
 
 Drafts a stripped-down, audience-appropriate summary from the privileged
@@ -24,15 +28,15 @@ summaries are high-level. Outside counsel briefings include full context.
 ## Examples
 
 ```
-/employment-legal:investigation-summary [matter name] hr
+/judge-fr-eu-employment-legal:investigation-summary [matter name] hr
 ```
 
 ```
-/employment-legal:investigation-summary [matter name] leadership
+/judge-fr-eu-employment-legal:investigation-summary [matter name] leadership
 ```
 
 ```
-/employment-legal:investigation-summary [matter name] outside-counsel
+/judge-fr-eu-employment-legal:investigation-summary [matter name] outside-counsel
 ```
 
 > Detailed audience-stripping rules and summary templates live in the

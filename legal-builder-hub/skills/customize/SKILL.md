@@ -9,11 +9,17 @@ description: >
 argument-hint: "[section name, or describe what you want to change]"
 ---
 
+For every community lifecycle operation, first load `${CLAUDE_PLUGIN_ROOT}/references/community-lifecycle.md`. Its helper owns installation, updates, backups, rollback, disabling, enabling, uninstall and the fork journal.
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. BASE-009 (2026-10-15): updates are never applied automatically. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /customize
 
 ## When this runs
 
-The user typed `/legal-builder-hub:customize`. They want to change something
+The user typed `/judge-fr-eu-legal-builder-hub:customize`. They want to change something
 in their Builder Hub profile — a watched registry, update notification
 preferences, a practice area for recommendations — without re-running the
 whole cold-start interview and without hand-editing YAML.
@@ -21,12 +27,12 @@ whole cold-start interview and without hand-editing YAML.
 ## What to do
 
 1. **Read the config.** Read
-   `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md`
-   (and `~/.claude/plugins/config/claude-for-legal/company-profile.md` one
+   `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md`
+   (and `~/.claude/plugins/config/judge-fr-eu/company-profile.md` one
    level up). If the plugin config does not exist or still contains
    `[PLACEHOLDER]` values, say:
 
-   > You haven't run setup yet. Run `/legal-builder-hub:cold-start-interview`
+   > You haven't run setup yet. Run `/judge-fr-eu-legal-builder-hub:cold-start-interview`
    > first — customize is for adjusting a profile you already have.
 
 2. **Show the customizable map.** List what's in the profile, grouped, with a
@@ -42,7 +48,8 @@ whole cold-start interview and without hand-editing YAML.
    - **Watched registries** — GitHub repositories / URLs the hub pulls
      community skills from
    - **Update preferences** — check cadence (daily / weekly / on demand),
-     notification channel (Slack / in-session), auto-update vs. prompt
+     notification channel (Slack / in-session), notify vs. manual
+     (there is no automatic-apply mode)
    - **QA strictness** — how aggressively `/skills-qa` flags issues on a candidate
      skill before install (lenient / middle / strict), and which
      failure-mode checks are on
@@ -63,12 +70,15 @@ whole cold-start interview and without hand-editing YAML.
      alongside the existing ones. `/auto-updater` will check it on its next run."
    - *QA strictness strict → middle:* "`/skills-qa` will report the same findings
      but not block install on the medium band unless you confirm."
-   - *Auto-update on → off:* "The hub will prompt you before applying
-     updates instead of applying them automatically."
+   - *Update preference notify → manual:* "The hub will only list available
+     updates. Each one still needs a diff review and your explicit approval."
+   - *Request to enable auto-update:* refuse the setting and explain: "There
+     is no automatic-apply mode. Every update shows its diff and needs your
+     approval."
 
 5. **For shared-profile changes** (company name, industry, jurisdictions,
    practice setting, stage): write to
-   `~/.claude/plugins/config/claude-for-legal/company-profile.md` and note:
+   `~/.claude/plugins/config/judge-fr-eu/company-profile.md` and note:
 
    > This change affects all 12 plugins — any plugin that reads your
    > jurisdiction footprint now sees [new value].
@@ -76,7 +86,7 @@ whole cold-start interview and without hand-editing YAML.
 6. **Close.**
 
    > Done. Your next output will reflect the change. Anything else? You can
-   > run `/legal-builder-hub:customize` anytime.
+   > run `/judge-fr-eu-legal-builder-hub:customize` anytime.
 
 ## Guardrails
 
@@ -84,7 +94,7 @@ whole cold-start interview and without hand-editing YAML.
   registry, offer to mark it `[Paused]` and explain that pausing keeps the
   install history but stops update checks.
 - **Flag internal inconsistency.** If the change would make the profile
-  inconsistent (e.g., auto-update on + QA strictness off; or practice
+  inconsistent (e.g., notify off + QA strictness off; or practice
   profile that doesn't match any installed plugin), flag the tension.
 - **Flag guardrail degradation.** The Legal Skill Design Framework checks
   (nine design parameters, three legal failure modes, trust-surface check)

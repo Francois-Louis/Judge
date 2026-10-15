@@ -1,0 +1,219 @@
+fichier	categories	lignes	lignes_nom_origine
+.claude-plugin/marketplace.json	nom-origine	3	3
+CLAUDE.md	installation;nom-origine;profil	3,43,44,45,76,99,101	3,99
+QUICKSTART.md	commande-domaine;installation;nom-origine;profil	16,18,22,29,36,40,46,47,48,49,50,51,52,53,54,55,56,57,61,75	16,18,22,40,61
+README.md	commande-domaine;installation;nom-origine;profil	34,35,36,40,41,42,43,44,45,46,47,49,50,51,53,54,55,56,57,58,59,60,61,62,63,64,65,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,87,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,186,189,190,191,194,195,196,197,204,228,230,270,295,345,346,363,364,365,366,367,368,369,370,371,377,378,379,380,381,382,383,384,391,392,393,394,395,396,397,398,399,400,401,402,403,409,410,411,412,413,414,415,425,426,427,428,429,430,431,432,433,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,466,467,468,469,470,471,472,473,474,475,476,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,507,508,509,510,511,512,513,514,520,521,522,523,524,532,533,534,535,536,537,538,545,546,547,548,549,550,551,552,553,554,555,556,570	189,190,191,194,230,346
+ai-governance-legal/CLAUDE.md	cache;commande-domaine;nom-origine;profil	6,10,13,18,24,71,102,120,127,362,385,391,393,463,471,475,479	6,13,18,102,362,385,471
+ai-governance-legal/README.md	commande-domaine;nom-origine;profil	27,34,35,36,37,38,39,40,41,42,48,63,69,74,83,92,102,104,106,130,144	48,69,130,144
+ai-governance-legal/skills/ai-inventory/SKILL.md	commande-domaine;nom-origine;profil	29,31,34,76,200,233	29,34
+ai-governance-legal/skills/aia-generation/SKILL.md	commande-domaine;nom-origine;profil	7,16,21,25,32,50,56,59,65,73,83,97,103,180,193,208,302,326,338,366,383,384	7,16,21,32,50,56,59,65,73,83,97,103,180,193,208,302,338,366
+ai-governance-legal/skills/cold-start-interview/SKILL.md	cache;commande-domaine;nom-origine;profil	5,15,19,20,24,25,30,31,50,58,62,81,87,95,116,200,218,237,240,592,605,606,607,608,609,646,649,650	5,15,19,20,24,25,50,58,62,95,116,240,646
+ai-governance-legal/skills/customize/SKILL.md	commande-domaine;nom-origine;profil	17,25,26,30,47,81,89	25,26,81
+ai-governance-legal/skills/matter-workspace/SKILL.md	commande-domaine;nom-origine;profil	18,19,20,21,22,26,29,30,32,46,53,87,100	21,26,29,30,32,53
+ai-governance-legal/skills/policy-monitor/SKILL.md	commande-domaine;nom-origine;profil	15,20,21,24,29,32,33,58,66,70,97,122,208,293,332	15,20,21,24,58,70,97,122,208,293
+ai-governance-legal/skills/policy-starter/SKILL.md	commande-domaine;nom-origine;profil	15,24,25,26,33,66,254,255,256	15,33,66
+ai-governance-legal/skills/reg-gap-analysis/SKILL.md	commande-domaine;nom-origine;profil	15,18,23,35,45,114,197	15,18,35,45,114,197
+ai-governance-legal/skills/use-case-triage/SKILL.md	commande-domaine;nom-origine;profil	14,21,28,41,43,47,52,59,61,87,116,122,148,150,160,202,219,240,246,265	14,28,41,43,47,61,87,116,122,148,150,160,202,265
+ai-governance-legal/skills/vendor-ai-review/SKILL.md	commande-domaine;nom-origine;profil	14,19,23,30,60,64,69,76,102,120,126,133,137,142,169,199,258,319,321	14,19,30,60,64,102,120,126,133,137,142,169,199,258,321
+commercial-legal/CLAUDE.md	cache;commande-domaine;nom-origine;profil	6,10,13,18,24,62,78,145,382,405,411,413,472,478,482,509	6,13,18,382,405,478
+commercial-legal/README.md	commande-domaine;nom-origine;profil	20,23,26,32,33,34,35,36,37,38,44,85,90,95,103,110	20,44,90,110
+commercial-legal/agents/deal-debrief.md	nom-origine;profil	19,29,36,51,89,122,165	19,29,36,51,89,122,165
+commercial-legal/agents/playbook-monitor.md	commande-domaine;nom-origine;profil	7,18,26,33,39,44,61,68,84,100,107,114,117,118,120,128,133,135,145,154,166,172,177,181,185	7,18,26,33,39,44,61,68,84,100,114,118,120,128,135,145,154,166,172,177,181,185
+commercial-legal/agents/renewal-watcher.md	nom-origine;profil	5,24	5,24
+commercial-legal/skills/amendment-history/SKILL.md	commande-domaine;nom-origine;profil	40,44,48,56,146,295	56,146,295
+commercial-legal/skills/cold-start-interview/SKILL.md	cache;commande-domaine;nom-origine;profil	6,15,19,27,29,32,38,44,53,57,61,65,78,86,92,98,117,121,142,156,211,271,273,298,437,453,498,571,584,585,586,587,588,589,610,613,614,627	6,15,19,27,29,32,38,44,78,92,98,156,610
+commercial-legal/skills/customize/SKILL.md	commande-domaine;nom-origine;profil	17,25,26,30,77,85	25,26,77
+commercial-legal/skills/escalation-flagger/SKILL.md	commande-domaine;nom-origine;profil	5,14,18,31,36,45,51,57,80,100,108,123,145,153	5,14,18,45,51,57,80,100,108,123,145,153
+commercial-legal/skills/matter-workspace/SKILL.md	commande-domaine;nom-origine;profil	17,18,19,20,21,25,28,29,31,45,52,86,99	20,25,28,29,31,52
+commercial-legal/skills/nda-review/SKILL.md	commande-domaine;nom-origine;profil	6,14,30,32,34,36,38,52,56,60,66,81,83,86,102,109,130,141,163,181,200,204,221,225,237,241,245,249,253,257,261,281,285,302	14,32,34,36,38,52,56,66,81,83,86,102,109,130,141,163,181,200,204,221,225,237,241,245,249,253,257,261,281,285,302
+commercial-legal/skills/renewal-tracker/SKILL.md	commande-domaine;nom-origine;profil	18,33,37,41,54,181,193	18,54,181,193
+commercial-legal/skills/review-proposals/SKILL.md	commande-domaine;nom-origine;profil	14,24,26,33,37	14,24,26
+commercial-legal/skills/review/SKILL.md	commande-domaine;nom-origine;profil	15,19,21,54,73,83,96,100,104,110	15,19,21,54,73,83,110
+commercial-legal/skills/saas-msa-review/SKILL.md	commande-domaine;nom-origine;profil	7,15,23,27,35,37,41,43,49,55,66,74,82,88,100,110,198,207,210,234,238	15,23,27,37,41,43,49,55,66,74,82,88,100,110,198,207,210,234,238
+commercial-legal/skills/stakeholder-summary/SKILL.md	commande-domaine;nom-origine;profil	15,33,69,155	15,33,69,155
+commercial-legal/skills/vendor-agreement-review/SKILL.md	commande-domaine;nom-origine;profil	5,7,15,25,31,36,43,45,49,85,89,95,112,119,135,143,148,184,203,228,232,309,321,333	5,15,25,31,49,95,112,119,135,143,148,184,203,228,232,309,321,333
+corporate-legal/CLAUDE.md	cache;commande-domaine;nom-origine;profil	6,10,13,18,23,63,68,204,227,233,235,294,302,306,320,463,476,477,478	6,13,18,63,204,227,302,463
+corporate-legal/README.md	commande-domaine;nom-origine;profil	20,23,28,35,36,37,38,39,40,41,42,43,92,98	23,92,98
+corporate-legal/agents/dataroom-watcher.md	nom-origine;profil	19,23,25	19,23,25
+corporate-legal/skills/ai-tool-handoff/SKILL.md	commande-domaine;nom-origine;profil	6,15,25,29,35,54,59,69,80,110,132,133	6,15,29,35,54,59,69,80,110,132,133
+corporate-legal/skills/board-minutes/SKILL.md	commande-domaine;nom-origine;profil	17,27,32,73,116,142,156,187,205,239	17,27,32,73,116,142,156,187,205
+corporate-legal/skills/closing-checklist/SKILL.md	commande-domaine;nom-origine;profil	14,22,32,125,134,187	14,22,32,125,187
+corporate-legal/skills/cold-start-interview/SKILL.md	cache;commande-domaine;nom-origine;profil	16,20,21,31,39,49,68,72,77,104,116,163,207,313,416,417,418,419,420,421,423,437,438,439,444,447,448,449,461,481	16,20,21,31,39,49,104,444,481
+corporate-legal/skills/customize/SKILL.md	commande-domaine;nom-origine;profil	17,25,26,30,81,89	25,26,81
+corporate-legal/skills/deal-team-summary/SKILL.md	commande-domaine;nom-origine;profil	14,24,25,30,104	14,24,25,30,104
+corporate-legal/skills/diligence-issue-extraction/SKILL.md	commande-domaine;nom-origine;profil	13,23,29,33,34,35,60,108,161,189	13,23,29,33,34,35,60,108,161,189
+corporate-legal/skills/entity-compliance/SKILL.md	commande-domaine;nom-origine;profil	15,23,50,70,127,194,216,226,268,285,300,328,344,368,374,399,400,412	15,23,50,70,127,194,268,368,374,399,400
+corporate-legal/skills/integration-management/SKILL.md	commande-domaine;nom-origine;profil	25,32,48,154,159,163,186,286,295,394,464,507	25,32,48,159,163,186
+corporate-legal/skills/material-contract-schedule/SKILL.md	commande-domaine;nom-origine;profil	23,34	23,34
+corporate-legal/skills/matter-workspace/SKILL.md	commande-domaine;nom-origine;profil	18,19,20,21,22,26,29,30,32,46,53,87,100	21,26,29,30,32,53
+corporate-legal/skills/tabular-review/SKILL.md	commande-domaine;nom-origine;profil	15,25,26,27,44,58,59	15,44,58,59
+corporate-legal/skills/written-consent/SKILL.md	commande-domaine;nom-origine;profil	15,19,27,75,110,163,238,248,254,274,290	15,19,27,75,110,163,238,248,254,274,290
+employment-legal/CLAUDE.md	cache;commande-domaine;nom-origine;profil	6,10,13,18,22,59,63,203,226,232,234,293,301,305,372,399	6,13,18,59,203,226,301,372
+employment-legal/README.md	commande-domaine;nom-origine;profil	20,23,27,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,65	23,27,65
+employment-legal/agents/leave-tracker.md	commande-domaine;nom-origine;profil	9,41,52,60,76,79,133,193,244,250	41,60,76,133,193,244,250
+employment-legal/skills/cold-start-interview/SKILL.md	cache;commande-domaine;nom-origine;profil	14,18,19,31,37,41,60,66,97,174,278,279,280,281,282,283,294,306,309,310,322	14,18,19,31,37,41,97,306
+employment-legal/skills/customize/SKILL.md	commande-domaine;nom-origine;profil	17,25,26,30,80,88	25,26,80
+employment-legal/skills/expansion-kickoff/SKILL.md	commande-domaine;nom-origine;profil	20,22,24,26,31,35	20,22,26
+employment-legal/skills/expansion-update/SKILL.md	commande-domaine;nom-origine;profil	19,21,23,64,68	19,21
+employment-legal/skills/handbook-updates/SKILL.md	commande-domaine;nom-origine;profil	14,24,55	14,24,55
+employment-legal/skills/hiring-review/SKILL.md	commande-domaine;nom-origine;profil	15,24,37,42,54,96,106,183	15,24,37,42,54,96,106,183
+employment-legal/skills/internal-investigation/SKILL.md	commande-domaine;nom-origine;profil	17,23,64,70,117,142,146,366,372,377,481,518,666,699,732	17,23,64,117,142,146,366,377,666,732
+employment-legal/skills/international-expansion/SKILL.md	commande-domaine;nom-origine;profil	15,41,46,263,313,348	15,41,46,263,313
+employment-legal/skills/investigation-add/SKILL.md	commande-domaine;nom-origine;profil	20,28,33	20
+employment-legal/skills/investigation-memo/SKILL.md	commande-domaine	26,30	
+employment-legal/skills/investigation-open/SKILL.md	commande-domaine;nom-origine;profil	18,25,30	18
+employment-legal/skills/investigation-query/SKILL.md	commande-domaine	28,33,38	
+employment-legal/skills/investigation-summary/SKILL.md	commande-domaine	27,31,35	
+employment-legal/skills/leave-tracker/SKILL.md	commande-domaine;nom-origine;profil	21,23,30,34	21
+employment-legal/skills/log-leave/SKILL.md	commande-domaine;nom-origine;profil	13,19,34,42,52,56	13,19,34,42
+employment-legal/skills/matter-workspace/SKILL.md	commande-domaine;nom-origine;profil	18,19,20,21,22,26,29,30,32,48,55,89,102	21,26,29,30,32,55
+employment-legal/skills/policy-drafting/SKILL.md	commande-domaine;nom-origine;profil	13,22,32	13,22,32
+employment-legal/skills/termination-review/SKILL.md	commande-domaine;nom-origine;profil	14,24,37,42,59,78,91,100,113,141,182,184,255	14,24,37,42,59,78,113,141,182,184,255
+employment-legal/skills/wage-hour-qa/SKILL.md	commande-domaine;nom-origine;profil	15,24,38,100	15,24,38
+employment-legal/skills/worker-classification/SKILL.md	commande-domaine;nom-origine;profil	21,29,35,41,49,109,115,191,280,356,367	21,49,109,115,191,280,367
+ip-legal/CLAUDE.md	cache;commande-domaine;nom-origine;profil	6,10,13,18,23,62,211,249,251,313,319,321,380,386,390,394,395	6,13,18,211,249,313,386
+ip-legal/README.md	commande-domaine;nom-origine;profil	24,27,38,39,40,41,42,43,44,45,46,47,48,54,101,106,111,119,154,161,165,166,167,168	24,54,106,154,161
+ip-legal/agents/ip-renewal-watcher.md	commande-domaine;nom-origine;profil	6,31,111	6,31
+ip-legal/skills/cease-desist/SKILL.md	commande-domaine;nom-origine;profil	15,16,20,22,33,38,39,40,71,73,345,484,487	20,71,73
+ip-legal/skills/clearance/SKILL.md	commande-domaine;nom-origine;profil	22,23,43,47,77,83,90,95,102,158,301,335,422,461,463	22,77,83,90,158,301,335,422,461,463
+ip-legal/skills/cold-start-interview/SKILL.md	cache;commande-domaine;nom-origine;profil	15,19,27,29,31,34,40,47,51,55,68,76,82,101,107,136,253,401,417,418,419,420,421,422,440,443,444	15,19,27,29,31,34,40,68,76,82,136,401,440
+ip-legal/skills/customize/SKILL.md	commande-domaine;nom-origine;profil	17,25,26,30,81,89	25,26,81
+ip-legal/skills/fto-triage/SKILL.md	commande-domaine;nom-origine;profil	24,25,50,54,95,105,120,125,132,360,448,501,503,524	24,95,105,120,360,448,501,503
+ip-legal/skills/infringement-triage/SKILL.md	commande-domaine;nom-origine;profil	23,24,46,47,54,58,62,94,104,124,131,291,415,480,534,575,577,589,596,617	23,94,104,480,534,575,577
+ip-legal/skills/invention-intake/SKILL.md	commande-domaine;nom-origine;profil	22,23,51,55,93,96,110,111	22,96,110
+ip-legal/skills/ip-clause-review/SKILL.md	commande-domaine;nom-origine;profil	14,18,36,37,38,45,57,112,211	14,18,45,57,112,211
+ip-legal/skills/matter-workspace/SKILL.md	commande-domaine;nom-origine;profil	17,18,19,20,21,25,28,29,31,45,52,86,99	20,25,28,29,31,52
+ip-legal/skills/oss-review/SKILL.md	commande-domaine;nom-origine;profil	13,17,37,38,39,40,59,71,201	13,17,59,71,201
+ip-legal/skills/portfolio/SKILL.md	commande-domaine;nom-origine;profil	19,56,60,64,68,72,158,250,287,295,301,344,385,391,434	19,158,250,301,391
+ip-legal/skills/takedown/SKILL.md	commande-domaine;nom-origine;profil	16,17,18,22,24,36,41,42,43,44,76,77,267	22,76,77
+law-student/CLAUDE.md	cache;commande-domaine;nom-origine;profil	6,10,13,18,44,154,252,259,265,267	6,13,18,154,259
+law-student/README.md	commande-domaine;nom-origine;profil	16,21,25,26,27,28,29,30,31,32,33,34,35,36,74,98,104	74,98,104
+law-student/skills/bar-prep-questions/SKILL.md	commande-domaine;nom-origine;profil	13,14,43,140,142,146,148,165,183,194	13,14,43,140,142,146,183,194
+law-student/skills/case-brief/SKILL.md	nom-origine;profil	12,34,68,100	12,34,68,100
+law-student/skills/cold-call-prep/SKILL.md	commande-domaine;nom-origine;profil	13,44,52,84,124,125,133	13,44,52,84,133
+law-student/skills/cold-start-interview/SKILL.md	cache;commande-domaine;nom-origine;profil	14,18,21,33,39,43,62,66,82,96,170,175,183,195,203,248,260,261,262,263,264,265,267,279,290,293,294,306	14,18,21,33,39,43,96,290
+law-student/skills/customize/SKILL.md	commande-domaine;nom-origine;profil	16,24,28,73	24
+law-student/skills/exam-forecast/SKILL.md	nom-origine;profil	14,20,39,146	14,20,39,146
+law-student/skills/flashcards/SKILL.md	commande-domaine;nom-origine;profil	13,16,49,50,59,61,78,84,135,140,158	13,16,49,50,61,78,84
+law-student/skills/irac-practice/SKILL.md	commande-domaine;nom-origine;profil	13,18,45,46,144,157,163,164	13,18,45,46,144
+law-student/skills/legal-writing/SKILL.md	commande-domaine;nom-origine;profil	13,19,43,134,138,153,154	13,19,43,138
+law-student/skills/outline-builder/SKILL.md	nom-origine;profil	13,67,74	13,67,74
+law-student/skills/session/SKILL.md	nom-origine;profil	16,17,25	16,17,25
+law-student/skills/socratic-drill/SKILL.md	nom-origine;profil	12,36,42,70	12,36,42,70
+law-student/skills/study-plan/SKILL.md	commande-domaine;nom-origine;profil	13,14,42,49,90,129,223,238,239,240,241	13,14,42,49,90,129
+legal-builder-hub/CLAUDE.md	cache;commande-domaine;nom-origine;profil	6,10,13,18,42,44,89,131,182,189,195,197,246	6,13,18,131,189
+legal-builder-hub/README.md	commande-domaine;nom-origine;profil	3,16,19,25,32,37,43,44,45,46,47,48,49,50,76,81,85	19,25,37,76,85
+legal-builder-hub/agents/registry-sync.md	nom-origine;profil	23	23
+legal-builder-hub/references/allowlist-default.yaml	commande-domaine	2,11	
+legal-builder-hub/skills/auto-updater/SKILL.md	commande-domaine;nom-origine;profil;skills-partages	13,30,114,161,167,171	13,30,114,167
+legal-builder-hub/skills/cold-start-interview/SKILL.md	cache;commande-domaine;nom-origine;profil	15,19,21,29,35,39,64,68,84,99,139,151,155,159,171,202,206,210,212,243,244,245,246,247,263,266,267,279,286	15,19,21,29,35,39,99,159,171,263
+legal-builder-hub/skills/customize/SKILL.md	commande-domaine;nom-origine;profil	16,24,25,29,71,79	24,25,71
+legal-builder-hub/skills/disable/SKILL.md	nom-origine;profil	25	25
+legal-builder-hub/skills/registry-browser/SKILL.md	nom-origine;profil	13,26,71	13,26,71
+legal-builder-hub/skills/registry-browser/references/registries.yaml	commande-domaine	2	
+legal-builder-hub/skills/related-skills-surfacer/SKILL.md	commande-domaine;nom-origine;profil	13,33,49,59	13,33,59
+legal-builder-hub/skills/skill-installer/SKILL.md	commande-domaine;nom-origine;profil;skills-partages	17,23,65,66,172,272,310,334,387,420,426,443	17,23,65,272,387,420,426
+legal-builder-hub/skills/skill-installer/references/allowlist.md	nom-origine;profil	6	6
+legal-builder-hub/skills/skill-manager/SKILL.md	commande-domaine;nom-origine;profil	7,8,26,29,36,55,130	26,29,36,130
+legal-builder-hub/skills/skills-qa/SKILL.md	commande-domaine;nom-origine;profil	11,25,31,35,73,123,126,211	25,73,126,211
+legal-builder-hub/skills/uninstall/SKILL.md	commande-domaine;nom-origine;profil	19,23,31	19,23
+legal-clinic/CLAUDE.md	cache;commande-domaine;nom-origine;profil	6,10,13,18,24,30,32,51,219,298,339,343,344,357,363,365	6,13,18,219,298,339,357
+legal-clinic/README.md	commande-domaine;nom-origine;profil	51,91,144,155	91,144
+legal-clinic/client-comms/_README.md	commande-domaine	3	
+legal-clinic/deadlines.yaml	commande-domaine	3,5	
+legal-clinic/handoffs/_README.md	commande-domaine	3,38,40	
+legal-clinic/references/plausibility-bands/CA.md	commande-domaine	3	
+legal-clinic/references/plausibility-bands/IL.md	commande-domaine	3	
+legal-clinic/skills/build-guide/SKILL.md	commande-domaine;nom-origine;profil	15,17,19,20,23,38,61,63,73,75,143,148,223,227,233,244,248	15,19,61,75,143,223,233
+legal-clinic/skills/client-comms-log/SKILL.md	commande-domaine;nom-origine;profil	17,21,40,41,66	17,40,41,66
+legal-clinic/skills/client-intake/SKILL.md	commande-domaine;nom-origine;profil	14,21,38,42,58,105,126,130,135,203	14,38,42,58,105,126
+legal-clinic/skills/client-letter/SKILL.md	commande-domaine;nom-origine;profil	14,22,26,41,45,144,148,156,160	14,41,45,144,148,156,160
+legal-clinic/skills/cold-start-interview/SKILL.md	cache;commande-domaine;nom-origine;profil	15,19,20,21,24,27,47,55,74,95,110,123,165,222,228,230,282,310,311,312,313,314,315,339,342,343	15,19,20,27,47,55,110,165,339
+legal-clinic/skills/customize/SKILL.md	commande-domaine;nom-origine;profil	17,25,29,79	25
+legal-clinic/skills/deadlines/SKILL.md	commande-domaine;nom-origine;profil	14,17,36,37,64,68,86,154,164	14,17,36,37,64,86,154,164
+legal-clinic/skills/draft/SKILL.md	commande-domaine;nom-origine;profil	14,21,25,40,46,62,86,108,110	14,40,46,62,86,108,110
+legal-clinic/skills/memo/SKILL.md	commande-domaine;nom-origine;profil	14,21,36,41	14,36,41
+legal-clinic/skills/ramp/SKILL.md	commande-domaine;nom-origine;profil	14,20,24,41,55	14,41,55
+legal-clinic/skills/research-start/SKILL.md	commande-domaine;nom-origine;profil	14,21,38,46	14,38,46
+legal-clinic/skills/semester-handoff/SKILL.md	commande-domaine;nom-origine;profil	14,15,18,19,38,39,40,48,76,107,132,167,169,177,181,188	14,15,18,19,38,39,40,48,76,107,132,167,169,177,181
+legal-clinic/skills/status/SKILL.md	commande-domaine;nom-origine;profil	13,22,26,30,43,50,91,180	13,43,50,91,180
+legal-clinic/skills/supervisor-review-queue/SKILL.md	commande-domaine;nom-origine;profil	14,20,24,28,39,45	14,39,45
+litigation-legal/CLAUDE.md	cache;commande-domaine;nom-origine;profil	6,10,13,18,22,95,239,274,280,282,341,347,351,538,581	6,13,18,239,274,347
+litigation-legal/README.md	commande-domaine;nom-origine;profil	37,40,46,47,48,49,50,51,52,53,54,55,56,57,58,59,137,141,142	40,46,137,141,142
+litigation-legal/agents/docket-watcher.md	nom-origine;profil;sorties-relatives	23,32,36	23,32
+litigation-legal/demand-letters/_README.md	commande-domaine;nom-origine;profil	34,35,39	39
+litigation-legal/inbound/_README.md	commande-domaine	31,32	
+litigation-legal/matters/_log.yaml	commande-domaine	5	
+litigation-legal/oc-status/_README.md	commande-domaine	3,21,23	
+litigation-legal/skills/brief-section-drafter/SKILL.md	commande-domaine;nom-origine;profil	9,82,84,86,114,139	9,82,84,114,139
+litigation-legal/skills/chronology/SKILL.md	commande-domaine;nom-origine;profil	9,10,12,16,67,74,76,176	9,10,12,16,67,74,176
+litigation-legal/skills/claim-chart/SKILL.md	commande-domaine;nom-origine;profil	9,50,56,66,73,75,77,348,417	9,50,56,75,348,417
+litigation-legal/skills/cold-start-interview/SKILL.md	cache;commande-domaine;nom-origine;profil	9,17,18,23,24,44,50,54,73,79,110,294,363,449,463,464,465,466,467,468,475,477,481,484,485,486	9,17,18,23,24,44,50,54,481
+litigation-legal/skills/customize/SKILL.md	commande-domaine;nom-origine;profil	17,25,26,30,78,86	25,26,78
+litigation-legal/skills/demand-draft/SKILL.md	commande-domaine;nom-origine;profil	9,10,13,15,16,82,83,84,148,235,239,269,291,320,329,335,339	9,10,13,15,16,82,83,84,148,235,239,269,291,329,335,339
+litigation-legal/skills/demand-intake/SKILL.md	commande-domaine;nom-origine;profil	9,13,14,26,90,91,142,144,261,271	9,13,26,90,91,142,144,271
+litigation-legal/skills/demand-received/SKILL.md	nom-origine;profil	10,11,14,32,33,76,120,224	10,11,14,32,33,76,120,224
+litigation-legal/skills/deposition-prep/SKILL.md	commande-domaine;nom-origine;profil	9,61,63,65,114	9,61,63,114
+litigation-legal/skills/legal-hold/SKILL.md	commande-domaine;nom-origine;profil	10,11,35,36,37,41,53,75,84,137,138,172,180,198	10,11,35,36,37,53,75,84,137,138,172,180,198
+litigation-legal/skills/matter-briefing/SKILL.md	commande-domaine;nom-origine;profil	9,11,25,26,27,28,32,95	9,11,25,26,27,28
+litigation-legal/skills/matter-close/SKILL.md	commande-domaine;nom-origine;profil	13,14,26,27,28,32,72,82,94,110	13,14,26,27,28,72,82,94,110
+litigation-legal/skills/matter-intake/SKILL.md	commande-domaine;nom-origine;profil	9,13,14,15,28,29,45,48,61,63,90,91,96,100,118,129,155,226,242	9,13,14,15,28,29,45,48,61,63,90,91,96,100,118,155,226,242
+litigation-legal/skills/matter-update/SKILL.md	commande-domaine;nom-origine;profil	10,12,26,27,28,29,33,81,85,109,117,135	10,12,26,27,28,29,81,85,109,117,135
+litigation-legal/skills/matter-workspace/SKILL.md	commande-domaine;nom-origine;profil	13,14,15,16,17,19,23,26,27,29,52,86,99	16,23,26,27,29,52
+litigation-legal/skills/oc-status/SKILL.md	commande-domaine;nom-origine;profil	9,11,12,15,17,29,30,31,32,53,70,74,77,83,93,96,119,149,159	11,12,15,17,29,30,31,32,53,70,74,77,83,93,96,119,159
+litigation-legal/skills/portfolio-status/SKILL.md	nom-origine;profil	9,11,25,26	9,11,25,26
+litigation-legal/skills/privilege-log-review/SKILL.md	commande-domaine;nom-origine;profil	9,30,56,58,60,167	9,30,56,58,167
+litigation-legal/skills/subpoena-triage/SKILL.md	nom-origine;profil	11,12,15,37,38,93,134,190,254,264	11,12,15,37,38,93,134,190,254,264
+managed-agent-cookbooks/diligence-grid/README.md	commande-domaine;sorties-relatives	45,57,59	
+managed-agent-cookbooks/diligence-grid/agent.yaml	sorties-relatives	21,55	
+managed-agent-cookbooks/diligence-grid/subagents/grid-writer.yaml	sorties-relatives	9,22,26	
+managed-agent-cookbooks/docket-watcher/README.md	sorties-relatives	40,49	
+managed-agent-cookbooks/docket-watcher/agent.yaml	sorties-relatives	14	
+managed-agent-cookbooks/docket-watcher/subagents/tracker-writer.yaml	sorties-relatives	7,9,10,41,58,77,80	
+managed-agent-cookbooks/launch-radar/README.md	commande-domaine;sorties-relatives	40,49,51	
+managed-agent-cookbooks/launch-radar/agent.yaml	sorties-relatives	9	
+managed-agent-cookbooks/launch-radar/subagents/memo-writer.yaml	sorties-relatives	6,23	
+managed-agent-cookbooks/reg-monitor/README.md	sorties-relatives	36	
+managed-agent-cookbooks/reg-monitor/agent.yaml	sorties-relatives	9	
+managed-agent-cookbooks/reg-monitor/subagents/digest-writer.yaml	sorties-relatives	7	
+managed-agent-cookbooks/renewal-watcher/README.md	sorties-relatives	41	
+managed-agent-cookbooks/renewal-watcher/agent.yaml	sorties-relatives	9	
+managed-agent-cookbooks/renewal-watcher/subagents/alert-writer.yaml	sorties-relatives	7	
+privacy-legal/CLAUDE.md	cache;commande-domaine;nom-origine;profil	6,10,13,18,23,58,295,318,324,326,389,397,401,405	6,13,18,295,318,397
+privacy-legal/README.md	commande-domaine;nom-origine;profil	20,23,30,31,32,33,34,35,36,37,57,65,74,82,90,97	20,97
+privacy-legal/skills/cold-start-interview/SKILL.md	cache;commande-domaine;nom-origine;profil	14,18,19,23,28,32,41,47,55,59,78,103,118,192,330,435,448,449,450,451,452,453,475,478,479,490	14,18,19,23,41,47,55,59,118,475
+privacy-legal/skills/customize/SKILL.md	commande-domaine;nom-origine;profil	17,25,26,30,77,85	25,26,77
+privacy-legal/skills/dpa-review/SKILL.md	commande-domaine;nom-origine;profil	13,20,29,35,41,52,63,69,92,169,227	13,29,35,41,52,63,69,92,169,227
+privacy-legal/skills/dsar-response/SKILL.md	commande-domaine;nom-origine;profil	15,25,35,49,87,107,148,158,266,280	15,35,49,87,107,148,158,266,280
+privacy-legal/skills/matter-workspace/SKILL.md	commande-domaine;nom-origine;profil	17,18,19,20,21,25,28,29,31,47,54,88,101	20,25,28,29,31,54
+privacy-legal/skills/pia-generation/SKILL.md	commande-domaine;nom-origine;profil	14,22,26,36,54,67,73,83,139,246,258,264	14,36,54,67,73,83,139,246,258,264
+privacy-legal/skills/policy-monitor/SKILL.md	commande-domaine;nom-origine;profil	16,21,24,28,31,32,57,65,130,334,338	16,21,24,57,130,338
+privacy-legal/skills/reg-gap-analysis/SKILL.md	commande-domaine;nom-origine;profil	13,21,25,37,41,106	13,37,41,106
+privacy-legal/skills/use-case-triage/SKILL.md	commande-domaine;nom-origine;profil	14,21,30,62,71,78,102,126,145,217,241,247	14,30,62,102,126,145
+product-legal/CLAUDE.md	cache;commande-domaine;nom-origine;profil	6,10,13,18,22,62,212,235,241,243,306,314,318,397	6,13,18,212,235,314
+product-legal/README.md	commande-domaine;nom-origine;profil	20,23,30,31,32,33,34,40,72,78,84,91,101,105	20,40,91,105
+product-legal/agents/launch-watcher.md	nom-origine;profil	26	26
+product-legal/skills/cold-start-interview/SKILL.md	cache;commande-domaine;nom-origine;profil	13,17,18,22,27,31,46,54,58,77,102,117,172,340,434,447,448,449,468,471,472	13,17,18,22,46,54,58,117,468
+product-legal/skills/customize/SKILL.md	commande-domaine;nom-origine;profil	17,25,26,30,75,83	25,26,75
+product-legal/skills/feature-risk-assessment/SKILL.md	commande-domaine;nom-origine;profil	15,112,121,127,131,136,140	15,112,136,140
+product-legal/skills/is-this-a-problem/SKILL.md	commande-domaine;nom-origine;profil	13,20,27,43,76,77,80,88,126	13,27,43,88
+product-legal/skills/launch-review/SKILL.md	commande-domaine;nom-origine;profil	13,21,28,38,42,78,84,140,149,167,216,248,249,259	13,28,38,42,84,140,149,167,216,259
+product-legal/skills/launch-review/references/seven-category-framework.md	nom-origine;profil	9	9
+product-legal/skills/marketing-claims-review/SKILL.md	commande-domaine;nom-origine;profil	13,20,28,38,95,145,163	13,28,38,95,145,163
+product-legal/skills/matter-workspace/SKILL.md	commande-domaine;nom-origine;profil	17,18,19,20,21,25,28,29,31,54,88,101	20,25,28,29,31,54
+references/dashboard-template.md	nom-origine;profil	21	21
+regulatory-legal/CLAUDE.md	cache;commande-domaine;nom-origine;profil	6,10,13,18,22,53,232,255,261,263,329,337,341,345	6,13,18,232,255,337
+regulatory-legal/README.md	commande-domaine;nom-origine;profil	20,27,28,29,30,31,32,33,65,75	65,75
+regulatory-legal/agents/reg-change-monitor.md	nom-origine;profil	5,20,24	5,20,24
+regulatory-legal/skills/cold-start-interview/SKILL.md	cache;commande-domaine;nom-origine;profil	9,12,24,32,36,55,59,84,98,147,182,199,218,258,319,320,321,322,324,339,342,343,356	9,12,24,32,36,84,339
+regulatory-legal/skills/comments/SKILL.md	commande-domaine;nom-origine;profil	17,18,49,67,88	17,18,67
+regulatory-legal/skills/customize/SKILL.md	commande-domaine;nom-origine;profil	17,25,26,30,79,87	25,26,79
+regulatory-legal/skills/gap-surfacer/SKILL.md	commande-domaine;nom-origine;profil	4,5,29,40,42,97,154,163,165,167,186,204,216	29,40,42,163,165,167,186
+regulatory-legal/skills/gap-surfacer/references/comment-tracker.yaml	commande-domaine	3	
+regulatory-legal/skills/gaps/SKILL.md	nom-origine;profil	9	9
+regulatory-legal/skills/matter-workspace/SKILL.md	commande-domaine;nom-origine;profil	13,14,15,16,17,21,24,25,27,41,48,82,95	16,21,24,25,27,48
+regulatory-legal/skills/policy-diff/SKILL.md	commande-domaine;nom-origine;profil	9,18,28,123,135,187,189,190	9,18,28,123,187,189,190
+regulatory-legal/skills/policy-redraft/SKILL.md	commande-domaine;nom-origine;profil	3,9,11,23,49,51,176,178,186	9,23,49,176
+regulatory-legal/skills/reg-feed-watcher/SKILL.md	commande-domaine;nom-origine;profil	9,23,38,55,99,105,116,117,124,125,145,193,202,204,205,206,226	9,23,38,55,99,116,124,125,145,202,204,205,206,226
+scripts/deploy-managed-agent.sh	deploiement	28,30,31,32,34,38,39,40,93	
+scripts/orchestrate.py	sorties-relatives	34,72,74,159	

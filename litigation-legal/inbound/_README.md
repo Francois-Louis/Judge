@@ -1,3 +1,5 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # inbound/ — incoming legal correspondence
 
 This folder holds triage and response work for anything arriving from the outside world: demand letters received, subpoenas served on the company, regulator inquiries, preservation demands, cease-and-desist letters aimed at us.
@@ -28,8 +30,8 @@ inbound/
 
 | Type | Command | Outputs |
 |---|---|---|
-| Demand letter received | `/litigation-legal:demand-received [path]` | triage.md + optional response draft |
-| Subpoena served | `/litigation-legal:subpoena-triage [path]` | triage.md + objections memo |
+| Demand letter received | `/judge-fr-eu-litigation-legal:demand-received [path]` | triage.md + optional response draft |
+| Subpoena served | `/judge-fr-eu-litigation-legal:subpoena-triage [path]` | triage.md + objections memo |
 | Regulator inquiry | *future skill* | |
 
 Each triage cross-checks `matters/_log.yaml` for related matters (same counterparty, overlapping subject). If a related matter exists, the triage flags it and offers to add this as a related_matter entry. If this inbound item should itself become a tracked matter, the triage hands off to `/matter-intake` with fields pre-populated.

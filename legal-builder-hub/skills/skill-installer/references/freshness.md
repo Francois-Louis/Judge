@@ -1,6 +1,9 @@
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Freshness Fields for Community Skill Authors
 
-If your skill bundles reference content under `references/` — regulations,
+If your skill bundles reference content under the candidate's references directory — regulations,
 statutes, procedures, forms, checklists keyed to current law — declare its
 freshness in `SKILL.md` frontmatter:
 
@@ -30,7 +33,7 @@ when they installed it and read a warning they've forgotten.
 - The builder-hub's **skill-installer** checks `last_verified` against
   `today + freshness_window` before executing. If past the window, it surfaces
   a warning before running.
-- The **skills-qa** review flags skills with bundled `references/` and no
+- The **skills-qa** review flags skills with bundled the candidate's references directory and no
   `last_verified` as Some Concern.
 - The **auto-updater** treats a stale `last_verified` as a re-verification
   trigger even when the git SHA hasn't changed.

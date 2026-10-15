@@ -10,13 +10,17 @@ description: >
 argument-hint: "[--redo to re-run on an already-configured plugin] [--check-integrations to re-probe integrations only]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /cold-start-interview
 
-Runs the cold-start interview. First run writes `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`; subsequent runs with `--redo` re-interview and show a diff before overwriting.
+Runs the cold-start interview. First run writes `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`; subsequent runs with `--redo` re-interview and show a diff before overwriting.
 
 ## Instructions
 
-1. **Check current state:** Read `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`. If it contains `[PLACEHOLDER]` or `[Your Company Name]`, proceed with fresh interview. If populated and `--redo` not passed, ask: "Looks like you're already set up. Want to re-run the interview? This will overwrite `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` (I'll show you a diff first)."
+1. **Check current state:** Read `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`. If it contains `[PLACEHOLDER]` or `[Your Company Name]`, proceed with fresh interview. If populated and `--redo` not passed, ask: "Looks like you're already set up. Want to re-run the interview? This will overwrite `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md` (I'll show you a diff first)."
 
 2. **Follow the interview script below.**
 
@@ -24,35 +28,35 @@ Runs the cold-start interview. First run writes `~/.claude/plugins/config/claude
 
 4. **Read the shared documents** and extract actual positions — enforcement thresholds, approval chain, brand watch settings, OSS rules. Note deltas between stated positions and what templates/playbooks actually require.
 
-5. **Migration:** If a populated CLAUDE.md (no `[PLACEHOLDER]` markers) exists at `~/.claude/plugins/cache/claude-for-legal/ip-legal/*/CLAUDE.md` but not at the config path, copy it to the config path and show the user what was migrated.
+5. If the fork profile is absent, start a fresh France/EU interview; never read a cache or another distribution.
 
-6. **Write `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`** (create parent directories as needed) per the structure below. Use the lawyer's own words where possible.
+6. **Write `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`** (create parent directories as needed) per the structure below. Use the lawyer's own words where possible.
 
-7. **Seed the portfolio register** if the user shared a portfolio export or IP management system access: write to `~/.claude/plugins/config/claude-for-legal/ip-legal/portfolio.yaml`. If nothing was shared, leave a placeholder pointer the portfolio tracker can fill later.
+7. **Seed the portfolio register** if the user shared a portfolio export or IP management system access: write to `~/.claude/plugins/config/judge-fr-eu/ip-legal/portfolio.yaml`. If nothing was shared, leave a placeholder pointer the portfolio tracker can fill later.
 
 8. **Show summary + propose next steps:**
-   - "Here's what I heard — `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` is written. What did I get wrong?"
+   - "Here's what I heard — `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md` is written. What did I get wrong?"
    - Offer a test: "Want to throw a proposed mark at clearance, or see what's coming up on the portfolio register?"
    - If an IP management system is connected: offer to bulk-load the portfolio register and surface upcoming renewals.
 
 ## `--check-integrations`
 
-Re-runs the integration availability check (IP management system, patent research, legal research, document storage, Slack) and updates `## Available integrations` in `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`. Does not re-interview. Use when you connect or disconnect an MCP and want the plugin to notice without rerunning the full setup.
+Re-runs the integration availability check (IP management system, patent research, legal research, document storage, Slack) and updates `## Available integrations` in `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`. Does not re-interview. Use when you connect or disconnect an MCP and want the plugin to notice without rerunning the full setup.
 
 When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 
 ## Examples
 
 ```
-/ip-legal:cold-start-interview
+/judge-fr-eu-ip-legal:cold-start-interview
 ```
 
 ```
-/ip-legal:cold-start-interview --redo
+/judge-fr-eu-ip-legal:cold-start-interview --redo
 ```
 
 ```
-/ip-legal:cold-start-interview --check-integrations
+/judge-fr-eu-ip-legal:cold-start-interview --check-integrations
 ```
 
 ---
@@ -65,7 +69,7 @@ The lawyer should leave this conversation feeling like they just onboarded a sha
 
 ## What "cold start" means
 
-Read `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`:
+Read `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`:
 - **Does not exist** → start the interview.
 - **Contains `<!-- SETUP PAUSED AT: -->`** → greet the user and offer to resume from that section.
 - **Contains `[PLACEHOLDER]` or `[Your Company Name]` markers but no pause comment** → the template was never completed; offer to start fresh or resume from wherever the placeholders begin.
@@ -73,16 +77,16 @@ Read `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`:
 
 The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed.
 
-If a CLAUDE.md exists at the old cache path `~/.claude/plugins/cache/claude-for-legal/ip-legal/*/CLAUDE.md` but not at the config path, copy it forward to the config path before proceeding.
+If the fork profile is absent, start a fresh interview; never import a cached profile.
 
 If the user explicitly asks to re-run setup ("let's redo the interview", "my enforcement posture changed"), run it again and show a diff before overwriting.
 
 ## Check for the shared company profile
 
-Look for `~/.claude/plugins/config/claude-for-legal/company-profile.md`.
+Look for `~/.claude/plugins/config/judge-fr-eu/company-profile.md`.
 
 - **If it exists:** Read it. Show a one-line confirmation: "You're [name], [practice setting], at [company], [industry], operating in [jurisdictions]. Right? (Or say 'update' to change the shared profile.)" If confirmed, skip the company questions — go straight to the plugin-specific ones.
-- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
+- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `${CLAUDE_PLUGIN_ROOT}/references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
 
 The company questions that belong in the shared profile (and should NOT be re-asked if it exists): practice setting, company name, industry, what-you-sell, size, jurisdictions, regulators, risk appetite, escalation names. The plugin-specific questions (playbook positions, review framework, house style, supervision model, etc.) stay per-plugin.
 
@@ -98,13 +102,13 @@ Ask the user to confirm before proceeding: continue with project scope, or pause
 
 Open with the fork-first preamble. Keep it to 3-4 short lines. Ask quick-or-full before anything else.
 
-> **`ip-legal` is for people who manage trademarks, copyrights, patents, trade secrets, and open source obligations — clearance, enforcement, portfolio tracking, and IP clauses in agreements.** Not your area? `/legal-builder-hub:related-skills-surfacer`.
+> **`ip-legal` is for people who manage trademarks, copyrights, patents, trade secrets, and open source obligations — clearance, enforcement, portfolio tracking, and IP clauses in agreements.** Not your area? `/judge-fr-eu-legal-builder-hub:related-skills-surfacer`.
 >
 > **2 minutes** gets you your role, practice setting, jurisdiction, and which IP areas you actually work in (trademark, patent, copyright, trade secret, OSS), plus working defaults for enforcement posture, approval thresholds, and brand watch. **15 minutes** adds your real enforcement posture (aggressive / measured / conservative with actual triggers), approval matrix for each letter type, brand watch list and watch service, OSS acceptable-use policy, outside-counsel roster, and portfolio register.
 >
 > Quick or full? (Upgrade any time with `/cold-start-interview --full`.)
 
-**Quick start path:** ask only Part 0 (role, practice setting, integrations) and Part 1 (practice-area mix). Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for enforcement posture, approval thresholds, and brand watch. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/ip-legal:cold-start-interview --redo` anytime to do the whole interview."
+**Quick start path:** ask only Part 0 (role, practice setting, integrations) and Part 1 (practice-area mix). Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for enforcement posture, approval thresholds, and brand watch. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/judge-fr-eu-ip-legal:cold-start-interview --redo` anytime to do the whole interview."
 
 **Full setup path:** the existing interview flow below. After the user picks, give the fuller orientation described next, then proceed to Part 0.
 
@@ -133,7 +137,7 @@ Corollary: the interview's inputs are the user's typed answers and documents the
 - **For uploads and seed docs:** "Paste the contents, share a file path, or say 'skip for now.' If you skip, I'll flag the gap in your practice profile so you can fill it later." Then actually wait.
 - **Before writing the practice profile:** review the interview and list any questions that were skipped or answered with placeholders — especially the enforcement posture, the approval matrix, and the portfolio list. Say: "Before I write your practice profile, here's what's still open: [list]. Want to fill any of these now, or leave them as placeholders?" Then wait.
 - **Never** write a practice profile with silent gaps. Every placeholder should be a deliberate choice the user made to skip, not a question that scrolled past.
-- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/ip-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /ip-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
+- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/judge-fr-eu-ip-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /judge-fr-eu-ip-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
 
 **Verify user-stated legal facts as they come up in setup.** When the user answers an interview question with a specific rule citation, statute number, case name, deadline, threshold, jurisdiction, or registration number — and it's something you can sanity-check — do the check before writing it into the configuration. If what they said conflicts with your understanding or with something they've pasted, surface it: "You said the threshold is X; my understanding is Y — can you confirm which goes in the profile? `[premise flagged — verify]`" A wrong fact written into CLAUDE.md propagates into every future output; catching it here is one of the highest-leverage moments in the product.
 
@@ -250,7 +254,7 @@ Then report findings in this form:
 > - ⚪ [Integration] — configured but not verified. Open your MCP settings to confirm.
 > - ✗ [Integration] — not found. [Feature] will fall back to [manual alternative]. [How to connect.]
 
-You don't need all of these. Core features work with file access alone. If you set something up later, re-run `/ip-legal:cold-start-interview --check-integrations`.
+You don't need all of these. Core features work with file access alone. If you set something up later, re-run `/judge-fr-eu-ip-legal:cold-start-interview --check-integrations`.
 
 #### Practice setting
 
@@ -398,7 +402,7 @@ Write the plugin config following the structure in `${CLAUDE_PLUGIN_ROOT}/CLAUDE
 
 Before writing, re-read any documents shared during Part 3 — portfolio, templates, playbook, OSS policy. Do not rely on memory from earlier in the conversation.
 
-Write to `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` (create parent directories as needed). If the user shared a portfolio export, also seed `~/.claude/plugins/config/claude-for-legal/ip-legal/portfolio.yaml` with the extracted registrations.
+Write to `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md` (create parent directories as needed). If the user shared a portfolio export, also seed `~/.claude/plugins/config/judge-fr-eu/ip-legal/portfolio.yaml` with the extracted registrations.
 
 **Role-conditional work-product header.** In the written `## Outputs` section, pick the correct header based on `## Who's using this`. Don't write both variants. Lawyer → privileged/work-product; non-lawyer → research-notes.
 
@@ -414,12 +418,12 @@ If yes, show this tailored list (not a generic template — these are the concre
 
 > **Here's what I'm good at in intellectual property practice:**
 >
-> - **Clear a proposed trademark** — e.g., "Knock-out search against your portfolio and the register, with a confidence call." Try: `/ip-legal:clearance`
-> - **Triage a potential infringement** — e.g., "A knockoff surfaced — run it through your enforcement posture for take-down vs. cease-and-desist vs. monitor." Try: `/ip-legal:infringement-triage`
-> - **Freedom-to-operate analysis** — e.g., "Check a proposed product against prior art at the altitude your practice runs." Try: `/ip-legal:fto-triage`
-> - **Draft a takedown or cease-and-desist** — e.g., "From intake to drafted letter in house voice, with escalation routing." Try: `/ip-legal:cease-desist`
-> - **Open-source compliance check** — e.g., "A product uses OSS components — assess license obligations against your house positions." Try: `/ip-legal:oss-review`
-> - **Portfolio renewal status** — e.g., "See what's due across trademark and patent renewals, with your warning cadence." Try: `/ip-legal:portfolio`
+> - **Clear a proposed trademark** — e.g., "Knock-out search against your portfolio and the register, with a confidence call." Try: `/judge-fr-eu-ip-legal:clearance`
+> - **Triage a potential infringement** — e.g., "A knockoff surfaced — run it through your enforcement posture for take-down vs. cease-and-desist vs. monitor." Try: `/judge-fr-eu-ip-legal:infringement-triage`
+> - **Freedom-to-operate analysis** — e.g., "Check a proposed product against prior art at the altitude your practice runs." Try: `/judge-fr-eu-ip-legal:fto-triage`
+> - **Draft a takedown or cease-and-desist** — e.g., "From intake to drafted letter in house voice, with escalation routing." Try: `/judge-fr-eu-ip-legal:cease-desist`
+> - **Open-source compliance check** — e.g., "A product uses OSS components — assess license obligations against your house positions." Try: `/judge-fr-eu-ip-legal:oss-review`
+> - **Portfolio renewal status** — e.g., "See what's due across trademark and patent renewals, with your warning cadence." Try: `/judge-fr-eu-ip-legal:portfolio`
 >
 > **My suggestion for your first one:** Run `/portfolio` — it's the fastest read on whether the plugin's portfolio register matches the real one. Or tell me what's on your plate and I'll pick.
 
@@ -437,18 +441,18 @@ This solves the cold-start problem (the supervisor doesn't know what to do first
 
 4. **Close with a note on changeability.** End with something like:
 
-   > "Done. Your practice profile is at `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` — it's a plain text file you can read and edit directly. Anything you answered can be changed:
+   > "Done. Your practice profile is at `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md` — it's a plain text file you can read and edit directly. Anything you answered can be changed:
    >
    > - Edit the file directly for a quick change (a new approver, a revised watch list, a jurisdiction swap)
-   > - Run `/ip-legal:cold-start-interview --redo` for a full re-interview
-   > - Run `/ip-legal:cold-start-interview --check-integrations` to re-check what's connected
+   > - Run `/judge-fr-eu-ip-legal:cold-start-interview --redo` for a full re-interview
+   > - Run `/judge-fr-eu-ip-legal:cold-start-interview --check-integrations` to re-check what's connected
    >
    > The sections most often adjusted after first setup are **enforcement posture** (teams often realize the real trigger is different from what they wrote), **jurisdiction footprint** (a new filing, a dropped registration), and **watched marks** (adds and removes as the brand portfolio moves). When a skill's output feels off, the fix is usually here."
 
 5. **Before your first clearance**: connect a research tool. Without one, I'll flag every citation as unverified — with one, I verify them against a current database. In Cowork: Settings → Connectors. In Claude Code: authorize when a skill prompts you.
 
 <!-- COLLATERAL LINKS: when onboarding collateral exists, add here:
-     "Want a walkthrough? [Watch the 3-minute intro](URL) or [read the getting-started guide](URL)." -->
+     "Want a walkthrough? the introduction (link not yet supplied) or the getting-started guide (link not yet supplied)." -->
 
 ## Your practice profile learns
 
@@ -477,3 +481,16 @@ If they give you a short answer, it's fine to follow up once ("aggressive — do
 - **Don't promise things the other skills can't deliver.** Check what skills exist in this plugin before offering them.
 - **Don't run this interview on every session.** Check the plugin config first. If it's populated, you're done.
 - **Don't draft patent claims or offer an opinion of counsel.** This plugin is intentionally out of those zones. If asked, route the user to a patent attorney or prosecutor.
+
+## Judge FR/UE setup boundary
+
+Read only the fork profile and shared profile using the packaged storage helper.
+If the practice profile is absent, including with `--check-integrations`, start
+a new interview: confirm France/EU jurisdictions, role and dates from the user.
+Do not search or copy any other profile, cache, legal rules, matters or registers.
+Use the packaged template only as a section scaffold. Preserve an existing
+profile and its answers, including paused progress; `--redo` reviews only the
+requested sections and does not reset unrelated answers. Create new files
+exclusively; for an agreed edit, supply the digest of the file reviewed.
+Never use inherited US defaults to fill unanswered France/EU legal fields;
+leave them explicitly unresolved. Assisted import requires a separate story.

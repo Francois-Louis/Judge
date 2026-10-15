@@ -1,3 +1,5 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Launch Radar — managed-agent template
 
 ## Overview
@@ -17,6 +19,7 @@ This is a **cookbook, not a product.** It will not work out of the box. You need
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
+export JUDGE_DEPLOYMENT_ID=demo-2026-10-15
 export LINEAR_MCP_URL=... ATLASSIAN_MCP_URL=... ASANA_MCP_URL=... GDRIVE_MCP_URL=...
 ../../scripts/deploy-managed-agent.sh launch-radar
 ```
@@ -46,7 +49,7 @@ Tracker tickets are untrusted input. A product manager can put arbitrary text in
 Things you will need to change before this is useful:
 
 - **Tracker pointer.** Edit `mcp_servers` in [`agent.yaml`](./agent.yaml) and [`subagents/tracker-reader.yaml`](./subagents/tracker-reader.yaml) to the MCP URL of your tracker. If you only use one of Jira/Linear/Asana, drop the other two. If your tracker isn't in that list, swap in the MCP you do use and update the `tracker-reader` system prompt accordingly.
-- **Risk calibration.** The `risk-classifier` reads the user's calibration from `../../product-legal/CLAUDE.md` (populated by `/product-legal:cold-start-interview`). If you haven't run cold-start, either do that first or hand-author a CLAUDE.md with "Usually blocks / Usually requires work / Usually FYI" tables before the first scan. Without calibration the classifier falls back to keyword triggers only, which is noisy.
+- **Risk calibration.** The `risk-classifier` reads the user's calibration from `../../product-legal/CLAUDE.md` (populated by `/judge-fr-eu-product-legal:cold-start-interview`). If you haven't run cold-start, either do that first or hand-author a CLAUDE.md with "Usually blocks / Usually requires work / Usually FYI" tables before the first scan. Without calibration the classifier falls back to keyword triggers only, which is noisy.
 - **Scan cadence and horizon.** Default is weekly / 6 weeks. Your launch cadence may warrant daily or biweekly; short lead times need a longer horizon. Configure the cadence in your scheduler (cron, Temporal, Airflow, EventBridge), not inside the agent. The horizon is passed in the steering event.
 - **Delivery channel.** The memo goes to `./out/` by default. To post to Slack instead or additionally, either (a) add a Slack MCP to the cookbook and update `memo-writer` to post after writing, or (b) have your orchestration layer pick up `./out/launch-radar-<date>.md` and forward it. This pattern keeps delivery out of the agent for easier testing; pick whichever fits your ops story.
 - **Trigger keywords.** The keyword list in the `launch-watcher` system prompt is opinionated (COPPA, HIPAA, AI vendor names, etc.). Delete categories that don't apply to your product, add domain-specific terms (FedRAMP, PCI, HITRUST, TCPA, biometrics, etc.), and retune severity thresholds against your calibration table. Re-deploy after changes.
@@ -57,3 +60,7 @@ Things you will need to change before this is useful:
 - **You get:** a working manifest, a security-tiered pipeline, a memo that cites every launch back to its tracker URL, and a handoff path to the full launch-review skill.
 - **You don't get:** a production-ready agent. Point it at your tracker, load your calibration, set the cadence, run an evaluation, and have the product counsel review the first few outputs against their own read of the same tickets before trusting it.
 - **You especially don't get:** a replacement for the product counsel. This agent triages. A lawyer reviews, flags, decides. Every "needs review" item in the memo is a lead, not a verdict.
+
+## Judge FR/UE storage
+
+Modified for BASE-008 (2026-10-15), technical version 0.1.0; legal adaptation pending. Use a fresh `JUDGE_DEPLOYMENT_ID`. The launcher binds outputs to `./judge-fr-eu-runs/<deployment>/launch-radar/out/` and uses fork agent names/titles. Do not reuse original working directories. See the [workspace contract and remote limitations](../README.md).

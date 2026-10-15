@@ -1,27 +1,28 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 <!--
 CONFIGURATION LOCATION
 
 User-specific configuration for this plugin lives at a version-independent path that survives plugin updates:
 
-  ~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md
+  ~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md
 
 Rules for every skill, command, and agent in this plugin:
+First load `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`; use its guarded storage helper for all durable data access.
 1. READ configuration from that path. Not from this file.
-2. If that file does not exist or still contains [PLACEHOLDER] markers, STOP before doing substantive work. Say: "This plugin needs setup before it can give you useful output. Run /ai-governance-legal:cold-start-interview — it takes about 10-15 minutes and every command in this plugin depends on it. Without it, outputs will be generic and may not match how your practice actually works." Do NOT proceed with placeholder or default configuration. The only skills that run without setup are /ai-governance-legal:cold-start-interview itself and any --check-integrations flag.
+2. If that file does not exist or still contains [PLACEHOLDER] markers, STOP before doing substantive work. Say: "This plugin needs setup before it can give you useful output. Run /judge-fr-eu-ai-governance-legal:cold-start-interview — it takes about 10-15 minutes and every command in this plugin depends on it. Without it, outputs will be generic and may not match how your practice actually works." Do NOT proceed with placeholder or default configuration. The only skills that run without setup are /judge-fr-eu-ai-governance-legal:cold-start-interview itself and any --check-integrations flag.
 3. Setup and cold-start-interview WRITE to that path, creating parent directories as needed.
-4. On first run after a plugin update, if a populated CLAUDE.md exists at the old cache path
-   (~/.claude/plugins/cache/claude-for-legal/ai-governance-legal/<version>/CLAUDE.md for any version)
-   but not at the config path, copy it forward to the config path before proceeding.
+4. If the fork profile is missing, start a fresh interview from confirmed answers. Never search a cache or another distribution for a profile. Preserve existing fork answers; no automatic import.
 5. This file (the one you are reading) is the TEMPLATE. It ships with the plugin and shows the
    structure the config should have. It is replaced on every plugin update. Never write user data here.
 
-**Shared company profile.** Company-level facts (who you are, what you do, where you operate, your risk posture, key people) live in `~/.claude/plugins/config/claude-for-legal/company-profile.md` — one level above this file, shared by all 12 plugins. Read it before this plugin's practice profile. If it doesn't exist, this plugin's setup will create it.
+**Shared company profile.** Company-level facts (who you are, what you do, where you operate, your risk posture, key people) live in `~/.claude/plugins/config/judge-fr-eu/company-profile.md` — one level above this file, shared by all 12 plugins. Read it before this plugin's practice profile. If it doesn't exist, this plugin's setup will create it.
 -->
 
 # AI Governance Practice Profile
 
 *Written by the cold-start interview. Until then, this is a template — if you see
-`[PLACEHOLDER]`, run `/ai-governance-legal:cold-start-interview`.*
+`[PLACEHOLDER]`, run `/judge-fr-eu-ai-governance-legal:cold-start-interview`.*
 
 ---
 
@@ -68,7 +69,7 @@ principles page, transparency reports — or none]
 | Scheduled-tasks | [✓ / ✗] | Policy-monitor sweep runs on demand only |
 | Slack | [✓ / ✗] | Escalations and notifications go via email only |
 
-*Re-check: `/ai-governance-legal:cold-start-interview --check-integrations`*
+*Re-check: `/judge-fr-eu-ai-governance-legal:cold-start-interview --check-integrations`*
 
 ---
 
@@ -99,7 +100,7 @@ The following are automatic nos, regardless of how a request is framed:
 
 ## AI system inventory
 
-**Inventory file:** `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/ai-systems.yaml`
+**Inventory file:** `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/ai-systems.yaml`
 
 Under the EU AI Act, **role and risk tier are assessed per AI system, not per
 company.** A single organization can be a provider of System A, a deployer of
@@ -117,14 +118,14 @@ Each record carries:
 
 **The inventory does NOT auto-derive obligations.** When the user asks "what
 are my obligations for System X?", the answer is produced in conversation,
-tagged `[verify]`, and routed to `/ai-governance-legal:aia-generation` for
+tagged `[verify]`, and routed to `/judge-fr-eu-ai-governance-legal:aia-generation` for
 the formal impact assessment if needed. This is deliberate — the article
 mapping is complex, the Act is phasing in through 2027, and a hardcoded
 role × tier → obligations table is exactly the kind of confident-and-wrong
 artifact that ends up in a board memo. The inventory is a registry for the
 lawyer; the lawyer owns the obligation analysis.
 
-Manage the inventory with `/ai-governance-legal:ai-inventory` —
+Manage the inventory with `/judge-fr-eu-ai-governance-legal:ai-inventory` —
 `list | add | edit <id> | classify <id> | show <id>`.
 
 ---
@@ -359,7 +360,7 @@ Canonical scale: 🔴 Blocking / 🟠 High / 🟡 Medium / 🟢 Low. Any plugin-
 
 **File access failures.** When you can't read a file the user pointed you at, don't fail silently. Say what happened: "I can't read [path]. This usually means one of: (a) the plugin is installed project-scoped and the file is outside [project dir] — reinstall user-scoped or move the file here; (b) the path has a typo; (c) the file is a format I can't read. Can you paste the content directly, or try one of the fixes?" A silent file-read failure looks like the plugin ignored the user's material.
 
-**Verification log.** When you or the user verifies a flagged item — confirms a cite against a primary source, checks a deadline against the local rule, verifies a threshold against the current statute — record it so the next person doesn't re-verify. Write a one-line entry to `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/verification-log.md`:
+**Verification log.** When you or the user verifies a flagged item — confirms a cite against a primary source, checks a deadline against the local rule, verifies a threshold against the current statute — record it so the next person doesn't re-verify. Write a one-line entry to `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/verification-log.md`:
 
 `[YYYY-MM-DD] [cite or fact] verified by [name] against [source] — [verdict: confirmed / corrected to X / could not verify]`
 
@@ -382,15 +383,15 @@ Corollary: when the user asks a doctrinal question (not a document-review questi
 
 ## Ad-hoc questions in this domain
 
-When the user asks a question in this plugin's practice area — not just when they invoke a skill — read the practice profile at `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` (and `~/.claude/plugins/config/claude-for-legal/company-profile.md`) first, and apply it. If it's populated, answer as the configured assistant:
+When the user asks a question in this plugin's practice area — not just when they invoke a skill — read the practice profile at `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` (and `~/.claude/plugins/config/judge-fr-eu/company-profile.md`) first, and apply it. If it's populated, answer as the configured assistant:
 
 - Use their jurisdiction footprint, risk posture, playbook positions, and escalation chain
 - Apply the guardrails even though no skill is running: source attribution, citation hygiene, jurisdiction recognition, decision posture, the reviewer note format
 - Frame the answer the way a colleague in that practice would — calibrated to their setting (in-house vs. firm), their role (lawyer vs. non-lawyer), and their risk tolerance
 - Offer the decision tree when an action follows from the question
-- Suggest a structured skill if one would do better: "This is a quick answer. If you want the full framework, run `/ai-governance-legal:[relevant skill]`."
+- Suggest a structured skill if one would do better: "This is a quick answer. If you want the full framework, run `/judge-fr-eu-ai-governance-legal:[relevant skill]`."
 
-If the practice profile isn't populated: "I can give you a general answer, but this plugin gives much better answers once it's configured to your practice — run `/ai-governance-legal:cold-start-interview` (2-minute quick start or 10-minute full setup)." Then give the general answer anyway, tagged as unconfigured.
+If the practice profile isn't populated: "I can give you a general answer, but this plugin gives much better answers once it's configured to your practice — run `/judge-fr-eu-ai-governance-legal:cold-start-interview` (2-minute quick start or 10-minute full setup)." Then give the general answer anyway, tagged as unconfigured.
 
 The point: a configured plugin should feel like a colleague who already knows your practice, not a form you fill out. The skills are the structured workflows; this instruction is everything in between.
 
@@ -460,7 +461,7 @@ This practice area moves fast. Before relying on an effective date, threshold, e
 
 ## Matter workspaces
 
-*Only relevant for multi-client practices (private practice — solo, small firm, large firm). If you're in-house AI governance counsel for one company, this section is off and nothing below applies — skills use practice-level context automatically, and `/ai-governance-legal:matter-workspace` is not something you need.*
+*Only relevant for multi-client practices (private practice — solo, small firm, large firm). If you're in-house AI governance counsel for one company, this section is off and nothing below applies — skills use practice-level context automatically, and `/judge-fr-eu-ai-governance-legal:matter-workspace` is not something you need.*
 
 **Enabled:** ✗ (set at cold-start for private practice; in-house users never see this)
 **Active matter:** none
@@ -468,12 +469,12 @@ This practice area moves fast. Before relying on an effective date, threshold, e
 
 For ai-governance-legal in private practice, a "matter" is typically a specific AI use case, feature, vendor review, or impact assessment for a client. The triage, AIA, and vendor AI review for a given feature all belong together in one matter workspace.
 
-When matter workspaces are enabled, skills work in the active matter's context. Skills read this practice-level CLAUDE.md for practice profile-level rules (use case registry, governance tiers, AI policy commitments, red lines, escalation) and the matter's `matter.md` for matter-specific facts and overrides. Outputs are written to the matter folder at `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/matters/<matter-slug>/`.
+When matter workspaces are enabled, skills work in the active matter's context. Skills read this practice-level CLAUDE.md for practice profile-level rules (use case registry, governance tiers, AI policy commitments, red lines, escalation) and the matter's `matter.md` for matter-specific facts and overrides. Outputs are written to the matter folder at `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/matters/<matter-slug>/`.
 
 When cross-matter context is off (default), a skill working in matter A never reads matter B's files. Learnings that should carry across matters are written to this practice-level CLAUDE.md, not to a matter folder.
 
-When a skill doesn't know which matter is active and workspaces are enabled, it asks: "Which matter? Or practice-level context?" before doing substantive work. Manage matters with `/ai-governance-legal:matter-workspace new | list | switch | close | none`.
+When a skill doesn't know which matter is active and workspaces are enabled, it asks: "Which matter? Or practice-level context?" before doing substantive work. Manage matters with `/judge-fr-eu-ai-governance-legal:matter-workspace new | list | switch | close | none`.
 
 ---
 
-*Re-run: `/ai-governance-legal:cold-start-interview --redo`*
+*Re-run: `/judge-fr-eu-ai-governance-legal:cold-start-interview --redo`*

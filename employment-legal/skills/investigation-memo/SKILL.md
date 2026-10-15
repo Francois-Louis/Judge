@@ -7,6 +7,10 @@ description: >
 argument-hint: "[matter name]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /investigation-memo
 
 Drafts the first cut of the privileged investigation memo from the log,
@@ -23,11 +27,11 @@ or updates an existing draft when new data has been added.
 ## Examples
 
 ```
-/employment-legal:investigation-memo [matter name]
+/judge-fr-eu-employment-legal:investigation-memo [matter name]
 ```
 
 ```
-/employment-legal:investigation-memo [matter name]
+/judge-fr-eu-employment-legal:investigation-memo [matter name]
 (updates existing memo if one exists)
 ```
 

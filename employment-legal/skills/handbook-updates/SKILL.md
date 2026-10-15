@@ -7,11 +7,15 @@ description: >
   ready for insertion.
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # Handbook Updates
 
 ## Matter context
 
-**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/employment-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/claude-for-legal/employment-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
+**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/judge-fr-eu-employment-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
 
 ---
 
@@ -21,7 +25,7 @@ Handbook changes have ripple effects. Change the PTO policy and you've affected 
 
 ## Load context
 
-`~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md` → handbook location, state supplements list, update cadence.
+`~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md` → handbook location, state supplements list, update cadence.
 
 ## Workflow
 
@@ -52,7 +56,7 @@ Each cross-reference: does it still make sense after the change? Flag any that b
 
 ### Step 4: State supplement impact
 
-For each state supplement in `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md`:
+For each state supplement in `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`:
 
 - Does this supplement modify the section being changed?
 - Does the change make the supplement obsolete, wrong, or incomplete?

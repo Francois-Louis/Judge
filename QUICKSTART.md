@@ -1,75 +1,65 @@
-# Quick Start
+<!-- Modified by Judge FR/UE for BASE-008, 2026-10-15. -->
 
-**60 seconds.** This gets you to using your plugins.
+# Démarrer avec Judge FR/UE 0.1.0
 
-## Install in Claude Cowork
-1. [Install Claude Desktop](https://claude.com/download)
-2. Get access to Claude Cowork
-3. Follow the instructions in the video below:
+Le marketplace du fork s'appelle `judge-fr-eu`. Cette version isole les
+identifiants et les configurations. Les tâches juridiques héritées de Claude
+for Legal / Anthropic restent à adapter à la France et à l'Union européenne.
+Le fork est maintenu sur [Francois-Louis/Judge](https://github.com/Francois-Louis/Judge),
+sans affiliation revendiquée à Anthropic. Voir [NOTICE](NOTICE) et [LICENSE](LICENSE).
 
-https://github.com/user-attachments/assets/51394f0a-5277-4fe2-b81c-5c5e9ac876b5
+Depuis un terminal, avec un chemin absolu vers une copie revue du fork :
 
-## Install in Claude Code
+```text
+claude plugin marketplace add <chemin-absolu-vers-Judge>
+claude plugin install judge-fr-eu-privacy-legal@judge-fr-eu --scope user
+```
 
-1. **Open Claude Code** (in your terminal) or **Claude Cowork** (the desktop app). Not sure which you have? If you have a terminal window open with Claude in it, that's Claude Code.
+Dans `/plugin`, onglet Marketplaces, sélectionner `judge-fr-eu` et vérifier
+que la mise à jour automatique est désactivée. Ne pas éditer à la main les
+registres du client. Recharger les plugins ou redémarrer la session, puis :
 
-2. **Add the marketplace.** In Claude Code, type `/plugin marketplace add ` (with a space at the end), then **drag the unzipped `claude-for-legal` folder onto the terminal window** — it'll fill in the path. Then press Enter.
+```text
+/judge-fr-eu-privacy-legal:cold-start-interview
+/judge-fr-eu-privacy-legal:use-case-triage
+```
 
-   (Or type the full path: `/plugin marketplace add /Users/you/Desktop/claude-for-legal`)
+Le nom publié est `judge-fr-eu-` suivi du répertoire de domaine existant.
+Les noms des 150 skills restent les mêmes ; le [README](README.md) donne les
+commandes qualifiées des douze domaines. CoCounsel est exclu du marketplace
+du fork ; son installation relève de la distribution d'origine.
 
-3. **Install your plugin.** Pick the one that matches your work from the table below, then:
-   ```
-   /plugin install privacy-legal@claude-for-legal
-   ```
+La portée `user` rend le plugin disponible dans tous les projets. Elle
+n'accorde pas de permissions de fichiers supplémentaires et ne remplace pas
+les contrôles d'accès du client. Choisir explicitement `project` ou `local`
+si c'est la portée voulue ; les profils du fork gardent le même namespace.
+La coexistence dans Cowork, Office et les autres clients reste à tester.
 
-4. **⚠️ Restart Claude Code.** Close and reopen. This step is not optional — the plugin isn't live until you restart.
+Python 3.12 ou ultérieur est requis pour les assistants de stockage embarqués.
+Les profils vivent dans
+`~/.claude/plugins/config/judge-fr-eu/<domaine>/CLAUDE.md`, le profil partagé
+dans `~/.claude/plugins/config/judge-fr-eu/company-profile.md`. Dossiers,
+archives, sorties et journaux restent sous la racine du domaine du fork.
+Les accès passent par l'[assistant de stockage](references/isolation.md).
 
-5. **Run setup.** Takes 2 minutes (quick start) or 10-15 minutes (full).
-   ```
-   /privacy-legal:cold-start-interview
-   ```
+Un profil absent déclenche un entretien neuf. Un profil existant, ses réponses
+et son état de pause sont conservés. Aucun profil, cache, dossier ou réglage
+juridique d'une autre distribution n'est repris automatiquement. L'import
+assisté nécessiterait une story distincte.
 
-6. **Connect a research tool.** Citations are flagged unverified without one. In Cowork: Settings → Connectors → add CourtListener. In Claude Code: the plugin already lists the research MCP in its config; you'll be prompted to authorize it the first time a skill needs it.
+L'original conserve ses identifiants, par exemple
+`employment-legal@claude-for-legal`, distincts de
+`judge-fr-eu-employment-legal@judge-fr-eu`. Ne pas retirer son marketplace ni
+remplacer son installation pour ajouter le fork. La [recette BASE-008](references/base008-validation.md)
+distingue les vérifications hors ligne de la coexistence réelle restant à
+exécuter dans un client jetable.
 
-## Install user-scoped, not project-scoped
+Mettre à jour uniquement le paquet du fork revu, à portée explicite. Profils et
+dossiers durables sont hors du cache ; un retour au paquet précédent doit les
+préserver. Garder les personnalisations dans le profil ou dans une branche/paquet
+privé à identifiant distinct. Une modification directe du cache est remplaçable.
 
-When you run `/plugin install`, you may be asked whether to install for this project only or for all projects (user scope). **Pick user scope.**
-
-It's counterintuitive: project scope feels safer. But project scope blocks the plugin from reading files outside the project folder — your outlines in Downloads, your contract in Documents, your client file in Dropbox. Most skills need to read your files. User scope doesn't give the plugin any extra access to your files — the plugin can only read files you explicitly point it at or that are in the current directory. It just means the plugin works from any folder instead of one.
-
-If you already installed project-scoped and want to switch: `/plugin uninstall <plugin>`, then `/plugin install <plugin>@claude-for-legal` from your home directory.
-
-## Which plugin is for me?
-
-| You are a… | Install… | First command |
-|---|---|---|
-| Privacy lawyer / DPO | `privacy-legal` | `/privacy-legal:use-case-triage` |
-| Commercial / contracts lawyer | `commercial-legal` | `/commercial-legal:review` |
-| Corporate / M&A lawyer | `corporate-legal` | `/corporate-legal:diligence-issue-extraction` |
-| Employment lawyer / HR counsel | `employment-legal` | `/employment-legal:wage-hour-qa` |
-| Product counsel | `product-legal` | `/product-legal:is-this-a-problem` |
-| IP lawyer / patent agent | `ip-legal` | `/ip-legal:clearance` |
-| Litigator (in-house or firm) | `litigation-legal` | `/litigation-legal:matter-intake` |
-| Regulatory / compliance counsel | `regulatory-legal` | `/regulatory-legal:reg-feed-watcher` |
-| AI governance lead | `ai-governance-legal` | `/ai-governance-legal:use-case-triage` |
-| Clinic supervisor (law school) | `legal-clinic` | `/legal-clinic:cold-start-interview` |
-| Law student | `law-student` | `/law-student:cold-start-interview` |
-| Legal ops / looking for skills | `legal-builder-hub` | `/legal-builder-hub:registry-browser` |
-
-## What you're installing
-
-Each plugin learns your playbook through a setup interview, writes it to a practice profile file (`~/.claude/plugins/config/claude-for-legal/<plugin>/CLAUDE.md`), and every skill reads from it. The profile is yours — edit it, re-run setup, or tell a skill to update it.
-
-**Every output is a draft for attorney review.** The plugins flag what they're unsure about, mark citations by source, and gate anything irreversible. A lawyer reviews, verifies, and takes responsibility. They make that review faster; they don't replace it.
-
-## What's in the box
-
-12 practice-area plugins, 5 managed-agent cookbooks, 16+ connectors. The full reference is in [README.md](README.md).
-
-## Stuck?
-
-- **"Command not found"** after install → you forgot step 4. Restart Claude Code.
-- **"Run setup first"** → run `/<plugin>:cold-start-interview` before any other command.
-- **Citations flagged `[verify]`** → connect a research tool (step 6). Without one, every cite is from training data, not a current database.
-- **"I can't read [file]"** → most often this means the plugin is project-scoped and the file is outside the project folder. See "Install user-scoped, not project-scoped" above — reinstall user-scoped or move the file into the project folder.
-- **The plugin doesn't do X** → run `/legal-builder-hub:related-skills-surfacer` to find a better match, or check the plugin's README for "What this plugin does not do."
+Le hub installe les skills communautaires dans
+`~/.claude/skills/judge-fr-eu-<skill>/`, avec identité préfixée et journal du
+fork. Ses opérations passent par l'assistant après les contrôles de confiance
+et l'accord prévu par le workflow. Voir le [contrat du hub](legal-builder-hub/references/community-lifecycle.md).

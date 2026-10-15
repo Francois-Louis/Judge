@@ -1,6 +1,8 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Company Profile
 
-*Shared by all Claude for Legal plugins. The first plugin you set up writes this; the rest read it.
+*Shared only by Judge FR/UE plugins. The first plugin you set up writes this; the rest read it.
 Edit directly or re-run any plugin's `/cold-start-interview` to update.*
 
 **Practice setting:** [Solo/small firm | Midsize/large firm | In-house | Government/legal aid/clinic]

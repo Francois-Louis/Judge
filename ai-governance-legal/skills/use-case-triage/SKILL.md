@@ -9,23 +9,27 @@ description: >
 argument-hint: "[describe the use case, or 'batch' to triage a list]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /use-case-triage
 
-1. Read `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`. Confirm registry is populated — if not, stop and direct to setup.
+1. Read `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md`. Confirm registry is populated — if not, stop and direct to setup.
 2. Use the framework below. Clarify the use case if vague.
 3. Registry lookup → red line check → classify.
 4. Output: classification, reasoning, conditions table (if conditional), governance tier, cross-plugin handoffs.
 5. Propose registry update if use case wasn't already in the registry.
 
 ```
-/ai-governance-legal:use-case-triage "Sales team wants to score leads with AI automatically"
+/judge-fr-eu-ai-governance-legal:use-case-triage "Sales team wants to score leads with AI automatically"
 ```
 
 ---
 
 ## Matter context
 
-**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/ai-governance-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
+**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/judge-fr-eu-ai-governance-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
 
 ---
 
@@ -38,27 +42,27 @@ is conditional, make the conditions concrete and the next step obvious.
 The triage skill is a gateway, not a destination. Its job is to classify, flag
 what's required, and route. The aia-generation skill does the deep work.
 
-## Read `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` first
+## Read `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` first
 
-Before triaging, always read `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`. The use case registry and red lines there
+Before triaging, always read `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md`. The use case registry and red lines there
 are authoritative. Generic AI ethics reasoning is not a substitute for what this
 company has actually decided.
 
-If `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` contains `[PLACEHOLDER]`, surface this bounce:
+If `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` contains `[PLACEHOLDER]`, surface this bounce:
 
 > I notice you haven't configured your practice profile yet — that's how I tailor the use case registry, red lines, and governance tiers to your practice.
 >
 > **Two choices:**
-> - Run `/ai-governance-legal:cold-start-interview` (2 minutes) to configure your profile, then I'll triage tailored to YOUR practice.
+> - Run `/judge-fr-eu-ai-governance-legal:cold-start-interview` (2 minutes) to configure your profile, then I'll triage tailored to YOUR practice.
 > - Say **"provisional"** and I'll triage against generic defaults — US jurisdiction, middle risk appetite, lawyer role, no playbook — and tag every output `[PROVISIONAL — configure your profile for tailored output]` so you can see what I do before committing.
 
 ### Provisional mode
 
 If the user says "provisional," run triage normally using these generic defaults: middle risk appetite, lawyer role, US jurisdiction, no registry (classify by general AI governance principles rather than matching to a registered entry). Tag the reviewer note and every finding block with `[PROVISIONAL]`. At the end of the output, append:
 
-> "That was a generic run against default assumptions. Run `/ai-governance-legal:cold-start-interview` to get output calibrated to YOUR practice — your registry, your jurisdiction, your risk appetite. 2 minutes."
+> "That was a generic run against default assumptions. Run `/judge-fr-eu-ai-governance-legal:cold-start-interview` to get output calibrated to YOUR practice — your registry, your jurisdiction, your risk appetite. 2 minutes."
 
-**Jurisdictional scope.** Triage applies the registry, red lines, and governance tiers configured for the regulatory footprint in `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`. AI rules vary materially by jurisdiction — an APPROVED classification in one footprint may be CONDITIONAL or prohibited in another. If deployment touches a jurisdiction not in the footprint, surface that and re-triage rather than extending by analogy.
+**Jurisdictional scope.** Triage applies the registry, red lines, and governance tiers configured for the regulatory footprint in `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md`. AI rules vary materially by jurisdiction — an APPROVED classification in one footprint may be CONDITIONAL or prohibited in another. If deployment touches a jurisdiction not in the footprint, surface that and re-triage rather than extending by analogy.
 
 ---
 
@@ -84,7 +88,7 @@ to classify accurately.
 
 ### Step 2: Registry lookup
 
-Check the use case registry in `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` for a direct or close match.
+Check the use case registry in `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` for a direct or close match.
 
 **Direct match:** If the registry has a directly matching entry, apply it.
 
@@ -113,13 +117,13 @@ Triage typically stays high-level, but if the classification depends on citing a
 
 Other sources keep their own tags: `[registry]` when drawn from the practice profile's use case registry; `[Westlaw]`, `[EUR-Lex]`, `[regulator site]`, or the MCP tool name when retrieved from a connected legal research tool; `[web search — verify]` for web-search citations; `[user provided]` for user-supplied citations. The tiering surfaces the real verification work — a reader who verifies everything verifies nothing. Never strip or collapse the tags.
 
-**For non-lawyer users, uncertain dates and thresholds go in a confirm-list, not inline.** A `[verify]` tag on "effective February 1, 2026" reads as "effective February 1, 2026" to someone who doesn't know what the tag means. Read `## Who's using this` in `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`. If Role is **Non-lawyer** and an effective date, phase-in, threshold, or deadline is uncertain (would carry `[verify]` or `[verify-pinpoint]` if inline), replace the inline assertion with "effective date: confirm with counsel" (or "threshold: confirm with counsel") and collect all uncertain assertions in a final triage section titled: "**Things I'm not certain about — ask your attorney to confirm before relying on this:**" with each item listed (what I said, what's uncertain, why it matters). Lawyer-role users keep the inline `[verify]` treatment.
+**For non-lawyer users, uncertain dates and thresholds go in a confirm-list, not inline.** A `[verify]` tag on "effective February 1, 2026" reads as "effective February 1, 2026" to someone who doesn't know what the tag means. Read `## Who's using this` in `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md`. If Role is **Non-lawyer** and an effective date, phase-in, threshold, or deadline is uncertain (would carry `[verify]` or `[verify-pinpoint]` if inline), replace the inline assertion with "effective date: confirm with counsel" (or "threshold: confirm with counsel") and collect all uncertain assertions in a final triage section titled: "**Things I'm not certain about — ask your attorney to confirm before relying on this:**" with each item listed (what I said, what's uncertain, why it matters). Lawyer-role users keep the inline `[verify]` treatment.
 
 ---
 
 ### Step 3: Red line check
 
-Before going further, check the red lines in `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`.
+Before going further, check the red lines in `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md`.
 
 If the use case triggers a red line — even partially, even in a charitable reading —
 say so immediately.
@@ -145,9 +149,9 @@ A use case that crosses jurisdictions gets the strictest applicable treatment, n
 
 ### Step 4: Classification and output
 
-The APPROVED / CONDITIONAL / NOT APPROVED buckets, the red-line definitions, and the CONDITIONAL required-controls list all come from `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` → `## AI use case triage criteria` and `## Use case registry`. If the playbook doesn't define a criterion the use case turns on, ask the user: "Your playbook doesn't cover [specific question]. What's your default position? I'll add it to `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` so the next triage is consistent."
+The APPROVED / CONDITIONAL / NOT APPROVED buckets, the red-line definitions, and the CONDITIONAL required-controls list all come from `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` → `## AI use case triage criteria` and `## Use case registry`. If the playbook doesn't define a criterion the use case turns on, ask the user: "Your playbook doesn't cover [specific question]. What's your default position? I'll add it to `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` so the next triage is consistent."
 
-**Before issuing an APPROVED classification (approving an AI use case for deployment):** Read `## Who's using this` in `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`. If the Role is Non-lawyer:
+**Before issuing an APPROVED classification (approving an AI use case for deployment):** Read `## Who's using this` in `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md`. If the Role is Non-lawyer:
 
 > Approving this use case for deployment has legal consequences. Have you reviewed this with an attorney? If yes, proceed. If no, here's a brief to bring to them:
 >
@@ -157,7 +161,7 @@ The APPROVED / CONDITIONAL / NOT APPROVED buckets, the red-line definitions, and
 
 Do not proceed past this gate without an explicit yes. CONDITIONAL outputs do not require the gate.
 
-**Before issuing a NOT APPROVED classification that cuts off a proposed use case:** Read `## Who's using this` in `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`. If the Role is Non-lawyer, a symmetric gate applies — wrongly rejecting a use case is also a consequential error, and the business will push back regardless of the triage call:
+**Before issuing a NOT APPROVED classification that cuts off a proposed use case:** Read `## Who's using this` in `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md`. If the Role is Non-lawyer, a symmetric gate applies — wrongly rejecting a use case is also a consequential error, and the business will push back regardless of the triage call:
 
 > This is a full stop for a business ask. Have you reviewed this with an attorney? If yes, proceed. If no, here's a brief to bring to them:
 >
@@ -199,7 +203,7 @@ what red line or policy position applies.]
 | [e.g., Specific vendor only — [approved vendor name]] | [Procurement] | ☐ |
 | [e.g., Legal sign-off] | [GC] | ☐ |
 
-**Governance tier:** [Standard / Elevated / High — per `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`]
+**Governance tier:** [Standard / Elevated / High — per `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md`]
 
 **Approval path:** [Who needs to sign off, per tier]
 
@@ -216,7 +220,7 @@ tier already determined.
 
 If they say no (or don't respond), the triage result stands as a standalone output.
 The AIA can be run any time with:
-`/ai-governance-legal:aia-generation [use case]`
+`/judge-fr-eu-ai-governance-legal:aia-generation [use case]`
 
 ---
 
@@ -237,13 +241,13 @@ for every no.
 customer data, behavioral data — flag it:
 
 > "This use case involves personal data. A PIA is likely required in addition to
-> an AI impact assessment. Use `/privacy-legal:pia-generation [use case]`, if the
+> an AI impact assessment. Use `/judge-fr-eu-privacy-legal:pia-generation [use case]`, if the
 > plugin is installed, to run that in parallel."
 
 **Product counsel handoff:** If this is a new product feature involving AI:
 
 > "If this use case is part of a product launch, loop in product counsel.
-> Use `/product-legal:launch-review`, if the plugin is installed — it will detect
+> Use `/judge-fr-eu-product-legal:launch-review`, if the plugin is installed — it will detect
 > the AI component and route to this plugin."
 
 Only flag handoffs that are actually relevant. Don't append both as boilerplate
@@ -262,7 +266,7 @@ a no-match or a near-match that revealed a gap:
 | [Use case description] | [Approved/Conditional/Never] | [Conditions if any] | [Reason if Never] |
 ```
 
-> "Add to `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` → Use case registry. This means next time the same request
+> "Add to `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md` → Use case registry. This means next time the same request
 > comes up, the answer is documented and consistent."
 
 ---

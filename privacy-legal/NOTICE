@@ -1,0 +1,28 @@
+Judge FR/UE - technical fork 0.1.0 (BASE-008, 2026-10-15)
+Derived from Claude for Legal. Copyright 2026 Anthropic PBC.
+Original authors and Apache License 2.0 are preserved.
+Fork maintenance: Judge FR/UE maintainers, https://github.com/Francois-Louis/Judge
+No affiliation or endorsement by Anthropic is claimed.
+Technical identity and storage changes do not certify France/EU legal adaptation.
+No upstream NOTICE was present in the source snapshot.
+
+Files added or modified for this package:
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  references/company-profile-template.md
+  references/currency-watch.md
+  references/dashboard-template.md
+  references/isolation.md
+  references/shared/research-citation-method.md
+  scripts/judge_store.py
+  skills/cold-start-interview/SKILL.md
+  skills/customize/SKILL.md
+  skills/dpa-review/SKILL.md
+  skills/dsar-response/SKILL.md
+  skills/matter-workspace/SKILL.md
+  skills/pia-generation/SKILL.md
+  skills/policy-monitor/SKILL.md
+  skills/reg-gap-analysis/SKILL.md
+  skills/use-case-triage/SKILL.md

@@ -8,27 +8,31 @@ description: >
 argument-hint: "[--redo] [--check-integrations to re-probe integrations only]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /cold-start-interview
 
-1. Check `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md` state.
+1. Check `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md` state.
 2. Run the cold-start interview below.
 3. Seed docs: 10 past launch review docs (from tracker or Drive). Read them all.
 4. Build risk calibration table from what actually blocked vs. shipped.
-5. Migration: if a populated CLAUDE.md (no `[PLACEHOLDER]` markers) exists at `~/.claude/plugins/cache/claude-for-legal/product-legal/*/CLAUDE.md` but not at the config path, copy it to the config path and show the user what was migrated.
-6. Write `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md` (create parent directories as needed). Show calibration table for confirmation.
+5. If the fork profile is absent, start a fresh France/EU interview; never read a cache or another distribution.
+6. Write `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md` (create parent directories as needed). Show calibration table for confirmation.
 
 ## `--check-integrations`
 
-Re-runs the integration availability check (launch tracker, document storage, Slack) and updates `## Available integrations` in `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md`. Does not re-interview. Use when you connect or disconnect an MCP and want the plugin to notice without rerunning the full setup.
+Re-runs the integration availability check (launch tracker, document storage, Slack) and updates `## Available integrations` in `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md`. Does not re-interview. Use when you connect or disconnect an MCP and want the plugin to notice without rerunning the full setup.
 
 When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 
 ```
-/product-legal:cold-start-interview
+/judge-fr-eu-product-legal:cold-start-interview
 ```
 
 ```
-/product-legal:cold-start-interview --check-integrations
+/judge-fr-eu-product-legal:cold-start-interview --check-integrations
 ```
 
 ---
@@ -43,7 +47,7 @@ This interview learns *your* company's risk calibration by reading your actual l
 
 ## Cold-start check
 
-Read `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md`:
+Read `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md`:
 - **Does not exist** → start the interview.
 - **Contains `<!-- SETUP PAUSED AT: -->`** → greet the user and offer to resume from that section.
 - **Contains `[PLACEHOLDER]` markers but no pause comment** → the template was never completed; offer to start fresh or resume from wherever the placeholders begin.
@@ -51,14 +55,14 @@ Read `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md`:
 
 The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed.
 
-If a CLAUDE.md exists at the old cache path `~/.claude/plugins/cache/claude-for-legal/product-legal/*/CLAUDE.md` but not at the config path, copy it forward.
+If the fork profile is absent, start a fresh interview; never import a cached profile.
 
 ## Check for the shared company profile
 
-Look for `~/.claude/plugins/config/claude-for-legal/company-profile.md`.
+Look for `~/.claude/plugins/config/judge-fr-eu/company-profile.md`.
 
 - **If it exists:** Read it. Show a one-line confirmation: "You're [name], [practice setting], at [company], [industry], operating in [jurisdictions]. Right? (Or say 'update' to change the shared profile.)" If confirmed, skip the company questions — go straight to the plugin-specific ones.
-- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
+- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `${CLAUDE_PLUGIN_ROOT}/references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
 
 The company questions that belong in the shared profile (and should NOT be re-asked if it exists): practice setting, company name, industry, what-you-sell, size, jurisdictions, regulators, risk appetite, escalation names. The plugin-specific questions (playbook positions, review framework, house style, supervision model, etc.) stay per-plugin.
 
@@ -74,7 +78,7 @@ Ask the user to confirm before proceeding: continue with project scope, or pause
 
 Before asking anything else, show the fork-first preamble — 3-4 short lines, no longer:
 
-> **`product-legal` is for people who review product launches, marketing claims, and feature risk — the legal side of shipping.** Not your area? `/legal-builder-hub:related-skills-surfacer`.
+> **`product-legal` is for people who review product launches, marketing claims, and feature risk — the legal side of shipping.** Not your area? `/judge-fr-eu-legal-builder-hub:related-skills-surfacer`.
 >
 > **2 minutes** gets you your role, your review framework level (formal gate vs. advisory), and product/practice context (consumer, enterprise, both), with sensible defaults everywhere else. **15 minutes** adds your risk calibration table (what blocks vs. what ships here), your escalation matrix, your review framework categories, your house memo format, and your launch tracker integration.
 >
@@ -83,7 +87,7 @@ Before asking anything else, show the fork-first preamble — 3-4 short lines, n
 Wait for the user's pick before showing anything else.
 
 <!-- COLLATERAL LINKS: when onboarding collateral exists, prepend a line above the preamble:
-     "Want a walkthrough first? [Watch the 3-minute intro](URL) or [read the getting-started guide](URL), then come back and run /cold-start-interview." -->
+     "Want a walkthrough first? the introduction (link not yet supplied) or the getting-started guide (link not yet supplied), then come back and run /cold-start-interview." -->
 
 ## After the user picks quick or full
 
@@ -99,7 +103,7 @@ Once the user has chosen, orient them before the first interview question:
 
 Do not read the user's home-directory `~/CLAUDE.md`, `~/user.md`, or other personal memory to pre-populate the interview. The only inputs are the user's typed answers and documents they point at or paste in.
 
-**Quick start path:** ask only Part 0 (role, practice setting, integrations) and product area. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for launch review framework, risk calibration, and marketing claims posture. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/product-legal:cold-start-interview --full` anytime to do the whole interview, or `/product-legal:cold-start-interview --redo <section>` to re-do one part."
+**Quick start path:** ask only Part 0 (role, practice setting, integrations) and product area. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for launch review framework, risk calibration, and marketing claims posture. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/judge-fr-eu-product-legal:cold-start-interview --full` anytime to do the whole interview, or `/judge-fr-eu-product-legal:cold-start-interview --redo <section>` to re-do one part."
 
 **Full setup path:** the existing interview flow below.
 
@@ -114,7 +118,7 @@ Do not read the user's home-directory `~/CLAUDE.md`, `~/user.md`, or other perso
 - **For uploads (seed launch review docs, PRDs, links to the tracker):** "Paste the contents, share a file path, or say 'skip for now.' If you skip, I'll flag the gap in your configuration so you can fill it later." Then actually wait.
 - **Before writing the practice profile:** review the interview. List every question that was skipped or answered with a placeholder. Say: "Before I write your configuration, here's what's still open: [list]. Want to fill any of these now, or leave them as placeholders?" Wait for the answer before writing.
 - **Never** write the practice profile with silent gaps. Every placeholder should be a deliberate user choice to skip, not a question that scrolled past unanswered.
-- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/product-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /product-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
+- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/judge-fr-eu-product-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /judge-fr-eu-product-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
 
 **Verify user-stated legal facts as they come up in setup.** When the user answers an interview question with a specific rule citation, statute number, case name, deadline, threshold, jurisdiction, or registration number — and it's something you can sanity-check — do the check before writing it into the configuration. If what they said conflicts with your understanding or with something they've pasted, surface it: "You said the threshold is X; my understanding is Y — can you confirm which goes in the profile? `[premise flagged — verify]`" A wrong fact written into CLAUDE.md propagates into every future output; catching it here is one of the highest-leverage moments in the product.
 
@@ -169,7 +173,7 @@ Then report findings in this form:
 > - ⚪ [Integration] — configured but not verified. Open your MCP settings to confirm.
 > - ✗ [Integration] — not found. [Feature] will fall back to [manual alternative]. [How to connect.]
 
-You don't need all of these. Core features work with file access alone. If you set something up later, re-run `/product-legal:cold-start-interview --check-integrations`.
+You don't need all of these. Core features work with file access alone. If you set something up later, re-run `/judge-fr-eu-product-legal:cold-start-interview --check-integrations`.
 
 #### Record to the plugin config
 
@@ -337,7 +341,7 @@ children-touching features"]
 | Document storage (Drive / SharePoint) | [✓ / ✗] | Review memos saved locally; seed-doc pulls done manually |
 | Slack | [✓ / ✗] | Triage replies delivered inline instead of posted |
 
-*Re-check: `/product-legal:cold-start-interview --check-integrations`*
+*Re-check: `/judge-fr-eu-product-legal:cold-start-interview --check-integrations`*
 
 ---
 
@@ -431,7 +435,7 @@ from launch-review skill if they don't]
 
 ---
 
-*Re-run: `/product-legal:cold-start-interview --redo`*
+*Re-run: `/judge-fr-eu-product-legal:cold-start-interview --redo`*
 ```
 
 ## After writing
@@ -444,9 +448,9 @@ If yes, show this tailored list (not a generic template — these are the concre
 
 > **Here's what I'm good at in product counsel practice:**
 >
-> - **Legal review of a product launch** — e.g., "PRD in, review memo out against your review framework and risk calibration." Try: `/product-legal:launch-review`
-> - **Fast triage on a Slack question** — e.g., "'Hey legal, quick question' gets a same-minute fine / needs a real look / stop." Try: `/product-legal:is-this-a-problem`
-> - **Marketing claims review** — e.g., "Check copy for claims needing substantiation, comparatives, superlatives, and promises the product can't keep." Try: `/product-legal:marketing-claims-review`
+> - **Legal review of a product launch** — e.g., "PRD in, review memo out against your review framework and risk calibration." Try: `/judge-fr-eu-product-legal:launch-review`
+> - **Fast triage on a Slack question** — e.g., "'Hey legal, quick question' gets a same-minute fine / needs a real look / stop." Try: `/judge-fr-eu-product-legal:is-this-a-problem`
+> - **Marketing claims review** — e.g., "Check copy for claims needing substantiation, comparatives, superlatives, and promises the product can't keep." Try: `/judge-fr-eu-product-legal:marketing-claims-review`
 >
 > **My suggestion for your first one:** Run `/is-this-a-problem` on one PM question you already answered — see if the answer matches how you calibrated it. Or tell me what's on your plate and I'll pick.
 
@@ -465,11 +469,11 @@ This solves the cold-start problem (the supervisor doesn't know what to do first
 
 5. **Close with the changeability note.** Say:
 
-   > "Done. Your configuration is at `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md` — a plain-text file you can read and edit directly. Anything you answered can be changed:
+   > "Done. Your configuration is at `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md` — a plain-text file you can read and edit directly. Anything you answered can be changed:
    >
    > - Edit the file directly for a quick change
-   > - Run `/product-legal:cold-start-interview --redo` for a full re-interview
-   > - Run `/product-legal:cold-start-interview --check-integrations` to re-check what's connected
+   > - Run `/judge-fr-eu-product-legal:cold-start-interview --redo` for a full re-interview
+   > - Run `/judge-fr-eu-product-legal:cold-start-interview --check-integrations` to re-check what's connected
    >
    > The settings people tune most often: the risk calibration tables (what blocks vs. what ships), the review framework categories, and the escalation matrix. Your configuration will improve as you use the plugin — when a review feels off (too cautious, too loose, wrong frame), the fix is usually here."
 
@@ -490,3 +494,16 @@ After writing the practice profile, close with this note:
 - **Don't invent a framework they don't use.** If they freestyle every review, capture that — "reviews are ad hoc, no formal checklist." The launch-review skill can offer structure later.
 - **Don't mistake "we've never blocked this" for "this is fine."** Sometimes they've just never hit the issue. Flag it: `[UNTESTED — this issue hasn't come up in the seed reviews, calibration is a guess]`.
 - **Don't read PRDs instead of review docs.** The PRD tells you what the feature does. The review doc tells you what the lawyer worried about. You want the second one.
+
+## Judge FR/UE setup boundary
+
+Read only the fork profile and shared profile using the packaged storage helper.
+If the practice profile is absent, including with `--check-integrations`, start
+a new interview: confirm France/EU jurisdictions, role and dates from the user.
+Do not search or copy any other profile, cache, legal rules, matters or registers.
+Use the packaged template only as a section scaffold. Preserve an existing
+profile and its answers, including paused progress; `--redo` reviews only the
+requested sections and does not reset unrelated answers. Create new files
+exclusively; for an agreed edit, supply the digest of the file reviewed.
+Never use inherited US defaults to fill unanswered France/EU legal fields;
+leave them explicitly unresolved. Assisted import requires a separate story.

@@ -4,6 +4,10 @@ description: Review open NPRM comment periods, log decisions, track deadlines. U
 argument-hint: "[optional: --decide CMT-ID]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /comments
 
 ## Purpose
@@ -14,8 +18,8 @@ This skill surfaces open comment periods and records decisions.
 
 ## Load context
 
-`~/.claude/plugins/config/claude-for-legal/regulatory-legal/comment-tracker.yaml` → all tracked NPRMs and their status.
-`~/.claude/plugins/config/claude-for-legal/regulatory-legal/CLAUDE.md` → default comment decision owner.
+`~/.claude/plugins/config/judge-fr-eu/regulatory-legal/comment-tracker.yaml` → all tracked NPRMs and their status.
+`~/.claude/plugins/config/judge-fr-eu/regulatory-legal/CLAUDE.md` → default comment decision owner.
 
 ## Default view — open comment periods
 
@@ -46,7 +50,7 @@ This skill surfaces open comment periods and records decisions.
 ## Log a decision
 
 ```
-/regulatory-legal:comments --decide CMT-001
+/judge-fr-eu-regulatory-legal:comments --decide CMT-001
 Decision: [filing / not-filing / waived]
 Rationale: "[brief — e.g., 'Rule doesn't apply to our model' or 'Filing comment on Section 3']"
 ```
@@ -64,7 +68,7 @@ Reminder at 3 days before deadline if still undecided — elevated urgency.
 
 ## Consequential-action gate (submit a regulatory comment / respond to a regulator)
 
-**Before logging a decision as "filing" — and always before producing a comment letter or regulator-response draft for submission:** Read `## Who's using this` in ~/.claude/plugins/config/claude-for-legal/regulatory-legal/CLAUDE.md. If the Role is **Non-lawyer**:
+**Before logging a decision as "filing" — and always before producing a comment letter or regulator-response draft for submission:** Read `## Who's using this` in ~/.claude/plugins/config/judge-fr-eu/regulatory-legal/CLAUDE.md. If the Role is **Non-lawyer**:
 
 > Submitting a comment or response to a regulator has legal consequences. It's a public statement of the company's position, it's on the record in the rulemaking or enforcement matter, and positions taken here bind the company and can be used against it in subsequent proceedings. Have you reviewed this with an attorney? If yes, proceed. If no, here's a brief to bring to them:
 >
@@ -85,6 +89,6 @@ Do not log a "filing" decision or produce a submission-ready draft past this gat
 - Draft the comment letter. That is a separate attorney task.
 - Make the filing decision. It tracks the decision; the attorney makes it.
 - Monitor post-comment activity. Once a decision is filed, this tracker's job
-  is done — follow the rulemaking through `/regulatory-legal:reg-feed-watcher`.
+  is done — follow the rulemaking through `/judge-fr-eu-regulatory-legal:reg-feed-watcher`.
 
 > The `comment-decision` `gap_type` semantics, the per-send Slack confirmation rule, and the comment-tracker.yaml schema live in the **gap-surfacer** reference skill — load it before doing substantive work.

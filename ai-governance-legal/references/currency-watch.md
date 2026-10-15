@@ -1,3 +1,6 @@
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # AI Governance Currency Watch
 
 **Last verified: 2026-05-10.**
@@ -33,6 +36,6 @@ AI law moves faster than model training data. Before relying on an effective dat
 
 ## How to use this file
 
-When a skill cites an effective date, threshold, or obligation in this space, it should note: "AI law is moving fast — this date/rule may have changed since my training. Verify at [source]. See `references/currency-watch.md` for the live list."
+When a skill cites an effective date, threshold, or obligation in this space, it should note: "AI law is moving fast — this date/rule may have changed since my training. Verify at [source]. See `${CLAUDE_PLUGIN_ROOT}/references/currency-watch.md` for the live list."
 
 **This file goes stale.** It was current as of May 2026. Update it when you notice a date it lists has passed or a rule it lists has changed. A stale watch list is worse than no watch list.

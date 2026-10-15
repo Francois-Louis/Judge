@@ -1,8 +1,10 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Clinic deadline ledger — legal-clinic
 #
-# Populated by /legal-clinic:deadlines --add (or by extraction from /client-intake,
+# Populated by /judge-fr-eu-legal-clinic:deadlines --add (or by extraction from /client-intake,
 # /draft, /status when those skills surface a deadline). Read by
-# /legal-clinic:deadlines --report for cross-case rollup.
+# /judge-fr-eu-legal-clinic:deadlines --report for cross-case rollup.
 #
 # Missed deadlines in clinic work are malpractice exposure for the
 # supervising attorney. Treat this file as the operational record.

@@ -9,9 +9,13 @@ description: >
 argument-hint: "[appointment | doc-request | update]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /client-letter
 
-1. Load `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → plain-language standards, supervision style, clinic contact info.
+1. Load `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` → plain-language standards, supervision style, clinic contact info.
 2. Use the templates and workflow below.
 3. Match type to template. Plain-language check.
 4. Output with AI-assisted label, supervision routing.
@@ -19,11 +23,11 @@ argument-hint: "[appointment | doc-request | update]"
 Scope: routine only. Substantive advice → `/status client` or a conversation with the professor.
 
 ```
-/legal-clinic:client-letter appointment
+/judge-fr-eu-legal-clinic:client-letter appointment
 ```
 
 ```
-/legal-clinic:client-letter doc-request
+/judge-fr-eu-legal-clinic:client-letter doc-request
 ```
 
 ---
@@ -38,11 +42,11 @@ Clinics send a lot of routine correspondence: "your appointment is Tuesday at 2p
 
 ## Load context
 
-`~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → plain-language standards, supervision style, clinic contact info.
+`~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` → plain-language standards, supervision style, clinic contact info.
 
 ## Pedagogy check
 
-Read the supervisor guide for this practice area at `~/.claude/plugins/config/claude-for-legal/legal-clinic/guides/<practice-area>.md`. Check the `pedagogy_posture` setting:
+Read the supervisor guide for this practice area at `~/.claude/plugins/config/judge-fr-eu/legal-clinic/guides/<practice-area>.md`. Check the `pedagogy_posture` setting:
 
 - **`guide` (default):** Produce the structure and the checklist (required elements, plain-language targets, sign-off per student practice rule). Ask the student to draft each section. Give feedback on their draft (register, reading level, required elements, what they missed). Offer to fill a section only when the student has tried once.
 - **`assist`:** Produce the letter. Flag items for student review. The student edits and learns by reviewing.
@@ -141,11 +145,11 @@ Under the supervision of [Supervising Attorney]
 
 ## Before sending
 
-Sending a letter to a client is a consequential action. This plugin's gate is the supervision workflow described in `## Supervision style` in `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md`, reinforced by the Part 0 role check that confirms a licensed supervising attorney owns the clinic setup. That gate still holds: every letter clears review before it leaves the clinic.
+Sending a letter to a client is a consequential action. This plugin's gate is the supervision workflow described in `## Supervision style` in `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md`, reinforced by the Part 0 role check that confirms a licensed supervising attorney owns the clinic setup. That gate still holds: every letter clears review before it leaves the clinic.
 
 Before sending any of the letters above, confirm:
 
-1. The draft has been reviewed per the supervision protocol in `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` (queue / flag / lighter-touch).
+1. The draft has been reviewed per the supervision protocol in `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` (queue / flag / lighter-touch).
 2. All internal review labels (`[AI-ASSISTED DRAFT]`, any `[VERIFY]` or `[FACT NEEDED]` tags) have been removed from the client-facing copy.
 3. The sign-off conforms to your jurisdiction's student practice rule for law-student-signed correspondence.
 
@@ -153,11 +157,11 @@ Before sending any of the letters above, confirm:
 
 ## Plain-language check
 
-Per `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` standards. Short sentences. No jargon. Reading level target enforced. If a template above includes a legal term the client might not know, explain it the first time: "We filed your 'answer' — that's the document that tells the court your side of the story."
+Per `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` standards. Short sentences. No jargon. Reading level target enforced. If a template above includes a legal term the client might not know, explain it the first time: "We filed your 'answer' — that's the document that tells the court your side of the story."
 
 ## Supervision routing
 
-Per `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md`. Routine correspondence may or may not be a flag trigger depending on the supervision style the professor chose. If lighter-touch: these go out after student review without a queue step. If formal queue: even routine letters queue.
+Per `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md`. Routine correspondence may or may not be a flag trigger depending on the supervision style the professor chose. If lighter-touch: these go out after student review without a queue step. If formal queue: even routine letters queue.
 
 ## What this skill does NOT do
 

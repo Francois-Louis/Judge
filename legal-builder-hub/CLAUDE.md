@@ -1,21 +1,22 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 <!--
 CONFIGURATION LOCATION
 
 User-specific configuration for this plugin lives at a version-independent path that survives plugin updates:
 
-  ~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md
+  ~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md
 
 Rules for every skill, command, and agent in this plugin:
+First load `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`; use its guarded storage helper for all durable data access.
 1. READ configuration from that path. Not from this file.
-2. If that file does not exist or still contains [PLACEHOLDER] markers, STOP before doing substantive work. Say: "This plugin needs setup before it can give you useful output. Run /legal-builder-hub:cold-start-interview — it takes about 10-15 minutes and every command in this plugin depends on it. Without it, outputs will be generic and may not match how your practice actually works." Do NOT proceed with placeholder or default configuration. The only skills that run without setup are /legal-builder-hub:cold-start-interview itself and any --check-integrations flag.
+2. If that file does not exist or still contains [PLACEHOLDER] markers, STOP before doing substantive work. Say: "This plugin needs setup before it can give you useful output. Run /judge-fr-eu-legal-builder-hub:cold-start-interview — it takes about 10-15 minutes and every command in this plugin depends on it. Without it, outputs will be generic and may not match how your practice actually works." Do NOT proceed with placeholder or default configuration. The only skills that run without setup are /judge-fr-eu-legal-builder-hub:cold-start-interview itself and any --check-integrations flag.
 3. Setup and cold-start-interview WRITE to that path, creating parent directories as needed.
-4. On first run after a plugin update, if a populated CLAUDE.md exists at the old cache path
-   (~/.claude/plugins/cache/claude-for-legal/legal-builder-hub/<version>/CLAUDE.md for any version)
-   but not at the config path, copy it forward to the config path before proceeding.
+4. If the fork profile is missing, start a fresh interview from confirmed answers. Never search a cache or another distribution for a profile. Preserve existing fork answers; no automatic import.
 5. This file (the one you are reading) is the TEMPLATE. It ships with the plugin and shows the
    structure the config should have. It is replaced on every plugin update. Never write user data here.
 
-**Shared company profile.** Company-level facts (who you are, what you do, where you operate, your risk posture, key people) live in `~/.claude/plugins/config/claude-for-legal/company-profile.md` — one level above this file, shared by all 12 plugins. Read it before this plugin's practice profile. If it doesn't exist, this plugin's setup will create it.
+**Shared company profile.** Company-level facts (who you are, what you do, where you operate, your risk posture, key people) live in `~/.claude/plugins/config/judge-fr-eu/company-profile.md` — one level above this file, shared by all 12 plugins. Read it before this plugin's practice profile. If it doesn't exist, this plugin's setup will create it.
 -->
 
 # Legal Builder Hub Practice Profile
@@ -39,9 +40,9 @@ with more sensitive guardrails may still ask to confirm.*
 
 | Integration | Status | Fallback if unavailable |
 |---|---|---|
-| Slack | [✓ / ✗] | New-skill and update notifications surface on next `/legal-builder-hub:registry-browser` or `/legal-builder-hub:auto-updater` instead of proactively |
+| Slack | [✓ / ✗] | New-skill and update notifications surface on next `/judge-fr-eu-legal-builder-hub:registry-browser` or `/judge-fr-eu-legal-builder-hub:auto-updater` instead of proactively |
 
-*Re-check: `/legal-builder-hub:cold-start-interview --check-integrations`*
+*Re-check: `/judge-fr-eu-legal-builder-hub:cold-start-interview --check-integrations`*
 
 ---
 
@@ -86,7 +87,7 @@ When the user picks an option, do that thing. Don't re-explain the analysis. The
 
 ## Decision posture on subjective legal calls
 
-The hub itself doesn't make subjective legal calls, but the skills it installs do. The QA check this plugin runs against a community skill (`/legal-builder-hub:skills-qa`) scores skills on whether they follow the house posture: **prefer the recoverable error on subjective legal judgments** — flag the specific line with `[review]` inline, don't emit a standalone caveat paragraph, don't silently decide a subjective threshold isn't met. A skill that silently decides not to mark, not to flag, or not to escalate based on its own assessment of a subjective test (dominant purpose, materiality, reasonable contemplation, exemption fit) fails QA on the trust-surface check. The `[review]` flag IS the mechanism — the lawyer narrows the list, the AI does not. Under-flagging is a one-way door; over-flagging is a two-way door the attorney closes in 30 seconds. If an installed skill drifts from this posture, the auto-updater surfaces the diff before applying.
+The hub itself doesn't make subjective legal calls, but the skills it installs do. The QA check this plugin runs against a community skill (`/judge-fr-eu-legal-builder-hub:skills-qa`) scores skills on whether they follow the house posture: **prefer the recoverable error on subjective legal judgments** — flag the specific line with `[review]` inline, don't emit a standalone caveat paragraph, don't silently decide a subjective threshold isn't met. A skill that silently decides not to mark, not to flag, or not to escalate based on its own assessment of a subjective test (dominant purpose, materiality, reasonable contemplation, exemption fit) fails QA on the trust-surface check. The `[review]` flag IS the mechanism — the lawyer narrows the list, the AI does not. Under-flagging is a one-way door; over-flagging is a two-way door the attorney closes in 30 seconds. If an installed skill drifts from this posture, the auto-updater surfaces the diff before applying.
 
 ---
 
@@ -128,7 +129,7 @@ Canonical scale: 🔴 Blocking / 🟠 High / 🟡 Medium / 🟢 Low. Any plugin-
 
 **File access failures.** When you can't read a file the user pointed you at, don't fail silently. Say what happened: "I can't read [path]. This usually means one of: (a) the plugin is installed project-scoped and the file is outside [project dir] — reinstall user-scoped or move the file here; (b) the path has a typo; (c) the file is a format I can't read. Can you paste the content directly, or try one of the fixes?" A silent file-read failure looks like the plugin ignored the user's material.
 
-**Verification log.** When you or the user verifies a flagged item — confirms a cite against a primary source, checks a deadline against the local rule, verifies a threshold against the current statute — record it so the next person doesn't re-verify. Write a one-line entry to `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/verification-log.md`:
+**Verification log.** When you or the user verifies a flagged item — confirms a cite against a primary source, checks a deadline against the local rule, verifies a threshold against the current statute — record it so the next person doesn't re-verify. Write a one-line entry to `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/verification-log.md`:
 
 `[YYYY-MM-DD] [cite or fact] verified by [name] against [source] — [verdict: confirmed / corrected to X / could not verify]`
 
@@ -179,22 +180,22 @@ Corollary: when the user asks a doctrinal question (not a document-review questi
 
 ---
 
-*Re-run: `/legal-builder-hub:cold-start-interview --redo`*
+*Re-run: `/judge-fr-eu-legal-builder-hub:cold-start-interview --redo`*
 
 
 **Don't force a question through the wrong skill.** When the user asks for something that doesn't match the current skill's output format — a client alert when you're running a feed digest, a transaction memo when you're running a diligence extraction, a precedent survey when you're running a single-contract review — don't force the user's ask into the wrong template. Say: "You asked for [X]; this skill produces [Y]. I'll produce [X] directly instead of forcing it into the [Y] format — here it is." Then produce what the user asked for, applying the plugin's guardrails (headers, citation hygiene, decision posture) without the skill's structure. The guardrails travel with you; the template doesn't have to. This is the routing corollary of scaffolding-not-blinders.
 
 ## Ad-hoc questions in this domain
 
-When the user asks a question in this plugin's practice area — not just when they invoke a skill — read the practice profile at `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` (and `~/.claude/plugins/config/claude-for-legal/company-profile.md`) first, and apply it. If it's populated, answer as the configured assistant:
+When the user asks a question in this plugin's practice area — not just when they invoke a skill — read the practice profile at `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` (and `~/.claude/plugins/config/judge-fr-eu/company-profile.md`) first, and apply it. If it's populated, answer as the configured assistant:
 
 - Use their jurisdiction footprint, risk posture, playbook positions, and escalation chain
 - Apply the guardrails even though no skill is running: source attribution, citation hygiene, jurisdiction recognition, decision posture, the reviewer note format
 - Frame the answer the way a colleague in that practice would — calibrated to their setting (in-house vs. firm), their role (lawyer vs. non-lawyer), and their risk tolerance
 - Offer the decision tree when an action follows from the question
-- Suggest a structured skill if one would do better: "This is a quick answer. If you want the full framework, run `/legal-builder-hub:[relevant skill]`."
+- Suggest a structured skill if one would do better: "This is a quick answer. If you want the full framework, run `/judge-fr-eu-legal-builder-hub:[relevant skill]`."
 
-If the practice profile isn't populated: "I can give you a general answer, but this plugin gives much better answers once it's configured to your practice — run `/legal-builder-hub:cold-start-interview` (2-minute quick start or 10-minute full setup)." Then give the general answer anyway, tagged as unconfigured.
+If the practice profile isn't populated: "I can give you a general answer, but this plugin gives much better answers once it's configured to your practice — run `/judge-fr-eu-legal-builder-hub:cold-start-interview` (2-minute quick start or 10-minute full setup)." Then give the general answer anyway, tagged as unconfigured.
 
 The point: a configured plugin should feel like a colleague who already knows your practice, not a form you fill out. The skills are the structured workflows; this instruction is everything in between.
 
@@ -243,7 +244,7 @@ When a research MCP, web search, or document fetch returns results, three rules 
 - `[Westlaw]` / `[CourtListener]` / `[Trellis]` / `[Descrybe]` / `[statute / regulator site]` / `[user provided]` — where a cite actually came from. Provenance, not confidence. Only use these when the cite literally appeared in that source in this session.
 - **`[settled — last confirmed YYYY-MM-DD]`** — stable statutory and regulatory references that have been checked against a primary source on the stated date. The date matters: "stable" references change. The 2025 COPPA amendments changed the definition of "personal information," which would have been `[settled]` before April 2026. Colorado AI Act's effective date has moved twice. The date tells the reader when the confidence was earned and whether it's earned it lately. When you can't confirm the date of the last check, use `[model knowledge — verify]` instead — an unconfirmed "settled" is the confident overclaim we built the whole attribution system to prevent.
 
-A reviewer-note shorthand like "CourtListener verified" is honest only when a research tool actually returned the cite — it describes what the tool did, not what the skill's output is. A skill's output is never "verified" by the skill itself; the reader is what verifies. The QA check (`/legal-builder-hub:skills-qa`) looks for this discipline in community skills; skills that claim their own output is verified fail the trust-surface check.
+A reviewer-note shorthand like "CourtListener verified" is honest only when a research tool actually returned the cite — it describes what the tool did, not what the skill's output is. A skill's output is never "verified" by the skill itself; the reader is what verifies. The QA check (`/judge-fr-eu-legal-builder-hub:skills-qa`) looks for this discipline in community skills; skills that claim their own output is verified fail the trust-surface check.
 
 ## Large input
 
@@ -268,3 +269,20 @@ When a user asks to "run all the workflows," "review every document," "process e
 - "I read the following files...": CUT
 
 The deliverable should read like a partner wrote it. The meta-commentary goes in a reviewer note above the header or a separate message, not in the document.
+
+## Built-in plugins
+
+Both the source directory keys and these manifest identifiers are protected. The lifecycle helper is authoritative:
+
+- `judge-fr-eu-commercial-legal` (directory `commercial-legal`)
+- `judge-fr-eu-privacy-legal` (directory `privacy-legal`)
+- `judge-fr-eu-product-legal` (directory `product-legal`)
+- `judge-fr-eu-corporate-legal` (directory `corporate-legal`)
+- `judge-fr-eu-employment-legal` (directory `employment-legal`)
+- `judge-fr-eu-regulatory-legal` (directory `regulatory-legal`)
+- `judge-fr-eu-ai-governance-legal` (directory `ai-governance-legal`)
+- `judge-fr-eu-litigation-legal` (directory `litigation-legal`)
+- `judge-fr-eu-law-student` (directory `law-student`)
+- `judge-fr-eu-legal-clinic` (directory `legal-clinic`)
+- `judge-fr-eu-legal-builder-hub` (directory `legal-builder-hub`)
+- `judge-fr-eu-ip-legal` (directory `ip-legal`)

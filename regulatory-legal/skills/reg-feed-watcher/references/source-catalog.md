@@ -1,3 +1,6 @@
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Regulatory Source Catalog
 
 A starting catalog for the reg-feed-watcher. The cold-start interview configures
@@ -97,7 +100,7 @@ Tag items pulled from these feeds as `[secondary source]` in the digest.
 | IAPP Daily Dashboard | `https://iapp.org/rss/daily-dashboard/` | RSS | Global privacy + AI governance news, curated | None (some items paywalled) | Highest signal-to-noise for privacy teams. |
 | Future of Privacy Forum | `https://fpf.org/feed/` | RSS (WordPress) | Privacy commentary, state law trackers, reports | None | |
 | Hogan Lovells | `https://www.hoganlovells.com/en/rss` | RSS (multiple by practice) | Client alerts, engagements | None | Offers per-practice sub-feeds. |
-| Covington & Burling | `https://www.cov.com/` (verify per blog) | RSS by blog | InsidePrivacy, Global Policy Watch, Inside Global Tech, Inside Tech Media | None | Each topic blog is a WordPress-style site with a standard `/feed` endpoint. |
+| Covington & Burling | `https://www.cov.com/` (verify per blog) | RSS by blog | InsidePrivacy, Global Policy Watch, Inside Global Tech, Inside Tech Media | None | Each topic blog is a WordPress-style site with a standard the /feed URL path endpoint. |
 | WilmerHale | `https://www.wilmerhale.com/` | Email / HTML | Client alerts | None | ⚠️ No consolidated public RSS located; email subscription is primary. |
 | Wilson Sonsini | `https://www.wsgr.com/` | Email / HTML | Client alerts | None | ⚠️ No consolidated public RSS located. |
 | Lexology | `https://www.lexology.com/account/rss` | RSS (customizable by topic/jurisdiction) | Aggregated firm alerts | Account (free) | Powerful: build topic+jurisdiction feeds. Owned by LBR. |
@@ -151,7 +154,7 @@ Artificial Lawyer, CA AG (ADMT), CPPA.
 ## Adding a source
 
 To add a source that isn't in this catalog:
-1. Find a feed URL (try `/rss`, `/feed`, `/news.rss`, or view page source for `<link rel="alternate" type="application/rss+xml">`).
+1. Find a feed URL (try the /rss URL path, the /feed URL path, `/news.rss`, or view page source for `<link rel="alternate" type="application/rss+xml">`).
 2. Validate it returns XML/JSON in a browser or with `curl`.
 3. Add to the user's regulatory-legal CLAUDE.md under **Feed configuration → Direct regulator feeds**, with: source name, URL, format, what it covers.
 4. If no feed exists, add it under **Sources without feeds** and decide: manual, email, or change detection.

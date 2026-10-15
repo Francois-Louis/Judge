@@ -9,16 +9,20 @@ description: >
 argument-hint: "[optional: practice area hint]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /client-intake
 
-1. Load `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → practice areas, intake templates, supervision style, flag triggers.
+1. Load `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` → practice areas, intake templates, supervision style, flag triggers.
 2. Use the workflow below.
 3. Route to practice-area template. Listen for cross-area issues throughout.
 4. Conflict check flags. Triage classification.
 5. Output formatted case summary with AI-assisted label, verification prompts, supervision routing.
 
 ```
-/legal-clinic:client-intake
+/judge-fr-eu-legal-clinic:client-intake
 ```
 
 ---
@@ -35,11 +39,11 @@ This skill structures the conversation, produces the write-up, spots issues acro
 
 ## Load context
 
-`~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → practice areas, intake templates (per practice area if multiple), supervision style, jurisdiction, flag triggers.
+`~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` → practice areas, intake templates (per practice area if multiple), supervision style, jurisdiction, flag triggers.
 
 ## Read the supervisor guide
 
-Check for a practice-area guide at `~/.claude/plugins/config/claude-for-legal/legal-clinic/guides/<practice-area>.md`. If one exists, use its intake questions, red flags, and good-fit criteria instead of the generic defaults below. If one doesn't exist, use the generic intake and note at the end of the intake summary: "This was a generic intake — your supervisor can tailor the questions for your clinic type with `/legal-clinic:build-guide`."
+Check for a practice-area guide at `~/.claude/plugins/config/judge-fr-eu/legal-clinic/guides/<practice-area>.md`. If one exists, use its intake questions, red flags, and good-fit criteria instead of the generic defaults below. If one doesn't exist, use the generic intake and note at the end of the intake summary: "This was a generic intake — your supervisor can tailor the questions for your clinic type with `/judge-fr-eu-legal-clinic:build-guide`."
 
 When the intake starts before the practice area is routed (Step 1 of the workflow below), re-check for the guide after routing — the guide path depends on which practice area the intake landed in.
 
@@ -55,7 +59,7 @@ From the answer, route to the appropriate intake template. If the clinic handles
 
 ### Step 2: Practice-area-specific intake
 
-Each practice area asks different questions. Use the template from `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` for this area. Defaults if none provided:
+Each practice area asks different questions. Use the template from `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` for this area. Defaults if none provided:
 
 **Immigration:**
 - Current status and how entered
@@ -102,7 +106,7 @@ Note every cross-area issue in the summary. The clinic may handle it, refer it, 
 
 ### Step 4: Conflict check flags
 
-Per whatever conflict-check process `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` describes. At minimum:
+Per whatever conflict-check process `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` describes. At minimum:
 
 - Opposing party name(s) — does the clinic represent or have represented them?
 - Related parties — anyone else the student or clinic might have a conflict with?
@@ -123,16 +127,16 @@ Not a case-acceptance decision — a triage input:
 
 ### Step 6: Supervision flag check
 
-Per `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` supervision style and flag triggers. If formal queue or configurable flags are enabled, and a trigger is present (deadline mentioned, DV indicator, immigration status at issue, etc.), note the flag.
+Per `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` supervision style and flag triggers. If formal queue or configurable flags are enabled, and a trigger is present (deadline mentioned, DV indicator, immigration status at issue, etc.), note the flag.
 
 ### Step 7: Deadline handoff — required deliverable
 
-If the intake surfaces any timeline deadline (answer due, hearing, statute-of-limitations cutoff, cure period, filing window, notice window, ICE check-in, removal hearing, eviction court date, protective order renewal), **emit a copy-paste-ready `/legal-clinic:deadlines --add ...` block as part of the intake output**. This is a required deliverable, not a suggestion — the intake identifies deadlines, and the student shouldn't have to re-transcribe them into the deadline skill.
+If the intake surfaces any timeline deadline (answer due, hearing, statute-of-limitations cutoff, cure period, filing window, notice window, ICE check-in, removal hearing, eviction court date, protective order renewal), **emit a copy-paste-ready `/judge-fr-eu-legal-clinic:deadlines --add ...` block as part of the intake output**. This is a required deliverable, not a suggestion — the intake identifies deadlines, and the student shouldn't have to re-transcribe them into the deadline skill.
 
 Format each deadline as a fenced code block the student can copy, with every field pre-populated from the intake:
 
 ```
-/legal-clinic:deadlines --add
+/judge-fr-eu-legal-clinic:deadlines --add
   case=[case slug or client-last-name-keyword]
   type=[response|hearing|statute-of-limitations|discovery|cure-period|filing-window|notice|other]
   description="[one-line description of what is due]"
@@ -200,7 +204,7 @@ Rules:
 
 ## Deadlines to log
 
-[One `/legal-clinic:deadlines --add ...` block per surfaced deadline — Step 7.
+[One `/judge-fr-eu-legal-clinic:deadlines --add ...` block per surfaced deadline — Step 7.
 If none, omit this section.]
 
 ## Jurisdictional notes
@@ -233,7 +237,7 @@ so you can spend your time on the analysis instead of the write-up.
 
 ## Practice-area intake template references
 
-Store practice-area-specific question sets at `references/intake-templates/[area].md`. Cold-start populates these from the professor's intake form(s); if none provided, use the defaults above.
+Store practice-area-specific question sets at `~/.claude/plugins/config/judge-fr-eu/legal-clinic/intake-templates/<area>.md`. Cold-start populates these from the professor's intake form(s); if none provided, use the defaults above.
 
 ## What this skill does NOT do
 

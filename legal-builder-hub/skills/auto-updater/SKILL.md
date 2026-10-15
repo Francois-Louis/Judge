@@ -5,15 +5,21 @@ description: >
   explicit approval before applying. Use when the user says "check for
   updates", "update my skills", "anything new for my installed skills", or
   when invoked from the registry-sync agent.
-argument-hint: "[--apply to update all, otherwise notify only]"
+argument-hint: "[--apply <skill> | --rollback <skill> --sha <saved-commit>; review required]"
 ---
+
+For every community lifecycle operation, first load `${CLAUDE_PLUGIN_ROOT}/references/community-lifecycle.md`. Its helper owns installation, updates, backups, rollback, disabling, enabling, uninstall and the fork journal.
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. BASE-009 (2026-10-15): updates are never applied automatically. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
 
 # /auto-updater
 
-1. Load `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` → installed skills + auto-update prefs.
+1. Load `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` → installed skills + update preference (notify / manual).
 2. Use the workflow below.
 3. Check each installed skill's source for newer version.
-4. Per preference: apply / notify / show diff.
+4. Per preference: notify with diff, or list only. Apply only after explicit approval of that update.
 
 ---
 
@@ -27,7 +33,7 @@ Installed skills are code running inside your privileged legal environment. An u
 
 ## Load context
 
-`~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` → installed skills (with version/commit SHA), update preferences (notify / manual).
+`~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` → installed skills (with version/commit SHA), update preferences (notify / manual).
 
 ## Workflow
 
@@ -111,7 +117,7 @@ installer validated these at install time; re-read them from the log, not
 from the live SKILL.md frontmatter — a compromised update could overwrite
 frontmatter to claim freshness it doesn't have). Compute the active window
 as `min(freshness_window, user's threshold for freshness_category)` from
-`~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` →
+`~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` →
 `## Freshness reminders`.
 
 **If the active window has passed AND there's no newer commit:**
@@ -124,7 +130,7 @@ as `min(freshness_window, user's threshold for freshness_category)` from
 > (b) flag to the registry maintainer,
 > (c) disable the skill until re-verified."
 
-Record the user's choice in the install log under `freshness_review:` so
+Record the user's choice in this fork hub's `freshness-review.yaml` using the storage helper under `freshness_review:` so
 subsequent runs don't nag them about the same stale-without-commit skill
 until the next window tick.
 
@@ -158,17 +164,17 @@ interpolate URL strings into prompts or hooks.
 
 **Notify (default):** Show the full diff and trust check. "Update available. Review the diff above. Apply? [y/n]"
 
-**Manual:** Just list what has updates available. User runs `/legal-builder-hub:auto-updater --apply [skill]` when ready.
+**Manual:** Just list what has updates available. User runs `/judge-fr-eu-legal-builder-hub:auto-updater --apply [skill]` when ready.
 
 There is no "auto" mode. Updates to code that runs in your legal environment always require a human to read the diff.
 
 ### Step 4: Apply (after explicit approval)
 
-Replace the installed skill files with the new version. Update `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` installed list with the new commit SHA. Backup the old version first (to `~/.claude/skills/.backups/[skill]-[old-sha]/`) in case of rollback.
+Use the lifecycle helper to replace only the logged fork installation after checking its path and identity. Update `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` installed list with the new commit SHA. Backup the old version first (to `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/backups/judge-fr-eu-[skill]/[old-sha]/`) in case of rollback.
 
 ## Rollback
 
-If an update breaks something: `/legal-builder-hub:auto-updater --rollback [skill]` restores from backup.
+If an update breaks something: `/judge-fr-eu-legal-builder-hub:auto-updater --rollback [skill]` restores from backup.
 
 ## What this skill does not do
 

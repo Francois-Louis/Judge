@@ -10,11 +10,15 @@ description: >
 argument-hint: "[section name, or describe what you want to change]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /customize
 
 ## When this runs
 
-The user typed `/litigation-legal:customize`. They want to change something
+The user typed `/judge-fr-eu-litigation-legal:customize`. They want to change something
 in their litigation profile — a risk calibration, a house style rule, an
 escalation contact, a landscape note — without re-running the whole
 cold-start interview and without hand-editing YAML.
@@ -22,12 +26,12 @@ cold-start interview and without hand-editing YAML.
 ## What to do
 
 1. **Read the config.** Read
-   `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md`
-   (and `~/.claude/plugins/config/claude-for-legal/company-profile.md` one
+   `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md`
+   (and `~/.claude/plugins/config/judge-fr-eu/company-profile.md` one
    level up). If the plugin config does not exist or still contains
    `[PLACEHOLDER]` values, say:
 
-   > You haven't run setup yet. Run `/litigation-legal:cold-start-interview`
+   > You haven't run setup yet. Run `/judge-fr-eu-litigation-legal:cold-start-interview`
    > first — customize is for adjusting a profile you already have.
 
 2. **Show the customizable map.** List what's in the profile, grouped, with a
@@ -75,7 +79,7 @@ cold-start interview and without hand-editing YAML.
 
 5. **For shared-profile changes** (company name, industry, jurisdictions,
    practice setting, stage): write to
-   `~/.claude/plugins/config/claude-for-legal/company-profile.md` and note:
+   `~/.claude/plugins/config/judge-fr-eu/company-profile.md` and note:
 
    > This change affects all 12 plugins — any plugin that reads your
    > jurisdiction footprint now sees [new value].
@@ -83,7 +87,7 @@ cold-start interview and without hand-editing YAML.
 6. **Close.**
 
    > Done. Your next output will reflect the change. Anything else? You can
-   > run `/litigation-legal:customize` anytime.
+   > run `/judge-fr-eu-litigation-legal:customize` anytime.
 
 ## Guardrails
 

@@ -11,14 +11,18 @@ description: >
 argument-hint: "[--redo | --new-deal | --check-integrations | --module [m&a | board | public | entities]]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /cold-start-interview
 
-1. Check `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md`. If `--new-deal`, skip to per-deal setup. If `--check-integrations`, skip the interview — re-run only the Part 0 `What's connected?` check and rewrite the `## Available integrations` table in `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md`. When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
+1. Check `~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md`. If `--new-deal`, skip to per-deal setup. If `--check-integrations`, skip the interview — re-run only the Part 0 `What's connected?` check and rewrite the `## Available integrations` table in `~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md`. When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 2. Run the interview below (Part 0 first — role + integrations — then modules).
 3. Seed docs: diligence request list + one prior issues memo.
 4. Extract: categories, thresholds, memo format, AI tool config.
-5. Migration: if a populated CLAUDE.md (no `[PLACEHOLDER]` markers) exists at `~/.claude/plugins/cache/claude-for-legal/corporate-legal/*/CLAUDE.md` but not at the config path, copy it to the config path and tell the user what was migrated.
-6. Write `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` (create parent directories as needed). For `--new-deal`, write `~/.claude/plugins/config/claude-for-legal/corporate-legal/deals/[code]/deal-context.md`.
+5. If the fork profile is absent, start a fresh France/EU interview; never read a cache or another distribution.
+6. Write `~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md` (create parent directories as needed). For `--new-deal`, write `~/.claude/plugins/config/judge-fr-eu/corporate-legal/deals/[code]/deal-context.md`.
 
 ---
 
@@ -28,7 +32,7 @@ Corporate counsel roles vary more than almost any other in-house function. A sol
 
 ## Cold-start check
 
-Read `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md`:
+Read `~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md`:
 - **Does not exist** → start the interview.
 - **Contains `<!-- SETUP PAUSED AT: -->`** → greet the user and offer to resume from that section.
 - **Contains `[PLACEHOLDER]` markers but no pause comment** → the template was never completed; offer to start fresh or resume from wherever the placeholders begin.
@@ -36,7 +40,7 @@ Read `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md`:
 
 The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed.
 
-If a CLAUDE.md exists at the old cache path `~/.claude/plugins/cache/claude-for-legal/corporate-legal/*/CLAUDE.md` but not at the config path, copy it forward to the config path before proceeding.
+If the fork profile is absent, start a fresh interview; never import a cached profile.
 
 - `--redo` — full re-interview, overwrites all sections
 - `--module [m&a | board | public | entities]` — add or refresh a single module
@@ -46,10 +50,10 @@ If a CLAUDE.md exists at the old cache path `~/.claude/plugins/cache/claude-for-
 
 ## Check for the shared company profile
 
-Look for `~/.claude/plugins/config/claude-for-legal/company-profile.md`.
+Look for `~/.claude/plugins/config/judge-fr-eu/company-profile.md`.
 
 - **If it exists:** Read it. Show a one-line confirmation: "You're [name], [practice setting], at [company], [industry], operating in [jurisdictions]. Right? (Or say 'update' to change the shared profile.)" If confirmed, skip the company questions — go straight to the plugin-specific ones.
-- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
+- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `${CLAUDE_PLUGIN_ROOT}/references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
 
 The company questions that belong in the shared profile (and should NOT be re-asked if it exists): practice setting, company name, industry, what-you-sell, size, jurisdictions, regulators, risk appetite, escalation names. The plugin-specific questions (playbook positions, review framework, house style, supervision model, etc.) stay per-plugin.
 
@@ -65,16 +69,16 @@ Ask the user to confirm before proceeding: continue with project scope, or pause
 
 Before asking anything else, show the fork-first preamble — 3-4 short lines, no longer:
 
-> **`corporate-legal` is for people who support M&A deals, board and corporate governance, public company compliance, and entity management.** Not your area? `/legal-builder-hub:related-skills-surfacer`.
+> **`corporate-legal` is for people who support M&A deals, board and corporate governance, public company compliance, and entity management.** Not your area? `/judge-fr-eu-legal-builder-hub:related-skills-surfacer`.
 >
 > **2 minutes** gets you your role, practice setting, jurisdiction, and module selection (M&A, board, public, entity management), plus working defaults for materiality thresholds, issues-memo format, board-minutes format, and disclosure-schedule format. **15 minutes** adds your real materiality thresholds, house consent and minutes formats from seed documents, your entity list and compliance cadence, deal-team briefing cadence, and escalation matrix.
 >
-> Quick or full? (Upgrade any time with `/corporate-legal:cold-start-interview --full`.)
+> Quick or full? (Upgrade any time with `/judge-fr-eu-corporate-legal:cold-start-interview --full`.)
 
 Wait for the user's pick before showing anything else.
 
 <!-- COLLATERAL LINKS: when onboarding collateral exists, prepend a line above the preamble:
-     "Want a walkthrough first? [Watch the 3-minute intro](URL) or [read the getting-started guide](URL), then come back and run /corporate-legal:cold-start-interview." -->
+     "Want a walkthrough first? the introduction (link not yet supplied) or the getting-started guide (link not yet supplied), then come back and run /judge-fr-eu-corporate-legal:cold-start-interview." -->
 
 ## After the user picks quick or full
 
@@ -101,7 +105,7 @@ Corollary: the interview's inputs are the user's typed answers and documents the
 - **For uploads (issues memo, minutes, consents, org chart):** "Paste the contents, share a file path, or say 'skip for now.' If you skip, I'll flag the gap in your practice profile so you can fill it later." Then actually wait. These seed documents drive format extraction — skipping silently means every future output will be in a generic template instead of house format.
 - **Before writing the practice profile:** review the interview and list any questions that were skipped or answered with placeholders — especially the seed documents per active module. Say: "Before I write your practice profile, here's what's still open: [list]. Want to fill any of these now, or leave them as placeholders?" Then wait.
 - **Never** write a practice profile with silent gaps. Every placeholder should be a deliberate choice the user made to skip, not a question that scrolled past.
-- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/corporate-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /corporate-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
+- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/judge-fr-eu-corporate-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /judge-fr-eu-corporate-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
 
 ---
 
@@ -113,7 +117,7 @@ Corollary: the interview's inputs are the user's typed answers and documents the
 
 > Before I ask about your specific workflows, I want to understand which areas of corporate work are actually live for you. That way I only set up what you need and skip the rest.
 
-**Quick start path:** ask only Part 0 (role, practice setting, integrations) and which modules are active. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for materiality thresholds, disclosure schedule format, and board-minutes format. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/corporate-legal:cold-start-interview --full` anytime to do the whole interview, or `/corporate-legal:cold-start-interview --redo <section>` to re-do one part."
+**Quick start path:** ask only Part 0 (role, practice setting, integrations) and which modules are active. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for materiality thresholds, disclosure schedule format, and board-minutes format. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/judge-fr-eu-corporate-legal:cold-start-interview --full` anytime to do the whole interview, or `/judge-fr-eu-corporate-legal:cold-start-interview --redo <section>` to re-do one part."
 
 **Full setup path:** the existing interview flow below.
 
@@ -160,7 +164,7 @@ Then report findings in this form:
 
 > - ✓ [Integration] — connected (tested)
 > - ⚪ [Integration] — configured but not verified. Open your MCP settings to confirm.
-> - ✗ [Integration] — not found. [Feature] will fall back to [manual alternative]. [How to connect.] If you set this up later, re-run `/corporate-legal:cold-start-interview --check-integrations`.
+> - ✗ [Integration] — not found. [Feature] will fall back to [manual alternative]. [How to connect.] If you set this up later, re-run `/judge-fr-eu-corporate-legal:cold-start-interview --check-integrations`.
 >
 > You don't need all of these. Core features work with file access alone.
 
@@ -204,7 +208,7 @@ Ask which of the following apply. More than one is common. All four is not unusu
 > 3. **Public Company** — SEC reporting, disclosure committee, §16 filings, insider trading
 > 4. **Entity Management** — subsidiary management, registered agents, cap table, annual filings
 >
-> Tell me the numbers that apply. You can always add a module later with `/corporate-legal:cold-start-interview --module [name]`.
+> Tell me the numbers that apply. You can always add a module later with `/judge-fr-eu-corporate-legal:cold-start-interview --module [name]`.
 
 Record active modules. Proceed to the section for each active module only. Skip the rest entirely.
 
@@ -310,7 +314,7 @@ Write to `## M&A` in the config.
 
 > Upload 5–6 prior board or committee minutes. Closed meetings only, nothing currently active. These teach the skill your house format — how minutes are structured, what level of discussion detail you capture, how resolutions are worded, how attendance is recorded. One full-board set and one committee set if you have both formats. (This feeds the board-minutes skill — every future minutes draft is built from your extracted structure, discussion depth, and resolution language.)
 >
-> If you don't have shareable minutes right now, you can add them later with `/corporate-legal:cold-start-interview --module board`. The board-minutes skill will prompt you for them if they're missing.
+> If you don't have shareable minutes right now, you can add them later with `/judge-fr-eu-corporate-legal:cold-start-interview --module board`. The board-minutes skill will prompt you for them if they're missing.
 
 From the seed minutes, extract:
 - Overall structure and section order
@@ -413,14 +417,14 @@ If yes, show this tailored list (not a generic template — these are the concre
 
 > **Here's what I'm good at in corporate and M&A practice:**
 >
-> - **Extract diligence issues from the VDR** — e.g., "Point at a VDR folder and get findings categorized per your house materiality thresholds." Try: `/corporate-legal:diligence-issue-extraction`
-> - **Build the material contracts schedule** — e.g., "From diligence findings, build the disclosure schedule in the purchase agreement's format." Try: `/corporate-legal:material-contract-schedule`
-> - **Draft a board or committee written consent** — e.g., "Precedent search from your consents repository, then drafted in house format." Try: `/corporate-legal:written-consent`
-> - **Entity compliance tracker** — e.g., "See what filings are due in the next 30 / 60 / 90 days across your subsidiaries." Try: `/corporate-legal:entity-compliance`
-> - **Closing checklist status** — e.g., "What's left to close — conditions, documents, consents, filings — with critical path." Try: `/corporate-legal:closing-checklist`
-> - **Post-closing integration** — e.g., "Phased workplan, consent tracking, contract assignment at scale for a just-closed deal." Try: `/corporate-legal:integration-management`
+> - **Extract diligence issues from the VDR** — e.g., "Point at a VDR folder and get findings categorized per your house materiality thresholds." Try: `/judge-fr-eu-corporate-legal:diligence-issue-extraction`
+> - **Build the material contracts schedule** — e.g., "From diligence findings, build the disclosure schedule in the purchase agreement's format." Try: `/judge-fr-eu-corporate-legal:material-contract-schedule`
+> - **Draft a board or committee written consent** — e.g., "Precedent search from your consents repository, then drafted in house format." Try: `/judge-fr-eu-corporate-legal:written-consent`
+> - **Entity compliance tracker** — e.g., "See what filings are due in the next 30 / 60 / 90 days across your subsidiaries." Try: `/judge-fr-eu-corporate-legal:entity-compliance`
+> - **Closing checklist status** — e.g., "What's left to close — conditions, documents, consents, filings — with critical path." Try: `/judge-fr-eu-corporate-legal:closing-checklist`
+> - **Post-closing integration** — e.g., "Phased workplan, consent tracking, contract assignment at scale for a just-closed deal." Try: `/judge-fr-eu-corporate-legal:integration-management`
 >
-> **My suggestion for your first one:** If you have an active deal, run `/corporate-legal:closing-checklist` — it shows immediately where the plugin fits in your workflow. Or tell me what's on your plate and I'll pick.
+> **My suggestion for your first one:** If you have an active deal, run `/judge-fr-eu-corporate-legal:closing-checklist` — it shows immediately where the plugin fits in your workflow. Or tell me what's on your plate and I'll pick.
 
 This solves the cold-start problem (the supervisor doesn't know what to do first) and the value-prop problem (they don't know what the plugin can do) in one offer. Make the list specific. Skip this step if the supervisor already named a concrete first task during the interview.
 
@@ -434,19 +438,19 @@ Then show the active modules and the populated sections:
 > Here's what I've captured: [list active modules]. Practice Profile is written. A few things to check:
 > - [Flag any thin or ambiguous answers worth revisiting]
 > - [If M&A active and no seed docs provided: "Ping me with your request list and a prior issues memo when you have them — I'll update the diligence structure and memo format sections."]
-> - [If M&A active: "When a deal comes in, run `/corporate-legal:cold-start-interview --new-deal` to set up deal-specific context on top of the house approach. M&A skills available now: diligence extraction, deal team summaries, material contracts schedule, closing checklist, and post-closing integration."]
-> - [If Board & Secretary active: "Board skills available now: `/corporate-legal:written-consent` for written consents, and the board-minutes skill for drafting minutes in your house format."]
-> - [If Entity Management active: "Entity skill available now: `/corporate-legal:entity-compliance` initializes a compliance tracker from your entity list and surfaces what's due."]
+> - [If M&A active: "When a deal comes in, run `/judge-fr-eu-corporate-legal:cold-start-interview --new-deal` to set up deal-specific context on top of the house approach. M&A skills available now: diligence extraction, deal team summaries, material contracts schedule, closing checklist, and post-closing integration."]
+> - [If Board & Secretary active: "Board skills available now: `/judge-fr-eu-corporate-legal:written-consent` for written consents, and the board-minutes skill for drafting minutes in your house format."]
+> - [If Entity Management active: "Entity skill available now: `/judge-fr-eu-corporate-legal:entity-compliance` initializes a compliance tracker from your entity list and surfaces what's due."]
 > - [If Public Company active: "Public Company skills are coming in a future release — the practice profile section is ready to populate when they ship."]
 
 Close with a note on changeability:
 
-> "Your practice profile is at `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` — it's a plain text file you can read and edit directly. Anything you answered can be changed:
+> "Your practice profile is at `~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md` — it's a plain text file you can read and edit directly. Anything you answered can be changed:
 >
 > - Edit the file directly for a quick change (a new threshold, a jurisdiction added, a committee renamed)
-> - Run `/corporate-legal:cold-start-interview --redo` for a full re-interview
-> - Run `/corporate-legal:cold-start-interview --module [m&a | board | public | entities]` to add or refresh one module
-> - Run `/corporate-legal:cold-start-interview --check-integrations` to re-check what's connected
+> - Run `/judge-fr-eu-corporate-legal:cold-start-interview --redo` for a full re-interview
+> - Run `/judge-fr-eu-corporate-legal:cold-start-interview --module [m&a | board | public | entities]` to add or refresh one module
+> - Run `/judge-fr-eu-corporate-legal:cold-start-interview --check-integrations` to re-check what's connected
 >
 > The sections most often adjusted after first setup are the M&A materiality thresholds, the disclosure schedule format / issues memo template, and the entity tracker cadence."
 
@@ -458,7 +462,7 @@ After writing the practice profile, close with this note:
 >
 > - When a skill's output feels off, that's usually a position to tune. The output will tell you which one.
 > - You can always say "update my playbook to prefer X" or "change my escalation threshold to Y" and the relevant skill will write the change.
-> - Run `/corporate-legal:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
+> - Run `/judge-fr-eu-corporate-legal:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
 >
 > Ten minutes of setup gets you a working profile. A month of use gets you one that reads like you wrote it yourself.
 
@@ -478,7 +482,7 @@ Ask:
 - Any deal-specific threshold differences (a $50M deal may review smaller contracts than a $1B deal)
 - Outside counsel firm and lead contact for this deal
 
-Write to `~/.claude/plugins/config/claude-for-legal/corporate-legal/deals/[code-name]/deal-context.md`. Skills read both the plugin config (house) and `deal-context.md` (this deal), with deal-context.md taking precedence on conflicts.
+Write to `~/.claude/plugins/config/judge-fr-eu/corporate-legal/deals/[code-name]/deal-context.md`. Skills read both the plugin config (house) and `deal-context.md` (this deal), with deal-context.md taking precedence on conflicts.
 
 ---
 
@@ -498,3 +502,16 @@ Before finishing, re-read what was written. Flag:
 - **Don't write generic placeholders.** If the answer was vague ("standard materiality thresholds"), ask what that means in numbers. The practice profile is only useful if thresholds are actual thresholds.
 - **Sell-side posture is not buy-side reversed.** On sell-side you're anticipating the buyer's findings and managing outward information flow, not reviewing inbound documents. Flag this distinction if sell-side is active.
 - **Don't request seed documents for inactive modules.** Only ask for the request list and issues memo if M&A is active. A board-only attorney doesn't need to provide diligence documents.
+
+## Judge FR/UE setup boundary
+
+Read only the fork profile and shared profile using the packaged storage helper.
+If the practice profile is absent, including with `--check-integrations`, start
+a new interview: confirm France/EU jurisdictions, role and dates from the user.
+Do not search or copy any other profile, cache, legal rules, matters or registers.
+Use the packaged template only as a section scaffold. Preserve an existing
+profile and its answers, including paused progress; `--redo` reviews only the
+requested sections and does not reset unrelated answers. Create new files
+exclusively; for an agreed edit, supply the digest of the file reviewed.
+Never use inherited US defaults to fill unanswered France/EU legal fields;
+leave them explicitly unresolved. Assisted import requires a separate story.

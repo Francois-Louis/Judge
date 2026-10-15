@@ -8,14 +8,18 @@ description: >
 argument-hint: "[paste essay OR path to draft OR --generate-hypo]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /irac-practice
 
-1. Load `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` → classes, exam formats, outline locations, learning style.
+1. Load `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` → classes, exam formats, outline locations, learning style.
 2. Apply the framework below.
 3. Establish mode: student-provided hypo + answer, OR skill-generated hypo with student's answer.
 4. Read the answer closely. Map against expected IRAC components.
 5. Output structured feedback: issues spotted/missed, rule accuracy, analysis depth, organization, grade band, top 3 fixes, at most 1-2 labeled example phrasings (never a full IRAC model).
-6. Append to `~/.claude/plugins/config/claude-for-legal/law-student/irac-sessions/[student]/tracker.md` for pattern detection. Surface patterns after 3+ sessions.
+6. Append to `~/.claude/plugins/config/judge-fr-eu/law-student/irac-sessions/[student]/tracker.md` for pattern detection. Surface patterns after 3+ sessions.
 
 ---
 
@@ -42,8 +46,8 @@ Watch for: real names, real addresses, real dates, specific dollar amounts, "my 
 
 ## Load context
 
-- `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` → current classes, exam formats, outline locations, learning style
-- `~/.claude/plugins/config/claude-for-legal/law-student/irac-sessions/[student]/tracker.md` if exists — pattern tracking across sessions
+- `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` → current classes, exam formats, outline locations, learning style
+- `~/.claude/plugins/config/judge-fr-eu/law-student/irac-sessions/[student]/tracker.md` if exists — pattern tracking across sessions
 - Student-provided hypo (if practicing on a specific prompt) and their written answer
 
 ## Workflow
@@ -141,7 +145,7 @@ Use sparingly. One per grade, max two. Never a full IRAC example.
 
 ### Step 4: Track patterns
 
-Append to `~/.claude/plugins/config/claude-for-legal/law-student/irac-sessions/[student]/tracker.md`:
+Append to `~/.claude/plugins/config/judge-fr-eu/law-student/irac-sessions/[student]/tracker.md`:
 
 ```markdown
 ## [date] — [subject / hypo topic]
@@ -154,14 +158,14 @@ Append to `~/.claude/plugins/config/claude-for-legal/law-student/irac-sessions/[
 After 3+ sessions, surface patterns:
 - "You keep missing counterarguments — three sessions in a row."
 - "You're strong on Issue + Rule but consistently weak on Application."
-- "Your organization is strong; the gap is at rule-accuracy. Drill black-letter rules with /law-student:flashcards."
+- "Your organization is strong; the gap is at rule-accuracy. Drill black-letter rules with /judge-fr-eu-law-student:flashcards."
 
 Pattern detection is the long-term value of this skill. One-off feedback helps one essay; pattern feedback changes how you study.
 
 ## Integration with other skills
 
-- **legal-writing:** for non-IRAC writing (memos, briefs, papers), use `/law-student:legal-writing` instead
-- **socratic-drill:** if issue-spotting is the recurring gap, `/law-student:socratic-drill` on issue-spotting for the subject before more essay practice
+- **legal-writing:** for non-IRAC writing (memos, briefs, papers), use `/judge-fr-eu-law-student:legal-writing` instead
+- **socratic-drill:** if issue-spotting is the recurring gap, `/judge-fr-eu-law-student:socratic-drill` on issue-spotting for the subject before more essay practice
 - **flashcards:** if rule accuracy is the gap, flashcards are the right tool
 - **outline-builder:** if the student's rule is genuinely wrong in their outline, fixing the outline fixes many future IRACs
 

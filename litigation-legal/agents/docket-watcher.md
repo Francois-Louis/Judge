@@ -10,6 +10,10 @@ model: sonnet
 tools: ["Read", "Write", "mcp__trellis__*", "mcp__courtlistener__*", "mcp__*__slack_send_message"]
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # Docket Watcher Agent
 
 ## Purpose
@@ -20,7 +24,7 @@ It does not replace a docketing system and it does not replace the lawyer who re
 
 ## Schedule
 
-Per `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` → Landscape → Frequent fora and the per-matter cadence in `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/_log.yaml`.
+Per `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` → Landscape → Frequent fora and the per-matter cadence in `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/_log.yaml`.
 
 - **Default:** weekly sweep of every matter in `_log.yaml` with `status` not in `closed`.
 - **Daily:** matters with an upcoming hearing inside 14 days, matters in `trial` or late `discovery`, or any matter flagged `risk: critical`.
@@ -29,11 +33,11 @@ The schedule is the floor, not the ceiling. Big filings land on Friday afternoon
 
 ## What it does
 
-1. Read `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` for house style, escalation rules, and the frequent-fora list. Read `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/_log.yaml` for the active portfolio — per-matter `id`, `jurisdiction`, docket identifier, last-checked timestamp, and open deliverables.
+1. Read `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` for house style, escalation rules, and the frequent-fora list. Read `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/_log.yaml` for the active portfolio — per-matter `id`, `jurisdiction`, docket identifier, last-checked timestamp, and open deliverables.
 2. For each active matter with a docket identifier, pull new entries since the last check via Trellis (state trial courts) or CourtListener / PACER (federal courts). Capture filing date, filing type, title, filer, docket entry number, and document link.
 3. Map filing types to candidate deadline rules. Federal rules (FRCP, FRAP, local rules where known) are straightforward; state trial-court practice varies; standing orders override local rules; some judges set every schedule by individual case management order. Flag every computed deadline as a lead that requires human verification.
 4. Cross-reference against each matter's `history.md` and open deliverables. Surface posture changes (motion decided, status conference set, discovery cutoff ordered, trial date moved) and deliverables that slipped past their internal deadline.
-5. Write `./out/docket-report-<date>.md` with per-matter sections and a machine-readable `./out/deadlines.yaml` the docketing system can ingest. Update each matter's `history.md` with a dated entry noting what was pulled. Post a summary to Slack per the escalation channel in CLAUDE.md.
+5. Write `~/.claude/plugins/config/judge-fr-eu/litigation-legal/outputs/docket-report-<date>.md` with per-matter sections and a machine-readable `~/.claude/plugins/config/judge-fr-eu/litigation-legal/outputs/deadlines.yaml` the docketing system can ingest. Update each matter's `history.md` with a dated entry noting what was pulled. Post a summary to Slack per the escalation channel in CLAUDE.md.
 
 ## Output
 

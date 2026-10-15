@@ -1,3 +1,5 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Diligence Grid — managed-agent template
 
 ## Overview
@@ -20,6 +22,7 @@ Same source as the [`corporate-legal`](../../corporate-legal) plugin — this di
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
+export JUDGE_DEPLOYMENT_ID=demo-2026-10-15
 export BOX_MCP_URL=...
 export GDRIVE_MCP_URL=...
 export IMANAGE_MCP_URL=...          # optional; set the toolset default to enabled if used
@@ -56,6 +59,10 @@ VDR documents — contracts, board minutes, side letters, counterparty uploads �
 - **Column schema.** The M&A diligence standard in [`corporate-legal/skills/tabular-review/references/ma-diligence-columns.md`](../../corporate-legal/skills/tabular-review/references/ma-diligence-columns.md) is the default. Customize for your deal type — tech/IP, healthcare, real estate, government contractor, regulated financial — using the additions in that reference.
 - **Output destination.** Outputs land in `./out/`. Wire them to your deal folder, Google Drive, iManage workspace, or Box folder through your deploy pipeline. Do not give `grid-writer` an MCP to upload them; a handoff to your upload step is cleaner and keeps the Write tier isolated.
 - **Default mode.** Watch vs grid is selected per steering event. If your workflow is almost always one or the other, seed the steering event template in your orchestrator accordingly.
-- **Request-list categories.** Watch mode classifies against the categories in the deploying team's corporate-legal `CLAUDE.md` configuration. Re-run `/corporate-legal:cold-start-interview` there before wiring watch mode into a live deal.
+- **Request-list categories.** Watch mode classifies against the categories in the deploying team's corporate-legal `CLAUDE.md` configuration. Re-run `/judge-fr-eu-corporate-legal:cold-start-interview` there before wiring watch mode into a live deal.
 - **Work-product header.** `grid-writer` prepends the header from the deploying team's `## Outputs` configuration. Confirm the header with your legal team before deploying — it differs by reviewer role (lawyer vs non-lawyer).
 - **Slack routing.** This agent never posts directly. Reports are files; a `handoff_request` tells your orchestrator which channel to route to. Configure the deal channel in the deploying team's `CLAUDE.md` House style section.
+
+## Judge FR/UE storage
+
+Modified for BASE-008 (2026-10-15), technical version 0.1.0; legal adaptation pending. Use a fresh `JUDGE_DEPLOYMENT_ID`. The launcher binds outputs to `./judge-fr-eu-runs/<deployment>/diligence-grid/out/` and uses fork agent names/titles. Do not reuse original working directories. See the [workspace contract and remote limitations](../README.md).

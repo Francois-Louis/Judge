@@ -9,23 +9,27 @@ description: >
 argument-hint: "[--approve ID | --return ID 'note' | --edit ID]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /supervisor-review-queue
 
-1. Check `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → supervision style. If NOT "formal review queue": explain the clinic is set up for [flags/lighter-touch], no formal queue exists, and how to switch.
+1. Check `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` → supervision style. If NOT "formal review queue": explain the clinic is set up for [flags/lighter-touch], no formal queue exists, and how to switch.
 2. Use the workflow below.
 3. Default: show what's waiting, by urgency, by student.
 4. Actions: approve / edit-then-approve / return with note. All logged.
 
 ```
-/legal-clinic:supervisor-review-queue
+/judge-fr-eu-legal-clinic:supervisor-review-queue
 ```
 
 ```
-/legal-clinic:supervisor-review-queue --approve Q-003
+/judge-fr-eu-legal-clinic:supervisor-review-queue --approve Q-003
 ```
 
 ```
-/legal-clinic:supervisor-review-queue --return Q-004 "Check the service requirement — local rules changed"
+/judge-fr-eu-legal-clinic:supervisor-review-queue --return Q-004 "Check the service requirement — local rules changed"
 ```
 
 ---
@@ -36,13 +40,13 @@ argument-hint: "[--approve ID | --return ID 'note' | --edit ID]"
 
 Some clinics want a formal gate: student drafts, professor reviews, output releases. Others find that too prescriptive — they supervise through case rounds and one-on-ones, not through a queue.
 
-**This skill is only active if `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → Supervision style is "formal review queue."** Otherwise it's dormant — the cold-start interview asks the professor which model they want, and this is one of three options.
+**This skill is only active if `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` → Supervision style is "formal review queue."** Otherwise it's dormant — the cold-start interview asks the professor which model they want, and this is one of three options.
 
 Whether to use a formal review workflow is genuinely an open question for clinic adoption. It depends on student experience level, caseload, and how the professor already runs supervision. The professor decides at setup and can change it later.
 
 ## Load context
 
-`~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → supervision style. If NOT "formal review queue": respond with "The clinic is set up for [flags/lighter-touch] supervision — there's no formal queue. [Professor] reviews through [the clinic's existing structure]. To switch to a formal queue, edit CLAUDE.md → Supervision style."
+`~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` → supervision style. If NOT "formal review queue": respond with "The clinic is set up for [flags/lighter-touch] supervision — there's no formal queue. [Professor] reviews through [the clinic's existing structure]. To switch to a formal queue, edit CLAUDE.md → Supervision style."
 
 If formal queue IS enabled → read flag triggers and proceed.
 

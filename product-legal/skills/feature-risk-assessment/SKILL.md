@@ -8,11 +8,15 @@ description: >
   go wrong with", or when launch-review flags a novel issue.
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # Feature Risk Assessment
 
 ## Matter context
 
-**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/product-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/claude-for-legal/product-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
+**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/judge-fr-eu-product-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/judge-fr-eu/product-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
 
 ---
 
@@ -109,7 +113,7 @@ Pick one. Explain why. Acknowledge what you're trading off.
 
 ## Calibration check
 
-Before finalizing, check against `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md` → Risk calibration:
+Before finalizing, check against `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md` → Risk calibration:
 
 - Is this risk assessment calibrated to *this company*, or is it generic?
 - A risk that's "High" at a company under a consent decree might be "Medium" at one that isn't
@@ -118,26 +122,26 @@ Before finalizing, check against `~/.claude/plugins/config/claude-for-legal/prod
 ## Handoffs
 
 - **To AI governance:** If the deep-dive was triggered by an AI feature — which
-  it often is — run `/ai-governance-legal:aia-generation [feature]` in parallel or
+  it often is — run `/judge-fr-eu-ai-governance-legal:aia-generation [feature]` in parallel or
   immediately after. The feature risk assessment frames the decision; the AIA
   documents the AI system specifically in the format AI governance needs. They're
   not duplicates: the FRA is a product-legal decision doc; the AIA is the
   governance record.
 - **To privacy:** If the feature involves new data collection or processing,
-  run `/privacy-legal:pia-generation [feature]`. The FRA's risk section
+  run `/judge-fr-eu-privacy-legal:pia-generation [feature]`. The FRA's risk section
   will likely overlap with the PIA's — flag that overlap so work isn't duplicated,
   but both docs need to exist.
 - **To AI governance vendor review:** If the feature uses a new AI vendor,
-  run `/ai-governance-legal:vendor-ai-review [vendor agreement]` if not already done
+  run `/judge-fr-eu-ai-governance-legal:vendor-ai-review [vendor agreement]` if not already done
   during the launch review.
 
 ## Output format
 
-Standalone doc, 2-4 pages. Prepend the work-product header from `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md` `## Outputs` (it differs by user role — see `## Who's using this`).
+Standalone doc, 2-4 pages. Prepend the work-product header from `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md` `## Outputs` (it differs by user role — see `## Who's using this`).
 
 Not a slide deck, not a memo to file — a decision document someone reads and then decides.
 
-Save where `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md` → Launch review process says review docs go. If the doc is going to be shared with anyone outside the privileged loop (e.g., posted to a broadly-shared ticket), drop the work-product header only for that externally-facing copy and keep the privileged original in the matter file.
+Save where `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md` → Launch review process says review docs go. If the doc is going to be shared with anyone outside the privileged loop (e.g., posted to a broadly-shared ticket), drop the work-product header only for that externally-facing copy and keep the privileged original in the matter file.
 
 ## Citation check
 

@@ -6,13 +6,17 @@ description: >
   accommodation — and fires decision-point alerts before deadlines are missed.
   Not a status report; tells you what decision is required and when.
   Run weekly (set a Monday-morning reminder to invoke
-  `/employment-legal:leave-tracker`). Automated scheduling requires a
+  `/judge-fr-eu-employment-legal:leave-tracker`). Automated scheduling requires a
   separate integration — Claude Code agents do not self-schedule.
   Trigger phrases: "leave tracker", "open leaves", "FMLA status", "check
   leaves", "any leave deadlines".
 model: sonnet
 tools: ["Read", "Write", "mcp__*__query", "mcp__*__search", "mcp__*__list"]
 ---
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
 
 # Leave Tracker Agent
 
@@ -38,7 +42,7 @@ Do not track PTO, bereavement, jury duty, or other leave without a statutory
 deadline.
 
 > **Research the applicable regimes before relying on the tracker.** For each
-> jurisdiction in `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md`, identify the currently operative leave statutes,
+> jurisdiction in `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`, identify the currently operative leave statutes,
 > employer coverage thresholds, employee eligibility requirements, and any
 > amendments or new paid-leave programs. Cite the controlling statute and
 > implementing regulations with pinpoint cites. Verify currency — state paid
@@ -49,7 +53,7 @@ deadline.
 ## Schedule
 
 This agent does not run on its own. Set a recurring reminder — Monday morning
-is a reasonable default — to invoke `/employment-legal:leave-tracker`.
+is a reasonable default — to invoke `/judge-fr-eu-employment-legal:leave-tracker`.
 Automated scheduling requires a separate integration (e.g., a cron job or
 calendar reminder) outside the plugin.
 
@@ -57,7 +61,7 @@ calendar reminder) outside the plugin.
 
 ### Step 1 — Read the practice profile
 
-Read `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md`. Extract:
+Read `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`. Extract:
 - Jurisdictional footprint and any jurisdiction-specific leave rules the team
   has already researched and recorded
 - HRIS system and leave data access (`## Systems` section)
@@ -73,10 +77,10 @@ week), expected return date, designation status, medical certification
 status.
 
 **If manual:**
-Read `~/.claude/plugins/config/claude-for-legal/employment-legal/leave-register.yaml`. If the file doesn't exist, prompt:
+Read `~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml`. If the file doesn't exist, prompt:
 > "I don't see a leave register. Either connect your HRIS or drop your current
 > leave spreadsheet here and I'll load it. You can also use
-> `/employment-legal:log-leave` to add leaves one at a time."
+> `/judge-fr-eu-employment-legal:log-leave` to add leaves one at a time."
 Stop until data is provided.
 
 ### Step 3 — Calculate leave status for each open leave
@@ -130,7 +134,7 @@ Surface only entries requiring a decision or action. Do not surface clean
 leaves with no upcoming deadlines.
 
 Alert tiers (thresholds are agent-level defaults — adjust to the team's
-preference in `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md`):
+preference in `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`):
 - IMMEDIATE ACTION: decision or deadline within 3 business days
 - ACTION NEEDED THIS WEEK: within 7 days
 - COMING UP: within ~30 days
@@ -190,7 +194,7 @@ This is the highest-risk leave scenario in the register.
 Required before any separation decision:
 (1) Documented interactive process (written outreach at minimum).
 (2) Written undue-hardship analysis if additional leave was denied.
-(3) Escalation per `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md` before proceeding.
+(3) Escalation per `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md` before proceeding.
 Escalate to: [name from escalation table]
 ```
 
@@ -241,13 +245,13 @@ If the register has more than ~10 open leaves, or any time the user asks: offer 
 
 ### Step 6 — Update the register
 
-After running, update `~/.claude/plugins/config/claude-for-legal/employment-legal/leave-register.yaml` with recalculated fields
+After running, update `~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml` with recalculated fields
 (time used if pulled from HRIS, last_checked timestamp, status changes).
 Do not overwrite any `notes` fields the attorney has added manually.
 
 ## Leave register format
 
-`~/.claude/plugins/config/claude-for-legal/employment-legal/leave-register.yaml`:
+`~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml`:
 
 ```yaml
 - employee_id: [name, role, or anonymized ID]

@@ -8,23 +8,27 @@ description: >
 argument-hint: "[the question]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /is-this-a-problem
 
-1. Load `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md` → Risk calibration.
+1. Load `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md` → Risk calibration.
 2. Apply the triage workflow below.
 3. Pattern-match. Check for common traps.
 4. Answer in one minute: ✅ Fine / ⚠️ Needs a look / 🛑 Hold. One sentence why.
 5. If ⚠️ or 🛑: name the next step.
 
 ```
-/product-legal:is-this-a-problem "Can we use customer logos on the pricing page?"
+/judge-fr-eu-product-legal:is-this-a-problem "Can we use customer logos on the pricing page?"
 ```
 
 ---
 
 ## Matter context
 
-**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/product-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/claude-for-legal/product-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
+**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/judge-fr-eu-product-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/judge-fr-eu/product-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
 
 ---
 
@@ -40,7 +44,7 @@ The goal is speed. The PM asked at 4:47pm. They want an answer, not a memo.
 
 ## Load calibration
 
-Read `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md` → `## Risk calibration`. The whole point of this skill is pattern-matching against that table.
+Read `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md` → `## Risk calibration`. The whole point of this skill is pattern-matching against that table.
 
 ## The triage
 
@@ -73,11 +77,11 @@ Some questions are fine on the surface but have a twist. Recognize the fact patt
 | "Can we train on this data?" | Usage rights for the original collection purpose may not extend to training — flag and research the notice/consent the users were given at collection | "What did we tell users when we collected it? What jurisdictions are the users in?" |
 | "It's just an internal tool" | Internal tools still process personal data — flag as potentially implicating privacy regimes and route for research | "Whose data does it touch? Employees, customers, third parties?" |
 | "We already do something similar" | "Similar" is doing a lot of work — the delta is where the issue usually is | "Similar how? What's actually different?" |
-| "Can we use [AI vendor / LLM] for this?" | Vendor AI terms may permit training on inputs; use case may need an AIA — flag and route to `/ai-governance-legal:use-case-triage` | "Is there an AI addendum? What data goes into the model?" |
-| "Can we add AI to this feature?" | May be a new use case not in the registry; may trigger AIA requirement — flag and route to `/ai-governance-legal:use-case-triage` | "What does the AI do — assistive or automated? Who does it act on?" |
+| "Can we use [AI vendor / LLM] for this?" | Vendor AI terms may permit training on inputs; use case may need an AIA — flag and route to `/judge-fr-eu-ai-governance-legal:use-case-triage` | "Is there an AI addendum? What data goes into the model?" |
+| "Can we add AI to this feature?" | May be a new use case not in the registry; may trigger AIA requirement — flag and route to `/judge-fr-eu-ai-governance-legal:use-case-triage` | "What does the AI do — assistive or automated? Who does it act on?" |
 | "The model just decides automatically" | Automated decision-making without human review is regulated in some jurisdictions — flag and research the applicable rules for the affected users' jurisdictions | "Who's affected? Is there a human in the loop? Where are the affected users?" |
 | "It's AI-generated content" | Output IP and disclosure duties vary by jurisdiction and vendor terms — flag and route for research | "What's the content type? Does the vendor's ToS address output ownership? Who is the audience?" |
-| "We're just fine-tuning on our data" | Training data rights, output IP, and vendor obligations all change — flag and route to `/ai-governance-legal:vendor-ai-review` | "What's in the training data? Is any of it customer or employee data?" |
+| "We're just fine-tuning on our data" | Training data rights, output IP, and vendor obligations all change — flag and route to `/judge-fr-eu-ai-governance-legal:vendor-ai-review` | "What's in the training data? Is any of it customer or employee data?" |
 
 If a trap might be present, ask the one question before answering. One question, not a checklist. When the answer suggests a real issue, flag for research and route — don't pattern-match to a legal conclusion from the question alone.
 
@@ -85,7 +89,7 @@ If a trap might be present, ask the one question before answering. One question,
 
 **For Slack (the common case):**
 
-Slack triage replies are internal legal advice. If the reply is being pasted into a ticket, document, or channel that's broadly shared with non-legal, prepend the work-product header from `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md` `## Outputs` (it differs by user role — see `## Who's using this`):
+Slack triage replies are internal legal advice. If the reply is being pasted into a ticket, document, or channel that's broadly shared with non-legal, prepend the work-product header from `~/.claude/plugins/config/judge-fr-eu/product-legal/CLAUDE.md` `## Outputs` (it differs by user role — see `## Who's using this`):
 
 ```
 [WORK-PRODUCT HEADER — per plugin config ## Outputs]
@@ -123,7 +127,7 @@ this to the customer.
 ```
 ⚠️ Needs an AI governance triage — adding an LLM to this workflow means we need
 to check the use case against the registry and confirm an AIA is done before it
-ships. Takes a day. Want me to run `/ai-governance-legal:use-case-triage` now?
+ships. Takes a day. Want me to run `/judge-fr-eu-ai-governance-legal:use-case-triage` now?
 ```
 
 ## When to NOT use this skill

@@ -1,3 +1,5 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Corporate Counsel Plugin
 
 In-house corporate counsel workflows across four practice areas: M&A deals, board and corporate secretary, public company governance, and entity management. Activate only the modules that apply to your role. The cold-start interview is modular — it asks targeted questions per active area and writes only the relevant sections to your practice profile.
@@ -17,30 +19,30 @@ In-house corporate counsel workflows across four practice areas: M&A deals, boar
 ## First run
 
 ```
-/corporate-legal:cold-start-interview
+/judge-fr-eu-corporate-legal:cold-start-interview
 ```
 
-Walks through module selection, then a short targeted interview for each active area. Writes a modular `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` with only the relevant sections. Your configuration is stored at that path and survives plugin updates.
+Walks through module selection, then a short targeted interview for each active area. Writes a modular `~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md` with only the relevant sections. Your configuration is stored at that path and survives plugin updates.
 
 Per-deal setup (M&A module only):
 
 ```
-/corporate-legal:cold-start-interview --new-deal
+/judge-fr-eu-corporate-legal:cold-start-interview --new-deal
 ```
 
 ## Commands
 
 | Command | Does |
 |---|---|
-| `/corporate-legal:cold-start-interview` | Modular cold-start, or `--new-deal` / `--module [m&a \| board \| public \| entities]` |
-| `/corporate-legal:diligence-issue-extraction [folder]` | Read VDR docs, extract issues in house format |
-| `/corporate-legal:tabular-review` | Tabular review — one row per document, one column per data point, every cell cited to source, Excel output |
-| `/corporate-legal:material-contract-schedule` | Material contracts disclosure schedule from diligence findings |
-| `/corporate-legal:closing-checklist` | Closing checklist — what's blocking, critical path |
-| `/corporate-legal:written-consent` | Unanimous written consent — precedent-matched draft + signatory tracker |
-| `/corporate-legal:entity-compliance` | Entity compliance tracker — init, report, update, audit, export |
-| `/corporate-legal:integration-management` | Post-closing integration workplan, consents tracker, contract assignment, status reports |
-| `/corporate-legal:matter-workspace` | Manage matter workspaces (multi-client private practice only) — new, list, switch, close, none |
+| `/judge-fr-eu-corporate-legal:cold-start-interview` | Modular cold-start, or `--new-deal` / `--module [m&a \| board \| public \| entities]` |
+| `/judge-fr-eu-corporate-legal:diligence-issue-extraction [folder]` | Read VDR docs, extract issues in house format |
+| `/judge-fr-eu-corporate-legal:tabular-review` | Tabular review — one row per document, one column per data point, every cell cited to source, Excel output |
+| `/judge-fr-eu-corporate-legal:material-contract-schedule` | Material contracts disclosure schedule from diligence findings |
+| `/judge-fr-eu-corporate-legal:closing-checklist` | Closing checklist — what's blocking, critical path |
+| `/judge-fr-eu-corporate-legal:written-consent` | Unanimous written consent — precedent-matched draft + signatory tracker |
+| `/judge-fr-eu-corporate-legal:entity-compliance` | Entity compliance tracker — init, report, update, audit, export |
+| `/judge-fr-eu-corporate-legal:integration-management` | Post-closing integration workplan, consents tracker, contract assignment, status reports |
+| `/judge-fr-eu-corporate-legal:matter-workspace` | Manage matter workspaces (multi-client private practice only) — new, list, switch, close, none |
 
 ## Prerequisites
 
@@ -89,11 +91,21 @@ Intralinks, Datasite, and other VDR connectors can be added to `.mcp.json` when 
 
 ## How it learns
 
-Your practice profile at `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` isn't static — it improves as you use the plugin. Skills tell you when an output used a default you should tune. You can re-run setup, edit the file directly, or tell a skill to record a new position.
+Your practice profile at `~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md` isn't static — it improves as you use the plugin. Skills tell you when an output used a default you should tune. You can re-run setup, edit the file directly, or tell a skill to record a new position.
 
 ## M&A notes
 
 - Issue extraction applies materiality thresholds — does not read every document if threshold says top N by value.
 - Buy-side and sell-side are both supported. Practice Profile captures which side applies to this deal; skills adjust posture accordingly.
-- AI tool handoff (Luminance/Kira) is optional. If `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` says no tool, all extraction runs through the direct skill.
+- AI tool handoff (Luminance/Kira) is optional. If `~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md` says no tool, all extraction runs through the direct skill.
 - Closing checklist initializes from the purchase agreement, then self-updates as diligence surfaces consents required.
+
+## Judge FR/UE 0.1.0
+
+Technical identity/storage migration only; inherited legal tasks still require their France/EU adaptation stories. Maintained by the Judge FR/UE maintainers at https://github.com/Francois-Louis/Judge, derived from Claude for Legal / Anthropic without claiming affiliation.
+
+Install `judge-fr-eu-corporate-legal@judge-fr-eu` with explicit scope. Data lives under `config/judge-fr-eu/corporate-legal/`, outside replaceable packages. See [storage boundary](references/isolation.md), [license](LICENSE) and [modification notice](NOTICE). Commands use the `judge-fr-eu-corporate-legal:` prefix.
+
+```text
+/plugin install judge-fr-eu-corporate-legal@judge-fr-eu --scope user
+```

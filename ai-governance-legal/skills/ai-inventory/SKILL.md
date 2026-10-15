@@ -11,6 +11,10 @@ description: >
 argument-hint: "[list | add | edit <id> | classify <id> | show <id>]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /ai-inventory
 
 ## When this runs
@@ -26,12 +30,12 @@ obligations themselves are derived in conversation, not from a table.
 ## What to do
 
 1. **Read the config.** Read
-   `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`.
+   `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/CLAUDE.md`.
    If it doesn't exist or still has `[PLACEHOLDER]` markers, direct the user
-   to `/ai-governance-legal:cold-start-interview` first.
+   to `/judge-fr-eu-ai-governance-legal:cold-start-interview` first.
 
 2. **Read the inventory.** Inventory lives at
-   `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/ai-systems.yaml`.
+   `~/.claude/plugins/config/judge-fr-eu/ai-governance-legal/ai-systems.yaml`.
    If it doesn't exist, create it with an empty `systems:` list when the
    first `add` runs.
 
@@ -73,7 +77,7 @@ review within 30 days."
 Ask, one field at a time (or accept a paste). The required fields are
 `name`, `owner`, `description`, `status`, `eu_nexus`. The rest can be
 deferred — say so explicitly: "you can come back to classification with
-`/ai-governance-legal:ai-inventory classify <id>`."
+`/judge-fr-eu-ai-governance-legal:ai-inventory classify <id>`."
 
 1. **Name.** Short label for the system.
 2. **Owner.** Person or team accountable for it day-to-day.
@@ -197,7 +201,7 @@ Annex entry that matched, tagged `[verify against current AI Act text]`.
 Offer three next steps:
 1. "Want me to walk through obligations for this system? I'll do it in
    conversation — I don't derive them from a table."
-2. "Want to run `/ai-governance-legal:aia-generation` to produce a full
+2. "Want to run `/judge-fr-eu-ai-governance-legal:aia-generation` to produce a full
    impact assessment?"
 3. "Want to set a next review date? I'll add it to the inventory."
 
@@ -230,7 +234,7 @@ contain a hardcoded role × tier → obligations table.
 
 When the user asks "what are my obligations for System X?", the skill
 does the analysis **in conversation**, tagged `[verify]`, and routes to
-`/ai-governance-legal:aia-generation` for the formal impact assessment
+`/judge-fr-eu-ai-governance-legal:aia-generation` for the formal impact assessment
 if needed.
 
 This is deliberate:

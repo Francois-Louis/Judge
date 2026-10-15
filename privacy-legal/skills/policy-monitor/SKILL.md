@@ -10,26 +10,30 @@ description: >
 argument-hint: "[describe a proposed new practice — or omit / use --sweep for crawl mode]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /policy-monitor
 
 **Sweep mode** (no argument or `--sweep`):
-1. Read `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md` → outputs folder path, policy document, last sweep date.
+1. Read `~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md` → outputs folder path, policy document, last sweep date.
 2. Run the workflow below. Scan outputs folder for files since last sweep.
 3. For each output: extract approved practices → diff against current policy commitments.
 4. Classify gaps: REQUIRED (policy misrepresents current practice) vs ADVISABLE (policy silent).
 5. For each gap: quote current policy, describe gap, draft suggested language.
-6. Update Last policy sweep date in `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md`.
+6. Update Last policy sweep date in `~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md`.
 
 **Direct query mode** (with description argument):
-1. Read `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md` → current policy commitments + actual policy document.
+1. Read `~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md` → current policy commitments + actual policy document.
 2. Parse proposed practice. Diff against policy: data categories, purposes, third parties, retention, user rights, disclosure.
 3. Output: covered / missing / conflicting + suggested language for each gap + timing recommendation.
 
-**Schedule:** Set up a recurring reminder in your own scheduler (calendar, task manager, or CI) to run `/privacy-legal:policy-monitor` weekly. Scheduled execution requires a scheduled-tasks integration, which is not bundled with this plugin.
+**Schedule:** Set up a recurring reminder in your own scheduler (calendar, task manager, or CI) to run `/judge-fr-eu-privacy-legal:policy-monitor` weekly. Scheduled execution requires a scheduled-tasks integration, which is not bundled with this plugin.
 
 ```
-/privacy-legal:policy-monitor
-/privacy-legal:policy-monitor "We want to start using behavioral data to personalize onboarding emails"
+/judge-fr-eu-privacy-legal:policy-monitor
+/judge-fr-eu-privacy-legal:policy-monitor "We want to start using behavioral data to personalize onboarding emails"
 ```
 
 ---
@@ -54,7 +58,7 @@ The output is always the same: here's the gap, here's the suggested language.
 
 ## Load current state
 
-Read `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md`:
+Read `~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md`:
 - `## Who we are` → `## Regulatory footprint` — the regimes in scope (GDPR, CCPA / CPRA / other state consumer privacy, GLBA, HIPAA, FERPA, COPPA, VPPA, CPNI, etc.)
 - `## Privacy policy commitments` — the commitments extracted from the published policy
 - `## Outputs` — outputs folder path, policy document location, last sweep date
@@ -62,7 +66,7 @@ Read `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md`:
 If `## Outputs` contains `[PLACEHOLDER]`:
 > "Outputs aren't configured yet. I can still run a direct-query check — describe
 > what you're planning to do and I'll diff it against your current policy. To enable
-> the crawl sweep, run `/privacy-legal:cold-start-interview` and provide the outputs
+> the crawl sweep, run `/judge-fr-eu-privacy-legal:cold-start-interview` and provide the outputs
 > folder path."
 
 Read the actual privacy policy document from the path in `## Outputs` → **Privacy
@@ -127,7 +131,7 @@ If the outputs folder is empty or has no new files since the last sweep:
 > "No new outputs since [last sweep date]. Policy appears current with recent
 > practice. Next scheduled sweep: [date]."
 
-Update **Last policy sweep** in `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md` to today's date after completing the sweep.
+Update **Last policy sweep** in `~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md` to today's date after completing the sweep.
 
 ### What to read in each output type
 
@@ -331,11 +335,11 @@ exist, say so and suggest creating it.
 ## Schedule integration
 
 Set up a recurring reminder in your own scheduler (calendar, task manager, or CI)
-to run `/privacy-legal:policy-monitor` weekly. Scheduled execution requires a
+to run `/judge-fr-eu-privacy-legal:policy-monitor` weekly. Scheduled execution requires a
 scheduled-tasks integration, which is not bundled with this plugin.
 
 Whenever the sweep runs, it updates `## Outputs` → **Last policy sweep** in
-`~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md`, so the next sweep only looks at new files.
+`~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md`, so the next sweep only looks at new files.
 
 ---
 

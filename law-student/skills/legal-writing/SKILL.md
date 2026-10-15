@@ -8,15 +8,19 @@ description: >
 argument-hint: "[paste draft OR path to file]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /legal-writing
 
-1. Load `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` → class, writing skill level, past feedback patterns.
+1. Load `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` → class, writing skill level, past feedback patterns.
 2. Apply the framework below.
 3. Read full draft top to bottom. Identify structural type (memo / brief / paper / essay).
 4. Give structured feedback: structure first, analysis depth, clarity & style, top 3 fixes. Flag `[VERIFY]` on any substantive rule call I'm unsure about.
 5. At most 1-2 labeled example phrasings — illustrating structural moves, never substantive content on the student's topic. Every example labeled "write yours — don't copy."
 6. If asked to rewrite: refuse gracefully. Offer targeted structural feedback instead.
-7. Append to `~/.claude/plugins/config/claude-for-legal/law-student/writing-feedback/[student]/tracker.md` for pattern detection.
+7. Append to `~/.claude/plugins/config/judge-fr-eu/law-student/writing-feedback/[student]/tracker.md` for pattern detection.
 
 ---
 
@@ -40,7 +44,7 @@ Example phrasings are permitted sparingly because seeing structural moves (not c
 
 ## Load context
 
-- `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` → class, assignment type (if known), writing skill level, graded-essay feedback history
+- `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` → class, assignment type (if known), writing skill level, graded-essay feedback history
 - Student-provided draft
 - Optional: rubric or assignment prompt if the student shares one
 
@@ -131,11 +135,11 @@ Refuse. Gracefully, not preachy:
 Then offer one of:
 - More specific structural feedback on a targeted section
 - A labeled example of the structural move at issue
-- A socratic drill on the rule or issue they're trying to write about (routes to `/law-student:socratic-drill`)
+- A socratic drill on the rule or issue they're trying to write about (routes to `/judge-fr-eu-law-student:socratic-drill`)
 
 ### Step 5: Track patterns
 
-Append session summary to `~/.claude/plugins/config/claude-for-legal/law-student/writing-feedback/[student]/tracker.md`:
+Append session summary to `~/.claude/plugins/config/judge-fr-eu/law-student/writing-feedback/[student]/tracker.md`:
 
 ```markdown
 ## [date] — [assignment type / subject]
@@ -150,8 +154,8 @@ After 3+ sessions: surface patterns ("you consistently bury the thesis," "analys
 
 ## Integration
 
-- **irac-practice:** for IRAC-specific exam essays, `/law-student:irac-practice` is more targeted
-- **socratic-drill:** if the writing issue is that the student doesn't understand the rule, `/law-student:socratic-drill` on the substantive area first
+- **irac-practice:** for IRAC-specific exam essays, `/judge-fr-eu-law-student:irac-practice` is more targeted
+- **socratic-drill:** if the writing issue is that the student doesn't understand the rule, `/judge-fr-eu-law-student:socratic-drill` on the substantive area first
 - **flashcards:** if citation form keeps being wrong, flashcards on common citation patterns
 
 ## Close with the next-steps decision tree

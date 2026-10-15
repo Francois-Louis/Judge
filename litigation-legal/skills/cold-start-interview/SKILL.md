@@ -4,9 +4,13 @@ description: House cold-start for the litigation plugin — branches by role (in
 argument-hint: "[--redo | --check-integrations]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /cold-start-interview
 
-1. Check `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md`. If already populated and no `--redo`, ask before overwriting.
+1. Check `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md`. If already populated and no `--redo`, ask before overwriting.
 2. Follow the workflow and reference below.
 3. Run Part 0 (role, side, integration check). The interview branches by role and side.
    - **Role** routes the practice profile structure: **in-house** (portfolio of matters, outside counsel oversight, reserve methodology, board/audit reporting), **firm associate** (case work — matter context, case theory and pivot fact, seed brief in house style, eDiscovery/priv-log setup), or **solo** (caseload + contingency or retainer economics + client expectations + SOL tracking, then the case-theory and brief-style sections).
@@ -14,14 +18,14 @@ argument-hint: "[--redo | --check-integrations]"
 
    After Part 0, walk the sections that match the selected role. Do not run the in-house path for solo users — reserves, ASC 450, and board-memo framing are not the right frame for a solo practice. Offer defaults; capture freeform overrides. Ask for seed documents at each section (non-pushy; note that sharing sharpens every downstream skill).
 4. Surface gaps. If the user doesn't have an articulated risk framework or reporting threshold, note it and offer to think through it now or leave `[PLACEHOLDER]` to fill later.
-5. Migration: if a populated CLAUDE.md (no `[PLACEHOLDER]` markers) exists at `~/.claude/plugins/cache/claude-for-legal/litigation-legal/*/CLAUDE.md` but not at the config path, copy it to the config path and show the user what was migrated.
-6. Write `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md`. Date the footer.
+5. If the fork profile is absent, start a fresh France/EU interview; never read a cache or another distribution.
+6. Write `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md`. Date the footer.
 7. Confirm with the user before finalizing: "Here's what I captured — anything wrong?"
 
 ## Flags
 
-- `--redo` — re-run the full interview and overwrite `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md`.
-- `--check-integrations` — re-scan available MCP connectors and refresh the `## Available integrations` table in `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` without re-running the full interview. Use after setting up a new connector (DMS, document storage, Gmail, scheduled-tasks, CLM).
+- `--redo` — re-run the full interview and overwrite `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md`.
+- `--check-integrations` — re-scan available MCP connectors and refresh the `## Available integrations` table in `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` without re-running the full interview. Use after setting up a new connector (DMS, document storage, Gmail, scheduled-tasks, CLM).
 
 When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 
@@ -41,20 +45,20 @@ The interview also asks which side the user mostly represents — plaintiff (ass
 
 ## Cold-start check
 
-Read `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md`:
+Read `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md`:
 - **Does not exist** → start the interview.
 - **Contains `<!-- SETUP PAUSED AT: -->`** → greet the user and offer to resume from that section.
 - **Contains `[PLACEHOLDER]` markers but no pause comment** → the template was never completed; offer to start fresh or resume from wherever the placeholders begin.
 - **Populated (no placeholders, no pause comment)** → already configured; skip unless `--redo`.
 
-The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed. If a CLAUDE.md exists at the old cache path `~/.claude/plugins/cache/claude-for-legal/litigation-legal/*/CLAUDE.md` but not here, copy it forward.
+The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed. If the fork profile is absent, start a fresh interview; never import a cached profile.
 
 ## Check for the shared company profile
 
-Look for `~/.claude/plugins/config/claude-for-legal/company-profile.md`.
+Look for `~/.claude/plugins/config/judge-fr-eu/company-profile.md`.
 
 - **If it exists:** Read it. Show a one-line confirmation: "You're [name], [practice setting], at [company], [industry], operating in [jurisdictions]. Right? (Or say 'update' to change the shared profile.)" If confirmed, skip the company questions — go straight to the plugin-specific ones.
-- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
+- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `${CLAUDE_PLUGIN_ROOT}/references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
 
 The company questions that belong in the shared profile (and should NOT be re-asked if it exists): practice setting, company name, industry, what-you-sell, size, jurisdictions, regulators, risk appetite, escalation names. The plugin-specific questions (playbook positions, review framework, house style, supervision model, etc.) stay per-plugin.
 
@@ -70,13 +74,13 @@ Ask the user to confirm before proceeding: continue with project scope, or pause
 
 Open with the fork-first preamble. Keep it to 3-4 short lines. Ask quick-or-full before anything else.
 
-> **`litigation-legal` is for people who work litigation — managing a portfolio of matters in-house, drafting briefs and doing discovery at a firm, or both as a solo practitioner.** Not your area? `/legal-builder-hub:related-skills-surfacer`.
+> **`litigation-legal` is for people who work litigation — managing a portfolio of matters in-house, drafting briefs and doing discovery at a firm, or both as a solo practitioner.** Not your area? `/judge-fr-eu-legal-builder-hub:related-skills-surfacer`.
 >
 > **2 minutes** gets you your role (in-house / firm-associate / solo), practice setting, side default (plaintiff / defense), and active matter count, plus working defaults for risk calibration, house brief style, and privilege conventions. **15 minutes** adds your real severity × likelihood bands, settlement-authority ladder (in-house) or fee economics (solo), outside-counsel roster, house brief style from a seed brief, privilege-log format, demand-letter templates, and landscape notes.
 >
 > Quick or full? (Upgrade any time with `/cold-start-interview --full`.)
 
-**Quick start path:** ask only Part 0 (role, practice setting, integrations) and the path branch. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for risk calibration, house style, and case-theory scaffolding. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/litigation-legal:cold-start-interview --full` anytime to do the whole interview, or `/litigation-legal:cold-start-interview --redo <section>` to re-do one part."
+**Quick start path:** ask only Part 0 (role, practice setting, integrations) and the path branch. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for risk calibration, house style, and case-theory scaffolding. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/judge-fr-eu-litigation-legal:cold-start-interview --full` anytime to do the whole interview, or `/judge-fr-eu-litigation-legal:cold-start-interview --redo <section>` to re-do one part."
 
 **Full setup path:** the existing interview flow below. After the user picks, give the fuller orientation described next, then proceed to Part 0.
 
@@ -107,7 +111,7 @@ Draw the practice profile only from the user's typed answers and documents they 
 - **For seed-document uploads:** "Paste the contents, share a file path, or say 'skip for now.' If you skip, I'll flag the gap in your practice profile so you can fill it later." Then actually wait.
 - **Before writing the practice profile:** review every captured answer. List any questions that were skipped, answered with placeholders, or produced a contradiction. Say: "Before I write your practice profile, here's what's still open: [list]. Want to fill any of these now, or leave them as placeholders?" Then wait.
 - **Never** write a practice profile with silent gaps. Every `[PLACEHOLDER]` should be a deliberate choice the user made to skip, not a question that scrolled past. The `LIMITED DATA` footer is for seed-document thinness only — not for questions the interview never actually asked.
-- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/litigation-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration with a `<!-- SETUP PAUSED AT: [section name] — run /litigation-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
+- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/judge-fr-eu-litigation-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration with a `<!-- SETUP PAUSED AT: [section name] — run /judge-fr-eu-litigation-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
 
 **Verify user-stated legal facts as they come up in setup.** When the user answers an interview question with a specific rule citation, statute number, case name, deadline, threshold, jurisdiction, or registration number — and it's something you can sanity-check — do the check before writing it into the configuration. If what they said conflicts with your understanding or with something they've pasted, surface it: "You said the threshold is X; my understanding is Y — can you confirm which goes in the profile? `[premise flagged — verify]`" A wrong fact written into CLAUDE.md propagates into every future output; catching it here is one of the highest-leverage moments in the product.
 
@@ -291,7 +295,7 @@ If not:
 - Privilege conventions — marking; default subjective-call posture (mark and flag); review mechanic (inline / queue / both). (This feeds /privilege-log-review — the skill applies your marking rules and review mechanic on every priv-log pass.)
 - Legal hold — template, issuance protocol, refresh cadence. *Seed doc:* hold template. (This feeds /legal-hold — the skill issues, refreshes, and releases holds using your house template.)
 - Escalation — channel norms, subject-line convention.
-- Demand-letter practice — *not asked here.* Demand posture (tone, time limits, marking, signer) is set per matter, not per practice. `/litigation-legal:demand-intake` and `/litigation-legal:demand-draft` will ask when they need it — those calls depend on the relationship, the amount, and whether litigation is likely, and a practice-level default tends to mis-calibrate the specific letter. What the setup interview *does* want here: insurance-tender timing (who you notify and when, before sending) and materiality threshold for matter creation (below $X, record only; above, create a matter). Those are practice-level.
+- Demand-letter practice — *not asked here.* Demand posture (tone, time limits, marking, signer) is set per matter, not per practice. `/judge-fr-eu-litigation-legal:demand-intake` and `/judge-fr-eu-litigation-legal:demand-draft` will ask when they need it — those calls depend on the relationship, the amount, and whether litigation is likely, and a practice-level default tends to mis-calibrate the specific letter. What the setup interview *does* want here: insurance-tender timing (who you notify and when, before sending) and materiality threshold for matter creation (below $X, record only; above, create a matter). Those are practice-level.
 
 **Offer:** "If you didn't upload a house-style guide or templates, want me to write your house-style rules up as a standalone style memo?"
 
@@ -360,7 +364,7 @@ Skip the board-memo / reserve-memo / outside-counsel-directive questions entirel
 - **Retainer / engagement agreement** — template. *Seed doc:* the exemplar (redacted fine).
 - **Privilege conventions** — marking; review mechanic.
 - **Legal hold** — even for a solo, preservation matters when litigation is anticipated. Template, if any. *Seed doc:* hold notice if issued.
-- **Demand-letter practice** — *not asked here.* Demand posture (tone, time limits, marking, signer) is set per matter, not per practice — the solo equivalent of "who signs" answers itself (you), and tone/marking/timing depend on the specific dispute. `/litigation-legal:demand-intake` will ask when it drafts.
+- **Demand-letter practice** — *not asked here.* Demand posture (tone, time limits, marking, signer) is set per matter, not per practice — the solo equivalent of "who signs" answers itself (you), and tone/marking/timing depend on the specific dispute. `/judge-fr-eu-litigation-legal:demand-intake` will ask when it drafts.
 
 **Offer:** "If you didn't upload a client-update exemplar or retainer, want me to write your house-style rules up as a standalone memo you can reuse?"
 
@@ -446,7 +450,7 @@ After the interview, before writing, summarize and **wait for an answer**:
 > Here's what I captured. Gaps I noticed:
 > - [list any skipped sections, placeholders left blank, questions where the user said "come back later"]
 >
-> Want to fill any of these now, or leave them as placeholders? You can also fill them later via `/litigation-legal:cold-start-interview --redo` or by editing the plugin config directly. This one is worth thinking about before I write: [name the most important gap and why].
+> Want to fill any of these now, or leave them as placeholders? You can also fill them later via `/judge-fr-eu-litigation-legal:cold-start-interview --redo` or by editing the plugin config directly. This one is worth thinking about before I write: [name the most important gap and why].
 
 Do not proceed to writing until the user answers.
 
@@ -460,30 +464,30 @@ If yes, show this tailored list (not a generic template — these are the concre
 
 > **Here's what I'm good at in litigation practice:**
 >
-> - **Intake a new matter** — e.g., "Uniform intake questions, writes matter.md + history.md, appends to the portfolio log." Try: `/litigation-legal:matter-intake`
-> - **Triage an inbound demand** — e.g., "Options analysis, portfolio cross-check, handoff to matter intake if it graduates." Try: `/litigation-legal:demand-received`
-> - **Draft a demand letter** — e.g., "Privilege / FRE 408 gate, .docx output, post-send checklist, matter-creation offer." Try: `/litigation-legal:demand-draft`
-> - **Build a deposition outline** — e.g., "Docs + topics + impeachment + exhibits, tied to case theory." Try: `/litigation-legal:deposition-prep`
-> - **Issue or refresh a legal hold** — e.g., "Draft the hold memo, update the log, schedule a refresh." Try: `/litigation-legal:legal-hold`
-> - **Portfolio rollup** — e.g., "Risk distribution, upcoming deadlines, stale matters across the active portfolio." Try: `/litigation-legal:portfolio-status`
+> - **Intake a new matter** — e.g., "Uniform intake questions, writes matter.md + history.md, appends to the portfolio log." Try: `/judge-fr-eu-litigation-legal:matter-intake`
+> - **Triage an inbound demand** — e.g., "Options analysis, portfolio cross-check, handoff to matter intake if it graduates." Try: `/judge-fr-eu-litigation-legal:demand-received`
+> - **Draft a demand letter** — e.g., "Privilege / FRE 408 gate, .docx output, post-send checklist, matter-creation offer." Try: `/judge-fr-eu-litigation-legal:demand-draft`
+> - **Build a deposition outline** — e.g., "Docs + topics + impeachment + exhibits, tied to case theory." Try: `/judge-fr-eu-litigation-legal:deposition-prep`
+> - **Issue or refresh a legal hold** — e.g., "Draft the hold memo, update the log, schedule a refresh." Try: `/judge-fr-eu-litigation-legal:legal-hold`
+> - **Portfolio rollup** — e.g., "Risk distribution, upcoming deadlines, stale matters across the active portfolio." Try: `/judge-fr-eu-litigation-legal:portfolio-status`
 >
 > **My suggestion for your first one:** Run `/portfolio-status` — it shows you at a glance where the portfolio sits, and it's zero-input to try. Or tell me what's on your plate and I'll pick.
 
 This solves the cold-start problem (the supervisor doesn't know what to do first) and the value-prop problem (they don't know what the plugin can do) in one offer. Make the list specific. Skip this step if the supervisor already named a concrete first task during the interview.
 
 
-- If `in-house`: "The in-house practice profile is now written. Every matter intake will read from it. Want to run `/litigation-legal:matter-intake` on your most live matter to see it in action?"
+- If `in-house`: "The in-house practice profile is now written. Every matter intake will read from it. Want to run `/judge-fr-eu-litigation-legal:matter-intake` on your most live matter to see it in action?"
 - If `firm-associate`: "Here's the theory as I captured it. Read the pivot fact — did I get it right? What's the next deadline? Let's start there."
-- If `solo`: "Your solo practice profile is written — caseload shape, fee economics, how you run the office — plus the case-theory and brief-style work for a live matter. Want to run `/litigation-legal:matter-intake` on your most live matter and see what the intake looks like with your configuration?"
+- If `solo`: "Your solo practice profile is written — caseload shape, fee economics, how you run the office — plus the case-theory and brief-style work for a live matter. Want to run `/judge-fr-eu-litigation-legal:matter-intake` on your most live matter and see what the intake looks like with your configuration?"
 
 ### Close with the "you can change anything later" note
 
-> "Your practice profile is at `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` — a plain text file you can read and edit directly. Anything you answered can be changed:
+> "Your practice profile is at `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` — a plain text file you can read and edit directly. Anything you answered can be changed:
 >
 > - Edit the file directly for a quick change
-> - Run `/litigation-legal:cold-start-interview --redo` for a full re-interview
-> - Run `/litigation-legal:cold-start-interview --new-matter` to reuse the practice profile on a new matter (firm-associate / solo)
-> - Run `/litigation-legal:cold-start-interview --check-integrations` to re-check what's connected
+> - Run `/judge-fr-eu-litigation-legal:cold-start-interview --redo` for a full re-interview
+> - Run `/judge-fr-eu-litigation-legal:cold-start-interview --new-matter` to reuse the practice profile on a new matter (firm-associate / solo)
+> - Run `/judge-fr-eu-litigation-legal:cold-start-interview --check-integrations` to re-check what's connected
 >
 > The sections people adjust most: for in-house, the **severity × likelihood thresholds** and the **outside counsel bench**; for firm associate, the **case theory** (especially the pivot fact) and the **house brief style** extracted from the seed brief; for solo, the **fee structure** (contingency percentage or hourly rate) and the **side default** (plaintiff / defense) — a wrong default there skews every demand-letter and chronology output. When an output feels off, the fix is usually here."
 
@@ -492,7 +496,7 @@ This solves the cold-start problem (the supervisor doesn't know what to do first
 **Connect a research tool.** Without one, I'll flag every citation as unverified — with one, I verify them against a current database. In Cowork: Settings → Connectors. In Claude Code: authorize when a skill prompts you.
 
 <!-- COLLATERAL LINKS: when onboarding collateral exists, add here:
-     "Want a walkthrough? [Watch the 3-minute intro](URL) or [read the getting-started guide](URL)." -->
+     "Want a walkthrough? the introduction (link not yet supplied) or the getting-started guide (link not yet supplied)." -->
 
 ### Your practice profile learns
 
@@ -512,3 +516,16 @@ After writing the practice profile, close with this note:
 - Pretend gaps aren't there. Better to leave `[PLACEHOLDER]` honestly than to invent a threshold.
 - Fight the user. If they say "I don't have that yet," note it and move on.
 - Read personal `~/CLAUDE.md` or other ambient context without asking.
+
+## Judge FR/UE setup boundary
+
+Read only the fork profile and shared profile using the packaged storage helper.
+If the practice profile is absent, including with `--check-integrations`, start
+a new interview: confirm France/EU jurisdictions, role and dates from the user.
+Do not search or copy any other profile, cache, legal rules, matters or registers.
+Use the packaged template only as a section scaffold. Preserve an existing
+profile and its answers, including paused progress; `--redo` reviews only the
+requested sections and does not reset unrelated answers. Create new files
+exclusively; for an agreed edit, supply the digest of the file reviewed.
+Never use inherited US defaults to fill unanswered France/EU legal fields;
+leave them explicitly unresolved. Assisted import requires a separate story.

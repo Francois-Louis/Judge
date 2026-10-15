@@ -4,9 +4,13 @@ description: Build or review an element chart — a patent claim chart (infringe
 argument-hint: '[--patent | --civil] [--infringement | --invalidity | --review] [--claim <n>] [--count <name>] [--target <slug>]'
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /claim-chart
 
-1. Load `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` → role, work-product header, decision posture, document storage.
+1. Load `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` → role, work-product header, decision posture, document storage.
 2. If matter workspaces enabled, confirm or select the active matter; load `matter.md` (side, jurisdiction, phase, theory, pleadings).
 3. Follow the workflow and reference below.
 4. Mode selection:
@@ -47,13 +51,13 @@ Under-flagging a gap is a one-way door — a complaint filed without plausibilit
 
 ## Matter context
 
-Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/litigation-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` — especially the case theory, the pleading / complaint (for the elements actually alleged), the jurisdiction, any Markman order or stipulated constructions (patent mode), and the phase of the case. Write outputs to the matter folder at `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/<matter-slug>/claim-charts/`. Never read another matter's files unless `Cross-matter context` is `on`.
+Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/judge-fr-eu-litigation-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` — especially the case theory, the pleading / complaint (for the elements actually alleged), the jurisdiction, any Markman order or stipulated constructions (patent mode), and the phase of the case. Write outputs to the matter folder at `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/<matter-slug>/claim-charts/`. Never read another matter's files unless `Cross-matter context` is `on`.
 
 ---
 
 ## Load context
 
-- `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` → role, work-product header, decision posture, document storage, case-theory scaffolding
+- `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` → role, work-product header, decision posture, document storage, case-theory scaffolding
 - Active matter's `matter.md` — claims, defenses, side, jurisdiction, phase, theory
 - For civil mode: the complaint or counterclaim (for the actually-pleaded counts), any answer (for the actually-pleaded affirmative defenses), the relevant pattern jury instruction source, and the governing statute if statutory. Also the evidence corpus — deposition transcripts, declarations, produced documents, expert reports.
 - For patent mode: the patent, the asserted claims, the specification, prosecution history if available, the accused-product material or prior art reference, any Markman order or stipulated constructions.
@@ -63,18 +67,18 @@ If `CLAUDE.md` has `[PLACEHOLDER]` markers, surface this bounce:
 > I notice you haven't configured your practice profile yet — that's how I tailor risk calibration, landscape, and house style to your practice.
 >
 > **Two choices:**
-> - Run `/litigation-legal:cold-start-interview` (2 minutes) to configure your profile, then I'll run this tailored to YOUR practice.
+> - Run `/judge-fr-eu-litigation-legal:cold-start-interview` (2 minutes) to configure your profile, then I'll run this tailored to YOUR practice.
 > - Say **"provisional"** and I'll run this against generic defaults — US jurisdiction, middle risk appetite, lawyer role, no playbook — and tag every output `[PROVISIONAL — configure your profile for tailored output]` so you can see what I do before committing.
 
 ### Provisional mode
 
 If the user says "provisional," build the claim chart normally using these generic defaults: middle risk appetite, lawyer role, US jurisdiction, no practice-level playbook (work from the matter's pleadings and the elements of the claims as pleaded). Tag the reviewer note and every row of the chart with `[PROVISIONAL]`. At the end of the output, append:
 
-> "That was a generic run against default assumptions. Run `/litigation-legal:cold-start-interview` to get output calibrated to YOUR practice — your risk calibration, your landscape, your house style. 2 minutes."
+> "That was a generic run against default assumptions. Run `/judge-fr-eu-litigation-legal:cold-start-interview` to get output calibrated to YOUR practice — your risk calibration, your landscape, your house style. 2 minutes."
 
-**Conflicts gate — unbypassable.** Before building a claim chart, check `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/_log.yaml` for the matter slug. If the matter is not in `_log.yaml`, refuse and route:
+**Conflicts gate — unbypassable.** Before building a claim chart, check `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/_log.yaml` for the matter slug. If the matter is not in `_log.yaml`, refuse and route:
 
-> "I don't see [matter slug] in the matter log. Run `/litigation-legal:matter-intake` first so the conflicts check runs and the matter workspace is set up. I won't build a claim chart on a matter that hasn't been intaken — the conflicts check is the gate."
+> "I don't see [matter slug] in the matter log. Run `/judge-fr-eu-litigation-legal:matter-intake` first so the conflicts check runs and the matter workspace is set up. I won't build a claim chart on a matter that hasn't been intaken — the conflicts check is the gate."
 
 Do not proceed on an unintaken matter. Intake is what runs conflicts and writes the `_log.yaml` row this skill reads from.
 
@@ -345,7 +349,7 @@ For an opposing party's MSJ brief, a motion to dismiss, or outside counsel's dra
 
 ## Output
 
-Prepend the work-product header from `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` `## Outputs`.
+Prepend the work-product header from `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` `## Outputs`.
 
 ### Markdown table (always)
 
@@ -414,7 +418,7 @@ Prepend the work-product header as the top row. Alongside it, include:
 - Civil: `element-chart-[count-slug]-[side]-YYYY-MM-DD.{md,csv,xlsx}`
 - Review: `chart-review-[subject]-YYYY-MM-DD.{md,csv,xlsx}`
 
-If matter workspaces enabled and a matter is active: `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/<matter-slug>/claim-charts/`. Otherwise: `~/.claude/plugins/config/claude-for-legal/litigation-legal/claim-charts/`. Surface the path. Append a one-line entry to the matter's `history.md`.
+If matter workspaces enabled and a matter is active: `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/<matter-slug>/claim-charts/`. Otherwise: `~/.claude/plugins/config/judge-fr-eu/litigation-legal/claim-charts/`. Surface the path. Append a one-line entry to the matter's `history.md`.
 
 ## Summary readout
 
@@ -453,12 +457,12 @@ Deliver the chart alongside the brief.
 
 ## Relationship to other skills
 
-- `ip-legal:infringement-triage` (patent mode) — the first-pass flag list. This skill is the full chart that comes next.
-- `ip-legal:fto-triage` — FTO uses the same mechanics from the potentially-accused posture. If evaluating own product vs. a third-party patent, route to FTO and use this skill's format.
-- `corporate-legal:tabular-review` — the underlying cell-level citation and verification-state pattern. A claim / element chart is a specialized tabular review.
-- `litigation-legal:chronology` — the chronology is the timeline; the element chart is the proof matrix. A chronology entry often becomes a cell's evidence cite.
-- `litigation-legal:deposition-prep` — a `needs-discovery` cell often becomes a depo topic. After a depo, new testimony fills cells.
-- `litigation-legal:brief-section-drafter` — an MSJ brief's fact section is often built directly off the supported rows of an element chart.
+- `judge-fr-eu-ip-legal:infringement-triage` (patent mode) — the first-pass flag list. This skill is the full chart that comes next.
+- `judge-fr-eu-ip-legal:fto-triage` — FTO uses the same mechanics from the potentially-accused posture. If evaluating own product vs. a third-party patent, route to FTO and use this skill's format.
+- `judge-fr-eu-corporate-legal:tabular-review` — the underlying cell-level citation and verification-state pattern. A claim / element chart is a specialized tabular review.
+- `judge-fr-eu-litigation-legal:chronology` — the chronology is the timeline; the element chart is the proof matrix. A chronology entry often becomes a cell's evidence cite.
+- `judge-fr-eu-litigation-legal:deposition-prep` — a `needs-discovery` cell often becomes a depo topic. After a depo, new testimony fills cells.
+- `judge-fr-eu-litigation-legal:brief-section-drafter` — an MSJ brief's fact section is often built directly off the supported rows of an element chart.
 
 ---
 

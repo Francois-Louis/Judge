@@ -4,9 +4,13 @@ description: Open gaps tracker — what's flagged and not yet closed. Use when t
 argument-hint: "[optional: --close GAP-ID | --accept GAP-ID]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /gaps
 
-1. Read the gap tracker at `~/.claude/plugins/config/claude-for-legal/regulatory-legal/gap-tracker.yaml`.
+1. Read the gap tracker at `~/.claude/plugins/config/judge-fr-eu/regulatory-legal/gap-tracker.yaml`.
 2. If `--close`: mark gap closed with resolution note.
 3. If `--accept`: record the risk-acceptance rationale and acceptor, status → risk-accepted.
 4. Otherwise: report open gaps by age and materiality.

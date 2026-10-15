@@ -9,11 +9,15 @@ description: >
 argument-hint: "[section name, or describe what you want to change]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /customize
 
 ## When this runs
 
-The user typed `/law-student:customize`. They want to change something in
+The user typed `/judge-fr-eu-law-student:customize`. They want to change something in
 their study profile — a class, a learning style preference, a bar prep
 subject — without re-running the whole cold-start interview and without
 hand-editing YAML.
@@ -21,11 +25,11 @@ hand-editing YAML.
 ## What to do
 
 1. **Read the config.** Read
-   `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md`.
+   `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md`.
    If the plugin config does not exist or still contains `[PLACEHOLDER]`
    values, say:
 
-   > You haven't run setup yet. Run `/law-student:cold-start-interview`
+   > You haven't run setup yet. Run `/judge-fr-eu-law-student:cold-start-interview`
    > first — customize is for adjusting a profile you already have.
 
 2. **Show the customizable map.** List what's in the profile, grouped, with a
@@ -70,7 +74,7 @@ hand-editing YAML.
 5. **Close.**
 
    > Done. Your next output will reflect the change. Anything else? You can
-   > run `/law-student:customize` anytime.
+   > run `/judge-fr-eu-law-student:customize` anytime.
 
 ## Guardrails
 

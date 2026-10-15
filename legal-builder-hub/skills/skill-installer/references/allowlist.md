@@ -1,9 +1,11 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Allowlist Configuration
 
 The installer supports an allowlist at:
 
 ```
-~/.claude/plugins/config/claude-for-legal/legal-builder-hub/allowlist.yaml
+~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/allowlist.yaml
 ```
 
 This file lets an administrator constrain what the installer is allowed to

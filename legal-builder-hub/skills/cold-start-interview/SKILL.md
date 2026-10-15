@@ -10,15 +10,21 @@ description: >
 argument-hint: "[--redo] [--check-integrations]"
 ---
 
+For every community lifecycle operation, first load `${CLAUDE_PLUGIN_ROOT}/references/community-lifecycle.md`. Its helper owns installation, updates, backups, rollback, disabling, enabling, uninstall and the fork journal.
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /cold-start-interview
 
-1. Check `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md`. If a populated CLAUDE.md (no `[PLACEHOLDER]` markers) exists at `~/.claude/plugins/cache/claude-for-legal/legal-builder-hub/*/CLAUDE.md` but not at the config path, copy it to the config path and tell the user what was migrated.
+1. Check `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md`. If the fork profile is absent, start a fresh France/EU interview; never read a cache or another distribution.
 2. Run Part 0 (role + integration check), then the five questions (practice type, industry, team, tooling comfort), per the workflow below.
 3. Match profile to registry skills. Recommend starter pack.
 4. Show each recommended skill's SKILL.md summary. User picks.
-5. Install picked skills. Write `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` (creating parent directories as needed) with `## Who's using this`, `## Available integrations`, profile + installed list.
+5. Install picked skills. Write `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` (creating parent directories as needed) with `## Who's using this`, `## Available integrations`, profile + installed list.
 
-**`--check-integrations`:** Re-run only the Part 0 integration-availability check. Updates the `## Available integrations` table in `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` without touching the role or practice profile. Use this after adding or removing an MCP connector.
+**`--check-integrations`:** Re-run only the Part 0 integration-availability check. Updates the `## Available integrations` table in `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` without touching the role or practice profile. Use this after adding or removing an MCP connector.
 
 When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 
@@ -26,20 +32,20 @@ When probing: only report ✓ if an MCP tool call actually succeeded. Configured
 
 ## Cold-start check
 
-Read `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md`:
+Read `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md`:
 - **Does not exist** → start the interview.
 - **Contains `<!-- SETUP PAUSED AT: -->`** → greet the user and offer to resume from that section.
 - **Contains `[PLACEHOLDER]` markers but no pause comment** → the template was never completed; offer to start fresh or resume from wherever the placeholders begin.
 - **Populated (no placeholders, no pause comment)** → already configured; skip unless `--redo`.
 
-The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed. If a CLAUDE.md exists at the old cache path `~/.claude/plugins/cache/claude-for-legal/legal-builder-hub/*/CLAUDE.md` but not here, copy it forward.
+The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed. If the fork profile is absent, start a fresh interview; never import a cached profile.
 
 ## Check for the shared company profile
 
-Look for `~/.claude/plugins/config/claude-for-legal/company-profile.md`.
+Look for `~/.claude/plugins/config/judge-fr-eu/company-profile.md`.
 
 - **If it exists:** Read it. Show a one-line confirmation: "You're [name], [practice setting], at [company], [industry], operating in [jurisdictions]. Right? (Or say 'update' to change the shared profile.)" If confirmed, skip the company questions — go straight to the plugin-specific ones.
-- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
+- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `${CLAUDE_PLUGIN_ROOT}/references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
 
 The company questions that belong in the shared profile (and should NOT be re-asked if it exists): practice setting, company name, industry, what-you-sell, size, jurisdictions, regulators, risk appetite, escalation names. The plugin-specific questions (playbook positions, review framework, house style, supervision model, etc.) stay per-plugin.
 
@@ -61,11 +67,11 @@ Ask the user to confirm before proceeding: continue with project scope, or pause
 
 Show this preamble first (3-4 short lines, nothing more):
 
-> **`legal-builder-hub` is for finding, installing, and managing community-contributed legal skills.** Looking for a practice-area workflow? Install one of the `legal-*` plugins directly; run `/legal-builder-hub:registry-browser` to see what's out there.
+> **`legal-builder-hub` is for finding, installing, and managing community-contributed legal skills.** Looking for a practice-area workflow? Install one of the `legal-*` plugins directly; run `/judge-fr-eu-legal-builder-hub:registry-browser` to see what's out there.
 >
 > **2 minutes** gets you role and practice area(s) — plus working defaults for registry watchlist, update cadence, and a permissive-by-default allowlist. **15 minutes** adds a calibrated starter pack matched to your practice, a trusted-sources policy written to `allowlist.yaml` (registries, publishers, licenses seeded from your deployment context), update notification preferences, and your industry/team-size signal for recommendations.
 >
-> Quick or full? (Upgrade any time with `/legal-builder-hub:cold-start-interview --full`.)
+> Quick or full? (Upgrade any time with `/judge-fr-eu-legal-builder-hub:cold-start-interview --full`.)
 
 ## After the user picks quick or full
 
@@ -81,7 +87,7 @@ Once the user has picked, orient them. Cover, in your own voice:
 
 The user picked quick or full in the preamble. Branch:
 
-**Quick start path:** ask only role and practice area(s). Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start browsing and installing now. I've used sensible defaults for registry watchlist and update cadence. Run `/legal-builder-hub:cold-start-interview --full` anytime to do the whole interview, or `/legal-builder-hub:cold-start-interview --redo <section>` to re-do one part."
+**Quick start path:** ask only role and practice area(s). Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start browsing and installing now. I've used sensible defaults for registry watchlist and update cadence. Run `/judge-fr-eu-legal-builder-hub:cold-start-interview --full` anytime to do the whole interview, or `/judge-fr-eu-legal-builder-hub:cold-start-interview --redo <section>` to re-do one part."
 
 **Full setup path:** the existing interview flow below.
 
@@ -96,7 +102,7 @@ Short as this interview is, the five questions vary — practice area and indust
 - **Before writing the profile and recommending a starter pack:** if any answer was skipped or left as a placeholder, list them and ask: "Want to fill any of these now, or leave them as placeholders? Your starter-pack recommendation is only as good as the profile." Then wait.
 - **Never** write the profile with silent gaps — every placeholder should be a deliberate skip the user confirmed.
 - **Batch size — count subparts.** "Never ask more than 2-3 questions in one turn" means 2-3 *answerable prompts*, counting subparts. One question with 5 subparts is 5 questions. The test: can the user answer without scrolling? If the questions don't fit on one screen, it's too many. Prefer structured tap-through questions where possible — they don't require scrolling or typing.
-- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/legal-builder-hub:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /legal-builder-hub:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
+- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/judge-fr-eu-legal-builder-hub:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /judge-fr-eu-legal-builder-hub:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
 
 **Verify user-stated legal facts as they come up in setup.** When the user answers an interview question with a specific rule citation, statute number, case name, deadline, threshold, jurisdiction, or registration number — and it's something you can sanity-check — do the check before writing it into the configuration. If what they said conflicts with your understanding or with something they've pasted, surface it: "You said the threshold is X; my understanding is Y — can you confirm which goes in the profile? `[premise flagged — verify]`" A wrong fact written into CLAUDE.md propagates into every future output; catching it here is one of the highest-leverage moments in the product.
 
@@ -136,7 +142,7 @@ If the answer is 3, add:
 - If you can't test (no way to probe from here), report ⚪ "configured but not verified — open your MCP settings to confirm" with a one-line how-to.
 - Never report ✓ based on configuration alone.
 
-For connectors that show as not connected, tell the user how to connect. Example phrasing: "Slack isn't connected. In Claude Cowork: Settings → Connectors → Add → Slack → sign in. In Claude Code: add the Slack MCP to your config or via `/mcp`. This plugin works without it — update notifications surface on next `/legal-builder-hub:registry-browser` or `/legal-builder-hub:auto-updater` instead of proactively — but connecting it makes notifications real-time."
+For connectors that show as not connected, tell the user how to connect. Example phrasing: "Slack isn't connected. In Claude Cowork: Settings → Connectors → Add → Slack → sign in. In Claude Code: add the Slack MCP to your config or via `/mcp`. This plugin works without it — update notifications surface on next `/judge-fr-eu-legal-builder-hub:registry-browser` or `/judge-fr-eu-legal-builder-hub:auto-updater` instead of proactively — but connecting it makes notifications real-time."
 
 Then report findings in this form:
 
@@ -148,17 +154,17 @@ You don't need this. Core features — browse, install, QA, update — work with
 
 Write Part 0 answers to the plugin config under `## Who's using this` and `## Available integrations`. This plugin writes `## Who's using this` so other plugins installed afterward can read the role from here instead of re-asking.
 
-Before the five questions: "Do you already have a list of community-skill registries you watch, or an allowlist / blocklist of skill sources your team uses? Paste the contents, share a file path, or say 'no' and I'll add the default. If you share one, I'll read it and add those registries plus your allowlist to the profile rather than making you re-type them. (This feeds /legal-builder-hub:skill-installer — the installer reads `allowlist.yaml` before fetching anything, and blocks any source that isn't on the list in restrictive mode.)"
+Before the five questions: "Do you already have a list of community-skill registries you watch, or an allowlist / blocklist of skill sources your team uses? Paste the contents, share a file path, or say 'no' and I'll add the default. If you share one, I'll read it and add those registries plus your allowlist to the profile rather than making you re-type them. (This feeds /judge-fr-eu-legal-builder-hub:skill-installer — the installer reads `allowlist.yaml` before fetching anything, and blocks any source that isn't on the list in restrictive mode.)"
 
 **Deployment context.** After the allowlist question and before writing the file, ask:
 
-> "How are you going to use the skills you install — just for yourself, shared across your firm, or embedded in a product or service you ship to others? (Personal / Firm-internal / Product-embedding.) (This feeds `allowlist.yaml` — the deployment context seeds the `licenses:` list, and /legal-builder-hub:skill-installer refuses to fetch any skill under a license not on that list.) This sets your license defaults. Most open source licenses are fine for personal use. Firm-internal adds file-level copyleft (LGPL, MPL — fine when you're not distributing). Product-embedding is the strict one: strong copyleft (GPL, AGPL) creates obligations that need legal review before you ship, so those get flagged rather than defaulted."
+> "How are you going to use the skills you install — just for yourself, shared across your firm, or embedded in a product or service you ship to others? (Personal / Firm-internal / Product-embedding.) (This feeds `allowlist.yaml` — the deployment context seeds the `licenses:` list, and /judge-fr-eu-legal-builder-hub:skill-installer refuses to fetch any skill under a license not on that list.) This sets your license defaults. Most open source licenses are fine for personal use. Firm-internal adds file-level copyleft (LGPL, MPL — fine when you're not distributing). Product-embedding is the strict one: strong copyleft (GPL, AGPL) creates obligations that need legal review before you ship, so those get flagged rather than defaulted."
 
 Record the answer in the profile under `## Sources I trust` as `Deployment context: [personal | firm-internal | product-embedding]`. The allowlist's `licenses:` seeding below reads from it.
 
-**Write the allowlist to `allowlist.yaml`, not just the profile.** The installer's gate reads from `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/allowlist.yaml`, not from CLAUDE.md. If you only record the answer in the profile, the installer sees an empty allowlist and falls back to permissive regardless of what the user said — silently defeating the headline structural defense. After this question:
+**Write the allowlist to `allowlist.yaml`, not just the profile.** The installer's gate reads from `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/allowlist.yaml`, not from CLAUDE.md. If you only record the answer in the profile, the installer sees an empty allowlist and falls back to permissive regardless of what the user said — silently defeating the headline structural defense. After this question:
 
-1. Write `allowlist.yaml` at the config path, following the schema in `skill-installer/references/allowlist.md`:
+1. Write `allowlist.yaml` at the config path, following the schema in `${CLAUDE_PLUGIN_ROOT}/skills/skill-installer/references/allowlist.md`:
    - `mode:` — the template default is `restrictive` (fail-closed). Offer `permissive` for Solo/small firm (they don't have IT-curated publisher lists, so restrictive mode would refuse everything). Keep `restrictive` for Midsize/large firm, In-house, or Government (those have security policies that want a firm gate). Always confirm: "I'm setting the allowlist to [mode]. Restrictive refuses unknown sources until you add them — safest, but you'll need to approve each new publisher. Permissive flags unknown sources and asks you before installing — more convenient, less strict. Which do you want?" Never write permissive without explicit user consent.
    - `registries:` — what the user provided plus the default.
    - `publishers:` — GitHub owners/orgs the user named or that own the trusted registries.
@@ -168,7 +174,7 @@ Record the answer in the profile under `## Sources I trust` as `Deployment conte
      - **Firm-internal** → same as Personal plus `LGPL-2.1-only`, `LGPL-3.0-only`, `MPL-2.0`.
      - **Product-embedding** → same as Personal. Also write a top-of-file comment in `allowlist.yaml`: `## License review required before shipping — anything not on this list needs legal sign-off.` Strong copyleft (GPL, AGPL) is deliberately excluded from the default here; adding those requires a deliberate edit.
 2. Also summarize in the profile's `## Sources I trust` section so a human can see the policy.
-3. Tell the user where it lives: "Your allowlist is at `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/allowlist.yaml`. The installer reads it before fetching anything."
+3. Tell the user where it lives: "Your allowlist is at `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/allowlist.yaml`. The installer reads it before fetching anything."
 
 If the user uploads a registry/allowlist file: read it, extract the registry URLs and allowlist/blocklist entries, confirm what you found, write `allowlist.yaml` per the schema, and summarize in the profile.
 
@@ -199,17 +205,17 @@ If the user gave tighter numbers, write those in place of the defaults. If the u
 
 ### The five questions
 
-1. **Practice area** — In-house or firm? Commercial, privacy, product, employment, litigation, M&A, something else? (This feeds /legal-builder-hub:related-skills-surfacer — the practice area is the primary key that maps to the starter pack.)
+1. **Practice area** — In-house or firm? Commercial, privacy, product, employment, litigation, M&A, something else? (This feeds /judge-fr-eu-legal-builder-hub:related-skills-surfacer — the practice area is the primary key that maps to the starter pack.)
 
    **Practices that don't fit the boxes.** If the user's practice doesn't match the options (international arbitration, public international law, amicus-only, academic consulting, pro bono panel, tribal court, military justice, maritime, or anything else the standard categories assume away), offer: "It sounds like your practice doesn't fit my usual categories. Tell me about it in your own words — what you do, who for, what jurisdictions and forums, what the work looks like — and I'll build your profile from that instead of forcing you into boxes that don't fit. I'll skip or adapt the questions that don't apply." Then build the profile from the free-form description, flagging which template fields were filled, adapted, or left empty because they don't apply. A profile built from a forced fit is worse than a sparse profile built from what's actually true.
 
-2. **Industry** — Tech, healthcare, finance, other, doesn't matter? (This feeds /legal-builder-hub:related-skills-surfacer and /legal-builder-hub:registry-browser — industry narrows the starter pack and filters registry results.)
+2. **Industry** — Tech, healthcare, finance, other, doesn't matter? (This feeds /judge-fr-eu-legal-builder-hub:related-skills-surfacer and /judge-fr-eu-legal-builder-hub:registry-browser — industry narrows the starter pack and filters registry results.)
 
 3. **Team size** — Solo, small team (2-5), large legal department? (This feeds the `allowlist.yaml` mode default — Solo/small gets permissive, Midsize/large/In-house/Government gets restrictive.)
 
-4. **What's the thing you do most?** — Contract review, compliance, launch reviews, deal support, brief writing, etc. (This feeds /legal-builder-hub:related-skills-surfacer — the surfacer nudges you when you're doing something the community has a skill for.)
+4. **What's the thing you do most?** — Contract review, compliance, launch reviews, deal support, brief writing, etc. (This feeds /judge-fr-eu-legal-builder-hub:related-skills-surfacer — the surfacer nudges you when you're doing something the community has a skill for.)
 
-5. **Tooling comfort** — Builder (you write your own skills), tinkerer (you edit what's installed), just-make-it-work (you want it to work out of the box)? (This feeds /legal-builder-hub:related-skills-surfacer — builders get the raw registries and /legal-builder-hub:skills-qa framework; just-make-it-work gets a curated, working pack.)
+5. **Tooling comfort** — Builder (you write your own skills), tinkerer (you edit what's installed), just-make-it-work (you want it to work out of the box)? (This feeds /judge-fr-eu-legal-builder-hub:related-skills-surfacer — builders get the raw registries and /judge-fr-eu-legal-builder-hub:skills-qa framework; just-make-it-work gets a curated, working pack.)
 
 ### Recommend
 
@@ -240,11 +246,11 @@ If yes, show this tailored list (not a generic template — these are the concre
 
 > **Here's what I'm good at in legal skill management:**
 >
-> - **Browse community legal skills** — e.g., "See what other practitioners have built for your practice area." Try: `/legal-builder-hub:registry-browser`
-> - **Install a skill from a registry** — e.g., "Add a community skill to your environment — license-gated and allowlist-checked before it runs." Try: `/legal-builder-hub:skill-installer`
-> - **Check for updates** — e.g., "See which installed skills have newer versions in their source registry." Try: `/legal-builder-hub:auto-updater`
-> - **Get skill recommendations** — e.g., "Based on recent activity in your other plugins, surface skills worth trying." Try: `/legal-builder-hub:related-skills-surfacer`
-> - **Evaluate a skill against the design framework** — e.g., "Run the Legal Skill Design Framework on a skill — nine design parameters, three failure modes, a trust-surface check." Try: `/legal-builder-hub:skills-qa`
+> - **Browse community legal skills** — e.g., "See what other practitioners have built for your practice area." Try: `/judge-fr-eu-legal-builder-hub:registry-browser`
+> - **Install a skill from a registry** — e.g., "Add a community skill to your environment — license-gated and allowlist-checked before it runs." Try: `/judge-fr-eu-legal-builder-hub:skill-installer`
+> - **Check for updates** — e.g., "See which installed skills have newer versions in their source registry." Try: `/judge-fr-eu-legal-builder-hub:auto-updater`
+> - **Get skill recommendations** — e.g., "Based on recent activity in your other plugins, surface skills worth trying." Try: `/judge-fr-eu-legal-builder-hub:related-skills-surfacer`
+> - **Evaluate a skill against the design framework** — e.g., "Run the Legal Skill Design Framework on a skill — nine design parameters, three failure modes, a trust-surface check." Try: `/judge-fr-eu-legal-builder-hub:skills-qa`
 >
 > **My suggestion for your first one:** Browse the registry and pick one skill that matches a current project — install it and see how the allowlist gate feels. Or tell me what's on your plate and I'll pick.
 
@@ -256,15 +262,15 @@ This solves the cold-start problem (the supervisor doesn't know what to do first
 - **Before the first installed skill that cites authority, connect a research tool.** Say: "Before the first installed skill that cites authority: connect a research tool if one of the installed plugins needs it. Without one, skills will flag every citation as unverified. In Cowork: Settings → Connectors. In Claude Code: authorize when a skill prompts you."
 
 <!-- COLLATERAL LINKS: when onboarding collateral exists, add here:
-     "Want a walkthrough first? [Watch the 3-minute intro](URL) or [read the getting-started guide](URL)." -->
+     "Want a walkthrough first? the introduction (link not yet supplied) or the getting-started guide (link not yet supplied)." -->
 
 Then close with the "you can change anything later" note:
 
-> Done. Your configuration is at `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` — a plain text file you can read and edit directly. Anything you answered can be changed:
+> Done. Your configuration is at `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` — a plain text file you can read and edit directly. Anything you answered can be changed:
 >
 > - Edit the file directly for a quick change
-> - Run `/legal-builder-hub:cold-start-interview --redo` for a full re-interview
-> - Run `/legal-builder-hub:cold-start-interview --check-integrations` to re-check what's connected
+> - Run `/judge-fr-eu-legal-builder-hub:cold-start-interview --redo` for a full re-interview
+> - Run `/judge-fr-eu-legal-builder-hub:cold-start-interview --check-integrations` to re-check what's connected
 >
 > The things most commonly tweaked later: your watched registries (add or drop sources), your update preference (notify vs. manual), and the scope of your practice profile (add an industry or a second practice type as your work shifts). Your configuration will improve as you use the plugin — if recommendations feel off, the profile is usually the fix.
 
@@ -276,11 +282,24 @@ After writing the practice profile, close with this note:
 >
 > - When a skill's output feels off, that's usually a position to tune. The output will tell you which one.
 > - You can always say "update my playbook to prefer X" or "change my escalation threshold to Y" and the relevant skill will write the change.
-> - Run `/legal-builder-hub:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
+> - Run `/judge-fr-eu-legal-builder-hub:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
 >
 > Ten minutes of setup gets you a working profile. A month of use gets you one that reads like you wrote it yourself.
 
 ## Registries watched by default
 
 - **lpm-skills** (github.com/legalopsconsulting/lpm-skills) — legal project management, practice-area agnostic
-- User can add others via `/legal-builder-hub:registry-browser`
+- User can add others via `/judge-fr-eu-legal-builder-hub:registry-browser`
+
+## Judge FR/UE setup boundary
+
+Read only the fork profile and shared profile using the packaged storage helper.
+If the practice profile is absent, including with `--check-integrations`, start
+a new interview: confirm France/EU jurisdictions, role and dates from the user.
+Do not search or copy any other profile, cache, legal rules, matters or registers.
+Use the packaged template only as a section scaffold. Preserve an existing
+profile and its answers, including paused progress; `--redo` reviews only the
+requested sections and does not reset unrelated answers. Create new files
+exclusively; for an agreed edit, supply the digest of the file reviewed.
+Never use inherited US defaults to fill unanswered France/EU legal fields;
+leave them explicitly unresolved. Assisted import requires a separate story.

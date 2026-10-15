@@ -1,3 +1,5 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Claude for Law School Clinics
 
 *Supercharging access to justice through AI-enabled clinical legal education.*
@@ -48,7 +50,7 @@ Before using this plugin with real client matters, confirm with your clinic's su
 3. **How privileged and confidential material will be handled** — what gets pasted into sessions, where outputs are stored, who has access, how long material is retained, how student turnover affects access.
 4. **Whether any of your clinic's practice areas involve heightened confidentiality** (immigration, criminal defense, domestic violence, some family and civil rights matters) that require additional safeguards — and decide whether the plugin is appropriate for those case types at all.
 
-Do not skip this step. The cold-start interview (`/legal-clinic:cold-start-interview`) captures these decisions as Part 0 before any other configuration.
+Do not skip this step. The cold-start interview (`/judge-fr-eu-legal-clinic:cold-start-interview`) captures these decisions as Part 0 before any other configuration.
 
 ## Confidence markers
 
@@ -88,7 +90,7 @@ The cold-start interview asks the professor to choose:
 2. **Configurable flags, informal review** — certain triggers label output "CHECK WITH PROFESSOR," no queue mechanism
 3. **Lighter-touch** — standard safeguard labels on everything, professor supervises through existing clinic structure (case rounds, one-on-ones)
 
-Changeable later by editing `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md`. Your configuration is stored at that version-independent path and survives plugin updates.
+Changeable later by editing `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md`. Your configuration is stored at that version-independent path and survives plugin updates.
 
 ## Semester turnover: the `/ramp` solution
 
@@ -141,7 +143,7 @@ Account tier (Team vs. Enterprise) for client confidentiality is an open questio
 
 ## How it learns
 
-Your practice profile at `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` isn't static — it improves as you use the plugin. Skills tell you when an output used a default you should tune. You can re-run setup, edit the file directly, or tell a skill to record a new position.
+Your practice profile at `~/.claude/plugins/config/judge-fr-eu/legal-clinic/CLAUDE.md` isn't static — it improves as you use the plugin. Skills tell you when an output used a default you should tune. You can re-run setup, edit the file directly, or tell a skill to record a new position.
 
 ## File structure
 
@@ -152,7 +154,7 @@ legal-clinic/
 ├── CLAUDE.md                          # Professor's clinic config — written by cold-start
 ├── README.md
 ├── deadlines.yaml                     # operational deadline ledger
-├── skills/                            # each skill is also the slash command /legal-clinic:<skill>
+├── skills/                            # each skill is also the slash command /judge-fr-eu-legal-clinic:<skill>
 │   ├── cold-start-interview/          # Professor — one-time setup
 │   ├── build-guide/                   # Professor — per-practice-area guide
 │   ├── ramp/                          # Students — semester onboarding
@@ -185,4 +187,14 @@ legal-clinic/
 
 ## Prerequisites
 
-Some features reference external integrations (document management, launch trackers, eDiscovery, case management, regulatory feeds). These are not bundled — if you have an MCP server for one of these in your environment, the relevant features will use it. Without one, the plugin falls back to file upload and manual workflows. Run `/legal-clinicgrations` to see what's available in your environment.
+Some features reference external integrations (document management, launch trackers, eDiscovery, case management, regulatory feeds). These are not bundled — if you have an MCP server for one of these in your environment, the relevant features will use it. Without one, the plugin falls back to file upload and manual workflows. Run `/judge-fr-eu-legal-clinic:cold-start-interview --check-integrations` to see what's available in your environment.
+
+## Judge FR/UE 0.1.0
+
+Technical identity/storage migration only; inherited legal tasks still require their France/EU adaptation stories. Maintained by the Judge FR/UE maintainers at https://github.com/Francois-Louis/Judge, derived from Claude for Legal / Anthropic without claiming affiliation.
+
+Install `judge-fr-eu-legal-clinic@judge-fr-eu` with explicit scope. Data lives under `config/judge-fr-eu/legal-clinic/`, outside replaceable packages. See [storage boundary](references/isolation.md), [license](LICENSE) and [modification notice](NOTICE). Commands use the `judge-fr-eu-legal-clinic:` prefix.
+
+```text
+/plugin install judge-fr-eu-legal-clinic@judge-fr-eu --scope user
+```

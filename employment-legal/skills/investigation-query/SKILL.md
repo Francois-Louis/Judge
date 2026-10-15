@@ -8,6 +8,10 @@ description: >
 argument-hint: "[matter name] [question]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /investigation-query
 
 Answers questions against the investigation log — what witnesses said,
@@ -25,17 +29,17 @@ on each issue.
 ## Examples
 
 ```
-/employment-legal:investigation-query [matter name]
+/judge-fr-eu-employment-legal:investigation-query [matter name]
 What did the respondent say about the December team dinner?
 ```
 
 ```
-/employment-legal:investigation-query [matter name]
+/judge-fr-eu-employment-legal:investigation-query [matter name]
 Where do the complainant's and respondent's accounts conflict?
 ```
 
 ```
-/employment-legal:investigation-query [matter name]
+/judge-fr-eu-employment-legal:investigation-query [matter name]
 What do we still need?
 ```
 

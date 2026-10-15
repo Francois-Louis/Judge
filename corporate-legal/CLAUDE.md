@@ -1,26 +1,27 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 <!--
 CONFIGURATION LOCATION
 
 User-specific configuration for this plugin lives at a version-independent path that survives plugin updates:
 
-  ~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md
+  ~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md
 
 Rules for every skill, command, and agent in this plugin:
+First load `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`; use its guarded storage helper for all durable data access.
 1. READ configuration from that path. Not from this file.
-2. If that file does not exist or still contains [PLACEHOLDER] markers, STOP before doing substantive work. Say: "This plugin needs setup before it can give you useful output. Run /corporate-legal:cold-start-interview — it takes about 10-15 minutes and every command in this plugin depends on it. Without it, outputs will be generic and may not match how your practice actually works." Do NOT proceed with placeholder or default configuration. The only skills that run without setup are /corporate-legal:cold-start-interview itself and any --check-integrations flag.
+2. If that file does not exist or still contains [PLACEHOLDER] markers, STOP before doing substantive work. Say: "This plugin needs setup before it can give you useful output. Run /judge-fr-eu-corporate-legal:cold-start-interview — it takes about 10-15 minutes and every command in this plugin depends on it. Without it, outputs will be generic and may not match how your practice actually works." Do NOT proceed with placeholder or default configuration. The only skills that run without setup are /judge-fr-eu-corporate-legal:cold-start-interview itself and any --check-integrations flag.
 3. Setup and cold-start-interview WRITE to that path, creating parent directories as needed.
-4. On first run after a plugin update, if a populated CLAUDE.md exists at the old cache path
-   (~/.claude/plugins/cache/claude-for-legal/corporate-legal/<version>/CLAUDE.md for any version)
-   but not at the config path, copy it forward to the config path before proceeding.
+4. If the fork profile is missing, start a fresh interview from confirmed answers. Never search a cache or another distribution for a profile. Preserve existing fork answers; no automatic import.
 5. This file (the one you are reading) is the TEMPLATE. It ships with the plugin and shows the
    structure the config should have. It is replaced on every plugin update. Never write user data here.
 
-**Shared company profile.** Company-level facts (who you are, what you do, where you operate, your risk posture, key people) live in `~/.claude/plugins/config/claude-for-legal/company-profile.md` — one level above this file, shared by all 12 plugins. Read it before this plugin's practice profile. If it doesn't exist, this plugin's setup will create it.
+**Shared company profile.** Company-level facts (who you are, what you do, where you operate, your risk posture, key people) live in `~/.claude/plugins/config/judge-fr-eu/company-profile.md` — one level above this file, shared by all 12 plugins. Read it before this plugin's practice profile. If it doesn't exist, this plugin's setup will create it.
 -->
 
 # Corporate Practice Profile
 *Written by cold-start on [DATE]. Active modules: [M&A | Board & Secretary | Public Company | Entity Management]*
-*If `[PLACEHOLDER]`, run `/corporate-legal:cold-start-interview`.*
+*If `[PLACEHOLDER]`, run `/judge-fr-eu-corporate-legal:cold-start-interview`.*
 
 ---
 
@@ -60,12 +61,12 @@ The deliverable should read like a partner wrote it. The meta-commentary goes in
 
 | Integration | Status | Fallback if unavailable |
 |---|---|---|
-| VDR (Intralinks, Datasite, Box) | [✓ / ✗] | Diligence pulls from local folder; user drops docs in `~/.claude/plugins/config/claude-for-legal/corporate-legal/deals/[code]/vdr-mirror/` |
+| VDR (Intralinks, Datasite, Box) | [✓ / ✗] | Diligence pulls from local folder; user drops docs in `~/.claude/plugins/config/judge-fr-eu/corporate-legal/deals/[code]/vdr-mirror/` |
 | Board portal (Diligent, BoardEffect) | [✓ / ✗] | Minutes/consents work from local templates; no portal posting |
 | Document storage (Google Drive, SharePoint, Box) | [✓ / ✗] | Read local paths; no cross-system search |
 | Slack | [✓ / ✗] | Briefs emitted as files only; no in-channel summaries |
 
-*Re-check: `/corporate-legal:cold-start-interview --check-integrations`*
+*Re-check: `/judge-fr-eu-corporate-legal:cold-start-interview --check-integrations`*
 
 ---
 
@@ -201,7 +202,7 @@ Canonical scale: 🔴 Blocking / 🟠 High / 🟡 Medium / 🟢 Low. Any plugin-
 
 **File access failures.** When you can't read a file the user pointed you at, don't fail silently. Say what happened: "I can't read [path]. This usually means one of: (a) the plugin is installed project-scoped and the file is outside [project dir] — reinstall user-scoped or move the file here; (b) the path has a typo; (c) the file is a format I can't read. Can you paste the content directly, or try one of the fixes?" A silent file-read failure looks like the plugin ignored the user's material.
 
-**Verification log.** When you or the user verifies a flagged item — confirms a cite against a primary source, checks a deadline against the local rule, verifies a threshold against the current statute — record it so the next person doesn't re-verify. Write a one-line entry to `~/.claude/plugins/config/claude-for-legal/corporate-legal/verification-log.md`:
+**Verification log.** When you or the user verifies a flagged item — confirms a cite against a primary source, checks a deadline against the local rule, verifies a threshold against the current statute — record it so the next person doesn't re-verify. Write a one-line entry to `~/.claude/plugins/config/judge-fr-eu/corporate-legal/verification-log.md`:
 
 `[YYYY-MM-DD] [cite or fact] verified by [name] against [source] — [verdict: confirmed / corrected to X / could not verify]`
 
@@ -224,15 +225,15 @@ Corollary: when the user asks a doctrinal question (not a document-review questi
 
 ## Ad-hoc questions in this domain
 
-When the user asks a question in this plugin's practice area — not just when they invoke a skill — read the practice profile at `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` (and `~/.claude/plugins/config/claude-for-legal/company-profile.md`) first, and apply it. If it's populated, answer as the configured assistant:
+When the user asks a question in this plugin's practice area — not just when they invoke a skill — read the practice profile at `~/.claude/plugins/config/judge-fr-eu/corporate-legal/CLAUDE.md` (and `~/.claude/plugins/config/judge-fr-eu/company-profile.md`) first, and apply it. If it's populated, answer as the configured assistant:
 
 - Use their jurisdiction footprint, risk posture, playbook positions, and escalation chain
 - Apply the guardrails even though no skill is running: source attribution, citation hygiene, jurisdiction recognition, decision posture, the reviewer note format
 - Frame the answer the way a colleague in that practice would — calibrated to their setting (in-house vs. firm), their role (lawyer vs. non-lawyer), and their risk tolerance
 - Offer the decision tree when an action follows from the question
-- Suggest a structured skill if one would do better: "This is a quick answer. If you want the full framework, run `/corporate-legal:[relevant skill]`."
+- Suggest a structured skill if one would do better: "This is a quick answer. If you want the full framework, run `/judge-fr-eu-corporate-legal:[relevant skill]`."
 
-If the practice profile isn't populated: "I can give you a general answer, but this plugin gives much better answers once it's configured to your practice — run `/corporate-legal:cold-start-interview` (2-minute quick start or 10-minute full setup)." Then give the general answer anyway, tagged as unconfigured.
+If the practice profile isn't populated: "I can give you a general answer, but this plugin gives much better answers once it's configured to your practice — run `/judge-fr-eu-corporate-legal:cold-start-interview` (2-minute quick start or 10-minute full setup)." Then give the general answer anyway, tagged as unconfigured.
 
 The point: a configured plugin should feel like a colleague who already knows your practice, not a form you fill out. The skills are the structured workflows; this instruction is everything in between.
 
@@ -291,7 +292,7 @@ When a user asks to "run all the workflows," "review every document," "process e
 
 ## Matter workspaces
 
-*Only relevant for multi-client practices (private practice — solo, small firm, large firm). If you're in-house with one company, this section is off and nothing below applies — skills use practice-level context automatically, and `/corporate-legal:matter-workspace` is not something you need. (In-house corporate lawyers often track discrete deals, but those are typically managed as a single practice's standing workstream rather than as isolated client workspaces.)*
+*Only relevant for multi-client practices (private practice — solo, small firm, large firm). If you're in-house with one company, this section is off and nothing below applies — skills use practice-level context automatically, and `/judge-fr-eu-corporate-legal:matter-workspace` is not something you need. (In-house corporate lawyers often track discrete deals, but those are typically managed as a single practice's standing workstream rather than as isolated client workspaces.)*
 
 **Enabled:** ✗ (set at cold-start for private practice; in-house users never see this)
 **Active matter:** none
@@ -299,11 +300,11 @@ When a user asks to "run all the workflows," "review every document," "process e
 
 For corporate-legal in private practice, a "matter" is typically a deal (M&A transaction, financing round, board matter) or a discrete workstream (entity reorganization, integration project).
 
-When matter workspaces are enabled, skills work in the active matter's context. Skills read this practice-level CLAUDE.md for practice profile-level rules (house style, materiality thresholds, module choices) and the matter's `matter.md` for matter-specific facts and overrides. Outputs are written to the matter folder at `~/.claude/plugins/config/claude-for-legal/corporate-legal/matters/<matter-slug>/`.
+When matter workspaces are enabled, skills work in the active matter's context. Skills read this practice-level CLAUDE.md for practice profile-level rules (house style, materiality thresholds, module choices) and the matter's `matter.md` for matter-specific facts and overrides. Outputs are written to the matter folder at `~/.claude/plugins/config/judge-fr-eu/corporate-legal/matters/<matter-slug>/`.
 
 When cross-matter context is off (default), a skill working in matter A never reads matter B's files. Learnings that should carry across matters are written to this practice-level CLAUDE.md, not to a matter folder.
 
-When a skill doesn't know which matter is active and workspaces are enabled, it asks: "Which matter? Or practice-level context?" before doing substantive work. Manage matters with `/corporate-legal:matter-workspace new | list | switch | close | none`.
+When a skill doesn't know which matter is active and workspaces are enabled, it asks: "Which matter? Or practice-level context?" before doing substantive work. Manage matters with `/judge-fr-eu-corporate-legal:matter-workspace new | list | switch | close | none`.
 
 ---
 
@@ -317,7 +318,7 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 ## M&A
 
-**Typical side:** [PLACEHOLDER — buy-side / sell-side / both — note: varies by deal, set per-deal context at /corporate-legal:cold-start-interview --new-deal]
+**Typical side:** [PLACEHOLDER — buy-side / sell-side / both — note: varies by deal, set per-deal context at /judge-fr-eu-corporate-legal:cold-start-interview --new-deal]
 **Deal cadence:** [PLACEHOLDER — serial acquirer N deals/year with standard playbook / bespoke each deal]
 **Deal lead:** [PLACEHOLDER — corp dev / legal / outside counsel as primary]
 
@@ -460,7 +461,7 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 **Intercompany agreements in place:** [PLACEHOLDER — yes / no / partial]
 **Subsidiary governance cadence:** [PLACEHOLDER — how often sub boards meet, if at all]
 
-**Compliance tracker:** `~/.claude/plugins/config/claude-for-legal/corporate-legal/entities/compliance-tracker.yaml`
+**Compliance tracker:** `~/.claude/plugins/config/judge-fr-eu/corporate-legal/entities/compliance-tracker.yaml`
 **Last compliance report:** [PLACEHOLDER — date or null]
 **Last health audit:** [PLACEHOLDER — date or null]
 
@@ -473,6 +474,6 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 ---
 
-*Re-run full interview: `/corporate-legal:cold-start-interview --redo`*
-*Add a module: `/corporate-legal:cold-start-interview --module [m&a | board | public | entities]`*
-*New M&A deal: `/corporate-legal:cold-start-interview --new-deal`*
+*Re-run full interview: `/judge-fr-eu-corporate-legal:cold-start-interview --redo`*
+*Add a module: `/judge-fr-eu-corporate-legal:cold-start-interview --module [m&a | board | public | entities]`*
+*New M&A deal: `/judge-fr-eu-corporate-legal:cold-start-interview --new-deal`*

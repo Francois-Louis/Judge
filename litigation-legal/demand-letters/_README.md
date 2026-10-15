@@ -1,3 +1,5 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # demand-letters/ — pre-litigation demand work
 
 This folder holds the work product for every demand letter the counsel sends: payment demands, breach/cure notices, cease-and-desist, employment separation demands, preservation demands.
@@ -31,12 +33,12 @@ demand-letters/
 
 ## Workflow
 
-1. `/litigation-legal:demand-intake [title]` → runs adaptive intake, writes `intake.md`
-2. `/litigation-legal:demand-draft [slug]` → runs FRE 408 / privilege / waiver checklist, drafts `.docx`, writes `checklist.md`, offers to create a matter
+1. `/judge-fr-eu-litigation-legal:demand-intake [title]` → runs adaptive intake, writes `intake.md`
+2. `/judge-fr-eu-litigation-legal:demand-draft [slug]` → runs FRE 408 / privilege / waiver checklist, drafts `.docx`, writes `checklist.md`, offers to create a matter
 
 ## Relationship to matters
 
-After a demand letter is drafted, `demand-draft` assesses materiality (heuristic from house `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md`) and offers to create a matter. If yes, a matter row goes into `matters/_log.yaml` with `source: demand-letter`, and `matters/[matter-slug]/matter.md` links back to this demand-letter's folder.
+After a demand letter is drafted, `demand-draft` assesses materiality (heuristic from house `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md`) and offers to create a matter. If yes, a matter row goes into `matters/_log.yaml` with `source: demand-letter`, and `matters/[matter-slug]/matter.md` links back to this demand-letter's folder.
 
 Immaterial demands stay here only. They're still a work-product record — just not portfolio-tracked.
 

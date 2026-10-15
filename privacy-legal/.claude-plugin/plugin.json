@@ -1,8 +1,10 @@
 {
-  "name": "privacy-legal",
-  "version": "1.0.2",
-  "description": "Triages processing activities, generates PIAs, reviews DPAs as controller or processor, drafts DSAR responses within statutory timelines, and monitors policy drift against practice.",
+  "name": "judge-fr-eu-privacy-legal",
+  "version": "0.1.0",
+  "description": "Judge FR/UE 0.1.0: technical isolation; legal adaptation pending. Triages processing activities, generates PIAs, reviews DPAs as controller or processor, drafts DSAR responses within statutory timelines, and monitors policy drift against practice.",
   "author": {
     "name": "Anthropic"
-  }
+  },
+  "repository": "https://github.com/Francois-Louis/Judge",
+  "license": "Apache-2.0"
 }

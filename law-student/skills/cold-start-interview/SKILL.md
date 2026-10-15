@@ -9,16 +9,20 @@ description: >
 argument-hint: "[--redo] [--check-integrations]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /cold-start-interview
 
-1. Check `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md`. If already populated and no `--redo`, confirm before overwriting. If a populated ~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md (no `[PLACEHOLDER]` markers) exists at `~/.claude/plugins/cache/claude-for-legal/law-student/*/CLAUDE.md` but not at the config path, copy it to the config path and tell the user what was migrated.
+1. Check `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md`. If already populated and no `--redo`, confirm before overwriting. If the fork profile is absent, start a fresh France/EU interview; never read a cache or another distribution.
 2. Apply the interview workflow below.
 3. Walk Part 0 (who's using / what's connected — student vs. grad vs. other; document storage availability), Part 1 (where you are), Part 2 (how you learn — drill-me vs explain-to-me), Part 3 (strong/shaky/avoid), Part 4 (materials intake — target 10-20 items).
 4. Re-read captured answers. Catch contradictions, drifted specifics, gaps worth naming now.
-5. Write `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` (creating parent directories as needed), including `## Who's using this` and `## Available integrations`. Add `LIMITED DATA` flag if fewer than 10 materials were shared.
+5. Write `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` (creating parent directories as needed), including `## Who's using this` and `## Available integrations`. Add `LIMITED DATA` flag if fewer than 10 materials were shared.
 6. Confirm with the user: "Here's what I captured — anything wrong?"
 
-**`--check-integrations`:** Re-run only the Part 0 integration-availability check. Updates `## Available integrations` in `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` without touching the role or the rest of the profile. Use after adding or removing an MCP connector.
+**`--check-integrations`:** Re-run only the Part 0 integration-availability check. Updates `## Available integrations` in `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` without touching the role or the rest of the profile. Use after adding or removing an MCP connector.
 
 When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 
@@ -30,20 +34,20 @@ The other cold-starts learn an organization. This one learns you. How you study,
 
 ## Cold-start check
 
-Read `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md`:
+Read `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md`:
 - **Does not exist** → start the interview.
 - **Contains `<!-- SETUP PAUSED AT: -->`** → greet the student and offer to resume from that section.
 - **Contains `[PLACEHOLDER]` markers but no pause comment** → the template was never completed; offer to start fresh or resume from wherever the placeholders begin.
 - **Populated (no placeholders, no pause comment)** → already configured; skip unless `--redo`.
 
-The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed. If a CLAUDE.md exists at the old cache path `~/.claude/plugins/cache/claude-for-legal/law-student/*/CLAUDE.md` but not here, copy it forward.
+The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed. If the fork profile is absent, start a fresh interview; never import a cached profile.
 
 ## Check for the shared company profile
 
-Look for `~/.claude/plugins/config/claude-for-legal/company-profile.md`.
+Look for `~/.claude/plugins/config/judge-fr-eu/company-profile.md`.
 
 - **If it exists:** Read it. Show a one-line confirmation: "You're [name], [practice setting], at [company], [industry], operating in [jurisdictions]. Right? (Or say 'update' to change the shared profile.)" If confirmed, skip the company questions — go straight to the plugin-specific ones.
-- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
+- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `${CLAUDE_PLUGIN_ROOT}/references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
 
 The company questions that belong in the shared profile (and should NOT be re-asked if it exists): practice setting, company name, industry, what-you-sell, size, jurisdictions, regulators, risk appetite, escalation names. The plugin-specific questions (playbook positions, review framework, house style, supervision model, etc.) stay per-plugin.
 
@@ -59,11 +63,11 @@ Ask the user to confirm before proceeding: continue with project scope, or pause
 
 Show this preamble first (3-4 short lines, nothing more):
 
-> **`law-student` is for law students studying for class or the bar.** Not your area? `/legal-builder-hub:related-skills-surfacer`.
+> **`law-student` is for law students studying for class or the bar.** Not your area? `/judge-fr-eu-legal-builder-hub:related-skills-surfacer`.
 >
 > **2 minutes** gets you year in school (1L/2L/3L/bar prep), current classes, and bar exam date if applicable. **15 minutes** adds your learning style default (drill-me vs. explain-to-me), weak areas, past materials (outlines, graded essays, old exams), professor exam history from uploads, and flashcard subjects.
 >
-> Quick or full? (Upgrade any time with `/law-student:cold-start-interview --full`.)
+> Quick or full? (Upgrade any time with `/judge-fr-eu-law-student:cold-start-interview --full`.)
 
 ## After the user picks quick or full
 
@@ -79,7 +83,7 @@ Once the student has picked, orient them. Cover, in your own voice:
 
 The student picked quick or full in the preamble. Branch:
 
-**Quick start path:** ask only the basics (who you are, what you're studying, bar jurisdiction if applicable). Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for case-brief format, flashcard style, and outlining conventions. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/law-student:cold-start-interview --full` anytime to do the whole interview, or `/law-student:cold-start-interview --redo <section>` to re-do one part."
+**Quick start path:** ask only the basics (who you are, what you're studying, bar jurisdiction if applicable). Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for case-brief format, flashcard style, and outlining conventions. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/judge-fr-eu-law-student:cold-start-interview --full` anytime to do the whole interview, or `/judge-fr-eu-law-student:cold-start-interview --redo <section>` to re-do one part."
 
 **Full setup path:** the existing interview flow below.
 
@@ -93,7 +97,7 @@ The student picked quick or full in the preamble. Branch:
 - **For uploads (syllabi, outlines, graded essays, old exams, MBE sets):** "Paste the contents, share a file path, or say 'skip for now.' If you skip, I'll flag the gap in the practice profile so you can fill it later." Then actually wait. Don't silently move on.
 - **Before writing the practice profile:** review the interview. List every question that was skipped or answered with a placeholder. Say: "Before I write your practice profile, here's what's still open: [list]. Want to fill any of these now, or leave them as placeholders?" Then wait for the answer.
 - **Never** write a practice profile with silent gaps. Every placeholder should be a deliberate choice the student made to skip — not a question that scrolled past because they paused to think.
-- **Pause and resume.** Tell the student up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/law-student:cold-start-interview` again later and I'll pick up where you left off." When the student pauses, write a partial configuration to `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /law-student:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the student: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
+- **Pause and resume.** Tell the student up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/judge-fr-eu-law-student:cold-start-interview` again later and I'll pick up where you left off." When the student pauses, write a partial configuration to `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /judge-fr-eu-law-student:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the student: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
 - **Batch size — count subparts.** "Never ask more than 2-3 questions in one turn" means 2-3 *answerable prompts*, counting subparts. One question with 5 subparts is 5 questions. The test: can the user answer without scrolling? If the questions don't fit on one screen, it's too many. Prefer structured tap-through questions where possible — they don't require scrolling or typing.
 
 **Verify user-stated legal facts as they come up in setup.** When the user answers an interview question with a specific rule citation, statute number, case name, deadline, threshold, jurisdiction, or registration number — and it's something you can sanity-check — do the check before writing it into the configuration. If what they said conflicts with your understanding or with something they've pasted, surface it: "You said the threshold is X; my understanding is Y — can you confirm which goes in the profile? `[premise flagged — verify]`" A wrong fact written into CLAUDE.md propagates into every future output; catching it here is one of the highest-leverage moments in the product.
@@ -167,12 +171,12 @@ Write Part 0 answers to the plugin config under `## Who's using this` and `## Av
 
 ### Part 1: Where you are (1 min)
 
-*(This feeds `/law-student:study-plan` and `/law-student:outline-builder` — classes become scheduled study blocks, exam formats drive what `/law-student:exam-forecast` and `/law-student:irac-practice` prepare you for, and the bar date schedules `/law-student:bar-prep-questions` backward from the exam.)*
+*(This feeds `/judge-fr-eu-law-student:study-plan` and `/judge-fr-eu-law-student:outline-builder` — classes become scheduled study blocks, exam formats drive what `/judge-fr-eu-law-student:exam-forecast` and `/judge-fr-eu-law-student:irac-practice` prepare you for, and the bar date schedules `/judge-fr-eu-law-student:bar-prep-questions` backward from the exam.)*
 
 - Year (1L, 2L, 3L, LLM)
 - School type — T1 / T2 / T3 / T4. (This calibrates difficulty in downstream drill and exam-forecast skills; the school *name* isn't needed.)
 - This semester's classes — name, exam format, where you are in the syllabus
-- Bar jurisdiction and target date (if known) (This feeds `/law-student:bar-prep-questions` — schedules MBE sets and essay practice backward from this date, filtered to your jurisdiction's essay subjects.)
+- Bar jurisdiction and target date (if known) (This feeds `/judge-fr-eu-law-student:bar-prep-questions` — schedules MBE sets and essay practice backward from this date, filtered to your jurisdiction's essay subjects.)
 
 **Situations that don't fit the boxes.** If your situation doesn't match the standard options (non-US law school, JD/LLM hybrid, dual-degree, part-time evening program, self-study for a non-UBE state, foreign-trained attorney preparing for a US bar, visiting scholar, PhD candidate auditing courses, or anything else the standard categories assume away), say so. I'll shift: "It sounds like your program doesn't fit my usual categories. Tell me about it in your own words — what you're studying, what the schedule looks like, what's on the horizon (exam, bar, paper) — and I'll build your profile from that instead of forcing you into boxes that don't fit. I'll skip or adapt the questions that don't apply." Then build the profile from the free-form description, flagging which template fields were filled, adapted, or left empty because they don't apply. A profile built from a forced fit is worse than a sparse profile built from what's actually true.
 
@@ -180,7 +184,7 @@ Write Part 0 answers to the plugin config under `## Who's using this` and `## Av
 
 ### Part 2: How you learn (the key question) (2 min)
 
-*(This feeds `/law-student:socratic-drill`, `/law-student:irac-practice`, and `/law-student:cold-call-prep` — drill-me pushes back without giving you the answer; explain-to-me scaffolds first, then tests. The default can be overridden per session.)*
+*(This feeds `/judge-fr-eu-law-student:socratic-drill`, `/judge-fr-eu-law-student:irac-practice`, and `/judge-fr-eu-law-student:cold-call-prep` — drill-me pushes back without giving you the answer; explain-to-me scaffolds first, then tests. The default can be overridden per session.)*
 
 > Some people learn by being asked hard questions and pushed back on. Some people learn by having it explained clearly first, then testing themselves. Which one are you?
 
@@ -192,7 +196,7 @@ Write Part 0 answers to the plugin config under `## Who's using this` and `## Av
 
 ### Part 3: Where you're strong and weak (1 min)
 
-*(This feeds `/law-student:study-plan` and `/law-student:bar-prep-questions` — weak areas and avoided subjects get more scheduled time and more drill sessions than strong ones.)*
+*(This feeds `/judge-fr-eu-law-student:study-plan` and `/judge-fr-eu-law-student:bar-prep-questions` — weak areas and avoided subjects get more scheduled time and more drill sessions than strong ones.)*
 
 - What comes easy?
 - What's hard?
@@ -200,7 +204,7 @@ Write Part 0 answers to the plugin config under `## Who's using this` and `## Av
 
 ### Part 4: Materials (3-5 min) — this is where the seed docs live
 
-*(This feeds `/law-student:outline-builder` (your format and depth), `/law-student:exam-forecast` (professor patterns from past exams), `/law-student:legal-writing` (your writing voice from graded essays), and `/law-student:irac-practice` (feedback patterns). Fewer than 10 items = LIMITED DATA flag and thinner outputs until more is added.)*
+*(This feeds `/judge-fr-eu-law-student:outline-builder` (your format and depth), `/judge-fr-eu-law-student:exam-forecast` (professor patterns from past exams), `/judge-fr-eu-law-student:legal-writing` (your writing voice from graded essays), and `/judge-fr-eu-law-student:irac-practice` (feedback patterns). Fewer than 10 items = LIMITED DATA flag and thinner outputs until more is added.)*
 
 Say this first, once, as a single ask:
 
@@ -245,7 +249,7 @@ Before committing the plugin config, re-read every captured answer in order. Cat
 
 Per the template at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md`. Short — it's about one person.
 
-**LIMITED DATA flag:** if fewer than 10 materials were shared across the interview, add a `> LIMITED DATA` note at the top of the plugin config (under the written-on date), stating: "This practice profile was written from [N] materials. Downstream skills will operate but outputs will be thinner — the outline builder doesn't have your format yet, the exam forecast has thin signal on your professors, the IRAC grader won't know your writing patterns. Re-run `/law-student:cold-start-interview --redo` after gathering more outlines, graded essays, or old exams to sharpen it."
+**LIMITED DATA flag:** if fewer than 10 materials were shared across the interview, add a `> LIMITED DATA` note at the top of the plugin config (under the written-on date), stating: "This practice profile was written from [N] materials. Downstream skills will operate but outputs will be thinner — the outline builder doesn't have your format yet, the exam forecast has thin signal on your professors, the IRAC grader won't know your writing patterns. Re-run `/judge-fr-eu-law-student:cold-start-interview --redo` after gathering more outlines, graded essays, or old exams to sharpen it."
 
 ## After writing
 
@@ -257,14 +261,14 @@ If yes, show this tailored list (not a generic template — these are the concre
 
 > **Here's what I'm good at in 1L / 2L / 3L study:**
 >
-> - **Brief a case in your format** — e.g., "Opinion in, brief out — in the format you actually use for class." Try: `/law-student:case-brief`
-> - **Grade an IRAC essay** — e.g., "Structure, issue-spotting, rules, analysis, organization — does not rewrite." Try: `/law-student:irac-practice`
-> - **Build or extend a class outline** — e.g., "Your format, your subject, iteratively built as you go." Try: `/law-student:outline-builder`
-> - **Cold-call prep for tomorrow's class** — e.g., "Predict your professor's questions and drill them." Try: `/law-student:cold-call-prep`
-> - **Flashcards by subject with Leitner buckets** — e.g., "Generate, drill, and promote / demote across sessions." Try: `/law-student:flashcards`
-> - **Bar prep questions targeted at weak subjects** — e.g., "MBE or essay, drawn from your weak-subject list." Try: `/law-student:bar-prep-questions`
+> - **Brief a case in your format** — e.g., "Opinion in, brief out — in the format you actually use for class." Try: `/judge-fr-eu-law-student:case-brief`
+> - **Grade an IRAC essay** — e.g., "Structure, issue-spotting, rules, analysis, organization — does not rewrite." Try: `/judge-fr-eu-law-student:irac-practice`
+> - **Build or extend a class outline** — e.g., "Your format, your subject, iteratively built as you go." Try: `/judge-fr-eu-law-student:outline-builder`
+> - **Cold-call prep for tomorrow's class** — e.g., "Predict your professor's questions and drill them." Try: `/judge-fr-eu-law-student:cold-call-prep`
+> - **Flashcards by subject with Leitner buckets** — e.g., "Generate, drill, and promote / demote across sessions." Try: `/judge-fr-eu-law-student:flashcards`
+> - **Bar prep questions targeted at weak subjects** — e.g., "MBE or essay, drawn from your weak-subject list." Try: `/judge-fr-eu-law-student:bar-prep-questions`
 >
-> **My suggestion for your first one:** Run `/law-student:case-brief` on the next case you have to read — it'll tell you whether the brief format matches how you actually study. Or tell me what's on your plate and I'll pick.
+> **My suggestion for your first one:** Run `/judge-fr-eu-law-student:case-brief` on the next case you have to read — it'll tell you whether the brief format matches how you actually study. Or tell me what's on your plate and I'll pick.
 
 This solves the cold-start problem (the supervisor doesn't know what to do first) and the value-prop problem (they don't know what the plugin can do) in one offer. Make the list specific. Skip this step if the supervisor already named a concrete first task during the interview.
 
@@ -276,22 +280,22 @@ This solves the cold-start problem (the supervisor doesn't know what to do first
 
 **If the student is a regular law student** (not in bar prep): suggest a plan before a drill. Plans beat cold-drilling for a semester.
 
-- **Start here:** `/law-student:study-plan` — builds a study schedule from your classes, exam dates, and weak areas. It'll suggest when to drill, when to outline, and when to do practice exams.
+- **Start here:** `/judge-fr-eu-law-student:study-plan` — builds a study schedule from your classes, exam dates, and weak areas. It'll suggest when to drill, when to outline, and when to do practice exams.
 
 **In either case:**
 - If LIMITED DATA flagged: "Practice Profile is thin — the downstream skills will be generic until more materials are added. Biggest gaps: [list]. Want to flag the top thing to gather?"
 - **Before your first citation-heavy session, connect a research tool if you have one.** Say: "Before your first IRAC practice or case brief that leans on citations: if you have a research connector (CourtListener), wire it up. Without one, I'll flag every citation as unverified — cross-check against your casebook or bar-prep service. In Cowork: Settings → Connectors."
 
 <!-- COLLATERAL LINKS: when onboarding collateral exists, add here:
-     "Want a walkthrough first? [Watch the 3-minute intro](URL) or [read the getting-started guide](URL)." -->
+     "Want a walkthrough first? the introduction (link not yet supplied) or the getting-started guide (link not yet supplied)." -->
 
 Then close with the "you can change anything later" note:
 
-> Done. Your configuration is at `~/.claude/plugins/config/claude-for-legal/law-student/CLAUDE.md` — a plain text file you can read and edit directly. Anything you answered can be changed:
+> Done. Your configuration is at `~/.claude/plugins/config/judge-fr-eu/law-student/CLAUDE.md` — a plain text file you can read and edit directly. Anything you answered can be changed:
 >
 > - Edit the file directly for a quick change
-> - Run `/law-student:cold-start-interview --redo` for a full re-interview
-> - Run `/law-student:cold-start-interview --check-integrations` to re-check what's connected
+> - Run `/judge-fr-eu-law-student:cold-start-interview --redo` for a full re-interview
+> - Run `/judge-fr-eu-law-student:cold-start-interview --check-integrations` to re-check what's connected
 >
 > The things students most commonly tweak later: your class list (swap in next semester's), your bar jurisdiction or exam date, and your learning-style default (drill-me vs explain-to-me). Your configuration will improve as you use the plugin — if an outline feels off or a cold-call-prep session misses what your professor actually cares about, the fix is usually here.
 
@@ -303,6 +307,19 @@ After writing the practice profile, close with this note:
 >
 > - When a skill's output feels off, that's usually a position to tune. The output will tell you which one.
 > - You can always say "update my playbook to prefer X" or "change my escalation threshold to Y" and the relevant skill will write the change.
-> - Run `/law-student:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
+> - Run `/judge-fr-eu-law-student:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
 >
 > Ten minutes of setup gets you a working profile. A month of use gets you one that reads like you wrote it yourself.
+
+## Judge FR/UE setup boundary
+
+Read only the fork profile and shared profile using the packaged storage helper.
+If the practice profile is absent, including with `--check-integrations`, start
+a new interview: confirm France/EU jurisdictions, role and dates from the user.
+Do not search or copy any other profile, cache, legal rules, matters or registers.
+Use the packaged template only as a section scaffold. Preserve an existing
+profile and its answers, including paused progress; `--redo` reviews only the
+requested sections and does not reset unrelated answers. Create new files
+exclusively; for an agreed edit, supply the digest of the file reviewed.
+Never use inherited US defaults to fill unanswered France/EU legal fields;
+leave them explicitly unresolved. Assisted import requires a separate story.

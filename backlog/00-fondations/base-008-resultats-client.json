@@ -1,0 +1,393 @@
+{
+  "story": "BASE-008",
+  "date": "2026-10-15",
+  "timezone": "Europe/Paris",
+  "client": "Claude Code 2.1.301",
+  "upstream_sha": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+  "isolated_configuration": true,
+  "DISABLE_AUTOUPDATER": "1",
+  "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+  "model_session_executed": false,
+  "results": [
+    {
+      "arguments": [
+        "--version"
+      ],
+      "code": 0,
+      "stdout": "2.1.301 (Claude Code)\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork"
+      ],
+      "code": 0,
+      "stdout": "Validating marketplace manifest: <temporary-recipe>\\fork\\.claude-plugin\\marketplace.json\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\commercial-legal\\README.md: This README has no line that installs \"judge-fr-eu-commercial-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. In it, replace <owner>/<repo> with the repository that holds the marketplace.\n      /plugin install judge-fr-eu-commercial-legal --marketplace <owner>/<repo>\n  ❯ <temporary-recipe>\\fork\\privacy-legal\\README.md: This README has no line that installs \"judge-fr-eu-privacy-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. In it, replace <owner>/<repo> with the repository that holds the marketplace.\n      /plugin install judge-fr-eu-privacy-legal --marketplace <owner>/<repo>\n  ❯ <temporary-recipe>\\fork\\product-legal\\README.md: This README has no line that installs \"judge-fr-eu-product-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. In it, replace <owner>/<repo> with the repository that holds the marketplace.\n      /plugin install judge-fr-eu-product-legal --marketplace <owner>/<repo>\n  ❯ <temporary-recipe>\\fork\\corporate-legal\\README.md: This README has no line that installs \"judge-fr-eu-corporate-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. In it, replace <owner>/<repo> with the repository that holds the marketplace.\n      /plugin install judge-fr-eu-corporate-legal --marketplace <owner>/<repo>\n  ❯ <temporary-recipe>\\fork\\employment-legal\\README.md: This README has no line that installs \"judge-fr-eu-employment-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. In it, replace <owner>/<repo> with the repository that holds the marketplace.\n      /plugin install judge-fr-eu-employment-legal --marketplace <owner>/<repo>\n  ❯ <temporary-recipe>\\fork\\regulatory-legal\\README.md: This README has no line that installs \"judge-fr-eu-regulatory-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. In it, replace <owner>/<repo> with the repository that holds the marketplace.\n      /plugin install judge-fr-eu-regulatory-legal --marketplace <owner>/<repo>\n  ❯ <temporary-recipe>\\fork\\ai-governance-legal\\README.md: This README has no line that installs \"judge-fr-eu-ai-governance-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. In it, replace <owner>/<repo> with the repository that holds the marketplace.\n      /plugin install judge-fr-eu-ai-governance-legal --marketplace <owner>/<repo>\n  ❯ <temporary-recipe>\\fork\\litigation-legal\\README.md: This README has no line that installs \"judge-fr-eu-litigation-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. In it, replace <owner>/<repo> with the repository that holds the marketplace.\n      /plugin install judge-fr-eu-litigation-legal --marketplace <owner>/<repo>\n  ❯ <temporary-recipe>\\fork\\law-student\\README.md: This README has no line that installs \"judge-fr-eu-law-student\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. In it, replace <owner>/<repo> with the repository that holds the marketplace.\n      /plugin install judge-fr-eu-law-student --marketplace <owner>/<repo>\n  ❯ <temporary-recipe>\\fork\\legal-clinic\\README.md: This README has no line that installs \"judge-fr-eu-legal-clinic\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. In it, replace <owner>/<repo> with the repository that holds the marketplace.\n      /plugin install judge-fr-eu-legal-clinic --marketplace <owner>/<repo>\n  ❯ <temporary-recipe>\\fork\\legal-builder-hub\\README.md: This README has no line that installs \"judge-fr-eu-legal-builder-hub\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. In it, replace <owner>/<repo> with the repository that holds the marketplace.\n      /plugin install judge-fr-eu-legal-builder-hub --marketplace <owner>/<repo>\n  ❯ <temporary-recipe>\\fork\\ip-legal\\README.md: This README has no line that installs \"judge-fr-eu-ip-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. In it, replace <owner>/<repo> with the repository that holds the marketplace.\n      /plugin install judge-fr-eu-ip-legal --marketplace <owner>/<repo>\n\n✔ Validation passed\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork\\commercial-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: <temporary-recipe>\\fork\\commercial-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <temporary-recipe>\\fork\\commercial-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\commercial-legal\\README.md: This README has no line that installs \"judge-fr-eu-commercial-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-commercial-legal --marketplace <owner>/<repo>\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork\\privacy-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: <temporary-recipe>\\fork\\privacy-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <temporary-recipe>\\fork\\privacy-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\privacy-legal\\README.md: This README has no line that installs \"judge-fr-eu-privacy-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-privacy-legal --marketplace <owner>/<repo>\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork\\product-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: <temporary-recipe>\\fork\\product-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <temporary-recipe>\\fork\\product-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\product-legal\\README.md: This README has no line that installs \"judge-fr-eu-product-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-product-legal --marketplace <owner>/<repo>\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork\\corporate-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: <temporary-recipe>\\fork\\corporate-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <temporary-recipe>\\fork\\corporate-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\corporate-legal\\README.md: This README has no line that installs \"judge-fr-eu-corporate-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-corporate-legal --marketplace <owner>/<repo>\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork\\employment-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: <temporary-recipe>\\fork\\employment-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <temporary-recipe>\\fork\\employment-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\employment-legal\\README.md: This README has no line that installs \"judge-fr-eu-employment-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-employment-legal --marketplace <owner>/<repo>\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork\\regulatory-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: <temporary-recipe>\\fork\\regulatory-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <temporary-recipe>\\fork\\regulatory-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\regulatory-legal\\README.md: This README has no line that installs \"judge-fr-eu-regulatory-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-regulatory-legal --marketplace <owner>/<repo>\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork\\ai-governance-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: <temporary-recipe>\\fork\\ai-governance-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <temporary-recipe>\\fork\\ai-governance-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\ai-governance-legal\\README.md: This README has no line that installs \"judge-fr-eu-ai-governance-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-ai-governance-legal --marketplace <owner>/<repo>\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork\\litigation-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: <temporary-recipe>\\fork\\litigation-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <temporary-recipe>\\fork\\litigation-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\litigation-legal\\README.md: This README has no line that installs \"judge-fr-eu-litigation-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-litigation-legal --marketplace <owner>/<repo>\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork\\law-student"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: <temporary-recipe>\\fork\\law-student\\.claude-plugin\\plugin.json\n\nValidating plugin: <temporary-recipe>\\fork\\law-student\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\law-student\\README.md: This README has no line that installs \"judge-fr-eu-law-student\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-law-student --marketplace <owner>/<repo>\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork\\legal-clinic"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: <temporary-recipe>\\fork\\legal-clinic\\.claude-plugin\\plugin.json\n\nValidating plugin: <temporary-recipe>\\fork\\legal-clinic\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\legal-clinic\\README.md: This README has no line that installs \"judge-fr-eu-legal-clinic\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-legal-clinic --marketplace <owner>/<repo>\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork\\legal-builder-hub"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: <temporary-recipe>\\fork\\legal-builder-hub\\.claude-plugin\\plugin.json\n\nValidating plugin: <temporary-recipe>\\fork\\legal-builder-hub\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\legal-builder-hub\\README.md: This README has no line that installs \"judge-fr-eu-legal-builder-hub\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-legal-builder-hub --marketplace <owner>/<repo>\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "validate",
+        "<temporary-recipe>\\fork\\ip-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: <temporary-recipe>\\fork\\ip-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <temporary-recipe>\\fork\\ip-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\nℹ Advice (does not change the verdict):\n\n  ❯ <temporary-recipe>\\fork\\ip-legal\\README.md: This README has no line that installs \"judge-fr-eu-ip-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-ip-legal --marketplace <owner>/<repo>\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "marketplace",
+        "add",
+        "<temporary-recipe>\\fork"
+      ],
+      "code": 0,
+      "stdout": "Adding marketplace…✔ Successfully added marketplace: judge-fr-eu (declared in user settings)\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "marketplace",
+        "add",
+        "<temporary-recipe>\\original"
+      ],
+      "code": 1,
+      "stdout": "Adding marketplace…\n",
+      "stderr": "✘ Failed to add marketplace: The name 'claude-for-legal' is reserved for official Anthropic marketplaces and can only be used with GitHub sources from the 'anthropics' organization.\n"
+    },
+    {
+      "arguments": [
+        "plugin",
+        "install",
+        "judge-fr-eu-employment-legal@judge-fr-eu",
+        "--scope",
+        "user"
+      ],
+      "code": 0,
+      "stdout": "Installing plugin \"judge-fr-eu-employment-legal@judge-fr-eu\"...✔ Successfully installed plugin: judge-fr-eu-employment-legal@judge-fr-eu (scope: user)\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "install",
+        "employment-legal@claude-for-legal",
+        "--scope",
+        "user"
+      ],
+      "code": 1,
+      "stdout": "Installing plugin \"employment-legal@claude-for-legal\"...\n",
+      "stderr": "✘ Failed to install plugin \"employment-legal@claude-for-legal\": Plugin \"employment-legal\" not found in marketplace \"claude-for-legal\". Your local copy may be out of date — try `claude plugin marketplace update claude-for-legal`.\n"
+    },
+    {
+      "arguments": [
+        "plugin",
+        "list",
+        "--json"
+      ],
+      "code": 0,
+      "stdout": "[\n  {\n    \"id\": \"judge-fr-eu-employment-legal@judge-fr-eu\",\n    \"version\": \"0.1.0\",\n    \"scope\": \"user\",\n    \"enabled\": true,\n    \"installPath\": \"TEMP_RECIPE\\\\client-config\\\\plugins\\\\cache\\\\judge-fr-eu\\\\judge-fr-eu-employment-legal\\\\0.1.0\",\n    \"readFromFolder\": \"TEMP_RECIPE\\\\fork\\\\employment-legal\",\n    \"folderVersion\": \"0.1.0\",\n    \"installedAt\": \"2026-10-15T19:27:30.888Z\",\n    \"lastUpdated\": \"2026-10-15T19:27:30.888Z\",\n    \"mcpServers\": {\n      \"Slack\": {\n        \"type\": \"http\",\n        \"url\": \"https://mcp.slack.com/mcp\"\n      },\n      \"Google Drive\": {\n        \"type\": \"http\",\n        \"url\": \"https://drivemcp.googleapis.com/mcp/v1\"\n      }\n    },\n    \"projectEnabled\": false\n  }\n]\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "marketplace",
+        "add",
+        "anthropics/claude-for-legal"
+      ],
+      "code": 0,
+      "stdout": "Adding marketplace…Cloning via SSH: git@github.com:anthropics/claude-for-legal.git\nRefreshing marketplace cache (timeout: 120s)…\nCloning repository (timeout: 120s): git@github.com:anthropics/claude-for-legal.git\nClone complete, validating marketplace…\nCleaning up old marketplace cache…\n✔ Successfully added marketplace: claude-for-legal (declared in user settings)\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "install",
+        "employment-legal@claude-for-legal",
+        "--scope",
+        "user"
+      ],
+      "code": 0,
+      "stdout": "Installing plugin \"employment-legal@claude-for-legal\"...✔ Successfully installed plugin: employment-legal@claude-for-legal (scope: user)\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "plugin",
+        "list",
+        "--json"
+      ],
+      "code": 0,
+      "stdout": "[\n  {\n    \"id\": \"employment-legal@claude-for-legal\",\n    \"version\": \"1.0.2\",\n    \"scope\": \"user\",\n    \"enabled\": true,\n    \"installPath\": \"TEMP_RECIPE\\\\client-config\\\\plugins\\\\cache\\\\claude-for-legal\\\\employment-legal\\\\1.0.2\",\n    \"installedAt\": \"2026-10-15T19:28:46.597Z\",\n    \"lastUpdated\": \"2026-10-15T19:28:46.597Z\",\n    \"mcpServers\": {\n      \"Slack\": {\n        \"type\": \"http\",\n        \"url\": \"https://mcp.slack.com/mcp\"\n      },\n      \"Google Drive\": {\n        \"type\": \"http\",\n        \"url\": \"https://drivemcp.googleapis.com/mcp/v1\"\n      }\n    },\n    \"projectEnabled\": false\n  },\n  {\n    \"id\": \"judge-fr-eu-employment-legal@judge-fr-eu\",\n    \"version\": \"0.1.0\",\n    \"scope\": \"user\",\n    \"enabled\": true,\n    \"installPath\": \"TEMP_RECIPE\\\\client-config\\\\plugins\\\\cache\\\\judge-fr-eu\\\\judge-fr-eu-employment-legal\\\\0.1.0\",\n    \"readFromFolder\": \"TEMP_RECIPE\\\\fork\\\\employment-legal\",\n    \"folderVersion\": \"0.1.0\",\n    \"installedAt\": \"2026-10-15T19:27:30.888Z\",\n    \"lastUpdated\": \"2026-10-15T19:27:30.888Z\",\n    \"mcpServers\": {\n      \"Slack\": {\n        \"type\": \"http\",\n        \"url\": \"https://mcp.slack.com/mcp\"\n      },\n      \"Google Drive\": {\n        \"type\": \"http\",\n        \"url\": \"https://drivemcp.googleapis.com/mcp/v1\"\n      }\n    },\n    \"projectEnabled\": false\n  }\n]\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "auth",
+        "status",
+        "--json"
+      ],
+      "code": 1,
+      "stdout": "{\n  \"loggedIn\": false,\n  \"authMethod\": \"none\",\n  \"apiProvider\": \"firstParty\",\n  \"analyticsDisabled\": true,\n  \"projectsDirectory\": \"TEMP_RECIPE\\\\client-config\\\\projects\",\n  \"configDirectory\": \"TEMP_RECIPE\\\\client-config\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork"
+      ],
+      "code": 0,
+      "stdout": "Validating marketplace manifest: TEMP_RECIPE\\fork\\.claude-plugin\\marketplace.json\n\n✔ Validation passed\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork\\commercial-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: TEMP_RECIPE\\fork\\commercial-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: TEMP_RECIPE\\fork\\commercial-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork\\privacy-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: TEMP_RECIPE\\fork\\privacy-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: TEMP_RECIPE\\fork\\privacy-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork\\product-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: TEMP_RECIPE\\fork\\product-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: TEMP_RECIPE\\fork\\product-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork\\corporate-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: TEMP_RECIPE\\fork\\corporate-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: TEMP_RECIPE\\fork\\corporate-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork\\employment-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: TEMP_RECIPE\\fork\\employment-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: TEMP_RECIPE\\fork\\employment-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork\\regulatory-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: TEMP_RECIPE\\fork\\regulatory-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: TEMP_RECIPE\\fork\\regulatory-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork\\ai-governance-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: TEMP_RECIPE\\fork\\ai-governance-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: TEMP_RECIPE\\fork\\ai-governance-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork\\litigation-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: TEMP_RECIPE\\fork\\litigation-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: TEMP_RECIPE\\fork\\litigation-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork\\law-student"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: TEMP_RECIPE\\fork\\law-student\\.claude-plugin\\plugin.json\n\nValidating plugin: TEMP_RECIPE\\fork\\law-student\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork\\legal-clinic"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: TEMP_RECIPE\\fork\\legal-clinic\\.claude-plugin\\plugin.json\n\nValidating plugin: TEMP_RECIPE\\fork\\legal-clinic\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork\\legal-builder-hub"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: TEMP_RECIPE\\fork\\legal-builder-hub\\.claude-plugin\\plugin.json\n\nValidating plugin: TEMP_RECIPE\\fork\\legal-builder-hub\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "phase": "final-artifacts",
+      "arguments": [
+        "plugin",
+        "validate",
+        "TEMP_RECIPE\\fork\\ip-legal"
+      ],
+      "code": 0,
+      "stdout": "Validating plugin manifest: TEMP_RECIPE\\fork\\ip-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: TEMP_RECIPE\\fork\\ip-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -3,12 +3,16 @@ name: ip-renewal-watcher
 description: >
   Scheduled agent that reads the IP portfolio register, computes what's due,
   and posts a ranked deadline report. Runs weekly by default. Posts to the
-  channel named in `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`
+  channel named in `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`
   → Renewal alerts. Trigger phrases: "what's renewing", "IP deadlines",
   "portfolio check", "IP renewal report", or on schedule.
 model: sonnet
 tools: ["Read", "Write", "mcp__anaqua__*", "mcp__cpa__*", "mcp__altlegal__*", "mcp__*__slack_send_message"]
 ---
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
 
 # IP Renewal Watcher Agent
 
@@ -28,7 +32,7 @@ for grace/lapsed items happen regardless of schedule.
 
 ## What it does
 
-1. Read `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` to
+1. Read `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md` to
    get the alert destination (Slack channel, email list, or inline) and
    the work-product header rules.
 
@@ -108,7 +112,7 @@ each item on this week's action list against the registry before acting.
 - Decide whether to renew. That's a business and legal call — the agent
   surfaces the deadline, the surcharge clock, and the owner.
 - Modify the register. It reads and reports; additions come from
-  `/ip-legal:portfolio --add`, updates come from `--update`, sync comes
+  `/judge-fr-eu-ip-legal:portfolio --add`, updates come from `--update`, sync comes
   from the IP management system.
 - Ping business owners directly. The channel post tags them; they
   decide what to do.

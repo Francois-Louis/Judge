@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Copyright 2026 Anthropic PBC
 # SPDX-License-Identifier: Apache-2.0
+# Modified by Judge FR/UE for BASE-008, 2026-10-15.
 """Reference event loop for cross-agent handoffs between managed agents.
 
 REFERENCE ONLY — replace with your firm's workflow engine (Temporal, Airflow,
@@ -31,7 +32,8 @@ how much you should rely on them:
      to keep casual noise out of audit logs, not to stop a motivated
      attacker.
   5. Audit log. Every handoff — accepted or rejected — is appended to
-     ./out/handoff-audit.jsonl for post-hoc review.
+     ./judge-fr-eu-runs/<deployment>/<cookbook>/out/handoff-audit.jsonl
+     for post-hoc review.
 
 In production, prefer emitting handoffs via a dedicated tool call or a typed
 SSE event the model cannot produce by quoting document text. Consider also
@@ -45,8 +47,8 @@ import pathlib
 import re
 import unicodedata
 
-import anthropic
 import jsonschema
+from cookbook_paths import output_prefix, output_store
 
 ALLOWED_TARGETS = {
     "reg-monitor", "renewal-watcher", "diligence-grid", "launch-radar", "docket-watcher",
@@ -69,7 +71,7 @@ HANDOFF_INTENTS: dict[str, dict] = {
             # Slack channel IDs: C... (public), G... (private), D... (DM).
             "channel":     {"type": "string", "maxLength": 32,
                             "pattern": r"^[CGD][A-Z0-9]{8,}$"},
-            # Only files under ./out/ with safe names.
+            # Rebound to the current deployment's output root in _validate_params.
             "report_path": {"type": "string", "maxLength": 256,
                             "pattern": r"^\./out/[A-Za-z0-9_.-]+\.(md|json)$"},
             # Optional descriptive context. Wrapped in data-frame when used.
@@ -156,7 +158,13 @@ _DENY_SUBSTR_RE = re.compile(
     re.IGNORECASE,
 )
 
-AUDIT_PATH = pathlib.Path("./out/handoff-audit.jsonl")
+def deployment_store():
+    role = os.environ.get("SOURCE_AGENT", "")
+    return output_store(pathlib.Path.cwd(), os.environ.get("JUDGE_DEPLOYMENT_ID", ""), role)
+
+
+def report_prefix():
+    return output_prefix(os.environ.get("JUDGE_DEPLOYMENT_ID", ""), os.environ.get("SOURCE_AGENT", ""))
 
 
 def _strip_controls(s: str) -> str:
@@ -218,10 +226,8 @@ def audit_log(record: dict) -> None:
         **record,
     }
     try:
-        AUDIT_PATH.parent.mkdir(parents=True, exist_ok=True)
-        with AUDIT_PATH.open("a", encoding="utf-8") as f:
-            f.write(json.dumps(record, ensure_ascii=False) + "\n")
-    except OSError:
+        deployment_store().append("handoff-audit.jsonl", json.dumps(record, ensure_ascii=False) + "\n")
+    except (OSError, ValueError):
         # Audit failure must not break the loop; surface on stderr.
         import sys
         print(f"handoff-audit write failed: {record}", file=sys.stderr)
@@ -229,15 +235,25 @@ def audit_log(record: dict) -> None:
 
 def _validate_params(intent: str, params: dict) -> bool:
     spec = HANDOFF_INTENTS[intent]
+    properties = dict(spec["properties"])
+    if intent == "slack_send_message":
+        properties["report_path"] = {
+            "type": "string", "maxLength": 512,
+            "pattern": "^" + re.escape(report_prefix()) + r"[A-Za-z0-9_-][A-Za-z0-9_.-]*\.(md|json)$",
+        }
     schema = {
         "type": "object",
         "additionalProperties": False,
         "required": spec["required"],
-        "properties": spec["properties"],
+        "properties": properties,
     }
     try:
         jsonschema.validate(instance=params, schema=schema)
+        if intent == "slack_send_message":
+            deployment_store().path(params["report_path"].removeprefix(report_prefix()))
     except jsonschema.ValidationError:
+        return False
+    except (OSError, ValueError):
         return False
     return True
 
@@ -320,6 +336,8 @@ def extract_handoff(text: str, source_agent: str = "unknown") -> dict | None:
 def run(source_session_id: str, agent_ids: dict[str, str],
         source_agent: str = "unknown") -> None:
     """agent_ids maps slug -> deployed CMA agent_id."""
+    deployment_store()  # Fail before network access if workspace identity is absent/unsafe.
+    import anthropic
     client = anthropic.Anthropic()
     # /v1/agents is a preview endpoint; SDK type stubs don't cover it yet.
     with client.beta.agents.sessions.stream(session_id=source_session_id) as stream:  # type: ignore[attr-defined]

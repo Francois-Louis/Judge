@@ -1,8 +1,10 @@
 {
-  "name": "corporate-legal",
-  "version": "1.0.2",
-  "description": "Runs M&A diligence at scale with cited tabular review, builds disclosure schedules and closing checklists, drafts board consents and minutes in house format, and tracks entity compliance deadlines across jurisdictions.",
+  "name": "judge-fr-eu-corporate-legal",
+  "version": "0.1.0",
+  "description": "Judge FR/UE 0.1.0: technical isolation; legal adaptation pending. Runs M&A diligence at scale with cited tabular review, builds disclosure schedules and closing checklists, drafts board consents and minutes in house format, and tracks entity compliance deadlines across jurisdictions.",
   "author": {
     "name": "Anthropic"
-  }
+  },
+  "repository": "https://github.com/Francois-Louis/Judge",
+  "license": "Apache-2.0"
 }

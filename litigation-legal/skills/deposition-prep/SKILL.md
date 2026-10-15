@@ -4,9 +4,13 @@ description: Build a deposition outline for a witness — pull their documents f
 argument-hint: "[witness name]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /deposition-prep
 
-1. Load `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` → case theory, key facts.
+1. Load `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` → case theory, key facts.
 2. Follow the workflow and reference below.
 3. Pull docs authored by / mentioning witness from eDiscovery platform.
 4. Build outline: background, key docs, topics tied to theory, impeachment material.
@@ -58,11 +62,11 @@ A depo outline is read aloud in real time. That's oral advocacy, not written. It
 
 ## Load context
 
-`~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` → case theory (theory, pivot fact, key facts for/against), eDiscovery platform.
+`~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` → case theory (theory, pivot fact, key facts for/against), eDiscovery platform.
 
-**Conflicts gate — unbypassable.** Before building an outline, check `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/_log.yaml` for the matter slug. If the matter is not in `_log.yaml`, refuse and route:
+**Conflicts gate — unbypassable.** Before building an outline, check `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/_log.yaml` for the matter slug. If the matter is not in `_log.yaml`, refuse and route:
 
-> "I don't see [matter slug] in the matter log. Run `/litigation-legal:matter-intake` first so the conflicts check runs and the matter workspace is set up. I won't build a deposition outline on a matter that hasn't been intaken — the conflicts check is the gate."
+> "I don't see [matter slug] in the matter log. Run `/judge-fr-eu-litigation-legal:matter-intake` first so the conflicts check runs and the matter workspace is set up. I won't build a deposition outline on a matter that hasn't been intaken — the conflicts check is the gate."
 
 Do not proceed on an unintaken matter. Intake is what runs conflicts and writes the `_log.yaml` row this skill reads from.
 
@@ -111,7 +115,7 @@ Each topic is a thing you want to establish or explore. Organize around the theo
 - How they interacted with the key players
 
 **Good facts (lock them in before confronting):**
-- Facts from `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` → key facts for us, that this witness can establish
+- Facts from `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` → key facts for us, that this witness can establish
 - Documents that support our theory, authored or received by this witness
 
 **Bad facts (confront with documents):**

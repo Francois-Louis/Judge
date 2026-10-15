@@ -1,6 +1,8 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Comment Period Tracker
 # Populated automatically by reg-feed-watcher when NPRMs are detected.
-# Managed via /regulatory-legal:comments
+# Managed via /judge-fr-eu-regulatory-legal:comments
 
 comments:
   - id: CMT-001

@@ -5,3 +5,5 @@
 /.claude/
 __pycache__/
 *.pyc
+# Added by Judge FR/UE for BASE-008: per-deployment data is never packaged.
+/judge-fr-eu-runs/

@@ -9,27 +9,31 @@ description: >
 argument-hint: "[--redo to re-run] [--check-integrations to re-probe integrations only]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /cold-start-interview
 
-1. Check `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md` — if populated and no `--redo`, confirm before overwriting.
+1. Check `~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md` — if populated and no `--redo`, confirm before overwriting.
 2. Run the interview workflow below.
 3. Seed docs: privacy policy (URL or file), DPA template, one reference PIA. Read all three.
 4. Extract: policy commitments, DPA positions (note deltas vs. stated), PIA structure.
-5. Migration: if a populated CLAUDE.md (no `[PLACEHOLDER]` markers) exists at `~/.claude/plugins/cache/claude-for-legal/privacy-legal/*/CLAUDE.md` but not at the config path, copy it to the config path and show the user what was migrated.
-6. Write `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md` (create parent directories as needed). Show summary. Offer first task.
+5. If the fork profile is absent, start a fresh France/EU interview; never read a cache or another distribution.
+6. Write `~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md` (create parent directories as needed). Show summary. Offer first task.
 
 ## `--check-integrations`
 
-Re-runs the integration availability check (document storage, Slack, scheduled-tasks) and updates `## Available integrations` in `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md`. Does not re-interview. Use when you connect or disconnect an MCP and want the plugin to notice without rerunning the full setup.
+Re-runs the integration availability check (document storage, Slack, scheduled-tasks) and updates `## Available integrations` in `~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md`. Does not re-interview. Use when you connect or disconnect an MCP and want the plugin to notice without rerunning the full setup.
 
 When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 
 ```
-/privacy-legal:cold-start-interview
+/judge-fr-eu-privacy-legal:cold-start-interview
 ```
 
 ```
-/privacy-legal:cold-start-interview --check-integrations
+/judge-fr-eu-privacy-legal:cold-start-interview --check-integrations
 ```
 
 ---
@@ -38,13 +42,13 @@ When probing: only report ✓ if an MCP tool call actually succeeded. Configured
 
 ## Purpose
 
-Learn how *this* privacy team works — what regulations actually apply to them, what they will and won't agree to in a DPA, what a good PIA looks like here versus anywhere else. Write it into `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md` so every other skill reads from the same understanding.
+Learn how *this* privacy team works — what regulations actually apply to them, what they will and won't agree to in a DPA, what a good PIA looks like here versus anywhere else. Write it into `~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md` so every other skill reads from the same understanding.
 
 Privacy practices vary wildly by company. A B2B SaaS processor has almost nothing in common with a consumer app controller. The interview figures out which one this is before anything else.
 
 ## Cold-start check
 
-Read `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md`:
+Read `~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md`:
 - **Does not exist** → start the interview.
 - **Contains `<!-- SETUP PAUSED AT: -->`** → greet the user and offer to resume from that section.
 - **Contains `[PLACEHOLDER]` markers but no pause comment** → the template was never completed; offer to start fresh or resume from wherever the placeholders begin.
@@ -52,14 +56,14 @@ Read `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md`:
 
 The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed.
 
-If a CLAUDE.md exists at the old cache path `~/.claude/plugins/cache/claude-for-legal/privacy-legal/*/CLAUDE.md` but not at the config path, copy it forward.
+If the fork profile is absent, start a fresh interview; never import a cached profile.
 
 ## Check for the shared company profile
 
-Look for `~/.claude/plugins/config/claude-for-legal/company-profile.md`.
+Look for `~/.claude/plugins/config/judge-fr-eu/company-profile.md`.
 
 - **If it exists:** Read it. Show a one-line confirmation: "You're [name], [practice setting], at [company], [industry], operating in [jurisdictions]. Right? (Or say 'update' to change the shared profile.)" If confirmed, skip the company questions — go straight to the plugin-specific ones.
-- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
+- **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `${CLAUDE_PLUGIN_ROOT}/references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
 
 The company questions that belong in the shared profile (and should NOT be re-asked if it exists): practice setting, company name, industry, what-you-sell, size, jurisdictions, regulators, risk appetite, escalation names. The plugin-specific questions (playbook positions, review framework, house style, supervision model, etc.) stay per-plugin.
 
@@ -75,7 +79,7 @@ Ask the user to confirm before proceeding: continue with project scope, or pause
 
 Before asking anything else, show the fork-first preamble — 3-4 short lines, no longer:
 
-> **`privacy-legal` is for people who run the privacy program: PIAs, DPA reviews, DSAR responses, regulatory gap analysis.** Not your area? `/legal-builder-hub:related-skills-surfacer`.
+> **`privacy-legal` is for people who run the privacy program: PIAs, DPA reviews, DSAR responses, regulatory gap analysis.** Not your area? `/judge-fr-eu-legal-builder-hub:related-skills-surfacer`.
 >
 > **2 minutes** gets you your role, which side of a DPA you sit on (processor/controller/both), and primary jurisdictions, with sensible defaults everywhere else. **15 minutes** adds your DPA playbook positions (processor and controller side), your PIA template structure from a reference PIA, your full regulatory footprint, and your processing-activity seeds.
 >
@@ -84,7 +88,7 @@ Before asking anything else, show the fork-first preamble — 3-4 short lines, n
 Wait for the user's pick before showing anything else.
 
 <!-- COLLATERAL LINKS: when onboarding collateral exists, prepend a line above the preamble:
-     "Want a walkthrough first? [Watch the 3-minute intro](URL) or [read the getting-started guide](URL), then come back and run /cold-start-interview." -->
+     "Want a walkthrough first? the introduction (link not yet supplied) or the getting-started guide (link not yet supplied), then come back and run /cold-start-interview." -->
 
 ## After the user picks quick or full
 
@@ -100,7 +104,7 @@ Once the user has chosen, orient them before the first interview question:
 
 Populate the practice profile only from the user's typed answers and the three seed documents. Do not read `~/CLAUDE.md` or pull practice facts from ambient context. If something relevant is already visible in the conversation, ask before using it.
 
-**Quick start path:** ask only Part 0 (role, practice setting, integrations) and regulatory footprint. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for DPA positions, DSAR timing, and PIA thresholds. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/privacy-legal:cold-start-interview --full` anytime to do the whole interview, or `/privacy-legal:cold-start-interview --redo <section>` to re-do one part."
+**Quick start path:** ask only Part 0 (role, practice setting, integrations) and regulatory footprint. Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for DPA positions, DSAR timing, and PIA thresholds. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/judge-fr-eu-privacy-legal:cold-start-interview --full` anytime to do the whole interview, or `/judge-fr-eu-privacy-legal:cold-start-interview --redo <section>` to re-do one part."
 
 **Full setup path:** the existing interview flow below.
 
@@ -115,7 +119,7 @@ Populate the practice profile only from the user's typed answers and the three s
 - **For seed-document uploads:** "Paste the contents, share a file path or URL, or say 'skip for now.' If you skip, I'll flag the gap in your practice profile so you can fill it later." Then actually wait.
 - **Before writing the practice profile:** review the interview. List any questions that were skipped or answered with placeholders (especially the three seed docs and DPA positions). Say: "Before I write your practice profile, here's what's still open: [list]. Want to fill any of these now, or leave them as placeholders?" Then wait for the answer.
 - **Never** write a practice profile with silent gaps. Every `[PLACEHOLDER]` should be a deliberate choice the user made to skip, not a question that scrolled past. If the DPA template or reference PIA was skipped, note `[POSITIONS UNTESTED]` so downstream skills know.
-- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/privacy-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /privacy-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
+- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/judge-fr-eu-privacy-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /judge-fr-eu-privacy-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
 
 **Verify user-stated legal facts as they come up in setup.** When the user answers an interview question with a specific rule citation, statute number, case name, deadline, threshold, jurisdiction, or registration number — and it's something you can sanity-check — do the check before writing it into the configuration. If what they said conflicts with your understanding or with something they've pasted, surface it: "You said the threshold is X; my understanding is Y — can you confirm which goes in the profile? `[premise flagged — verify]`" A wrong fact written into CLAUDE.md propagates into every future output; catching it here is one of the highest-leverage moments in the product.
 
@@ -189,7 +193,7 @@ Then report findings in this form:
 
 > - ✓ [Integration] — connected (tested)
 > - ⚪ [Integration] — configured but not verified. Open your MCP settings to confirm.
-> - ✗ [Integration] — not found. [Feature] will fall back to [manual alternative]. [How to connect.] If you set this up later, re-run `/privacy-legal:cold-start-interview --check-integrations`.
+> - ✗ [Integration] — not found. [Feature] will fall back to [manual alternative]. [How to connect.] If you set this up later, re-run `/judge-fr-eu-privacy-legal:cold-start-interview --check-integrations`.
 >
 > You don't need all of these. Core features work with file access alone.
 
@@ -327,7 +331,7 @@ goes to [GC / CPO / name].
 | Slack | [✓ / ✗] | Breach / triage notifications delivered inline instead of posted |
 | Scheduled tasks | [✓ / ✗] | Policy-monitor sweep runs on demand only |
 
-*Re-check: `/privacy-legal:cold-start-interview --check-integrations`*
+*Re-check: `/judge-fr-eu-privacy-legal:cold-start-interview --check-integrations`*
 
 ---
 
@@ -432,7 +436,7 @@ For externally-facing deliverables (DSAR response letters, regulator responses, 
 
 ---
 
-*Re-run: `/privacy-legal:cold-start-interview --redo`*
+*Re-run: `/judge-fr-eu-privacy-legal:cold-start-interview --redo`*
 ```
 
 ## After writing
@@ -445,12 +449,12 @@ If yes, show this tailored list (not a generic template — these are the concre
 
 > **Here's what I'm good at in privacy practice:**
 >
-> - **Review a DPA against your playbook** — e.g., "Auto-detects processor vs. controller; flags deviations from your positions." Try: `/privacy-legal:dpa-review`
-> - **Triage a processing activity** — e.g., "PIA, mandatory GDPR DPIA, or proceed — with privacy-policy conflict surfaces." Try: `/privacy-legal:use-case-triage`
-> - **Generate a PIA in house format** — e.g., "Structured intake, risk analysis, regulatory classification, recommendation." Try: `/privacy-legal:pia-generation`
-> - **Walk through a DSAR** — e.g., "Verify, locate, assess exemptions, draft the response letter." Try: `/privacy-legal:dsar-response`
-> - **Diff a new regulation against your policy** — e.g., "Outputs the gap list and a remediation plan with owners and deadlines." Try: `/privacy-legal:reg-gap-analysis`
-> - **Sweep for policy drift** — e.g., "Look across saved PIAs, DPA reviews, and triage results to find where the privacy policy no longer matches practice." Try: `/privacy-legal:policy-monitor`
+> - **Review a DPA against your playbook** — e.g., "Auto-detects processor vs. controller; flags deviations from your positions." Try: `/judge-fr-eu-privacy-legal:dpa-review`
+> - **Triage a processing activity** — e.g., "PIA, mandatory GDPR DPIA, or proceed — with privacy-policy conflict surfaces." Try: `/judge-fr-eu-privacy-legal:use-case-triage`
+> - **Generate a PIA in house format** — e.g., "Structured intake, risk analysis, regulatory classification, recommendation." Try: `/judge-fr-eu-privacy-legal:pia-generation`
+> - **Walk through a DSAR** — e.g., "Verify, locate, assess exemptions, draft the response letter." Try: `/judge-fr-eu-privacy-legal:dsar-response`
+> - **Diff a new regulation against your policy** — e.g., "Outputs the gap list and a remediation plan with owners and deadlines." Try: `/judge-fr-eu-privacy-legal:reg-gap-analysis`
+> - **Sweep for policy drift** — e.g., "Look across saved PIAs, DPA reviews, and triage results to find where the privacy policy no longer matches practice." Try: `/judge-fr-eu-privacy-legal:policy-monitor`
 >
 > **My suggestion for your first one:** Run `/use-case-triage` on one real processing activity — it's the fastest way to see whether your playbook is capturing the right cuts. Or tell me what's on your plate and I'll pick.
 
@@ -472,11 +476,11 @@ This solves the cold-start problem (the supervisor doesn't know what to do first
 
 5. **Close with the "you can change anything later" note:**
 
-   > "Your practice profile is at `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md` — a plain text file you can read and edit directly. Anything you answered can be changed:
+   > "Your practice profile is at `~/.claude/plugins/config/judge-fr-eu/privacy-legal/CLAUDE.md` — a plain text file you can read and edit directly. Anything you answered can be changed:
    >
    > - Edit the file directly for a quick change
-   > - Run `/privacy-legal:cold-start-interview --redo` for a full re-interview
-   > - Run `/privacy-legal:cold-start-interview --check-integrations` to re-check what's connected
+   > - Run `/judge-fr-eu-privacy-legal:cold-start-interview --redo` for a full re-interview
+   > - Run `/judge-fr-eu-privacy-legal:cold-start-interview --check-integrations` to re-check what's connected
    >
    > The three sections people adjust most: the **DPA playbook** (as you negotiate more and harden positions), the **regulatory footprint** (as the company enters new markets), and the **DSAR response timing and systems list** (as the data landscape changes)."
 
@@ -487,7 +491,7 @@ This solves the cold-start problem (the supervisor doesn't know what to do first
    > - When a skill's output feels off, that's usually a position to tune. The output will tell you which one.
    > - The `policy-monitor` skill watches for drift between your privacy policy and how you actually practice. When it finds drift, it'll propose edits to match reality.
    > - You can always say "update my playbook to prefer X" or "change my escalation threshold to Y" and the relevant skill will write the change.
-   > - Run `/privacy-legal:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
+   > - Run `/judge-fr-eu-privacy-legal:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
    >
    > Ten minutes of setup gets you a working profile. A month of use gets you one that reads like you wrote it yourself.
 
@@ -496,3 +500,16 @@ This solves the cold-start problem (the supervisor doesn't know what to do first
 - **Don't assume GDPR applies.** Lots of US-only B2B companies are told they "should probably care about GDPR" — ask whether they actually have EU data subjects.
 - **Don't let them skip the controller/processor question.** If they're not sure, walk through it: "When your customer's user data comes into your system, whose privacy policy governs it — yours or the customer's?"
 - **Don't write a DPA playbook from generic positions.** If they haven't negotiated many DPAs, say so in the config CLAUDE.md: `[POSITIONS UNTESTED — this team hasn't negotiated many DPAs yet. Treat as starting points, not settled positions.]`
+
+## Judge FR/UE setup boundary
+
+Read only the fork profile and shared profile using the packaged storage helper.
+If the practice profile is absent, including with `--check-integrations`, start
+a new interview: confirm France/EU jurisdictions, role and dates from the user.
+Do not search or copy any other profile, cache, legal rules, matters or registers.
+Use the packaged template only as a section scaffold. Preserve an existing
+profile and its answers, including paused progress; `--redo` reviews only the
+requested sections and does not reset unrelated answers. Create new files
+exclusively; for an agreed edit, supply the digest of the file reviewed.
+Never use inherited US defaults to fill unanswered France/EU legal fields;
+leave them explicitly unresolved. Assisted import requires a separate story.

@@ -10,9 +10,13 @@ description: >
 argument-hint: "[question]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /wage-hour-qa
 
-1. Load `~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md` → jurisdictional footprint.
+1. Load `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md` → jurisdictional footprint.
 2. Use the workflow below.
 3. Identify jurisdiction the question is about. If not specified, ask.
 4. Answer per that jurisdiction's rule. Cite. Flag if it's a close call or law is shifting.
@@ -21,7 +25,7 @@ argument-hint: "[question]"
 
 ## Matter context
 
-**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/employment-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/claude-for-legal/employment-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
+**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/judge-fr-eu-employment-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
 
 ---
 
@@ -35,7 +39,7 @@ change frequently and vary meaningfully by state.
 
 ## Load context
 
-`~/.claude/plugins/config/claude-for-legal/employment-legal/CLAUDE.md` → jurisdictional footprint. If the question doesn't specify a
+`~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md` → jurisdictional footprint. If the question doesn't specify a
 jurisdiction, ask — or answer for the state with the most employees and note
 that.
 
@@ -97,7 +101,7 @@ to research:
 - "Do we have to pay out accrued PTO?" — Research the applicable state rule
   and any carve-out for accrual-cap or use-it-or-lose-it policies.
 - "Can we classify this person as a contractor?" — Route to
-  `/employment-legal:worker-classification` if the facts are not already clear.
+  `/judge-fr-eu-employment-legal:worker-classification` if the facts are not already clear.
 
 ### Step 2a: FLSA regular-rate and back-pay calculations
 

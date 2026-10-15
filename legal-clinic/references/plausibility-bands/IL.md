@@ -1,6 +1,8 @@
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
 # Plausibility bands — Illinois (placeholder structure)
 
-**This file is a starting structure. Supervisor: fill in the typical ranges and citations before relying on `/legal-clinic:deadlines` plausibility checks for IL matters.** Until filled in, every entry the skill accepts carries `warnings: no-plausibility-band` and the check is effectively off.
+**This file is a starting structure. Supervisor: fill in the typical ranges and citations before relying on `/judge-fr-eu-legal-clinic:deadlines` plausibility checks for IL matters.** Until filled in, every entry the skill accepts carries `warnings: no-plausibility-band` and the check is effectively off.
 
 Every citation here is `[model knowledge — verify]` unless replaced with a connector-retrieved or supervisor-provided source.
 

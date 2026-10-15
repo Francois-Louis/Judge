@@ -8,13 +8,17 @@ description: >
 argument-hint: "[file path to manifest / SBOM | package name | repo path | paste text]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /oss-review
 
-Runs an open source license compliance check against the practice profile in `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`. Classifies dependencies by license family, maps obligations to the deployment model, flags license-unknown and non-OSI-posing-as-OSS packages, and recommends actions — comply, replace, remove, seek legal review, seek commercial license.
+Runs an open source license compliance check against the practice profile in `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`. Classifies dependencies by license family, maps obligations to the deployment model, flags license-unknown and non-OSI-posing-as-OSS packages, and recommends actions — comply, replace, remove, seek legal review, seek commercial license.
 
 ## Instructions
 
-1. **Load `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`.** If placeholders present, stop and prompt: "Run `/ip-legal:cold-start-interview` first — I need to learn your practice profile (and OSS policy, if any) before I can review." If the practice profile points at an uploaded OSS policy, read that too — it is the source of truth for accepted / review / banned licenses on this team.
+1. **Load `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`.** If placeholders present, stop and prompt: "Run `/judge-fr-eu-ip-legal:cold-start-interview` first — I need to learn your practice profile (and OSS policy, if any) before I can review." If the practice profile points at an uploaded OSS policy, read that too — it is the source of truth for accepted / review / banned licenses on this team.
 
 2. **Establish the scope:** a dependency list (package.json, requirements.txt, go.mod, Gemfile, Cargo.toml, pom.xml, SBOM), a single library, or outbound code the team is preparing to open-source. If the user passed a path, infer from the file; otherwise ask.
 
@@ -34,10 +38,10 @@ Runs an open source license compliance check against the practice profile in `~/
 ## Examples
 
 ```
-/ip-legal:oss-review ~/code/my-project/package.json
-/ip-legal:oss-review ~/code/my-project/requirements.txt
-/ip-legal:oss-review redis
-/ip-legal:oss-review ~/code/my-project  # repo root — scan all manifests
+/judge-fr-eu-ip-legal:oss-review ~/code/my-project/package.json
+/judge-fr-eu-ip-legal:oss-review ~/code/my-project/requirements.txt
+/judge-fr-eu-ip-legal:oss-review redis
+/judge-fr-eu-ip-legal:oss-review ~/code/my-project  # repo root — scan all manifests
 ```
 
 ---
@@ -56,7 +60,7 @@ ticketing connector.
 
 ## Matter context
 
-**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/ip-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/claude-for-legal/ip-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
+**Matter context.** Check `## Matter workspaces` in the practice-level CLAUDE.md. If `Enabled` is `✗` (the default for in-house users), skip the rest of this paragraph — skills use practice-level context and the matter machinery is invisible. If enabled and there is no active matter, ask: "Which matter is this for? Run `/judge-fr-eu-ip-legal:matter-workspace switch <slug>` or say `practice-level`." Load the active matter's `matter.md` for matter-specific context and overrides. Write outputs to the matter folder at `~/.claude/plugins/config/judge-fr-eu/ip-legal/matters/<matter-slug>/`. Never read another matter's files unless `Cross-matter context` is `on`.
 
 ---
 
@@ -68,7 +72,7 @@ Tell the user what licenses are in their dependency tree, what obligations those
 
 ## Precondition: load the practice profile
 
-**Before scanning dependencies, read `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`.** If it is missing or still contains placeholders, stop and run `/ip-legal:cold-start-interview`. The practice profile tells you:
+**Before scanning dependencies, read `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md`.** If it is missing or still contains placeholders, stop and run `/judge-fr-eu-ip-legal:cold-start-interview`. The practice profile tells you:
 
 - Who owns OSS review on this team (often engineering with legal sign-off)
 - Escalation routing for copyleft obligations
@@ -198,7 +202,7 @@ If the user is preparing to open-source code:
 
 ### Step 7: Assemble the memo
 
-Prepend the work-product header from `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` → `## Outputs` (differs by user role — see `## Who's using this`).
+Prepend the work-product header from `~/.claude/plugins/config/judge-fr-eu/ip-legal/CLAUDE.md` → `## Outputs` (differs by user role — see `## Who's using this`).
 
 This memo and any dependency list reviewed may be privileged, confidential, or both. The output inherits that status from the source. Distribute only within the privilege circle; strip the work-product header before any external delivery (including before attaching the memo to an engineering ticket outside the privilege circle).
 

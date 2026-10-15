@@ -15,6 +15,7 @@ Checks regulatory feeds on a schedule, filters by the deploying team's materiali
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
+export JUDGE_DEPLOYMENT_ID=demo-2026-10-15
 export GDRIVE_MCP_URL=...
 ../../scripts/deploy-managed-agent.sh reg-monitor
 ```
@@ -49,3 +50,7 @@ Before you trust the output on your workflow:
 - **Update the watchlist.** The materiality-filter also reads the `## Regulators we watch` table. Add or remove regulators as your footprint changes.
 - **Confirm the work-product header.** The headless append in `agent.yaml` instructs the agent to prepend your configuration's work-product header. Verify the header language with your GC before turning this on.
 - **Cadence.** Weekly is the default. Active regulatory environments (financial services rulemaking cycles, cross-border AI regulation) may warrant daily. The cadence lives in your own workflow engine — the cookbook does not schedule itself.
+
+## Judge FR/UE storage
+
+Modified for BASE-008 (2026-10-15), technical version 0.1.0; legal adaptation pending. Use a fresh `JUDGE_DEPLOYMENT_ID`. The launcher binds outputs to `./judge-fr-eu-runs/<deployment>/reg-monitor/out/` and uses fork agent names/titles. Do not reuse original working directories. See the [workspace contract and remote limitations](../README.md).

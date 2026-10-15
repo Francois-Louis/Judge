@@ -4,11 +4,15 @@ description: Roll up the portfolio from _log.yaml — risk distribution, upcomin
 argument-hint: "[--all | --risk=high | --stale]"
 ---
 
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
+
 # /portfolio-status
 
-1. Load `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` → risk calibration (defines how to read the `risk:` field).
+1. Load `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` → risk calibration (defines how to read the `risk:` field).
 2. Follow the workflow and reference below.
-3. Parse `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/_log.yaml`. Filter closed matters by default (include with `--all`).
+3. Parse `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/_log.yaml`. Filter closed matters by default (include with `--all`).
 4. Produce rollup: risk distribution, deadlines in next 14/30/60 days, matters with no update in >30 days, materiality totals, stage distribution.
 5. Flag anomalies — everything marked critical, overdue next_deadline, matters without outside counsel assigned where risk is medium or high.
 
@@ -22,8 +26,8 @@ One read that answers: what do I own right now, what needs attention, and what's
 
 ## Load context
 
-- `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/_log.yaml` — source of truth
-- `~/.claude/plugins/config/claude-for-legal/litigation-legal/CLAUDE.md` — risk calibration (to interpret risk/materiality fields correctly)
+- `~/.claude/plugins/config/judge-fr-eu/litigation-legal/matters/_log.yaml` — source of truth
+- `~/.claude/plugins/config/judge-fr-eu/litigation-legal/CLAUDE.md` — risk calibration (to interpret risk/materiality fields correctly)
 
 ## Flags & filters
 

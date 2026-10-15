@@ -8,9 +8,15 @@ description: >
   trust a community skill before installing it, before deploying a first-party
   skill to your team, or whenever the user asks "should I trust this?" or
   "is this skill well-designed?". Runs automatically as part of
-  /legal-builder-hub:skill-installer.
+  /judge-fr-eu-legal-builder-hub:skill-installer.
 argument-hint: "[skill path | SKILL.md path | paste content]"
 ---
+
+For every community lifecycle operation, first load `${CLAUDE_PLUGIN_ROOT}/references/community-lifecycle.md`. Its helper owns installation, updates, backups, rollback, disabling, enabling, uninstall and the fork journal.
+
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+Before accessing profiles, matters, registers or outputs, read `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` and follow its storage boundary.
 
 # /skills-qa
 
@@ -22,17 +28,17 @@ argument-hint: "[skill path | SKILL.md path | paste content]"
 
 ## Context to load
 
-- `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` → practice profile and installed skills list (provides context
+- `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/CLAUDE.md` → practice profile and installed skills list (provides context
   for evaluating whether the skill fits the user's team and workflow, and
   whether it duplicates something already installed)
 
 ## Notes
 
-This QA check runs automatically as part of `/legal-builder-hub:skill-installer`. You can also run it directly on any skill before deciding whether to install, or on a first-party skill before deploying to your team.
+This QA check runs automatically as part of `/judge-fr-eu-legal-builder-hub:skill-installer`. You can also run it directly on any skill before deciding whether to install, or on a first-party skill before deploying to your team.
 Run it deliberately — before incorporating any community skill you did not build,
 or before deploying a first-party skill to your team.
 
-If the user runs `/legal-builder-hub:skill-installer` and then asks "should I trust
+If the user runs `/judge-fr-eu-legal-builder-hub:skill-installer` and then asks "should I trust
 this?" or "is this well-designed?", route to this skill rather than answering
 inline.
 
@@ -70,7 +76,7 @@ Collect everything provided:
 - `commands/*.md` — how the skill is invoked; how it is framed to the user
 - `agents/*.md` — any scheduled or ambient behavior attached to the skill
 - `hooks/hooks.json` — what triggers the skill automatically
-- The skill's associated `CLAUDE.md` (template in the plugin directory, user config at `~/.claude/plugins/config/claude-for-legal/<plugin>/CLAUDE.md`) — if available, what practice profile the skill reads and depends on
+- The skill's associated `CLAUDE.md` (template in the plugin directory, user config at `~/.claude/plugins/config/judge-fr-eu/<plugin>/CLAUDE.md`) — if available, what practice profile the skill reads and depends on
 
 If any of the above are absent, note it in the dependency map section and
 proceed with what is available.
@@ -123,7 +129,7 @@ For each file, flag every occurrence of:
    configs, or `~/.claude/plugins/config/...` outside the skill's own
    directory.
 4. **Out-of-scope reads** — instructions to read paths outside the skill's own
-   directory and `~/.claude/plugins/config/claude-for-legal/<plugin>/`. Flag
+   directory and `~/.claude/plugins/config/judge-fr-eu/<plugin>/`. Flag
    specifically reads from: `~/.ssh/`, `~/.aws/`, `~/.config/gh/`, password
    managers, browser profiles, Mail, Messages, Slack files, or any path that
    could carry credentials.
@@ -208,7 +214,7 @@ flag which risks cannot be assessed.
 
 ## Step 2.5: Allowlist cross-check (standalone /skills-qa runs)
 
-When `/legal-builder-hub:skills-qa` is invoked directly by the user (not as part of `/legal-builder-hub:skill-installer`), cross-check the skill's source registry and publisher against `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/allowlist.yaml`. This is passive information for the user — it does not gate the QA run, but it surfaces the install posture so a user running `/legal-builder-hub:skills-qa` on a skill they want to install sees the allowlist status up front.
+When `/judge-fr-eu-legal-builder-hub:skills-qa` is invoked directly by the user (not as part of `/judge-fr-eu-legal-builder-hub:skill-installer`), cross-check the skill's source registry and publisher against `~/.claude/plugins/config/judge-fr-eu/legal-builder-hub/allowlist.yaml`. This is passive information for the user — it does not gate the QA run, but it surfaces the install posture so a user running `/judge-fr-eu-legal-builder-hub:skills-qa` on a skill they want to install sees the allowlist status up front.
 
 Behavior:
 
@@ -457,7 +463,7 @@ purpose.
 
 ### 11. Freshness
 
-Does the skill bundle reference content under `references/` — regulations,
+Does the skill bundle reference content under the candidate's references directory — regulations,
 statutes, procedures, forms, checklists keyed to current law?
 
 If **yes**, does the `SKILL.md` frontmatter declare all four freshness fields:
@@ -480,7 +486,7 @@ declares `last_verified` + `freshness_window` AND the window has passed as
 of today. The author themselves says it needs re-verification.
 
 **Flag 🟡 Some Concern if:** The skill bundles reference content under
-`references/` AND does NOT declare `last_verified` (or declares it in a
+the candidate's references directory AND does NOT declare `last_verified` (or declares it in a
 format the installer would reject). The user has no way to know whether the
 bundled law is current.
 
@@ -488,7 +494,7 @@ bundled law is current.
 bundled content that is plainly rule text, threshold text, or procedural
 deadlines (not doctrine). `stable` is the escape hatch most often misused.
 
-**Flag 🟢 if:** The skill bundles no reference content under `references/`
+**Flag 🟢 if:** The skill bundles no reference content under the candidate's references directory
 (N/A), OR all four freshness fields are present, validated, and within the
 declared window.
 

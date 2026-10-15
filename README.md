@@ -1,4 +1,15 @@
-# Claude for Legal
+<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15): technical identity and storage isolation; legal adaptation pending. -->
+
+# Judge FR/UE
+
+**Version technique 0.1.0.** Fork indépendant de Claude for Legal / Anthropic,
+maintenu sur [Francois-Louis/Judge](https://github.com/Francois-Louis/Judge),
+sans affiliation revendiquée. BASE-008 isole les noms, profils et données ;
+les tâches juridiques héritées restent à adapter à la France et à l'UE.
+Voir le [démarrage du fork](QUICKSTART.md), les [preuves et limites de validation](references/base008-validation.md),
+la [licence](LICENSE) et les [fichiers modifiés](NOTICE).
+Les intégrations Cowork/Office et l'exécution distante décrites ci-dessous
+proviennent de la documentation amont et restent à vérifier pour ce fork.
 
 Reference agents, skills, and data connectors for the legal workflows we see most — in-house commercial, privacy, product, corporate, employment, litigation, regulatory, AI governance, IP, and the learning side of the practice (law school clinics and students).
 
@@ -31,98 +42,98 @@ Each agent is named for the workflow it runs. They're the most common surface �
 
 | Agent | What it does | Plugin | Command |
 |---|---|---|---|
-| **Vendor Agreement Reviewer** | Reviews a vendor MSA against your playbook and produces a redline memo | `commercial-legal` | `/commercial-legal:review` |
-| **NDA Triager** | GREEN/YELLOW/RED triage of inbound NDAs so only the hard ones hit a lawyer's desk | `commercial-legal` | `/commercial-legal:review` |
-| **Amendment Tracer** | Traces how a contract has changed across its base agreement and every amendment | `commercial-legal` | `/commercial-legal:amendment-history` |
+| **Vendor Agreement Reviewer** | Reviews a vendor MSA against your playbook and produces a redline memo | `commercial-legal` | `/judge-fr-eu-commercial-legal:review` |
+| **NDA Triager** | GREEN/YELLOW/RED triage of inbound NDAs so only the hard ones hit a lawyer's desk | `commercial-legal` | `/judge-fr-eu-commercial-legal:review` |
+| **Amendment Tracer** | Traces how a contract has changed across its base agreement and every amendment | `commercial-legal` | `/judge-fr-eu-commercial-legal:amendment-history` |
 | **Renewal Watcher** | Scans the contract register for cancel-by and renewal deadlines | `commercial-legal` | scheduled agent |
 | **Deal Debrief** | Weekly sweep of signed agreements with playbook deviations — prompts the attorney to log context while memory is fresh | `commercial-legal` | scheduled agent |
 | **Playbook Monitor** | Watches the deviation log and proposes playbook updates when a clause has drifted | `commercial-legal` | scheduled agent |
-| **Escalation Router** | Routes contract issues to the right approver and drafts the ask | `commercial-legal` | `/commercial-legal:escalation-flagger` |
-| **Tabular Diligence Review** | Tabular review over a data room with one row per document and every cell cited | `corporate-legal` | `/corporate-legal:tabular-review` |
-| **Issue Extractor** | Reads VDR documents and extracts issues per house categories and materiality thresholds | `corporate-legal` | `/corporate-legal:diligence-issue-extraction` |
-| **Board Consent Drafter** | Drafts unanimous written consents in house format with precedent search | `corporate-legal` | `/corporate-legal:written-consent` |
-| **Material Contracts Schedule Builder** | Builds the disclosure schedule from diligence findings against the purchase-agreement threshold | `corporate-legal` | `/corporate-legal:material-contract-schedule` |
-| **Entity Compliance Tracker** | Computes filing deadlines across jurisdictions and entity types, runs health audits | `corporate-legal` | `/corporate-legal:entity-compliance` |
-| **Closing Checklist Driver** | Tracks every condition, consent, document, and filing blocking close | `corporate-legal` | `/corporate-legal:closing-checklist` |
-| **Integration Runbook** | Phased post-closing integration plan with consent tracking and weekly status | `corporate-legal` | `/corporate-legal:integration-management` |
+| **Escalation Router** | Routes contract issues to the right approver and drafts the ask | `commercial-legal` | `/judge-fr-eu-commercial-legal:escalation-flagger` |
+| **Tabular Diligence Review** | Tabular review over a data room with one row per document and every cell cited | `corporate-legal` | `/judge-fr-eu-corporate-legal:tabular-review` |
+| **Issue Extractor** | Reads VDR documents and extracts issues per house categories and materiality thresholds | `corporate-legal` | `/judge-fr-eu-corporate-legal:diligence-issue-extraction` |
+| **Board Consent Drafter** | Drafts unanimous written consents in house format with precedent search | `corporate-legal` | `/judge-fr-eu-corporate-legal:written-consent` |
+| **Material Contracts Schedule Builder** | Builds the disclosure schedule from diligence findings against the purchase-agreement threshold | `corporate-legal` | `/judge-fr-eu-corporate-legal:material-contract-schedule` |
+| **Entity Compliance Tracker** | Computes filing deadlines across jurisdictions and entity types, runs health audits | `corporate-legal` | `/judge-fr-eu-corporate-legal:entity-compliance` |
+| **Closing Checklist Driver** | Tracks every condition, consent, document, and filing blocking close | `corporate-legal` | `/judge-fr-eu-corporate-legal:closing-checklist` |
+| **Integration Runbook** | Phased post-closing integration plan with consent tracking and weekly status | `corporate-legal` | `/judge-fr-eu-corporate-legal:integration-management` |
 | **Data Room Watcher** | Monitors the VDR for new uploads and posts closing checklist status on schedule | `corporate-legal` | scheduled agent |
-| **Termination Reviewer** | Runs a proposed termination against jurisdiction-specific risk flags | `employment-legal` | `/employment-legal:termination-review` |
-| **Hire Reviewer** | Reviews offer letters and restrictive covenants with a jurisdiction check | `employment-legal` | `/employment-legal:hiring-review` |
-| **Worker Classification Screener** | Tests a proposed engagement against the controlling state test | `employment-legal` | `/employment-legal:worker-classification` |
+| **Termination Reviewer** | Runs a proposed termination against jurisdiction-specific risk flags | `employment-legal` | `/judge-fr-eu-employment-legal:termination-review` |
+| **Hire Reviewer** | Reviews offer letters and restrictive covenants with a jurisdiction check | `employment-legal` | `/judge-fr-eu-employment-legal:hiring-review` |
+| **Worker Classification Screener** | Tests a proposed engagement against the controlling state test | `employment-legal` | `/judge-fr-eu-employment-legal:worker-classification` |
 | **Leave Tracker** | Monitors open leaves with FMLA/CFRA/PFL/ADA deadlines and decision-point alerts | `employment-legal` | scheduled agent |
-| **Investigation Lead** | Opens, tracks, adds to, and summarizes internal investigation matters | `employment-legal` | `/employment-legal:investigation-open` |
-| **Policy Drafter** | Drafts employment policies with state supplements where law differs | `employment-legal` | `/employment-legal:policy-drafting` |
-| **International Expansion Planner** | Kicks off EOR-vs-entity planning and outside-counsel briefing for a new country | `employment-legal` | `/employment-legal:expansion-kickoff` |
-| **Wage & Hour Q&A** | Jurisdiction-aware employment Q&A for the "quick question" channel | `employment-legal` | `/employment-legal:wage-hour-qa` |
-| **DSAR Responder** | Drafts DSAR acknowledgments and substantive responses within statutory timelines | `privacy-legal` | `/privacy-legal:dsar-response` |
-| **DPA Reviewer** | Reviews a DPA against your playbook as controller or processor | `privacy-legal` | `/privacy-legal:dpa-review` |
-| **PIA Generator** | Generates a Privacy Impact Assessment in house format for a new feature or activity | `privacy-legal` | `/privacy-legal:pia-generation` |
-| **Privacy Triager** | Decides whether a processing activity needs a PIA, a mandatory GDPR DPIA, or can proceed | `privacy-legal` | `/privacy-legal:use-case-triage` |
-| **Privacy Reg Gap Checker** | Diffs a new or changed regulation against current privacy policy and practice | `privacy-legal` | `/privacy-legal:reg-gap-analysis` |
-| **Privacy Policy Monitor** | Sweeps saved PIAs, DPA reviews, and triage results for policy drift | `privacy-legal` | `/privacy-legal:policy-monitor` |
-| **Launch Reviewer** | Reviews a product launch against your risk calibration | `product-legal` | `/product-legal:launch-review` |
-| **Marketing Claims Checker** | Flags copy that needs substantiation, reframing, or cutting | `product-legal` | `/product-legal:marketing-claims-review` |
-| **"Is this a problem?" Triage** | Fast answer for the quick Slack question — pattern-matches your calibration | `product-legal` | `/product-legal:is-this-a-problem` |
+| **Investigation Lead** | Opens, tracks, adds to, and summarizes internal investigation matters | `employment-legal` | `/judge-fr-eu-employment-legal:investigation-open` |
+| **Policy Drafter** | Drafts employment policies with state supplements where law differs | `employment-legal` | `/judge-fr-eu-employment-legal:policy-drafting` |
+| **International Expansion Planner** | Kicks off EOR-vs-entity planning and outside-counsel briefing for a new country | `employment-legal` | `/judge-fr-eu-employment-legal:expansion-kickoff` |
+| **Wage & Hour Q&A** | Jurisdiction-aware employment Q&A for the "quick question" channel | `employment-legal` | `/judge-fr-eu-employment-legal:wage-hour-qa` |
+| **DSAR Responder** | Drafts DSAR acknowledgments and substantive responses within statutory timelines | `privacy-legal` | `/judge-fr-eu-privacy-legal:dsar-response` |
+| **DPA Reviewer** | Reviews a DPA against your playbook as controller or processor | `privacy-legal` | `/judge-fr-eu-privacy-legal:dpa-review` |
+| **PIA Generator** | Generates a Privacy Impact Assessment in house format for a new feature or activity | `privacy-legal` | `/judge-fr-eu-privacy-legal:pia-generation` |
+| **Privacy Triager** | Decides whether a processing activity needs a PIA, a mandatory GDPR DPIA, or can proceed | `privacy-legal` | `/judge-fr-eu-privacy-legal:use-case-triage` |
+| **Privacy Reg Gap Checker** | Diffs a new or changed regulation against current privacy policy and practice | `privacy-legal` | `/judge-fr-eu-privacy-legal:reg-gap-analysis` |
+| **Privacy Policy Monitor** | Sweeps saved PIAs, DPA reviews, and triage results for policy drift | `privacy-legal` | `/judge-fr-eu-privacy-legal:policy-monitor` |
+| **Launch Reviewer** | Reviews a product launch against your risk calibration | `product-legal` | `/judge-fr-eu-product-legal:launch-review` |
+| **Marketing Claims Checker** | Flags copy that needs substantiation, reframing, or cutting | `product-legal` | `/judge-fr-eu-product-legal:marketing-claims-review` |
+| **"Is this a problem?" Triage** | Fast answer for the quick Slack question — pattern-matches your calibration | `product-legal` | `/judge-fr-eu-product-legal:is-this-a-problem` |
 | **Launch Watcher** | Watches the launch tracker for upcoming launches that need legal review | `product-legal` | scheduled agent |
 | **Reg Feed Watcher** | Polls regulatory feeds and writes the Monday-morning digest | `regulatory-legal` | scheduled agent |
-| **On-demand Reg Check** | Check regulatory feeds now and report what's new since last check | `regulatory-legal` | `/regulatory-legal:reg-feed-watcher` |
-| **Policy Diff** | Diffs a specific regulatory change against the indexed policy library | `regulatory-legal` | `/regulatory-legal:policy-diff` |
-| **Gap Tracker** | Open gaps tracker — what's flagged and not yet closed | `regulatory-legal` | `/regulatory-legal:gaps` |
-| **Policy Redrafter** | Marked-up policy redraft closing a gap — a proposal for the policy owner's review, not a direct edit to source documents | `regulatory-legal` | `/regulatory-legal:policy-redraft` |
-| **NPRM Comment Tracker** | Review open NPRM comment periods, log decisions, track deadlines | `regulatory-legal` | `/regulatory-legal:comments` |
-| **AI Use Case Triager** | Classifies proposed AI use cases against your registry | `ai-governance-legal` | `/ai-governance-legal:use-case-triage` |
-| **AI Impact Assessor** | Runs an AIA across the regimes in scope | `ai-governance-legal` | `/ai-governance-legal:aia-generation` |
-| **Vendor AI Reviewer** | Reviews vendor AI terms for training-on-data, liability, model-change, and policy gaps | `ai-governance-legal` | `/ai-governance-legal:vendor-ai-review` |
-| **AI Reg Gap Checker** | Diffs a new AI regulation against your current governance posture | `ai-governance-legal` | `/ai-governance-legal:reg-gap-analysis` |
-| **AI Policy Monitor** | Sweeps saved AIAs, triage results, and vendor reviews for AI-policy drift | `ai-governance-legal` | `/ai-governance-legal:policy-monitor` |
-| **Trademark Clearance Screener** | First-pass clearance with knockout check and confusion heuristics | `ip-legal` | `/ip-legal:clearance` |
-| **Cease & Desist Drafter** | Drafts or triages a C&D, calibrated to your enforcement posture | `ip-legal` | `/ip-legal:cease-desist` |
-| **DMCA Takedown** | Drafts a takedown, triages one received, or drafts a §512(g) counter-notice | `ip-legal` | `/ip-legal:takedown` |
-| **OSS Compliance Checker** | Classifies open source licenses against your deployment model | `ip-legal` | `/ip-legal:oss-review` |
-| **FTO Triager** | Structured first look at potentially blocking patents — triage, not an opinion | `ip-legal` | `/ip-legal:fto-triage` |
-| **Infringement Triager** | Triage across TM / copyright / patent / trade secret — factors, not a finding | `ip-legal` | `/ip-legal:infringement-triage` |
-| **IP Clause Reviewer** | Reviews assignment, ownership, license grants, warranties, and indemnities | `ip-legal` | `/ip-legal:ip-clause-review` |
-| **IP Portfolio Tracker** | Registrations, renewals, maintenance fees, use declarations | `ip-legal` | `/ip-legal:portfolio` |
+| **On-demand Reg Check** | Check regulatory feeds now and report what's new since last check | `regulatory-legal` | `/judge-fr-eu-regulatory-legal:reg-feed-watcher` |
+| **Policy Diff** | Diffs a specific regulatory change against the indexed policy library | `regulatory-legal` | `/judge-fr-eu-regulatory-legal:policy-diff` |
+| **Gap Tracker** | Open gaps tracker — what's flagged and not yet closed | `regulatory-legal` | `/judge-fr-eu-regulatory-legal:gaps` |
+| **Policy Redrafter** | Marked-up policy redraft closing a gap — a proposal for the policy owner's review, not a direct edit to source documents | `regulatory-legal` | `/judge-fr-eu-regulatory-legal:policy-redraft` |
+| **NPRM Comment Tracker** | Review open NPRM comment periods, log decisions, track deadlines | `regulatory-legal` | `/judge-fr-eu-regulatory-legal:comments` |
+| **AI Use Case Triager** | Classifies proposed AI use cases against your registry | `ai-governance-legal` | `/judge-fr-eu-ai-governance-legal:use-case-triage` |
+| **AI Impact Assessor** | Runs an AIA across the regimes in scope | `ai-governance-legal` | `/judge-fr-eu-ai-governance-legal:aia-generation` |
+| **Vendor AI Reviewer** | Reviews vendor AI terms for training-on-data, liability, model-change, and policy gaps | `ai-governance-legal` | `/judge-fr-eu-ai-governance-legal:vendor-ai-review` |
+| **AI Reg Gap Checker** | Diffs a new AI regulation against your current governance posture | `ai-governance-legal` | `/judge-fr-eu-ai-governance-legal:reg-gap-analysis` |
+| **AI Policy Monitor** | Sweeps saved AIAs, triage results, and vendor reviews for AI-policy drift | `ai-governance-legal` | `/judge-fr-eu-ai-governance-legal:policy-monitor` |
+| **Trademark Clearance Screener** | First-pass clearance with knockout check and confusion heuristics | `ip-legal` | `/judge-fr-eu-ip-legal:clearance` |
+| **Cease & Desist Drafter** | Drafts or triages a C&D, calibrated to your enforcement posture | `ip-legal` | `/judge-fr-eu-ip-legal:cease-desist` |
+| **DMCA Takedown** | Drafts a takedown, triages one received, or drafts a §512(g) counter-notice | `ip-legal` | `/judge-fr-eu-ip-legal:takedown` |
+| **OSS Compliance Checker** | Classifies open source licenses against your deployment model | `ip-legal` | `/judge-fr-eu-ip-legal:oss-review` |
+| **FTO Triager** | Structured first look at potentially blocking patents — triage, not an opinion | `ip-legal` | `/judge-fr-eu-ip-legal:fto-triage` |
+| **Infringement Triager** | Triage across TM / copyright / patent / trade secret — factors, not a finding | `ip-legal` | `/judge-fr-eu-ip-legal:infringement-triage` |
+| **IP Clause Reviewer** | Reviews assignment, ownership, license grants, warranties, and indemnities | `ip-legal` | `/judge-fr-eu-ip-legal:ip-clause-review` |
+| **IP Portfolio Tracker** | Registrations, renewals, maintenance fees, use declarations | `ip-legal` | `/judge-fr-eu-ip-legal:portfolio` |
 | **IP Renewal Watcher** | Scheduled deadline report from the IP portfolio register | `ip-legal` | scheduled agent |
-| **Claim Chart Builder** | Element-by-element claim chart, patent or civil cause of action | `litigation-legal` | `/litigation-legal:claim-chart` |
+| **Claim Chart Builder** | Element-by-element claim chart, patent or civil cause of action | `litigation-legal` | `/judge-fr-eu-litigation-legal:claim-chart` |
 | **Docket Watcher** | Monitors court dockets for filings and deadlines | `litigation-legal` | scheduled agent |
-| **Demand Letter Drafter** | Drafts a demand with FRE 408 awareness and a send gate | `litigation-legal` | `/litigation-legal:demand-draft` |
-| **Demand Intake** | Pre-drafting context gathering — parties, facts, basis, leverage, privilege | `litigation-legal` | `/litigation-legal:demand-intake` |
-| **Demand Received Triage** | Triages an inbound demand — options, portfolio cross-check, handoff | `litigation-legal` | `/litigation-legal:demand-received` |
-| **Subpoena Triage** | Classifies, scopes, and plans compliance with a new subpoena | `litigation-legal` | `/litigation-legal:subpoena-triage` |
-| **Chronology Builder** | Builds or updates a chronology from declared sources and uploads | `litigation-legal` | `/litigation-legal:chronology` |
-| **Deposition Prep** | Builds a deposition outline tied to case theory with docs and impeachment | `litigation-legal` | `/litigation-legal:deposition-prep` |
-| **Brief Section Drafter** | Drafts a brief section in house style, consistent with case theory | `litigation-legal` | `/litigation-legal:brief-section-drafter` |
-| **Privilege Log Reviewer** | First-pass privilege log review — obvious calls + flags for attorney review | `litigation-legal` | `/litigation-legal:privilege-log-review` |
-| **Legal Hold** | Issue, refresh, release, or report on legal holds | `litigation-legal` | `/litigation-legal:legal-hold` |
-| **Matter Intake** | Uniform intake for a new matter — writes matter.md, history.md, appends to log | `litigation-legal` | `/litigation-legal:matter-intake` |
-| **Matter Briefing** | Deep briefing on one matter — ready for a GC or outside counsel call | `litigation-legal` | `/litigation-legal:matter-briefing` |
-| **Portfolio Status** | Risk distribution, upcoming deadlines, stale matters | `litigation-legal` | `/litigation-legal:portfolio-status` |
-| **Outside Counsel Status** | Generates weekly status-request drafts across the active portfolio | `litigation-legal` | `/litigation-legal:oc-status` |
-| **Clinic Intake** | Structured client intake with cross-area issue spotting and conflict flags | `legal-clinic` | `/legal-clinic:client-intake` |
-| **Case Memo Scaffold** | IRAC-scaffolded case analysis memo with research gaps flagged | `legal-clinic` | `/legal-clinic:memo` |
-| **Research Roadmap** | Statutes to check, case law areas, Westlaw search terms — leads, not cites | `legal-clinic` | `/legal-clinic:research-start` |
-| **Clinic Deadline Tracker** | Add, report, update, and close case deadlines with malpractice-aware warnings | `legal-clinic` | `/legal-clinic:deadlines` |
-| **Case Status Summarizer** | Case status by audience — client, professor, or court-ready | `legal-clinic` | `/legal-clinic:status` |
-| **Client Letter Drafter** | Routine client correspondence — appointment confirms, doc requests, updates | `legal-clinic` | `/legal-clinic:client-letter` |
-| **Student Ramp** | Semester onboarding — clinic procedures, tool walkthrough, practice exercises | `legal-clinic` | `/legal-clinic:ramp` |
-| **Semester Handoff** | End-of-semester case handoff memos — the mirror of ramp | `legal-clinic` | `/legal-clinic:semester-handoff` |
-| **Supervisor Review Queue** | Professor's review queue (when formal review supervision is configured) | `legal-clinic` | `/legal-clinic:supervisor-review-queue` |
-| **Bar Prep Coach** | Jurisdiction-aware MBE and essay practice targeted at weak subjects | `law-student` | `/law-student:bar-prep-questions` |
-| **Socratic Drill Sergeant** | It asks, you answer, it pushes back — does not give you the answer | `law-student` | `/law-student:socratic-drill` |
-| **IRAC Grader** | Grades your IRAC essay on structure, issue-spotting, rules, analysis | `law-student` | `/law-student:irac-practice` |
-| **Case Briefer** | Brief a case in your preferred format | `law-student` | `/law-student:case-brief` |
-| **Outline Builder** | Build or extend an outline in your format from class notes and casebook | `law-student` | `/law-student:outline-builder` |
-| **Cold Call Prep** | Predicts professor's questions and drills them before class | `law-student` | `/law-student:cold-call-prep` |
-| **Exam Forecaster** | Analyze past exams from the same professor; forecast likely emphases | `law-student` | `/law-student:exam-forecast` |
-| **Legal Writing Critic** | Structural feedback on a draft — never rewrites | `law-student` | `/law-student:legal-writing` |
-| **Flashcard Drillmaster** | Generate or drill flashcards — Leitner-style buckets | `law-student` | `/law-student:flashcards` |
-| **Study Planner** | Long-term study plan with scheduled sessions, adaptive to session history | `law-student` | `/law-student:study-plan` |
-| **Skill Registry Browser** | Search watched registries for community legal skills | `legal-builder-hub` | `/legal-builder-hub:registry-browser` |
-| **Skill Installer** | Install a community skill with trust checks and skills-QA | `legal-builder-hub` | `/legal-builder-hub:skill-installer` |
-| **Skill QA** | Evaluate a skill against the Legal Skill Design Framework | `legal-builder-hub` | `/legal-builder-hub:skills-qa` |
-| **Community Skill Recommender** | Suggest community skills based on recent activity in other plugins | `legal-builder-hub` | `/legal-builder-hub:related-skills-surfacer` |
-| **Community Skill Updater** | Check for updates to installed community skills | `legal-builder-hub` | `/legal-builder-hub:auto-updater` |
+| **Demand Letter Drafter** | Drafts a demand with FRE 408 awareness and a send gate | `litigation-legal` | `/judge-fr-eu-litigation-legal:demand-draft` |
+| **Demand Intake** | Pre-drafting context gathering — parties, facts, basis, leverage, privilege | `litigation-legal` | `/judge-fr-eu-litigation-legal:demand-intake` |
+| **Demand Received Triage** | Triages an inbound demand — options, portfolio cross-check, handoff | `litigation-legal` | `/judge-fr-eu-litigation-legal:demand-received` |
+| **Subpoena Triage** | Classifies, scopes, and plans compliance with a new subpoena | `litigation-legal` | `/judge-fr-eu-litigation-legal:subpoena-triage` |
+| **Chronology Builder** | Builds or updates a chronology from declared sources and uploads | `litigation-legal` | `/judge-fr-eu-litigation-legal:chronology` |
+| **Deposition Prep** | Builds a deposition outline tied to case theory with docs and impeachment | `litigation-legal` | `/judge-fr-eu-litigation-legal:deposition-prep` |
+| **Brief Section Drafter** | Drafts a brief section in house style, consistent with case theory | `litigation-legal` | `/judge-fr-eu-litigation-legal:brief-section-drafter` |
+| **Privilege Log Reviewer** | First-pass privilege log review — obvious calls + flags for attorney review | `litigation-legal` | `/judge-fr-eu-litigation-legal:privilege-log-review` |
+| **Legal Hold** | Issue, refresh, release, or report on legal holds | `litigation-legal` | `/judge-fr-eu-litigation-legal:legal-hold` |
+| **Matter Intake** | Uniform intake for a new matter — writes matter.md, history.md, appends to log | `litigation-legal` | `/judge-fr-eu-litigation-legal:matter-intake` |
+| **Matter Briefing** | Deep briefing on one matter — ready for a GC or outside counsel call | `litigation-legal` | `/judge-fr-eu-litigation-legal:matter-briefing` |
+| **Portfolio Status** | Risk distribution, upcoming deadlines, stale matters | `litigation-legal` | `/judge-fr-eu-litigation-legal:portfolio-status` |
+| **Outside Counsel Status** | Generates weekly status-request drafts across the active portfolio | `litigation-legal` | `/judge-fr-eu-litigation-legal:oc-status` |
+| **Clinic Intake** | Structured client intake with cross-area issue spotting and conflict flags | `legal-clinic` | `/judge-fr-eu-legal-clinic:client-intake` |
+| **Case Memo Scaffold** | IRAC-scaffolded case analysis memo with research gaps flagged | `legal-clinic` | `/judge-fr-eu-legal-clinic:memo` |
+| **Research Roadmap** | Statutes to check, case law areas, Westlaw search terms — leads, not cites | `legal-clinic` | `/judge-fr-eu-legal-clinic:research-start` |
+| **Clinic Deadline Tracker** | Add, report, update, and close case deadlines with malpractice-aware warnings | `legal-clinic` | `/judge-fr-eu-legal-clinic:deadlines` |
+| **Case Status Summarizer** | Case status by audience — client, professor, or court-ready | `legal-clinic` | `/judge-fr-eu-legal-clinic:status` |
+| **Client Letter Drafter** | Routine client correspondence — appointment confirms, doc requests, updates | `legal-clinic` | `/judge-fr-eu-legal-clinic:client-letter` |
+| **Student Ramp** | Semester onboarding — clinic procedures, tool walkthrough, practice exercises | `legal-clinic` | `/judge-fr-eu-legal-clinic:ramp` |
+| **Semester Handoff** | End-of-semester case handoff memos — the mirror of ramp | `legal-clinic` | `/judge-fr-eu-legal-clinic:semester-handoff` |
+| **Supervisor Review Queue** | Professor's review queue (when formal review supervision is configured) | `legal-clinic` | `/judge-fr-eu-legal-clinic:supervisor-review-queue` |
+| **Bar Prep Coach** | Jurisdiction-aware MBE and essay practice targeted at weak subjects | `law-student` | `/judge-fr-eu-law-student:bar-prep-questions` |
+| **Socratic Drill Sergeant** | It asks, you answer, it pushes back — does not give you the answer | `law-student` | `/judge-fr-eu-law-student:socratic-drill` |
+| **IRAC Grader** | Grades your IRAC essay on structure, issue-spotting, rules, analysis | `law-student` | `/judge-fr-eu-law-student:irac-practice` |
+| **Case Briefer** | Brief a case in your preferred format | `law-student` | `/judge-fr-eu-law-student:case-brief` |
+| **Outline Builder** | Build or extend an outline in your format from class notes and casebook | `law-student` | `/judge-fr-eu-law-student:outline-builder` |
+| **Cold Call Prep** | Predicts professor's questions and drills them before class | `law-student` | `/judge-fr-eu-law-student:cold-call-prep` |
+| **Exam Forecaster** | Analyze past exams from the same professor; forecast likely emphases | `law-student` | `/judge-fr-eu-law-student:exam-forecast` |
+| **Legal Writing Critic** | Structural feedback on a draft — never rewrites | `law-student` | `/judge-fr-eu-law-student:legal-writing` |
+| **Flashcard Drillmaster** | Generate or drill flashcards — Leitner-style buckets | `law-student` | `/judge-fr-eu-law-student:flashcards` |
+| **Study Planner** | Long-term study plan with scheduled sessions, adaptive to session history | `law-student` | `/judge-fr-eu-law-student:study-plan` |
+| **Skill Registry Browser** | Search watched registries for community legal skills | `legal-builder-hub` | `/judge-fr-eu-legal-builder-hub:registry-browser` |
+| **Skill Installer** | Install a community skill with trust checks and skills-QA | `legal-builder-hub` | `/judge-fr-eu-legal-builder-hub:skill-installer` |
+| **Skill QA** | Evaluate a skill against the Legal Skill Design Framework | `legal-builder-hub` | `/judge-fr-eu-legal-builder-hub:skills-qa` |
+| **Community Skill Recommender** | Suggest community skills based on recent activity in other plugins | `legal-builder-hub` | `/judge-fr-eu-legal-builder-hub:related-skills-surfacer` |
+| **Community Skill Updater** | Check for updates to installed community skills | `legal-builder-hub` | `/judge-fr-eu-legal-builder-hub:auto-updater` |
 | **Registry Sync** | Periodic check of watched registries for new and updated skills | `legal-builder-hub` | scheduled agent |
 
 For Managed Agent deployment — `agent.yaml`, leaf-worker subagents, steering-event examples, and per-agent security notes — see **[managed-agent-cookbooks/](./managed-agent-cookbooks)**.
@@ -186,22 +197,22 @@ After install, skills fire automatically when relevant, slash commands are avail
 /plugin marketplace add <path-to-this-repo>
 
 # Install a plugin — pick the ones that match your practice
-/plugin install commercial-legal@claude-for-legal
-/plugin install privacy-legal@claude-for-legal
-/plugin install corporate-legal@claude-for-legal
+/plugin install judge-fr-eu-commercial-legal@judge-fr-eu --scope user
+/plugin install judge-fr-eu-privacy-legal@judge-fr-eu --scope user
+/plugin install judge-fr-eu-corporate-legal@judge-fr-eu --scope user
 
 # Restart Claude Code, then run setup for each plugin you installed.
-# This writes your practice profile to ~/.claude/plugins/config/claude-for-legal/<plugin>/CLAUDE.md
-/commercial-legal:cold-start-interview
-/privacy-legal:cold-start-interview
-/corporate-legal:cold-start-interview
+# This writes your practice profile to ~/.claude/plugins/config/judge-fr-eu/<domain>/CLAUDE.md
+/judge-fr-eu-commercial-legal:cold-start-interview
+/judge-fr-eu-privacy-legal:cold-start-interview
+/judge-fr-eu-corporate-legal:cold-start-interview
 ```
 
 **Run the cold-start interview first.** Every other skill in a plugin reads from the practice profile it writes. Skipping setup is the single most common reason a skill produces generic output. The interview takes 10–20 minutes per plugin and will ask you to point at seed documents (a signed MSA, a playbook, a prior review memo — whatever fits the plugin). More seed material is better; a **quick start** option is available if you want to be productive in 2 minutes and refine later.
 
 **Start by connecting a research tool.** Everything else is better with one, and citations are unverified without one. See [MCP Connectors](#mcp-connectors) below for the full list — CourtListener, Trellis, Descrybe, and Solve Intelligence are the research tools the citation guardrails look for.
 
-Updates: `/plugin update`.
+Updates require review of the selected fork package and explicit scope. Disable automatic updates for `judge-fr-eu` during validation; see [QUICKSTART.md](QUICKSTART.md).
 
 ### Claude Managed Agents
 
@@ -209,6 +220,7 @@ For the scheduled agents — regulatory feed monitor, renewal watcher, docket wa
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
+export JUDGE_DEPLOYMENT_ID=demo-2026-10-15
 scripts/deploy-managed-agent.sh reg-monitor
 scripts/deploy-managed-agent.sh renewal-watcher
 scripts/deploy-managed-agent.sh docket-watcher
@@ -225,9 +237,9 @@ Each template under [`managed-agent-cookbooks/`](./managed-agent-cookbooks) refe
 | | What it is | Where it lives |
 |---|---|---|
 | **Plugins** | Self-contained practice-area bundles — skills, agents, hooks, and a template practice profile. Install the ones you need. | `<plugin>/` |
-| **Skills** | Domain expertise, conventions, and step-by-step methods Claude draws on automatically when relevant — and slash actions you trigger explicitly: `/commercial-legal:review`, `/privacy-legal:dsar-response`, `/litigation-legal:claim-chart`. | `<plugin>/skills/<skill>/SKILL.md` |
+| **Skills** | Domain expertise, conventions, and step-by-step methods Claude draws on automatically when relevant — and slash actions you trigger explicitly: `/judge-fr-eu-commercial-legal:review`, `/judge-fr-eu-privacy-legal:dsar-response`, `/judge-fr-eu-litigation-legal:claim-chart`. | `<plugin>/skills/<skill>/SKILL.md` |
 | **Agents** | Scheduled or event-driven workflows (renewal watcher, docket watcher, reg-change monitor). Runs in the background, posts to a channel or writes a file. | `<plugin>/agents/` |
-| **Practice profile** | Plain-English `CLAUDE.md` describing your playbook, escalation rules, and house style. Every skill reads from it. | `~/.claude/plugins/config/claude-for-legal/<plugin>/CLAUDE.md` |
+| **Practice profile** | Plain-English `CLAUDE.md` describing your playbook, escalation rules, and house style. Every skill reads from it. | `~/.claude/plugins/config/judge-fr-eu/<domain>/CLAUDE.md` |
 | **Connectors** | [MCP servers](https://modelcontextprotocol.io/) that wire Claude to your data — CLM, DMS, e-discovery, research platforms, productivity. | `.mcp.json` (per plugin) |
 | **Managed-agent cookbooks** | `agent.yaml` + depth-1 subagents + steering examples for headless deployment. | `managed-agent-cookbooks/<slug>/` |
 
@@ -267,11 +279,11 @@ Grouped by where the work sits. Each plugin's cold-start interview is what tailo
 
 | Plugin | What it adds |
 |---|---|
-| **[legal-builder-hub](./legal-builder-hub)** | Community skill discovery and install with a real trust layer — watched registries, a QA framework (`/legal-builder-hub:skills-qa`), SHA-pinned updates, and a mandatory trust check before anything lands in your environment. |
+| **[legal-builder-hub](./legal-builder-hub)** | Community skill discovery and install with a real trust layer — watched registries, a QA framework (`/judge-fr-eu-legal-builder-hub:skills-qa`), SHA-pinned updates, and a mandatory trust check before anything lands in your environment. |
 
 ### External / partner-built
 
-Plugins under [`external_plugins/`](./external_plugins) are built and maintained by their vendors. They install from this marketplace like any other plugin, but the vendor owns the code, the connector, and the support channel.
+Plugins under [`external_plugins/`](./external_plugins) are built and maintained by their vendors. Their sources are preserved for provenance; they are excluded from this fork marketplace and must be obtained from their original distribution. The vendor owns the code, connector and support channel.
 
 | Plugin | Built by | What it adds |
 |---|---|---|
@@ -292,7 +304,7 @@ The community is building legal skills fast — registries like LegalOps Consult
 
 The allowlist is restrictive by default. Permissive mode is an explicit choice. A non-lawyer gets routed to their attorney contact, not an "install anyway" button.
 
-Community skills go through the same design review (`/legal-builder-hub:skills-qa`) as the first-party plugins. If you build for lawyers, run the QA against your own skill before publishing. It's the review a lawyer would do if they could read code.
+Community skills go through the same design review (`/judge-fr-eu-legal-builder-hub:skills-qa`) as the first-party plugins. If you build for lawyers, run the QA against your own skill before publishing. It's the review a lawyer would do if they could read code.
 
 ## MCP Connectors
 
@@ -330,9 +342,9 @@ These plugins ship connectors for the systems legal teams live in. A connector g
 
 ## Claude for Microsoft 365
 
-Lawyers live in Word and Excel. **Every contract-touching skill in this repo is authored to work in the Claude for Word sidebar, with tracked changes as the output mode.** That's `commercial-legal:review` (vendor agreements, NDAs, SaaS subscriptions), `commercial-legal:amendment-history`, `ip-legal:ip-clause-review`, `ai-governance-legal:vendor-ai-review`, `privacy-legal:dpa-review`, and the diligence extraction in `corporate-legal`. A reviewer accepts or rejects each change exactly as they would for a human markup — numbering, defined terms, cross-references, and styles are preserved.
+Lawyers live in Word and Excel. **Every contract-touching skill in this repo is authored to work in the Claude for Word sidebar, with tracked changes as the output mode.** That's `judge-fr-eu-commercial-legal:review` (vendor agreements, NDAs, SaaS subscriptions), `judge-fr-eu-commercial-legal:amendment-history`, `judge-fr-eu-ip-legal:ip-clause-review`, `judge-fr-eu-ai-governance-legal:vendor-ai-review`, `judge-fr-eu-privacy-legal:dpa-review`, and the diligence extraction in `corporate-legal`. A reviewer accepts or rejects each change exactly as they would for a human markup — numbering, defined terms, cross-references, and styles are preserved.
 
-The Excel-facing skills produce workbooks that open cleanly: `corporate-legal:tabular-review` writes a multi-sheet `.xlsx` with a sources sheet, `litigation-legal:claim-chart` writes an element-by-element claim chart with citation columns, `corporate-legal:entity-compliance` writes the compliance register with deadline columns, and `commercial-legal:renewal-tracker` exports the renewal register sorted by cancel-by date.
+The Excel-facing skills produce workbooks that open cleanly: `judge-fr-eu-corporate-legal:tabular-review` writes a multi-sheet `.xlsx` with a sources sheet, `judge-fr-eu-litigation-legal:claim-chart` writes an element-by-element claim chart with citation columns, `judge-fr-eu-corporate-legal:entity-compliance` writes the compliance register with deadline columns, and `judge-fr-eu-commercial-legal:renewal-tracker` exports the renewal register sorted by cancel-by date.
 
 Install Claude for Microsoft 365 from **[Microsoft AppSource](https://marketplace.microsoft.com/en-us/product/office/wa200010453)**. Once installed, the skills from any plugin you've enabled are available from the sidebar via `/`, and connectors are reachable from the same surface. A single thread can span Word, Excel, PowerPoint, and Outlook.
 
@@ -342,8 +354,8 @@ For IT admins deploying the add-in against your own cloud (Vertex AI, Bedrock, o
 
 These are reference templates. They get better when you tune them to how your team works — and the customization mechanism is the plugin itself, not a config file buried in a repo.
 
-- **Run the cold-start interview.** It **is** the customization mechanism. It asks how your practice works, reads your seed documents, and writes your practice profile. Every other skill reads from that profile. A `/commercial-legal:cold-start-interview` with five signed MSAs, your playbook, and your escalation matrix will make the review skills noticeably sharper.
-- **Edit the practice profile.** Your profile lives at `~/.claude/plugins/config/claude-for-legal/<plugin>/CLAUDE.md`. Edit it directly for small fixes — a wrong escalation threshold, a new integration, a policy update. It survives plugin updates.
+- **Run the cold-start interview.** It **is** the customization mechanism. It asks how your practice works, reads your seed documents, and writes your practice profile. Every other skill reads from that profile. A `/judge-fr-eu-commercial-legal:cold-start-interview` with five signed MSAs, your playbook, and your escalation matrix will make the review skills noticeably sharper.
+- **Edit the practice profile.** Your profile lives at `~/.claude/plugins/config/judge-fr-eu/<domain>/CLAUDE.md`. Edit it directly for small fixes — a wrong escalation threshold, a new integration, a policy update. It survives plugin updates.
 - **Re-run setup.** `/<plugin>:cold-start-interview` again for a full re-interview when your practice shifts materially (new jurisdiction, new CLM, new policy).
 - **Swap connectors.** Point `.mcp.json` at your CLM, DMS, e-discovery platform, launch tracker, HRIS. Skills fall back gracefully when a connector isn't configured — no silent no-ops.
 - **Bring your playbook and templates.** Drop your terminology, house style, and branded templates into the plugin's `CLAUDE.md` and `references/`. The skills will pick them up.
@@ -360,59 +372,59 @@ The full map across all plugins. The cold-start interview is the first thing to 
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/ai-governance-legal:cold-start-interview` | cold-start-interview | Cold-start — learns your AI governance practice |
-| `/ai-governance-legal:ai-inventory` | ai-inventory | EU AI Act per-system inventory — track each system's role and risk tier |
-| `/ai-governance-legal:use-case-triage` | use-case-triage | Classify AI use case — approved, conditional, or no |
-| `/ai-governance-legal:aia-generation` | aia-generation | Run an AI impact assessment in house format |
-| `/ai-governance-legal:vendor-ai-review` | vendor-ai-review | Review vendor AI terms against governance positions |
-| `/ai-governance-legal:reg-gap-analysis` | reg-gap-analysis | Diff a new AI regulation against your governance posture |
-| `/ai-governance-legal:policy-monitor` | policy-monitor | Keep the AI policy current with practice |
-| `/ai-governance-legal:policy-starter` | policy-starter | Draft a firm AI usage policy from published model policies, adapted to your practice profile |
-| `/ai-governance-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
+| `/judge-fr-eu-ai-governance-legal:cold-start-interview` | cold-start-interview | Cold-start — learns your AI governance practice |
+| `/judge-fr-eu-ai-governance-legal:ai-inventory` | ai-inventory | EU AI Act per-system inventory — track each system's role and risk tier |
+| `/judge-fr-eu-ai-governance-legal:use-case-triage` | use-case-triage | Classify AI use case — approved, conditional, or no |
+| `/judge-fr-eu-ai-governance-legal:aia-generation` | aia-generation | Run an AI impact assessment in house format |
+| `/judge-fr-eu-ai-governance-legal:vendor-ai-review` | vendor-ai-review | Review vendor AI terms against governance positions |
+| `/judge-fr-eu-ai-governance-legal:reg-gap-analysis` | reg-gap-analysis | Diff a new AI regulation against your governance posture |
+| `/judge-fr-eu-ai-governance-legal:policy-monitor` | policy-monitor | Keep the AI policy current with practice |
+| `/judge-fr-eu-ai-governance-legal:policy-starter` | policy-starter | Draft a firm AI usage policy from published model policies, adapted to your practice profile |
+| `/judge-fr-eu-ai-governance-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
 
 ### legal-builder-hub
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/legal-builder-hub:cold-start-interview` | cold-start-interview | Practice profile interview and starter-pack recommendation |
-| `/legal-builder-hub:registry-browser` | registry-browser | Search watched registries for community legal skills |
-| `/legal-builder-hub:skill-installer` | skill-installer | Install a community skill with trust checks |
-| `/legal-builder-hub:skills-qa` | skills-qa | Evaluate a skill against the Design Framework |
-| `/legal-builder-hub:related-skills-surfacer` | related-skills-surfacer | Suggest community skills from activity in other plugins |
-| `/legal-builder-hub:auto-updater` | auto-updater | Check for updates to installed community skills |
-| `/legal-builder-hub:disable` | skill-manager | Disable a community skill without removing files |
-| `/legal-builder-hub:uninstall` | skill-manager | Uninstall a community skill installed via the hub |
+| `/judge-fr-eu-legal-builder-hub:cold-start-interview` | cold-start-interview | Practice profile interview and starter-pack recommendation |
+| `/judge-fr-eu-legal-builder-hub:registry-browser` | registry-browser | Search watched registries for community legal skills |
+| `/judge-fr-eu-legal-builder-hub:skill-installer` | skill-installer | Install a community skill with trust checks |
+| `/judge-fr-eu-legal-builder-hub:skills-qa` | skills-qa | Evaluate a skill against the Design Framework |
+| `/judge-fr-eu-legal-builder-hub:related-skills-surfacer` | related-skills-surfacer | Suggest community skills from activity in other plugins |
+| `/judge-fr-eu-legal-builder-hub:auto-updater` | auto-updater | Check for updates to installed community skills |
+| `/judge-fr-eu-legal-builder-hub:disable` | skill-manager | Disable a community skill without removing files |
+| `/judge-fr-eu-legal-builder-hub:uninstall` | skill-manager | Uninstall a community skill installed via the hub |
 | scheduled | registry-sync (agent) | Periodic check of watched registries for updates |
 
 ### legal-clinic
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/legal-clinic:cold-start-interview` | cold-start-interview | Professor setup — areas, jurisdiction, supervision style |
-| `/legal-clinic:build-guide` | build-guide | Professor practice-area guide — intake, pedagogy posture, review gates |
-| `/legal-clinic:ramp` | ramp | Student semester onboarding with practice exercises |
-| `/legal-clinic:client-intake` | client-intake | Structured intake with cross-area issue spotting |
-| `/legal-clinic:client-comms-log` | client-comms-log | Log a client communication — append-only per-case record |
-| `/legal-clinic:research-start` | research-start | Research roadmap — statutes, case law, search terms |
-| `/legal-clinic:memo` | memo | IRAC-scaffolded analysis memo with research gaps flagged |
-| `/legal-clinic:draft` | draft | First draft of a common clinic document |
-| `/legal-clinic:client-letter` | client-letter · plain-language-letters | Routine client correspondence from templates |
-| `/legal-clinic:status` | status | Case status by audience — client, professor, court-ready |
-| `/legal-clinic:deadlines` | deadlines | Track case deadlines with malpractice-aware warnings |
-| `/legal-clinic:supervisor-review-queue` | supervisor-review-queue | Professor's review queue (if formal supervision) |
-| `/legal-clinic:semester-handoff` | semester-handoff | End-of-semester case handoff memos |
+| `/judge-fr-eu-legal-clinic:cold-start-interview` | cold-start-interview | Professor setup — areas, jurisdiction, supervision style |
+| `/judge-fr-eu-legal-clinic:build-guide` | build-guide | Professor practice-area guide — intake, pedagogy posture, review gates |
+| `/judge-fr-eu-legal-clinic:ramp` | ramp | Student semester onboarding with practice exercises |
+| `/judge-fr-eu-legal-clinic:client-intake` | client-intake | Structured intake with cross-area issue spotting |
+| `/judge-fr-eu-legal-clinic:client-comms-log` | client-comms-log | Log a client communication — append-only per-case record |
+| `/judge-fr-eu-legal-clinic:research-start` | research-start | Research roadmap — statutes, case law, search terms |
+| `/judge-fr-eu-legal-clinic:memo` | memo | IRAC-scaffolded analysis memo with research gaps flagged |
+| `/judge-fr-eu-legal-clinic:draft` | draft | First draft of a common clinic document |
+| `/judge-fr-eu-legal-clinic:client-letter` | client-letter · plain-language-letters | Routine client correspondence from templates |
+| `/judge-fr-eu-legal-clinic:status` | status | Case status by audience — client, professor, court-ready |
+| `/judge-fr-eu-legal-clinic:deadlines` | deadlines | Track case deadlines with malpractice-aware warnings |
+| `/judge-fr-eu-legal-clinic:supervisor-review-queue` | supervisor-review-queue | Professor's review queue (if formal supervision) |
+| `/judge-fr-eu-legal-clinic:semester-handoff` | semester-handoff | End-of-semester case handoff memos |
 
 ### commercial-legal
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/commercial-legal:cold-start-interview` | cold-start-interview | Cold-start — learn your commercial contracts practice |
-| `/commercial-legal:review` | vendor-agreement-review · nda-review · saas-msa-review | Review vendor agreement, NDA, or SaaS subscription |
-| `/commercial-legal:amendment-history` | amendment-history | Trace contract changes across base and amendments |
-| `/commercial-legal:renewal-tracker` | renewal-tracker | Show contracts with cancel-by deadlines within 90 days |
-| `/commercial-legal:escalation-flagger` | escalation-flagger | Route a contract issue and draft the ask |
-| `/commercial-legal:review-proposals` | (internal) | Review and approve pending playbook update proposals |
-| `/commercial-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
+| `/judge-fr-eu-commercial-legal:cold-start-interview` | cold-start-interview | Cold-start — learn your commercial contracts practice |
+| `/judge-fr-eu-commercial-legal:review` | vendor-agreement-review · nda-review · saas-msa-review | Review vendor agreement, NDA, or SaaS subscription |
+| `/judge-fr-eu-commercial-legal:amendment-history` | amendment-history | Trace contract changes across base and amendments |
+| `/judge-fr-eu-commercial-legal:renewal-tracker` | renewal-tracker | Show contracts with cancel-by deadlines within 90 days |
+| `/judge-fr-eu-commercial-legal:escalation-flagger` | escalation-flagger | Route a contract issue and draft the ask |
+| `/judge-fr-eu-commercial-legal:review-proposals` | (internal) | Review and approve pending playbook update proposals |
+| `/judge-fr-eu-commercial-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
 | — | stakeholder-summary | Translates a review into a business-stakeholder summary |
 | scheduled | renewal-watcher (agent) | Weekly sweep of the renewal register |
 | scheduled | deal-debrief (agent) | Weekly surface of signed agreements with deviations |
@@ -422,15 +434,15 @@ The full map across all plugins. The cold-start interview is the first thing to 
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/corporate-legal:cold-start-interview` | cold-start-interview | House cold-start, with optional `--new-deal` kickoff |
-| `/corporate-legal:tabular-review` | tabular-review | Tabular review — one row per document, every cell cited |
-| `/corporate-legal:diligence-issue-extraction` | diligence-issue-extraction | Extract issues from VDR documents per house thresholds |
-| `/corporate-legal:material-contract-schedule` | material-contract-schedule | Build material contracts disclosure schedule |
-| `/corporate-legal:closing-checklist` | closing-checklist | What's blocking close with critical path |
-| `/corporate-legal:written-consent` | written-consent | Draft board or committee consent in house format |
-| `/corporate-legal:entity-compliance` | entity-compliance | Entity compliance tracker across jurisdictions |
-| `/corporate-legal:integration-management` | integration-management | Post-closing integration tracker with consent tracking |
-| `/corporate-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
+| `/judge-fr-eu-corporate-legal:cold-start-interview` | cold-start-interview | House cold-start, with optional `--new-deal` kickoff |
+| `/judge-fr-eu-corporate-legal:tabular-review` | tabular-review | Tabular review — one row per document, every cell cited |
+| `/judge-fr-eu-corporate-legal:diligence-issue-extraction` | diligence-issue-extraction | Extract issues from VDR documents per house thresholds |
+| `/judge-fr-eu-corporate-legal:material-contract-schedule` | material-contract-schedule | Build material contracts disclosure schedule |
+| `/judge-fr-eu-corporate-legal:closing-checklist` | closing-checklist | What's blocking close with critical path |
+| `/judge-fr-eu-corporate-legal:written-consent` | written-consent | Draft board or committee consent in house format |
+| `/judge-fr-eu-corporate-legal:entity-compliance` | entity-compliance | Entity compliance tracker across jurisdictions |
+| `/judge-fr-eu-corporate-legal:integration-management` | integration-management | Post-closing integration tracker with consent tracking |
+| `/judge-fr-eu-corporate-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
 | — | board-minutes | Drafts board or committee minutes in house format |
 | — | deal-team-summary | Aggregates diligence findings into a deal briefing |
 | — | ai-tool-handoff | Detects Luminance/Kira, QAs bulk-tool output |
@@ -440,22 +452,22 @@ The full map across all plugins. The cold-start interview is the first thing to 
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/employment-legal:cold-start-interview` | cold-start-interview | Cold-start — learns jurisdictions and escalation rules |
-| `/employment-legal:wage-hour-qa` | wage-hour-qa | Jurisdiction-aware wage/hour and employment Q&A |
-| `/employment-legal:hiring-review` | hiring-review | Review offer letter and restrictive covenants |
-| `/employment-legal:termination-review` | termination-review | Termination review with high-risk flag detection |
-| `/employment-legal:worker-classification` | worker-classification | Classify a proposed engagement against the state test |
-| `/employment-legal:policy-drafting` | policy-drafting | Draft employment policy with state supplements |
-| `/employment-legal:leave-tracker` | leave-tracker | Check open leaves for deadline alerts |
-| `/employment-legal:log-leave` | log-leave | Add a new leave to the leave register |
-| `/employment-legal:investigation-open` | internal-investigation | Open a new internal investigation matter |
-| `/employment-legal:investigation-add` | internal-investigation | Add data to an open investigation — docs, notes |
-| `/employment-legal:investigation-memo` | internal-investigation | Draft or update the privileged investigation memo |
-| `/employment-legal:investigation-query` | internal-investigation | Ask questions against an open investigation log |
-| `/employment-legal:investigation-summary` | internal-investigation | Draft audience-specific summary from investigation memo |
-| `/employment-legal:expansion-kickoff` | international-expansion | Kick off expansion planning for a new country |
-| `/employment-legal:expansion-update` | international-expansion | Update status of an in-progress expansion project |
-| `/employment-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
+| `/judge-fr-eu-employment-legal:cold-start-interview` | cold-start-interview | Cold-start — learns jurisdictions and escalation rules |
+| `/judge-fr-eu-employment-legal:wage-hour-qa` | wage-hour-qa | Jurisdiction-aware wage/hour and employment Q&A |
+| `/judge-fr-eu-employment-legal:hiring-review` | hiring-review | Review offer letter and restrictive covenants |
+| `/judge-fr-eu-employment-legal:termination-review` | termination-review | Termination review with high-risk flag detection |
+| `/judge-fr-eu-employment-legal:worker-classification` | worker-classification | Classify a proposed engagement against the state test |
+| `/judge-fr-eu-employment-legal:policy-drafting` | policy-drafting | Draft employment policy with state supplements |
+| `/judge-fr-eu-employment-legal:leave-tracker` | leave-tracker | Check open leaves for deadline alerts |
+| `/judge-fr-eu-employment-legal:log-leave` | log-leave | Add a new leave to the leave register |
+| `/judge-fr-eu-employment-legal:investigation-open` | internal-investigation | Open a new internal investigation matter |
+| `/judge-fr-eu-employment-legal:investigation-add` | internal-investigation | Add data to an open investigation — docs, notes |
+| `/judge-fr-eu-employment-legal:investigation-memo` | internal-investigation | Draft or update the privileged investigation memo |
+| `/judge-fr-eu-employment-legal:investigation-query` | internal-investigation | Ask questions against an open investigation log |
+| `/judge-fr-eu-employment-legal:investigation-summary` | internal-investigation | Draft audience-specific summary from investigation memo |
+| `/judge-fr-eu-employment-legal:expansion-kickoff` | international-expansion | Kick off expansion planning for a new country |
+| `/judge-fr-eu-employment-legal:expansion-update` | international-expansion | Update status of an in-progress expansion project |
+| `/judge-fr-eu-employment-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
 | — | handbook-updates | Diffs handbook changes and flags state supplement impacts |
 | scheduled | leave-tracker (agent) | Weekly monitor of open leaves with hard deadlines |
 
@@ -463,65 +475,65 @@ The full map across all plugins. The cold-start interview is the first thing to 
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/ip-legal:cold-start-interview` | cold-start-interview | Cold-start — learn your IP practice and posture |
-| `/ip-legal:clearance` | clearance | Trademark clearance first pass — knockout + similar marks |
-| `/ip-legal:fto-triage` | fto-triage | Freedom-to-operate triage, not an FTO opinion |
-| `/ip-legal:invention-intake` | invention-intake | Invention disclosure first-pass screen — novelty, obviousness, §101, bar dates |
-| `/ip-legal:cease-desist` | cease-desist | Draft a C&D or triage one you received |
-| `/ip-legal:takedown` | takedown | DMCA notice, response triage, or §512(g) counter-notice |
-| `/ip-legal:infringement-triage` | infringement-triage | Infringement triage across all four IP rights |
-| `/ip-legal:ip-clause-review` | ip-clause-review | Review IP clauses — assignment, license, warranties |
-| `/ip-legal:oss-review` | oss-review | Open source license compliance check |
-| `/ip-legal:portfolio` | portfolio | Track IP portfolio deadlines and renewals |
-| `/ip-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
+| `/judge-fr-eu-ip-legal:cold-start-interview` | cold-start-interview | Cold-start — learn your IP practice and posture |
+| `/judge-fr-eu-ip-legal:clearance` | clearance | Trademark clearance first pass — knockout + similar marks |
+| `/judge-fr-eu-ip-legal:fto-triage` | fto-triage | Freedom-to-operate triage, not an FTO opinion |
+| `/judge-fr-eu-ip-legal:invention-intake` | invention-intake | Invention disclosure first-pass screen — novelty, obviousness, §101, bar dates |
+| `/judge-fr-eu-ip-legal:cease-desist` | cease-desist | Draft a C&D or triage one you received |
+| `/judge-fr-eu-ip-legal:takedown` | takedown | DMCA notice, response triage, or §512(g) counter-notice |
+| `/judge-fr-eu-ip-legal:infringement-triage` | infringement-triage | Infringement triage across all four IP rights |
+| `/judge-fr-eu-ip-legal:ip-clause-review` | ip-clause-review | Review IP clauses — assignment, license, warranties |
+| `/judge-fr-eu-ip-legal:oss-review` | oss-review | Open source license compliance check |
+| `/judge-fr-eu-ip-legal:portfolio` | portfolio | Track IP portfolio deadlines and renewals |
+| `/judge-fr-eu-ip-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
 | scheduled | ip-renewal-watcher (agent) | Weekly report of IP portfolio deadlines |
 
 ### litigation-legal
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/litigation-legal:cold-start-interview` | cold-start-interview | Cold-start — risk, landscape, house brief style |
-| `/litigation-legal:matter-intake` | matter-intake | Intake a new matter — writes matter.md and history |
-| `/litigation-legal:matter-briefing` | matter-briefing | Deep briefing on one matter for a call |
-| `/litigation-legal:matter-update` | matter-update | Append a dated event to a matter's history |
-| `/litigation-legal:portfolio-status` | portfolio-status | Portfolio rollup — risk, deadlines, stale matters |
-| `/litigation-legal:matter-close` | matter-close | Close a matter — archive, retain record |
-| `/litigation-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
-| `/litigation-legal:demand-intake` | demand-intake | Pre-drafting context — parties, facts, leverage |
-| `/litigation-legal:demand-draft` | demand-draft | Draft demand letter with FRE 408 gate and .docx output |
-| `/litigation-legal:demand-received` | demand-received | Triage inbound demand — options, portfolio cross-check |
-| `/litigation-legal:subpoena-triage` | subpoena-triage | Triage subpoena — scope, burden, privilege, plan |
-| `/litigation-legal:legal-hold` | legal-hold | Issue, refresh, release, or report on legal holds |
-| `/litigation-legal:oc-status` | oc-status | Weekly status-request emails to outside counsel |
-| `/litigation-legal:claim-chart` | claim-chart | Element chart — patent or civil cause of action |
-| `/litigation-legal:chronology` | chronology | Build or update a chronology from sources and uploads |
-| `/litigation-legal:deposition-prep` | deposition-prep | Deposition outline tied to case theory |
-| `/litigation-legal:privilege-log-review` | privilege-log-review | First-pass privilege log review with flags |
-| `/litigation-legal:brief-section-drafter` | brief-section-drafter | Draft a brief section in house style |
+| `/judge-fr-eu-litigation-legal:cold-start-interview` | cold-start-interview | Cold-start — risk, landscape, house brief style |
+| `/judge-fr-eu-litigation-legal:matter-intake` | matter-intake | Intake a new matter — writes matter.md and history |
+| `/judge-fr-eu-litigation-legal:matter-briefing` | matter-briefing | Deep briefing on one matter for a call |
+| `/judge-fr-eu-litigation-legal:matter-update` | matter-update | Append a dated event to a matter's history |
+| `/judge-fr-eu-litigation-legal:portfolio-status` | portfolio-status | Portfolio rollup — risk, deadlines, stale matters |
+| `/judge-fr-eu-litigation-legal:matter-close` | matter-close | Close a matter — archive, retain record |
+| `/judge-fr-eu-litigation-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
+| `/judge-fr-eu-litigation-legal:demand-intake` | demand-intake | Pre-drafting context — parties, facts, leverage |
+| `/judge-fr-eu-litigation-legal:demand-draft` | demand-draft | Draft demand letter with FRE 408 gate and .docx output |
+| `/judge-fr-eu-litigation-legal:demand-received` | demand-received | Triage inbound demand — options, portfolio cross-check |
+| `/judge-fr-eu-litigation-legal:subpoena-triage` | subpoena-triage | Triage subpoena — scope, burden, privilege, plan |
+| `/judge-fr-eu-litigation-legal:legal-hold` | legal-hold | Issue, refresh, release, or report on legal holds |
+| `/judge-fr-eu-litigation-legal:oc-status` | oc-status | Weekly status-request emails to outside counsel |
+| `/judge-fr-eu-litigation-legal:claim-chart` | claim-chart | Element chart — patent or civil cause of action |
+| `/judge-fr-eu-litigation-legal:chronology` | chronology | Build or update a chronology from sources and uploads |
+| `/judge-fr-eu-litigation-legal:deposition-prep` | deposition-prep | Deposition outline tied to case theory |
+| `/judge-fr-eu-litigation-legal:privilege-log-review` | privilege-log-review | First-pass privilege log review with flags |
+| `/judge-fr-eu-litigation-legal:brief-section-drafter` | brief-section-drafter | Draft a brief section in house style |
 | scheduled | docket-watcher (agent) | Monitors court dockets for filings and deadlines |
 
 ### privacy-legal
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/privacy-legal:cold-start-interview` | cold-start-interview | Cold-start — learns your privacy practice |
-| `/privacy-legal:use-case-triage` | use-case-triage | Determine PIA vs GDPR DPIA vs proceed |
-| `/privacy-legal:pia-generation` | pia-generation | Generate a Privacy Impact Assessment in house format |
-| `/privacy-legal:dpa-review` | dpa-review | Review a DPA — auto-detects controller vs processor |
-| `/privacy-legal:dsar-response` | dsar-response | Walk a DSAR and draft response — verify, locate, assess |
-| `/privacy-legal:reg-gap-analysis` | reg-gap-analysis | Diff a regulation against current policy and practice |
-| `/privacy-legal:policy-monitor` | policy-monitor | Keep the privacy policy current with practice |
-| `/privacy-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
+| `/judge-fr-eu-privacy-legal:cold-start-interview` | cold-start-interview | Cold-start — learns your privacy practice |
+| `/judge-fr-eu-privacy-legal:use-case-triage` | use-case-triage | Determine PIA vs GDPR DPIA vs proceed |
+| `/judge-fr-eu-privacy-legal:pia-generation` | pia-generation | Generate a Privacy Impact Assessment in house format |
+| `/judge-fr-eu-privacy-legal:dpa-review` | dpa-review | Review a DPA — auto-detects controller vs processor |
+| `/judge-fr-eu-privacy-legal:dsar-response` | dsar-response | Walk a DSAR and draft response — verify, locate, assess |
+| `/judge-fr-eu-privacy-legal:reg-gap-analysis` | reg-gap-analysis | Diff a regulation against current policy and practice |
+| `/judge-fr-eu-privacy-legal:policy-monitor` | policy-monitor | Keep the privacy policy current with practice |
+| `/judge-fr-eu-privacy-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
 
 ### product-legal
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/product-legal:cold-start-interview` | cold-start-interview | Cold-start — connects launch tracker, learns calibration |
-| `/product-legal:is-this-a-problem` | is-this-a-problem | Fast "is this a problem?" answer for quick questions |
-| `/product-legal:launch-review` | launch-review | Full launch review against framework and calibration |
-| `/product-legal:marketing-claims-review` | marketing-claims-review | Review marketing copy for claims that need work |
-| `/product-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
+| `/judge-fr-eu-product-legal:cold-start-interview` | cold-start-interview | Cold-start — connects launch tracker, learns calibration |
+| `/judge-fr-eu-product-legal:is-this-a-problem` | is-this-a-problem | Fast "is this a problem?" answer for quick questions |
+| `/judge-fr-eu-product-legal:launch-review` | launch-review | Full launch review against framework and calibration |
+| `/judge-fr-eu-product-legal:marketing-claims-review` | marketing-claims-review | Review marketing copy for claims that need work |
+| `/judge-fr-eu-product-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
 | — | feature-risk-assessment | Deep-dive risk on a single feature when launch review flags |
 | scheduled | launch-watcher (agent) | Monitors launch tracker for upcoming reviews |
 
@@ -529,45 +541,52 @@ The full map across all plugins. The cold-start interview is the first thing to 
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/regulatory-legal:cold-start-interview` | cold-start-interview | Cold-start — watchlist, policy index, materiality |
-| `/regulatory-legal:reg-feed-watcher` | reg-feed-watcher | Check regulatory feeds now and report what's new |
-| `/regulatory-legal:policy-diff` | policy-diff | Diff a regulatory change against the policy library |
-| `/regulatory-legal:gaps` | gap-surfacer | Open gaps tracker — what's flagged and not closed |
-| `/regulatory-legal:policy-redraft` | policy-redraft | Marked-up policy redraft closing a gap — proposal for the policy owner's review |
-| `/regulatory-legal:comments` | (tracker) | Review open NPRM comment periods and deadlines |
-| `/regulatory-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
+| `/judge-fr-eu-regulatory-legal:cold-start-interview` | cold-start-interview | Cold-start — watchlist, policy index, materiality |
+| `/judge-fr-eu-regulatory-legal:reg-feed-watcher` | reg-feed-watcher | Check regulatory feeds now and report what's new |
+| `/judge-fr-eu-regulatory-legal:policy-diff` | policy-diff | Diff a regulatory change against the policy library |
+| `/judge-fr-eu-regulatory-legal:gaps` | gap-surfacer | Open gaps tracker — what's flagged and not closed |
+| `/judge-fr-eu-regulatory-legal:policy-redraft` | policy-redraft | Marked-up policy redraft closing a gap — proposal for the policy owner's review |
+| `/judge-fr-eu-regulatory-legal:comments` | (tracker) | Review open NPRM comment periods and deadlines |
+| `/judge-fr-eu-regulatory-legal:matter-workspace` | matter-workspace | Manage matter workspaces (practice-level) |
 | scheduled | reg-change-monitor (agent) | Scheduled regulatory feed sweep with materiality filter |
 
 ### law-student
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/law-student:cold-start-interview` | cold-start-interview | About-you interview — classes, bar, learning style |
-| `/law-student:socratic-drill` | socratic-drill | Socratic drill — it asks, you answer, it pushes back |
-| `/law-student:case-brief` | case-brief | Brief a case in your preferred format |
-| `/law-student:outline-builder` | outline-builder | Build or extend an outline in your format |
-| `/law-student:irac-practice` | irac-practice | Grade IRAC essay — structure, issues, rules, analysis |
-| `/law-student:legal-writing` | legal-writing | Structural feedback on your writing — never rewrites |
-| `/law-student:cold-call-prep` | cold-call-prep | Predict professor's questions and drill them |
-| `/law-student:bar-prep-questions` | bar-prep-questions | MBE or essay questions targeted at weak subjects |
-| `/law-student:flashcards` | flashcards | Generate or drill flashcards — Leitner-style |
-| `/law-student:exam-forecast` | exam-forecast | Analyze past exams to forecast likely emphases |
-| `/law-student:study-plan` | study-plan | Build or update a long-term study plan |
-| `/law-student:session` | study-plan | Run a focused N-question session; update the plan |
+| `/judge-fr-eu-law-student:cold-start-interview` | cold-start-interview | About-you interview — classes, bar, learning style |
+| `/judge-fr-eu-law-student:socratic-drill` | socratic-drill | Socratic drill — it asks, you answer, it pushes back |
+| `/judge-fr-eu-law-student:case-brief` | case-brief | Brief a case in your preferred format |
+| `/judge-fr-eu-law-student:outline-builder` | outline-builder | Build or extend an outline in your format |
+| `/judge-fr-eu-law-student:irac-practice` | irac-practice | Grade IRAC essay — structure, issues, rules, analysis |
+| `/judge-fr-eu-law-student:legal-writing` | legal-writing | Structural feedback on your writing — never rewrites |
+| `/judge-fr-eu-law-student:cold-call-prep` | cold-call-prep | Predict professor's questions and drill them |
+| `/judge-fr-eu-law-student:bar-prep-questions` | bar-prep-questions | MBE or essay questions targeted at weak subjects |
+| `/judge-fr-eu-law-student:flashcards` | flashcards | Generate or drill flashcards — Leitner-style |
+| `/judge-fr-eu-law-student:exam-forecast` | exam-forecast | Analyze past exams to forecast likely emphases |
+| `/judge-fr-eu-law-student:study-plan` | study-plan | Build or update a long-term study plan |
+| `/judge-fr-eu-law-student:session` | study-plan | Run a focused N-question session; update the plan |
 
-### cocounsel-legal (Thomson Reuters)
+### CoCounsel (Thomson Reuters)
 
-| Command | Skill | What it does |
-|---|---|---|
-| `/cocounsel-legal:deep-research` | deep-research | Run Westlaw Deep Research — start, poll, and present a fully cited report |
+The vendor source is preserved under `external_plugins/cocounsel-legal/` for provenance. It is excluded from this fork marketplace; install it separately from its original distribution.
 
 ## Contributing
 
-Everything here is markdown and JSON. Fork, edit, PR.
+Fork contribution guidance updated for BASE-007. Open pull requests against
+[Francois-Louis/Judge](https://github.com/Francois-Louis/Judge), checking the
+base repository before submitting. A contribution to the original Claude for
+Legal project is a separate, voluntary step under its own instructions.
+
+The fork does not require signing the original project's CLA. [CLA.md](CLA.md)
+is preserved unchanged as a historical document from Claude for Legal, naming
+Anthropic PBC. Existing licenses and attributions remain in place. See
+[CONTRIBUTING.md](CONTRIBUTING.md) for the fork's contribution instructions and
+the separate review needed if GitHub protections still require a CLA check.
 
 - **New skill** → add it under `<plugin>/skills/<skill-name>/SKILL.md` with the frontmatter the existing skills use (`name`, `description`, `argument-hint`). Keep the description under 1024 characters — it's the trigger signal. The skill is invokable as `/<plugin>:<skill-name>`. Mark pure-reference skills `user-invocable: false`.
 - **New agent** → add `<plugin>/agents/<name>.md` with scheduling frontmatter and the system prompt. Add a matching `managed-agent-cookbooks/<name>/` if you want headless deployment.
-- **Community skills** → use `/legal-builder-hub:skill-installer` to test a community skill in your environment. The hub runs `/legal-builder-hub:skills-qa` against every skill before installing — it scores the skill against the Legal Skill Design Framework (nine design parameters, three legal failure modes, a trust-surface check) and rejects anything that fails.
+- **Community skills** → use `/judge-fr-eu-legal-builder-hub:skill-installer` to test a community skill in your environment. The hub runs `/judge-fr-eu-legal-builder-hub:skills-qa` against every skill before installing — it scores the skill against the Legal Skill Design Framework (nine design parameters, three legal failure modes, a trust-surface check) and rejects anything that fails.
 - **Validate cookbooks before pushing** → `bash scripts/test-cookbooks.sh` dry-runs every managed-agent cookbook and lints orchestrator tool scope.
 
 ## License
