@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Europe/Paris",
+  "baseline_revision": "bf1dc682cda0fc247a51a090cecfa7c4c6fe7fb7",
+  "plugin": {
+    "directory": "employment-legal",
+    "identifier": "judge-fr-eu-employment-legal",
+    "version": "0.1.0",
+    "skill_count": 20,
+    "inventory_row_count": 20,
+    "reference_file_count": 4,
+    "content_changed": false
+  },
+  "skills": [
+    "cold-start-interview",
+    "customize",
+    "expansion-kickoff",
+    "expansion-update",
+    "handbook-updates",
+    "hiring-review",
+    "internal-investigation",
+    "international-expansion",
+    "investigation-add",
+    "investigation-memo",
+    "investigation-open",
+    "investigation-query",
+    "investigation-summary",
+    "leave-tracker",
+    "log-leave",
+    "matter-workspace",
+    "policy-drafting",
+    "termination-review",
+    "wage-hour-qa",
+    "worker-classification"
+  ],
+  "source_files": [
+    {
+      "path": "employment-legal/.claude-plugin/plugin.json",
+      "bytes": 548,
+      "sha256": "abe06cd6e0062af09d63b285432efbeb2d07b538107aa3d726accdd4be047939"
+    },
+    {
+      "path": "employment-legal/.gitignore",
+      "bytes": 10,
+      "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e"
+    },
+    {
+      "path": "employment-legal/.mcp.json",
+      "bytes": 530,
+      "sha256": "bc8eca5209f34144a43ecde0dcc7cd9eeed74f86c6ae4df7f5ba27e27c2bf613"
+    },
+    {
+      "path": "employment-legal/agents/leave-tracker.md",
+      "bytes": 12807,
+      "sha256": "5272f550f2e2bc09518df72c76f9960829be081f86e5d8180865b6cba0cc266c"
+    },
+    {
+      "path": "employment-legal/CLAUDE.md",
+      "bytes": 40119,
+      "sha256": "dccf4818915758f557fddb4a0602b08382d7ebbbc74d0cd748b84731a93802e9"
+    },
+    {
+      "path": "employment-legal/data/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "employment-legal/hooks/hooks.json",
+      "bytes": 18,
+      "sha256": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9"
+    },
+    {
+      "path": "employment-legal/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "employment-legal/NOTICE",
+      "bytes": 1468,
+      "sha256": "bcc1b42462f0c99e5daad8ea1a26b99b80945de3297220fafd48ebd5a7f57425"
+    },
+    {
+      "path": "employment-legal/README.md",
+      "bytes": 6781,
+      "sha256": "c8b7602a2854843db34398737570ac71c5a09adb6ab617a689f8ba7e70cd9a6b"
+    },
+    {
+      "path": "employment-legal/references/company-profile-template.md",
+      "bytes": 1541,
+      "sha256": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96"
+    },
+    {
+      "path": "employment-legal/references/dashboard-template.md",
+      "bytes": 4372,
+      "sha256": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c"
+    },
+    {
+      "path": "employment-legal/references/isolation.md",
+      "bytes": 4461,
+      "sha256": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3"
+    },
+    {
+      "path": "employment-legal/references/shared/research-citation-method.md",
+      "bytes": 18828,
+      "sha256": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6"
+    },
+    {
+      "path": "employment-legal/scripts/judge_store.py",
+      "bytes": 7848,
+      "sha256": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373"
+    },
+    {
+      "path": "employment-legal/skills/cold-start-interview/SKILL.md",
+      "bytes": 33256,
+      "sha256": "677d2ac6a85155af5f0578be5490c546da38d7d0c895178c7681413eee463edd"
+    },
+    {
+      "path": "employment-legal/skills/customize/SKILL.md",
+      "bytes": 5178,
+      "sha256": "35924f91f3a76fddb398dd94993acefab56279ef409db413dbfbb344b87ccbdf"
+    },
+    {
+      "path": "employment-legal/skills/expansion-kickoff/SKILL.md",
+      "bytes": 1928,
+      "sha256": "d9380c6381af98cd75332911cab4c1499c35b6748200635ba09ee577a752042c"
+    },
+    {
+      "path": "employment-legal/skills/expansion-update/SKILL.md",
+      "bytes": 2713,
+      "sha256": "cbf7419813711c6b741f31f98b8855306c221ea25be34b5ee72badd0ae8cd50a"
+    },
+    {
+      "path": "employment-legal/skills/handbook-updates/SKILL.md",
+      "bytes": 3952,
+      "sha256": "0fa25907f89521d26b09e1d87ad70b2d22b133db7cb287f4b3448d64b2a2a3cc"
+    },
+    {
+      "path": "employment-legal/skills/hiring-review/SKILL.md",
+      "bytes": 13607,
+      "sha256": "e8ea92d8e565e76a4753c3dae6ab3d876f5c20e4e29dc94d8dc05725e6592242"
+    },
+    {
+      "path": "employment-legal/skills/internal-investigation/SKILL.md",
+      "bytes": 28235,
+      "sha256": "a2629733586e723f3f1301151b26994cba444caed68ca0463a5c8d708747b870"
+    },
+    {
+      "path": "employment-legal/skills/international-expansion/SKILL.md",
+      "bytes": 15953,
+      "sha256": "d23a2b706b5d213c34a3cf09fb0205d928abe87b1ef9fa4aef6db14b42c005b7"
+    },
+    {
+      "path": "employment-legal/skills/investigation-add/SKILL.md",
+      "bytes": 1652,
+      "sha256": "7e1cdb3e0a17ac1744aaf5649ed4612405d601299653e7c93518c5866ce8be6b"
+    },
+    {
+      "path": "employment-legal/skills/investigation-memo/SKILL.md",
+      "bytes": 1454,
+      "sha256": "6e7a4fcac56471b202d37de725a18d4a13fa99fdc6fb265424ba8ad168e8b947"
+    },
+    {
+      "path": "employment-legal/skills/investigation-open/SKILL.md",
+      "bytes": 1452,
+      "sha256": "eed8f997933e09e1530678f714d3e98ff85be662e42a0caa96ba912041a2942d"
+    },
+    {
+      "path": "employment-legal/skills/investigation-query/SKILL.md",
+      "bytes": 1719,
+      "sha256": "5020badcc24a30cc8aaf604dcba5d34c5cbbc9f617ea17a37a715bb7eb58bc6b"
+    },
+    {
+      "path": "employment-legal/skills/investigation-summary/SKILL.md",
+      "bytes": 1615,
+      "sha256": "c94637fd37aa0fb465bd50cfe303131549de8675780295d14265f1d42410a33a"
+    },
+    {
+      "path": "employment-legal/skills/leave-tracker/SKILL.md",
+      "bytes": 1579,
+      "sha256": "442762e338d34ac93c0a81513c2cd03e331529db6b6592687d6507119ea4432a"
+    },
+    {
+      "path": "employment-legal/skills/log-leave/SKILL.md",
+      "bytes": 2809,
+      "sha256": "321b136138d04e57fb048f96f3f2e2f2b9429e980bc6908e14e9385ebae8b9e7"
+    },
+    {
+      "path": "employment-legal/skills/matter-workspace/SKILL.md",
+      "bytes": 10273,
+      "sha256": "7ddfd6905a28693b6e7ba58442dc01c4462f17f294ce46b02fb07dae2cfe7a9b"
+    },
+    {
+      "path": "employment-legal/skills/policy-drafting/SKILL.md",
+      "bytes": 5787,
+      "sha256": "c7c6060d12424793854a0c721e2f5e7a7868f83aa3241b7b5eacc0e612f6f4ae"
+    },
+    {
+      "path": "employment-legal/skills/termination-review/SKILL.md",
+      "bytes": 16972,
+      "sha256": "799e19e110ee79d4da99a7c6cb5f928c141043c43f23f9e0973d0a4283fdcc57"
+    },
+    {
+      "path": "employment-legal/skills/wage-hour-qa/SKILL.md",
+      "bytes": 13663,
+      "sha256": "3fb71f569807838269e4b852ad937217ed752f290eea7694a2c3379ec7bff706"
+    },
+    {
+      "path": "employment-legal/skills/worker-classification/SKILL.md",
+      "bytes": 22534,
+      "sha256": "6692c9862b2df832155e69ad2e63f7460f05c061b13f5f17112552492cdb75e7"
+    }
+  ],
+  "checks": {
+    "inventory_exact_and_unique": "passed",
+    "local_links": {
+      "state": "passed",
+      "count": 180
+    },
+    "story_frontmatter_and_dependency_graph": {
+      "state": "passed",
+      "count": 81,
+      "cycles": 0,
+      "states": {
+        "terminee": 10,
+        "en-cours": 1,
+        "proposee": 70
+      }
+    },
+    "proposed_followup_stories": 16,
+    "shared_method_identical": "passed",
+    "plugin_unchanged_vs_HEAD": "passed",
+    "markdown_whitespace_and_final_newline": "passed",
+    "cookbook_scope_lint": {
+      "command": "python -X utf8 scripts/lint-tool-scope.py",
+      "state": "passed",
+      "cookbooks": 5,
+      "note": "Initial default Windows cp1252 output failed on a checkmark; rerun using Python UTF-8 mode passed."
+    },
+    "json_syntax": {
+      "state": "passed",
+      "files": 45
+    },
+    "git_diff_check": "passed"
+  },
+  "not_executed": [
+    "Employment skill/model runs and HRIS/MCP calls",
+    "H01-H14: future hiring-review scenarios",
+    "Legal validation of the full plugin",
+    "Installed-package/client schema validation: no package changed by this audit"
+  ],
+  "maintenance_tool_results": "../00-fondations/base-010-resultats-acces.json",
+  "reproduction": [
+    "Compare the 20 skills/*/SKILL.md names to the 20 canonical rows in the inventory.",
+    "Verify listed source_files SHA-256 digests against the unchanged employment-legal directory.",
+    "Parse backlog YAML frontmatter, ensure 81 unique story IDs, resolve dependencies and detect cycles.",
+    "Resolve Markdown relative links from their containing documents.",
+    "python -X utf8 scripts/lint-tool-scope.py",
+    "python scripts/test-legal-sources.py",
+    "git diff --check"
+  ]
+}

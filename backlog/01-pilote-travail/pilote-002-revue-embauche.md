@@ -15,6 +15,9 @@ Livrer une première adaptation verticale et relisible de `employment-legal:hiri
 
 ## Points de départ
 
+- [Inventaire et dépendances PILOTE-001](pilote-001-releve-inventaire.md).
+- [Sections à reprendre et scénarios de contrôle](pilote-001-plan-hiring-review.md).
+
 - [employment-legal/skills/hiring-review/SKILL.md](../../employment-legal/skills/hiring-review/SKILL.md)
 - [employment-legal/CLAUDE.md](../../employment-legal/CLAUDE.md)
 - [employment-legal/README.md](../../employment-legal/README.md)

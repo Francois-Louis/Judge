@@ -340,6 +340,24 @@ BASE-008 files added or modified, relative to the pre-story worktree:
   scripts/test-base008-isolation.py
   scripts/test-cookbooks.sh
 
+PILOTE-001 / BASE-010 changes (2026-10-15): audit and adaptation planning for
+employment-legal; public official-source retrieval routes without requiring
+a PISTE subscription. No employment skill behavior changed by the audit.
+  CLAUDE.md
+  backlog/README.md
+  backlog/00-fondations/base-010-acces-sources-officielles.md
+  backlog/00-fondations/base-010-resultats-acces.json
+  backlog/01-pilote-travail/pilote-001-inventaire-travail.md
+  backlog/01-pilote-travail/pilote-001-releve-inventaire.md
+  backlog/01-pilote-travail/pilote-001-plan-hiring-review.md
+  backlog/01-pilote-travail/pilote-001-decoupage-travail.md
+  backlog/01-pilote-travail/pilote-001-resultats.json
+  backlog/01-pilote-travail/pilote-002-revue-embauche.md
+  backlog/01-pilote-travail/suites/trav-001 through trav-016 (story proposals)
+  references/legal-source-access.md
+  scripts/legal_sources.py
+  scripts/test-legal-sources.py
+
 BASE-009 files modified (2026-10-15): community updates are never applied
 automatically; cookbook scripts resolve a working Python interpreter.
   legal-builder-hub/README.md

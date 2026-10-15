@@ -1,8 +1,9 @@
 # Backlog — adaptation juridique France / Union européenne
 
-Ce dossier organise le travail à venir. Le backlog contient 64 stories :
-BASE-001 à BASE-007 et BASE-009 sont `terminee`, BASE-008 est `en-cours` ;
-les 55 autres sont `proposee`. La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
+Ce dossier organise le travail à venir. Le backlog contient 81 stories :
+BASE-001 à BASE-007, BASE-009, BASE-010 et PILOTE-001 sont `terminee`,
+BASE-008 est `en-cours` ; les 70 autres sont `proposee`.
+La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
 fait le bilan de l'epic 00 et de ses points ouverts.
 Le [relevé BASE-001](00-fondations/base-001-releve-audit.md) consigne l'audit du
 15 octobre 2026. Le retrait local du contrôle CLA et les consignes de contribution
@@ -80,6 +81,16 @@ fork avec son origine est une question distincte de la destination des push :
 BASE-002 en prépare le choix.
 
 ## Ordre de travail proposé
+
+[PILOTE-001](01-pilote-travail/pilote-001-inventaire-travail.md) a produit
+l'[inventaire des 20 skills](01-pilote-travail/pilote-001-releve-inventaire.md),
+le [plan hiring-review](01-pilote-travail/pilote-001-plan-hiring-review.md) et
+16 [stories de suite](01-pilote-travail/pilote-001-decoupage-travail.md), encore
+proposées et dépendantes du bilan PILOTE-003. Aucun skill n'est adapté par cet audit.
+La lecture des sources bloquées dans l'outil web dispose désormais de
+[voies officielles testées sans souscription API](../references/legal-source-access.md)
+(BASE-010) : CDTN, CELLAR et extractions XML ciblées DILA ; l'indexation complète
+des stocks reste à réaliser. L'accès PISTE refusé à l'utilisateur n'est pas un prérequis.
 
 1. BASE-001 : audit local du fork. BASE-003 : architecture par domaines.
 2. BASE-002 : choix du lien GitHub, sur une piste séparée du travail juridique.
@@ -161,6 +172,7 @@ besoin. Les exemples ci-dessus n'annoncent pas des fonctionnalités déjà prés
 | [BASE-007](00-fondations/base-007-cla-contributions-fork.md) | Retirer le contrôle CLA hérité et préciser les contributions au fork | implementation | P0 |
 | [BASE-008](00-fondations/base-008-isoler-identite-configurations.md) | Appliquer l'identité Judge FR/UE et isoler les configurations | implementation | P0 |
 | [BASE-009](00-fondations/base-009-corrections-retrospective.md) | Appliquer les corrections issues de la rétrospective des fondations | implementation | P0 |
+| [BASE-010](00-fondations/base-010-acces-sources-officielles.md) | Lire les sources officielles par des voies testées sans souscription API | implementation | P0 |
 
 ## Orientation et utilité quotidienne — P0 / P1
 
@@ -178,6 +190,11 @@ besoin. Les exemples ci-dessus n'annoncent pas des fonctionnalités déjà prés
 | [PILOTE-003](01-pilote-travail/pilote-003-bilan-pilote.md) | Vérifier le pilote avant d'étendre l'adaptation | validation | P1 |
 
 ## Adaptations à découper — P2
+
+Les suites du plugin travail sont détaillées dans le
+[découpage TRAV-001 à TRAV-016](01-pilote-travail/pilote-001-decoupage-travail.md).
+Chaque story a son fichier, ses dépendances et ses scénarios. Elles attendent
+PILOTE-003 ; PILOTE-002 reste la seule tranche d'embauche proposée avant ce bilan.
 
 | Story | Résultat attendu | Nature | Priorité |
 |---|---|---|---|

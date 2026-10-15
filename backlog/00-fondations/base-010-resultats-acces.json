@@ -1,0 +1,237 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Europe/Paris",
+  "probes": [
+    {
+      "source_family": "travail",
+      "reference": "L2261-2",
+      "state": "retrieved",
+      "documentary_status": "non-verifie",
+      "applicability": "a-etablir",
+      "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+      "attempts": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006901780",
+          "attempted_at": "2026-10-15T20:03:16.267669+00:00",
+          "state": "http-error",
+          "http_status": 403
+        },
+        {
+          "url": "https://code.travail.gouv.fr/code-du-travail/l2261-2",
+          "attempted_at": "2026-10-15T20:03:16.646562+00:00",
+          "http_status": 200,
+          "final_url": "https://code.travail.gouv.fr/code-du-travail/l2261-2",
+          "content_type": "text/html",
+          "state": "retrieved",
+          "retrieved_at": "2026-10-15T20:03:17.083055+00:00",
+          "bytes": 53833,
+          "sha256": "97754fbdea44ed99a2a74ba0b0c357018744c3709882e4601892c7163b7b2a0c"
+        }
+      ]
+    },
+    {
+      "source_family": "eu",
+      "reference": "32008R0593",
+      "state": "retrieved",
+      "documentary_status": "non-verifie",
+      "applicability": "a-etablir",
+      "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+      "attempts": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32008R0593",
+          "attempted_at": "2026-10-15T20:03:17.083055+00:00",
+          "http_status": 202,
+          "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32008R0593",
+          "content_type": "text/html",
+          "state": "blocked",
+          "reason": "Challenge/access restriction; not a legal document"
+        },
+        {
+          "url": "https://publications.europa.eu/resource/celex/32008R0593",
+          "attempted_at": "2026-10-15T20:03:17.409765+00:00",
+          "http_status": 200,
+          "final_url": "https://publications.europa.eu/resource/cellar/3db0a06f-cae9-433d-a229-dde3e68d6dc7.0010.03/DOC_1",
+          "content_type": "application/xhtml+xml",
+          "state": "retrieved",
+          "retrieved_at": "2026-10-15T20:03:18.078951+00:00",
+          "bytes": 140725,
+          "sha256": "a1e7ac911a0bb3f630271af6cb23c025fac7ca009cb21f153be8e5d41415231a"
+        }
+      ]
+    },
+    {
+      "source_family": "piste",
+      "reference": "list/ping",
+      "state": "needs-credentials",
+      "documentary_status": "non-verifie",
+      "applicability": "a-etablir",
+      "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+      "attempts": [],
+      "text": null,
+      "next_step": "Configure PISTE credentials locally; never put them in chat or Git."
+    },
+    {
+      "source_family": "dila-list",
+      "reference": "LEGI",
+      "state": "retrieved",
+      "documentary_status": "non-verifie",
+      "applicability": "a-etablir",
+      "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+      "attempts": [
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/",
+          "attempted_at": "2026-10-15T20:14:18.680307+00:00",
+          "state": "retrieved",
+          "http_status": 200,
+          "final_url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/",
+          "retrieved_at": "2026-10-15T20:14:19.083187+00:00",
+          "bytes": 73699,
+          "sha256": "cc5f87ae388fa73b4421926f94dcf5504e1b8ad72deec2a368e8fef0d8425d33"
+        }
+      ],
+      "coverage": "Archive listing only; daily deltas are not the complete corpus.",
+      "archive_count": 465
+    },
+    {
+      "source_family": "dila-list",
+      "reference": "KALI",
+      "state": "retrieved",
+      "documentary_status": "non-verifie",
+      "applicability": "a-etablir",
+      "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+      "attempts": [
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/",
+          "attempted_at": "2026-10-15T20:14:19.084187+00:00",
+          "state": "retrieved",
+          "http_status": 200,
+          "final_url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/",
+          "retrieved_at": "2026-10-15T20:14:19.462061+00:00",
+          "bytes": 46895,
+          "sha256": "03da80fa12be5ce0d6b27648673f84bb7ce32eb3331f9aea63047e04a1fe902d"
+        }
+      ],
+      "coverage": "Archive listing only; daily deltas are not the complete corpus.",
+      "archive_count": 261
+    },
+    {
+      "source_family": "dila-list",
+      "reference": "CASS",
+      "state": "retrieved",
+      "documentary_status": "non-verifie",
+      "applicability": "a-etablir",
+      "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+      "attempts": [
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/",
+          "attempted_at": "2026-10-15T20:14:19.462061+00:00",
+          "state": "retrieved",
+          "http_status": 200,
+          "final_url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/",
+          "retrieved_at": "2026-10-15T20:14:19.772356+00:00",
+          "bytes": 9643,
+          "sha256": "29acf761d42d13d18d929bfebf90456dd1c86b3d777f6351d2129d645bea4ba5"
+        }
+      ],
+      "coverage": "Archive listing only; daily deltas are not the complete corpus.",
+      "archive_count": 57
+    },
+    {
+      "source_family": "dila-xml",
+      "reference": "LEGIARTI000049945125",
+      "state": "retrieved",
+      "documentary_status": "non-verifie",
+      "applicability": "a-etablir",
+      "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+      "attempts": [
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/LEGI_20261015-122925.tar.gz",
+          "attempted_at": "2026-10-15T20:14:19.773380+00:00",
+          "http_status": 200,
+          "final_url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/LEGI_20261015-122925.tar.gz",
+          "bytes": 43573,
+          "sha256": "7dd2b4a7b51cc32456abb43351325d38cfac87b69570dd15bfdeed95c93fe566",
+          "state": "retrieved",
+          "retrieved_at": "2026-10-15T20:14:20.134455+00:00",
+          "archive_member": "20261015-122925/legi/global/code_et_TNC_en_vigueur/TNC_en_vigueur/JORF/TEXT/00/00/49/92/59/JORFTEXT000049925987/article/LEGI/ARTI/00/00/49/94/51/LEGIARTI000049945125.xml",
+          "xml_sha256": "38b7ccddff4ea4e4b9471da403bd379ee1a0849bd7f48f7e3c6d4e1d586b9a38"
+        }
+      ],
+      "coverage": "One identified XML document from one archive; not a complete or current corpus."
+    },
+    {
+      "source_family": "dila-xml",
+      "reference": "KALIARTI000050051847",
+      "state": "retrieved",
+      "documentary_status": "non-verifie",
+      "applicability": "a-etablir",
+      "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+      "attempts": [
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261014-214049.tar.gz",
+          "attempted_at": "2026-10-15T20:14:20.134455+00:00",
+          "http_status": 200,
+          "final_url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261014-214049.tar.gz",
+          "bytes": 71187,
+          "sha256": "1aeae9546871200003f15f18c620ac4b61d6c78b8236704139086c63cb995287",
+          "state": "retrieved",
+          "retrieved_at": "2026-10-15T20:14:20.528203+00:00",
+          "archive_member": "20261014-214049/kali/global/article/KALI/ARTI/00/00/50/05/18/KALIARTI000050051847.xml",
+          "xml_sha256": "df876e55cdcb76cff3797fd635212840d314ee932e5add70181bf3091dc8bc20"
+        }
+      ],
+      "coverage": "One identified XML document from one archive; not a complete or current corpus."
+    },
+    {
+      "source_family": "dila-xml",
+      "reference": "JURITEXT000054167571",
+      "state": "retrieved",
+      "documentary_status": "non-verifie",
+      "applicability": "a-etablir",
+      "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+      "attempts": [
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260930-215413.tar.gz",
+          "attempted_at": "2026-10-15T20:14:32.618818+00:00",
+          "http_status": 200,
+          "final_url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260930-215413.tar.gz",
+          "bytes": 358209,
+          "sha256": "3e9749126d2467ea380d12bae6ee7e58c8be7ac92c72e79e9030f57ac2c5024a",
+          "state": "retrieved",
+          "retrieved_at": "2026-10-15T20:14:33.158393+00:00",
+          "archive_member": "20260930-215413/juri/cass/global/JURI/TEXT/00/00/54/16/75/JURITEXT000054167571.xml",
+          "xml_sha256": "08d4ba930d687e63dc4e06e90971058bc7a3bf0d2d042a1647b3a705a0cec92e"
+        }
+      ],
+      "coverage": "One identified XML document from one archive; not a complete or current corpus."
+    }
+  ],
+  "offline_tests": {
+    "command": "python scripts/test-legal-sources.py",
+    "passed": 21
+  },
+  "limits": [
+    "No live PISTE authentication: API subscription denied according to user.",
+    "Retrieved text is not a legal applicability decision.",
+    "Full public texts are in ignored outputs/legal-source-probes, not runtime dependencies.",
+    "DILA samples are three documents from small LEGI/KALI/CASS update archives; no full-corpus ingestion or completeness/currentness claim."
+  ],
+  "piste_status": "Account created; API subscription denied according to user. Not a project prerequisite. No authenticated request executed.",
+  "cli_checks": [
+    {
+      "command": "python scripts/legal_sources.py travail L2261-2 --legifrance-id LEGIARTI000006901780",
+      "exit_code": 0,
+      "state": "retrieved"
+    },
+    {
+      "command": "python scripts/legal_sources.py eu 32008R0593 --expect \"Contrats individuels de travail\"",
+      "exit_code": 0,
+      "state": "retrieved"
+    },
+    {
+      "command": "python scripts/legal_sources.py travail ../invalid",
+      "exit_code": 2,
+      "state": "invalid-arguments"
+    }
+  ]
+}

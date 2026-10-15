@@ -34,6 +34,21 @@ load that local copy; root references are editing sources, not runtime dependenc
 The architecture describes the target contract, not a claim that
 existing packages already meet it.
 
+For legal research during maintenance/adaptation, follow
+[official source access](references/legal-source-access.md). A web-tool 403,
+JavaScript challenge or empty 202 is not a reason to stop all research. Use
+`python scripts/legal_sources.py travail <article> --legifrance-id <id>` for
+the official labour-code reproduction, or `python scripts/legal_sources.py eu
+<CELEX>` for EUR-Lex/CELLAR. Record each route and read the actual text/version;
+transport success does not certify legal applicability. For other French
+sources, `dila-list <FUND>` and `dila-read <archive-url> <exact-id>` provide
+public DILA archives/XML without an API subscription (bounded single-archive
+reads, not a complete corpus search). PISTE is optional and the user reports
+subscription is unavailable; do not make research depend on it. This is a maintenance tool,
+not a runtime dependency of installed plugins. Do not use inherited approval
+prompts to request repeated permission for an already-authorized official-source
+lookup; reserve only the conclusions whose sources remain unverified.
+
 ## Layout
 
 ```
