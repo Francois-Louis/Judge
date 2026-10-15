@@ -6,6 +6,22 @@ No affiliation or endorsement by Anthropic is claimed.
 Technical identity and storage changes do not certify France/EU legal adaptation.
 No upstream NOTICE was present in the source snapshot.
 
+USAGE-003 changes (2026-10-15): retrospective corrections for the everyday-use
+epic; orientation protocol versioned and referenced by PILOTE-002 and the
+BASE-006 recipe; matrix situations numbered. Documentation only.
+  backlog/05-usages-quotidiens/retrospective-usages-quotidiens.md
+  backlog/05-usages-quotidiens/usage-003-corrections-retrospective.md
+  backlog/05-usages-quotidiens/usage-001-protocole-orientation.md
+  backlog/05-usages-quotidiens/usage-001-orientation-accessible.md
+  backlog/05-usages-quotidiens/usage-001-verification.md
+  backlog/05-usages-quotidiens/usage-002-comparaison-priorites.md
+  backlog/01-pilote-travail/pilote-002-revue-embauche.md
+  backlog/usages-quotidiens.md
+  backlog/story-template.md
+  backlog/README.md
+  references/package-validation.md
+  NOTICE
+
 USAGE-002 changes (2026-10-15): comparison of five bounded everyday tasks,
 proposed first-lot scope and fictional review across three user profiles.
 The employment pilot remains proposed; no runtime skill was changed or started.

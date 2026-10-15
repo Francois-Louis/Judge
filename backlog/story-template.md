@@ -53,3 +53,8 @@ Ce qui doit rester dans une autre story.
 À remplir au cours du travail : changements, contrôles réellement effectués,
 références juridiques effectivement consultées le cas échéant, points ouverts
 et suites justifiées. Aucun élément ne doit être déclaré réalisé par anticipation.
+
+Regrouper les limites du résultat (fictif, simulé, non exécuté) dans un seul
+paragraphe « Portée » du bilan. Les documents liés y renvoient au lieu de
+répéter les mêmes réserves. Un critère vérifié seulement sur cas fictifs ou par
+le rédacteur porte cette mention à côté de sa case.

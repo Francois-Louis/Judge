@@ -1,7 +1,7 @@
 # Backlog — adaptation juridique France / Union européenne
 
-Ce dossier organise le travail à venir. Le backlog contient 81 stories :
-BASE-001 à BASE-007, BASE-009, BASE-010, PILOTE-001, USAGE-001 et USAGE-002 sont `terminee`,
+Ce dossier organise le travail à venir. Le backlog contient 82 stories :
+BASE-001 à BASE-007, BASE-009, BASE-010, PILOTE-001 et USAGE-001 à USAGE-003 sont `terminee`,
 BASE-008 est `en-cours` ; les 68 autres sont `proposee`.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
 fait le bilan de l'epic 00 et de ses points ouverts.
@@ -41,6 +41,13 @@ ciblée, pièces du notaire, retenue sur dépôt, devis. La
 explicite bénéfices et obstacles, sans essai utilisateur réel. Le premier lot
 reste PILOTE-002 proposé, avec ses exclusions ; le classement est une hypothèse,
 sans choix du pilote arrêté ni lancement de développement ou de second pilote.
+Le critère déterminant de ce rang est la capacité à vérifier un premier lot,
+non une utilité supérieure : la relecture montre un bénéfice direct limité de
+cette tâche pour un retraité ou un petit exploitant.
+La [rétrospective de l'epic 05](05-usages-quotidiens/retrospective-usages-quotidiens.md)
+a conduit aux corrections de [USAGE-003](05-usages-quotidiens/usage-003-corrections-retrospective.md) :
+protocole versionné et repris par PILOTE-002 et la recette BASE-006,
+situations numérotées `S-01` à `S-42`.
 
 Il n'y a pas de plugin généraliste `france-eu-legal` prévu. Les références métier
 restent dans leur domaine. Seule une méthode transverse limitée (recherche,
@@ -196,6 +203,7 @@ besoin. Les exemples ci-dessus n'annoncent pas des fonctionnalités déjà prés
 |---|---|---|---|
 | [USAGE-001](05-usages-quotidiens/usage-001-orientation-accessible.md) | Définir une orientation accessible à partir d'un problème concret | cadrage | P0 |
 | [USAGE-002](05-usages-quotidiens/usage-002-priorites-utilite.md) | Prioriser les premières tâches selon leur utilité quotidienne | cadrage | P1 |
+| [USAGE-003](05-usages-quotidiens/usage-003-corrections-retrospective.md) | Appliquer les corrections issues de la rétrospective des usages quotidiens | implementation | P1 |
 
 ## Pilote proposé — P1
 

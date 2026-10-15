@@ -18,7 +18,7 @@ Livrer une première adaptation verticale et relisible de `employment-legal:hiri
 - [Inventaire et dépendances PILOTE-001](pilote-001-releve-inventaire.md).
 - [Sections à reprendre et scénarios de contrôle](pilote-001-plan-hiring-review.md).
 - [Comparaison USAGE-002 et premier lot proposé](../05-usages-quotidiens/usage-002-comparaison-priorites.md).
-
+- [Protocole d'orientation USAGE-001, version 1.0.0](../05-usages-quotidiens/usage-001-protocole-orientation.md) : formes de restitution, pièces limitées, absence d'envoi sans autorisation.
 - [employment-legal/skills/hiring-review/SKILL.md](../../employment-legal/skills/hiring-review/SKILL.md)
 - [employment-legal/CLAUDE.md](../../employment-legal/CLAUDE.md)
 - [employment-legal/README.md](../../employment-legal/README.md)
@@ -45,6 +45,8 @@ de cette story et le bilan PILOTE-003 sont conservés.
 - [ ] Les références nécessaires sont dans le plugin livré ; la procédure de configuration reste utilisable.
 - [ ] Les documents du plugin indiquent précisément le périmètre adapté et les limites restantes.
 - [ ] Un candidat sans formation juridique comprend la sortie et les démarches proposées ; la revue ne suppose pas de playbook d'entreprise.
+- [ ] La sortie respecte le protocole USAGE-001 dans la version citée : entrée en mots ordinaires, forme de restitution adaptée, pièces limitées au besoin, aucun envoi.
+- [ ] Au moins une personne sans formation juridique reformule, sans aide du rédacteur, l'engagement examiné, la question à poser, l'interlocuteur et la réserve principale ; réponses et corrections sont consignées. Sans participant réel, ce critère reste non coché.
 
 ## Vérification
 

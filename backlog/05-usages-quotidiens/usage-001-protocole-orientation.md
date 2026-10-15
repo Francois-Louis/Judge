@@ -1,6 +1,6 @@
 # USAGE-001 — Protocole d'orientation accessible
 
-Cadrage du **15 octobre 2026 (Europe/Paris)**, fondé sur l'[architecture
+Version `1.0.0` — cadrage du **15 octobre 2026 (Europe/Paris)**, fondé sur l'[architecture
 BASE-003](../00-fondations/base-003-dossier-architecture.md) et la [méthode
 BASE-005, version 1.0.0](../../references/research-citation-method.md).
 La [matrice des situations](../usages-quotidiens.md) porte l'index des domaines
@@ -14,6 +14,13 @@ dans le backlog. Il sert au cadrage des prochaines tâches et à leur relecture.
 Il ne constitue pas une commande, un skill installé ou un moteur de routage.
 Les futurs points d'entrée reprendront ces exigences dans leur propre lot,
 avec les références nécessaires embarquées dans leur plugin.
+
+Ce fichier n'est pas copié tel quel dans les paquets : il contient des renvois
+au backlog, et seule une méthode transverse limitée peut être partagée entre
+plugins. Un skill qui l'applique reprend dans ses propres instructions ou
+références les exigences utiles à sa tâche et cite la version appliquée. Toute
+modification de fond incrémente la version ; les lots qui citent une version
+antérieure vérifient alors s'ils doivent être mis à jour.
 
 L'orientation conserve seulement le lien entre situation, domaine, question
 et disponibilité. Les règles de fond, sources sectorielles, calculs, délais

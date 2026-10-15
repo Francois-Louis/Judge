@@ -42,8 +42,8 @@ de restitution ; elle ne crée pas un plugin généraliste France/UE.
 ## Critères d'acceptation
 
 - [x] Les situations de la matrice ont un domaine principal identifiable et des frontières explicites.
-- [x] Des mots ordinaires suffisent à commencer ; le nom du code ou de la procédure n'est pas une entrée obligatoire.
-- [x] Les sorties expliquent les options et leur utilité sans jargon non expliqué.
+- [x] Des mots ordinaires suffisent à commencer ; le nom du code ou de la procédure n'est pas une entrée obligatoire. *Vérifié sur cas fictifs par le rédacteur ; essai réel reporté à PILOTE-002.*
+- [x] Les sorties expliquent les options et leur utilité sans jargon non expliqué. *Vérifié sur cas fictifs par le rédacteur ; essai réel reporté à PILOTE-002.*
 - [x] La collecte et la diffusion de pièces sont limitées au besoin ; aucun envoi n'est fait sans autorisation adaptée.
 - [x] Un conflit n'est pas qualifié d'abus du seul fait que l'utilisateur le conteste ; la demande et les obligations des deux parties sont examinées.
 - [x] Les règles d'orientation restent séparées des raisonnements métier et ne dupliquent pas tous les domaines.

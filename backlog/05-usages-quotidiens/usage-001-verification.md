@@ -107,7 +107,7 @@ chemins réellement présents dans l'espace de travail, sans requête réseau.
 | Couverture DOM | DOM-001 à DOM-038 présents ; les 38 domaines principaux correspondent à BASE-003. Les quatre autres lignes concernent le travail privé, les contrats professionnels et les données personnelles. |
 | Liens locaux | 189 liens relatifs résolus dans les sept fichiers du lot, sans cible manquante. Ce contrôle ne vérifie pas le contenu des sources externes. |
 | Structure et encodage | Tableaux avec nombre de colonnes cohérent, fichiers UTF-8 avec fin de ligne finale, aucun espace de fin de ligne. |
-| Story et suivi | Six critères cochés ; 81 stories recensées : 11 terminées, une en cours, 69 proposées, conformément au README du backlog. |
+| Story et suivi | Six critères cochés ; 81 stories recensées à cette date : 11 terminées, une en cours, 69 proposées, conformément au README du backlog. |
 | Diff | `git diff --check` terminé avec code 0. |
 
 Ces contrôles portent sur le cadrage et sa navigation ; ils ne sont pas des

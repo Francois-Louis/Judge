@@ -1,6 +1,7 @@
 # Validation d'une adaptation de skill et de son plugin — BASE-006
 
-Version `1.0.0` — 15 octobre 2026 (Europe/Paris).
+Version `1.1.0` — 15 octobre 2026 (Europe/Paris). La 1.1.0 ajoute le
+contrôle au regard du protocole d'orientation USAGE-001 (USAGE-003).
 
 Cette recette s'applique à un lot borné selon le
 [contrat BASE-003](../backlog/00-fondations/base-003-dossier-architecture.md)
@@ -46,9 +47,16 @@ jamais exécution du skill.
   Rejouer sans profil préalable et sans connecteur de recherche.
 - [ ] Rejouer la grille de scénarios applicable et relire les sources et
   raisonnements de la sortie réelle. Qualifier les scénarios non applicables.
+- [ ] Pour un skill destiné à des personnes sans formation juridique, vérifier
+  la sortie au regard du [protocole d'orientation USAGE-001](../backlog/05-usages-quotidiens/usage-001-protocole-orientation.md)
+  et citer sa version : entrée en mots ordinaires, forme de restitution
+  choisie, pièces limitées au besoin, aucun envoi sans autorisation adaptée,
+  engagements des deux parties examinés.
 - [ ] Faire reformuler à un utilisateur sans formation juridique ce qu'il
   doit payer, recevoir, vérifier ou faire, avec qui et sur quelles pièces.
-  Consigner sa compréhension et les corrections nécessaires.
+  Consigner sa compréhension et les corrections nécessaires. Sans participant
+  réel, noter le contrôle `non exécuté` ; une relecture par le rédacteur ne
+  le remplace pas.
 
 Un seul skill peut être relu au départ. Cela ne rend pas conformes les autres
 skills du plugin. Si le paquet contient encore des commandes ou fonctions non
