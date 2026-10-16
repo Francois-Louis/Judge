@@ -7,12 +7,12 @@
 | En cours | 1 |
 | À vérifier | 1 |
 | Bloquée | 0 |
-| Terminée | 40 |
+| Terminée | 41 |
 | Prête | 0 |
-| À faire | 475 |
+| À faire | 486 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 145 |
-| Total | 540 |
+| dont prêtes à démarrer | 144 |
+| Total | 552 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -65,7 +65,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-027](03-nouveaux-domaines/dom-027-education-formation.md) | Cadrer un plugin éducation et formation | P2 | cadrage |
 | [DOM-028](03-nouveaux-domaines/dom-028-sejour-nationalite-asile.md) | Cadrer un plugin séjour, nationalité et asile | P2 | cadrage |
 | [DOM-029](03-nouveaux-domaines/dom-029-discriminations.md) | Cadrer un plugin discriminations et égalité d'accès | P2 | cadrage |
-| [DOM-031](03-nouveaux-domaines/dom-031-deces-obseques.md) | Cadrer un plugin décès et prestations funéraires | P2 | cadrage |
 | [DOM-034](03-nouveaux-domaines/dom-034-numerique-plateformes.md) | Cadrer un plugin numérique et plateformes du quotidien | P2 | cadrage |
 | [DOM-035](03-nouveaux-domaines/dom-035-responsabilite-dommages.md) | Cadrer un plugin responsabilité civile et dommages | P2 | cadrage |
 | [DOM-036](03-nouveaux-domaines/dom-036-retraites.md) | Cadrer un plugin retraites et droits de carrière | P2 | cadrage |
@@ -258,6 +257,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [dom-008-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py) · [dom-008-decoupage-transports.md](03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md) · [dom-008-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json) · [dom-008-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md)
 - [DOM-023](03-nouveaux-domaines/dom-023-vehicules-garages.md) — Cadrer un plugin véhicules, garages et réparations
   <br>Annexes : [dom-023-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py) · [dom-023-decoupage-vehicules.md](03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md) · [dom-023-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json) · [dom-023-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md)
+- [DOM-031](03-nouveaux-domaines/dom-031-deces-obseques.md) — Cadrer un plugin décès et prestations funéraires
+  <br>Annexes : [dom-031-controles.py](03-nouveaux-domaines/dom-031-annexes/dom-031-controles.py) · [dom-031-decoupage-funeraire.md](03-nouveaux-domaines/dom-031-annexes/dom-031-decoupage-funeraire.md) · [dom-031-resultats.json](03-nouveaux-domaines/dom-031-annexes/dom-031-resultats.json) · [dom-031-verification.md](03-nouveaux-domaines/dom-031-annexes/dom-031-verification.md)
 - Autres documents : [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt)
 
 ### 04 — Livraison
@@ -754,7 +755,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 34 à faire, 34 prêtes</summary>
+<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 33 à faire, 33 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -779,7 +780,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-028](03-nouveaux-domaines/dom-028-sejour-nationalite-asile.md) | Cadrer un plugin séjour, nationalité et asile | P2 | ✅ |
 | [DOM-029](03-nouveaux-domaines/dom-029-discriminations.md) | Cadrer un plugin discriminations et égalité d'accès | P2 | ✅ |
 | [DOM-030](03-nouveaux-domaines/dom-030-environnement-pollutions.md) | Cadrer un plugin environnement et pollutions | P3 | ✅ |
-| [DOM-031](03-nouveaux-domaines/dom-031-deces-obseques.md) | Cadrer un plugin décès et prestations funéraires | P2 | ✅ |
 | [DOM-032](03-nouveaux-domaines/dom-032-associations-adherents.md) | Cadrer un plugin associations et droits des adhérents | P3 | ✅ |
 | [DOM-033](03-nouveaux-domaines/dom-033-animaux.md) | Cadrer un plugin animaux et responsabilités | P3 | ✅ |
 | [DOM-034](03-nouveaux-domaines/dom-034-numerique-plateformes.md) | Cadrer un plugin numérique et plateformes du quotidien | P2 | ✅ |
@@ -820,6 +820,26 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [ENF-018](03-nouveaux-domaines/suites/enf-018-devis-constat.md) | Préparer une demande de devis pour un constat | P2 | ENF-001 |
 | [ENF-019](03-nouveaux-domaines/suites/enf-019-contestation-saisie-attribution.md) | Préparer un dossier de contestation d'une saisie-attribution bancaire | P2 | ENF-001, ENF-004 |
 | [ENF-020](03-nouveaux-domaines/suites/enf-020-reperer-irregularites-execution.md) | Repérer les irrégularités possibles d'un acte d'exécution | P2 | ENF-001, ENF-006 |
+
+</details>
+
+<details>
+<summary><b>FUN</b> — Décès et prestations funéraires (03 — Nouveaux domaines) : 12 à faire, 0 prêtes</summary>
+
+| Story | Titre | Priorité | Bloquée par |
+| --- | --- | --- | --- |
+| [FUN-001](03-nouveaux-domaines/suites/fun-001-devis-funeraire.md) | Lire un devis funéraire et préparer les demandes d'explication avant engagement | P2 | BASE-008 |
+| [FUN-002](03-nouveaux-domaines/suites/fun-002-facture-prestations.md) | Comparer une facture funéraire au devis et préparer une réclamation sur des prestations non demandées | P2 | BASE-008, FUN-001 |
+| [FUN-003](03-nouveaux-domaines/suites/fun-003-volonte-decision.md) | Organiser volontés du défunt et qualité pour décider en cas de désaccord entre proches | P2 | BASE-008, FUN-001 |
+| [FUN-004](03-nouveaux-domaines/suites/fun-004-demande-paiement.md) | Répondre à un opérateur funéraire qui réclame un paiement quand les signataires ne sont pas identifiés | P2 | BASE-008, FUN-002, FUN-005 |
+| [FUN-005](03-nouveaux-domaines/suites/fun-005-prise-en-charge-frais.md) | Identifier les financements à interroger et les questions de prise en charge des frais d'obsèques | P2 | BASE-008, FUN-001 |
+| [FUN-006](03-nouveaux-domaines/suites/fun-006-contrat-obseques.md) | Comparer les prestations d'un contrat obsèques au devis d'exécution de l'opérateur | P2 | BASE-008, FUN-001 |
+| [FUN-007](03-nouveaux-domaines/suites/fun-007-concession.md) | Lire un titre de concession funéraire et préparer les questions à la commune | P2 | BASE-008, FUN-003 |
+| [FUN-008](03-nouveaux-domaines/suites/fun-008-premieres-demarches.md) | Organiser les démarches et pièces des premiers jours après un décès | P2 | BASE-008, FUN-001 |
+| [FUN-009](03-nouveaux-domaines/suites/fun-009-volontes-anticipees.md) | Préparer l'expression écrite de ses propres volontés funéraires | P3 | BASE-008, FUN-003 |
+| [FUN-010](03-nouveaux-domaines/suites/fun-010-monument-marbrerie.md) | Comparer les travaux d'un marbrier au devis et préparer une réclamation | P2 | BASE-008, FUN-002 |
+| [FUN-011](03-nouveaux-domaines/suites/fun-011-destination-cendres.md) | Préparer les questions et la demande sur la destination des cendres | P2 | BASE-008, FUN-003 |
+| [FUN-012](03-nouveaux-domaines/suites/fun-012-exhumation-transfert.md) | Préparer une demande d'exhumation ou de transfert d'un corps ou d'une urne | P3 | BASE-008, FUN-007 |
 
 </details>
 

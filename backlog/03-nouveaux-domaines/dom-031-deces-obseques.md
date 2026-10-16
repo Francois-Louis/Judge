@@ -1,7 +1,7 @@
 ---
 id: DOM-031
 titre: "Cadrer un plugin décès et prestations funéraires"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -42,12 +42,12 @@ Lire un devis funéraire et préparer les demandes d'explication avant engagemen
 
 ## Critères d'acceptation
 
-- [ ] Les tâches sont découpées en stories d'implémentation avec entrées, sortie, pièces, limites et scénarios.
-- [ ] Un utilisateur peut partir de son problème sans connaître le nom du code ou sa qualification juridique.
-- [ ] Le domaine garde ses références métier et son autonomie de paquetage ; les frontières ci-dessus évitent les doublons.
-- [ ] Le cadrage distingue signataire du contrat, personne habilitée à décider et personne éventuellement tenue au paiement ; aucune réponse unique n'est déduite du seul lien familial.
-- [ ] Le cadrage ne présume pas que l'autre partie a tort et ne promet pas un remboursement ou une issue favorable.
-- [ ] Les implémentations attendent le bilan PILOTE-003 ; aucune adaptation complète n'est lancée ici.
+- [x] Les tâches sont découpées en stories d'implémentation avec entrées, sortie, pièces, limites et scénarios.
+- [x] Un utilisateur peut partir de son problème sans connaître le nom du code ou sa qualification juridique.
+- [x] Le domaine garde ses références métier et son autonomie de paquetage ; les frontières ci-dessus évitent les doublons.
+- [x] Le cadrage distingue signataire du contrat, personne habilitée à décider et personne éventuellement tenue au paiement ; aucune réponse unique n'est déduite du seul lien familial.
+- [x] Le cadrage ne présume pas que l'autre partie a tort et ne promet pas un remboursement ou une issue favorable.
+- [x] Les implémentations attendent le bilan PILOTE-003 ; aucune adaptation complète n'est lancée ici.
 
 ## Scénarios de contrôle
 
@@ -61,3 +61,50 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+
+## Bilan d'exécution — 16 octobre 2026
+
+- [Découpage](dom-031-annexes/dom-031-decoupage-funeraire.md) : nom
+  `funeral-legal` conservé (`judge-fr-eu-funeral-legal`) ; installation
+  seule, sans profil, agent, hook, connecteur ni accès à l'état civil, à la
+  liste des opérateurs habilités ou à un registre de concessions ;
+  garde-fous (moment de deuil, trois qualités non confondues, volonté écrite,
+  rapportée ou supposée, aucune présomption contre l'autre partie, aucune
+  promesse d'issue, aucun délai, plafond, prix ni montant inventé, urgence
+  d'abord, aucun choix d'opérateur, collecte minimale) ; table des points
+  d'entrée en langage courant ; qualification commune ; frontières avec
+  successions, assurance, consommation, banque, protection sociale, santé,
+  protection des majeurs, pénal, contentieux, exécution, administratif,
+  famille, dettes, construction, animaux et données.
+- Section dédiée au signataire du contrat, à la personne habilitée à décider
+  et à la personne éventuellement tenue au paiement : chacune fondée par une
+  pièce ou un fait déclaré, ou « à établir », jamais par le seul lien
+  familial.
+- 12 propositions FUN-001 à FUN-012 sous `suites/`, en quatre rangs.
+  Première tranche : FUN-001, devis funéraire lu avant engagement, qui crée
+  le paquet avec ce seul skill. Facture et prestations non demandées,
+  désaccord entre proches, demande de paiement et carte des financements au
+  rang 2 ; contrat obsèques, concession, premières démarches, marbrerie et
+  destination des cendres au rang 3 ; volontés anticipées et exhumation ou
+  transfert au rang 4.
+- Cinq points ouverts sans story : décès ou sépulture hors de France, don
+  du corps, décès périnatal, saisine urgente du juge sur les funérailles,
+  contribution des proches aux frais sans actif successoral.
+- [Vérification documentaire](dom-031-annexes/dom-031-verification.md) :
+  les trois scénarios de la story et seize cas limites, sans délai, montant
+  ni droit conclu.
+- Ligne `funeral-legal` de la [matrice BASE-003](../00-fondations/base-003-annexes/base-003-dossier-architecture.md)
+  précisée ; famille FUN ajoutée au générateur de l'index et index régénéré.
+- [Contrôles statiques](dom-031-annexes/dom-031-resultats.json), produits par
+  [le contrôleur du lot](dom-031-annexes/dom-031-controles.py), sur le modèle de DOM-023.
+
+Fichiers du lot : présente story, découpage, vérification, contrôleur,
+relevé JSON, 12 propositions `suites/fun-*.md`, ligne de BASE-003,
+`backlog/etat.py` et `backlog/ETAT.md`. Le lot reste sous `backlog/`, sans
+entrée NOTICE.
+
+**Portée :** cadrage documentaire relu par l'agent de maintenance sur pièces
+fictives, avec contrôles statiques. Aucune source juridique lue : les
+articles cités sont des pistes. Aucun plugin créé, skill exécuté, paquet
+installé, lecteur réel ou indépendant. Le préalable PILOTE-003 est satisfait
+après BASE-011 ; aucune tranche n'est sélectionnée.

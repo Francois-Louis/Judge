@@ -52,6 +52,7 @@ FAMILLES = {
     "TPT": "Transports et voyages",
     "LOG": "Logement locatif et habitat",
     "VEH": "Véhicules, garages et réparations",
+    "FUN": "Décès et prestations funéraires",
     "LIV": "Livraison",
     "USAGE": "Usages quotidiens",
 }

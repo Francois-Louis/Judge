@@ -1,0 +1,388 @@
+{
+  "story": "DOM-031",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "f4a453bc12eb760e4f958ba91f6f0c3e0343f6b4",
+  "scope": "cadrage documentaire du domaine décès et prestations funéraires ; aucun plugin créé ni validation juridique",
+  "checks": {
+    "backlog_frontmatter_and_dependencies": {
+      "status": "passed",
+      "total": 564,
+      "statuses": {
+        "terminee": 41,
+        "en-cours": 1,
+        "proposee": 498,
+        "abandonnee": 23,
+        "a-verifier": 1
+      },
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 12,
+      "file_targets": 39,
+      "future_files": [
+        {
+          "path": "funeral-legal/.claude-plugin/plugin.json",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/README.md",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/CLAUDE.md",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/NOTICE",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/LICENSE",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/references/shared/research-citation-method.md",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/references/isolation.md",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/scripts/judge_store.py",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/references/company-profile-template.md",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/references/dashboard-template.md",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/references/qualification-funeraire.md",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/references/lecture-devis-funeraire.md",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/skills/funeral-quote-review/SKILL.md",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/skills/funeral-quote-review/references/demande-explication.md",
+          "owner": "FUN-001"
+        },
+        {
+          "path": "funeral-legal/skills/funeral-invoice-claim/SKILL.md",
+          "owner": "FUN-002"
+        },
+        {
+          "path": "funeral-legal/skills/funeral-invoice-claim/references/reclamation-facture.md",
+          "owner": "FUN-002"
+        },
+        {
+          "path": "funeral-legal/skills/funeral-decision-authority/SKILL.md",
+          "owner": "FUN-003"
+        },
+        {
+          "path": "funeral-legal/references/volonte-et-decision.md",
+          "owner": "FUN-003"
+        },
+        {
+          "path": "funeral-legal/skills/funeral-payment-demand/SKILL.md",
+          "owner": "FUN-004"
+        },
+        {
+          "path": "funeral-legal/skills/funeral-payment-demand/references/reponse-demande-paiement.md",
+          "owner": "FUN-004"
+        },
+        {
+          "path": "funeral-legal/skills/funeral-cost-funding/SKILL.md",
+          "owner": "FUN-005"
+        },
+        {
+          "path": "funeral-legal/references/prise-en-charge-frais.md",
+          "owner": "FUN-005"
+        },
+        {
+          "path": "funeral-legal/skills/prepaid-funeral-plan-review/SKILL.md",
+          "owner": "FUN-006"
+        },
+        {
+          "path": "funeral-legal/references/contrat-obseques.md",
+          "owner": "FUN-006"
+        },
+        {
+          "path": "funeral-legal/skills/burial-concession-review/SKILL.md",
+          "owner": "FUN-007"
+        },
+        {
+          "path": "funeral-legal/references/concession-funeraire.md",
+          "owner": "FUN-007"
+        },
+        {
+          "path": "funeral-legal/skills/after-death-first-steps/SKILL.md",
+          "owner": "FUN-008"
+        },
+        {
+          "path": "funeral-legal/references/premieres-demarches.md",
+          "owner": "FUN-008"
+        },
+        {
+          "path": "funeral-legal/skills/funeral-wishes-statement/SKILL.md",
+          "owner": "FUN-009"
+        },
+        {
+          "path": "funeral-legal/skills/funeral-wishes-statement/references/modele-volontes.md",
+          "owner": "FUN-009"
+        },
+        {
+          "path": "funeral-legal/skills/funeral-monument-works/SKILL.md",
+          "owner": "FUN-010"
+        },
+        {
+          "path": "funeral-legal/references/travaux-cimetiere.md",
+          "owner": "FUN-010"
+        },
+        {
+          "path": "funeral-legal/skills/cremation-ashes-decision/SKILL.md",
+          "owner": "FUN-011"
+        },
+        {
+          "path": "funeral-legal/references/destination-cendres.md",
+          "owner": "FUN-011"
+        },
+        {
+          "path": "funeral-legal/skills/exhumation-transfer-request/SKILL.md",
+          "owner": "FUN-012"
+        },
+        {
+          "path": "funeral-legal/references/exhumation-transfert.md",
+          "owner": "FUN-012"
+        }
+      ],
+      "problems": []
+    },
+    "breakdown_table_consistency": {
+      "status": "passed",
+      "rows": 12,
+      "problems": []
+    },
+    "story_scenarios_entry_points_and_roles": {
+      "status": "passed",
+      "entry_routes": 12,
+      "roles_kept_apart": true,
+      "legal_validation": false,
+      "business_scenarios_executed": false,
+      "problems": []
+    },
+    "no_plugin_created": {
+      "status": "passed",
+      "marketplace_plugins": 11,
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 16,
+      "local_links": 108,
+      "problems": []
+    },
+    "table_column_counts": {
+      "status": "passed",
+      "problems": []
+    },
+    "index_matrix_and_prerequisites": {
+      "status": "passed",
+      "problems": []
+    },
+    "figures_for_manual_review": {
+      "status": "manual-review",
+      "count": 0,
+      "occurrences": [],
+      "note": "Occurrences à relire : aucun délai, aucune durée de concession, aucun plafond ni montant ne doit être présenté comme une règle."
+    },
+    "scope_vs_task_baseline": {
+      "status": "passed",
+      "baseline_git_head": "89357089fb96ad33035a1fb3bfa470b818da6aca",
+      "lot_changes": [
+        "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md",
+        "backlog/03-nouveaux-domaines/dom-031-annexes/dom-031-controles.py",
+        "backlog/03-nouveaux-domaines/dom-031-annexes/dom-031-decoupage-funeraire.md",
+        "backlog/03-nouveaux-domaines/dom-031-annexes/dom-031-verification.md",
+        "backlog/03-nouveaux-domaines/dom-031-deces-obseques.md",
+        "backlog/03-nouveaux-domaines/suites/fun-001-devis-funeraire.md",
+        "backlog/03-nouveaux-domaines/suites/fun-002-facture-prestations.md",
+        "backlog/03-nouveaux-domaines/suites/fun-003-volonte-decision.md",
+        "backlog/03-nouveaux-domaines/suites/fun-004-demande-paiement.md",
+        "backlog/03-nouveaux-domaines/suites/fun-005-prise-en-charge-frais.md",
+        "backlog/03-nouveaux-domaines/suites/fun-006-contrat-obseques.md",
+        "backlog/03-nouveaux-domaines/suites/fun-007-concession.md",
+        "backlog/03-nouveaux-domaines/suites/fun-008-premieres-demarches.md",
+        "backlog/03-nouveaux-domaines/suites/fun-009-volontes-anticipees.md",
+        "backlog/03-nouveaux-domaines/suites/fun-010-monument-marbrerie.md",
+        "backlog/03-nouveaux-domaines/suites/fun-011-destination-cendres.md",
+        "backlog/03-nouveaux-domaines/suites/fun-012-exhumation-transfert.md",
+        "backlog/ETAT.md",
+        "backlog/etat.py"
+      ],
+      "concurrent_patterns": [
+        "backlog/02-plugins-existants/exist-003-*",
+        "backlog/03-nouveaux-domaines/dom-006*",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/*",
+        "backlog/03-nouveaux-domaines/dom-008*",
+        "backlog/03-nouveaux-domaines/dom-008-annexes/*",
+        "backlog/03-nouveaux-domaines/dom-01[5789]-*",
+        "backlog/03-nouveaux-domaines/dom-02[01]-*",
+        "backlog/03-nouveaux-domaines/sources/logement-*",
+        "backlog/03-nouveaux-domaines/suites/log-*",
+        "backlog/03-nouveaux-domaines/suites/tpt-*"
+      ],
+      "concurrent_changes": [
+        "backlog/02-plugins-existants/exist-003-donnees-personnelles.md",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-decoupage-logement.md",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-frictions-controles.py",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-frictions-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-frictions-utilisateurs.md",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-frictions-verification.md",
+        "backlog/03-nouveaux-domaines/dom-006-logement.md",
+        "backlog/03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py",
+        "backlog/03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md",
+        "backlog/03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md",
+        "backlog/03-nouveaux-domaines/dom-008-transports.md",
+        "backlog/03-nouveaux-domaines/dom-015-construction-travaux.md",
+        "backlog/03-nouveaux-domaines/dom-017-transactions-immobilieres.md",
+        "backlog/03-nouveaux-domaines/dom-018-copropriete.md",
+        "backlog/03-nouveaux-domaines/dom-019-urbanisme-foncier.md",
+        "backlog/03-nouveaux-domaines/dom-020-voisinage-servitudes.md",
+        "backlog/03-nouveaux-domaines/dom-021-energie-eau.md",
+        "backlog/03-nouveaux-domaines/sources/logement-frictions-2026-10-16.txt",
+        "backlog/03-nouveaux-domaines/suites/log-001-depot-garantie.md",
+        "backlog/03-nouveaux-domaines/suites/log-002-charges-locatives.md",
+        "backlog/03-nouveaux-domaines/suites/log-003-revue-bail.md",
+        "backlog/03-nouveaux-domaines/suites/log-004-reparations.md",
+        "backlog/03-nouveaux-domaines/suites/log-005-decence.md",
+        "backlog/03-nouveaux-domaines/suites/log-006-conge-bailleur-meuble.md",
+        "backlog/03-nouveaux-domaines/suites/log-007-conge-locataire.md",
+        "backlog/03-nouveaux-domaines/suites/log-008-arriere-locatif.md",
+        "backlog/03-nouveaux-domaines/suites/log-009-delais-clause-resolutoire.md",
+        "backlog/03-nouveaux-domaines/suites/log-010-demande-judiciaire-locative.md",
+        "backlog/03-nouveaux-domaines/suites/log-011-justificatifs-candidature.md",
+        "backlog/03-nouveaux-domaines/suites/log-012-etat-lieux-entree.md",
+        "backlog/03-nouveaux-domaines/suites/log-013-encadrement-loyer.md",
+        "backlog/03-nouveaux-domaines/suites/log-014-revision-loyer.md",
+        "backlog/03-nouveaux-domaines/suites/log-015-surface-habitable.md",
+        "backlog/03-nouveaux-domaines/suites/log-016-frais-agence.md",
+        "backlog/03-nouveaux-domaines/suites/log-017-conge-bailleur-vide.md",
+        "backlog/03-nouveaux-domaines/suites/log-018-solidarite-colocation.md",
+        "backlog/03-nouveaux-domaines/suites/log-019-acces-visites.md",
+        "backlog/03-nouveaux-domaines/suites/log-020-conge-locataire-meuble.md",
+        "backlog/03-nouveaux-domaines/suites/log-021-qualification-meuble.md",
+        "backlog/03-nouveaux-domaines/suites/log-022-forfait-charges-meuble.md",
+        "backlog/03-nouveaux-domaines/suites/log-023-restitution-tardive-depot.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-001-annulation-vol-direct.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-002-annulation-correspondance.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-003-retard-aerien.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-004-incident-ferroviaire.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-005-bagage-aerien.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-006-reclamation-forfait.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-007-relance-transporteur.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-008-incident-autocar.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-009-incident-maritime.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-010-orienter-fret.md"
+      ],
+      "preserved_files": 1066,
+      "report_excluded_from_own_comparison": true,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 87,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    }
+  },
+  "lot_sha256": {
+    "backlog/03-nouveaux-domaines/dom-031-deces-obseques.md": "84560cade8d9e72a4c5d5a2c7c80161d869bfeccedc0408bc4391092d0619657",
+    "backlog/03-nouveaux-domaines/dom-031-annexes/dom-031-decoupage-funeraire.md": "34bca8854b2a0a5605e9ebb7a21405229bccc7a11a29c4af9b6f7e6f4dee5119",
+    "backlog/03-nouveaux-domaines/dom-031-annexes/dom-031-verification.md": "e5883658795bc117e845caec9e452ba8007726e5bd34504bff860e1358879bb0",
+    "backlog/03-nouveaux-domaines/suites/fun-001-devis-funeraire.md": "55f01d14fb3781f6321297065247ae7c49c71793389dc7d95e16bd43b273d3ed",
+    "backlog/03-nouveaux-domaines/suites/fun-002-facture-prestations.md": "245e18c6cc9952b0c2fc32dee20779d4ae8ff050c7de06fbde025b1212fabbfc",
+    "backlog/03-nouveaux-domaines/suites/fun-003-volonte-decision.md": "b2665bd07c228f4bc70fc15a02c9282b3aed038ec08ac7b30a4dde87bfd1ef59",
+    "backlog/03-nouveaux-domaines/suites/fun-004-demande-paiement.md": "ce3853778f87b718894d54612bfac763743f2d17a926cdd56c5ac825f28da4ea",
+    "backlog/03-nouveaux-domaines/suites/fun-005-prise-en-charge-frais.md": "9731a30ff093dc57221af66d120acf8dcbe6d77f44b0d541764a41345a7d1385",
+    "backlog/03-nouveaux-domaines/suites/fun-006-contrat-obseques.md": "d79917b83ed29824c999f461fd0c173946d877738278457c76745154217bbdd6",
+    "backlog/03-nouveaux-domaines/suites/fun-007-concession.md": "5dfbeaf7c9d73c9f23a7fd765bf6e0b04151831a3ea70df526da9f5011020e27",
+    "backlog/03-nouveaux-domaines/suites/fun-008-premieres-demarches.md": "8c2d911193d4ae1af84e65ff38141366f0eaa4b2786ae59a02e7e810782ab4c2",
+    "backlog/03-nouveaux-domaines/suites/fun-009-volontes-anticipees.md": "6086e7a01437fa2598be96a37ceadc94298d1c9d09eb6193f380ac640ace5740",
+    "backlog/03-nouveaux-domaines/suites/fun-010-monument-marbrerie.md": "13f4be4e20b15b7c6d2f47e65ffbdfc5f43aeef75577f8deb0e031714ebde456",
+    "backlog/03-nouveaux-domaines/suites/fun-011-destination-cendres.md": "fa7d0d945ff3602884c365816a8370ffcf5c18ac87d6d4e78650cf181a2d7084",
+    "backlog/03-nouveaux-domaines/suites/fun-012-exhumation-transfert.md": "f900a0a0e076aea438be5c1ddcd2ed372bd62e6b9a1a4deada209859cdb637d2",
+    "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md": "b94eefd26412806af1c36e1e10a7527156a48d79100333dcda01456cc048acc1",
+    "backlog/etat.py": "e14fc4ad38ea331c4958b6743e9cbdd2600f083f4bffd8fd0fb803c57f288278",
+    "backlog/03-nouveaux-domaines/dom-031-annexes/dom-031-controles.py": "973ac298a46e1a8a1bc32a021d35cfa498acdbfc302bf785fc1e6297c45ea09f"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "calcul de délai, de durée de concession, de plafond ou de montant",
+    "création ou exécution de skill",
+    "installation/recette client",
+    "lecteur réel ou indépendant",
+    "connexion/envoi/publication"
+  ],
+  "commands": [
+    [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "backlog\\03-nouveaux-domaines\\dom-031-annexes\\dom-031-controles.py",
+      "--baseline",
+      "C:/Users/fltou/AppData/Local/Temp/claude/c--Users-fltou-Desktop-Judge/54bda6ec-9d1a-4d72-9327-f08640205f76/scratchpad/baseline.json",
+      "--output",
+      "backlog/03-nouveaux-domaines/dom-031-annexes/dom-031-resultats.json",
+      "--concurrent",
+      "backlog/02-plugins-existants/exist-003-*",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/dom-006*",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/dom-006-annexes/*",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/dom-008*",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/dom-008-annexes/*",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/dom-01[5789]-*",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/dom-02[01]-*",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/sources/logement-*",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/log-*",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/tpt-*"
+    ],
+    "python -X utf8 backlog/etat.py --check (appelé par le contrôleur)",
+    "python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)",
+    "git diff --check (appelé par le contrôleur)"
+  ],
+  "execution_notes": [
+    "Relevé produit dans le checkout principal, contre un instantané pris avant l'écriture du lot si --baseline est fourni.",
+    "Articles du CGCT, du Code civil, du Code de procédure civile, du Code monétaire et financier et du Code de la sécurité sociale cités comme pistes, non ouverts ; scénarios métier non exécutés.",
+    "Signataire, personne qui décide et personne tenue au paiement contrôlés comme qualités séparées ; aucune réponse déduite du seul lien familial."
+  ]
+}
