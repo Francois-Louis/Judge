@@ -24,7 +24,7 @@ reste dans BASE-003. Chaque domaine principal est retenu pour la tâche exprimé
 sous réserve des faits discriminants de la dernière colonne. Une question
 complémentaire ouvre une tâche distincte seulement si elle est utile.
 
-Chaque situation porte un identifiant stable, de `S-01` à `S-42`, à citer dans
+Chaque situation porte un identifiant stable, de `S-01` à `S-43`, à citer dans
 les stories. Une nouvelle situation reçoit le numéro suivant ; une situation
 retirée garde son numéro, qui n'est pas réattribué.
 
@@ -81,6 +81,7 @@ avant une revue documentaire ordinaire.
 | S-24 | Mon client professionnel ne paie pas ou conteste mon contrat. | Contrats professionnels B2B | [EXIST-001](02-plugins-existants/exist-001-contrats-commerciaux.md) | Préparer la revue du contrat et la demande de l'indépendant. | Client professionnel pour contrat courant ; client particulier/travaux : DOM-015 ou secteur B2C. Le statut professionnel du demandeur seul ne suffit pas ; acte d'exécution distinct : DOM-003. |
 | S-25 | Mon bail agricole ou un décompte de fermage pose problème. | Agriculture et rural | [DOM-014](03-nouveaux-domaines/dom-014-agriculture-rural.md) | Qualifier l'occupation, les pièces et les sommes à vérifier. | Bailleur/preneur ; caisse MSA → DOM-012, salarié agricole → travail privé, succession → DOM-016. |
 | S-26 | L'association ou le club m'exclut ou conserve une somme. | Associations | [DOM-032](03-nouveaux-domaines/dom-032-associations-adherents.md) | Distinguer statuts, décision, cotisation et service vendu. | Organe associatif ; service vendu → DOM-001 ou secteur, salarié → travail privé, accident → DOM-035 ou secteur. |
+| S-43 | L'URSSAF ou les impôts me réclament une somme pour mon auto-entreprise. | Micro-entreprise | [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) | Identifier l'organisme, la période, le stade et les pièces. | URSSAF/administration fiscale ; impôts du foyer → DOM-011, CAF → DOM-012, client → commercial ou consommation. Ajoutée le 16 octobre 2026. |
 
 ## Famille, santé et protection
 

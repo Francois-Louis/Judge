@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "judge-fr-eu",
-  "description": "Judge FR/UE — independent fork of Claude for Legal (Anthropic). Technical isolation 0.1.0; scoped French hiring pilot 0.2.0 under validation, other legal tasks not adapted.",
+  "description": "Judge FR/UE — independent fork of Claude for Legal (Anthropic). Technical isolation 0.1.0; French hiring pilot 0.2.1 client-tested on fixtures (LIV-001 lot); contract orientation COM-001 0.2.0 under validation; other inherited legal tasks not adapted.",
   "owner": {
     "name": "Judge FR/UE maintainers",
     "url": "https://github.com/Francois-Louis/Judge"
@@ -11,7 +11,7 @@
       "name": "judge-fr-eu-commercial-legal",
       "displayName": "Judge FR/UE — Commercial Legal",
       "source": "./commercial-legal",
-      "description": "Judge FR/UE 0.1.0: technical isolation; legal adaptation pending. Reviews vendor agreements, NDAs, and SaaS subscriptions against your sales-side or purchasing-side playbook, tracks renewals and cancel-by deadlines before they're missed, routes escalations to the right approver, and translates reviews into summaries business stakeholders will actually read.",
+      "description": "Judge FR/UE 0.2.0 : orientation contractuelle France/UE sans profil obligatoire (COM-001) ; domaine, rôle achat/vente, tâche, pièces et questions utiles. Revues, registres et agents hérités non adaptés ; aucune branche aval automatique. Validation client/utilisateur à compléter.",
       "author": {
         "name": "Anthropic"
       }
@@ -47,7 +47,7 @@
       "name": "judge-fr-eu-employment-legal",
       "displayName": "Judge FR/UE — Employment Legal",
       "source": "./employment-legal",
-      "description": "Judge FR/UE 0.2.0 : pilote hiring-review pour comprendre une offre ou un contrat salarié privé en France (CDI, contrôles CDD ciblés). Recette client et utilisateur à compléter ; autres tâches héritées non adaptées.",
+      "description": "Judge FR/UE 0.2.1 : pilote hiring-review pour comprendre une offre ou un contrat salarié privé en France (CDI, contrôles CDD ciblés). Recette client sur pièces fictives faite (BASE-011), lecteur non indépendant, nominal H01 non exécuté ; autres tâches héritées non adaptées.",
       "author": {
         "name": "Anthropic"
       }

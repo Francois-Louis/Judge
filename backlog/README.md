@@ -1,8 +1,11 @@
 # Backlog — adaptation juridique France / Union européenne
 
-Ce dossier organise le travail à venir. Le backlog contient 88 stories :
-BASE-001 à BASE-007, BASE-009 à BASE-012, PILOTE-001 à PILOTE-005 et USAGE-001 à USAGE-003 sont `terminee`,
-BASE-008 est `en-cours` ; les 68 autres sont `proposee`.
+Ce dossier organise le travail à venir. Le backlog contient 387 stories :
+BASE-001 à BASE-007, BASE-009 à BASE-012, PILOTE-001 à PILOTE-005,
+USAGE-001 à USAGE-003, EXIST-001 à EXIST-011, DOM-001 à DOM-005 et LIV-001 sont `terminee`,
+BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 349 autres sont `proposee`.
+Les [décisions du 16 octobre 2026](decisions-2026-10-16.md) consignent les
+arbitrages rendus après les cadrages DOM-001 à DOM-005 et la livraison LIV-001.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
 fait le bilan de l'epic 00 et de ses points ouverts.
 La [rétrospective du pilote travail](01-pilote-travail/retrospective-pilote-travail.md)
@@ -235,11 +238,122 @@ besoin. Les exemples ci-dessus n'annoncent pas des fonctionnalités déjà prés
 ## Adaptations à découper — P2
 
 Les suites du plugin travail sont détaillées dans le
-[découpage TRAV-001 à TRAV-017](01-pilote-travail/pilote-001-decoupage-travail.md).
+[découpage TRAV-001 à TRAV-018](01-pilote-travail/pilote-001-decoupage-travail.md).
 Chaque story a son fichier, ses dépendances et ses scénarios. Elles attendent
 la clôture de PILOTE-003 et une sélection explicite ; PILOTE-002 reste la seule
 tranche métier d'embauche réécrite. PILOTE-004 corrige son setup candidat,
 avec une recette client et utilisateur encore ouverte.
+
+Les suites commerciales sont proposées dans le
+[découpage COM-001 à COM-018](02-plugins-existants/exist-001-decoupage-commercial.md),
+avec [inventaire des 12 skills et dépendances](02-plugins-existants/exist-001-inventaire-commercial.md)
+et [vérification documentaire](02-plugins-existants/exist-001-verification.md).
+Le bilan PILOTE-003 est terminé après la recette BASE-011 du 16 octobre 2026 ;
+ce cadrage ne sélectionnait aucune tranche. Depuis, [COM-001](02-plugins-existants/suites/com-001-orientation-contrat.md)
+est réécrite : orientation sans profil, version commerciale 0.2.0,
+statut `a-verifier` (recette client/lecteur non exécutée). Les 17 autres COM
+restent `proposee`, sans déploiement du cookbook.
+
+Les suites sociétés et opérations sont proposées dans le
+[découpage SOC-001 à SOC-022](02-plugins-existants/exist-002-decoupage-societes.md),
+avec [inventaire des 13 skills et dépendances](02-plugins-existants/exist-002-inventaire-societes.md)
+et [relecture SAS, SARL et acquisition avec filiale étrangère](02-plugins-existants/exist-002-verification.md).
+Les décisions sociales, PV, formalités, diligences et suivi d'opération ont
+des résultats distincts. Les 22 SOC restent `proposee` ; aucune adaptation
+du plugin ni sélection d'extension ou déploiement du cookbook par EXIST-002.
+
+Les suites protection des données sont proposées dans le
+[découpage PRV-001 à PRV-021](02-plugins-existants/exist-003-decoupage-donnees.md),
+avec [inventaire des 23 fichiers et 9 skills](02-plugins-existants/exist-003-inventaire-donnees.md)
+et [relecture accès, sous-traitance et santé](02-plugins-existants/exist-003-verification.md).
+Exercice des droits, traitement, AIPD, sous-traitance, transferts et suivi sont
+séparés ; le particulier dispose d'une proposition propre de demande d'accès.
+Les 21 PRV restent `proposee` ; EXIST-003 ne modifie pas le plugin et ne
+sélectionne aucune extension. Le préalable PILOTE-003 est satisfait après BASE-011.
+
+Les suites produits et publicité sont proposées dans le
+[découpage PDT-001 à PDT-017](02-plugins-existants/exist-004-decoupage-produits.md),
+avec [inventaire des 23 fichiers, 7 skills, agent et cookbook](02-plugins-existants/exist-004-inventaire-produits.md)
+et [relecture lancement B2C France et campagne environnementale](02-plugins-existants/exist-004-verification.md).
+La première tranche proposée est une fiche de qualification ; lancement,
+évolution, publicité et question ponctuelle restent séparés. Les 17 PDT
+restent `proposee`, sans adaptation du plugin ni sélection d'extension,
+publication ou déploiement du radar. Le préalable PILOTE-003 est satisfait
+après BASE-011 ; ses limites documentées restent consignées.
+
+Les suites gouvernance IA sont proposées dans le
+[découpage IA-001 à IA-020](02-plugins-existants/exist-005-decoupage-ia.md),
+avec [inventaire des 23 fichiers et 10 skills](02-plugins-existants/exist-005-inventaire-ia.md)
+et [relecture outil RH, assistant interne et service public](02-plugins-existants/exist-005-verification.md).
+Inventaire factuel, qualification, obligations par rôle, évaluation interne,
+FRIA, contrats et politique sont séparés. Les 20 IA restent `proposee` ;
+EXIST-005 ne modifie pas le plugin, ne sélectionne aucune extension et ne
+valide ni catégorie définitive ni calendrier. Le préalable PILOTE-003 est
+satisfait après BASE-011 ; ses limites documentées restent consignées.
+
+Les suites contentieuses sont proposées dans le
+[découpage CTX-001 à CTX-024](02-plugins-existants/exist-006-decoupage-contentieux.md),
+avec [inventaire des 38 fichiers, 19 skills et cookbook associé](02-plugins-existants/exist-006-inventaire-contentieux.md)
+et [relecture mise en demeure, demande de pièces et convocation](02-plugins-existants/exist-006-verification.md).
+Mise en demeure, conservation/communication des preuves, écritures et suivi
+sont séparés ; aucune équivalence automatique subpoena/deposition/privilege
+log. Les 24 CTX restent `proposee`, sans adaptation, renommage, sélection
+d'extension ou déploiement. Le préalable PILOTE-003 est satisfait après
+BASE-011 ; les limites du pilote restent consignées.
+
+Les suites de veille sont proposées dans le
+[découpage VEI-001 à VEI-020](02-plugins-existants/exist-007-decoupage-veille.md),
+avec [inventaire des 26 fichiers, 9 skills et cookbook associé](02-plugins-existants/exist-007-inventaire-veille.md),
+[relecture JORF/directive/consultation](02-plugins-existants/exist-007-verification.md)
+et [sources déclarées et sondages techniques](02-plugins-existants/exist-007-sources.json).
+Collecte, qualification, modification, temporalité/transposition, écarts,
+politique et consultation ont des résultats distincts. Les vingt VEI restent
+`proposee` ; tâches manuelles avant agent et cookbook séparé, sans adaptation,
+connexion ou déploiement par EXIST-007. Préalable PILOTE-003 satisfait après
+BASE-011 ; limites du pilote conservées.
+
+Les suites de propriété intellectuelle sont proposées dans le
+[découpage PI-001 à PI-025](02-plugins-existants/exist-008-decoupage-pi.md),
+avec [inventaire des 27 fichiers et 12 skills](02-plugins-existants/exist-008-inventaire-pi.md)
+et [relecture marque France, invention de salarié et retrait de photo](02-plugins-existants/exist-008-verification.md).
+Titres/territoires, droit d'auteur, créations/inventions de salariés,
+cession/licence, OSS, retrait et portefeuille sont séparés. Les vingt-cinq PI
+restent `proposee` ; aucun défaut USPTO/DMCA/fair use transposé par simple
+traduction, aucune liberté d'exploitation complète depuis recherche partielle.
+Préalable PILOTE-003 satisfait après BASE-011, limites du pilote consignées ;
+aucune adaptation du plugin, sélection d'extension ou action externe ici.
+
+Les suites de clinique sont proposées dans le
+[découpage CLN-001 à CLN-023](02-plugins-existants/exist-009-decoupage-clinique.md),
+avec [inventaire des 36 fichiers et 16 skills](02-plugins-existants/exist-009-inventaire-clinique.md)
+et [relecture notification inconnue et accueil logement](02-plugins-existants/exist-009-verification.md).
+Cadre réel, accueil, recherche, rédaction supervisée, échéances et transmission
+sont séparés. Aucune bande CA/IL/fédérale chargée dans les futurs parcours
+français ; saisie incertaine sans calcul, qui valide et quoi explicités.
+Les vingt-trois CLN restent `proposee`, sans adaptation du plugin ni usage de
+données bénéficiaires. Préalable PILOTE-003 satisfait après BASE-011 ; limites
+du pilote consignées et aucune extension sélectionnée.
+
+Les suites de formation juridique sont proposées dans le
+[découpage ETU-001 à ETU-021](02-plugins-existants/exist-010-decoupage-formation.md),
+avec [inventaire des 26 fichiers et 13 skills](02-plugins-existants/exist-010-inventaire-formation.md)
+et [comparaison cas pratique/commentaire sur extrait français](02-plugins-existants/exist-010-verification.md).
+Méthode, retour sur brouillon, révisions et actualisation du droit sont séparés ;
+CRFPA à qualifier, sans équivalence MBE ni prédiction de sujet. Les vingt-et-une
+ETU restent `proposee`, sans adaptation du plugin ni nouvelle commande disponible.
+Préalable PILOTE-003 satisfait après BASE-011, limites du pilote consignées ;
+aucune extension sélectionnée par ce cadrage.
+
+Les suites de gestion des skills sont proposées dans le
+[découpage HUB-001 à HUB-020](02-plugins-existants/exist-011-decoupage-hub.md),
+avec [inventaire des 30 fichiers, 10 skills et un agent](02-plugins-existants/exist-011-inventaire-hub.md)
+et [vérification préservation locale et portée Californie](02-plugins-existants/exist-011-verification.md).
+La fixture filesystem du helper refuse l’update d’un skill personnalisé sans
+altérer fichiers ou journal ; la découverte US reste une relecture d’attendus.
+Défauts de confiance, verdicts QA et fraîcheur sont bornés dans vingt suites
+`proposee`, sans réécriture du plugin ou application automatique. Préalable
+PILOTE-003 satisfait après BASE-011, limites du pilote consignées ; aucune
+extension choisie, installation réelle ou notification externe.
 
 | Story | Résultat attendu | Nature | Priorité |
 |---|---|---|---|
@@ -248,14 +362,61 @@ avec une recette client et utilisateur encore ouverte.
 | [EXIST-003](02-plugins-existants/exist-003-donnees-personnelles.md) | Découper l'adaptation de la protection des données | cadrage | P2 |
 | [EXIST-004](02-plugins-existants/exist-004-produits-publicite.md) | Découper l'adaptation des produits et de la publicité | cadrage | P2 |
 | [EXIST-005](02-plugins-existants/exist-005-gouvernance-ia.md) | Découper l'adaptation de la gouvernance IA | cadrage | P2 |
-| [EXIST-006](02-plugins-existants/exist-006-contentieux.md) | Découper l'adaptation des workflows de contentieux | cadrage | P2 |
-| [EXIST-007](02-plugins-existants/exist-007-veille-reglementaire.md) | Découper l'adaptation de la veille réglementaire | cadrage | P2 |
-| [EXIST-008](02-plugins-existants/exist-008-propriete-intellectuelle.md) | Découper l'adaptation de la propriété intellectuelle | cadrage | P2 |
-| [EXIST-009](02-plugins-existants/exist-009-clinique-juridique.md) | Découper l'adaptation de la clinique juridique | cadrage | P2 |
-| [EXIST-010](02-plugins-existants/exist-010-formation-juridique.md) | Découper l'adaptation des méthodes et examens juridiques | cadrage | P2 |
-| [EXIST-011](02-plugins-existants/exist-011-gestion-des-skills.md) | Découper l'adaptation du hub et de ses mises à jour | cadrage | P2 |
+| [EXIST-006](02-plugins-existants/exist-006-contentieux.md) | Cadrage terminé : inventaire et 24 suites contentieuses proposées | cadrage | P2 |
+| [EXIST-007](02-plugins-existants/exist-007-veille-reglementaire.md) | Cadrage terminé : inventaire et 20 suites de veille proposées | cadrage | P2 |
+| [EXIST-008](02-plugins-existants/exist-008-propriete-intellectuelle.md) | Cadrage terminé : inventaire et 25 suites PI proposées | cadrage | P2 |
+| [EXIST-009](02-plugins-existants/exist-009-clinique-juridique.md) | Cadrage terminé : inventaire et 23 suites de clinique proposées | cadrage | P2 |
+| [EXIST-010](02-plugins-existants/exist-010-formation-juridique.md) | Cadrage terminé : inventaire et 21 suites de formation proposées | cadrage | P2 |
+| [EXIST-011](02-plugins-existants/exist-011-gestion-des-skills.md) | Cadrage terminé : inventaire et 20 suites du hub proposées | cadrage | P2 |
 
 ## Nouveaux domaines à cadrer — P2 / P3
+
+Le domaine consommation est cadré dans le
+[découpage CONSO-001 à CONSO-013](03-nouveaux-domaines/dom-001-decoupage-consommation.md),
+avec [relecture commande non livrée, produit défectueux et achat professionnel](03-nouveaux-domaines/dom-001-verification.md).
+Le plugin proposé reste `consumer-legal`, installable seul, sans profil,
+agent ni connecteur. Première tranche proposée : CONSO-001, réclamation pour
+une commande non livrée, qui crée le paquet avec ce seul skill. Les 14 CONSO
+restent `proposee` ; aucun répertoire de plugin n'est créé et aucune tranche
+n'est sélectionnée par DOM-001.
+
+Le domaine police et procédure pénale est cadré dans le
+[découpage CRIM-001 à CRIM-012](03-nouveaux-domaines/dom-002-decoupage-penal.md),
+avec [relecture convocation, garde à vue en cours et avis d'amende](03-nouveaux-domaines/dom-002-verification.md).
+Le plugin proposé reste `criminal-legal`, installable seul, sans profil ni
+stockage des faits pénaux. Ses garde-fous excluent tout conseil d'évitement
+de la justice et tout équivalent Miranda ou subpoena. Première tranche
+proposée : CRIM-001, lecture d'une convocation, qui crée le paquet avec ce
+seul skill. Les 17 CRIM restent `proposee` ; aucune tranche n'est
+sélectionnée par DOM-002.
+
+Le domaine exécution et recouvrement est cadré dans le
+[découpage ENF-001 à ENF-011](03-nouveaux-domaines/dom-003-decoupage-execution.md),
+avec [relecture relance de recouvrement, signification contestée et saisie sans ventilation](03-nouveaux-domaines/dom-003-verification.md).
+Le plugin proposé reste `enforcement-legal`, installable seul, sans profil ;
+il ne promet aucune suspension et laisse la dette d'origine à son domaine.
+Première tranche proposée : ENF-001, lecture d'un acte et repérage de
+l'urgence, qui crée le paquet avec ce seul skill. Les 13 ENF restent
+`proposee`, dont l'opposition à une injonction de payer (ENF-012) et la
+saisie immobilière (ENF-013) ajoutées le 16 octobre 2026.
+
+Le domaine bancaire est cadré dans le
+[découpage BNK-001 à BNK-011](03-nouveaux-domaines/dom-004-decoupage-banque.md),
+avec [relecture carte contestée, virement sous tromperie et frais professionnels](03-nouveaux-domaines/dom-004-verification.md).
+Le plugin proposé reste `banking-legal`, installable seul, sans profil ni
+accès à un compte ; le skill `payment-dispute` est confirmé. Première tranche
+proposée : BNK-001, qualification d'un paiement contesté et réclamation, qui
+crée le paquet avec ce seul skill. Les 12 BNK restent `proposee`, dont la
+caution (BNK-012) ; placements et actifs numériques en orientation seule.
+
+Le domaine assurance est cadré dans le
+[découpage INS-001 à INS-011](03-nouveaux-domaines/dom-005-decoupage-assurance.md),
+avec [relecture exclusion citée, conditions particulières manquantes et expertise contestée](03-nouveaux-domaines/dom-005-verification.md).
+Le plugin proposé reste `insurance-legal`, installable seul, sans profil ni
+accès à un espace client. Première tranche proposée : INS-001, analyse d'un
+refus de garantie, qui crée le paquet avec ce seul skill. Les 11 INS restent
+`proposee`. L'indemnisation des victimes d'accidents de la circulation est
+rattachée à DOM-035.
 
 | Story | Résultat attendu | Nature | Priorité |
 |---|---|---|---|
@@ -297,8 +458,18 @@ avec une recette client et utilisateur encore ouverte.
 | [DOM-036](03-nouveaux-domaines/dom-036-retraites.md) | Cadrer un plugin retraites et droits de carrière | cadrage | P2 |
 | [DOM-037](03-nouveaux-domaines/dom-037-fonction-publique.md) | Cadrer un plugin fonction publique et agents publics | cadrage | P2 |
 | [DOM-038](03-nouveaux-domaines/dom-038-violences-intrafamiliales.md) | Cadrer un plugin violences intrafamiliales et protection | cadrage | P2 |
+| [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) | Cadrer un plugin micro-entreprise et travail indépendant | cadrage | P2 |
 
 ## Livraison d'un lot vérifié
+
+[LIV-001](04-livraison/liv-001-livrer-lot-borne.md) a préparé le lot 001 :
+`judge-fr-eu-employment-legal` 0.2.1 seul, construit hors du checkout par
+`scripts/build-lot.py` et installé dans une configuration jetable
+([vérification](04-livraison/liv-001-verification.md),
+[notes de version](04-livraison/liv-001-notes-version.md)). Close le
+16 octobre 2026 par décision de l'utilisateur, sur la base de la recette
+BASE-011 ; l'invocation sur l'artefact 0.2.1 n'a pas été exécutée.
+Publication uniquement vers le dépôt `Francois-Louis/Judge`.
 
 | Story | Résultat attendu | Nature | Priorité |
 |---|---|---|---|

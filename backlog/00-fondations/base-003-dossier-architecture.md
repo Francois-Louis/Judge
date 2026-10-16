@@ -74,11 +74,11 @@ exacte sera vérifiée pour le régime choisi lors de l'implémentation.
 
 | Domaine / suivi | Plugin principal proposé | Tâche bornée → résultat candidat | Interlocuteur ; interaction explicite |
 |---|---|---|---|
-| Consommation — [DOM-001](../03-nouveaux-domaines/dom-001-consommation.md) | `consumer-legal` | Réclamation pour commande non livrée → pièces et brouillon au vendeur | Vendeur ; paiement → DOM-004, livraison due par l'opérateur postal → DOM-022. Les secteurs spécialisés gardent leurs litiges. |
-| Police et pénal — [DOM-002](../03-nouveaux-domaines/dom-002-police-penal.md) | `criminal-legal` | Lire une convocation → mesure, statut et points urgents à vérifier | Autorité émettrice/conseil pénal ; réparation civile distincte → DOM-035 ou secteur. |
-| Recouvrement et exécution — [DOM-003](../03-nouveaux-domaines/dom-003-commissaires-justice-execution.md) | `enforcement-legal` | Lire un acte de saisie → acte, dates prouvées, décompte et questions de contestation | Émetteur/commissaire de justice, conseil ou juridiction à identifier ; dette locative → DOM-006, crédit → DOM-004. |
-| Banque — [DOM-004](../03-nouveaux-domaines/dom-004-banque.md) | `banking-legal` | Qualifier un paiement contesté → réclamation documentée ; lire une offre de crédit → questions ciblées | Prestataire de paiement/prêteur ; garantie d'assurance → DOM-005, difficulté globale → DOM-024. |
-| Assurance — [DOM-005](../03-nouveaux-domaines/dom-005-assurance.md) | `insurance-legal` | Lire un refus de garantie → comparaison contrat/motifs/pièces | Assureur ; crédit → DOM-004, responsabilité du dommage → secteur ou DOM-035. |
+| Consommation — [DOM-001](../03-nouveaux-domaines/dom-001-consommation.md), [découpage](../03-nouveaux-domaines/dom-001-decoupage-consommation.md) | `consumer-legal`, nom conservé par le cadrage | Réclamation pour commande non livrée → pièces et brouillon au vendeur (CONSO-001) | Vendeur professionnel ; paiement/crédit → DOM-004, assurance vendue avec le bien → DOM-005, voyage → DOM-008, données → privacy, achat pour l'activité → commercial, envoi confié par l'usager → DOM-022, douane → DOM-009, vendeur particulier → tâche civile CONSO-011. Les secteurs spécialisés gardent leurs litiges. |
+| Police et pénal — [DOM-002](../03-nouveaux-domaines/dom-002-police-penal.md), [découpage](../03-nouveaux-domaines/dom-002-decoupage-penal.md) | `criminal-legal`, nom conservé par le cadrage | Lire une convocation → mesure, statut et points urgents à vérifier (CRIM-001) | Autorité émettrice/conseil pénal ; réparation civile distincte → DOM-035 ou secteur, parcours de protection → DOM-038, retenue pour le droit au séjour → DOM-028, retenue douanière → DOM-009, police administrative → DOM-010, saisie pour une amende → DOM-003, demande de pièces civile → litigation. |
+| Recouvrement et exécution — [DOM-003](../03-nouveaux-domaines/dom-003-commissaires-justice-execution.md), [découpage](../03-nouveaux-domaines/dom-003-decoupage-execution.md) | `enforcement-legal`, nom conservé par le cadrage | Lire un acte de recouvrement ou d'exécution → acte, dates, urgence et questions (ENF-001) ; décompte et saisie sur compte en suites | Émetteur/commissaire de justice, conseil ou juridiction à identifier ; dette locative → DOM-006, crédit et frais bancaires → DOM-004, situation globale → DOM-024, impôt/amende/indu au fond → DOM-011/DOM-002/DOM-012, procédure pour obtenir un titre → litigation. |
+| Banque — [DOM-004](../03-nouveaux-domaines/dom-004-banque.md), [découpage](../03-nouveaux-domaines/dom-004-decoupage-banque.md) | `banking-legal`, nom conservé par le cadrage | Qualifier un paiement contesté → réclamation documentée (BNK-001, `payment-dispute`) ; lire une offre de crédit → questions ciblées | Prestataire de paiement/prêteur ; garantie d'assurance → DOM-005, difficulté globale → DOM-024, litige avec le vendeur → DOM-001, saisie sur compte → DOM-003, plainte → DOM-002 ; placements orientés seulement. |
+| Assurance — [DOM-005](../03-nouveaux-domaines/dom-005-assurance.md), [découpage](../03-nouveaux-domaines/dom-005-decoupage-assurance.md) | `insurance-legal`, nom conservé par le cadrage | Lire un refus de garantie → comparaison contrat/motifs/pièces (INS-001) | Assureur, mutuelle ou institution de prévoyance ; crédit → DOM-004, responsabilité du dommage → secteur ou DOM-035, responsabilité des constructeurs → DOM-015, prestations de caisse → DOM-012, garantie commerciale d'un vendeur → DOM-001, succession → DOM-016. |
 | Logement locatif — [DOM-006](../03-nouveaux-domaines/dom-006-logement.md) | `housing-legal` | Examiner une retenue sur dépôt ou des charges locatives → décompte et justificatifs à demander | Bailleur/agence ; acte d'expulsion → DOM-003, charges du copropriétaire → DOM-018. |
 | Santé — [DOM-007](../03-nouveaux-domaines/dom-007-sante.md) | `health-legal` | Préparer un accès au dossier médical → demande pour une qualité et un régime bornés | Professionnel/établissement ; prestation de caisse → DOM-012, garantie privée → DOM-005. |
 | Transports et voyages — [DOM-008](../03-nouveaux-domaines/dom-008-transports.md) | `transport-legal` | Préparer une réclamation pour un incident et un mode choisis → pièces et demande | Transporteur/vendeur du voyage selon contrat ; assurance voyage → DOM-005. |
@@ -112,6 +112,7 @@ exacte sera vérifiée pour le régime choisi lors de l'implémentation.
 | Retraites — [DOM-036](../03-nouveaux-domaines/dom-036-retraites.md) | `pension-legal` | Préparer une correction de période de carrière → demande sur pièces pour un régime | Régime de retraite concerné ; litige employeur → employment ou DOM-037, autres prestations → DOM-012. |
 | Fonction publique — [DOM-037](../03-nouveaux-domaines/dom-037-fonction-publique.md) | `public-employment-legal` | Lire une décision individuelle de carrière/rémunération → motifs et questions pour un statut choisi | Employeur public/service RH ; emploi privé → employment, pension → DOM-036, caisse → DOM-012. |
 | Violences intrafamiliales — [DOM-038](../03-nouveaux-domaines/dom-038-violences-intrafamiliales.md) | `domestic-violence-legal` | Préparer un parcours de protection → canal sûr et pièces strictement utiles | Interlocuteur de protection adapté à la situation ; qualification pénale → DOM-002, séparation → DOM-013, logement → DOM-006, soins → DOM-007. |
+| Micro-entreprise — [DOM-039](../03-nouveaux-domaines/dom-039-micro-entreprise.md) | `self-employed-legal` | Lire un courrier de l'URSSAF → période, montants recopiés, stade et pièces | URSSAF/administration fiscale ; impôts du foyer → DOM-011, CAF → DOM-012, retraite → DOM-036, client professionnel → commercial, acte de saisie → DOM-003. |
 
 Les cadrages EXIST/DOM précisent ensuite les tâches supplémentaires et les
 stories d'implémentation. Leurs implémentations attendent le bilan PILOTE-003,
@@ -121,8 +122,8 @@ selon le [backlog](../README.md) ; BASE-003 ne change pas cette condition.
 
 | Croisement | Règle de propriété de la tâche et complément autorisé |
 |---|---|
-| Consommation / contrats / secteurs | Qualifier les parties et l'objet : contrat B2B courant → commercial ; achat de consommation sans secteur spécial → consumer ; rénovation, énergie, véhicule, voyage, etc. → secteur. Le secteur embarque les règles de consommation utiles à sa tâche, sans imposer l'installation de consumer. Une revue de CGV B2C reste candidate chez consumer. |
-| Banque / assurance | Opération de paiement, compte ou crédit → banking ; couverture ou refus de garantie, y compris assurance emprunteur → insurance. Un prêt et son assurance donnent deux questions, deux sorties et deux interlocuteurs. L'investissement demande un cadrage propre dans DOM-004 avant toute extension. |
+| Consommation / contrats / secteurs | Qualifier les parties et l'objet : contrat B2B courant → commercial ; achat de consommation sans secteur spécial → consumer ; rénovation, énergie, véhicule, voyage, etc. → secteur. Le secteur embarque les règles de consommation utiles à sa tâche, sans imposer l'installation de consumer. Tant que le plugin du secteur n'est pas disponible, consumer traite la demande avec les règles générales et signale les règles sectorielles non examinées (CONSO-014, décision du 16 octobre 2026) ; ensuite il oriente. Une revue de CGV B2C reste candidate chez consumer. |
+| Banque / assurance | Opération de paiement, compte ou crédit → banking ; couverture ou refus de garantie, y compris assurance emprunteur → insurance. Un prêt et son assurance donnent deux questions, deux sorties et deux interlocuteurs. L'investissement n'est pas traité par DOM-004, qui ne prévoit qu'une orientation (BNK-011) ; aucun cadrage dédié, par décision du 16 octobre 2026. |
 | Logement / exécution | Décompte du bail, dépôt et obligation du bailleur → housing ; lecture et contestation d'un acte d'exécution, saisie ou expulsion → enforcement. La présence d'un commissaire de justice ne suffit pas : qualifier l'acte. Le fond locatif reste chez housing ; l'urgence d'un acte est traitée d'abord. |
 | Pénal / contentieux | Mesure policière, convocation et procédure pénale → criminal ; chronologie, pièces et rédaction dans un contentieux civil/commercial identifié → litigation. Une même affaire peut donner un volet pénal et un volet civil distincts. Ni subpoena, ni deposition, ni privilège américains ne sont des équivalents présumés. |
 | Contentieux / domaines | Un désaccord ou un courrier de réclamation ne bascule pas automatiquement chez litigation. La contestation d'une saisie reste chez enforcement, le litige de travail chez employment ou public-employment. Une tâche générique de chronologie ou de préparation de pièces peut être confiée à litigation sur question bornée, sans lui transférer le raisonnement sectoriel. |
@@ -169,8 +170,8 @@ banking-legal/                         # nom proposé, DOM-004
         complaint-outline.md
 ```
 
-Le nom `payment-dispute` reste à confirmer par DOM-004 et sa story
-d'implémentation. Depuis ce `SKILL.md`, les références communes et bancaires
+Le nom `payment-dispute` est confirmé par DOM-004 pour BNK-001 ; les autres
+noms de cet exemple restent illustratifs. Depuis ce `SKILL.md`, les références communes et bancaires
 sont accessibles dans le paquet via `../../references/…`, et le modèle de
 réclamation via `references/complaint-outline.md`. Aucun `../../../references/`
 vers la racine du dépôt, lien symbolique externe ou téléchargement depuis le
@@ -236,7 +237,7 @@ ils ne valent ni installation isolée ni validation du comportement juridique.
 ## Couverture des situations du quotidien
 
 La [matrice des usages](../usages-quotidiens.md) est confrontée aux propriétaires
-ci-dessus : toutes ses entrées renvoient soit à un DOM-001 à DOM-038, soit au
+ci-dessus : toutes ses entrées renvoient soit à un DOM-001 à DOM-039, soit au
 travail privé, aux contrats B2B ou aux données personnelles. Chaque renvoi a
 donc un plugin principal et une tâche candidate ; aucune entrée n'exige un
 plugin généraliste. Les tâches additionnelles restent à prioriser, notamment

@@ -1,7 +1,7 @@
 ---
 id: EXIST-001
 titre: "Découper l'adaptation des contrats commerciaux"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -31,10 +31,10 @@ Conserver les workflows de revue, négociation et suivi en les replaçant dans l
 
 ## Critères d'acceptation
 
-- [ ] Un inventaire couvre tous les skills et dépendances de contenu de `commercial-legal`, pas seulement les points d'entrée ci-dessus.
-- [ ] Les tâches à conserver, réécrire, renommer ou retirer sont justifiées individuellement.
-- [ ] Le livrable est un ensemble de stories d'implémentation bornées, chacune avec fichiers, résultat attendu et scénarios.
-- [ ] Aucune réécriture complète du plugin n'est réalisée dans cette story ; ses implémentations attendent le bilan PILOTE-003.
+- [x] Un inventaire couvre tous les skills et dépendances de contenu de `commercial-legal`, pas seulement les points d'entrée ci-dessus.
+- [x] Les tâches à conserver, réécrire, renommer ou retirer sont justifiées individuellement.
+- [x] Le livrable est un ensemble de stories d'implémentation bornées, chacune avec fichiers, résultat attendu et scénarios.
+- [x] Aucune réécriture complète du plugin n'est réalisée dans cette story ; ses implémentations attendent le bilan PILOTE-003.
 
 ## Vérification
 
@@ -43,4 +43,38 @@ Préparer le découpage sur un contrat fournisseur français et un SaaS transfro
 ## Hors périmètre
 
 Implémenter tout le domaine, modifier des contenus éditeur ou considérer qu'une traduction de vocabulaire valide le raisonnement juridique.
+
+## Bilan d'exécution — 16 octobre 2026
+
+- [Inventaire complet](exist-001-inventaire-commercial.md) : 30 fichiers du
+  plugin, dont 12 skills, 3 agents, profil, références, schéma du registre et
+  métadonnées ; chaînes de contenu suivies jusqu'au cookbook de renouvellements
+  et aux données durables. Décision et justification par tâche, sans renommage
+  de commande ni retrait d'un skill entier.
+- [Découpage COM-001 à COM-018](exist-001-decoupage-commercial.md) : 18 stories
+  d'implémentation proposées avec fichiers, résultat, sources à rechercher,
+  exclusions, cas normal et limite. Revue, NDA, SaaS, avenants, enregistrement
+  d'échéance et rapport sont séparés, ainsi que journal/propositions/décisions
+  et chemin distant. Impayé B2B, frais contestés et préparation d'une rupture
+  reçoivent chacun une tâche pour indépendants, artisans et TPE.
+- [Vérification documentaire](exist-001-verification.md) : contrat fournisseur
+  français et SaaS transfrontalier fictifs, plus frontières/publics. Hypothèses
+  de loi, clauses, pièces, règles à rechercher et préférences de négociation
+  distinguées. Cette relecture n'est pas une exécution de skill.
+- [Contrôles statiques et empreintes](exist-001-resultats.json) : couverture,
+  liens, frontmatter et dépendances, copies communes, absence de modification
+  du plugin et du cookbook. Aucun contenu éditeur modifié.
+- Le bilan PILOTE-003 est `terminee` après BASE-011 le 16 octobre 2026 ; son
+  état et les limites restantes de PILOTE-002 sont repris dans le découpage.
+  Ce cadrage ne sélectionne aucune extension : les 18 COM restent `proposee`.
+
+Fichiers du lot : la présente story, inventaire, découpage, vérification,
+résultats JSON, les 18 propositions sous `suites/com-*.md` et l'index
+`backlog/README.md`. Tout reste sous `backlog/` ; aucune modification de NOTICE
+n'est requise selon les consignes du dépôt.
+
+**Limites :** aucune recherche juridique commerciale ni consultation de source
+externe dans ce lot ; les pistes seront vérifiées lors des implémentations.
+Aucun plugin commercial adapté, client ou scénario métier exécuté, participant
+réel, connecteur, envoi ou déploiement. La story clôt le cadrage uniquement.
 

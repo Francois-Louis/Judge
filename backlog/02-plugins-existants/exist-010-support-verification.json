@@ -1,0 +1,41 @@
+{
+  "story": "EXIST-010",
+  "purpose": "Support documentaire de comparaison de méthodes ; pas conclusion de droit applicable ni corrigé.",
+  "read_locally_on": "2026-10-16",
+  "network_lookup_this_story": false,
+  "source_family": "dila-xml",
+  "reference": "JURITEXT000054167571",
+  "title": "Cour de cassation, Chambre mixte, 29 mai 2026, 24-17.384, Publié au bulletin",
+  "ecli": "ECLI:FR:CCASS:2026:MI00299",
+  "decision_date": "2026-05-29",
+  "solution": "Cassation partielle",
+  "documentary_status": "non-verifie",
+  "applicability": "a-etablir",
+  "source_provenance": {
+    "source_url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260930-215413.tar.gz",
+    "retrieved_at": "2026-10-15T20:14:33.158393+00:00",
+    "archive_sha256": "3e9749126d2467ea380d12bae6ee7e58c8be7ac92c72e79e9030f57ac2c5024a",
+    "archive_member": "20260930-215413/juri/cass/global/JURI/TEXT/00/00/54/16/75/JURITEXT000054167571.xml",
+    "xml_sha256": "08d4ba930d687e63dc4e06e90971058bc7a3bf0d2d042a1647b3a705a0cec92e"
+  },
+  "extracts": [
+    {
+      "label": "visa",
+      "text": "Vu l'article 1240 du code civil :",
+      "sha256": "8d0a2c8627731ab8b181bb43b677286ddac8b1aa0dffae4a13cfd1a3fe83a718"
+    },
+    {
+      "label": "motif_28",
+      "text": "28. Il résulte de ce texte qu'ouvre droit à réparation le dommage en lien causal avec une faute, même si celle-ci n'en est pas la seule cause.",
+      "sha256": "29806dd18d5bb757f474b447202843381359a69a1cfc439339db80897ece3183"
+    }
+  ],
+  "local_source_at_read": "outputs/legal-source-probes/JURITEXT000054167571.json",
+  "coverage": "Visa et seul paragraphe 28 ; procédure, autres moyens/motifs et dispositif non reproduits. Insuffisant pour un commentaire complet.",
+  "limits": [
+    "Reproduction DILA téléchargée lors de BASE-010, lue localement ; pas de nouvelle consultation externe dans EXIST-010.",
+    "Identité et fidélité des extraits comparées à la reproduction XML locale ; ni actualité, ni portée juridique, ni applicabilité à un dossier réel établies.",
+    "Le cas pratique et les consignes pédagogiques sont fictifs ; ils ne sont pas des faits de cette décision.",
+    "Les contrôles ordinaires utilisent ce support embarqué ; le fichier outputs ignoré reste facultatif pour une comparaison supplémentaire."
+  ]
+}

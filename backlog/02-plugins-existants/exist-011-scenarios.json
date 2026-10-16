@@ -1,0 +1,46 @@
+{
+  "story": "EXIST-011",
+  "date": "2026-10-16",
+  "scope": "Fixtures fictives de relecture des spécifications ; aucune découverte ou QA de modèle exécutée.",
+  "discovery_fixture": {
+    "query": "Trouver une méthode de procédure civile pour un dossier en France",
+    "requested_jurisdiction": "FR",
+    "candidate": {
+      "name": "fixture-california-procedure",
+      "origin": "community",
+      "registry": "https://example.invalid/fixture-registry",
+      "source_commit": "cccccccccccccccccccccccccccccccccccccccc",
+      "declared_jurisdiction": "US-CA",
+      "source_body": "Méthode pédagogique fictive de procédure civile californienne uniquement. Les références annoncées sont américaines. Aucune méthode France/UE fournie.",
+      "technical_design_assumption": "Structure, attribution et périmètre lisibles ; aucune capacité dangereuse supposée dans cette fixture. Hypothèse documentaire, pas verdict de scanner.",
+      "url_is_fictitious_and_not_fetched": true
+    },
+    "expected_display": {
+      "origin": "Communautaire, distinct du fork et des contenus éditeur",
+      "jurisdiction": "US — Californie",
+      "fit_for_requested_scope": "Hors portée France demandée",
+      "legal_accuracy": "Non évaluée",
+      "security_scan": "Non exécuté",
+      "action": "Afficher la portée et proposer une recherche pertinente ; aucune installation ou exécution.",
+      "forbidden_inference": "Pas de READY global France, adaptation par traduction, transposition d’une procédure américaine ou conformité juridique déduite d’un bon format."
+    },
+    "reviewed_proposals": ["HUB-001", "HUB-004", "HUB-011", "HUB-020"]
+  },
+  "update_documentary_variants": [
+    {
+      "input": "Skill interne du fork adapté localement",
+      "expected": "Hors lifecycle communautaire ; modification seulement dans un lot du paquet concerné.",
+      "proposals": ["HUB-001", "HUB-014"]
+    },
+    {
+      "input": "Skill communautaire suivi avec édition locale après installation",
+      "expected": "Refus existant du helper, octets et journal préservés ; comparaison/réconciliation distincte, jamais adoption par falsification du journal.",
+      "proposals": ["HUB-014", "HUB-019"]
+    },
+    {
+      "input": "Plugin éditeur avec nouvelle version disponible",
+      "expected": "Aucune modification automatique depuis le hub ; origine et mécanisme produit distincts.",
+      "proposals": ["HUB-001", "HUB-014", "HUB-020"]
+    }
+  ]
+}

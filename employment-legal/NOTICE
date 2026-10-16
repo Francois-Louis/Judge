@@ -60,3 +60,11 @@ BASE-005 method unchanged. Client and participant validation pending.
   skills/cold-start-interview/SKILL.md
   skills/customize/SKILL.md
   skills/hiring-review/SKILL.md
+
+LIV-001 changes (2026-10-16): delivery of the bounded lot. Version 0.2.1;
+manifest, marketplace entry and README aligned with the BASE-011 client
+acceptance on fictitious documents (non-independent reader, nominal H01 not
+run). No skill instruction or legal reference changed.
+  .claude-plugin/plugin.json
+  NOTICE
+  README.md

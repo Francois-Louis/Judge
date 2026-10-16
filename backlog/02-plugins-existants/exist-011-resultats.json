@@ -1,0 +1,794 @@
+{
+  "story": "EXIST-011",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "scope": "cadrage et relecture documentaire et fixture filesystem en faux home ; aucun skill exécuté ou droit validé",
+  "checks": {
+    "frontmatter_and_dependencies": {
+      "status": "passed",
+      "stories": 376,
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 20,
+      "future_owners": {
+        "legal-builder-hub/references/candidate-identity.md": [
+          "HUB-001"
+        ],
+        "legal-builder-hub/references/trust-policy.md": [
+          "HUB-002"
+        ],
+        "legal-builder-hub/references/registry-catalog.md": [
+          "HUB-003"
+        ],
+        "legal-builder-hub/references/discovery-scope.md": [
+          "HUB-004"
+        ],
+        "legal-builder-hub/references/suggestions-context.md": [
+          "HUB-005"
+        ],
+        "legal-builder-hub/references/hub-profile.md": [
+          "HUB-006"
+        ],
+        "legal-builder-hub/references/candidate-review.md": [
+          "HUB-008"
+        ],
+        "legal-builder-hub/references/candidate-license.md": [
+          "HUB-009"
+        ],
+        "legal-builder-hub/references/qa-security-verdicts.md": [
+          "HUB-010"
+        ],
+        "legal-builder-hub/references/qa-fr-eu.md": [
+          "HUB-011"
+        ],
+        "legal-builder-hub/references/reference-currency.md": [
+          "HUB-012"
+        ],
+        "legal-builder-hub/references/install-reviewed.md": [
+          "HUB-013"
+        ],
+        "legal-builder-hub/references/local-update-review.md": [
+          "HUB-014"
+        ],
+        "legal-builder-hub/references/rollback-review.md": [
+          "HUB-015"
+        ],
+        "legal-builder-hub/references/activation-review.md": [
+          "HUB-016"
+        ],
+        "legal-builder-hub/references/uninstall-review.md": [
+          "HUB-017"
+        ],
+        "legal-builder-hub/references/registry-notifications.md": [
+          "HUB-018"
+        ],
+        "legal-builder-hub/references/hub-state-contract.md": [
+          "HUB-019"
+        ]
+      },
+      "problems": []
+    },
+    "inventory_exact_coverage": {
+      "status": "passed",
+      "package_files": 30,
+      "skills": 10,
+      "invocable": 9,
+      "agents": 1,
+      "cookbook_references": [],
+      "problems": []
+    },
+    "all_skills_have_future_targets": {
+      "status": "passed",
+      "problems": []
+    },
+    "all_agents_have_future_targets": {
+      "status": "passed",
+      "problems": []
+    },
+    "shared_copies": {
+      "status": "passed",
+      "identical": {
+        "references/shared/research-citation-method.md": true,
+        "references/isolation.md": true,
+        "references/company-profile-template.md": true,
+        "references/dashboard-template.md": true,
+        "scripts/judge_store.py": true
+      },
+      "method_version": "1.0.0",
+      "problems": []
+    },
+    "index_and_prerequisites": {
+      "status": "passed",
+      "problems": []
+    },
+    "inherited_yaml_findings_recorded": {
+      "status": "passed",
+      "observations": {
+        "references/allowlist-default.yaml": {
+          "keys": [
+            "<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15)",
+            "mode",
+            "registries",
+            "publishers",
+            "connectors",
+            "licenses"
+          ],
+          "html_pseudo_comment_keys": [
+            "<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15)"
+          ],
+          "registries": [
+            "https://github.com/legalopsconsulting/lpm-skills",
+            "https://github.com/lawvable/awesome-legal-skills",
+            "https://github.com/lawvable/agent-skills"
+          ],
+          "mode": "restrictive"
+        },
+        "skills/registry-browser/references/registries.yaml": {
+          "keys": [
+            "<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15)",
+            "registries"
+          ],
+          "html_pseudo_comment_keys": [
+            "<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15)"
+          ],
+          "registries": [
+            {
+              "name": "lpm-skills",
+              "url": "https://github.com/legalopsconsulting/lpm-skills",
+              "description": "14 legal project management skills. Practice-area agnostic. From LegalOps Consulting.",
+              "type": "github-repo",
+              "last_synced": null
+            }
+          ],
+          "mode": null
+        }
+      },
+      "scope": "Parseable YAML with extra key; observation only, not schema validation or repair",
+      "problems": []
+    },
+    "base009_existing_no_auto_statements": {
+      "status": "passed",
+      "scope": "Existing statements located, not runtime enforcement tested",
+      "problems": []
+    },
+    "recorded_filesystem_simulation": {
+      "status": "passed",
+      "helper_sha256": "dd35f30109d0409440c7de5127fc5e56f6745c4ee55790682c51fabeecdb85ce",
+      "checks": {
+        "customized_update_preserved": {
+          "status": "passed",
+          "exit_code": 1,
+          "message": "REFUSED: installation changed since review; preserve and compare local edits",
+          "installed_before": {
+            "SKILL.md": "3a4cb98f4248b285c8a481b1587a84cb7efa3d2245a152652053a26231c142d8",
+            "references/methode.md": "fb41dc0412d6aa05e5c43d1691a692d1dbb7806b831425a8eb05859493975c1e"
+          },
+          "installed_after": {
+            "SKILL.md": "3a4cb98f4248b285c8a481b1587a84cb7efa3d2245a152652053a26231c142d8",
+            "references/methode.md": "fb41dc0412d6aa05e5c43d1691a692d1dbb7806b831425a8eb05859493975c1e"
+          },
+          "journal_unchanged": true,
+          "candidate_unchanged": true,
+          "events": [
+            "install"
+          ],
+          "backup_created": false
+        },
+        "internal_identity_refused": {
+          "status": "passed",
+          "exit_code": 1,
+          "message": "REFUSED: expected an unprefixed community skill slug"
+        },
+        "filesystem_cli_requires_workflow_flag": {
+          "status": "passed",
+          "exit_code": 1,
+          "message": "REFUSED: complete trust review and explicit approval before filesystem stage",
+          "limit": "--approved is an attestation by the caller, not independent proof of human approval."
+        }
+      },
+      "scope": "Recorded offline fixture, not rerun by this documentary controller",
+      "problems": []
+    },
+    "documentary_discovery_fixture": {
+      "status": "passed",
+      "expected_display": {
+        "origin": "Communautaire, distinct du fork et des contenus éditeur",
+        "jurisdiction": "US — Californie",
+        "fit_for_requested_scope": "Hors portée France demandée",
+        "legal_accuracy": "Non évaluée",
+        "security_scan": "Non exécuté",
+        "action": "Afficher la portée et proposer une recherche pertinente ; aucune installation ou exécution.",
+        "forbidden_inference": "Pas de READY global France, adaptation par traduction, transposition d’une procédure américaine ou conformité juridique déduite d’un bon format."
+      },
+      "scope": "Specification fixture reviewed; no actual browser, model or legal QA execution",
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 25,
+      "local_links": 194,
+      "problems": []
+    },
+    "legacy_foreign_assumptions_located": {
+      "status": "passed",
+      "locations": {
+        "trust_modes": [
+          {
+            "path": "legal-builder-hub/README.md",
+            "lines": [
+              27,
+              78,
+              94
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/auto-updater/SKILL.md",
+            "lines": [
+              100,
+              101
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/cold-start-interview/SKILL.md",
+            "lines": [
+              72,
+              157,
+              165,
+              168,
+              171,
+              214
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skill-installer/references/allowlist.md",
+            "lines": [
+              23,
+              39,
+              45,
+              50,
+              51,
+              87,
+              96,
+              107,
+              112,
+              130,
+              137,
+              139,
+              141
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skill-installer/SKILL.md",
+            "lines": [
+              23,
+              53,
+              72,
+              78,
+              80,
+              108,
+              122,
+              137,
+              154,
+              156,
+              158,
+              160,
+              162,
+              208,
+              211,
+              243,
+              244,
+              475,
+              477,
+              503
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skills-qa/SKILL.md",
+            "lines": [
+              114,
+              222,
+              223,
+              224,
+              226
+            ]
+          }
+        ],
+        "qa_override": [
+          {
+            "path": "legal-builder-hub/CLAUDE.md",
+            "lines": [
+              53,
+              225,
+              227
+            ]
+          },
+          {
+            "path": "legal-builder-hub/README.md",
+            "lines": [
+              29
+            ]
+          },
+          {
+            "path": "legal-builder-hub/references/community-lifecycle.md",
+            "lines": [
+              40
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/auto-updater/SKILL.md",
+            "lines": [
+              107
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skill-installer/SKILL.md",
+            "lines": [
+              25,
+              174,
+              177,
+              186,
+              204,
+              270,
+              413
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skills-qa/SKILL.md",
+            "lines": [
+              103,
+              121,
+              123,
+              127,
+              143,
+              171,
+              602,
+              613,
+              694
+            ]
+          }
+        ],
+        "pinning": [
+          {
+            "path": "legal-builder-hub/CLAUDE.md",
+            "lines": [
+              100,
+              102,
+              198,
+              218,
+              220,
+              236,
+              237,
+              240,
+              261,
+              266
+            ]
+          },
+          {
+            "path": "legal-builder-hub/README.md",
+            "lines": [
+              32
+            ]
+          },
+          {
+            "path": "legal-builder-hub/references/community-lifecycle.md",
+            "lines": [
+              19,
+              21,
+              28,
+              29,
+              30,
+              69
+            ]
+          },
+          {
+            "path": "legal-builder-hub/references/isolation.md",
+            "lines": [
+              63
+            ]
+          },
+          {
+            "path": "legal-builder-hub/references/shared/research-citation-method.md",
+            "lines": [
+              225
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/auto-updater/SKILL.md",
+            "lines": [
+              8,
+              36,
+              44,
+              111,
+              123,
+              134,
+              137,
+              139,
+              148,
+              173,
+              183
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/customize/SKILL.md",
+            "lines": [
+              41,
+              80
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skill-installer/references/freshness.md",
+            "lines": [
+              27,
+              79,
+              83
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skill-installer/SKILL.md",
+            "lines": [
+              24,
+              227,
+              427,
+              485
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skills-qa/SKILL.md",
+            "lines": [
+              475,
+              477
+            ]
+          }
+        ],
+        "notifications": [
+          {
+            "path": "legal-builder-hub/agents/registry-sync.md",
+            "lines": [
+              6,
+              23,
+              25
+            ]
+          },
+          {
+            "path": "legal-builder-hub/README.md",
+            "lines": [
+              68,
+              70,
+              74
+            ]
+          },
+          {
+            "path": "legal-builder-hub/references/isolation.md",
+            "lines": [
+              6
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/customize/SKILL.md",
+            "lines": [
+              50
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/related-skills-surfacer/SKILL.md",
+            "lines": [
+              8,
+              32
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skill-manager/SKILL.md",
+            "lines": [
+              102
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skills-qa/SKILL.md",
+            "lines": [
+              77,
+              203
+            ]
+          }
+        ],
+        "journal": [
+          {
+            "path": "legal-builder-hub/references/community-lifecycle.md",
+            "lines": [
+              28,
+              29,
+              39,
+              40,
+              42,
+              45,
+              59
+            ]
+          },
+          {
+            "path": "legal-builder-hub/references/dashboard-template.md",
+            "lines": [
+              9,
+              11
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/auto-updater/SKILL.md",
+            "lines": [
+              158
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/disable/SKILL.md",
+            "lines": [
+              31
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skill-installer/references/allowlist.md",
+            "lines": [
+              74,
+              126,
+              131
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skill-installer/SKILL.md",
+            "lines": [
+              29,
+              51,
+              90,
+              228,
+              234,
+              236,
+              237,
+              240,
+              249,
+              403,
+              430,
+              431,
+              447,
+              452
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skill-manager/SKILL.md",
+            "lines": [
+              24,
+              32,
+              54,
+              115
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/uninstall/SKILL.md",
+            "lines": [
+              25,
+              33
+            ]
+          }
+        ],
+        "jurisdiction": [
+          {
+            "path": "legal-builder-hub/CLAUDE.md",
+            "lines": [
+              55,
+              98,
+              109,
+              113,
+              192,
+              193,
+              210,
+              212,
+              214,
+              215,
+              216,
+              218,
+              219,
+              220,
+              221
+            ]
+          },
+          {
+            "path": "legal-builder-hub/references/company-profile-template.md",
+            "lines": [
+              16,
+              17
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/cold-start-interview/SKILL.md",
+            "lines": [
+              47,
+              50,
+              96,
+              107,
+              133,
+              210,
+              298
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/customize/SKILL.md",
+            "lines": [
+              41,
+              79,
+              84
+            ]
+          },
+          {
+            "path": "legal-builder-hub/skills/skills-qa/SKILL.md",
+            "lines": [
+              360,
+              411,
+              520,
+              546,
+              682
+            ]
+          }
+        ]
+      },
+      "problems": []
+    },
+    "scope_vs_task_baseline": {
+      "status": "observed-concurrent-changes",
+      "baseline_sha256": "77e77e9ca1da143d2531b66a194f3e2d16ff4c901753d1d227e44e2749e660e9",
+      "lot_changed_files": [
+        "backlog/02-plugins-existants/exist-011-controles.py",
+        "backlog/02-plugins-existants/exist-011-decoupage-hub.md",
+        "backlog/02-plugins-existants/exist-011-gestion-des-skills.md",
+        "backlog/02-plugins-existants/exist-011-inventaire-hub.md",
+        "backlog/02-plugins-existants/exist-011-scenarios.json",
+        "backlog/02-plugins-existants/exist-011-simulation-resultats.json",
+        "backlog/02-plugins-existants/exist-011-simulation.py",
+        "backlog/02-plugins-existants/exist-011-verification.md",
+        "backlog/02-plugins-existants/suites/hub-001-identite-provenance.md",
+        "backlog/02-plugins-existants/suites/hub-002-politique-confiance.md",
+        "backlog/02-plugins-existants/suites/hub-003-registres-cache.md",
+        "backlog/02-plugins-existants/suites/hub-004-decouverte-portee.md",
+        "backlog/02-plugins-existants/suites/hub-005-suggestions-contextuelles.md",
+        "backlog/02-plugins-existants/suites/hub-006-profil-hub.md",
+        "backlog/02-plugins-existants/suites/hub-007-personnaliser-preferences.md",
+        "backlog/02-plugins-existants/suites/hub-008-preparer-candidat.md",
+        "backlog/02-plugins-existants/suites/hub-009-licence-provenance.md",
+        "backlog/02-plugins-existants/suites/hub-010-qa-securite.md",
+        "backlog/02-plugins-existants/suites/hub-011-qa-pertinence-fr-ue.md",
+        "backlog/02-plugins-existants/suites/hub-012-fraicheur-references.md",
+        "backlog/02-plugins-existants/suites/hub-013-installer-candidat-revu.md",
+        "backlog/02-plugins-existants/suites/hub-014-mise-a-jour-personnalisee.md",
+        "backlog/02-plugins-existants/suites/hub-015-restaurer-version.md",
+        "backlog/02-plugins-existants/suites/hub-016-desactiver-reactiver.md",
+        "backlog/02-plugins-existants/suites/hub-017-desinstaller-skill-suivi.md",
+        "backlog/02-plugins-existants/suites/hub-018-sync-notifications.md",
+        "backlog/02-plugins-existants/suites/hub-019-journal-projections.md",
+        "backlog/02-plugins-existants/suites/hub-020-documentation-capacites.md",
+        "backlog/README.md"
+      ],
+      "other_changed_files": [
+        ".claude-plugin/marketplace.json",
+        "NOTICE",
+        "README.md",
+        "backlog/04-livraison/liv-001-livrer-lot-borne.md",
+        "backlog/04-livraison/liv-001-notes-version.md",
+        "backlog/04-livraison/liv-001-resultats.json",
+        "backlog/04-livraison/liv-001-verification.md",
+        "backlog/04-livraison/liv-001-verifier-lot.py",
+        "employment-legal/.claude-plugin/plugin.json",
+        "employment-legal/NOTICE",
+        "employment-legal/README.md",
+        "scripts/build-lot.py",
+        "scripts/test-base008-isolation.py"
+      ],
+      "note": "Other differences observed during this task are not attributed to EXIST-011; no claim of an unchanged entire workspace.",
+      "preserved_files": 887
+    },
+    "protected_inputs_unchanged": {
+      "status": "passed",
+      "files_checked": 307,
+      "scope": "Hub package and prior EXIST stories/suites; unrelated concurrent changes reported separately",
+      "package_preserved": true,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 84,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [
+        "  ✓ diligence-grid           orchestrator tool scope clean",
+        "  ✓ docket-watcher           orchestrator tool scope clean",
+        "  ✓ launch-radar             orchestrator tool scope clean",
+        "  ✓ reg-monitor              orchestrator tool scope clean",
+        "  ✓ renewal-watcher          orchestrator tool scope clean"
+      ],
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [],
+      "problems": []
+    }
+  },
+  "package_sha256": {
+    "legal-builder-hub/.claude-plugin/plugin.json": "acf66b3cdbc5d3f060e786a3d6baf66ebfaa19ae62bb0df7725e5bc4bd5f690c",
+    "legal-builder-hub/.gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+    "legal-builder-hub/.mcp.json": "d29b7276bf1f80bcb19ac043e6fde480bac8223785443889e1f4c90c9674a351",
+    "legal-builder-hub/agents/registry-sync.md": "0c970ed12cd2aa1c7c2db719bbeb4211e484567bee519941b62604eea8ef2888",
+    "legal-builder-hub/CLAUDE.md": "637b631eabebb8d0c21ffaacb7688bee56033d626649e2980c359854001750df",
+    "legal-builder-hub/hooks/hooks.json": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+    "legal-builder-hub/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "legal-builder-hub/NOTICE": "85bd0affac87f429840f1b29fa8797a5a71e387327fd05adbf484f080444a595",
+    "legal-builder-hub/README.md": "7a4293be120d74e66bae9b08c63f48f1abb24f76a9af5c11cf2d199e641946e0",
+    "legal-builder-hub/references/allowlist-default.yaml": "8ccc9eac9c2d4d2f4a3848c2131b58285ab91c44019bf0e1d56ffa1273eb83b3",
+    "legal-builder-hub/references/community-lifecycle.md": "4ceb20a46b6863a0cf103ffe0baeb95ec0c28859b0a1ab468a777a8c796e4333",
+    "legal-builder-hub/references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "legal-builder-hub/references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "legal-builder-hub/references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "legal-builder-hub/references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "legal-builder-hub/scripts/community_store.py": "dd35f30109d0409440c7de5127fc5e56f6745c4ee55790682c51fabeecdb85ce",
+    "legal-builder-hub/scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "legal-builder-hub/skills/auto-updater/SKILL.md": "e622e92d6493b129ed869150d55ebab6e6bb74aed7e4acc506672e8e29aaa757",
+    "legal-builder-hub/skills/cold-start-interview/SKILL.md": "2603c109e3b0cd2f16d7028f834c3f4013d1677f5b1bc6fbba98a274bddad04d",
+    "legal-builder-hub/skills/customize/SKILL.md": "cce696020ffa8d17806c4333ed16f7bf40028df51b8c7b6d74feaf9e38d431b0",
+    "legal-builder-hub/skills/disable/SKILL.md": "55bcfbdca3b9714dffc41d6b4013b7340f169a6b17094f8d30f4be45ae9128f8",
+    "legal-builder-hub/skills/registry-browser/references/registries.yaml": "aca87d38062c37a0457017077bf650a7c38f396dc706de6413743f34c63cdaf6",
+    "legal-builder-hub/skills/registry-browser/SKILL.md": "bc711cc4c9b30727741d7f73ce44232dafa9182f0e105fc2b86f72c67822ad84",
+    "legal-builder-hub/skills/related-skills-surfacer/SKILL.md": "5119319eb7f806c2aec1ecef85442ecce461e0c2940e43616f576d722315d5c6",
+    "legal-builder-hub/skills/skill-installer/references/allowlist.md": "14432fae4444cde036780a39d13a4d1d47a19420e6dc6bf3626045dee9c0e08b",
+    "legal-builder-hub/skills/skill-installer/references/freshness.md": "e6af50d7c6881115a14d19e1b7820e4212ededb5f4a4efe07d7119ca1b4222cb",
+    "legal-builder-hub/skills/skill-installer/SKILL.md": "2333672069dea9d45d92190510d850ce62a307029e03c5fa8f810e8424816856",
+    "legal-builder-hub/skills/skill-manager/SKILL.md": "d0cef8d404f7cef16b5207d738f7b64f17ae3fd890637a8a194220c84ab6ba23",
+    "legal-builder-hub/skills/skills-qa/SKILL.md": "d21ffa5c689b37a6f700958f36fe611f96e930ba6f647f132fdbb660e020d3ad",
+    "legal-builder-hub/skills/uninstall/SKILL.md": "7e9193f6ae9e286bc0229cddf51d776f2563fe8d3d7192c03c13a82c6a36aef2"
+  },
+  "lot_sha256": {
+    "backlog/02-plugins-existants/exist-011-gestion-des-skills.md": "2b9b9f1e0296e719d73acd1113989ca4fb7b5b458836f8dfe52f64372dbf3c35",
+    "backlog/02-plugins-existants/exist-011-inventaire-hub.md": "f9b9c246be58bc78eb7c27b11d651150f815bc1643e3930e62647f4c06ce8950",
+    "backlog/02-plugins-existants/exist-011-decoupage-hub.md": "db147b9d191bf96b8116fe55fed25a533094f02c133f80875a14868ab928de96",
+    "backlog/02-plugins-existants/exist-011-verification.md": "e7b1a0037f2f22b7f350ab6d0d39890ffe563a5d3d07217647f18c6dbf9306c8",
+    "backlog/02-plugins-existants/suites/hub-001-identite-provenance.md": "e3fac81128bfceee5b7b5207a1c74340bbc421bf8b5e643d01bfaf588f6e5a1e",
+    "backlog/02-plugins-existants/suites/hub-002-politique-confiance.md": "9e1e57fabbd7ef11c87cba083cb8a1797bd933e0759ee3c32a8c942e6202b5ec",
+    "backlog/02-plugins-existants/suites/hub-003-registres-cache.md": "5276882e0e3e11aef2fadccae95733226e352ba754ff29c23ed46e18b879cae6",
+    "backlog/02-plugins-existants/suites/hub-004-decouverte-portee.md": "3da887b60023681e42ea9848d7d1135407017ac02d015b02098ef8f0ce710ee7",
+    "backlog/02-plugins-existants/suites/hub-005-suggestions-contextuelles.md": "9a34ec259759b3a656e944cfd48780cc6e5d7a408d7c44faff7c9d8d26e168f6",
+    "backlog/02-plugins-existants/suites/hub-006-profil-hub.md": "8a727df6a3a570ee5f2f7b3fb063f1cc68aeb2d112e2a81f01ec6fb4910f74ef",
+    "backlog/02-plugins-existants/suites/hub-007-personnaliser-preferences.md": "5975579d92e4fed2d51bb2190507493f33d23e80300e4cc5b5b3b5af000cb5b3",
+    "backlog/02-plugins-existants/suites/hub-008-preparer-candidat.md": "1e505165001730c6cd4ea4023a39242641aa404e41e73a3f22c8e3c165ed11d3",
+    "backlog/02-plugins-existants/suites/hub-009-licence-provenance.md": "0f615006104506dc6792454db1b01b69fd77fed54eb43f6f13acb8c7dd316d48",
+    "backlog/02-plugins-existants/suites/hub-010-qa-securite.md": "1d983c791f58441fa08968f159b407ab2b225158edee2bac47c1bc46f0b027c4",
+    "backlog/02-plugins-existants/suites/hub-011-qa-pertinence-fr-ue.md": "046bd01fde13a744d5291f27d5e1c0ad9e47b5aa4152d7e27ca166671f231c1c",
+    "backlog/02-plugins-existants/suites/hub-012-fraicheur-references.md": "6fd14c9ff5f235a47d2d3d382582d88c65bd29d7d7bca0b7737ebe971411f6da",
+    "backlog/02-plugins-existants/suites/hub-013-installer-candidat-revu.md": "2f63472e6daaac947418b1dbf353ababb53e82005b314739357871ab101b016e",
+    "backlog/02-plugins-existants/suites/hub-014-mise-a-jour-personnalisee.md": "6ca5afe44b55f9a938e76e8e6829939c80cccb63b2162697967f9e54e9fdec60",
+    "backlog/02-plugins-existants/suites/hub-015-restaurer-version.md": "ec2c91ae0523b8ef598119f2505cf8a797153906475c1cd3d51398ef7d780fbd",
+    "backlog/02-plugins-existants/suites/hub-016-desactiver-reactiver.md": "edc107193f5ba13ca832aaf435aad93043609ff853ebe57838c0814d6619fe5c",
+    "backlog/02-plugins-existants/suites/hub-017-desinstaller-skill-suivi.md": "a0e5f255d1d132e7865854206779ffd9859e3fc286a82626399ed260f39e3723",
+    "backlog/02-plugins-existants/suites/hub-018-sync-notifications.md": "f0d48afefa865df235ed410ef874b3b24b8ed9d2a1dedb9c0faedb434d61c213",
+    "backlog/02-plugins-existants/suites/hub-019-journal-projections.md": "f6f4e8e2b2afbfec7f537072ce1d636946e3b43a34505ad9a217eb072b689776",
+    "backlog/02-plugins-existants/suites/hub-020-documentation-capacites.md": "c8456d3034e39f251653b67449aa4f2f3f6be463b5c0a17f91bd8b846724991a",
+    "backlog/README.md": "3696a3df1f3401a90860c00c4059beb836d5a900cbf20bd5a60a8af4d06351db",
+    "backlog/02-plugins-existants/exist-011-simulation.py": "f447bd5c48e1b4e7db486c9af6748c481932da98b9d817fe19d354c75e8aaeb2",
+    "backlog/02-plugins-existants/exist-011-simulation-resultats.json": "6a621b13eb89caae6e890d55c92bc3e78b3a0ba45559f3f0111a6cddf3493201",
+    "backlog/02-plugins-existants/exist-011-scenarios.json": "47709f9c0a4f988087eb9dd37bd53803484ebf873ee44d3ca89612a585887b2b",
+    "backlog/02-plugins-existants/exist-011-controles.py": "bed0267dce068214f113320a5f2b1254eec9f82dea166d8a0437972d2597a713"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "acte/délai réel",
+    "exécution de skill",
+    "installation/recette client",
+    "lecteur indépendant",
+    "connexion authentifiée/envoi/dépôt/paiement/publication/déploiement"
+  ],
+  "command": "python -X utf8 backlog/02-plugins-existants/exist-011-controles.py --baseline <instantane-debut-tache.json> --output backlog/02-plugins-existants/exist-011-resultats.json",
+  "notes": [
+    "Les différences git préexistantes ne sont pas des changements EXIST-011 ; voir comparaison à l’instantané de début de tâche.",
+    "Aucune validation de schéma plugin/client : aucun fichier de paquet modifié.",
+    "Contradictions héritées repérées localement ; simulation du helper hors ligne ; aucune règle produit actuelle ou juridique validée."
+  ]
+}

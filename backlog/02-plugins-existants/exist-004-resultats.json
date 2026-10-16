@@ -1,0 +1,239 @@
+{
+  "story": "EXIST-004",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "scope": "cadrage documentaire produits/publicite ; aucune adaptation de plugin",
+  "checks": {
+    "story_frontmatter_and_dependencies": {
+      "status": "passed",
+      "total": 165,
+      "statuses": {
+        "terminee": 23,
+        "en-cours": 1,
+        "proposee": 141
+      },
+      "duplicates": [],
+      "invalid": [],
+      "missing_dependencies": [],
+      "cycles": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 17,
+      "problems": [],
+      "file_targets": 50,
+      "future_files": [
+        {
+          "owner": "PDT-001",
+          "path": "product-legal/references/qualification-lancement.md"
+        },
+        {
+          "owner": "PDT-003",
+          "path": "product-legal/references/evolution-fonctionnalite.md"
+        },
+        {
+          "owner": "PDT-004",
+          "path": "product-legal/references/risque-produit.md"
+        },
+        {
+          "owner": "PDT-005",
+          "path": "product-legal/references/inventaire-allegations.md"
+        },
+        {
+          "owner": "PDT-006",
+          "path": "product-legal/references/allegation-factuelle.md"
+        },
+        {
+          "owner": "PDT-007",
+          "path": "product-legal/references/allegation-environnementale.md"
+        },
+        {
+          "owner": "PDT-008",
+          "path": "product-legal/references/publicite-comparative.md"
+        },
+        {
+          "owner": "PDT-009",
+          "path": "product-legal/references/avis-influence.md"
+        },
+        {
+          "owner": "PDT-010",
+          "path": "product-legal/references/role-service-numerique.md"
+        },
+        {
+          "owner": "PDT-011",
+          "path": "product-legal/references/dossier-securite-produit.md"
+        },
+        {
+          "owner": "PDT-012",
+          "path": "product-legal/references/question-produit.md"
+        },
+        {
+          "owner": "PDT-014",
+          "path": "product-legal/references/dossier-produit.md"
+        },
+        {
+          "owner": "PDT-015",
+          "path": "product-legal/references/radar-lancements.md"
+        }
+      ]
+    },
+    "inventory_exact_coverage": {
+      "status": "passed",
+      "package_files": 23,
+      "skills": 7,
+      "agents": 1,
+      "cookbook_files": 6,
+      "missing": []
+    },
+    "shared_copies": {
+      "status": "passed",
+      "method_version": "1.0.0",
+      "identical": {
+        "references/shared/research-citation-method.md": true,
+        "references/isolation.md": true,
+        "references/company-profile-template.md": true,
+        "references/dashboard-template.md": true,
+        "scripts/judge_store.py": true
+      }
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 22,
+      "local_links": 165,
+      "broken_links": [],
+      "format_errors": []
+    },
+    "backlog_index": {
+      "status": "passed",
+      "baseline_stories": 148,
+      "added_proposals": 17,
+      "new_total": 165,
+      "statuses": {
+        "terminee": 23,
+        "en-cours": 1,
+        "proposee": 141
+      }
+    },
+    "scope_backlog_only": {
+      "status": "passed",
+      "changed": [
+        "backlog/02-plugins-existants/exist-004-produits-publicite.md",
+        "backlog/README.md"
+      ],
+      "added": [
+        "backlog/02-plugins-existants/exist-004-decoupage-produits.md",
+        "backlog/02-plugins-existants/exist-004-inventaire-produits.md",
+        "backlog/02-plugins-existants/exist-004-resultats.json",
+        "backlog/02-plugins-existants/exist-004-verification.md",
+        "backlog/02-plugins-existants/suites/pdt-001-qualifier-lancement.md",
+        "backlog/02-plugins-existants/suites/pdt-002-preparer-lancement-b2c.md",
+        "backlog/02-plugins-existants/suites/pdt-003-evolution-fonctionnalite.md",
+        "backlog/02-plugins-existants/suites/pdt-004-analyser-risque-produit.md",
+        "backlog/02-plugins-existants/suites/pdt-005-inventorier-allegations.md",
+        "backlog/02-plugins-existants/suites/pdt-006-allegations-factuelles.md",
+        "backlog/02-plugins-existants/suites/pdt-007-allegation-environnementale.md",
+        "backlog/02-plugins-existants/suites/pdt-008-publicite-comparative.md",
+        "backlog/02-plugins-existants/suites/pdt-009-avis-influence.md",
+        "backlog/02-plugins-existants/suites/pdt-010-role-service-numerique.md",
+        "backlog/02-plugins-existants/suites/pdt-011-dossier-securite-produit.md",
+        "backlog/02-plugins-existants/suites/pdt-012-question-ponctuelle.md",
+        "backlog/02-plugins-existants/suites/pdt-013-preferences-produits.md",
+        "backlog/02-plugins-existants/suites/pdt-014-dossier-produit.md",
+        "backlog/02-plugins-existants/suites/pdt-015-radar-lancements.md",
+        "backlog/02-plugins-existants/suites/pdt-016-cookbook-radar.md",
+        "backlog/02-plugins-existants/suites/pdt-017-checklist-actualite.md"
+      ],
+      "unexpected": [],
+      "preexisting_changes_preserved": true,
+      "comparison": "SHA-256 of every preexisting workspace file outside .git compared to the temporary start-of-task baseline; only EXIST-004 documents, PDT proposals and backlog/README.md allowed to differ"
+    },
+    "package_cookbook_vendor_unchanged": {
+      "status": "passed",
+      "command": "git diff --exit-code HEAD -- product-legal managed-agent-cookbooks external_plugins",
+      "exit_code": 0,
+      "output": ""
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "command": "git diff --check",
+      "exit_code": 0,
+      "output": ""
+    },
+    "json_yaml_sanity": {
+      "status": "passed",
+      "json_files": 64,
+      "yaml_files": 29,
+      "errors": []
+    }
+  },
+  "package_sha256": {
+    "product-legal/.claude-plugin/plugin.json": "9f1dea3dea4e52f7357e959cdec7dbd02912f43903249e8da9e9a37c3a355a0e",
+    "product-legal/.gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+    "product-legal/.mcp.json": "dcd0203050a9d5c8db3e82b3ed2735566dbfe7f7c7538101fceaca5510b739af",
+    "product-legal/agents/launch-watcher.md": "f5b1048673c0dbecf2675db17059ed5b9c382e949528278789d433a9843a0424",
+    "product-legal/CLAUDE.md": "00574d2d8dd7dbe72d60d42a45e7b0caa9cc191c61318affaf2928ed636c01b7",
+    "product-legal/hooks/hooks.json": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+    "product-legal/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "product-legal/NOTICE": "5c7d809975034aaf2cf10371f8862ee15f1aeee221ff0e69297cbc58eb8c0e73",
+    "product-legal/README.md": "e81a77f9607fc6c4e6953a2e8cc9b7d871eec6ba3b06fd61419e159353ef2d4c",
+    "product-legal/references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "product-legal/references/currency-watch.md": "f9dcdfd57e89767c0949b70550de089087ad90dc13b301a275012d59fac1bd95",
+    "product-legal/references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "product-legal/references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "product-legal/references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "product-legal/scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "product-legal/skills/cold-start-interview/SKILL.md": "a0d56710018518e77a739370200918fc8b49ca51d8fa32166e84936db8e9a768",
+    "product-legal/skills/customize/SKILL.md": "6a5c67e41953b1178522208d548e9e8d5e8a86cfd90e77ea799305e19d2678e5",
+    "product-legal/skills/feature-risk-assessment/SKILL.md": "948a79b19318dc9e101fdce7e92a4bf60d4955f5f35a361116839259c8c17fd1",
+    "product-legal/skills/is-this-a-problem/SKILL.md": "b5fc177a733df6e39bee83855a66e5e93d0471b53cb1fdbce833acea6d14bb2b",
+    "product-legal/skills/launch-review/references/seven-category-framework.md": "365602abff590d1dbda03ca08e25a230c158e32ad97edc829c66fb2294dfe41a",
+    "product-legal/skills/launch-review/SKILL.md": "f7ee04241cdc77155830bbe13d58ea2831f39707bfae7c68f58255503870efe9",
+    "product-legal/skills/marketing-claims-review/SKILL.md": "8a093c48c3044216c9a37d3718943c563e06373f545f316d36648708d3dba355",
+    "product-legal/skills/matter-workspace/SKILL.md": "134936e0c6d04116067a6c8cb8f8fc235ad8c60285cd3ee4eadd61b3867a124d"
+  },
+  "cookbook_sha256": {
+    "managed-agent-cookbooks/launch-radar/agent.yaml": "492548031ed181b3cc4a2980378260eb046bfa67e73827f572011086d98a7163",
+    "managed-agent-cookbooks/launch-radar/README.md": "5afaaaaa93774c2515c770c900127bbe500799ea33c3cc1665962e1bb8bbceba",
+    "managed-agent-cookbooks/launch-radar/steering-examples.json": "5c54ea65b9eb99706525b1ad1825c0c0eb083bf93772278157a491baf30b1cca",
+    "managed-agent-cookbooks/launch-radar/subagents/memo-writer.yaml": "f3134661924da27ca69423525f77eaf5481133be7210b8255ca116041c8cdfac",
+    "managed-agent-cookbooks/launch-radar/subagents/risk-classifier.yaml": "27207566b2af78871dab4cb6c12292797d8d4f144615f3f925c3fd997acdce9b",
+    "managed-agent-cookbooks/launch-radar/subagents/tracker-reader.yaml": "77a1d0ef669bdde449f4706bbed00eef8abda1ccc87fffd1e2e6aaa99636aa0a"
+  },
+  "deliverable_markdown_sha256": {
+    "backlog/02-plugins-existants/exist-004-decoupage-produits.md": "c55cbe227b2dbfccf3b9f94c75748afaac1e573ed6dfd0da086af1d163ed7bb4",
+    "backlog/02-plugins-existants/exist-004-inventaire-produits.md": "e441e3877ebe1e282ba576f821029612532ec2770f3bd7594a94594c023ed5a5",
+    "backlog/02-plugins-existants/exist-004-produits-publicite.md": "ebfbef295691f5ea300e6234eb312c03d13d667d2b1e994cb9b731a05930d02c",
+    "backlog/02-plugins-existants/exist-004-verification.md": "a51ffcdb5aff3f8add7991e5689844fcadd0bac394b2cff89b2cf57199182d86",
+    "backlog/02-plugins-existants/suites/pdt-001-qualifier-lancement.md": "69130d23032bf9dcc3dc4bc9b74367854890bcc381b27c5c52d2992196225372",
+    "backlog/02-plugins-existants/suites/pdt-002-preparer-lancement-b2c.md": "15fa3a54b19624e210c954ac5c5581fee63f7f4917912af308c0f38c63504655",
+    "backlog/02-plugins-existants/suites/pdt-003-evolution-fonctionnalite.md": "83c86296213784a080637b20b8dde10b84c66c520b98606584aa33cf457f6e70",
+    "backlog/02-plugins-existants/suites/pdt-004-analyser-risque-produit.md": "db8f79e94359873485477041dc9e978b3d4f7a6522e42664b2aee3fc3657d192",
+    "backlog/02-plugins-existants/suites/pdt-005-inventorier-allegations.md": "70bfde6e968bad99b903ff8d82a327862c819a64f8438742641a4193d46c6f57",
+    "backlog/02-plugins-existants/suites/pdt-006-allegations-factuelles.md": "71db24dac5935623f82f5b1ea74ef5f9e1717f4fa076a649dbf65e4cd9515f1c",
+    "backlog/02-plugins-existants/suites/pdt-007-allegation-environnementale.md": "c83cdf23d2c0fb67cc9b4e59aea63bcb40cc5bc732526f3eb3b7aed501f6f708",
+    "backlog/02-plugins-existants/suites/pdt-008-publicite-comparative.md": "cbe82b73d47ff5a07d960bd7b57262f8867f28dbb49b6a2e96e065ae2cf558a3",
+    "backlog/02-plugins-existants/suites/pdt-009-avis-influence.md": "939d8b57342b36d94b8f71ee5408fce13f4db955fdf6b578f9981d057f3a5183",
+    "backlog/02-plugins-existants/suites/pdt-010-role-service-numerique.md": "c95193a02868c309f00b9af4163bd379fb8ae3211f5f1195ef57cfdf539c8768",
+    "backlog/02-plugins-existants/suites/pdt-011-dossier-securite-produit.md": "549dbfe337f23008846e2e519344f0d6c15291a60fc0c96fed3dfcfc8fc1515d",
+    "backlog/02-plugins-existants/suites/pdt-012-question-ponctuelle.md": "1611d380b5c898dacbe4e638da782ff5120d1b6b0845fea4f00a08c0f50aafeb",
+    "backlog/02-plugins-existants/suites/pdt-013-preferences-produits.md": "7088214d62714dcf7ce29ed5f6c32360e5895c1e41f86f0700d397cf986db302",
+    "backlog/02-plugins-existants/suites/pdt-014-dossier-produit.md": "3879764d993ef6ddc6705ca7f2dc22cf7d47e50868c1361255b93baf6ec0b072",
+    "backlog/02-plugins-existants/suites/pdt-015-radar-lancements.md": "a80f8e8adcb0bc78b6854fcf81f0459033898613b68671f5c3ae2555e963910f",
+    "backlog/02-plugins-existants/suites/pdt-016-cookbook-radar.md": "a3da1f3e7b9a9adc65037670a4958e2f3f68fd0155d29a8fbf4a236abc0bd265",
+    "backlog/02-plugins-existants/suites/pdt-017-checklist-actualite.md": "110a4cafdbe3b3e36f145b82c2cf500c28761556fbb3cfa3a858e7c95050b729",
+    "backlog/README.md": "ec4c18f34f0130b60d5e48f578931eefb7cee7e95a7b398d0270f417c8164b78"
+  },
+  "verification": {
+    "method": "relecture documentaire par le redacteur des dossiers fictifs L (lancement B2C France), E (campagne environnementale) et limites complementaires",
+    "legal_sources_consulted": [],
+    "legal_deadlines_calculated": false,
+    "compliance_conclusion": false,
+    "skill_execution": false,
+    "package_installation": false,
+    "live_client": false,
+    "independent_or_real_reader": false,
+    "external_actions": false
+  },
+  "reproduction": "Python/PyYAML : parser les frontmatters de backlog/**/*.md ; unicite, champs, dependances et absence de cycles ; compter 17 suites PDT proposees avec fichiers existants ou explicitement futurs, entrees/resultat/criteres/scenarios ; comparer les chemins du paquet (23) et du cookbook (6) a l'inventaire, les cinq copies communes, les empreintes Markdown et les liens relatifs. Recompter les statuts et l'index. Parser tous les JSON/YAML hors .git. git diff --exit-code HEAD -- product-legal managed-agent-cookbooks external_plugins ; git diff --check. L'instantane integral de debut de tache est temporaire ; les empreintes paquet/cookbook/livrables sont conservees ici. Le script ad hoc de controle reste temporaire et n'est pas une dependance du depot."
+}

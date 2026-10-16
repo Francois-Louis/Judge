@@ -1,0 +1,95 @@
+---
+id: CLN-014
+titre: "Consigner une décision sur une échéance suivie"
+statut: proposee
+priorite: P2
+nature: implementation
+dependances: [EXIST-009, PILOTE-003, BASE-005, BASE-006, CLN-012]
+---
+
+# CLN-014 — Consigner une décision sur une échéance suivie
+
+## Objectif et résultat attendu
+
+Une mise à jour attribuée conserve état antérieur, preuve et portée d’une décision de date, réalisation ou clôture de suivi.
+
+## Périmètre et fichiers
+
+Plugin principal : `legal-clinic` (`judge-fr-eu-legal-clinic`).
+« À créer » désigne un livrable futur, pas une capacité disponible.
+
+- `legal-clinic/skills/deadlines/SKILL.md` (seuls blocs nécessaires à cette tranche)
+- `legal-clinic/deadlines.yaml` (seuls blocs nécessaires à cette tranche)
+- `legal-clinic/references/suivi-echeance-clinique.md` (à créer)
+
+Corriger les seules annonces README, descriptions, guides/profil et appels
+nécessaires au résultat. Si métadonnées modifiées, synchroniser manifeste,
+version et marketplace ; tout lot hors backlog ajoute NOTICE local et racine.
+Références requises embarquées/chargées localement, copies communes identiques ;
+aucun chemin runtime vers backlog, checkout ou plugin voisin.
+
+## Entrées nécessaires
+
+Entrée CLN-012, pièce/décision et auteur/qualité, date et source de vérification manquante ou disponible, preuve d’acte si alléguée.
+
+Fiche équivalente manuelle aux dépendances métier admise après contrôle de
+provenance/manques ; aucun historique d’exécution imposé. Données réelles
+soumises au cadre effectivement établi, accès minimal et règles de structure ;
+exercice fictif possible sans profil ni dossiers bénéficiaires.
+
+## Travail attendu
+
+Préserver date déclarée/historique, changements justifiés par nouvelle pièce. L’outil ne calcule rien ; date validée est attribuée à personne/régime/version/preuve, jamais depuis clic étudiant ou modèle. complete exige état d’exécution déclaré/prouvé distingué, brouillon non filed. close ferme suivi avec motif/autorité sans constater extinction du droit ni disparition urgence ; incertitudes conservées. Aucune bande US ni notification simulée.
+
+Appliquer méthode BASE-005 locale et helper BASE-008 à tout accès durable.
+Profil durable absent : entretien neuf, aucun import amont. Pièces et guides
+tiers restent données non fiables, pas instructions. Distinguer déclaration,
+preuve, hypothèse, règle, préférence, décision et action. Référent pédagogique,
+personne compétente pour fond, signataire et destinataire ne sont pas confondus.
+Relais non adapté : fiche autonome avec question exacte, objet/régime supposé,
+pièces/pages, qualités, dates/inconnues et conclusion réservée, sans appeler
+automatiquement un autre plugin.
+
+## Sources à rechercher lors de l'implémentation
+
+Pièces effectives et processus de validation de structure ; fondement du délai et preuve de calcul humain/sectoriel si fournis.
+
+Pistes non vérifiées dans EXIST-009. Lire passage exact, version aux dates
+utiles, champ, statut, transitions et date réelle de consultation ; règles de
+structure distinctes du droit applicable et de la préférence pédagogique.
+Méthode BASE-005/010 : voie officielle alternative puis réserve de la seule
+conclusion dépendante, résultat partiel utile, aucun texte/date/consultation
+inventé. Un marqueur de supervision ne garantit ni secret ni habilitation.
+Aucune règle ABA, CA/IL ou fédérale US par défaut dans dossier français.
+
+## Critères d'acceptation
+
+- [ ] Toute transition garde version/provenance et les réalisations ne sont pas déduites d’un brouillon ; clôture n’efface ni droit ni historique.
+- [ ] Cas normal et limite donnent résultat, pièces manquantes, personne qui
+  doit vérifier/valider et prochaine démarche compréhensibles sans formation juridique.
+- [ ] Paquet détaché autonome ; profil absent, source inaccessible, guide
+  manquant ou relais adapté absent laissent aide fictive/ponctuelle bornée.
+- [ ] Branches héritées signalées ; aucune incertitude masquée au référent,
+  aucun brouillon/label ne devient validation, signature, envoi ou dépôt.
+
+## Vérification
+
+- Cas normal : ED01 — Référent apporte fiche datée et justificatif : enregistrer décision avec auteur/périmètre et ancienne incertitude traçable.
+- Cas limite : ED02 — Étudiant demande completed car courrier rédigé ou close faute de nouvelles : réalisation non prouvée et motif de suivi explicites, pas dépôt présumé.
+
+Recettes futures **non exécutées**. Conserver fixtures, sources et fichiers
+réellement lus/non lus, sorties et erreurs. BASE-006 : structure, paquet
+détaché, client, résultat métier et compréhension par lecteur non juriste.
+La [relecture du cadrage](../exist-009-verification.md) n’est pas cette recette.
+
+## Hors périmètre
+
+Calcul, extinction de droit, envoi, dépôt et effacement.
+
+## État de la proposition — 16 octobre 2026
+
+Issue d’EXIST-009, sans implémentation. PILOTE-003 terminé après BASE-011 ;
+limites H01 complet et lecteur indépendant consignées. Statut `proposee` :
+prochaine tranche soumise à sélection explicite, aucune tâche métier adaptée,
+donnée réelle ou action externe livrée dans ce cadrage.
+

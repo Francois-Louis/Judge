@@ -1,0 +1,276 @@
+{
+  "story": "DOM-005",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "scope": "cadrage documentaire assurance ; aucun plugin créé ni validation juridique",
+  "checks": {
+    "backlog_frontmatter_and_dependencies": {
+      "status": "passed",
+      "total": 335,
+      "statuses": {
+        "terminee": 33,
+        "en-cours": 1,
+        "proposee": 300,
+        "a-verifier": 1
+      },
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 11,
+      "file_targets": 37,
+      "future_files": [
+        {
+          "path": "insurance-legal/.claude-plugin/plugin.json",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/README.md",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/CLAUDE.md",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/NOTICE",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/LICENSE",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/references/shared/research-citation-method.md",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/references/isolation.md",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/scripts/judge_store.py",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/references/company-profile-template.md",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/references/dashboard-template.md",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/references/qualification-assurance.md",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/references/motifs-refus.md",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/skills/claim-denial-review/SKILL.md",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/skills/claim-denial-review/references/demande-reexamen.md",
+          "owner": "INS-001"
+        },
+        {
+          "path": "insurance-legal/skills/claim-declaration/SKILL.md",
+          "owner": "INS-002"
+        },
+        {
+          "path": "insurance-legal/references/declaration.md",
+          "owner": "INS-002"
+        },
+        {
+          "path": "insurance-legal/skills/expert-assessment-dispute/SKILL.md",
+          "owner": "INS-003"
+        },
+        {
+          "path": "insurance-legal/references/expertise.md",
+          "owner": "INS-003"
+        },
+        {
+          "path": "insurance-legal/skills/coverage-review/SKILL.md",
+          "owner": "INS-004"
+        },
+        {
+          "path": "insurance-legal/references/lecture-garantie.md",
+          "owner": "INS-004"
+        },
+        {
+          "path": "insurance-legal/skills/insurance-mediation/SKILL.md",
+          "owner": "INS-005"
+        },
+        {
+          "path": "insurance-legal/references/mediation-assurance.md",
+          "owner": "INS-005"
+        },
+        {
+          "path": "insurance-legal/skills/policy-termination/SKILL.md",
+          "owner": "INS-006"
+        },
+        {
+          "path": "insurance-legal/references/resiliation.md",
+          "owner": "INS-006"
+        },
+        {
+          "path": "insurance-legal/skills/legal-expenses-cover/SKILL.md",
+          "owner": "INS-007"
+        },
+        {
+          "path": "insurance-legal/references/protection-juridique.md",
+          "owner": "INS-007"
+        },
+        {
+          "path": "insurance-legal/skills/borrower-insurance/SKILL.md",
+          "owner": "INS-008"
+        },
+        {
+          "path": "insurance-legal/references/assurance-emprunteur.md",
+          "owner": "INS-008"
+        },
+        {
+          "path": "insurance-legal/skills/health-cover-claim/SKILL.md",
+          "owner": "INS-009"
+        },
+        {
+          "path": "insurance-legal/references/sante-prevoyance.md",
+          "owner": "INS-009"
+        },
+        {
+          "path": "insurance-legal/skills/construction-insurance-claim/SKILL.md",
+          "owner": "INS-010"
+        },
+        {
+          "path": "insurance-legal/references/dommages-ouvrage.md",
+          "owner": "INS-010"
+        },
+        {
+          "path": "insurance-legal/skills/life-insurance-beneficiary/SKILL.md",
+          "owner": "INS-011"
+        },
+        {
+          "path": "insurance-legal/references/assurance-vie.md",
+          "owner": "INS-011"
+        }
+      ],
+      "problems": []
+    },
+    "breakdown_table_consistency": {
+      "status": "passed",
+      "rows": 11,
+      "problems": []
+    },
+    "no_plugin_created": {
+      "status": "passed",
+      "marketplace_plugins": 12,
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 16,
+      "local_links": 226,
+      "problems": []
+    },
+    "table_column_counts": {
+      "status": "passed",
+      "problems": []
+    },
+    "index_matrix_and_prerequisites": {
+      "status": "passed",
+      "problems": []
+    },
+    "figures_for_manual_review": {
+      "status": "manual-review",
+      "count": 0,
+      "occurrences": [],
+      "note": "Durées ou montants à relire : chaque occurrence doit être un fait fictif, jamais une règle."
+    },
+    "scope_vs_task_baseline": {
+      "status": "passed",
+      "baseline_git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+      "lot_changes": [
+        "backlog/00-fondations/base-003-dossier-architecture.md",
+        "backlog/03-nouveaux-domaines/dom-005-assurance.md",
+        "backlog/03-nouveaux-domaines/dom-005-controles.py",
+        "backlog/03-nouveaux-domaines/dom-005-decoupage-assurance.md",
+        "backlog/03-nouveaux-domaines/dom-005-verification.md",
+        "backlog/03-nouveaux-domaines/suites/ins-001-refus-garantie.md",
+        "backlog/03-nouveaux-domaines/suites/ins-002-declarer-sinistre.md",
+        "backlog/03-nouveaux-domaines/suites/ins-003-contester-expertise.md",
+        "backlog/03-nouveaux-domaines/suites/ins-004-lire-garantie.md",
+        "backlog/03-nouveaux-domaines/suites/ins-005-mediation-assurance.md",
+        "backlog/03-nouveaux-domaines/suites/ins-006-resilier-contrat.md",
+        "backlog/03-nouveaux-domaines/suites/ins-007-protection-juridique.md",
+        "backlog/03-nouveaux-domaines/suites/ins-008-assurance-emprunteur.md",
+        "backlog/03-nouveaux-domaines/suites/ins-009-complementaire-sante.md",
+        "backlog/03-nouveaux-domaines/suites/ins-010-dommages-ouvrage.md",
+        "backlog/03-nouveaux-domaines/suites/ins-011-assurance-vie-beneficiaire.md",
+        "backlog/README.md"
+      ],
+      "concurrent_patterns": [],
+      "concurrent_changes": [],
+      "preserved_files": 852,
+      "report_excluded_from_own_comparison": true,
+      "note": "Les fichiers du lot partagés (index, BASE-003) peuvent aussi porter des changements concurrents ; le contrôle ne les attribue pas.",
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 78,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    }
+  },
+  "lot_sha256": {
+    "backlog/03-nouveaux-domaines/dom-005-assurance.md": "9daa408b8aabf4d304c35e7188e901581ef9dc020c2dc6b0d7d68eaad24c7a30",
+    "backlog/03-nouveaux-domaines/dom-005-decoupage-assurance.md": "53f9a3fcbf55f4df263eb2cd6cd0184507f0f05af985f4261e9f5b63e06ff681",
+    "backlog/03-nouveaux-domaines/dom-005-verification.md": "c1852f5dab36b817466c6b7780580a315393971d2bdcc338999243377887759a",
+    "backlog/03-nouveaux-domaines/suites/ins-001-refus-garantie.md": "71ae359142f2d737753b0daa5159b0a2d30e4bb06d70b2e3c8a3c14cae7960a2",
+    "backlog/03-nouveaux-domaines/suites/ins-002-declarer-sinistre.md": "fc31d1b4625160733a66bd8fad41c6682a5b6af928e63a2b83c19cdab0d33a6e",
+    "backlog/03-nouveaux-domaines/suites/ins-003-contester-expertise.md": "c8a7f09b8ff2a17bf2361426c2d2a9bfc794cb8ba513be4400d8bc2b12fb58ee",
+    "backlog/03-nouveaux-domaines/suites/ins-004-lire-garantie.md": "45235c79cb5d53821416f196b8b8f236aeac9a608fb1695bcb1938a627efc4c6",
+    "backlog/03-nouveaux-domaines/suites/ins-005-mediation-assurance.md": "358bf94009cb1e27878bf8e6d31a922f1a698fadd96baa9994e6a97998d68363",
+    "backlog/03-nouveaux-domaines/suites/ins-006-resilier-contrat.md": "e546a0dd7d4e9e31dd1350b7b39c60e63a01ea23688231e202298a08a7bce7a5",
+    "backlog/03-nouveaux-domaines/suites/ins-007-protection-juridique.md": "1778e62ed77582afeaea123bdde70291d2e038172c99d50ac867476940079faa",
+    "backlog/03-nouveaux-domaines/suites/ins-008-assurance-emprunteur.md": "296efbfad0a8abab943f630a227e034233352efe23daac7c2f6eab0b7f53c849",
+    "backlog/03-nouveaux-domaines/suites/ins-009-complementaire-sante.md": "6dbd754d18f264e1ca9cec830712325373e6cc96ce5bb4280de0aecd607f8b45",
+    "backlog/03-nouveaux-domaines/suites/ins-010-dommages-ouvrage.md": "64e2bb1d4999d9e5908b45bfac31cd9ed9520647f8721c77c64af8b0f781e355",
+    "backlog/03-nouveaux-domaines/suites/ins-011-assurance-vie-beneficiaire.md": "71f694593b826709b5485e9042c8384463136e34db28d31ac13bd6291beb76af",
+    "backlog/README.md": "7c0584ad18e496e2b43b61e14234d6a842c542e44a2ff741ebcd327fe9d6cc24",
+    "backlog/00-fondations/base-003-dossier-architecture.md": "2ce7b9ea13bcfdabdeb36710bc5798c2c0ac53dfa8079d850134d5f662b3e4f4",
+    "backlog/03-nouveaux-domaines/dom-005-controles.py": "9e94c97f2d23b7e9d040f1dc6dd44ee004500465fd7fa1bbc24a9fb02e964818"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "calcul de délai, de décompte ou de montant",
+    "création ou exécution de skill",
+    "installation/recette client",
+    "lecteur réel ou indépendant",
+    "connexion/envoi/publication"
+  ],
+  "commands": [
+    "python -X utf8 backlog/03-nouveaux-domaines/dom-005-controles.py --baseline <instantane-debut-tache.json>  --output backlog/03-nouveaux-domaines/dom-005-resultats.json",
+    "python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)",
+    "git diff --check (appelé par le contrôleur)"
+  ],
+  "execution_notes": [
+    "Instantané de début de tâche pris dans le répertoire temporaire de session, avant toute écriture du lot.",
+    "Contrôleur dérivé de celui de DOM-004 (préfixes, nom du plugin) ; les fichiers DOM-001 à DOM-004 non commités ne sont pas modifiés.",
+    "Premier passage : liens vers ce relevé absents avant sa création ; relevé régénéré une fois le fichier présent.",
+    "Montants des pièces fictives : données recopiées, pas des règles ; le repérage automatique ne couvre pas les montants écrits avec espace et symbole euro."
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "story": "LIV-001",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "artifact": {
+    "name": "judge-fr-eu-lot-001.zip",
+    "sha256": "9cadc4a11a5e0d1e43540f231ea5a3bd015e7e9485f6a34acf029465f6ee96e6",
+    "files": 41
+  },
+  "checks": {
+    "archive_matches_inventory": {
+      "status": "passed",
+      "zip_sha256": "9cadc4a11a5e0d1e43540f231ea5a3bd015e7e9485f6a34acf029465f6ee96e6",
+      "files": 41,
+      "source": {
+        "mode": "working-tree",
+        "revision": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+        "head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+        "modified_vs_head": [
+          ".claude-plugin/marketplace.json",
+          "NOTICE",
+          "employment-legal/.claude-plugin/plugin.json",
+          "employment-legal/NOTICE",
+          "employment-legal/README.md"
+        ]
+      },
+      "plugins": [
+        {
+          "name": "judge-fr-eu-employment-legal",
+          "source": "./employment-legal",
+          "version": "0.2.1"
+        }
+      ],
+      "roots": [
+        "judge-fr-eu-lot-001"
+      ],
+      "problems": []
+    },
+    "lot_scope": {
+      "status": "passed",
+      "marketplace": "judge-fr-eu",
+      "plugin": "judge-fr-eu-employment-legal",
+      "version": "0.2.1",
+      "top_level": [
+        ".claude-plugin",
+        "LICENSE",
+        "NOTICE",
+        "README.md",
+        "employment-legal",
+        "lot-inventory.json"
+      ],
+      "problems": []
+    },
+    "same_skills_as_base011": {
+      "status": "passed",
+      "base011_revision": "1265c5a50417795c39127005ed44b7a27d66c7d4",
+      "changed_metadata": [
+        ".claude-plugin/plugin.json",
+        "NOTICE",
+        "README.md"
+      ],
+      "unchanged": 34,
+      "problems": []
+    },
+    "no_active_origin_paths": {
+      "status": "passed",
+      "problems": []
+    },
+    "package_checker_schema": {
+      "status": "passed",
+      "exit": 2,
+      "structure_line": "STRUCTURE INCOMPLET: 29 fichiers Markdown; contrôle statique borné",
+      "note": "Structure INCOMPLET with A_RELIRE items is the known BASE-006 manual-review state, not a schema failure.",
+      "problems": []
+    },
+    "isolated_install": {
+      "status": "passed",
+      "client": "2.1.299 (Claude Code)",
+      "config_before_add": [
+        "config/.claude.json",
+        "config/backups",
+        "config/backups/.claude.json.backup.1792165449896"
+      ],
+      "validate_marketplace_exit": 0,
+      "validate_plugin_exit": 0,
+      "problems": []
+    },
+    "installed_copy": {
+      "status": "passed",
+      "installed_path": "config\\plugins\\cache\\judge-fr-eu\\judge-fr-eu-employment-legal\\0.2.1",
+      "config_files": [
+        "config/.claude.json",
+        "config/backups/.claude.json.backup.1792165449896",
+        "config/plugins/installed_plugins.json",
+        "config/plugins/known_marketplaces.json",
+        "config/settings.json"
+      ],
+      "home_entries": [],
+      "problems": []
+    }
+  },
+  "commands": [
+    {
+      "step": "check-plugin-package",
+      "argv": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "-X",
+        "utf8",
+        "<checkout>\\scripts\\check-plugin-package.py",
+        "<work>\\extract\\judge-fr-eu-lot-001\\employment-legal",
+        "--schema",
+        "--claude",
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe"
+      ],
+      "exit": 2,
+      "stdout": "ique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/log-leave/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/*/matter.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<slug>/\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<slug>/matter.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/_archived/\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/_archived/<slug>/\nA_RELIRE skills/policy-drafting/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/policy-drafting/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/termination-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/termination-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/wage-hour-qa/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/wage-hour-qa/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nA_RELIRE skills/worker-classification/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md\nA_RELIRE skills/worker-classification/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/\nSTRUCTURE INCOMPLET: 29 fichiers Markdown; contrôle statique borné\nSCHEMA CLI: C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe (--claude)\nValidating plugin manifest: <work>\\extract\\judge-fr-eu-lot-001\\employment-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <work>\\extract\\judge-fr-eu-lot-001\\employment-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\nSCHEMA OK: code 0\nEXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE\n",
+      "stderr": ""
+    },
+    {
+      "step": "client-version",
+      "argv": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "--version"
+      ],
+      "exit": 0,
+      "stdout": "2.1.299 (Claude Code)\n",
+      "stderr": ""
+    },
+    {
+      "step": "validate-lot-marketplace",
+      "argv": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "validate",
+        "<work>\\extract\\judge-fr-eu-lot-001\\.claude-plugin\\marketplace.json"
+      ],
+      "exit": 0,
+      "stdout": "Validating marketplace manifest: <work>\\extract\\judge-fr-eu-lot-001\\.claude-plugin\\marketplace.json\n\n✔ Validation passed\n",
+      "stderr": ""
+    },
+    {
+      "step": "validate-plugin",
+      "argv": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "validate",
+        "<work>\\extract\\judge-fr-eu-lot-001\\employment-legal"
+      ],
+      "exit": 0,
+      "stdout": "Validating plugin manifest: <work>\\extract\\judge-fr-eu-lot-001\\employment-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <work>\\extract\\judge-fr-eu-lot-001\\employment-legal\\CLAUDE.md\n\n⚠ Found 1 warning:\n\n  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n✔ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "step": "marketplace-add",
+      "argv": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "marketplace",
+        "add",
+        "<work>\\extract\\judge-fr-eu-lot-001"
+      ],
+      "exit": 0,
+      "stdout": "Adding marketplace…✔ Successfully added marketplace: judge-fr-eu (declared in user settings)\n",
+      "stderr": ""
+    },
+    {
+      "step": "plugin-install",
+      "argv": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "install",
+        "judge-fr-eu-employment-legal@judge-fr-eu",
+        "--scope",
+        "user"
+      ],
+      "exit": 0,
+      "stdout": "Installing plugin \"judge-fr-eu-employment-legal@judge-fr-eu\"...✔ Successfully installed plugin: judge-fr-eu-employment-legal@judge-fr-eu (scope: user)\n",
+      "stderr": ""
+    },
+    {
+      "step": "plugin-list",
+      "argv": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "list"
+      ],
+      "exit": 0,
+      "stdout": "Installed plugins:\n\n  ❯ judge-fr-eu-employment-legal@judge-fr-eu\n    Version: 0.2.1\n    Read from: <work>\\extract\\judge-fr-eu-lot-001\\employment-legal\n    Scope: user\n    Status: ✔ enabled\n\n",
+      "stderr": ""
+    },
+    {
+      "step": "marketplace-list",
+      "argv": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "marketplace",
+        "list"
+      ],
+      "exit": 0,
+      "stdout": "Configured marketplaces:\n\n  ❯ anthropic-plugin-directory\n    Source: Built in (Anthropic Directory)\n\n  ❯ judge-fr-eu\n    Source: Folder (<work>\\extract\\judge-fr-eu-lot-001)\n\n",
+      "stderr": ""
+    }
+  ],
+  "not_run": [
+    "invocation of a skill in an authenticated model session",
+    "scenarios H01-H16 on the 0.2.1 artifact (BASE-011 ran them on identical skill files)",
+    "independent reader",
+    "real symbolic-link refusal (WinError 1314 on this workstation)",
+    "push, tag, release or any remote publication"
+  ],
+  "isolation": "disposable CLAUDE_CONFIG_DIR, HOME and USERPROFILE; same Windows account; checkout readable"
+}

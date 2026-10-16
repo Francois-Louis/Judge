@@ -1,7 +1,7 @@
 ---
 id: DOM-003
 titre: "Cadrer un plugin d'exécution et de recouvrement"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -34,11 +34,11 @@ Un premier skill de lecture d'acte et de repérage des informations urgentes, sa
 
 ## Critères d'acceptation
 
-- [ ] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
-- [ ] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
-- [ ] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle.
-- [ ] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
-- [ ] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
+- [x] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
+- [x] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
+- [x] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle (scénarios rédigés, non exécutés).
+- [x] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
+- [x] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
 
 ## Scénarios pour éprouver le découpage
 
@@ -52,3 +52,47 @@ Vérifier le routage et les informations à demander. La story ne doit pas réso
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
 
+## Bilan d'exécution — 16 octobre 2026
+
+- [Découpage](dom-003-decoupage-execution.md) : nom `enforcement-legal`
+  conservé (`judge-fr-eu-enforcement-legal`) ; installation seule, sans
+  profil, agent, hook ni connecteur ; garde-fous (urgence d'abord, l'émetteur
+  ne qualifie pas l'acte, authenticité, aucune promesse de suspension, fond
+  laissé à son domaine) ; qualification commune (émetteur, titre de l'acte,
+  titre exécutoire, remise et dates, décompte, situation de la personne) ;
+  frontières avec contentieux, logement, banque, surendettement, créances
+  publiques et sociales, contrats B2B, secteurs, pénal, successions,
+  famille, administratif et travail.
+- 11 propositions ENF-001 à ENF-011 sous `suites/`, en quatre rangs.
+  Première tranche : ENF-001, lecture d'un acte et repérage de l'urgence, qui
+  crée le paquet avec ce seul skill. Recouvrement amiable, décompte et saisie
+  sur compte au rang 2.
+- [Vérification documentaire](dom-003-verification.md) : les trois scénarios
+  de la story et dix cas limites, sans délai, montant ni droit conclu.
+- Ligne `enforcement-legal` de la [matrice BASE-003](../00-fondations/base-003-dossier-architecture.md)
+  précisée ; index du backlog mis à jour.
+- [Contrôles statiques](dom-003-resultats.json), produits par
+  [le contrôleur du lot](dom-003-controles.py), sur le modèle de DOM-001.
+
+Points ouverts : l'opposition d'un particulier à une injonction de payer n'a
+pas de story propriétaire (rattachement proposé aux suites EXIST-006, à
+décider) ; la saisie immobilière n'est pas découpée.
+
+Fichiers du lot : présente story, découpage, vérification, contrôleur,
+relevé JSON, 11 propositions `suites/enf-*.md`, ligne de BASE-003 et
+`backlog/README.md`. Le lot reste sous `backlog/`, sans entrée NOTICE.
+Un lot EXIST-008 en cours d'écriture dans le même arbre est préservé et listé
+à part dans le relevé ; l'en-tête de l'index compte les 265 stories présentes
+au moment du contrôle, dont EXIST-007 terminée entre-temps.
+
+**Portée :** cadrage documentaire relu par l'agent de maintenance sur pièces
+fictives, avec contrôles statiques. Aucune source juridique lue : les
+articles cités sont des pistes. Aucun plugin créé, skill exécuté, paquet
+installé, lecteur réel ou indépendant. Le préalable PILOTE-003 est satisfait
+après BASE-011 ; aucune tranche n'est sélectionnée.
+
+## Décisions du 16 octobre 2026
+
+Points ouverts levés ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)) : l'opposition à une injonction de payer est
+rattachée à l'exécution (ENF-012) ; la saisie immobilière reçoit une story
+d'orientation (ENF-013). Le domaine compte désormais 13 propositions.

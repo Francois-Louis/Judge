@@ -6,8 +6,9 @@ dans [PILOTE-002](pilote-002-revue-embauche.md), puis sa validation
 [PILOTE-003](pilote-003-bilan-pilote.md). La dépendance USAGE-002 est conservée :
 l'audit ne remplace pas la priorisation des usages.
 
-Les 17 stories métier ci-dessous sont `proposee`, priorité P2. Les 16 premières
-proviennent de PILOTE-001 ; TRAV-017 est proposée par PILOTE-003. Leurs implémentations
+Les 18 stories métier ci-dessous sont `proposee`, priorité P2. Les 16 premières
+proviennent de PILOTE-001 ; TRAV-017 est proposée par PILOTE-003 ; TRAV-018
+est ajoutée par décision de l'utilisateur du 16 octobre 2026. Leurs implémentations
 attendent PILOTE-003 et une sélection de tranche ; aucun développement
 simultané de tout le plugin n'est lancé. TRAV-006 est un **cadrage**, car une
 adaptation de tout le licenciement économique collectif resterait trop vaste.
@@ -31,6 +32,7 @@ adaptation de tout le licenciement économique collectif resterait trop vaste.
 | [TRAV-015](suites/trav-015-suivi-premiere-embauche.md) | Mettre à jour les tâches d'une première embauche en France — `expansion-update ; schéma international-expansion` | TRAV-014 |
 | [TRAV-016](suites/trav-016-profils-dossiers-travail.md) | Compléter les profils et dossiers des parcours travail adaptés — `cold-start-interview ; customize ; matter-workspace ; CLAUDE.md` | Socle et PILOTE-003 seulement |
 | [TRAV-017](suites/trav-017-clause-non-concurrence.md) | Expliquer une clause de non-concurrence reçue à l'embauche — `hiring-review`, reliquat H02 | Socle et PILOTE-003 seulement |
+| [TRAV-018](suites/trav-018-droits-syndicaux.md) | Expliquer les droits syndicaux d'un salarié du privé — nouveau skill proposé `union-rights` | Socle et PILOTE-003 seulement |
 
 ## Réexamen PILOTE-003 — 15 octobre 2026
 

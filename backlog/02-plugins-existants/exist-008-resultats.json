@@ -1,0 +1,558 @@
+{
+  "story": "EXIST-008",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "scope": "cadrage et relecture documentaire fictive ; aucun skill exécuté ou droit validé",
+  "checks": {
+    "frontmatter_and_dependencies": {
+      "status": "passed",
+      "stories": 290,
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 25,
+      "future_owners": {
+        "ip-legal/references/qualification-pi.md": [
+          "PI-001"
+        ],
+        "ip-legal/skills/ip-orientation/SKILL.md": [
+          "PI-001"
+        ],
+        "ip-legal/references/recherche-marque-france.md": [
+          "PI-002"
+        ],
+        "ip-legal/references/fiche-invention.md": [
+          "PI-003"
+        ],
+        "ip-legal/references/invention-salarie.md": [
+          "PI-004"
+        ],
+        "ip-legal/references/dossier-brevetabilite.md": [
+          "PI-005"
+        ],
+        "ip-legal/references/rapprochement-brevet-france.md": [
+          "PI-006"
+        ],
+        "ip-legal/references/chaine-droits-photo.md": [
+          "PI-007"
+        ],
+        "ip-legal/references/logiciel-salarie.md": [
+          "PI-008"
+        ],
+        "ip-legal/references/cession-photo.md": [
+          "PI-009"
+        ],
+        "ip-legal/references/licence-photo.md": [
+          "PI-010"
+        ],
+        "ip-legal/references/licence-dependance.md": [
+          "PI-011"
+        ],
+        "ip-legal/references/livraison-logiciel.md": [
+          "PI-012"
+        ],
+        "ip-legal/references/courrier-pi-recu.md": [
+          "PI-013"
+        ],
+        "ip-legal/references/usage-marque-france.md": [
+          "PI-014"
+        ],
+        "ip-legal/references/projet-lettre-marque.md": [
+          "PI-015"
+        ],
+        "ip-legal/references/qualification-retrait.md": [
+          "PI-016"
+        ],
+        "ip-legal/references/signalement-photo.md": [
+          "PI-017"
+        ],
+        "ip-legal/references/notification-retrait-recue.md": [
+          "PI-018"
+        ],
+        "ip-legal/references/incident-secret-affaires.md": [
+          "PI-019"
+        ],
+        "ip-legal/references/fiche-actif-pi.md": [
+          "PI-020"
+        ],
+        "ip-legal/references/echeance-marque-france.md": [
+          "PI-021"
+        ],
+        "ip-legal/references/etat-portefeuille-pi.md": [
+          "PI-022"
+        ],
+        "ip-legal/references/preferences-pi.md": [
+          "PI-023"
+        ],
+        "ip-legal/references/dossier-pi.md": [
+          "PI-024"
+        ],
+        "ip-legal/references/agent-rapport-pi.md": [
+          "PI-025"
+        ]
+      },
+      "problems": []
+    },
+    "inventory_exact_coverage": {
+      "status": "passed",
+      "package_files": 27,
+      "skills": 12,
+      "agents": 1,
+      "cookbook_references": [],
+      "problems": []
+    },
+    "all_skills_have_future_targets": {
+      "status": "passed",
+      "problems": []
+    },
+    "shared_copies": {
+      "status": "passed",
+      "identical": {
+        "references/shared/research-citation-method.md": true,
+        "references/isolation.md": true,
+        "references/company-profile-template.md": true,
+        "references/dashboard-template.md": true,
+        "scripts/judge_store.py": true
+      },
+      "method_version": "1.0.0",
+      "problems": []
+    },
+    "index_and_prerequisites": {
+      "status": "passed",
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 30,
+      "local_links": 204,
+      "problems": []
+    },
+    "legacy_foreign_assumptions_located": {
+      "status": "passed",
+      "locations": {
+        "USPTO": [
+          {
+            "path": "ip-legal/agents/ip-renewal-watcher.md",
+            "lines": [
+              86
+            ]
+          },
+          {
+            "path": "ip-legal/CLAUDE.md",
+            "lines": [
+              72,
+              73,
+              91,
+              181,
+              193
+            ]
+          },
+          {
+            "path": "ip-legal/skills/cease-desist/SKILL.md",
+            "lines": [
+              37,
+              87,
+              160,
+              162,
+              319,
+              361,
+              469,
+              470,
+              472,
+              473
+            ]
+          },
+          {
+            "path": "ip-legal/skills/clearance/SKILL.md",
+            "lines": [
+              63,
+              104,
+              146,
+              169,
+              178,
+              193,
+              201,
+              270,
+              280,
+              392,
+              420,
+              481
+            ]
+          },
+          {
+            "path": "ip-legal/skills/cold-start-interview/SKILL.md",
+            "lines": [
+              160,
+              163,
+              182,
+              311
+            ]
+          },
+          {
+            "path": "ip-legal/skills/fto-triage/SKILL.md",
+            "lines": [
+              214,
+              249,
+              401,
+              466,
+              492
+            ]
+          },
+          {
+            "path": "ip-legal/skills/infringement-triage/SKILL.md",
+            "lines": [
+              570
+            ]
+          },
+          {
+            "path": "ip-legal/skills/portfolio/SKILL.md",
+            "lines": [
+              51,
+              92,
+              115,
+              169,
+              231,
+              331,
+              339,
+              402,
+              529,
+              542
+            ]
+          }
+        ],
+        "DMCA": [
+          {
+            "path": "ip-legal/CLAUDE.md",
+            "lines": [
+              89,
+              284,
+              288
+            ]
+          },
+          {
+            "path": "ip-legal/README.md",
+            "lines": [
+              5,
+              15,
+              42,
+              58
+            ]
+          },
+          {
+            "path": "ip-legal/skills/cease-desist/SKILL.md",
+            "lines": [
+              138
+            ]
+          },
+          {
+            "path": "ip-legal/skills/cold-start-interview/SKILL.md",
+            "lines": [
+              197,
+              294,
+              361
+            ]
+          },
+          {
+            "path": "ip-legal/skills/infringement-triage/SKILL.md",
+            "lines": [
+              38,
+              146,
+              277,
+              600
+            ]
+          },
+          {
+            "path": "ip-legal/skills/matter-workspace/SKILL.md",
+            "lines": [
+              68,
+              82,
+              139
+            ]
+          },
+          {
+            "path": "ip-legal/skills/takedown/SKILL.md",
+            "lines": [
+              4,
+              5,
+              8,
+              20,
+              22,
+              31,
+              32,
+              33,
+              34,
+              38,
+              54,
+              62,
+              66,
+              68,
+              70,
+              76,
+              80,
+              83,
+              94,
+              105,
+              122,
+              126,
+              139,
+              141,
+              147,
+              159,
+              160,
+              164,
+              173,
+              178,
+              192,
+              205,
+              216,
+              224,
+              230,
+              238,
+              249,
+              255,
+              256,
+              268,
+              280,
+              293,
+              308,
+              315,
+              321,
+              345,
+              351,
+              356,
+              358,
+              368,
+              369,
+              380,
+              386,
+              397,
+              402,
+              415,
+              451
+            ]
+          }
+        ],
+        "fair_use": [
+          {
+            "path": "ip-legal/skills/cold-start-interview/SKILL.md",
+            "lines": [
+              294
+            ]
+          },
+          {
+            "path": "ip-legal/skills/customize/SKILL.md",
+            "lines": [
+              53
+            ]
+          },
+          {
+            "path": "ip-legal/skills/infringement-triage/SKILL.md",
+            "lines": [
+              38,
+              146,
+              209,
+              262,
+              288,
+              511,
+              556,
+              618
+            ]
+          },
+          {
+            "path": "ip-legal/skills/takedown/SKILL.md",
+            "lines": [
+              6,
+              20,
+              31,
+              32,
+              36,
+              53,
+              72,
+              107,
+              109,
+              113,
+              120,
+              122,
+              132,
+              141,
+              191,
+              200,
+              216,
+              254,
+              269,
+              313,
+              406,
+              441,
+              447
+            ]
+          }
+        ]
+      },
+      "problems": []
+    },
+    "scope_vs_task_baseline": {
+      "status": "observed-concurrent-changes",
+      "lot_changed_files": [
+        "backlog/02-plugins-existants/exist-008-controles.py",
+        "backlog/02-plugins-existants/exist-008-decoupage-pi.md",
+        "backlog/02-plugins-existants/exist-008-inventaire-pi.md",
+        "backlog/02-plugins-existants/exist-008-propriete-intellectuelle.md",
+        "backlog/02-plugins-existants/exist-008-verification.md",
+        "backlog/02-plugins-existants/suites/pi-001-qualifier-demande.md",
+        "backlog/02-plugins-existants/suites/pi-002-recherche-nom-france.md",
+        "backlog/02-plugins-existants/suites/pi-003-fiche-invention.md",
+        "backlog/02-plugins-existants/suites/pi-004-invention-salarie.md",
+        "backlog/02-plugins-existants/suites/pi-005-dossier-brevetabilite.md",
+        "backlog/02-plugins-existants/suites/pi-006-rapprochement-brevet.md",
+        "backlog/02-plugins-existants/suites/pi-007-chaine-droits-photo.md",
+        "backlog/02-plugins-existants/suites/pi-008-logiciel-salarie.md",
+        "backlog/02-plugins-existants/suites/pi-009-cession-photo.md",
+        "backlog/02-plugins-existants/suites/pi-010-licence-photo.md",
+        "backlog/02-plugins-existants/suites/pi-011-licence-dependance.md",
+        "backlog/02-plugins-existants/suites/pi-012-livraison-logiciel.md",
+        "backlog/02-plugins-existants/suites/pi-013-courrier-pi-recu.md",
+        "backlog/02-plugins-existants/suites/pi-014-usage-marque.md",
+        "backlog/02-plugins-existants/suites/pi-015-projet-lettre-marque.md",
+        "backlog/02-plugins-existants/suites/pi-016-qualifier-retrait.md",
+        "backlog/02-plugins-existants/suites/pi-017-signalement-photo.md",
+        "backlog/02-plugins-existants/suites/pi-018-notification-retrait-recue.md",
+        "backlog/02-plugins-existants/suites/pi-019-incident-secret-affaires.md",
+        "backlog/02-plugins-existants/suites/pi-020-fiche-actif.md",
+        "backlog/02-plugins-existants/suites/pi-021-echeance-marque-france.md",
+        "backlog/02-plugins-existants/suites/pi-022-etat-portefeuille.md",
+        "backlog/02-plugins-existants/suites/pi-023-preferences-pi.md",
+        "backlog/02-plugins-existants/suites/pi-024-dossier-pi.md",
+        "backlog/02-plugins-existants/suites/pi-025-agent-rapport-pi.md",
+        "backlog/README.md"
+      ],
+      "other_changed_files": [
+        "backlog/00-fondations/base-003-dossier-architecture.md",
+        "backlog/03-nouveaux-domaines/dom-003-commissaires-justice-execution.md",
+        "backlog/03-nouveaux-domaines/dom-003-controles.py",
+        "backlog/03-nouveaux-domaines/dom-003-decoupage-execution.md",
+        "backlog/03-nouveaux-domaines/dom-003-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-003-verification.md",
+        "backlog/03-nouveaux-domaines/suites/enf-001-lire-acte.md",
+        "backlog/03-nouveaux-domaines/suites/enf-002-relance-recouvrement.md",
+        "backlog/03-nouveaux-domaines/suites/enf-003-controler-decompte.md",
+        "backlog/03-nouveaux-domaines/suites/enf-004-saisie-compte.md",
+        "backlog/03-nouveaux-domaines/suites/enf-005-expulsion.md",
+        "backlog/03-nouveaux-domaines/suites/enf-006-contester-signification.md",
+        "backlog/03-nouveaux-domaines/suites/enf-007-saisie-remunerations.md",
+        "backlog/03-nouveaux-domaines/suites/enf-008-delais-paiement.md",
+        "backlog/03-nouveaux-domaines/suites/enf-009-mesure-conservatoire.md",
+        "backlog/03-nouveaux-domaines/suites/enf-010-creancier-titre.md",
+        "backlog/03-nouveaux-domaines/suites/enf-011-saisie-biens.md"
+      ],
+      "note": "Other differences observed during this task are not attributed to EXIST-008; no claim of an unchanged entire workspace.",
+      "preserved_files": 763
+    },
+    "protected_inputs_unchanged": {
+      "status": "passed",
+      "files_checked": 615,
+      "package_preserved": true,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 74,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [
+        "  ✓ diligence-grid           orchestrator tool scope clean",
+        "  ✓ docket-watcher           orchestrator tool scope clean",
+        "  ✓ launch-radar             orchestrator tool scope clean",
+        "  ✓ reg-monitor              orchestrator tool scope clean",
+        "  ✓ renewal-watcher          orchestrator tool scope clean"
+      ],
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [],
+      "problems": []
+    }
+  },
+  "package_sha256": {
+    "ip-legal/.claude-plugin/plugin.json": "2d5ff0cfd16bd358805df662a580186f6f66897b574b2635373be9cc04fbaa68",
+    "ip-legal/.gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+    "ip-legal/.mcp.json": "33076bcaf5323e67d14b93765dbf7f3ce7c60b0aa9ff54963eafa3322a67a349",
+    "ip-legal/agents/ip-renewal-watcher.md": "b9fa324e3cb563f6dc9fa020fc80829ac1a90d94f45718cbb02ee289ed38a8bd",
+    "ip-legal/CLAUDE.md": "f110d226341f30fcdb3f0194101ddf2f344f85f36c85b435a3ba7d1c449047bb",
+    "ip-legal/hooks/hooks.json": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+    "ip-legal/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "ip-legal/logs/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ip-legal/NOTICE": "0ba2cbf2a2bf6c64de9e513d047d0ce22a512e90628b1c90a647cfeb88e549ed",
+    "ip-legal/README.md": "0a195c4be37cbf428c1d41442eeaf6cf1e6888f0a5dbda68a7d29700639d3587",
+    "ip-legal/references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "ip-legal/references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "ip-legal/references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "ip-legal/references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "ip-legal/scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "ip-legal/skills/cease-desist/SKILL.md": "f1c2e222d9508c128ae965a2acca6ba8af31e341e8a6cc38534eaaba556f0d4d",
+    "ip-legal/skills/clearance/SKILL.md": "58de542b634036842a094b2e6a490e53e0f083deca8a998c6acbb9469298cb77",
+    "ip-legal/skills/cold-start-interview/SKILL.md": "b202be8efdef06a2bef7fc36870c21522e4c24fcd7b22146abc36b9368214155",
+    "ip-legal/skills/customize/SKILL.md": "f8b9a5b40030225cd335296b023ac5f6e34041a4867346ef75dc2aae61cebcdf",
+    "ip-legal/skills/fto-triage/SKILL.md": "59da4687c6e3f23f55d9a453089f3ec83696717bc6840ef127ad97cacc82b950",
+    "ip-legal/skills/infringement-triage/SKILL.md": "004ccf1adc5addc0a27aad01465fd17bdf9a5214885212c05a83f667df9caab3",
+    "ip-legal/skills/invention-intake/SKILL.md": "a17131d7cbbdd38c37cc23e0451e1b75fe7325e21e7a6668e82827c6fabf44e3",
+    "ip-legal/skills/ip-clause-review/SKILL.md": "6c6be21fd2141d264eb41c5c84e6f8c0caffbcfc0985928dc0c0caede5227d45",
+    "ip-legal/skills/matter-workspace/SKILL.md": "2d77be52372bb6f71392f6a810aa63dcd423ea37c07c54e035ea968e6ed924cd",
+    "ip-legal/skills/oss-review/SKILL.md": "2d0e59a0460b2c71315c08a80d3be67e5afed644bdaec4acb668df17d2ce0a66",
+    "ip-legal/skills/portfolio/SKILL.md": "88a9c2a74026423bc83f4c10a4afba123acf8ec201ff27f83d23a6ef60d5d8ae",
+    "ip-legal/skills/takedown/SKILL.md": "0a2c6ee5af347e61726edc219bb2f742e6654ca675348f6aec26bbe669cf3581"
+  },
+  "lot_sha256": {
+    "backlog/02-plugins-existants/exist-008-propriete-intellectuelle.md": "cd7fc1135dfb15b9982a60388ecfc5638a5051b0c0f53aa18c37fa6701ea60f2",
+    "backlog/02-plugins-existants/exist-008-inventaire-pi.md": "ac979178bd4b1486c1f167c73c1a632980966fa786da356d362dad54bb047d84",
+    "backlog/02-plugins-existants/exist-008-decoupage-pi.md": "ed9fe906bb739cae7d89c5cf301a407e169cb0270aa0a6352f326e7615d6c925",
+    "backlog/02-plugins-existants/exist-008-verification.md": "a8e5c4cdeb994dd9e207ca520f01cc23d183707d25f6f8cb172972fc4e696a9f",
+    "backlog/02-plugins-existants/suites/pi-001-qualifier-demande.md": "6074398278dcbb357a556da1203f846a1f897f296f1462b61b73e535daecb9a5",
+    "backlog/02-plugins-existants/suites/pi-002-recherche-nom-france.md": "32e2ed3fb30ce048b1d9403ad804efacfa5ababd5274101f717672400ee6c8ec",
+    "backlog/02-plugins-existants/suites/pi-003-fiche-invention.md": "27bc12747a2f3e4425b38e7f1b74471ae5f9ffe043c307020318547445377c44",
+    "backlog/02-plugins-existants/suites/pi-004-invention-salarie.md": "e2a94811ff801f4e51d7290618a599edfbdbf34cf5ebdbc8069774ef4913c3ac",
+    "backlog/02-plugins-existants/suites/pi-005-dossier-brevetabilite.md": "fd519a73861514f674cf57672dc04f7e8696be239eccc7896ad80b6a3336ab96",
+    "backlog/02-plugins-existants/suites/pi-006-rapprochement-brevet.md": "cb5f5434306cb980819e3db5f785b15f86bc3f76e4e3c6e2d368f26db9943f33",
+    "backlog/02-plugins-existants/suites/pi-007-chaine-droits-photo.md": "5d336534c7de01f313afec75b79b53abef0fa0935a9efa81c8f2e1d36dfde0aa",
+    "backlog/02-plugins-existants/suites/pi-008-logiciel-salarie.md": "0922685e487ba2e0356726b728558682f75e291cb994206583fd0ce857d7b561",
+    "backlog/02-plugins-existants/suites/pi-009-cession-photo.md": "3d3c35ce211b46f625f5327f612b3b5dfa1069b0aa9c14315686c6fcd9a2a591",
+    "backlog/02-plugins-existants/suites/pi-010-licence-photo.md": "a740e40c679b34eb2cba0a9150808d499cbbc15bcb31d6bf7ec2bd49e81de9d2",
+    "backlog/02-plugins-existants/suites/pi-011-licence-dependance.md": "4509ce6d8f493a15fce66da85888469acc5fc3ac5256c4d88499f4b291f7eee8",
+    "backlog/02-plugins-existants/suites/pi-012-livraison-logiciel.md": "b71c91b26dbc41e2c8ae98d2cc916e6fa74f7631f488e6a4b2268f070c72393c",
+    "backlog/02-plugins-existants/suites/pi-013-courrier-pi-recu.md": "e91fb06dda750381cb8bd90cf51c2dbb5cc4587c1c18073173a04853358aee64",
+    "backlog/02-plugins-existants/suites/pi-014-usage-marque.md": "39141e6a68871fbae78563f5f250a391c777fb4d07adc4c8214beca8e8b96c89",
+    "backlog/02-plugins-existants/suites/pi-015-projet-lettre-marque.md": "07af489fdd837e0184e677e2721a8c34825f4ca5fc09cd19f92715e5c44b7142",
+    "backlog/02-plugins-existants/suites/pi-016-qualifier-retrait.md": "60dbf674e6a8016d738b8f9146edf0d2c9adc3c209b34edb0e8bd50ad1d02b64",
+    "backlog/02-plugins-existants/suites/pi-017-signalement-photo.md": "725d7173e59aceb70c784c5a6c5a6b78bdb9873304f62c80043ee1a5ff955a3c",
+    "backlog/02-plugins-existants/suites/pi-018-notification-retrait-recue.md": "aadeb91ae6caefa7f7111c5ee6ccd17339f75aa2e3d1e8c8c6371c5d557e2416",
+    "backlog/02-plugins-existants/suites/pi-019-incident-secret-affaires.md": "d74e553a0febe4b327ccaf73a4099772e820576eb198af3f897701606302f8a3",
+    "backlog/02-plugins-existants/suites/pi-020-fiche-actif.md": "b5638aa486d6893389bbba3086651ec6b15cd7ea767fd4a06af1d75741f975a3",
+    "backlog/02-plugins-existants/suites/pi-021-echeance-marque-france.md": "c21ff889be3fb22d87a2f84ec733bf5ad8d7d1a3c6ff825f52add8e8cc310d79",
+    "backlog/02-plugins-existants/suites/pi-022-etat-portefeuille.md": "ad8ace915c632e236efc4c43e8a2c88f416c27888b78505e1d70a56651d8715e",
+    "backlog/02-plugins-existants/suites/pi-023-preferences-pi.md": "1ae3e4f66e90ba95900ed459d80885a0a9dc476ee4b6558cfa42f545aa690037",
+    "backlog/02-plugins-existants/suites/pi-024-dossier-pi.md": "073cfc7e8bc38efdf45cd8327a3b59d56f9bcd152ad3161a5286db6c375b4663",
+    "backlog/02-plugins-existants/suites/pi-025-agent-rapport-pi.md": "302ef2c9f02c649c0dd79e4e2e08f4726404bdf4fd74824cd1cf8d7a78a9a817",
+    "backlog/README.md": "0feaf82fc2762e4a4b2835d02bfecc660eaf26a87ae1491197abe7ab0b70d168",
+    "backlog/02-plugins-existants/exist-008-controles.py": "4f58d09217de33c7a9cd4a1898d776c53d19c4d50f115f32a25a195481b417ed"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "acte/délai réel",
+    "exécution de skill",
+    "installation/recette client",
+    "lecteur indépendant",
+    "connexion authentifiée/envoi/dépôt/paiement/publication/déploiement"
+  ],
+  "command": "python -X utf8 backlog/02-plugins-existants/exist-008-controles.py --baseline <instantane-debut-tache.json> --output backlog/02-plugins-existants/exist-008-resultats.json",
+  "notes": [
+    "Les différences git préexistantes ne sont pas des changements EXIST-008 ; voir comparaison à l’instantané de début de tâche.",
+    "Aucune validation de schéma plugin/client : aucun fichier de paquet modifié.",
+    "Hypothèses étrangères repérées localement ; aucune source externe consultée ni raisonnement juridique validé."
+  ]
+}

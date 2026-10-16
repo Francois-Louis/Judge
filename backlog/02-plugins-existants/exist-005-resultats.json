@@ -1,0 +1,266 @@
+{
+  "story": "EXIST-005",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "scope": "cadrage documentaire ; aucune adaptation de plugin ni validation juridique",
+  "checks": {
+    "backlog_frontmatter_and_dependencies": {
+      "status": "passed",
+      "total": 185,
+      "statuses": {
+        "terminee": 24,
+        "en-cours": 1,
+        "proposee": 160
+      },
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 20,
+      "file_targets": 31,
+      "future_files": [
+        {
+          "path": "ai-governance-legal/references/inventaire-factuel.md",
+          "owner": "IA-001"
+        },
+        {
+          "path": "ai-governance-legal/references/qualification-usage.md",
+          "owner": "IA-002"
+        },
+        {
+          "path": "ai-governance-legal/references/pratiques-interdites.md",
+          "owner": "IA-003"
+        },
+        {
+          "path": "ai-governance-legal/references/qualification-haut-risque.md",
+          "owner": "IA-004"
+        },
+        {
+          "path": "ai-governance-legal/references/transparence-usage.md",
+          "owner": "IA-005"
+        },
+        {
+          "path": "ai-governance-legal/references/qualification-modele-gpai.md",
+          "owner": "IA-006"
+        },
+        {
+          "path": "ai-governance-legal/references/obligations-deployeur.md",
+          "owner": "IA-007"
+        },
+        {
+          "path": "ai-governance-legal/references/dossier-fournisseur-systeme.md",
+          "owner": "IA-008"
+        },
+        {
+          "path": "ai-governance-legal/references/evaluation-interne.md",
+          "owner": "IA-009"
+        },
+        {
+          "path": "ai-governance-legal/references/necessite-fria.md",
+          "owner": "IA-010"
+        },
+        {
+          "path": "ai-governance-legal/references/projet-fria-service-public.md",
+          "owner": "IA-011"
+        },
+        {
+          "path": "ai-governance-legal/references/cartographie-contrat-fournisseur.md",
+          "owner": "IA-012"
+        },
+        {
+          "path": "ai-governance-legal/references/clauses-fournisseur.md",
+          "owner": "IA-013"
+        },
+        {
+          "path": "ai-governance-legal/references/politique-assistant-interne.md",
+          "owner": "IA-014"
+        },
+        {
+          "path": "ai-governance-legal/references/comparaison-pratique-politique.md",
+          "owner": "IA-015"
+        },
+        {
+          "path": "ai-governance-legal/references/revue-sorties-politique.md",
+          "owner": "IA-016"
+        },
+        {
+          "path": "ai-governance-legal/references/ecart-evolution-reglementaire.md",
+          "owner": "IA-017"
+        },
+        {
+          "path": "ai-governance-legal/references/dossier-systeme.md",
+          "owner": "IA-019"
+        },
+        {
+          "path": "ai-governance-legal/references/sources-calendrier.md",
+          "owner": "IA-020"
+        }
+      ],
+      "problems": []
+    },
+    "inventory_exact_coverage": {
+      "status": "passed",
+      "package_files": 23,
+      "skills": 10,
+      "agents": 0,
+      "hooks": 0,
+      "problems": []
+    },
+    "shared_copies": {
+      "status": "passed",
+      "method_version": "1.0.0",
+      "identical": {
+        "references/shared/research-citation-method.md": true,
+        "references/isolation.md": true,
+        "references/company-profile-template.md": true,
+        "references/dashboard-template.md": true,
+        "scripts/judge_store.py": true
+      },
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 25,
+      "local_links": 172,
+      "problems": []
+    },
+    "index_and_prerequisites": {
+      "status": "passed",
+      "proposals_indexed": 20,
+      "problems": []
+    },
+    "tracked_outside_backlog_vs_head": {
+      "status": "passed",
+      "problems": []
+    },
+    "scope_vs_task_baseline": {
+      "status": "passed",
+      "changed_files": [
+        "backlog/02-plugins-existants/exist-005-controles.py",
+        "backlog/02-plugins-existants/exist-005-decoupage-ia.md",
+        "backlog/02-plugins-existants/exist-005-gouvernance-ia.md",
+        "backlog/02-plugins-existants/exist-005-inventaire-ia.md",
+        "backlog/02-plugins-existants/exist-005-verification.md",
+        "backlog/02-plugins-existants/suites/ia-001-inventaire-factuel.md",
+        "backlog/02-plugins-existants/suites/ia-002-qualification-usage.md",
+        "backlog/02-plugins-existants/suites/ia-003-pratiques-interdites.md",
+        "backlog/02-plugins-existants/suites/ia-004-qualification-haut-risque.md",
+        "backlog/02-plugins-existants/suites/ia-005-transparence-usage.md",
+        "backlog/02-plugins-existants/suites/ia-006-qualification-modele-gpai.md",
+        "backlog/02-plugins-existants/suites/ia-007-obligations-deployeur.md",
+        "backlog/02-plugins-existants/suites/ia-008-dossier-fournisseur-systeme.md",
+        "backlog/02-plugins-existants/suites/ia-009-evaluation-interne.md",
+        "backlog/02-plugins-existants/suites/ia-010-necessite-fria.md",
+        "backlog/02-plugins-existants/suites/ia-011-projet-fria-service-public.md",
+        "backlog/02-plugins-existants/suites/ia-012-cartographie-contrat-fournisseur.md",
+        "backlog/02-plugins-existants/suites/ia-013-clauses-fournisseur.md",
+        "backlog/02-plugins-existants/suites/ia-014-politique-assistant-interne.md",
+        "backlog/02-plugins-existants/suites/ia-015-comparer-pratique-politique.md",
+        "backlog/02-plugins-existants/suites/ia-016-revue-sorties-politique.md",
+        "backlog/02-plugins-existants/suites/ia-017-ecart-evolution-reglementaire.md",
+        "backlog/02-plugins-existants/suites/ia-018-preferences-gouvernance.md",
+        "backlog/02-plugins-existants/suites/ia-019-dossier-systeme.md",
+        "backlog/02-plugins-existants/suites/ia-020-sources-calendrier.md",
+        "backlog/README.md"
+      ],
+      "preserved_files": 643,
+      "report_excluded_from_own_comparison": true,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 65,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [
+        "  ✓ diligence-grid           orchestrator tool scope clean",
+        "  ✓ docket-watcher           orchestrator tool scope clean",
+        "  ✓ launch-radar             orchestrator tool scope clean",
+        "  ✓ reg-monitor              orchestrator tool scope clean",
+        "  ✓ renewal-watcher          orchestrator tool scope clean"
+      ],
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    }
+  },
+  "package_sha256": {
+    "ai-governance-legal/.claude-plugin/plugin.json": "d78d809577c4f6ba011778f3eaa8a05d92d7461b5f8e3dbcdec5c4b55a43f2f9",
+    "ai-governance-legal/.gitignore": "dc1027e471dbc6e43d3f6eb5461cf5a1d1d8599fb56bb882df9c9ed4d9f036a0",
+    "ai-governance-legal/.mcp.json": "72a52f61913de39898c1a0de9c73085d6cd5c176df7c238832af5707d7bdf1f5",
+    "ai-governance-legal/CLAUDE.md": "7fd152f9027be90292360322c537ae8ebe8705a0c107a403bdbbfefb74cdb752",
+    "ai-governance-legal/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "ai-governance-legal/NOTICE": "21681095762c3ea2bc4120b9fbec7c516446a8f3857b789824f6b78f44ecc9fb",
+    "ai-governance-legal/README.md": "5899eac6500a4ea6909b79d029bd811748722ffb79598b67dc2772a561e9c3bd",
+    "ai-governance-legal/references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "ai-governance-legal/references/currency-watch.md": "0c4ef588da9e576cad94ca69730508b8c41b233c094217571a7897a0aeba64c5",
+    "ai-governance-legal/references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "ai-governance-legal/references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "ai-governance-legal/references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "ai-governance-legal/scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "ai-governance-legal/skills/ai-inventory/SKILL.md": "e96d498ec392b9307d121fa873af0c9ec6cc4096cff771fba614c2b42a9f10e5",
+    "ai-governance-legal/skills/aia-generation/SKILL.md": "31d72119a0e07ecf0c0ad4699c67dceb6914915b4198b1b05b559c281d90410c",
+    "ai-governance-legal/skills/cold-start-interview/SKILL.md": "dcb74ac3722933f1967897ad5b0137625f417e0f40acc846d9b3d42f6c1f1958",
+    "ai-governance-legal/skills/customize/SKILL.md": "19c53eceef2cc97801ab8476b287c69c32e087a51c0068873cc18a041cd81279",
+    "ai-governance-legal/skills/matter-workspace/SKILL.md": "860f68d57da616f024b2eb5abb36515a7af74daf520751f7fa0ac544610f7818",
+    "ai-governance-legal/skills/policy-monitor/SKILL.md": "9573462fb54a8910ffa6b6a4dfb480f53ed792238c36a89d0595d3142f889c5c",
+    "ai-governance-legal/skills/policy-starter/SKILL.md": "e80c3e0e1c1e8daa2cd3d3d360b40a57c71a10158b94c774bfdcd31a58a39c32",
+    "ai-governance-legal/skills/reg-gap-analysis/SKILL.md": "17ce7b6374fe0ab3d73ab40a185461539557c9e40df40545e9b411a2ef6ebf6f",
+    "ai-governance-legal/skills/use-case-triage/SKILL.md": "d498fa0c28be16cc22b24f340b6dfcd3ecee5d59ff9f8ff15ef1a62973e824f6",
+    "ai-governance-legal/skills/vendor-ai-review/SKILL.md": "29f5752ffd02900782445f100447b228749a76340a2aee2439c324a08f2f5113"
+  },
+  "lot_sha256": {
+    "backlog/02-plugins-existants/exist-005-gouvernance-ia.md": "0ffeda4fb12cd1afd01c58c1e1eb0edbec6e017c502306f76d8571c5585e2969",
+    "backlog/02-plugins-existants/exist-005-inventaire-ia.md": "e700fc071324519157290d62a29913e5f6902d95f0e6645f2532ffef88c40d03",
+    "backlog/02-plugins-existants/exist-005-decoupage-ia.md": "11bcfc64bd64c298b4052a6cce07e235e4b2a0e0daf28f8b8a1e870897741caf",
+    "backlog/02-plugins-existants/exist-005-verification.md": "2176c5e20adced71f857cb5db1af3958caa0c5ac24cfc8437eef72fc8dfda457",
+    "backlog/02-plugins-existants/suites/ia-001-inventaire-factuel.md": "bc1b3e7409a3de5a9aa273cbaef541176c7758d2d732659d630da0f307d59fb1",
+    "backlog/02-plugins-existants/suites/ia-002-qualification-usage.md": "a880c32c4f30ee50e9e6a9e2f88ca36b936637395c08aa09937c0b1d581a7409",
+    "backlog/02-plugins-existants/suites/ia-003-pratiques-interdites.md": "14216393dcd3b15c008dfb0840f4d3895b87df410e665b7fd4ed676d18fae71e",
+    "backlog/02-plugins-existants/suites/ia-004-qualification-haut-risque.md": "2eb224ba8e9802428bc6c65d6f56e76c53bea744277bc012049f876f20602ab3",
+    "backlog/02-plugins-existants/suites/ia-005-transparence-usage.md": "f8ec3c5f3c1f5600b5d68a3e20ee77d15988d73eb74adb0bb119058bde1060a7",
+    "backlog/02-plugins-existants/suites/ia-006-qualification-modele-gpai.md": "03160a7de4c96cb323d320a6150ce736869e984afa69301a3cd48241c2ac8e82",
+    "backlog/02-plugins-existants/suites/ia-007-obligations-deployeur.md": "bcb0003d9961387a285c5aa041d42a18807832a58a35b5c8659141b084172f0d",
+    "backlog/02-plugins-existants/suites/ia-008-dossier-fournisseur-systeme.md": "28b3ae4e1ff0ac70a1feae91327f11df7dc7def41344fbb2068a76d60cc76639",
+    "backlog/02-plugins-existants/suites/ia-009-evaluation-interne.md": "c79053ce0a8b7d8aa1e7a439cfc6adc50fb47c064cf2982e3a6ac7b848338498",
+    "backlog/02-plugins-existants/suites/ia-010-necessite-fria.md": "b5f230fedd4ca5bc72d63553b432579125d7dfbe7cf0f225efb944c20d8ae015",
+    "backlog/02-plugins-existants/suites/ia-011-projet-fria-service-public.md": "b8be73846fc3ae9e7576fc299150012a750ef3edba4a28be531015085032c26a",
+    "backlog/02-plugins-existants/suites/ia-012-cartographie-contrat-fournisseur.md": "4e86372b74e3822900f2c02b751a3399381e80bb48ce4b2b24029bcc2fbe0982",
+    "backlog/02-plugins-existants/suites/ia-013-clauses-fournisseur.md": "3dcd5a83231abed347d6612a69ceb41bfffb6fa7604f582f3a605b6035aff582",
+    "backlog/02-plugins-existants/suites/ia-014-politique-assistant-interne.md": "b30d961b2002958084e0f95fe3ea695dc42ac8a20f4697bada7a3591ff917db7",
+    "backlog/02-plugins-existants/suites/ia-015-comparer-pratique-politique.md": "c3351b12a225765535c2bfb953e2d11c1a66c329cb586e75cf5cba66d2e99d38",
+    "backlog/02-plugins-existants/suites/ia-016-revue-sorties-politique.md": "223ac2c30dc00cef999d3aa6040213aca2d0dee4390df0faa5b65a5cf7616df5",
+    "backlog/02-plugins-existants/suites/ia-017-ecart-evolution-reglementaire.md": "7f234dc509995f506b987d79fbd86d4c74d535096935bc6eadc33a366eae1761",
+    "backlog/02-plugins-existants/suites/ia-018-preferences-gouvernance.md": "d1ab80f0e72a905815d625e9078b5b6ef91cb1961db586dd2f0e72f639c5cdaf",
+    "backlog/02-plugins-existants/suites/ia-019-dossier-systeme.md": "c1689a7fc0650c3115a589e08be35faebdfc9c807ae6e2952ac1a33edefc2fed",
+    "backlog/02-plugins-existants/suites/ia-020-sources-calendrier.md": "ee06c2a67e2de594d5f167e0d9f788cebd1e0a8b3f75985b284981b62751d89e",
+    "backlog/README.md": "b089f3113e26b6e6d8d3cf2278eefcd601d29ceb730c3453c56e3c4031a44897",
+    "backlog/02-plugins-existants/exist-005-controles.py": "e6aee450a37c37632394c4de51316fc6b0306e12a6f5723cb4383b780e91f831"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "classification définitive",
+    "calcul de délai réel",
+    "exécution de skill",
+    "installation/recette client",
+    "lecteur indépendant",
+    "connexion/envoi/publication/déploiement"
+  ],
+  "commands": [
+    "python backlog/02-plugins-existants/exist-005-controles.py --baseline <instantane-debut-tache.json> --output backlog/02-plugins-existants/exist-005-resultats.json",
+    "python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)",
+    "git diff --check (appelé par le contrôleur)"
+  ],
+  "execution_notes": [
+    "Premier lint sans mode UTF-8 : erreur d'affichage cp1252 du caractère coche, corrigée par python -X utf8 sans modification du script existant.",
+    "Premier contrôle des liens avant création du rapport JSON : liens vers le rapport absents ; contrôle final exécuté avec le rapport présent.",
+    "Validation des schémas plugin/client non exécutée : aucun fichier de paquet modifié dans ce lot de cadrage."
+  ]
+}

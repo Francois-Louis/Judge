@@ -1,0 +1,281 @@
+{
+  "story": "EXIST-003",
+  "date": "2026-10-16",
+  "scope": "cadrage documentaire uniquement",
+  "checks": {
+    "frontmatter_and_dependencies": {
+      "status": "passed",
+      "stories": 148,
+      "statuses": {
+        "terminee": 22,
+        "en-cours": 1,
+        "proposee": 125
+      },
+      "cycles": 0,
+      "unknown_dependencies": 0
+    },
+    "prv_proposals": {
+      "status": "passed",
+      "count": 21,
+      "all_proposed": true,
+      "all_indexed": true,
+      "files_results_sources_scenarios_present": true,
+      "future_paths_explicit": [
+        {
+          "owner": "PRV-001",
+          "path": "privacy-legal/skills/access-request/SKILL.md"
+        },
+        {
+          "owner": "PRV-001",
+          "path": "privacy-legal/references/demande-acces.md"
+        },
+        {
+          "owner": "PRV-002",
+          "path": "privacy-legal/references/exercice-droits.md"
+        },
+        {
+          "owner": "PRV-003",
+          "path": "privacy-legal/references/reponse-acces.md"
+        },
+        {
+          "owner": "PRV-004",
+          "path": "privacy-legal/references/reponse-effacement.md"
+        },
+        {
+          "owner": "PRV-005",
+          "path": "privacy-legal/references/reponse-rectification.md"
+        },
+        {
+          "owner": "PRV-006",
+          "path": "privacy-legal/references/reponse-portabilite.md"
+        },
+        {
+          "owner": "PRV-007",
+          "path": "privacy-legal/references/reponse-opposition.md"
+        },
+        {
+          "owner": "PRV-008",
+          "path": "privacy-legal/references/reponse-limitation.md"
+        },
+        {
+          "owner": "PRV-009",
+          "path": "privacy-legal/references/qualification-traitement.md"
+        },
+        {
+          "owner": "PRV-010",
+          "path": "privacy-legal/references/necessite-aipd.md"
+        },
+        {
+          "owner": "PRV-011",
+          "path": "privacy-legal/references/projet-aipd.md"
+        },
+        {
+          "owner": "PRV-012",
+          "path": "privacy-legal/references/consultation-prealable.md"
+        },
+        {
+          "owner": "PRV-013",
+          "path": "privacy-legal/references/roles-traitement.md"
+        },
+        {
+          "owner": "PRV-014",
+          "path": "privacy-legal/references/revue-sous-traitance.md"
+        },
+        {
+          "owner": "PRV-015",
+          "path": "privacy-legal/references/transferts-donnees.md"
+        },
+        {
+          "owner": "PRV-016",
+          "path": "privacy-legal/references/ecarts-normatifs.md"
+        },
+        {
+          "owner": "PRV-017",
+          "path": "privacy-legal/references/information-pratiques.md"
+        },
+        {
+          "owner": "PRV-018",
+          "path": "privacy-legal/references/suivi-derive.md"
+        },
+        {
+          "owner": "PRV-020",
+          "path": "privacy-legal/references/dossier-donnees.md"
+        }
+      ]
+    },
+    "inventory_exact_coverage": {
+      "status": "passed",
+      "package_files": 23,
+      "skills": 9,
+      "agents": 0,
+      "missing": []
+    },
+    "shared_copies": {
+      "status": "passed",
+      "method_version": "1.0.0",
+      "identical": {
+        "references/shared/research-citation-method.md": true,
+        "references/isolation.md": true,
+        "scripts/judge_store.py": true,
+        "references/company-profile-template.md": true,
+        "references/dashboard-template.md": true
+      }
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 26,
+      "local_links": 211,
+      "broken_links": 0,
+      "trailing_whitespace": 0
+    },
+    "backlog_index": {
+      "status": "passed",
+      "baseline_stories": 127,
+      "added_proposals": 21,
+      "new_total": 148
+    },
+    "scope_backlog_only": {
+      "status": "passed",
+      "files": [
+        "backlog/02-plugins-existants/exist-003-decoupage-donnees.md",
+        "backlog/02-plugins-existants/exist-003-donnees-personnelles.md",
+        "backlog/02-plugins-existants/exist-003-inventaire-donnees.md",
+        "backlog/02-plugins-existants/exist-003-resultats.json",
+        "backlog/02-plugins-existants/exist-003-verification.md",
+        "backlog/02-plugins-existants/suites/prv-001-preparer-demande-acces.md",
+        "backlog/02-plugins-existants/suites/prv-002-qualifier-demande-droits.md",
+        "backlog/02-plugins-existants/suites/prv-003-projet-reponse-acces.md",
+        "backlog/02-plugins-existants/suites/prv-004-projet-reponse-effacement.md",
+        "backlog/02-plugins-existants/suites/prv-005-projet-reponse-rectification.md",
+        "backlog/02-plugins-existants/suites/prv-006-projet-reponse-portabilite.md",
+        "backlog/02-plugins-existants/suites/prv-007-projet-reponse-opposition.md",
+        "backlog/02-plugins-existants/suites/prv-008-projet-reponse-limitation.md",
+        "backlog/02-plugins-existants/suites/prv-009-qualifier-traitement.md",
+        "backlog/02-plugins-existants/suites/prv-010-necessite-aipd.md",
+        "backlog/02-plugins-existants/suites/prv-011-projet-aipd.md",
+        "backlog/02-plugins-existants/suites/prv-012-dossier-consultation-prealable.md",
+        "backlog/02-plugins-existants/suites/prv-013-qualifier-roles-contrat.md",
+        "backlog/02-plugins-existants/suites/prv-014-revue-sous-traitance.md",
+        "backlog/02-plugins-existants/suites/prv-015-qualifier-transfert.md",
+        "backlog/02-plugins-existants/suites/prv-016-ecarts-changement-normatif.md",
+        "backlog/02-plugins-existants/suites/prv-017-ecart-notice-pratique.md",
+        "backlog/02-plugins-existants/suites/prv-018-rapport-derive-documentaire.md",
+        "backlog/02-plugins-existants/suites/prv-019-preferences-donnees.md",
+        "backlog/02-plugins-existants/suites/prv-020-dossier-donnees.md",
+        "backlog/02-plugins-existants/suites/prv-021-checklist-actualite.md",
+        "backlog/README.md"
+      ],
+      "changed_existing_and_added_before_report": [
+        "backlog/02-plugins-existants/exist-003-decoupage-donnees.md",
+        "backlog/02-plugins-existants/exist-003-donnees-personnelles.md",
+        "backlog/02-plugins-existants/exist-003-inventaire-donnees.md",
+        "backlog/02-plugins-existants/exist-003-resultats.json",
+        "backlog/02-plugins-existants/exist-003-verification.md",
+        "backlog/02-plugins-existants/suites/prv-001-preparer-demande-acces.md",
+        "backlog/02-plugins-existants/suites/prv-002-qualifier-demande-droits.md",
+        "backlog/02-plugins-existants/suites/prv-003-projet-reponse-acces.md",
+        "backlog/02-plugins-existants/suites/prv-004-projet-reponse-effacement.md",
+        "backlog/02-plugins-existants/suites/prv-005-projet-reponse-rectification.md",
+        "backlog/02-plugins-existants/suites/prv-006-projet-reponse-portabilite.md",
+        "backlog/02-plugins-existants/suites/prv-007-projet-reponse-opposition.md",
+        "backlog/02-plugins-existants/suites/prv-008-projet-reponse-limitation.md",
+        "backlog/02-plugins-existants/suites/prv-009-qualifier-traitement.md",
+        "backlog/02-plugins-existants/suites/prv-010-necessite-aipd.md",
+        "backlog/02-plugins-existants/suites/prv-011-projet-aipd.md",
+        "backlog/02-plugins-existants/suites/prv-012-dossier-consultation-prealable.md",
+        "backlog/02-plugins-existants/suites/prv-013-qualifier-roles-contrat.md",
+        "backlog/02-plugins-existants/suites/prv-014-revue-sous-traitance.md",
+        "backlog/02-plugins-existants/suites/prv-015-qualifier-transfert.md",
+        "backlog/02-plugins-existants/suites/prv-016-ecarts-changement-normatif.md",
+        "backlog/02-plugins-existants/suites/prv-017-ecart-notice-pratique.md",
+        "backlog/02-plugins-existants/suites/prv-018-rapport-derive-documentaire.md",
+        "backlog/02-plugins-existants/suites/prv-019-preferences-donnees.md",
+        "backlog/02-plugins-existants/suites/prv-020-dossier-donnees.md",
+        "backlog/02-plugins-existants/suites/prv-021-checklist-actualite.md",
+        "backlog/README.md"
+      ],
+      "preexisting_changes_preserved": true,
+      "comparison": "SHA-256 comparison of every preexisting workspace file outside .git to start-of-task baseline; only EXIST-003 artifacts, PRV proposals and backlog/README.md may differ"
+    },
+    "package_cookbook_vendor_unchanged": {
+      "status": "passed",
+      "command": "git diff --exit-code HEAD -- privacy-legal managed-agent-cookbooks external_plugins",
+      "exit_code": 0,
+      "output": ""
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "command": "git diff --check",
+      "exit_code": 0,
+      "output": ""
+    },
+    "json_sanity": {
+      "status": "passed",
+      "files_including_this_report": 63
+    }
+  },
+  "package_sha256": {
+    "privacy-legal/.claude-plugin/plugin.json": "c0b53b6232dc33184da64f24ac8d584207728e120057371ffd08888acd5cd0f7",
+    "privacy-legal/.gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+    "privacy-legal/.mcp.json": "99dc0f11ba18bc507fb82a9911e56d96aa1d10e107e07d79d1e43a88ae81ed68",
+    "privacy-legal/CLAUDE.md": "49dc8ff455403cbabd783f8e4c0d82100a7ea0a0eec941d05ef8ac0578cb9555",
+    "privacy-legal/hooks/hooks.json": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+    "privacy-legal/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "privacy-legal/NOTICE": "c69d83f52f85bc537d9d849a9a0b2e880f82cc96478e0bae4063cafe9d19e819",
+    "privacy-legal/README.md": "94b60733d4fcea06ce7047d36b0369e22c3162cf834e3889feeaeb5e776c728e",
+    "privacy-legal/references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "privacy-legal/references/currency-watch.md": "58b711f81957ddc45f501172945d1467720495301c94bf319cd40d98a3f6b460",
+    "privacy-legal/references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "privacy-legal/references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "privacy-legal/references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "privacy-legal/scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "privacy-legal/skills/cold-start-interview/SKILL.md": "540711f4c5ff13aeec9329ac5c404f7cffc621d40c3ea974fa962a81152dc252",
+    "privacy-legal/skills/customize/SKILL.md": "8072ecb625b574629512b04e71a429e1da082d8774d9e02462e863a373a577d1",
+    "privacy-legal/skills/dpa-review/SKILL.md": "a17329ef0ae23eae752ab1a932e08d394c9b5ca81c0369c1ae7637c108ae412b",
+    "privacy-legal/skills/dsar-response/SKILL.md": "c7600434b04ef17ddf43687a065bcdc5084d7f6c988eeeb5bfe4b1660cf46a47",
+    "privacy-legal/skills/matter-workspace/SKILL.md": "2e5aa3bd10268f1d44101c8c0f2784b2452a9060ea28c291d4af018169559aa0",
+    "privacy-legal/skills/pia-generation/SKILL.md": "a6104346e0e942dd7c38bb06376d4ad1e4635093e184b7bf5aa5ac90d8f795e3",
+    "privacy-legal/skills/policy-monitor/SKILL.md": "a45861f3c887bee3935b6928ac51280b5995fa70701ebed80ec1d67b7a356cda",
+    "privacy-legal/skills/reg-gap-analysis/SKILL.md": "52da8f1e65c4bb96a7d583f4b3709ac4c9a3137937db58c3f1c930b82925dce6",
+    "privacy-legal/skills/use-case-triage/SKILL.md": "135c3415149401975f73aa62ae2e36bd2aa61374e4fa60f275cb048ce146ec7c"
+  },
+  "deliverable_markdown_sha256": {
+    "backlog/02-plugins-existants/exist-003-decoupage-donnees.md": "7398491c4090eb84865bffbea06e977affb4f0470cbebee58882f1dd306988ea",
+    "backlog/02-plugins-existants/exist-003-donnees-personnelles.md": "d0aa7b8fbcecc7168cc19326bb95897d6e16a9981ddcfe998de72cf15d19d9fa",
+    "backlog/02-plugins-existants/exist-003-inventaire-donnees.md": "3cbdc4d429c472934b5ba39ae59fbc469cdfb461b4f4aa89e84aa2007e82a38c",
+    "backlog/02-plugins-existants/exist-003-verification.md": "58e37ce6de24a91c54ff831d1d605fadc3f4d5c8c479cf7936b1988525b2bcf4",
+    "backlog/02-plugins-existants/suites/prv-001-preparer-demande-acces.md": "62fe89f63ef936886bc23b6ae150a3dcc5ca08197ebfae192b4240e98dd9576d",
+    "backlog/02-plugins-existants/suites/prv-002-qualifier-demande-droits.md": "7de9fb71aff9097eab8d4ea1ebe3d8256da07d055f3d2a4944167dde51f29695",
+    "backlog/02-plugins-existants/suites/prv-003-projet-reponse-acces.md": "5d44e294b7ae52df06a13141797e5f7ea0e5ae949734d70b2e33e738c23b1592",
+    "backlog/02-plugins-existants/suites/prv-004-projet-reponse-effacement.md": "f8d0d70efd8016989c6e6265ef26b61e829d44a487c1cb86ffe98a012e1511fa",
+    "backlog/02-plugins-existants/suites/prv-005-projet-reponse-rectification.md": "becfc40d8a45b875d75a9591e223d1d44c9b2bfe334e8c7b73d568708b2e96dc",
+    "backlog/02-plugins-existants/suites/prv-006-projet-reponse-portabilite.md": "215de15bb9fbd05d89c367a18052f7c1d22c2df10505536c9ad344b7ba2f2d54",
+    "backlog/02-plugins-existants/suites/prv-007-projet-reponse-opposition.md": "d2952912671d75f4d09d27c57364fbbd6a0a865ff85c87c8714fc5a15a96a01c",
+    "backlog/02-plugins-existants/suites/prv-008-projet-reponse-limitation.md": "f2f44d726865ffda31bb2e436a4b19915f669741a1507c028178c04724c3406b",
+    "backlog/02-plugins-existants/suites/prv-009-qualifier-traitement.md": "2686fbf890c5a0f31d6b7c997c018b6674611e11bf75cfa17ee096324ea4e810",
+    "backlog/02-plugins-existants/suites/prv-010-necessite-aipd.md": "0e793961c008e6d74d7ffa74c419710778973aff133aaab7d86112ed5087446b",
+    "backlog/02-plugins-existants/suites/prv-011-projet-aipd.md": "a4373219bfa4aea3fa694c324fa6cdc36ca3e0bad8bb86d352de39da2596b6bf",
+    "backlog/02-plugins-existants/suites/prv-012-dossier-consultation-prealable.md": "f92083cb00f602ea769477af2497863b567cd22d4244a228c607f52e16965e23",
+    "backlog/02-plugins-existants/suites/prv-013-qualifier-roles-contrat.md": "812555403c786f7b41dbc476e09ea30e4494be366a8243e37acdba6a4f935430",
+    "backlog/02-plugins-existants/suites/prv-014-revue-sous-traitance.md": "b502feb45c06385dac06dde759ad6224d6b0a0581a6b35196bf31ee4cdb81ab9",
+    "backlog/02-plugins-existants/suites/prv-015-qualifier-transfert.md": "b3c67f47991ebf0a6f1342cb83aab83d75817d09ca71a58356f71b51be9f36ab",
+    "backlog/02-plugins-existants/suites/prv-016-ecarts-changement-normatif.md": "21877b70fae117ca759c8d5f112350a1de693638ce59a4ff1750ae048fef4556",
+    "backlog/02-plugins-existants/suites/prv-017-ecart-notice-pratique.md": "2385d8fb87e4c504fb11cb97f8131ed42cc94fb3f3167677cec1b5b514cd6e70",
+    "backlog/02-plugins-existants/suites/prv-018-rapport-derive-documentaire.md": "545a419e9e109bd3cc85c83963fa883a30eb426ae4f3adcfdf3d54730e3d611a",
+    "backlog/02-plugins-existants/suites/prv-019-preferences-donnees.md": "2882215742b26294bce4e3583ae9c2cb080aa7f4612ad9fc5747778474ad4e0b",
+    "backlog/02-plugins-existants/suites/prv-020-dossier-donnees.md": "a5cc8c021d41e4b1ce657103a8c40d82ca2b6145fcf01e0905cdde1f466ba730",
+    "backlog/02-plugins-existants/suites/prv-021-checklist-actualite.md": "12a1818ebe0687e0a2e3e6073243ec205bdcb5494e0c6b1b6eb042cd55a6637e",
+    "backlog/README.md": "671928f25dd7fd67b3e8a440f2a8d2ea713e3f693f69e1077bb7d33c3dd0a1d2"
+  },
+  "verification": {
+    "method": "relecture documentaire des dossiers fictifs D, C et S par le rédacteur",
+    "legal_sources_consulted": [],
+    "legal_deadlines_calculated": false,
+    "skill_execution": false,
+    "package_installation": false,
+    "live_client": false,
+    "independent_or_real_reader": false,
+    "external_actions": false
+  },
+  "reproduction": "Python 3.12/PyYAML : parser le frontmatter de backlog/**/*.md, vérifier unicité/champs/dépendances et cycles ; vérifier les chemins de fichiers et liens des 26 Markdown du lot, index inclus, comparer copies et empreintes ; git diff --exit-code HEAD -- privacy-legal managed-agent-cookbooks external_plugins ; git diff --check. Le baseline intégral de début de tâche est temporaire ; empreintes du plugin et des livrables conservées ici."
+}

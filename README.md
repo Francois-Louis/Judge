@@ -5,8 +5,11 @@
 **Version technique 0.1.0.** Fork indépendant de Claude for Legal / Anthropic,
 maintenu sur [Francois-Louis/Judge](https://github.com/Francois-Louis/Judge),
 sans affiliation revendiquée. BASE-008 isole les noms, profils et données ;
-le pilote `employment-legal:hiring-review` 0.2.0 est réécrit pour l'embauche
-privée en France, avec recette client et utilisateur à compléter ; les autres
+le pilote `employment-legal:hiring-review` 0.2.1 est réécrit pour l'embauche
+privée en France, recette client faite sur fixtures et lecteur non indépendant,
+livré seul dans le [lot LIV-001](backlog/04-livraison/liv-001-notes-version.md) ; `commercial-legal:review`
+0.2.0 est réécrit pour l'orientation contractuelle COM-001 sans profil obligatoire,
+avec validation client/utilisateur à compléter ; les autres
 tâches juridiques héritées restent à adapter à la France et à l'UE.
 Voir le [démarrage du fork](QUICKSTART.md), les [preuves et limites de validation](references/base008-validation.md),
 la [licence](LICENSE) et les [fichiers modifiés](NOTICE).
@@ -44,8 +47,8 @@ Each agent is named for the workflow it runs. They're the most common surface �
 
 | Agent | What it does | Plugin | Command |
 |---|---|---|---|
-| **Vendor Agreement Reviewer** | Reviews a vendor MSA against your playbook and produces a redline memo | `commercial-legal` | `/judge-fr-eu-commercial-legal:review` |
-| **NDA Triager** | GREEN/YELLOW/RED triage of inbound NDAs so only the hard ones hit a lawyer's desk | `commercial-legal` | `/judge-fr-eu-commercial-legal:review` |
+| **Orientation contractuelle** | Qualifie contrat/récit, domaine, achat/vente, pièces et suite ; COM-001, sans profil obligatoire | `commercial-legal` | `/judge-fr-eu-commercial-legal:review` |
+| **Revue prestation / NDA / SaaS** | Branches héritées non adaptées France/UE ; COM-002/003/004 proposés, aucun lancement par `review` | `commercial-legal` | — |
 | **Amendment Tracer** | Traces how a contract has changed across its base agreement and every amendment | `commercial-legal` | `/judge-fr-eu-commercial-legal:amendment-history` |
 | **Renewal Watcher** | Scans the contract register for cancel-by and renewal deadlines | `commercial-legal` | scheduled agent |
 | **Deal Debrief** | Weekly sweep of signed agreements with playbook deviations — prompts the attorney to log context while memory is fresh | `commercial-legal` | scheduled agent |
@@ -249,13 +252,15 @@ Everything is markdown and JSON. No build step.
 
 ## Vertical Plugins
 
-Grouped by where the work sits. Each plugin's cold-start interview is what tailors it to your team — start there.
+Grouped by where the work sits. Cold-start interviews tailor inherited workflows
+to a team. The COM-001 contract orientation starts directly from documents or a
+narrative, without a profile or interview.
 
 ### Transactional & advisory
 
 | Plugin | What it adds |
 |---|---|
-| **[commercial-legal](./commercial-legal)** | Playbook-aware review of vendor agreements, NDAs, and SaaS subscriptions. Amendment tracing. Renewal register with cancel-by alerts. Escalation routing. Stakeholder summaries. |
+| **[commercial-legal](./commercial-legal)** | Orientation contractuelle COM-001 sans profil obligatoire. Revues, avenants, registres, escalades et agents hérités non adaptés France/UE. |
 | **[corporate-legal](./corporate-legal)** | M&A diligence with tabular review and citation-per-cell. Disclosure schedules, closing checklists, written consents, board minutes. Entity compliance tracker. Post-close integration. |
 | **[privacy-legal](./privacy-legal)** | Privacy triage (PIA vs DPIA vs proceed), PIA generation, DPA review as controller or processor, DSAR response. Policy monitor watches drift between policy and practice. |
 | **[product-legal](./product-legal)** | Launch review against house risk calibration. Marketing claims check. "Is this a problem?" triage for Slack questions. Feature risk assessment. |
@@ -344,7 +349,10 @@ These plugins ship connectors for the systems legal teams live in. A connector g
 
 ## Claude for Microsoft 365
 
-Lawyers live in Word and Excel. **Every contract-touching skill in this repo is authored to work in the Claude for Word sidebar, with tracked changes as the output mode.** That's `judge-fr-eu-commercial-legal:review` (vendor agreements, NDAs, SaaS subscriptions), `judge-fr-eu-commercial-legal:amendment-history`, `judge-fr-eu-ip-legal:ip-clause-review`, `judge-fr-eu-ai-governance-legal:vendor-ai-review`, `judge-fr-eu-privacy-legal:dpa-review`, and the diligence extraction in `corporate-legal`. A reviewer accepts or rejects each change exactly as they would for a human markup — numbering, defined terms, cross-references, and styles are preserved.
+Les intégrations Word/Excel décrites par l'amont restent à vérifier dans ce
+fork. `judge-fr-eu-commercial-legal:review` produit désormais une fiche
+d'orientation dans la conversation ; il ne promet pas de redline Word ni de
+revue prestation/NDA/SaaS. Les autres workflows Office hérités restent non adaptés.
 
 The Excel-facing skills produce workbooks that open cleanly: `judge-fr-eu-corporate-legal:tabular-review` writes a multi-sheet `.xlsx` with a sources sheet, `judge-fr-eu-litigation-legal:claim-chart` writes an element-by-element claim chart with citation columns, `judge-fr-eu-corporate-legal:entity-compliance` writes the compliance register with deadline columns, and `judge-fr-eu-commercial-legal:renewal-tracker` exports the renewal register sorted by cancel-by date.
 
@@ -418,10 +426,15 @@ The full map across all plugins. The cold-start interview is the first thing to 
 
 ### commercial-legal
 
+COM-001 adapte uniquement l'orientation. Toutes les autres lignes de ce tableau
+décrivent des composants hérités non adaptés France/UE ; voir le
+[périmètre du paquet](commercial-legal/README.md). L'interview reste facultative
+pour l'orientation ponctuelle.
+
 | Command | Skill | What it does |
 |---|---|---|
 | `/judge-fr-eu-commercial-legal:cold-start-interview` | cold-start-interview | Cold-start — learn your commercial contracts practice |
-| `/judge-fr-eu-commercial-legal:review` | vendor-agreement-review · nda-review · saas-msa-review | Review vendor agreement, NDA, or SaaS subscription |
+| `/judge-fr-eu-commercial-legal:review` | review | Orienter contrat/récit, domaine et tâche, avec pièces et questions ; aucune revue aval automatique |
 | `/judge-fr-eu-commercial-legal:amendment-history` | amendment-history | Trace contract changes across base and amendments |
 | `/judge-fr-eu-commercial-legal:renewal-tracker` | renewal-tracker | Show contracts with cancel-by deadlines within 90 days |
 | `/judge-fr-eu-commercial-legal:escalation-flagger` | escalation-flagger | Route a contract issue and draft the ask |

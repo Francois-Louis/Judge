@@ -1,0 +1,183 @@
+{
+  "story": "COM-001",
+  "checked_at": "2026-10-16T06:19:51.449134+00:00",
+  "timezone": "Europe/Paris",
+  "skill_execution": "non-execute",
+  "reader": "non-execute",
+  "commands": [
+    {
+      "label": "detached-package",
+      "args": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "<RECETTE>\\tools\\check-plugin-package.py",
+        "<RECETTE>\\market\\commercial-legal",
+        "--schema",
+        "--claude",
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe"
+      ],
+      "exit_code": 2,
+      "stdout": "A_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/matters/<matter-slug>/\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/verification-log.md\nA_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md\nA_RELIRE README.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE agents/deal-debrief.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE agents/deal-debrief.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/deviation-log.yaml\nA_RELIRE agents/playbook-monitor.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE agents/playbook-monitor.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/deviation-log.yaml\nA_RELIRE agents/playbook-monitor.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/playbook-monitor-log.yaml\nA_RELIRE agents/playbook-monitor.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/playbook-proposals-[YYYYMMDD].md\nA_RELIRE agents/playbook-monitor.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/playbook-proposals.md\nA_RELIRE agents/renewal-watcher.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE references/dashboard-template.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/<domain>/outputs/dashboard-<topic>-<date>.html\nA_RELIRE references/isolation.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/\nA_RELIRE skills/amendment-history/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE skills/amendment-history/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/matters/<matter-slug>/\nA_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md\nA_RELIRE skills/cold-start-interview/SKILL.md: commande d'un autre plugin à qualifier: /judge-fr-eu-legal-builder-hub:related-skills-surfacer\nA_RELIRE skills/customize/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE skills/customize/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md\nA_RELIRE skills/escalation-flagger/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE skills/escalation-flagger/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/matters/<matter-slug>/\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/matters/*/matter.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/matters/<slug>/\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/matters/<slug>/matter.md\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/matters/_archived/\nA_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/matters/_archived/<slug>/\nA_RELIRE skills/nda-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE skills/nda-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/matters/<matter-slug>/\nA_RELIRE skills/renewal-tracker/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE skills/renewal-tracker/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/renewal-register.yaml\nA_RELIRE skills/review-proposals/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE skills/saas-msa-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE skills/saas-msa-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/matters/<matter-slug>/\nA_RELIRE skills/stakeholder-summary/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE skills/stakeholder-summary/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/matters/<matter-slug>/\nA_RELIRE skills/vendor-agreement-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/CLAUDE.md\nA_RELIRE skills/vendor-agreement-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/commercial-legal/matters/<matter-slug>/\nA_RELIRE skills/vendor-agreement-review/SKILL.md: commande d'un autre plugin à qualifier: /judge-fr-eu-privacy-legal:dpa-review\nSTRUCTURE INCOMPLET: 22 fichiers Markdown; contrôle statique borné\nSCHEMA CLI: C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe (--claude)\nValidating plugin manifest: <RECETTE>\\market\\commercial-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <RECETTE>\\market\\commercial-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\nSCHEMA OK: code 0\nEXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE\n",
+      "stderr": ""
+    },
+    {
+      "label": "missing-profile",
+      "args": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "<RECETTE>\\market\\commercial-legal\\scripts\\judge_store.py",
+        "read",
+        "CLAUDE.md",
+        "--home",
+        "<RECETTE>\\home"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"path\": \"C:\\\\Users\\\\fltou\\\\AppData\\\\Local\\\\Temp\\\\judge-com001-4pahad9q\\\\home\\\\.claude\\\\plugins\\\\config\\\\judge-fr-eu\\\\commercial-legal\\\\CLAUDE.md\", \"content\": null, \"status\": \"interview-required\", \"events\": [{\"operation\": \"read\", \"path\": \"C:\\\\Users\\\\fltou\\\\AppData\\\\Local\\\\Temp\\\\judge-com001-4pahad9q\\\\home\\\\.claude\\\\plugins\\\\config\\\\judge-fr-eu\\\\commercial-legal\\\\CLAUDE.md\"}]}\n",
+      "stderr": ""
+    },
+    {
+      "label": "traversal-refused",
+      "args": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "<RECETTE>\\market\\commercial-legal\\scripts\\judge_store.py",
+        "read",
+        "../company-profile.md",
+        "--home",
+        "<RECETTE>\\home"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "REFUSED: unsafe relative path\n"
+    },
+    {
+      "label": "cli-version",
+      "args": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "2.1.299 (Claude Code)\n",
+      "stderr": ""
+    },
+    {
+      "label": "marketplace-schema",
+      "args": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "validate",
+        "<CHECKOUT>\\.claude-plugin\\marketplace.json"
+      ],
+      "exit_code": 0,
+      "stdout": "Validating marketplace manifest: <CHECKOUT>\\.claude-plugin\\marketplace.json\n\n√ Validation passed\n",
+      "stderr": ""
+    },
+    {
+      "label": "local-marketplace-add",
+      "args": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "marketplace",
+        "add",
+        "<RECETTE>\\market"
+      ],
+      "exit_code": 0,
+      "stdout": "Adding marketplace…√ Successfully added marketplace: judge-fr-eu (declared in user settings)\n",
+      "stderr": ""
+    },
+    {
+      "label": "local-plugin-install",
+      "args": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "install",
+        "judge-fr-eu-commercial-legal@judge-fr-eu"
+      ],
+      "exit_code": 0,
+      "stdout": "Installing plugin \"judge-fr-eu-commercial-legal@judge-fr-eu\"...√ Successfully installed plugin: judge-fr-eu-commercial-legal@judge-fr-eu (scope: user)\n",
+      "stderr": ""
+    },
+    {
+      "label": "local-plugin-list",
+      "args": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "list"
+      ],
+      "exit_code": 0,
+      "stdout": "Installed plugins:\n\n  > judge-fr-eu-commercial-legal@judge-fr-eu\n    Version: 0.2.0\n    Read from: <RECETTE>\\market\\commercial-legal\n    Scope: user\n    Status: √ enabled\n\n",
+      "stderr": ""
+    },
+    {
+      "label": "auth-status",
+      "args": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "auth",
+        "status"
+      ],
+      "exit_code": 1,
+      "stdout": "{\"loggedIn\": false, \"authMethod\": \"none\", \"apiProvider\": \"firstParty\"}",
+      "stderr": ""
+    }
+  ],
+  "checks": {
+    "method_identical": true,
+    "isolation.md_identical": true,
+    "judge_store.py_identical": true,
+    "local:references/isolation.md": true,
+    "local:references/shared/research-citation-method.md": true,
+    "local:references/orientation-commerciale.md": true,
+    "local:scripts/judge_store.py": true,
+    "marketplace_matches": true,
+    "no_structure_errors": true,
+    "structure_review_count": 42,
+    "missing_stays_missing": true,
+    "missing_read_did_not_create_profile": true,
+    "traversal_refused": true,
+    "original_preserved": true,
+    "package_unchanged_by_checks": true
+  },
+  "source_revision": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "package": {
+    ".claude-plugin/plugin.json": "ad256d205b224be89537d83bb9e5392780cc52fa4f599d03b7643625ebe38c28",
+    ".gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+    ".mcp.json": "4f6da46a5d9b1196911903a24a5722e1cac605cab36c9686c86df4cb916c25d2",
+    "agents/deal-debrief.md": "80c8656e5d0029b59e4e3e348931de966af477146fd520fe615a4a36c801ee23",
+    "agents/playbook-monitor.md": "d4bd671a180d97a0d4dce31241fd6e9a6d80869ef1b11c884503fe19dedab956",
+    "agents/renewal-watcher.md": "ad4d1724a64071ac3d99a34eb9718bdb3e96be8190d12e88bd4fe983cb64f8e8",
+    "CLAUDE.md": "997b34c601b9438ff93d0f15da736999c5e0c4a4862915aa1b604a65f6127b0e",
+    "hooks/hooks.json": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "logs/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "NOTICE": "12fe5c6ff9d4fc4da540117e1aad1808d3935582b0e43d0727decab5e801eff3",
+    "README.md": "0eca85562839a00d3d7364dd8459b6fd83904eadd2cc77813ff8826070b9bee8",
+    "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "references/orientation-commerciale.md": "ae9d9fefbd4c13779e82de2fe0130b51f84cbb1b447a68e548c86dd83b7c371e",
+    "references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "skills/amendment-history/SKILL.md": "b50d8e0a74dc9d8c5dfdd397c161dfa4f148d64d56feab9706d7de861200d25a",
+    "skills/cold-start-interview/SKILL.md": "f145a7bf3d340bfba276d7c5e49ea94cd478ad9eae8dc957da78c8f92b8e7b2c",
+    "skills/customize/SKILL.md": "b1e162f407a7b2982b594e6949ed4003ff9d2e08000d34b21d970117736d1954",
+    "skills/escalation-flagger/SKILL.md": "9897aaa91b56be6acb59a67a97d06f7f42c78f8d1d0c49162da1db42ecbf8d86",
+    "skills/matter-workspace/SKILL.md": "edb8c01c99bc7459ba1ece745bfb062a00fe85cebf8f48ea07058634b53acf34",
+    "skills/nda-review/SKILL.md": "3c1b32a40352d2a1601170f1c64c829ca85800444e4ab51be42758203bf8383e",
+    "skills/renewal-tracker/references/renewal-register.yaml": "09fe99c51a958d2df242ee6e7c9aadf039eb0f78286742ed4e1472f1596d1a2f",
+    "skills/renewal-tracker/SKILL.md": "9ee920dc8479e7c704b44a0d1c7628f581d82e43d19ab4738a2752d60ccf75be",
+    "skills/review/SKILL.md": "73b5b66c879202b71936f39ebc00f5d3fc2bb3e8acff44eb13d99b8caac7e662",
+    "skills/review-proposals/SKILL.md": "d5b80d401503896c1da7a1b8b91459dba6e760ec8156867dc667fdc6f8cd0376",
+    "skills/saas-msa-review/SKILL.md": "cc6cf93cf716f0b094dcd564ff978e1a76bb8d879c071b3e094705b69fedea66",
+    "skills/stakeholder-summary/SKILL.md": "46d44532d5788c2836a29cd9bc9f96d1dda7ac028d42b2fb8b151282c91af56b",
+    "skills/vendor-agreement-review/SKILL.md": "8a847c2b09db476bb92af5b8cbd5cb62e51710a995318e947c08284775f5dc8c"
+  },
+  "archive": {
+    "name": "commercial-legal.zip",
+    "sha256": "fb39b751961fd1134f426954b49e9776d71fcc8f0bae1987d231add683022d4b",
+    "bytes": 132685,
+    "retention": "jetable ; inventaire conserve"
+  },
+  "method": {
+    "source_sha256": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "embedded_sha256": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6"
+  },
+  "schema": "reussi",
+  "isolation_limit": "Variables et repertoire jetables sous le meme compte Windows ; pas de sandbox OS ni de skill execute. Suppression des donnees de test en fin de controle."
+}

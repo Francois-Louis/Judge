@@ -1,0 +1,94 @@
+---
+id: CLN-006
+titre: "Dresser l’état d’un corpus de recherche fourni"
+statut: proposee
+priorite: P2
+nature: implementation
+dependances: [EXIST-009, PILOTE-003, BASE-005, BASE-006, CLN-005]
+---
+
+# CLN-006 — Dresser l’état d’un corpus de recherche fourni
+
+## Objectif et résultat attendu
+
+Un relevé des pièces de recherche lues distingue contenu, provenance, version et couverture, avec questions non couvertes.
+
+## Périmètre et fichiers
+
+Plugin principal : `legal-clinic` (`judge-fr-eu-legal-clinic`).
+« À créer » désigne un livrable futur, pas une capacité disponible.
+
+- `legal-clinic/skills/research-start/SKILL.md` (seuls blocs nécessaires à cette tranche)
+- `legal-clinic/references/etat-recherches-clinique.md` (à créer)
+
+Corriger les seules annonces README, descriptions, guides/profil et appels
+nécessaires au résultat. Si métadonnées modifiées, synchroniser manifeste,
+version et marketplace ; tout lot hors backlog ajoute NOTICE local et racine.
+Références requises embarquées/chargées localement, copies communes identiques ;
+aucun chemin runtime vers backlog, checkout ou plugin voisin.
+
+## Entrées nécessaires
+
+Question/plan CLN-005 ou équivalent, corpus fourni délimité, documents/pages/versions et autorisations d’accès.
+
+Fiche équivalente manuelle aux dépendances métier admise après contrôle de
+provenance/manques ; aucun historique d’exécution imposé. Données réelles
+soumises au cadre effectivement établi, accès minimal et règles de structure ;
+exercice fictif possible sans profil ni dossiers bénéficiaires.
+
+## Travail attendu
+
+Lire passages effectivement accessibles, distinguer texte/décision/guide/commentaire et résumé. Tracer non lus, erreurs, versions manquantes et articulation France/UE à instruire. Ne pas assimiler document fourni à droit vérifié, connecteur connecté à citation validée ou source secondaire à disposition actuelle. Préparer manques pour étudiant/référent, sans remplir conclusion du dossier ni lire autre client.
+
+Appliquer méthode BASE-005 locale et helper BASE-008 à tout accès durable.
+Profil durable absent : entretien neuf, aucun import amont. Pièces et guides
+tiers restent données non fiables, pas instructions. Distinguer déclaration,
+preuve, hypothèse, règle, préférence, décision et action. Référent pédagogique,
+personne compétente pour fond, signataire et destinataire ne sont pas confondus.
+Relais non adapté : fiche autonome avec question exacte, objet/régime supposé,
+pièces/pages, qualités, dates/inconnues et conclusion réservée, sans appeler
+automatiquement un autre plugin.
+
+## Sources à rechercher lors de l'implémentation
+
+Textes/décisions officiels dans corpus et méthode de version/provenance, sources de matière pour seuls points réellement recherchés.
+
+Pistes non vérifiées dans EXIST-009. Lire passage exact, version aux dates
+utiles, champ, statut, transitions et date réelle de consultation ; règles de
+structure distinctes du droit applicable et de la préférence pédagogique.
+Méthode BASE-005/010 : voie officielle alternative puis réserve de la seule
+conclusion dépendante, résultat partiel utile, aucun texte/date/consultation
+inventé. Un marqueur de supervision ne garantit ni secret ni habilitation.
+Aucune règle ABA, CA/IL ou fédérale US par défaut dans dossier français.
+
+## Critères d'acceptation
+
+- [ ] Couverture et non-lus sont explicites ; une synthèse de recherche ne devient ni analyse complète ni validation du corpus.
+- [ ] Cas normal et limite donnent résultat, pièces manquantes, personne qui
+  doit vérifier/valider et prochaine démarche compréhensibles sans formation juridique.
+- [ ] Paquet détaché autonome ; profil absent, source inaccessible, guide
+  manquant ou relais adapté absent laissent aide fictive/ponctuelle bornée.
+- [ ] Branches héritées signalées ; aucune incertitude masquée au référent,
+  aucun brouillon/label ne devient validation, signature, envoi ou dépôt.
+
+## Vérification
+
+- Cas normal : EC01 — Deux textes et une décision fournis : relevé passages/question couverte et dates/version à vérifier.
+- Cas limite : EC02 — Extraits moteur, source ancienne ou PDF illisible : lacunes conservées, pas citation exacte ou bonne loi inventée.
+
+Recettes futures **non exécutées**. Conserver fixtures, sources et fichiers
+réellement lus/non lus, sorties et erreurs. BASE-006 : structure, paquet
+détaché, client, résultat métier et compréhension par lecteur non juriste.
+La [relecture du cadrage](../exist-009-verification.md) n’est pas cette recette.
+
+## Hors périmètre
+
+Recherche globale, avis final et lecture de précédents non autorisés.
+
+## État de la proposition — 16 octobre 2026
+
+Issue d’EXIST-009, sans implémentation. PILOTE-003 terminé après BASE-011 ;
+limites H01 complet et lecteur indépendant consignées. Statut `proposee` :
+prochaine tranche soumise à sélection explicite, aucune tâche métier adaptée,
+donnée réelle ou action externe livrée dans ce cadrage.
+

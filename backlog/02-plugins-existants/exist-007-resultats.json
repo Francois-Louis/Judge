@@ -1,0 +1,306 @@
+{
+  "story": "EXIST-007",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "scope": "cadrage et relecture documentaire fictive ; aucun skill exécuté ou droit validé",
+  "checks": {
+    "frontmatter_and_dependencies": {
+      "status": "passed",
+      "stories": 254,
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 20,
+      "future_owners": {
+        "regulatory-legal/references/qualification-publication.md": [
+          "VEI-001"
+        ],
+        "regulatory-legal/references/capacite-source.md": [
+          "VEI-002"
+        ],
+        "regulatory-legal/references/collecte-rss.md": [
+          "VEI-003"
+        ],
+        "regulatory-legal/references/preuve-modification.md": [
+          "VEI-004"
+        ],
+        "regulatory-legal/skills/text-change/SKILL.md": [
+          "VEI-004"
+        ],
+        "regulatory-legal/references/chronologie-texte.md": [
+          "VEI-005"
+        ],
+        "regulatory-legal/skills/text-status/SKILL.md": [
+          "VEI-005"
+        ],
+        "regulatory-legal/references/suivi-transposition.md": [
+          "VEI-006"
+        ],
+        "regulatory-legal/skills/directive-transposition/SKILL.md": [
+          "VEI-006"
+        ],
+        "regulatory-legal/references/applicabilite-activite.md": [
+          "VEI-007"
+        ],
+        "regulatory-legal/references/ecart-politique.md": [
+          "VEI-008"
+        ],
+        "regulatory-legal/references/projet-politique.md": [
+          "VEI-009"
+        ],
+        "regulatory-legal/references/registre-ecarts.md": [
+          "VEI-010"
+        ],
+        "regulatory-legal/references/etat-ecarts.md": [
+          "VEI-011"
+        ],
+        "regulatory-legal/references/decision-ecart.md": [
+          "VEI-012"
+        ],
+        "regulatory-legal/references/fiche-consultation.md": [
+          "VEI-013"
+        ],
+        "regulatory-legal/references/suivi-consultation.md": [
+          "VEI-014"
+        ],
+        "regulatory-legal/references/projet-contribution.md": [
+          "VEI-015"
+        ],
+        "regulatory-legal/skills/consultation-draft/SKILL.md": [
+          "VEI-015"
+        ],
+        "regulatory-legal/references/digest-veille.md": [
+          "VEI-016"
+        ],
+        "regulatory-legal/references/preferences-veille.md": [
+          "VEI-017"
+        ],
+        "regulatory-legal/references/dossier-veille.md": [
+          "VEI-018"
+        ],
+        "regulatory-legal/references/agent-synthese-locale.md": [
+          "VEI-019"
+        ]
+      },
+      "problems": []
+    },
+    "inventory_exact_coverage": {
+      "status": "passed",
+      "package_files": 26,
+      "skills": 9,
+      "cookbook_files": 6,
+      "problems": []
+    },
+    "shared_copies": {
+      "status": "passed",
+      "identical": {
+        "references/shared/research-citation-method.md": true,
+        "references/isolation.md": true,
+        "references/company-profile-template.md": true,
+        "references/dashboard-template.md": true,
+        "scripts/judge_store.py": true
+      },
+      "method_version": "1.0.0",
+      "problems": []
+    },
+    "index_and_prerequisites": {
+      "status": "passed",
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 27,
+      "local_links": 198,
+      "problems": []
+    },
+    "known_tracker_defect_confirmed": {
+      "status": "passed",
+      "unexpected_keys": [
+        "<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15)"
+      ],
+      "active_example": true,
+      "correction_assigned_to": "VEI-014",
+      "problems": []
+    },
+    "source_inventory_and_observations": {
+      "status": "passed",
+      "catalog_rows": 59,
+      "probes": 7,
+      "network_reexecuted": false,
+      "observed_statuses": {
+        "cnil_catalog_en": "observed-feed",
+        "cnil_fr_candidate": "observed-feed",
+        "dila_jorf_listing": "observed-page",
+        "eurlex_home": "empty-response",
+        "eurlex_webservice_doc": "empty-response",
+        "eurlex_rss_doc": "empty-response",
+        "edpb_catalog_page": "observed-page"
+      },
+      "problems": []
+    },
+    "scope_vs_task_baseline": {
+      "status": "observed-concurrent-changes",
+      "lot_changed_files": [
+        "backlog/02-plugins-existants/exist-007-controles.py",
+        "backlog/02-plugins-existants/exist-007-decoupage-veille.md",
+        "backlog/02-plugins-existants/exist-007-inventaire-veille.md",
+        "backlog/02-plugins-existants/exist-007-sondages.py",
+        "backlog/02-plugins-existants/exist-007-sources.json",
+        "backlog/02-plugins-existants/exist-007-veille-reglementaire.md",
+        "backlog/02-plugins-existants/exist-007-verification.md",
+        "backlog/02-plugins-existants/suites/vei-001-qualifier-publication.md",
+        "backlog/02-plugins-existants/suites/vei-002-capacite-source.md",
+        "backlog/02-plugins-existants/suites/vei-003-collecter-rss.md",
+        "backlog/02-plugins-existants/suites/vei-004-preuve-modification.md",
+        "backlog/02-plugins-existants/suites/vei-005-chronologie-texte.md",
+        "backlog/02-plugins-existants/suites/vei-006-suivi-transposition.md",
+        "backlog/02-plugins-existants/suites/vei-007-applicabilite-ciblee.md",
+        "backlog/02-plugins-existants/suites/vei-008-ecart-politique.md",
+        "backlog/02-plugins-existants/suites/vei-009-projet-politique.md",
+        "backlog/02-plugins-existants/suites/vei-010-enregistrer-ecart.md",
+        "backlog/02-plugins-existants/suites/vei-011-etat-ecarts.md",
+        "backlog/02-plugins-existants/suites/vei-012-decision-ecart.md",
+        "backlog/02-plugins-existants/suites/vei-013-qualifier-consultation.md",
+        "backlog/02-plugins-existants/suites/vei-014-decision-consultation.md",
+        "backlog/02-plugins-existants/suites/vei-015-projet-contribution.md",
+        "backlog/02-plugins-existants/suites/vei-016-digest-manuel.md",
+        "backlog/02-plugins-existants/suites/vei-017-preferences-veille.md",
+        "backlog/02-plugins-existants/suites/vei-018-dossier-veille.md",
+        "backlog/02-plugins-existants/suites/vei-019-agent-synthese-locale.md",
+        "backlog/02-plugins-existants/suites/vei-020-cookbook-veille.md",
+        "backlog/README.md"
+      ],
+      "other_changed_files": [
+        "backlog/00-fondations/base-003-dossier-architecture.md",
+        "backlog/03-nouveaux-domaines/dom-002-controles.py",
+        "backlog/03-nouveaux-domaines/dom-002-decoupage-penal.md",
+        "backlog/03-nouveaux-domaines/dom-002-police-penal.md",
+        "backlog/03-nouveaux-domaines/dom-002-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-002-verification.md",
+        "backlog/03-nouveaux-domaines/suites/crim-001-lire-convocation.md",
+        "backlog/03-nouveaux-domaines/suites/crim-002-mesure-en-cours.md",
+        "backlog/03-nouveaux-domaines/suites/crim-003-lire-avis-amende.md",
+        "backlog/03-nouveaux-domaines/suites/crim-004-preparer-plainte.md",
+        "backlog/03-nouveaux-domaines/suites/crim-005-contester-amende.md",
+        "backlog/03-nouveaux-domaines/suites/crim-006-lire-acte-poursuite.md",
+        "backlog/03-nouveaux-domaines/suites/crim-007-suivre-plainte.md",
+        "backlog/03-nouveaux-domaines/suites/crim-008-controle-subi.md",
+        "backlog/03-nouveaux-domaines/suites/crim-009-requisition-organisation.md",
+        "backlog/03-nouveaux-domaines/suites/crim-010-points-permis.md",
+        "backlog/03-nouveaux-domaines/suites/crim-011-mineur-mis-en-cause.md",
+        "backlog/03-nouveaux-domaines/suites/crim-012-casier-judiciaire.md"
+      ],
+      "note": "Other differences observed during this task are not attributed to EXIST-007; no claim of an unchanged entire workspace.",
+      "preserved_files": 720
+    },
+    "protected_inputs_unchanged": {
+      "status": "passed",
+      "files_checked": 587,
+      "package_and_cookbook_preserved": true,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 73,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [
+        "  ✓ diligence-grid           orchestrator tool scope clean",
+        "  ✓ docket-watcher           orchestrator tool scope clean",
+        "  ✓ launch-radar             orchestrator tool scope clean",
+        "  ✓ reg-monitor              orchestrator tool scope clean",
+        "  ✓ renewal-watcher          orchestrator tool scope clean"
+      ],
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [],
+      "problems": []
+    }
+  },
+  "package_and_cookbook_sha256": {
+    "regulatory-legal/.claude-plugin/plugin.json": "c2abfe2996bd669d0739b603f1f7f5ce7b429aedbbeda33b34e4fc037c79e0de",
+    "regulatory-legal/.gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+    "regulatory-legal/.mcp.json": "17541cc5e9515b83a1c5bbcb0a7dc23738aa2cc413a16f03f7dcc22f79c2a61e",
+    "regulatory-legal/agents/reg-change-monitor.md": "5d601d83a7310e1d51b66c4a66b35694438ee7a30819b03cd861e43f724637b8",
+    "regulatory-legal/CLAUDE.md": "3c03c2b6df46d858c6bdcafb8c06fa73d19eff6fb4af969cf0b4dc3b9cff6f4a",
+    "regulatory-legal/hooks/hooks.json": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+    "regulatory-legal/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "regulatory-legal/NOTICE": "b9f4b62edd89f501c268f8c084180cbb5b51b931270c7b94219626d6ea707a0c",
+    "regulatory-legal/README.md": "4878835ac8990b983380ceb28d6eaa9ffc82e174bc2607e2a9828b0ec3abe855",
+    "regulatory-legal/references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "regulatory-legal/references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "regulatory-legal/references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "regulatory-legal/references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "regulatory-legal/scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "regulatory-legal/skills/cold-start-interview/SKILL.md": "fe502fa791b2604339076e98438ff2ccc46f8e7aa0a6de1f29d0fec05ab59f83",
+    "regulatory-legal/skills/comments/SKILL.md": "82b442c08d2a8fcc2ea6aa13f14b876844de95c76135a62edd02760fa0f3e3e8",
+    "regulatory-legal/skills/customize/SKILL.md": "03ad8edcd93723813b07d75dcd0f15f82e94336e85f05832b35288bf233e16cf",
+    "regulatory-legal/skills/gap-surfacer/references/comment-tracker.yaml": "0d6c39a6044085817335548dbcff49cdaba7d3fc0c777a25d73d3a1883fbdf7e",
+    "regulatory-legal/skills/gap-surfacer/references/gap-tracker.yaml": "91f0c58e78bf2bed383b93eff368aa4059e03e15f04a08930dfd1e62b5aefcac",
+    "regulatory-legal/skills/gap-surfacer/SKILL.md": "346da90a1152cf413bcdea5c52840555e107af9865cd2d134671a1cdbdc43b4e",
+    "regulatory-legal/skills/gaps/SKILL.md": "ec87218336c7ad1ed1e7b972c0dd9595b1ab5b2a50718a0d3b9dedf400b5f153",
+    "regulatory-legal/skills/matter-workspace/SKILL.md": "29396ac67e8de5f3ce897e7457f524296817078d12670e9bc34eb84cfc210725",
+    "regulatory-legal/skills/policy-diff/SKILL.md": "e46b8a08dca4086d1e4a9a70f6b725f006d757d289cff3a6208cca56d06e58a6",
+    "regulatory-legal/skills/policy-redraft/SKILL.md": "0393b7d7b9442a182db02a777dcdf3e7f759bdfd141e178441aaf100c5beaac9",
+    "regulatory-legal/skills/reg-feed-watcher/references/source-catalog.md": "1b1669612ac17152aabd5cb3dc7c800dfbe728f87a60cca169427a76232f46a0",
+    "regulatory-legal/skills/reg-feed-watcher/SKILL.md": "a8214e48b46d715201583caa0c2160c4f220a88938674d1cbea73776d0bf47a9",
+    "managed-agent-cookbooks/reg-monitor/agent.yaml": "966159c9576035a91df8207564357e925ae257b2a31ecba6019a8e346478d706",
+    "managed-agent-cookbooks/reg-monitor/README.md": "80bf6bbaf2c9728bc763cf04d236d4a07be477a43d8438af178dcb39c4a4df87",
+    "managed-agent-cookbooks/reg-monitor/steering-examples.json": "13646b8c77e09f6a3d9620888638831d1569fd8961263ca19a0ba62ea3fc22f9",
+    "managed-agent-cookbooks/reg-monitor/subagents/digest-writer.yaml": "974ede136fee31ec4bbdb79af7bb1f448a8cd9fcf27d3e73cb50dbfda2bd3931",
+    "managed-agent-cookbooks/reg-monitor/subagents/feed-reader.yaml": "838afc9a073845957a4ed232f6ee5c99f1349760a03a9af7eed20d98e4482db3",
+    "managed-agent-cookbooks/reg-monitor/subagents/materiality-filter.yaml": "ab9d859eb262bc8522480c763c8d8f9fb032f49df03c9536fe5730e25ddd43f0"
+  },
+  "lot_sha256": {
+    "backlog/02-plugins-existants/exist-007-veille-reglementaire.md": "cfea503715a6f0198f2eed30b8bb375efa068748d8fe0fe38bba308fb4c45088",
+    "backlog/02-plugins-existants/exist-007-inventaire-veille.md": "ffc5e47d90ae3650a62bedb4f6f2c66dc2b856187e6dafbef8f670b88fa3da1a",
+    "backlog/02-plugins-existants/exist-007-decoupage-veille.md": "a8986b154825c8e87f7ce77e7f0f3ebb31037bb556412530b69cfc14062ac521",
+    "backlog/02-plugins-existants/exist-007-verification.md": "5a508473875352cd946f2c6ebd05ff65bd5775db0bbd851ef0b372732b95ec98",
+    "backlog/02-plugins-existants/suites/vei-001-qualifier-publication.md": "3bbe6be2415100b58f6a1204041c319828cd85446e8a47f98d9d0776e578177e",
+    "backlog/02-plugins-existants/suites/vei-002-capacite-source.md": "fab4d7fcdd68a4455bb084866841ae19c343a283539fb176cc8f7c28ba688a4e",
+    "backlog/02-plugins-existants/suites/vei-003-collecter-rss.md": "d0824dcaf5e892721b034c59be1d053893e8f3de56e01b94f28a0e559679981b",
+    "backlog/02-plugins-existants/suites/vei-004-preuve-modification.md": "50bc84717213adf9612508b49179a214b0c211446eb945feab0ede88012e703f",
+    "backlog/02-plugins-existants/suites/vei-005-chronologie-texte.md": "a104936afff9a29fef4b8adb0a9450056cbd6c93f8feadef9835e0409709fb26",
+    "backlog/02-plugins-existants/suites/vei-006-suivi-transposition.md": "b34d8d9655256a1b099731f5ba647f9094571483ca5c012f7786f3d3d3d8625d",
+    "backlog/02-plugins-existants/suites/vei-007-applicabilite-ciblee.md": "ea3290c22a4f1beb7856d3e55c9d5b1d5ba36bab10b8ef41077380205e009941",
+    "backlog/02-plugins-existants/suites/vei-008-ecart-politique.md": "fc85061fb2224565b77252a74b38c362ac1e6d0e27464996720b1b1429abc1ee",
+    "backlog/02-plugins-existants/suites/vei-009-projet-politique.md": "4d4eeffa18831a377df3edfc4c6ae1df1b74d45016854f2b56c22ed2f77ca392",
+    "backlog/02-plugins-existants/suites/vei-010-enregistrer-ecart.md": "ebde7bb71a5427e19d46eb38e44d5788d2f5627ed5a49e48825561025321baae",
+    "backlog/02-plugins-existants/suites/vei-011-etat-ecarts.md": "724ea6df82f96d2e2432c17c02fdedc0d9f28660987534dfd58e21e732ab6504",
+    "backlog/02-plugins-existants/suites/vei-012-decision-ecart.md": "163dab34761098d78faad341fbcbd5e1fd06e8cfe239f486a735c0f8c7e9b8de",
+    "backlog/02-plugins-existants/suites/vei-013-qualifier-consultation.md": "a2a0b6d12df108a201fa7cd9ae7521c0fa12ed7813a6b8a8fd489758f117df0a",
+    "backlog/02-plugins-existants/suites/vei-014-decision-consultation.md": "0c2af92f7be6ada2cb5bd8ea371ecf27a69921916d6837477718b18383577763",
+    "backlog/02-plugins-existants/suites/vei-015-projet-contribution.md": "fb65915ddaafca15c0c74d2a2141e53753da69a15e27e302cb92b7e1c8366473",
+    "backlog/02-plugins-existants/suites/vei-016-digest-manuel.md": "5b5d1286c0b088073892c91c98d5454e93e0907d6439bb592af53e16ab6252d8",
+    "backlog/02-plugins-existants/suites/vei-017-preferences-veille.md": "b2db02c19b61092a218f5e78199434372a7a2a3d9aeea5a7dec34f4e2dc0779b",
+    "backlog/02-plugins-existants/suites/vei-018-dossier-veille.md": "85711480a8d82787007a255f8b452ee50df59647aac1f1ef7422de631994ab44",
+    "backlog/02-plugins-existants/suites/vei-019-agent-synthese-locale.md": "894c19e0b97ee6d6b8a70d18a399a1f72acfdb73b1f64147779572902f81e29d",
+    "backlog/02-plugins-existants/suites/vei-020-cookbook-veille.md": "ed976260afb0d8679b542f01ed38964c2e08d12f27f95f6029aa222330706db5",
+    "backlog/README.md": "08685dc81a96e277bb53187dddaa2ae6b266f76818064c1c75216d53c2b26d84",
+    "backlog/02-plugins-existants/exist-007-sources.json": "6a5d8a5e407a440d138f4d875a21a90f5a929b1cbbb109fa8f65b98e9d81fbc4",
+    "backlog/02-plugins-existants/exist-007-sondages.py": "03937fdd8a18e40ae8e21c05d357df45a111d7958508b14971efa7dd8a377d3b",
+    "backlog/02-plugins-existants/exist-007-controles.py": "5dc707c8bc9edff762d01b7fe8edfcb6eca2445464d157f43e3c81ae64d932a2"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "acte/délai réel",
+    "exécution de skill",
+    "installation/recette client",
+    "lecteur indépendant",
+    "connexion authentifiée/envoi/publication/déploiement"
+  ],
+  "command": "python -X utf8 backlog/02-plugins-existants/exist-007-controles.py --baseline <instantane-debut-tache.json> --output backlog/02-plugins-existants/exist-007-resultats.json",
+  "notes": [
+    "Les différences git préexistantes ne sont pas des changements EXIST-007 ; voir comparaison à l’instantané de début de tâche.",
+    "Aucune validation de schéma plugin/client : aucun fichier de paquet modifié.",
+    "Le défaut YAML recensé est observé et assigné, sans correction du plugin dans ce cadrage."
+  ]
+}

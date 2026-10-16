@@ -1,0 +1,738 @@
+{
+  "story": "EXIST-010",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "scope": "cadrage et relecture méthodologique sur consignes fictives et extrait français réel ; aucun skill exécuté ou droit validé",
+  "checks": {
+    "frontmatter_and_dependencies": {
+      "status": "passed",
+      "stories": 356,
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 21,
+      "future_owners": {
+        "law-student/references/exercise-context.md": [
+          "ETU-001"
+        ],
+        "law-student/references/cas-pratique.md": [
+          "ETU-002"
+        ],
+        "law-student/references/fiche-arret.md": [
+          "ETU-004"
+        ],
+        "law-student/skills/commentaire-arret/SKILL.md": [
+          "ETU-005"
+        ],
+        "law-student/references/commentaire-arret.md": [
+          "ETU-005"
+        ],
+        "law-student/skills/dissertation/SKILL.md": [
+          "ETU-007"
+        ],
+        "law-student/references/dissertation.md": [
+          "ETU-007"
+        ],
+        "law-student/skills/note-synthese/SKILL.md": [
+          "ETU-009"
+        ],
+        "law-student/references/note-synthese.md": [
+          "ETU-009"
+        ],
+        "law-student/references/oral-guided-reading.md": [
+          "ETU-011"
+        ],
+        "law-student/references/revision-notes.md": [
+          "ETU-012"
+        ],
+        "law-student/references/revision-cards.md": [
+          "ETU-013"
+        ],
+        "law-student/references/study-session-events.md": [
+          "ETU-014"
+        ],
+        "law-student/references/study-plan-context.md": [
+          "ETU-015"
+        ],
+        "law-student/references/annales-analysis.md": [
+          "ETU-016"
+        ],
+        "law-student/skills/actualiser-point-droit/SKILL.md": [
+          "ETU-017"
+        ],
+        "law-student/references/study-law-refresh.md": [
+          "ETU-017"
+        ],
+        "law-student/references/crfpa-context.md": [
+          "ETU-018"
+        ],
+        "law-student/references/crfpa-cas-pratique.md": [
+          "ETU-019"
+        ],
+        "law-student/references/learner-preferences.md": [
+          "ETU-020"
+        ],
+        "law-student/references/study-data-contract.md": [
+          "ETU-021"
+        ]
+      },
+      "problems": []
+    },
+    "inventory_exact_coverage": {
+      "status": "passed",
+      "package_files": 26,
+      "skills": 13,
+      "agents": 0,
+      "cookbook_references": [],
+      "problems": []
+    },
+    "all_skills_have_future_targets": {
+      "status": "passed",
+      "problems": []
+    },
+    "shared_copies": {
+      "status": "passed",
+      "identical": {
+        "references/shared/research-citation-method.md": true,
+        "references/isolation.md": true,
+        "references/company-profile-template.md": true,
+        "references/dashboard-template.md": true,
+        "scripts/judge_store.py": true
+      },
+      "method_version": "1.0.0",
+      "problems": []
+    },
+    "index_and_prerequisites": {
+      "status": "passed",
+      "problems": []
+    },
+    "french_decision_support": {
+      "status": "passed",
+      "reference": "JURITEXT000054167571",
+      "provenance": {
+        "source_url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260930-215413.tar.gz",
+        "retrieved_at": "2026-10-15T20:14:33.158393+00:00",
+        "archive_sha256": "3e9749126d2467ea380d12bae6ee7e58c8be7ac92c72e79e9030f57ac2c5024a",
+        "archive_member": "20260930-215413/juri/cass/global/JURI/TEXT/00/00/54/16/75/JURITEXT000054167571.xml",
+        "xml_sha256": "08d4ba930d687e63dc4e06e90971058bc7a3bf0d2d042a1647b3a705a0cec92e"
+      },
+      "legal_applicability": "not-validated",
+      "problems": []
+    },
+    "optional_original_local_source": {
+      "status": "passed",
+      "path": "outputs/legal-source-probes/JURITEXT000054167571.json",
+      "xml_sha256": "08d4ba930d687e63dc4e06e90971058bc7a3bf0d2d042a1647b3a705a0cec92e",
+      "scope": "local documentary comparison only, no new network retrieval",
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 26,
+      "local_links": 186,
+      "problems": []
+    },
+    "legacy_foreign_assumptions_located": {
+      "status": "passed",
+      "locations": {
+        "US_exams": [
+          {
+            "path": "law-student/CLAUDE.md",
+            "lines": [
+              93,
+              99,
+              101,
+              132,
+              136,
+              182,
+              214,
+              231,
+              297
+            ]
+          },
+          {
+            "path": "law-student/README.md",
+            "lines": [
+              15,
+              31,
+              52
+            ]
+          },
+          {
+            "path": "law-student/references/dashboard-template.md",
+            "lines": [
+              24
+            ]
+          },
+          {
+            "path": "law-student/references/isolation.md",
+            "lines": [
+              30,
+              52,
+              54
+            ]
+          },
+          {
+            "path": "law-student/skills/bar-prep-questions/SKILL.md",
+            "lines": [
+              4,
+              6,
+              8,
+              17,
+              20,
+              21,
+              22,
+              23,
+              43,
+              48,
+              51,
+              52,
+              57,
+              61,
+              63,
+              72,
+              73,
+              74,
+              75,
+              79,
+              82,
+              83,
+              90,
+              108,
+              113,
+              117,
+              119,
+              124,
+              126,
+              140,
+              144,
+              156,
+              180,
+              184,
+              189,
+              191,
+              195,
+              196,
+              215,
+              230,
+              233,
+              234
+            ]
+          },
+          {
+            "path": "law-student/skills/case-brief/SKILL.md",
+            "lines": [
+              24,
+              42,
+              53,
+              55,
+              64
+            ]
+          },
+          {
+            "path": "law-student/skills/cold-start-interview/SKILL.md",
+            "lines": [
+              6,
+              92,
+              97,
+              101,
+              103,
+              179,
+              181,
+              183,
+              211,
+              229,
+              269,
+              278
+            ]
+          },
+          {
+            "path": "law-student/skills/customize/SKILL.md",
+            "lines": [
+              41,
+              47,
+              48,
+              50
+            ]
+          },
+          {
+            "path": "law-student/skills/exam-forecast/SKILL.md",
+            "lines": [
+              47,
+              66,
+              68,
+              69,
+              72,
+              165
+            ]
+          },
+          {
+            "path": "law-student/skills/flashcards/SKILL.md",
+            "lines": [
+              59,
+              116,
+              145
+            ]
+          },
+          {
+            "path": "law-student/skills/irac-practice/SKILL.md",
+            "lines": [
+              51
+            ]
+          },
+          {
+            "path": "law-student/skills/legal-writing/SKILL.md",
+            "lines": [
+              49
+            ]
+          },
+          {
+            "path": "law-student/skills/session/SKILL.md",
+            "lines": [
+              4,
+              7,
+              9,
+              23,
+              24
+            ]
+          },
+          {
+            "path": "law-student/skills/study-plan/SKILL.md",
+            "lines": [
+              24,
+              42,
+              49,
+              71,
+              74,
+              78,
+              86,
+              89,
+              100,
+              119,
+              120,
+              127,
+              128,
+              139,
+              150,
+              154,
+              163,
+              167,
+              177,
+              221
+            ]
+          }
+        ],
+        "IRAC": [
+          {
+            "path": "law-student/CLAUDE.md",
+            "lines": [
+              53,
+              113,
+              316
+            ]
+          },
+          {
+            "path": "law-student/README.md",
+            "lines": [
+              5,
+              35,
+              42,
+              52,
+              58,
+              82
+            ]
+          },
+          {
+            "path": "law-student/skills/bar-prep-questions/SKILL.md",
+            "lines": [
+              246
+            ]
+          },
+          {
+            "path": "law-student/skills/cold-start-interview/SKILL.md",
+            "lines": [
+              129,
+              174,
+              187,
+              207,
+              221,
+              252,
+              265,
+              287
+            ]
+          },
+          {
+            "path": "law-student/skills/customize/SKILL.md",
+            "lines": [
+              44,
+              88
+            ]
+          },
+          {
+            "path": "law-student/skills/exam-forecast/SKILL.md",
+            "lines": [
+              157
+            ]
+          },
+          {
+            "path": "law-student/skills/irac-practice/SKILL.md",
+            "lines": [
+              2,
+              4,
+              6,
+              15,
+              20,
+              21,
+              22,
+              36,
+              42,
+              45,
+              50,
+              66,
+              72,
+              79,
+              111,
+              141,
+              148,
+              167,
+              170,
+              180
+            ]
+          },
+          {
+            "path": "law-student/skills/legal-writing/SKILL.md",
+            "lines": [
+              41,
+              62,
+              157
+            ]
+          },
+          {
+            "path": "law-student/skills/study-plan/SKILL.md",
+            "lines": [
+              34,
+              190,
+              215,
+              245
+            ]
+          }
+        ],
+        "forecast": [
+          {
+            "path": "law-student/CLAUDE.md",
+            "lines": [
+              53,
+              184
+            ]
+          },
+          {
+            "path": "law-student/README.md",
+            "lines": [
+              5,
+              38,
+              64,
+              90,
+              92
+            ]
+          },
+          {
+            "path": "law-student/skills/cold-call-prep/SKILL.md",
+            "lines": [
+              137
+            ]
+          },
+          {
+            "path": "law-student/skills/cold-start-interview/SKILL.md",
+            "lines": [
+              77,
+              80,
+              129,
+              134,
+              174,
+              177,
+              207,
+              252
+            ]
+          },
+          {
+            "path": "law-student/skills/customize/SKILL.md",
+            "lines": [
+              52
+            ]
+          },
+          {
+            "path": "law-student/skills/exam-forecast/SKILL.md",
+            "lines": [
+              2,
+              6,
+              16,
+              23,
+              24,
+              32,
+              37,
+              39,
+              53,
+              81,
+              92,
+              94,
+              105,
+              115,
+              119,
+              125,
+              145,
+              150,
+              154,
+              155,
+              156,
+              157,
+              166,
+              167
+            ]
+          }
+        ],
+        "memory_rules": [
+          {
+            "path": "law-student/CLAUDE.md",
+            "lines": [
+              78,
+              123,
+              125,
+              129,
+              243,
+              306,
+              312,
+              315
+            ]
+          },
+          {
+            "path": "law-student/skills/bar-prep-questions/SKILL.md",
+            "lines": [
+              79,
+              90,
+              113,
+              117,
+              124,
+              156
+            ]
+          },
+          {
+            "path": "law-student/skills/outline-builder/SKILL.md",
+            "lines": [
+              60
+            ]
+          }
+        ],
+        "history": [
+          {
+            "path": "law-student/README.md",
+            "lines": [
+              33
+            ]
+          },
+          {
+            "path": "law-student/skills/bar-prep-questions/SKILL.md",
+            "lines": [
+              25,
+              150,
+              157,
+              169,
+              174,
+              177,
+              187
+            ]
+          },
+          {
+            "path": "law-student/skills/flashcards/SKILL.md",
+            "lines": [
+              24,
+              65,
+              68,
+              71,
+              82
+            ]
+          },
+          {
+            "path": "law-student/skills/session/SKILL.md",
+            "lines": [
+              21,
+              28,
+              29
+            ]
+          },
+          {
+            "path": "law-student/skills/study-plan/SKILL.md",
+            "lines": [
+              22,
+              41,
+              121,
+              190,
+              215,
+              218,
+              236,
+              242
+            ]
+          }
+        ]
+      },
+      "problems": []
+    },
+    "scope_vs_task_baseline": {
+      "status": "observed-concurrent-changes",
+      "baseline_sha256": "44348048044f5c152ff82e0456bcc09a45dc4b2235a605314a85651d8b252843",
+      "lot_changed_files": [
+        "backlog/02-plugins-existants/exist-010-controles.py",
+        "backlog/02-plugins-existants/exist-010-decoupage-formation.md",
+        "backlog/02-plugins-existants/exist-010-formation-juridique.md",
+        "backlog/02-plugins-existants/exist-010-inventaire-formation.md",
+        "backlog/02-plugins-existants/exist-010-support-verification.json",
+        "backlog/02-plugins-existants/exist-010-verification.md",
+        "backlog/02-plugins-existants/suites/etu-001-qualifier-exercice.md",
+        "backlog/02-plugins-existants/suites/etu-002-entrainement-cas-pratique.md",
+        "backlog/02-plugins-existants/suites/etu-003-retour-cas-pratique.md",
+        "backlog/02-plugins-existants/suites/etu-004-fiche-arret.md",
+        "backlog/02-plugins-existants/suites/etu-005-methode-commentaire-arret.md",
+        "backlog/02-plugins-existants/suites/etu-006-retour-commentaire-arret.md",
+        "backlog/02-plugins-existants/suites/etu-007-methode-dissertation.md",
+        "backlog/02-plugins-existants/suites/etu-008-retour-dissertation.md",
+        "backlog/02-plugins-existants/suites/etu-009-methode-note-synthese.md",
+        "backlog/02-plugins-existants/suites/etu-010-retour-note-synthese.md",
+        "backlog/02-plugins-existants/suites/etu-011-lecture-orale-guidee.md",
+        "backlog/02-plugins-existants/suites/etu-012-fiches-revision.md",
+        "backlog/02-plugins-existants/suites/etu-013-cartes-revision.md",
+        "backlog/02-plugins-existants/suites/etu-014-session-journal.md",
+        "backlog/02-plugins-existants/suites/etu-015-plan-revision.md",
+        "backlog/02-plugins-existants/suites/etu-016-analyse-annales.md",
+        "backlog/02-plugins-existants/suites/etu-017-actualiser-point-droit.md",
+        "backlog/02-plugins-existants/suites/etu-018-qualifier-crfpa.md",
+        "backlog/02-plugins-existants/suites/etu-019-entrainement-crfpa-cas-pratique.md",
+        "backlog/02-plugins-existants/suites/etu-020-preferences-apprenant.md",
+        "backlog/02-plugins-existants/suites/etu-021-donnees-apprentissage.md",
+        "backlog/README.md"
+      ],
+      "other_changed_files": [
+        "backlog/00-fondations/base-003-dossier-architecture.md",
+        "backlog/03-nouveaux-domaines/dom-005-assurance.md",
+        "backlog/03-nouveaux-domaines/dom-005-controles.py",
+        "backlog/03-nouveaux-domaines/dom-005-decoupage-assurance.md",
+        "backlog/03-nouveaux-domaines/dom-005-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-005-verification.md",
+        "backlog/03-nouveaux-domaines/suites/ins-001-refus-garantie.md",
+        "backlog/03-nouveaux-domaines/suites/ins-002-declarer-sinistre.md",
+        "backlog/03-nouveaux-domaines/suites/ins-003-contester-expertise.md",
+        "backlog/03-nouveaux-domaines/suites/ins-004-lire-garantie.md",
+        "backlog/03-nouveaux-domaines/suites/ins-005-mediation-assurance.md",
+        "backlog/03-nouveaux-domaines/suites/ins-006-resilier-contrat.md",
+        "backlog/03-nouveaux-domaines/suites/ins-007-protection-juridique.md",
+        "backlog/03-nouveaux-domaines/suites/ins-008-assurance-emprunteur.md",
+        "backlog/03-nouveaux-domaines/suites/ins-009-complementaire-sante.md",
+        "backlog/03-nouveaux-domaines/suites/ins-010-dommages-ouvrage.md",
+        "backlog/03-nouveaux-domaines/suites/ins-011-assurance-vie-beneficiaire.md"
+      ],
+      "note": "Other differences observed during this task are not attributed to EXIST-010; no claim of an unchanged entire workspace.",
+      "preserved_files": 851
+    },
+    "protected_inputs_unchanged": {
+      "status": "passed",
+      "files_checked": 675,
+      "package_preserved": true,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 80,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [
+        "  ✓ diligence-grid           orchestrator tool scope clean",
+        "  ✓ docket-watcher           orchestrator tool scope clean",
+        "  ✓ launch-radar             orchestrator tool scope clean",
+        "  ✓ reg-monitor              orchestrator tool scope clean",
+        "  ✓ renewal-watcher          orchestrator tool scope clean"
+      ],
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [],
+      "problems": []
+    }
+  },
+  "package_sha256": {
+    "law-student/.claude-plugin/plugin.json": "c14b151a6d5806abcbc4d0000135bf35eca93f70025b2cf47211c4e358686bc8",
+    "law-student/.gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+    "law-student/.mcp.json": "04295c2cd02d11e5dcc79d0dcdb4df38f822bafc729adc93c6b1708af33a3067",
+    "law-student/CLAUDE.md": "65123588daafeb015957b967e875d70fe92ce48e345ea762a84e2ee6b5ffcc61",
+    "law-student/hooks/hooks.json": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+    "law-student/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "law-student/NOTICE": "15fbcee2287b0437c52935fd3ce9da5b67e4738403cc04b8f0e0ec71cfbd2ca7",
+    "law-student/README.md": "6cbd4506dc0e9b3289dc4f7f10a4f1d3d7059616d02b4d53d337e6bcfc67fcdc",
+    "law-student/references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "law-student/references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "law-student/references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "law-student/references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "law-student/scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "law-student/skills/bar-prep-questions/SKILL.md": "1afc087a9091a84a2dd29d447bd4bb2de47253463eb49c8242518a1b2be3bf37",
+    "law-student/skills/case-brief/SKILL.md": "4abad191886d4bbe91458f49508783ee7ef1ecb842e361646ccfcdc448c23bdf",
+    "law-student/skills/cold-call-prep/SKILL.md": "2570430d047f78836f2896aef67cf75c86ec131746947c7f43aeffdf9fde986b",
+    "law-student/skills/cold-start-interview/SKILL.md": "d5ddfc86711201ce94771d3043ca3b7920a461333b7207786c603b2e8482c2d3",
+    "law-student/skills/customize/SKILL.md": "901ac4a279ba20c7f9c35ad9e8eb6850c730513e61f08e9304feb751222e31e5",
+    "law-student/skills/exam-forecast/SKILL.md": "7a9f0ab3ea12fd59f8c45966ea631103cb63ee873e95a52b362d86056cf54b64",
+    "law-student/skills/flashcards/SKILL.md": "77e2ed96caa63f90cdc11cd1d6637487e41497e7958805d17300a84e1561b34a",
+    "law-student/skills/irac-practice/SKILL.md": "c280f434eb62fa26efdcc0c6fbe084984cf49d7fc5431bd743636e10a7c8763b",
+    "law-student/skills/legal-writing/SKILL.md": "8e7b0de8fe9899cf4e97338c70c1b8f654553761b075d628af8e6305586bdd06",
+    "law-student/skills/outline-builder/SKILL.md": "6aabdf4920fb0396384d2e265d0d291718b000a8c92d57e6348808b5c68c6f06",
+    "law-student/skills/session/SKILL.md": "4d5d38dd8e0d4c4943440c8a62af3f448fa9109bcd77a328dbaf07780c452167",
+    "law-student/skills/socratic-drill/SKILL.md": "42adbd384d84be1b40b536e0f781d9479ab32c1fe5cc5309453c72625fb04669",
+    "law-student/skills/study-plan/SKILL.md": "3d3241b18badef40bf3ac0272f5cfa4e72d6ed647c8b93a662f3dd4787478ec2"
+  },
+  "lot_sha256": {
+    "backlog/02-plugins-existants/exist-010-formation-juridique.md": "d9fb9f1c611862571c70680b694d87e41a30b302ed605f0562a5ca61562eda59",
+    "backlog/02-plugins-existants/exist-010-inventaire-formation.md": "f133eb29d180c0e85a118d80d975b366fff211a546ba8a878b5db9ba969a5079",
+    "backlog/02-plugins-existants/exist-010-decoupage-formation.md": "9616404272721c6fd3d4afdde5fb23968b6fa3f0aa6c4fdd82881d61e1117590",
+    "backlog/02-plugins-existants/exist-010-verification.md": "cab5140b9dae5ee96318b7f969350e93b102a0cd9671bf1274a9949407019a9c",
+    "backlog/02-plugins-existants/suites/etu-001-qualifier-exercice.md": "2cf98bfaa9e458451b7f695571f33b68d03b381fae69306f5621b7026987a9b8",
+    "backlog/02-plugins-existants/suites/etu-002-entrainement-cas-pratique.md": "12d9d9cafd607eacb06396b67481a30aba0ec5f50ec37a1cd01b25ccd78e2e98",
+    "backlog/02-plugins-existants/suites/etu-003-retour-cas-pratique.md": "e9d5edd94961a2b9dfd00faaa19653223ab56736eb988037a3e6637a4c9893cb",
+    "backlog/02-plugins-existants/suites/etu-004-fiche-arret.md": "290bbfa418971a6de085afc569d52481609efa5a2c70592db9b4a33642018ecb",
+    "backlog/02-plugins-existants/suites/etu-005-methode-commentaire-arret.md": "da95f55a770cfd93257ee653ee14c9eb43980e4f1dd123265669f338d7869d1d",
+    "backlog/02-plugins-existants/suites/etu-006-retour-commentaire-arret.md": "66e762c4e49feb0795ba43ad91cab99f4283c367421b243ba93e64c5f3db7aa6",
+    "backlog/02-plugins-existants/suites/etu-007-methode-dissertation.md": "a543ef78cdd8269b5ea0a2c767f17bfb3b637a6f60ba346e22ab7f2a7f44a1b1",
+    "backlog/02-plugins-existants/suites/etu-008-retour-dissertation.md": "758e20cc715347b69dad67c5beda3deec7372e524d14797ce18735f9b873e848",
+    "backlog/02-plugins-existants/suites/etu-009-methode-note-synthese.md": "99dd753a3b025c7631f5a78a65e5bec85e43fb997d11f57678f8827b38eda8d3",
+    "backlog/02-plugins-existants/suites/etu-010-retour-note-synthese.md": "94cbe8d3537a92eed386daa41eba090f229f2893b39ae5d843c07d38308d48f8",
+    "backlog/02-plugins-existants/suites/etu-011-lecture-orale-guidee.md": "90bf68f86d0ecc76050f0aa4076b13ea7d847980ae7d571d36183b14dfa416a2",
+    "backlog/02-plugins-existants/suites/etu-012-fiches-revision.md": "6e1073a7042632ec2db9eb13f9c7195ef6b8e340238ff7d09c9394d5217239c4",
+    "backlog/02-plugins-existants/suites/etu-013-cartes-revision.md": "70219fa9675228ab9dcacc46071421fa0c255e751646e93e6f608d20c3ac9973",
+    "backlog/02-plugins-existants/suites/etu-014-session-journal.md": "5d2b239682760240624ca96cd8293764d7b47bc402b5cb3c4ec606d3c50a1304",
+    "backlog/02-plugins-existants/suites/etu-015-plan-revision.md": "8aa3a891e66128b8ee1de7ed4fd4028611beae8154661e910ae94d624ded9f0a",
+    "backlog/02-plugins-existants/suites/etu-016-analyse-annales.md": "a8d25b2d06ad7375cd7a4dee041fb62c346687578850c87c23c4f7efd586bb2c",
+    "backlog/02-plugins-existants/suites/etu-017-actualiser-point-droit.md": "a038e412fd68047d1b5ba8a6a8c5cb9798aa9b744dfda83c342928a83fd18693",
+    "backlog/02-plugins-existants/suites/etu-018-qualifier-crfpa.md": "5b5fa2d5ab0e323d742a01a1afcd3e8ca86a2ad70fa86ec7c6d49148e87e1f81",
+    "backlog/02-plugins-existants/suites/etu-019-entrainement-crfpa-cas-pratique.md": "d85ae3d8ec33d5d09fc71869abe143f0d49aef20d42f0662c08c70214774c0ad",
+    "backlog/02-plugins-existants/suites/etu-020-preferences-apprenant.md": "20283211c5f28849415c4be5fd88159bdab0ebbc678b8df5fe409d71b2fab665",
+    "backlog/02-plugins-existants/suites/etu-021-donnees-apprentissage.md": "7d3e89c152c54cc7168642d85e23334041843313bdfe71401f910568f000c280",
+    "backlog/README.md": "4b8d1d3205d6cb99a9fd553ddf7027bd0cb415e3280d17d3e143d8278d5e2aa2",
+    "backlog/02-plugins-existants/exist-010-support-verification.json": "3e55109a88f60f982a7d4467ba5676872846178c4fe7caaa663b67b27dce7d45",
+    "backlog/02-plugins-existants/exist-010-controles.py": "ec583d227c2da707f27c1792f2b921884e92ea75c67ef2c0fff537ef8ec00453"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "acte/délai réel",
+    "exécution de skill",
+    "installation/recette client",
+    "lecteur indépendant",
+    "connexion authentifiée/envoi/dépôt/paiement/publication/déploiement"
+  ],
+  "command": "python -X utf8 backlog/02-plugins-existants/exist-010-controles.py --baseline <instantane-debut-tache.json> --output backlog/02-plugins-existants/exist-010-resultats.json",
+  "notes": [
+    "Les différences git préexistantes ne sont pas des changements EXIST-010 ; voir comparaison à l’instantané de début de tâche.",
+    "Aucune validation de schéma plugin/client : aucun fichier de paquet modifié.",
+    "Hypothèses étrangères repérées ; reproduction DILA locale lue sans nouvelle consultation réseau ; aucun raisonnement juridique validé."
+  ]
+}

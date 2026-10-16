@@ -1,0 +1,289 @@
+{
+  "story": "DOM-003",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "scope": "cadrage documentaire exécution et recouvrement ; aucun plugin créé ni validation juridique",
+  "checks": {
+    "backlog_frontmatter_and_dependencies": {
+      "status": "passed",
+      "total": 265,
+      "statuses": {
+        "terminee": 29,
+        "en-cours": 1,
+        "proposee": 234,
+        "a-verifier": 1
+      },
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 11,
+      "file_targets": 36,
+      "future_files": [
+        {
+          "path": "enforcement-legal/.claude-plugin/plugin.json",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/README.md",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/CLAUDE.md",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/NOTICE",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/LICENSE",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/references/shared/research-citation-method.md",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/references/isolation.md",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/scripts/judge_store.py",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/references/company-profile-template.md",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/references/dashboard-template.md",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/references/qualification-acte.md",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/skills/enforcement-act-reading/SKILL.md",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/skills/enforcement-act-reading/references/lecture-acte.md",
+          "owner": "ENF-001"
+        },
+        {
+          "path": "enforcement-legal/skills/collection-letter-response/SKILL.md",
+          "owner": "ENF-002"
+        },
+        {
+          "path": "enforcement-legal/references/recouvrement-amiable.md",
+          "owner": "ENF-002"
+        },
+        {
+          "path": "enforcement-legal/skills/statement-check/SKILL.md",
+          "owner": "ENF-003"
+        },
+        {
+          "path": "enforcement-legal/references/decompte.md",
+          "owner": "ENF-003"
+        },
+        {
+          "path": "enforcement-legal/skills/bank-seizure-orientation/SKILL.md",
+          "owner": "ENF-004"
+        },
+        {
+          "path": "enforcement-legal/references/saisie-compte.md",
+          "owner": "ENF-004"
+        },
+        {
+          "path": "enforcement-legal/skills/eviction-orientation/SKILL.md",
+          "owner": "ENF-005"
+        },
+        {
+          "path": "enforcement-legal/references/expulsion.md",
+          "owner": "ENF-005"
+        },
+        {
+          "path": "enforcement-legal/skills/service-dispute/SKILL.md",
+          "owner": "ENF-006"
+        },
+        {
+          "path": "enforcement-legal/references/remise-acte.md",
+          "owner": "ENF-006"
+        },
+        {
+          "path": "enforcement-legal/skills/wage-seizure-orientation/SKILL.md",
+          "owner": "ENF-007"
+        },
+        {
+          "path": "enforcement-legal/references/saisie-remunerations.md",
+          "owner": "ENF-007"
+        },
+        {
+          "path": "enforcement-legal/skills/payment-plan-request/SKILL.md",
+          "owner": "ENF-008"
+        },
+        {
+          "path": "enforcement-legal/references/delais-paiement.md",
+          "owner": "ENF-008"
+        },
+        {
+          "path": "enforcement-legal/skills/protective-measure-reading/SKILL.md",
+          "owner": "ENF-009"
+        },
+        {
+          "path": "enforcement-legal/references/mesures-conservatoires.md",
+          "owner": "ENF-009"
+        },
+        {
+          "path": "enforcement-legal/skills/creditor-title-orientation/SKILL.md",
+          "owner": "ENF-010"
+        },
+        {
+          "path": "enforcement-legal/references/creancier-titre.md",
+          "owner": "ENF-010"
+        },
+        {
+          "path": "enforcement-legal/skills/goods-seizure-orientation/SKILL.md",
+          "owner": "ENF-011"
+        },
+        {
+          "path": "enforcement-legal/references/saisie-biens.md",
+          "owner": "ENF-011"
+        }
+      ],
+      "problems": []
+    },
+    "breakdown_table_consistency": {
+      "status": "passed",
+      "rows": 11,
+      "problems": []
+    },
+    "no_plugin_created": {
+      "status": "passed",
+      "marketplace_plugins": 12,
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 16,
+      "local_links": 214,
+      "problems": []
+    },
+    "table_column_counts": {
+      "status": "passed",
+      "problems": []
+    },
+    "index_matrix_and_prerequisites": {
+      "status": "passed",
+      "problems": []
+    },
+    "figures_for_manual_review": {
+      "status": "manual-review",
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "dom-003-verification.md",
+          "line": 14,
+          "text": "8 jours"
+        },
+        {
+          "file": "enf-001-lire-acte.md",
+          "line": 99,
+          "text": "8 jours"
+        }
+      ],
+      "note": "Durées ou montants à relire : chaque occurrence doit être un fait fictif, jamais une règle."
+    },
+    "scope_vs_task_baseline": {
+      "status": "passed",
+      "baseline_git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+      "lot_changes": [
+        "backlog/00-fondations/base-003-dossier-architecture.md",
+        "backlog/03-nouveaux-domaines/dom-003-commissaires-justice-execution.md",
+        "backlog/03-nouveaux-domaines/dom-003-controles.py",
+        "backlog/03-nouveaux-domaines/dom-003-decoupage-execution.md",
+        "backlog/03-nouveaux-domaines/dom-003-verification.md",
+        "backlog/03-nouveaux-domaines/suites/enf-001-lire-acte.md",
+        "backlog/03-nouveaux-domaines/suites/enf-002-relance-recouvrement.md",
+        "backlog/03-nouveaux-domaines/suites/enf-003-controler-decompte.md",
+        "backlog/03-nouveaux-domaines/suites/enf-004-saisie-compte.md",
+        "backlog/03-nouveaux-domaines/suites/enf-005-expulsion.md",
+        "backlog/03-nouveaux-domaines/suites/enf-006-contester-signification.md",
+        "backlog/03-nouveaux-domaines/suites/enf-007-saisie-remunerations.md",
+        "backlog/03-nouveaux-domaines/suites/enf-008-delais-paiement.md",
+        "backlog/03-nouveaux-domaines/suites/enf-009-mesure-conservatoire.md",
+        "backlog/03-nouveaux-domaines/suites/enf-010-creancier-titre.md",
+        "backlog/03-nouveaux-domaines/suites/enf-011-saisie-biens.md",
+        "backlog/README.md"
+      ],
+      "concurrent_patterns": [
+        "backlog/02-plugins-existants/exist-008-*",
+        "backlog/02-plugins-existants/suites/pi-*"
+      ],
+      "concurrent_changes": [
+        "backlog/02-plugins-existants/exist-008-inventaire-pi.md"
+      ],
+      "preserved_files": 764,
+      "report_excluded_from_own_comparison": true,
+      "note": "Les fichiers du lot partagés (index, BASE-003) peuvent aussi porter des changements concurrents ; le contrôle ne les attribue pas.",
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 74,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    }
+  },
+  "lot_sha256": {
+    "backlog/03-nouveaux-domaines/dom-003-commissaires-justice-execution.md": "d992108a16905708afdbad21b90da5d61157e743b091283b0f970ecabd59eb8b",
+    "backlog/03-nouveaux-domaines/dom-003-decoupage-execution.md": "a96063cafd6f537292e96d6e9241e6db5c2edd7c3acc051e53d35ae6cddd2399",
+    "backlog/03-nouveaux-domaines/dom-003-verification.md": "a30778a621afe747eda187cbab8132e4e52ae8315aee17329076c23d5c295ef1",
+    "backlog/03-nouveaux-domaines/suites/enf-001-lire-acte.md": "80db974909bc27b1f228da84b324af7c840a35ebb83a4843b821a445f3d88c60",
+    "backlog/03-nouveaux-domaines/suites/enf-002-relance-recouvrement.md": "e8f8e387367ea0799f1a42d02fa57a1bee6f8ba1260029f201fb2aa548f44269",
+    "backlog/03-nouveaux-domaines/suites/enf-003-controler-decompte.md": "eee34148e1be287ecfcdf4844c8ae992ba92b678ca19e4e0ddd6606b42aae06a",
+    "backlog/03-nouveaux-domaines/suites/enf-004-saisie-compte.md": "eaae6ca7a4405734cd89d67f5aa485d89d6c6608c407dd3603c4e8a8dcb8b14a",
+    "backlog/03-nouveaux-domaines/suites/enf-005-expulsion.md": "c3d2476e4cb618bdcc06cfe7e96ed20086d210ac2be6c065bcdbdfd40bc69f38",
+    "backlog/03-nouveaux-domaines/suites/enf-006-contester-signification.md": "8202de80edb9fe9e4be24c4bb8bf6aff09679990ca276393d56e88a1bab44465",
+    "backlog/03-nouveaux-domaines/suites/enf-007-saisie-remunerations.md": "43c2258a78d15ae5a9f202f5fb2affa76b067bbb13e9ba94d536b5776c4fc2cd",
+    "backlog/03-nouveaux-domaines/suites/enf-008-delais-paiement.md": "607406e497538dd154b01332ffba3a2e60f00e98b856574cc4f4adf8454820e4",
+    "backlog/03-nouveaux-domaines/suites/enf-009-mesure-conservatoire.md": "663ff182a3168d7c9152c6ab4613797a52dfdc836ac317c8949c0dd7ab6c8c32",
+    "backlog/03-nouveaux-domaines/suites/enf-010-creancier-titre.md": "1584816e8e05b13fd69146fb36cd8e25fb139bb9c0505e66232de4ecd8ba8f76",
+    "backlog/03-nouveaux-domaines/suites/enf-011-saisie-biens.md": "c5c627a35f306edc16f580b66d0ab7604af12fc0b5ff75d326dcf88ea10884a0",
+    "backlog/README.md": "fb049b9e47c72273905f1f9d27886b8c373919f62a604c17c21d81c2e6d1a71a",
+    "backlog/00-fondations/base-003-dossier-architecture.md": "6c24f29f4efa2f5bd74dd10926adff881d7179db9788bf67185223b5a9ce254f",
+    "backlog/03-nouveaux-domaines/dom-003-controles.py": "f200e0740cdc55a3d708b8347e82c7800d132f4423ad680ccc1538e67d4f7f68"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "calcul de délai, de décompte ou de montant",
+    "création ou exécution de skill",
+    "installation/recette client",
+    "lecteur réel ou indépendant",
+    "connexion/envoi/publication"
+  ],
+  "commands": [
+    "python -X utf8 backlog/03-nouveaux-domaines/dom-003-controles.py --baseline <instantane-debut-tache.json> --concurrent 'backlog/02-plugins-existants/exist-008-*' --concurrent 'backlog/02-plugins-existants/suites/pi-*' --output backlog/03-nouveaux-domaines/dom-003-resultats.json",
+    "python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)",
+    "git diff --check (appelé par le contrôleur)"
+  ],
+  "execution_notes": [
+    "Instantané de début de tâche pris dans le répertoire temporaire de session, avant toute écriture du lot.",
+    "Contrôleur dérivé de celui de DOM-002 (préfixes, nombre de propositions, nom du plugin) ; les fichiers DOM-001 et DOM-002 non commités ne sont pas modifiés.",
+    "Premier passage : liens vers ce relevé absents avant sa création ; relevé régénéré une fois le fichier présent.",
+    "Montants des pièces fictives listés pour relecture manuelle : ce sont des données recopiées, pas des règles.",
+    "Un lot EXIST-008 était en cours d'écriture dans le même arbre ; ses fichiers sont déclarés par --concurrent et listés, sans être attribués à DOM-003."
+  ]
+}

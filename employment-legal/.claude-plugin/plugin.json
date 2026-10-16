@@ -1,7 +1,7 @@
 {
   "name": "judge-fr-eu-employment-legal",
-  "version": "0.2.0",
-  "description": "Judge FR/UE 0.2.0 : pilote hiring-review pour comprendre une offre ou un contrat salarié privé en France (CDI, contrôles CDD ciblés). Recette client et utilisateur à compléter ; autres tâches héritées non adaptées.",
+  "version": "0.2.1",
+  "description": "Judge FR/UE 0.2.1 : pilote hiring-review pour comprendre une offre ou un contrat salarié privé en France (CDI, contrôles CDD ciblés). Recette client sur pièces fictives faite (BASE-011), lecteur non indépendant, nominal H01 non exécuté ; autres tâches héritées non adaptées.",
   "author": {
     "name": "Anthropic"
   },

@@ -1,7 +1,7 @@
 ---
 id: DOM-002
 titre: "Cadrer un plugin police et procédure pénale"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -34,11 +34,11 @@ Un premier skill de lecture et qualification d'une convocation, avant les régim
 
 ## Critères d'acceptation
 
-- [ ] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
-- [ ] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
-- [ ] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle.
-- [ ] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
-- [ ] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
+- [x] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
+- [x] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
+- [x] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle (scénarios rédigés, non exécutés).
+- [x] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
+- [x] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
 
 ## Scénarios pour éprouver le découpage
 
@@ -52,3 +52,44 @@ Vérifier le routage et les informations à demander. La story ne doit pas réso
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
 
+## Bilan d'exécution — 16 octobre 2026
+
+- [Découpage](dom-002-decoupage-penal.md) : nom `criminal-legal` conservé
+  (`judge-fr-eu-criminal-legal`) ; installation seule, sans profil, stockage
+  des faits pénaux, agent, hook ni connecteur ; garde-fous propres au domaine
+  (urgence d'abord, aucun évitement de la justice, statut avant droits,
+  aucune qualification présumée, recours à l'avocat) ; qualification commune
+  distinguant contrôle, audition libre et garde à vue ; frontières avec
+  contentieux, responsabilité, violences intrafamiliales, séjour, douanes,
+  administratif, véhicules, exécution, numérique, consommation, banque,
+  travail et santé.
+- 12 propositions CRIM-001 à CRIM-012 sous `suites/`, en quatre rangs.
+  Première tranche : CRIM-001, lecture d'une convocation par la police ou la
+  gendarmerie, qui crée le paquet avec ce seul skill. Mesure en cours,
+  amendes et plainte au rang 2.
+- [Vérification documentaire](dom-002-verification.md) : les trois scénarios
+  de la story et dix cas limites, sans durée, délai, montant ni droit conclu.
+- Ligne `criminal-legal` de la [matrice BASE-003](../00-fondations/base-003-dossier-architecture.md)
+  précisée ; index du backlog mis à jour.
+- [Contrôles statiques](dom-002-resultats.json), produits par
+  [le contrôleur du lot](dom-002-controles.py), sur le modèle de DOM-001.
+
+Fichiers du lot : présente story, découpage, vérification, contrôleur,
+relevé JSON, 12 propositions `suites/crim-*.md`, ligne de BASE-003 et
+`backlog/README.md`. Le lot reste sous `backlog/`, sans entrée NOTICE.
+Un lot EXIST-007 en cours d'écriture dans le même arbre est préservé et listé
+à part dans le relevé ; l'en-tête de l'index compte les 234 stories présentes
+au moment du contrôle.
+
+**Portée :** cadrage documentaire relu par l'agent de maintenance sur pièces
+fictives, avec contrôles statiques. Aucune source juridique lue : les
+articles cités sont des pistes. Aucun plugin créé, skill exécuté, paquet
+installé, lecteur réel ou indépendant. Le préalable PILOTE-003 est satisfait
+après BASE-011 ; aucune tranche n'est sélectionnée.
+
+## Décisions du 16 octobre 2026
+
+Voir les [décisions du 16 octobre 2026](../decisions-2026-10-16.md) : cinq propositions ajoutées, CRIM-013 (indemnisation des
+victimes), CRIM-014 (exécution des peines), CRIM-015 (interpellation),
+CRIM-016 (manifestations) et CRIM-017 (armes). La garde à vue reste CRIM-002.
+Le domaine compte désormais 17 propositions.

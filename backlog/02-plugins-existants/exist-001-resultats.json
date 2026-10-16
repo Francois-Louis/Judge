@@ -1,0 +1,166 @@
+{
+  "story": "EXIST-001",
+  "date": "2026-10-16",
+  "scope": "cadrage documentaire uniquement",
+  "checks": {
+    "frontmatter_and_dependencies": {
+      "status": "passed",
+      "stories": 105,
+      "statuses": {
+        "terminee": 20,
+        "en-cours": 1,
+        "proposee": 84
+      },
+      "cycles": 0,
+      "unknown_dependencies": 0
+    },
+    "com_proposals": {
+      "status": "passed",
+      "count": 18,
+      "all_proposed": true,
+      "files_results_scenarios_present": true,
+      "all_indexed": true
+    },
+    "inventory_exact_coverage": {
+      "status": "passed",
+      "package_files": 30,
+      "skills": 12,
+      "agents": 3,
+      "missing": [],
+      "extra": []
+    },
+    "cookbook_dependency_coverage": {
+      "status": "passed",
+      "files": 6
+    },
+    "shared_copies": {
+      "status": "passed",
+      "method_version": "1.0.0",
+      "identical": {
+        "references/shared/research-citation-method.md": true,
+        "references/isolation.md": true,
+        "scripts/judge_store.py": true,
+        "references/company-profile-template.md": true,
+        "references/dashboard-template.md": true
+      }
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 23,
+      "local_links": 179,
+      "broken_links": 0
+    },
+    "backlog_index": {
+      "status": "passed",
+      "baseline_count_corrected": 87,
+      "new_total": 105
+    },
+    "fixture_arithmetic_only": {
+      "status": "passed",
+      "term": "2026-12-31",
+      "minus_calendar_days": 60,
+      "result": "2026-11-01",
+      "weekday": "Sunday",
+      "invoice_balance": 700,
+      "legal_deadline_validated": false
+    },
+    "package_and_cookbook_unchanged": {
+      "status": "passed",
+      "command": "git diff --exit-code HEAD -- commercial-legal managed-agent-cookbooks/renewal-watcher",
+      "exit_code": 0,
+      "output": ""
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "command": "git diff --check",
+      "exit_code": 0,
+      "output": ""
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "command": "C:\\ProgramData\\miniconda3\\python.exe -X utf8 scripts/lint-tool-scope.py",
+      "exit_code": 0,
+      "output": "✓ diligence-grid           orchestrator tool scope clean\n  ✓ docket-watcher           orchestrator tool scope clean\n  ✓ launch-radar             orchestrator tool scope clean\n  ✓ reg-monitor              orchestrator tool scope clean\n  ✓ renewal-watcher          orchestrator tool scope clean"
+    },
+    "scope_backlog_only": {
+      "status": "passed",
+      "files": [
+        "backlog/02-plugins-existants/exist-001-contrats-commerciaux.md",
+        "backlog/02-plugins-existants/exist-001-decoupage-commercial.md",
+        "backlog/02-plugins-existants/exist-001-inventaire-commercial.md",
+        "backlog/02-plugins-existants/exist-001-resultats.json",
+        "backlog/02-plugins-existants/exist-001-verification.md",
+        "backlog/02-plugins-existants/suites/com-001-orientation-contrat.md",
+        "backlog/02-plugins-existants/suites/com-002-revue-prestation-b2b.md",
+        "backlog/02-plugins-existants/suites/com-003-confidentialite-commerciale.md",
+        "backlog/02-plugins-existants/suites/com-004-saas-transfrontalier.md",
+        "backlog/02-plugins-existants/suites/com-005-chaine-avenants.md",
+        "backlog/02-plugins-existants/suites/com-006-enregistrer-echeance.md",
+        "backlog/02-plugins-existants/suites/com-007-rapport-renouvellements.md",
+        "backlog/02-plugins-existants/suites/com-008-demande-arbitrage.md",
+        "backlog/02-plugins-existants/suites/com-009-synthese-accessible.md",
+        "backlog/02-plugins-existants/suites/com-010-journal-ecarts.md",
+        "backlog/02-plugins-existants/suites/com-011-proposer-position.md",
+        "backlog/02-plugins-existants/suites/com-012-decider-proposition.md",
+        "backlog/02-plugins-existants/suites/com-013-preferences-commerciales.md",
+        "backlog/02-plugins-existants/suites/com-014-dossier-commercial.md",
+        "backlog/02-plugins-existants/suites/com-015-facture-b2b-impayee.md",
+        "backlog/02-plugins-existants/suites/com-016-frais-penalites.md",
+        "backlog/02-plugins-existants/suites/com-017-preparer-rupture.md",
+        "backlog/02-plugins-existants/suites/com-018-cookbook-renouvellements.md",
+        "backlog/README.md"
+      ]
+    },
+    "json_sanity": {
+      "status": "passed",
+      "files_including_this_report": 61
+    }
+  },
+  "package_sha256": {
+    "commercial-legal/.claude-plugin/plugin.json": "1c6a9554d10b1e100ae7a2cc6144d5a59265eccc7c920a7ff432ed7c9dd03492",
+    "commercial-legal/.gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+    "commercial-legal/.mcp.json": "4f6da46a5d9b1196911903a24a5722e1cac605cab36c9686c86df4cb916c25d2",
+    "commercial-legal/agents/deal-debrief.md": "80c8656e5d0029b59e4e3e348931de966af477146fd520fe615a4a36c801ee23",
+    "commercial-legal/agents/playbook-monitor.md": "d4bd671a180d97a0d4dce31241fd6e9a6d80869ef1b11c884503fe19dedab956",
+    "commercial-legal/agents/renewal-watcher.md": "ad4d1724a64071ac3d99a34eb9718bdb3e96be8190d12e88bd4fe983cb64f8e8",
+    "commercial-legal/CLAUDE.md": "05dfe4e338058f4ca198f4281409aa7ffe87a4e3cf707b6554005a4dc8e4fc20",
+    "commercial-legal/hooks/hooks.json": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+    "commercial-legal/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "commercial-legal/logs/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "commercial-legal/NOTICE": "d8185191b91dc5b3c9370ec6249eb72cc263b5dd17ac47846098711f114266ee",
+    "commercial-legal/README.md": "7dc760baf479f595fcfe91290639c06274385edda7a76678d9de7cd3b6d1fa2c",
+    "commercial-legal/references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "commercial-legal/references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "commercial-legal/references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "commercial-legal/references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "commercial-legal/scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "commercial-legal/skills/amendment-history/SKILL.md": "b50d8e0a74dc9d8c5dfdd397c161dfa4f148d64d56feab9706d7de861200d25a",
+    "commercial-legal/skills/cold-start-interview/SKILL.md": "f145a7bf3d340bfba276d7c5e49ea94cd478ad9eae8dc957da78c8f92b8e7b2c",
+    "commercial-legal/skills/customize/SKILL.md": "b1e162f407a7b2982b594e6949ed4003ff9d2e08000d34b21d970117736d1954",
+    "commercial-legal/skills/escalation-flagger/SKILL.md": "9897aaa91b56be6acb59a67a97d06f7f42c78f8d1d0c49162da1db42ecbf8d86",
+    "commercial-legal/skills/matter-workspace/SKILL.md": "edb8c01c99bc7459ba1ece745bfb062a00fe85cebf8f48ea07058634b53acf34",
+    "commercial-legal/skills/nda-review/SKILL.md": "3c1b32a40352d2a1601170f1c64c829ca85800444e4ab51be42758203bf8383e",
+    "commercial-legal/skills/renewal-tracker/references/renewal-register.yaml": "09fe99c51a958d2df242ee6e7c9aadf039eb0f78286742ed4e1472f1596d1a2f",
+    "commercial-legal/skills/renewal-tracker/SKILL.md": "9ee920dc8479e7c704b44a0d1c7628f581d82e43d19ab4738a2752d60ccf75be",
+    "commercial-legal/skills/review/SKILL.md": "773605bb449a3d3a37543a5f5fde0aaaf3ac442bbf91b5f1d79da9975c4bd6d1",
+    "commercial-legal/skills/review-proposals/SKILL.md": "d5b80d401503896c1da7a1b8b91459dba6e760ec8156867dc667fdc6f8cd0376",
+    "commercial-legal/skills/saas-msa-review/SKILL.md": "cc6cf93cf716f0b094dcd564ff978e1a76bb8d879c071b3e094705b69fedea66",
+    "commercial-legal/skills/stakeholder-summary/SKILL.md": "46d44532d5788c2836a29cd9bc9f96d1dda7ac028d42b2fb8b151282c91af56b",
+    "commercial-legal/skills/vendor-agreement-review/SKILL.md": "8a847c2b09db476bb92af5b8cbd5cb62e51710a995318e947c08284775f5dc8c"
+  },
+  "cookbook_sha256": {
+    "managed-agent-cookbooks/renewal-watcher/agent.yaml": "bc852db8451ac3eac69a727d090856655110d788dc08f00a3e1cda3e0f1de971",
+    "managed-agent-cookbooks/renewal-watcher/README.md": "db41d1ccd340fc48b36fedc899a04ab618bebf919af1d526c9e64f8596cc7902",
+    "managed-agent-cookbooks/renewal-watcher/steering-examples.json": "41a77b46b5a6546f828de5b8a4d278fb9d83f891142a15aaacdccf16d3ad6379",
+    "managed-agent-cookbooks/renewal-watcher/subagents/alert-writer.yaml": "cf59f8080c5d4476a56331876421841a2f654a17558ea95783d4527c884629d1",
+    "managed-agent-cookbooks/renewal-watcher/subagents/deadline-calculator.yaml": "2f40b5454c50e5aa4249b428fbe57eb62995c60875b51493d029662e3986a314",
+    "managed-agent-cookbooks/renewal-watcher/subagents/repo-reader.yaml": "729f61d4f52234260b5a51cfab9ee1d3f3ba501f322d13e68a97653e152562bc"
+  },
+  "source_commit": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "not_executed": [
+    "recherche juridique commerciale",
+    "installation ou invocation commerciale adaptee",
+    "recette avec participant reel",
+    "connecteurs, envois et deploiement distant"
+  ]
+}

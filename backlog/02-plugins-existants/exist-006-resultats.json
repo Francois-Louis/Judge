@@ -1,0 +1,313 @@
+{
+  "story": "EXIST-006",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "scope": "cadrage et relecture documentaire fictive ; aucun skill exécuté ou droit validé",
+  "checks": {
+    "frontmatter_and_dependencies": {
+      "status": "passed",
+      "stories": 222,
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 24,
+      "future_owners": {
+        "litigation-legal/references/orientation-acte.md": [
+          "CTX-001"
+        ],
+        "litigation-legal/references/mise-en-demeure-recue.md": [
+          "CTX-002"
+        ],
+        "litigation-legal/references/intake-paiement-b2b.md": [
+          "CTX-003"
+        ],
+        "litigation-legal/references/projet-paiement-b2b.md": [
+          "CTX-004"
+        ],
+        "litigation-legal/references/demande-communication.md": [
+          "CTX-005"
+        ],
+        "litigation-legal/references/bordereau-communication.md": [
+          "CTX-006"
+        ],
+        "litigation-legal/skills/piece-communication/SKILL.md": [
+          "CTX-006"
+        ],
+        "litigation-legal/references/plan-conservation.md": [
+          "CTX-007"
+        ],
+        "litigation-legal/references/reexamen-conservation.md": [
+          "CTX-008"
+        ],
+        "litigation-legal/references/restrictions-communication.md": [
+          "CTX-009"
+        ],
+        "litigation-legal/references/entretien-factuel.md": [
+          "CTX-010"
+        ],
+        "litigation-legal/references/chronologie-contentieux.md": [
+          "CTX-011"
+        ],
+        "litigation-legal/references/preuve-obligation-contractuelle.md": [
+          "CTX-012"
+        ],
+        "litigation-legal/references/section-factuelle-tj.md": [
+          "CTX-013"
+        ],
+        "litigation-legal/references/fiche-dossier-contentieux.md": [
+          "CTX-014"
+        ],
+        "litigation-legal/references/evenement-contentieux.md": [
+          "CTX-015"
+        ],
+        "litigation-legal/references/echeance-tj-ecrite.md": [
+          "CTX-016"
+        ],
+        "litigation-legal/skills/procedural-deadline/SKILL.md": [
+          "CTX-016"
+        ],
+        "litigation-legal/references/point-dossier.md": [
+          "CTX-017"
+        ],
+        "litigation-legal/references/etat-portefeuille.md": [
+          "CTX-018"
+        ],
+        "litigation-legal/references/demande-etat-conseil.md": [
+          "CTX-019"
+        ],
+        "litigation-legal/references/cloture-suivi.md": [
+          "CTX-020"
+        ],
+        "litigation-legal/references/preferences-contentieux.md": [
+          "CTX-021"
+        ],
+        "litigation-legal/references/espace-dossier-contentieux.md": [
+          "CTX-022"
+        ],
+        "litigation-legal/references/rapport-evenements.md": [
+          "CTX-023"
+        ]
+      },
+      "problems": []
+    },
+    "inventory_exact_coverage": {
+      "status": "passed",
+      "package_files": 38,
+      "skills": 19,
+      "cookbook_files": 6,
+      "problems": []
+    },
+    "shared_copies": {
+      "status": "passed",
+      "identical": {
+        "references/shared/research-citation-method.md": true,
+        "references/isolation.md": true,
+        "references/company-profile-template.md": true,
+        "references/dashboard-template.md": true,
+        "scripts/judge_store.py": true
+      },
+      "method_version": "1.0.0",
+      "problems": []
+    },
+    "index_and_prerequisites": {
+      "status": "passed",
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 29,
+      "local_links": 190,
+      "problems": []
+    },
+    "known_ledger_defect_confirmed": {
+      "status": "passed",
+      "parse_error": null,
+      "unexpected_keys": [
+        "<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15)"
+      ],
+      "correction_assigned_to": "CTX-014",
+      "problems": []
+    },
+    "scope_vs_task_baseline": {
+      "status": "observed-concurrent-changes",
+      "lot_changed_files": [
+        "backlog/02-plugins-existants/exist-006-contentieux.md",
+        "backlog/02-plugins-existants/exist-006-controles.py",
+        "backlog/02-plugins-existants/exist-006-decoupage-contentieux.md",
+        "backlog/02-plugins-existants/exist-006-inventaire-contentieux.md",
+        "backlog/02-plugins-existants/exist-006-verification.md",
+        "backlog/02-plugins-existants/suites/ctx-001-orientation-document.md",
+        "backlog/02-plugins-existants/suites/ctx-002-mise-en-demeure-recue.md",
+        "backlog/02-plugins-existants/suites/ctx-003-preparer-demande-paiement.md",
+        "backlog/02-plugins-existants/suites/ctx-004-projet-mise-en-demeure.md",
+        "backlog/02-plugins-existants/suites/ctx-005-demande-communication-pieces.md",
+        "backlog/02-plugins-existants/suites/ctx-006-projet-communication-pieces.md",
+        "backlog/02-plugins-existants/suites/ctx-007-plan-conservation.md",
+        "backlog/02-plugins-existants/suites/ctx-008-reexamen-conservation.md",
+        "backlog/02-plugins-existants/suites/ctx-009-restrictions-communication.md",
+        "backlog/02-plugins-existants/suites/ctx-010-entretien-factuel.md",
+        "backlog/02-plugins-existants/suites/ctx-011-chronologie-documentee.md",
+        "backlog/02-plugins-existants/suites/ctx-012-matrice-preuve-contractuelle.md",
+        "backlog/02-plugins-existants/suites/ctx-013-section-factuelle-conclusions.md",
+        "backlog/02-plugins-existants/suites/ctx-014-ouverture-dossier.md",
+        "backlog/02-plugins-existants/suites/ctx-015-evenement-dossier.md",
+        "backlog/02-plugins-existants/suites/ctx-016-fiche-echeance.md",
+        "backlog/02-plugins-existants/suites/ctx-017-point-dossier.md",
+        "backlog/02-plugins-existants/suites/ctx-018-etat-portefeuille.md",
+        "backlog/02-plugins-existants/suites/ctx-019-demande-etat-conseil.md",
+        "backlog/02-plugins-existants/suites/ctx-020-cloture-suivi.md",
+        "backlog/02-plugins-existants/suites/ctx-021-preferences-contentieux.md",
+        "backlog/02-plugins-existants/suites/ctx-022-espace-dossier.md",
+        "backlog/02-plugins-existants/suites/ctx-023-rapport-evenements.md",
+        "backlog/02-plugins-existants/suites/ctx-024-cookbook-export-local.md",
+        "backlog/README.md"
+      ],
+      "other_changed_files": [
+        "backlog/00-fondations/base-003-dossier-architecture.md",
+        "backlog/03-nouveaux-domaines/dom-001-consommation.md",
+        "backlog/03-nouveaux-domaines/dom-001-controles.py",
+        "backlog/03-nouveaux-domaines/dom-001-decoupage-consommation.md",
+        "backlog/03-nouveaux-domaines/dom-001-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-001-verification.md",
+        "backlog/03-nouveaux-domaines/suites/conso-001-commande-non-livree.md",
+        "backlog/03-nouveaux-domaines/suites/conso-002-garantie-conformite.md",
+        "backlog/03-nouveaux-domaines/suites/conso-003-retractation.md",
+        "backlog/03-nouveaux-domaines/suites/conso-004-qualifier-achat.md",
+        "backlog/03-nouveaux-domaines/suites/conso-005-garantie-commerciale.md",
+        "backlog/03-nouveaux-domaines/suites/conso-006-mediation.md",
+        "backlog/03-nouveaux-domaines/suites/conso-007-vendeur-ue.md",
+        "backlog/03-nouveaux-domaines/suites/conso-008-cgv-tpe.md",
+        "backlog/03-nouveaux-domaines/suites/conso-009-abonnement.md",
+        "backlog/03-nouveaux-domaines/suites/conso-010-contenu-numerique.md",
+        "backlog/03-nouveaux-domaines/suites/conso-011-vente-entre-particuliers.md",
+        "backlog/03-nouveaux-domaines/suites/conso-012-reponse-vendeur.md",
+        "backlog/03-nouveaux-domaines/suites/conso-013-signalement.md"
+      ],
+      "note": "Other differences observed during this task are not attributed to EXIST-006; no claim of an unchanged entire workspace.",
+      "preserved_files": 674
+    },
+    "protected_inputs_unchanged": {
+      "status": "passed",
+      "files_checked": 557,
+      "package_and_cookbook_preserved": true,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 70,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [
+        "  ✓ diligence-grid           orchestrator tool scope clean",
+        "  ✓ docket-watcher           orchestrator tool scope clean",
+        "  ✓ launch-radar             orchestrator tool scope clean",
+        "  ✓ reg-monitor              orchestrator tool scope clean",
+        "  ✓ renewal-watcher          orchestrator tool scope clean"
+      ],
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [],
+      "problems": []
+    }
+  },
+  "package_and_cookbook_sha256": {
+    "litigation-legal/.claude-plugin/plugin.json": "14c832b92cd54e8d6195627058c9ef7a747d0d114f15e2f2f19cdb0b832a144a",
+    "litigation-legal/.gitignore": "6db793696956ef9daad18b4c191a3b9c67847cacab4b0ba3a8508d2bdebc7259",
+    "litigation-legal/.mcp.json": "9c9bc2a2514a368ad38edfa8c8cdea3a9701a7ef16fe6aa4c0224ff8167470be",
+    "litigation-legal/agents/docket-watcher.md": "4f477ac871f68e83133acdefc8fe57d5955e95eba8a283f841357a8f4e9dbed4",
+    "litigation-legal/CLAUDE.md": "dc462deb9dfc0d1ed958ddc57954ccad72170e1a7afcf24030dad70f6350ea72",
+    "litigation-legal/demand-letters/_README.md": "315c19d005323d58f6a6ccfee57e74fde0640ee560129c32e72214176c4607d3",
+    "litigation-legal/inbound/_README.md": "0e62028d1762e7378fff071e427d8739192c1383bc6c692ce03b1221e51572f2",
+    "litigation-legal/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "litigation-legal/matters/_log.yaml": "b430856f2448f851531dce76cdce210675221a57b83fce1b5d1ccf837fec2fd7",
+    "litigation-legal/matters/_README.md": "a74057bd3521ddd1ff9997cdcc2ff0cdce97d4c01592b82ee005e5ce0bd62c32",
+    "litigation-legal/NOTICE": "ab384eb4383f28a598be85fa8cabf2891c483b62f1ba66b68c01971d5ac05116",
+    "litigation-legal/oc-status/_README.md": "11ea6fe18a4e1251f22636601e5d240e51f21d8f3b8f38e7d2b6a6a13601bd17",
+    "litigation-legal/README.md": "a5ecb8d63f21796e7fa1d17ffb7730463d45fb53b4516502a8a6b8c1dbbfa9c0",
+    "litigation-legal/references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "litigation-legal/references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "litigation-legal/references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "litigation-legal/references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "litigation-legal/scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "litigation-legal/skills/brief-section-drafter/SKILL.md": "4e705b05a99689d15a890bac4d2e7f25c3e164aa365ad2dd38a1e6f9714d9b30",
+    "litigation-legal/skills/chronology/SKILL.md": "44ee54e2a18b54c802d745ca19a5d82f7ba850a3a2d2e05f0d44251a27f25817",
+    "litigation-legal/skills/claim-chart/references/element-templates.md": "4fc170865ec7ae99e92840405471e259fcce6baae2e4fe2b588ee607753a1f56",
+    "litigation-legal/skills/claim-chart/SKILL.md": "fff7bd4f8461bbf59f166c7a929f774d7359b6d66bebd2db7abd279647e7f79d",
+    "litigation-legal/skills/cold-start-interview/SKILL.md": "6b4bb0572fa6405f0832895ae9f3e1b46fd1783420024b3cbf111e3f49a4cde6",
+    "litigation-legal/skills/customize/SKILL.md": "d85bb00cddaeb9e1375e6dc17286d0fb79ee0ed64b3b274db56465048cc8036d",
+    "litigation-legal/skills/demand-draft/SKILL.md": "2029411ee8fd403f62e237b55b037c8bc3a7002e12582febad9ad3f135f77fc6",
+    "litigation-legal/skills/demand-intake/SKILL.md": "9bb908dd05af83b591b4a420b94b23b6df5a8103f4fa8f9a6a1274963e530c37",
+    "litigation-legal/skills/demand-received/SKILL.md": "26eb9cd7dcc2ec7dad599ddff0fbc28c3579c43b811c7b04bae2736c19c6b235",
+    "litigation-legal/skills/deposition-prep/SKILL.md": "26674dfd1903e503a36071908773d94847bacf3cb83096fe39734ee6a6438ab8",
+    "litigation-legal/skills/legal-hold/SKILL.md": "182a55e7a129252cb9832a9122e49b12b977c1952bddc3ba7c62ea4d6cfbc7a7",
+    "litigation-legal/skills/matter-briefing/SKILL.md": "6f8193b164053c53569d10a65faec163f9ceedc7819887b273e43461178e475e",
+    "litigation-legal/skills/matter-close/SKILL.md": "6d32a2bf198e31d9b9969748864e96f2222f628a801fb30f70a24085cfbb0931",
+    "litigation-legal/skills/matter-intake/SKILL.md": "b700fa521cac203ddb79c778548b217991d5acf9872f463ac9e31b74d2ca52f1",
+    "litigation-legal/skills/matter-update/SKILL.md": "4d66739fc00592017b7caab7de9abb82771f71f042fbd991afbe9aed0cc1c9bb",
+    "litigation-legal/skills/matter-workspace/SKILL.md": "a1aa8b6678f974fa541eacabd91939296578374a8cfce7c5e12d71b48207fc49",
+    "litigation-legal/skills/oc-status/SKILL.md": "18d2ad748ecb938145223e3e6290fe99e094fc0bab31369796b65cdba0909bf7",
+    "litigation-legal/skills/portfolio-status/SKILL.md": "7189c41031300cf49f27f038a18f3621e71381dde4a3d0407c5d8d30e5011f19",
+    "litigation-legal/skills/privilege-log-review/SKILL.md": "f75eafcf2fe1a0b3b436a857f3bc5f692f4945983098432590d829a9b480c1a1",
+    "litigation-legal/skills/subpoena-triage/SKILL.md": "00793e2cc37b78fd7339b50fc42b99bfbb14a9202aa0cfea4e78a34941dfa0f4",
+    "managed-agent-cookbooks/docket-watcher/agent.yaml": "9fc58e277fe018ae30aaef43063d3bd3ce53d699509e331ad2fd737d7dc352b5",
+    "managed-agent-cookbooks/docket-watcher/README.md": "a33ae22395e48060ee4a159f1013af83787ee381b2fca6e9cf390783ec498e8a",
+    "managed-agent-cookbooks/docket-watcher/steering-examples.json": "d7866aa0a87ff09c4a11afaa592f06e72cb1075ea8a777bd31582920acf0cf9b",
+    "managed-agent-cookbooks/docket-watcher/subagents/deadline-mapper.yaml": "3a73a53caeacc204c3d8145844c2707fbc7df87235fd7cbb5aeaa9b016001fdb",
+    "managed-agent-cookbooks/docket-watcher/subagents/docket-reader.yaml": "eb9b5cf51473ae5e0e0a5f9e01a4512440c09eb5d81ff7e3368732abeacfd679",
+    "managed-agent-cookbooks/docket-watcher/subagents/tracker-writer.yaml": "e5bc75d90f21946e6875f347cacb29af5fdbce7455e16b5e2f04ec850c866300"
+  },
+  "lot_sha256": {
+    "backlog/02-plugins-existants/exist-006-contentieux.md": "7fcf776b5a6772b50327dcf4b2dd78ab2780eb34e3abc434e5268cb3d478c469",
+    "backlog/02-plugins-existants/exist-006-inventaire-contentieux.md": "997f925d2bb559081abe7ecacd6a49440dc87bca8b2de3884fd3e0d382cca533",
+    "backlog/02-plugins-existants/exist-006-decoupage-contentieux.md": "2dad6655a8f36a6497a04b83b4ce8682b80aeedd49eaa63c338ad0c0dce46bcd",
+    "backlog/02-plugins-existants/exist-006-verification.md": "101c079eed81076c7d6090aae5c94af128a11464596babe4fd6e052c8de40471",
+    "backlog/02-plugins-existants/suites/ctx-001-orientation-document.md": "a4a3796b509cd5019f0f41d9d73861a1742ab59887a2e958849f9e5f8af3296f",
+    "backlog/02-plugins-existants/suites/ctx-002-mise-en-demeure-recue.md": "c81dccd2f195de9627bdbcebb044addf1f4dd6ab06f68eca2051a24b5a89efaa",
+    "backlog/02-plugins-existants/suites/ctx-003-preparer-demande-paiement.md": "015c5f31c1fbbf4e4d6db0e87eb91af9c2b8cf42912cfafa9849417c6eb66435",
+    "backlog/02-plugins-existants/suites/ctx-004-projet-mise-en-demeure.md": "5a4d418e4bb964d23a592369063ba4926d177f7c5da502872e27b2bb49b1967b",
+    "backlog/02-plugins-existants/suites/ctx-005-demande-communication-pieces.md": "380325409a04c8fcb17328af0ba39a7672d2ddf03399613c22154e8e547b41f3",
+    "backlog/02-plugins-existants/suites/ctx-006-projet-communication-pieces.md": "b20f08cdb25672002ab792008f034cce7a2de65eed23bd1ec3bfc2dfef6ec802",
+    "backlog/02-plugins-existants/suites/ctx-007-plan-conservation.md": "1c22a7c5c26877bc0b202ed4baf3b9fbaf8a00615f95209b10b0e626e34311c6",
+    "backlog/02-plugins-existants/suites/ctx-008-reexamen-conservation.md": "57828660eda8b4ac84635f3d3fe83dde9384b54a8aed717291e1f10d8303142e",
+    "backlog/02-plugins-existants/suites/ctx-009-restrictions-communication.md": "c2b6127b055a36b1704c4c6e151adc67fa3dc7cf8092d99e60c86d38c1191736",
+    "backlog/02-plugins-existants/suites/ctx-010-entretien-factuel.md": "76bdc3070fa3a23ae90df1f2675611fb9cf8756781d6d9dd42aeefe2eff832d5",
+    "backlog/02-plugins-existants/suites/ctx-011-chronologie-documentee.md": "151c6eda5ce88f3695e532c221a0bbc6a2939dbfb88d80a309b3d60e95c9237e",
+    "backlog/02-plugins-existants/suites/ctx-012-matrice-preuve-contractuelle.md": "75258cd9adc02c272efc914189a9b4cb48c64ae56e9e1e8f4ef76a761419deeb",
+    "backlog/02-plugins-existants/suites/ctx-013-section-factuelle-conclusions.md": "7bc71c2c0d1cf93aee16f026df58c58abd951d8212829451e338aaaf5c0cd88a",
+    "backlog/02-plugins-existants/suites/ctx-014-ouverture-dossier.md": "77f70de507a00b3a3abfa8bf6d8291684a694b7a4c120844ff181282ff2f71f9",
+    "backlog/02-plugins-existants/suites/ctx-015-evenement-dossier.md": "a1a024db59acdf25338338593515b94d5296e5daa9b7581bcd0a80a45c697a6c",
+    "backlog/02-plugins-existants/suites/ctx-016-fiche-echeance.md": "9c487a5973bce6c8cbb423646faf77136f1ee2d1187d35480f06ed24d1892425",
+    "backlog/02-plugins-existants/suites/ctx-017-point-dossier.md": "14ea16b35fc46618384edcc06f78424c8416fb7b7617b7458dcf0174cc5f381e",
+    "backlog/02-plugins-existants/suites/ctx-018-etat-portefeuille.md": "e2279549e10419a3f0f3cf33b194657274af4cbeae29d19041d701b66d19dedb",
+    "backlog/02-plugins-existants/suites/ctx-019-demande-etat-conseil.md": "40a29f938258c7abc60ed90c0dfce1b533cfd8c26a15c8b7c1f24fd8a429add3",
+    "backlog/02-plugins-existants/suites/ctx-020-cloture-suivi.md": "053935f66f06266f5d7030bd05def0254a7da52a79aa3d6673fd04ae4c649000",
+    "backlog/02-plugins-existants/suites/ctx-021-preferences-contentieux.md": "22214a6f66018c800a7fa87d38d6150b8375f7357b596730fe3d7d23d99995e0",
+    "backlog/02-plugins-existants/suites/ctx-022-espace-dossier.md": "891da7536b92787601378f23ca9734b424eaebf61e22b00dc11cbf1082a17503",
+    "backlog/02-plugins-existants/suites/ctx-023-rapport-evenements.md": "5c08e41d7c53d174d1077f02c2107b2845b548a54b5b4e45b548e87bd3bf3822",
+    "backlog/02-plugins-existants/suites/ctx-024-cookbook-export-local.md": "b7e4619f0c59665823052cbeee2ca1b8e0ad8aa24d77cab933ed9d7fe5c8ca5c",
+    "backlog/README.md": "f6f19174172066ba3c0cb00134acc8e374d56b7bcac67c189215265e58346e46",
+    "backlog/02-plugins-existants/exist-006-controles.py": "df3105928a3cb0adbfd29f1fee7bd585e6345e2ddb2ec572455c6b316c1aa41d"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "acte/délai réel",
+    "exécution de skill",
+    "installation/recette client",
+    "lecteur indépendant",
+    "connexion/envoi/publication/déploiement"
+  ],
+  "command": "python -X utf8 backlog/02-plugins-existants/exist-006-controles.py --baseline <instantane-debut-tache.json> --output backlog/02-plugins-existants/exist-006-resultats.json",
+  "notes": [
+    "Les différences git préexistantes ne sont pas des changements EXIST-006 ; voir comparaison à l’instantané de début de tâche.",
+    "Aucune validation de schéma plugin/client : aucun fichier de paquet modifié.",
+    "Le défaut YAML recensé est observé et assigné, sans correction du plugin dans ce cadrage."
+  ]
+}

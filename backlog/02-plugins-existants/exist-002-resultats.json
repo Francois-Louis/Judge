@@ -1,0 +1,184 @@
+{
+  "story": "EXIST-002",
+  "date": "2026-10-16",
+  "scope": "cadrage documentaire uniquement",
+  "checks": {
+    "frontmatter_and_dependencies": {
+      "status": "passed",
+      "stories": 127,
+      "statuses": {
+        "terminee": 21,
+        "en-cours": 1,
+        "proposee": 105
+      },
+      "cycles": 0,
+      "unknown_dependencies": 0
+    },
+    "soc_proposals": {
+      "status": "passed",
+      "count": 22,
+      "all_proposed": true,
+      "files_results_scenarios_present": true,
+      "all_indexed": true,
+      "existing_or_explicit_future_paths": true
+    },
+    "inventory_exact_coverage": {
+      "status": "passed",
+      "package_files": 30,
+      "skills": 13,
+      "agents": 1,
+      "missing": []
+    },
+    "cookbook_dependency_coverage": {
+      "status": "passed",
+      "files": 7
+    },
+    "shared_copies": {
+      "status": "passed",
+      "method_version": "1.0.0",
+      "identical": {
+        "references/shared/research-citation-method.md": true,
+        "references/isolation.md": true,
+        "scripts/judge_store.py": true,
+        "references/company-profile-template.md": true,
+        "references/dashboard-template.md": true
+      }
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 27,
+      "local_links": 214,
+      "broken_links": 0,
+      "trailing_whitespace": 0
+    },
+    "backlog_index": {
+      "status": "passed",
+      "baseline_stories": 105,
+      "added_proposals": 22,
+      "new_total": 127
+    },
+    "fixture_arithmetic_only": {
+      "status": "passed",
+      "assumed_close": "2026-10-16",
+      "plus_calendar_days": 45,
+      "result": "2026-11-30",
+      "legal_deadline_validated": false
+    },
+    "package_cookbook_vendor_unchanged": {
+      "status": "passed",
+      "command": "git diff --exit-code HEAD -- corporate-legal managed-agent-cookbooks/diligence-grid external_plugins",
+      "exit_code": 0,
+      "output": ""
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "command": "git diff --check",
+      "exit_code": 0,
+      "output": ""
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "command": "C:/ProgramData/miniconda3/python.exe -X utf8 scripts/lint-tool-scope.py",
+      "exit_code": 0,
+      "output": "✓ diligence-grid           orchestrator tool scope clean\n  ✓ docket-watcher           orchestrator tool scope clean\n  ✓ launch-radar             orchestrator tool scope clean\n  ✓ reg-monitor              orchestrator tool scope clean\n  ✓ renewal-watcher          orchestrator tool scope clean"
+    },
+    "json_sanity": {
+      "status": "passed",
+      "files_including_this_report": 62
+    },
+    "scope_backlog_only": {
+      "status": "passed",
+      "files": [
+        "backlog/02-plugins-existants/exist-002-decoupage-societes.md",
+        "backlog/02-plugins-existants/exist-002-inventaire-societes.md",
+        "backlog/02-plugins-existants/exist-002-resultats.json",
+        "backlog/02-plugins-existants/exist-002-societes-operations.md",
+        "backlog/02-plugins-existants/exist-002-verification.md",
+        "backlog/02-plugins-existants/suites/soc-001-qualifier-decision-sociale.md",
+        "backlog/02-plugins-existants/suites/soc-002-projet-autorisation-bancaire.md",
+        "backlog/02-plugins-existants/suites/soc-003-projet-proces-verbal.md",
+        "backlog/02-plugins-existants/suites/soc-004-initialiser-formalites.md",
+        "backlog/02-plugins-existants/suites/soc-005-preuves-formalites.md",
+        "backlog/02-plugins-existants/suites/soc-006-rapport-formalites.md",
+        "backlog/02-plugins-existants/suites/soc-007-audit-pieces-societes.md",
+        "backlog/02-plugins-existants/suites/soc-008-grille-diligence.md",
+        "backlog/02-plugins-existants/suites/soc-009-constats-acquisition.md",
+        "backlog/02-plugins-existants/suites/soc-010-annexe-contrats.md",
+        "backlog/02-plugins-existants/suites/soc-011-construire-checklist-operation.md",
+        "backlog/02-plugins-existants/suites/soc-012-suivi-checklist-operation.md",
+        "backlog/02-plugins-existants/suites/soc-013-synthese-operation.md",
+        "backlog/02-plugins-existants/suites/soc-014-plan-post-acquisition.md",
+        "backlog/02-plugins-existants/suites/soc-015-accords-contrats-operation.md",
+        "backlog/02-plugins-existants/suites/soc-016-rapport-post-acquisition.md",
+        "backlog/02-plugins-existants/suites/soc-017-controle-export-ia.md",
+        "backlog/02-plugins-existants/suites/soc-018-rapport-nouveautes-vdr.md",
+        "backlog/02-plugins-existants/suites/soc-019-preferences-societes.md",
+        "backlog/02-plugins-existants/suites/soc-020-contexte-operation.md",
+        "backlog/02-plugins-existants/suites/soc-021-dossier-societes.md",
+        "backlog/02-plugins-existants/suites/soc-022-cookbook-diligence.md",
+        "backlog/README.md"
+      ],
+      "preexisting_changes_preserved": "EXIST-001 artifacts and COM proposals retained; backlog/README.md updated in place"
+    }
+  },
+  "package_sha256": {
+    "corporate-legal/.claude-plugin/plugin.json": "f0073aac68af883b00f8544bc9a01d80557ee82d50420737ea2ef1a09a11b113",
+    "corporate-legal/.gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+    "corporate-legal/.mcp.json": "bb97384f727e08c6d302be76aef9e3a3c580408d72d811c8238a7a46f27c7a85",
+    "corporate-legal/agents/dataroom-watcher.md": "ce84b337103d38fe8eaa23bda79d226f5ef7f4a4d2de94482197ba5c6a47807a",
+    "corporate-legal/CLAUDE.md": "a5c08410e7dd4b22233d7a418ad408283c2a135f66eaa9a2662a08e9fb3bff2d",
+    "corporate-legal/hooks/hooks.json": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+    "corporate-legal/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "corporate-legal/NOTICE": "2037739d6b3205e4fe6307f8ba73114b1af5db3ef7aefdba54ab924ace745aab",
+    "corporate-legal/README.md": "69b7c59ce1c925be3341cc89772bf95537edc19276697a0a5cd8a4490d502b87",
+    "corporate-legal/references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "corporate-legal/references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "corporate-legal/references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "corporate-legal/references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "corporate-legal/scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "corporate-legal/skills/ai-tool-handoff/SKILL.md": "9db9b9ab7f02c715f9484e9aa17ccd2b4cc5f4f352fb5725ad27a3f3ea96e500",
+    "corporate-legal/skills/board-minutes/SKILL.md": "5e357a69a3a98b2231fd01736612d886dd1b7cfdc1bcaac9e24c70c2f15eb970",
+    "corporate-legal/skills/closing-checklist/SKILL.md": "165e573efa09a3396afa6d8971e0b45f52f6526cdf1798259226a203e7f8ae1a",
+    "corporate-legal/skills/cold-start-interview/SKILL.md": "652721f7ec0a2f9143ee21ea8c0a8238c136ac1c73862d0ea313fa5dec47f443",
+    "corporate-legal/skills/customize/SKILL.md": "67a4ee659da0e11c9acc0c4593881b86611245fdbe0a98321bbb2910b4dfeae0",
+    "corporate-legal/skills/deal-team-summary/SKILL.md": "6e52a764dcd2e1fe330f692e082639c3fc1adb481c0b593dd244541f9ea49ce7",
+    "corporate-legal/skills/diligence-issue-extraction/SKILL.md": "eef42260c981cf3014bb93e690507cafe5acfce15bde3eb51075b81cfcca65de",
+    "corporate-legal/skills/entity-compliance/SKILL.md": "ef26e7eaef9646eb1a5a0e39cf4a6e9073ff78ac5f27b225c6017c4432c3bc8b",
+    "corporate-legal/skills/integration-management/SKILL.md": "f69433eed47a97e1ce64702357c4deca685503181d51c0f75ad5a7e1f8d97c91",
+    "corporate-legal/skills/material-contract-schedule/SKILL.md": "f752093c137da54aaeff5aaaafe092505a32276b2f1196f2eff90e5dadb38c66",
+    "corporate-legal/skills/matter-workspace/SKILL.md": "05baf16fbc26ef67370197e213aca7109e59b6597dd770d4abbd7d210d0e9d76",
+    "corporate-legal/skills/tabular-review/references/excel-output.md": "b3f413b7765cc22e0eadda4bf59177dff858a85edc4a33aa3d2e670b2c45b0f2",
+    "corporate-legal/skills/tabular-review/references/gsheets-output.md": "d8608cb16b632a602e54d4909b3edd48ac453ac8ccdfc6ba3b07ab946e0f1888",
+    "corporate-legal/skills/tabular-review/references/ma-diligence-columns.md": "fe254ecdd6ccd48040873c44dd6666b03b207cc900de5a83e60a19365a9de97a",
+    "corporate-legal/skills/tabular-review/SKILL.md": "bd0587cf6c5f20da7f403f73792bbe8a556c016419cd6b4e787678fcdd0dbb09",
+    "corporate-legal/skills/written-consent/SKILL.md": "8c698003c78c031aba2e071b7647525a7b46fe57c74fd2ad8001e31ad69bb252"
+  },
+  "cookbook_sha256": {
+    "managed-agent-cookbooks/diligence-grid/agent.yaml": "5eb789a20800ca3a8e8a4760ba49d442676a03d839a85f93b0d51fade7a5d6a0",
+    "managed-agent-cookbooks/diligence-grid/README.md": "0f3324cadc3e032db96ffeee950a8658b6be70b90502c79eee34a2c0498158bc",
+    "managed-agent-cookbooks/diligence-grid/steering-examples.json": "d1188e8f27fe8ab20822866acb1a348e4994cdc76fa4f9ba1b7d2aceffaed238",
+    "managed-agent-cookbooks/diligence-grid/subagents/doc-reader.yaml": "aab3ddb04d87d1a4865bf179cba426110da9d4617dc49a7c5f654f8b368563d8",
+    "managed-agent-cookbooks/diligence-grid/subagents/extractor.yaml": "15f1d1ab50215f4a24649fe0cf8a7d62baa911f3260229f7223df5c0f7002410",
+    "managed-agent-cookbooks/diligence-grid/subagents/grid-writer.yaml": "54a89ec3a2ba361828be7a1ecf738fea57f4075e097eb8481a64d339cf0640fe",
+    "managed-agent-cookbooks/diligence-grid/subagents/normalizer.yaml": "832356e794857277beaf3e728cf88a23fee1280db6f419c3fa26521a1785738b"
+  },
+  "source_commit": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "documentary_review": {
+    "reviewer": "agent de maintenance",
+    "fixtures": [
+      "S01 SAS avec statuts fictifs",
+      "S02 SARL avec statuts fictifs",
+      "A01 acquisition avec filiale GmbH"
+    ],
+    "evidence": "exist-002-verification.md",
+    "independent_review": false,
+    "skill_execution": false
+  },
+  "not_executed": [
+    "recherche juridique societes/operations",
+    "adaptation ou invocation de skill corporate",
+    "installation/recette client",
+    "lecture par participant reel ou juriste independant",
+    "connecteurs, envois et deploiement distant"
+  ]
+}

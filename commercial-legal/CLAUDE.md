@@ -10,7 +10,7 @@ User-specific configuration for this plugin lives at a version-independent path 
 Rules for every skill, command, and agent in this plugin:
 First load `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`; use its guarded storage helper for all durable data access.
 1. READ configuration from that path. Not from this file.
-2. If that file does not exist or still contains [PLACEHOLDER] markers, STOP before doing substantive work. Say: "This plugin needs setup before it can give you useful output. Run /judge-fr-eu-commercial-legal:cold-start-interview — it takes about 10-15 minutes and every command in this plugin depends on it. Without it, outputs will be generic and may not match how your practice actually works." Do NOT proceed with placeholder or default configuration. The only skills that run without setup are /judge-fr-eu-commercial-legal:cold-start-interview itself and any --check-integrations flag.
+2. COM-001 exception: /judge-fr-eu-commercial-legal:review provides orientation from explicit documents or a narrative without a profile or interview. A missing profile (`interview-required`) or placeholders do not block that task and never authorize importing another profile. If the storage helper is unavailable/refuses access, stop durable access and continue orientation on explicit inputs only. All other inherited workflows retain their setup requirements and remain unadapted for France/EU; a complete profile does not make them adapted. Never apply placeholder/default legal positions.
 3. Setup and cold-start-interview WRITE to that path, creating parent directories as needed.
 4. If the fork profile is missing, start a fresh interview from confirmed answers. Never search a cache or another distribution for a profile. Preserve existing fork answers; no automatic import.
 5. This file (the one you are reading) is the TEMPLATE. It ships with the plugin and shows the
@@ -20,6 +20,22 @@ First load `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`; use its guarded stor
 -->
 
 # Commercial Contracts Practice Profile
+
+## Orientation France/UE — COM-001
+
+`review` qualifie et oriente ; il ne lance aucune revue héritée non adaptée.
+Pour cette tâche, les instructions de `review` et de sa référence locale
+prévalent sur les blocs hérités de ce modèle concernant setup obligatoire,
+provisoire US, sorties, marquages et dossier actif. La frontière de stockage
+reste inchangée. Aucun profil, dossier actif, playbook ni avocat attitré requis.
+Une lecture ponctuelle reste dans la conversation, sans configuration créée.
+
+Lire [l'orientation locale](references/orientation-commerciale.md) pour les
+domaines et l'état réel des branches. Les exemples de pays, seuils ou positions
+ci-dessous ne sont jamais des faits confirmés ni des règles France/UE.
+Pour l'orientation, ne pas apposer de garantie de secret professionnel ni citer
+une règle mémorisée comme vérifiée ; charger la méthode locale BASE-005.
+Séparer loi applicable, compétence du juge et préférence de négociation.
 
 *This file is written by the cold-start interview on first run. Until then, it's
 a template. If you're seeing `[PLACEHOLDER]` values below, run `/judge-fr-eu-commercial-legal:cold-start-interview`
@@ -70,7 +86,7 @@ is the final escalation point. We process roughly [N] agreements per month, most
 
 *Sales-side = the company sells its products or services. We're the vendor. Usually our paper. Purchasing-side = the company buys from third-party vendors or suppliers. We're the customer. Usually their paper. The answer changes every playbook position — risk appetite, standard and fallback terms, approval thresholds, liability caps, indemnity direction, IP ownership, termination rights.*
 
-> Skills that review or assess a contract against this playbook first determine which side the company is on (usually obvious from whose paper it is — if the counterparty is buying your product, you're sales-side; if you're buying theirs, you're purchasing-side). If it's not obvious, ask. Read the matching playbook section. Never apply a sales-side position to a purchasing-side contract or vice versa.
+> Déterminer le côté à partir des obligations réelles pour cet acte : qui achète et qui fournit ? L'auteur du modèle et le métier habituel ne suffisent pas. Si nécessaire, poser la question. Une préférence achat/vente ne décide ni du régime juridique ni de la validité d'une clause. `review` reste utilisable sans playbook et ne lance aucune des revues héritées ci-dessous.
 
 ### Sales-side playbook
 
@@ -486,7 +502,7 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 ## Review preferences
 
-confirm_routing: true   # Set to false to skip routing confirmation and proceed automatically
+confirm_routing: true   # Future adapted branch only; no confirmation needed for the requested orientation itself. False never authorizes an unadapted branch or external action.
 
 ---
 

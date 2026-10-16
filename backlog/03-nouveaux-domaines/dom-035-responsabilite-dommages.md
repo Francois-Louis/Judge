@@ -27,6 +27,8 @@ Nom de plugin proposé : `civil-liability-legal`. Aucun plugin n'est créé par 
 
 Les dommages civils sans domaine spécial identifié sont ici ; accident de circulation, dommage médical, défaut de construction et infraction exigent d'abord leur qualification sectorielle et leur routage.
 
+Décision du 16 octobre 2026 ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)) : l'offre d'indemnisation faite par un assureur à une victime d'accident de la circulation relève de ce domaine ; la garantie due par l'assureur à son propre assuré reste en DOM-005.
+
 ## Sources à prévoir et vérifier
 
 Code civil, régimes spéciaux pertinents et jurisprudence ; procédure, assurance et règles d'expertise selon le cas.

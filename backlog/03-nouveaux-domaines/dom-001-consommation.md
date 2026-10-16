@@ -1,7 +1,7 @@
 ---
 id: DOM-001
 titre: "Cadrer un plugin de droit de la consommation"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -35,11 +35,11 @@ Un premier skill de réclamation pour non-livraison, à borner après cadrage.
 
 ## Critères d'acceptation
 
-- [ ] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
-- [ ] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
-- [ ] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle.
-- [ ] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
-- [ ] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
+- [x] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
+- [x] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
+- [x] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle (scénarios rédigés, non exécutés).
+- [x] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
+- [x] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
 
 ## Scénarios pour éprouver le découpage
 
@@ -53,3 +53,45 @@ Vérifier le routage et les informations à demander. La story ne doit pas réso
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
 
+## Bilan d'exécution — 16 octobre 2026
+
+- [Découpage](dom-001-decoupage-consommation.md) : nom `consumer-legal`
+  conservé (`judge-fr-eu-consumer-legal`) ; contrat d'installation seule,
+  sans profil, agent, hook ni connecteur ; qualification commune (parties,
+  objet, canal, territoire, plateformes, pièces) ; frontières avec banque,
+  assurance, voyages, données, contrats B2B, produits, contentieux et les six
+  secteurs nommés par la story. Un secteur garde son litige, même quand son
+  plugin n'est pas disponible.
+- 13 propositions CONSO-001 à CONSO-013 sous `suites/`, en quatre rangs.
+  Première tranche : CONSO-001, réclamation pour une commande non livrée,
+  qui crée le paquet avec ce seul skill. Inclus, exclus et sortie précisés.
+- [Vérification documentaire](dom-001-verification.md) : les trois scénarios
+  de la story et neuf cas limites, sans délai, montant ni droit conclu.
+- Ligne `consumer-legal` de la [matrice BASE-003](../00-fondations/base-003-dossier-architecture.md)
+  précisée ; index du backlog mis à jour.
+- [Contrôles statiques](dom-001-resultats.json), produits par
+  [le contrôleur du lot](dom-001-controles.py) : frontmatter et dépendances,
+  sections des propositions, propriétaires uniques des fichiers futurs,
+  liens, format, index, absence de paquet `consumer-legal`, périmètre
+  comparé à l'instantané de début de tâche.
+
+Fichiers du lot : présente story, découpage, vérification, contrôleur,
+relevé JSON, 13 propositions `suites/conso-*.md`, ligne de BASE-003 et
+`backlog/README.md`. Le lot reste sous `backlog/`, sans entrée NOTICE.
+Un lot EXIST-006 écrit en parallèle dans le même arbre est préservé et listé
+à part dans le relevé ; l'en-tête de l'index est recalé sur les 222 stories
+présentes au moment du contrôle.
+
+**Portée :** cadrage documentaire relu par l'agent de maintenance sur pièces
+fictives, avec contrôles statiques. Aucune source juridique lue : les
+articles cités sont des pistes. Aucun plugin créé, skill exécuté, paquet
+installé, lecteur réel ou indépendant. Le préalable PILOTE-003 est satisfait
+après BASE-011 ; aucune tranche n'est sélectionnée.
+
+## Décisions du 16 octobre 2026
+
+Voir les [décisions du 16 octobre 2026](../decisions-2026-10-16.md) : achats entre particuliers maintenus (CONSO-011) ; sans plugin
+du secteur disponible, consumer traite le litige avec les règles générales et
+signale les règles sectorielles manquantes, d'où CONSO-014. La phrase du
+bilan « un secteur garde son litige, même quand son plugin n'est pas
+disponible » est remplacée par cette règle.

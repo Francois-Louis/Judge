@@ -1,7 +1,7 @@
 ---
 id: DOM-004
 titre: "Cadrer un plugin bancaire"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -34,11 +34,11 @@ Un premier skill de qualification d'une contestation de paiement et de préparat
 
 ## Critères d'acceptation
 
-- [ ] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
-- [ ] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
-- [ ] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle.
-- [ ] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
-- [ ] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
+- [x] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
+- [x] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
+- [x] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle (scénarios rédigés, non exécutés).
+- [x] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
+- [x] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
 
 ## Scénarios pour éprouver le découpage
 
@@ -52,3 +52,48 @@ Vérifier le routage et les informations à demander. La story ne doit pas réso
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
 
+## Bilan d'exécution — 16 octobre 2026
+
+- [Découpage](dom-004-decoupage-banque.md) : nom `banking-legal` conservé
+  (`judge-fr-eu-banking-legal`) et nom de skill `payment-dispute` confirmé ;
+  installation seule, sans profil, agent, hook, connecteur ni accès à un
+  compte ; garde-fous (urgence d'abord, jamais de code ni d'identifiant
+  complet, trois qualifications séparées, aucune conclusion sur la
+  négligence, aucun conseil d'investissement) ; qualification commune
+  distinguant compte, paiement, crédit et placement ; frontières avec
+  consommation, assurance, surendettement, exécution, pénal, données,
+  numérique, sociétés, immobilier et successions.
+- 11 propositions BNK-001 à BNK-011 sous `suites/`, en quatre rangs.
+  Première tranche : BNK-001, qualification d'un paiement contesté et
+  réclamation, qui crée le paquet avec ce seul skill. Tromperie, frais et
+  médiation au rang 2.
+- [Vérification documentaire](dom-004-verification.md) : les trois scénarios
+  de la story et dix cas limites, sans délai, montant ni droit conclu.
+- Matrice [BASE-003](../00-fondations/base-003-dossier-architecture.md) :
+  ligne `banking-legal`, confirmation de `payment-dispute` et règle sur
+  l'investissement précisées ; index du backlog mis à jour.
+- [Contrôles statiques](dom-004-resultats.json), produits par
+  [le contrôleur du lot](dom-004-controles.py), sur le modèle de DOM-001.
+
+Points ouverts : placements et actifs numériques sans domaine propriétaire
+(orientation seule par BNK-011, cadrage dédié à décider) ; caution d'un prêt
+non découpée.
+
+Fichiers du lot : présente story, découpage, vérification, contrôleur,
+relevé JSON, 11 propositions `suites/bnk-*.md`, matrice BASE-003 et
+`backlog/README.md`. Le lot reste sous `backlog/`, sans entrée NOTICE.
+Un lot EXIST-009 écrit pendant la tâche dans le même arbre est préservé et
+listé à part dans le relevé ; l'en-tête de l'index compte les 324 stories
+présentes au moment du contrôle, dont EXIST-008 et EXIST-009 terminées.
+
+**Portée :** cadrage documentaire relu par l'agent de maintenance sur pièces
+fictives, avec contrôles statiques. Aucune source juridique lue : les
+articles et actes cités sont des pistes. Aucun plugin créé, skill exécuté,
+paquet installé, lecteur réel ou indépendant. Le préalable PILOTE-003 est
+satisfait après BASE-011 ; aucune tranche n'est sélectionnée.
+
+## Décisions du 16 octobre 2026
+
+Points ouverts levés ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)) : placements et actifs numériques en orientation
+seule (BNK-011), sans nouveau domaine ; caution d'un prêt découpée dans
+BNK-012. Le domaine compte désormais 12 propositions.

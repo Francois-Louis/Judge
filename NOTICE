@@ -399,3 +399,33 @@ BASE-005 method unchanged. Client and participant validation pending.
   employment-legal/skills/customize/SKILL.md
   employment-legal/skills/hiring-review/SKILL.md
   scripts/test-pilote004-preferences.py (new)
+
+COM-001 changes (2026-10-16): scoped France/EU contract orientation without
+mandatory profile. Distinguishes parties, sector, task availability, governing
+law, jurisdiction and negotiation preferences; no automatic downstream review.
+Commercial plugin 0.2.0; isolated-client and real-reader validation pending.
+Shared method and storage boundary/helper unchanged.
+  .claude-plugin/marketplace.json
+  README.md
+  NOTICE
+  commercial-legal/.claude-plugin/plugin.json
+  commercial-legal/CLAUDE.md
+  commercial-legal/README.md
+  commercial-legal/NOTICE
+  commercial-legal/references/orientation-commerciale.md (new)
+  commercial-legal/skills/review/SKILL.md
+  scripts/test-base008-isolation.py (version-aware fixture)
+
+LIV-001 changes (2026-10-16): bounded delivery of employment-legal 0.2.1.
+Metadata and installation instructions aligned with the BASE-011 client
+acceptance; lot builder producing a one-plugin marketplace artifact outside
+the checkout. No skill instruction or legal reference changed; nothing
+published or pushed.
+  .claude-plugin/marketplace.json
+  NOTICE
+  README.md
+  employment-legal/.claude-plugin/plugin.json
+  employment-legal/NOTICE
+  employment-legal/README.md
+  scripts/build-lot.py (new)
+  scripts/test-base008-isolation.py (employment-legal expected version)

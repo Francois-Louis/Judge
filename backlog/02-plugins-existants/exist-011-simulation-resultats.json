@@ -1,0 +1,49 @@
+{
+  "story": "EXIST-011",
+  "date": "2026-10-16",
+  "scope": "existing BASE-008 filesystem helper; disposable fake home only",
+  "helper_sha256": "dd35f30109d0409440c7de5127fc5e56f6745c4ee55790682c51fabeecdb85ce",
+  "checks": {
+    "customized_update_preserved": {
+      "status": "passed",
+      "exit_code": 1,
+      "message": "REFUSED: installation changed since review; preserve and compare local edits",
+      "installed_before": {
+        "SKILL.md": "3a4cb98f4248b285c8a481b1587a84cb7efa3d2245a152652053a26231c142d8",
+        "references/methode.md": "fb41dc0412d6aa05e5c43d1691a692d1dbb7806b831425a8eb05859493975c1e"
+      },
+      "installed_after": {
+        "SKILL.md": "3a4cb98f4248b285c8a481b1587a84cb7efa3d2245a152652053a26231c142d8",
+        "references/methode.md": "fb41dc0412d6aa05e5c43d1691a692d1dbb7806b831425a8eb05859493975c1e"
+      },
+      "journal_unchanged": true,
+      "candidate_unchanged": true,
+      "events": [
+        "install"
+      ],
+      "backup_created": false
+    },
+    "internal_identity_refused": {
+      "status": "passed",
+      "exit_code": 1,
+      "message": "REFUSED: expected an unprefixed community skill slug"
+    },
+    "filesystem_cli_requires_workflow_flag": {
+      "status": "passed",
+      "exit_code": 1,
+      "message": "REFUSED: complete trust review and explicit approval before filesystem stage",
+      "limit": "--approved is an attestation by the caller, not independent proof of human approval."
+    }
+  },
+  "network": false,
+  "real_home_accessed": false,
+  "temporary_tree_removed": true,
+  "not_run": [
+    "hub skill or model invocation",
+    "actual registry discovery",
+    "legal accuracy review",
+    "client installation/reload",
+    "external notification",
+    "real human approval UX"
+  ]
+}

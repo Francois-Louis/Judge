@@ -1,7 +1,7 @@
 ---
 id: EXIST-004
 titre: "Découper l'adaptation des produits et de la publicité"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -29,10 +29,10 @@ Remplacer les grilles américaines de lancement et d'allégations par des vérif
 
 ## Critères d'acceptation
 
-- [ ] Un inventaire couvre tous les skills et dépendances de contenu de `product-legal`, pas seulement les points d'entrée ci-dessus.
-- [ ] Les tâches à conserver, réécrire, renommer ou retirer sont justifiées individuellement.
-- [ ] Le livrable est un ensemble de stories d'implémentation bornées, chacune avec fichiers, résultat attendu et scénarios.
-- [ ] Aucune réécriture complète du plugin n'est réalisée dans cette story ; ses implémentations attendent le bilan PILOTE-003.
+- [x] Un inventaire couvre tous les skills et dépendances de contenu de `product-legal`, pas seulement les points d'entrée ci-dessus.
+- [x] Les tâches à conserver, réécrire, renommer ou retirer sont justifiées individuellement.
+- [x] Le livrable est un ensemble de stories d'implémentation bornées, chacune avec fichiers, résultat attendu et scénarios (relecture documentaire par le rédacteur sur cas fictifs).
+- [x] Aucune réécriture complète du plugin n'est réalisée dans cette story ; ses implémentations attendent le bilan PILOTE-003.
 
 ## Vérification
 
@@ -41,4 +41,38 @@ Préparer un lancement B2C en France et une campagne publicitaire avec allégati
 ## Hors périmètre
 
 Implémenter tout le domaine, modifier des contenus éditeur ou considérer qu'une traduction de vocabulaire valide le raisonnement juridique.
+
+## Bilan d'exécution — 16 octobre 2026
+
+- [Inventaire complet](exist-004-inventaire-produits.md) : 23 fichiers dont
+  7 skills et 1 agent, 6 fichiers de cookbook lié, profils, grilles inline,
+  exemples, références, sorties et relais. Décision motivée pour chaque fichier.
+- [Découpage PDT-001 à PDT-017](exist-004-decoupage-produits.md) : 17 propositions
+  avec fichiers, entrées, résultat borné, sources à rechercher, exclusions
+  et scénarios. Première tranche proposée : fiche de qualification d'un
+  lancement B2C France, sans avis de conformité. Lancement, évolution,
+  publicité et question ponctuelle ont des parcours distincts.
+- [Vérification documentaire](exist-004-verification.md) : lancement France et
+  campagne environnementale fictifs, puis limites rôle de plateforme,
+  sécurité produit, données/IA, profil et radar. Aucun de ces dossiers n'est
+  résolu juridiquement pendant le cadrage.
+- [Contrôles statiques et empreintes](exist-004-resultats.json) : couverture,
+  frontmatter/dépendances, liens, fichiers futurs, copies communes et
+  périmètre ; plugin, cookbook et contenu éditeur inchangés. Travaux
+  EXIST-001/002/003 préexistants préservés.
+- Le bilan PILOTE-003 est terminé après BASE-011 ; le préalable est satisfait,
+  sans choix d'extension. Les 17 PDT restent `proposee` ; les limites H01 complet
+  et lecteur indépendant du pilote restent consignées.
+
+Fichiers du lot : présente story, inventaire, découpage, vérification,
+résultats JSON, 17 propositions `suites/pdt-*.md` et index `backlog/README.md`.
+Le lot reste sous `backlog/`, sans entrée NOTICE selon CLAUDE.md.
+
+**Portée :** cadrage documentaire du checkout, relecture par l'agent de
+maintenance sur pièces fictives et contrôles statiques, dans les limites de
+la vérification liée. Aucune recherche juridique externe, conclusion de
+conformité ou échéance validée, adaptation/exécution de skill, installation,
+recette client ou lecteur indépendant, connexion ou action externe. Les
+futures recherches et recettes sont décrites dans les propositions, sans
+annoncer une adaptation France/UE déjà disponible.
 

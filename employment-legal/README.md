@@ -1,17 +1,24 @@
 <!-- Modified by Judge FR/UE for PILOTE-002 (2026-10-15): scope and setup of French hiring pilot. -->
+<!-- Modified by Judge FR/UE for LIV-001 (2026-10-16): version 0.2.1, validation status and lot installation. -->
 
 # Judge FR/UE — revue d'embauche
 
-Version du plugin **0.2.0**. Seul `hiring-review` est réécrit pour l'embauche
+Version du plugin **0.2.1**. Seul `hiring-review` est réécrit pour l'embauche
 salariée du privé en France : lire une offre ou un contrat reçu, comprendre
 les engagements et préparer les questions au recruteur. CDI métropolitain
 comme cas nominal ; CDD ordinaire avec contrôles spécifiques limités.
-La recette dans un client isolé et l'essai avec un participant non juriste
-restent à réaliser. Ce paquet n'est pas une certification de conformité.
+La recette en client isolé a été exécutée sur pièces fictives (BASE-011,
+16 octobre 2026) ; le lecteur était le porteur du projet, non indépendant,
+et le scénario nominal complet H01 n'a pas été exécuté. Aucune relecture
+juridique indépendante. Ce paquet n'est pas une certification de conformité.
 
 ## Commencer avec un contrat reçu
 
+Depuis le lot livré (LIV-001), après extraction de l'archive dans un
+dossier relu, ajouter le marketplace par son chemin absolu :
+
 ```text
+claude plugin marketplace add <chemin-absolu-vers-judge-fr-eu-lot-001>
 /plugin install judge-fr-eu-employment-legal@judge-fr-eu --scope user
 /judge-fr-eu-employment-legal:hiring-review
 ```
@@ -41,7 +48,8 @@ Le résultat indique la valeur mémorisée et son emplacement avant de revenir
 à la revue. Sans exécuteur Python, la lecture des pièces fournies continue en
 conversation et la préférence n'est pas enregistrée. Voir le
 [parcours candidat](references/candidate-preferences.md) (PILOTE-004) ; sa
-recette dans le client cible et avec un lecteur réel reste à effectuer.
+recette client a été exécutée sur fixtures (BASE-011) ; aucun lecteur
+indépendant.
 
 La restitution explique les engagements des deux parties, puis rapproche
 clause/pièce, source et version, conséquence concrète, proposition ou question

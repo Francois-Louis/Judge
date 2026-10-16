@@ -1,0 +1,468 @@
+{
+  "story": "EXIST-009",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "scope": "cadrage et relecture documentaire fictive ; aucun skill exécuté ou droit validé",
+  "checks": {
+    "frontmatter_and_dependencies": {
+      "status": "passed",
+      "stories": 324,
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 23,
+      "future_owners": {
+        "legal-clinic/references/cadre-clinique.md": [
+          "CLN-001"
+        ],
+        "legal-clinic/references/accueil-minimal.md": [
+          "CLN-002"
+        ],
+        "legal-clinic/references/accueil-logement.md": [
+          "CLN-003"
+        ],
+        "legal-clinic/skills/client-intake/references/intake-templates/housing-fr.md": [
+          "CLN-003"
+        ],
+        "legal-clinic/references/releve-conflits.md": [
+          "CLN-004"
+        ],
+        "legal-clinic/references/plan-recherche-clinique.md": [
+          "CLN-005"
+        ],
+        "legal-clinic/references/etat-recherches-clinique.md": [
+          "CLN-006"
+        ],
+        "legal-clinic/references/support-analyse-clinique.md": [
+          "CLN-007"
+        ],
+        "legal-clinic/references/forme-projet-supervise.md": [
+          "CLN-008"
+        ],
+        "legal-clinic/references/demande-pieces-clinique.md": [
+          "CLN-009"
+        ],
+        "legal-clinic/references/point-personne-clinique.md": [
+          "CLN-010"
+        ],
+        "legal-clinic/references/point-referent-clinique.md": [
+          "CLN-011"
+        ],
+        "legal-clinic/references/saisie-echeance-clinique.md": [
+          "CLN-012"
+        ],
+        "legal-clinic/references/etat-echeances-clinique.md": [
+          "CLN-013"
+        ],
+        "legal-clinic/references/suivi-echeance-clinique.md": [
+          "CLN-014"
+        ],
+        "legal-clinic/references/soumission-revue-clinique.md": [
+          "CLN-015"
+        ],
+        "legal-clinic/references/decision-revue-clinique.md": [
+          "CLN-016"
+        ],
+        "legal-clinic/references/journal-contacts-clinique.md": [
+          "CLN-017"
+        ],
+        "legal-clinic/references/transmission-dossier-clinique.md": [
+          "CLN-018"
+        ],
+        "legal-clinic/references/continuite-cohorte-clinique.md": [
+          "CLN-019"
+        ],
+        "legal-clinic/references/parcours-etudiant-clinique.md": [
+          "CLN-020"
+        ],
+        "legal-clinic/references/guide-supervision-clinique.md": [
+          "CLN-021"
+        ],
+        "legal-clinic/references/preferences-clinique.md": [
+          "CLN-022"
+        ],
+        "legal-clinic/references/espace-dossier-clinique.md": [
+          "CLN-023"
+        ],
+        "legal-clinic/skills/case-workspace/SKILL.md": [
+          "CLN-023"
+        ]
+      },
+      "problems": []
+    },
+    "inventory_exact_coverage": {
+      "status": "passed",
+      "package_files": 36,
+      "skills": 16,
+      "agents": 0,
+      "cookbook_references": [],
+      "problems": []
+    },
+    "all_skills_have_future_targets": {
+      "status": "passed",
+      "problems": []
+    },
+    "shared_copies": {
+      "status": "passed",
+      "identical": {
+        "references/shared/research-citation-method.md": true,
+        "references/isolation.md": true,
+        "references/company-profile-template.md": true,
+        "references/dashboard-template.md": true,
+        "scripts/judge_store.py": true
+      },
+      "method_version": "1.0.0",
+      "problems": []
+    },
+    "index_and_prerequisites": {
+      "status": "passed",
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 28,
+      "local_links": 206,
+      "problems": []
+    },
+    "legacy_loading_and_roles_located": {
+      "status": "passed",
+      "locations": {
+        "bands_and_federal": [
+          {
+            "path": "legal-clinic/references/plausibility-bands/CA.md",
+            "lines": [
+              3,
+              5,
+              10,
+              30,
+              48
+            ]
+          },
+          {
+            "path": "legal-clinic/references/plausibility-bands/IL.md",
+            "lines": [
+              3,
+              5,
+              12,
+              32
+            ]
+          },
+          {
+            "path": "legal-clinic/skills/deadlines/SKILL.md",
+            "lines": [
+              66,
+              68,
+              70,
+              72,
+              78,
+              83,
+              84
+            ]
+          }
+        ],
+        "ABA": [
+          {
+            "path": "legal-clinic/CLAUDE.md",
+            "lines": [
+              318
+            ]
+          },
+          {
+            "path": "legal-clinic/README.md",
+            "lines": [
+              49,
+              68,
+              101
+            ]
+          },
+          {
+            "path": "legal-clinic/references/isolation.md",
+            "lines": [
+              62
+            ]
+          },
+          {
+            "path": "legal-clinic/references/shared/research-citation-method.md",
+            "lines": [
+              240
+            ]
+          },
+          {
+            "path": "legal-clinic/skills/client-intake/SKILL.md",
+            "lines": [
+              198
+            ]
+          },
+          {
+            "path": "legal-clinic/skills/cold-start-interview/SKILL.md",
+            "lines": [
+              141,
+              299,
+              336
+            ]
+          },
+          {
+            "path": "legal-clinic/skills/draft/SKILL.md",
+            "lines": [
+              157
+            ]
+          },
+          {
+            "path": "legal-clinic/skills/memo/SKILL.md",
+            "lines": [
+              83
+            ]
+          }
+        ],
+        "pedagogy_keys": [
+          {
+            "path": "legal-clinic/skills/build-guide/SKILL.md",
+            "lines": [
+              101,
+              102,
+              103,
+              104,
+              106,
+              182,
+              185,
+              186,
+              187
+            ]
+          },
+          {
+            "path": "legal-clinic/skills/client-letter/SKILL.md",
+            "lines": [
+              49
+            ]
+          },
+          {
+            "path": "legal-clinic/skills/cold-start-interview/SKILL.md",
+            "lines": [
+              228
+            ]
+          },
+          {
+            "path": "legal-clinic/skills/draft/SKILL.md",
+            "lines": [
+              50
+            ]
+          },
+          {
+            "path": "legal-clinic/skills/memo/SKILL.md",
+            "lines": [
+              45
+            ]
+          }
+        ],
+        "queue_path": [
+          {
+            "path": "legal-clinic/README.md",
+            "lines": [
+              169
+            ]
+          },
+          {
+            "path": "legal-clinic/skills/supervisor-review-queue/SKILL.md",
+            "lines": [
+              55
+            ]
+          }
+        ]
+      },
+      "problems": []
+    },
+    "known_models_and_missing_templates": {
+      "status": "passed",
+      "deadline_extra_keys": [
+        "<!-- Modified by Judge FR/UE for BASE-008 (2026-10-15)"
+      ],
+      "missing_announced_templates": [
+        "immigration.md",
+        "housing.md",
+        "family.md",
+        "consumer.md"
+      ],
+      "deprecated_aliases": [
+        "form-generation",
+        "plain-language-letters"
+      ],
+      "invocable_skills": 14,
+      "queue_model_empty": true,
+      "corrections_assigned_to": [
+        "CLN-012",
+        "CLN-015",
+        "CLN-021"
+      ],
+      "problems": []
+    },
+    "scope_vs_task_baseline": {
+      "status": "observed-concurrent-changes",
+      "lot_changed_files": [
+        "backlog/02-plugins-existants/exist-009-clinique-juridique.md",
+        "backlog/02-plugins-existants/exist-009-controles.py",
+        "backlog/02-plugins-existants/exist-009-decoupage-clinique.md",
+        "backlog/02-plugins-existants/exist-009-inventaire-clinique.md",
+        "backlog/02-plugins-existants/exist-009-verification.md",
+        "backlog/02-plugins-existants/suites/cln-001-cadre-structure.md",
+        "backlog/02-plugins-existants/suites/cln-002-accueil-minimal.md",
+        "backlog/02-plugins-existants/suites/cln-003-accueil-logement.md",
+        "backlog/02-plugins-existants/suites/cln-004-releve-conflits.md",
+        "backlog/02-plugins-existants/suites/cln-005-plan-recherche.md",
+        "backlog/02-plugins-existants/suites/cln-006-etat-recherches.md",
+        "backlog/02-plugins-existants/suites/cln-007-support-analyse.md",
+        "backlog/02-plugins-existants/suites/cln-008-forme-projet-logement.md",
+        "backlog/02-plugins-existants/suites/cln-009-demande-pieces.md",
+        "backlog/02-plugins-existants/suites/cln-010-point-personne.md",
+        "backlog/02-plugins-existants/suites/cln-011-point-referent.md",
+        "backlog/02-plugins-existants/suites/cln-012-saisie-echeance.md",
+        "backlog/02-plugins-existants/suites/cln-013-etat-echeances.md",
+        "backlog/02-plugins-existants/suites/cln-014-suivi-echeance.md",
+        "backlog/02-plugins-existants/suites/cln-015-soumission-revue.md",
+        "backlog/02-plugins-existants/suites/cln-016-decision-revue.md",
+        "backlog/02-plugins-existants/suites/cln-017-journal-contacts.md",
+        "backlog/02-plugins-existants/suites/cln-018-transmission-dossier.md",
+        "backlog/02-plugins-existants/suites/cln-019-continuite-cohorte.md",
+        "backlog/02-plugins-existants/suites/cln-020-accueil-etudiant.md",
+        "backlog/02-plugins-existants/suites/cln-021-guide-accueil.md",
+        "backlog/02-plugins-existants/suites/cln-022-preferences-clinique.md",
+        "backlog/02-plugins-existants/suites/cln-023-espace-dossier.md",
+        "backlog/README.md"
+      ],
+      "other_changed_files": [
+        "backlog/00-fondations/base-003-dossier-architecture.md",
+        "backlog/03-nouveaux-domaines/dom-004-banque.md",
+        "backlog/03-nouveaux-domaines/dom-004-controles.py",
+        "backlog/03-nouveaux-domaines/dom-004-decoupage-banque.md",
+        "backlog/03-nouveaux-domaines/dom-004-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-004-verification.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-001-contester-paiement.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-002-virement-tromperie.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-003-frais-bancaires.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-004-mediation-bancaire.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-005-offre-credit.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-006-prelevement.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-007-difficulte-credit.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-008-cloture-compte.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-009-remboursement-anticipe.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-010-fichiers-banque-france.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-011-placement.md"
+      ],
+      "note": "Other differences observed during this task are not attributed to EXIST-009; no claim of an unchanged entire workspace.",
+      "preserved_files": 808
+    },
+    "protected_inputs_unchanged": {
+      "status": "passed",
+      "files_checked": 646,
+      "package_preserved": true,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 77,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [
+        "  ✓ diligence-grid           orchestrator tool scope clean",
+        "  ✓ docket-watcher           orchestrator tool scope clean",
+        "  ✓ launch-radar             orchestrator tool scope clean",
+        "  ✓ reg-monitor              orchestrator tool scope clean",
+        "  ✓ renewal-watcher          orchestrator tool scope clean"
+      ],
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "output": [],
+      "problems": []
+    }
+  },
+  "package_sha256": {
+    "legal-clinic/.claude-plugin/plugin.json": "6b1a360090cd7ff00c588d34d58a325f0bd8003930736f6c7c181877f01e05ff",
+    "legal-clinic/.gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+    "legal-clinic/.mcp.json": "65ccc76eaa9967594941aad034942867729f3093c10bf55c4ebac1431417be44",
+    "legal-clinic/CLAUDE.md": "3c946a49446fbb59b01538798df9bf243f54bbdd75195ae6e296c850e0cdbc4b",
+    "legal-clinic/client-comms/_README.md": "8e100981785b150d1f2ab489c5e3338551237c25894a418f674b168b57614865",
+    "legal-clinic/deadlines.yaml": "9ff176f4cce47dc2f05489d8157a19cba8d29e86ae0e748e653f12a243fd8b93",
+    "legal-clinic/handoffs/_README.md": "a0fa7fb780d23881e5dde0ace57c133a970bcfe6abc6d583afbf607260af513c",
+    "legal-clinic/hooks/hooks.json": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+    "legal-clinic/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "legal-clinic/NOTICE": "322ec2f4eb8f2ff4ae86708b762f070fea7442bd4808e14b2df10002d9f4bd7d",
+    "legal-clinic/README.md": "67842ae011c4e1d9bb2766e2e33af64c1b604233819db5c106b81edb0e6e6983",
+    "legal-clinic/references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "legal-clinic/references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "legal-clinic/references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "legal-clinic/references/plausibility-bands/CA.md": "24c88e2441bb51c8e7f60e555be52086d8c59d10f0022564080d91e00f0cf75f",
+    "legal-clinic/references/plausibility-bands/IL.md": "e96b08af0be2aea4b88161d923a1a59da613cacafb7e8bfc721779b68d8321e9",
+    "legal-clinic/references/shared/research-citation-method.md": "3299f032ff834f423eca0c2474d58658cd766144e6a605192222fc26f6a3a1d6",
+    "legal-clinic/scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "legal-clinic/skills/build-guide/SKILL.md": "3fe1a716b3b83383493fdecbe4db3fb6472b0afe6c4bc2d7fc5e69ae776a3d4a",
+    "legal-clinic/skills/client-comms-log/SKILL.md": "8df787a9141f7dbb9a5e7c7f43c89cece5cf130cea63d442e75dc333abd81f1e",
+    "legal-clinic/skills/client-intake/references/intake-templates/README.md": "1f1d3a59e250538f3d451d6b82b7a50136874da2846764a26cda249a9d73aba2",
+    "legal-clinic/skills/client-intake/SKILL.md": "89e1a584075d6a7edf22372aabb68029be7fa5fc9635dd7ba58c526fbc3d15a2",
+    "legal-clinic/skills/client-letter/SKILL.md": "44c215787bc3fd46cab0cafc7fcf6e9105c2adf634996a291d54d9ea6de47427",
+    "legal-clinic/skills/cold-start-interview/SKILL.md": "016a99e6138b998dc96ffdb8ddffd2a3ad89184ef19dede193f7ee49e406b243",
+    "legal-clinic/skills/customize/SKILL.md": "95cded7c033f8ba26063b5ec5704e3a8f75ca9a255f0a336fac7230e2c383ed3",
+    "legal-clinic/skills/deadlines/SKILL.md": "09d403647ef85c082eb9416bf6be5fbbe9eea6da547b7cf8ec62d7c567a2c08a",
+    "legal-clinic/skills/draft/SKILL.md": "3be74947973b3a63a1d3b4fb6280bbca833e640ec8a20ef63a579594252c4c37",
+    "legal-clinic/skills/form-generation/SKILL.md": "7dcf82aab96ff650a686058fd0a5b43ecf39fd71877ae331a952d393a27234af",
+    "legal-clinic/skills/memo/SKILL.md": "c0efdfd9a39617b00e1725f6199320412660258ea38a398c681bcd603e756969",
+    "legal-clinic/skills/plain-language-letters/SKILL.md": "061339508167b3de8f4cf642b0f8b94937e93dfc68fd793a2886fcc320bbe636",
+    "legal-clinic/skills/ramp/SKILL.md": "275cf3e0913fe19f2b078d67aad1e71eb2823fc35fc5e35d5aad36c1f9a693e6",
+    "legal-clinic/skills/research-start/SKILL.md": "bbf5e17e093dfa72e3eea1c7a31b570de2dd7d5c39e148785613e99ec140cde0",
+    "legal-clinic/skills/semester-handoff/SKILL.md": "102275bd69ae854ba5617b34561df8c734e6b1d5fc9ab3868f70dcf5b479e1af",
+    "legal-clinic/skills/status/SKILL.md": "fdce5f2d17d52a85267d5dd2b9521fcfe276b2f3923065a6efb6bf14d861029e",
+    "legal-clinic/skills/supervisor-review-queue/references/review-queue.yaml": "6bcbc985fcca311b811cee814ab63563cc6af64cea7f34388401144ed4171e1f",
+    "legal-clinic/skills/supervisor-review-queue/SKILL.md": "1098db9c4ca2aacc57297d92cf3a2eaca06c4e44ab036df100951f3828292dd6"
+  },
+  "lot_sha256": {
+    "backlog/02-plugins-existants/exist-009-clinique-juridique.md": "48f1908c6f7df990864a043e273fb4b1a0d8b066d34fd89e134a6524973d1fbb",
+    "backlog/02-plugins-existants/exist-009-inventaire-clinique.md": "9e482cb77957f5c6f401dc77e1a168c61912628f5958aae696fa3e2e24c1fd45",
+    "backlog/02-plugins-existants/exist-009-decoupage-clinique.md": "d5b5061984354c4685eeedd497fa4d6bd4d242b654a76000b527d8bf6f9cc6a5",
+    "backlog/02-plugins-existants/exist-009-verification.md": "8b93135741c2d01b1930de488170251b8bfa7c340895764fddd34bd28b2bfc31",
+    "backlog/02-plugins-existants/suites/cln-001-cadre-structure.md": "9b02143e3d43ee41a76dfe20d2cd6fb865d23a35e9b0c4380fc17b49e1029f0f",
+    "backlog/02-plugins-existants/suites/cln-002-accueil-minimal.md": "2909f6be1547af7a48299cc09ff7458a939564287caec6d765a812caab45a8aa",
+    "backlog/02-plugins-existants/suites/cln-003-accueil-logement.md": "c19c8d7b0a3ffc0ca6eba943f6dba452cbd0d3093e3427f883f09777dc1cd507",
+    "backlog/02-plugins-existants/suites/cln-004-releve-conflits.md": "700ba4b0a0e57aeeefa411ce592fa466a6e502b85d1781404e2f64347e1adaf9",
+    "backlog/02-plugins-existants/suites/cln-005-plan-recherche.md": "7ae4f7399494e60e287998a6518a75fed2d21129d130f24e2804df92acad4e2a",
+    "backlog/02-plugins-existants/suites/cln-006-etat-recherches.md": "3977f6265527709a616cfce4a2c25ed0aec08b81c0c015505832e3bddc3997cf",
+    "backlog/02-plugins-existants/suites/cln-007-support-analyse.md": "475fa2d2a90607a02b56a98e6aeef9d884861f02ae0d2eddfa99fe28e4f336d4",
+    "backlog/02-plugins-existants/suites/cln-008-forme-projet-logement.md": "c74bda919b0750d554c794d4ad41a24f0bbfcb09a388d72830351c9599962c6c",
+    "backlog/02-plugins-existants/suites/cln-009-demande-pieces.md": "bec42ae1a26c4032944f8aa1776c0567ba8e4027ef645d1249b30063ddb44d96",
+    "backlog/02-plugins-existants/suites/cln-010-point-personne.md": "2f2c871fcd7aa5345fe8ef6d128d842584ecfa5f8394661f844b2a35aa51a790",
+    "backlog/02-plugins-existants/suites/cln-011-point-referent.md": "8dee5ba7fcb655feec3de3c41a2952fb2fe8176a7acf3b0da4e3306f0cec27da",
+    "backlog/02-plugins-existants/suites/cln-012-saisie-echeance.md": "4b11dc5f4ee59700355f57f05700cbe54923a5e20319fcd037e4d3c6867411de",
+    "backlog/02-plugins-existants/suites/cln-013-etat-echeances.md": "f106cd1188fc0928a605afe1c3da3ca523fd75e3d174f5a120fdc297e809af3e",
+    "backlog/02-plugins-existants/suites/cln-014-suivi-echeance.md": "3432b32964cd6a695668b3e814b6b5219a7513aed83fb6ec3b6e811e2dde8646",
+    "backlog/02-plugins-existants/suites/cln-015-soumission-revue.md": "a7accddd74ad6fcc17b945d07537fd3392f99f4657ee3587cc916e03270c1b66",
+    "backlog/02-plugins-existants/suites/cln-016-decision-revue.md": "d68ecce35c487fbc4006227713b39c5a7688e95fb514cb90f1e2eb1586edf5dd",
+    "backlog/02-plugins-existants/suites/cln-017-journal-contacts.md": "f25a6c6a86982fd6afd2890ba3a9d761000bba390118c1f406211ac72d085b68",
+    "backlog/02-plugins-existants/suites/cln-018-transmission-dossier.md": "3f64264f903d7f9a7a0afee7e1051acfd7ded823bbdedd94b824ac646adf2ebc",
+    "backlog/02-plugins-existants/suites/cln-019-continuite-cohorte.md": "e448d8db9db4d1a4809a3f5e4a3a335a3854b9c80c35d1385ac0da1d54e5c9d2",
+    "backlog/02-plugins-existants/suites/cln-020-accueil-etudiant.md": "c6017445529474f2fd0aa69671451930ccf328334d4a369c0c7d0acedeb96ffe",
+    "backlog/02-plugins-existants/suites/cln-021-guide-accueil.md": "f7a6cb1b9150b7f07d2bc62168f80106912e31cf6c1b4e56e3df4e64a77e297a",
+    "backlog/02-plugins-existants/suites/cln-022-preferences-clinique.md": "f7dc97e3f1c183825b4ec9de5a431beddd1aafae340af5637a61af3d16a160ff",
+    "backlog/02-plugins-existants/suites/cln-023-espace-dossier.md": "ff0be2162fc48afb853655f3fa935e1ff50626504fdc9da37bb33d89f017150e",
+    "backlog/README.md": "40801c6f1e49b8e2d61b6efbd9c02107f997b3c1997d8f313b10c25a67b9699a",
+    "backlog/02-plugins-existants/exist-009-controles.py": "99ee3a60f1329a913083eb3f00a0a21972b99be67cf0573df71eb782f57b0acf"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "acte/délai réel",
+    "exécution de skill",
+    "installation/recette client",
+    "lecteur indépendant",
+    "connexion authentifiée/envoi/dépôt/paiement/publication/déploiement"
+  ],
+  "command": "python -X utf8 backlog/02-plugins-existants/exist-009-controles.py --baseline <instantane-debut-tache.json> --output backlog/02-plugins-existants/exist-009-resultats.json",
+  "notes": [
+    "Les différences git préexistantes ne sont pas des changements EXIST-009 ; voir comparaison à l’instantané de début de tâche.",
+    "Aucune validation de schéma plugin/client : aucun fichier de paquet modifié.",
+    "Bandes, règles ABA, contrats pédagogiques et modèles repérés localement ; aucune source externe consultée ni raisonnement juridique validé."
+  ]
+}
