@@ -61,7 +61,7 @@ Assistance pendant un contrôle, plainte rédigée, publication de vidéos.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 13–28, 49–54, 76–78 et 81 de la [matrice](../dom-002-frictions-utilisateurs.md). Ajouter motif et cadre annoncés, territoire, corps et qualité, heures de début du contrôle et d'une vérification, consentement demandé ou non, mesure imposée, empreintes ou photographies prises, paroles rapportées et identifiants visibles.
+Points 13–28, 49–54, 76–78 et 81 de la [matrice](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Ajouter motif et cadre annoncés, territoire, corps et qualité, heures de début du contrôle et d'une vérification, consentement demandé ou non, mesure imposée, empreintes ou photographies prises, paroles rapportées et identifiants visibles.
 
 - [ ] B03 — Séparer contrôle/relevé/vérification d'identité, palpation/fouille corporelle/sac/véhicule, agents municipaux/nationaux/privés ; absence d'explication, absence de carte ou refus de nom civil ne suffisent pas à conclure à une illégalité.
 - [ ] B04 — Contrôles répétés allégués discriminatoires : tableau date, lieu, motif, termes exacts, comparaisons observées et témoins ; conserver le récit ici et la question de discrimination à DOM-029, sans causalité présumée.
@@ -72,4 +72,4 @@ Scénarios **attendus, non exécutés** : contrôle municipal suivi de photograp
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-002-decoupage-penal.md).
+[découpage](../dom-002-annexes/dom-002-decoupage-penal.md).

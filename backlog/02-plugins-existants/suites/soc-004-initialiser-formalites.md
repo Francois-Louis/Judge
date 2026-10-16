@@ -38,8 +38,8 @@ Limiter le premier registre aux formalités liées à des décisions/événement
 
 Charger `corporate-legal/references/shared/research-citation-method.md` depuis
 le paquet installé ; SOC-022 résout sa copie dans le plugin embarqué.
-Appliquer le [contrat commun](../exist-002-decoupage-societes.md) et les
-[dépendances inventoriées](../exist-002-inventaire-societes.md). Corriger les
+Appliquer le [contrat commun](../exist-002-annexes/exist-002-decoupage-societes.md) et les
+[dépendances inventoriées](../exist-002-annexes/exist-002-inventaire-societes.md). Corriger les
 blocs setup/routage qui empêchent cette tâche sans imposer SOC-019/020/021
 comme préalables à toute lecture ponctuelle. Sans profil ou connecteur,
 restituer les pièces/questions et la sortie locale utile.
@@ -74,7 +74,7 @@ abonnement obligatoire, et réserver seulement les conclusions dépendantes.
 Exécuter les scénarios sur pièces fictives dans le futur lot, conserver
 sorties et ressources lues ; appliquer les couches BASE-006 (structure,
 paquet détaché, client, résultat métier, compréhension par lecteur non juriste).
-La relecture de cadrage est dans la [vérification EXIST-002](../exist-002-verification.md) ;
+La relecture de cadrage est dans la [vérification EXIST-002](../exist-002-annexes/exist-002-verification.md) ;
 ces scénarios de skills restent **attendus, non exécutés**.
 
 ## Hors périmètre
@@ -90,4 +90,4 @@ commande, connexion ou automatisation France/UE n'est annoncée comme livrée.
 
 ## Complément de besoins — formalités, 16 octobre 2026
 
-Points 18, 24–31 et 65–68 de la [matrice formalités](../exist-002-frictions-utilisateurs.md) : le schéma sépare événement, décision, publication, dépôt et validation, avec état prouvé, pièce et date. Qualifier SASU/EURL explicitement ; absence de salaire ou associé unique ne valent pas dispense. Bénéficiaires effectifs, établissement/SIRET et exercice sont des objets distincts. Le registre reçoit des formalités identifiées, sans absorber la lecture ponctuelle SOC-023/024/025 ou la comptabilité.
+Points 18, 24–31 et 65–68 de la [matrice formalités](../exist-002-annexes/exist-002-frictions-utilisateurs.md) : le schéma sépare événement, décision, publication, dépôt et validation, avec état prouvé, pièce et date. Qualifier SASU/EURL explicitement ; absence de salaire ou associé unique ne valent pas dispense. Bénéficiaires effectifs, établissement/SIRET et exercice sont des objets distincts. Le registre reçoit des formalités identifiées, sans absorber la lecture ponctuelle SOC-023/024/025 ou la comptabilité.

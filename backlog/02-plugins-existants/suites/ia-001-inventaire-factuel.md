@@ -70,7 +70,7 @@ partiel utile, sans règle ni date de consultation inventées.
 Recettes futures **non exécutées**. Lors du lot sélectionné, conserver fixtures,
 ressources lues, sorties et erreurs ; appliquer BASE-006 : structure, paquet
 détaché, client, résultat métier et compréhension par lecteur non juriste.
-La [relecture du cadrage](../exist-005-verification.md) est distincte de cette recette.
+La [relecture du cadrage](../exist-005-annexes/exist-005-verification.md) est distincte de cette recette.
 
 ## Hors périmètre
 

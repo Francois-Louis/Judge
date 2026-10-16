@@ -55,7 +55,7 @@ Implémenter le domaine entier, créer un plugin vide pour donner l'impression d
 
 ## Bilan d'exécution — 16 octobre 2026
 
-- [Découpage](dom-005-decoupage-assurance.md) : nom `insurance-legal`
+- [Découpage](dom-005-annexes/dom-005-decoupage-assurance.md) : nom `insurance-legal`
   conservé (`judge-fr-eu-insurance-legal`) ; installation seule, sans profil,
   agent, hook, connecteur ni accès à un espace client ; garde-fous (quatre
   motifs de refus distingués, contrat applicable d'abord, garantie séparée de
@@ -69,12 +69,12 @@ Implémenter le domaine entier, créer un plugin vide pour donner l'impression d
   contrat et du courrier, qui crée le paquet avec ce seul skill. Déclaration,
   expertise, lecture de garantie et médiation au rang 2 ; régimes emprunteur,
   santé, construction et vie isolés dans leurs propres stories.
-- [Vérification documentaire](dom-005-verification.md) : les trois scénarios
+- [Vérification documentaire](dom-005-annexes/dom-005-verification.md) : les trois scénarios
   de la story et dix cas limites, sans délai, montant ni droit conclu.
-- Ligne `insurance-legal` de la [matrice BASE-003](../00-fondations/base-003-dossier-architecture.md)
+- Ligne `insurance-legal` de la [matrice BASE-003](../00-fondations/base-003-annexes/base-003-dossier-architecture.md)
   précisée ; index du backlog mis à jour.
-- [Contrôles statiques](dom-005-resultats.json), produits par
-  [le contrôleur du lot](dom-005-controles.py), sur le modèle de DOM-001.
+- [Contrôles statiques](dom-005-annexes/dom-005-resultats.json), produits par
+  [le contrôleur du lot](dom-005-annexes/dom-005-controles.py), sur le modèle de DOM-001.
 
 Point ouvert : l'offre d'indemnisation d'une victime d'accident de la
 circulation n'est pas découpée ; son rattachement entre DOM-005 et DOM-035
@@ -97,7 +97,7 @@ de la circulation est rattachée à DOM-035.
 
 ## Complément issu des frictions bancaires — 16 octobre 2026
 
-La [matrice utilisateur](dom-004-frictions-utilisateurs.md) précise les
+La [matrice utilisateur](dom-004-annexes/dom-004-frictions-utilisateurs.md) précise les
 critères d'INS-008 (assurance emprunteur) et d'INS-011 (capital après décès).
 Elle ajoute [INS-012](suites/ins-012-rachat-assurance-vie.md), suivi d'un
 rachat retardé demandé par le souscripteur vivant. Le domaine compte 12
@@ -105,7 +105,7 @@ propositions ; aucune n'est sélectionnée ni implémentée par ce complément.
 
 ## Complément issu des frictions assurance — 16 octobre 2026
 
-La [matrice des 90 points](dom-005-frictions-utilisateurs.md) conserve le
+La [matrice des 90 points](dom-005-annexes/dom-005-frictions-utilisateurs.md) conserve le
 texte utilisateur et attribue chaque besoin à son propriétaire ; les sections
 délais, recours et réflexes y ont leurs propres exigences. Neuf suites
 existantes sont précisées ; INS-013 à INS-021 ajoutent paiement bloqué,
@@ -121,7 +121,7 @@ ne sont pas vérifiés par cette intégration.
 
 ## Complément des frictions contentieuses — 16 octobre 2026
 
-Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-annexes/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
 
 Points 78–80 : besoin à découper de lecture de protection juridique d’un litige identifié, distinct de la couverture du sinistre principal. Entrées : conditions générales/particulières, date des faits, déclaration et réponse de l’assureur, avocat choisi, devis et frais déjà engagés. Sortie future : tableau champ/exclusions, libre choix à vérifier, plafonds et franchises, démarches de déclaration et couverture confirmée ou réservée par étape. CTX-040 reprend seulement ces données documentées. Scénarios : frais antérieurs à la déclaration et proposition d’un avocat par l’assureur ; aucun refus ou remboursement décidé depuis le seul guide. Sources : Code des assurances, protection juridique et contrat applicable.
 

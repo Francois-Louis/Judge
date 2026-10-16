@@ -61,7 +61,7 @@ Analyse du produit, réclamation au fond, action collective, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 80–83 et 89 de la [matrice](../dom-004-frictions-utilisateurs.md).
+Points 80–83 et 89 de la [matrice](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 - [ ] V03 — Transfert PEA retardé ou coûteux : recueillir dates, établissements, lignes transférées, facture et réclamations ; produire orientation et liste de pièces, sans contrôler les plafonds ni établir la responsabilité.
 - [ ] V04 — « Sans risque » ou frais mal compris : identifier nature juridique, garantie annoncée, documents et publicité ; demander détail des frais et orienter, sans évaluer risque, rendement ou qualité du conseil.
@@ -71,4 +71,4 @@ Scénarios V03/V04 **attendus, non exécutés**. Conserver la décision du 16 oc
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-004-decoupage-banque.md).
+[découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

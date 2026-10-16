@@ -161,7 +161,7 @@ documentaire partielle. Les tests OAuth emploient des réponses fictives.
   `KALIARTI000050051847`, `JURITEXT000054167571` récupérés sans souscription.
 - PISTE : ancien test sans secrets `needs-credentials`, aucun appel réseau ;
   souscription signalée refusée ensuite, accès réel non testé.
-- [Preuve JSON](../backlog/00-fondations/base-010-resultats-acces.json) : URL,
+- [Preuve JSON](../backlog/00-fondations/base-010-annexes/base-010-resultats-acces.json) : URL,
   horodatage, taille et empreinte ; pas de consultation juridique ni skill exécuté.
 
 Pour rejouer, exécuter les deux commandes publiques ci-dessus. Les corps

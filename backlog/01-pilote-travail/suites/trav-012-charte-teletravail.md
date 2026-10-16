@@ -19,7 +19,7 @@ Résultat : Projet de charte et notes de mise en place, questions ouvertes et ac
 
 Plugin principal : `employment-legal`. Entrées à examiner : policy-drafting.
 Fichiers source sous `employment-legal/skills/`, profil et références associées,
-avec les dépendances décrites dans l'[inventaire PILOTE-001](../pilote-001-releve-inventaire.md).
+avec les dépendances décrites dans l'[inventaire PILOTE-001](../pilote-001-annexes/pilote-001-releve-inventaire.md).
 Les fichiers à modifier seront arrêtés après lecture ; aucun fichier métier
 n'est adapté par la présente proposition.
 

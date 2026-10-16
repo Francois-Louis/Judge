@@ -74,7 +74,7 @@ contact du service, désignation d'un avocat à la place de la personne.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 18, 32–48 de la [matrice](../dom-002-frictions-utilisateurs.md). L'orientation couvre explicitement une audition libre déjà commencée ; CRIM-001 garde la convocation. Recueillir statut annoncé, faits notifiés, heure de début de toute contrainte, avocat demandé ou renonciation, langue, notification de droits et santé, sans exiger des pièces pendant la mesure.
+Points 18, 32–48 de la [matrice](../dom-002-annexes/dom-002-frictions-utilisateurs.md). L'orientation couvre explicitement une audition libre déjà commencée ; CRIM-001 garde la convocation. Recueillir statut annoncé, faits notifiés, heure de début de toute contrainte, avocat demandé ou renonciation, langue, notification de droits et santé, sans exiger des pièces pendant la mesure.
 
 La sortie sépare identité, déclarations sur les faits, assistance, silence, possibilité de départ et changement de mesure selon le statut vérifié. Ne pas transposer les droits du suspect au témoin. Distinguer PV de plainte et PV d'audition pour la remise d'une copie. Aucun contenu de réponse suggéré.
 
@@ -88,4 +88,4 @@ Scénarios **attendus, non exécutés** : audition libre où le départ est refu
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-002-decoupage-penal.md).
+[découpage](../dom-002-annexes/dom-002-decoupage-penal.md).

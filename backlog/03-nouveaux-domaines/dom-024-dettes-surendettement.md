@@ -58,7 +58,7 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 ## Complément à découper — frictions bancaires
 
-Points 78–79 de la [matrice utilisateur](dom-004-frictions-utilisateurs.md).
+Points 78–79 de la [matrice utilisateur](dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 - [ ] Une proposition de nouveau crédit pour payer les frais conduit à un inventaire dettes/revenus/charges/échéances et à des options à vérifier, sans conseil d'emprunter davantage ; l'offre relève de BNK-005.
 - [ ] Une insolvabilité durable sans dossier produit la liste des pièces et la démarche officielle à vérifier, sans assimiler dépôt, recevabilité et protections de la procédure.
@@ -74,4 +74,4 @@ Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter
 
 ## Complément — difficultés d'entreprise, 16 octobre 2026
 
-Les points 83–87 et 95 de la [matrice formalités](../02-plugins-existants/exist-002-frictions-utilisateurs.md) rendent nécessaire [SOC-027](../02-plugins-existants/suites/soc-027-cadrage-entreprises-difficulte.md), cadrage proposé pour les difficultés d'activité et l'articulation avec les dettes personnelles. DOM-024 ne devient pas un parcours de liquidation d'entreprise. Demander qualité du débiteur (société/EI/personne), dates, nature des dettes, garanties, patrimoines et procédures ; ne pas exclure ou admettre automatiquement un indépendant au surendettement. Le propriétaire de chaque analyse et l'articulation des procédures restent à arrêter dans ce cadrage. Portée : matrice.
+Les points 83–87 et 95 de la [matrice formalités](../02-plugins-existants/exist-002-annexes/exist-002-frictions-utilisateurs.md) rendent nécessaire [SOC-027](../02-plugins-existants/suites/soc-027-cadrage-entreprises-difficulte.md), cadrage proposé pour les difficultés d'activité et l'articulation avec les dettes personnelles. DOM-024 ne devient pas un parcours de liquidation d'entreprise. Demander qualité du débiteur (société/EI/personne), dates, nature des dettes, garanties, patrimoines et procédures ; ne pas exclure ou admettre automatiquement un indépendant au surendettement. Le propriétaire de chaque analyse et l'articulation des procédures restent à arrêter dans ce cadrage. Portée : matrice.

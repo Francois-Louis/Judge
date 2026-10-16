@@ -82,7 +82,7 @@ l'instance ordinale à la place de la personne.
 
 ## Complément des frictions contentieuses — 16 octobre 2026
 
-Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-annexes/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
 
 Points 72–77 et 81–82 : découper lecture de convention d’honoraires, rapprochement diligences/factures/provisions, contestation devant l’interlocuteur compétent, et préparation d’aide juridictionnelle pour une étape qualifiée. Recueillir convention et avenants, détail des diligences et paiements, mission première instance/appel/exécution, désignation éventuelle d’office, décision d’aide et dates des frais. Sorties : engagements couverts ou absents, décompte documenté, questions/réclamation locale, pièces d’aide et prise en charge encore incertaine. Distinguer forme de rémunération et résultat, montant contesté et faute alléguée.
 

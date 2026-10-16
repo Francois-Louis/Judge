@@ -63,7 +63,7 @@ Renégociation du prêt, souscription, envoi.
 
 ## Complément issu des frictions bancaires
 
-Points 56–58 et 64 de la [matrice utilisateur](../dom-004-frictions-utilisateurs.md).
+Points 56–58 et 64 de la [matrice utilisateur](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 Recueillir garanties exigées, contrat proposé en délégation, tableau d'équivalence,
 motifs du refus de substitution, réception des demandes et changements annoncés
 de taux, frais ou conditions du prêt. Pour la couverture : exclusions, carence,
@@ -80,7 +80,7 @@ motivation, conditions du crédit et garanties selon les dates des contrats.
 
 ## Complément issu des frictions assurance
 
-Points 13 et 60–65 de la [matrice](../dom-005-frictions-utilisateurs.md).
+Points 13 et 60–65 de la [matrice](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 - [ ] B06 — Quotités : distinguer assuré, part de prêt, risque garanti et prestation annoncée ; aucun calcul de prise en charge.
 - [ ] B07 — Perte d'emploi : relever statut et cause de cessation, exclusions, carence et franchise ; ne pas présumer qu'une rupture conventionnelle ou un indépendant est couvert.
@@ -93,4 +93,4 @@ Scénarios B06–B10 **attendus, non exécutés** : quotités distinctes entre c
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-005-decoupage-assurance.md).
+[découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).

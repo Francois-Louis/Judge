@@ -13,7 +13,7 @@ dependances: [DOM-005, PILOTE-003, BASE-005, BASE-006, INS-004]
 
 Un indépendant, artisan ou dirigeant de TPE comprend les clauses applicables à un événement ou une activité précise et obtient les questions à poser à l'assureur.
 
-Besoin issu des points 42, 82–90 de la [matrice des frictions assurance](../dom-005-frictions-utilisateurs.md).
+Besoin issu des points 42, 82–90 de la [matrice des frictions assurance](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -65,4 +65,4 @@ Audit exhaustif de l'entreprise, choix d'assureur, rédaction d'une police, attr
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-decoupage-assurance.md).
+Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-annexes/dom-005-decoupage-assurance.md).

@@ -72,7 +72,7 @@ Exécuter ces scénarios sur fixtures lors du futur lot et conserver ressources
 lues, sorties et erreurs. Appliquer BASE-006 : structure, paquet détaché,
 client, résultat métier et compréhension par lecteur non juriste. Pour le
 cookbook, ajouter schémas, lint et dry-run ; ne pas les assimiler au runtime.
-La [relecture EXIST-004](../exist-004-verification.md) porte sur le cadrage ;
+La [relecture EXIST-004](../exist-004-annexes/exist-004-verification.md) porte sur le cadrage ;
 ces scénarios d'implémentation restent **attendus, non exécutés**.
 
 ## Hors périmètre
@@ -88,6 +88,6 @@ connexion, envoi, déploiement ou automatisation France/UE n'est livré ici.
 
 ## Complément de besoins — 16 octobre 2026
 
-Les points 76 à 87 de la [matrice marketing](../exist-004-frictions-utilisateurs.md) précisent allégation générique, visuel vert, label privé, obligation présentée comme avantage, périmètre partiel et objectif futur sans plan. Rechercher le statut de transposition français et la disposition applicable de la directive 2024/825 ; ni application intégrale ni transposition inachevée ne sont admises depuis le texte utilisateur. Conserver aussi les règles françaises préexistantes, dont les mentions et la neutralité carbone selon champ. Recette attendue : campagne à une date proche d’une transition non vérifiée → état des textes et réserves, pas de date automatique.
+Les points 76 à 87 de la [matrice marketing](../exist-004-annexes/exist-004-frictions-utilisateurs.md) précisent allégation générique, visuel vert, label privé, obligation présentée comme avantage, périmètre partiel et objectif futur sans plan. Rechercher le statut de transposition français et la disposition applicable de la directive 2024/825 ; ni application intégrale ni transposition inachevée ne sont admises depuis le texte utilisateur. Conserver aussi les règles françaises préexistantes, dont les mentions et la neutralité carbone selon champ. Recette attendue : campagne à une date proche d’une transition non vérifiée → état des textes et réserves, pas de date automatique.
 
 Ces exigences et scénarios restent proposés, sans règle ou résultat métier validé par cette intégration.

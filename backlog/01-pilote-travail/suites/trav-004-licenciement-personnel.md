@@ -19,7 +19,7 @@ Résultat : Chronologie, points de procédure/motif à vérifier, pièces et int
 
 Plugin principal : `employment-legal`. Entrées à examiner : termination-review.
 Fichiers source sous `employment-legal/skills/`, profil et références associées,
-avec les dépendances décrites dans l'[inventaire PILOTE-001](../pilote-001-releve-inventaire.md).
+avec les dépendances décrites dans l'[inventaire PILOTE-001](../pilote-001-annexes/pilote-001-releve-inventaire.md).
 Les fichiers à modifier seront arrêtés après lecture ; aucun fichier métier
 n'est adapté par la présente proposition.
 

@@ -48,7 +48,7 @@ Créer les nouveaux plugins ou renommer massivement les plugins et commandes exi
 
 ## Bilan d'exécution — 15 octobre 2026
 
-- Livrable : [dossier d'architecture](base-003-dossier-architecture.md), avec
+- Livrable : [dossier d'architecture](base-003-annexes/base-003-dossier-architecture.md), avec
   inventaire des 12 plugins internes et de leurs 150 skills, séparation du
   plugin éditeur et des cinq cookbooks, et matrice des 38 domaines proposés.
 - Chaque tâche a un plugin principal, une sortie et un interlocuteur ; les

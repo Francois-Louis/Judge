@@ -13,7 +13,7 @@ dependances: [EXIST-002, PILOTE-003, BASE-005, BASE-006]
 
 Tableau des pièces présentes/manquantes, dates établies, question d'approbation séparée du dépôt, éligibilité à la confidentialité à vérifier et prochaine démarche.
 
-Issue des [frictions sur les formalités d'entreprise](../exist-002-frictions-utilisateurs.md), points 65–67. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
+Issue des [frictions sur les formalités d'entreprise](../exist-002-annexes/exist-002-frictions-utilisateurs.md), points 65–67. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
 
 ## Périmètre et fichiers à examiner
 
@@ -61,4 +61,4 @@ Tenue ou certification comptable, approbation fictive, dépôt, calcul fiscal, a
 
 ## État de la proposition
 
-Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../exist-002-frictions-verification.md).
+Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../exist-002-annexes/exist-002-frictions-verification.md).

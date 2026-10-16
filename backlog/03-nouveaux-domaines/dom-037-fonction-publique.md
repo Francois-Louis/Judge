@@ -58,9 +58,9 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 ## Complément des frictions IA — 16 octobre 2026
 
-Points 19–24 de la [matrice IA](../02-plugins-existants/exist-005-frictions-utilisateurs.md) : qualifier statut, recrutement, évaluation ou surveillance avant le régime de recours. Découper les indices de discrimination et les effets d'un score sur une candidature/carrière ; accès données → PRV-001/030/031, informations algorithmiques publiques → DOM-010, qualification d'émotions/pratique interdite → IA-003. Recueillir offre, décision/évaluation, critères déclarés, notification et réception ; aucune transposition des règles du salarié privé. Cas attendu : évaluation contestée et rôle humain seulement déclaré, avec demandes d'explication et recours statutaires séparés.
+Points 19–24 de la [matrice IA](../02-plugins-existants/exist-005-annexes/exist-005-frictions-utilisateurs.md) : qualifier statut, recrutement, évaluation ou surveillance avant le régime de recours. Découper les indices de discrimination et les effets d'un score sur une candidature/carrière ; accès données → PRV-001/030/031, informations algorithmiques publiques → DOM-010, qualification d'émotions/pratique interdite → IA-003. Recueillir offre, décision/évaluation, critères déclarés, notification et réception ; aucune transposition des règles du salarié privé. Cas attendu : évaluation contestée et rôle humain seulement déclaré, avec demandes d'explication et recours statutaires séparés.
 
-Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-frictions-verification.md).
+Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-annexes/exist-005-frictions-verification.md).
 
 ## Hors périmètre
 
@@ -69,4 +69,4 @@ Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter
 
 ## Complément des frictions données personnelles — 16 octobre 2026
 
-Points 32–40 de la [matrice données personnelles](../02-plugins-existants/exist-003-frictions-utilisateurs.md) : qualifier statut et décision, sans déduire le régime de la seule qualité publique de l'employeur. PRV-001/022/025/030 portent les droits et la fiche de surveillance ; décision de carrière, évaluation ou sanction et son recours restent à découper ici. Scénario attendu : donnée erronée dans une sanction, demande de correction et calendrier statutaire distincts. Portée et contrôles : voir la matrice.
+Points 32–40 de la [matrice données personnelles](../02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md) : qualifier statut et décision, sans déduire le régime de la seule qualité publique de l'employeur. PRV-001/022/025/030 portent les droits et la fiche de surveillance ; décision de carrière, évaluation ou sanction et son recours restent à découper ici. Scénario attendu : donnée erronée dans une sanction, demande de correction et calendrier statutaire distincts. Portée et contrôles : voir la matrice.

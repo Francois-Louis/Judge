@@ -61,7 +61,7 @@ Dossier de surendettement, procédure, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 65–66 et 69 de la [matrice](../dom-004-frictions-utilisateurs.md).
+Points 65–66 et 69 de la [matrice](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 - [ ] C03 — Déchéance du terme annoncée : lire clause, mises en demeure, réception et échéances ; ventiler sommes réclamées et décompte à demander, sans recalcul.
 - [ ] C04 — Ancien impayé et proposition de nouvel accord : distinguer délai de grâce, prescription et forclusion ; relever incident, régularisations, accords, actes et dates puis orienter l'analyse contentieuse, sans déclarer la créance éteinte ni recommander une signature.
@@ -72,4 +72,4 @@ Scénarios C03–C05 **attendus, non exécutés** : exigibilité globale après 
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-004-decoupage-banque.md).
+[découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

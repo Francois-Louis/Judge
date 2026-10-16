@@ -13,7 +13,7 @@ dependances: [DOM-005, PILOTE-003, BASE-005, BASE-006, INS-001]
 
 Un assuré comprend une hausse, un malus ou un prélèvement contesté et prépare une demande de justification à partir des avis et du contrat.
 
-Besoin issu des points 48, 76–78 de la [matrice des frictions assurance](../dom-005-frictions-utilisateurs.md).
+Besoin issu des points 48, 76–78 de la [matrice des frictions assurance](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -65,4 +65,4 @@ Recalcul du coefficient, calcul de prime ou de remboursement, conseil d'arrêter
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-decoupage-assurance.md).
+Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-annexes/dom-005-decoupage-assurance.md).

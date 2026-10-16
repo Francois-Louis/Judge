@@ -13,7 +13,7 @@ dependances: [DOM-004, PILOTE-003, BASE-005, BASE-006, BNK-001]
 
 Une personne privée d'accès à ses fonds identifie la nature du blocage connue ou encore incertaine et prépare une demande exploitable au bon interlocuteur.
 
-Besoin issu des frictions 23, 52–53 de la [matrice utilisateur](../dom-004-frictions-utilisateurs.md).
+Besoin issu des frictions 23, 52–53 de la [matrice utilisateur](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -61,4 +61,4 @@ Déblocage exécuté, contournement des contrôles, contestation de saisie, expe
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issue des frictions fournies par l'utilisateur ; sans implémentation ni sélection. Contrat commun : [découpage](../dom-004-decoupage-banque.md).
+Ajout issue des frictions fournies par l'utilisateur ; sans implémentation ni sélection. Contrat commun : [découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

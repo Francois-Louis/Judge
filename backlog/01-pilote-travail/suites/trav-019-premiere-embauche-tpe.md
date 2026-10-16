@@ -13,7 +13,7 @@ dependances: [PILOTE-001, PILOTE-003, BASE-005, BASE-006]
 
 Liste courte de pièces et démarches liées à une seule embauche, responsable/destinataire, état prouvé et échéance établie ou à vérifier ; absence d'action externe clairement indiquée.
 
-Issue des [frictions sur les formalités d'entreprise](../../02-plugins-existants/exist-002-frictions-utilisateurs.md), points 71–73, 76–77. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
+Issue des [frictions sur les formalités d'entreprise](../../02-plugins-existants/exist-002-annexes/exist-002-frictions-utilisateurs.md), points 71–73, 76–77. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
 
 ## Périmètre et fichiers à examiner
 
@@ -61,4 +61,4 @@ Embauche ou dépôt effectif, paie/DSN, rédaction complète du contrat, diagnos
 
 ## État de la proposition
 
-Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../../02-plugins-existants/exist-002-frictions-verification.md).
+Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../../02-plugins-existants/exist-002-annexes/exist-002-frictions-verification.md).

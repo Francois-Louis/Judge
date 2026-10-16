@@ -68,7 +68,7 @@ Dépôt de l'opposition, représentation à l'audience, défense au fond, envoi.
 
 ## Complément issu des frictions des commissaires de justice
 
-Points 13–14 et 17–18 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+Points 13–14 et 17–18 de la [matrice utilisateur](../dom-003-annexes/dom-003-frictions-utilisateurs.md).
 
 - [ ] O03 — Signification autre qu'à personne et découverte par une saisie : réunir ordonnance, signification, premiers actes ultérieurs et dates prouvées ; faire vérifier le déclencheur propre à l'opposition sans confondre les recours ENF-012 et ENF-019.
 - [ ] O04 — Délai de signification de l'ordonnance : relever date de décision et date de signification ; rechercher texte modificatif, entrée en vigueur et dispositions transitoires. La transition annoncée en septembre 2026 par le texte fourni n'est pas présumée exacte ni applicable.
@@ -79,4 +79,4 @@ Scénarios O03–O05 **attendus, non exécutés** : ordonnance ancienne découve
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation ni sélection.
-Contrat commun : [découpage](../dom-003-decoupage-execution.md).
+Contrat commun : [découpage](../dom-003-annexes/dom-003-decoupage-execution.md).

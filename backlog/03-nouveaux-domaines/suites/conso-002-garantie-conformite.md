@@ -79,7 +79,7 @@ judiciaire, envoi du courrier.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 13, 31–36, 58–74, 77, 116–118 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points 13, 31–36, 58–74, 77, 116–118 de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 Compléter les pièces par fiche produit et état promis, liste des articles reçus, diagnostic et frais annoncés, historique des demandes, dépôts, restitutions, réparations et remplacements. L’absence de ticket appelle la recherche d’autres preuves recevables ; aucun rejet automatique. Documenter bien neuf, occasion et reconditionné ; distinguer période de couverture et présomption d’antériorité.
@@ -99,4 +99,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-001, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-001-decoupage-consommation.md).
+[découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

@@ -76,4 +76,4 @@ Mise en demeure envoyée, saisie-contrefaçon, contentieux.
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation. Statut `proposee` : aucune tranche sélectionnée, aucun skill adapté.
-Contrat commun : [découpage EXIST-008](../exist-008-decoupage-pi.md).
+Contrat commun : [découpage EXIST-008](../exist-008-annexes/exist-008-decoupage-pi.md).

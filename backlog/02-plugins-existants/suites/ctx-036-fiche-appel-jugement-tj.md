@@ -13,7 +13,7 @@ dependances: [EXIST-006, PILOTE-003, BASE-005, BASE-006, BASE-013, CTX-028]
 
 Une fiche à remettre à l’avocat pour vérifier l’appel d’un jugement civil au fond du tribunal judiciaire en procédure avec représentation obligatoire.
 
-Issue des [125 frictions contentieuses](../exist-006-frictions-utilisateurs.md), intégrées le 16 octobre 2026. Aucun skill adapté dans cette proposition.
+Issue des [125 frictions contentieuses](../exist-006-annexes/exist-006-frictions-utilisateurs.md), intégrées le 16 octobre 2026. Aucun skill adapté dans cette proposition.
 
 ## Périmètre et fichiers à examiner
 
@@ -62,4 +62,4 @@ Déclaration ou dépôt d’appel, conclusions d’appel, opposition de droit co
 
 ## État de la proposition
 
-Statut `proposee` ; aucune extension sélectionnée. Contrat commun et frontières : [découpage EXIST-006](../exist-006-decoupage-contentieux.md). Le bilan PILOTE-003 est terminé avec ses limites documentées. Contrôles de cette intégration : [relevé documentaire](../exist-006-frictions-verification.md).
+Statut `proposee` ; aucune extension sélectionnée. Contrat commun et frontières : [découpage EXIST-006](../exist-006-annexes/exist-006-decoupage-contentieux.md). Le bilan PILOTE-003 est terminé avec ses limites documentées. Contrôles de cette intégration : [relevé documentaire](../exist-006-annexes/exist-006-frictions-verification.md).

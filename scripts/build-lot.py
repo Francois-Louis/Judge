@@ -2,7 +2,7 @@
 """Build a bounded Judge FR/UE lot: selected plugins and a one-lot marketplace.
 
 python scripts/build-lot.py --lot judge-fr-eu-lot-001 --plugin employment-legal \
-    --notes backlog/04-livraison/liv-001-notes-version.md --out <dir-outside-checkout>
+    --notes backlog/04-livraison/liv-001-annexes/liv-001-notes-version.md --out <dir-outside-checkout>
 
 The lot copies only git-tracked files of each selected plugin, from the working
 tree (default) or from --rev. It refuses an output inside the checkout or an

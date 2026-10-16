@@ -65,7 +65,7 @@ demande d'abord le titre du document et sa date.
 
 ## Travail attendu
 
-Créer `qualification-acte.md` selon le [découpage](../dom-003-decoupage-execution.md)
+Créer `qualification-acte.md` selon le [découpage](../dom-003-annexes/dom-003-decoupage-execution.md)
 et l'appliquer :
 
 - demande de paiement par SMS, lien ou virement urgent → authenticité vérifiée par un canal officiel d'abord ;
@@ -103,7 +103,7 @@ annuaire officiel de la profession pour l'authenticité, à identifier.
 - Sans source lue : fiche et questions, règle réservée.
 
 Exécuter sur fixtures, conserver ressources lues, sorties et erreurs, et
-appliquer les couches BASE-006. La [relecture DOM-003](../dom-003-verification.md)
+appliquer les couches BASE-006. La [relecture DOM-003](../dom-003-annexes/dom-003-verification.md)
 porte sur le cadrage ; ces scénarios restent **attendus, non exécutés**.
 
 ## Hors périmètre
@@ -114,7 +114,7 @@ examen de la dette d'origine, contact de l'émetteur, paiement, envoi.
 
 ## Complément issu des frictions des commissaires de justice
 
-Points 1–2, 11, 15–18 et 45 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+Points 1–2, 11, 15–18 et 45 de la [matrice utilisateur](../dom-003-annexes/dom-003-frictions-utilisateurs.md).
 
 - [ ] A05 — Mise en demeure et jugement : qualifier par les mentions, pas par le seul papier à en-tête ; absence de titre mentionné ne prouve pas l'absence de tout titre ni de possibilité de mesure conservatoire.
 - [ ] A06 — Jugement signifié et appel envisagé : relever voies de recours, exécution provisoire mentionnée, juridiction et mode de remise ; orienter vers un avocat sans calcul ni promesse d'arrêt de l'exécution.
@@ -126,4 +126,4 @@ Scénarios A05–A08 **attendus, non exécutés** : lettre menaçante sans titre
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-003, sans implémentation. Préalable PILOTE-003 satisfait après
-BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-003-decoupage-execution.md).
+BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-003-annexes/dom-003-decoupage-execution.md).

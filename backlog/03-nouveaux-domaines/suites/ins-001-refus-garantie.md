@@ -63,7 +63,7 @@ présentes pour le contrat de paquet.
 ## Travail attendu
 
 Créer `qualification-assurance.md` et `motifs-refus.md` selon le
-[découpage](../dom-005-decoupage-assurance.md) et les appliquer :
+[découpage](../dom-005-annexes/dom-005-decoupage-assurance.md) et les appliquer :
 
 - emprunteur, santé, prévoyance, construction, vie ou décès → orientation vers INS-008 à INS-011 ;
 - contrat professionnel → qualification, puis questions propres ;
@@ -94,7 +94,7 @@ L113-2, L113-8, L113-9) ; prescription (pistes L114-1, L114-2).
 - Sans source lue : fiche et questions, règle réservée.
 
 Exécuter sur fixtures, conserver ressources lues, sorties et erreurs, et
-appliquer les couches BASE-006. La [relecture DOM-005](../dom-005-verification.md)
+appliquer les couches BASE-006. La [relecture DOM-005](../dom-005-annexes/dom-005-verification.md)
 porte sur le cadrage ; ces scénarios restent **attendus, non exécutés**.
 
 ## Hors périmètre
@@ -104,7 +104,7 @@ responsabilité de l'auteur du dommage, procédure, envoi.
 
 ## Complément issu des frictions assurance
 
-Points 2, 17, 23–24, 31–32, 37, 58–59 et 79 de la [matrice](../dom-005-frictions-utilisateurs.md). Recueillir aussi présentation matérielle de la clause, questions et réponses initiales si le risque est discuté, factures d'entretien, photos antérieures et faits invoqués.
+Points 2, 17, 23–24, 31–32, 37, 58–59 et 79 de la [matrice](../dom-005-annexes/dom-005-frictions-utilisateurs.md). Recueillir aussi présentation matérielle de la clause, questions et réponses initiales si le risque est discuté, factures d'entretien, photos antérieures et faits invoqués.
 
 - [ ] R04 — Retard : distinguer clause de déchéance, date de connaissance, déclaration, préjudice allégué par l'assureur et circonstances de force majeure ; aucune déchéance automatique.
 - [ ] R05 — Exclusion ou définition restrictive : qualifier le motif avant de vérifier précision, limitation, présentation et application aux faits ; aucune exclusion tenue pour valable du seul fait de sa présence.
@@ -116,4 +116,4 @@ Scénarios R04–R07 **attendus, non exécutés** : refus pour retard sans préj
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation. Préalable PILOTE-003 satisfait après
-BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-005-decoupage-assurance.md).
+BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).

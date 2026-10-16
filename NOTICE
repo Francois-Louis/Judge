@@ -32,6 +32,18 @@ require working directly on main and finishing changes with a commit and push.
   AGENTS.md
   CLAUDE.md
 
+Backlog reorganization (2026-10-16, user request, no story): story outputs
+moved into <story>-annexes/ folders, generated status board backlog/ETAT.md,
+shortened backlog README. Links to the moved files updated; the control
+scripts of closed stories were adapted to the new paths and produce the same
+results. No plugin or skill changed.
+  CLAUDE.md
+  README.md
+  references/base008-validation.md
+  references/legal-source-access.md
+  references/package-validation.md
+  scripts/build-lot.py
+
 BASE-012 changes and recorded decisions (2026-10-16): the package checker can
 use a claude binary outside the PATH (--claude, JUDGE_CLAUDE_CLI); NOTICE files
 now list only files outside backlog/. No plugin or skill changed.

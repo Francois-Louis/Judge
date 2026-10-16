@@ -66,7 +66,7 @@ Envoi de la saisine, conciliation, procédure judiciaire.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 135–140, 142 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points 135–140, 142 de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 Recueillir réclamation initiale écrite, preuve de date, réponse, autres médiations et procédures déjà engagées. La sortie comprend un tableau de recevabilité : qualité des parties, compétence et rattachement vérifiés, démarche préalable, délai, saisine concurrente et inconnues. Aucun médiateur n’est choisi sur le seul secteur commercial affiché.
@@ -82,4 +82,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-001, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-001-decoupage-consommation.md).
+[découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

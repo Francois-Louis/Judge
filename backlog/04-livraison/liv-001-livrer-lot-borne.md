@@ -51,7 +51,7 @@ Attendre que tous les domaines soient terminés pour livrer, modifier un compte 
   et parcours candidat. COM-001 (`a-verifier`), les dix plugins à isolation
   technique seule, CoCounsel et les cookbooks sont exclus. Les skills hérités
   du plugin livré restent dans le paquet recetté et sont signalés comme non
-  adaptés. Détail dans la [vérification](liv-001-verification.md).
+  adaptés. Détail dans la [vérification](liv-001-annexes/liv-001-verification.md).
 - **Métadonnées** : version 0.2.1 ; manifeste, entrée du marketplace, README
   et NOTICE du plugin alignés sur la recette BASE-011 ; README et NOTICE
   racine ; version attendue dans `scripts/test-base008-isolation.py`. Aucune
@@ -59,11 +59,11 @@ Attendre que tous les domaines soient terminés pour livrer, modifier un compte 
   identiques au paquet recetté.
 - **Artefact** : [`scripts/build-lot.py`](../../scripts/build-lot.py) produit
   hors du checkout un dossier et une archive reproductible : plugin choisi,
-  marketplace `judge-fr-eu` à une entrée, LICENSE, NOTICE, [notes de version](liv-001-notes-version.md)
+  marketplace `judge-fr-eu` à une entrée, LICENSE, NOTICE, [notes de version](liv-001-annexes/liv-001-notes-version.md)
   et inventaire SHA-256. Il refuse sortie dans le checkout, fichiers non
   suivis, liens et divergence marketplace/manifeste.
-- **Vérification** : [vérificateur](liv-001-verifier-lot.py) et
-  [relevé](liv-001-resultats.json). Archive conforme à l'inventaire,
+- **Vérification** : [vérificateur](liv-001-annexes/liv-001-verifier-lot.py) et
+  [relevé](liv-001-annexes/liv-001-resultats.json). Archive conforme à l'inventaire,
   périmètre à un plugin, aucun chemin actif de l'origine, `SCHEMA OK`,
   `claude plugin validate` réussi, installation jetable réussie et copie
   installée identique. Suites rejouées après modification : BASE-008 14

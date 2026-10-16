@@ -13,7 +13,7 @@ dependances: [DOM-005, PILOTE-003, BASE-005, BASE-006, INS-001]
 
 Un assuré rapproche les questions initiales, ses réponses et un changement de situation pour préparer une déclaration exacte ou une demande de correction.
 
-Besoin issu des points 11, 46, 79–80, 84, 87 de la [matrice des frictions assurance](../dom-005-frictions-utilisateurs.md).
+Besoin issu des points 11, 46, 79–80, 84, 87 de la [matrice des frictions assurance](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -65,4 +65,4 @@ Souscription, omission conseillée, décision sur la validité d'une sanction, c
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-decoupage-assurance.md).
+Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-annexes/dom-005-decoupage-assurance.md).

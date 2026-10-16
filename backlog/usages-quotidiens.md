@@ -11,12 +11,12 @@ d'une fonctionnalité. La qualification exacte
 dépend du document, du statut des parties et des faits ; une même situation
 peut comporter plusieurs demandes avec un domaine principal pour chacune.
 
-Le [dossier d'architecture BASE-003](00-fondations/base-003-dossier-architecture.md)
+Le [dossier d'architecture BASE-003](00-fondations/base-003-annexes/base-003-dossier-architecture.md)
 associe ces domaines à leur plugin principal, précise les interactions et
 vérifie le routage pour les particuliers, aidants, indépendants et petits
 exploitants. Les nouveaux plugins restent proposés jusqu'à leur cadrage.
 
-Le [protocole USAGE-001](05-usages-quotidiens/usage-001-protocole-orientation.md)
+Le [protocole USAGE-001](05-usages-quotidiens/usage-001-annexes/usage-001-protocole-orientation.md)
 définit les questions minimales, la restitution, l'accessibilité et les limites
 de collecte et d'envoi. Les colonnes « Domaine principal » et « Frontière »
 forment l'index documentaire ; la correspondance vers les plugins et leur état
@@ -88,7 +88,7 @@ avant une revue documentaire ordinaire.
 | S-50 | On me réclame une inscription ou un abonnement prétendument obligatoire pour mon entreprise. | Contrats professionnels B2B | [COM-019](02-plugins-existants/suites/com-019-demande-paiement-suspecte.md), [COM-020](02-plugins-existants/suites/com-020-abonnement-mandat-formalites.md) | Identifier émetteur, commande et obligation ; préparer une vérification et un écrit ciblé. | Frais officiels séparés des prestations ; acte d'exécution → DOM-003, paiement bancaire → DOM-004, activité réglementée → secteur ; rétractation B2B à qualifier. Ajoutée le 16 octobre 2026. |
 | S-54 | Je suis créateur ou petite marque et je veux comprendre un contrat de partenariat rémunéré ou avec des cadeaux. | Contrats professionnels B2B | [COM-021](02-plugins-existants/suites/com-021-contrat-influence.md) | Lire livrables, avantages, durée, exclusivité, droits et responsabilités ; préparer les questions. | Contenu et mentions → PDT-009, droits → PI ; seuil et cumul à rechercher, sans exemption générale présumée. Ajoutée le 16 octobre 2026. |
 | S-55 | Mon agence marketing promet des ventes, facture des résultats opaques ou conserve mes comptes. | Contrats professionnels B2B | [COM-022](02-plugins-existants/suites/com-022-rapprocher-prestation-marketing.md), [COM-023](02-plugins-existants/suites/com-023-sortie-agence-marketing.md) | Rapprocher promesses, indicateurs et factures ou préparer restitution et sortie. | Choisir la demande utile ; droits sur créations → PI, données → PRV, décision de plateforme → DOM-034 ; aucune modification d’accès. Ajoutée le 16 octobre 2026. |
-| S-56 | Je vends des produits et je ne sais pas quelle REP, quel identifiant ou quel marquage prévoir pour mes emballages. | Produits et publicité | [Matrice marketing et emballages](02-plugins-existants/exist-004-frictions-utilisateurs.md), [PDT-020](02-plugins-existants/suites/pdt-020-qualifier-rep.md), [PDT-023](02-plugins-existants/suites/pdt-023-marquage-emballage.md) | Identifier flux, pays, rôle, filière et pièces ; préparer le contrôle d’une boîte ou son calendrier conditionnel. | REP et PPWR distincts ; contrat d’éco-organisme → COM, décision administrative → DOM-010, pollution locale → DOM-030. Dates et actes à vérifier. Ajoutée le 16 octobre 2026. |
+| S-56 | Je vends des produits et je ne sais pas quelle REP, quel identifiant ou quel marquage prévoir pour mes emballages. | Produits et publicité | [Matrice marketing et emballages](02-plugins-existants/exist-004-annexes/exist-004-frictions-utilisateurs.md), [PDT-020](02-plugins-existants/suites/pdt-020-qualifier-rep.md), [PDT-023](02-plugins-existants/suites/pdt-023-marquage-emballage.md) | Identifier flux, pays, rôle, filière et pièces ; préparer le contrôle d’une boîte ou son calendrier conditionnel. | REP et PPWR distincts ; contrat d’éco-organisme → COM, décision administrative → DOM-010, pollution locale → DOM-030. Dates et actes à vérifier. Ajoutée le 16 octobre 2026. |
 
 ## Famille, santé et protection
 
@@ -114,10 +114,10 @@ avant une revue documentaire ordinaire.
 | S-39 | Un service, un logement ou une formation me sont refusés. | Discriminations | [DOM-029](03-nouveaux-domaines/dom-029-discriminations.md) | Distinguer qualification alléguée et faits permettant de l'examiner. | Si un traitement discriminatoire est allégué : auteur du refus/organisme compétent à identifier ; sinon, refus au domaine du bail, du service ou de la formation. La contestation sectorielle reste distincte. |
 | S-40 | Mon vol, mon train ou mon voyage ne s'est pas passé comme prévu. | Transports et voyages | [DOM-008](03-nouveaux-domaines/dom-008-transports.md) | Identifier contrat, incident, transporteur et demandes distinctes. | Transporteur/vendeur du voyage selon contrat ; assurance voyage → DOM-005. |
 | S-41 | Un compte en ligne est suspendu ou mon identité est usurpée. | Numérique et plateformes | [DOM-034](03-nouveaux-domaines/dom-034-numerique-plateformes.md) | Lire notification, rôle de la plateforme et mécanismes disponibles. | Plateforme ; données → données personnelles, droit d'auteur → propriété intellectuelle, achat → DOM-001, paiement → DOM-004, infraction alléguée → DOM-002. |
-| S-42 | Je veux accéder à mes données, corriger une information ou faire cesser un usage contesté. | Données personnelles | [EXIST-003](02-plugins-existants/exist-003-donnees-personnelles.md), [60 frictions](02-plugins-existants/exist-003-frictions-utilisateurs.md) | Identifier responsable, finalité, droit et preuves ; préparer une demande ciblée. | PRV-001/022 à 025 pour le demandeur ; réponse organisme distincte. Compte/modération → DOM-034, dossier médical → DOM-007, décision et recours → secteur. |
+| S-42 | Je veux accéder à mes données, corriger une information ou faire cesser un usage contesté. | Données personnelles | [EXIST-003](02-plugins-existants/exist-003-donnees-personnelles.md), [60 frictions](02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md) | Identifier responsable, finalité, droit et preuves ; préparer une demande ciblée. | PRV-001/022 à 025 pour le demandeur ; réponse organisme distincte. Compte/modération → DOM-034, dossier médical → DOM-007, décision et recours → secteur. |
 | S-44 | Les frais de mon notaire ou les honoraires de mon avocat ou de mon comptable me paraissent injustifiés. | Professionnels du droit et du chiffre | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Distinguer frais réglementés, taxes et honoraires ; préparer les questions. | Professionnel concerné puis instance ou médiateur ; fond du dossier → son domaine (succession, achat, procédure). Ajoutée le 16 octobre 2026. |
 | S-45 | J'ai reçu un procès-verbal de chasse ou de pêche, ou du gibier ravage mon terrain. | Chasse et pêche | [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) | Identifier l'acte, l'agent, la règle invoquée et les pièces. | Agent verbalisateur ou fédération ; arme → CRIM-017, exploitation agricole → DOM-014, voisinage → DOM-020. Ajoutée le 16 octobre 2026. |
-| S-47 | Je veux faire un procès, ou je suis assigné ou convoqué devant un juge civil. | Contentieux civil | [EXIST-006](02-plugins-existants/exist-006-contentieux.md), [125 frictions](02-plugins-existants/exist-006-frictions-utilisateurs.md) | Identifier acte, juridiction, urgence et représentation ; préparer pièces, demandes et questions sur les délais. | Fond au domaine sectoriel ; exécution → DOM-003, pénal → DOM-002, administratif → DOM-010, financement → DOM-041/005. CTX-030 à 041 restent proposées. |
+| S-47 | Je veux faire un procès, ou je suis assigné ou convoqué devant un juge civil. | Contentieux civil | [EXIST-006](02-plugins-existants/exist-006-contentieux.md), [125 frictions](02-plugins-existants/exist-006-annexes/exist-006-frictions-utilisateurs.md) | Identifier acte, juridiction, urgence et représentation ; préparer pièces, demandes et questions sur les délais. | Fond au domaine sectoriel ; exécution → DOM-003, pénal → DOM-002, administratif → DOM-010, financement → DOM-041/005. CTX-030 à 041 restent proposées. |
 | S-48 | Un article, une vidéo ou un message me met en cause, ou on me reproche un propos que j'ai publié. | Médias et expression publique | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) | Conserver la publication datée, identifier la qualification possible et l'urgence. | Auteur, éditeur ou hébergeur, avocat pour une procédure de presse ; compte suspendu → DOM-034, données → protection des données, harcèlement → DOM-002. Ajoutée le 16 octobre 2026. |
 | S-51 | Mes données ont fuité et je crains une fraude. | Données personnelles | [PRV-032](02-plugins-existants/suites/prv-032-victime-fuite-donnees.md) | Lire l’avis, préserver les preuves et identifier les démarches adaptées via des canaux officiels. | Fraude bancaire → BNK-001, plainte pénale → CRIM-004, données → PRV-034 ; aucun accès à un fichier divulgué. Ajoutée le 16 octobre 2026. |
 | S-52 | Je suis démarché malgré mon refus ou je ne peux pas refuser le suivi publicitaire. | Données personnelles | [PRV-023](02-plugins-existants/suites/prv-023-opposition-prospection.md), [PRV-027](02-plugins-existants/suites/prv-027-documenter-parcours-traceurs.md) | Documenter messages/choix et préparer une demande au responsable identifié. | Prospection, cookies et signalement commercial distincts ; canal/date/finalité à qualifier. Ajoutée le 16 octobre 2026. |
@@ -127,7 +127,7 @@ avant une revue documentaire ordinaire.
 
 ## IA, décisions et outils délégués
 
-Les [50 frictions de gouvernance IA](02-plugins-existants/exist-005-frictions-utilisateurs.md) complètent les situations suivantes, ajoutées le 16 octobre 2026. Elles décrivent des réponses à construire.
+Les [50 frictions de gouvernance IA](02-plugins-existants/exist-005-annexes/exist-005-frictions-utilisateurs.md) complètent les situations suivantes, ajoutées le 16 octobre 2026. Elles décrivent des réponses à construire.
 
 | N° | Situation exprimée | Domaine principal | Cadrage ou pilote | Premier résultat utile | Frontière et question complémentaire |
 |---|---|---|---|---|---|
@@ -145,7 +145,7 @@ identifier le domaine principal, puis écrire une story bornée. Elle ne command
 ni l'implémentation simultanée des domaines ni la création automatique d'un
 nouveau plugin pour chaque problème.
 
-La [comparaison USAGE-002](05-usages-quotidiens/usage-002-comparaison-priorites.md)
+La [comparaison USAGE-002](05-usages-quotidiens/usage-002-annexes/usage-002-comparaison-priorites.md)
 précise cinq petites tâches et leurs résultats évaluables. Elle propose de
 conserver la revue du contrat reçu par un candidat comme premier lot, sans
 arrêter le choix du pilote ni déclencher son développement. Les autres

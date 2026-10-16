@@ -13,7 +13,7 @@ dependances: [DOM-005, PILOTE-003, BASE-005, BASE-006, INS-002]
 
 Un occupant confronté à des renvois entre assureurs, voisin, bailleur et syndic obtient une carte des intervenants et une demande ciblée de prise en charge du dossier.
 
-Besoin issu des points 36–38, 41 de la [matrice des frictions assurance](../dom-005-frictions-utilisateurs.md).
+Besoin issu des points 36–38, 41 de la [matrice des frictions assurance](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -65,4 +65,4 @@ Diagnostic de fuite, attribution des responsabilités, expertise technique, calc
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-decoupage-assurance.md).
+Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-annexes/dom-005-decoupage-assurance.md).

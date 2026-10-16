@@ -13,7 +13,7 @@ dependances: [DOM-005, PILOTE-003, BASE-005, BASE-006, INS-001]
 
 Un souscripteur vivant qui constate une désignation ancienne rassemble les informations et prépare une demande d'explication ou de modification à l'assureur.
 
-Besoin issu des points 68 de la [matrice des frictions assurance](../dom-005-frictions-utilisateurs.md).
+Besoin issu des points 68 de la [matrice des frictions assurance](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -65,4 +65,4 @@ Rédaction patrimoniale complexe, fiscalité, arbitrage de droits entre proches,
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-decoupage-assurance.md).
+Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-annexes/dom-005-decoupage-assurance.md).

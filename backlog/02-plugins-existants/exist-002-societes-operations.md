@@ -45,19 +45,19 @@ Implémenter tout le domaine, modifier des contenus éditeur ou considérer qu'u
 
 ## Bilan d'exécution — 16 octobre 2026
 
-- [Inventaire complet](exist-002-inventaire-societes.md) : 30 fichiers dont
+- [Inventaire complet](exist-002-annexes/exist-002-inventaire-societes.md) : 30 fichiers dont
   13 skills et un agent, profils, schémas inline, références de grille et
   dépendances suivies vers les sept fichiers du cookbook diligence-grid.
   Décisions et justifications individuelles, noms techniques conservés.
-- [Découpage SOC-001 à SOC-022](exist-002-decoupage-societes.md) : 22 stories
+- [Découpage SOC-001 à SOC-022](exist-002-annexes/exist-002-decoupage-societes.md) : 22 stories
   d'implémentation proposées, chacune avec fichiers, entrées, résultat borné,
   sources à rechercher, exclusions et scénarios. Qualification SAS/SARL avant
   projet, puis décisions, PV, formalités, diligence et suivi séparés.
-- [Vérification documentaire](exist-002-verification.md) : comparaison SAS/SARL
+- [Vérification documentaire](exist-002-annexes/exist-002-verification.md) : comparaison SAS/SARL
   sur extraits de statuts fictifs, puis acquisition de titres avec filiale
   allemande. Les clauses, préférences et règles à rechercher sont distinguées ;
   aucun acte juridique n'est déclaré validé par cette relecture.
-- [Contrôles et empreintes](exist-002-resultats.json) : couverture, liens,
+- [Contrôles et empreintes](exist-002-annexes/exist-002-resultats.json) : couverture, liens,
   identifiants/frontmatter/dépendances, copies communes et périmètre.
   Plugin, cookbook et contenu éditeur inchangés.
 - PILOTE-003 est terminé après BASE-011 ; le préalable de bilan est satisfait,
@@ -76,6 +76,6 @@ métier seront vérifiés lors des implémentations choisies.
 
 ## Complément de besoins — formalités, 16 octobre 2026
 
-La [matrice des 100 frictions](exist-002-frictions-utilisateurs.md) ajoute SOC-023 à SOC-026, quatre propositions d'implémentation bornées (dossier bloqué, modification, dépôt de comptes et questions de fermeture), ainsi que SOC-027, **cadrage** des entreprises en difficulté. Le découpage compte désormais 27 SOC, toutes proposées. Les formes unipersonnelles et les frontières EI/fiscalité/contrats sont explicitement prises en compte.
+La [matrice des 100 frictions](exist-002-annexes/exist-002-frictions-utilisateurs.md) ajoute SOC-023 à SOC-026, quatre propositions d'implémentation bornées (dossier bloqué, modification, dépôt de comptes et questions de fermeture), ainsi que SOC-027, **cadrage** des entreprises en difficulté. Le découpage compte désormais 27 SOC, toutes proposées. Les formes unipersonnelles et les frontières EI/fiscalité/contrats sont explicitement prises en compte.
 
-Le bilan initial et ses empreintes ci-dessus portent sur les 22 propositions historiques. Cette intégration ne les revalide pas, ne clôture aucun nouveau cadrage et ne sélectionne aucune tranche. Portée et contrôles : matrice et [vérification de l'intégration](exist-002-frictions-verification.md).
+Le bilan initial et ses empreintes ci-dessus portent sur les 22 propositions historiques. Cette intégration ne les revalide pas, ne clôture aucun nouveau cadrage et ne sélectionne aucune tranche. Portée et contrôles : matrice et [vérification de l'intégration](exist-002-annexes/exist-002-frictions-verification.md).

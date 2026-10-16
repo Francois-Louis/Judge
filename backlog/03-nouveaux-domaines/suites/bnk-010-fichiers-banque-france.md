@@ -59,7 +59,7 @@ Demande d'effacement envoyée, procédure, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 67–68 et tableau initial du texte sur le chèque impayé : [matrice](../dom-004-frictions-utilisateurs.md).
+Points 67–68 et tableau initial du texte sur le chèque impayé : [matrice](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 - [ ] I03 — Projet de FICP : rechercher information préalable, réception, cause et pièces de régularisation ; aucun délai uniforme sans régime identifié.
 - [ ] I04 — Inscription maintenue après paiement : préparer demande de mise à jour à l'établissement déclarant, avec preuves de paiement et réponse ; distinguer mise à jour et effacement automatique.
@@ -70,4 +70,4 @@ Scénarios I03–I05 **attendus, non exécutés** : avis préalable, paiement su
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-004-decoupage-banque.md).
+[découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

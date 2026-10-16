@@ -41,7 +41,7 @@ Chronologie et tableau des consentements, déclarations et preuves manquantes ; 
 
 Examiner sollicitation téléphonique, vente sous pression, produit non sollicité et paiement anticipé hors établissement. La réforme annoncée dans le texte fourni reste une piste : vérifier publication, entrée en vigueur, transition, exceptions et dispositifs effectifs à la date des faits ; ne pas annoncer fin de Bloctel ou obligation universelle depuis le seul guide. Une relation contractuelle ne prouve pas le consentement à tout démarchage. Les règles de prospection et d’accès aux données relèvent de privacy ; rétractation de CONSO-003 ; signalement de CONSO-013 ; travaux de DOM-015 ou CONSO-014. Ne pas étendre une exception d’urgence à des prestations non demandées.
 
-Appliquer le contrat commun du [découpage](../dom-001-decoupage-consommation.md),
+Appliquer le contrat commun du [découpage](../dom-001-annexes/dom-001-decoupage-consommation.md),
 la méthode locale BASE-005 et le protocole d’orientation USAGE-001.
 
 ## Références métier et sources à rechercher
@@ -73,5 +73,5 @@ Décision d’infraction, revue RGPD, plainte, règle sectorielle non lue, accè
 
 ## Origine et état — 16 octobre 2026
 
-Issue des [155 frictions utilisateur](../dom-001-frictions-utilisateurs.md),
+Issue des [155 frictions utilisateur](../dom-001-annexes/dom-001-frictions-utilisateurs.md),
 sans implémentation ni sélection. Préalable PILOTE-003 satisfait après BASE-011.

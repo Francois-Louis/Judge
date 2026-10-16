@@ -72,7 +72,7 @@ Exécuter ces scénarios sur fixtures lors du futur lot et conserver ressources
 lues, sorties et erreurs. Appliquer BASE-006 : structure, paquet détaché,
 client, résultat métier et compréhension par lecteur non juriste. Pour le
 cookbook, ajouter schémas, lint et dry-run ; ne pas les assimiler au runtime.
-La [relecture EXIST-004](../exist-004-verification.md) porte sur le cadrage ;
+La [relecture EXIST-004](../exist-004-annexes/exist-004-verification.md) porte sur le cadrage ;
 ces scénarios d'implémentation restent **attendus, non exécutés**.
 
 ## Hors périmètre

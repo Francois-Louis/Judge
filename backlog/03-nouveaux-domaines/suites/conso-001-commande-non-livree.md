@@ -68,7 +68,7 @@ comme telle, et pose une question à la fois.
 
 ## Travail attendu
 
-Créer `qualification-achat.md` selon le [découpage](../dom-001-decoupage-consommation.md)
+Créer `qualification-achat.md` selon le [découpage](../dom-001-annexes/dom-001-decoupage-consommation.md)
 et l'appliquer avant toute réclamation :
 
 - achat pour l'activité professionnelle → pas de brouillon « consommateur » ;
@@ -111,7 +111,7 @@ aucune norme étrangère de remplacement.
 - Sans source lue : résultat partiel utile, règle réservée.
 
 Exécuter sur fixtures, conserver ressources lues, sorties et erreurs, et
-appliquer les couches BASE-006. La [relecture DOM-001](../dom-001-verification.md)
+appliquer les couches BASE-006. La [relecture DOM-001](../dom-001-annexes/dom-001-verification.md)
 porte sur le cadrage ; ces scénarios restent **attendus, non exécutés**.
 
 ## Hors périmètre
@@ -122,7 +122,7 @@ bancaire, procédure judiciaire, indemnité chiffrée, envoi du courrier.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 25–30, 34, 37–40, 144 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points 25–30, 34, 37–40, 144 de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 Documenter instructions de remise, dépôt devant la porte, voisin autorisé ou non, signature contestée et relais déplacé. Distinguer transporteur proposé par le vendeur et transporteur extérieur mandaté par l’acheteur. Le statut informatique « livré » n’est pas traité comme une preuve suffisante par principe.
@@ -140,4 +140,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-001, sans implémentation. Préalable PILOTE-003 satisfait après
-BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-001-decoupage-consommation.md).
+BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

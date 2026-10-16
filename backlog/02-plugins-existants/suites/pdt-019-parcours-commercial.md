@@ -13,7 +13,7 @@ dependances: [EXIST-004, PILOTE-003, BASE-005, BASE-006]
 
 Une petite entreprise reçoit une carte des écrans, choix, frais et engagements d’un parcours de souscription déterminé, avec écarts à instruire.
 
-Issue de la [matrice des 140 frictions marketing](../exist-004-frictions-utilisateurs.md), intégration du 16 octobre 2026. Cette proposition ne sélectionne aucune implémentation.
+Issue de la [matrice des 140 frictions marketing](../exist-004-annexes/exist-004-frictions-utilisateurs.md), intégration du 16 octobre 2026. Cette proposition ne sélectionne aucune implémentation.
 
 ## Périmètre et fichiers à examiner
 
@@ -66,4 +66,4 @@ Audit d’intrusion, mesure automatisée de tout le site, analyse RGPD complète
 
 ## État de la proposition — 16 octobre 2026
 
-Statut `proposee`. Le préalable de bilan PILOTE-003 est satisfait ; aucune tranche n’est choisie par cette intégration. Portée et contrôles documentaires dans le [relevé de l’intégration](../exist-004-frictions-verification.md).
+Statut `proposee`. Le préalable de bilan PILOTE-003 est satisfait ; aucune tranche n’est choisie par cette intégration. Portée et contrôles documentaires dans le [relevé de l’intégration](../exist-004-annexes/exist-004-frictions-verification.md).

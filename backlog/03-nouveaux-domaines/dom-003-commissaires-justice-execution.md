@@ -54,7 +54,7 @@ Implémenter le domaine entier, créer un plugin vide pour donner l'impression d
 
 ## Bilan d'exécution — 16 octobre 2026
 
-- [Découpage](dom-003-decoupage-execution.md) : nom `enforcement-legal`
+- [Découpage](dom-003-annexes/dom-003-decoupage-execution.md) : nom `enforcement-legal`
   conservé (`judge-fr-eu-enforcement-legal`) ; installation seule, sans
   profil, agent, hook ni connecteur ; garde-fous (urgence d'abord, l'émetteur
   ne qualifie pas l'acte, authenticité, aucune promesse de suspension, fond
@@ -67,12 +67,12 @@ Implémenter le domaine entier, créer un plugin vide pour donner l'impression d
   Première tranche : ENF-001, lecture d'un acte et repérage de l'urgence, qui
   crée le paquet avec ce seul skill. Recouvrement amiable, décompte et saisie
   sur compte au rang 2.
-- [Vérification documentaire](dom-003-verification.md) : les trois scénarios
+- [Vérification documentaire](dom-003-annexes/dom-003-verification.md) : les trois scénarios
   de la story et dix cas limites, sans délai, montant ni droit conclu.
-- Ligne `enforcement-legal` de la [matrice BASE-003](../00-fondations/base-003-dossier-architecture.md)
+- Ligne `enforcement-legal` de la [matrice BASE-003](../00-fondations/base-003-annexes/base-003-dossier-architecture.md)
   précisée ; index du backlog mis à jour.
-- [Contrôles statiques](dom-003-resultats.json), produits par
-  [le contrôleur du lot](dom-003-controles.py), sur le modèle de DOM-001.
+- [Contrôles statiques](dom-003-annexes/dom-003-resultats.json), produits par
+  [le contrôleur du lot](dom-003-annexes/dom-003-controles.py), sur le modèle de DOM-001.
 
 Points ouverts : l'opposition d'un particulier à une injonction de payer n'a
 pas de story propriétaire (rattachement proposé aux suites EXIST-006, à
@@ -99,7 +99,7 @@ d'orientation (ENF-013). Le domaine compte désormais 13 propositions.
 
 ## Intégration des frictions utilisateur — 16 octobre 2026
 
-La [matrice des 47 points](dom-003-frictions-utilisateurs.md) conserve le [texte fourni](sources/commissaires-justice-frictions-2026-10-16.txt) comme expression du besoin. Elle complète dix suites et ajoute six propositions ENF-014 à ENF-019 : frais contestés, réclamation professionnelle, lecture de constat, invitation simplifiée de petites créances, devis de constat et dossier de contestation de saisie-attribution. Le domaine compte désormais 19 propositions, toutes non sélectionnées.
+La [matrice des 47 points](dom-003-annexes/dom-003-frictions-utilisateurs.md) conserve le [texte fourni](sources/commissaires-justice-frictions-2026-10-16.txt) comme expression du besoin. Elle complète dix suites et ajoute six propositions ENF-014 à ENF-019 : frais contestés, réclamation professionnelle, lecture de constat, invitation simplifiée de petites créances, devis de constat et dossier de contestation de saisie-attribution. Le domaine compte désormais 19 propositions, toutes non sélectionnées.
 
 DOM-006 reçoit le besoin locatif et DOM-035 le besoin de dossier de responsabilité professionnelle, encore à découper. L'index, le découpage et les contrôles documentaires sont synchronisés. Les recours limités à une orientation restent explicitement signalés dans la matrice.
 
@@ -109,7 +109,7 @@ Fichiers de ce complément : matrice et source, six nouvelles suites, complémen
 
 ## Complément des frictions contentieuses — 16 octobre 2026
 
-Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-annexes/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
 
 Points 83–95 : conserver ENF-003 pour décompte/paiements, ENF-004 pour compte/sommes protégées, ENF-008 pour délais, ENF-010 pour créancier muni d’un titre et ENF-019/020 pour contestation. Le besoin de vérifier mainlevée après règlement complet doit distinguer solde justifié, demande de levée et confirmation effective ; le paiement n’établit pas à lui seul la levée du blocage. Rechercher régime du titre et créances accessoires sans réutiliser mécaniquement la prescription de fond. Scénarios : justificatif de règlement complet et saisie encore visible ; intérêts ou frais discutés ; titre ancien avec événements d’exécution. CTX-041 porte la lecture d’ordonnance côté créancier avant signification ; ENF-012 garde l’opposition débiteur. Les recours spéciaux JEX restent à découper, sans leur appliquer CTX-036.
 

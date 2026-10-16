@@ -41,7 +41,7 @@ Fiche des identités concordantes ou divergentes, avec provenance ; tableau offr
 
 Comparer enseigne, vendeur contractuel, registre officiel et bénéficiaire sans assimiler domaine .fr et établissement français. Examiner clone, identité usurpée, dropshipping, faux particulier, avis, labels, origine et publicité d’influence. Signaler un marquage ou un partenariat à vérifier, sans attester authenticité, qualité ou fraude. Une offre personnalisée ou fabriquée à la commande renvoie aussi à CONSO-003 pour la rétractation. Prévoir une checklist avant paiement ; aucun accès automatique ni achat. Les demandes de renseignement ne sont pas envoyées.
 
-Appliquer le contrat commun du [découpage](../dom-001-decoupage-consommation.md),
+Appliquer le contrat commun du [découpage](../dom-001-annexes/dom-001-decoupage-consommation.md),
 la méthode locale BASE-005 et le protocole d’orientation USAGE-001.
 
 ## Références métier et sources à rechercher
@@ -73,5 +73,5 @@ Certification d’un vendeur ou d’un produit, enquête exhaustive, achat, revu
 
 ## Origine et état — 16 octobre 2026
 
-Issue des [155 frictions utilisateur](../dom-001-frictions-utilisateurs.md),
+Issue des [155 frictions utilisateur](../dom-001-annexes/dom-001-frictions-utilisateurs.md),
 sans implémentation ni sélection. Préalable PILOTE-003 satisfait après BASE-011.

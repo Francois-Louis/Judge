@@ -78,7 +78,7 @@ accordés sont lus ; connexion déclarée ne prouve ni recherche ni authentifica
 Recettes futures **non exécutées**. Conserver fixtures, sources réellement lues,
 sorties et erreurs ; appliquer BASE-006 : structure, paquet détaché, client,
 résultat métier et compréhension par lecteur non juriste. La
-[relecture du cadrage](../exist-008-verification.md) n’est pas cette recette.
+[relecture du cadrage](../exist-008-annexes/exist-008-verification.md) n’est pas cette recette.
 
 ## Hors périmètre
 

@@ -17,9 +17,9 @@ Cette isolation technique ne vaut pas adaptation des tâches juridiques.
 
 ## Périmètre
 
-- Appliquer les décisions du [cadrage BASE-004](base-004-strategie-identite-configurations.md),
+- Appliquer les décisions du [cadrage BASE-004](base-004-annexes/base-004-strategie-identite-configurations.md),
   sa correspondance des 12 plugins et son ordre de migration.
-- Partir de l'[inventaire de fichiers](base-004-inventaire-references.tsv), à
+- Partir de l'[inventaire de fichiers](base-004-annexes/base-004-inventaire-references.tsv), à
   régénérer avant modification. Examiner aussi les chemins sans ancien nom,
   notamment installations/sauvegardes du hub et sorties des cookbooks.
 - Modifier les deux niveaux de manifestes, profils modèles, entretiens,
@@ -109,7 +109,7 @@ du modèle doit encore être observé dans la session de recette.
   journal propre au fork, sauvegardes, update/rollback, disable/enable/uninstall,
   empreintes et vérification des chemins. Les gates de confiance et d'accord
   existantes restent applicables. Sorties des cinq cookbooks par déploiement.
-- [Inventaire avant migration](base-008-inventaire-avant.tsv) régénéré avant
+- [Inventaire avant migration](base-008-annexes/base-008-inventaire-avant.tsv) régénéré avant
   modification : 221 fichiers. Notices par paquet et [NOTICE racine](../../NOTICE).
 - [Tests BASE-008](../../scripts/test-base008-isolation.py) sur vrais paquets
   détachés et profils factices : 16 tests, 15 passent et 1 ignoré. Jonctions
@@ -123,7 +123,7 @@ du modèle doit encore être observé dans la session de recette.
   `0.1.0` installés simultanément et activés dans la configuration jetable,
   mises à jour automatiques désactivées par environnement. L'original est
   obtenu depuis `anthropics/claude-for-legal`, son nom réservé étant refusé
-  depuis une copie locale. Voir la [preuve client](base-008-resultats-client.json).
+  depuis une copie locale. Voir la [preuve client](base-008-annexes/base-008-resultats-client.json).
 - Limite : `auth status` indique une session non authentifiée. Le chargement
   dans une session de modèle, les commandes réellement invoquées et leurs
   traces de fichiers restent à vérifier. Aucun profil personnel utilisé,
@@ -151,6 +151,6 @@ par [BASE-011](base-011-recette-client-isole.md).
 `employment-legal` 1.0.2 et le fork `judge-fr-eu-employment-legal` 0.2.0 dans
 une même configuration jetable connectée. La session les charge tous deux ;
 chaque commande qualifiée de `hiring-review` est résolue dans le répertoire
-de son paquet ([résultats](base-011-resultats.json), scénarios B8). Critère 1
+de son paquet ([résultats](base-011-annexes/base-011-resultats.json), scénarios B8). Critère 1
 coché. Le critère 4 (cycle du hub, liens symboliques réels) reste ouvert :
 la story demeure `en-cours`.

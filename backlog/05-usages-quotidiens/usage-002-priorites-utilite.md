@@ -56,7 +56,7 @@ ou remplacer le contrôle juridique par une mesure de satisfaction.
 
 ## Bilan d'exécution — 15 octobre 2026
 
-- Livrable : [comparaison et ordre proposé](usage-002-comparaison-priorites.md)
+- Livrable : [comparaison et ordre proposé](usage-002-annexes/usage-002-comparaison-priorites.md)
   de cinq tâches bornées : contrat reçu par un candidat, facture de matériel
   après retour d'une box, demande de pièces du notaire, retenue sur dépôt et
   devis de rénovation. Chaque ligne précise public, sortie évaluable, pièces,
@@ -69,7 +69,7 @@ ou remplacer le contrôle juridique par une mesure de satisfaction.
   métropolitaine comme cas nominal, CDD en vérification spécifique et
   orientations hors champ. Sortie, modifications nécessaires, exclusions et
   conditions de recette BASE-006 sont écrites. Aucun skill n'est modifié.
-- [Relecture avec trois profils fictifs](usage-002-verification.md) : quinze
+- [Relecture avec trois profils fictifs](usage-002-annexes/usage-002-verification.md) : quinze
   croisements salarié/retraité/petit exploitant × cinq tâches, avec bénéfice
   attendu, obstacle et prochaine étape. Aucun niveau juridique, équipement
   ou moyen financier n'est déduit du profil. Le bénéfice du pilote pour les

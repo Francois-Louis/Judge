@@ -41,7 +41,7 @@ Tableau prix annoncé / prix accepté / prix facturé, sommes documentées et é
 
 Examiner faux rabais, urgence artificielle, frais tardifs, options précochées, assurance colis, frais de paiement, panier modifié et CGV postérieures. Distinguer affichage ambigu et erreur de prix manifeste, sans promettre une vente forcée. Les calculs reposent sur les montants fournis ; aucun barème ni majoration non sourcés. Offre réservée aux membres ou aux porteurs d’une carte : vérifier la condition et le consentement à l’abonnement (CONSO-009). Crédit et paiement fractionné relèvent de DOM-004 ; assurance souscrite distinctement de DOM-005. Le signalement de la pratique relève de CONSO-013.
 
-Appliquer le contrat commun du [découpage](../dom-001-decoupage-consommation.md),
+Appliquer le contrat commun du [découpage](../dom-001-annexes/dom-001-decoupage-consommation.md),
 la méthode locale BASE-005 et le protocole d’orientation USAGE-001.
 
 ## Références métier et sources à rechercher
@@ -73,5 +73,5 @@ Revue de campagne marketing, décision de fraude, crédit, remboursement bancair
 
 ## Origine et état — 16 octobre 2026
 
-Issue des [155 frictions utilisateur](../dom-001-frictions-utilisateurs.md),
+Issue des [155 frictions utilisateur](../dom-001-annexes/dom-001-frictions-utilisateurs.md),
 sans implémentation ni sélection. Préalable PILOTE-003 satisfait après BASE-011.

@@ -37,8 +37,8 @@ Une modification de fichier ou mention executed ne prouve pas une signature. Con
 
 Charger `commercial-legal/references/shared/research-citation-method.md` depuis
 le paquet installé ; pour le cookbook, résoudre la copie du plugin embarqué.
-Suivre le [contrat commun du découpage](../exist-001-decoupage-commercial.md)
-et les [dépendances de contenu](../exist-001-inventaire-commercial.md).
+Suivre le [contrat commun du découpage](../exist-001-annexes/exist-001-decoupage-commercial.md)
+et les [dépendances de contenu](../exist-001-annexes/exist-001-inventaire-commercial.md).
 Corriger les seuls blocs setup/profil qui empêchent ce résultat, sans imposer
 COM-013 à une lecture ponctuelle. Aucun abonnement ni connecteur obligatoire ;
 nommer les accès optionnels et fournir la sortie partielle utile s'ils manquent.

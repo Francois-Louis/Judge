@@ -13,7 +13,7 @@ dependances: [DOM-004, PILOTE-003, BASE-005, BASE-006, BNK-001]
 
 L'émetteur d'un virement qui s'est trompé de bénéficiaire ou constate une anomalie d'exécution prépare immédiatement une demande de recherche, de rappel ou de correction adaptée.
 
-Besoin issu des frictions 22, 25, 40 de la [matrice utilisateur](../dom-004-frictions-utilisateurs.md).
+Besoin issu des frictions 22, 25, 40 de la [matrice utilisateur](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -61,4 +61,4 @@ Action contre le bénéficiaire, exécution du rappel, calcul de réparation, en
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issue des frictions fournies par l'utilisateur ; sans implémentation ni sélection. Contrat commun : [découpage](../dom-004-decoupage-banque.md).
+Ajout issue des frictions fournies par l'utilisateur ; sans implémentation ni sélection. Contrat commun : [découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

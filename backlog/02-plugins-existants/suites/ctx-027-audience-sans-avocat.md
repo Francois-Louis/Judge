@@ -76,4 +76,4 @@ Plaidoirie rédigée, représentation, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation. Statut `proposee` : aucune tranche sélectionnée, aucun skill adapté.
-Contrat commun : [découpage EXIST-006](../exist-006-decoupage-contentieux.md).
+Contrat commun : [découpage EXIST-006](../exist-006-annexes/exist-006-decoupage-contentieux.md).

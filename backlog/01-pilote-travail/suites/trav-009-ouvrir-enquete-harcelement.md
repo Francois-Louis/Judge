@@ -19,7 +19,7 @@ Résultat : Note de périmètre, protocole à valider et checklist de sources li
 
 Plugin principal : `employment-legal`. Entrées à examiner : investigation-open ; internal-investigation mode 1.
 Fichiers source sous `employment-legal/skills/`, profil et références associées,
-avec les dépendances décrites dans l'[inventaire PILOTE-001](../pilote-001-releve-inventaire.md).
+avec les dépendances décrites dans l'[inventaire PILOTE-001](../pilote-001-annexes/pilote-001-releve-inventaire.md).
 Les fichiers à modifier seront arrêtés après lecture ; aucun fichier métier
 n'est adapté par la présente proposition.
 

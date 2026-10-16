@@ -61,7 +61,7 @@ Procédure judiciaire, envoi de la saisine.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 29, 39, 99 et sections délais/démarches/interlocuteurs de la [matrice](../dom-004-frictions-utilisateurs.md).
+Points 29, 39, 99 et sections délais/démarches/interlocuteurs de la [matrice](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 - [ ] M03 — Réclamation de paiement sans réponse : distinguer la procédure de réponse propre aux services de paiement de celle des autres réclamations ; rechercher exceptions, conditions et charte applicable.
 - [ ] M04 — Chronologie incomplète : tableau événement/date prouvée ou inconnue/nature du délai/source et version/échéance vérifiée ou restant à établir ; ne pas déduire qu'un appel au conseiller préserve tous les recours.
@@ -72,4 +72,4 @@ Pièces : demande initiale et accusé de réception, relances, réponse définit
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-004-decoupage-banque.md).
+[découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

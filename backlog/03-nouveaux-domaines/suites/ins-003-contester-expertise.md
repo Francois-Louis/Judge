@@ -61,7 +61,7 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 ## Complément issu des frictions assurance
 
-Points 5–6, 9–11, 24–27 et 49–50 de la [matrice](../dom-005-frictions-utilisateurs.md). Ajouter aux pièces : méthode et taux de vétusté, justification de chaque franchise, conditions du complément valeur à neuf, comparables auto, kilométrage, entretien, équipements et éventuelle offre de cession.
+Points 5–6, 9–11, 24–27 et 49–50 de la [matrice](../dom-005-annexes/dom-005-frictions-utilisateurs.md). Ajouter aux pièces : méthode et taux de vétusté, justification de chaque franchise, conditions du complément valeur à neuf, comparables auto, kilométrage, entretien, équipements et éventuelle offre de cession.
 
 - [ ] X03 — Rapport absent : préparer sa demande ; vérifier séparément régime automobile et habitation sans affirmer une obligation générale identique.
 - [ ] X04 — Décompte opaque : distinguer taux de vétusté, plafonds, franchises cumulées, sous-assurance et complément conditionnel ; demander le détail sans recalcul.
@@ -74,4 +74,4 @@ Scénarios X03–X07 **attendus, non exécutés** : rapport habitation demandé 
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-005-decoupage-assurance.md).
+[découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).

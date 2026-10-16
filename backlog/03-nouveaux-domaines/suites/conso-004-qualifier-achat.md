@@ -70,7 +70,7 @@ d'une orientation.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 6–7, 115, 144 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points 6–7, 115, 144 de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 La qualification distingue vendeur réel, plateforme vendeuse ou intermédiaire, professionnel déclaré ou apparent, acheteur privé ou professionnel. Identifier ce qui est demandé : changer d’avis, défaut, absence de livraison, prix, prestation, arrêt du contrat, protection privée, signalement, banque ou plainte. La table d’orientation inclut CONSO-015 à CONSO-020 avec leur état réel, sans appeler un skill proposé.
@@ -86,4 +86,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-001, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-001-decoupage-consommation.md).
+[découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

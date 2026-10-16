@@ -64,4 +64,4 @@ Procédure d'adjudication, défense au fond, vente amiable, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation ni sélection.
-Contrat commun : [découpage](../dom-003-decoupage-execution.md).
+Contrat commun : [découpage](../dom-003-annexes/dom-003-decoupage-execution.md).

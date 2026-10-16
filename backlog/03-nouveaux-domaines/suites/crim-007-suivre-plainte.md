@@ -62,7 +62,7 @@ Rédaction de la plainte avec constitution de partie civile, procédure, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 12, 88–90 de la [matrice](../dom-002-frictions-utilisateurs.md). Recueillir référence de procédure, dépôt et preuve, avis complet, motif, dates de réception, demandes d'information et réponses. Produire aussi le brouillon de suivi au service ou au parquet, sans interpréter le silence ni garantir l'accès au dossier.
+Points 12, 88–90 de la [matrice](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Recueillir référence de procédure, dépôt et preuve, avis complet, motif, dates de réception, demandes d'information et réponses. Produire aussi le brouillon de suivi au service ou au parquet, sans interpréter le silence ni garantir l'accès au dossier.
 
 - [ ] L03 — Classement ou absence de nouvelles : séparer demande d'information, recours au parquet compétent et conditions d'une constitution de partie civile ; vérifier qualité, nature de l'infraction, préalable de plainte et preuve avant toute option.
 - [ ] L04 — Le classement n'est assimilé ni à une décision établissant la fausseté des faits ni à un effacement du TAJ ; question TAJ → CRIM-022. Un signalement disciplinaire ne tient pas lieu de suivi pénal.
@@ -72,4 +72,4 @@ Scénarios **attendus, non exécutés** : classement dont le motif est incompris
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-002-decoupage-penal.md).
+[découpage](../dom-002-annexes/dom-002-decoupage-penal.md).

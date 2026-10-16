@@ -41,7 +41,7 @@ Fiche des faits et du fondement réservé ou confirmé ; rapprochement des somme
 
 Accepter un dossier fourni manuellement sans exiger l’exécution d’un autre skill. Ne pas requalifier automatiquement un retard en résolution : revenir à CONSO-001 pour la livraison, CONSO-002 pour le défaut, CONSO-003 pour la rétractation, CONSO-017 pour la prestation. Distinguer délai de réponse proposé et délai légal, notification et réception, remboursement dû et avoir volontaire. Examiner portée d’une transaction ou renonciation avant acceptation, sans la recommander automatiquement. Aucun calcul de majoration sans texte, assiette, dates et conditions lus. Médiation : CONSO-006 ; conciliation, tentative amiable obligatoire et voie judiciaire : orientation EXIST-006 ; banque et plainte restent distinctes. Ne présumer aucun effet suspensif ou interruptif d’une relance, d’un signalement ou d’une mise en demeure.
 
-Appliquer le contrat commun du [découpage](../dom-001-decoupage-consommation.md),
+Appliquer le contrat commun du [découpage](../dom-001-annexes/dom-001-decoupage-consommation.md),
 la méthode locale BASE-005 et le protocole d’orientation USAGE-001.
 
 ## Références métier et sources à rechercher
@@ -73,5 +73,5 @@ Acte judiciaire, décision de prescription, transaction acceptée à la place de
 
 ## Origine et état — 16 octobre 2026
 
-Issue des [155 frictions utilisateur](../dom-001-frictions-utilisateurs.md),
+Issue des [155 frictions utilisateur](../dom-001-annexes/dom-001-frictions-utilisateurs.md),
 sans implémentation ni sélection. Préalable PILOTE-003 satisfait après BASE-011.

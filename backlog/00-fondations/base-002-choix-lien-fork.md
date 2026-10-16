@@ -41,7 +41,7 @@ Effectuer le détachement, supprimer/recréer le dépôt ou publier du contenu.
 
 ## Bilan d'exécution — 15 octobre 2026
 
-- Livrable : [dossier de décision](base-002-dossier-decision.md), comparant le
+- Livrable : [dossier de décision](base-002-annexes/base-002-dossier-decision.md), comparant le
   maintien du fork, la sortie du réseau et la création d'un dépôt indépendant.
 - Documentation officielle GitHub consultée : historique Git, visibilité,
   pertes de métadonnées, duplication, sauvegardes et suppression. Le dossier

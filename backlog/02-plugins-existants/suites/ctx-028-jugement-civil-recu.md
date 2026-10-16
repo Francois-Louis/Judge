@@ -74,11 +74,11 @@ Rédaction de l'appel, représentation, exécution.
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation. Statut `proposee` : aucune tranche sélectionnée, aucun skill adapté.
-Contrat commun : [découpage EXIST-006](../exist-006-decoupage-contentieux.md).
+Contrat commun : [découpage EXIST-006](../exist-006-annexes/exist-006-decoupage-contentieux.md).
 
 ## Complément des frictions contentieuses — 16 octobre 2026
 
-Exigences issues des [125 frictions contentieuses](../exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+Exigences issues des [125 frictions contentieuses](../exist-006-annexes/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
 
 Points 14–17, 25–27 et 84 : relever qualification de la décision, présence/absence, motifs/dispositif, signification et portée de l’exécution immédiate ; aucune nullité automatique en l’absence de la personne. CTX-036 prépare la vérification du seul appel TJ au fond avec représentation obligatoire ; CTX-037/038 documentent anomalie matérielle et demande omise. Opposition de droit commun, cassation et arrêt de l’exécution provisoire restent à découper. La présente tranche reste une lecture sans calcul de délai ; aucune demande de correction réputée suspendre un recours. Recette complémentaire : dispositif défavorable et erreur alléguée, avec plusieurs voies possibles à faire qualifier.
 

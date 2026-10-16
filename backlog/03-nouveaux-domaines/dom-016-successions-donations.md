@@ -59,7 +59,7 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 ## Complément à découper — frictions bancaires
 
-Points 86–88 de la [matrice utilisateur](dom-004-frictions-utilisateurs.md) :
+Points 86–88 de la [matrice utilisateur](dom-004-annexes/dom-004-frictions-utilisateurs.md) :
 prévoir une tâche bornée de lecture des frais et demandes bancaires d'une
 succession, et une tâche de recherche de comptes oubliés. Pièces : date du
 décès, qualité de l'héritier, avoirs et produits concernés, tarif daté,

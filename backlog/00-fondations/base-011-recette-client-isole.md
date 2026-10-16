@@ -43,7 +43,7 @@ fournit l'environnement, les journaux et les observations.
 3. BASE-008 : rejouer la recette authentifiée prévue par sa story.
 4. PILOTE-003 : un scénario sans profil (H12) et un sans source (H11a puis H11b).
 5. PILOTE-002 : scénarios prêts (H02–H16) ; H01 seulement si D02 est corrigé.
-6. PILOTE-004 : étapes 1 à 4 de sa [recette](../01-pilote-travail/pilote-004-verification.md).
+6. PILOTE-004 : étapes 1 à 4 de sa [recette](../01-pilote-travail/pilote-004-annexes/pilote-004-verification.md).
 7. Faire reformuler les sorties par l'utilisateur sans aide (engagement,
    question, destinataire, réserve ; préférence mémorisée et emplacement).
 8. Mettre à jour chaque story selon les résultats observés, sans clore une
@@ -69,9 +69,9 @@ nominal, lecteur indépendant, publication ou installation sur le compte réel.
 
 ## Bilan d'exécution — 16 octobre 2026
 
-Preuves : [résultats](base-011-resultats.json) (inventaire, commandes, 27
+Preuves : [résultats](base-011-annexes/base-011-resultats.json) (inventaire, commandes, 27
 scénarios avec outils, refus, fichiers modifiés et sorties ; identifiants du
-compte masqués) et [lecture](base-011-lecture-utilisateur.md).
+compte masqués) et [lecture](base-011-annexes/base-011-lecture-utilisateur.md).
 
 - **Environnement.** Claude Code 2.1.299 embarqué, modèle `claude-opus-5-5`,
   connexion claude.ai faite par l'utilisateur. Variables jetables seules

@@ -20,7 +20,7 @@ projet d’origine et rendre explicite la destination des contributions.
 - `.github/workflows/cla.yaml`.
 - Sections de contribution de `CONTRIBUTING.md` et `README.md`.
 - Identification du rôle historique de `CLA.md`, sans réécriture de l’accord.
-- Point de départ : [relevé BASE-001](base-001-releve-audit.md).
+- Point de départ : [relevé BASE-001](base-001-annexes/base-001-releve-audit.md).
 
 ## Travail attendu
 

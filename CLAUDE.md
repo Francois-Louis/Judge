@@ -37,7 +37,7 @@ working `python3`/`python` (override with `PYTHON`), since Windows may expose a
 non-functional Store stub as `python3`. Real deployments require an explicit fresh `JUDGE_DEPLOYMENT_ID`.
 
 For the fork's France/EU adaptation, follow the
-[BASE-003 domain architecture](backlog/00-fondations/base-003-dossier-architecture.md).
+[BASE-003 domain architecture](backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md).
 Each task has one primary domain plugin; proposed plugins and skills are not
 implemented features. Ship required references inside each adapted plugin,
 including a versioned copy of the shared research/citation method from

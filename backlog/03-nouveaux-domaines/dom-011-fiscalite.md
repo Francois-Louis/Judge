@@ -79,7 +79,7 @@ Implémenter le domaine entier, créer un plugin vide pour donner l'impression d
 
 ## Complément — fiscalité des entreprises, 16 octobre 2026
 
-La [matrice des 100 frictions](../02-plugins-existants/exist-002-frictions-utilisateurs.md), points 37–42, 46–63, 69–70, 81 et 88–95, impose de préciser les tâches ci-dessous. DOM-011 reste un cadrage proposé, **à découper**, sans calcul ni règle vérifiée par cet ajout.
+La [matrice des 100 frictions](../02-plugins-existants/exist-002-annexes/exist-002-frictions-utilisateurs.md), points 37–42, 46–63, 69–70, 81 et 88–95, impose de préciser les tâches ci-dessous. DOM-011 reste un cadrage proposé, **à découper**, sans calcul ni règle vérifiée par cet ajout.
 
 - Avis CFE : lire contribuable, commune/établissement, base, période de référence et mise en recouvrement ; préparer séparément explication, examen d'exonération et réclamation. Distinguer cotisation minimum, absence de local, critères de l'activité artisanale, implantation géographique et cessation.
 - TVA : séparer franchise, option, seuils et dates d'effet, puis opérations internationales (biens/services, pays et qualité des partenaires). Ne pas confondre plafonds micro, seuils TVA et prorata ; les douanes gardent les opérations de leur champ.

@@ -45,21 +45,21 @@ Réécrire le plugin entier ou traiter les 20 skills dans la même livraison.
 
 ## Bilan d'exécution — 15 octobre 2026
 
-- [Inventaire des 20 skills](pilote-001-releve-inventaire.md) : corps des
+- [Inventaire des 20 skills](pilote-001-annexes/pilote-001-releve-inventaire.md) : corps des
   fichiers lus, dépendances communes et particulières, quatre références,
   profil, agent, métadonnées et accès externes distingués.
 - Chaînes suivies dans le contenu : `leave-tracker` jusqu'à l'agent et son
   registre ; les cinq commandes d'enquête jusqu'aux modes, modèles et fichiers
   de `internal-investigation`. Délais américains codés dans `log-leave`,
   marquage work product dans le wrapper de mémo et calcul FLSA indirect relevés.
-- [Plan hiring-review](pilote-001-plan-hiring-review.md) : sections à reprendre,
+- [Plan hiring-review](pilote-001-annexes/pilote-001-plan-hiring-review.md) : sections à reprendre,
   ajustements minimaux de configuration et 14 scénarios attendus.
-- [Découpage](pilote-001-decoupage-travail.md) : 16 stories TRAV proposées,
+- [Découpage](pilote-001-annexes/pilote-001-decoupage-travail.md) : 16 stories TRAV proposées,
   avec pièces, résultats et limites. Salaire/temps, modes de rupture,
   saisie/suivi d'arrêt, étapes d'enquête, charte/diff et lancement/suivi
   d'implantation sont séparés. Les suites attendent PILOTE-003 ; la dépendance
   USAGE-002 de PILOTE-002 est conservée.
-- [Contrôles statiques et empreintes](pilote-001-resultats.json) : couverture
+- [Contrôles statiques et empreintes](pilote-001-annexes/pilote-001-resultats.json) : couverture
   exacte 20/20, liens locaux, frontmatter/dépendances sans cycle, copie BASE-005
   identique et absence de modification du plugin métier. Aucun paquet modifié
   par l'audit ; validation client et exécution métier non réalisées.

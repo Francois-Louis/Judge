@@ -61,7 +61,7 @@ Saisine du juge, demande de logement, contestation du bail, envoi.
 
 ## Complément issu des frictions des commissaires de justice
 
-Points 35–39 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+Points 35–39 de la [matrice utilisateur](../dom-003-annexes/dom-003-frictions-utilisateurs.md).
 
 - [ ] X03 — Commandement de payer visant une clause : distinguer acte préalable, débat sur le bail, jugement, commandement de quitter et expulsion matérielle. Recueillir bail et dates ; vérifier le régime avant tout repère.
 - [ ] X04 — Suspension de clause résolutoire et dette locative : conserver les pièces et orienter vers DOM-006, qui doit encore découper ce besoin ; ne pas annoncer qu'une demande judiciaire y est disponible.
@@ -74,4 +74,4 @@ Scénarios X03–X07 **attendus, non exécutés** : commandement assimilé à un
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-003, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-003-decoupage-execution.md).
+[découpage](../dom-003-annexes/dom-003-decoupage-execution.md).

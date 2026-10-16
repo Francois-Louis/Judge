@@ -19,7 +19,7 @@ Résultat : Rapport provisoire sourcé et synthèse limitée à l'audience, avec
 
 Plugin principal : `employment-legal`. Entrées à examiner : investigation-memo ; investigation-summary ; internal-investigation modes 4/5.
 Fichiers source sous `employment-legal/skills/`, profil et références associées,
-avec les dépendances décrites dans l'[inventaire PILOTE-001](../pilote-001-releve-inventaire.md).
+avec les dépendances décrites dans l'[inventaire PILOTE-001](../pilote-001-annexes/pilote-001-releve-inventaire.md).
 Les fichiers à modifier seront arrêtés après lecture ; aucun fichier métier
 n'est adapté par la présente proposition.
 

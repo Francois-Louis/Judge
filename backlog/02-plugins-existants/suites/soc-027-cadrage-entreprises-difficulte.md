@@ -13,7 +13,7 @@ dependances: [EXIST-002, BASE-003, BASE-005]
 
 Proposition de propriétaire pour chaque tâche, stories bornées avec entrées/sorties/scénarios, et premier parcours proposé de qualification d'une difficulté de paiement. Les attributions de cette matrice restent des besoins à cadrer.
 
-Issue des [frictions sur les formalités d'entreprise](../exist-002-frictions-utilisateurs.md), points 83–87, 95. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
+Issue des [frictions sur les formalités d'entreprise](../exist-002-annexes/exist-002-frictions-utilisateurs.md), points 83–87, 95. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
 
 ## Périmètre et fichiers à examiner
 
@@ -61,11 +61,11 @@ Résoudre les consultations, déterminer une date réelle de cessation des paiem
 
 ## État de la proposition
 
-Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../exist-002-frictions-verification.md).
+Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../exist-002-annexes/exist-002-frictions-verification.md).
 
 ## Complément des frictions contentieuses — 16 octobre 2026
 
-Exigences issues des [125 frictions contentieuses](../exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+Exigences issues des [125 frictions contentieuses](../exist-006-annexes/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
 
 Points 96–97 et 104 : prévoir explicitement le parcours du **créancier d’un client en procédure collective**, distinct de celui de l’entreprise débitrice. Découper lecture d’annonce BODACC, préparation d’une déclaration de créance, preuve de transmission et traitement d’un délai possiblement manqué. Entrées : annonce et publication, décision, identité actuelle du débiteur, créance et justificatifs, sûretés éventuelles, correspondances avec mandataire et reçus. Sorties attendues : procédure/qualité, destinataire à vérifier, composantes de créance, pièces et calendrier conditionnel ; aucun paiement ni relevé de forclusion garanti.
 

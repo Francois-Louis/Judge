@@ -60,7 +60,7 @@ Saisie immobilière, contestation rédigée, envoi.
 
 ## Complément issu des frictions des commissaires de justice
 
-Points 29–34 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+Points 29–34 de la [matrice utilisateur](../dom-003-annexes/dom-003-frictions-utilisateurs.md).
 
 - [ ] G03 — Commandement avant saisie-vente : réunir titre, commandement, signification et inventaire ; identifier le délai et les formalités à vérifier avant de dater une suite.
 - [ ] G04 — Bien nécessaire, outil professionnel ou bien d'un tiers : documenter usage, propriété, valeur et exceptions de protection ; identifier les démarches de revendication ou distraction à faire examiner sans les rédiger.
@@ -73,4 +73,4 @@ Scénarios G03–G07 **attendus, non exécutés** : commandement sans saisie enc
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-003, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-003-decoupage-execution.md).
+[découpage](../dom-003-annexes/dom-003-decoupage-execution.md).

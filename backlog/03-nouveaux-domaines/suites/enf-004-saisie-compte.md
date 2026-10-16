@@ -64,7 +64,7 @@ demande, envoi.
 
 ## Complément issu des frictions bancaires
 
-Points 71–74 de la [matrice utilisateur](../dom-004-frictions-utilisateurs.md).
+Points 71–74 de la [matrice utilisateur](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 - [ ] B03 — Solde devenu indisponible : recueillir solde, mouvements, origine des prestations et justificatifs ; distinguer minimum protégé, sommes insaisissables et limites liées aux fonds présents, selon les sources lues.
 - [ ] B04 — SATD ou saisie-attribution : frise acte/notification/réception, autorité et canal de contestation à vérifier ; ne pas appliquer le délai d'une procédure à l'autre ni calculer sur une date inconnue.
@@ -79,7 +79,7 @@ les montants du document utilisateur ne sont pas des barèmes validés.
 
 ## Complément issu des frictions des commissaires de justice
 
-Points 19–25 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md), en complément de B03–B05 issus de la banque.
+Points 19–25 de la [matrice utilisateur](../dom-003-annexes/dom-003-frictions-utilisateurs.md), en complément de B03–B05 issus de la banque.
 
 - [ ] B06 — Compte bloqué avant découverte de l'acte : recueillir date de saisie auprès de la banque, acte de dénonciation, mode de remise et titre ; distinguer indisponibilité, attribution et versement sans déclarer l'information tardive irrégulière par principe.
 - [ ] B07 — Compte joint : recueillir titulaires, débiteur visé, régime matrimonial pertinent, origine et propriété des fonds ; conserver preuves de versements et orienter les questions du cotitulaire.
@@ -91,4 +91,4 @@ Scénarios B06–B09 **attendus, non exécutés** : blocage sans acte encore dis
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-003, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-003-decoupage-execution.md).
+[découpage](../dom-003-annexes/dom-003-decoupage-execution.md).

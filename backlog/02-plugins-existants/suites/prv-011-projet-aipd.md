@@ -35,8 +35,8 @@ Fiche PRV-009, note PRV-010, flux/versions précédentes, mesures et preuves, av
 Remplacer seul house format par contenu AIPD vérifié ; seed = style facultatif. Distinguer risques des personnes et amendes commerciales ; couvrir toutes menaces significatives sans plafond 2–5. Séparer mesures prévues/réalisées, gravité/vraisemblance avant/après et risque résiduel motivé, avis/désaccords et décision humaine non prise. Intitulé visible projet d'AIPD, identifiant pia-generation conservé ; résoudre promesse/exclusion DPIA. Corriger relais notice vers PRV-017 plutôt que reg-gap sans texte nouveau. Transfert/santé incomplet = réserve, pas APPROVED.
 
 Charger `privacy-legal/references/shared/research-citation-method.md` depuis
-le paquet installé. Appliquer le [contrat commun](../exist-003-decoupage-donnees.md)
-et les [dépendances inventoriées](../exist-003-inventaire-donnees.md).
+le paquet installé. Appliquer le [contrat commun](../exist-003-annexes/exist-003-decoupage-donnees.md)
+et les [dépendances inventoriées](../exist-003-annexes/exist-003-inventaire-donnees.md).
 Corriger les seuls blocs setup/routage de cette tâche ; PRV-019/020/021 ne
 sont pas des préalables universels. Sans profil ni connecteur, une pièce
 fournie permet une sortie ponctuelle utile ; réserver les seules conclusions
@@ -72,7 +72,7 @@ recommandation, pièce, fait déclaré et préférence.
 Scénarios attendus, non exécutés par EXIST-003. Dans le futur lot, conserver
 sorties et ressources lues et suivre BASE-006 : structure, paquet détaché,
 client, résultat métier et compréhension. La
-[relecture de cadrage](../exist-003-verification.md) ne remplace pas cette recette.
+[relecture de cadrage](../exist-003-annexes/exist-003-verification.md) ne remplace pas cette recette.
 
 ## Hors périmètre
 

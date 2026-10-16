@@ -41,7 +41,7 @@ Chronologie ; tableau règle contractuelle / fait / pièce / inconnue ; échéan
 
 Distinguer plateforme vendeuse, intermédiaire et prestataire d’une protection. Traiter clôture automatique, confirmation de réception demandée trop tôt, retour d’un autre objet et colis prétendu vide. Ne jamais inventer une preuve, une signature ou une vidéo. Une transaction hors plateforme reçoit les limites de protection à vérifier. Ne pas confondre décision interne et extinction des recours civils. Le litige entre particuliers reste CONSO-011 ; modération et suppression de compte relèvent de DOM-034 ; fraude et paiement vont à CRIM-004, BNK-001 ou BNK-002. Aucun accès au compte ni dépôt de recours.
 
-Appliquer le contrat commun du [découpage](../dom-001-decoupage-consommation.md),
+Appliquer le contrat commun du [découpage](../dom-001-annexes/dom-001-decoupage-consommation.md),
 la méthode locale BASE-005 et le protocole d’orientation USAGE-001.
 
 ## Références métier et sources à rechercher
@@ -73,5 +73,5 @@ Litige de modération, remboursement bancaire, décision sur la fraude, connexio
 
 ## Origine et état — 16 octobre 2026
 
-Issue des [155 frictions utilisateur](../dom-001-frictions-utilisateurs.md),
+Issue des [155 frictions utilisateur](../dom-001-annexes/dom-001-frictions-utilisateurs.md),
 sans implémentation ni sélection. Préalable PILOTE-003 satisfait après BASE-011.

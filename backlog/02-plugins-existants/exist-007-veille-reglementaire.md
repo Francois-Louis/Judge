@@ -46,27 +46,27 @@ Implémenter tout le domaine, modifier des contenus éditeur ou considérer qu'u
 
 ## Bilan d'exécution — 16 octobre 2026
 
-- [Inventaire exhaustif](exist-007-inventaire-veille.md) : 26 fichiers dont neuf
+- [Inventaire exhaustif](exist-007-annexes/exist-007-inventaire-veille.md) : 26 fichiers dont neuf
   skills (huit invocables et une référence), modèles inline, catalogues,
   trackers, agent, profils et dépendances ; six fichiers du cookbook associé.
   Chaque tâche/fichier reçoit une décision motivée.
-- [Sources et sondages](exist-007-sources.json) : 59 lignes héritées avec URL,
+- [Sources et sondages](exist-007-annexes/exist-007-sources.json) : 59 lignes héritées avec URL,
   format, authentification et capacités déclarés, dont dix rappels de sources
   sans flux. Sept sondages publics horodatés : RSS CNIL parsés, répertoire
   JORF DILA et page EDPB HTML, trois réponses EUR-Lex 202 vides. Documentation
   officielle EUR-Lex lue via contenu indexé, ouvertures directes web avec
   challenge ; aucun accès authentifié configuré ou testé.
-- [Découpage VEI-001 à VEI-020](exist-007-decoupage-veille.md) : collecte,
+- [Découpage VEI-001 à VEI-020](exist-007-annexes/exist-007-decoupage-veille.md) : collecte,
   qualification, versions, temporalité/transposition, champ, écart, rédaction
   et consultation séparés. Conservation des versions et preuves de changement,
   dates par événement/disposition. Première tranche proposée VEI-001 sur texte
   fourni ; agent et cookbook distinct VEI-020 attendent les tâches manuelles.
-- [Relecture du cadrage](exist-007-verification.md) : publication JORF,
+- [Relecture du cadrage](exist-007-annexes/exist-007-verification.md) : publication JORF,
   directive à transposer et consultation d'autorité fictives produisent des
   événements attendus distincts ; aucune obligation réelle ou date validée.
-- [Contrôles statiques et empreintes](exist-007-resultats.json), rejouables
-  avec le [contrôleur](exist-007-controles.py) ; sondages rejouables avec
-  [leur script](exist-007-sondages.py). Le modèle comment-tracker charge une
+- [Contrôles statiques et empreintes](exist-007-annexes/exist-007-resultats.json), rejouables
+  avec le [contrôleur](exist-007-annexes/exist-007-controles.py) ; sondages rejouables avec
+  [leur script](exist-007-annexes/exist-007-sondages.py). Le modèle comment-tracker charge une
   clé HTML parasite et un exemple actif : correction assignée à VEI-014.
 - PILOTE-003 terminé après BASE-011 : préalable satisfait, sans sélection
   d'extension ; limites H01 complet et lecteur indépendant consignées.
@@ -95,4 +95,4 @@ relecture BASE-014. Le découpage compte désormais 21 suites.
 
 ## Complément de besoins — activité réglementée, 16 octobre 2026
 
-Le point 17 de la [matrice formalités](exist-002-frictions-utilisateurs.md) demande une vérification des prérequis d'exercice par activité (qualification, autorisation, assurance). Le secteur doit encore découper ce parcours ; les suites de veille ne constituent pas un inventaire de toutes les autorisations nécessaires. VEI-007 peut qualifier le champ d'un changement de texte identifié, avec activité et version, sans déduire une autorisation de l'immatriculation. Les vendeurs de conformité prétendument obligatoire relèvent de COM-019, l'obligation réelle du secteur. Portée documentaire : matrice.
+Le point 17 de la [matrice formalités](exist-002-annexes/exist-002-frictions-utilisateurs.md) demande une vérification des prérequis d'exercice par activité (qualification, autorisation, assurance). Le secteur doit encore découper ce parcours ; les suites de veille ne constituent pas un inventaire de toutes les autorisations nécessaires. VEI-007 peut qualifier le champ d'un changement de texte identifié, avec activité et version, sans déduire une autorisation de l'immatriculation. Les vendeurs de conformité prétendument obligatoire relèvent de COM-019, l'obligation réelle du secteur. Portée documentaire : matrice.

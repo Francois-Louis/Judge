@@ -69,7 +69,7 @@ Analyse sectorielle, saisine du médiateur, procédure, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 93, 126–129 et frontières sectorielles de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points 93, 126–129 et frontières sectorielles de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 Distinguer tâche métier générale (prix, devis, résiliation, remboursement) et règles spéciales non examinées. Inclure téléphonie reconduite, dépannage urgent, devis et prestations supplémentaires comme cas de repli, sans présenter consumer comme propriétaire permanent du secteur. Vérifier disponibilité réelle du plugin dans la table, pas le seul statut terminé de son cadrage. Un propriétaire sectoriel non implémenté ne laisse pas la personne sans réclamation générale, mais ne justifie pas l’application d’une règle sectorielle devinée. Médiateur sectoriel et urgence restent à identifier.
@@ -83,4 +83,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation ni sélection.
-Contrat commun : [découpage](../dom-001-decoupage-consommation.md).
+Contrat commun : [découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

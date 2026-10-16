@@ -11,7 +11,7 @@ dependances: [EXIST-005, PILOTE-003, BASE-005, BASE-006]
 
 ## Objectif et résultat attendu
 
-Une TPE, une association ou un indépendant obtient une matrice comparant tâche autorisée, permissions documentées et actions possibles d'un agent sur un outil déterminé. Point 38 de la [matrice des frictions](../exist-005-frictions-utilisateurs.md).
+Une TPE, une association ou un indépendant obtient une matrice comparant tâche autorisée, permissions documentées et actions possibles d'un agent sur un outil déterminé. Point 38 de la [matrice des frictions](../exist-005-annexes/exist-005-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -21,7 +21,7 @@ Plugin principal : `ai-governance-legal` (`judge-fr-eu-ai-governance-legal`).
 - `ai-governance-legal/references/pouvoirs-agent.md` : référence locale à créer.
 - README et seuls blocs de routage concernés de CLAUDE.md ; examiner ai-policy et vendor-ai-review pour leurs contrats d'entrée.
 
-Appliquer le [contrat commun IA](../exist-005-decoupage-ia.md), BASE-005 locale, BASE-006 et BASE-008. Accepter pièces manuelles, sans profil, connexion ou inventaire préalable. Embarquer les références nécessaires, synchroniser les métadonnées modifiées et documenter la tranche dans les NOTICE racine/local lors de l'implémentation.
+Appliquer le [contrat commun IA](../exist-005-annexes/exist-005-decoupage-ia.md), BASE-005 locale, BASE-006 et BASE-008. Accepter pièces manuelles, sans profil, connexion ou inventaire préalable. Embarquer les références nécessaires, synchroniser les métadonnées modifiées et documenter la tranche dans les NOTICE racine/local lors de l'implémentation.
 
 ## Entrées nécessaires
 
@@ -48,7 +48,7 @@ Documentation exacte et datée de l'outil, mandat/délégation et contrats ; tex
 - Cas normal : agent autorisé à préparer un courriel avec permission d'envoi ; identifier l'écart et proposer brouillon/validation selon capacités documentées.
 - Cas limite : F11, envoi déjà observé mais export de permissions absent ; ne pas inventer une cause, une révocation ou une annulation, préparer le relais incident.
 
-Recette future BASE-006 : sorties, paquet détaché, client et compréhension ; [portée de cette intégration](../exist-005-frictions-verification.md).
+Recette future BASE-006 : sorties, paquet détaché, client et compréhension ; [portée de cette intégration](../exist-005-annexes/exist-005-frictions-verification.md).
 
 ## Hors périmètre
 

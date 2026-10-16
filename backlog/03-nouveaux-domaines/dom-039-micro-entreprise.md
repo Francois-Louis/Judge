@@ -79,7 +79,7 @@ place de la personne ou couvrir toute la fiscalité des entreprises.
 
 ## Complément — formalités des entreprises, 16 octobre 2026
 
-La [matrice des 100 frictions](../02-plugins-existants/exist-002-frictions-utilisateurs.md) ajoute les tâches candidates ci-dessous. Elles restent **à découper**, avec une story par résultat borné ; ce complément ne termine pas DOM-039 et ne lance pas de plugin.
+La [matrice des 100 frictions](../02-plugins-existants/exist-002-annexes/exist-002-frictions-utilisateurs.md) ajoute les tâches candidates ci-dessous. Elles restent **à découper**, avec une story par résultat borné ; ce complément ne termine pas DOM-039 et ne lance pas de plugin.
 
 | Groupe de points | Tâches à séparer et résultats attendus |
 |---|---|
@@ -102,4 +102,4 @@ Scénarios de cadrage à prévoir : première déclaration sans accusé ; décla
 
 ## Complément des frictions données personnelles — 16 octobre 2026
 
-Le point 29 de la [matrice données personnelles](../02-plugins-existants/exist-003-frictions-utilisateurs.md) exige une tâche de non-diffusion/occultation des données de l'EI encore à découper : qualifier registre, acte, donnée, statut du demandeur, date et canal officiel. Distinguer Sirene/RNE, information de registre et copie privée ; procédures et effets à vérifier. PRV-028 prépare la demande à un annuaire privé, PRV-029 au moteur, sans disparition des copies garantie. Scénario attendu : domicile servant d'adresse professionnelle repris dans deux annuaires après changement de statut de diffusion. Portée et contrôles : voir la matrice.
+Le point 29 de la [matrice données personnelles](../02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md) exige une tâche de non-diffusion/occultation des données de l'EI encore à découper : qualifier registre, acte, donnée, statut du demandeur, date et canal officiel. Distinguer Sirene/RNE, information de registre et copie privée ; procédures et effets à vérifier. PRV-028 prépare la demande à un annuaire privé, PRV-029 au moteur, sans disparition des copies garantie. Scénario attendu : domicile servant d'adresse professionnelle repris dans deux annuaires après changement de statut de diffusion. Portée et contrôles : voir la matrice.

@@ -11,7 +11,7 @@ dependances: [EXIST-003, PILOTE-003, BASE-005, BASE-006]
 
 ## Objectif et résultat attendu
 
-Une personne ou son aidant obtient la fiche et le brouillon propres à cette tâche, en langage clair. Les points **24, 26, 31, 33, 44, 53, 57** de la [matrice des frictions](../exist-003-frictions-utilisateurs.md) motivent ce résultat.
+Une personne ou son aidant obtient la fiche et le brouillon propres à cette tâche, en langage clair. Les points **24, 26, 31, 33, 44, 53, 57** de la [matrice des frictions](../exist-003-annexes/exist-003-frictions-utilisateurs.md) motivent ce résultat.
 
 ## Périmètre et fichiers
 
@@ -21,7 +21,7 @@ Plugin principal : `privacy-legal` (`judge-fr-eu-privacy-legal`). Parcours du de
 - `privacy-legal/references/demande-effacement.md` : référence ciblée à créer par cette tranche.
 - `privacy-legal/README.md` et seuls blocs de routage concernés de `privacy-legal/CLAUDE.md` ; examiner les liens avec `access-request` sans exécution préalable obligatoire.
 
-Appliquer le [contrat commun](../exist-003-decoupage-donnees.md) : méthode BASE-005 locale, paquet autonome BASE-006, isolation BASE-008 et préférences facultatives. PRV-019/020 ne sont pas des préalables. Synchroniser les éventuelles métadonnées au marketplace et documenter seulement la tranche livrée dans README et NOTICE racine/local.
+Appliquer le [contrat commun](../exist-003-annexes/exist-003-decoupage-donnees.md) : méthode BASE-005 locale, paquet autonome BASE-006, isolation BASE-008 et préférences facultatives. PRV-019/020 ne sont pas des préalables. Synchroniser les éventuelles métadonnées au marketplace et documenter seulement la tranche livrée dans README et NOTICE racine/local.
 
 ## Entrées nécessaires
 
@@ -56,7 +56,7 @@ Lire les passages exacts, version et champ à la date des faits avec les voies o
 - Cas limite : Compte fermé avec factures et preuve de litige : conservation et usages ventilés, preuve préservée avant demande.
 - Pièce ou source déterminante manquante : sortie partielle utile, questions et interlocuteur sans règle étrangère de remplacement.
 
-Recette attendue lors de l'implémentation selon BASE-006 : sorties conservées, paquet détaché, client, résultat métier et compréhension. Contrôles documentaires de cette intégration : [relevé des frictions](../exist-003-frictions-verification.md).
+Recette attendue lors de l'implémentation selon BASE-006 : sorties conservées, paquet détaché, client, résultat métier et compréhension. Contrôles documentaires de cette intégration : [relevé des frictions](../exist-003-annexes/exist-003-frictions-verification.md).
 
 ## Hors périmètre
 

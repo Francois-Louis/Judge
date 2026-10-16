@@ -11,7 +11,7 @@ dependances: [EXIST-003, PILOTE-003, BASE-005, BASE-006]
 
 ## Objectif et résultat attendu
 
-Une personne ou son aidant obtient la fiche et le brouillon propres à cette tâche, en langage clair. Les points **40, 42** de la [matrice des frictions](../exist-003-frictions-utilisateurs.md) motivent ce résultat.
+Une personne ou son aidant obtient la fiche et le brouillon propres à cette tâche, en langage clair. Les points **40, 42** de la [matrice des frictions](../exist-003-annexes/exist-003-frictions-utilisateurs.md) motivent ce résultat.
 
 ## Périmètre et fichiers
 
@@ -21,7 +21,7 @@ Plugin principal : `privacy-legal` (`judge-fr-eu-privacy-legal`). Parcours du de
 - `privacy-legal/references/demande-rectification.md` : référence ciblée à créer par cette tranche.
 - `privacy-legal/README.md` et seuls blocs de routage concernés de `privacy-legal/CLAUDE.md` ; examiner les liens avec `access-request` sans exécution préalable obligatoire.
 
-Appliquer le [contrat commun](../exist-003-decoupage-donnees.md) : méthode BASE-005 locale, paquet autonome BASE-006, isolation BASE-008 et préférences facultatives. PRV-019/020 ne sont pas des préalables. Synchroniser les éventuelles métadonnées au marketplace et documenter seulement la tranche livrée dans README et NOTICE racine/local.
+Appliquer le [contrat commun](../exist-003-annexes/exist-003-decoupage-donnees.md) : méthode BASE-005 locale, paquet autonome BASE-006, isolation BASE-008 et préférences facultatives. PRV-019/020 ne sont pas des préalables. Synchroniser les éventuelles métadonnées au marketplace et documenter seulement la tranche livrée dans README et NOTICE racine/local.
 
 ## Entrées nécessaires
 
@@ -41,7 +41,7 @@ Lire les passages exacts, version et champ à la date des faits avec les voies o
 
 ## Complément des frictions IA
 
-Point 4 de la [matrice IA](../exist-005-frictions-utilisateurs.md) : une donnée erronée peut alimenter plusieurs scores. Relever responsables et destinataires documentés, demander la rectification et, selon les conditions vérifiées, l'information des destinataires et les renseignements communicables sur ceux-ci. La correction demandée à un organisme ne prouve pas la correction des copies tierces. Cas attendu : données corrigées auprès d'un acteur mais refus persistant ailleurs ; demandes et preuves de suite distinctes, sans propagation annoncée comme acquise.
+Point 4 de la [matrice IA](../exist-005-annexes/exist-005-frictions-utilisateurs.md) : une donnée erronée peut alimenter plusieurs scores. Relever responsables et destinataires documentés, demander la rectification et, selon les conditions vérifiées, l'information des destinataires et les renseignements communicables sur ceux-ci. La correction demandée à un organisme ne prouve pas la correction des copies tierces. Cas attendu : données corrigées auprès d'un acteur mais refus persistant ailleurs ; demandes et preuves de suite distinctes, sans propagation annoncée comme acquise.
 
 ## Critères d'acceptation
 
@@ -60,7 +60,7 @@ Point 4 de la [matrice IA](../exist-005-frictions-utilisateurs.md) : une donnée
 - Cas limite : Appréciation de recrutement contestée : questions et désaccord conservés sans rectification automatique.
 - Pièce ou source déterminante manquante : sortie partielle utile, questions et interlocuteur sans règle étrangère de remplacement.
 
-Recette attendue lors de l'implémentation selon BASE-006 : sorties conservées, paquet détaché, client, résultat métier et compréhension. Contrôles documentaires de cette intégration : [relevé des frictions](../exist-003-frictions-verification.md).
+Recette attendue lors de l'implémentation selon BASE-006 : sorties conservées, paquet détaché, client, résultat métier et compréhension. Contrôles documentaires de cette intégration : [relevé des frictions](../exist-003-annexes/exist-003-frictions-verification.md).
 
 ## Hors périmètre
 

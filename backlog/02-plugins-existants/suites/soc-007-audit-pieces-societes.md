@@ -37,8 +37,8 @@ Borner l'audit à cohérence et lacunes documentaires : statuts anciens, chaîne
 
 Charger `corporate-legal/references/shared/research-citation-method.md` depuis
 le paquet installé ; SOC-022 résout sa copie dans le plugin embarqué.
-Appliquer le [contrat commun](../exist-002-decoupage-societes.md) et les
-[dépendances inventoriées](../exist-002-inventaire-societes.md). Corriger les
+Appliquer le [contrat commun](../exist-002-annexes/exist-002-decoupage-societes.md) et les
+[dépendances inventoriées](../exist-002-annexes/exist-002-inventaire-societes.md). Corriger les
 blocs setup/routage qui empêchent cette tâche sans imposer SOC-019/020/021
 comme préalables à toute lecture ponctuelle. Sans profil ou connecteur,
 restituer les pièces/questions et la sortie locale utile.
@@ -73,7 +73,7 @@ abonnement obligatoire, et réserver seulement les conclusions dépendantes.
 Exécuter les scénarios sur pièces fictives dans le futur lot, conserver
 sorties et ressources lues ; appliquer les couches BASE-006 (structure,
 paquet détaché, client, résultat métier, compréhension par lecteur non juriste).
-La relecture de cadrage est dans la [vérification EXIST-002](../exist-002-verification.md) ;
+La relecture de cadrage est dans la [vérification EXIST-002](../exist-002-annexes/exist-002-verification.md) ;
 ces scénarios de skills restent **attendus, non exécutés**.
 
 ## Hors périmètre
@@ -89,4 +89,4 @@ commande, connexion ou automatisation France/UE n'est annoncée comme livrée.
 
 ## Complément de besoins — formalités, 16 octobre 2026
 
-Points 20–21, 65–70 de la [matrice formalités](../exist-002-frictions-utilisateurs.md) : identifier justificatif et exercice réellement nécessaires, pièces de décisions de l'associé unique, demande de confidentialité et preuve de dépôt. Distinguer accès public, occultation d'adresse et conservation interne. L'archivage demande une qualification par catégorie et finalité avec durée à rechercher ; pas de délai unique ni purge. L'audit ne certifie pas les comptes et renvoie la question fiscale à DOM-011/039.
+Points 20–21, 65–70 de la [matrice formalités](../exist-002-annexes/exist-002-frictions-utilisateurs.md) : identifier justificatif et exercice réellement nécessaires, pièces de décisions de l'associé unique, demande de confidentialité et preuve de dépôt. Distinguer accès public, occultation d'adresse et conservation interne. L'archivage demande une qualification par catégorie et finalité avec durée à rechercher ; pas de délai unique ni purge. L'audit ne certifie pas les comptes et renvoie la question fiscale à DOM-011/039.

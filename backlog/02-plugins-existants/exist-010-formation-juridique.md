@@ -47,11 +47,11 @@ Implémenter tout le domaine, modifier des contenus éditeur ou considérer qu'u
 
 ## Bilan d'exécution — 16 octobre 2026
 
-- [Inventaire exhaustif](exist-010-inventaire-formation.md) : 26 fichiers,
+- [Inventaire exhaustif](exist-010-annexes/exist-010-inventaire-formation.md) : 26 fichiers,
   treize skills et leurs dépendances de contenu/stockage ; décisions de
   conservation, réécriture, renommage visible et retrait justifiées par entrée.
   Aucun agent ou cookbook propre, pas d’état étudiant livré.
-- [Découpage ETU-001 à ETU-021](exist-010-decoupage-formation.md) : vingt-et-une
+- [Découpage ETU-001 à ETU-021](exist-010-annexes/exist-010-decoupage-formation.md) : vingt-et-une
   suites bornées avec fichiers, entrées, résultats, sources futures et scénarios.
   Méthode et retour sur brouillon distincts pour les exercices concernés ;
   cas pratique, fiche/commentaire, dissertation et synthèse non interchangeables.
@@ -61,12 +61,12 @@ Implémenter tout le domaine, modifier des contenus éditeur ou considérer qu'u
 - Intégrité et aide selon consigne, révisions et données séparées d’une
   actualisation ponctuelle du droit. Analyse descriptive d’annales sans
   promesse de prédiction, retrait des poids prévu aussi chez les consommateurs.
-- [Relecture comparative](exist-010-verification.md) : consignes fictives
-  de cas pratique et commentaire avec [extrait réel traçable](exist-010-support-verification.json)
+- [Relecture comparative](exist-010-annexes/exist-010-verification.md) : consignes fictives
+  de cas pratique et commentaire avec [extrait réel traçable](exist-010-annexes/exist-010-support-verification.json)
   d’une décision française lu depuis une reproduction DILA locale de BASE-010.
   Attendus différents et limites d’extrait explicités, pas corrigé de fond.
-- [Contrôles statiques et empreintes](exist-010-resultats.json), rejouables
-  avec le [contrôleur](exist-010-controles.py) ; couverture et dépendances,
+- [Contrôles statiques et empreintes](exist-010-annexes/exist-010-resultats.json), rejouables
+  avec le [contrôleur](exist-010-annexes/exist-010-controles.py) ; couverture et dépendances,
   liens, sources de contenu, copies partagées et protection des travaux antérieurs.
 - PILOTE-003 terminé après BASE-011 : préalable satisfait, sans sélection
   d’extension ; limites H01 complet et lecteur indépendant consignées.

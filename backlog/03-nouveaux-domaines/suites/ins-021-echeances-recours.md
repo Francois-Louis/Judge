@@ -13,7 +13,7 @@ dependances: [DOM-005, PILOTE-003, BASE-005, BASE-006, INS-001]
 
 Un assuré identifie les échéances à vérifier dans un dossier précis et les preuves nécessaires pour éviter qu'une démarche amiable masque un délai d'action.
 
-Besoin issu des points 16–17, 30, 39, 50, 62–64, 72–81 ; tableau des délais et recours de la [matrice des frictions assurance](../dom-005-frictions-utilisateurs.md).
+Besoin issu des points 16–17, 30, 39, 50, 62–64, 72–81 ; tableau des délais et recours de la [matrice des frictions assurance](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -65,4 +65,4 @@ Calendrier certifié exhaustif, calcul sans source ou preuve, acte interruptif e
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-decoupage-assurance.md).
+Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-annexes/dom-005-decoupage-assurance.md).

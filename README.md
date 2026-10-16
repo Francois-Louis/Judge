@@ -7,7 +7,7 @@ maintenu sur [Francois-Louis/Judge](https://github.com/Francois-Louis/Judge),
 sans affiliation revendiquée. BASE-008 isole les noms, profils et données ;
 le pilote `employment-legal:hiring-review` 0.2.1 est réécrit pour l'embauche
 privée en France, recette client faite sur fixtures et lecteur non indépendant,
-livré seul dans le [lot LIV-001](backlog/04-livraison/liv-001-notes-version.md) ; `commercial-legal:review`
+livré seul dans le [lot LIV-001](backlog/04-livraison/liv-001-annexes/liv-001-notes-version.md) ; `commercial-legal:review`
 0.2.0 est réécrit pour l'orientation contractuelle COM-001 sans profil obligatoire,
 avec validation client/utilisateur à compléter ; les autres
 tâches juridiques héritées restent à adapter à la France et à l'UE.

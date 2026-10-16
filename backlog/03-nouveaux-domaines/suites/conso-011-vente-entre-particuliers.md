@@ -62,7 +62,7 @@ Plainte pénale, procédure judiciaire, médiation de la plateforme exécutée.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 95, 99–107, 109, 113–115 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points 95, 99–107, 109, 113–115 de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 Inclure les deux positions : acheteur ou vendeur particulier, sans les confondre avec la TPE de CONSO-012. La sortie comporte annonce, délivrance, paiement allégué ou reçu, photos, état, numéros de série et messages ; pour le vendeur, contestation d’un retour ou colis déclaré vide sans qualifier l’acheteur de fraudeur. La protection contractuelle de plateforme va à CONSO-018 ; la demande civile entre parties reste ici.
@@ -80,4 +80,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-001, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-001-decoupage-consommation.md).
+[découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

@@ -51,9 +51,9 @@ Vérifier le routage et les informations à demander. La story ne doit pas réso
 
 ## Complément des frictions IA — 16 octobre 2026
 
-Points 7–8, 28 et 49–50 de la [matrice IA](../02-plugins-existants/exist-005-frictions-utilisateurs.md) : découper la demande d'informations sur un traitement algorithmique fondant une décision individuelle, puis la lecture du refus de communication et les suites CADA/contentieuses. Recueillir décision, administration, notification/réception, règles/paramètres/sources demandés, réponse et preuve ; rechercher CRPA dont L311-3-1 et textes d'application, CJA et compétences/préalables CADA. Résultats séparés : brouillon d'accès et fiche de voie/calendrier, sans code source intégral promis ni demande d'explication réputée recours au fond. Les délais du tableau utilisateur ne sont pas des valeurs par défaut. Éducation, caisse, fiscalité et emploi public gardent le recours à leur décision. Cas attendus : demande d'explication encore en cours et recours distinct urgent ; refus de communication puis réponse administrative après CADA, avec chronologies séparées.
+Points 7–8, 28 et 49–50 de la [matrice IA](../02-plugins-existants/exist-005-annexes/exist-005-frictions-utilisateurs.md) : découper la demande d'informations sur un traitement algorithmique fondant une décision individuelle, puis la lecture du refus de communication et les suites CADA/contentieuses. Recueillir décision, administration, notification/réception, règles/paramètres/sources demandés, réponse et preuve ; rechercher CRPA dont L311-3-1 et textes d'application, CJA et compétences/préalables CADA. Résultats séparés : brouillon d'accès et fiche de voie/calendrier, sans code source intégral promis ni demande d'explication réputée recours au fond. Les délais du tableau utilisateur ne sont pas des valeurs par défaut. Éducation, caisse, fiscalité et emploi public gardent le recours à leur décision. Cas attendus : demande d'explication encore en cours et recours distinct urgent ; refus de communication puis réponse administrative après CADA, avec chronologies séparées.
 
-Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-frictions-verification.md).
+Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-annexes/exist-005-frictions-verification.md).
 
 ## Hors périmètre
 
@@ -62,7 +62,7 @@ Implémenter le domaine entier, créer un plugin vide pour donner l'impression d
 
 ## Complément issu des frictions police/pénal — 16 octobre 2026
 
-La [matrice des 97 situations](dom-002-frictions-utilisateurs.md), notamment les points 74–75, 79, 97 et la section 7, ajoute les exigences de cadrage suivantes. DOM-010 reste proposé ; ces réponses au fond demandent encore des stories bornées, sans plugin créé ici.
+La [matrice des 97 situations](dom-002-annexes/dom-002-frictions-utilisateurs.md), notamment les points 74–75, 79, 97 et la section 7, ajoute les exigences de cadrage suivantes. DOM-010 reste proposé ; ces réponses au fond demandent encore des stories bornées, sans plugin créé ici.
 
 - FPS : distinguer stationnement payant et contravention de stationnement interdit ; recueillir avis, auteur, lieu, dates d'envoi et de notification, paiement, majoration, recours déjà tenté et réponses. Prévoir lecture du FPS, brouillon de RAPO puis orientation ou préparation contentieuse dans des tâches distinctes, selon compétence et préalables vérifiés. Séparer effets sur paiement et recours : aucune suspension présumée ni délai tiré du tableau utilisateur.
 - Permis : CRIM-023 identifie rétention et dépistage, CRIM-010 lit points et invalidation ; DOM-010 devra découper les recours contre suspension ou invalidation administrative. Recueillir décision complète, autorité, notification, mesures pénales parallèles, demandes et preuves ; sortie future : régime, acte attaqué, préalable, pièces, voie et urgence à vérifier. Aucun droit de conduire ni restitution automatique déduit du temps écoulé.
@@ -72,11 +72,11 @@ Scénarios de découpage **attendus, non exécutés** : FPS pris pour amende, RA
 
 ## Complément — formalités d'entreprise, 16 octobre 2026
 
-Les points 88–90 et 96–97 de la [matrice formalités](../02-plugins-existants/exist-002-frictions-utilisateurs.md) ne créent pas un recours administratif universel. SOC-023 lit le dossier de société, DOM-039 celui de l'EI et ses décisions Urssaf, DOM-011 le contentieux fiscal. Qualifier auteur, nature et régime de l'acte avant de choisir voie, préalable ou juge : INPI opérateur, autorité validatrice et registre ne sont pas interchangeables. DOM-010 n'intervient qu'après cette qualification si une tâche administrative résiduelle est établie, à découper séparément. Un ticket d'assistance ne prouve ni dépôt de recours ni suspension. Portée : intégration documentaire décrite dans la matrice.
+Les points 88–90 et 96–97 de la [matrice formalités](../02-plugins-existants/exist-002-annexes/exist-002-frictions-utilisateurs.md) ne créent pas un recours administratif universel. SOC-023 lit le dossier de société, DOM-039 celui de l'EI et ses décisions Urssaf, DOM-011 le contentieux fiscal. Qualifier auteur, nature et régime de l'acte avant de choisir voie, préalable ou juge : INPI opérateur, autorité validatrice et registre ne sont pas interchangeables. DOM-010 n'intervient qu'après cette qualification si une tâche administrative résiduelle est établie, à découper séparément. Un ticket d'assistance ne prouve ni dépôt de recours ni suspension. Portée : intégration documentaire décrite dans la matrice.
 
 ## Complément des frictions données personnelles — 16 octobre 2026
 
-Le point 60 de la [matrice données personnelles](../02-plugins-existants/exist-003-frictions-utilisateurs.md) demande de préserver le calendrier propre d'une décision administrative pendant une demande RGPD. PRV-034 prépare la plainte CNIL ; recours contre une décision de l'autorité à qualifier et découper selon acte, compétence, notification et représentation, sans le confondre avec une réclamation adressée au responsable du traitement. Le seul statut public du responsable ne fixe pas toutes les voies de réparation. Scénario attendu : demande d'accès en cours et échéance de recours distincte ; aucun effet suspensif déduit. Portée et contrôles : voir la matrice.
+Le point 60 de la [matrice données personnelles](../02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md) demande de préserver le calendrier propre d'une décision administrative pendant une demande RGPD. PRV-034 prépare la plainte CNIL ; recours contre une décision de l'autorité à qualifier et découper selon acte, compétence, notification et représentation, sans le confondre avec une réclamation adressée au responsable du traitement. Le seul statut public du responsable ne fixe pas toutes les voies de réparation. Scénario attendu : demande d'accès en cours et échéance de recours distincte ; aucun effet suspensif déduit. Portée et contrôles : voir la matrice.
 
 ## Complément du 16 octobre 2026 : régularité d'une décision administrative
 
@@ -93,7 +93,7 @@ justice administrative et textes spéciaux.
 
 ## Complément des frictions contentieuses — 16 octobre 2026
 
-Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-annexes/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
 
 Points 31 et 106–115, tableau §1 et checklist : découper en tâches bornées la lecture d’une décision implicite, le préalable obligatoire, le recours gracieux, le dossier de requête et sa preuve d’enregistrement, la demande indemnitaire préalable et son articulation avec l’annulation, l’urgence administrative et la lecture des communications/clôture. Recueillir demande initiale, objet, auteur, compétence, décisions, notifications/publications, dates et reçus, échanges et recours déjà formés. Prévoir comme sorties régime retenu, pièces manquantes, calendrier propre, démarche et interlocuteur ; aucune suspension présumée ni application universelle de la jurisprudence Czabaj citée par le guide.
 

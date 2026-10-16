@@ -74,7 +74,7 @@ Recettes futures **non exécutées**. Conserver fixtures, sources réellement lu
 sorties et erreurs ; appliquer BASE-006 : structure, paquet détaché, client,
 résultat métier et compréhension par lecteur non juriste. Pour CTX-024,
 distinguer dry-run local et exécution distante. La
-[relecture du cadrage](../exist-006-verification.md) ne constitue pas cette recette.
+[relecture du cadrage](../exist-006-annexes/exist-006-verification.md) ne constitue pas cette recette.
 
 ## Hors périmètre
 

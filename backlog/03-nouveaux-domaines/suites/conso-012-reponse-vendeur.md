@@ -62,7 +62,7 @@ Recouvrement, contentieux, assurance du vendeur, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points réponses du SAV et du vendeur, en miroir des points 25, 33, 47, 58–75, 116–118 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points réponses du SAV et du vendeur, en miroir des points 25, 33, 47, 58–75, 116–118 de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 Le projet de réponse rapproche grief, pièces détenues, garanties légales et offre commerciale. Ne pas opposer systématiquement fabricant, absence de ticket, emballage, réserve de livraison, extension expirée ou avoir obligatoire. Demander les pièces proportionnées ; signaler les droits à vérifier sans rédiger une renonciation générale à la place du client. Fraude alléguée, retour différent ou colis vide : recueillir constats et contradiction, sans accusation. Vendeur particulier : CONSO-011, pas cette tâche TPE.
@@ -75,4 +75,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-001, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-001-decoupage-consommation.md).
+[découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

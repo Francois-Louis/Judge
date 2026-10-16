@@ -61,4 +61,4 @@ Choix et exécution de la mesure, recherche du débiteur, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-003, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-003-decoupage-execution.md).
+[découpage](../dom-003-annexes/dom-003-decoupage-execution.md).

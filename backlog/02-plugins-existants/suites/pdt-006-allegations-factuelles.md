@@ -72,7 +72,7 @@ Exécuter ces scénarios sur fixtures lors du futur lot et conserver ressources
 lues, sorties et erreurs. Appliquer BASE-006 : structure, paquet détaché,
 client, résultat métier et compréhension par lecteur non juriste. Pour le
 cookbook, ajouter schémas, lint et dry-run ; ne pas les assimiler au runtime.
-La [relecture EXIST-004](../exist-004-verification.md) porte sur le cadrage ;
+La [relecture EXIST-004](../exist-004-annexes/exist-004-verification.md) porte sur le cadrage ;
 ces scénarios d'implémentation restent **attendus, non exécutés**.
 
 ## Hors périmètre
@@ -88,6 +88,6 @@ connexion, envoi, déploiement ou automatisation France/UE n'est livré ici.
 
 ## Complément de besoins — 16 octobre 2026
 
-Les points 11 à 18, 27, 45 et 47 à 49 de la [matrice marketing](../exist-004-frictions-utilisateurs.md) demandent de confronter origine, fabrication, qualité d’expert, certification, résultats et visuels à leurs preuves. Séparer simulation, illustration et essai réel ; une mention IA ou un label ne valide pas la promesse. Recette attendue supplémentaire : image produit synthétique avec accessoires absents de la livraison → écart localisé, preuve et demande utiles, aucune accusation depuis le procédé seul.
+Les points 11 à 18, 27, 45 et 47 à 49 de la [matrice marketing](../exist-004-annexes/exist-004-frictions-utilisateurs.md) demandent de confronter origine, fabrication, qualité d’expert, certification, résultats et visuels à leurs preuves. Séparer simulation, illustration et essai réel ; une mention IA ou un label ne valide pas la promesse. Recette attendue supplémentaire : image produit synthétique avec accessoires absents de la livraison → écart localisé, preuve et demande utiles, aucune accusation depuis le procédé seul.
 
 Ces exigences et scénarios restent proposés, sans règle ou résultat métier validé par cette intégration.

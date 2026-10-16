@@ -11,7 +11,7 @@ dependances: [EXIST-005, PILOTE-003, BASE-005, BASE-006]
 
 ## Objectif et résultat attendu
 
-Un acheteur, particulier ou petite organisation, obtient un tableau comparant une promesse de capacité, de certification ou de conformité aux pièces réellement disponibles, puis les questions à poser. Points 17, 37, 40–41 de la [matrice des frictions](../exist-005-frictions-utilisateurs.md).
+Un acheteur, particulier ou petite organisation, obtient un tableau comparant une promesse de capacité, de certification ou de conformité aux pièces réellement disponibles, puis les questions à poser. Points 17, 37, 40–41 de la [matrice des frictions](../exist-005-annexes/exist-005-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -21,7 +21,7 @@ Plugin principal : `ai-governance-legal` (`judge-fr-eu-ai-governance-legal`).
 - `ai-governance-legal/references/allegations-fournisseur.md` : référence locale à créer.
 - README et seuls blocs de routage concernés de CLAUDE.md ; IA-012 garde les engagements contractuels et IA-013 la clause à négocier.
 
-Appliquer le [contrat commun IA](../exist-005-decoupage-ia.md), BASE-005 locale, BASE-006 et BASE-008. Une page ou offre manuelle suffit ; aucun profil ni dossier IA-008 préalable. Embarquer les références ; synchroniser les métadonnées modifiées et ajouter NOTICE racine/local lors de l'implémentation.
+Appliquer le [contrat commun IA](../exist-005-annexes/exist-005-decoupage-ia.md), BASE-005 locale, BASE-006 et BASE-008. Une page ou offre manuelle suffit ; aucun profil ni dossier IA-008 préalable. Embarquer les références ; synchroniser les métadonnées modifiées et ajouter NOTICE racine/local lors de l'implémentation.
 
 ## Entrées nécessaires
 
@@ -48,7 +48,7 @@ Document exact et daté, référentiel et organisme revendiqués, textes officie
 - Cas normal : F10, « conforme AI Act » accompagné d'un rapport privé sur une ancienne version ; relever les écarts de portée et préparer les questions.
 - Cas limite : certificat accessible seulement par un lien indisponible et API tierce mentionnée ; conclusion réservée sans absence ni falsification présumées.
 
-Recette future BASE-006 : sorties, paquet détaché, client et compréhension ; [portée de l'intégration](../exist-005-frictions-verification.md).
+Recette future BASE-006 : sorties, paquet détaché, client et compréhension ; [portée de l'intégration](../exist-005-annexes/exist-005-frictions-verification.md).
 
 ## Hors périmètre
 

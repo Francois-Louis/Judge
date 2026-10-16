@@ -68,4 +68,4 @@ défense au fond, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation ni sélection.
-Contrat commun : [découpage](../dom-002-decoupage-penal.md).
+Contrat commun : [découpage](../dom-002-annexes/dom-002-decoupage-penal.md).

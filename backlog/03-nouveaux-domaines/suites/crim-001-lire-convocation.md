@@ -65,7 +65,7 @@ déclarée, et demande d'abord la date de convocation.
 
 ## Travail attendu
 
-Créer `qualification-penale.md` selon le [découpage](../dom-002-decoupage-penal.md)
+Créer `qualification-penale.md` selon le [découpage](../dom-002-annexes/dom-002-decoupage-penal.md)
 et l'appliquer :
 
 - convocation devant un tribunal, citation, ordonnance ou jugement → fiche minimale et orientation (CRIM-006, proposée) ;
@@ -102,7 +102,7 @@ publiques d'information comme orientation, distinctes du texte. Aucun
 - Sans source lue : fiche et questions, droits réservés.
 
 Exécuter sur fixtures, conserver ressources lues, sorties et erreurs, et
-appliquer les couches BASE-006. La [relecture DOM-002](../dom-002-verification.md)
+appliquer les couches BASE-006. La [relecture DOM-002](../dom-002-annexes/dom-002-verification.md)
 porte sur le cadrage ; ces scénarios restent **attendus, non exécutés**.
 
 ## Hors périmètre
@@ -113,7 +113,7 @@ envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 32–36 de la [matrice](../dom-002-frictions-utilisateurs.md). Ne pas présenter la convocation comme une formalité sans effet ni déduire le statut du ton du message. Distinguer se présenter, répondre et pouvoir quitter une audition ; les droits sont vérifiés pour le statut établi. Audition déjà commencée → CRIM-002, sans préparation des réponses.
+Points 32–36 de la [matrice](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Ne pas présenter la convocation comme une formalité sans effet ni déduire le statut du ton du message. Distinguer se présenter, répondre et pouvoir quitter une audition ; les droits sont vérifiés pour le statut établi. Audition déjà commencée → CRIM-002, sans préparation des réponses.
 
 - [ ] C04 — Convocation présentée comme informelle : demander qualité, faits annoncés, accès à l'avocat et interprète selon le statut, sans promettre l'absence de poursuites.
 
@@ -122,4 +122,4 @@ Scénario **attendu, non exécuté** : appel « venez juste discuter », qualit�
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation. Préalable PILOTE-003 satisfait après
-BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-002-decoupage-penal.md).
+BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-002-annexes/dom-002-decoupage-penal.md).

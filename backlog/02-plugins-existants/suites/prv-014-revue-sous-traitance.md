@@ -35,8 +35,8 @@ Matrice PRV-013, contrat/DPA/annexes versionnés, instructions, sécurité, sous
 Rechercher contenu requis dans les deux sens ; préférence de négociation distincte du droit. Examiner objet/durée/nature/finalités, personnes/catégories, obligations du responsable, instructions, confidentialité/sécurité, assistance droits/AIPD/incidents, chaîne, audits/preuves et fin de contrat, alertes sur instructions. Annexe absente = réserve ; SOC 2/HDS/ISO seul ne suffit pas. Séparer notification selon déclencheur/destinataire, loi et contrat, sans 72 h indifférenciées. Isoler responsabilité MSA/usages propres ; transfert non instruit visible sans revue complète promise. Pas de BAA français par défaut.
 
 Charger `privacy-legal/references/shared/research-citation-method.md` depuis
-le paquet installé. Appliquer le [contrat commun](../exist-003-decoupage-donnees.md)
-et les [dépendances inventoriées](../exist-003-inventaire-donnees.md).
+le paquet installé. Appliquer le [contrat commun](../exist-003-annexes/exist-003-decoupage-donnees.md)
+et les [dépendances inventoriées](../exist-003-annexes/exist-003-inventaire-donnees.md).
 Corriger les seuls blocs setup/routage de cette tâche ; PRV-019/020/021 ne
 sont pas des préalables universels. Sans profil ni connecteur, une pièce
 fournie permet une sortie ponctuelle utile ; réserver les seules conclusions
@@ -72,7 +72,7 @@ recommandation, pièce, fait déclaré et préférence.
 Scénarios attendus, non exécutés par EXIST-003. Dans le futur lot, conserver
 sorties et ressources lues et suivre BASE-006 : structure, paquet détaché,
 client, résultat métier et compréhension. La
-[relecture de cadrage](../exist-003-verification.md) ne remplace pas cette recette.
+[relecture de cadrage](../exist-003-annexes/exist-003-verification.md) ne remplace pas cette recette.
 
 ## Hors périmètre
 

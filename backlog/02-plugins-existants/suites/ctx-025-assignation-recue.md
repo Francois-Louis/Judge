@@ -74,11 +74,11 @@ Rédaction des conclusions, défense au fond, représentation, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation. Statut `proposee` : aucune tranche sélectionnée, aucun skill adapté.
-Contrat commun : [découpage EXIST-006](../exist-006-decoupage-contentieux.md).
+Contrat commun : [découpage EXIST-006](../exist-006-annexes/exist-006-decoupage-contentieux.md).
 
 ## Complément des frictions contentieuses — 16 octobre 2026
 
-Exigences issues des [125 frictions contentieuses](../exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+Exigences issues des [125 frictions contentieuses](../exist-006-annexes/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
 
 Points 1–8 et 13 : réunir enveloppe, avis de passage, annexe de signification, remise à tiers/étude, recherches infructueuses et notifications électroniques le cas échéant ; ne pas déduire l’absence de procédure de l’absence de signature. Date d’acte, date de réception déclarée et déclencheur juridique sont distincts. Recette complémentaire attendue : ancienne adresse et dossier incomplet, fiche avec manques et urgence, sans conclusion de nullité ; CTX-029 repère les irrégularités possibles. La lecture ne calcule pas de terme.
 

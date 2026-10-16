@@ -13,7 +13,7 @@ dependances: [EXIST-001, PILOTE-003, BASE-005, BASE-006]
 
 Une TPE reçoit une liste de comptes, données et créations à restituer, un calendrier contractuel réservé si nécessaire et un projet de demande.
 
-Issue de la [matrice des 140 frictions marketing](../exist-004-frictions-utilisateurs.md), intégration du 16 octobre 2026. Cette proposition ne sélectionne aucune implémentation.
+Issue de la [matrice des 140 frictions marketing](../exist-004-annexes/exist-004-frictions-utilisateurs.md), intégration du 16 octobre 2026. Cette proposition ne sélectionne aucune implémentation.
 
 ## Périmètre et fichiers à examiner
 
@@ -66,4 +66,4 @@ Résiliation envoyée, révocation d’accès, migration technique, récupérati
 
 ## État de la proposition — 16 octobre 2026
 
-Statut `proposee`. Le préalable de bilan PILOTE-003 est satisfait ; aucune tranche n’est choisie par cette intégration. Portée et contrôles documentaires dans le [relevé de l’intégration](../exist-004-frictions-verification.md).
+Statut `proposee`. Le préalable de bilan PILOTE-003 est satisfait ; aucune tranche n’est choisie par cette intégration. Portée et contrôles documentaires dans le [relevé de l’intégration](../exist-004-annexes/exist-004-frictions-verification.md).

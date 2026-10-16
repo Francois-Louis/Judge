@@ -47,11 +47,11 @@ Implémenter tout le domaine, modifier des contenus éditeur ou considérer qu'u
 
 ## Bilan d'exécution — 16 octobre 2026
 
-- [Inventaire exhaustif](exist-011-inventaire-hub.md) : 30 fichiers, dix skills
+- [Inventaire exhaustif](exist-011-annexes/exist-011-inventaire-hub.md) : 30 fichiers, dix skills
   (neuf invocables et skill-manager référence), un agent, aucun cookbook propre.
   Registres, allowlists, profils, journaux, transformations et droits audités ;
   décisions de conservation/réécriture/retrait justifiées individuellement.
-- [Découpage HUB-001 à HUB-020](exist-011-decoupage-hub.md) : vingt suites bornées
+- [Découpage HUB-001 à HUB-020](exist-011-annexes/exist-011-decoupage-hub.md) : vingt suites bornées
   avec fichiers, entrées, résultats, sources futures, scénarios et dépendances.
   Origines fork/communauté/éditeur séparées ; aucune mise à jour communautaire
   de paquet interne ni contenu éditeur, aucune adoption implicite de copie locale.
@@ -59,16 +59,16 @@ Implémenter tout le domaine, modifier des contenus éditeur ou considérer qu'u
   modes de confiance, clés HTML parasites dans YAML, REFUSE/override/advisory,
   QA désactivable, table/journal, commit/tag, fraîcheur après accord et routine
   passive/scheduled. Rien n’est supprimé par traduction.
-- [Vérification](exist-011-verification.md) : simulation filesystem réellement
+- [Vérification](exist-011-annexes/exist-011-verification.md) : simulation filesystem réellement
   exécutée en faux home ; update sur deux fichiers personnalisés refusée,
-  octets et journal inchangés. [Résultats](exist-011-simulation-resultats.json)
-  et [script](exist-011-simulation.py) conservés. Pas test de prompt ou client.
-- [Fixture documentaire de découverte](exist-011-scenarios.json) : skill
+  octets et journal inchangés. [Résultats](exist-011-annexes/exist-011-simulation-resultats.json)
+  et [script](exist-011-annexes/exist-011-simulation.py) conservés. Pas test de prompt ou client.
+- [Fixture documentaire de découverte](exist-011-annexes/exist-011-scenarios.json) : skill
   Californie bien structuré supposé, mais hors portée France demandée ;
   sécurité, conception et pertinence documentaire ont des états distincts.
   Relecture des attendus futurs, sans discovery ou QA de modèle exécutées.
-- [Contrôles documentaires et empreintes](exist-011-resultats.json) rejouables
-  avec le [contrôleur](exist-011-controles.py) ; couverture, dépendances,
+- [Contrôles documentaires et empreintes](exist-011-annexes/exist-011-resultats.json) rejouables
+  avec le [contrôleur](exist-011-annexes/exist-011-controles.py) ; couverture, dépendances,
   liens/index/format, copies partagées, invariants et travaux antérieurs préservés.
 - PILOTE-003 terminé après BASE-011 : préalable satisfait, aucune extension
   sélectionnée ; limites H01 complet et lecteur indépendant consignées.

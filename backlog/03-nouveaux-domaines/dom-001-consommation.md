@@ -55,7 +55,7 @@ Implémenter le domaine entier, créer un plugin vide pour donner l'impression d
 
 ## Bilan d'exécution — 16 octobre 2026
 
-- [Découpage](dom-001-decoupage-consommation.md) : nom `consumer-legal`
+- [Découpage](dom-001-annexes/dom-001-decoupage-consommation.md) : nom `consumer-legal`
   conservé (`judge-fr-eu-consumer-legal`) ; contrat d'installation seule,
   sans profil, agent, hook ni connecteur ; qualification commune (parties,
   objet, canal, territoire, plateformes, pièces) ; frontières avec banque,
@@ -65,12 +65,12 @@ Implémenter le domaine entier, créer un plugin vide pour donner l'impression d
 - 13 propositions CONSO-001 à CONSO-013 sous `suites/`, en quatre rangs.
   Première tranche : CONSO-001, réclamation pour une commande non livrée,
   qui crée le paquet avec ce seul skill. Inclus, exclus et sortie précisés.
-- [Vérification documentaire](dom-001-verification.md) : les trois scénarios
+- [Vérification documentaire](dom-001-annexes/dom-001-verification.md) : les trois scénarios
   de la story et neuf cas limites, sans délai, montant ni droit conclu.
-- Ligne `consumer-legal` de la [matrice BASE-003](../00-fondations/base-003-dossier-architecture.md)
+- Ligne `consumer-legal` de la [matrice BASE-003](../00-fondations/base-003-annexes/base-003-dossier-architecture.md)
   précisée ; index du backlog mis à jour.
-- [Contrôles statiques](dom-001-resultats.json), produits par
-  [le contrôleur du lot](dom-001-controles.py) : frontmatter et dépendances,
+- [Contrôles statiques](dom-001-annexes/dom-001-resultats.json), produits par
+  [le contrôleur du lot](dom-001-annexes/dom-001-controles.py) : frontmatter et dépendances,
   sections des propositions, propriétaires uniques des fichiers futurs,
   liens, format, index, absence de paquet `consumer-legal`, périmètre
   comparé à l'instantané de début de tâche.
@@ -100,22 +100,22 @@ disponible » est remplacée par cette règle.
 
 Le [guide fourni](sources/consommation-frictions-2026-10-16.txt) est archivé
 intégralement comme expression du besoin, avec son empreinte contrôlée.
-La [matrice des 155 situations](dom-001-frictions-utilisateurs.md) relie chaque
+La [matrice des 155 situations](dom-001-annexes/dom-001-frictions-utilisateurs.md) relie chaque
 friction à un propriétaire, des preuves et un résultat attendu. Les sections
 non numérotées ajoutent checklist, calendrier et distinction des organismes.
 
 Les 14 suites existantes sont complétées par des critères et scénarios ; six
 propositions CONSO-015 à CONSO-020 portent vérification du vendeur et de l’offre,
 prix et frais, prestation et avance, protection de plateforme, mise en demeure
-et remboursement, démarchage et consentement. Le [découpage](dom-001-decoupage-consommation.md)
+et remboursement, démarchage et consentement. Le [découpage](dom-001-annexes/dom-001-decoupage-consommation.md)
 compte désormais 20 propositions, toujours sans sélection d’implémentation.
 CONSO-011 traite aussi la position du vendeur particulier ; CONSO-012 garde
 la réponse d’une TPE. Les frontières banque, assurance, pénal, procédure,
 données et secteurs restent explicites, avec le repli CONSO-014 déjà décidé.
 
-La [relecture](dom-001-verification.md) éprouve le routage documentaire sur des
-cas fictifs. Le [contrôleur](dom-001-controles.py) et son
-[relevé](dom-001-resultats.json) vérifient structure, dépendances, couverture,
+La [relecture](dom-001-annexes/dom-001-verification.md) éprouve le routage documentaire sur des
+cas fictifs. Le [contrôleur](dom-001-annexes/dom-001-controles.py) et son
+[relevé](dom-001-annexes/dom-001-resultats.json) vérifient structure, dépendances, couverture,
 liens, fichiers futurs et texte archivé. Les travaux préexistants hors lot
 sont comparés à l’instantané de début d’intégration, sans réécriture de leurs
 fichiers. L’index partagé est ajusté aux nombres réels de stories.
@@ -130,4 +130,4 @@ restent proposées.
 
 ## Intégration des frictions marketing — 16 octobre 2026
 
-La [matrice des 140 points](../02-plugins-existants/exist-004-frictions-utilisateurs.md) relie les pratiques publicitaires aux parcours acheteur. CONSO-021 ajoute une réclamation après achat fondée sur le rapprochement promesse/pièces/résultat, sans annulation automatique. Les 21 CONSO restent proposées. Le bilan et les empreintes historiques ci-dessus restent conservés ; portée et contrôles dans le [relevé dédié](../02-plugins-existants/exist-004-frictions-verification.md).
+La [matrice des 140 points](../02-plugins-existants/exist-004-annexes/exist-004-frictions-utilisateurs.md) relie les pratiques publicitaires aux parcours acheteur. CONSO-021 ajoute une réclamation après achat fondée sur le rapprochement promesse/pièces/résultat, sans annulation automatique. Les 21 CONSO restent proposées. Le bilan et les empreintes historiques ci-dessus restent conservés ; portée et contrôles dans le [relevé dédié](../02-plugins-existants/exist-004-annexes/exist-004-frictions-verification.md).

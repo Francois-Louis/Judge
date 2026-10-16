@@ -47,10 +47,10 @@ Implémenter tout le domaine, modifier des contenus éditeur ou considérer qu'u
 
 ## Bilan d'exécution — 16 octobre 2026
 
-- [Inventaire exhaustif](exist-006-inventaire-contentieux.md) : 38 fichiers,
+- [Inventaire exhaustif](exist-006-annexes/exist-006-inventaire-contentieux.md) : 38 fichiers,
   dont 19 skills, références, modèles inline, registre, agent et dépendances
   de sortie ; six fichiers du cookbook associés et décisions individuelles.
-- [Découpage CTX-001 à CTX-024](exist-006-decoupage-contentieux.md) : fichiers,
+- [Découpage CTX-001 à CTX-024](exist-006-annexes/exist-006-decoupage-contentieux.md) : fichiers,
   entrées, résultats, sources à rechercher, exclusions et scénarios. Mise en
   demeure, conservation/communication des preuves, écritures et suivi sont
   séparés ; pénal, administratif, exécution et secteurs ont des relais précis.
@@ -59,11 +59,11 @@ Implémenter tout le domaine, modifier des contenus éditeur ou considérer qu'u
   sans renommer les commandes dans ce lot. Work product, discovery et without
   prejudice sont localisés et traités comme points de recherche, sans effets
   juridiques déduits d'une traduction ou d'un en-tête.
-- [Relecture du cadrage](exist-006-verification.md) sur mise en demeure reçue,
+- [Relecture du cadrage](exist-006-annexes/exist-006-verification.md) sur mise en demeure reçue,
   demande de production de pièces et convocation française fictives : aucune
   procédure US n'est prescrite par les suites ; pas de délai calculé.
-- [Contrôles statiques et empreintes](exist-006-resultats.json), exécutables
-  avec le [contrôleur documentaire](exist-006-controles.py). Le commentaire
+- [Contrôles statiques et empreintes](exist-006-annexes/exist-006-resultats.json), exécutables
+  avec le [contrôleur documentaire](exist-006-annexes/exist-006-controles.py). Le commentaire
   HTML du modèle `_log.yaml` est interprété comme une clé YAML parasite ;
   sa correction bornée est assignée à CTX-014 et non réalisée ici.
 - PILOTE-003 est terminé après BASE-011 : préalable satisfait, sans sélection
@@ -95,10 +95,10 @@ CTX-028 (jugement reçu). Le découpage compte désormais 28 suites.
 
 ## Complément des frictions données personnelles — 16 octobre 2026
 
-Points 59–60 de la [matrice données personnelles](exist-003-frictions-utilisateurs.md) : PRV-034 prépare la plainte CNIL, DOM-035 organise dommage et causalité à découper ; contentieux garde compétence, représentation, saisine et échéances de la procédure qualifiée. Les tranches CTX de petit litige ne couvrent pas automatiquement tout recours RGPD. Action indemnitaire et recours contre une décision de l'autorité doivent être qualifiés avant choix de voie et découpage spécialisé, avec DOM-010 si pertinent. Préserver le calendrier de fond indépendamment de la demande RGPD, sans suspension automatique déduite. Aucune tranche CTX lancée ; portée et contrôles dans la matrice.
+Points 59–60 de la [matrice données personnelles](exist-003-annexes/exist-003-frictions-utilisateurs.md) : PRV-034 prépare la plainte CNIL, DOM-035 organise dommage et causalité à découper ; contentieux garde compétence, représentation, saisine et échéances de la procédure qualifiée. Les tranches CTX de petit litige ne couvrent pas automatiquement tout recours RGPD. Action indemnitaire et recours contre une décision de l'autorité doivent être qualifiés avant choix de voie et découpage spécialisé, avec DOM-010 si pertinent. Préserver le calendrier de fond indépendamment de la demande RGPD, sans suspension automatique déduite. Aucune tranche CTX lancée ; portée et contrôles dans la matrice.
 
 ## Intégration des frictions contentieuses — 16 octobre 2026
 
-La [matrice des 125 frictions](exist-006-frictions-utilisateurs.md) conserve l’ordre du [texte fourni](sources/contentieux-frictions-2026-10-16.txt), ses tableaux et sa checklist. Le découpage compte désormais **41 suites CTX proposées** : CTX-030 à CTX-041 ajoutent prescription civile, demandes chiffrées, mission et observations d’expertise, réponse adverse, temps de réponse, préparation de vérification d’appel TJ, erreur matérielle, omission de statuer, transaction, budget et ordonnance d’injonction côté créancier.
+La [matrice des 125 frictions](exist-006-annexes/exist-006-frictions-utilisateurs.md) conserve l’ordre du [texte fourni](sources/contentieux-frictions-2026-10-16.txt), ses tableaux et sa checklist. Le découpage compte désormais **41 suites CTX proposées** : CTX-030 à CTX-041 ajoutent prescription civile, demandes chiffrées, mission et observations d’expertise, réponse adverse, temps de réponse, préparation de vérification d’appel TJ, erreur matérielle, omission de statuer, transaction, budget et ordonnance d’injonction côté créancier.
 
-Les besoins administratifs, pénaux, d’exécution, de financement et de procédures collectives sont attribués à leurs domaines ; les tâches non découpées restent explicitement ouvertes. CTX-016 ne devient pas un calculateur universel et CTX-028 reste une lecture sans calcul de délai. Les assertions normatives du texte, notamment les réformes annoncées en 2026, ne sont pas validées par cette intégration. [Contrôles documentaires](exist-006-frictions-verification.md) ; aucune tranche lancée, aucun plugin modifié. Les inventaire, vérification et résultats historiques du cadrage initial sont conservés à leur périmètre d’origine.
+Les besoins administratifs, pénaux, d’exécution, de financement et de procédures collectives sont attribués à leurs domaines ; les tâches non découpées restent explicitement ouvertes. CTX-016 ne devient pas un calculateur universel et CTX-028 reste une lecture sans calcul de délai. Les assertions normatives du texte, notamment les réformes annoncées en 2026, ne sont pas validées par cette intégration. [Contrôles documentaires](exist-006-annexes/exist-006-frictions-verification.md) ; aucune tranche lancée, aucun plugin modifié. Les inventaire, vérification et résultats historiques du cadrage initial sont conservés à leur périmètre d’origine.

@@ -64,7 +64,7 @@ Procédure devant le tribunal de police, paiement, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 59–68 et 79 de la [matrice](../dom-002-frictions-utilisateurs.md). Recueillir motif exact, mode de constatation, photographie demandée ou reçue, écrit et témoin possibles, justificatifs de cession et enregistrement, adresse et notifications, justificatifs de paiement ou consignation.
+Points 59–68 et 79 de la [matrice](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Recueillir motif exact, mode de constatation, photographie demandée ou reçue, écrit et témoin possibles, justificatifs de cession et enregistrement, adresse et notifications, justificatifs de paiement ou consignation.
 
 - [ ] K03 — PV contesté : rechercher la règle de preuve propre au régime (piste CPP 537), les mentions et les éléments contraires ; ni croire le PV irréfragable ni promettre qu'une déclaration suffit.
 - [ ] K04 — Photo radar demandée : suivre séparément la demande et le recours ; aucun effet suspensif présumé. Responsabilité du titulaire, conducteur réel et éventuelle obligation de désignation sont vérifiées séparément.
@@ -76,4 +76,4 @@ Scénarios **attendus, non exécutés** : conducteur différent sans désignatio
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-002-decoupage-penal.md).
+[découpage](../dom-002-annexes/dom-002-decoupage-penal.md).

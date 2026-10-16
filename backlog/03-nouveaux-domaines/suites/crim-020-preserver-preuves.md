@@ -13,7 +13,7 @@ dependances: [DOM-002, PILOTE-003, BASE-005, BASE-006, CRIM-001]
 
 Une personne prépare un inventaire de preuves et des demandes urgentes de conservation après une intervention, sans modifier les originaux ni promettre leur obtention.
 
-Besoin issu des points 49–53, 55–58, 80, 86–87, 96 de la [matrice des frictions](../dom-002-frictions-utilisateurs.md). Proposition documentaire, sans implémentation ni sélection.
+Besoin issu des points 49–53, 55–58, 80, 86–87, 96 de la [matrice des frictions](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Proposition documentaire, sans implémentation ni sélection.
 
 ## Périmètre et fichiers
 
@@ -62,4 +62,4 @@ Expertise forensique, diagnostic, qualification de violences, publication ou col
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issu des frictions utilisateur. Contrat commun : [découpage](../dom-002-decoupage-penal.md). Aucun fichier de plugin créé par cette intégration.
+Ajout issu des frictions utilisateur. Contrat commun : [découpage](../dom-002-annexes/dom-002-decoupage-penal.md). Aucun fichier de plugin créé par cette intégration.

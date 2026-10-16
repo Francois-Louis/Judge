@@ -37,8 +37,8 @@ Reconstituer principal facturé moins paiements/avoirs sans certifier la créanc
 
 Charger `commercial-legal/references/shared/research-citation-method.md` depuis
 le paquet installé ; pour le cookbook, résoudre la copie du plugin embarqué.
-Suivre le [contrat commun du découpage](../exist-001-decoupage-commercial.md)
-et les [dépendances de contenu](../exist-001-inventaire-commercial.md).
+Suivre le [contrat commun du découpage](../exist-001-annexes/exist-001-decoupage-commercial.md)
+et les [dépendances de contenu](../exist-001-annexes/exist-001-inventaire-commercial.md).
 Corriger les seuls blocs setup/profil qui empêchent ce résultat, sans imposer
 COM-013 à une lecture ponctuelle. Aucun abonnement ni connecteur obligatoire ;
 nommer les accès optionnels et fournir la sortie partielle utile s'ils manquent.
@@ -85,4 +85,4 @@ son lancement. Les dépendances satisfaites ne valent pas validation du métier.
 
 ## Complément de besoins — formalités, 16 octobre 2026
 
-Point 63 de la [matrice formalités](../exist-002-frictions-utilisateurs.md) : lors de la lecture d'une facture B2B ciblée, repérer les mentions fournies/manquantes et leur incidence à rechercher sans transformer l'absence d'une mention en inexistence de dette. Le contrôle exhaustif d'un modèle et ses variantes restent à découper ; mentions fiscales, franchise et réforme électronique → DOM-011/039, demande de paiement trompeuse → COM-019. Aucun taux ou montant forfaitaire repris du texte utilisateur sans source.
+Point 63 de la [matrice formalités](../exist-002-annexes/exist-002-frictions-utilisateurs.md) : lors de la lecture d'une facture B2B ciblée, repérer les mentions fournies/manquantes et leur incidence à rechercher sans transformer l'absence d'une mention en inexistence de dette. Le contrôle exhaustif d'un modèle et ses variantes restent à découper ; mentions fiscales, franchise et réforme électronique → DOM-011/039, demande de paiement trompeuse → COM-019. Aucun taux ou montant forfaitaire repris du texte utilisateur sans source.

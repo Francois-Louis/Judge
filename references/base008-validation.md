@@ -37,11 +37,11 @@ juridique des 150 tâches n'est annoncée.
 Les notices de chaque paquet et le [NOTICE racine](../NOTICE) énumèrent les
 fichiers du lot. Les modifications sont identifiées dans les contenus modifiés ;
 les textes historiques et la copie de la méthode commune restent intacts.
-L'[inventaire avant migration](../backlog/00-fondations/base-008-inventaire-avant.tsv)
+L'[inventaire avant migration](../backlog/00-fondations/base-008-annexes/base-008-inventaire-avant.tsv)
 a été régénéré avant modification : **221 fichiers**. Le cadrage BASE-004 et
 son inventaire restent des constats historiques.
-L'[inventaire après migration](../backlog/00-fondations/base-008-inventaire-apres.tsv)
-et le [relevé résiduel commenté](../backlog/00-fondations/base-008-residus.tsv)
+L'[inventaire après migration](../backlog/00-fondations/base-008-annexes/base-008-inventaire-apres.tsv)
+et le [relevé résiduel commenté](../backlog/00-fondations/base-008-annexes/base-008-residus.tsv)
 permettent de revoir les références restantes sans confondre fixtures et accès actifs.
 
 ## Contrôles exécutables
@@ -130,7 +130,7 @@ aucune mise à jour automatique n'est active pendant cette recette.
   session de modèle et les appels aux commandes qualifiées ne sont donc pas
   présentés comme exécutés.
 
-La [preuve structurée](../backlog/00-fondations/base-008-resultats-client.json)
+La [preuve structurée](../backlog/00-fondations/base-008-annexes/base-008-resultats-client.json)
 conserve les résultats du client, avec chemins temporaires anonymisés.
 
 ## Recette interactive restante

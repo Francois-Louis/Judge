@@ -59,9 +59,9 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 ## Complément des frictions IA — 16 octobre 2026
 
-Points 30–31, 35 et 48 de la [matrice IA](../02-plugins-existants/exist-005-frictions-utilisateurs.md) : prévoir lecture de la décision de plateforme, demande de retrait d'un contenu synthétique ou usurpé, puis contestation de modération, avec rôle et champ du service à vérifier. IA-005 garde la transparence, PRV-028/029 données et déréférencement, DOM-043 expression/image, DOM-002 la plainte pénale. URL, date, identifiants et preuve minimale avant retrait, sans rediffusion d'un contenu intime. Une boucle de tickets n'est pas un recours au fond ; pas de droit universel à un humain ou retrait garanti. Cas attendus : compte bloqué avec réponses répétées ; faux contenu intime et copies multiples avec urgence de procédure, sans attendre une date future alléguée.
+Points 30–31, 35 et 48 de la [matrice IA](../02-plugins-existants/exist-005-annexes/exist-005-frictions-utilisateurs.md) : prévoir lecture de la décision de plateforme, demande de retrait d'un contenu synthétique ou usurpé, puis contestation de modération, avec rôle et champ du service à vérifier. IA-005 garde la transparence, PRV-028/029 données et déréférencement, DOM-043 expression/image, DOM-002 la plainte pénale. URL, date, identifiants et preuve minimale avant retrait, sans rediffusion d'un contenu intime. Une boucle de tickets n'est pas un recours au fond ; pas de droit universel à un humain ou retrait garanti. Cas attendus : compte bloqué avec réponses répétées ; faux contenu intime et copies multiples avec urgence de procédure, sans attendre une date future alléguée.
 
-Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-frictions-verification.md).
+Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-annexes/exist-005-frictions-verification.md).
 
 ## Hors périmètre
 
@@ -70,4 +70,4 @@ Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter
 
 ## Complément des frictions données personnelles — 16 octobre 2026
 
-Points 21 et 26–31 de la [matrice données personnelles](../02-plugins-existants/exist-003-frictions-utilisateurs.md) : distinguer récupération/fermeture de compte et modération (ici, à découper) de l'effacement PRV-024, retrait source PRV-028 et déréférencement PRV-029. Conserver URL, date et preuve avant demande ; qualifier plateforme, éditeur et réutilisateur. Scénario attendu : compte fermé, contenu encore publié et résultat moteur persistant, avec trois objets et destinataires distincts. Les demandes de données ne promettent pas la restauration du compte ; presse → DOM-043, infraction alléguée → DOM-002. Portée et contrôles : voir la matrice.
+Points 21 et 26–31 de la [matrice données personnelles](../02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md) : distinguer récupération/fermeture de compte et modération (ici, à découper) de l'effacement PRV-024, retrait source PRV-028 et déréférencement PRV-029. Conserver URL, date et preuve avant demande ; qualifier plateforme, éditeur et réutilisateur. Scénario attendu : compte fermé, contenu encore publié et résultat moteur persistant, avec trois objets et destinataires distincts. Les demandes de données ne promettent pas la restauration du compte ; presse → DOM-043, infraction alléguée → DOM-002. Portée et contrôles : voir la matrice.

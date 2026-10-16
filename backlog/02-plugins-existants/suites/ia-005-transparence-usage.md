@@ -54,7 +54,7 @@ partiel utile, sans règle ni date de consultation inventées.
 
 ## Complément des frictions IA
 
-Points 30–31 de la [matrice](../exist-005-frictions-utilisateurs.md) : distinguer interaction avec chatbot, génération/marquage et présentation d'un contenu manipulé, avec acteur et public propres. Rechercher obligations, exceptions et date d'application par fonction. Le soupçon de deepfake n'est pas une authentification ; transparence ne règle pas à elle seule consentement, image, retrait ou infraction. Cas attendu : contenu possiblement synthétique et intime ; relais urgent vers plateforme/expression/pénal selon demande, sans attendre une échéance alléguée du règlement IA.
+Points 30–31 de la [matrice](../exist-005-annexes/exist-005-frictions-utilisateurs.md) : distinguer interaction avec chatbot, génération/marquage et présentation d'un contenu manipulé, avec acteur et public propres. Rechercher obligations, exceptions et date d'application par fonction. Le soupçon de deepfake n'est pas une authentification ; transparence ne règle pas à elle seule consentement, image, retrait ou infraction. Cas attendu : contenu possiblement synthétique et intime ; relais urgent vers plateforme/expression/pénal selon demande, sans attendre une échéance alléguée du règlement IA.
 
 ## Critères d'acceptation
 
@@ -74,7 +74,7 @@ Points 30–31 de la [matrice](../exist-005-frictions-utilisateurs.md) : disting
 Recettes futures **non exécutées**. Lors du lot sélectionné, conserver fixtures,
 ressources lues, sorties et erreurs ; appliquer BASE-006 : structure, paquet
 détaché, client, résultat métier et compréhension par lecteur non juriste.
-La [relecture du cadrage](../exist-005-verification.md) est distincte de cette recette.
+La [relecture du cadrage](../exist-005-annexes/exist-005-verification.md) est distincte de cette recette.
 
 ## Hors périmètre
 
@@ -89,6 +89,6 @@ connexion, envoi, publication ou automatisation n'est livré ici.
 
 ## Complément de besoins — 16 octobre 2026
 
-Les points 44 à 58 et l’encadré IA de la [matrice marketing](../exist-004-frictions-utilisateurs.md) exigent un examen ciblé de l’article 50 et de sa temporalité : fournisseur/déployeur, interaction, marquage technique, deepfake, contenu d’intérêt public et exceptions ne sont pas un seul cas. Toute image synthétique ne reçoit pas automatiquement une mention publique. Les mentions françaises d’influence restent à examiner dans PDT-009 et ne sont pas confondues avec les obligations IA. Recette attendue supplémentaire : chatbot et avatar publicitaire dans la même campagne → fiches par fonction/acteur avec sources, aucune validation du témoignage par la bannière IA.
+Les points 44 à 58 et l’encadré IA de la [matrice marketing](../exist-004-annexes/exist-004-frictions-utilisateurs.md) exigent un examen ciblé de l’article 50 et de sa temporalité : fournisseur/déployeur, interaction, marquage technique, deepfake, contenu d’intérêt public et exceptions ne sont pas un seul cas. Toute image synthétique ne reçoit pas automatiquement une mention publique. Les mentions françaises d’influence restent à examiner dans PDT-009 et ne sont pas confondues avec les obligations IA. Recette attendue supplémentaire : chatbot et avatar publicitaire dans la même campagne → fiches par fonction/acteur avec sources, aucune validation du témoignage par la bannière IA.
 
 Ces exigences et scénarios restent proposés, sans règle ou résultat métier validé par cette intégration.

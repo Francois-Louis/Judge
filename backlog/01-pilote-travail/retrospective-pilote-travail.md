@@ -29,7 +29,7 @@ identifiants distincts avant PILOTE-005. Régression BASE-008 : 14 réussis,
 2 ignorés sur 16. Contrôleur BASE-006 : 11 réussis. Helper PILOTE-004 :
 7 réussis. Lint des cookbooks propre, JSON valides. `claude plugin validate`
 passe sur les 12 plugins, le marketplace et les deux artefacts exacts du pilote
-([preuve](pilote-003-schema-cli.json)), avec le seul avertissement attendu sur
+([preuve](pilote-003-annexes/pilote-003-schema-cli.json)), avec le seul avertissement attendu sur
 `CLAUDE.md`.
 
 Après PILOTE-005 : 65 fichiers, 284 liens locaux, aucun absent ; 86 stories

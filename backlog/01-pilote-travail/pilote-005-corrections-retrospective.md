@@ -41,11 +41,11 @@ option `--claude` du contrôleur, politique de recensement dans NOTICE.
 
 - Fins de ligne normalisées en LF ; `git diff --ignore-cr-at-eol` sur ces fichiers
   inchangé avant/après. Conséquence : `plugin.json` et `marketplace.json` ne
-  correspondent plus aux empreintes CRLF de [PILOTE-003](pilote-003-controles.json)
-  et [PILOTE-004](pilote-004-controles.json). L'artefact exact de PILOTE-003 reste
+  correspondent plus aux empreintes CRLF de [PILOTE-003](pilote-003-annexes/pilote-003-controles.json)
+  et [PILOTE-004](pilote-004-annexes/pilote-004-controles.json). L'artefact exact de PILOTE-003 reste
   dans `%TEMP%` avec son ZIP. La prochaine recette produit un nouvel inventaire.
 - `pilote-004-verification.md` : la structure et la recette renvoient à la
-  [reprise des schémas](pilote-003-schema-cli.json).
+  [reprise des schémas](pilote-003-annexes/pilote-003-schema-cli.json).
 - README du backlog : décompte, lien vers la rétrospective, PILOTE-005 dans le tableau.
 - NOTICE racine : entrée PILOTE-004 (fichiers du plugin et script de test).
 - Modèle de story : deux règles ajoutées dans « Vérification ».

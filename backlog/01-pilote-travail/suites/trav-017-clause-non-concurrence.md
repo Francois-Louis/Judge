@@ -14,8 +14,8 @@ dependances: [PILOTE-003, BASE-005, BASE-006]
 Un candidat du privé en France métropolitaine comprend les emplois que la
 clause pourrait lui interdire après le contrat, les conditions financières
 annoncées et les questions à poser avant de répondre. Approfondissement
-borné du reliquat H02 de l'[inventaire pilote](../pilote-001-plan-hiring-review.md)
-et du défaut D05 du [bilan PILOTE-003](../pilote-003-verification.md).
+borné du reliquat H02 de l'[inventaire pilote](../pilote-001-annexes/pilote-001-plan-hiring-review.md)
+et du défaut D05 du [bilan PILOTE-003](../pilote-003-annexes/pilote-003-verification.md).
 
 ## Périmètre
 

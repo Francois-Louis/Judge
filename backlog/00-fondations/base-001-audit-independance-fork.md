@@ -45,7 +45,7 @@ Modifier des réglages GitHub, détacher le fork ou supprimer des ressources dis
 
 ## Bilan d'exécution — 15 octobre 2026
 
-- Livrable : [relevé daté de l'audit](base-001-releve-audit.md), avec configuration
+- Livrable : [relevé daté de l'audit](base-001-annexes/base-001-releve-audit.md), avec configuration
   Git effective, hooks, workflow CLA et code tiers épinglé, scripts, skills,
   agents, cookbooks, destinations et risques d'écrasement.
 - `main` suit `origin/main` ; les URL effectives de lecture et de push visent

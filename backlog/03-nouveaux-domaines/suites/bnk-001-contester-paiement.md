@@ -67,7 +67,7 @@ Le skill ne demande jamais de code, de mot de passe ni de numéro complet.
 ## Travail attendu
 
 Créer `qualification-bancaire.md` et `paiements.md` selon le
-[découpage](../dom-004-decoupage-banque.md) et les appliquer :
+[découpage](../dom-004-annexes/dom-004-decoupage-banque.md) et les appliquer :
 
 - opération validée sous tromperie → actions urgentes, fiche et orientation BNK-002 ;
 - litige commercial → orientation DOM-001 ; un mécanisme de réseau est une règle privée à demander au prestataire, pas un droit ;
@@ -98,7 +98,7 @@ France comme information.
 - Sans source lue : fiche et questions, règle réservée.
 
 Exécuter sur fixtures, conserver ressources lues, sorties et erreurs, et
-appliquer les couches BASE-006. La [relecture DOM-004](../dom-004-verification.md)
+appliquer les couches BASE-006. La [relecture DOM-004](../dom-004-annexes/dom-004-verification.md)
 porte sur le cadrage ; ces scénarios restent **attendus, non exécutés**.
 
 ## Hors périmètre
@@ -109,7 +109,7 @@ envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 28–29, 31–32, 34–36, 38–41 de la [matrice](../dom-004-frictions-utilisateurs.md).
+Points 28–29, 31–32, 34–36, 38–41 de la [matrice](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 Pièces supplémentaires : captures et messages d'authentification masqués, refus écrit et preuves invoquées par le prestataire ; heures de l'opposition et des opérations, pays des deux prestataires et devise ; frais directement consécutifs.
 
@@ -123,4 +123,4 @@ Cas supplémentaires **attendus, non exécutés** : code saisi pendant un appel 
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation. Préalable PILOTE-003 satisfait après
-BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-004-decoupage-banque.md).
+BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

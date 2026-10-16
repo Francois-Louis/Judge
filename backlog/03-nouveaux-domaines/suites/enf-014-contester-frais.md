@@ -19,7 +19,7 @@ Une personne qui reçoit une facture ou un décompte prépare une demande motiv�
 - `enforcement-legal/references/contestation-frais.md` — qualification, pièces, modèle de sortie et sources lues (à créer)
 - `enforcement-legal/README.md` — ajout de la tâche livrée
 
-Le paquet et `qualification-acte.md` sont créés par ENF-001. Chaque référence consommée est embarquée dans le paquet ; aucun plugin voisin n'est requis. Appliquer le contrat commun du [découpage](../dom-003-decoupage-execution.md).
+Le paquet et `qualification-acte.md` sont créés par ENF-001. Chaque référence consommée est embarquée dans le paquet ; aucun plugin voisin n'est requis. Appliquer le contrat commun du [découpage](../dom-003-annexes/dom-003-decoupage-execution.md).
 
 ## Pièces et informations nécessaires
 
@@ -57,4 +57,4 @@ Calculateur général de tarifs ou intérêts, acte de saisine, contestation de 
 
 ## État de la proposition — 16 octobre 2026
 
-Issue des points 41–43 de la [matrice des frictions](../dom-003-frictions-utilisateurs.md). Exigence de backlog, sans sélection ni implémentation.
+Issue des points 41–43 de la [matrice des frictions](../dom-003-annexes/dom-003-frictions-utilisateurs.md). Exigence de backlog, sans sélection ni implémentation.

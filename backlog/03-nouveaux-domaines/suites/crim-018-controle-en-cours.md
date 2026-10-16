@@ -13,7 +13,7 @@ dependances: [DOM-002, PILOTE-003, BASE-005, BASE-006, CRIM-001]
 
 Une personne contrôlée obtient un bloc bref d'orientation adapté à la mesure annoncée, puis les questions utiles pour comprendre ce qui lui est demandé.
 
-Besoin issu des points 13–20, 23–28, 76–78 de la [matrice des frictions](../dom-002-frictions-utilisateurs.md). Proposition documentaire, sans implémentation ni sélection.
+Besoin issu des points 13–20, 23–28, 76–78 de la [matrice des frictions](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Proposition documentaire, sans implémentation ni sélection.
 
 ## Périmètre et fichiers
 
@@ -62,4 +62,4 @@ Contestation de régularité, tactiques d'évitement, plainte rédigée, conseil
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issu des frictions utilisateur. Contrat commun : [découpage](../dom-002-decoupage-penal.md). Aucun fichier de plugin créé par cette intégration.
+Ajout issu des frictions utilisateur. Contrat commun : [découpage](../dom-002-annexes/dom-002-decoupage-penal.md). Aucun fichier de plugin créé par cette intégration.

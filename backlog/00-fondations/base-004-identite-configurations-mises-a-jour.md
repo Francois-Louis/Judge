@@ -47,11 +47,11 @@ Renommer les 150 skills, modifier tous les profils ou changer les auteurs origin
 
 ## Bilan d'exécution — 15 octobre 2026
 
-- Livrable : [stratégie d'identité et de configurations](base-004-strategie-identite-configurations.md).
+- Livrable : [stratégie d'identité et de configurations](base-004-annexes/base-004-strategie-identite-configurations.md).
   Nom retenu : `judge-fr-eu` pour le marketplace et les configurations,
   identifiants de plugins préfixés `judge-fr-eu-` pour distinguer les commandes.
   Les manifestes opérationnels n'ont pas encore été renommés.
-- [Inventaire reproductible](base-004-inventaire-references.tsv) : 218 fichiers
+- [Inventaire reproductible](base-004-annexes/base-004-inventaire-references.tsv) : 218 fichiers
   à examiner, dont 187 / 1 150 lignes portant le nom d'origine ; profils,
   caches, dossiers, commandes, chemins du hub et déploiements distingués.
 - Politique : entretien neuf par défaut, aucune reprise automatique du profil

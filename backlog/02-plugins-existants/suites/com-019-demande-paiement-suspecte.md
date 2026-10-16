@@ -13,7 +13,7 @@ dependances: [EXIST-001, PILOTE-003, BASE-005, BASE-006]
 
 Fiche des éléments observés, obligation et commande à vérifier, méthode de contrôle indépendante, pièces à préserver et brouillon ciblé de demande de preuve ou de contestation.
 
-Issue des [frictions sur les formalités d'entreprise](../exist-002-frictions-utilisateurs.md), points 1–7, 9–10, 60, 77, 99–100. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
+Issue des [frictions sur les formalités d'entreprise](../exist-002-annexes/exist-002-frictions-utilisateurs.md), points 1–7, 9–10, 60, 77, 99–100. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
 
 ## Périmètre et fichiers à examiner
 
@@ -61,10 +61,10 @@ Constat définitif d'escroquerie, injonction de ne pas payer un acte authentique
 
 ## État de la proposition
 
-Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../exist-002-frictions-verification.md).
+Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../exist-002-annexes/exist-002-frictions-verification.md).
 
 ## Complément de besoins — 16 octobre 2026
 
-Le point 140 et les encadrés REP de la [matrice marketing](../exist-004-frictions-utilisateurs.md) couvrent aussi les demandes de renouvellement de nom de domaine/référencement ou d’accompagnement REP présentées comme obligatoires. Vérifier émetteur, service réellement souscrit et canal officiel connu ; ne pas confondre offre privée et échéance du registre ou de la filière. Recette attendue : courrier menaçant la visibilité d’un artisan → éléments à vérifier et écrit ciblé, sans déclarer fraude ou absence d’obligation depuis l’apparence seule.
+Le point 140 et les encadrés REP de la [matrice marketing](../exist-004-annexes/exist-004-frictions-utilisateurs.md) couvrent aussi les demandes de renouvellement de nom de domaine/référencement ou d’accompagnement REP présentées comme obligatoires. Vérifier émetteur, service réellement souscrit et canal officiel connu ; ne pas confondre offre privée et échéance du registre ou de la filière. Recette attendue : courrier menaçant la visibilité d’un artisan → éléments à vérifier et écrit ciblé, sans déclarer fraude ou absence d’obligation depuis l’apparence seule.
 
 Ces exigences et scénarios restent proposés, sans règle ou résultat métier validé par cette intégration.

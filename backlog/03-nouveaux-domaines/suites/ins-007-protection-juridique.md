@@ -61,4 +61,4 @@ Analyse du litige, choix d'un avocat, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-005-decoupage-assurance.md).
+[découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).

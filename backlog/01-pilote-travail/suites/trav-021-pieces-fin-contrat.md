@@ -13,7 +13,7 @@ dependances: [PILOTE-001, PILOTE-003, BASE-005, BASE-006]
 
 Tableau des documents présents, incohérents et manquants, dates et sommes recopiées avec leur provenance, puis brouillon de demande ciblé.
 
-Issue des [frictions sur les formalités d'entreprise](../../02-plugins-existants/exist-002-frictions-utilisateurs.md), points 78. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
+Issue des [frictions sur les formalités d'entreprise](../../02-plugins-existants/exist-002-annexes/exist-002-frictions-utilisateurs.md), points 78. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
 
 ## Périmètre et fichiers à examiner
 
@@ -61,4 +61,4 @@ Calcul de paie/indemnités, validation du licenciement, signature ou transmissio
 
 ## État de la proposition
 
-Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../../02-plugins-existants/exist-002-frictions-verification.md).
+Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../../02-plugins-existants/exist-002-annexes/exist-002-frictions-verification.md).

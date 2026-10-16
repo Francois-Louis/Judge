@@ -61,7 +61,7 @@ Procédure judiciaire, envoi.
 
 ## Complément issu des frictions assurance
 
-Sections délais et recours, points 30 et 90 de la [matrice](../dom-005-frictions-utilisateurs.md). Conserver réclamation initiale et preuve de réception, accusé, réponse définitive ou absence de réponse, niveaux internes proposés, statut de consommateur ou professionnel et procédure parallèle éventuelle.
+Sections délais et recours, points 30 et 90 de la [matrice](../dom-005-annexes/dom-005-frictions-utilisateurs.md). Conserver réclamation initiale et preuve de réception, accusé, réponse définitive ou absence de réponse, niveaux internes proposés, statut de consommateur ou professionnel et procédure parallèle éventuelle.
 
 - [ ] M03 — Réponse finale ou silence : vérifier accès, date limite et médiateur compétent sans imposer par principe un deuxième niveau interne.
 - [ ] M04 — Distinguer recommandation ACPR, obligation légale, règles de recevabilité du médiateur et date de suivi interne ; aucun délai universel pour tous les organismes.
@@ -74,4 +74,4 @@ Scénarios M03–M07 **attendus, non exécutés** : réponse finale avant le dé
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-005-decoupage-assurance.md).
+[découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).

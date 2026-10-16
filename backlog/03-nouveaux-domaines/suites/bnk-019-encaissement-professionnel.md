@@ -13,7 +13,7 @@ dependances: [DOM-004, PILOTE-003, BASE-005, BASE-006, BNK-001]
 
 Un commerçant rapproche son contrat d'encaissement des commissions et retenues constatées et prépare une demande de justification ou de libération des fonds.
 
-Besoin issu des frictions 94–95 de la [matrice utilisateur](../dom-004-frictions-utilisateurs.md).
+Besoin issu des frictions 94–95 de la [matrice utilisateur](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -61,4 +61,4 @@ Accès aux transactions, transfert de fonds, contestation de la vente au fond, e
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issue des frictions fournies par l'utilisateur ; sans implémentation ni sélection. Contrat commun : [découpage](../dom-004-decoupage-banque.md).
+Ajout issue des frictions fournies par l'utilisateur ; sans implémentation ni sélection. Contrat commun : [découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

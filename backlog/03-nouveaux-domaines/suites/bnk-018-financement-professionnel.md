@@ -13,7 +13,7 @@ dependances: [DOM-004, PILOTE-003, BASE-005, BASE-006, BNK-005]
 
 Un indépendant ou dirigeant confronté à une rupture de trésorerie prépare un dossier de demande à la banque et identifie le canal de médiation du crédit pertinent.
 
-Besoin issu des frictions 91–93, 96, 99 de la [matrice utilisateur](../dom-004-frictions-utilisateurs.md).
+Besoin issu des frictions 91–93, 96, 99 de la [matrice utilisateur](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -61,4 +61,4 @@ Négociation exécutée, financement garanti, procédure collective, plan de res
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issue des frictions fournies par l'utilisateur ; sans implémentation ni sélection. Contrat commun : [découpage](../dom-004-decoupage-banque.md).
+Ajout issue des frictions fournies par l'utilisateur ; sans implémentation ni sélection. Contrat commun : [découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

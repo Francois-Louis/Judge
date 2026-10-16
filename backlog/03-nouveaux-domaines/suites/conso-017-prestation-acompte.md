@@ -41,7 +41,7 @@ Fiche des engagements et de l’exécution ; qualification conditionnelle du ver
 
 Distinguer accord sur le devis, simple estimation, arrhes et acompte, sans déduire leur qualification du seul libellé ni promettre restitution ou doublement. Examiner preuve de commande des suppléments, facturation de prestations absentes et portée d’une annulation. Un diagnostic alarmiste appelle un second avis technique, sans expertise du skill. Travaux et dépannage à domicile appartiennent à DOM-015, véhicules à DOM-023 ; sans plugin sectoriel livré, CONSO-014 applique seulement les règles générales et annonce les règles manquantes. Rétractation ou paiement hors établissement : CONSO-003 et CONSO-020 selon la question. La tâche reste bornée à une réclamation contractuelle.
 
-Appliquer le contrat commun du [découpage](../dom-001-decoupage-consommation.md),
+Appliquer le contrat commun du [découpage](../dom-001-annexes/dom-001-decoupage-consommation.md),
 la méthode locale BASE-005 et le protocole d’orientation USAGE-001.
 
 ## Références métier et sources à rechercher
@@ -73,5 +73,5 @@ Expertise technique, règlement d’un chantier, régime sectoriel, chiffrage d�
 
 ## Origine et état — 16 octobre 2026
 
-Issue des [155 frictions utilisateur](../dom-001-frictions-utilisateurs.md),
+Issue des [155 frictions utilisateur](../dom-001-annexes/dom-001-frictions-utilisateurs.md),
 sans implémentation ni sélection. Préalable PILOTE-003 satisfait après BASE-011.

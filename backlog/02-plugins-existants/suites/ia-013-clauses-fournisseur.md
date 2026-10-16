@@ -54,7 +54,7 @@ partiel utile, sans règle ni date de consultation inventées.
 
 ## Complément des frictions IA
 
-Points 43–46 de la [matrice](../exist-005-frictions-utilisateurs.md) : borner chaque passe à un écart, par exemple réutilisation des données, transfert de responsabilité, préservation ciblée de traces ou changement de modèle. Clause et portée d'origine, ajout minimal, cohérence contractuelle et risque résiduel restent visibles. Pour une mise à jour, distinguer préavis à négocier, test souhaité et capacité de retour effectivement documentée ; aucune faculté technique ni obligation générale de préavis inventée. Pas de conservation illimitée de conversations au nom de la preuve.
+Points 43–46 de la [matrice](../exist-005-annexes/exist-005-frictions-utilisateurs.md) : borner chaque passe à un écart, par exemple réutilisation des données, transfert de responsabilité, préservation ciblée de traces ou changement de modèle. Clause et portée d'origine, ajout minimal, cohérence contractuelle et risque résiduel restent visibles. Pour une mise à jour, distinguer préavis à négocier, test souhaité et capacité de retour effectivement documentée ; aucune faculté technique ni obligation générale de préavis inventée. Pas de conservation illimitée de conversations au nom de la preuve.
 
 ## Critères d'acceptation
 
@@ -74,7 +74,7 @@ Points 43–46 de la [matrice](../exist-005-frictions-utilisateurs.md) : borner 
 Recettes futures **non exécutées**. Lors du lot sélectionné, conserver fixtures,
 ressources lues, sorties et erreurs ; appliquer BASE-006 : structure, paquet
 détaché, client, résultat métier et compréhension par lecteur non juriste.
-La [relecture du cadrage](../exist-005-verification.md) est distincte de cette recette.
+La [relecture du cadrage](../exist-005-annexes/exist-005-verification.md) est distincte de cette recette.
 
 ## Hors périmètre
 

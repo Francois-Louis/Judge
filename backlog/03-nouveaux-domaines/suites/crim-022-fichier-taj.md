@@ -13,7 +13,7 @@ dependances: [DOM-002, PILOTE-003, BASE-005, BASE-006, CRIM-001]
 
 Une personne distingue TAJ et casier judiciaire, identifie sa demande d'accès, de rectification ou d'effacement, et prépare un dossier adapté sans promesse de suppression.
 
-Besoin issu des points 91–93 de la [matrice des frictions](../dom-002-frictions-utilisateurs.md). Proposition documentaire, sans implémentation ni sélection.
+Besoin issu des points 91–93 de la [matrice des frictions](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Proposition documentaire, sans implémentation ni sélection.
 
 ## Périmètre et fichiers
 
@@ -62,4 +62,4 @@ Requête contentieuse rédigée, garantie d'effacement ou de recrutement, autres
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issu des frictions utilisateur. Contrat commun : [découpage](../dom-002-decoupage-penal.md). Aucun fichier de plugin créé par cette intégration.
+Ajout issu des frictions utilisateur. Contrat commun : [découpage](../dom-002-annexes/dom-002-decoupage-penal.md). Aucun fichier de plugin créé par cette intégration.

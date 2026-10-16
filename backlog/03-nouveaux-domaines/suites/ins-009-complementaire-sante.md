@@ -62,7 +62,7 @@ Prestations de sécurité sociale, envoi.
 
 ## Complément issu des frictions assurance
 
-Points 12–13 et 53–57 de la [matrice](../dom-005-frictions-utilisateurs.md).
+Points 12–13 et 53–57 de la [matrice](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 - [ ] S03 — Décompte : séparer facture, base de remboursement, part obligatoire, complément, forfait, plafond et période ; un pourcentage de base n'est pas un pourcentage de facture.
 - [ ] S04 — Prévoyance : distinguer effet, carence, franchise temporelle, définition d'incapacité et invalidité contractuelle ; la décision de caisse ne suffit pas à établir la garantie privée.
@@ -73,4 +73,4 @@ Scénarios S03–S05 **attendus, non exécutés** : reste à charge malgré un p
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-005-decoupage-assurance.md).
+[découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).

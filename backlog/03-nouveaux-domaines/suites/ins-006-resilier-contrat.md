@@ -60,7 +60,7 @@ Souscription d'un nouveau contrat, envoi.
 
 ## Complément issu des frictions assurance
 
-Points 51, 73–77 et 90 de la [matrice](../dom-005-frictions-utilisateurs.md).
+Points 51, 73–77 et 90 de la [matrice](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 - [ ] T03 — Identifier régime et statut avant de proposer échéance, reconduction, infra-annuelle ou changement de situation ; ne pas généraliser les règles du particulier au professionnel.
 - [ ] T04 — Résiliation électronique : documenter parcours et preuve de demande ; vérifier champ de la fonctionnalité selon contrat et date, sans règle universelle.
@@ -73,4 +73,4 @@ Scénarios T03–T07 **attendus, non exécutés** : résiliation infra-annuelle 
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-005-decoupage-assurance.md).
+[découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).

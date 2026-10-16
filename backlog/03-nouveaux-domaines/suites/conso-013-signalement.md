@@ -60,7 +60,7 @@ Dépôt du signalement, plainte, publication.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 8–12, 14–15, 83–84, 120, 123, 133–135, 152 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points 8–12, 14–15, 83–84, 120, 123, 133–135, 152 de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 Ajouter au dossier captures datées, prix successifs, parcours de résiliation et coordonnées du faux SAV allégué. Un signalement décrit les faits, distingue la déclaration de la preuve et ne conclut pas à l’infraction. Expliquer rôles distincts de DGCCRF, SignalConso, INC, association, médiateur, conciliateur et juge à partir des services effectivement vérifiés ; ne pas promettre de traitement individuel par un organisme d’information.
@@ -76,4 +76,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-001, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-001-decoupage-consommation.md).
+[découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

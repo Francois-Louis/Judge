@@ -13,7 +13,7 @@ dependances: [PILOTE-001, PILOTE-003, BASE-005, BASE-006]
 
 Tableau des données concernées, chronologie, auteur/destinataire, motifs, pièces manquantes et brouillon de question au déclarant ou à l'organisme ; délai réservé tant que non vérifié.
 
-Issue des [frictions sur les formalités d'entreprise](../../02-plugins-existants/exist-002-frictions-utilisateurs.md), points 74–75, 91–93, 98 pour orientation employeur. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
+Issue des [frictions sur les formalités d'entreprise](../../02-plugins-existants/exist-002-annexes/exist-002-frictions-utilisateurs.md), points 74–75, 91–93, 98 pour orientation employeur. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
 
 ## Périmètre et fichiers à examiner
 
@@ -61,4 +61,4 @@ Moteur de paie, dépôt ou correction de DSN, chiffrage des cotisations, rédact
 
 ## État de la proposition
 
-Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../../02-plugins-existants/exist-002-frictions-verification.md).
+Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../../02-plugins-existants/exist-002-annexes/exist-002-frictions-verification.md).

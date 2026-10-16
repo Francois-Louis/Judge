@@ -72,7 +72,7 @@ Exécuter ces scénarios sur fixtures lors du futur lot et conserver ressources
 lues, sorties et erreurs. Appliquer BASE-006 : structure, paquet détaché,
 client, résultat métier et compréhension par lecteur non juriste. Pour le
 cookbook, ajouter schémas, lint et dry-run ; ne pas les assimiler au runtime.
-La [relecture EXIST-004](../exist-004-verification.md) porte sur le cadrage ;
+La [relecture EXIST-004](../exist-004-annexes/exist-004-verification.md) porte sur le cadrage ;
 ces scénarios d'implémentation restent **attendus, non exécutés**.
 
 ## Hors périmètre
@@ -88,6 +88,6 @@ connexion, envoi, déploiement ou automatisation France/UE n'est livré ici.
 
 ## Complément de besoins — 16 octobre 2026
 
-Les points 20 à 35, 44, 50/51, 66 et 75 de la [matrice marketing](../exist-004-frictions-utilisateurs.md) précisent avis, affiliation, cadeaux, concours, engagement artificiel et transparence des publicités natives. Lire les modalités réelles de collecte et modération des avis ; un tri ou retrait justifié ne prouve pas une fraude. Distinguer envoi spontané sans engagement et avantage contre publication. Examiner séparément mentions « Images retouchées »/« Images virtuelles » selon le champ français et obligations IA via IA-005 ; ne pas imposer une mention à toute retouche ou toute image IA. Les secteurs interdits/réglementés, mineurs et enfants créateurs nécessitent des faits et sources ciblés ; la promotion des jeux d’argent hors banque reste à cadrer. Le contrat est chez COM-021 et les droits chez PI-031. Recettes attendues supplémentaires : cadeau spontané sans accord → qualification ouverte ; avis défavorable modéré avec motif → faits et méthode, sans fraude présumée.
+Les points 20 à 35, 44, 50/51, 66 et 75 de la [matrice marketing](../exist-004-annexes/exist-004-frictions-utilisateurs.md) précisent avis, affiliation, cadeaux, concours, engagement artificiel et transparence des publicités natives. Lire les modalités réelles de collecte et modération des avis ; un tri ou retrait justifié ne prouve pas une fraude. Distinguer envoi spontané sans engagement et avantage contre publication. Examiner séparément mentions « Images retouchées »/« Images virtuelles » selon le champ français et obligations IA via IA-005 ; ne pas imposer une mention à toute retouche ou toute image IA. Les secteurs interdits/réglementés, mineurs et enfants créateurs nécessitent des faits et sources ciblés ; la promotion des jeux d’argent hors banque reste à cadrer. Le contrat est chez COM-021 et les droits chez PI-031. Recettes attendues supplémentaires : cadeau spontané sans accord → qualification ouverte ; avis défavorable modéré avec motif → faits et méthode, sans fraude présumée.
 
 Ces exigences et scénarios restent proposés, sans règle ou résultat métier validé par cette intégration.

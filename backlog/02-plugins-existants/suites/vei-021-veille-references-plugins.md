@@ -74,4 +74,4 @@ livrés, conclusion sur l'effet juridique d'un texte.
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation. Contrat commun :
-[découpage EXIST-007](../exist-007-decoupage-veille.md).
+[découpage EXIST-007](../exist-007-annexes/exist-007-decoupage-veille.md).

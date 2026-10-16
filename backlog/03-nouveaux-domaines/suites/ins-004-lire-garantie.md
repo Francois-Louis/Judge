@@ -62,7 +62,7 @@ Comparaison d'offres, conseil de souscription, envoi.
 
 ## Complément issu des frictions assurance
 
-Points 1, 3–8, 12–14, 31–36, 41–45, 58–59 et 70–72 de la [matrice](../dom-005-frictions-utilisateurs.md).
+Points 1, 3–8, 12–14, 31–36, 41–45, 58–59 et 70–72 de la [matrice](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 - [ ] L03 — Produire une grille garantie/définition/condition/exclusion/option/effet/carence/franchise/plafond/sous-plafond, avec unité, période et référence de chaque clause ; comparer avenants et conditions sans résoudre une contradiction par intuition.
 - [ ] L04 — Habitation : distinguer effraction, dispositifs de sécurité, inhabitation, dépendances et objets précieux ; absence de clause ou de preuve de valeur reste explicite.
@@ -75,4 +75,4 @@ Scénarios L03–L07 **attendus, non exécutés** : plafond mobilier et bijoux d
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-005-decoupage-assurance.md).
+[découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).

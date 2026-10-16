@@ -61,7 +61,7 @@ Succession, fiscalité, conseil de placement, envoi.
 
 ## Complément issu des frictions bancaires
 
-Point 85 de la [matrice utilisateur](../dom-004-frictions-utilisateurs.md).
+Point 85 de la [matrice utilisateur](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 - [ ] V03 — Capital non versé malgré les pièces remises : frise connaissance du décès/demande de pièces/réception/paiement ; demande motivée de versement et d'intérêts éventuels selon les sources lues, sans calcul.
 - [ ] V04 — Pièce manquante ou discutée : la sortie distingue complétude, réception et qualité du bénéficiaire ; aucun délai de paiement déclenché par une date supposée.
@@ -75,7 +75,7 @@ DOM-016.
 
 ## Complément issu des frictions assurance
 
-Point 69 de la [matrice](../dom-005-frictions-utilisateurs.md).
+Point 69 de la [matrice](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 - [ ] V05 — Contrat inconnu : distinguer recherche AGIRA et recherche Ciclade selon détenteur actuel et situation, avec justificatifs et qualité à vérifier ; ne pas présumer que la qualité d'héritier prouve celle de bénéficiaire.
 - [ ] V06 — Résultat de recherche : contrat identifié ne signifie pas capital immédiatement dû ; conserver identification, qualité, demande de pièces et réception avant toute échéance.
@@ -85,4 +85,4 @@ Scénarios V05/V06 **attendus, non exécutés** : proche sans référence de con
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-005-decoupage-assurance.md).
+[découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).

@@ -65,7 +65,7 @@ Contrat d'assurance, conseil d'achat, comparaison de prix.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 58, 73, 75, 80 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points 58, 73, 75, 80 de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 Ajouter à la fiche un comparatif des prestations réellement supplémentaires : périodes, risques, exclusions, frais, interlocuteur et prix. Une durée commerciale annoncée n’épuise pas la garantie légale. Contrat d’assurance ou assistance distincte : identité du garant et orientation DOM-005, sans qualification d’après le seul nom marketing. La vente prétendument indispensable de l’extension peut faire l’objet d’un signalement séparé (CONSO-013).
@@ -79,4 +79,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-001, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-001-decoupage-consommation.md).
+[découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

@@ -66,7 +66,7 @@ Saisine d'une juridiction, traduction, recouvrement à l'étranger.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 1, 4, 51, 143 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points 1, 4, 51, 143 de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 Identifier pays réel, preuve d’établissement et activité dirigée, sans déduire la loi du nom de domaine. Vérifier périmètre géographique et personnel du CEC et statut des services européens à la date de la démarche. L’annonce de fermeture de la plateforme ODR/RLL dans le guide reste une piste à ouvrir ; aucun ancien lien de CGV n’est proposé comme service actuel sans contrôle. Les limites hors UE et celles du recouvrement sont annoncées.
@@ -79,4 +79,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-001, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-001-decoupage-consommation.md).
+[découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

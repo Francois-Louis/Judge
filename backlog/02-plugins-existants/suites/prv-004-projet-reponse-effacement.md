@@ -35,8 +35,8 @@ Fiche PRV-002, catégories/systèmes, durées et obligations invoquées, preuves
 Examiner motifs et limites par catégorie/finalité ; ni litige annoncé ni obligation fiscale générique ne justifie tout conserver. Rechercher les notifications aux destinataires, durées et accès résiduels. Distinguer effacement proposé, décidé, demandé, attesté et traitement des sauvegardes/restaurations. Une case cochée ne permet pas d'écrire nous avons supprimé. Calendrier PRV-002, sans fermeture systématique du compte.
 
 Charger `privacy-legal/references/shared/research-citation-method.md` depuis
-le paquet installé. Appliquer le [contrat commun](../exist-003-decoupage-donnees.md)
-et les [dépendances inventoriées](../exist-003-inventaire-donnees.md).
+le paquet installé. Appliquer le [contrat commun](../exist-003-annexes/exist-003-decoupage-donnees.md)
+et les [dépendances inventoriées](../exist-003-annexes/exist-003-inventaire-donnees.md).
 Corriger les seuls blocs setup/routage de cette tâche ; PRV-019/020/021 ne
 sont pas des préalables universels. Sans profil ni connecteur, une pièce
 fournie permet une sortie ponctuelle utile ; réserver les seules conclusions
@@ -72,7 +72,7 @@ recommandation, pièce, fait déclaré et préférence.
 Scénarios attendus, non exécutés par EXIST-003. Dans le futur lot, conserver
 sorties et ressources lues et suivre BASE-006 : structure, paquet détaché,
 client, résultat métier et compréhension. La
-[relecture de cadrage](../exist-003-verification.md) ne remplace pas cette recette.
+[relecture de cadrage](../exist-003-annexes/exist-003-verification.md) ne remplace pas cette recette.
 
 ## Hors périmètre
 

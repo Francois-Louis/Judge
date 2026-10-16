@@ -67,7 +67,7 @@ marché, publication.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points clauses et parcours de vente, en miroir des points 17–19, 23, 33, 41–50, 58–75, 136–138 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points clauses et parcours de vente, en miroir des points 17–19, 23, 33, 41–50, 58–75, 136–138 de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 La revue des CGV pour une TPE rapproche clauses et parcours effectivement fourni : suppléments, assurance colis, renvoi au transporteur, réserve de livraison, formulaire imposé, avoir, port et retour, exclusion de garantie et médiateur. Séparer défaut de pièce, écart apparent et règle sourcée. Les interfaces peuvent être des pièces de vérification, sans étendre la tâche à l’audit global de publicité (PDT). La demande individuelle d’un acheteur garde son propriétaire CONSO, et les conditions de la plateforme restent hors périmètre.
@@ -80,4 +80,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-001, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-001-decoupage-consommation.md).
+[découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

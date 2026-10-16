@@ -13,7 +13,7 @@ dependances: [EXIST-001, PILOTE-003, BASE-005, BASE-006]
 
 Tableau prestations/coûts/durée/reconduction, portée des pouvoirs, conditions de sortie établies ou réservées, pièces et brouillon de questions ou demande ciblée.
 
-Issue des [frictions sur les formalités d'entreprise](../exist-002-frictions-utilisateurs.md), points 4, 8, 19, 32, 60, 100. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
+Issue des [frictions sur les formalités d'entreprise](../exist-002-annexes/exist-002-frictions-utilisateurs.md), points 4, 8, 19, 32, 60, 100. Cette proposition du 16 octobre 2026 ne lance aucune implémentation.
 
 ## Périmètre et fichiers à examiner
 
@@ -61,4 +61,4 @@ Résiliation ou envoi effectif, changement d'adresse ou d'accès, audit de forma
 
 ## État de la proposition
 
-Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../exist-002-frictions-verification.md).
+Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../exist-002-annexes/exist-002-frictions-verification.md).

@@ -19,7 +19,7 @@ Résultat : Alertes ciblées avec fondement, propriétaire de l'action, preuve, 
 
 Plugin principal : `employment-legal`. Entrées à examiner : leave-tracker ; agents/leave-tracker.md.
 Fichiers source sous `employment-legal/skills/`, profil et références associées,
-avec les dépendances décrites dans l'[inventaire PILOTE-001](../pilote-001-releve-inventaire.md).
+avec les dépendances décrites dans l'[inventaire PILOTE-001](../pilote-001-annexes/pilote-001-releve-inventaire.md).
 Les fichiers à modifier seront arrêtés après lecture ; aucun fichier métier
 n'est adapté par la présente proposition.
 
@@ -32,7 +32,7 @@ transfrontalier compris), dates et versions. Orienter ce qui sort de la tranche.
 
 Remplacer compteurs FMLA, épuisement ADA/USERRA et exclusions PTO ; rechercher les obligations françaises pertinentes au retour ; distinguer prévision et délai calculable.
 
-Traiter aussi D04 du [bilan PILOTE-003](../pilote-003-verification.md) :
+Traiter aussi D04 du [bilan PILOTE-003](../pilote-003-annexes/pilote-003-verification.md) :
 l'agent livré n'a aucun outil d'exécution Python dans sa liste alors que la
 frontière de stockage exige le helper. Arrêter les capacités minimales du
 parcours avant activation, puis vérifier l'appel réel du helper sur registre

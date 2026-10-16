@@ -63,7 +63,7 @@ toutes les demandes de la matrice dans cette story.
 
 ## Bilan d'exécution — 15 octobre 2026
 
-- Support retenu : [protocole documentaire](usage-001-protocole-orientation.md)
+- Support retenu : [protocole documentaire](usage-001-annexes/usage-001-protocole-orientation.md)
   dans le backlog et [index des 42 situations](../usages-quotidiens.md) enrichi
   avec domaine principal et frontière. La correspondance vers les plugins
   reste celle de BASE-003 ; les noms proposés ne deviennent pas disponibles.
@@ -72,7 +72,7 @@ toutes les demandes de la matrice dans cette story.
   les besoins d'accessibilité et les limites de collecte, stockage et envoi.
   Il demande d'examiner les engagements des deux parties et la provenance des
   faits, sans présumer un abus ni une issue favorable.
-- [Relecture sur cas fictifs](usage-001-verification.md) : les trois récits
+- [Relecture sur cas fictifs](usage-001-annexes/usage-001-verification.md) : les trois récits
   demandés et leurs variantes distinguent facture, dette, décision et travaux.
   Le cas achat/paiement sépare vendeur et prestataire de paiement ; les limites
   aidant, retraite, agriculture, statut public, langue et manque de pièces

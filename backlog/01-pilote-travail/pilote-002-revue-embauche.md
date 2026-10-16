@@ -15,10 +15,10 @@ Livrer une première adaptation verticale et relisible de `employment-legal:hiri
 
 ## Points de départ
 
-- [Inventaire et dépendances PILOTE-001](pilote-001-releve-inventaire.md).
-- [Sections à reprendre et scénarios de contrôle](pilote-001-plan-hiring-review.md).
-- [Comparaison USAGE-002 et premier lot proposé](../05-usages-quotidiens/usage-002-comparaison-priorites.md).
-- [Protocole d'orientation USAGE-001, version 1.0.0](../05-usages-quotidiens/usage-001-protocole-orientation.md) : formes de restitution, pièces limitées, absence d'envoi sans autorisation.
+- [Inventaire et dépendances PILOTE-001](pilote-001-annexes/pilote-001-releve-inventaire.md).
+- [Sections à reprendre et scénarios de contrôle](pilote-001-annexes/pilote-001-plan-hiring-review.md).
+- [Comparaison USAGE-002 et premier lot proposé](../05-usages-quotidiens/usage-002-annexes/usage-002-comparaison-priorites.md).
+- [Protocole d'orientation USAGE-001, version 1.0.0](../05-usages-quotidiens/usage-001-annexes/usage-001-protocole-orientation.md) : formes de restitution, pièces limitées, absence d'envoi sans autorisation.
 - [employment-legal/skills/hiring-review/SKILL.md](../../employment-legal/skills/hiring-review/SKILL.md)
 - [employment-legal/CLAUDE.md](../../employment-legal/CLAUDE.md)
 - [employment-legal/README.md](../../employment-legal/README.md)
@@ -58,14 +58,14 @@ Plugin `0.2.0`, skill réécrit, références métier embarquées, chemin court
 candidat et profil ajustés uniquement pour ce parcours. Les cases cochées
 correspondent à l'implémentation et à la relecture rédactionnelle ; elles ne
 certifient pas une exécution dans un client installé. Voir le
-[bilan détaillé et contrôles restants](pilote-002-verification.md), les
-[pièces fictives](pilote-002-pieces-fictives.md), les
-[sorties de relecture](pilote-002-sorties-relecture.md), les
-[sources réellement lues](pilote-002-sources-lues.json) et les
-[preuves techniques](pilote-002-controles.json).
+[bilan détaillé et contrôles restants](pilote-002-annexes/pilote-002-verification.md), les
+[pièces fictives](pilote-002-annexes/pilote-002-pieces-fictives.md), les
+[sorties de relecture](pilote-002-annexes/pilote-002-sorties-relecture.md), les
+[sources réellement lues](pilote-002-annexes/pilote-002-sources-lues.json) et les
+[preuves techniques](pilote-002-annexes/pilote-002-controles.json).
 
 La story reste `a-verifier` : schémas officiels désormais passés
-([reprise](pilote-003-schema-cli.json)), mais exécution isolée non réalisée
+([reprise](pilote-003-annexes/pilote-003-schema-cli.json)), mais exécution isolée non réalisée
 (aucun client de test authentifié), nominal complet avec textes collectifs à compléter,
 scénarios complémentaires et essai avec participant réel à effectuer.
 Les conclusions dépendant de décisions ou de textes non lus restent réservées.
@@ -77,7 +77,7 @@ Licenciement, paie complète, congés, enquête interne, droit de la fonction pu
 ## Recette en client — 16 octobre 2026
 
 [BASE-011](../00-fondations/base-011-recette-client-isole.md) : H02–H10 et H13–H16 exécutés dans un client isolé connecté, tous
-réussis ; sorties, outils et sources lues dans les [résultats](../00-fondations/base-011-resultats.json). Le critère sur
+réussis ; sorties, outils et sources lues dans les [résultats](../00-fondations/base-011-annexes/base-011-resultats.json). Le critère sur
 les règles françaises est coché avec sa réserve. La story reste
 `a-verifier` : nominal H01 complet (D02) non exécuté, aucune reformulation
 par un lecteur réel (réponses de fixture seulement).

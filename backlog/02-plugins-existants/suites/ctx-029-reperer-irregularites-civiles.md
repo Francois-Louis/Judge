@@ -91,4 +91,4 @@ manœuvres dilatoires, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation. Contrat commun :
-[découpage EXIST-006](../exist-006-decoupage-contentieux.md).
+[découpage EXIST-006](../exist-006-annexes/exist-006-decoupage-contentieux.md).

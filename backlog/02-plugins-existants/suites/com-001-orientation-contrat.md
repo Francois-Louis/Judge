@@ -37,8 +37,8 @@ Conserver le repérage des titres puis lire la substance nécessaire à la quali
 
 Charger `commercial-legal/references/shared/research-citation-method.md` depuis
 le paquet installé ; pour le cookbook, résoudre la copie du plugin embarqué.
-Suivre le [contrat commun du découpage](../exist-001-decoupage-commercial.md)
-et les [dépendances de contenu](../exist-001-inventaire-commercial.md).
+Suivre le [contrat commun du découpage](../exist-001-annexes/exist-001-decoupage-commercial.md)
+et les [dépendances de contenu](../exist-001-annexes/exist-001-inventaire-commercial.md).
 Corriger les seuls blocs setup/profil qui empêchent ce résultat, sans imposer
 COM-013 à une lecture ponctuelle. Aucun abonnement ni connecteur obligatoire ;
 nommer les accès optionnels et fournir la sortie partielle utile s'ils manquent.
@@ -84,10 +84,10 @@ Tranche sélectionnée par l'utilisateur : « implémente la story COM-001 ».
 l'orientation, sans modifier les références communes. Version commerciale
 `0.2.0`, marketplace synchronisé. Aucune autre COM adaptée ou lancée.
 
-Voir le [bilan par couche](com-001-verification.md), les
-[pièces fictives](com-001-recette/pieces-fictives.md), les
-[sorties de relecture du rédacteur](com-001-recette/sorties-relecture.md) et les
-[preuves techniques](com-001-recette/resultats-paquet.json).
+Voir le [bilan par couche](com-001-annexes/com-001-verification.md), les
+[pièces fictives](com-001-annexes/pieces-fictives.md), les
+[sorties de relecture du rédacteur](com-001-annexes/sorties-relecture.md) et les
+[preuves techniques](com-001-annexes/resultats-paquet.json).
 
 Schémas officiels et installation locale jetable réussis ; contrôle statique
 incomplet (42 points de relecture, aucun défaut de structure). 14 tests BASE-008

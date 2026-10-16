@@ -13,7 +13,7 @@ dependances: [DOM-004, PILOTE-003, BASE-005, BASE-006, BNK-001]
 
 Un titulaire qui change de banque obtient le suivi des opérations transférées, des anomalies et des demandes de correction, sans confondre mobilité et clôture.
 
-Besoin issu des frictions 21, 47–49 de la [matrice utilisateur](../dom-004-frictions-utilisateurs.md).
+Besoin issu des frictions 21, 47–49 de la [matrice utilisateur](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -61,4 +61,4 @@ Changement de banque exécuté, transfert de PEA, clôture faite pour la personn
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issue des frictions fournies par l'utilisateur ; sans implémentation ni sélection. Contrat commun : [découpage](../dom-004-decoupage-banque.md).
+Ajout issue des frictions fournies par l'utilisateur ; sans implémentation ni sélection. Contrat commun : [découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

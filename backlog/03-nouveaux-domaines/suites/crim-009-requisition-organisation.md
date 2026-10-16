@@ -65,4 +65,4 @@ l'inventaire, transmission.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-002-decoupage-penal.md).
+[découpage](../dom-002-annexes/dom-002-decoupage-penal.md).

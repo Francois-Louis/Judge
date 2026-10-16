@@ -70,7 +70,7 @@ Dépôt de la plainte, constitution de partie civile, chiffrage du préjudice
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 1–12 et section 11 de la [matrice](../dom-002-frictions-utilisateurs.md). Recueillir lieu et date de tentative, motif exact rapporté du refus, document demandé, plainte ou main courante proposée, absence de certificat ou de preuve, auteur inconnu, PV signé ou non et copie/récépissé disponibles. Ne pas bloquer la préparation sur une preuve encore absente.
+Points 1–12 et section 11 de la [matrice](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Recueillir lieu et date de tentative, motif exact rapporté du refus, document demandé, plainte ou main courante proposée, absence de certificat ou de preuve, auteur inconnu, PV signé ou non et copie/récépissé disponibles. Ne pas bloquer la préparation sur une preuve encore absente.
 
 Compléter la sortie par un brouillon factuel de plainte au procureur lorsque le dépôt est bloqué : faits, pièces disponibles, pièces à venir, tentative et objectif. Aucun dépôt ni qualification définitive. Les allégations anciennes sont consignées sans prescription calculée. Distinguer contenu contesté d'un PV, correction sollicitée et récit complémentaire daté.
 
@@ -83,4 +83,4 @@ Scénarios **attendus, non exécutés** : plainte contre X sans certificat refus
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-002-decoupage-penal.md).
+[découpage](../dom-002-annexes/dom-002-decoupage-penal.md).

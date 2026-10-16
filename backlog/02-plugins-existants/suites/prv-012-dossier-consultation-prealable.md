@@ -34,8 +34,8 @@ Projet PRV-011, risques résiduels/mesures, avis/décisions, responsable, autori
 Rechercher conditions propres à consultation préalable, distinguer autorisation sectorielle, avis volontaire et consultation RGPD. Rapprocher pièces, données minimales, avis DPO et risque restant ; pas de dépôt complet fictif. Délais de l'autorité et déclencheur distincts de DSAR. Ni santé ni absence de DPO ne déclenchent seuls une obligation inventée. Produire fiche/annexes proposées, sans envoi ni approbation.
 
 Charger `privacy-legal/references/shared/research-citation-method.md` depuis
-le paquet installé. Appliquer le [contrat commun](../exist-003-decoupage-donnees.md)
-et les [dépendances inventoriées](../exist-003-inventaire-donnees.md).
+le paquet installé. Appliquer le [contrat commun](../exist-003-annexes/exist-003-decoupage-donnees.md)
+et les [dépendances inventoriées](../exist-003-annexes/exist-003-inventaire-donnees.md).
 Corriger les seuls blocs setup/routage de cette tâche ; PRV-019/020/021 ne
 sont pas des préalables universels. Sans profil ni connecteur, une pièce
 fournie permet une sortie ponctuelle utile ; réserver les seules conclusions
@@ -71,7 +71,7 @@ recommandation, pièce, fait déclaré et préférence.
 Scénarios attendus, non exécutés par EXIST-003. Dans le futur lot, conserver
 sorties et ressources lues et suivre BASE-006 : structure, paquet détaché,
 client, résultat métier et compréhension. La
-[relecture de cadrage](../exist-003-verification.md) ne remplace pas cette recette.
+[relecture de cadrage](../exist-003-annexes/exist-003-verification.md) ne remplace pas cette recette.
 
 ## Hors périmètre
 

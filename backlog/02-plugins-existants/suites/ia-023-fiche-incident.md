@@ -11,7 +11,7 @@ dependances: [EXIST-005, PILOTE-003, BASE-005, BASE-006]
 
 ## Objectif et résultat attendu
 
-Une petite organisation obtient une fiche d'incident documentée : faits, chronologie, personnes exposées, responsable de suivi, traces utiles et mesures à décider. Points 15, 18, 38, 45–47 de la [matrice des frictions](../exist-005-frictions-utilisateurs.md).
+Une petite organisation obtient une fiche d'incident documentée : faits, chronologie, personnes exposées, responsable de suivi, traces utiles et mesures à décider. Points 15, 18, 38, 45–47 de la [matrice des frictions](../exist-005-annexes/exist-005-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -21,7 +21,7 @@ Plugin principal : `ai-governance-legal` (`judge-fr-eu-ai-governance-legal`).
 - `ai-governance-legal/references/fiche-incident.md` : référence locale à créer.
 - README et seuls blocs de routage concernés de CLAUDE.md ; liens documentaires avec ai-policy, ai-inventory et ai-policy-audit.
 
-Appliquer le [contrat commun IA](../exist-005-decoupage-ia.md), méthode BASE-005 embarquée, isolation BASE-008 et recette BASE-006. Pas de profil, connecteur, registre existant ni exécution d'IA-022 imposés. Lors de l'implémentation : références locales, métadonnées synchronisées si modifiées et NOTICE racine/local.
+Appliquer le [contrat commun IA](../exist-005-annexes/exist-005-decoupage-ia.md), méthode BASE-005 embarquée, isolation BASE-008 et recette BASE-006. Pas de profil, connecteur, registre existant ni exécution d'IA-022 imposés. Lors de l'implémentation : références locales, métadonnées synchronisées si modifiées et NOTICE racine/local.
 
 ## Entrées nécessaires
 
@@ -53,7 +53,7 @@ Règlement IA et actes/compétences officiels, RGPD/LIL et doctrine CNIL selon f
 - Cas limite : document sensible collé dans un outil inconnu, date et conservation incertaines ; questions de vérification, minimisation et relais privacy sans délai de notification inventé.
 - Changement de modèle suivi d'une décision différente : distinguer succession temporelle et causalité prouvée.
 
-Recette future BASE-006 : sorties, paquet détaché, client et compréhension ; [contrôles de l'intégration](../exist-005-frictions-verification.md).
+Recette future BASE-006 : sorties, paquet détaché, client et compréhension ; [contrôles de l'intégration](../exist-005-annexes/exist-005-frictions-verification.md).
 
 ## Hors périmètre
 

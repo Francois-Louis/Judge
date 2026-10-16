@@ -66,7 +66,7 @@ fond, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 49–58 et 82–87 de la [matrice](../dom-002-frictions-utilisateurs.md). Ajouter chronologie avant/pendant/après, lieu et déplacements, sommations entendues ou non, conditions de sortie d'un encerclement, durée déclarée, unités, identifiants, armes alléguées et blessures. CRS et gendarmes mobiles sont distingués dans le choix du canal.
+Points 49–58 et 82–87 de la [matrice](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Ajouter chronologie avant/pendant/après, lieu et déplacements, sommations entendues ou non, conditions de sortie d'un encerclement, durée déclarée, unités, identifiants, armes alléguées et blessures. CRS et gendarmes mobiles sont distingués dans le choix du canal.
 
 - [ ] D03 — Usage de force, dispersion ou nasse : relever contexte, danger annoncé, sommations, exceptions à rechercher, nécessité et proportionnalité à examiner ; ni absence de sommation ni présence d'une arme ne suffisent à conclure au droit applicable.
 - [ ] D04 — Interpellation dans une foule : séparer présence et faits individuels allégués ; CRIM-002/015 selon mesure en cours ou achevée ; avocat si mise en cause.
@@ -77,4 +77,4 @@ Scénarios **attendus, non exécutés** : encerclement avec sortie alléguée im
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation ni sélection.
-Contrat commun : [découpage](../dom-002-decoupage-penal.md).
+Contrat commun : [découpage](../dom-002-annexes/dom-002-decoupage-penal.md).

@@ -50,9 +50,9 @@ Vérifier le routage et les informations à demander. La story ne doit pas réso
 
 ## Complément des frictions IA — 16 octobre 2026
 
-Points 29, 32 et 35 de la [matrice IA](../02-plugins-existants/exist-005-frictions-utilisateurs.md) : plainte sur fraude vocale ou contenu intime synthétique → CRIM-004 selon faits ; qualification d'une pratique IA → IA-003, avec régime des données à vérifier séparément pour finalité policière. Une prédiction statistique n'est pas une preuve d'infraction. Préserver messages, références et chronologie minimaux, sans répliquer le contenu intime ; voie bancaire et retrait plateforme restent distincts. Cas attendu : virement validé sous usurpation de voix ; distinguer demande au prestataire, plainte et absence de remboursement garanti.
+Points 29, 32 et 35 de la [matrice IA](../02-plugins-existants/exist-005-annexes/exist-005-frictions-utilisateurs.md) : plainte sur fraude vocale ou contenu intime synthétique → CRIM-004 selon faits ; qualification d'une pratique IA → IA-003, avec régime des données à vérifier séparément pour finalité policière. Une prédiction statistique n'est pas une preuve d'infraction. Préserver messages, références et chronologie minimaux, sans répliquer le contenu intime ; voie bancaire et retrait plateforme restent distincts. Cas attendu : virement validé sous usurpation de voix ; distinguer demande au prestataire, plainte et absence de remboursement garanti.
 
-Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-frictions-verification.md).
+Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-annexes/exist-005-frictions-verification.md).
 
 ## Hors périmètre
 
@@ -60,7 +60,7 @@ Implémenter le domaine entier, créer un plugin vide pour donner l'impression d
 
 ## Bilan d'exécution — 16 octobre 2026
 
-- [Découpage](dom-002-decoupage-penal.md) : nom `criminal-legal` conservé
+- [Découpage](dom-002-annexes/dom-002-decoupage-penal.md) : nom `criminal-legal` conservé
   (`judge-fr-eu-criminal-legal`) ; installation seule, sans profil, stockage
   des faits pénaux, agent, hook ni connecteur ; garde-fous propres au domaine
   (urgence d'abord, aucun évitement de la justice, statut avant droits,
@@ -73,12 +73,12 @@ Implémenter le domaine entier, créer un plugin vide pour donner l'impression d
   Première tranche : CRIM-001, lecture d'une convocation par la police ou la
   gendarmerie, qui crée le paquet avec ce seul skill. Mesure en cours,
   amendes et plainte au rang 2.
-- [Vérification documentaire](dom-002-verification.md) : les trois scénarios
+- [Vérification documentaire](dom-002-annexes/dom-002-verification.md) : les trois scénarios
   de la story et dix cas limites, sans durée, délai, montant ni droit conclu.
-- Ligne `criminal-legal` de la [matrice BASE-003](../00-fondations/base-003-dossier-architecture.md)
+- Ligne `criminal-legal` de la [matrice BASE-003](../00-fondations/base-003-annexes/base-003-dossier-architecture.md)
   précisée ; index du backlog mis à jour.
-- [Contrôles statiques](dom-002-resultats.json), produits par
-  [le contrôleur du lot](dom-002-controles.py), sur le modèle de DOM-001.
+- [Contrôles statiques](dom-002-annexes/dom-002-resultats.json), produits par
+  [le contrôleur du lot](dom-002-annexes/dom-002-controles.py), sur le modèle de DOM-001.
 
 Fichiers du lot : présente story, découpage, vérification, contrôleur,
 relevé JSON, 12 propositions `suites/crim-*.md`, ligne de BASE-003 et
@@ -102,7 +102,7 @@ Le domaine compte désormais 17 propositions.
 
 ## Intégration des frictions utilisateur — 16 octobre 2026
 
-- [Matrice des 97 situations](dom-002-frictions-utilisateurs.md), avec [texte fourni archivé](sources/police-penal-frictions-2026-10-16.txt) et besoins des sections non numérotées ; aucun délai, chiffre ou droit du texte n'est validé par son archivage.
+- [Matrice des 97 situations](dom-002-annexes/dom-002-frictions-utilisateurs.md), avec [texte fourni archivé](sources/police-penal-frictions-2026-10-16.txt) et besoins des sections non numérotées ; aucun délai, chiffre ou droit du texte n'est validé par son archivage.
 - CRIM-001 à CRIM-008, CRIM-010, CRIM-012, CRIM-015 et CRIM-016 complétées : pièces, sorties, frontières et scénarios attendus. CRIM-004 inclut un brouillon factuel au procureur en cas de dépôt bloqué ; CRIM-002 explicite l'audition libre en cours ; CRIM-006 lit aussi une composition pénale.
 - Six propositions nouvelles, CRIM-018 à CRIM-023 : contrôle en cours, perquisition, conservation de preuves, signalement d'agent, TAJ, dépistage routier et rétention du permis. Le domaine compte désormais 23 propositions, toutes non implémentées et non sélectionnées.
 - DOM-010 reçoit les exigences FPS et recours administratifs relatifs au permis ; son découpage reste à faire. Casier et TAJ, plainte et signalement, contrôle et audition restent distincts.
@@ -110,7 +110,7 @@ Le domaine compte désormais 17 propositions.
 
 ## Complément des frictions contentieuses — 16 octobre 2026
 
-Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-annexes/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
 
 Points 116–125 : CRIM-004 organise la plainte et CRIM-007 lit sa suite ; CRIM-006 lit les actes et CRIM-013 oriente la réparation. Ces tâches ne couvrent pas tous les actes ultérieurs. Découper prescription pénale pour qualification bornée, préparation de recours pénaux, recours après classement/constitution de partie civile et citation directe, avec identité, faits et publications datés, récépissés, décisions, notifications et statut de la personne. Sorties futures distinctes : régime, conditions, pièces, formalités et calendrier vérifié ou indéterminé.
 

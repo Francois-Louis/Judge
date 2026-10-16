@@ -36,7 +36,7 @@ Client PISTE facultatif, sans accès authentifié validé.
 ## Vérification et bilan — 15 octobre 2026
 
 [Procédure et limites](../../references/legal-source-access.md),
-[résultats réseau](base-010-resultats-acces.json).
+[résultats réseau](base-010-annexes/base-010-resultats-acces.json).
 21 tests hors ligne réussis ; L2261-2, Rome I et trois documents XML DILA
 obtenus en réseau par le script, avec trois listes d'archives.
 Commandes CLI publiques rejouées avec sortie `0` ; argument d'article invalide

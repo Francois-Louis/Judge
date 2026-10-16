@@ -13,7 +13,7 @@ dependances: [DOM-002, PILOTE-003, BASE-005, BASE-006, CRIM-001]
 
 Une personne prépare un signalement factuel au bon interlocuteur et distingue ce qu'elle attend d'une démarche disciplinaire, déontologique ou pénale.
 
-Besoin issu des points 21–22, 49–54, 81, 86 ; section 11 de la [matrice des frictions](../dom-002-frictions-utilisateurs.md). Proposition documentaire, sans implémentation ni sélection.
+Besoin issu des points 21–22, 49–54, 81, 86 ; section 11 de la [matrice des frictions](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Proposition documentaire, sans implémentation ni sélection.
 
 ## Périmètre et fichiers
 
@@ -62,4 +62,4 @@ Enquête sur l'agent, recherche d'identité privée, qualification définitive, 
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issu des frictions utilisateur. Contrat commun : [découpage](../dom-002-decoupage-penal.md). Aucun fichier de plugin créé par cette intégration.
+Ajout issu des frictions utilisateur. Contrat commun : [découpage](../dom-002-annexes/dom-002-decoupage-penal.md). Aucun fichier de plugin créé par cette intégration.

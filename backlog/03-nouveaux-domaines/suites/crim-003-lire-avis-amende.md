@@ -72,7 +72,7 @@ paiement, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 59–62, 67–68, 79 et section 7 de la [matrice](../dom-002-frictions-utilisateurs.md). Recueillir avis initial et majoré, avis de paiement ou consignation, mode de notification, adresse du certificat d'immatriculation aux dates utiles et changement d'adresse, sans copier l'adresse complète dans la sortie.
+Points 59–62, 67–68, 79 et section 7 de la [matrice](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Recueillir avis initial et majoré, avis de paiement ou consignation, mode de notification, adresse du certificat d'immatriculation aux dates utiles et changement d'adresse, sans copier l'adresse complète dans la sortie.
 
 - [ ] F04 — Séparer paiement, consignation, contestation, demande de remise et photo radar ; identifier les effets propres à chaque démarche selon le texte lu, sans promettre que l'une conserve le délai de l'autre.
 - [ ] F05 — Distinguer amende routière, amende forfaitaire délictuelle, ordonnance pénale, stationnement interdit et forfait post-stationnement (FPS). Aucune grille de délais routiers appliquée par défaut ; FPS → DOM-010, ordonnance → CRIM-006.
@@ -83,4 +83,4 @@ Scénarios **attendus, non exécutés** : paiement pris pour consignation ; avis
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-002-decoupage-penal.md).
+[découpage](../dom-002-annexes/dom-002-decoupage-penal.md).

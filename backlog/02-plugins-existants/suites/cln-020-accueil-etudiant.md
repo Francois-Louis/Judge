@@ -79,7 +79,7 @@ Aucune règle ABA, CA/IL ou fédérale US par défaut dans dossier français.
 Recettes futures **non exécutées**. Conserver fixtures, sources et fichiers
 réellement lus/non lus, sorties et erreurs. BASE-006 : structure, paquet
 détaché, client, résultat métier et compréhension par lecteur non juriste.
-La [relecture du cadrage](../exist-009-verification.md) n’est pas cette recette.
+La [relecture du cadrage](../exist-009-annexes/exist-009-verification.md) n’est pas cette recette.
 
 ## Hors périmètre
 

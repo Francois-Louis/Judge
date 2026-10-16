@@ -14,7 +14,7 @@ dependances: [PILOTE-002, BASE-006, BASE-008]
 Un candidat qui veut conserver un format de lecture ou le modifier obtient
 un profil minimal préservant ses réponses, sans passer par l'entretien
 d'un service juridique d'entreprise. Correction D03 du
-[bilan PILOTE-003](pilote-003-verification.md), dans le périmètre du pilote.
+[bilan PILOTE-003](pilote-003-annexes/pilote-003-verification.md), dans le périmètre du pilote.
 Cette proposition n'autorise pas la refonte des autres parcours de TRAV-016.
 
 ## Périmètre
@@ -70,11 +70,11 @@ profil minimal volontaire, préservation des autres réponses et reprise de la
 revue selon le format demandé. Helper et méthode BASE-005 inchangés, aucune
 nouvelle règle de droit. Sept tests du helper sur paquet détaché réussis ;
 régressions BASE-006/BASE-008 exécutées. Voir le
-[bilan de vérification](pilote-004-verification.md) et les
-[accès et contenus observés](pilote-004-controles.json).
+[bilan de vérification](pilote-004-annexes/pilote-004-verification.md) et les
+[accès et contenus observés](pilote-004-annexes/pilote-004-controles.json).
 
 La story reste `a-verifier` : schéma officiel du paquet courant passé
-([reprise](pilote-003-schema-cli.json)), mais aucune invocation dans un
+([reprise](pilote-003-annexes/pilote-003-schema-cli.json)), mais aucune invocation dans un
 client isolé ni lecture avec un participant réel. Les cases ci-dessus ne sont
 pas cochées sur la seule base des consignes ou des tests du helper. La recette
 sans exécuteur et le retour effectif à la revue restent à observer. Aucune
@@ -83,7 +83,7 @@ extension aux autres parcours ni publication réalisée.
 ## Recette en client — 16 octobre 2026
 
 [BASE-011](../00-fondations/base-011-recette-client-isole.md) a exécuté les étapes 1 à 4 de la recette dans un client connecté
-([résultats](../00-fondations/base-011-resultats.json), scénarios P4 et profils avant/après). Toutes les écritures passent
+([résultats](../00-fondations/base-011-annexes/base-011-resultats.json), scénarios P4 et profils avant/après). Toutes les écritures passent
 par le helper avec empreinte ; témoins et profil société inchangés ; sans
 Bash, aucune sauvegarde ni contournement. Les options `--redo` et
 `--check-integrations` n'ont pas été rejouées. La story reste `a-verifier`

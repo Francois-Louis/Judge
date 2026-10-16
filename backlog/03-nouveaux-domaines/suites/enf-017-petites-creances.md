@@ -19,7 +19,7 @@ Une personne invitée à une procédure simplifiée comprend les étapes et la p
 - `enforcement-legal/references/petites-creances.md` — qualification, pièces, modèle de sortie et sources lues (à créer)
 - `enforcement-legal/README.md` — ajout de la tâche livrée
 
-Le paquet et `qualification-acte.md` sont créés par ENF-001. Chaque référence consommée est embarquée dans le paquet ; aucun plugin voisin n'est requis. Appliquer le contrat commun du [découpage](../dom-003-decoupage-execution.md).
+Le paquet et `qualification-acte.md` sont créés par ENF-001. Chaque référence consommée est embarquée dans le paquet ; aucun plugin voisin n'est requis. Appliquer le contrat commun du [découpage](../dom-003-annexes/dom-003-decoupage-execution.md).
 
 ## Pièces et informations nécessaires
 
@@ -57,4 +57,4 @@ Acceptation ou refus envoyés, signature, paiement, émission de titre, contesta
 
 ## État de la proposition — 16 octobre 2026
 
-Issue des points 7 de la [matrice des frictions](../dom-003-frictions-utilisateurs.md). Exigence de backlog, sans sélection ni implémentation.
+Issue des points 7 de la [matrice des frictions](../dom-003-annexes/dom-003-frictions-utilisateurs.md). Exigence de backlog, sans sélection ni implémentation.

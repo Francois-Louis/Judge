@@ -11,7 +11,7 @@ dependances: [DOM-005, PILOTE-003, BASE-005, BASE-006, INS-001]
 
 ## Objectif et résultat attendu
 
-Un souscripteur ayant demandé un rachat obtient une chronologie documentée, les pièces encore nécessaires et un brouillon de relance à l'assureur. Besoin issu du point 84 de la [matrice des frictions bancaires](../dom-004-frictions-utilisateurs.md).
+Un souscripteur ayant demandé un rachat obtient une chronologie documentée, les pièces encore nécessaires et un brouillon de relance à l'assureur. Besoin issu du point 84 de la [matrice des frictions bancaires](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -57,4 +57,4 @@ Conseil de rachat, arbitrage, fiscalité, simulation de rendement, calcul d'int�
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issue des frictions utilisateur, sans implémentation ni sélection. Contrat commun : [découpage assurance](../dom-005-decoupage-assurance.md).
+Ajout issue des frictions utilisateur, sans implémentation ni sélection. Contrat commun : [découpage assurance](../dom-005-annexes/dom-005-decoupage-assurance.md).

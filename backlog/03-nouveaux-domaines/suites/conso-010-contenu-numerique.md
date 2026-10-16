@@ -62,7 +62,7 @@ Contestation de modération, données personnelles, télécoms, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 54, 76–77, 92 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points 54, 76–77, 92 de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 Compléter la sortie par chronologie de disponibilité et tableau des fonctionnalités promises, versions et mises à jour, perte constatée et éléments techniques manquants. Distinguer contenu autonome, service continu et bien avec éléments numériques (CONSO-002). Une demande de remboursement ne suppose pas une rétractation ; les conditions de perte de ce droit sont examinées par CONSO-003. Résiliation récurrente chez CONSO-009 ; suppression ou modération de compte chez DOM-034.
@@ -76,4 +76,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-001, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-001-decoupage-consommation.md).
+[découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

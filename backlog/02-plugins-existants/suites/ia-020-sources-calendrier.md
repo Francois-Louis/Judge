@@ -54,7 +54,7 @@ partiel utile, sans règle ni date de consultation inventées.
 
 ## Complément des frictions IA
 
-Points 33 et 42 et calendrier de la [matrice](../exist-005-frictions-utilisateurs.md) : vérifier l'« AI Omnibus » et les dates alléguées sur texte officiel, sans reprendre le tableau source comme référence. Ajouter un cas de recette où une annonce de report n'a aucun texte modificatif identifié : statut non vérifié et conclusion dépendante réservée, sans calendrier de substitution.
+Points 33 et 42 et calendrier de la [matrice](../exist-005-annexes/exist-005-frictions-utilisateurs.md) : vérifier l'« AI Omnibus » et les dates alléguées sur texte officiel, sans reprendre le tableau source comme référence. Ajouter un cas de recette où une annonce de report n'a aucun texte modificatif identifié : statut non vérifié et conclusion dépendante réservée, sans calendrier de substitution.
 
 Pour une référence juridique fournie par une IA, comparer identifiant, juridiction/auteur, date, passage et version réellement consultée à la proposition qu'elle prétend soutenir. Sortie attendue : référence confirmée, texte trouvé mais hors champ, introuvable après recherches tracées ou inaccessible ; ne pas affirmer une inexistence depuis un simple échec d'accès. BASE-005 s'applique à chaque sortie du dépôt sans dépendre de l'exécution de cette story. Les études scientifiques ou les performances d'un produit ne sont pas validées par ce contrôle juridique.
 
@@ -76,7 +76,7 @@ Pour une référence juridique fournie par une IA, comparer identifiant, juridic
 Recettes futures **non exécutées**. Lors du lot sélectionné, conserver fixtures,
 ressources lues, sorties et erreurs ; appliquer BASE-006 : structure, paquet
 détaché, client, résultat métier et compréhension par lecteur non juriste.
-La [relecture du cadrage](../exist-005-verification.md) est distincte de cette recette.
+La [relecture du cadrage](../exist-005-annexes/exist-005-verification.md) est distincte de cette recette.
 
 ## Hors périmètre
 

@@ -13,7 +13,7 @@ dependances: [DOM-002, PILOTE-003, BASE-005, BASE-006, CRIM-001]
 
 Une personne confrontée à une entrée au domicile ou une perquisition identifie le cadre annoncé, les pièces remises et les questions urgentes à poser à un avocat.
 
-Besoin issu des points 29–31 de la [matrice des frictions](../dom-002-frictions-utilisateurs.md). Proposition documentaire, sans implémentation ni sélection.
+Besoin issu des points 29–31 de la [matrice des frictions](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Proposition documentaire, sans implémentation ni sélection.
 
 ## Périmètre et fichiers
 
@@ -60,4 +60,4 @@ Opposition physique, tactiques de dissimulation, requête en nullité, défense 
 
 ## État de la proposition — 16 octobre 2026
 
-Ajout issu des frictions utilisateur. Contrat commun : [découpage](../dom-002-decoupage-penal.md). Aucun fichier de plugin créé par cette intégration.
+Ajout issu des frictions utilisateur. Contrat commun : [découpage](../dom-002-annexes/dom-002-decoupage-penal.md). Aucun fichier de plugin créé par cette intégration.

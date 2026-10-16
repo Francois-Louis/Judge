@@ -11,7 +11,7 @@ dependances: [EXIST-005, PILOTE-003, BASE-005, BASE-006]
 
 ## Objectif et résultat attendu
 
-Une personne ou son aidant obtient une fiche d'orientation à partir d'un refus, d'un score, d'un contenu ou d'un échange contesté : faits connus, demandes distinctes, pièces, interlocuteurs à vérifier et prochaine action. Points 1–8, 19–29, 48–50 de la [matrice des frictions](../exist-005-frictions-utilisateurs.md).
+Une personne ou son aidant obtient une fiche d'orientation à partir d'un refus, d'un score, d'un contenu ou d'un échange contesté : faits connus, demandes distinctes, pièces, interlocuteurs à vérifier et prochaine action. Points 1–8, 19–29, 48–50 de la [matrice des frictions](../exist-005-annexes/exist-005-frictions-utilisateurs.md).
 
 ## Périmètre et fichiers
 
@@ -21,7 +21,7 @@ Plugin principal : `ai-governance-legal` (`judge-fr-eu-ai-governance-legal`).
 - `ai-governance-legal/references/orientation-personne-affectee.md` : référence locale à créer.
 - README et seuls blocs d'annonce/routage concernés de CLAUDE.md ; examiner use-case-triage sans imposer son parcours organisation.
 
-Appliquer le [contrat commun IA](../exist-005-decoupage-ia.md), USAGE-001, BASE-008 et la méthode BASE-005 embarquée. Ni compte professionnel, profil, inventaire IA-001, connecteur ni exécution d'un plugin voisin requis. Références autonomes ; annonces et métadonnées modifiées synchronisées ; NOTICE racine/local lors de l'implémentation.
+Appliquer le [contrat commun IA](../exist-005-annexes/exist-005-decoupage-ia.md), USAGE-001, BASE-008 et la méthode BASE-005 embarquée. Ni compte professionnel, profil, inventaire IA-001, connecteur ni exécution d'un plugin voisin requis. Références autonomes ; annonces et métadonnées modifiées synchronisées ; NOTICE racine/local lors de l'implémentation.
 
 ## Entrées nécessaires
 
@@ -54,7 +54,7 @@ Textes officiels du règlement IA pour les seuls droits et compétences utiles ;
 - Cas limite : F02/F06, décision publique et date de réception manquante ; régime sectoriel à établir, pas de délai générique calculé.
 - Sans preuve d'automatisation : conserver le problème réel et les questions au décideur, sans inventer un système.
 
-Recette future BASE-006 : fixtures, sorties, paquet détaché, client et compréhension. Aucun scénario métier exécuté dans cette intégration ; [contrôles documentaires](../exist-005-frictions-verification.md).
+Recette future BASE-006 : fixtures, sorties, paquet détaché, client et compréhension. Aucun scénario métier exécuté dans cette intégration ; [contrôles documentaires](../exist-005-annexes/exist-005-frictions-verification.md).
 
 ## Hors périmètre
 

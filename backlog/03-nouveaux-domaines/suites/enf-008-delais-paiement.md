@@ -62,7 +62,7 @@ Calcul de prescription ou de forclusion, saisine du juge, dossier de surendettem
 
 ## Complément issu des frictions des commissaires de justice
 
-Points 6 et 46 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+Points 6 et 46 de la [matrice utilisateur](../dom-003-annexes/dom-003-frictions-utilisateurs.md).
 
 - [ ] P05 — Accord ou versement présenté comme anodin : relire dette, montant et proposition avant de rédiger ; distinguer ce qui est reconnu, discuté et non vérifié. Si la dette est contestée ou ancienne, ENF-002 d'abord, sans paiement ni reconnaissance proposés automatiquement.
 - [ ] P06 — Reconnaissance, échéancier ou transaction : faire vérifier effets sur prescription, forclusion selon le régime et moyens de contestation ; une réserve de droits ne neutralise pas par principe tout engagement.
@@ -73,4 +73,4 @@ Scénarios P05–P07 **attendus, non exécutés** : versement symbolique pour un
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-003, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-003-decoupage-execution.md).
+[découpage](../dom-003-annexes/dom-003-decoupage-execution.md).

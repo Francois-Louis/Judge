@@ -61,7 +61,7 @@ Demande en nullité, recours contre la décision, envoi.
 
 ## Complément issu des frictions des commissaires de justice
 
-Points 11–12 et 18 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+Points 11–12 et 18 de la [matrice utilisateur](../dom-003-annexes/dom-003-frictions-utilisateurs.md).
 
 - [ ] S03 — Ancienne adresse : conserver adresse utilisée, situation réelle à la date, preuves de déménagement, diligences de recherche mentionnées et annexes ; distinguer erreur alléguée et irrégularité établie.
 - [ ] S04 — Mentions absentes ou inexactes : comparer acte complet et exigences propres à sa nature selon les textes lus ; documenter le grief allégué sans nullité automatique.
@@ -72,4 +72,4 @@ Scénarios S03–S05 **attendus, non exécutés** : acte à l'ancien domicile ; 
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-003, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-003-decoupage-execution.md).
+[découpage](../dom-003-annexes/dom-003-decoupage-execution.md).

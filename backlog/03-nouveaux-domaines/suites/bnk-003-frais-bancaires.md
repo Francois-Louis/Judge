@@ -62,7 +62,7 @@ Négociation tarifaire, changement de banque, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 1–15, 24, 54, 70, 75–77, 90 et 96 de la [matrice](../dom-004-frictions-utilisateurs.md).
+Points 1–15, 24, 54, 70, 75–77, 90 et 96 de la [matrice](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 Recueillir aussi notifications de frais et de modification tarifaire, ancien et nouveau tarifs, preuve du support et de réception, récapitulatif annuel ; pour la fragilité, critères retenus, période de reconnaissance, offre proposée ou souscrite et catégories facturées. Aucun justificatif de santé ou identifiant complet nécessaire.
 
@@ -79,4 +79,4 @@ Scénarios **attendus, non exécutés** : deux rejets d'une opération ; offre s
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-004-decoupage-banque.md).
+[découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

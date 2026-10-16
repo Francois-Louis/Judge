@@ -60,7 +60,7 @@ Abonnements sectoriels, remboursement de prélèvements, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 21, 78–79, 81–92, 150 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Points 21, 78–79, 81–92, 150 de la [matrice des besoins](../dom-001-annexes/dom-001-frictions-utilisateurs.md).
 Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
 
 Traiter souscription contestée et résiliation comme branches distinctes : essai devenu payant, réduction liée à une adhésion, reconduction, nouvel engagement allégué, hausse, préavis et frais. Demander preuves de consentement, information préalable, avis de reconduction, parcours de sortie, accusés et factures postérieures. Fiche : qui fournit, qui facture (y compris boutique d’applications), date de fin déclarée ou établie et sommes contestées.
@@ -78,4 +78,4 @@ leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-001, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-001-decoupage-consommation.md).
+[découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).

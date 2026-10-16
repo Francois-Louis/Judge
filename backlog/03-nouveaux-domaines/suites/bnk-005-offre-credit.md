@@ -65,7 +65,7 @@ Conseil d'achat, comparaison d'offres, simulation, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 56, 58, 62–63 et 78 de la [matrice](../dom-004-frictions-utilisateurs.md).
+Points 56, 58, 62–63 et 78 de la [matrice](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 - [ ] O03 — Crédit renouvelable présenté par sa seule mensualité : distinguer capital, amortissement, intérêts, TAEG, total annoncé et assurance, à partir des documents sans recalcul.
 - [ ] O04 — Assurance externe et frais de dossier : rapprocher clause, consentement et frais ; séparer lecture de l'offre et substitution INS-008.
@@ -76,4 +76,4 @@ Pièces : contrat renouvelable, relevé de situation et détail des frais et ass
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-004-decoupage-banque.md).
+[découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

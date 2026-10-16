@@ -54,7 +54,7 @@ partiel utile, sans règle ni date de consultation inventées.
 
 ## Complément des frictions IA
 
-Points 20, 25, 27, 29 et 36 de la [matrice](../exist-005-frictions-utilisateurs.md) : examiner séparément reconnaissance d'émotions, notation sociale, constitution de base faciale, prédiction individuelle et exploitation de vulnérabilités. Recueillir fonction, contexte, finalité, personnes et effets ; rechercher chaque condition et exception dans le texte applicable. Une analyse audiovisuelle, un score, une publicité personnalisée ou un contrôle antifraude ne suffisent pas à conclure à une pratique interdite. Pour traitement policier, qualifier le régime de données sans RGPD présumé par défaut. Cas limite attendu : seule une brochure promettant « analyse comportementale » est disponible ; questions ciblées et qualification réservée.
+Points 20, 25, 27, 29 et 36 de la [matrice](../exist-005-annexes/exist-005-frictions-utilisateurs.md) : examiner séparément reconnaissance d'émotions, notation sociale, constitution de base faciale, prédiction individuelle et exploitation de vulnérabilités. Recueillir fonction, contexte, finalité, personnes et effets ; rechercher chaque condition et exception dans le texte applicable. Une analyse audiovisuelle, un score, une publicité personnalisée ou un contrôle antifraude ne suffisent pas à conclure à une pratique interdite. Pour traitement policier, qualifier le régime de données sans RGPD présumé par défaut. Cas limite attendu : seule une brochure promettant « analyse comportementale » est disponible ; questions ciblées et qualification réservée.
 
 ## Critères d'acceptation
 
@@ -74,7 +74,7 @@ Points 20, 25, 27, 29 et 36 de la [matrice](../exist-005-frictions-utilisateurs.
 Recettes futures **non exécutées**. Lors du lot sélectionné, conserver fixtures,
 ressources lues, sorties et erreurs ; appliquer BASE-006 : structure, paquet
 détaché, client, résultat métier et compréhension par lecteur non juriste.
-La [relecture du cadrage](../exist-005-verification.md) est distincte de cette recette.
+La [relecture du cadrage](../exist-005-annexes/exist-005-verification.md) est distincte de cette recette.
 
 ## Hors périmètre
 

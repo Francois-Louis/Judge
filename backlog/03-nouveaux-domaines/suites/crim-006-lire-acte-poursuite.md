@@ -61,7 +61,7 @@ Défense au fond, rédaction de conclusions, exécution de la peine.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 94–97 de la [matrice](../dom-002-frictions-utilisateurs.md). Le périmètre de lecture inclut la proposition de composition pénale reçue par une personne mise en cause ; ne pas la confondre avec ordonnance pénale, CRPC, jugement ou alternative adressée à la victime (CRIM-007).
+Points 94–97 de la [matrice](../dom-002-annexes/dom-002-frictions-utilisateurs.md). Le périmètre de lecture inclut la proposition de composition pénale reçue par une personne mise en cause ; ne pas la confondre avec ordonnance pénale, CRPC, jugement ou alternative adressée à la victime (CRIM-007).
 
 - [ ] J03 — Composition : identifier stade, reconnaissance ou consentement sollicités et conséquence annoncée ; préparer les questions à l'avocat avant décision, sans conseiller acceptation ni refus.
 - [ ] J04 — Ordonnance pénale : identifier matière, sanction, remise ou notification, pièces et voie d'opposition à vérifier ; ne pas appliquer un délai unique aux matières contraventionnelle et délictuelle. Aucun calcul ni acte d'opposition rédigé dans cette story.
@@ -72,4 +72,4 @@ Scénarios **attendus, non exécutés** : composition présentée comme simple f
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-002-decoupage-penal.md).
+[découpage](../dom-002-annexes/dom-002-decoupage-penal.md).

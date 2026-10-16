@@ -61,7 +61,7 @@ Litige avec le créancier, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 16–21 de la [matrice](../dom-004-frictions-utilisateurs.md).
+Points 16–21 de la [matrice](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 Recueillir références du mandat et du créancier, preuve d'autorisation ou demande de copie, notifications de révocation au créancier et à la banque, résiliation du contrat, motif du rejet et relevés des deux comptes en cas de mobilité.
 
@@ -74,4 +74,4 @@ Scénarios D03–D05 **attendus, non exécutés** : mandat autorisé mais somme 
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-004-decoupage-banque.md).
+[découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

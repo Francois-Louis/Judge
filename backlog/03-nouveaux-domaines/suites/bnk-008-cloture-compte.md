@@ -59,7 +59,7 @@ Saisine de la Banque de France faite à la place de la personne, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 12, 42–44, 49–51, 55 et 98 de la [matrice](../dom-004-frictions-utilisateurs.md).
+Points 12, 42–44, 49–51, 55 et 98 de la [matrice](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 Inclure la clôture demandée par le client et refusée ou retardée ; recueillir sa demande et sa réception, opérations en attente, cotisations prépayées, date effective et solde de clôture. Pour l'ouverture, conserver dépôt, pièces remises, refus exprès ou silence.
 
@@ -73,4 +73,4 @@ Scénarios A03–A06 **attendus, non exécutés**. Sources : clôture à l'initi
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-004-decoupage-banque.md).
+[découpage](../dom-004-annexes/dom-004-decoupage-banque.md).

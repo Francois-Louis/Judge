@@ -79,7 +79,7 @@ Recettes futures **non exécutées**. Conserver fixtures, sources réellement lu
 sorties et erreurs ; appliquer BASE-006 : structure, paquet détaché, client,
 résultat métier et compréhension par lecteur non juriste. Pour VEI-020,
 dry-run local distinct d’exécution distante. La
-[relecture du cadrage](../exist-007-verification.md) n’est pas cette recette.
+[relecture du cadrage](../exist-007-annexes/exist-007-verification.md) n’est pas cette recette.
 
 ## Hors périmètre
 

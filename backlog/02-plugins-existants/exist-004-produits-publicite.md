@@ -44,19 +44,19 @@ Implémenter tout le domaine, modifier des contenus éditeur ou considérer qu'u
 
 ## Bilan d'exécution — 16 octobre 2026
 
-- [Inventaire complet](exist-004-inventaire-produits.md) : 23 fichiers dont
+- [Inventaire complet](exist-004-annexes/exist-004-inventaire-produits.md) : 23 fichiers dont
   7 skills et 1 agent, 6 fichiers de cookbook lié, profils, grilles inline,
   exemples, références, sorties et relais. Décision motivée pour chaque fichier.
-- [Découpage PDT-001 à PDT-017](exist-004-decoupage-produits.md) : 17 propositions
+- [Découpage PDT-001 à PDT-017](exist-004-annexes/exist-004-decoupage-produits.md) : 17 propositions
   avec fichiers, entrées, résultat borné, sources à rechercher, exclusions
   et scénarios. Première tranche proposée : fiche de qualification d'un
   lancement B2C France, sans avis de conformité. Lancement, évolution,
   publicité et question ponctuelle ont des parcours distincts.
-- [Vérification documentaire](exist-004-verification.md) : lancement France et
+- [Vérification documentaire](exist-004-annexes/exist-004-verification.md) : lancement France et
   campagne environnementale fictifs, puis limites rôle de plateforme,
   sécurité produit, données/IA, profil et radar. Aucun de ces dossiers n'est
   résolu juridiquement pendant le cadrage.
-- [Contrôles statiques et empreintes](exist-004-resultats.json) : couverture,
+- [Contrôles statiques et empreintes](exist-004-annexes/exist-004-resultats.json) : couverture,
   frontmatter/dépendances, liens, fichiers futurs, copies communes et
   périmètre ; plugin, cookbook et contenu éditeur inchangés. Travaux
   EXIST-001/002/003 préexistants préservés.
@@ -78,4 +78,4 @@ annoncer une adaptation France/UE déjà disponible.
 
 ## Intégration marketing — 16 octobre 2026
 
-La [matrice des 140 frictions](exist-004-frictions-utilisateurs.md) relie les besoins aux tâches et relais. Huit propositions PDT-018 à PDT-025 complètent les 17 initiales ; les 25 PDT restent proposées. Les revues d’allégations et d’influence existantes sont précisées, sans implémentation. Les résultats et empreintes historiques ci-dessus sont conservés. Portée de l’intégration et contrôles dans le [relevé dédié](exist-004-frictions-verification.md).
+La [matrice des 140 frictions](exist-004-annexes/exist-004-frictions-utilisateurs.md) relie les besoins aux tâches et relais. Huit propositions PDT-018 à PDT-025 complètent les 17 initiales ; les 25 PDT restent proposées. Les revues d’allégations et d’influence existantes sont précisées, sans implémentation. Les résultats et empreintes historiques ci-dessus sont conservés. Portée de l’intégration et contrôles dans le [relevé dédié](exist-004-annexes/exist-004-frictions-verification.md).

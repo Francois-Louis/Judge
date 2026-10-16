@@ -55,7 +55,7 @@ Constituer un corpus exhaustif des codes ou figer des barèmes et délais pour t
 - Fiche minimale de délai : nature, fondement, déclencheur, preuve de date,
   calcul reproductible, exceptions et contrôle humain adapté. Notification
   inconnue : échéance à déterminer, sans substitution d'une date ni durée par défaut.
-- [Compte rendu de vérification](base-005-verification-methode.md) : relecture
+- [Compte rendu de vérification](base-005-annexes/base-005-verification-methode.md) : relecture
   des quatre scénarios fictifs demandés et relevé des accès officiels réellement
   effectués, y compris refus 403 et écrans JavaScript. Les limites sont conservées.
 - Embarquement conforme au contrat BASE-003 : copie ordinaire intégrale sous

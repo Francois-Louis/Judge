@@ -67,7 +67,7 @@ Examen de la dette au fond, plainte, envoi, paiement.
 
 ## Complément issu des frictions des commissaires de justice
 
-Points 1, 3–5, 8–10 et 45–46 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+Points 1, 3–5, 8–10 et 45–46 de la [matrice utilisateur](../dom-003-annexes/dom-003-frictions-utilisateurs.md).
 
 - [ ] R05 — Décompte avec indemnité, frais de dossier et intérêts : demander principal, bases, taux, périodes, clause, texte ou décision ; ne pas présumer que la seule présence du professionnel justifie les frais.
 - [ ] R06 — Dette cédée ou déjà payée : identifier créancier d'origine et actuel, qualité du demandeur, pièces de cession ou de mandat pertinentes ; demander historique des règlements et imputation, avec justificatifs.
@@ -80,4 +80,4 @@ Scénarios R05–R09 **attendus, non exécutés** : indemnité sans base fournie
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-003, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-003-decoupage-execution.md).
+[découpage](../dom-003-annexes/dom-003-decoupage-execution.md).

@@ -61,7 +61,7 @@ Envoi de la déclaration, expertise, responsabilité du voisin.
 
 ## Complément issu des frictions assurance
 
-Points 16, 18, 20–22 et 47 de la [matrice](../dom-005-frictions-utilisateurs.md).
+Points 16, 18, 20–22 et 47 de la [matrice](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 - [ ] D03 — Appel sans écrit : brouillon confirmant la déclaration, avec date de connaissance, premier signalement et réception connue ou inconnue ; ne pas attendre toutes les factures pour préparer le premier signalement.
 - [ ] D04 — Cause incertaine : séparer observation et hypothèse ; corriger explicitement une imprécision sans faire disparaître la première déclaration.
@@ -73,4 +73,4 @@ Scénarios D03–D06 **attendus, non exécutés** : déclaration par téléphone
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-005-decoupage-assurance.md).
+[découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).

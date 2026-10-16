@@ -11,7 +11,7 @@ dependances: [EXIST-003, PILOTE-003, BASE-005, BASE-006]
 
 ## Objectif et résultat attendu
 
-Une personne obtient une fiche et un brouillon d'opposition motivée à une finalité déterminée hors prospection, notamment entraînement ou profilage. Points 9–12, 14 et 36 de la [matrice IA](../exist-005-frictions-utilisateurs.md) ; point 31 de la [matrice données](../exist-003-frictions-utilisateurs.md). PRV-023 conserve la prospection ; PRV-007 conserve la réponse côté organisme.
+Une personne obtient une fiche et un brouillon d'opposition motivée à une finalité déterminée hors prospection, notamment entraînement ou profilage. Points 9–12, 14 et 36 de la [matrice IA](../exist-005-annexes/exist-005-frictions-utilisateurs.md) ; point 31 de la [matrice données](../exist-003-annexes/exist-003-frictions-utilisateurs.md). PRV-023 conserve la prospection ; PRV-007 conserve la réponse côté organisme.
 
 ## Périmètre et fichiers
 
@@ -21,7 +21,7 @@ Plugin principal : `privacy-legal` (`judge-fr-eu-privacy-legal`).
 - `privacy-legal/references/opposition-hors-prospection.md` : référence locale à créer.
 - README et seuls blocs de routage concernés de CLAUDE.md ; examiner access-request et les contrats PRV-026/033, sans exécution préalable.
 
-Appliquer le [contrat commun données](../exist-003-decoupage-donnees.md), méthode BASE-005 locale, BASE-006 et BASE-008. Pièces manuelles et réponse ponctuelle sans profil professionnel, connecteur ou plugin voisin. Synchroniser les métadonnées modifiées et NOTICE racine/local lors de l'implémentation.
+Appliquer le [contrat commun données](../exist-003-annexes/exist-003-decoupage-donnees.md), méthode BASE-005 locale, BASE-006 et BASE-008. Pièces manuelles et réponse ponctuelle sans profil professionnel, connecteur ou plugin voisin. Synchroniser les métadonnées modifiées et NOTICE racine/local lors de l'implémentation.
 
 ## Entrées nécessaires
 
@@ -50,7 +50,7 @@ RGPD, LIL, CNIL/CEPD et jurisprudence officielle sur opposition, bases invoquée
 - Cas limite : base non précisée, bouton d'opposition inaccessible ; conserver l'obstacle et préparer clarification par un canal officiel à vérifier.
 - Traitement revendiqué fondé sur consentement : expliquer la branche de retrait pertinente sans renommer tout retrait « opposition ».
 
-Recette future BASE-006 : sorties, paquet détaché, client et compréhension ; [contrôles documentaires](../exist-005-frictions-verification.md).
+Recette future BASE-006 : sorties, paquet détaché, client et compréhension ; [contrôles documentaires](../exist-005-annexes/exist-005-frictions-verification.md).
 
 ## Hors périmètre
 

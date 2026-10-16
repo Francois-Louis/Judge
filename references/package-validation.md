@@ -5,7 +5,7 @@ contrôle au regard du protocole d'orientation USAGE-001 (USAGE-003) ; la 1.2.0
 permet de désigner le binaire `claude` hors du PATH (BASE-012).
 
 Cette recette s'applique à un lot borné selon le
-[contrat BASE-003](../backlog/00-fondations/base-003-dossier-architecture.md)
+[contrat BASE-003](../backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md)
 et la [méthode BASE-005](research-citation-method.md). Elle ne certifie pas les
 plugins hérités. Elle reste une documentation de maintenance à la racine : les
 skills livrés ne doivent pas dépendre de ce fichier à l'exécution.
@@ -49,7 +49,7 @@ jamais exécution du skill.
 - [ ] Rejouer la grille de scénarios applicable et relire les sources et
   raisonnements de la sortie réelle. Qualifier les scénarios non applicables.
 - [ ] Pour un skill destiné à des personnes sans formation juridique, vérifier
-  la sortie au regard du [protocole d'orientation USAGE-001](../backlog/05-usages-quotidiens/usage-001-protocole-orientation.md)
+  la sortie au regard du [protocole d'orientation USAGE-001](../backlog/05-usages-quotidiens/usage-001-annexes/usage-001-protocole-orientation.md)
   et citer sa version : entrée en mots ordinaires, forme de restitution
   choisie, pièces limitées au besoin, aucun envoi sans autorisation adaptée,
   engagements des deux parties examinés.

@@ -58,7 +58,7 @@ Comparaison d'offres de rachat, calcul, envoi.
 
 ## Complément issu des frictions utilisateur — 16 octobre 2026
 
-Points 59–61 de la [matrice](../dom-004-frictions-utilisateurs.md).
+Points 59–61 de la [matrice](../dom-004-annexes/dom-004-frictions-utilisateurs.md).
 
 - [ ] E03 — Renégociation : tableau des montants annoncés pour capital, intérêts restants, frais d'avenant, garanties et assurance ; pièces manquantes et coût total restant à demander, sans comparaison d'offres ni simulation.
 - [ ] E04 — Indemnité contestée : demander capital, montant remboursé, clause, décompte et fondement des limites ; aucune indemnité recalculée.
@@ -69,4 +69,4 @@ Scénarios E03–E05 **attendus, non exécutés** : proposition à taux moindre 
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :
-[découpage](../dom-004-decoupage-banque.md).
+[découpage](../dom-004-annexes/dom-004-decoupage-banque.md).
