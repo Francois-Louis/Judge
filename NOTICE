@@ -6,6 +6,11 @@ No affiliation or endorsement by Anthropic is claimed.
 Technical identity and storage changes do not certify France/EU legal adaptation.
 No upstream NOTICE was present in the source snapshot.
 
+Agent workflow (2026-10-16, user request, no story): repository instructions
+require working directly on main and finishing changes with a commit and push.
+  AGENTS.md
+  CLAUDE.md
+
 BASE-012 changes and recorded decisions (2026-10-16): the package checker can
 use a claude binary outside the PATH (--claude, JUDGE_CLAUDE_CLI); NOTICE files
 now list only files outside backlog/. No plugin or skill changed.

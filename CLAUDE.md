@@ -2,6 +2,19 @@
 
 # CLAUDE.md
 
+## Git : terminer par un commit et un push
+
+- Travailler directement sur `main`, sans branche de travail ni pull request,
+  sauf demande explicite contraire de l'utilisateur.
+- Pour toute tâche qui modifie le dépôt, vérifier le diff et exécuter les
+  contrôles pertinents, puis terminer par un `git commit` et un
+  `git push origin main`. Cette consigne autorise ces actions sans redemander
+  confirmation à chaque tâche.
+- Inclure uniquement les changements de la tâche dans le commit. Préserver
+  les modifications préexistantes et ne pas les embarquer sans instruction.
+- Si le commit ou le push échoue, signaler le blocage et ce qui reste à faire.
+  Ne pas forcer le push ni écraser l'historique distant.
+
 Guidance for working on this repo. `judge-fr-eu` is the fork Claude Code plugin
 marketplace — twelve internal legal plugins and five
 managed-agent cookbooks. Most work here is editing prompt content (skills,
@@ -15,7 +28,7 @@ twelve packages after changes, and include LICENSE/NOTICE. The vendor source
 is preserved but excluded from this marketplace. This is technical isolation;
 legal adaptation and live-client validation remain separate results.
 
-Run `python scripts/test-base008-isolation.py` for detached-package filesystem
+Run `python scripts/test-base008-isolation.py` for detâched-package filesystem
 and hub lifecycle tests. Cookbook dry-runs require Bash, jq, Python/PyYAML;
 `bash scripts/test-cookbooks.sh` supplies disposable deployment IDs without
 network calls. The orchestrator storage test also needs jsonschema; a missing
