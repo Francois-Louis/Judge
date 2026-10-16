@@ -1,7 +1,7 @@
 # EXIST-005 — Découpage de la gouvernance IA
 
 Propositions du **16 octobre 2026**, fondées sur l'[inventaire des 23 fichiers](exist-005-inventaire-ia.md).
-Les 20 suites IA restent `proposee` ; la [relecture documentaire](exist-005-verification.md)
+Les 24 suites IA restent `proposee` ; la [relecture documentaire](exist-005-verification.md)
 porte sur trois dossiers fictifs, sans classification juridique définitive.
 
 ## Contrat commun et première tranche proposée
@@ -52,6 +52,10 @@ branches encore héritées ne sont pas présentées comme adaptées France/UE.
 | [IA-018](suites/ia-018-preferences-gouvernance.md) | Préférences volontaires et modification ciblée | Aucune |
 | [IA-019](suites/ia-019-dossier-systeme.md) | Dossier isolé par organisme/système/version | Aucune |
 | [IA-020](suites/ia-020-sources-calendrier.md) | Checklist d'actualité et relevé temporel traçable par disposition | Aucune |
+| [IA-021](suites/ia-021-orienter-personne-affectee.md) | Fiche d'orientation d'une personne affectée, démarches et calendriers séparés | Aucune ; pièces manuelles admises |
+| [IA-022](suites/ia-022-pouvoirs-agent.md) | Matrice des pouvoirs délégués à un agent sur une intégration | Aucune ; pièces manuelles admises |
+| [IA-023](suites/ia-023-fiche-incident.md) | Fiche de traitement d'un incident IA et décisions à attribuer | Aucune ; pièces manuelles admises |
+| [IA-024](suites/ia-024-allegations-fournisseur.md) | Comparaison d'une allégation fournisseur et de ses justificatifs | Aucune ; pièces manuelles admises |
 
 Une dépendance métier désigne le contrat d'entrée réutilisé. Une fiche
 équivalente fournie manuellement peut être consommée et ses manques sont
@@ -124,3 +128,13 @@ messages de limite. La recette comprendra paquet détaché, client, résultat
 métier et compréhension par lecteur non juriste. Aucune installation,
 connexion, publication, programmation de veille ou adaptation métier n'est
 réalisée par ce découpage.
+
+## Complément des 50 frictions — 16 octobre 2026
+
+La [matrice des besoins](exist-005-frictions-utilisateurs.md) relie chaque point et les sections pratiques à un résultat, avec [archive source](sources/gouvernance-ia-frictions-2026-10-16.txt) et [contrôles distincts](exist-005-frictions-verification.md). IA-021 à IA-024 complètent les vingt propositions initiales ; [PRV-035](suites/prv-035-opposition-hors-prospection.md) complète le parcours d'opposition hors prospection dans privacy. La première tranche IA-001 reste proposée, sans sélection automatique d'une extension.
+
+IA-021 possède la fiche d'orientation de la personne ; PRV-031 garde la demande relative à la décision automatisée et chaque secteur son recours au fond. IA-022 possède la comparaison mandat/permissions/action possible ; IA-023 la chronologie, les preuves et les mesures à décider après un incident. IA-024 possède le rapprochement allégation/justificatif ; IA-012 garde la carte contractuelle et IA-013 la modification d'une clause. Une fiche manuelle équivalente suffit ; ces relais ne sont pas des préalables d'installation ou d'exécution.
+
+Pour les parcours de particulier, ni profil d'organisation ni inventaire ni qualification juridique IA préalables : l'absence de preuve d'IA ne bloque pas l'orientation sur le problème exprimé. Les tâches organisation gardent leurs propres faits nécessaires. La gestion d'une violation de données côté organisme, les contestations d'emploi/discrimination, la communication d'informations algorithmiques publiques, les contrôles de caisse et les affectations scolaires restent à découper dans leurs domaines.
+
+Les cinq nouvelles propositions et les compléments restent documentaires. Le calendrier « AI Omnibus » fourni n'est pas adopté comme référence ; IA-020 doit vérifier chaque modification alléguée sur un texte officiel et comparer les références juridiques générées aux passages réellement lus. Les preuves du cadrage initial restent conservées.

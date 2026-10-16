@@ -71,3 +71,7 @@ bancaire professionnel → BNK-018. Le cadrage reste `proposee`, à découper.
 ## Hors périmètre
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
+
+## Complément — difficultés d'entreprise, 16 octobre 2026
+
+Les points 83–87 et 95 de la [matrice formalités](../02-plugins-existants/exist-002-frictions-utilisateurs.md) rendent nécessaire [SOC-027](../02-plugins-existants/suites/soc-027-cadrage-entreprises-difficulte.md), cadrage proposé pour les difficultés d'activité et l'articulation avec les dettes personnelles. DOM-024 ne devient pas un parcours de liquidation d'entreprise. Demander qualité du débiteur (société/EI/personne), dates, nature des dettes, garanties, patrimoines et procédures ; ne pas exclure ou admettre automatiquement un indépendant au surendettement. Le propriétaire de chaque analyse et l'articulation des procédures restent à arrêter dans ce cadrage. Portée : matrice.

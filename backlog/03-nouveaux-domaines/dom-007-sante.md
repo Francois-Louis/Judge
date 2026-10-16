@@ -52,3 +52,7 @@ Vérifier le routage et les informations à demander. La story ne doit pas réso
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
 
+
+## Complément des frictions données personnelles — 16 octobre 2026
+
+Points 45–47 de la [matrice données personnelles](../02-plugins-existants/exist-003-frictions-utilisateurs.md) : découper demande d'accès au dossier médical et contestation d'un accès tardif selon le régime sectoriel. Qualifier demandeur/pouvoir, nature et ancienneté des informations, réception et exceptions avant de rechercher les délais ; aucun calendrier RGPD automatique. PRV-001/025/034 gardent les demandes relatives au traitement et aux accès injustifiés allégués ; PRV-026 qualifie une transmission de données de santé. Demander au DPO les vérifications utiles sans promettre toutes les identités des agents. Scénario attendu : copie du dossier et soupçon de consultation, avec deux objets et calendriers distincts. Ces tâches sectorielles restent à découper ; portée et contrôles dans la matrice.

@@ -1,9 +1,9 @@
 # Backlog — adaptation juridique France / Union européenne
 
-Ce dossier organise le travail à venir. Le backlog contient 442 stories :
+Ce dossier organise le travail à venir. Le backlog contient 495 stories :
 BASE-001 à BASE-007, BASE-009 à BASE-012, PILOTE-001 à PILOTE-005,
 USAGE-001 à USAGE-003, EXIST-001 à EXIST-011, DOM-001 à DOM-005 et LIV-001 sont `terminee`,
-BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 404 autres sont `proposee`.
+BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 457 autres sont `proposee`.
 Les [décisions du 16 octobre 2026](decisions-2026-10-16.md) consignent les
 arbitrages rendus après les cadrages DOM-001 à DOM-005 et la livraison LIV-001.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
@@ -241,68 +241,104 @@ besoin. Les exemples ci-dessus n'annoncent pas des fonctionnalités déjà prés
 ## Adaptations à découper — P2
 
 Les suites du plugin travail sont détaillées dans le
-[découpage TRAV-001 à TRAV-018](01-pilote-travail/pilote-001-decoupage-travail.md).
+[découpage TRAV-001 à TRAV-021](01-pilote-travail/pilote-001-decoupage-travail.md).
 Chaque story a son fichier, ses dépendances et ses scénarios. Elles attendent
 la clôture de PILOTE-003 et une sélection explicite ; PILOTE-002 reste la seule
 tranche métier d'embauche réécrite. PILOTE-004 corrige son setup candidat,
 avec une recette client et utilisateur encore ouverte.
 
 Les suites commerciales sont proposées dans le
-[découpage COM-001 à COM-018](02-plugins-existants/exist-001-decoupage-commercial.md),
+[découpage COM-001 à COM-023](02-plugins-existants/exist-001-decoupage-commercial.md),
 avec [inventaire des 12 skills et dépendances](02-plugins-existants/exist-001-inventaire-commercial.md)
 et [vérification documentaire](02-plugins-existants/exist-001-verification.md).
 Le bilan PILOTE-003 est terminé après la recette BASE-011 du 16 octobre 2026 ;
 ce cadrage ne sélectionnait aucune tranche. Depuis, [COM-001](02-plugins-existants/suites/com-001-orientation-contrat.md)
 est réécrite : orientation sans profil, version commerciale 0.2.0,
-statut `a-verifier` (recette client/lecteur non exécutée). Les 17 autres COM
+statut `a-verifier` (recette client/lecteur non exécutée). Les 22 autres COM
 restent `proposee`, sans déploiement du cookbook.
 
 Les suites sociétés et opérations sont proposées dans le
-[découpage SOC-001 à SOC-022](02-plugins-existants/exist-002-decoupage-societes.md),
+[découpage SOC-001 à SOC-027](02-plugins-existants/exist-002-decoupage-societes.md),
 avec [inventaire des 13 skills et dépendances](02-plugins-existants/exist-002-inventaire-societes.md)
 et [relecture SAS, SARL et acquisition avec filiale étrangère](02-plugins-existants/exist-002-verification.md).
 Les décisions sociales, PV, formalités, diligences et suivi d'opération ont
-des résultats distincts. Les 22 SOC restent `proposee` ; aucune adaptation
+des résultats distincts. Les 27 SOC restent `proposee` ; aucune adaptation
 du plugin ni sélection d'extension ou déploiement du cookbook par EXIST-002.
 
+Les [100 frictions sur les formalités d'entreprise](02-plugins-existants/exist-002-frictions-utilisateurs.md)
+relient faux courriers, immatriculation, modifications, déclarations, comptes,
+embauche, cessation et recours à leurs propriétaires. Elles ajoutent dix
+propositions : SOC-023 à SOC-026, le cadrage SOC-027 des entreprises en
+difficulté, COM-019/020 et TRAV-019 à TRAV-021. DOM-039 et DOM-011 reçoivent
+les exigences des indépendants et de fiscalité encore à découper. Le texte
+fourni est archivé comme besoin ; ses délais et seuils restent à vérifier.
+Voir les [contrôles de cette intégration](02-plugins-existants/exist-002-frictions-verification.md).
+
 Les suites protection des données sont proposées dans le
-[découpage PRV-001 à PRV-021](02-plugins-existants/exist-003-decoupage-donnees.md),
+[découpage PRV-001 à PRV-035](02-plugins-existants/exist-003-decoupage-donnees.md),
 avec [inventaire des 23 fichiers et 9 skills](02-plugins-existants/exist-003-inventaire-donnees.md)
 et [relecture accès, sous-traitance et santé](02-plugins-existants/exist-003-verification.md).
 Exercice des droits, traitement, AIPD, sous-traitance, transferts et suivi sont
 séparés ; le particulier dispose d'une proposition propre de demande d'accès.
-Les 21 PRV restent `proposee` ; EXIST-003 ne modifie pas le plugin et ne
+Les 35 PRV restent `proposee` ; EXIST-003 ne modifie pas le plugin et ne
 sélectionne aucune extension. Le préalable PILOTE-003 est satisfait après BASE-011.
 
+La [matrice des 60 frictions données personnelles](02-plugins-existants/exist-003-frictions-utilisateurs.md)
+complète le parcours du particulier avec treize propositions PRV-022 à PRV-034 :
+demandes de droits, collecte, traceurs, publication, surveillance, décision
+automatisée, fuite, relance et dossier CNIL. Les procédures sectorielles et
+juridictionnelles encore à découper restent explicites. Le [relevé dédié](02-plugins-existants/exist-003-frictions-verification.md)
+consigne les contrôles documentaires ; aucun skill n'est adapté par cette intégration.
+
 Les suites produits et publicité sont proposées dans le
-[découpage PDT-001 à PDT-017](02-plugins-existants/exist-004-decoupage-produits.md),
+[découpage PDT-001 à PDT-025](02-plugins-existants/exist-004-decoupage-produits.md),
 avec [inventaire des 23 fichiers, 7 skills, agent et cookbook](02-plugins-existants/exist-004-inventaire-produits.md)
 et [relecture lancement B2C France et campagne environnementale](02-plugins-existants/exist-004-verification.md).
 La première tranche proposée est une fiche de qualification ; lancement,
-évolution, publicité et question ponctuelle restent séparés. Les 17 PDT
+évolution, publicité et question ponctuelle restent séparés. Les 25 PDT
 restent `proposee`, sans adaptation du plugin ni sélection d'extension,
 publication ou déploiement du radar. Le préalable PILOTE-003 est satisfait
 après BASE-011 ; ses limites documentées restent consignées.
 
+La [matrice des 140 frictions marketing, publicité et emballages](02-plugins-existants/exist-004-frictions-utilisateurs.md)
+relie chaque besoin à un propriétaire, des relais et une sortie attendue. Elle
+ajoute treize propositions : PDT-018 à PDT-025 (prix, parcours, REP, IDU,
+marquage et PPWR), COM-021 à COM-023 (influence et agences), PI-031 (droits
+d’un contenu synthétique) et CONSO-021 (réclamation après une publicité).
+Les revues existantes sont précisées ; les textes et calendriers fournis
+restent à vérifier lors des implémentations. Le [relevé dédié](02-plugins-existants/exist-004-frictions-verification.md)
+consigne les contrôles de cette intégration documentaire, sans adaptation de plugin.
+
 Les suites gouvernance IA sont proposées dans le
-[découpage IA-001 à IA-020](02-plugins-existants/exist-005-decoupage-ia.md),
+[découpage IA-001 à IA-024](02-plugins-existants/exist-005-decoupage-ia.md),
 avec [inventaire des 23 fichiers et 10 skills](02-plugins-existants/exist-005-inventaire-ia.md)
 et [relecture outil RH, assistant interne et service public](02-plugins-existants/exist-005-verification.md).
 Inventaire factuel, qualification, obligations par rôle, évaluation interne,
-FRIA, contrats et politique sont séparés. Les 20 IA restent `proposee` ;
+FRIA, contrats et politique sont séparés. Les 24 IA restent `proposee` ;
 EXIST-005 ne modifie pas le plugin, ne sélectionne aucune extension et ne
 valide ni catégorie définitive ni calendrier. Le préalable PILOTE-003 est
 satisfait après BASE-011 ; ses limites documentées restent consignées.
 
+La [matrice des 50 frictions de gouvernance IA](02-plugins-existants/exist-005-frictions-utilisateurs.md)
+relie décisions opaques, données d'entraînement, discriminations, contenus
+synthétiques, contrats, incidents et recours à une réponse attendue. Elle
+ajoute IA-021 à IA-024 (orientation de la personne, pouvoirs d'agent, incident,
+justificatifs fournisseur) et PRV-035 (opposition hors prospection). Les
+procédures sectorielles encore à découper restent explicites ; le calendrier
+« AI Omnibus » fourni reste à vérifier. Voir les [contrôles dédiés](02-plugins-existants/exist-005-frictions-verification.md).
+Ces propositions n'adaptent aucun skill et ne sélectionnent aucune extension.
+
 Les suites contentieuses sont proposées dans le
-[découpage CTX-001 à CTX-024](02-plugins-existants/exist-006-decoupage-contentieux.md),
+[découpage CTX-001 à CTX-041](02-plugins-existants/exist-006-decoupage-contentieux.md),
 avec [inventaire des 38 fichiers, 19 skills et cookbook associé](02-plugins-existants/exist-006-inventaire-contentieux.md)
 et [relecture mise en demeure, demande de pièces et convocation](02-plugins-existants/exist-006-verification.md).
 Mise en demeure, conservation/communication des preuves, écritures et suivi
 sont séparés ; aucune équivalence automatique subpoena/deposition/privilege
-log. Les 29 CTX, dont le parcours du particulier en procès et le repérage des irrégularités (CTX-025 à 029), restent `proposee`, sans adaptation, renommage, sélection
+log. Les 41 CTX, dont le parcours du particulier en procès et le repérage des irrégularités (CTX-025 à 029), restent `proposee`, sans adaptation, renommage, sélection
 d'extension ou déploiement. Le préalable PILOTE-003 est satisfait après
 BASE-011 ; les limites du pilote restent consignées.
+
+La [matrice des 125 frictions contentieuses](02-plugins-existants/exist-006-frictions-utilisateurs.md) ajoute douze propositions CTX-030 à CTX-041 et précise les besoins encore à découper en administratif, pénal, exécution, financement et procédures collectives. Elle conserve les tableaux et la checklist du texte fourni, sans valider les règles et réformes annoncées. Voir les [contrôles de cette intégration](02-plugins-existants/exist-006-frictions-verification.md).
 
 Les suites de veille sont proposées dans le
 [découpage VEI-001 à VEI-020](02-plugins-existants/exist-007-decoupage-veille.md),
@@ -316,11 +352,11 @@ connexion ou déploiement par EXIST-007. Préalable PILOTE-003 satisfait après
 BASE-011 ; limites du pilote conservées.
 
 Les suites de propriété intellectuelle sont proposées dans le
-[découpage PI-001 à PI-025](02-plugins-existants/exist-008-decoupage-pi.md),
+[découpage PI-001 à PI-031](02-plugins-existants/exist-008-decoupage-pi.md),
 avec [inventaire des 27 fichiers et 12 skills](02-plugins-existants/exist-008-inventaire-pi.md)
 et [relecture marque France, invention de salarié et retrait de photo](02-plugins-existants/exist-008-verification.md).
 Titres/territoires, droit d'auteur, créations/inventions de salariés,
-cession/licence, OSS, retrait et portefeuille sont séparés. Les trente PI
+cession/licence, OSS, retrait et portefeuille sont séparés. Les trente et une PI
 (dont édition, gestion collective, droit moral et dessins et modèles ajoutés
 le 16 octobre 2026) restent `proposee` ; aucun défaut USPTO/DMCA/fair use transposé par simple
 traduction, aucune liberté d'exploitation complète depuis recherche partielle.
@@ -366,7 +402,7 @@ extension choisie, installation réelle ou notification externe.
 | [EXIST-003](02-plugins-existants/exist-003-donnees-personnelles.md) | Découper l'adaptation de la protection des données | cadrage | P2 |
 | [EXIST-004](02-plugins-existants/exist-004-produits-publicite.md) | Découper l'adaptation des produits et de la publicité | cadrage | P2 |
 | [EXIST-005](02-plugins-existants/exist-005-gouvernance-ia.md) | Découper l'adaptation de la gouvernance IA | cadrage | P2 |
-| [EXIST-006](02-plugins-existants/exist-006-contentieux.md) | Cadrage terminé : inventaire et 29 suites contentieuses proposées | cadrage | P2 |
+| [EXIST-006](02-plugins-existants/exist-006-contentieux.md) | Cadrage terminé : inventaire et 41 suites contentieuses proposées | cadrage | P2 |
 | [EXIST-007](02-plugins-existants/exist-007-veille-reglementaire.md) | Cadrage terminé : inventaire et 20 suites de veille proposées | cadrage | P2 |
 | [EXIST-008](02-plugins-existants/exist-008-propriete-intellectuelle.md) | Cadrage terminé : inventaire et 25 suites PI proposées | cadrage | P2 |
 | [EXIST-009](02-plugins-existants/exist-009-clinique-juridique.md) | Cadrage terminé : inventaire et 23 suites de clinique proposées | cadrage | P2 |
@@ -376,11 +412,11 @@ extension choisie, installation réelle ou notification externe.
 ## Nouveaux domaines à cadrer — P2 / P3
 
 Le domaine consommation est cadré dans le
-[découpage CONSO-001 à CONSO-020](03-nouveaux-domaines/dom-001-decoupage-consommation.md),
+[découpage CONSO-001 à CONSO-021](03-nouveaux-domaines/dom-001-decoupage-consommation.md),
 avec [relecture commande non livrée, produit défectueux et achat professionnel](03-nouveaux-domaines/dom-001-verification.md).
 Le plugin proposé reste `consumer-legal`, installable seul, sans profil,
 agent ni connecteur. Première tranche proposée : CONSO-001, réclamation pour
-une commande non livrée, qui crée le paquet avec ce seul skill. Les 20 CONSO
+une commande non livrée, qui crée le paquet avec ce seul skill. Les 21 CONSO
 restent `proposee` ; aucun répertoire de plugin n'est créé et aucune tranche
 n'est sélectionnée par DOM-001. La [matrice des 155 frictions utilisateur](03-nouveaux-domaines/dom-001-frictions-utilisateurs.md)
 complète les 14 suites initiales et ajoute CONSO-015 à CONSO-020 : vendeur et

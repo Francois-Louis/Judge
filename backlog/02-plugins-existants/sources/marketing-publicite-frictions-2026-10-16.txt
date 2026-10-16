@@ -1,0 +1,532 @@
+# France — Les pièges du marketing, de la publicité, des influenceurs, de l'IA et des réglementations environnementales
+
+État du droit au 16 octobre 2026 — Consommateurs, indépendants, TPE, PME et e-commerçants.
+
+Le marketing expose à deux grandes catégories de risques :
+
+- Les abus commerciaux : fausses promotions, publicité dissimulée, avis fabriqués, faux labels, manipulation psychologique, greenwashing, influenceurs trompeurs et contenus générés par IA.
+- Les pièges réglementaires : obligations publicitaires mal connues, contrats d'influence, responsabilité des annonceurs, REP, écocontributions, étiquetage environnemental, PPWR et échéances de mise en conformité.
+
+Il faut distinguer une pratique réellement illégale, une pratique déloyale selon les circonstances et une technique marketing simplement désagréable. Les trois ne donnent pas les mêmes recours.
+
+Le socle juridique français est constitué notamment des articles L.121-1 à L.121-7 du Code de la consommation. Les pratiques commerciales trompeuses peuvent être sanctionnées même lorsqu'elles proviennent d'une entreprise étrangère, dès lors qu'elles produisent leurs effets en France.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++1
+
+
+
+## 1. Publicité mensongère et pratiques commerciales trompeuses
+
+| Piège ou abus                               | Ce qu'il faut surveiller                                                                              |
+| ------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| 1. Faux prix barré                          | Un prix de référence artificiellement augmenté pour afficher une grosse réduction.                    |
+| 2. Promotions permanentes                   | Une prétendue promotion exceptionnelle renouvelée sans interruption.                                  |
+| 3. Fausse urgence                           | « Plus que 5 minutes » alors que le compteur recommence à chaque visite.                              |
+| 4. Fausse rareté                            | « Dernier exemplaire » alors que le stock réel ne justifie pas cette annonce.                         |
+| 5. Fausse liquidation                       | Faire croire à une fermeture définitive ou à un déstockage judiciaire inexistant.                     |
+| 6. Publicité d'appel                        | Promouvoir un produit à prix attractif sans disposer raisonnablement des stocks annoncés.             |
+| 7. Cadeau faussement gratuit                | Imposer des frais ou achats non annoncés pour obtenir le prétendu cadeau.                             |
+| 8. Prix incomplet                           | Dissimuler des frais obligatoires jusqu'à la dernière étape de commande.                              |
+| 9. Frais précochés                          | Ajouter automatiquement une assurance, une option ou une prestation payante.                          |
+| 10. Comparaison de prix biaisée             | Comparer des produits ou prestations qui ne sont pas réellement équivalents.                          |
+| 11. Performances inventées                  | Avancer des chiffres d'efficacité sans justification sérieuse.                                        |
+| 12. Certification fictive                   | Afficher une médaille, un agrément officiel ou un label inexistant.                                   |
+| 13. Fausse recommandation officielle        | Faire croire qu'une administration, un laboratoire ou une association cautionne un produit.           |
+| 14. Garantie présentée comme exceptionnelle | Vendre comme un avantage exclusif un droit légal déjà acquis au consommateur.                         |
+| 15. Origine géographique trompeuse          | Utiliser des drapeaux, des noms ou des photographies suggérant une fabrication française inexistante. |
+| 16. Fabricant fictif                        | Se présenter comme fabricant artisanal alors qu'on revend simplement des marchandises industrielles.  |
+| 17. Photographies trompeuses                | Illustrer une qualité, une taille, une finition ou des accessoires non livrés.                        |
+| 18. Résultats invérifiables                 | « Testé scientifiquement », « approuvé par 98 % des clients », sans méthodologie vérifiable.          |
+| 19. Conditions essentielles cachées         | Omettre une restriction importante dans une petite note ou une page difficile d'accès.                |
+| 20. Publicité déguisée en information       | Présenter un contenu sponsorisé comme un article journalistique indépendant.                          |
+
+À connaître : une présentation peut être trompeuse sans comporter de mensonge explicite. Une omission importante ou une mise en scène qui induit le consommateur en erreur peut suffire.
+
+Réflexe de défense : conserver la publicité complète, son URL, la date, le prix affiché, les conditions de l'offre et les captures des étapes de commande. Une simple capture du prix final ne suffit pas toujours à démontrer la manipulation.
+
+Base légale : articles L.121-2, L.121-3 et L.121-4.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
++1
+
+
+
+## 2. Influenceurs, créateurs de contenu et partenariats commerciaux
+
+Une grande partie des dérives concerne le camouflage de la relation commerciale : faire passer une publicité rémunérée pour un conseil personnel et désintéressé.
+
+| Piège ou abus                             | Détail à connaître                                                                                                                                          |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 21. Partenariat non déclaré               | L'influenceur est payé pour recommander un produit mais le présente comme une découverte personnelle.                                                       |
+| 22. Produit offert dissimulé              | Un produit remis en contrepartie d'une publication constitue aussi une rémunération en nature.                                                              |
+| 23. Affiliation cachée                    | Une commission est touchée sur les achats réalisés via un lien ou un code promotionnel, sans transparence.                                                  |
+| 24. Mention publicitaire invisible        | « Collaboration commerciale » caché dans une série de hashtags, en texte minuscule ou affiché trop brièvement.                                              |
+| 25. Faux test indépendant                 | Le créateur prétend comparer objectivement des produits alors qu'un annonceur contrôle les conclusions.                                                     |
+| 26. Témoignage fabriqué                   | Un influenceur raconte une expérience personnelle qu'il n'a jamais vécue.                                                                                   |
+| 27. Faux succès financier                 | Mise en scène de voitures, comptes bancaires ou revenus pour vendre une formation.                                                                          |
+| 28. Codes promotionnels trompeurs         | « Mon code exclusif » alors que la réduction est disponible pour tout le monde.                                                                             |
+| 29. Faux concours                         | Tirage au sort inexistant, gagnants fictifs, conditions changeantes ou collecte abusive de données.                                                         |
+| 30. Cadeaux contre avis positifs          | L'influenceur ou la marque impose une appréciation favorable en échange d'un avantage.                                                                      |
+| 31. Communauté artificielle               | Achat d'abonnés, de vues, de commentaires ou d'engagement pour gonfler la crédibilité.                                                                      |
+| 32. Publicité interdite                   | Promotion de chirurgie esthétique, produits financiers interdits à la promotion, contrefaçons ou pronostics sportifs payants dans des situations prohibées. |
+| 33. Influenceur étranger                  | Prétendre échapper à la réglementation française parce que le compte est domicilié à Dubaï ou ailleurs.                                                     |
+| 34. Publicité ciblant les mineurs         | Exploitation de la crédulité des enfants, confusion entre divertissement et publicité, ou publicité pour des produits réglementés.                          |
+| 35. Exploitation des enfants influenceurs | Utilisation commerciale de leur image sans respecter les autorisations et protections applicables.                                                          |
+
+Les obligations de transparence s'appliquent notamment aux contreparties financières et en nature. Un produit envoyé spontanément, sans contrepartie ni engagement de publication, ne constitue toutefois pas automatiquement une collaboration commerciale.
+
+La mention publicitaire doit être clairement identifiable, et non simplement techniquement présente quelque part dans le contenu.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++1
+
+
+
+### Les pièges pour une entreprise qui travaille avec un influenceur
+
+| Piège contractuel                                  | Protection                                                                       |
+| -------------------------------------------------- | -------------------------------------------------------------------------------- |
+| 36. Accord verbal imprécis                         | Écrire les livrables exacts, les dates et la rémunération.                       |
+| 37. Audience gonflée                               | Demander des statistiques récentes et vérifier leur cohérence.                   |
+| 38. Absence de droit de réutilisation              | Prévoir explicitement les droits d'utiliser la vidéo ou les photos en publicité. |
+| 39. Publication supprimée immédiatement            | Fixer la durée de disponibilité des contenus et les conséquences d'un retrait.   |
+| 40. Exclusivité excessive                          | Encadrer les concurrents concernés, la durée et le périmètre de l'exclusivité.   |
+| 41. Résultats commerciaux promis                   | Distinguer obligation de publier et garantie éventuelle de performance.          |
+| 42. Responsabilité transférée à la marque          | Répartir les obligations de conformité entre annonceur, agence et influenceur.   |
+| 43. Campagne réalisée par un sous-traitant inconnu | Identifier le cocontractant et encadrer la sous-traitance.                       |
+
+Échéance importante depuis le 1er janvier 2026 : un contrat écrit comportant les mentions légales est obligatoire lorsque les rémunérations et avantages en nature atteignent 1 000 € HT, sur la même année, entre un influenceur et un annonceur pour une prestation ou un ensemble de prestations poursuivant le même objectif promotionnel.
+
+Ce seuil ne constitue pas une exemption des autres obligations légales en dessous de 1 000 €.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
++1
+
+
+
+## 3. Intelligence artificielle, publicités synthétiques et deepfakes
+
+L'IA facilite la fabrication de contenus extrêmement crédibles. Elle crée également des risques pour les entreprises qui commandent des publicités à des agences ou utilisent des outils de génération.
+
+| Piège ou abus                                     | Risque                                                                                                                 |
+| ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| 44. Faux témoignages vidéo                        | Un avatar généré par IA raconte avoir utilisé un produit.                                                              |
+| 45. Faux experts                                  | Un faux médecin, ingénieur ou artisan recommande un produit.                                                           |
+| 46. Usurpation de célébrité                       | Image ou voix synthétique d'une personnalité utilisée sans autorisation.                                               |
+| 47. Faux avant/après                              | Résultats corporels, esthétiques ou matériels fabriqués.                                                               |
+| 48. Photographie produit impossible               | Une IA montre des caractéristiques absentes du véritable produit.                                                      |
+| 49. Démonstration technique simulée               | Un résultat présenté comme un essai physique n'a jamais été obtenu.                                                    |
+| 50. Faux articles de presse                       | Création d'un faux reportage ou d'une fausse interview cautionnant un produit.                                         |
+| 51. Faux commentaires générés                     | Production industrielle d'avis fictifs crédibles.                                                                      |
+| 52. Faux comparateurs                             | Un outil présenté comme indépendant dirige systématiquement vers les offres de son propriétaire.                       |
+| 53. Chatbot présenté comme humain                 | Une conversation automatisée donne l'impression d'être menée par un véritable conseiller.                              |
+| 54. Faux service après-vente                      | Un robot invente des engagements, des délais ou des conditions de garantie.                                            |
+| 55. Contrefaçon visuelle                          | Reproduction de la marque, du packaging ou de l'identité d'un concurrent.                                              |
+| 56. Utilisation non autorisée d'une image         | Une photographie ou le visage d'une personne est repris dans une campagne sans droits appropriés.                      |
+| 57. Contenu IA vendu comme une prestation humaine | Le prestataire facture des prises de vues, illustrations originales ou tests qui n'ont pas été réalisés comme convenu. |
+| 58. Droits commerciaux mal vérifiés               | Une agence livre un contenu généré sans vérifier les licences, les droits des tiers ni les conditions du générateur.   |
+
+### Ce qu'impose réellement l'AI Act en 2026
+
+Depuis le 2 août 2026, l'article 50 du règlement européen sur l'IA prévoit notamment des obligations de transparence concernant les interactions avec des systèmes d'IA, le marquage technique de certains contenus synthétiques et l'identification des deepfakes.
+
+Les obligations diffèrent selon qu'on fournit le système d'IA ou qu'on l'utilise pour diffuser des contenus.
+
+Attention : toute image créée ou retouchée avec une IA ne doit pas systématiquement recevoir une mention publique « Généré par IA ». Les obligations sont plus ciblées, notamment pour les deepfakes et certains contenus d'intérêt public.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://digital-strategy.ec.europa.eu\&sz=32)
+
+Bâtir l’avenir numérique de l’Europe
+
++1
+
+
+
+Dans l'influence commerciale française, des obligations spécifiques existent également pour les images retouchées modifiant l'apparence du visage ou la silhouette et pour les représentations artificielles de visages ou silhouettes, avec les mentions « Images retouchées » et « Images virtuelles ».&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
+
+
+Pour te défendre : archive le contenu original, les captures publicitaires, les affirmations commerciales et les échanges avec l'annonceur. Ne te repose pas uniquement sur un détecteur d'IA : ses résultats ne constituent pas une preuve suffisante.
+
+## 4. Marketing numérique, réseaux sociaux et manipulation des interfaces
+
+Les dark patterns sont des interfaces conçues pour orienter ou entraver les décisions des internautes.
+
+| Piège ou abus                         | Ce qu'il faut repérer                                                                           |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| 59. Bouton trompeur                   | Un bouton qui ressemble à « Continuer » déclenche une souscription.                             |
+| 60. Refus volontairement compliqué    | Plusieurs étapes sont nécessaires pour refuser, contre un clic pour accepter.                   |
+| 61. Désabonnement dissimulé           | L'inscription prend quelques secondes, la résiliation exige des démarches complexes.            |
+| 62. Essai gratuit piégé               | Une période d'essai se transforme en abonnement payant insuffisamment annoncé.                  |
+| 63. Faux visiteurs en direct          | « 37 personnes consultent ce produit » sans données réelles.                                    |
+| 64. Classement sponsorisé camouflé    | Le classement semble objectif mais dépend des paiements des annonceurs.                         |
+| 65. Comparateur captif                | Plusieurs prétendues enseignes concurrentes appartiennent au même groupe.                       |
+| 66. Publicité native dissimulée       | Une annonce prend l'apparence d'un article, d'un résultat organique ou d'un bouton fonctionnel. |
+| 67. Récompense conditionnelle abusive | Une participation ou un avantage annoncé gratuitement impose finalement un achat.               |
+| 68. Faux consentement                 | La personne croit accepter un service alors qu'elle accepte aussi de la prospection.            |
+| 69. Cases précochées                  | Des options payantes ou des consentements sont déjà sélectionnés.                               |
+| 70. Paramètres volontairement obscurs | Désactiver le ciblage publicitaire nécessite de parcourir plusieurs menus complexes.            |
+| 71. Collecte sous prétexte de jeu     | Un concours sert surtout à récupérer emails et numéros de téléphone.                            |
+| 72. Faux sondage                      | Les réponses permettent de profiler commercialement le visiteur sans information adaptée.       |
+| 73. Publicité de reciblage intrusive  | Le consommateur est suivi entre sites sans respecter les règles de consentement applicables.    |
+| 74. Newsletter imposée                | Le consentement à la prospection est artificiellement lié à une commande.                       |
+| 75. Avis négatifs enterrés            | Les avis défavorables sont filtrés, retardés ou supprimés de manière trompeuse.                 |
+
+Une interface désagréable n'est pas automatiquement illégale. En revanche, la DGCCRF identifie explicitement les fausses urgences, les faux stocks, les ajouts payants non consentis et les publicités dissimulées parmi les pratiques susceptibles d'être illicites.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
+
+
+### Les droits souvent méconnus
+
+- Réduction de prix : en principe, une réduction annoncée doit se référer au prix le plus bas pratiqué par le vendeur pendant les 30 jours précédents, sous réserve des cas particuliers prévus par les textes.&#x20;
+
+  [image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+  economie.gouv.fr
+
+- Prospection B2C par email ou SMS : consentement préalable en principe, avec notamment une exception encadrée pour les clients existants et les produits ou services analogues.
+
+- Prospection B2B : le consentement préalable n'est pas systématiquement exigé, mais le message doit notamment être pertinent par rapport à l'activité du professionnel, permettre son identification et offrir une opposition simple.&#x20;
+
+  [image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+  CNIL
+
+
+
+## 5. Greenwashing, fausses promesses écologiques et labels
+
+| Piège ou abus                                  | Problème                                                                                                         |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| 76. « Écologique » sans justification          | Une affirmation vague sans caractéristique environnementale précise et vérifiable.                               |
+| 77. « 100 % recyclable »                       | Confusion entre recyclabilité théorique et filière de recyclage réellement disponible.                           |
+| 78. « Biodégradable »                          | Absence d'indication des conditions nécessaires à la biodégradation.                                             |
+| 79. « Neutre en carbone »                      | Présentation trompeuse de la compensation des émissions.                                                         |
+| 80. Emballage vert trompeur                    | Utilisation de feuilles, forêts, couleurs vertes ou symboles laissant supposer des bénéfices inexistants.        |
+| 81. « Durable » sans critère                   | Affirmation sans indication sur la durée de vie, la réparabilité ou la performance environnementale.             |
+| 82. Label privé présenté comme officiel        | Une marque invente son propre logo et lui donne une apparence de certification indépendante.                     |
+| 83. « Zéro déchet » exagéré                    | L'entreprise passe sous silence les déchets de fabrication ou de distribution.                                   |
+| 84. « Fabrication responsable » non documentée | Absence de preuves sur les pratiques réellement revendiquées.                                                    |
+| 85. Caractéristique devenue obligatoire        | Présenter le respect d'une obligation légale générale comme un avantage environnemental propre à la marque.      |
+| 86. Allégation fondée sur un seul élément      | Mettre en avant un carton recyclé alors que l'affirmation suggère que le produit entier est écologique.          |
+| 87. Objectif environnemental sans plan         | « Zéro émission en 2030 » sans engagements crédibles, calendrier ou éléments permettant de vérifier les progrès. |
+
+### Attention à la directive européenne 2024/825
+
+Elle renforce notamment l'encadrement des labels privés, des allégations environnementales génériques et des promesses climatiques.
+
+Son calendrier européen prévoit une transposition au 27 mars 2026 et une application à compter du 27 septembre 2026.
+
+Mais au 14 octobre 2026, la transposition française était toujours inachevée. Il ne faut donc pas présenter toutes les nouvelles interdictions de cette directive comme déjà intégralement applicables, en tant que telles, aux entreprises privées françaises.
+
+Cela ne rend pas le greenwashing légal : les dispositions françaises préexistantes relatives aux pratiques trompeuses et à certaines allégations environnementales restent applicables.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://eur-lex.europa.eu\&sz=32)
+
+EUR-Lex
+
++3
+
+
+
+Pour la publicité affirmant la neutralité carbone, il existe depuis 2023 des obligations françaises spécifiques, notamment sur le bilan d'émissions et la justification des démarches annoncées.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
+
+
+## 6. REP — Responsabilité élargie du producteur et écocontributions
+
+La REP est un sujet particulièrement piégeux pour les petites entreprises : une société peut être concernée même si elle ne fabrique pas elle-même ses emballages.
+
+Il faut distinguer l'obligation légale, la relation commerciale avec un éco-organisme et les prestations facultatives vendues par des intermédiaires.
+
+| Piège ou difficulté                                           | Conséquence et protection                                                                                                                               |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 88. Croire que la REP concerne uniquement les industriels     | Un artisan, importateur ou vendeur en ligne peut être producteur au sens réglementaire.                                                                 |
+| 89. Confondre fabricant physique et producteur REP            | Celui qui fabrique matériellement l'emballage n'est pas nécessairement celui qui supporte l'obligation.                                                 |
+| 90. Croire que le fournisseur paie forcément la REP           | Il faut identifier qui effectue la première mise à disposition et appliquer les règles propres à la filière.                                            |
+| 91. Confondre emballages ménagers et professionnels           | Les catégories et responsabilités doivent être examinées séparément.                                                                                    |
+| 92. Oublier les emballages d'expédition                       | Les cartons, protections et autres éléments d'emballage peuvent entrer dans les quantités à déclarer.                                                   |
+| 93. Oublier les produits distribués gratuitement              | La mise sur le marché peut concerner aussi des marchandises remises gratuitement.                                                                       |
+| 94. Ignorer les ventes transfrontalières                      | Vendre dans plusieurs pays peut entraîner plusieurs obligations nationales REP.                                                                         |
+| 95. Supposer qu'un IDU français suffit dans toute l'Europe    | L'identifiant unique français ne remplace pas les enregistrements éventuellement requis ailleurs.                                                       |
+| 96. Confondre le SIRET et l'IDU                               | L'identifiant unique REP est délivré dans un dispositif administratif spécifique.                                                                       |
+| 97. Ne pas afficher ses IDU                                   | Le producteur doit notamment les communiquer dans ses CGV et sur son site internet.                                                                     |
+| 98. Déclarer des quantités erronées                           | Un mauvais calcul peut entraîner des régularisations et des contributions incorrectes.                                                                  |
+| 99. Accepter une catégorie tarifaire sans vérification        | Une mauvaise classification du matériau ou de l'emballage peut modifier les contributions.                                                              |
+| 100. Payer deux fois                                          | Une même mise sur le marché peut être comptabilisée incorrectement par plusieurs opérateurs. Il faut clarifier les rôles et contrôler les déclarations. |
+| 101. Confondre prix du produit et écocontribution             | Les règles d'affichage et de répercussion des contributions dépendent de la filière concernée.                                                          |
+| 102. Oublier les déclarations périodiques                     | L'adhésion seule ne dispense pas des remontées de données nécessaires.                                                                                  |
+| 103. Accepter des prestations facultatives comme obligatoires | Un accompagnement administratif payant n'est pas nécessairement imposé par la loi.                                                                      |
+| 104. Ignorer les conditions contractuelles des éco-organismes | Contrôler les minimums de facturation, les régularisations, les échéances et les clauses de résiliation.                                                |
+| 105. Résilier une adhésion sans solution de remplacement      | Risque de perdre son IDU ou de ne plus satisfaire ses obligations REP.                                                                                  |
+| 106. Faire confiance à une marketplace                        | Le fait de vendre sur une plateforme ne dispense pas automatiquement le producteur de ses responsabilités.                                              |
+
+L'ADEME confirme notamment les obligations de communication des IDU, de déclaration et d'enregistrement. Un distributeur qui n'est pas lui-même producteur doit pouvoir obtenir les identifiants applicables auprès de son fournisseur pour répondre à l'acheteur.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://filieres-rep.ademe.fr\&sz=32)
+
+Filières REP
+
++2
+
+
+
+### REP emballages professionnels : le report de 2026
+
+C'est un exemple concret des pièges créés par des dates réglementaires qui évoluent.
+
+Date initialement prévue
+
+1er juillet 2026
+
+Démarrage opérationnel annoncé
+
+1er janvier 2027
+
+Objectif d'adhésion des opérateurs concernés
+
+Fin 2026
+
+Le ministère a annoncé le 28 juillet 2026 le report du déploiement opérationnel, notamment en raison des incertitudes d'identification des producteurs et de la publication tardive des barèmes.
+
+Point de vigilance : certaines pages officielles continuent d'afficher la date initiale du 1er juillet tout en indiquant plus bas le report au 1er janvier 2027. L'annonce administrative de report doit être distinguée de la date figurant dans les textes réglementaires.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ecologie.gouv.fr\&sz=32)
+
+Ministères Écologie et Ville
+
++1
+
+
+
+Pour un artisan ou une PME, il faut notamment vérifier si l'entreprise est considérée comme conditionneur, fabricant, importateur ou distributeur, ainsi que les exceptions applicables aux microentreprises dans certaines situations.
+
+## 7. PPWR — Nouveau règlement européen sur les emballages
+
+Le règlement (UE) 2025/40, appelé PPWR (Packaging and Packaging Waste Regulation), est directement applicable dans l'Union européenne depuis le 12 août 2026, mais ses différentes obligations disposent de dates spécifiques.
+
+Le piège est de croire que toutes les exigences s'appliquent immédiatement, ou à l'inverse de croire qu'aucune ne s'applique avant 2030.
+
+### Les problèmes concrets
+
+| Piège ou difficulté                                          | Ce qu'il faut vérifier                                                                                                     |
+| ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| 107. Confondre entrée en application et toutes les échéances | Chaque article doit être examiné avec sa propre date d'application.                                                        |
+| 108. Commander un stock massif d'emballages                  | Un packaging imprimé pour plusieurs années peut devoir être modifié avant épuisement du stock.                             |
+| 109. Imprimer trop tôt le nouveau marquage européen          | Les formats harmonisés et leurs modalités d'entrée en vigueur doivent être vérifiés.                                       |
+| 110. Imprimer uniquement le Triman pour toute l'Europe       | Le système français n'est pas un étiquetage universel européen.                                                            |
+| 111. Croire qu'un QR code remplace toutes les mentions       | Certaines informations doivent être directement présentes sur l'emballage.                                                 |
+| 112. Oublier la composition réelle du packaging              | Colles, films, fenêtres, revêtements et composants composites peuvent modifier son évaluation.                             |
+| 113. Confondre recyclable et recyclé                         | Un emballage conçu pour être recyclé ne contient pas nécessairement de matières recyclées.                                 |
+| 114. Considérer le calage comme supprimant l'espace vide     | Pour les règles sur le suremballage, certains matériaux de remplissage sont comptés comme du vide.                         |
+| 115. Ignorer la recyclabilité future                         | La compatibilité avec les critères de conception pour le recyclage devient progressivement déterminante.                   |
+| 116. Ne pas documenter les matériaux                         | Impossible de justifier certaines caractéristiques en cas de demande de contrôle.                                          |
+| 117. Confondre emballage réutilisable et recyclable          | Un emballage solide ou conservable n'est pas automatiquement qualifié de réutilisable au sens réglementaire.               |
+| 118. Ignorer les exigences sur certaines substances          | Les emballages alimentaires sont notamment soumis à des restrictions PFAS depuis août 2026.                                |
+| 119. Confondre vente B2B et exemption                        | Le règlement comporte des obligations concernant différents types d'emballages, pas seulement ceux remis aux particuliers. |
+| 120. Confondre fabricant, distributeur et importateur        | Le rôle réglementaire dépend de la nature de l'emballage et de la chaîne de commercialisation.                             |
+
+### Calendrier PPWR à connaître
+
+| Date                     | Évolution                                                                                                                                                                              |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 12 août 2026             | Application générale du règlement ; entrée en application notamment des restrictions PFAS visant les emballages destinés au contact alimentaire.                                       |
+| 12 février 2028          | Échéance prévue notamment pour minimiser l'espace vide des emballages de vente, selon l'article 24.                                                                                    |
+| 12 août 2028 au plus tôt | Nouvel étiquetage européen harmonisé des matériaux ; la date effective peut être repoussée selon l'entrée en vigueur des actes d'exécution.                                            |
+| 1er janvier 2030         | Échéance structurante pour la réduction des emballages, certaines restrictions de formats et les critères de recyclabilité, avec des dispositions pouvant dépendre d'actes ultérieurs. |
+| 2035                     | Prise en compte supplémentaire du recyclage à grande échelle dans l'évaluation de la recyclabilité.                                                                                    |
+| 2038                     | Durcissement des classes de recyclabilité admises sur le marché.                                                                                                                       |
+
+Pour les emballages groupés, de transport et de commerce électronique, le plafond de 50 % d'espace vide est prévu au 1er janvier 2030 ou trois ans après l'entrée en vigueur des actes nécessaires, si cette date est postérieure. Il ne faut donc pas annoncer le 1er janvier 2030 comme une date inconditionnelle.
+
+Sources : règlement (UE) 2025/40, notamment articles 5, 6, 10, 12 et 24.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://eur-lex.europa.eu\&sz=32)
+
+EUR-Lex
+
++2
+
+
+
+### Le piège particulièrement vicieux du Triman français
+
+La réglementation française impose actuellement, dans son champ d'application, une signalétique Triman accompagnée des informations de tri. Les dispositions nationales prévoient certaines adaptations pour les emballages de très petite taille.
+
+Mais deux évolutions compliquent la situation :
+
+- 26 mars 2026 : la Commission européenne a saisi la Cour de justice de l'Union européenne contre la France à propos des exigences françaises Triman/Info-tri, notamment sur leur compatibilité avec la libre circulation des marchandises.
+- Futur étiquetage PPWR harmonisé : la Commission considère que les règles nationales ajoutant des consignes de tri ne pourront pas être maintenues à côté de l'étiquetage harmonisé européen lorsque celui-ci deviendra applicable, sous réserve des exceptions prévues.
+
+Le recours européen contre la France ne supprime pas automatiquement les obligations françaises actuellement en vigueur.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
++2
+
+
+
+Pour un fabricant de couteaux qui cherche à conserver une boîte universelle utilisable à l'international, la solution prudente consiste donc à maintenir séparés le graphisme permanent de la boîte et les éléments réglementaires susceptibles d'évoluer. Un autocollant adapté au marché concerné limite les risques de réimpression et de destruction du stock.
+
+## 8. Agences marketing, publicité payante, SEO et prestations commerciales
+
+Pour les indépendants et les petites entreprises, les abus ne viennent pas uniquement des annonceurs. Ils peuvent aussi venir des prestataires auxquels on confie la visibilité de son entreprise.
+
+| Piège ou abus                             | Comment éviter de se faire avoir                                                                                                           |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 121. Promesses SEO irréalistes            | « Première position Google garantie » sans préciser la requête, les conditions et la durée.                                                |
+| 122. Confusion SEO et publicité           | Un prestataire facture une visibilité présentée comme organique alors qu'il achète des annonces.                                           |
+| 123. Budget publicitaire opaque           | Impossible de distinguer les dépenses Meta/Google des honoraires de l'agence.                                                              |
+| 124. Commission dissimulée                | Le prestataire perçoit des rémunérations supplémentaires non prévues ou non déclarées contractuellement.                                   |
+| 125. Statistiques trompeuses              | Afficher les impressions ou les clics comme s'il s'agissait de ventes réalisées.                                                           |
+| 126. Attribution artificiellement gonflée | Plusieurs plateformes revendiquent les mêmes conversions.                                                                                  |
+| 127. Facturation au résultat ambiguë      | « Un lead » peut simplement être une adresse email, sans qualification commerciale.                                                        |
+| 128. Faux trafic                          | Visites produites par des robots, fermes à clics ou sources de mauvaise qualité.                                                           |
+| 129. Achat de faux abonnés                | Gonflement artificiel de l'audience sans bénéfice commercial réel.                                                                         |
+| 130. Achat de liens SEO toxiques          | Liens artificiels pouvant nuire à la visibilité à long terme du site.                                                                      |
+| 131. Rétention des comptes publicitaires  | L'agence crée les comptes sous sa propre identité et complique leur récupération.                                                          |
+| 132. Rétention des données                | Refus de transmettre les audiences, historiques de campagne, créations ou rapports prévus au contrat.                                      |
+| 133. Propriété intellectuelle ambiguë     | Le client découvre qu'il ne dispose pas des droits nécessaires pour réutiliser les créations.                                              |
+| 134. Résiliation contractuelle piégeuse   | Reconduction automatique ou préavis difficile à respecter.                                                                                 |
+| 135. Engagement de durée dissimulé        | Une offre mensuelle conduit en réalité à une durée minimale de douze mois.                                                                 |
+| 136. Frais de sortie artificiels          | Facturation de sommes non prévues ou disproportionnées pour exporter les données.                                                          |
+| 137. Référencement local détourné         | Le prestataire contrôle la fiche d'établissement et conserve des accès critiques.                                                          |
+| 138. Faux partenariat officiel            | Se prétendre « partenaire agréé » d'une plateforme sans certification réelle.                                                              |
+| 139. Audit gratuit destiné à effrayer     | Inventer des défaillances SEO, RGPD ou techniques pour vendre des corrections.                                                             |
+| 140. Faux renouvellement administratif    | Faire croire que le référencement, le nom de domaine ou une inscription obligatoire doivent être renouvelés auprès d'un prestataire privé. |
+
+### Protections indispensables en B2B
+
+Avant de signer une prestation marketing, il faut définir contractuellement ce qui sera livré, qui possède les comptes, qui détient les créations et comment s'effectue une sortie du contrat.
+
+Je recommande de conserver la propriété administrative des comptes Google Ads, Meta Business, Analytics, Search Console et des noms de domaine. L'agence intervient avec des accès délégués.
+
+Pour les contrats B2B, attention : les protections du droit de la consommation, notamment la rétractation et la médiation, ne s'appliquent pas automatiquement comme pour un consommateur particulier.
+
+## 9. Délais à ne pas manquer
+
+Voici les délais les plus importants à surveiller. Ils ne sont pas tous spécifiques au marketing, mais ils interviennent fréquemment dans les litiges qu'il provoque.
+
+| Situation                                                       | Délai ou date                                                   | Ce qu'il faut faire                                                                    |
+| --------------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Achat à distance B2C                                            | Généralement 14 jours après réception du bien                   | Notifier la rétractation, si le contrat et le produit y sont éligibles.                |
+| Réduction de prix annoncée                                      | Référence de 30 jours                                           | Vérifier le prix le plus bas pratiqué avant l'annonce, selon les règles applicables.   |
+| Réclamation pour médiation B2C                                  | 1 an maximum après la réclamation écrite initiale               | Saisir le médiateur compétent avant l'expiration du délai.                             |
+| Professionnel ne répondant pas à une réclamation                | Généralement 2 mois pour pouvoir saisir le médiateur            | Conserver la preuve de la réclamation et de sa date.                                   |
+| Exercice d'un droit RGPD                                        | En principe 1 mois                                              | Vérifier la réponse ; prolongation possible de 2 mois supplémentaires sous conditions. |
+| Prélèvement SEPA autorisé mais contesté                         | 8 semaines                                                      | Demander le remboursement à la banque dans les conditions applicables.                 |
+| Opération de paiement non autorisée                             | En principe 13 mois maximum pour la signaler, avec exceptions   | Prévenir la banque sans tarder.                                                        |
+| Contrats d'influence de 1 000 € HT ou plus selon le seuil légal | Depuis le 1er janvier 2026                                      | Établir un contrat écrit conforme.                                                     |
+| Transparence IA, article 50                                     | Depuis le 2 août 2026                                           | Vérifier les contenus et outils entrant dans le champ des obligations.                 |
+| REP emballages professionnels                                   | 1er janvier 2027, démarrage opérationnel annoncé                | Vérifier sa qualité de producteur et préparer l'adhésion si nécessaire.                |
+| PPWR, nouvel étiquetage harmonisé                               | Au plus tôt le 12 août 2028                                     | Contrôler les actes d'application avant de commander de nouveaux emballages.           |
+| PPWR, réduction de l'espace vide                                | Échéances en 2028 et 2030 ou ultérieures selon les dispositions | Préparer la conception des emballages et documenter les choix.                         |
+
+Les principales règles de recours et les délais bancaires sont détaillés par les administrations compétentes.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++3
+
+
+
+Attention : un signalement à la DGCCRF ne suspend pas automatiquement un délai de rétractation, de prescription ou de recours judiciaire.
+
+## 10. Qui contacter et comment défendre ses droits ?
+
+| Organisme ou recours                                                                | Dans quel cas ?                                                                                           |
+| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| [SignalConso](https://signal.conso.gouv.fr/?utm_source=chatgpt.com)                 | Publicité trompeuse, faux prix, influence commerciale, avis fictifs et litiges de consommation.           |
+| [DGCCRF](https://www.economie.gouv.fr/dgccrf?utm_source=chatgpt.com)                | Signalement de pratiques illégales, y compris par un professionnel contre un autre.                       |
+| [CNIL](https://www.cnil.fr/?utm_source=chatgpt.com)                                 | Prospection non conforme, collecte abusive, publicité ciblée et droits relatifs aux données personnelles. |
+| [Jury de Déontologie Publicitaire](https://www.jdp-pub.org/?utm_source=chatgpt.com) | Publicités susceptibles de contrevenir aux règles déontologiques publicitaires.                           |
+| [INPI](https://www.inpi.fr/?utm_source=chatgpt.com)                                 | Informations et démarches concernant les marques et autres droits de propriété industrielle.              |
+| [ADEME — Filières REP](https://filieres-rep.ademe.fr/?utm_source=chatgpt.com)       | Identifiants uniques, producteurs concernés et obligations REP.                                           |
+| [Légifrance](https://www.legifrance.gouv.fr/?utm_source=chatgpt.com)                | Vérification des lois, décrets, articles applicables et dates d'entrée en vigueur.                        |
+| [EUR-Lex](https://eur-lex.europa.eu/?utm_source=chatgpt.com)                        | Vérification des règlements et directives de l'Union européenne, notamment PPWR et AI Act.                |
+
+Les rôles sont différents : SignalConso permet notamment de faire remonter un problème et de solliciter une réponse professionnelle, mais ce n'est pas un tribunal garantissant un remboursement. La médiation de consommation vise les litiges contractuels individuels recevables. Le Jury de Déontologie Publicitaire examine, pour sa part, les manquements déontologiques.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++2
+
+
+
+### Procédure pratique en cas de problème
+
+1. Constituer les preuves immédiatement. Captures horodatées, enregistrement des annonces, URL, facture, CGV, échanges, contrat, preuve du paiement et versions des pages importantes.
+2. Identifier le responsable. Vendeur, annonceur, influenceur, agence ou plateforme. Plusieurs peuvent être impliqués, mais pas nécessairement au même titre.
+3. Qualifier le problème. Publicité trompeuse, manquement contractuel, traitement illicite de données, contrefaçon ou obligation réglementaire non respectée.
+4. Faire une réclamation écrite. Décrire les faits, joindre les preuves pertinentes, formuler la demande exacte et conserver la date d'envoi.
+5. Conserver les recours parallèles. Signaler l'annonce ou la pratique à l'autorité compétente sans attendre si elle peut disparaître ou causer d'autres préjudices.
+6. Surveiller les échéances. Ne pas attendre le résultat d'un signalement administratif pour exercer une rétractation, saisir un médiateur ou engager une action nécessaire.
+
+## 11. Les mesures de prévention les plus utiles pour une petite entreprise
+
+Checklist de vérification
+
+0/12
+
+Vérifier les promesses commerciales, prix barrés et arguments de vente
+
+Justifier les mentions d'origine, de fabrication et les certifications
+
+Vérifier la collecte, l'authenticité et la publication des avis
+
+Formaliser les partenariats, contreparties et droits de réutilisation
+
+Vérifier l'utilisation des images synthétiques et des deepfakes
+
+Contrôler les consentements et les pratiques de prospection
+
+Conserver la propriété des comptes publicitaires et des données
+
+Identifier les filières REP applicables et conserver les IDU
+
+Distinguer emballages ménagers, professionnels et d'expédition
+
+Planifier les évolutions PPWR sans imprimer prématurément les futurs marquages
+
+Contrôler les clauses de reconduction, résiliation et propriété intellectuelle
+
+Archiver les versions des publicités, contrats et déclarations
+
+Réinitialiser Copier
+
+Les risques à traiter en premier sont les promesses commerciales impossibles à prouver, les publicités non identifiées, les droits sur les créations et les comptes publicitaires, ainsi que les obligations REP réellement applicables.
+
+Les exigences PPWR à échéance plus lointaine doivent être anticipées, mais sans engager inutilement des dépenses d'impression sur la base de textes d'application encore susceptibles d'évoluer.
+
+Cette liste recense des pratiques problématiques connues et des risques concrets ; elle ne constitue pas un classement statistique des plaintes. Pour savoir lesquelles génèrent le plus de réclamations, il faudrait comparer séparément les données de la DGCCRF, de la CNIL et du Jury de Déontologie Publicitaire, dont les catégories de signalement ne sont pas directement équivalentes.

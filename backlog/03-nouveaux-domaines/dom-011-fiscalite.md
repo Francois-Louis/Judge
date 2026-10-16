@@ -77,3 +77,18 @@ contrôlé, à identifier dans leur version.
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
 
+## Complément — fiscalité des entreprises, 16 octobre 2026
+
+La [matrice des 100 frictions](../02-plugins-existants/exist-002-frictions-utilisateurs.md), points 37–42, 46–63, 69–70, 81 et 88–95, impose de préciser les tâches ci-dessous. DOM-011 reste un cadrage proposé, **à découper**, sans calcul ni règle vérifiée par cet ajout.
+
+- Avis CFE : lire contribuable, commune/établissement, base, période de référence et mise en recouvrement ; préparer séparément explication, examen d'exonération et réclamation. Distinguer cotisation minimum, absence de local, critères de l'activité artisanale, implantation géographique et cessation.
+- TVA : séparer franchise, option, seuils et dates d'effet, puis opérations internationales (biens/services, pays et qualité des partenaires). Ne pas confondre plafonds micro, seuils TVA et prorata ; les douanes gardent les opérations de leur champ.
+- IS : lire un échéancier/avis ou une obligation déclarative d'un exercice identifié ; demander régime, clôture, paiements et accusés, sans moteur général de calcul.
+- Facturation électronique : découper qualification d'un flux et calendrier de réception/émission, vérification documentaire d'une plateforme et e-reporting. La vente d'une offre imposée relève de COM-019/020 ; ne pas certifier un fournisseur. Vérifier séparément les mentions fiscales de facture et les transitions de référence légale alléguées dans le texte.
+- Dépenses et archivage : demander les justificatifs d'une dépense ciblée, distinguer nature, finalité et période ; prévoir une liste des durées par catégorie, sans comptabilité complète ni purge.
+- Recours : séparer lecture de décision, réclamation d'assiette, recouvrement, sursis, remise gracieuse et demande d'échéancier. Lire acte, notification, période, auteur et recours antérieur ; l'exigibilité et le délai de contestation gardent des analyses distinctes.
+- Cessation : préparer les dernières obligations par impôt et régime, dont réduction CFE éventuelle ; la radiation de registre n'est pas une preuve de traitement fiscal final.
+
+Frontière : impôts courants de l'activité indépendante → DOM-039 ; impôts de société, contrôle et contentieux fiscal → ici. Une demande formelle issue du premier parcours reçoit une fiche de relais avec pièces et dates, sans nouvelle qualification contradictoire. Espaces particulier/professionnel et services activés doivent être identifiés ; aucune déclaration déduite du seul accès au compte.
+
+Scénarios attendus : CFE d'un artisan invoquant une exonération ; avis disponible uniquement en ligne ; société sans local ; franchissement de seuil en cours d'année ; prestation internationale sous franchise ; facture électronique et mention TVA présentées comme une urgence commerciale ; réclamation pendante sans sursis établi ; société fermée avec dernières déclarations manquantes. Résultat : distinction des questions, pièces et calculs réservés ; pas d'exécution métier ici. Voir la matrice pour la portée.

@@ -87,3 +87,6 @@ BASE-011 ; ses limites H01 complet et lecteur indépendant restent consignées.
 Cette proposition attend la sélection explicite d'une tranche ; aucune
 commande, connexion ou automatisation France/UE n'est annoncée comme livrée.
 
+## Complément de besoins — formalités, 16 octobre 2026
+
+Points 11–13, 28, 65–66 et 96–97 de la [matrice formalités](../exist-002-frictions-utilisateurs.md) : rapprocher reçu de dépôt, signature, paiement, demande de régularisation, rejet et validation comme preuves de portées différentes. Conserver autorité, date et historique ; un ticket technique ou rapport de mandataire ne remplace pas la preuve de validation. Une demande de confidentialité jointe n'est pas une acceptation prouvée. Scénario attendu : paiement puis rejet sans passage automatique à « accompli ».

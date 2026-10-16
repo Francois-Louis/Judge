@@ -79,3 +79,13 @@ résoudre ces dossiers pendant le cadrage.
 Créer un plugin vide, évaluer la qualité juridique du travail du
 professionnel, engager sa responsabilité devant un juge ou contacter
 l'instance ordinale à la place de la personne.
+
+## Complément des frictions contentieuses — 16 octobre 2026
+
+Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+
+Points 72–77 et 81–82 : découper lecture de convention d’honoraires, rapprochement diligences/factures/provisions, contestation devant l’interlocuteur compétent, et préparation d’aide juridictionnelle pour une étape qualifiée. Recueillir convention et avenants, détail des diligences et paiements, mission première instance/appel/exécution, désignation éventuelle d’office, décision d’aide et dates des frais. Sorties : engagements couverts ou absents, décompte documenté, questions/réclamation locale, pièces d’aide et prise en charge encore incertaine. Distinguer forme de rémunération et résultat, montant contesté et faute alléguée.
+
+CTX-040 consomme les coûts et prises en charge documentés sans décider les honoraires. Protection juridique → DOM-005. Scénarios : forfait excluant appel ; provisions sans détail ; avocat désigné d’office et aide non obtenue ; appel avec aide limitée à une autre étape. Rechercher textes professionnels, règles de contestation et d’aide applicables, sans tenir les financements pour acquis.
+
+Les scénarios indiqués sont attendus, non exécutés. Sources/version, champ, déclencheur, exceptions et transitions restent à rechercher ; le texte fourni n’est pas une autorité juridique.

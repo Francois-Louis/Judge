@@ -92,3 +92,13 @@ Ajout par décision de l'utilisateur ([décisions du 16 octobre 2026](../decisio
 intente ou subit un procès civil : CTX-025 (assignation reçue), CTX-026
 (saisir le juge pour un petit litige), CTX-027 (audience sans avocat) et
 CTX-028 (jugement reçu). Le découpage compte désormais 28 suites.
+
+## Complément des frictions données personnelles — 16 octobre 2026
+
+Points 59–60 de la [matrice données personnelles](exist-003-frictions-utilisateurs.md) : PRV-034 prépare la plainte CNIL, DOM-035 organise dommage et causalité à découper ; contentieux garde compétence, représentation, saisine et échéances de la procédure qualifiée. Les tranches CTX de petit litige ne couvrent pas automatiquement tout recours RGPD. Action indemnitaire et recours contre une décision de l'autorité doivent être qualifiés avant choix de voie et découpage spécialisé, avec DOM-010 si pertinent. Préserver le calendrier de fond indépendamment de la demande RGPD, sans suspension automatique déduite. Aucune tranche CTX lancée ; portée et contrôles dans la matrice.
+
+## Intégration des frictions contentieuses — 16 octobre 2026
+
+La [matrice des 125 frictions](exist-006-frictions-utilisateurs.md) conserve l’ordre du [texte fourni](sources/contentieux-frictions-2026-10-16.txt), ses tableaux et sa checklist. Le découpage compte désormais **41 suites CTX proposées** : CTX-030 à CTX-041 ajoutent prescription civile, demandes chiffrées, mission et observations d’expertise, réponse adverse, temps de réponse, préparation de vérification d’appel TJ, erreur matérielle, omission de statuer, transaction, budget et ordonnance d’injonction côté créancier.
+
+Les besoins administratifs, pénaux, d’exécution, de financement et de procédures collectives sont attribués à leurs domaines ; les tâches non découpées restent explicitement ouvertes. CTX-016 ne devient pas un calculateur universel et CTX-028 reste une lecture sans calcul de délai. Les assertions normatives du texte, notamment les réformes annoncées en 2026, ne sont pas validées par cette intégration. [Contrôles documentaires](exist-006-frictions-verification.md) ; aucune tranche lancée, aucun plugin modifié. Les inventaire, vérification et résultats historiques du cadrage initial sont conservés à leur périmètre d’origine.

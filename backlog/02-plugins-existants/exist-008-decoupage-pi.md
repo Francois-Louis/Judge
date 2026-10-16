@@ -1,7 +1,7 @@
 # EXIST-008 — Découpage de la propriété intellectuelle
 
 Propositions du **16 octobre 2026**, issues de l’[inventaire exhaustif](exist-008-inventaire-pi.md).
-Les 30 PI restent `proposee`. La [relecture du cadrage](exist-008-verification.md)
+Les 31 PI restent `proposee`. La [relecture du cadrage](exist-008-verification.md)
 porte sur nom de marque en France, invention de salarié et retrait de contenu
 fictifs. Aucun droit, titre, recherche externe ou délai réel n’est validé ici.
 
@@ -59,6 +59,7 @@ stockage BASE-008 ; profil durable absent soumis à entretien neuf.
 | [PI-028](suites/pi-028-reprise-oeuvre.md) | Documenter la reprise d'un texte, d'une musique ou d'une œuvre plastique | PI-001 |
 | [PI-029](suites/pi-029-droit-moral.md) | Faire valoir le droit moral d'un auteur | PI-001 |
 | [PI-030](suites/pi-030-dessins-modeles.md) | Qualifier la protection d'un dessin ou modèle et documenter une copie alléguée | PI-001 |
+| [PI-031](suites/pi-031-droits-campagne-synthetique.md) | Documenter les droits d’un visuel publicitaire synthétique | Aucune |
 
 PI-025 attend adaptation et recette manuelles PI-020/021/022 ; aucun cookbook
 propre au plugin n’est livré ou créé dans ce découpage. Les tranches restent
@@ -150,3 +151,6 @@ ni outil du checkout ni corpus complet ne sont des dépendances runtime.
 Aucun dépôt, signature, paiement, publication, retrait effectif, message,
 compte connecté, planification de veille ou déploiement n’est réalisé ici.
 
+## Complément publicités synthétiques — 16 octobre 2026
+
+[PI-031](suites/pi-031-droits-campagne-synthetique.md), issue de la [matrice marketing](exist-004-frictions-utilisateurs.md), documente les droits d’un visuel ou d’une séquence synthétiques/retouchés. Licence du générateur, droits sur les sources, protection éventuelle de la sortie et image/voix ne sont pas fusionnés. PI-007/009/010 gardent la photographie ; DOM-035/043 gardent le litige de personnalité/expression à qualifier. IA-005 et PDT-009 gardent les mentions. Les 31 PI restent proposées ; les preuves historiques ne sont pas recalculées.

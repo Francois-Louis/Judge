@@ -41,6 +41,12 @@ Revoir les tâches PI selon les titres, territoires, auteurs et procédures rée
 
 Préparer un nom de marque en France, une invention de salarié et un retrait de contenu ; chaque cas doit avoir un périmètre de recherche et un résultat attendus différents.
 
+## Complément des frictions IA — 16 octobre 2026
+
+Point 10 de la [matrice IA](exist-005-frictions-utilisateurs.md) : compléter le futur découpage de la réutilisation d'œuvres pour entraînement avec réserves de droits, preuve datée de publication/restriction, identité du réutilisateur et usage allégué. Rechercher CPI, textes UE et jurisprudence officiels sur fouille de textes/données et conditions d'opposition selon titulaire/usage, sans robots.txt présenté comme garantie universelle. PRV-026/035 gardent les données personnelles. PI-001 qualifie la demande ; PI-007/028 documentent les droits et une reprise dans leur champ, sans prétendre couvrir déjà tout entraînement. Point 18 : PI-019 reste l'incident allégué de secret des affaires, à distinguer de la fiche IA-023 et d'une violation de données. Cas attendu : site contenant textes, photos et données personnelles, avec demandes par droit et titulaire distincts.
+
+Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](exist-005-frictions-verification.md).
+
 ## Hors périmètre
 
 Implémenter tout le domaine, modifier des contenus éditeur ou considérer qu'une traduction de vocabulaire valide le raisonnement juridique.
@@ -94,3 +100,7 @@ production (PI-026), gestion collective (PI-027), reprise d'une œuvre autre
 que la photographie (PI-028), droit moral (PI-029) et dessins et modèles
 (PI-030). Le statut social et fiscal des artistes-auteurs relève de DOM-042.
 Le découpage compte désormais 30 suites.
+
+## Intégration marketing — 16 octobre 2026
+
+La [matrice des 140 frictions](exist-004-frictions-utilisateurs.md) relie les besoins aux tâches et relais. PI-031 documente les droits d’une campagne synthétique ; les 31 PI restent proposées. Le droit à l’image/voix reste distinct du droit sur les sources et de la licence du générateur. Les résultats et empreintes historiques ci-dessus sont conservés. Portée de l’intégration et contrôles dans le [relevé dédié](exist-004-frictions-verification.md).

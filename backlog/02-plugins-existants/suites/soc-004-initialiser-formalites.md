@@ -88,3 +88,6 @@ BASE-011 ; ses limites H01 complet et lecteur indépendant restent consignées.
 Cette proposition attend la sélection explicite d'une tranche ; aucune
 commande, connexion ou automatisation France/UE n'est annoncée comme livrée.
 
+## Complément de besoins — formalités, 16 octobre 2026
+
+Points 18, 24–31 et 65–68 de la [matrice formalités](../exist-002-frictions-utilisateurs.md) : le schéma sépare événement, décision, publication, dépôt et validation, avec état prouvé, pièce et date. Qualifier SASU/EURL explicitement ; absence de salaire ou associé unique ne valent pas dispense. Bénéficiaires effectifs, établissement/SIRET et exercice sont des objets distincts. Le registre reçoit des formalités identifiées, sans absorber la lecture ponctuelle SOC-023/024/025 ou la comptabilité.

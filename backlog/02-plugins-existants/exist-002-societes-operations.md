@@ -74,3 +74,8 @@ externe consultée, aucun skill adapté ou exécuté, aucune recette de client,
 participant réel, connexion, diffusion ou déploiement. Les sources et scénarios
 métier seront vérifiés lors des implémentations choisies.
 
+## Complément de besoins — formalités, 16 octobre 2026
+
+La [matrice des 100 frictions](exist-002-frictions-utilisateurs.md) ajoute SOC-023 à SOC-026, quatre propositions d'implémentation bornées (dossier bloqué, modification, dépôt de comptes et questions de fermeture), ainsi que SOC-027, **cadrage** des entreprises en difficulté. Le découpage compte désormais 27 SOC, toutes proposées. Les formes unipersonnelles et les frontières EI/fiscalité/contrats sont explicitement prises en compte.
+
+Le bilan initial et ses empreintes ci-dessus portent sur les 22 propositions historiques. Cette intégration ne les revalide pas, ne clôture aucun nouveau cadrage et ne sélectionne aucune tranche. Portée et contrôles : matrice et [vérification de l'intégration](exist-002-frictions-verification.md).

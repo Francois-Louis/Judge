@@ -1,7 +1,7 @@
 # EXIST-006 — Découpage du contentieux
 
 Propositions du **16 octobre 2026**, issues de l'[inventaire exhaustif](exist-006-inventaire-contentieux.md).
-Les 29 suites CTX restent `proposee`. [La vérification](exist-006-verification.md)
+Les 41 suites CTX restent `proposee`. [La vérification](exist-006-verification.md)
 est une relecture du cadrage sur documents fictifs, pas une recette de skills.
 
 ## Contrat commun et première tranche proposée
@@ -58,6 +58,18 @@ gates et profils nécessaires, sans attendre une réécriture transversale.
 | [CTX-027](suites/ctx-027-audience-sans-avocat.md) | Préparation d'une audience civile orale sans avocat | CTX-001 |
 | [CTX-028](suites/ctx-028-jugement-civil-recu.md) | Lecture d'un jugement civil reçu et des recours à vérifier | CTX-001 |
 | [CTX-029](suites/ctx-029-reperer-irregularites-civiles.md) | Repérage des irrégularités possibles d'un acte de procédure civile, à soumettre à l'avocat | CTX-025 |
+| [CTX-030](suites/ctx-030-chronologie-prescription-civile.md) | Une chronologie des événements susceptibles de modifier la prescription d’une action civile déterminée, avec calcul conditionnel documenté ou impossibilité motivée. | CTX-011 |
+| [CTX-031](suites/ctx-031-tableau-demandes-civiles.md) | Un tableau de demandes principales, accessoires et reconventionnelles d’un petit litige civil oral identifié, avec montants justifiés et questions de fond à résoudre. | CTX-026 |
+| [CTX-032](suites/ctx-032-lire-mission-expertise.md) | Une fiche de mission d’expertise judiciaire civile : questions confiées à l’expert, éléments hors mission, pièces, calendrier et consignation à vérifier. | CTX-001 |
+| [CTX-033](suites/ctx-033-observations-expertise.md) | Un projet local d’observations factuelles sur un prérapport d’expertise judiciaire civile, avec pièces et questions techniques à relire. | CTX-032 |
+| [CTX-034](suites/ctx-034-tableau-reponse-adverse.md) | Un tableau argument adverse / réponse factuelle possible / pièce / question juridique ouverte pour un jeu d’écritures civiles identifié. | CTX-011 |
+| [CTX-035](suites/ctx-035-demande-temps-reponse.md) | Un brouillon motivé de demande de délai de réponse ou de renvoi pour une instance civile et un incident identifié. | CTX-001 |
+| [CTX-036](suites/ctx-036-fiche-appel-jugement-tj.md) | Une fiche à remettre à l’avocat pour vérifier l’appel d’un jugement civil au fond du tribunal judiciaire en procédure avec représentation obligatoire. | CTX-028 |
+| [CTX-037](suites/ctx-037-erreur-materielle-jugement.md) | Une fiche comparant la décision civile et les pièces pour une erreur de nom, de transcription ou de calcul alléguée, avec démarche de rectification à vérifier. | CTX-028 |
+| [CTX-038](suites/ctx-038-omission-statuer-civile.md) | Un tableau demande soumise au juge / preuve de sa présentation / réponse du dispositif pour examiner une omission de statuer alléguée. | CTX-028 |
+| [CTX-039](suites/ctx-039-lire-transaction-litige.md) | Une fiche des engagements, paiements, renonciations et points à clarifier avant signature d’une transaction civile déterminée. | CTX-001 |
+| [CTX-040](suites/ctx-040-budget-proces-civil.md) | Un budget par étape d’un procès civil identifié, séparant avances, coûts certains/estimés, prises en charge annoncées/confirmées et reste à financer. | CTX-001 |
+| [CTX-041](suites/ctx-041-ordonnance-injonction-creancier.md) | Une fiche d’ordonnance d’injonction de payer civile ou commerciale obtenue par un petit créancier, avec montant accordé et formalités de signification à vérifier. | CTX-001 |
 
 ## Devenir des trois tâches sans équivalent automatique
 
@@ -136,3 +148,9 @@ destinataire/qualités, procédure supposée et inconnues, pièces/pages lues,
 dates visibles et preuves manquantes, question réservée. L'absence de plugin
 adapté produit cette fiche et les prochaines questions ; aucun skill hérité
 voisin n'est lancé et aucun délai supposé n'est fourni.
+
+## Complément des frictions — 16 octobre 2026
+
+La [matrice exhaustive](exist-006-frictions-utilisateurs.md) relie 125 points aux tâches et aux sorties attendues. CTX-030 à CTX-041 sont douze nouvelles propositions, sans sélection de tranche. CTX-032 lit la mission d’expertise ; CTX-033 prépare les observations ; CTX-034 organise une réponse factuelle ; CTX-035 demande du temps. CTX-036 est bornée à la préparation d’une vérification d’appel TJ au fond avec représentation obligatoire : opposition de droit commun, cassation et recours spéciaux restent à découper. CTX-037 et CTX-038 distinguent anomalie matérielle et omission de demande. CTX-041 porte une ordonnance déjà obtenue, pas la requête initiale.
+
+Chaque nouveau skill et nom de fichier est une cible future. Aucun renom des commandes existantes ni duplication d’une tâche ENF n’est effectué ici. Les lignes DOM et SOC-027 désignent du cadrage encore proposé ; elles ne prouvent pas qu’une réponse de fond existe.

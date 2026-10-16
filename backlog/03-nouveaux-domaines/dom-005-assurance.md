@@ -118,3 +118,11 @@ La décision d'orientation seule des placements reste applicable aux points
 66–67 ; l'offre corporelle reste DOM-035, avec tâches au fond à découper.
 Les affirmations juridiques, statistiques et événements de 2026 du texte
 ne sont pas vérifiés par cette intégration.
+
+## Complément des frictions contentieuses — 16 octobre 2026
+
+Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+
+Points 78–80 : besoin à découper de lecture de protection juridique d’un litige identifié, distinct de la couverture du sinistre principal. Entrées : conditions générales/particulières, date des faits, déclaration et réponse de l’assureur, avocat choisi, devis et frais déjà engagés. Sortie future : tableau champ/exclusions, libre choix à vérifier, plafonds et franchises, démarches de déclaration et couverture confirmée ou réservée par étape. CTX-040 reprend seulement ces données documentées. Scénarios : frais antérieurs à la déclaration et proposition d’un avocat par l’assureur ; aucun refus ou remboursement décidé depuis le seul guide. Sources : Code des assurances, protection juridique et contrat applicable.
+
+Les scénarios indiqués sont attendus, non exécutés. Sources/version, champ, déclencheur, exceptions et transitions restent à rechercher ; le texte fourni n’est pas une autorité juridique.

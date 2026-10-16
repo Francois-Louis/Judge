@@ -127,3 +127,7 @@ création de plugin ou skill, exécution métier, lecteur réel, envoi ou dépô
 Les contrôles documentaires ne valident ni le droit ni la capacité du produit
 à répondre aux situations. DOM-001 reste un cadrage terminé ; ses suites
 restent proposées.
+
+## Intégration des frictions marketing — 16 octobre 2026
+
+La [matrice des 140 points](../02-plugins-existants/exist-004-frictions-utilisateurs.md) relie les pratiques publicitaires aux parcours acheteur. CONSO-021 ajoute une réclamation après achat fondée sur le rapprochement promesse/pièces/résultat, sans annulation automatique. Les 21 CONSO restent proposées. Le bilan et les empreintes historiques ci-dessus restent conservés ; portée et contrôles dans le [relevé dédié](../02-plugins-existants/exist-004-frictions-verification.md).

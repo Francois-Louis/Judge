@@ -1,7 +1,7 @@
 # EXIST-004 — Découpage produits et publicité
 
 Propositions du **16 octobre 2026**, issues de l'[inventaire complet](exist-004-inventaire-produits.md).
-Les 17 stories PDT restent `proposee`. La [relecture documentaire](exist-004-verification.md)
+Les 25 stories PDT restent `proposee`. La [relecture documentaire](exist-004-verification.md)
 éprouve lancement B2C France, campagne environnementale et cas limites.
 
 ## Contrat commun et première tranche
@@ -50,6 +50,14 @@ les nouveaux modes visibles sont décrits avec leur portée limitée.
 | [PDT-015](suites/pdt-015-radar-lancements.md) | Rapport ponctuel des lancements à instruire | PDT-012 |
 | [PDT-016](suites/pdt-016-cookbook-radar.md) | Variante headless bornée du radar | PDT-015 |
 | [PDT-017](suites/pdt-017-checklist-actualite.md) | Checklist d'actualité produit/publicité traçable | Aucune |
+| [PDT-018](suites/pdt-018-prix-promotions.md) | Examiner une annonce de prix ou de promotion | PDT-005 |
+| [PDT-019](suites/pdt-019-parcours-commercial.md) | Documenter les engagements d’un parcours commercial | Aucune |
+| [PDT-020](suites/pdt-020-qualifier-rep.md) | Qualifier une mise sur le marché au regard de la REP | Aucune |
+| [PDT-021](suites/pdt-021-preparer-declaration-rep.md) | Rapprocher les pièces d’une déclaration REP | PDT-020 |
+| [PDT-022](suites/pdt-022-verifier-idu.md) | Vérifier les justificatifs et la communication d’un IDU | PDT-020 |
+| [PDT-023](suites/pdt-023-marquage-emballage.md) | Examiner le marquage d’un emballage pour un marché | Aucune |
+| [PDT-024](suites/pdt-024-dossier-emballage-ppwr.md) | Constituer la fiche factuelle d’un emballage PPWR | Aucune |
+| [PDT-025](suites/pdt-025-calendrier-ppwr.md) | Préparer le calendrier PPWR d’un emballage identifié | PDT-024 |
 
 PDT-001 possède le contrat de fiche lancement ; PDT-002 la grille locale
 unique, sans doublon inline. PDT-003 possède la fiche avant/après et PDT-004
@@ -118,3 +126,11 @@ sortie doit expliquer faits, inconnues, pièces et prochaine démarche en
 langage clair selon USAGE-001, avec lecture par une personne non juriste
 dans la recette future. La portée de ce cadrage figure dans la
 [vérification](exist-004-verification.md).
+
+## Complément marketing et emballages — 16 octobre 2026
+
+La [matrice des 140 frictions](exist-004-frictions-utilisateurs.md) ajoute PDT-018 à PDT-025 : annonce de prix, parcours commercial, qualification REP d’un flux, préparation de déclaration, IDU, marquage, fiche d’emballage PPWR et calendrier conditionnel. Les tableaux de rôles REP et PPWR sont distincts. PDT-007/009 gardent leurs revues d’allégations et d’influence, IA-005 la transparence IA, commercial le contrat d’éco-organisme ou d’agence, consommation la réclamation de l’acheteur.
+
+PDT-020 possède la fiche flux/pays/filière/rôle REP ; PDT-021 consomme cette fiche ou son équivalent manuel et possède le rapprochement de déclaration ; PDT-022 possède la preuve d’identification et de communication. PDT-023 possède la revue de marquage d’une maquette pour un marché. PDT-024 possède la nomenclature, les usages et les rôles PPWR ; PDT-025 possède le calendrier par disposition et ses conditions, sans double qualification REP. Le calendrier métier est embarqué chez produit ; la veille ne remplace pas ces références.
+
+Les huit ajouts sont proposés et ne changent pas la première tranche suggérée PDT-001. Les bilans et empreintes historiques couvrent les 17 propositions initiales ; portée et contrôles de l’ajout dans le [relevé dédié](exist-004-frictions-verification.md).

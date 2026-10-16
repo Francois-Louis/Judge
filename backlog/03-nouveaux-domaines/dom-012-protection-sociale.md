@@ -71,6 +71,12 @@ Sources à prévoir en plus : Code de la sécurité sociale et textes propres à
 chaque organisme sur le contrôle, le droit de communication et les
 pénalités ; chartes de contrôle publiées par les organismes, à vérifier.
 
+## Complément des frictions IA — 16 octobre 2026
+
+Point 26 de la [matrice IA](../02-plugins-existants/exist-005-frictions-utilisateurs.md) : prévoir des tâches distinctes de lecture d'un contrôle antifraude orienté par score et de contestation d'une décision sur les prestations. Recueillir organisme/prestation, contrôle ou décision, données contestées, demandes, notification et réception ; PRV-001/022/031 gardent les données et la demande relative à l'automatisation. Qualification IA vers IA-003/004 si faits utiles ; le seul score n'établit ni fraude de l'usager ni illégalité du contrôle. Sortie à cadrer : pièces, questions, voie préalable et calendrier propres au régime. Cas attendu : revenu erroné corrigé mais décision de caisse encore à contester, sans délai suspendu par la demande RGPD.
+
+Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-frictions-verification.md).
+
 ## Hors périmètre
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.

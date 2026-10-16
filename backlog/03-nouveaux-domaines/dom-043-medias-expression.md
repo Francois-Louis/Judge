@@ -80,8 +80,22 @@ possible, l'urgence liée à la date de publication et la démarche utile
 Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pas
 résoudre ces dossiers pendant le cadrage.
 
+## Complément des frictions IA — 16 octobre 2026
+
+Points 31 et 35 de la [matrice IA](../02-plugins-existants/exist-005-frictions-utilisateurs.md) : documenter une image, voix ou déclaration fausse attribuée à une personne avec contexte, première publication connue, URL et destinataires, en conservant le minimum nécessaire. Distinguer transparence IA-005, image/vie privée, propos éventuellement diffamatoires et contenu intime ; vérifier qualification, procédure et urgence propres sans authentification technique annoncée. DOM-034 garde la plateforme, DOM-002 la procédure pénale générale et PRV-028/029 les données ; une voix ou un visage ne relève pas automatiquement du droit d'auteur. Cas attendu : faux contenu intime qualifié trop vite de diffamation ; orienter rapidement sans attendre l'échéance de réforme alléguée dans la source.
+
+Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-frictions-verification.md).
+
 ## Hors périmètre
 
 Créer un plugin vide, rédiger un article, juger de la vérité d'une
 information, conseiller une stratégie médiatique ou aider à publier un propos
 illicite.
+
+## Complément des frictions contentieuses — 16 octobre 2026
+
+Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+
+Point 123 : préserver publication intégrale, date et première mise à disposition, support, auteur/éditeur, destinataires, propos et contexte, actes déjà accomplis. Prévoir une tranche spécifique de qualification et de préparation du calendrier en matière de presse ; aucune durée générique tirée du tableau pénal. Sortie attendue : qualification à vérifier, urgence et dossier pour avocat, exceptions et actes pertinents à rechercher dans la loi sur la presse, CPP et jurisprudence applicable. Scénarios : ancienne publication rediffusée ; propos allégués discriminatoires ; auteur non identifié. La procédure formelle reste à découper ; CRIM-007 ne la remplace pas.
+
+Les scénarios indiqués sont attendus, non exécutés. Sources/version, champ, déclencheur, exceptions et transitions restent à rechercher ; le texte fourni n’est pas une autorité juridique.

@@ -92,3 +92,7 @@ ou couverture exhaustive ; recherches juridiques et recette restent aux suites.
 Ajout par décision de l'utilisateur ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)) de VEI-021 : veille sur les
 sources des références embarquées dans les plugins livrés, qui déclenche la
 relecture BASE-014. Le découpage compte désormais 21 suites.
+
+## Complément de besoins — activité réglementée, 16 octobre 2026
+
+Le point 17 de la [matrice formalités](exist-002-frictions-utilisateurs.md) demande une vérification des prérequis d'exercice par activité (qualification, autorisation, assurance). Le secteur doit encore découper ce parcours ; les suites de veille ne constituent pas un inventaire de toutes les autorisations nécessaires. VEI-007 peut qualifier le champ d'un changement de texte identifié, avec activité et version, sans déduire une autorisation de l'immatriculation. Les vendeurs de conformité prétendument obligatoire relèvent de COM-019, l'obligation réelle du secteur. Portée documentaire : matrice.

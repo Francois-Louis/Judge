@@ -1,13 +1,14 @@
 # EXIST-002 — Découpage sociétés et opérations
 
 Propositions du **16 octobre 2026**, issues de l'[inventaire complet](exist-002-inventaire-societes.md).
-Les 22 stories SOC restent `proposee` : chacune définit fichiers, entrées,
+Les 27 stories SOC restent `proposee` : les 26 propositions d'implémentation et le cadrage SOC-027 définissent fichiers, entrées,
 résultat, sources à vérifier, exclusions et scénarios. Les cas relus et la
 portée des vérifications sont dans la [vérification](exist-002-verification.md).
 
 ## Lancement et contrat commun
 
-Toutes les suites dépendent d'EXIST-002, PILOTE-003, BASE-005 et BASE-006.
+Toutes les suites d'implémentation dépendent d'EXIST-002, PILOTE-003, BASE-005 et BASE-006.
+Le cadrage SOC-027 dépend d'EXIST-002, BASE-003 et BASE-005 ; sa sortie est un découpage.
 Le [bilan PILOTE-003](../01-pilote-travail/pilote-003-bilan-pilote.md) est
 `terminee` après BASE-011 le 16 octobre 2026. Ce préalable est satisfait ;
 H01 complet et lecture indépendante restent des limites consignées dans le
@@ -60,6 +61,11 @@ d'autres domaines n'imposent pas leur installation.
 | [SOC-020](suites/soc-020-contexte-operation.md) | Créer le contexte isolé d'une acquisition | Aucune |
 | [SOC-021](suites/soc-021-dossier-societes.md) | Isoler et archiver un dossier sociétés ou opération | SOC-020 |
 | [SOC-022](suites/soc-022-cookbook-diligence.md) | Adapter le cookbook de grille aux données de diligence traçables | SOC-008, SOC-018 |
+| [SOC-023](suites/soc-023-lire-dossier-formalite.md) | Lire le stade et les blocages d'un dossier de formalité de société | Aucune |
+| [SOC-024](suites/soc-024-qualifier-modification.md) | Qualifier une modification de société et ses pièces manquantes | Aucune |
+| [SOC-025](suites/soc-025-pieces-depot-comptes.md) | Rapprocher les pièces d'un dépôt de comptes et d'une demande de confidentialité | Aucune |
+| [SOC-026](suites/soc-026-qualifier-fermeture-solvable.md) | Préparer les questions d'une fermeture volontaire de société | Aucune |
+| [SOC-027](suites/soc-027-cadrage-entreprises-difficulte.md) | Découper l'aide aux entreprises en difficulté et ses frontières — cadrage | Aucune |
 
 Répartition des modes et fichiers :
 
@@ -147,8 +153,15 @@ Un litige identifié relève de son domaine et éventuellement litigation,
 sans transformer la checklist en registre de recours.
 
 Les premiers actes sont SAS/SARL ; SA, cotées, capital/financement, fusion,
-dissolution et procédure collective ne sont pas implémentés par ces projets.
+dissolution et procédure collective ne sont pas implémentés par ces projets. SOC-026 prépare seulement la qualification d'une fermeture ; SOC-027 doit encore découper les difficultés d'entreprise.
 Le module Public Company hérité n'a aucun skill : SOC-019 retire ses promesses
 US et signale l'absence d'adaptation, sans inventer de workflow AMF/UE.
 Aucun identifiant technique ou contenu éditeur n'est modifié ici.
 
+## Complément — formalités des entreprises
+
+La [matrice des 100 frictions](exist-002-frictions-utilisateurs.md) conserve le texte fourni et distingue besoins attribués et tâches encore à découper. SOC-023 à SOC-026 sont quatre propositions d'implémentation ; SOC-027 est un cadrage et ne dépend que d'EXIST-002, BASE-003 et BASE-005. Les autres lots gardent le socle commun et leur recette. Aucun nouveau parcours n'est livré.
+
+SOC-023 lit un dossier sans registre ; SOC-024 qualifie un événement sans rédiger tous les actes ; SOC-025 rapproche les pièces d'un exercice sans tenir les comptes ; SOC-026 qualifie une fermeture envisagée sans conduire la liquidation. Les preuves et échéances peuvent être reportées dans SOC-004/005/006 une fois ces modes adaptés, ou dans une fiche manuelle. Pas de dépendance imposant un registre à toute lecture.
+
+SASU/EURL doivent être reconnues comme formes unipersonnelles dans les branches SAS/SARL, avec leurs pièces et modalités à vérifier ; leur présence ne permet pas d'inventer une assemblée. La création, les changements et la cessation d'EI restent DOM-039. Le droit fiscal est séparé entre DOM-039 (activité courante de l'indépendant) et DOM-011 (sociétés, contrôle et contentieux fiscal). Les difficultés structurelles et leurs frontières restent à cadrer dans SOC-027.

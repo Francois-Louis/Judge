@@ -82,3 +82,7 @@ Mise en demeure juridique complète, intérêts calculés sans source, injonctio
 Issue d'EXIST-001, sans implémentation. Le bilan PILOTE-003 est terminé après
 BASE-011 ; une sélection explicite de cette tranche reste nécessaire avant
 son lancement. Les dépendances satisfaites ne valent pas validation du métier.
+
+## Complément de besoins — formalités, 16 octobre 2026
+
+Point 63 de la [matrice formalités](../exist-002-frictions-utilisateurs.md) : lors de la lecture d'une facture B2B ciblée, repérer les mentions fournies/manquantes et leur incidence à rechercher sans transformer l'absence d'une mention en inexistence de dette. Le contrôle exhaustif d'un modèle et ses variantes restent à découper ; mentions fiscales, franchise et réforme électronique → DOM-011/039, demande de paiement trompeuse → COM-019. Aucun taux ou montant forfaitaire repris du texte utilisateur sans source.

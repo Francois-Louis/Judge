@@ -87,3 +87,6 @@ BASE-011 ; ses limites H01 complet et lecteur indépendant restent consignées.
 Cette proposition attend la sélection explicite d'une tranche ; aucune
 commande, connexion ou automatisation France/UE n'est annoncée comme livrée.
 
+## Complément de besoins — formalités, 16 octobre 2026
+
+Points 12, 26–27, 65 et section 10 de la [matrice formalités](../exist-002-frictions-utilisateurs.md) : calculer seulement avec déclencheur, date prouvée, source/version, unité, exceptions et voie de dépôt établis. Distinguer calendrier déclaré par l'utilisateur et échéance vérifiée ; aucun report de jour non ouvré par défaut. L'absence de preuve doit rester visible dans le rapport, sans statut global de conformité ni confusion avec les recours fiscaux/sociaux.

@@ -35,6 +35,10 @@ Faire du droit applicable en France, du RGPD et de la loi Informatique et Libert
 - [x] Le livrable est un ensemble de stories d'implémentation bornées, chacune avec fichiers, résultat attendu et scénarios.
 - [x] Aucune réécriture complète du plugin n'est réalisée dans cette story ; ses implémentations attendent le bilan PILOTE-003.
 
+## Complément des frictions IA — 16 octobre 2026
+
+La [matrice IA](exist-005-frictions-utilisateurs.md) ajoute [PRV-035](suites/prv-035-opposition-hors-prospection.md), parcours du demandeur pour une opposition hors prospection, notamment entraînement ou profilage. PRV-023 garde la prospection et PRV-007 la réponse organisme. Le découpage courant passe à 35 suites proposées ; les décomptes des bilans antérieurs décrivent leur lot. PRV-031 précise rôle humain réel, score et information intelligible ; PRV-022 précise copies et destinataires. La réponse à une violation de données côté organisme reste à découper, distincte de PRV-032 côté victime et de la fiche incident IA-023. [Contrôles de ce complément](exist-005-frictions-verification.md).
+
 ## Vérification
 
 Préparer des scénarios de demande d'accès, contrat de sous-traitance et traitement de données de santé ; un opt-out américain ne doit pas être appliqué par défaut.
@@ -76,3 +80,14 @@ installation/client ou lecteur réel/indépendant testé, connexion, envoi,
 effacement, signature ou déploiement. Les suites portent leurs futures recherches
 et recettes, sans annonce de fonctionnalité France/UE déjà disponible.
 
+## Complément de besoins — registres d'entreprise, 16 octobre 2026
+
+Les points 10 et 21 de la [matrice formalités](exist-002-frictions-utilisateurs.md) ajoutent une frontière pour les suites PRV : non-diffusion de données de registre, occultation d'adresse et extraits d'actes doivent être vérifiés dans le parcours sociétés/EI (SOC-023/024 ou DOM-039). Une demande de droits concernant la réutilisation par un annuaire privé constitue une autre tâche ; le parcours du demandeur au-delà de l'accès PRV-001 reste à découper. PRV-004/005/007 traitent le côté organisme et ne doivent pas être présentés comme des démarches déjà disponibles pour le dirigeant. Identifier registre, acte, donnée, demandeur, réutilisateur et finalité ; aucune suppression universelle de l'adresse publique ni confidentialité de comptes déduite du RGPD. Ce complément n'adapte pas le plugin ; portée : matrice.
+
+## Complément des frictions données personnelles — 16 octobre 2026
+
+La [matrice des 60 points](exist-003-frictions-utilisateurs.md) et son [archive source](sources/donnees-personnelles-frictions-2026-10-16.txt) complètent les parcours du demandeur : PRV-022 à PRV-034 ajoutent treize propositions au [découpage désormais de 34 suites](exist-003-decoupage-donnees.md). Rectification, opposition commerciale, effacement et limitation sont séparés de la réponse organisme ; collecte, traceurs, publications, surveillance, décision automatisée, fuite, relance et dossier CNIL ont chacun un résultat borné. PRV-028 traite la copie d'annuaire privé évoquée dans le complément registres ci-dessus.
+
+Les régimes médicaux, professionnels, bancaires, de registre et de procédure gardent leurs propriétaires et leurs tâches encore à découper. Correction de routage : santé/dossier médical → DOM-007 ; DOM-009 porte les douanes. Le découpage courant est corrigé ; les mentions DOM-009 dans l'inventaire et la vérification historiques sont conservées comme traces du lot initial, avec le présent erratum.
+
+Les chiffres et règles fournis restent à vérifier lors des implémentations. Contrôles et portée dans le [relevé distinct](exist-003-frictions-verification.md), sans modification des preuves historiques ni du plugin.

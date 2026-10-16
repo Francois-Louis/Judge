@@ -56,6 +56,10 @@ Préparer un dossier de refus d'accès à un service, sans décider que le refus
 
 Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pas résoudre ces dossiers pendant le cadrage.
 
+## Complément des frictions IA — 16 octobre 2026
+
+Points 19–22 et 26 de la [matrice IA](../02-plugins-existants/exist-005-frictions-utilisateurs.md) : prévoir la qualification d'une discrimination algorithmique alléguée et le dossier d'indices, notamment diffusion d'offres, tri de CV et critères de substitution. Recueillir situation, critère allégué, effets concrets, données connues, comparateurs licitement disponibles et décision, sans inférer de données sensibles tierces ni déduire la discrimination d'un simple refus. Sortie à découper : chronologie, indices/manques et orientation vers le Défenseur des droits ou autre interlocuteur selon compétence vérifiée. Le secteur garde son recours, PRV-031 la demande sur la décision automatisée et IA-003/004 la qualification IA. Cas attendu : code postal utilisé dans un score, effet défavorable connu et méthode inconnue ; préserver les hypothèses et les délais sectoriels sans verdict automatique. La décision n° 2025-182 citée dans la source reste à lire avant d'en tirer une règle. [Portée et contrôles](../02-plugins-existants/exist-005-frictions-verification.md).
+
 ## Hors périmètre
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.

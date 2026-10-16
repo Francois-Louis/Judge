@@ -2,7 +2,7 @@
 
 Propositions du **16 octobre 2026**, issues de l'[inventaire complet](exist-001-inventaire-commercial.md).
 EXIST-001 proposait 18 stories COM, sans adapter de skill. Depuis, COM-001 est
-sélectionnée et son orientation est réécrite (`a-verifier`) ; les 17 autres
+sélectionnée et son orientation est réécrite (`a-verifier`) ; les 22 autres
 restent `proposee`. Voir son [bilan propre](suites/com-001-verification.md).
 
 ## Condition de lancement et contrat commun
@@ -51,6 +51,11 @@ orientations vers d'autres domaines n'imposent pas leur installation.
 | [COM-016](suites/com-016-frais-penalites.md) | Comparer des frais ou pénalités aux pièces d'un contrat B2B ; nouveau skill proposé | COM-002 |
 | [COM-017](suites/com-017-preparer-rupture.md) | Préparer les questions et pièces avant rupture d'une relation B2B ; nouveau skill proposé | COM-002, COM-005 |
 | [COM-018](suites/com-018-cookbook-renouvellements.md) | Adapter le cookbook de renouvellements au contrat de données local ; six fichiers du cookbook | COM-007, COM-008, COM-009 |
+| [COM-019](suites/com-019-demande-paiement-suspecte.md) | Lire une demande de paiement présentée comme une obligation administrative ; branche ou skill proposé | Aucune |
+| [COM-020](suites/com-020-abonnement-mandat-formalites.md) | Expliquer un abonnement ou mandat lié aux formalités d'entreprise ; branche ou skill proposé | Aucune |
+| [COM-021](suites/com-021-contrat-influence.md) | Lire un contrat de campagne d’influence | Aucune |
+| [COM-022](suites/com-022-rapprocher-prestation-marketing.md) | Rapprocher une prestation marketing et sa facturation | Aucune |
+| [COM-023](suites/com-023-sortie-agence-marketing.md) | Préparer la sortie d’une agence marketing | Aucune |
 
 Le registre peut recevoir une clause fournie sans exiger une revue SaaS entière.
 COM-004 peut produire une fiche d'échéance à reprendre manuellement tant que
@@ -115,3 +120,13 @@ Le protocole ne renvoie pas la personne vers une commande indisponible : il
 explique les pièces à réunir, la question précise et l'interlocuteur pertinent.
 Les sorties attendues et limites ont été relues sur les cas de la
 [vérification](exist-001-verification.md), sans exécuter de skill.
+
+## Complément — demandes administratives trompeuses
+
+Les [100 frictions sur les formalités](exist-002-frictions-utilisateurs.md) ajoutent COM-019 et COM-020, sans implémentation. Le total actuel est 20 stories, dont COM-001 `a-verifier` et 19 `proposee` ; les 18 COM d'EXIST-001 forment le lot historique. Ces nouveaux parcours n'exigent ni COM-002 ni un registre d'échéances pour lire ponctuellement un courrier.
+
+COM-019 distingue demande privée, coût officiel et acte authentique ; COM-020 sépare formalité, abonnement et mandat. La rétractation B2B, la révocation d'un mandat et la résiliation ne sont pas interchangeables. COM-015 peut examiner les pièces d'une facture B2B ciblée ; il ne devient pas un validateur universel des mentions ni de la réforme électronique. Les obligations fiscales et leur calendrier restent chez DOM-011/039. Aucun routage vers ces parcours futurs ne doit être annoncé comme déjà disponible dans COM-001.
+
+## Complément marketing — 16 octobre 2026
+
+La [matrice des 140 frictions](exist-004-frictions-utilisateurs.md) ajoute COM-021 (contrat d’influence), COM-022 (rapprochement prestation/facture/mesures) et COM-023 (sortie d’agence, comptes et données). Ces parcours ne deviennent pas des revues B2C ; COM-002/016/017 gardent leurs contrats généraux, frais et rupture, COM-019 les demandes de paiement présentées comme obligatoires. Le tableau compte 23 COM : COM-001 reste `a-verifier`, les 22 autres `proposee`. Les relais PI, données et plateformes sont des fiches de questions autonomes, sans plugin voisin imposé.

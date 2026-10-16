@@ -112,3 +112,7 @@ situation d'endettement globale : DOM-024. Les tâches de ces cadrages restent
 à découper. Placements et PEA restent en orientation seule, selon la décision
 antérieure. Les montants, délais et événements juridiques du texte fourni ne
 sont pas validés par cette intégration. Aucune première tranche n'est lancée.
+
+## Complément des frictions données personnelles — 16 octobre 2026
+
+Points 41–43 et 52 de la [matrice données personnelles](../02-plugins-existants/exist-003-frictions-utilisateurs.md) : PRV-031 porte la demande relative à une décision présentée comme automatisée ; contestation du refus de crédit au particulier encore à découper ici. BNK-005 lit une offre, BNK-006 un prélèvement, BNK-018 un refus professionnel : aucun ne couvre ce refus au particulier. BNK-010 garde le fichier Banque de France ; PRV-022 la rectification hors procédure spéciale. Fraude après fuite → BNK-001 et PRV-032, plainte pénale → CRIM-004. Scénario attendu : score opaque et incident contesté, avec objets, destinataires et calendriers séparés, sans crédit promis. Portée et contrôles : voir la matrice.

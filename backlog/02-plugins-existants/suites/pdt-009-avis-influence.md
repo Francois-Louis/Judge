@@ -85,3 +85,9 @@ Issue d'EXIST-004, sans implémentation. Le bilan PILOTE-003 est terminé après
 BASE-011 ; ses limites H01 complet et lecteur indépendant restent consignées.
 Cette proposition attend la sélection d'une tranche. Aucun skill adapté,
 connexion, envoi, déploiement ou automatisation France/UE n'est livré ici.
+
+## Complément de besoins — 16 octobre 2026
+
+Les points 20 à 35, 44, 50/51, 66 et 75 de la [matrice marketing](../exist-004-frictions-utilisateurs.md) précisent avis, affiliation, cadeaux, concours, engagement artificiel et transparence des publicités natives. Lire les modalités réelles de collecte et modération des avis ; un tri ou retrait justifié ne prouve pas une fraude. Distinguer envoi spontané sans engagement et avantage contre publication. Examiner séparément mentions « Images retouchées »/« Images virtuelles » selon le champ français et obligations IA via IA-005 ; ne pas imposer une mention à toute retouche ou toute image IA. Les secteurs interdits/réglementés, mineurs et enfants créateurs nécessitent des faits et sources ciblés ; la promotion des jeux d’argent hors banque reste à cadrer. Le contrat est chez COM-021 et les droits chez PI-031. Recettes attendues supplémentaires : cadeau spontané sans accord → qualification ouverte ; avis défavorable modéré avec motif → faits et méthode, sans fraude présumée.
+
+Ces exigences et scénarios restent proposés, sans règle ou résultat métier validé par cette intégration.

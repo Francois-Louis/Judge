@@ -84,3 +84,7 @@ Issue d'EXIST-003, sans implémentation. PILOTE-003 est terminé après BASE-011
 ses limites H01 complet et lecture indépendante restent consignées.
 Cette suite attend la sélection explicite d'une tranche ; aucune commande
 France/UE supplémentaire n'est annoncée comme déjà disponible.
+
+## Complément des frictions données personnelles — 16 octobre 2026
+
+Les points 4, 19, 25, 32, 38, 46 et 54–58 de la [matrice des 60 frictions](../exist-003-frictions-utilisateurs.md) précisent les catégories à viser selon le dossier : origine, destinataires, données déduites, appréciations de recrutement et informations relatives aux accès. Ne pas promettre l'identité de tout agent ni la communication de pièces tierces sans examen. Distinguer copie des données, document entier, portabilité et récupération de compte. Le dossier médical relève du régime à qualifier en DOM-007 ; l'accès RGPD aux informations du traitement est une question distincte. PRV-033 compare la réponse reçue ; les autres demandes de droits sont séparées dans PRV-022 à PRV-025. Portée et contrôles : voir la matrice.

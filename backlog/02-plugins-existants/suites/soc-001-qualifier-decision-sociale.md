@@ -88,3 +88,6 @@ BASE-011 ; ses limites H01 complet et lecteur indépendant restent consignées.
 Cette proposition attend la sélection explicite d'une tranche ; aucune
 commande, connexion ou automatisation France/UE n'est annoncée comme livrée.
 
+## Complément de besoins — formalités, 16 octobre 2026
+
+Point 68 de la [matrice formalités](../exist-002-frictions-utilisateurs.md) : reconnaître SASU/EURL dans les branches SAS/SARL et qualifier associé unique, décision, pouvoirs et pièces à leur date. Ne pas inventer de convocation, vote ou assemblée collective ; les modalités de chaque forme doivent être recherchées. Scénario attendu : décision d'affectation avec seul associé et preuve incomplète, réserves sur la compétence et la documentation au lieu d'une conformité présumée. Aucune implémentation ici.

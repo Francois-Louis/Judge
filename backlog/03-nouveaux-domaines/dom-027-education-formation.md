@@ -57,6 +57,12 @@ Lire une décision d'un établissement et préparer une demande motivée dans un
 
 Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pas résoudre ces dossiers pendant le cadrage.
 
+## Complément des frictions IA — 16 octobre 2026
+
+Points 20 et 28 de la [matrice IA](../02-plugins-existants/exist-005-frictions-utilisateurs.md) : recueillir établissement public/privé, niveau, procédure/portail, représentant, classement, décision et dates de notification ; découper explication des critères d'affectation et contestation selon procédure. Information algorithmique publique → DOM-010, données → PRV-001/031, reconnaissance d'émotions → IA-003 pour qualification conditionnelle. Cas attendu : accès à des critères demandé alors qu'une échéance propre au portail approche ; restituer les deux démarches sans délai administratif générique ni place accordée promise.
+
+Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-frictions-verification.md).
+
 ## Hors périmètre
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.

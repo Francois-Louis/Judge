@@ -87,3 +87,6 @@ BASE-011 ; ses limites H01 complet et lecteur indépendant restent consignées.
 Cette proposition attend la sélection explicite d'une tranche ; aucune
 commande, connexion ou automatisation France/UE n'est annoncée comme livrée.
 
+## Complément de besoins — formalités, 16 octobre 2026
+
+Points 20–21, 65–70 de la [matrice formalités](../exist-002-frictions-utilisateurs.md) : identifier justificatif et exercice réellement nécessaires, pièces de décisions de l'associé unique, demande de confidentialité et preuve de dépôt. Distinguer accès public, occultation d'adresse et conservation interne. L'archivage demande une qualification par catégorie et finalité avec durée à rechercher ; pas de délai unique ni purge. L'audit ne certifie pas les comptes et renvoie la question fiscale à DOM-011/039.

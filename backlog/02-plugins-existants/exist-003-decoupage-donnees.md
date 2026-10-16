@@ -1,7 +1,7 @@
 # EXIST-003 — Découpage protection des données
 
 Propositions du **16 octobre 2026**, issues de l'[inventaire complet](exist-003-inventaire-donnees.md).
-Les 21 stories PRV restent `proposee` ; aucune commande du plugin n'est
+Les 35 stories PRV restent `proposee` ; aucune commande du plugin n'est
 adaptée par ce cadrage. La [relecture](exist-003-verification.md) confronte
 les parcours à des demandes et pièces fictives.
 
@@ -52,6 +52,20 @@ périmètre ; aucun appel à une branche héritée ne les rend disponibles.
 | [PRV-019](suites/prv-019-preferences-donnees.md) | Créer ou ajuster des préférences privacy volontaires | Aucune |
 | [PRV-020](suites/prv-020-dossier-donnees.md) | Isoler et archiver un dossier de protection des données | Aucune |
 | [PRV-021](suites/prv-021-checklist-actualite.md) | Remplacer la veille héritée par une checklist France/UE traçable | Aucune |
+| [PRV-022](suites/prv-022-demande-rectification.md) | Préparer une demande de rectification de données | Aucune ; fiche manuelle admise |
+| [PRV-023](suites/prv-023-opposition-prospection.md) | Préparer une opposition à une prospection déterminée | Aucune ; fiche manuelle admise |
+| [PRV-024](suites/prv-024-demande-effacement.md) | Préparer une demande ciblée d'effacement | Aucune ; fiche manuelle admise |
+| [PRV-025](suites/prv-025-demande-limitation.md) | Préparer une demande de limitation d'un traitement contesté | Aucune ; fiche manuelle admise |
+| [PRV-026](suites/prv-026-reconstituer-collecte-reutilisation.md) | Reconstituer une collecte ou réutilisation de données contestée | Aucune ; fiche manuelle admise |
+| [PRV-027](suites/prv-027-documenter-parcours-traceurs.md) | Documenter un parcours de choix relatif aux traceurs | Aucune ; fiche manuelle admise |
+| [PRV-028](suites/prv-028-retrait-publication-source.md) | Préparer une demande de retrait de données auprès d'une source | Aucune ; fiche manuelle admise |
+| [PRV-029](suites/prv-029-demande-dereferencement.md) | Préparer une demande de déréférencement nominatif | Aucune ; fiche manuelle admise |
+| [PRV-030](suites/prv-030-documenter-surveillance.md) | Préparer une demande sur un dispositif de surveillance au travail | Aucune ; fiche manuelle admise |
+| [PRV-031](suites/prv-031-decision-automatisee.md) | Préparer une demande relative à une décision présentée comme automatisée | Aucune ; fiche manuelle admise |
+| [PRV-032](suites/prv-032-victime-fuite-donnees.md) | Lire une notification de fuite du point de vue d'une victime | Aucune ; fiche manuelle admise |
+| [PRV-033](suites/prv-033-contester-reponse-droits.md) | Préparer une relance face à une réponse incomplète à une demande de droits | Aucune ; fiche manuelle admise |
+| [PRV-034](suites/prv-034-dossier-plainte-cnil.md) | Préparer les pièces d'une plainte à la CNIL | Aucune ; fiche manuelle admise |
+| [PRV-035](suites/prv-035-opposition-hors-prospection.md) | Préparer une opposition à un traitement hors prospection, notamment entraînement IA | Aucune ; fiche manuelle admise |
 
 PRV-002 possède la référence `references/exercice-droits.md` et le contrat
 versionné de fiche/journal (demande, rôle, dates et preuves, systèmes, états).
@@ -95,7 +109,7 @@ prévues, avec les voies BASE-010 si l'accès direct échoue.
 
 Privacy reste propriétaire des droits relatifs aux données et de la
 qualification du traitement. L'accès au dossier médical et les recours de
-soins se coordonnent avec DOM-009 ; une demande RGPD n'est pas assimilée
+soins se coordonnent avec DOM-007 ; une demande RGPD n'est pas assimilée
 à toute procédure d'accès sectorielle. L'accès au compte, sa suspension et
 la modération gardent DOM-034. L'exercice de droits d'un salarié ne résout
 pas un litige de rupture. Commercial porte le contrat principal ; corporate
@@ -113,3 +127,13 @@ transmission ou publication n'est implémenté par ces propositions.
 Le test des traceurs, l'audit technique, la TIA complète, un registre art. 30
 complet et un programme sectoriel entier restent à découper avant mise en
 œuvre. Aucun abonnement juridique ni scheduler n'est un prérequis de lecture.
+
+## Complément des 60 frictions — 16 octobre 2026
+
+La [matrice des besoins](exist-003-frictions-utilisateurs.md) ajoute PRV-022 à PRV-034 : rectification, opposition commerciale, effacement, limitation, collecte/réutilisation, parcours traceurs, retrait source, déréférencement, surveillance au travail, décision automatisée, fuite côté victime, relance et dossier CNIL. Chaque résultat a sa story ; la réponse organisme ne remplace pas le parcours du demandeur.
+
+Ces tranches restent autonomes : une fiche manuelle est admise sans exécution préalable de PRV-001/026/033. PRV-023 limite son exercice d'opposition à une prospection déterminée ; une réutilisation IA hors prospection est qualifiée par PRV-026 avant choix d'un droit déjà découpé ou création d'une tranche dédiée. PRV-027 exploite des observations fournies sans audit technique ; PRV-032 vise la victime, la réponse à incident côté organisme reste à découper. PRV-034 prépare le dossier sans dépôt.
+
+PRV-022 à PRV-034 possèdent chacune la référence locale nommée dans leur story. Le contenu nécessaire est embarqué par le lot qui les livre, sans consommer un fichier futur absent ni dépendre de PRV-002. L'accès médical garde DOM-007 (DOM-009 porte les douanes). La surveillance hors travail, l'opposition générale hors prospection, un parcours autonome de portabilité côté demandeur et les recours juridictionnels privacy spécialisés restent à découper.
+
+Les preuves historiques d'EXIST-003 restent conservées. Voir le [relevé distinct](exist-003-frictions-verification.md) de cette intégration.

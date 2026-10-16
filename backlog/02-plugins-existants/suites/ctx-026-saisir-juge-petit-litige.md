@@ -75,3 +75,11 @@ Dépôt de la requête, représentation, exécution du jugement.
 
 Ajoutée par décision de l'utilisateur, sans implémentation. Statut `proposee` : aucune tranche sélectionnée, aucun skill adapté.
 Contrat commun : [découpage EXIST-006](../exist-006-decoupage-contentieux.md).
+
+## Complément des frictions contentieuses — 16 octobre 2026
+
+Exigences issues des [125 frictions contentieuses](../exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+
+Points 28–35 et §4 : distinguer compétence, mode de saisine, représentation et ouverture d’appel ; l’un ne détermine pas automatiquement les autres. Vérifier préalables amiables/exception et preuve, acte et formalités au greffe dans le seul petit litige qualifié. Rechercher la contribution de saisine annoncée en 2026, son existence, champ, montant, exemptions, justificatif et éventuelle régularisation avant toute conclusion ; le guide ne fait pas foi. Recettes complémentaires : assignation délivrée mais saisine non documentée ; preuve de tentative amiable absente ; financement en cours. La tranche conserve sa sortie de préparation, sans rédiger ni déposer tous les actes.
+
+Les scénarios indiqués sont attendus, non exécutés. Sources/version, champ, déclencheur, exceptions et transitions restent à rechercher ; le texte fourni n’est pas une autorité juridique.

@@ -1,0 +1,340 @@
+# France — Les 60 pièges liés aux données personnelles : abus, pratiques trompeuses, droits et recours
+
+Situation au 16 octobre 2026 — RGPD, loi Informatique et Libertés, recommandations et décisions de la CNIL.
+
+En France, les problèmes les plus fréquents concernent l'utilisation des données sans information suffisante, leur transmission à des tiers, les difficultés à les faire supprimer, la surveillance et les fuites de données.
+
+Le danger ne se limite pas à recevoir de la publicité : des données inexactes ou mal protégées peuvent entraîner une usurpation d'identité, un refus de crédit, une atteinte à la réputation, une discrimination ou la divulgation d'informations privées.
+
+## 1. Ce dont les Français se plaignent le plus
+
+D'après le rapport annuel 2025 de la CNIL, publié en mai 2026, 20 150 plaintes ont été enregistrées, soit une hausse de plus de 10 % en un an.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++1
+
+
+
+Répartition des plaintes à la CNIL en 2025
+
+Parts arrondies par secteur ; il ne s'agit pas de la fréquence de chaque type d'infraction.
+
+0 %8 %16 %24 %32 %Télécoms, Internet,…TravailCommerce, immobilierAutresSantéBanque, finance, cr…Libertés publiquesSocialAutres secteurs à 1…
+
+Source : CNIL, rapport annuel 2025, page 30. Ces statistiques classent les plaintes par secteur, pas par nature exacte de l'abus.
+
+## 2. Collecte, revente et démarchage
+
+Les pratiques suivantes méritent une vigilance particulière. Elles ne sont pas toutes illégales dans toutes les circonstances : leur licéité dépend notamment de leur finalité, de leur base juridique et de l'information délivrée.
+
+PIÈGES 01 À 12
+
+1\. La case de consentement précochée. Un formulaire présélectionne l'inscription à une newsletter ou l'acceptation de publicités. Un tel mécanisme ne constitue pas un consentement valable lorsqu'un consentement est requis. Réflexe : décocher, conserver une capture et demander la preuve du consentement si nécessaire.
+
+2\. Le consentement noyé dans les CGV ou CGU. L'entreprise prétend que l'acceptation du contrat autorise également les campagnes publicitaires. Réflexe : contester cette assimilation ; le consentement commercial doit être distinct lorsqu'il est obligatoire.
+
+3\. Le jeu-concours qui revend les coordonnées. Un simple formulaire de participation alimente des fichiers de courtiers en données. La CNIL a notamment sanctionné de telles pratiques de prospection sans consentement valable. Réflexe : demander l'origine exacte de la collecte et la liste des destinataires.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
+
+
+4\. Les « partenaires de confiance » jamais clairement identifiés. Un organisme transmet vos coordonnées à de multiples sociétés sans explication suffisante. Réflexe : réclamer l'identité des partenaires concernés, les finalités et la base juridique de chaque transmission.
+
+5\. La transmission en cascade. Une société achète un fichier puis le revend à un autre courtier, qui le transmet à d'autres entreprises. Réflexe : exercer les droits auprès des différents responsables identifiés ; le consentement initial ne se transmet pas automatiquement de partenaire en partenaire.
+
+6\. Le démarchage après un simple devis. Un comparateur d'assurances, d'énergie ou de travaux transmet vos coordonnées à des commerciaux. Réflexe : distinguer le traitement nécessaire au devis d'une réutilisation publicitaire ; demander qui a reçu les données.
+
+7\. L'utilisation d'une adresse professionnelle comme prétexte. Une entreprise estime qu'une adresse nominative professionnelle peut servir à n'importe quelle prospection. Réflexe : en B2B, vérifier le lien avec votre profession, l'information préalable et la possibilité de vous opposer gratuitement.
+
+8\. La réutilisation d'un ancien consentement pour de nouveaux usages. L'entreprise considère qu'une acceptation de newsletter autorise aussi une campagne publicitaire sur un réseau social. Réflexe : exiger la base juridique de ce nouvel usage. La CNIL a sanctionné un tel partage de données de fidélité avec un réseau social en 2025.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
+
+
+9\. Le démarchage qui continue après désinscription. L'annonceur invoque un délai technique ou la multiplicité de ses fichiers. Réflexe : conserver les messages reçus après opposition et leurs dates.
+
+10\. Le formulaire de désinscription qui exige de nouvelles informations. Pour cesser de recevoir des publicités, il faut fournir un compte, un mot de passe, voire de nouvelles coordonnées. Réflexe : contester les exigences disproportionnées et exercer directement le droit d'opposition.
+
+11\. La réapparition dans les fichiers après suppression. Une nouvelle liste achetée à un courtier réintroduit vos coordonnées. Réflexe : demander l'inscription sur une liste d'opposition interne, parfois appelée liste repoussoir, exclusivement destinée à empêcher de nouveaux démarchages.
+
+12\. La confusion entre messages commerciaux et messages de service. Des publicités sont présentées comme de simples notifications liées à votre compte. Réflexe : identifier si le message est réellement nécessaire à l'exécution du contrat ou constitue une prospection.
+
+Les règles générales de prospection électronique imposent le consentement préalable des particuliers, avec certaines exceptions, notamment pour les produits ou services similaires proposés aux clients existants par la même entreprise. Le droit d'opposition demeure applicable.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++2
+
+
+
+### Le piège récent du démarchage téléphonique
+
+Depuis le 11 août 2026, le démarchage téléphonique commercial des consommateurs nécessite en principe leur consentement préalable. Il existe des exceptions, notamment pour les sollicitations liées à un contrat en cours et en rapport avec son objet, ainsi que certains appels concernant la presse. Les appels non commerciaux suivent des règles distinctes.
+
+Un démarcheur ne peut donc plus simplement prétendre que votre absence d'inscription à Bloctel suffit à rendre son appel légal.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
+
+
+## 3. Cookies, traçage et surveillance numérique
+
+PIÈGES 13 À 23
+
+13\. Le bouton « Tout accepter » très visible et le refus dissimulé. Le parcours de refus est rendu plus compliqué que celui d'acceptation. Réflexe : conserver une capture et signaler la bannière trompeuse à la CNIL.
+
+14\. Les cookies publicitaires déposés avant le consentement. Des traceurs non exemptés sont activés dès l'ouverture de la page. Réflexe : documenter la situation avant toute interaction avec la bannière.
+
+15\. Le refus qui n'est pas respecté. Les traceurs continuent à fonctionner malgré un choix explicite. Réflexe : vérifier le comportement et conserver, si possible, les informations techniques pertinentes.
+
+16\. Les cookies rendus prétendument « nécessaires ». Certains traceurs publicitaires ou de suivi sont présentés comme indispensables au service. Réflexe : demander leur finalité réelle et la justification de leur exemption.
+
+17\. Le consentement impossible à retirer. Un site permet d'accepter les cookies mais ne propose aucun accès compréhensible pour revenir sur le choix. Réflexe : réclamer un mécanisme de retrait aussi simple que celui du consentement.
+
+18\. Le « pay or consent ». Un site impose de payer ou d'accepter le suivi publicitaire. Attention : cette pratique n'est pas automatiquement interdite. Sa légalité s'apprécie au cas par cas, notamment selon la réalité de l'alternative et le caractère libre du consentement.
+
+19\. Les traceurs tiers invisibles. Des acteurs publicitaires reçoivent des informations sur les pages visitées et peuvent les rapprocher d'autres données. Réflexe : demander les destinataires et vérifier les réglages de confidentialité.
+
+20\. Le suivi intersites. La navigation sur plusieurs sites est utilisée pour établir un profil de consommation. Réflexe : refuser les traceurs non nécessaires et exercer les droits auprès des responsables identifiés.
+
+21\. Le compte obligatoire utilisé pour enrichir un profil publicitaire. Une création de compte justifiée pour une fonctionnalité sert ensuite à d'autres traitements. Réflexe : demander quelles utilisations sont nécessaires au service et lesquelles reposent sur une autre base juridique.
+
+22\. L'application mobile qui réclame trop d'autorisations. Carnet d'adresses, localisation, microphone ou photos sont demandés sans justification évidente. Réflexe : refuser les permissions facultatives. Une autorisation technique donnée au téléphone ne vaut pas automatiquement consentement RGPD.
+
+23\. La collecte permanente de géolocalisation. Une application conserve des trajets ou positions sans nécessité démontrée. Réflexe : limiter les permissions, demander l'historique enregistré et contester les utilisations disproportionnées.
+
+La CNIL exige que le refus des traceurs soumis à consentement soit aussi facile que leur acceptation. Elle a également publié des recommandations spécifiques sur les permissions mobiles et les pratiques trompeuses de recueil du consentement.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++3
+
+
+
+## 4. Réseaux sociaux, réputation et données publiques
+
+PIÈGES 24 À 31
+
+24\. L'aspiration massive de données publiques (scraping). Des entreprises récupèrent noms, emplois, photos, coordonnées et publications pour constituer des bases commerciales. Réflexe : demander la source, la finalité et la base légale. Une information publiquement accessible n'est pas librement réutilisable pour n'importe quel usage.
+
+25\. Le profilage à partir de plusieurs sources. Un acteur rapproche LinkedIn, réseaux sociaux, fichiers commerciaux et données de navigation pour déduire revenus, centres d'intérêt ou situation personnelle. Réflexe : exercer le droit d'accès aux données déduites, et pas seulement aux données déclarées.
+
+26\. La conservation de profils, photos et messages après fermeture du compte. Certaines informations persistent dans des archives, moteurs de recherche ou systèmes tiers. Réflexe : distinguer la suppression chez le réseau social de celle chez les autres responsables.
+
+27\. La confusion entre suppression et déréférencement. Google retire éventuellement un résultat associé à votre nom, mais la page d'origine existe toujours. Réflexe : demander séparément le retrait au site source et le déréférencement au moteur de recherche.
+
+28\. La republication d'anciennes informations préjudiciables. Un ancien article, une décision de justice ou une information personnelle réapparaît dans des annuaires. Réflexe : vérifier les fondements du maintien en ligne. Le droit à l'effacement doit notamment être concilié avec la liberté d'information.
+
+29\. La divulgation d'une adresse personnelle dans un annuaire professionnel. Une adresse de domicile utilisée pour une entreprise individuelle peut devenir publique et être reprise ailleurs. Réflexe : demander la non-diffusion de certaines données au répertoire Sirene via l'INSEE. Cette procédure ne garantit toutefois pas la disparition de toutes les copies déjà diffusées.
+
+30\. Les informations prétendument privées qui circulent ailleurs. Photos, captures de conversations, publications en groupe fermé et données de localisation sont reprises sur d'autres sites. Réflexe : conserver les URL, dates et captures avant de demander le retrait ; selon les faits, le droit à l'image et le droit pénal peuvent aussi s'appliquer.
+
+31\. La réutilisation de contenus personnels pour entraîner des IA. Des textes, images ou conversations sont réutilisés dans un nouveau contexte, parfois sans information compréhensible. Réflexe : identifier le responsable et la base juridique du traitement, puis exercer les droits applicables. Il n'existe pas de droit général permettant d'interdire toute utilisation de données publiquement accessibles pour l'entraînement d'une IA.
+
+Sources : CNIL sur le [déréférencement](https://www.cnil.fr/fr/le-dereferencement-dun-contenu-dans-un-moteur-de-recherche?utm_source=chatgpt.com) et INSEE sur le [statut de diffusion Sirene](https://www.insee.fr/fr/information/7456564?utm_source=chatgpt.com).&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++2
+
+
+
+## 5. Employeurs, recrutement et surveillance au travail
+
+PIÈGES 32 À 40
+
+32\. Les notes internes de recrutement dissimulées. Un candidat est évalué au moyen de commentaires ou classements non communiqués. Réflexe : demander l'accès aux données personnelles contenues dans son dossier de candidature, y compris certaines appréciations et évaluations.
+
+33\. La conservation indéfinie d'un CV refusé. Un recruteur garde des candidatures anciennes dans son vivier. Réflexe : demander la durée de conservation et l'effacement lorsque les conditions sont réunies. La CNIL retient notamment une durée de référence de deux ans après le dernier contact pour les candidatures non retenues.
+
+34\. La caméra de sécurité utilisée pour surveiller constamment un salarié. Un dispositif installé pour prévenir les vols devient un outil permanent de contrôle du poste. Réflexe : demander les finalités déclarées, l'information fournie et les durées de conservation. Une surveillance permanente et disproportionnée peut être sanctionnée.
+
+35\. L'enregistrement des appels ou conversations sans transparence. Un dispositif est présenté comme destiné à la qualité, mais sert à évaluer ou contrôler le personnel. Réflexe : demander les finalités, les destinataires, la durée de conservation et, le cas échéant, l'accès aux enregistrements.
+
+36\. La géolocalisation des véhicules hors temps de travail. Les déplacements privés restent enregistrés ou consultables. Réflexe : vérifier les finalités autorisées, les possibilités de désactivation et la proportionnalité du dispositif.
+
+37\. La surveillance intrusive du télétravail. Captures d'écran fréquentes, suivi des frappes, webcam permanente ou logiciels mesurant artificiellement l'activité. Réflexe : contester les dispositifs excessifs ; informer les salariés ne rend pas automatiquement un dispositif proportionné.
+
+38\. La consultation abusive du dossier RH. Des données personnelles, évaluations, salaires ou informations sensibles sont accessibles à des salariés qui n'ont pas à les connaître. Réflexe : demander une restriction des habilitations et signaler les accès injustifiés documentés.
+
+39\. L'utilisation détournée de la messagerie professionnelle. Des échanges sont examinés dans un objectif étranger au contrôle initialement annoncé. Réflexe : vérifier les règles internes, la proportionnalité du contrôle et la distinction entre communications professionnelles et privées.
+
+40\. Les données erronées utilisées pour une sanction ou une évaluation. Des horaires, absences, résultats ou observations incorrects restent dans le dossier. Réflexe : exercer immédiatement le droit de rectification et conserver les justificatifs. Ne pas attendre la réponse RGPD pour contester une sanction disciplinaire.
+
+Le travail représentait 23 % des plaintes CNIL en 2025. La CNIL rappelle notamment que les dispositifs de surveillance doivent être proportionnés et que les images de vidéosurveillance au travail ne sont en principe pas conservées au-delà d'un mois.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++2
+
+
+
+## 6. Banques, assurances, santé et immobilier
+
+PIÈGES 41 À 47
+
+41\. Le refus de crédit fondé sur un score opaque. Une banque refuse une demande sans fournir de compréhension suffisante des données et critères utilisés. Réflexe : demander le score, les données pertinentes, les explications auxquelles vous avez droit et, dans les cas prévus, un réexamen humain.
+
+42\. L'incident bancaire ancien ou erroné qui continue de pénaliser. Un fichier d'incidents ou une évaluation interne comporte des informations obsolètes. Réflexe : demander l'accès au FICP ou aux fichiers concernés, vérifier les données et engager la rectification appropriée. Le fichage légalement justifié ne peut pas être effacé sur simple demande.
+
+43\. La collecte disproportionnée de justificatifs financiers. Un organisme réclame des informations sans rapport suffisant avec son objectif. Réflexe : demander pourquoi chaque catégorie de données est nécessaire. Certaines informations peuvent être masquées sur les justificatifs lorsque cela ne compromet pas les vérifications requises.
+
+44\. Le dossier locatif abusivement intrusif. Une agence ou un propriétaire exige des documents hors de la liste légalement autorisée, ou conserve longtemps des dossiers refusés. Réflexe : consulter la liste réglementaire, utiliser si pertinent DossierFacile et demander la suppression des pièces devenues inutiles.
+
+45\. La circulation injustifiée de données médicales. Une assurance, une mutuelle ou un prestataire reçoit des informations de santé non nécessaires ou sans fondement valable. Réflexe : demander la justification de la collecte et les destinataires ; les données de santé bénéficient d'un régime de protection renforcé.
+
+46\. L'accès injustifié au dossier patient. Des personnels qui ne participent pas à la prise en charge consultent des informations médicales. Réflexe : contacter le DPO de l'établissement, demander les vérifications appropriées et saisir la CNIL si nécessaire. Des établissements ont déjà été mis en demeure pour des accès insuffisamment contrôlés.
+
+47\. Le dossier médical communiqué tardivement. Un établissement invoque le délai RGPD ordinaire alors que des règles particulières s'appliquent. Réflexe : pour l'accès au dossier médical prévu par le Code de la santé publique, retenir généralement huit jours maximum pour des informations de moins de cinq ans et deux mois pour les informations plus anciennes, avec un délai de réflexion minimal de 48 heures.
+
+Sources : recommandations de la CNIL sur le [crédit et le scoring](https://www.cnil.fr/fr/demandes-de-credit-comprendre-lutilisation-de-vos-donnees-et-vos-droits?utm_source=chatgpt.com), les [dossiers locatifs](https://www.cnil.fr/fr/location-dun-bien-immobilier-quels-justificatifs?utm_source=chatgpt.com) et les [dossiers médicaux](https://www.cnil.fr/fr/lacces-au-dossier-medical?utm_source=chatgpt.com).&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++3
+
+
+
+## 7. Piratages, fuites et sécurité des données
+
+PIÈGES 48 À 53
+
+48\. La fuite minimisée. Une entreprise évoque un incident technique alors que des données personnelles ont effectivement été compromises. Réflexe : demander la nature des données affectées, les risques identifiés et les mesures prises.
+
+49\. La notification tardive ou insuffisante. Les victimes découvrent la fuite dans la presse, ou reçoivent un message qui ne permet pas de comprendre les risques. Réflexe : réclamer des informations utiles et conserver tous les avis reçus.
+
+50\. Les documents sensibles envoyés sans sécurité adaptée. Pièces d'identité, relevés et dossiers sont transmis par messagerie ou partagés au moyen de liens insuffisamment protégés. Réflexe : privilégier un espace sécurisé, un partage limité dans le temps et un filigrane adapté.
+
+51\. Le prestataire externe comme excuse. Une entreprise invoque un sous-traitant piraté pour refuser de traiter les demandes de ses clients. Réflexe : identifier le responsable du traitement et le rôle du sous-traitant. L'externalisation ne fait pas disparaître les obligations du responsable.
+
+52\. La seconde fraude après la fuite. Des escrocs utilisent les informations volées pour adresser un SMS crédible, usurper un conseiller bancaire ou réclamer une authentification. Réflexe : ne jamais valider une opération à la demande d'un appelant et vérifier directement auprès de l'organisme par son canal officiel.
+
+53\. La conservation excessive qui aggrave les conséquences d'un piratage. Un service garde pendant des années des données inutiles, y compris dans d'anciens systèmes. Réflexe : demander la durée de conservation, la justification des archives et l'effacement des informations qui n'ont plus de raison d'être.
+
+En 2025, 6 167 violations de données ont été notifiées à la CNIL, un nombre record. Les victimes doivent également se méfier des faux services qui proposent, contre paiement, de faire disparaître leurs données divulguées.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++2
+
+
+
+## 8. Les pièges procéduraux pour faire valoir ses droits
+
+PIÈGES 54 À 60
+
+54\. « Nous n'avons aucune donnée sur vous. » Une réponse négative peut être incomplète si elle omet des données réellement détenues dans d'autres traitements, services ou archives accessibles. Réflexe : reformuler une demande d'accès visant les catégories manquantes, puis contester si nécessaire.
+
+55\. « Vous devez obligatoirement passer par votre compte client. » Un organisme impose un parcours compliqué ou exige systématiquement une pièce d'identité. Réflexe : exercer vos droits par un canal approprié et contester toute vérification d'identité disproportionnée.
+
+56\. « Tout est dans notre politique de confidentialité. » Une entreprise répond à votre droit d'accès en renvoyant vers une notice générale. Réflexe : demander les données effectivement traitées vous concernant, et non uniquement la description générique des traitements.
+
+57\. « Le RGPD nous oblige à tout supprimer » ou « nous autorise à tout garder ». Deux affirmations trompeuses : certaines données doivent être conservées, notamment pour des obligations légales, mais cette conservation ne justifie pas toute réutilisation. Réflexe : demander la base juridique et la durée pour chaque finalité.
+
+58\. La portabilité confondue avec le droit d'accès. Une plateforme limite la réponse aux fichiers exportables automatiquement. Réflexe : utiliser le droit d'accès pour les informations personnelles non couvertes par la portabilité.
+
+59\. La plainte CNIL présentée comme un moyen automatique d'obtenir réparation. Une victime attend une indemnisation de la CNIL. Réflexe : distinguer la procédure de contrôle et de sanction de la demande de dommages-intérêts, qui relève d'une action juridictionnelle.
+
+60\. La demande RGPD utilisée pour laisser expirer un autre recours. Pendant que la personne attend les données, un délai de contestation d'une décision administrative, bancaire, contractuelle ou professionnelle expire. Réflexe : engager les démarches nécessaires dans leurs délais propres. Une demande RGPD ne suspend pas automatiquement les autres délais de recours.
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++3
+
+## 9. Les délais à connaître absolument
+
+Voici les délais les plus utiles pour éviter de perdre un droit ou de laisser disparaître une preuve.
+
+| Situation                                                       | Délai ou règle                                                                                      |
+| --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Demande d'accès, de rectification, d'effacement ou d'opposition | 1 mois en principe                                                                                  |
+| Prolongation RGPD justifiée                                     | Jusqu'à 2 mois supplémentaires, avec information et motifs communiqués dans le premier mois         |
+| Absence de réponse dans le délai applicable                     | Possibilité de saisir la CNIL                                                                       |
+| Accès au dossier médical, données de moins de 5 ans             | Généralement 8 jours maximum, après un minimum de 48 h                                              |
+| Accès au dossier médical, données de plus de 5 ans              | 2 mois maximum                                                                                      |
+| Notification d'une violation à la CNIL par l'organisme          | Si risque pour les droits et libertés : si possible 72 heures après en avoir pris connaissance      |
+| Information des personnes victimes d'une violation              | Sans retard injustifié en cas de risque élevé, sauf exceptions légales                              |
+| Images de vidéosurveillance au travail                          | En principe pas plus d'1 mois, souvent quelques jours                                               |
+| Données de prospects pour la prospection                        | 3 ans en principe, selon le référentiel CNIL, après collecte ou dernier contact émanant du prospect |
+| Données de clients pour la prospection                          | Pendant la relation commerciale, puis généralement 3 ans après sa fin, selon le référentiel CNIL    |
+| Conservation du CV d'un candidat non retenu                     | Référence CNIL de 2 ans après le dernier contact, sauf circonstances particulières                  |
+| Certaines données de facturation                                | Conservation légale pouvant atteindre 10 ans                                                        |
+
+Attention : les durées de prospection et de recrutement sont principalement des références et recommandations de la CNIL, pas des délais universels fixés pour tous les traitements.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++4
+
+
+
+## 10. Comment se défendre concrètement
+
+Étape 1 — Préserver les preuves avant toute suppression
+
+Captures d'écran datées, URL, courriels complets, réponses de l'organisme, notification de fuite, factures, références de dossier. En cas de vidéosurveillance, demander rapidement la conservation des images pertinentes, qui peuvent être écrasées après quelques jours.
+
+Étape 2 — Identifier précisément les responsables
+
+Déterminer qui a collecté les informations, qui les a transmises, qui les exploite et qui décide des traitements. Une réclamation au seul prestataire technique peut être mal dirigée.
+
+Étape 3 — Formuler une demande RGPD écrite et traçable
+
+Demander les données, leur origine, les destinataires, les finalités, les durées et les bases juridiques. Exercer séparément, selon le cas, les droits de rectification, opposition, effacement ou limitation. Conserver la preuve d'envoi et de réception.
+
+Étape 4 — Surveiller le délai d'un mois
+
+En cas de réponse incomplète, la contester précisément. Sans réponse ou prolongation valable à l'expiration du délai, préparer le recours à la CNIL, justificatifs à l'appui.
+
+Étape 5 — Utiliser la bonne procédure pour le dommage subi
+
+La CNIL intervient sur la protection des données. Une fraude ou une usurpation d'identité peut justifier une plainte pénale. Un préjudice indemnisable peut nécessiter un recours devant le juge. Une décision de crédit ou une sanction au travail doit aussi être contestée par sa procédure propre.
+
+### Où agir selon le problème ?
+
+| Problème                                          | Organisme ou service utile                                                                               |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Violation de vos droits RGPD                      | [CNIL — Déposer une plainte](https://www.cnil.fr/fr/adresser-une-plainte?utm_source=chatgpt.com)         |
+| Démarchage abusif, pratique commerciale trompeuse | [SignalConso — DGCCRF](https://signal.conso.gouv.fr/?utm_source=chatgpt.com)                             |
+| SMS ou appels indésirables suspects               | [33700 — Signalement](https://www.33700.fr/?utm_source=chatgpt.com)                                      |
+| Piratage, fuite, usurpation d'identité            | [Cybermalveillance.gouv.fr](https://www.cybermalveillance.gouv.fr/?utm_source=chatgpt.com)               |
+| Soupçon de compte bancaire ouvert à votre nom     | Espace personnel sur [impots.gouv.fr](https://www.impots.gouv.fr/?utm_source=chatgpt.com) — accès FICOBA |
+| Incident bancaire ou fichage injustifié           | [Banque de France](https://www.banque-france.fr/?utm_source=chatgpt.com) et établissement déclarant      |
+| Publication de données d'entrepreneur individuel  | [INSEE — Statut de diffusion Sirene](https://statut-diffusion-sirene.insee.fr/?utm_source=chatgpt.com)   |
+
+## 11. Les trois erreurs qui coûtent le plus cher
+
+Attendre avant de recueillir les preuves. C'est particulièrement dommageable pour les images de surveillance, les contenus supprimés, les comptes frauduleux et les données qui sont rapidement purgées.
+
+Demander immédiatement l'effacement de toutes les données. Cela peut être contre-productif lorsqu'il faut d'abord obtenir une copie des informations utilisées contre vous. Mieux vaut parfois exercer le droit d'accès, demander la limitation d'un traitement contesté et préserver les éléments nécessaires à un litige.
+
+Croire qu'un signalement CNIL règle automatiquement les conséquences du problème. Une plainte RGPD ne remplace ni la contestation d'un refus de crédit, ni la défense devant les prud'hommes, ni les démarches bancaires urgentes, ni une plainte pénale en cas d'usurpation d'identité.
+
+La méthode la plus protectrice est donc de mener deux démarches en parallèle lorsque nécessaire : faire respecter les droits sur les données personnelles et traiter immédiatement le préjudice concret qu'elles ont provoqué.

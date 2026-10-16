@@ -6,9 +6,10 @@ dans [PILOTE-002](pilote-002-revue-embauche.md), puis sa validation
 [PILOTE-003](pilote-003-bilan-pilote.md). La dépendance USAGE-002 est conservée :
 l'audit ne remplace pas la priorisation des usages.
 
-Les 18 stories métier ci-dessous sont `proposee`, priorité P2. Les 16 premières
+Les 21 stories métier ci-dessous sont `proposee`, priorité P2. Les 16 premières
 proviennent de PILOTE-001 ; TRAV-017 est proposée par PILOTE-003 ; TRAV-018
-est ajoutée par décision de l'utilisateur du 16 octobre 2026. Leurs implémentations
+est ajoutée par décision de l'utilisateur du 16 octobre 2026. TRAV-019 à TRAV-021
+proviennent des frictions sur les formalités d'entreprise du même jour. Leurs implémentations
 attendent PILOTE-003 et une sélection de tranche ; aucun développement
 simultané de tout le plugin n'est lancé. TRAV-006 est un **cadrage**, car une
 adaptation de tout le licenciement économique collectif resterait trop vaste.
@@ -33,6 +34,9 @@ adaptation de tout le licenciement économique collectif resterait trop vaste.
 | [TRAV-016](suites/trav-016-profils-dossiers-travail.md) | Compléter les profils et dossiers des parcours travail adaptés — `cold-start-interview ; customize ; matter-workspace ; CLAUDE.md` | Socle et PILOTE-003 seulement |
 | [TRAV-017](suites/trav-017-clause-non-concurrence.md) | Expliquer une clause de non-concurrence reçue à l'embauche — `hiring-review`, reliquat H02 | Socle et PILOTE-003 seulement |
 | [TRAV-018](suites/trav-018-droits-syndicaux.md) | Expliquer les droits syndicaux d'un salarié du privé — nouveau skill proposé `union-rights` | Socle et PILOTE-003 seulement |
+| [TRAV-019](suites/trav-019-premiere-embauche-tpe.md) | Préparer les pièces d'une première embauche par une TPE française — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-020](suites/trav-020-anomalie-dsn.md) | Lire une anomalie ou notification de substitution DSN — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-021](suites/trav-021-pieces-fin-contrat.md) | Rapprocher les pièces administratives d'une fin de contrat de travail — nouveau parcours proposé | Socle et PILOTE-003 seulement |
 
 ## Réexamen PILOTE-003 — 15 octobre 2026
 
@@ -91,6 +95,12 @@ fiscalité (DOM-011), sociétés et données sont des questions complémentaires
 sans prétendre que leurs plugins sont adaptés ou disponibles.
 Les références nécessaires au résultat principal restent dans employment-legal.
 
+## Complément des frictions IA — 16 octobre 2026
+
+Points 19–24 de la [matrice IA](../02-plugins-existants/exist-005-frictions-utilisateurs.md) : encore à découper, côté candidat/salarié, documentation d'indices de discrimination dans tri de CV, entretiens vidéo, diffusion d'offres ou critères de substitution ; lecture d'une évaluation algorithmique et contestation des effets professionnels. Conserver offre, candidature, écran/notice, réponse, indicateurs, statut et dates ; PRV-030/031 gardent surveillance et demande de données, IA-003/004 la qualification IA, DOM-037 le régime public après qualification. Ni PILOTE-002 ni TRAV-009 à 011, bornées à une enquête de harcèlement, ne couvrent ces démarches. Prévoir interlocuteur discrimination/emploi selon compétence vérifiée, preuves comparables minimales et calendrier propre. Cas attendus : refus de CV ne prouvant pas à lui seul une discrimination ; clic humain sans pouvoir de révision documenté ; évaluation contestée pendant une demande RGPD.
+
+Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-frictions-verification.md).
+
 ## Taille et contrôle des lots
 
 Chaque story annonce des pièces, une sortie et un cas limite. Les tâches
@@ -103,3 +113,13 @@ les fractionner avant de les passer à `prete`.
 Les futures implémentations devront charger la méthode BASE-005 locale et
 fournir les résultats réels BASE-006. Un statut proposé, une référence à une
 source primaire ou un scénario attendu ne vaut ni exécution ni validation juridique.
+
+## Complément — formalités d'employeur
+
+Les points 71–78 de la [matrice formalités](../02-plugins-existants/exist-002-frictions-utilisateurs.md) ajoutent TRAV-019 à TRAV-021, proposées, sans élargir le pilote livré. TRAV-019 concerne une TPE française ; TRAV-014/015 gardent l'employeur étranger et son suivi. TRAV-020 lit une notification DSN, sans moteur de paie ; TRAV-021 rapproche les documents d'une fin de contrat, sans contrôler tout motif de rupture.
+
+Les points 91–93, 95 et 98 demandent aussi un futur découpage des décisions, contrôles, CRA, contraintes, remises, échéanciers et médiation Urssaf d'un employeur société. Ces recours sociaux ne sont pas implémentés par TRAV-020 ni transférés au cadrage micro-entreprise. Une identification urgente de l'acte peut relever d'ENF-001 ; le fond social et la voie spéciale gardent un propriétaire à découper dans travail.
+
+## Complément des frictions données personnelles — 16 octobre 2026
+
+Points 32–40 de la [matrice données personnelles](../02-plugins-existants/exist-003-frictions-utilisateurs.md) : PRV-001/022/024/025/030 portent accès, correction, effacement, limitation et fiche de surveillance. Travail garde les effets sur candidature, évaluation, sanction ou rupture et leurs délais ; emploi public → DOM-037 selon statut. TRAV-012/013 concernent la charte de télétravail, sans couvrir toute contestation de surveillance. Découper la lecture d'une sanction hors licenciement, la contestation d'un dispositif et les recours adaptés ; ces besoins ne sont pas couverts par le pilote. Scénarios attendus : horaires erronés avec délai de contestation indépendant ; images rapidement écrasées avec demande ciblée de préservation. Portée et contrôles : voir la matrice.

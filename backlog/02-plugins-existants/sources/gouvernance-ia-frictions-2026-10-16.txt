@@ -1,0 +1,725 @@
+# Gouvernance de l'intelligence artificielle en France : 50 pièges, abus et pratiques contestables à connaître
+
+France — situation au 16 octobre 2026
+
+Les problèmes les plus préoccupants concernent les décisions automatisées impossibles à contester, la collecte de données dissimulée, les discriminations algorithmiques, la surveillance, les contenus trompeurs et le manque de responsabilité des entreprises qui utilisent l'IA.
+
+Le danger n'est pas nécessairement que l'IA se trompe. C'est qu'une erreur devienne une décision administrative, commerciale ou professionnelle, sans qu'on puisse identifier son origine, obtenir une correction ou exercer son recours à temps.
+
+Précision : il n'existe pas de classement statistique fiable des 50 motifs de plainte propres à la gouvernance de l'IA en France. Cette liste rassemble des problèmes documentés par les autorités, des pratiques contestables et des risques émergents. Tous ne constituent pas automatiquement une infraction.
+
+## 1. Ce que la réglementation te permet réellement de faire
+
+Trois ensembles de règles sont particulièrement utiles :
+
+- Le RGPD : accéder à tes données, les faire corriger, contester certaines décisions entièrement automatisées, exercer des droits d'opposition ou d'effacement sous conditions.
+- Le règlement européen sur l'IA (AI Act) : interdit certaines utilisations de l'IA, impose des obligations de transparence et encadre progressivement les systèmes à haut risque.
+- Le droit français : permet notamment de contester une décision administrative, de demander des explications sur certains traitements algorithmiques et d'agir contre les discriminations.
+
+Un droit souvent méconnu est celui de l'article 22 du RGPD : une décision ayant des effets juridiques ou des conséquences significatives ne peut pas, en principe, être prise exclusivement par un traitement automatisé. Des exceptions existent, mais avec des garanties applicables.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++1
+
+
+
+### Calendrier de l'AI Act
+
+| Date            | Principales dispositions                                                                        |
+| --------------- | ----------------------------------------------------------------------------------------------- |
+| 2 février 2025  | Application des premières interdictions d'usages de l'IA                                        |
+| 2 août 2025     | Règles de gouvernance des modèles d'IA à usage général                                          |
+| 2 août 2026     | Application générale de l'AI Act, notamment de nouvelles obligations de transparence            |
+| 2 décembre 2026 | Interdictions supplémentaires liées notamment à la génération de contenus intimes non consentis |
+| 2 décembre 2027 | Exigences spécifiques pour les systèmes à haut risque de l'annexe III                           |
+| 2 août 2028     | Exigences spécifiques pour certaines IA intégrées à des produits réglementés                    |
+
+Ce calendrier tient compte de l'AI Omnibus entré en vigueur le 27 juillet 2026, qui a repoussé certaines échéances. Attention donc aux guides qui présentent encore le 2 août 2026 comme la date d'application de toutes les obligations concernant les systèmes à haut risque.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://digital-strategy.ec.europa.eu\&sz=32)
+
+Shaping Europe’s digital future
+
++2
+
+
+
+## 2. Décisions automatisées : les pièges les plus lourds de conséquences
+
+### 1. Refus automatique sans véritable explication
+
+Situation : crédit refusé, candidature écartée, compte suspendu, demande de prestation rejetée.
+
+Le système renvoie une réponse générique : « Votre dossier ne satisfait pas à nos critères ».
+
+Piège : impossible de savoir quelle donnée ou quel critère a provoqué le rejet.
+
+Défense : demander si la décision est entièrement automatisée, quelles données ont été utilisées, quelles informations pertinentes peuvent être fournies sur la logique du traitement et quelles possibilités de contestation existent. Invoquer l'article 22 du RGPD lorsque ses conditions sont réunies.
+
+### 2. Faux contrôle humain
+
+Un organisme affirme qu'un agent valide les résultats de l'IA. Dans les faits, celui-ci se contente de cliquer sur « approuver ».
+
+Piège : présenter une validation formelle comme un contrôle humain réel.
+
+Défense : demander un réexamen effectif par une personne capable de modifier la décision. La CNIL identifie expressément le risque d'une intervention humaine incapable de remettre en cause les résultats.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
+
+
+### 3. Score secret utilisé contre toi
+
+Une entreprise calcule un score de risque, de fiabilité, de solvabilité ou de suspicion.
+
+Piège : le score repose sur des données périmées, des corrélations discutables ou un profil erroné, sans que tu en connaisses l'existence.
+
+Défense : exercer ton droit d'accès aux données personnelles et au profilage, demander leur origine et leur rectification.
+
+### 4. Erreur algorithmique reproduite partout
+
+Une donnée inexacte est reprise par plusieurs systèmes : banque, assureur, organisme de crédit, prestataire antifraude.
+
+Piège : corriger l'erreur auprès d'un interlocuteur ne corrige pas nécessairement toutes les copies.
+
+Défense : demander les catégories de destinataires, la rectification et, lorsque cela s'applique, sa communication aux destinataires concernés.
+
+### 5. Profilage présenté comme une simple recommandation
+
+L'entreprise affirme que son IA « assiste les collaborateurs », alors que ses résultats déterminent pratiquement les décisions.
+
+Piège : contourner, en apparence, les garanties associées aux décisions entièrement automatisées.
+
+Défense : demander quel rôle effectif joue le score, qui décide, et si un résultat défavorable peut réellement être écarté.
+
+### 6. Refus de communiquer les critères sous prétexte de secret industriel
+
+L'organisme répond : « Notre algorithme est propriétaire ».
+
+Piège : confondre protection légitime du secret des affaires et refus global de toute information.
+
+Défense : demander les informations communicables sur tes données, les critères pertinents et leur rôle, sans nécessairement exiger le code source intégral.
+
+### 7. Décision administrative fondée sur un algorithme caché
+
+Une administration prend une décision individuelle sans préciser qu'un algorithme y contribue.
+
+Piège : tu contestes le résultat sans pouvoir interroger la méthode de calcul.
+
+Défense : invoquer l'article L311-3-1 du Code des relations entre le public et l'administration (CRPA). Sous ses réserves légales, tu peux demander les règles du traitement et ses principales caractéristiques, notamment les données, leurs sources, les paramètres et leur contribution à ta décision.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
++1
+
+
+
+### 8. Demande d'explication qui fait perdre le délai de recours
+
+Tu écris pour obtenir les critères de l'IA. Pendant que l'administration examine ta demande, le délai pour contester la décision continue à courir.
+
+Piège : confondre demande d'information et recours contre une décision.
+
+Défense : exercer le recours approprié dans le délai applicable, indépendamment de la demande d'explication. En contentieux administratif, le délai de droit commun est généralement de deux mois en métropole, mais il existe des exceptions.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+service-public.fr
+
+
+
+## 3. Données personnelles : entraînement des IA et réutilisations dissimulées
+
+### 9. Conversations utilisées pour entraîner une IA
+
+Situation : tu communiques avec un assistant IA en pensant que les échanges restent destinés à ton usage.
+
+Piège : les paramètres autorisent l'utilisation de certaines conversations pour améliorer les modèles.
+
+Défense : vérifier les réglages d'entraînement, les politiques de conservation et les paramètres de confidentialité. La CNIL publie des instructions pour s'opposer à cette réutilisation sur plusieurs plateformes.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
+
+
+### 10. Aspirer un site web pour entraîner une IA sans respecter les restrictions
+
+Des entreprises collectent automatiquement textes, photographies, profils et publications.
+
+Piège : elles considèrent que tout ce qui est publiquement accessible est librement réutilisable.
+
+Défense : distinguer droit d'auteur et données personnelles. Pour un éditeur de site, conserver la preuve des conditions de réutilisation et mettre en place, selon le cas, des mécanismes d'opposition au moissonnage (`robots.txt`, réserves de droits adaptées).
+
+Le scraping n'est pas systématiquement interdit, mais la CNIL exige une base légale appropriée et des garanties.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
+
+
+### 11. « Intérêt légitime » utilisé comme justification universelle
+
+Une entreprise affirme ne pas avoir besoin de consentement puisqu'elle invoque son intérêt légitime.
+
+Piège : présenter une base légale possible comme une autorisation automatique.
+
+Défense : demander les finalités, les catégories de données utilisées et les modalités d'opposition. Selon le contexte, contester la proportionnalité du traitement.
+
+Attention : le consentement n'est pas toujours obligatoire pour entraîner une IA. Affirmer le contraire serait juridiquement faux.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
+
+
+### 12. Consentement noyé dans des conditions générales
+
+Une fonctionnalité IA est activée par défaut, avec une information enfouie dans plusieurs pages de conditions contractuelles.
+
+Piège : rendre la désactivation difficile à trouver ou laisser croire que toutes les utilisations sont indispensables.
+
+Défense : vérifier la base légale revendiquée pour chaque finalité. Si le traitement repose réellement sur le consentement, celui-ci doit être valide et pouvoir être retiré.
+
+### 13. Effacer une conversation sans effacer les données associées
+
+Le bouton « Supprimer » disparaît de l'interface, mais les données peuvent encore exister dans des sauvegardes, journaux ou autres systèmes.
+
+Piège : assimiler disparition de l'écran et effacement complet.
+
+Défense : demander les catégories de données conservées, les finalités, les durées de conservation et l'effacement lorsque tu y as droit.
+
+### 14. Données personnelles mémorisées dans un modèle
+
+Une IA est capable de restituer des informations concernant une personne présente dans ses données d'entraînement.
+
+Piège : le fournisseur répond qu'un modèle n'est pas une base de données et qu'aucun droit RGPD ne peut s'appliquer.
+
+Défense : demander une analyse du statut du modèle. La CNIL rappelle qu'un modèle contenant des données personnelles extractibles peut relever du RGPD. L'effacement à l'intérieur du modèle demeure cependant techniquement et juridiquement complexe.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++1
+
+
+
+### 15. Données sensibles transmises involontairement
+
+Un utilisateur dépose dans un assistant un dossier médical, un bulletin de salaire, un contrat confidentiel ou des documents d'identité.
+
+Piège : l'apparente confidentialité d'une conversation fait oublier les conditions de traitement.
+
+Défense : minimiser les données transmises, anonymiser si possible et vérifier les conditions de conservation, d'accès et d'entraînement. Pour un professionnel, utiliser un environnement contractualisé et adapté aux données traitées.
+
+### 16. Sous-traitants invisibles derrière une interface française
+
+Le service est commercialisé par une société française, mais exploite plusieurs API et prestataires étrangers.
+
+Piège : les données transitent dans une chaîne de sous-traitance que l'utilisateur ne comprend pas.
+
+Défense : demander l'identité du responsable de traitement, les destinataires, les sous-traitants pertinents, les lieux de traitement et les garanties applicables.
+
+### 17. « Hébergé en Europe » présenté comme une protection absolue
+
+L'hébergement physique est européen, mais une entreprise située hors de l'UE ou ses équipes peuvent disposer d'accès aux données.
+
+Piège : confondre emplacement des serveurs, transferts internationaux, accès à distance et souveraineté juridique.
+
+Défense : vérifier la localisation effective, les accès à distance, les transferts et leurs garanties. Une simple localisation européenne n'établit pas à elle seule la conformité.
+
+La CNIL recommande expressément d'examiner toute la chaîne de sous-traitance et les flux internationaux.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
+
+
+### 18. Utilisation clandestine d'une IA par un prestataire
+
+Un cabinet, une agence, un consultant ou un salarié colle tes documents dans un service IA grand public sans autorisation appropriée.
+
+Piège : tu penses confier des données à un professionnel soumis à la confidentialité, sans savoir qu'elles sont communiquées à un autre fournisseur.
+
+Défense : faire préciser contractuellement les usages autorisés des IA, les catégories de données transmises et les prestataires impliqués. En cas d'incident, demander qui a eu accès à quoi.
+
+## 4. Discriminations algorithmiques, emploi et surveillance
+
+### 19. Tri de CV défavorable à certains candidats
+
+Un logiciel classe les candidatures selon des critères statistiques et écarte certains profils.
+
+Piège : un résultat discriminatoire peut apparaître sans que le système utilise explicitement un critère protégé.
+
+Défense : conserver l'offre, la candidature et les échanges. En présence d'indices sérieux, saisir le Défenseur des droits et envisager les recours applicables.
+
+La CNIL a notamment documenté un système d'évaluation automatique de CV vidéo incapable de prendre correctement en compte la diversité des accents.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
+
+
+### 20. Analyse des émotions pendant un recrutement
+
+Un logiciel prétend détecter le stress, la sincérité, la motivation ou la personnalité grâce au visage ou à la voix.
+
+Piège : présenter ces inférences comme une mesure scientifique fiable.
+
+Défense : demander quelles caractéristiques sont évaluées, pourquoi et selon quelle méthode.
+
+L'AI Act interdit, depuis février 2025, certains systèmes de reconnaissance des émotions au travail et dans les établissements d'enseignement, sauf exceptions médicales ou de sécurité. Cela ne signifie pas que toute analyse audiovisuelle soit automatiquement interdite.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://digital-strategy.ec.europa.eu\&sz=32)
+
+Bâtir l’avenir numérique de l’Europe
+
+
+
+### 21. Offres d'emploi diffusées différemment selon le sexe
+
+Les algorithmes publicitaires distribuent certaines offres à des catégories d'utilisateurs, indépendamment des critères réellement requis pour les postes.
+
+Piège : la discrimination survient avant même que la personne puisse candidater.
+
+Défense : relever les annonces, leurs paramètres visibles, les écarts observés et transmettre les éléments au Défenseur des droits.
+
+Cas documenté : dans sa décision n° 2025-182 du 10 octobre 2025, le Défenseur des droits a retenu une discrimination indirecte liée au sexe dans la diffusion algorithmique d'offres d'emploi.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://juridique.defenseurdesdroits.fr\&sz=32)
+
+Catalogue en ligne
+
+
+
+### 22. Discrimination par des critères de substitution
+
+L'algorithme n'utilise pas directement l'origine, le handicap ou le sexe, mais se fonde sur le code postal, le parcours scolaire, le comportement ou d'autres données corrélées.
+
+Piège : une absence de critère explicitement discriminatoire ne prouve pas l'absence de discrimination.
+
+Défense : rechercher les écarts de traitement, demander les données utilisées et documenter les effets concrets. C'est particulièrement important pour les personnes ayant un parcours atypique.
+
+### 23. Évaluation automatique des salariés
+
+Un logiciel calcule la performance à partir des clics, mouvements, appels, cadences ou périodes d'inactivité.
+
+Piège : les indicateurs peuvent ignorer la complexité réelle du travail et pénaliser des comportements pourtant nécessaires.
+
+Défense : demander l'information relative au dispositif, ses finalités, les données utilisées et les modalités de contestation d'une évaluation.
+
+### 24. Surveillance permanente présentée comme de l'optimisation
+
+Une entreprise combine vidéosurveillance, suivi informatique et IA pour reconstituer toute l'activité des salariés.
+
+Piège : le vocabulaire de « productivité » ou de « sécurité » masque un contrôle disproportionné.
+
+Défense : vérifier l'information des salariés, la nécessité et la proportionnalité des dispositifs, ainsi que les obligations de consultation des représentants du personnel lorsqu'elles s'appliquent.
+
+La CNIL rappelle que le pouvoir de contrôle de l'employeur n'autorise pas une surveillance excessive.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
+
+
+### 25. Notation sociale entre plusieurs domaines
+
+Un système attribue une note générale de confiance à une personne et la réutilise dans des contextes différents.
+
+Piège : un comportement ordinaire dans une situation produit des conséquences défavorables injustifiées dans une autre.
+
+Défense : documenter la circulation des scores et les conséquences subies. Les pratiques de notation sociale répondant aux critères de l'article 5 de l'AI Act sont interdites. Toute notation ou tout scoring n'est cependant pas une notation sociale illégale.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://digital-strategy.ec.europa.eu\&sz=32)
+
+Shaping Europe’s digital future
+
+
+
+### 26. Contrôles sociaux déclenchés par des scores de suspicion
+
+Un organisme utilise un modèle pour orienter ses contrôles antifraude.
+
+Piège : certaines personnes peuvent être davantage contrôlées à cause d'indicateurs peu transparents ou de biais statistiques.
+
+Défense : demander les données personnelles utilisées, rectifier les erreurs, vérifier la procédure de contrôle et contester séparément toute décision défavorable.
+
+Le contrôle antifraude par algorithme n'est pas illégal en soi ; ses modalités doivent respecter les règles applicables.
+
+### 27. Reconnaissance faciale constituée par collecte massive d'images
+
+Des photographies accessibles en ligne sont aspirées pour enrichir une base de reconnaissance faciale.
+
+Piège : publier une photo ne revient pas à autoriser librement sa réutilisation biométrique.
+
+Défense : demander la suppression des données lorsque le droit le permet, exercer les recours RGPD et signaler un traitement manifestement illicite.
+
+La constitution ou l'extension de bases de reconnaissance faciale par collecte non ciblée d'images sur Internet ou dans des vidéosurveillances relève des pratiques interdites par l'AI Act.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://digital-strategy.ec.europa.eu\&sz=32)
+
+Bâtir l’avenir numérique de l’Europe
+
+
+
+### 28. Affectation ou orientation scolaire difficile à comprendre
+
+Un classement algorithmique participe à l'accès à une formation ou à l'affectation d'un élève.
+
+Piège : les candidats ne comprennent pas comment les critères sont appliqués à leur propre dossier.
+
+Défense : demander les informations communicables et utiliser les voies de recours propres à la procédure concernée. Attention aux calendriers scolaires et aux délais particuliers, qui ne correspondent pas nécessairement au délai administratif général.
+
+### 29. Police prédictive et profilage des individus
+
+Un système attribue à une personne un risque de commettre une infraction en fonction de son profil.
+
+Piège : traiter une prédiction statistique comme une preuve de comportement individuel.
+
+Défense : distinguer l'analyse générale de phénomènes criminels de l'évaluation individuelle. L'AI Act interdit certaines prédictions individuelles de criminalité fondées uniquement sur le profilage ou l'évaluation de caractéristiques personnelles.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://digital-strategy.ec.europa.eu\&sz=32)
+
+Shaping Europe’s digital future
+
+
+
+## 5. Tromperie, manipulation et contenus générés artificiellement
+
+### 30. Chatbot se faisant passer pour un humain
+
+Un service clientèle utilise une IA sans le préciser et laisse croire que l'interlocuteur est une personne.
+
+Piège : l'utilisateur peut accorder une confiance excessive aux réponses ou divulguer davantage de renseignements.
+
+Défense : vérifier la nature de l'interlocuteur, exiger une confirmation écrite des informations importantes et demander un autre canal en cas de litige.
+
+Depuis le 2 août 2026, l'AI Act impose l'information sur les interactions avec certaines IA, sauf notamment lorsque leur nature artificielle est évidente.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://digital-strategy.ec.europa.eu\&sz=32)
+
+Bâtir l’avenir numérique de l’Europe
+
+
+
+### 31. Deepfake non signalé
+
+Une vidéo, une image ou un enregistrement sonore généré ou manipulé par IA paraît authentique.
+
+Piège : un contenu artificiel est présenté comme un témoignage, un discours ou une preuve.
+
+Défense : rechercher la source originale, conserver les fichiers et signaler les contenus trompeurs. Les obligations de transparence de l'article 50 s'appliquent depuis août 2026, avec des conditions et exceptions définies.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://digital-strategy.ec.europa.eu\&sz=32)
+
+Bâtir l’avenir numérique de l’Europe
+
+
+
+### 32. Usurpation de voix pour obtenir un virement
+
+Un fraudeur reproduit la voix d'un dirigeant, d'un proche ou d'un conseiller bancaire.
+
+Piège : utiliser la familiarité de la voix pour contourner les vérifications habituelles.
+
+Défense : rappeler la personne à un numéro connu, faire confirmer la demande par un second canal et ne jamais considérer la voix comme une preuve d'identité suffisante.
+
+### 33. Sources inventées par une IA
+
+Une IA fournit de fausses références juridiques, des jurisprudences inexistantes, des études imaginaires ou des textes abrogés.
+
+Piège : la réponse est structurée et convaincante, mais les références ne correspondent pas à la réalité.
+
+Défense : vérifier les textes sur Légifrance, les décisions sur les bases juridictionnelles et les publications auprès de leurs auteurs.
+
+La CNIL alerte explicitement sur le caractère plausible des informations inexactes générées par les modèles.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
+
+
+### 34. Faux avis clients et faux témoignages
+
+Une entreprise génère des avis, des portraits, des témoignages ou des recommandations fictives.
+
+Piège : créer artificiellement une preuve sociale.
+
+Défense : conserver les publicités et pages concernées, rechercher les preuves d'authenticité et signaler les pratiques commerciales trompeuses à la DGCCRF via SignalConso.
+
+### 35. Faux contenus intimes ou diffamatoires
+
+Le visage d'une personne est utilisé pour générer une image intime, une fausse vidéo ou une déclaration compromettante.
+
+Piège : les copies se propagent rapidement et peuvent survivre à la suppression du contenu initial.
+
+Défense : préserver les URL, captures et identifiants avant de demander le retrait, signaler aux plateformes et déposer plainte si des infractions sont caractérisées.
+
+### 36. Persuasion personnalisée selon les vulnérabilités
+
+Une IA adapte ses arguments à la situation financière, émotionnelle, médicale ou sociale supposée d'une personne.
+
+Piège : exploiter certaines vulnérabilités pour influencer son comportement.
+
+Défense : examiner l'objectif de la sollicitation, les données utilisées et la présence éventuelle de manipulation préjudiciable. Certaines formes de manipulation et d'exploitation de vulnérabilités sont expressément interdites par l'AI Act.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://digital-strategy.ec.europa.eu\&sz=32)
+
+Bâtir l’avenir numérique de l’Europe
+
+
+
+### 37. Faux label de conformité IA
+
+Un éditeur affiche « IA certifiée », « AI Act compliant » ou un logo ressemblant à une certification officielle.
+
+Piège : utiliser un signe de confiance non vérifiable.
+
+Défense : demander l'organisme certificateur, le référentiel, le numéro de certificat, le périmètre et les dates de validité.
+
+Une simple affirmation de conformité ne constitue pas une certification. Une certification inventée ou une présentation trompeuse peut également relever du droit des pratiques commerciales trompeuses.
+
+### 38. Agent IA qui exécute des actions non prévues
+
+Un agent reçoit accès à une messagerie, un agenda, un CRM ou une interface administrative et effectue une opération incorrecte.
+
+Piège : une réponse de l'IA ne se limite plus à du texte : elle peut produire une action réelle, parfois difficile à annuler.
+
+Défense : utiliser des permissions minimales, exiger une confirmation humaine pour les actions sensibles et conserver un journal d'exécution.
+
+C'est un risque technique et contractuel ; une erreur de l'agent n'est pas automatiquement une infraction.
+
+### 39. Recommandations commerciales présentées comme neutres
+
+Un comparateur ou un assistant conseille un fournisseur sans indiquer clairement l'existence d'un intérêt commercial.
+
+Piège : faire passer une mise en avant rémunérée pour une recommandation indépendante.
+
+Défense : demander comment les recommandations sont produites, distinguer résultats organiques et contenus commerciaux, conserver les éléments publicitaires et signaler les omissions trompeuses.
+
+Le droit de la consommation sanctionne notamment la dissimulation d'informations substantielles susceptibles d'influencer une décision d'achat.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
+
+
+## 6. Gouvernance des entreprises : audits, contrats et responsabilité
+
+### 40. AI washing : vendre une IA qui n'en est pas réellement une
+
+Une société annonce une technologie propriétaire révolutionnaire, alors qu'elle utilise principalement des règles simples ou les services d'un autre fournisseur.
+
+Piège : facturer des capacités techniques non démontrées.
+
+Défense : exiger des fonctionnalités mesurables, des démonstrations sur tes propres cas d'usage et des engagements contractuels vérifiables.
+
+Utiliser une API tierce n'est pas frauduleux. Ce sont les allégations mensongères ou trompeuses qui posent problème.
+
+### 41. Audit de conformité présenté comme une garantie absolue
+
+Un prestataire remet un document indiquant que son IA est conforme à l'ensemble des réglementations.
+
+Piège : ne pas préciser la version auditée, les cas d'usage, les données testées ou les limites de l'évaluation.
+
+Défense : demander le périmètre exact, la date, la version du système, la méthodologie, les exclusions et les écarts constatés.
+
+### 42. Utiliser le report de l'AI Act pour éviter toute obligation
+
+Un fournisseur affirme qu'il n'aura aucune obligation avant décembre 2027.
+
+Piège : confondre report de certaines règles applicables aux IA à haut risque et absence générale de réglementation.
+
+Défense : vérifier chaque obligation séparément. Le RGPD, les règles sur les discriminations, certaines interdictions de l'AI Act et les exigences de transparence sont déjà applicables.
+
+### 43. Fournisseur qui rejette toute responsabilité sur le client
+
+Les conditions générales attribuent au client toute responsabilité pour les résultats de l'IA.
+
+Piège : lui faire supporter des risques qu'il ne maîtrise pas, notamment certains défauts du système ou manquements du fournisseur.
+
+Défense : examiner les obligations réciproques, les garanties, les plafonds de responsabilité, les exclusions et les recours.
+
+Une clause ne peut pas automatiquement neutraliser une obligation légale impérative.
+
+### 44. Clause autorisant la réutilisation des données du client
+
+Un contrat SaaS prévoit une utilisation des données, entrées et résultats pour améliorer les services ou développer de nouveaux modèles.
+
+Piège : confondre utilisation nécessaire à la prestation et exploitation secondaire des informations.
+
+Défense : prévoir expressément les finalités autorisées, les usages d'entraînement, les sous-traitants, la confidentialité et la restitution ou suppression des données.
+
+### 45. Absence de traçabilité des décisions
+
+Un éditeur ne conserve pas les versions du modèle, les données pertinentes, les changements de configuration ou les événements nécessaires à un audit.
+
+Piège : il devient impossible de reconstituer une décision contestée.
+
+Défense : prévoir contractuellement des mécanismes de journalisation adaptés, des durées de conservation justifiées et des procédures de préservation des preuves.
+
+Il ne faut pas conserver indéfiniment toutes les conversations : la traçabilité doit également respecter les règles de protection des données.
+
+### 46. Modèle modifié sans informer les utilisateurs professionnels
+
+Une mise à jour change le comportement du système : nouvelles restrictions, performances dégradées, réponses différentes ou intégrations incompatibles.
+
+Piège : dépendre d'un service dont les caractéristiques changent sans préavis suffisamment exploitable.
+
+Défense : négocier la gestion des versions, les préavis de changements substantiels, les tests de non-régression et la possibilité de revenir temporairement à une configuration antérieure.
+
+### 47. Absence de procédure de gestion des incidents IA
+
+Une entreprise dispose d'un outil IA, mais personne ne sait comment réagir à une fuite de données, une décision erronée ou une utilisation interdite.
+
+Piège : perdre les preuves, aggraver le préjudice et manquer une éventuelle obligation de notification.
+
+Défense : identifier à l'avance les responsables, les procédures d'alerte, les moyens de suspension, les contacts des sous-traitants et les obligations réglementaires applicables.
+
+## 7. Procédures de recours : les trois pièges à éviter absolument
+
+### 48. Être bloqué dans une boucle de contestation automatisée
+
+Un compte est suspendu ou une demande rejetée. Chaque recours reçoit exactement la même réponse automatique.
+
+Piège : multiplier les tickets sans obtenir de réponse sur le fond.
+
+Défense : conserver les numéros de dossier et demander une révision motivée par le canal officiel. Lorsque les conditions de l'article 22 du RGPD sont réunies, demander l'intervention humaine prévue par ce texte. Utiliser les voies de recours sectorielles sans attendre indéfiniment le support.
+
+### 49. S'adresser à la mauvaise autorité
+
+Tu saisis la CNIL pour obtenir l'annulation d'une décision administrative, ou la CADA pour faire rectifier directement tes données chez une entreprise privée.
+
+Piège : chaque organisme possède des compétences différentes. Une plainte mal orientée peut consommer le temps disponible.
+
+Défense : distinguer le droit que tu cherches à faire respecter de la décision que tu souhaites contester.
+
+### 50. Confondre réclamation, médiation, signalement et recours juridique
+
+Tu signales un problème et supposes que tous les délais sont automatiquement suspendus.
+
+Piège : certaines démarches ne suspendent ni n'interrompent la prescription ou les délais contentieux.
+
+Défense : identifier l'acte juridique qui préserve réellement tes droits, vérifier sa forme et sa date limite.
+
+Exemple important : saisir le Défenseur des droits ne suspend ni n'interrompt, à lui seul, les délais pour agir en justice.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+## 8. Les délais à inscrire dans ton calendrier
+
+Les délais suivants concernent les procédures les plus utiles dans les litiges impliquant une IA.
+
+| Situation                                                          | Délai                                                               | Point de vigilance                                                                                                                                                |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Demande d'accès, rectification ou autre droit RGPD                 | 1 mois en principe                                                  | Prolongation possible de 2 mois supplémentaires, à notifier pendant le premier mois                                                                               |
+| Plainte à la CNIL                                                  | Après refus, réponse insuffisante ou expiration du délai applicable | Ne remplace pas une action devant un juge                                                                                                                         |
+| Communication de documents administratifs                          | 1 mois en principe                                                  | Le silence vaut généralement refus                                                                                                                                |
+| Saisine de la CADA                                                 | 2 mois après un refus explicite ou tacite                           | En principe nécessaire avant de saisir le tribunal pour un refus de communication                                                                                 |
+| Décision défavorable de la CADA ou maintien du refus administratif | Délais contentieux spécifiques                                      | Après saisine de la CADA, le silence de l'administration pendant 2 mois vaut refus ; le recours contentieux doit normalement être engagé dans les 2 mois suivants |
+| Recours contre une décision administrative                         | Généralement 2 mois en métropole                                    | Exceptions et recours préalables obligatoires possibles                                                                                                           |
+| Recours gracieux ou hiérarchique                                   | Généralement 2 mois en métropole                                    | Un recours introduit dans le délai peut interrompre le délai contentieux                                                                                          |
+| Recours administratif préalable obligatoire (RAPO)                 | Variable                                                            | Lire précisément la notification et les textes applicables                                                                                                        |
+| Action pour discrimination au travail                              | En principe 5 ans à compter de la révélation de la discrimination   | Distinguer les autres actions relatives au contrat ou à sa rupture                                                                                                |
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++4
+
+Trois erreurs classiques :
+
+- Attendre la réponse à une demande RGPD avant de contester une décision administrative.
+- Croire que la CADA est saisissable sans limite de temps après un refus.
+- Compter sur un simple signalement à une autorité pour arrêter les délais.
+
+Les règles de calcul, les voies de recours particulières et les éventuelles mentions manquantes dans la notification peuvent modifier la situation.
+
+## 9. À qui s'adresser selon le problème ?
+
+| Organisme                        | Compétences utiles                                                                                          |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| CNIL                             | Données personnelles, profilage, droits RGPD, sécurité des traitements                                      |
+| Défenseur des droits             | Discriminations, droits des usagers des services publics                                                    |
+| CADA                             | Refus de communication de documents et informations administratifs relevant de sa compétence                |
+| DGCCRF                           | Pratiques commerciales trompeuses, consommation                                                             |
+| ARCOM                            | Certains problèmes concernant les plateformes et services numériques, selon les réglementations applicables |
+| Tribunal administratif           | Contestation de décisions administratives                                                                   |
+| Conseil de prud'hommes           | Litiges individuels liés au travail                                                                         |
+| Police, gendarmerie ou procureur | Escroquerie, usurpation d'identité, atteintes pénales et autres infractions                                 |
+
+Pour les fraudes informatiques, [17Cyber](https://17cyber.gouv.fr/?utm_source=chatgpt.com) fournit une assistance et une orientation adaptées. Un signalement de contenu illégal peut être effectué via [PHAROS](https://internet-signalement.gouv.fr/?utm_source=chatgpt.com). Ces démarches ne remplacent pas systématiquement un dépôt de plainte.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cybermalveillance.gouv.fr\&sz=32)
+
+Assistance aux victimes de cybermalveillance
+
++1
+
+
+
+## 10. Procédure concrète pour défendre tes droits
+
+En cas de décision automatisée contestable, l'objectif est de préserver les délais tout en obtenant des preuves.
+
+Checklist d'intervention
+
+À cocher au fur et à mesure
+
+0 / 12 étapes
+
+Réinitialiser
+
+Conserver la décision, sa notification et la date de réception
+
+Capturer les écrans, messages, identifiants et conditions applicables
+
+Identifier le responsable de la décision et l'éventuel fournisseur IA
+
+Vérifier la voie et la date limite du recours juridique
+
+Exercer le recours nécessaire sans attendre les explications techniques
+
+Demander les données personnelles utilisées et leur provenance
+
+Demander le rôle précis de l'algorithme et les critères pertinents
+
+Exiger la rectification des données erronées
+
+Demander un réexamen humain lorsque ce droit est applicable
+
+Conserver les preuves des démarches et de leur réception
+
+Saisir l'autorité compétente en cas de manquement
+
+Vérifier que chaque procédure conserve son propre calendrier
+
+&#x20;Copier la checklist
+
+Une demande utile peut notamment citer les articles 12, 15, 16 et 22 du RGPD, en fonction du cas, ainsi que l'article L311-3-1 du CRPA lorsqu'une décision administrative individuelle repose sur un traitement algorithmique.
+
+La distinction essentielle : obtenir des explications sur une IA, corriger des données personnelles, signaler un manquement réglementaire et faire annuler une décision sont quatre démarches différentes. Elles peuvent devoir être menées en parallèle.
+
+Pour aller directement aux textes et procédures vérifiés : [CNIL — décisions automatisées](https://www.cnil.fr/fr/vos-droits-lintervention-humaine-face-votre-profilage-ou-une-decision-automatisee?utm_source=chatgpt.com), [Service Public — accès aux documents administratifs](https://www.service-public.fr/particuliers/vosdroits/F2467?utm_source=chatgpt.com) et [Commission européenne — AI Act](https://digital-strategy.ec.europa.eu/fr/policies/regulatory-framework-ai?utm_source=chatgpt.com).

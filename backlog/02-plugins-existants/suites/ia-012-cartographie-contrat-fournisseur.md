@@ -52,6 +52,10 @@ Adoption, entrée en vigueur, applicabilité et échéance restent distinctes.
 Une source inaccessible réserve la conclusion dépendante et donne un résultat
 partiel utile, sans règle ni date de consultation inventées.
 
+## Complément des frictions IA
+
+Points 16–18 et 43–46 de la [matrice](../exist-005-frictions-utilisateurs.md) : relever, par partie et pièce, chaîne API/modèle/hébergement/accès, confidentialité, réutilisation pour entraînement, responsabilité, journaux disponibles et durées justifiées. Documenter version du modèle, préavis, changements substantiels, tests convenus et possibilité documentée de retour ou de sortie. Ne pas assimiler hébergement européen et absence de flux ; PRV-015 garde le transfert. Cas attendu : promesse « no training » contredite par une annexe, modèle remplacé sans préavis prouvé ; montrer contradiction et inconnues sans inventer de violation. IA-024 porte les preuves d'allégations et IA-023 l'incident.
+
 ## Critères d'acceptation
 
 - [ ] Chaque constat a document/version/localisation et statut ; pièce inconnue n'est pas clause absente et promesse amont n'est pas automatiquement droit de l'acheteur.

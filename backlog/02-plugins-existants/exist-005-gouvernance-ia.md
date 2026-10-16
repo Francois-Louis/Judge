@@ -35,6 +35,12 @@ Recentrer les workflows IA sur les usages, rôles et obligations France/UE avec 
 - [x] Le livrable est un ensemble de stories d'implémentation bornées, chacune avec fichiers, résultat attendu et scénarios (relecture documentaire sur cas fictifs par le rédacteur).
 - [x] Aucune réécriture complète du plugin n'est réalisée dans cette story ; ses implémentations attendent le bilan PILOTE-003.
 
+## Complément des frictions utilisateur — 16 octobre 2026
+
+La [matrice des 50 points](exist-005-frictions-utilisateurs.md) et son [archive](sources/gouvernance-ia-frictions-2026-10-16.txt) complètent le cadrage initial : quatre nouvelles propositions IA-021 à IA-024 et PRV-035 dans privacy. Le [découpage courant](exist-005-decoupage-ia.md) contient 24 suites IA, toutes proposées. Orientation de la personne, pouvoirs d'agent, fiche incident et justificatifs fournisseur sont séparés des demandes RGPD et des recours sectoriels.
+
+Les échéances et l'« AI Omnibus » allégués ne sont pas validés ; IA-020 les traite comme pistes à vérifier. Les vingt suites et les contrôles du bilan initial ci-dessous restent des traces historiques, sans recalcul d'empreintes. Les fichiers de ce complément et les contrôles réellement exécutés figurent dans le [relevé distinct](exist-005-frictions-verification.md). Aucune adaptation du plugin ni sélection d'extension.
+
 ## Vérification
 
 Préparer les questions de cadrage pour un outil RH, un assistant interne et un service destiné au public, sans attribuer de catégorie définitive sans les faits.
@@ -76,3 +82,6 @@ recette client, lecteur indépendant, connexion, envoi ou publication. Le
 calendrier actuel et le statut des réformes/guides restent à rechercher lors
 des futures implémentations, sans présenter ce cadrage comme adaptation livrée.
 
+## Intégration marketing — 16 octobre 2026
+
+La [matrice des 140 frictions](exist-004-frictions-utilisateurs.md) relie les besoins aux tâches et relais. IA-005 reçoit les exigences de transparence des interactions et contenus synthétiques. Le contrôle d’authenticité publicitaire et les mentions françaises d’influence restent chez produit ; aucun nouveau parcours IA ni calendrier validé ici. Les résultats et empreintes historiques ci-dessus sont conservés. Portée de l’intégration et contrôles dans le [relevé dédié](exist-004-frictions-verification.md).

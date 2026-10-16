@@ -85,3 +85,9 @@ Issue d'EXIST-004, sans implémentation. Le bilan PILOTE-003 est terminé après
 BASE-011 ; ses limites H01 complet et lecteur indépendant restent consignées.
 Cette proposition attend la sélection d'une tranche. Aucun skill adapté,
 connexion, envoi, déploiement ou automatisation France/UE n'est livré ici.
+
+## Complément de besoins — 16 octobre 2026
+
+Les points 11 à 18, 27, 45 et 47 à 49 de la [matrice marketing](../exist-004-frictions-utilisateurs.md) demandent de confronter origine, fabrication, qualité d’expert, certification, résultats et visuels à leurs preuves. Séparer simulation, illustration et essai réel ; une mention IA ou un label ne valide pas la promesse. Recette attendue supplémentaire : image produit synthétique avec accessoires absents de la livraison → écart localisé, preuve et demande utiles, aucune accusation depuis le procédé seul.
+
+Ces exigences et scénarios restent proposés, sans règle ou résultat métier validé par cette intégration.

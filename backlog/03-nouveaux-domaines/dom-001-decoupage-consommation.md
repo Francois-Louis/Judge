@@ -1,6 +1,6 @@
 # DOM-001 — Découpage du domaine consommation
 
-Propositions du **16 octobre 2026**. Les 20 stories CONSO restent `proposee`.
+Propositions du **16 octobre 2026**. Les 21 stories CONSO restent `proposee`.
 La [relecture documentaire](dom-001-verification.md) éprouve le routage sur
 les trois scénarios de la story et sur des cas limites. Aucun répertoire de
 plugin n'est créé par ce cadrage. La [matrice des 155 frictions utilisateur](dom-001-frictions-utilisateurs.md)
@@ -94,6 +94,7 @@ Les rangs 1 à 3 portent la priorité P2, le rang 4 la priorité P3.
 | 3 | [CONSO-018](suites/conso-018-protection-plateforme.md) | `platform-protection-claim` | Dossier et contestation interne d’une protection d’achat ou de vente | CONSO-004 |
 | 3 | [CONSO-019](suites/conso-019-mise-en-demeure-remboursement.md) | `claim-escalation` | Mise en demeure, état des remboursements et suites distinctes | CONSO-001 |
 | 3 | [CONSO-020](suites/conso-020-demarchage-consentement.md) | `solicitation-dispute` | Contestation du démarchage ou du contrat allégué, preuves du consentement | CONSO-004 |
+| 3 | [CONSO-021](suites/conso-021-reclamation-publicite.md) | `reclamation-publicite` | Rapprochement publicité/achat/résultat et brouillon de réclamation | CONSO-004 |
 | 4 | [CONSO-009](suites/conso-009-abonnement.md) | `subscription-exit` | Fiche d'abonnement hors secteur et brouillon de résiliation | CONSO-001 |
 | 4 | [CONSO-010](suites/conso-010-contenu-numerique.md) | `digital-content-claim` | Réclamation pour un contenu ou service numérique non fourni ou défectueux | CONSO-002 |
 | 4 | [CONSO-011](suites/conso-011-vente-entre-particuliers.md) | `private-sale-dispute` | Demande civile d’un acheteur ou vendeur particulier, qualité des parties à vérifier | CONSO-004 |
@@ -183,3 +184,7 @@ de méthode ni capacité de jurisprudence n’est déclarée disponible ici.
 
 Les fichiers « à créer » des suites sont des livrables futurs. La portée de
 ce cadrage figure dans la [vérification](dom-001-verification.md).
+
+## Complément publicité contestée — 16 octobre 2026
+
+[CONSO-021](suites/conso-021-reclamation-publicite.md), issue de la [matrice marketing](../02-plugins-existants/exist-004-frictions-utilisateurs.md), prépare le rapprochement publicité/achat/résultat et la demande au vendeur. CONSO-015 garde l’offre avant achat ; CONSO-016 les prix/frais ; CONSO-002/005/009 les garanties et abonnements ; CONSO-013 le signalement. Sans achat, ne pas inventer de remboursement. Le propriétaire de la revue avant diffusion reste produit. Les 21 CONSO restent proposées ; aucune nouvelle première tranche n’est choisie.

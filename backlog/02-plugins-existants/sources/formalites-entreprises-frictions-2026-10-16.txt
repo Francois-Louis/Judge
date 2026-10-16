@@ -1,0 +1,685 @@
+# Formalités des entreprises en France : les pièges, abus, délais et recours à connaître
+
+État des règles vérifié au 16 octobre 2026 — Entrepreneurs individuels, micro-entrepreneurs, artisans, commerçants, sociétés (SARL, EURL, SAS, SASU), TPE et PME.
+
+Les problèmes rencontrés par les entrepreneurs français se répartissent principalement en six grandes familles : les fausses obligations administratives, les erreurs d'immatriculation, les délais déclaratifs, les mauvaises surprises fiscales et sociales, les blocages administratifs et les difficultés lors de la fermeture d'une entreprise.
+
+Il faut distinguer trois situations :
+
+- Fraude ou pratique abusive : quelqu'un cherche à obtenir un paiement, une signature ou des informations en trompant l'entrepreneur.
+- Piège réglementaire : une obligation réelle comporte un délai, une exception ou une condition peu visible.
+- Dysfonctionnement administratif : une démarche est bloquée, mal traitée ou produit des conséquences malgré la bonne foi de l'entrepreneur.
+
+Il n'existe pas de classement statistique unique couvrant l'ensemble de ces problèmes. La liste ci-dessous rassemble les situations récurrentes documentées et les risques particulièrement coûteux.
+
+## 1. Faux courriers officiels, arnaques et démarches payantes déguisées
+
+C'est une catégorie particulièrement sensible lors de la création d'une entreprise. La DGCCRF documente notamment les faux registres, les annuaires trompeurs et les relances agressives.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++1
+
+
+
+Risque élevé
+
+1\. Fausse facture d'inscription au registre des entreprises
+
+Réception d'un courrier imitant une facture administrative : RCS, RNE, SIRET, inscription professionnelle ou publication obligatoire. Il réclame parfois plusieurs centaines d'euros.
+
+Défense : vérifier sur le Guichet unique ou auprès du greffe, sans utiliser les coordonnées du courrier. Ne jamais considérer le simple fait d'être immatriculé comme une commande auprès d'un organisme privé.
+
+2\. Faux annuaires professionnels obligatoires
+
+Un formulaire réclame une vérification de coordonnées. La signature constitue en réalité une commande d'inscription payante, parfois pluriannuelle.
+
+Défense : vérifier le prix, la durée, le renouvellement et la juridiction compétente avant toute signature. En cas de tromperie, contester par écrit et signaler à la DGCCRF.
+
+3\. Faux avis d'inscription INPI, SIRENE ou Registre national des entreprises
+
+Le document exploite les informations publiques de l'entreprise pour paraître légitime et réclame un règlement prétendument indispensable.
+
+Défense : vérifier l'origine sur [procedures.inpi.fr](https://procedures.inpi.fr/?utm_source=chatgpt.com) ou sur le site officiel de l'organisme concerné.
+
+4\. Sites privés imitant les portails administratifs
+
+Ils font payer une démarche normalement gratuite ou des frais d'intermédiation considérables, sans toujours rendre leur caractère privé évident.
+
+Défense : partir des portails officiels. Attention : certaines véritables formalités sont légalement payantes ; il faut distinguer ces frais des honoraires d'un intermédiaire facultatif.
+
+5\. Faux courriers Urssaf et DGFiP
+
+Usurpation d'identité administrative, fausses régularisations, coordonnées bancaires frauduleuses et menaces de pénalités immédiates.
+
+Défense : consulter directement l'espace Urssaf ou fiscal professionnel, sans cliquer sur le lien reçu. Ne jamais modifier un RIB sur la seule foi d'un courrier.
+
+6\. Faux services de mise en conformité obligatoire
+
+Vente de plaques professionnelles, affichages réglementaires, registres, logiciels ou prestations de conformité prétendument exigés par l'administration.
+
+Défense : demander le texte imposant précisément la prestation proposée. Une obligation réelle n'implique généralement pas l'achat auprès du vendeur qui démarche.
+
+7\. Faux contrôles et faux inspecteurs
+
+Une personne annonce un contrôle administratif, exige des documents sensibles ou un règlement immédiat.
+
+Défense : vérifier son identité, son organisme et son habilitation en contactant ce dernier par un numéro trouvé indépendamment. Ne pas confondre vérification d'identité et obstruction à un contrôle légal.
+
+8\. Abonnements dissimulés dans les prestations de formalités
+
+Un prestataire facture une création d'entreprise, puis active une domiciliation, une assistance juridique ou une surveillance réglementaire reconductible.
+
+Défense : lire les conditions de résiliation et le mandat ; conserver le devis et les conditions acceptées. En B2B, le droit de rétractation de 14 jours n'est pas automatique.
+
+9\. Fausses mises en demeure après refus de payer un annuaire
+
+Menaces de contentieux, d'huissier ou de recouvrement international pour intimider un professionnel.
+
+Défense : contester la dette par écrit, demander la preuve du contrat et de la prestation. Une lettre de recouvrement n'est pas, à elle seule, un titre exécutoire.
+
+10\. Démarchage commercial fondé sur les données d'immatriculation
+
+Des tiers récupèrent les informations publiées pour proposer des services et donner l'impression qu'ils connaissent personnellement le dossier.
+
+Défense : ne jamais considérer la connaissance du SIREN, de la date de création ou de l'adresse comme une preuve d'authenticité.
+
+La DGCCRF explique que certains de ces contrats peuvent engager une entreprise pour plusieurs milliers d'euros, même lorsqu'ils ressemblent à une simple demande de mise à jour.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++1
+
+
+
+## 2. Création d'entreprise : erreurs d'immatriculation et formalités cachées
+
+11\. Croire qu'une entreprise est créée parce que le dossier a été transmis. Un dossier déposé, signé ou payé n'est pas nécessairement validé. Il peut rester en attente de régularisation ou être rejeté. Réflexe : contrôler son statut et récupérer le justificatif d'immatriculation définitif.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.inpi.fr\&sz=32)
+
+inpi.fr
+
++1
+
+
+
+12\. Manquer une demande de régularisation. Une pièce manquante ou illisible peut bloquer l'immatriculation. Pour une entreprise individuelle, Service Public indique notamment un délai de 15 jours ouvrables pour répondre au récépissé de dossier incomplet. Réflexe : consulter le tableau de bord du Guichet unique sans attendre un e-mail.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+13\. Découvrir que son dossier rejeté doit être recommencé. Le rejet n'est pas une simple demande de correction. Une nouvelle formalité peut être nécessaire. Réflexe : enregistrer le motif du rejet et toutes les références du premier dossier, notamment si des frais ont été versés.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.inpi.fr\&sz=32)
+
+inpi.fr
+
+
+
+14\. Mauvaise classification de l'activité. Une activité déclarée de façon imprécise peut entraîner un mauvais code APE, des difficultés d'assurance ou un rattachement fiscal et social inadapté. Réflexe : vérifier la description réelle des activités et demander la correction à l'organisme compétent.
+
+15\. Confondre activité principale et activité secondaire. Un artisan qui fabrique, vend et réalise des prestations peut avoir plusieurs activités imposées ou déclarées différemment. Réflexe : distinguer chaque nature de recettes et vérifier les conséquences fiscales et sociales.
+
+16\. Mauvais choix de statut juridique. Micro-entreprise, EI au réel, EURL et SASU n'ont pas les mêmes règles pour les cotisations, charges déductibles, rémunérations et dividendes. Réflexe : comparer le coût global avant l'immatriculation, pas seulement les frais de création.
+
+17\. Croire que l'immatriculation autorise toutes les activités. Certains métiers imposent une qualification, une autorisation, une assurance ou des conditions particulières d'exercice. Réflexe : consulter la réglementation de l'activité avant les premiers contrats.
+
+18\. Oublier les formalités de bénéficiaires effectifs. Une société doit déclarer les personnes physiques qui la contrôlent, même si son dirigeant est son unique associé. Réflexe : vérifier la déclaration lors de la création et à chaque modification pertinente.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+entreprendre.service-public.gouv.fr
+
+
+
+19\. Se tromper sur la domiciliation. Adresse personnelle publiée, domiciliation commerciale avec engagement contractuel, restrictions liées au bail ou à la copropriété. Réflexe : distinguer siège social, établissement et lieu d'exercice.
+
+20\. Payer pour obtenir un justificatif déjà gratuit. Le justificatif d'immatriculation au RNE est téléchargeable gratuitement. Un extrait Kbis peut aussi être disponible gratuitement selon la situation. Réflexe : commencer par [data.inpi.fr](https://data.inpi.fr/?utm_source=chatgpt.com) ou [l'Annuaire des entreprises](https://annuaire-entreprises.data.gouv.fr/?utm_source=chatgpt.com).&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+21\. Oublier de protéger son adresse personnelle. Certaines informations déclarées sont accessibles publiquement et exploitées par des services privés. Réflexe : utiliser les dispositifs de non-diffusion des données personnelles et, pour les dirigeants concernés, demander l'occultation de leur adresse dans les documents du RCS et du RNE. Depuis le 5 mai 2026, certaines sociétés peuvent aussi déposer des extraits d'actes contenant moins d'informations personnelles.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
++1
+
+
+
+22\. Confondre immatriculation et protection de sa marque. Déposer une dénomination sociale ne procure pas automatiquement les mêmes droits qu'une marque enregistrée. Réflexe : effectuer une recherche d'antériorité avant de lancer le nom commercial, le logo ou le site.
+
+23\. Rater l'ACRE. Depuis la réforme de 2026, l'obtention n'est pas automatique : une demande doit être déposée auprès de l'Urssaf dans les 60 jours suivant la date d'ouverture d'activité, sous réserve d'éligibilité. Réflexe : déposer immédiatement la demande et conserver l'accusé.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+entreprendre.service-public.gouv.fr
+
+
+
+## 3. Modifications de l'entreprise : des obligations qu'on oublie facilement
+
+24\. Changer d'adresse sans déclarer le déménagement. Modifier son adresse sur ses factures ou son site ne modifie pas automatiquement les registres. Réflexe : effectuer la formalité sur le Guichet unique et vérifier les conséquences sur le SIRET et la CFE.
+
+25\. Ne pas déclarer un changement de dirigeant. Une société peut conserver un représentant légal obsolète dans les registres, ce qui bloque des opérations bancaires ou contractuelles. Réflexe : faire la formalité après la décision, avec les pièces et publications nécessaires.
+
+26\. Rater le délai de modification des statuts. En principe, la déclaration de modification statutaire doit intervenir dans le mois suivant la décision. Réflexe : programmer ce délai dès la signature du procès-verbal.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+27\. Oublier une modification des bénéficiaires effectifs. Même un changement d'adresse personnelle d'un bénéficiaire effectif peut imposer une actualisation. Délai : 30 jours à compter du changement.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+28\. Croire que la modification des statuts suffit. Une décision collective, une annonce légale et une inscription modificative peuvent être trois étapes distinctes. Réflexe : vérifier toutes les opérations requises et conserver la preuve de chacune.
+
+29\. Ne pas déclarer un nouvel établissement. L'établissement principal et les établissements secondaires ont leurs propres numéros SIRET. Leur ouverture ou fermeture peut entraîner des formalités et conséquences fiscales distinctes.
+
+30\. Oublier les changements d'activité. Ajouter une activité réglementée ou devenir principalement commerçant plutôt qu'artisan peut modifier les obligations applicables. Réflexe : actualiser la déclaration et vérifier les organismes concernés.
+
+31\. Modifier la répartition du capital sans anticiper les conséquences. Une cession de parts peut avoir des effets sur les bénéficiaires effectifs, le contrôle de la société et les formalités fiscales d'enregistrement. Réflexe : traiter les formalités juridiques et fiscales conjointement.
+
+32\. Donner un mandat trop large à un prestataire. Un cabinet ou un intermédiaire peut conserver l'accès aux formalités et les gérer à la place du dirigeant. Réflexe : vérifier la portée du mandat, récupérer ses justificatifs et révoquer les accès inutiles.
+
+## 4. Micro-entreprises : les pièges sociaux et fiscaux
+
+33\. Oublier une déclaration à zéro. Même sans chiffre d'affaires, la déclaration périodique à l'Urssaf reste obligatoire. Son absence peut entraîner pénalités et calculs forfaitaires.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+34\. Déclarer les factures émises au lieu des sommes encaissées. En micro-entreprise, le chiffre d'affaires déclaré à l'Urssaf repose en principe sur les encaissements. Une erreur peut conduire à payer trop tôt ou à déclarer un montant incorrect.
+
+35\. Manquer une échéance mensuelle ou trimestrielle. Les déclarations trimestrielles habituelles arrivent à échéance le 30 avril, 31 juillet, 31 octobre et 31 janvier suivant. La première déclaration obéit à un calendrier particulier.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+36\. Se fier aux reports automatiques des jours non ouvrés. Attention à un exemple concret et actuel : l'Urssaf a annoncé une exception pour le samedi 31 octobre 2026 à 23 h 59, date limite pour déclarer septembre 2026 ou le troisième trimestre 2026. Pas de report au lundi 2 novembre.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+37\. Oublier la déclaration fiscale annuelle. La déclaration Urssaf ne remplace pas la déclaration des revenus de l'activité à l'impôt sur le revenu, y compris lorsqu'on a opté pour le versement libératoire.
+
+38\. Mal comprendre le versement libératoire. L'option dépend notamment de conditions de revenu fiscal de référence. Elle peut être inadaptée à une situation fiscale donnée. Réflexe : comparer l'impôt total avec et sans option et surveiller les échéances de changement.
+
+39\. Confondre les plafonds micro et TVA. Une entreprise peut rester au régime micro tout en devenant redevable de la TVA. En 2026, les plafonds annuels du régime micro sont notamment de 203 100 € pour les ventes et 83 600 € pour les prestations, contre des seuils de franchise de TVA distincts.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
++1
+
+
+
+40\. Dépasser le seuil majoré de franchise TVA sans s'en apercevoir. La TVA peut devenir exigible dès le dépassement du seuil majoré en cours d'année. Réflexe : surveiller le chiffre d'affaires cumulé et préparer la transition avant d'atteindre la limite.
+
+41\. Oublier le calcul au prorata de l'année de création. Les plafonds ne s'apprécient pas toujours sur une année civile complète lorsque l'activité débute en cours d'année. Réflexe : calculer le plafond ajusté dès la création.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+42\. Sortir du régime micro après deux dépassements successifs. Le dépassement deux années de suite peut provoquer une bascule automatique au réel, avec davantage d'obligations comptables et déclaratives.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+43\. Croire qu'un compte bancaire professionnel payant est systématiquement obligatoire. En micro-entreprise, un compte dédié est exigé notamment après deux années consécutives de chiffre d'affaires supérieur à 10 000 €. Un compte personnel distinct peut suffire, sous réserve de son utilisation autorisée par la banque. Des règles particulières concernent aussi les commerçants.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+44\. Ignorer les cotisations selon la nature des recettes. Vente de produits, prestations artisanales et activités libérales peuvent relever de taux différents. Réflexe : ventiler correctement les recettes d'activités mixtes.
+
+45\. Penser que l'absence d'activité supprime toutes les obligations. Une micro-entreprise sans chiffre d'affaires peut rester soumise à des déclarations, et parfois à la CFE. L'inactivité et la radiation ne sont pas équivalentes.
+
+## 5. Fiscalité des entreprises : CFE, TVA, déclarations et exonérations
+
+46\. Oublier la déclaration initiale de CFE. Le formulaire 1447-C-SD doit être adressé au service des impôts des entreprises au plus tard le 31 décembre de l'année de création. L'entreprise est exonérée pour cette première année, puis bénéficie normalement d'une réduction de moitié de sa base d'imposition l'année suivante.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.impots.gouv.fr\&sz=32)
+
+impots.gouv.fr
+
+
+
+47\. Ne pas recevoir d'avis papier de CFE. Les avis sont dématérialisés dans l'espace fiscal professionnel. Ne rien recevoir par courrier ne signifie donc pas qu'il n'y a rien à payer. Échéance habituelle : 15 décembre, avec acompte éventuel en juin pour les cotisations importantes.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+48\. Payer une CFE dont on pourrait être exonéré. Une entreprise réalisant au plus 5 000 € de chiffre d'affaires pendant la période de référence peut bénéficier de l'exonération de cotisation minimum. Cette période est généralement N-2, avec des règles de prorata.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+49\. Ne pas demander l'exonération de CFE pour artisan travaillant seul. L'article 1452 du CGI prévoit une exonération pour certains artisans dont le travail manuel est prépondérant, sans spéculation significative sur les matières premières et avec une main-d'œuvre limitée. La qualification d'artisan ne suffit pas, à elle seule, à ouvrir ce droit. Défense : vérifier précisément les critères et demander la correction de la CFE indûment établie.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://bofip.impots.gouv.fr\&sz=32)
+
+bofip.impots.gouv.fr
+
+
+
+50\. Payer la CFE sans disposer de local professionnel. L'absence de local n'exonère pas automatiquement. Une base minimum peut s'appliquer à une activité domiciliée chez soi. Défense : vérifier la commune, la base minimum, les recettes retenues et les exonérations.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+51\. Oublier de demander une réduction de CFE après fermeture. Une cessation définitive en cours d'année peut permettre une réduction proratisée de la CFE. Elle ne doit pas être présumée automatique.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+52\. Rater une exonération géographique. Certaines zones, notamment les zones France ruralités revitalisation, peuvent ouvrir droit à des dispositifs fiscaux particuliers. Défense : vérifier la commune, la date de création et les formalités nécessaires avant l'expiration du délai de demande.
+
+53\. Oublier de déclarer la TVA lorsque le régime change. Franchir un seuil ou modifier son option fiscale peut entraîner une obligation immédiate ou différée. Défense : suivre distinctement les plafonds de franchise, les seuils majorés et les dates d'effet.
+
+54\. Croire que l'absence de TVA sur ses ventes dispense de toute obligation liée à la TVA. Certaines acquisitions intracommunautaires et prestations internationales peuvent entraîner des obligations de déclaration ou d'autoliquidation, même en franchise. Défense : vérifier les opérations avec des partenaires étrangers avant facturation.
+
+55\. Mal gérer les acomptes et le solde d'impôt sur les sociétés. Les échéances dépendent du régime et de la date de clôture. Un bénéfice faible ne garantit pas l'absence de déclaration.
+
+56\. Ne pas séparer les espaces fiscaux particulier et professionnel. Une déclaration faite dans le mauvais espace ou un service non activé peut conduire à manquer une obligation. Défense : activer les services nécessaires sur impots.gouv.fr dès l'immatriculation.
+
+57\. Croire qu'une contestation suspend automatiquement le paiement. Une réclamation fiscale ne dispense normalement pas de payer. Il est possible de demander un sursis de paiement, sous conditions.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.impots.gouv.fr\&sz=32)
+
+impots.gouv.fr
+
++1
+
+
+
+58\. Laisser expirer le délai de réclamation fiscale. Pour une CFE mise en recouvrement en 2026, le délai normal de réclamation expire le 31 décembre 2027. Pour beaucoup d'autres impôts professionnels, le délai est de deux ans selon le point de départ légal. Des exceptions existent.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.impots.gouv.fr\&sz=32)
+
+impots.gouv.fr
+
+
+
+## 6. Factures, comptabilité et obligations périodiques
+
+59\. Ignorer la réforme de la facturation électronique déjà entrée en vigueur. Depuis le 1er septembre 2026, les entreprises assujetties à la TVA en France, y compris celles bénéficiant de la franchise en base, doivent être capables de recevoir les factures électroniques concernées. L'émission obligatoire s'appliquera aux PME et micro-entreprises le 1er septembre 2027.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.impots.gouv.fr\&sz=32)
+
+impots.gouv.fr
+
++1
+
+
+
+60\. Choisir une fausse plateforme de facturation « agréée ». Des vendeurs peuvent exploiter la réforme pour commercialiser des abonnements présentés comme obligatoires. Défense : vérifier l'inscription sur la [liste officielle des plateformes agréées](https://www.impots.gouv.fr/facturation-electronique-et-plateformes-agreees?utm_source=chatgpt.com). Une plateforme peut être payante, mais aucune offre commerciale particulière n'est imposée.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.impots.gouv.fr\&sz=32)
+
+impots.gouv.fr
+
+
+
+61\. Oublier le e-reporting des ventes B2C et internationales. La réforme ne se limite pas aux factures B2B françaises : des transmissions de données sont également prévues pour les opérations concernées avec des particuliers ou l'étranger, selon le calendrier applicable.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+62\. Conserver des mentions de TVA devenues obsolètes. Depuis le 1er septembre 2026, la nouvelle référence juridique pour la franchise en base renvoie au Code des impositions sur les biens et services. Toutefois, l'ancienne référence à l'article 293 B du CGI reste admise jusqu'au 31 décembre 2027 : inutile de payer dans l'urgence un prestataire prétendant qu'une modification immédiate est indispensable.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+63\. Émettre des factures sans toutes les mentions requises. Numérotation continue, identification, dates, échéance de règlement, pénalités de retard et indemnité de 40 € en B2B font partie des points à vérifier. Certaines mentions varient selon la nature de l'opération.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+64\. Ne pas tenir ses livres obligatoires en micro-entreprise. Le régime simplifié n'exonère pas de la tenue du livre des recettes et, selon l'activité, du registre des achats. Défense : conserver les justificatifs et faire correspondre les encaissements aux écritures.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+65\. Rater le dépôt des comptes annuels d'une société. Pour les sociétés concernées, les délais sont en principe de 1 mois après l'approbation des comptes pour un dépôt au greffe, ou de 2 mois pour un dépôt en ligne. Une amende et une injonction sous astreinte sont possibles. Cela ne concerne pas l'entrepreneur individuel de la même manière.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+66\. Publier des comptes qui pouvaient bénéficier d'une confidentialité. Certaines sociétés peuvent demander la confidentialité totale ou partielle des documents autorisés par leur catégorie de taille. Défense : joindre la déclaration appropriée au dépôt des comptes.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+67\. Croire qu'une SASU sans rémunération n'a aucune formalité annuelle. L'absence de salaire du président ne supprime pas les obligations juridiques, fiscales et comptables de la société.
+
+68\. Ne pas documenter les décisions de l'associé unique. Une EURL ou SASU peut avoir des obligations de décisions écrites et de conservation des actes, même sans assemblée réunissant plusieurs personnes.
+
+69\. Confondre dépenses personnelles et professionnelles. Une comptabilité mal documentée peut entraîner un rejet de déduction, de TVA ou des problèmes de justification en cas de contrôle.
+
+70\. Oublier l'archivage réglementaire. Factures, documents fiscaux, contrats, registres et pièces sociales ont des durées de conservation différentes. Défense : ne pas appliquer un délai unique à tous les documents et préserver leur intégrité.
+
+## 7. Embauche et formalités employeur
+
+Ces obligations ne concernent que les entreprises ayant des salariés ou se trouvant dans des situations particulières.
+
+71\. Oublier la déclaration préalable à l'embauche (DPAE). Elle doit être effectuée avant la mise au travail du salarié, au plus tôt huit jours avant l'embauche.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+72\. Ne pas tenir le registre unique du personnel. Il est obligatoire dès l'embauche du premier salarié.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+73\. Ne pas établir le DUERP. Le document unique d'évaluation des risques professionnels est obligatoire dès le premier salarié. Un modèle commercial payant n'est pas imposé.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+74\. Manquer une déclaration sociale nominative (DSN). Une déclaration tardive, incorrecte ou absente peut entraîner pénalités et difficultés pour les droits sociaux des salariés. Défense : contrôler les comptes rendus métier et les anomalies après chaque dépôt.
+
+75\. Ignorer une correction effectuée par l'Urssaf dans une DSN. Le mécanisme de substitution peut modifier les données déclarées et les cotisations dues. Défense : vérifier les notifications et contester dans le délai indiqué.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.urssaf.fr\&sz=32)
+
+Urssaf.fr
+
+
+
+76\. Oublier les obligations de médecine du travail. La DPAE ne signifie pas que toutes les démarches ultérieures de suivi médical sont accomplies.
+
+77\. Croire que tous les affichages réglementaires nécessitent des panneaux achetés. Certaines informations doivent être affichées ; d'autres peuvent être communiquées par tout moyen approprié. Défense : vérifier l'obligation selon l'effectif plutôt que d'acheter un kit présenté comme obligatoire.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+78\. Oublier les déclarations lors d'un départ salarié. Fin de contrat, signalements DSN, documents de fin de contrat et solde des sommes dues nécessitent un traitement spécifique.
+
+## 8. Fermeture, mise en sommeil et difficultés financières
+
+79\. Penser que l'arrêt de l'activité suffit à fermer l'entreprise. Tant qu'une cessation définitive n'est pas régulièrement déclarée, les obligations peuvent se poursuivre. Pour une entreprise individuelle : déclaration de cessation dans les 30 jours suivant l'arrêt.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+80\. Confondre mise en sommeil et radiation. Une cessation temporaire conserve l'immatriculation et certaines obligations déclaratives et fiscales. Pour une entreprise individuelle, la décision doit être déclarée dans le mois.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+81\. Oublier les dernières déclarations après cessation. Impôt sur les bénéfices, TVA, déclarations sociales et CFE ne disparaissent pas nécessairement au jour de la radiation. Les délais varient selon le régime.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+82\. Sous-estimer le coût de fermeture d'une société. Dissolution, nomination du liquidateur, liquidation, publications légales et radiation peuvent former plusieurs étapes. La fermeture d'une société solvable n'est pas nécessairement une simple formalité gratuite.
+
+83\. Confondre liquidation amiable et liquidation judiciaire. La liquidation amiable concerne une fermeture volontaire dans une situation compatible avec le paiement des dettes. La liquidation judiciaire répond à une situation d'insolvabilité avec impossibilité de redressement.
+
+84\. Manquer le délai de déclaration de cessation des paiements. Le dirigeant doit en principe saisir le tribunal dans les 45 jours de l'état de cessation des paiements, sous réserve des règles relatives à la conciliation. Des sanctions de gestion peuvent être encourues.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
++1
+
+
+
+85\. Attendre d'être insolvable pour solliciter une procédure de prévention. Mandat ad hoc, conciliation et sauvegarde sont des outils distincts, accessibles sous certaines conditions. Une conciliation peut notamment être demandée avant la cessation des paiements ou lorsqu'elle date de moins de 45 jours.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+86\. Croire que la radiation efface les dettes. Une fermeture administrative ne fait pas disparaître automatiquement les dettes fiscales, sociales, contractuelles ou les responsabilités existantes.
+
+87\. Ignorer les conséquences patrimoniales de la cessation d'une EI. La cessation peut avoir des effets sur la séparation des patrimoines professionnel et personnel. Il faut examiner les dates et les créanciers concernés avant d'organiser sa fermeture.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+## 9. Litiges avec l'administration : les recours qu'il ne faut pas manquer
+
+88\. Croire que l'administration a forcément raison. Une décision peut être fondée sur des données incomplètes, un mauvais rattachement, un calcul erroné ou une mauvaise interprétation. Défense : demander les motifs, la base légale et le détail du calcul contesté.
+
+89\. Se contenter d'une contestation téléphonique. Un échange oral ne permet pas toujours de prouver la date et la teneur d'une réclamation. Défense : privilégier la messagerie sécurisée, un dépôt donnant lieu à accusé ou un courrier recommandé lorsque nécessaire.
+
+90\. Confondre réclamation et recours formel. Un simple message au service client d'un organisme ne remplace pas nécessairement le recours administratif ou juridictionnel requis. Défense : lire les voies et délais de recours sur la décision.
+
+91\. Manquer les deux mois de recours auprès de l'Urssaf. Après une décision contestable, notamment à l'issue d'un contrôle, le délai normal pour saisir la commission de recours amiable (CRA) est de 2 mois à compter de la notification. Passé ce délai, la décision peut devenir définitive.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.urssaf.fr\&sz=32)
+
+Urssaf
+
+
+
+92\. Ignorer une contrainte Urssaf. Une contrainte n'est pas une simple relance. Le délai d'opposition devant la juridiction compétente est normalement de 15 jours à compter de sa notification ou signification régulière. L'opposition doit être motivée.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
+
+
+93\. Ne pas demander une remise des majorations de retard. L'Urssaf permet, sous conditions, des remises totales ou partielles. Certains retards régularisés sous 30 jours peuvent même bénéficier d'une non-application des majorations si toutes les conditions sont remplies.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+94\. Penser que le droit à l'erreur protège de tout. Le droit à l'erreur peut permettre de régulariser une première erreur commise de bonne foi, mais il ne couvre pas automatiquement les déclarations absentes ou tardives, les fraudes ou les erreurs non régularisables.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+95\. Ne pas invoquer les difficultés financières. En cas d'impossibilité de payer, il est possible de demander un échéancier auprès des organismes concernés. Défense : agir avant que les procédures de recouvrement ne s'accumulent.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.urssaf.fr\&sz=32)
+
+Urssaf
+
+
+
+96\. Laisser une anomalie du Guichet unique sans trace écrite. Blocage de signature, erreur de transmission, dossier rejeté ou information non actualisée : une difficulté technique peut avoir des conséquences administratives. Défense : conserver le numéro de formalité, les captures datées, le ticket d'assistance et les échanges avec l'autorité chargée de la validation.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.inpi.fr\&sz=32)
+
+INPI
+
+
+
+97\. Confondre INPI et autorité de validation. Le Guichet unique transmet les formalités, mais leur validation peut relever d'organismes compétents distincts. Défense : identifier l'organisme ayant demandé la régularisation ou prononcé le rejet, plutôt que de solliciter exclusivement l'assistance technique de l'INPI.
+
+98\. Ne pas utiliser la médiation Urssaf. Après une réclamation restée sans solution satisfaisante, le médiateur peut intervenir dans le cadre prévu. Attention : la médiation ne doit pas être supposée interrompre un délai de recours contentieux.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.urssaf.fr\&sz=32)
+
+Urssaf
+
+
+
+99\. Payer un faux créancier sous la pression d'un recouvrement. Des sociétés d'annuaires ou de services administratifs peuvent réclamer des montants contestables en se présentant comme titulaires d'une créance. Défense : demander la preuve du contrat, de l'exigibilité et du pouvoir de recouvrement. Contester les pratiques trompeuses auprès des autorités compétentes.
+
+100\. Croire qu'une entreprise n'a aucun droit de rétractation en B2B. Le Code de la consommation prévoit une protection particulière pour certains contrats hors établissement entre professionnels employant au plus cinq salariés, lorsque l'objet du contrat n'entre pas dans le champ de leur activité principale. Il faut toutefois vérifier toutes les conditions du contrat et les exceptions applicables.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
+
+
+## 10. Calendrier pratique des délais à surveiller
+
+Les délais ci-dessous correspondent aux cas généraux mentionnés. Les régimes particuliers, reports et notifications doivent être vérifiés individuellement.
+
+| Formalité ou recours                       | Délai ou échéance                                             |
+| ------------------------------------------ | ------------------------------------------------------------- |
+| Régularisation d'un dossier incomplet d'EI | 15 jours ouvrables après réception du récépissé concerné      |
+| Demande ACRE (création en 2026)            | 60 jours après la date d'ouverture d'activité                 |
+| Modification statutaire de société         | En principe 1 mois après la décision                          |
+| Modification d'un bénéficiaire effectif    | 30 jours après le changement                                  |
+| Déclaration initiale CFE                   | 31 décembre de l'année de création                            |
+| Paiement CFE                               | Généralement 15 décembre                                      |
+| Déclaration Urssaf trimestrielle           | 30/04, 31/07, 31/10, 31/01, hors cas particuliers             |
+| Réception des factures électroniques       | Depuis le 01/09/2026, entreprises concernées                  |
+| Émission électronique PME et micro         | 01/09/2027                                                    |
+| Dépôt des comptes annuels d'une société    | 1 ou 2 mois après approbation selon la voie de dépôt          |
+| Recours CRA Urssaf                         | Généralement 2 mois après notification                        |
+| Opposition à contrainte Urssaf             | 15 jours après notification/signification régulière           |
+| Réclamation CFE 2026                       | Jusqu'au 31/12/2027, en principe                              |
+| DPAE                                       | Avant la prise de poste, au plus tôt 8 jours avant            |
+| Cessation définitive d'une EI              | 30 jours après l'arrêt                                        |
+| Déclaration de cessation des paiements     | En principe 45 jours, sous réserve des règles de conciliation |
+
+## 11. Que faire lorsqu'on reçoit une demande administrative suspecte ou contestable ?
+
+Checklist de défense administrative
+
+0/8
+
+Identifier précisément l'expéditeur, son SIREN et l'organisme qu'il prétend représenter
+
+Vérifier l'obligation sur un site officiel, sans utiliser le lien fourni dans le courrier
+
+Déterminer la date exacte de notification et calculer immédiatement le délai de recours
+
+Télécharger les avis, pièces, décisions et captures du dossier
+
+Demander le fondement légal, le détail des calculs et les justificatifs réclamés
+
+Contester par écrit auprès du bon destinataire avant l'expiration du délai
+
+Vérifier si la contestation suspend le paiement ou si un sursis doit être demandé
+
+Archiver l'accusé de dépôt et programmer le suivi du dossier
+
+&#x20;CopierRéinitialiser
+
+## 12. Les organismes à contacter selon le problème
+
+| Problème                              | Interlocuteur principal                                     |
+| ------------------------------------- | ----------------------------------------------------------- |
+| Formalité bloquée                     | INPI, puis autorité compétente pour la validation           |
+| SIREN, SIRET, code APE                | INSEE ou organisme compétent selon la donnée                |
+| CFE, TVA, IS, exonérations            | Service des impôts des entreprises (SIE)                    |
+| Cotisations sociales                  | Urssaf                                                      |
+| Décision Urssaf contestée             | Commission de recours amiable                               |
+| Fraude à un annuaire professionnel    | DGCCRF / SignalConso, police ou gendarmerie selon les faits |
+| Publicité légale, dépôt des comptes   | Guichet unique / greffe selon la formalité                  |
+| Difficultés de paiement importantes   | Urssaf, SIE, CCSF selon le cas                              |
+| Difficultés financières structurelles | Tribunal compétent et dispositifs de prévention             |
+
+### Portails officiels utiles
+
+- [Guichet unique INPI](https://procedures.inpi.fr/?utm_source=chatgpt.com) : création, modifications, cessation.
+- [DATA INPI](https://data.inpi.fr/?utm_source=chatgpt.com) : justificatifs et informations enregistrées.
+- [Impots.gouv.fr](https://www.impots.gouv.fr/?utm_source=chatgpt.com) : avis, déclarations et réclamations fiscales.
+- [Urssaf.fr](https://www.urssaf.fr/?utm_source=chatgpt.com) : cotisations, demandes de délais et recours.
+- [Service Public Entreprendre](https://entreprendre.service-public.gouv.fr/?utm_source=chatgpt.com) : formalités et fiches réglementaires.
+- [SignalConso](https://signal.conso.gouv.fr/?utm_source=chatgpt.com) : signalement des pratiques commerciales problématiques.
+
+Le principe de défense le plus important : ne jamais confondre une relance, une facture, une notification administrative, une mise en demeure et un acte juridiquement exécutoire. Leur portée et surtout leurs délais de contestation ne sont pas les mêmes. Une dette contestable peut devenir beaucoup plus difficile à remettre en cause si l'on laisse passer le bon délai.

@@ -87,3 +87,6 @@ BASE-011 ; ses limites H01 complet et lecteur indépendant restent consignées.
 Cette proposition attend la sélection explicite d'une tranche ; aucune
 commande, connexion ou automatisation France/UE n'est annoncée comme livrée.
 
+## Complément de besoins — formalités, 16 octobre 2026
+
+Point 68 de la [matrice formalités](../exist-002-frictions-utilisateurs.md) : pour une SASU/EURL, le projet documentaire doit refléter la décision et les pièces réellement fournies par l'associé unique, sous la qualification SOC-001. Aucun vote, participant ou réunion reconstitué. Un document incomplet produit des champs réservés et les pièces à demander, pas une décision signée fictivement. Scénario attendu, non exécuté ; aucune réécriture ici.

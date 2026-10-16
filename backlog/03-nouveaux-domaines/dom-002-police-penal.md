@@ -48,6 +48,12 @@ Un premier skill de lecture et qualification d'une convocation, avant les régim
 
 Vérifier le routage et les informations à demander. La story ne doit pas résoudre ces consultations ni fournir de délais ou montants non vérifiés.
 
+## Complément des frictions IA — 16 octobre 2026
+
+Points 29, 32 et 35 de la [matrice IA](../02-plugins-existants/exist-005-frictions-utilisateurs.md) : plainte sur fraude vocale ou contenu intime synthétique → CRIM-004 selon faits ; qualification d'une pratique IA → IA-003, avec régime des données à vérifier séparément pour finalité policière. Une prédiction statistique n'est pas une preuve d'infraction. Préserver messages, références et chronologie minimaux, sans répliquer le contenu intime ; voie bancaire et retrait plateforme restent distincts. Cas attendu : virement validé sous usurpation de voix ; distinguer demande au prestataire, plainte et absence de remboursement garanti.
+
+Ces exigences restent à découper ou préciser ; [portée et contrôles de l'intégration](../02-plugins-existants/exist-005-frictions-verification.md).
+
 ## Hors périmètre
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
@@ -101,3 +107,13 @@ Le domaine compte désormais 17 propositions.
 - Six propositions nouvelles, CRIM-018 à CRIM-023 : contrôle en cours, perquisition, conservation de preuves, signalement d'agent, TAJ, dépistage routier et rétention du permis. Le domaine compte désormais 23 propositions, toutes non implémentées et non sélectionnées.
 - DOM-010 reçoit les exigences FPS et recours administratifs relatifs au permis ; son découpage reste à faire. Casier et TAJ, plainte et signalement, contrôle et audition restent distincts.
 - Découpage, vérification, contrôleur, relevé et index actualisés. Le relevé contrôle la structure et la traçabilité, sans recherche juridique ni recette métier. Les travaux préexistants sont comparés à l'instantané de début de cette intégration.
+
+## Complément des frictions contentieuses — 16 octobre 2026
+
+Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+
+Points 116–125 : CRIM-004 organise la plainte et CRIM-007 lit sa suite ; CRIM-006 lit les actes et CRIM-013 oriente la réparation. Ces tâches ne couvrent pas tous les actes ultérieurs. Découper prescription pénale pour qualification bornée, préparation de recours pénaux, recours après classement/constitution de partie civile et citation directe, avec identité, faits et publications datés, récépissés, décisions, notifications et statut de la personne. Sorties futures distinctes : régime, conditions, pièces, formalités et calendrier vérifié ou indéterminé.
+
+Ne déduire ni culpabilité d’une plainte, ni procès garanti, ni extinction de l’action publique d’un retrait. Presse → DOM-043 ; indemnisation et condamnation restent distinctes. Scénarios : main courante prise pour plainte ; classement sans motif compris ; retrait pendant procédure ; citation directe avec auteur non identifié. Sources : CPP, textes pénaux spéciaux et règles de presse ; aucun délai générique du guide appliqué.
+
+Les scénarios indiqués sont attendus, non exécutés. Sources/version, champ, déclencheur, exceptions et transitions restent à rechercher ; le texte fourni n’est pas une autorité juridique.

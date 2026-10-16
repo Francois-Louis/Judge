@@ -76,3 +76,6 @@ recette client ou lecteur indépendant, connexion ou action externe. Les
 futures recherches et recettes sont décrites dans les propositions, sans
 annoncer une adaptation France/UE déjà disponible.
 
+## Intégration marketing — 16 octobre 2026
+
+La [matrice des 140 frictions](exist-004-frictions-utilisateurs.md) relie les besoins aux tâches et relais. Huit propositions PDT-018 à PDT-025 complètent les 17 initiales ; les 25 PDT restent proposées. Les revues d’allégations et d’influence existantes sont précisées, sans implémentation. Les résultats et empreintes historiques ci-dessus sont conservés. Portée de l’intégration et contrôles dans le [relevé dédié](exist-004-frictions-verification.md).

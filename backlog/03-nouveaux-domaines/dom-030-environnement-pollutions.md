@@ -61,3 +61,6 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+## Frontière avec les emballages — 16 octobre 2026
+
+La [matrice marketing](../02-plugins-existants/exist-004-frictions-utilisateurs.md) attribue les obligations REP et PPWR d’une mise sur le marché à product-legal (PDT-020 à PDT-025), avec ses références métier embarquées. DOM-030 garde pollution, déchets observés, contrôle d’installation et dommage environnemental à cadrer ; contrat d’éco-organisme chez commercial, recours contre une décision administrative chez DOM-010. Ce complément ne lance pas le cadrage DOM-030.

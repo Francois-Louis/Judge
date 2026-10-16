@@ -106,3 +106,11 @@ DOM-006 reçoit le besoin locatif et DOM-035 le besoin de dossier de responsabil
 Fichiers de ce complément : matrice et source, six nouvelles suites, compléments ENF-001 à ENF-008, ENF-011 et ENF-012, DOM-006, DOM-035, présente story, découpage, vérification, contrôleur, relevé et index. Les modifications préexistantes, notamment le complément bancaire ENF-004, sont conservées.
 
 **Portée de ce complément :** intégration documentaire, contrôles de structure et traçabilité ; aucune recherche juridique externe ni validation des affirmations du texte utilisateur, aucun skill ou plugin créé ou exécuté. Les scénarios restent attendus et non exécutés.
+
+## Complément des frictions contentieuses — 16 octobre 2026
+
+Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist-006-frictions-utilisateurs.md), sans implémentation ni sélection de tranche.
+
+Points 83–95 : conserver ENF-003 pour décompte/paiements, ENF-004 pour compte/sommes protégées, ENF-008 pour délais, ENF-010 pour créancier muni d’un titre et ENF-019/020 pour contestation. Le besoin de vérifier mainlevée après règlement complet doit distinguer solde justifié, demande de levée et confirmation effective ; le paiement n’établit pas à lui seul la levée du blocage. Rechercher régime du titre et créances accessoires sans réutiliser mécaniquement la prescription de fond. Scénarios : justificatif de règlement complet et saisie encore visible ; intérêts ou frais discutés ; titre ancien avec événements d’exécution. CTX-041 porte la lecture d’ordonnance côté créancier avant signification ; ENF-012 garde l’opposition débiteur. Les recours spéciaux JEX restent à découper, sans leur appliquer CTX-036.
+
+Les scénarios indiqués sont attendus, non exécutés. Sources/version, champ, déclencheur, exceptions et transitions restent à rechercher ; le texte fourni n’est pas une autorité juridique.

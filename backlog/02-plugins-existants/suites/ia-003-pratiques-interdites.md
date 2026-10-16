@@ -52,6 +52,10 @@ Adoption, entrée en vigueur, applicabilité et échéance restent distinctes.
 Une source inaccessible réserve la conclusion dépendante et donne un résultat
 partiel utile, sans règle ni date de consultation inventées.
 
+## Complément des frictions IA
+
+Points 20, 25, 27, 29 et 36 de la [matrice](../exist-005-frictions-utilisateurs.md) : examiner séparément reconnaissance d'émotions, notation sociale, constitution de base faciale, prédiction individuelle et exploitation de vulnérabilités. Recueillir fonction, contexte, finalité, personnes et effets ; rechercher chaque condition et exception dans le texte applicable. Une analyse audiovisuelle, un score, une publicité personnalisée ou un contrôle antifraude ne suffisent pas à conclure à une pratique interdite. Pour traitement policier, qualifier le régime de données sans RGPD présumé par défaut. Cas limite attendu : seule une brochure promettant « analyse comportementale » est disponible ; questions ciblées et qualification réservée.
+
 ## Critères d'acceptation
 
 - [ ] La note distingue opposition de politique interne, soupçon documenté et interdiction légalement établie ; une source inaccessible laisse la conclusion dépendante ouverte.

@@ -85,3 +85,9 @@ Issue d'EXIST-004, sans implémentation. Le bilan PILOTE-003 est terminé après
 BASE-011 ; ses limites H01 complet et lecteur indépendant restent consignées.
 Cette proposition attend la sélection d'une tranche. Aucun skill adapté,
 connexion, envoi, déploiement ou automatisation France/UE n'est livré ici.
+
+## Complément de besoins — 16 octobre 2026
+
+Les points 76 à 87 de la [matrice marketing](../exist-004-frictions-utilisateurs.md) précisent allégation générique, visuel vert, label privé, obligation présentée comme avantage, périmètre partiel et objectif futur sans plan. Rechercher le statut de transposition français et la disposition applicable de la directive 2024/825 ; ni application intégrale ni transposition inachevée ne sont admises depuis le texte utilisateur. Conserver aussi les règles françaises préexistantes, dont les mentions et la neutralité carbone selon champ. Recette attendue : campagne à une date proche d’une transition non vérifiée → état des textes et réserves, pas de date automatique.
+
+Ces exigences et scénarios restent proposés, sans règle ou résultat métier validé par cette intégration.
