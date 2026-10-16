@@ -79,3 +79,14 @@ Aucun envoi, dépôt, signature ni décision irréversible implicite.
 Proposition issue de PILOTE-001, le 15 octobre 2026. Implémentation et recette
 restent à réaliser après PILOTE-003 ; les dépendances n'annoncent aucune
 fonctionnalité adaptée déjà disponible.
+
+## Complément des frictions travail — 16 octobre 2026
+
+**Retour maladie et droit dans le temps.** Point 7.19 : le registre reste limité à la maladie ordinaire. Prévoir le rapprochement entre date de délivrance de l’arrêt, préreprise, reprise effective, préconisations et demandes des acteurs avant toute dispense éventuelle. R4624-31/32 ont fait l’objet d’une lecture préliminaire dans le relevé lié ; relecture de la version et des transitions au dossier requise. Cas ajouté : préreprise récente mais demande expresse d’une visite : aucune dispense automatique. TRAV-041 est la demande ponctuelle sans registre, TRAV-042 l’inaptitude ; aucune extension générale aux AT/MP ni résolution du défaut D04 présumée.
+
+Rattachement complet : [matrice des frictions](../pilote-001-annexes/pilote-001-frictions-utilisateurs.md).
+Les critères restent non cochés. Pour ces ajouts, appliquer BASE-013 : phrase
+finale nommant le professionnel compétent et renfort en tête si urgence ou
+procédure ; sources, paquet détaché, client et compréhension à vérifier selon
+BASE-005/006. Portée de l’intégration et lectures préliminaires :
+[vérification](../pilote-001-annexes/pilote-001-frictions-verification.md).

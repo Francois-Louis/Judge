@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "nature": "controle documentaire du redacteur",
+  "source_sha256": "cb9ac1e26e82b875f045b594981bfb206fed45d9b2b0fc8a18bbabec29863101",
+  "copie_identique": true,
+  "points_source": 182,
+  "lignes_matrice": 182,
+  "couverture_exacte": true,
+  "stories_travail": 61,
+  "nouvelles_propositions": 40,
+  "nouveaux_cadrages": [
+    "TRAV-045",
+    "TRAV-061"
+  ],
+  "suites_existantes_precisees": [
+    "TRAV-002",
+    "TRAV-003",
+    "TRAV-004",
+    "TRAV-005",
+    "TRAV-008",
+    "TRAV-018",
+    "TRAV-021"
+  ],
+  "liens_locaux_verifies": 451,
+  "tables_verifiees": 8,
+  "frontmatters_dependances_sans_cycle": true,
+  "format_utf8_sans_espaces_finaux_hors_source": true,
+  "source_format_original_preserve": true,
+  "lectures_officielles_preliminaires": [
+    "R4624-31 CDTN",
+    "R4624-32 CDTN",
+    "L6315-1 CDTN"
+  ],
+  "validation_juridique_globale": false,
+  "skill_execute": false,
+  "recette_client": false,
+  "lecture_independante": false,
+  "commandes": [
+    {
+      "commande": "python -X utf8 backlog/etat.py --check",
+      "resultat": "reussi sur espace de travail"
+    },
+    {
+      "commande": "python -X utf8 scripts/lint-tool-scope.py",
+      "resultat": "reussi, 5 cookbooks"
+    },
+    {
+      "commande": "python -X utf8 scripts/check-version-bump.py",
+      "resultat": "reussi contre origin/main"
+    },
+    {
+      "commande": "git diff --check",
+      "resultat": "reussi sur diff de travail avant preparation du commit"
+    }
+  ],
+  "source_blob_git_identique": true
+}

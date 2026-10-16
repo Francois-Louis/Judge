@@ -70,3 +70,14 @@ Aucun envoi, dépôt, signature ni décision irréversible implicite.
 Proposition issue de PILOTE-001, le 15 octobre 2026. Implémentation et recette
 restent à réaliser après PILOTE-003 ; les dépendances n'annoncent aucune
 fonctionnalité adaptée déjà disponible.
+
+## Complément des frictions travail — 16 octobre 2026
+
+**Consentement et calendrier de rupture conventionnelle.** Points 1 et 10.05–07 : examiner pression, entretiens, remise de l’exemplaire signé, dates de signature/rétractation, dépôt, homologation ou refus et preuve de réception. Distinguer rétractation, instruction administrative et contestation avec leurs déclencheurs et unités propres. Cas ajouté : signature sous pression sans copie, date proposée proche : pièces, inconnues et interlocuteur urgent sans homologation ni annulation prédites. Chiffrage d’une indemnité choisie via TRAV-051, transaction distincte TRAV-055, protection spéciale TRAV-046 ; aucun droit au chômage garanti.
+
+Rattachement complet : [matrice des frictions](../pilote-001-annexes/pilote-001-frictions-utilisateurs.md).
+Les critères restent non cochés. Pour ces ajouts, appliquer BASE-013 : phrase
+finale nommant le professionnel compétent et renfort en tête si urgence ou
+procédure ; sources, paquet détaché, client et compréhension à vérifier selon
+BASE-005/006. Portée de l’intégration et lectures préliminaires :
+[vérification](../pilote-001-annexes/pilote-001-frictions-verification.md).

@@ -62,3 +62,14 @@ Calcul de paie/indemnités, validation du licenciement, signature ou transmissio
 ## État de la proposition
 
 Statut `proposee`. Le bilan PILOTE-003 est terminé, avec ses limites documentées ; aucune extension n'est sélectionnée par cette intégration. Pour les contrôles documentaires et leur portée, voir la [vérification de l'intégration](../../02-plugins-existants/exist-002-annexes/exist-002-frictions-verification.md).
+
+## Complément des frictions travail — 16 octobre 2026
+
+**Pièces et reçu de fin de contrat.** Point 10.16 et catégorie finale de la checklist : ajouter, selon situation, informations d’épargne salariale et preuve de remise aux documents déjà prévus. Distinguer document établi, transmis et effectivement reçu ; aucune signature exigée pour l’analyse. Cas ajouté : attestation France Travail reçue mais incohérente avec la date de fin, informations d’épargne absentes : demande ciblée sans droit à prestation conclu. TRAV-051 garde montant d’une indemnité et portée du reçu, TRAV-053 créance/AGS ; TRAV-021 ne devient ni moteur de solde ni validation du motif.
+
+Rattachement complet : [matrice des frictions](../pilote-001-annexes/pilote-001-frictions-utilisateurs.md).
+Les critères restent non cochés. Pour ces ajouts, appliquer BASE-013 : phrase
+finale nommant le professionnel compétent et renfort en tête si urgence ou
+procédure ; sources, paquet détaché, client et compréhension à vérifier selon
+BASE-005/006. Portée de l’intégration et lectures préliminaires :
+[vérification](../pilote-001-annexes/pilote-001-frictions-verification.md).

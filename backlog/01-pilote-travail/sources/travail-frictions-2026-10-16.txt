@@ -1,0 +1,674 @@
+# Travail en France : les pièges, abus, pratiques contestables et délais pour défendre ses droits
+
+Guide pratique — droit du travail français, situation au 16 octobre 2026
+
+Le risque le plus important pour un salarié n'est pas nécessairement l'abus manifeste. Ce sont souvent les pratiques qui paraissent normales : des heures non déclarées, une classification trop basse, une modification des fonctions présentée comme obligatoire, des congés mal comptabilisés ou une rupture de contrat signée trop rapidement.
+
+Certaines sont illégales, d'autres sont autorisées sous conditions. D'autres encore ne sont pas forcément abusives, mais peuvent devenir très défavorables lorsque le salarié ignore ses droits.
+
+Périmètre : salariés du secteur privé en France (CDI, CDD, intérim, temps plein, temps partiel, cadres, ouvriers, employés, apprentis). La fonction publique et les travailleurs indépendants relèvent en partie d'autres règles.
+
+Les protections applicables dépendent également de la convention collective, des accords d'entreprise et du contrat de travail.
+
+## 1. Les délais à connaître absolument
+
+Ce sont les premiers points à surveiller : un dossier juridiquement solide peut échouer si l'action est engagée trop tard.
+
+| Situation                                                 | Délai ou règle principale                                                 |
+| --------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Réclamer des salaires impayés                             | 3 ans                                                                     |
+| Contester un licenciement ordinaire                       | 12 mois à compter de sa notification                                      |
+| Litige relatif à l'exécution du contrat                   | 2 ans, en principe                                                        |
+| Action liée à une discrimination ou à un harcèlement      | 5 ans, avec points de départ spécifiques                                  |
+| Contester une rupture conventionnelle                     | 12 mois à compter de l'homologation ou de son refus                       |
+| Se rétracter d'une rupture conventionnelle                | 15 jours calendaires, avec règle de prolongation du dernier jour          |
+| Signaler un accident du travail à l'employeur             | 24 heures, sauf exceptions                                                |
+| Déclaration d'accident du travail par l'employeur         | 48 heures, hors dimanches et jours fériés                                 |
+| Déclarer soi-même un accident non déclaré par l'employeur | 2 ans                                                                     |
+| Demander des précisions sur le motif d'un licenciement    | 15 jours suivant la notification                                          |
+| Engager une procédure disciplinaire                       | 2 mois à partir de la connaissance des faits par l'employeur, en principe |
+| Transmettre un CDD écrit au salarié                       | 2 jours ouvrables suivant l'embauche                                      |
+| Contester un reçu pour solde de tout compte signé         | 6 mois pour les sommes qui y sont précisément mentionnées                 |
+
+Attention : ces délais ne sont pas tous des délais de prescription, et certains litiges suivent des règles particulières. Une lettre de réclamation à l'employeur ne suspend pas automatiquement la prescription. Il faut vérifier le point de départ et les éventuelles causes d'interruption avant de se fier à une échéance.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.formulaires.service-public.fr\&sz=32)
+
+formulaires.service-public.fr
+
++5
+
+
+
+## 2. Embauche, contrat et période d'essai
+
+### Les pièges à surveiller
+
+1\. Commencer à travailler sans contrat écrit. Un CDI à temps plein peut être verbal, mais pas un CDD ou un temps partiel ordinaire. L'absence d'écrit ne signifie pas absence de droits. Conserver les messages d'embauche, horaires et preuves de travail.
+
+2\. CDD signé après la prise de poste. Le contrat doit être transmis sous deux jours ouvrables. Un simple retard n'entraîne pas automatiquement sa requalification en CDI, contrairement à certaines irrégularités plus graves.
+
+3\. CDD utilisé pour un besoin permanent. Un CDD ne doit pas pourvoir durablement un emploi lié à l'activité normale et permanente de l'entreprise. Des renouvellements successifs peuvent justifier une demande de requalification.
+
+4\. Motif de CDD vague ou mensonger. Remplacement d'un salarié, accroissement temporaire d'activité, emploi saisonnier : le motif doit être légal et suffisamment précis. Attention aux contrats présentés comme temporaires sans justification réelle.
+
+5\. Période d'essai ajoutée après l'embauche. Elle ne se présume pas : elle doit être expressément prévue. Elle commence au premier jour de travail.
+
+6\. Renouvellement automatique de l'essai. Pour un CDI, le renouvellement nécessite notamment une possibilité prévue par un accord de branche étendu, une clause contractuelle et l'accord exprès du salarié avant l'échéance. Un CDD ne permet pas de renouveler la période d'essai.
+
+7\. Rupture d'essai annoncée à la dernière minute. L'employeur doit respecter un délai de prévenance pouvant atteindre un mois. S'il ne le respecte pas, une indemnité compensatrice peut être due.
+
+8\. Essai rompu pour punir ou discriminer. La période d'essai permet d'évaluer les compétences. Elle n'autorise pas une rupture fondée sur la grossesse, l'état de santé, l'activité syndicale ou un motif étranger à l'évaluation professionnelle.
+
+9\. Fausse période d'essai après une promotion. Lorsqu'un salarié change de poste dans la même entreprise, on parle généralement de période probatoire. Son échec ne permet pas de rompre librement le CDI initial.
+
+10\. Promesse d'embauche retirée. Une proposition de contrat et une promesse unilatérale de contrat n'ont pas les mêmes effets juridiques. Conserver le document intégral, la date de réponse et les conditions proposées.
+
+11\. Fausse prestation indépendante. Un salarié déguisé en micro-entrepreneur, avec horaires imposés, directives et contrôle hiérarchique, peut faire reconnaître l'existence d'un contrat de travail. La qualification dépend des conditions réelles d'exécution.
+
+12\. Intérim utilisé pour contourner l'embauche. Vérifier le motif de recours, la qualification, l'égalité de rémunération avec un salarié comparable et les indemnités de fin de mission lorsqu'elles sont dues.
+
+13\. Clause d'exclusivité abusive. Une interdiction générale d'exercer toute autre activité doit être justifiée et proportionnée. Des règles spécifiques protègent notamment la création ou reprise d'entreprise.
+
+14\. Clause de non-concurrence excessive. Pour être valable, elle doit notamment être limitée dans le temps et l'espace, protéger un intérêt légitime de l'entreprise, tenir compte du poste et comporter une contrepartie financière.
+
+15\. Clause de dédit-formation disproportionnée. L'employeur ne peut pas simplement exiger le remboursement de toute formation suivie. La clause est soumise à des conditions précises, notamment sur les frais effectivement engagés.
+
+Réflexe : conserver l'offre, le contrat signé, ses annexes, la convention collective applicable, les échanges de recrutement et les avenants.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++5
+
+
+
+## 3. Poste occupé, compétences, responsabilités et classification
+
+C'est un domaine particulièrement propice aux abus discrets.
+
+1\. Être embauché comme exécutant et exercer des responsabilités de cadre. La classification conventionnelle dépend des fonctions réellement exercées et des critères applicables, pas seulement du titre inscrit au contrat.
+
+2\. Promotion sans changement de classification. Encadrement, autonomie, décision, expertise technique, gestion budgétaire : vérifier si les nouvelles missions correspondent à un coefficient supérieur.
+
+3\. Fonctions de management sans autorité réelle. Un salarié peut être tenu responsable d'objectifs sans disposer des moyens, pouvoirs ou informations nécessaires. Documenter précisément la répartition des responsabilités.
+
+4\. Modification de qualification imposée. Passer de technicien à manutentionnaire ou retirer des responsabilités essentielles peut constituer une modification du contrat nécessitant l'accord du salarié.
+
+5\. Confondre changement de tâches et modification du contrat. L'employeur peut normalement confier de nouvelles tâches correspondant à la qualification du salarié. Refuser systématiquement peut exposer à une sanction. Il faut examiner le changement réel, pas uniquement la fiche de poste.
+
+6\. Déclassement déguisé. Retrait d'équipe, d'autonomie, de responsabilités ou de moyens avec maintien du salaire. Une rémunération inchangée ne suffit pas à rendre la modification licite.
+
+7\. Responsabilités techniques sans habilitation. Confier des opérations électriques, de conduite d'équipements, de levage ou d'autres travaux réglementés sans formation ou autorisation adaptée peut engager la responsabilité de l'employeur et exposer le salarié.
+
+8\. Travaux dangereux sans formation. Une signature sur une feuille de présence ne démontre pas nécessairement qu'une formation pratique suffisante a été dispensée.
+
+9\. Signature forcée de documents techniques. Rapports qualité, attestations de conformité, fiches de contrôle, maintenance, traçabilité : ne pas attester d'une vérification qui n'a pas été réalisée.
+
+10\. Délégation de pouvoirs fictive. Une délégation de responsabilité, notamment en santé-sécurité, suppose une autorité, une compétence et des moyens adaptés. Le document signé ne suffit pas à transférer automatiquement toute responsabilité.
+
+11\. Objectifs volontairement irréalistes. Des objectifs impossibles, modifiés tardivement ou dépendant d'autres services peuvent servir à préparer un dossier d'insuffisance professionnelle. Demander la formalisation des objectifs, des moyens et des dépendances.
+
+12\. Insuffisance professionnelle transformée en faute. Une difficulté à atteindre les objectifs ne constitue pas automatiquement une faute disciplinaire. La distinction peut modifier les droits du salarié.
+
+13\. Refus de moyens de travail. Logiciels, équipements, documentation, formation, accès nécessaires : signaler les obstacles par écrit, surtout si l'employeur reproche ensuite un retard ou une erreur.
+
+14\. Travail pour une autre société du groupe. Le fait que plusieurs sociétés aient le même dirigeant ne permet pas automatiquement de déplacer librement les salariés ou de mettre leur travail à disposition sans respecter les règles applicables.
+
+15\. Mutation imposée. Une mobilité dans le même secteur géographique peut relever du pouvoir de direction. Au-delà, l'accord peut être nécessaire, sauf clause ou dispositif valable. La situation familiale et le délai de prévenance peuvent également entrer en jeu.
+
+16\. Modification présentée comme acceptée par silence. Pour une modification contractuelle ordinaire, le silence ne vaut généralement pas acceptation. Exception importante : certaines modifications pour motif économique et certains accords de performance collective prévoient un délai de refus d'un mois.
+
+Réflexe : conserver une fiche de poste datée, les organigrammes successifs, les objectifs, les preuves de responsabilités effectives et les demandes de formation.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service-Public.fr
+
++4
+
+
+
+## 4. Temps de travail, horaires, pauses et repos
+
+### Les petits abus qui finissent par coûter cher
+
+1\. Travail demandé avant le pointage. Mise en route des machines, ouverture des logiciels, préparation de production, consignes : lorsque le salarié est effectivement à la disposition de l'employeur, ce temps peut relever du travail effectif.
+
+2\. Fermeture effectuée après dépointage. Nettoyage, caisse, rangement, contrôle de production ou sécurisation des locaux doivent être examinés au regard du temps de travail réel.
+
+3\. Relève de poste gratuite. Une transmission de consignes obligatoire, effectuée en restant à disposition de l'employeur, peut constituer du temps de travail.
+
+4\. Temps d'habillage ignoré. Lorsque la tenue est obligatoire et que le changement doit se faire sur le lieu de travail, une contrepartie est en principe prévue, sans que ce temps soit nécessairement qualifié de travail effectif.
+
+5\. Pause fictive. Une pause déduite de la paie alors que le salarié doit intervenir ou reste à la disposition de l'employeur peut être contestée.
+
+6\. Pause minimale non respectée. Au moins 20 minutes consécutives doivent être accordées dès que six heures de travail sont atteintes, sauf dispositions plus favorables.
+
+7\. Repos quotidien insuffisant. Le principe est de 11 heures consécutives entre deux journées de travail, sous réserve des dérogations applicables.
+
+8\. Repos hebdomadaire raccourci. En règle générale, il faut 24 heures de repos hebdomadaire auxquelles s'ajoutent 11 heures de repos quotidien, soit 35 heures consécutives.
+
+9\. Dépassement des durées maximales. En principe, 10 heures par jour, 48 heures sur une semaine et 44 heures hebdomadaires en moyenne sur 12 semaines. Des dérogations encadrées existent.
+
+10\. Travail le dimanche supposé payé double. Ce n'est pas une règle générale. Le droit au travail dominical, les majorations et compensations dépendent du secteur, du dispositif de dérogation et des accords applicables.
+
+11\. Astreinte déclarée comme repos libre. Une astreinte doit donner lieu à une contrepartie. Les interventions constituent du travail effectif. Si les contraintes sont particulièrement fortes, l'ensemble de certaines périodes d'astreinte peut même être requalifié.
+
+12\. Téléphone professionnel à surveiller en permanence. Un salarié ne doit pas être placé en disponibilité permanente déguisée, sans cadre d'astreinte ou de travail effectif approprié.
+
+13\. Trajets professionnels mal décomptés. Le trajet habituel domicile-travail n'est généralement pas du travail effectif. Un déplacement professionnel dépassant ce trajet normal peut ouvrir droit à une contrepartie ; les déplacements entre lieux de travail doivent être examinés séparément.
+
+14\. Horaires modifiés sans respecter le cadre applicable. Le pouvoir de modifier les horaires n'est pas illimité, notamment pour les salariés à temps partiel, le travail de nuit ou les horaires contractualisés.
+
+15\. Annualisation inventée après coup. L'employeur ne peut pas systématiquement effacer les heures supplémentaires d'une semaine au moyen d'une semaine moins chargée. Il faut un aménagement du temps de travail valablement mis en place.
+
+16\. Forfait jours utilisé pour supprimer tout contrôle. Le forfait jours exige notamment un cadre collectif valable et une convention individuelle écrite. La charge de travail, les repos et l'organisation du temps doivent être suivis.
+
+17\. Cadre considéré comme disponible 24 h/24. Le statut de cadre ne supprime pas automatiquement les règles de durée du travail. Le cadre dirigeant relève de conditions très restrictives.
+
+18\. Compteur d'heures modifié sans explication. Les logiciels de badgeage peuvent être erronés. Demander le détail des données brutes et des corrections.
+
+19\. Travail de nuit présenté comme un horaire banal. Il est soumis à des conditions particulières et à des contreparties ; le seul fait de percevoir un salaire mensuel ne neutralise pas ces protections.
+
+20\. Repos compensateur converti arbitrairement. Lorsqu'une heure supplémentaire ouvre droit à une majoration de 25 %, son remplacement intégral par du repos implique normalement 1 h 15 de repos équivalent, pas une heure.
+
+Les repères de base :
+
+# 35 h
+
+Durée légale hebdomadaire de référence
+
+# 11 h
+
+Repos quotidien de principe
+
+# 20 min
+
+Pause minimale pour 6 h de travail
+
+Réflexe : tenir son propre relevé quotidien avec horaires réels, pauses, tâches réalisées, consignes reçues et interventions hors horaires. Sauvegarder régulièrement les relevés de pointage et plannings.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++6
+
+
+
+## 5. Heures supplémentaires, temps partiel et rémunération
+
+1\. « Les heures supplémentaires n'ont pas été autorisées. » Cette formule ne suffit pas toujours à écarter leur paiement, notamment si l'employeur les connaissait, les a tacitement acceptées ou si elles étaient nécessaires au travail demandé.
+
+2\. Heures supplémentaires systématiquement refusées sur la paie. Au-delà de 35 heures, en l'absence d'aménagement valable, les heures supplémentaires sont en principe dues avec majoration ou repos équivalent.
+
+3\. Taux de majoration incorrect. En l'absence d'accord applicable : 25 % de la 36e à la 43e heure et 50 % au-delà. Un accord peut prévoir d'autres taux, avec un minimum de 10 %.
+
+4\. Rappel de salaire limité artificiellement aux trois derniers mois. L'action en paiement du salaire bénéficie en principe d'une prescription de trois ans, avec des règles spécifiques de calcul en cas de rupture.
+
+5\. Temps partiel utilisé comme temps plein variable. Le salarié peut subir de nombreuses heures complémentaires sans augmentation stable de son contrat. Les heures complémentaires sont plafonnées et majorées.
+
+6\. Heures complémentaires imposées à très court délai. Le salarié peut notamment les refuser lorsqu'il est prévenu moins de trois jours avant, dans les conditions prévues par les textes.
+
+7\. Temps partiel amené au niveau du temps plein. Le recours aux heures complémentaires ne doit pas porter la durée du travail au niveau de la durée légale ou conventionnelle d'un temps plein. Une requalification peut être envisageable.
+
+8\. Absence de contrat de travail à temps partiel écrit. Cela peut faire présumer un temps complet, avec possibilité pour l'employeur de combattre cette présomption dans des conditions strictes.
+
+9\. Salaire inférieur au minimum conventionnel. Comparer la classification réelle, les minima de branche et le SMIC. Il ne suffit pas que la rémunération dépasse le SMIC pour qu'elle soit conforme.
+
+10\. Prime présentée comme facultative. Une prime prévue par le contrat, un accord, un engagement unilatéral ou un usage peut être obligatoire.
+
+11\. Prime variable fondée sur des objectifs inconnus. Demander les critères, les résultats et les calculs. Certains objectifs doivent être définis dans des conditions permettant leur contrôle.
+
+12\. Retenue pour casse, erreur de caisse ou production défectueuse. Les sanctions pécuniaires sont interdites. L'employeur ne peut pas systématiquement faire supporter ses pertes d'exploitation au salarié.
+
+13\. Frais professionnels déduits du salaire. Les dépenses engagées pour les besoins de l'activité professionnelle doivent en principe être supportées par l'employeur, selon les règles de remboursement applicables.
+
+14\. Avantages en nature mal évalués. Véhicule, logement, repas : vérifier les évaluations et leur incidence sur les cotisations et la rémunération.
+
+15\. Indemnités de déplacement confondues avec le salaire. Une indemnité destinée à rembourser des frais ne remplace pas automatiquement une rémunération légalement due.
+
+16\. Écart salarial injustifié. Comparer les salariés placés dans une situation comparable et les raisons objectives avancées pour les différences.
+
+17\. Retards de paiement récurrents. Un salarié mensualisé doit en principe être payé mensuellement. Des retards répétés peuvent justifier des démarches judiciaires.
+
+18\. Fiche de paie opaque ou erronée. Examiner le brut, les heures, les majorations, la classification, les absences, les cotisations et les congés.
+
+19\. Travail dissimulé par minoration volontaire des heures. Lorsque la dissimulation intentionnelle est démontrée, les conséquences peuvent dépasser le simple rappel des salaires.
+
+Réflexe : comparer chaque bulletin avec un relevé personnel des heures et avec le minimum conventionnel correspondant au véritable poste.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service-Public.fr
+
++4
+
+
+
+## 6. Congés payés, RTT, jours fériés et absences
+
+1\. Congés décomptés en jours ouvrables plutôt qu'ouvrés. C'est possible, mais les calculs doivent être cohérents. Les 30 jours ouvrables annuels correspondent généralement à cinq semaines.
+
+2\. Congés déduits pendant une période qui n'aurait pas dû l'être. Vérifier le traitement des jours fériés chômés, absences légalement assimilées et situations particulières.
+
+3\. Demande de congés laissée sans réponse. L'absence de réponse ne vaut pas automatiquement validation dans toutes les situations. Conserver la preuve des dates communiquées et vérifier les règles applicables avant de partir.
+
+4\. Modification des congés à la dernière minute. Sauf circonstances exceptionnelles, l'employeur ne peut pas modifier les dates accordées moins d'un mois avant le départ.
+
+5\. Congés perdus alors que l'employeur empêchait leur prise. La perte automatique de jours n'est pas nécessairement opposable si l'employeur n'a pas permis au salarié d'exercer effectivement son droit à congé.
+
+6\. Congés imposés sans préavis approprié. Une fermeture annuelle peut permettre d'imposer des dates, mais les règles d'information et de consultation doivent être respectées.
+
+7\. Maladie pendant les congés. Un arrêt maladie peut permettre de reporter les jours de congés coïncidents. Il faut déclarer l'arrêt dans les conditions requises.
+
+8\. Congés non acquis pendant un arrêt maladie. Depuis la réforme de 2024, un arrêt maladie non professionnel permet en principe d'acquérir deux jours ouvrables de congés par mois, dans la limite de 24 jours ouvrables par période de référence ; l'arrêt d'origine professionnelle relève de règles plus favorables.
+
+9\. Report de congés après maladie ignoré. Le report légal est normalement de 15 mois, mais son point de départ varie selon la situation. Après reprise, l'employeur doit informer le salarié de ses droits dans le mois.
+
+10\. Indemnité de congés calculée au moins favorable. Il faut comparer les méthodes du maintien de salaire et du dixième, puis retenir le montant applicable le plus favorable au salarié.
+
+11\. Jours de fractionnement oubliés. Sous certaines conditions, la prise de congés en dehors de la période principale peut ouvrir droit à des jours supplémentaires.
+
+12\. RTT et jours de repos de forfait jours confondus. Les dispositifs n'obéissent pas exactement aux mêmes règles. Examiner l'accord collectif avant d'accepter l'annulation de jours.
+
+13\. 1er mai traité comme un jour férié ordinaire. Son régime est spécifique. Lorsque le travail est légalement autorisé ce jour-là, il ouvre droit au doublement de la rémunération correspondante.
+
+14\. Congés validés avant un préavis. Des congés fixés avant la notification d'une rupture peuvent reporter la fin du préavis. Ceux convenus après n'ont pas nécessairement cet effet.
+
+15\. Congés pour événements familiaux refusés. Mariage, PACS, naissance, décès d'un proche : vérifier les droits légaux et conventionnels, les justificatifs et les conditions de prise.
+
+16\. Congés parentaux ou liés à la maternité traités comme des absences injustifiées. Ces congés comportent des protections particulières contre les mesures défavorables.
+
+Réflexe : sauvegarder régulièrement le compteur de congés, les validations de dates, les arrêts maladie et les notifications de report.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service-Public.fr
+
++5
+
+
+
+## 7. Accidents du travail, maladies, inaptitude et sécurité
+
+C'est une des parties les plus importantes : une mauvaise déclaration initiale peut avoir des conséquences sur les indemnités, la protection de l'emploi et les séquelles reconnues.
+
+### Accident du travail
+
+1\. Accident présenté comme un accident domestique. Un accident survenu par le fait ou à l'occasion du travail peut relever du régime des accidents du travail. Ne pas accepter sans examen une qualification différente.
+
+2\. Pression pour ne pas déclarer un accident. Certains employeurs peuvent être tentés de limiter leur sinistralité. Le salarié doit signaler l'accident rapidement et conserver une preuve écrite.
+
+3\. Accident minimisé parce qu'il n'y a pas d'arrêt de travail. Un accident peut devoir être déclaré même sans arrêt. Les séquelles peuvent apparaître ultérieurement.
+
+4\. Déclaration contenant une version inexacte. Vérifier le lieu, l'heure, les circonstances, les témoins et la nature de l'événement. En cas de désaccord, transmettre sa propre description à la CPAM.
+
+5\. Employeur qui refuse de déclarer. Le salarié peut déclarer lui-même l'accident à la CPAM ou à la MSA dans les deux ans.
+
+6\. Réserves patronales prises pour un refus définitif. L'employeur peut émettre des réserves motivées. C'est l'organisme de sécurité sociale qui statue sur la reconnaissance, selon la procédure applicable.
+
+7\. Absence de certificat médical initial. Faire constater rapidement les lésions et expliquer au médecin les circonstances professionnelles. Ce document peut être déterminant.
+
+8\. Accident de trajet mal identifié. Un accident sur le trajet protégé entre domicile et travail peut être reconnu, mais sa qualification et ses conséquences ne sont pas identiques à celles d'un accident du travail.
+
+9\. Reprise trop précoce imposée. Une pression de l'employeur ne remplace ni l'évaluation médicale ni les règles relatives aux arrêts de travail.
+
+10\. Consolidation médicale mal comprise. La consolidation ne signifie pas nécessairement guérison. Elle correspond à une stabilisation permettant notamment d'évaluer les éventuelles séquelles.
+
+11\. Taux d'incapacité permanente contestable. Une décision de la caisse peut être contestée selon une procédure spécifique et des délais indiqués dans sa notification.
+
+12\. Faute inexcusable non examinée. Si l'employeur avait ou aurait dû avoir conscience du danger et n'a pas pris les mesures nécessaires, une action spécifique peut être envisageable, avec des règles particulières de prescription.
+
+### Prévention et santé au travail
+
+13\. Absence de DUERP ou risques sous-évalués. L'employeur doit évaluer les risques professionnels et établir le document unique. Les salariés et leurs représentants disposent de droits d'accès encadrés.
+
+14\. Consignes de sécurité uniquement orales. Demander la formation, les procédures et les instructions correspondant aux risques du poste.
+
+15\. Équipement de protection absent ou inadapté. Gants, lunettes, protections respiratoires, chaussures, protections auditives : l'employeur doit fournir les équipements nécessaires et en assurer l'adaptation.
+
+16\. Travail dangereux demandé malgré un risque grave et imminent. Un salarié qui a un motif raisonnable de penser qu'une situation présente un tel danger peut exercer son droit d'alerte et de retrait. Le retrait doit être exercé dans les conditions légales.
+
+17\. Blessure ou maladie attribuée uniquement à une fragilité personnelle. La présence d'antécédents médicaux ne suffit pas nécessairement à exclure un lien avec le travail. L'analyse doit porter sur les circonstances et les preuves médicales.
+
+18\. Visite d'embauche oubliée. La visite d'information et de prévention a généralement lieu dans les trois mois suivant l'embauche, avec des modalités particulières pour certains postes à risques.
+
+19\. Visite de reprise oubliée. En principe, elle est notamment requise après 60 jours d'arrêt pour maladie ou accident non professionnel, 30 jours pour accident du travail, après une maladie professionnelle ou après un congé maternité. Elle doit avoir lieu dans les huit jours suivant la reprise. Une exception existe depuis juin 2026 lorsque certaines conditions de pré-reprise sont remplies.
+
+20\. Recommandations du médecin du travail ignorées. Aménagements de poste, restrictions de manutention ou horaires adaptés doivent être examinés. L'employeur qui refuse une préconisation doit en justifier les raisons par écrit.
+
+21\. Inaptitude confondue avec invalidité. L'inaptitude au poste est appréciée par le médecin du travail ; l'invalidité relève de la sécurité sociale. Elles n'ont pas les mêmes conséquences.
+
+22\. Avis d'inaptitude contesté trop tard. Le délai de contestation des éléments médicaux visés par la procédure est normalement de 15 jours après notification devant le conseil de prud'hommes.
+
+23\. Reclassement fictif. En cas d'inaptitude, l'employeur doit, sauf dispense légale, rechercher les possibilités de reclassement adaptées avant un licenciement.
+
+24\. Aucune décision après une déclaration d'inaptitude. En principe, si le salarié n'est ni reclassé ni licencié un mois après l'examen ayant constaté l'inaptitude, l'employeur doit reprendre le versement du salaire, sous les règles applicables.
+
+Réflexe en cas d'accident : prévenir immédiatement l'employeur par écrit, identifier les témoins, faire établir le certificat médical initial, demander copie des documents et suivre personnellement le dossier CPAM.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++6
+
+
+
+## 8. Harcèlement, discrimination, management et représentation des salariés
+
+1\. Humiliations répétées présentées comme du management exigeant. Des comportements répétés dégradant les conditions de travail peuvent constituer du harcèlement moral, même sans intention de nuire.
+
+2\. Isolement professionnel. Retirer toutes les missions, supprimer les accès, exclure systématiquement des réunions ou empêcher les échanges peut participer à une situation de harcèlement.
+
+3\. Surcharge volontaire ou objectifs contradictoires. Une organisation du travail ayant pour effet de dégrader les conditions de travail peut engager la responsabilité de l'employeur.
+
+4\. Harcèlement qualifié de simple conflit personnel. La qualification juridique dépend des faits et de leurs effets, pas uniquement des mots employés par les RH.
+
+5\. Enquête interne utilisée comme unique preuve d'innocence. Une enquête conduite par l'employeur n'empêche pas le salarié de contester les conclusions ou de produire ses propres éléments.
+
+6\. Sanction après signalement de bonne foi. Le signalement de faits susceptibles de constituer un harcèlement bénéficie de protections contre les représailles, selon les conditions prévues par la loi.
+
+7\. Discrimination masquée par une décision de gestion. Refus de promotion, différence de salaire, mutation ou licenciement liés à un motif prohibé peuvent être contestés.
+
+8\. Témoins découragés de parler. Des attestations de témoins, rédigées sur des faits personnellement constatés, peuvent être déterminantes.
+
+9\. Évaluation professionnelle utilisée comme sanction déguisée. Une notation soudainement dégradée après un signalement, un mandat ou une demande légitime mérite une analyse documentée.
+
+10\. CSE non mis en place. L'obligation existe lorsque l'entreprise atteint au moins 11 salariés pendant 12 mois consécutifs.
+
+11\. Élections professionnelles entravées. Pressions sur les candidats, informations insuffisantes ou irrégularités de scrutin peuvent être contestées dans des délais spécifiques, parfois très courts.
+
+12\. Représentant du personnel empêché d'exercer ses missions. Les élus disposent de moyens et de protections prévus par les textes. L'entrave à leur fonctionnement peut constituer une infraction.
+
+13\. Licenciement d'un salarié protégé sans autorisation. La rupture du contrat de certains représentants nécessite une autorisation de l'inspection du travail. Les recours suivent des règles particulières.
+
+14\. Accord collectif présenté comme incontestable. Un accord d'entreprise ne peut pas tout prévoir. Il faut contrôler son champ d'application et les règles impératives auxquelles il ne peut déroger.
+
+15\. Absence de règlement intérieur ou règlement irrégulier. Il est obligatoire à partir du seuil légal de 50 salariés, sous les conditions applicables. Sa mise en place suppose notamment certaines formalités.
+
+16\. Droit syndical présenté comme une faute. L'adhésion à un syndicat, l'activité syndicale et l'exercice régulier de mandats sont protégés.
+
+17\. Droit de grève dénaturé. Dans le secteur privé, une grève répondant aux conditions légales bénéficie de protections. Une retenue proportionnelle au temps non travaillé est possible, mais une sanction en raison du seul exercice régulier du droit de grève ne l'est pas.
+
+18\. Défaut d'entretien de parcours professionnel. En 2026, l'entretien de parcours professionnel remplace l'ancien entretien professionnel, avec notamment une périodicité de quatre ans et des règles transitoires à vérifier.
+
+Réflexe : constituer une chronologie avec dates, auteurs, témoins, documents, conséquences professionnelles et éventuels éléments médicaux. Pour le harcèlement, l'ensemble des indices est souvent plus utile qu'un événement isolé.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++5
+
+
+
+## 9. Sanctions disciplinaires et dossiers montés contre un salarié
+
+1\. Avertissement portant sur des faits anciens. L'employeur dispose normalement de deux mois après la connaissance des faits pour engager des poursuites disciplinaires, sous réserve des exceptions.
+
+2\. Même faute sanctionnée deux fois. L'employeur ne peut en principe pas prononcer deux sanctions successives pour les mêmes faits déjà sanctionnés.
+
+3\. Sanction pécuniaire déguisée. Les amendes et autres sanctions pécuniaires sont interdites. Une retenue de salaire correspondant à une mise à pied disciplinaire régulière obéit à un autre régime.
+
+4\. Mise à pied conservatoire présentée comme une sanction définitive. Elle vise à écarter temporairement le salarié pendant une procédure. Il faut la distinguer d'une mise à pied disciplinaire.
+
+5\. Entretien disciplinaire sans possibilité d'assistance. Pour les sanctions nécessitant un entretien, le salarié doit notamment pouvoir se faire assister dans les conditions prévues.
+
+6\. Sanction notifiée hors délai. Lorsqu'un entretien disciplinaire est requis, la sanction doit normalement être notifiée au moins deux jours ouvrables et au plus un mois après l'entretien.
+
+7\. Courriel de reproche présenté comme anodin. Un écrit formulant un reproche et exprimant une volonté de sanctionner peut parfois être qualifié de sanction disciplinaire, indépendamment de son titre.
+
+8\. Absence d'avertissements utilisée comme argument trompeur. L'employeur n'est pas obligé de prononcer trois avertissements avant un licenciement. Inversement, une faute grave doit réellement présenter le niveau de gravité requis.
+
+9\. Convocation vague et dossier découvert trop tard. Le salarié doit pouvoir préparer sa défense et bénéficier des garanties procédurales applicables.
+
+10\. Compte rendu d'entretien rédigé uniquement par l'employeur. Faire parvenir rapidement sa propre version datée si les propos retranscrits sont inexacts.
+
+11\. Signature forcée d'un document disciplinaire. Signer un accusé de réception ne signifie pas nécessairement approuver les faits. Il est possible de distinguer la remise du document de l'acceptation de son contenu.
+
+12\. Anciennes sanctions ressorties indéfiniment. Une sanction antérieure de plus de trois ans ne peut pas, en principe, être invoquée à l'appui d'une nouvelle sanction.
+
+Réflexe : conserver les convocations, avertissements, dates de réception, éventuelles demandes de précisions et comptes rendus. Ne jamais rédiger une reconnaissance de faute sous pression.
+
+Source :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++2
+
+
+
+## 10. Démission, licenciement, rupture conventionnelle et fin de contrat
+
+### Les pièges les plus coûteux
+
+1\. Démission rédigée par l'employeur. Une démission doit correspondre à une volonté claire et non équivoque du salarié. Une démission extorquée sous pression peut être contestée.
+
+2\. Démission sous le coup de la colère. Une rétractation rapide peut parfois être prise en compte si les circonstances montrent une volonté équivoque. Il n'existe toutefois pas de droit général de rétractation.
+
+3\. Abandon de poste pour obtenir un licenciement. Depuis le dispositif de présomption de démission, un abandon volontaire peut conduire à une présomption de démission après mise en demeure et expiration d'un délai d'au moins 15 jours calendaires. C'est particulièrement risqué pour les droits au chômage.
+
+4\. Prise d'acte utilisée sans dossier solide. La prise d'acte rompt immédiatement le contrat, mais le juge apprécie ensuite les manquements. Si ceux-ci ne justifient pas la rupture, les conséquences peuvent être celles d'une démission.
+
+5\. Rupture conventionnelle présentée comme obligatoire. L'accord doit être libre. L'employeur ne peut pas imposer une rupture conventionnelle.
+
+6\. Rupture conventionnelle signée sans exemplaire. Le salarié doit recevoir un exemplaire signé de la convention. Son absence peut avoir des conséquences importantes sur la validité de la procédure.
+
+7\. Indemnité de rupture sous-évaluée. Comparer le minimum légal, les dispositions conventionnelles applicables, l'ancienneté et les éléments de rémunération retenus.
+
+8\. Licenciement verbal. Un licenciement doit être notifié conformément aux règles applicables. Un renvoi annoncé oralement ne vaut pas nécessairement rupture régulière.
+
+9\. Entretien préalable organisé trop tôt. En matière de licenciement personnel, le délai de principe est de cinq jours ouvrables entre la présentation ou remise de la convocation et l'entretien.
+
+10\. Convocation sans mention de l'assistance possible. Le salarié peut se faire assister, selon les situations, par une personne de l'entreprise ou par un conseiller du salarié.
+
+11\. Lettre de licenciement imprécise. Le salarié peut demander des précisions sur les motifs dans les 15 jours suivant la notification. Ne pas attendre que le délai expire.
+
+12\. Faute grave prononcée pour économiser le préavis. Une faute grave doit rendre impossible le maintien du salarié pendant le préavis. La qualification peut être contestée.
+
+13\. Ancienneté mal calculée. Certains contrats antérieurs, transferts, absences ou autres situations peuvent affecter le calcul. Vérifier les dates avant de valider les indemnités.
+
+14\. Indemnité calculée sur un salaire de référence erroné. Primes, rémunération variable, périodes d'arrêt maladie et autres événements peuvent modifier le calcul.
+
+15\. Reçu pour solde de tout compte signé immédiatement. Le salarié n'est pas obligé de le signer pour percevoir les sommes dues. Une signature peut réduire à six mois le délai de dénonciation des sommes précisément mentionnées.
+
+16\. Documents de fin de contrat non remis. Certificat de travail, attestation destinée à France Travail, solde de tout compte et informations relatives aux dispositifs d'épargne salariale doivent être vérifiés. Des démarches sont possibles en cas de manquement.
+
+17\. Clause de non-concurrence appliquée sans contrepartie. L'employeur ne peut pas bénéficier d'une interdiction de concurrence valable tout en refusant la compensation financière correspondante.
+
+18\. Indemnité de fin de CDD oubliée. L'indemnité de précarité est souvent de 10 % du brut total, mais des exceptions existent selon la nature ou les conditions de fin du contrat, ainsi qu'un taux conventionnel possible de 6 % sous conditions.
+
+19\. Licenciement économique présenté comme une simple formalité. Motif économique, recherche de reclassement, ordre des licenciements et procédures collectives peuvent être contestés selon le cas.
+
+20\. CSP accepté sans comprendre ses conséquences. Le contrat de sécurisation professionnelle comporte notamment un délai de réflexion de 21 jours, avec des effets particuliers sur la rupture, le préavis et l'indemnisation.
+
+21\. Priorité de réembauche oubliée. Après un licenciement économique, le salarié peut bénéficier d'une priorité de réembauche pendant un an à compter de la rupture, à condition d'en faire la demande selon les règles prévues.
+
+22\. Faillite utilisée pour justifier l'absence de paiement. En cas de procédure collective, certains salaires et indemnités peuvent relever de la garantie AGS, dans ses limites. Il faut identifier le mandataire compétent et contrôler les créances déclarées.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++7
+
+
+
+## 11. Surveillance, données personnelles et preuves numériques
+
+1\. Caméras utilisées pour surveiller constamment les salariés. La vidéosurveillance doit poursuivre une finalité légitime et respecter la proportionnalité. Une surveillance permanente est en général excessive.
+
+2\. Caméras ou badgeuses installées sans information. Les salariés doivent être informés des dispositifs et de leurs finalités. Le CSE doit être consulté dans les cas prévus.
+
+3\. Géolocalisation permanente. Le GPS d'un véhicule professionnel ne peut pas être utilisé pour surveiller librement tous les déplacements, notamment hors temps de travail.
+
+4\. Captures d'écran ou enregistrement des frappes en continu. Un contrôle numérique trop intrusif peut violer le RGPD et le droit au respect de la vie privée.
+
+5\. Accès arbitraire aux fichiers personnels. Les fichiers et messages identifiés comme personnels bénéficient de protections spécifiques. Il faut distinguer ceux-ci des documents professionnels.
+
+6\. Consultation excessive de données médicales. L'employeur ne peut pas exiger librement l'accès au dossier médical ou à un diagnostic. Les informations transmises sont encadrées.
+
+7\. Dossier RH caché. Le salarié peut exercer un droit d'accès à ses données personnelles, notamment certaines données d'évaluation, de gestion et de contrôle.
+
+8\. Éléments favorables supprimés avant une procédure. Demander rapidement les données pertinentes : relevés de badgeage, historique des objectifs, courriels accessibles ou documents dont la conservation est licite.
+
+9\. Preuves enregistrées clandestinement. Une preuve obtenue de façon déloyale n'est plus nécessairement exclue dans tous les cas d'un procès civil. Le juge examine notamment sa nécessité et sa proportionnalité. Cela n'autorise pas une collecte indiscriminée.
+
+10\. Sauvegarde massive de fichiers confidentiels avant un départ. Un salarié qui prépare sa défense doit rester prudent : copier une base clients entière, des secrets industriels ou des données de tiers sans nécessité peut se retourner contre lui.
+
+Réflexe : exercer ses droits d'accès aux données pertinentes et conserver uniquement les éléments nécessaires à sa défense, sans diffuser d'informations confidentielles.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://cnil.fr\&sz=32)
+
+CNIL
+
++3
+
+
+
+## 12. Comment défendre concrètement ses droits
+
+Le choix du recours dépend de la nature du problème. Tous les organismes ne disposent pas des mêmes compétences.
+
+| Interlocuteur               | Quand le saisir                                                                       |
+| --------------------------- | ------------------------------------------------------------------------------------- |
+| Employeur / RH              | Rectification de paie, horaires, classification, demande d'explication                |
+| CSE / représentant syndical | Conditions de travail, droits collectifs, sécurité, harcèlement, difficultés internes |
+| Inspection du travail       | Durée du travail, santé-sécurité, réglementation, entrave à la représentation         |
+| Médecine du travail         | Santé professionnelle, restrictions, prévention, maintien dans l'emploi               |
+| CPAM / MSA                  | Accident du travail, maladie professionnelle, reconnaissance et indemnisation         |
+| Défenseur des droits        | Discrimination et situations relevant de ses compétences                              |
+| CNIL                        | Surveillance, données de badgeage, dossier RH, traitement de données personnelles     |
+| Conseil de prud'hommes      | Litige individuel lié au contrat, salaire, sanction, licenciement                     |
+| Avocat / défenseur syndical | Stratégie de défense, procédure, négociation, représentation                          |
+
+L'inspection du travail ne remplace pas le conseil de prud'hommes : elle ne peut pas, à elle seule, condamner un employeur à payer un rappel de salaire dans un litige individuel.
+
+### Les erreurs de défense à éviter
+
+1\. Se plaindre uniquement à l'oral. Une contestation verbale est difficile à démontrer. Un courriel factuel, daté et précis sera généralement plus utile.
+
+2\. Employer immédiatement des accusations pénales. Écrire « vous avez commis un délit » sans éléments suffisamment établis peut détourner l'attention du problème. Décrire d'abord les faits vérifiables.
+
+3\. Attendre une réponse de l'employeur jusqu'à l'expiration du délai judiciaire. Les échanges amiables ne garantissent pas l'interruption ou la suspension des délais.
+
+4\. Refuser brutalement une consigne. Avant de refuser, déterminer si elle relève du pouvoir normal de direction, d'une modification contractuelle, d'une restriction médicale ou d'un danger justifiant un retrait.
+
+5\. Publier les accusations sur les réseaux sociaux. Cela risque de créer un second litige concernant la confidentialité, la réputation ou les obligations professionnelles.
+
+6\. Rédiger un compte rendu de mémoire plusieurs semaines après. Établir la chronologie dès que possible, puis la compléter à partir de documents et de témoignages.
+
+7\. Modifier ou antidater des preuves. Ne jamais retoucher un courriel, un document de pointage ou un compte rendu pour améliorer son dossier.
+
+8\. Accepter une transaction sans en comprendre la portée. Un accord transactionnel peut comporter des concessions définitives. Faire examiner ses effets et la régularité de sa conclusion avant signature.
+
+9\. Se tromper de juridiction. Prud'hommes, tribunal judiciaire, pôle social, juridiction administrative ou pénale : le bon recours dépend de la décision et du droit contestés.
+
+10\. Confondre demande amiable et saisine officielle. Seule une démarche ayant l'effet juridique requis protège effectivement contre l'expiration du délai concerné.
+
+## 13. Les documents à conserver systématiquement
+
+Checklist personnelle
+
+0/7 catégories conservées
+
+À l'embauche
+
+Offre d'emploi, contrat signé, annexes, fiche de poste et convention collective
+
+Chaque mois
+
+Bulletins de paie, plannings, heures réelles, badgeages et compteur de congés
+
+À chaque changement
+
+Avenants, nouvelles responsabilités, organigramme, objectifs et changements d'horaires
+
+À chaque incident
+
+Courriels, consignes écrites, chronologie des faits et identité des témoins
+
+En cas d'arrêt ou d'accident
+
+Certificats, déclarations, courriers CPAM et avis du médecin du travail
+
+En cas de procédure
+
+Convocation, courrier de sanction, notification, preuves de réception et échéances
+
+À la fin du contrat
+
+Lettre de rupture, reçus, indemnités, certificat de travail et attestation France Travail
+
+&#x20;Copier la checklist
+
+Conserver ces documents dans un espace personnel sécurisé, sans transfert massif de données confidentielles de l'entreprise. Les bulletins de salaire sont à conserver sans limitation pratique de durée, notamment pour la retraite.
+
+## 14. Que faire dans les premières 24 à 48 heures d'un conflit ?
+
+Voici un protocole simple pour éviter de compromettre ses droits.
+
+1. Sécuriser les faits
+
+   Établir une chronologie datée et conserver les documents pertinents dans leur format d'origine.
+2. Identifier l'urgence
+
+   Vérifier immédiatement s'il s'agit d'un accident du travail, d'un avis médical à contester, d'un délai de rétractation, d'une procédure disciplinaire ou d'une notification de rupture.
+3. Contester factuellement par écrit
+
+   Expliquer précisément ce qui est incorrect, fournir les éléments nécessaires et demander une rectification ou une justification écrite.
+4. Choisir le bon interlocuteur
+
+   Contacter le CSE, l'inspection du travail, la médecine du travail, un défenseur syndical ou un avocat selon le problème.
+5. Préserver les délais judiciaires
+
+   Si une prescription ou une échéance approche, ne pas attendre la fin des négociations pour examiner la saisine de la juridiction compétente.
+
+## 15. Les dix pièges auxquels je donnerais la priorité
+
+Ce classement est une priorisation pratique des risques pour un salarié, et non un classement statistique des plaintes les plus fréquentes en France.
+
+| Priorité | Piège                                              | Pourquoi il est particulièrement dangereux                         |
+| -------- | -------------------------------------------------- | ------------------------------------------------------------------ |
+| 1        | Signature d'une démission ou rupture sous pression | Peut modifier radicalement les droits à indemnisation              |
+| 2        | Délais de contestation dépassés                    | Peut empêcher d'obtenir réparation malgré un dossier solide        |
+| 3        | Accident du travail non déclaré ou mal décrit      | Peut compromettre la reconnaissance et le traitement des séquelles |
+| 4        | Heures supplémentaires jamais tracées              | Préjudice financier difficile à chiffrer rétrospectivement         |
+| 5        | Classification inférieure aux fonctions réelles    | Minima de salaire et droits conventionnels potentiellement réduits |
+| 6        | Inaptitude ou restrictions médicales mal gérées    | Risques pour la santé et la continuité de l'emploi                 |
+| 7        | Harcèlement sans chronologie ni preuves            | Complexifie l'établissement des faits                              |
+| 8        | Solde de tout compte signé sans vérification       | Réduit le délai de contestation de certaines sommes                |
+| 9        | Accord collectif ou avenant accepté sans analyse   | Peut modifier durablement les conditions de travail                |
+| 10       | Absence de sauvegarde des documents                | Rend de nombreuses contestations plus difficiles                   |
+
+Enfin, un point juridique souvent méconnu : une pratique illégale ne donne pas automatiquement droit à une indemnisation forfaitaire. Selon le manquement, il faudra obtenir un rappel de salaire, démontrer un préjudice, demander l'annulation d'une mesure ou faire reconnaître une irrégularité. Certaines violations sont sanctionnées indépendamment de la démonstration d'un préjudice individuel, mais pas toutes.
+
+Pour vérifier une situation réelle, les références les plus utiles sont le [Code du travail numérique](https://code.travail.gouv.fr/?utm_source=chatgpt.com), [Légifrance](https://www.legifrance.gouv.fr/?utm_source=chatgpt.com) pour les textes et conventions collectives, et [Service-Public](https://www.service-public.fr/?utm_source=chatgpt.com) pour les démarches et délais.
+
+Le réflexe le plus protecteur reste de documenter immédiatement les faits, vérifier le bon fondement juridique et inscrire chaque échéance de recours dans un calendrier, plutôt que de compter sur une résolution amiable pour préserver ses droits.

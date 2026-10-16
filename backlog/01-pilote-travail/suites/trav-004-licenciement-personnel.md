@@ -70,3 +70,14 @@ Aucun envoi, dépôt, signature ni décision irréversible implicite.
 Proposition issue de PILOTE-001, le 15 octobre 2026. Implémentation et recette
 restent à réaliser après PILOTE-003 ; les dépendances n'annoncent aucune
 fonctionnalité adaptée déjà disponible.
+
+## Complément des frictions travail — 16 octobre 2026
+
+**Notification, assistance et motifs.** Points 3.12, 9.08 et 10.08–12 : conserver annonce orale, présentation/remise de convocation, entretien, assistance, lettre, précision des motifs et réception. Distinguer insuffisance et faute, qualification grave et préavis ; aucune règle de trois avertissements. Cas ajouté : annonce orale suivie d’une lettre imprécise, dates de présentation et réception divergentes : contradiction conservée et demande de précision à examiner en urgence. TRAV-044 garde sanctions hors licenciement ; TRAV-046 la rupture protégée et ses actes administratifs ; TRAV-051 les sommes. Pas de calcul global d’indemnisation ni de verdict de validité.
+
+Rattachement complet : [matrice des frictions](../pilote-001-annexes/pilote-001-frictions-utilisateurs.md).
+Les critères restent non cochés. Pour ces ajouts, appliquer BASE-013 : phrase
+finale nommant le professionnel compétent et renfort en tête si urgence ou
+procédure ; sources, paquet détaché, client et compréhension à vérifier selon
+BASE-005/006. Portée de l’intégration et lectures préliminaires :
+[vérification](../pilote-001-annexes/pilote-001-frictions-verification.md).

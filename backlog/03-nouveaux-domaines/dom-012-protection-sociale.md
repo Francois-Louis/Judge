@@ -171,3 +171,15 @@ Scénarios supplémentaires **attendus, non exécutés** : demande CPAM tardive 
 Sources à ouvrir lors de l’implémentation : CSS, textes France Travail/CAF/MSA et régime AT/MP, sources des organismes ; conditions et échéances propres, sans prestation commune inventée.
 
 Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).
+
+## Complément des frictions travail — 16 octobre 2026
+
+La [fiche de relais](dom-012-annexes/dom-012-frictions-travail.md), issue des
+[182 frictions travail](../01-pilote-travail/pilote-001-annexes/pilote-001-frictions-utilisateurs.md),
+précise les tâches candidates de déclaration/instruction/reconnaissance AT/MP,
+consolidation, incapacité, faute inexcusable, invalidité et indemnisation choisie,
+y compris chômage après départ/CSP. Ces tâches restent à découper ; la première
+tranche de lecture d’un indu reste inchangée. TRAV-040 garde le signalement à
+l’employeur, TRAV-041/042 les visites et effets professionnels. Délais et voies
+sociales propres à l’acte ne sont pas remplacés par la procédure prud’homale.
+Scénarios et limites : voir la fiche et la vérification travail liée.

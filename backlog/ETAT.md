@@ -9,10 +9,10 @@
 | Bloquée | 0 |
 | Terminée | 41 |
 | Prête | 0 |
-| À faire | 526 |
+| À faire | 566 |
 | Abandonnée | 23 |
 | dont prêtes à démarrer | 145 |
-| Total | 592 |
+| Total | 632 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -202,7 +202,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 ### 01 — Pilote travail
 
 - [PILOTE-001](01-pilote-travail/pilote-001-inventaire-travail.md) — Inventorier le plugin travail et découper son adaptation
-  <br>Annexes : [pilote-001-decoupage-travail.md](01-pilote-travail/pilote-001-annexes/pilote-001-decoupage-travail.md) · [pilote-001-plan-hiring-review.md](01-pilote-travail/pilote-001-annexes/pilote-001-plan-hiring-review.md) · [pilote-001-releve-inventaire.md](01-pilote-travail/pilote-001-annexes/pilote-001-releve-inventaire.md) · [pilote-001-resultats.json](01-pilote-travail/pilote-001-annexes/pilote-001-resultats.json)
+  <br>Annexes : [pilote-001-decoupage-travail.md](01-pilote-travail/pilote-001-annexes/pilote-001-decoupage-travail.md) · [pilote-001-frictions-resultats.json](01-pilote-travail/pilote-001-annexes/pilote-001-frictions-resultats.json) · [pilote-001-frictions-utilisateurs.md](01-pilote-travail/pilote-001-annexes/pilote-001-frictions-utilisateurs.md) · [pilote-001-frictions-verification.md](01-pilote-travail/pilote-001-annexes/pilote-001-frictions-verification.md) · [pilote-001-plan-hiring-review.md](01-pilote-travail/pilote-001-annexes/pilote-001-plan-hiring-review.md) · [pilote-001-releve-inventaire.md](01-pilote-travail/pilote-001-annexes/pilote-001-releve-inventaire.md) · [pilote-001-resultats.json](01-pilote-travail/pilote-001-annexes/pilote-001-resultats.json)
 - [PILOTE-002](01-pilote-travail/pilote-002-revue-embauche.md) — Adapter un premier skill : revue d'embauche en France
   <br>Annexes : [pilote-002-controles.json](01-pilote-travail/pilote-002-annexes/pilote-002-controles.json) · [pilote-002-pieces-fictives.md](01-pilote-travail/pilote-002-annexes/pilote-002-pieces-fictives.md) · [pilote-002-sorties-relecture.md](01-pilote-travail/pilote-002-annexes/pilote-002-sorties-relecture.md) · [pilote-002-sources-lues.json](01-pilote-travail/pilote-002-annexes/pilote-002-sources-lues.json) · [pilote-002-verification.md](01-pilote-travail/pilote-002-annexes/pilote-002-verification.md)
 - [PILOTE-003](01-pilote-travail/pilote-003-bilan-pilote.md) — Vérifier le pilote avant d'étendre l'adaptation
@@ -210,7 +210,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 - [PILOTE-004](01-pilote-travail/pilote-004-preferences-candidat.md) — Modifier une préférence candidat sans initialisation professionnelle
   <br>Annexes : [pilote-004-controles.json](01-pilote-travail/pilote-004-annexes/pilote-004-controles.json) · [pilote-004-verification.md](01-pilote-travail/pilote-004-annexes/pilote-004-verification.md)
 - [PILOTE-005](01-pilote-travail/pilote-005-corrections-retrospective.md) — Appliquer les corrections issues de la rétrospective du pilote travail
-- Autres documents : [retrospective-pilote-travail.md](01-pilote-travail/retrospective-pilote-travail.md)
+- Autres documents : [retrospective-pilote-travail.md](01-pilote-travail/retrospective-pilote-travail.md) · [.gitattributes](01-pilote-travail/sources/.gitattributes) · [travail-frictions-2026-10-16.txt](01-pilote-travail/sources/travail-frictions-2026-10-16.txt)
 
 ### 02 — Plugins existants
 
@@ -257,7 +257,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 - [DOM-008](03-nouveaux-domaines/dom-008-transports.md) — Cadrer un plugin transports et voyages
   <br>Annexes : [dom-008-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py) · [dom-008-decoupage-transports.md](03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md) · [dom-008-frictions-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-controles.py) · [dom-008-frictions-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-resultats.json) · [dom-008-frictions-utilisateurs.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-utilisateurs.md) · [dom-008-frictions-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-verification.md) · [dom-008-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json) · [dom-008-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md)
 - [DOM-023](03-nouveaux-domaines/dom-023-vehicules-garages.md) — Cadrer un plugin véhicules, garages et réparations
-  <br>Annexes : [dom-023-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py) · [dom-023-decoupage-vehicules.md](03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md) · [dom-023-frictions-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-controles.py) · [dom-023-frictions-utilisateurs.md](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-utilisateurs.md) · [dom-023-frictions-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-verification.md) · [dom-023-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json) · [dom-023-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md)
+  <br>Annexes : [dom-023-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py) · [dom-023-decoupage-vehicules.md](03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md) · [dom-023-frictions-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-controles.py) · [dom-023-frictions-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-resultats.json) · [dom-023-frictions-utilisateurs.md](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-utilisateurs.md) · [dom-023-frictions-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-verification.md) · [dom-023-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json) · [dom-023-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md)
 - [DOM-031](03-nouveaux-domaines/dom-031-deces-obseques.md) — Cadrer un plugin décès et prestations funéraires
   <br>Annexes : [dom-031-controles.py](03-nouveaux-domaines/dom-031-annexes/dom-031-controles.py) · [dom-031-decoupage-funeraire.md](03-nouveaux-domaines/dom-031-annexes/dom-031-decoupage-funeraire.md) · [dom-031-frictions-utilisateurs.md](03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-utilisateurs.md) · [dom-031-frictions-verification.md](03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-verification.md) · [dom-031-resultats.json](03-nouveaux-domaines/dom-031-annexes/dom-031-resultats.json) · [dom-031-verification.md](03-nouveaux-domaines/dom-031-annexes/dom-031-verification.md)
 - Autres documents : [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [deces-obseques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/deces-obseques-frictions-2026-10-16.txt) · [logement-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/logement-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt) · [sante-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/sante-frictions-2026-10-16.txt) · [transports-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/transports-frictions-2026-10-16.txt) · [vehicules-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/vehicules-frictions-2026-10-16.txt)
@@ -292,7 +292,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>TRAV</b> — Travail (suites du pilote) (01 — Pilote travail) : 21 à faire, 15 prêtes</summary>
+<summary><b>TRAV</b> — Travail (suites du pilote) (01 — Pilote travail) : 61 à faire, 15 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -317,6 +317,46 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [TRAV-019](01-pilote-travail/suites/trav-019-premiere-embauche-tpe.md) | Préparer les pièces d'une première embauche par une TPE française | P2 | ✅ |
 | [TRAV-020](01-pilote-travail/suites/trav-020-anomalie-dsn.md) | Lire une anomalie ou notification de substitution DSN | P2 | ✅ |
 | [TRAV-021](01-pilote-travail/suites/trav-021-pieces-fin-contrat.md) | Rapprocher les pièces administratives d'une fin de contrat de travail | P2 | ✅ |
+| [TRAV-022](01-pilote-travail/suites/trav-022-offre-embauche-retiree.md) | Lire une offre ou promesse d'embauche retirée | P2 | BASE-013 |
+| [TRAV-023](01-pilote-travail/suites/trav-023-anomalie-cdd.md) | Examiner une anomalie d'un CDD exécuté | P2 | BASE-013 |
+| [TRAV-024](01-pilote-travail/suites/trav-024-mission-interim.md) | Lire les conditions d'une mission d'intérim | P2 | BASE-013 |
+| [TRAV-025](01-pilote-travail/suites/trav-025-relation-executee.md) | Documenter les indices de salariat d'une prestation exécutée | P2 | BASE-013 |
+| [TRAV-026](01-pilote-travail/suites/trav-026-periode-essai.md) | Lire le renouvellement ou la rupture d'une période d'essai | P2 | BASE-013 |
+| [TRAV-027](01-pilote-travail/suites/trav-027-classification-reelle.md) | Comparer les fonctions réelles à une classification conventionnelle | P2 | BASE-013 |
+| [TRAV-028](01-pilote-travail/suites/trav-028-modification-contrat.md) | Lire un changement proposé de poste ou de lieu de travail | P2 | BASE-013 |
+| [TRAV-029](01-pilote-travail/suites/trav-029-delegation-pouvoirs.md) | Lire une délégation de pouvoirs proposée au salarié | P2 | BASE-013 |
+| [TRAV-030](01-pilote-travail/suites/trav-030-consigne-securite.md) | Documenter une consigne de travail présentant un risque | P2 | BASE-013 |
+| [TRAV-031](01-pilote-travail/suites/trav-031-objectifs-evaluation.md) | Préparer des observations sur une évaluation professionnelle | P2 | BASE-013 |
+| [TRAV-032](01-pilote-travail/suites/trav-032-planning-repos.md) | Examiner un planning de travail et ses repos | P2 | BASE-013 |
+| [TRAV-033](01-pilote-travail/suites/trav-033-astreinte-disponibilite.md) | Relire une période d'astreinte ou de disponibilité imposée | P2 | BASE-013 |
+| [TRAV-034](01-pilote-travail/suites/trav-034-forfait-jours.md) | Lire une convention de forfait jours et son suivi | P2 | BASE-013 |
+| [TRAV-035](01-pilote-travail/suites/trav-035-temps-partiel.md) | Examiner un écart entre contrat à temps partiel et horaires réels | P2 | BASE-013 |
+| [TRAV-036](01-pilote-travail/suites/trav-036-anomalie-paie.md) | Préparer une demande sur une anomalie de rémunération | P2 | BASE-013 |
+| [TRAV-037](01-pilote-travail/suites/trav-037-compteur-conges.md) | Rapprocher un compteur de congés payés de ses justificatifs | P2 | BASE-013 |
+| [TRAV-038](01-pilote-travail/suites/trav-038-dates-conges.md) | Lire un refus ou changement de dates de congés | P2 | BASE-013 |
+| [TRAV-039](01-pilote-travail/suites/trav-039-conge-evenement-familial.md) | Préparer une demande de congé pour un événement familial | P2 | BASE-013 |
+| [TRAV-040](01-pilote-travail/suites/trav-040-signalement-accident-travail.md) | Préparer le signalement initial d'un accident au travail | P2 | BASE-013 |
+| [TRAV-041](01-pilote-travail/suites/trav-041-visite-sante-travail.md) | Préparer une demande de visite de santé au travail | P2 | BASE-013 |
+| [TRAV-042](01-pilote-travail/suites/trav-042-avis-inaptitude.md) | Lire un avis d'inaptitude et ses suites professionnelles | P2 | BASE-013 |
+| [TRAV-043](01-pilote-travail/suites/trav-043-alerte-salarie.md) | Préparer un signalement salarié de harcèlement ou discrimination allégués | P2 | BASE-013 |
+| [TRAV-044](01-pilote-travail/suites/trav-044-contester-sanction.md) | Préparer des observations sur une sanction disciplinaire | P2 | BASE-013 |
+| [TRAV-045](01-pilote-travail/suites/trav-045-cse-elections-decoupage.md) | Découper les demandes relatives au CSE et aux élections | P2 | BASE-013 |
+| [TRAV-046](01-pilote-travail/suites/trav-046-rupture-salarie-protege.md) | Lire une décision relative à la rupture d'un salarié protégé | P2 | BASE-013 |
+| [TRAV-047](01-pilote-travail/suites/trav-047-clause-collective.md) | Lire une clause d'accord collectif ou de règlement intérieur opposée au salarié | P2 | BASE-013 |
+| [TRAV-048](01-pilote-travail/suites/trav-048-entretien-parcours.md) | Préparer une demande d'entretien de parcours professionnel | P2 | BASE-013 |
+| [TRAV-049](01-pilote-travail/suites/trav-049-depart-volontaire.md) | Lire une démission ou mise en demeure pour abandon de poste | P2 | BASE-013 |
+| [TRAV-050](01-pilote-travail/suites/trav-050-rupture-economique-individuelle.md) | Lire les documents reçus lors d'un licenciement économique individuel | P2 | BASE-013 |
+| [TRAV-051](01-pilote-travail/suites/trav-051-sommes-fin-contrat.md) | Vérifier une somme de fin de contrat et la portée du reçu | P2 | BASE-013 |
+| [TRAV-052](01-pilote-travail/suites/trav-052-non-concurrence-execution.md) | Examiner le paiement ou la levée d'une non-concurrence après rupture | P2 | BASE-013 |
+| [TRAV-053](01-pilote-travail/suites/trav-053-creance-salariale-ags.md) | Préparer le rapprochement d'une créance salariale en procédure collective | P2 | BASE-013 |
+| [TRAV-054](01-pilote-travail/suites/trav-054-dossier-defense-salarie.md) | Préparer une fiche de défense et de calendrier d'un litige salarié | P2 | BASE-013 |
+| [TRAV-055](01-pilote-travail/suites/trav-055-transaction-travail.md) | Lire une transaction proposée dans un litige de travail | P2 | BASE-013 |
+| [TRAV-056](01-pilote-travail/suites/trav-056-conge-parentalite.md) | Lire le refus d'un congé lié à la maternité ou parentalité | P2 | BASE-013 |
+| [TRAV-057](01-pilote-travail/suites/trav-057-clause-exclusivite.md) | Lire une clause d'exclusivité face à un projet d'activité | P2 | BASE-013 |
+| [TRAV-058](01-pilote-travail/suites/trav-058-clause-dedit-formation.md) | Lire une demande de remboursement de formation au salarié | P2 | BASE-013 |
+| [TRAV-059](01-pilote-travail/suites/trav-059-ecart-salarial.md) | Documenter un écart de rémunération entre salariés comparables | P2 | BASE-013 |
+| [TRAV-060](01-pilote-travail/suites/trav-060-compteur-rtt-repos.md) | Relire un compteur de RTT ou de repos conventionnel | P2 | BASE-013 |
+| [TRAV-061](01-pilote-travail/suites/trav-061-rupture-aux-torts-decoupage.md) | Découper les demandes de rupture aux torts de l'employeur | P2 | BASE-013 |
 
 </details>
 

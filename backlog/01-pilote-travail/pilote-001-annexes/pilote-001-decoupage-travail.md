@@ -6,11 +6,14 @@ dans [PILOTE-002](../pilote-002-revue-embauche.md), puis sa validation
 [PILOTE-003](../pilote-003-bilan-pilote.md). La dépendance USAGE-002 est conservée :
 l'audit ne remplace pas la priorisation des usages.
 
-Les 21 stories métier ci-dessous sont `proposee`, priorité P2. Les 16 premières
+Les 61 stories métier ci-dessous sont `proposee`, priorité P2. Les 16 premières
 proviennent de PILOTE-001 ; TRAV-017 est proposée par PILOTE-003 ; TRAV-018
 est ajoutée par décision de l'utilisateur du 16 octobre 2026. TRAV-019 à TRAV-021
-proviennent des frictions sur les formalités d'entreprise du même jour. Leurs implémentations
-attendent PILOTE-003 et une sélection de tranche ; aucun développement
+proviennent des frictions sur les formalités d'entreprise du même jour. TRAV-022 à TRAV-061
+complètent les 182 points des frictions travail ; TRAV-045 et TRAV-061 sont
+aussi des cadrages, respectivement CSE/élections et ruptures aux torts de l’employeur.
+Le préalable PILOTE-003 est satisfait, avec les limites de son bilan ; leurs
+implémentations attendent une sélection de tranche. Aucun développement
 simultané de tout le plugin n'est lancé. TRAV-006 est un **cadrage**, car une
 adaptation de tout le licenciement économique collectif resterait trop vaste.
 
@@ -37,6 +40,46 @@ adaptation de tout le licenciement économique collectif resterait trop vaste.
 | [TRAV-019](../suites/trav-019-premiere-embauche-tpe.md) | Préparer les pièces d'une première embauche par une TPE française — nouveau parcours proposé | Socle et PILOTE-003 seulement |
 | [TRAV-020](../suites/trav-020-anomalie-dsn.md) | Lire une anomalie ou notification de substitution DSN — nouveau parcours proposé | Socle et PILOTE-003 seulement |
 | [TRAV-021](../suites/trav-021-pieces-fin-contrat.md) | Rapprocher les pièces administratives d'une fin de contrat de travail — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-022](../suites/trav-022-offre-embauche-retiree.md) | Chronologie offre/acceptation/retrait et questions sur la nature de l'engagement — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-023](../suites/trav-023-anomalie-cdd.md) | Tableau de l'anomalie alléguée, pièces et demande d'explication — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-024](../suites/trav-024-mission-interim.md) | Fiche du motif de recours, qualification et écarts à expliquer à l'agence — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-025](../suites/trav-025-relation-executee.md) | Tableau faits/indices contradictoires et pièces pour examiner une requalification — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-026](../suites/trav-026-periode-essai.md) | Chronologie de l'essai et points de consentement, finalité et prévenance à vérifier — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-027](../suites/trav-027-classification-reelle.md) | Tableau fonctions/critères/coefficient allégué et demande de réexamen — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-028](../suites/trav-028-modification-contrat.md) | Comparatif avant/après et réponse factuelle à préparer sur un changement déterminé — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-029](../suites/trav-029-delegation-pouvoirs.md) | Fiche des pouvoirs annoncés, moyens réels et questions avant signature — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-030](../suites/trav-030-consigne-securite.md) | Fiche factuelle du danger allégué et brouillon de demande de mesures ou d'alerte — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-031](../suites/trav-031-objectifs-evaluation.md) | Tableau objectif/moyens/résultat et brouillon d'observations datées — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-032](../suites/trav-032-planning-repos.md) | Tableau journées/pauses/repos et anomalies ou justificatifs manquants — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-033](../suites/trav-033-astreinte-disponibilite.md) | Chronologie disponibilité/interventions et contreparties à justifier — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-034](../suites/trav-034-forfait-jours.md) | Fiche des bases du forfait, suivi manquant et demande de justification — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-035](../suites/trav-035-temps-partiel.md) | Tableau durée contractuelle/réelle, prévenance et heures complémentaires à vérifier — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-036](../suites/trav-036-anomalie-paie.md) | Rapprochement d'une somme attendue, payée ou retenue et brouillon de rectification — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-037](../suites/trav-037-compteur-conges.md) | Tableau acquisition/prise/report/solde et demande de correction sur période bornée — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-038](../suites/trav-038-dates-conges.md) | Chronologie des dates demandées/accordées et brouillon de demande de confirmation — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-039](../suites/trav-039-conge-evenement-familial.md) | Fiche du congé à rechercher, pièces et brouillon de demande ou rectification — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-040](../suites/trav-040-signalement-accident-travail.md) | Chronologie factuelle et brouillon de signalement avec pièces et interlocuteurs à vérifier — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-041](../suites/trav-041-visite-sante-travail.md) | Fiche des visites à vérifier et brouillon de demande au service compétent — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-042](../suites/trav-042-avis-inaptitude.md) | Chronologie avis/reclassement/salaire et questions urgentes au conseil compétent — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-043](../suites/trav-043-alerte-salarie.md) | Fiche faits/pièces/indices et brouillon d'alerte ciblé sans qualification définitive — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-044](../suites/trav-044-contester-sanction.md) | Chronologie procédurale et brouillon d'observations sur une sanction hors licenciement — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-045](../suites/trav-045-cse-elections-decoupage.md) | Découpage en tâches distinctes : mise en place, incident électoral et moyens d'un élu — cadrage, aucun skill implémenté | Socle et PILOTE-003 seulement |
+| [TRAV-046](../suites/trav-046-rupture-salarie-protege.md) | Fiche des actes, protections à vérifier et voies distinctes à examiner en urgence — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-047](../suites/trav-047-clause-collective.md) | Tableau clause/champ/effet allégué et demande de justification — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-048](../suites/trav-048-entretien-parcours.md) | Chronologie des obligations à vérifier et brouillon de demande de document ou d'entretien — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-049](../suites/trav-049-depart-volontaire.md) | Chronologie de la volonté exprimée et des risques avec questions urgentes avant démarche — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-050](../suites/trav-050-rupture-economique-individuelle.md) | Fiche du parcours individuel, choix proposés et questions avant réponse — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-051](../suites/trav-051-sommes-fin-contrat.md) | Tableau d'une indemnité choisie, hypothèses, écarts et portée du reçu — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-052](../suites/trav-052-non-concurrence-execution.md) | Chronologie obligation/levée/paiement et brouillon de demande ciblée — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-053](../suites/trav-053-creance-salariale-ags.md) | Tableau somme/période/preuve/relevé et brouillon de demande au mandataire — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-054](../suites/trav-054-dossier-defense-salarie.md) | Chronologie, bordereau ciblé et tableau des démarches/délais à vérifier avec conseil — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-055](../suites/trav-055-transaction-travail.md) | Tableau engagements/renonciations/paiements et questions avant signature — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-056](../suites/trav-056-conge-parentalite.md) | Chronologie de la demande et protections à vérifier, puis brouillon de justification — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-057](../suites/trav-057-clause-exclusivite.md) | Tableau restrictions/projet et questions à l'employeur ou au conseil — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-058](../suites/trav-058-clause-dedit-formation.md) | Rapprochement clause/frais/remboursement demandé et brouillon de justification — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-059](../suites/trav-059-ecart-salarial.md) | Tableau de comparaison et demande d'explications sur l'écart allégué — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-060](../suites/trav-060-compteur-rtt-repos.md) | Rapprochement droits/prise/solde et brouillon de justification sur un compteur choisi — nouveau parcours proposé | Socle et PILOTE-003 seulement |
+| [TRAV-061](../suites/trav-061-rupture-aux-torts-decoupage.md) | Deux propositions séparées pour lecture d'une prise d'acte et dossier de résiliation judiciaire — cadrage, aucun skill implémenté | Socle et PILOTE-003 seulement |
 
 ## Réexamen PILOTE-003 — 15 octobre 2026
 
@@ -139,3 +182,39 @@ Scénarios **attendus, non exécutés** : employeur n'envoyant pas l'attestation
 IJ reçues par l'employeur sans régularisation expliquée sur le bulletin.
 Deux demandes et destinataires, aucun rappel salarial calculé ici.
 [Portée](../../03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-verification.md).
+
+## Complément des frictions travail — 16 octobre 2026
+
+La [matrice des 182 points](pilote-001-frictions-utilisateurs.md) conserve la
+numérotation par section du [texte reçu](../sources/travail-frictions-2026-10-16.txt).
+Sept suites sont précisées (TRAV-002/003/004/005/008/018/021) et quarante
+propositions TRAV-022 à TRAV-061 ajoutées, sans implémentation sélectionnée.
+Chaque nouvelle suite porte ses pièces, résultat, sources futures, cas normal,
+limite et exclusions ; TRAV-045/061 doivent encore produire leurs suites.
+
+TRAV-001 reste prospectif ; TRAV-025 documente une relation exécutée. TRAV-027
+traite classification, TRAV-002 minimum, TRAV-059 comparaisons salariales et
+TRAV-036 une anomalie choisie. TRAV-003 conserve le décompte borné ; TRAV-032 à
+035 séparent planning/repos, astreinte, forfait et temps partiel. TRAV-037/038
+séparent compteur et dates de congés, TRAV-039/056 événement et parentalité,
+TRAV-060 les repos conventionnels. Le tracker maladie reste limité.
+
+TRAV-040 prépare le signalement d’accident à l’employeur, DOM-012 garde
+[déclarations et décisions sociales à découper](../../03-nouveaux-domaines/dom-012-annexes/dom-012-frictions-travail.md),
+TRAV-041 les visites et TRAV-042 l’inaptitude et ses suites professionnelles.
+TRAV-043 est l’alerte du salarié, distincte de l’enquête interne TRAV-009 à 011.
+TRAV-044 traite une sanction hors licenciement ; TRAV-046 la rupture protégée.
+
+TRAV-049 lit démission/abandon sans préparer un départ ; TRAV-061 doit séparer
+prise d’acte et résiliation judiciaire. TRAV-050 lit l’individuel économique,
+TRAV-006 garde le collectif. TRAV-051 rapproche une somme et le reçu,
+TRAV-021 les documents, TRAV-052 la non-concurrence après départ, TRAV-053 les
+créances/AGS et TRAV-055 la transaction de travail, distincte de CTX-039 civil.
+TRAV-054 prépare une fiche de défense/calendrier, sans saisine prud’homale ni
+moteur universel. Données personnelles et délais professionnels restent séparés.
+
+L’ordre des dix priorités du guide est conservé dans la matrice, sans statistique
+ni ordre de livraison imposés. Aucun statut ne passe à `prete` ou `terminee`.
+La première tranche reste celle du pilote ; les capacités proposées ne sont
+pas annoncées comme disponibles. Contrôles et lectures officielles préliminaires :
+[vérification](pilote-001-frictions-verification.md).

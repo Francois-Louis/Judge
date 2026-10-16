@@ -70,3 +70,14 @@ Aucun envoi, dépôt, signature ni décision irréversible implicite.
 Proposition issue de PILOTE-001, le 15 octobre 2026. Implémentation et recette
 restent à réaliser après PILOTE-003 ; les dépendances n'annoncent aucune
 fonctionnalité adaptée déjà disponible.
+
+## Complément des frictions travail — 16 octobre 2026
+
+**Minimum et fonctions réelles.** Pour les points 3.01–02 et 5.09, TRAV-027 documente la classification réelle avant comparaison. Confronter SMIC et minimum conventionnel sur des bases et périodes propres ; prime et remboursement de frais ne sont pas interchangeables. Ajouter un cas où le SMIC est respecté mais la grille ne l’est pas. TRAV-036 garde les autres anomalies de rémunération, TRAV-059 les comparateurs, TRAV-054 le calendrier de créance ; l’exclusion de la paie complète et de la prescription calculée reste maintenue.
+
+Rattachement complet : [matrice des frictions](../pilote-001-annexes/pilote-001-frictions-utilisateurs.md).
+Les critères restent non cochés. Pour ces ajouts, appliquer BASE-013 : phrase
+finale nommant le professionnel compétent et renfort en tête si urgence ou
+procédure ; sources, paquet détaché, client et compréhension à vérifier selon
+BASE-005/006. Portée de l’intégration et lectures préliminaires :
+[vérification](../pilote-001-annexes/pilote-001-frictions-verification.md).

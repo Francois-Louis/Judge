@@ -87,3 +87,15 @@ Scénarios supplémentaires **attendus, non exécutés** : salarié demandant un
 Sources à ouvrir lors de l’implémentation : Code du travail et convention applicable pour événements familiaux, droits dus et justificatifs ; statut du demandeur avant toute règle.
 
 Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-verification.md).
+
+## Complément de cadrage — frictions travail du 16 octobre 2026
+
+Le [découpage actualisé](pilote-001-annexes/pilote-001-decoupage-travail.md)
+et la [matrice des 182 points](pilote-001-annexes/pilote-001-frictions-utilisateurs.md)
+précisent sept suites et ajoutent quarante propositions TRAV-022 à TRAV-061.
+Le [texte reçu](sources/travail-frictions-2026-10-16.txt) est conservé à l’octet
+près ; recours sociaux, CSE/élections et ruptures aux torts de l’employeur
+gardent leurs besoins de découpage explicites. Le bilan initial ci-dessus
+reste historique ; aucune nouvelle fonctionnalité ni priorité d’implémentation
+n’est sélectionnée. Voir la [vérification](pilote-001-annexes/pilote-001-frictions-verification.md)
+pour les contrôles et la portée de ce complément.

@@ -70,3 +70,14 @@ Aucun envoi, dépôt, signature ni décision irréversible implicite.
 Proposition issue de PILOTE-001, le 15 octobre 2026. Implémentation et recette
 restent à réaliser après PILOTE-003 ; les dépendances n'annoncent aucune
 fonctionnalité adaptée déjà disponible.
+
+## Complément des frictions travail — 16 octobre 2026
+
+**Temps effectif et preuve.** Points 4.01–05/13/15/18/20 et 5.01–04 : relever préparation, fermeture, relève, pause avec interventions, déplacements et données de badgeage brutes/corrigées ; distinguer habillage avec contrepartie (TRAV-036) et travail effectif. Vérifier connaissance des heures par l’employeur, accord et période d’aménagement avant calcul, majorations et repos équivalent. Cas ajouté : heures connues mais prétendument non autorisées, puis compteur corrigé sans justification. Forfait/temps partiel restent réservés à TRAV-034/035 ; TRAV-054 garde prescription et période réclamable. Aucun calcul standard sur régime non établi.
+
+Rattachement complet : [matrice des frictions](../pilote-001-annexes/pilote-001-frictions-utilisateurs.md).
+Les critères restent non cochés. Pour ces ajouts, appliquer BASE-013 : phrase
+finale nommant le professionnel compétent et renfort en tête si urgence ou
+procédure ; sources, paquet détaché, client et compréhension à vérifier selon
+BASE-005/006. Portée de l’intégration et lectures préliminaires :
+[vérification](../pilote-001-annexes/pilote-001-frictions-verification.md).

@@ -60,3 +60,14 @@ fonctionnement des syndicats, envoi.
 
 Proposition du 16 octobre 2026 ; aucune adaptation réalisée. Les sources
 restent à lire lors de la tranche explicitement choisie.
+
+## Complément des frictions travail — 16 octobre 2026
+
+**Grève et frontières collectives.** Points 8.10–17 : ajouter une explication des conditions de l’exercice régulier du droit de grève privé et distinguer retenue proportionnelle et sanction, sans conseiller une cessation du travail. Cas ajouté : retenue supérieure à la durée non travaillée après une grève alléguée ; faits, durée, qualification et pièces demandés, sans protection acquise par le seul mot « grève ». TRAV-045 découpe CSE/élections/moyens, TRAV-046 lit les actes de rupture protégée, TRAV-047 une clause collective et TRAV-043 le signalement de discrimination/représailles ; l’explication initiale des droits ne vaut pas ces recours.
+
+Rattachement complet : [matrice des frictions](../pilote-001-annexes/pilote-001-frictions-utilisateurs.md).
+Les critères restent non cochés. Pour ces ajouts, appliquer BASE-013 : phrase
+finale nommant le professionnel compétent et renfort en tête si urgence ou
+procédure ; sources, paquet détaché, client et compréhension à vérifier selon
+BASE-005/006. Portée de l’intégration et lectures préliminaires :
+[vérification](../pilote-001-annexes/pilote-001-frictions-verification.md).
