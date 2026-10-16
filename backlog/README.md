@@ -1,9 +1,9 @@
 # Backlog — adaptation juridique France / Union européenne
 
-Ce dossier organise le travail à venir. Le backlog contient 399 stories :
+Ce dossier organise le travail à venir. Le backlog contient 403 stories :
 BASE-001 à BASE-007, BASE-009 à BASE-012, PILOTE-001 à PILOTE-005,
 USAGE-001 à USAGE-003, EXIST-001 à EXIST-011, DOM-001 à DOM-005 et LIV-001 sont `terminee`,
-BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 361 autres sont `proposee`.
+BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 365 autres sont `proposee`.
 Les [décisions du 16 octobre 2026](decisions-2026-10-16.md) consignent les
 arbitrages rendus après les cadrages DOM-001 à DOM-005 et la livraison LIV-001.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
@@ -216,6 +216,9 @@ besoin. Les exemples ci-dessus n'annoncent pas des fonctionnalités déjà prés
 | [BASE-010](00-fondations/base-010-acces-sources-officielles.md) | Lire les sources officielles par des voies testées sans souscription API | implementation | P0 |
 | [BASE-011](00-fondations/base-011-recette-client-isole.md) | Exécuter la recette des paquets dans un client Claude isolé | validation | P0 |
 | [BASE-012](00-fondations/base-012-designer-cli-claude.md) | Désigner le binaire claude utilisé par le contrôleur de paquet | implementation | P1 |
+| [BASE-013](00-fondations/base-013-avertissement-interlocuteur.md) | Rendre systématique l'avertissement et l'interlocuteur compétent | implementation | P1 |
+| [BASE-014](00-fondations/base-014-relecture-references.md) | Relire les références embarquées avant chaque livraison | implementation | P1 |
+| [BASE-015](00-fondations/base-015-jurisprudence-runtime.md) | Cadrer l'accès à la jurisprudence pendant l'exécution d'un skill | cadrage | P1 |
 
 ## Orientation et utilité quotidienne — P0 / P1
 
@@ -307,7 +310,7 @@ avec [inventaire des 26 fichiers, 9 skills et cookbook associé](02-plugins-exis
 [relecture JORF/directive/consultation](02-plugins-existants/exist-007-verification.md)
 et [sources déclarées et sondages techniques](02-plugins-existants/exist-007-sources.json).
 Collecte, qualification, modification, temporalité/transposition, écarts,
-politique et consultation ont des résultats distincts. Les vingt VEI restent
+politique et consultation ont des résultats distincts. Les vingt-et-une VEI, dont la veille des références livrées (VEI-021), restent
 `proposee` ; tâches manuelles avant agent et cookbook séparé, sans adaptation,
 connexion ou déploiement par EXIST-007. Préalable PILOTE-003 satisfait après
 BASE-011 ; limites du pilote conservées.

@@ -87,3 +87,8 @@ publication, programmation ou déploiement. Plugin, cookbook et contenus
 éditeur inchangés. Disponibilité observée ponctuelle, sans garantie future
 ou couverture exhaustive ; recherches juridiques et recette restent aux suites.
 
+## Décisions du 16 octobre 2026
+
+Ajout par décision de l'utilisateur ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)) de VEI-021 : veille sur les
+sources des références embarquées dans les plugins livrés, qui déclenche la
+relecture BASE-014. Le découpage compte désormais 21 suites.

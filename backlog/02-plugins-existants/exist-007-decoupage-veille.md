@@ -1,7 +1,7 @@
 # EXIST-007 — Découpage de la veille réglementaire
 
 Propositions du **16 octobre 2026**, fondées sur l’[inventaire exhaustif](exist-007-inventaire-veille.md).
-Les 20 VEI restent `proposee`. La [relecture](exist-007-verification.md) porte
+Les 21 VEI restent `proposee`. La [relecture](exist-007-verification.md) porte
 sur publication JORF, directive et consultation fictives, sans obligation réelle
 qualifiée. Les [sondages de sources](exist-007-sources.json) sont techniques.
 
@@ -55,6 +55,7 @@ installée. Les sondages de maintenance ne sont pas un collecteur embarqué.
 | [VEI-018](suites/vei-018-dossier-veille.md) | Isoler un dossier de veille ou consultation | Aucune |
 | [VEI-019](suites/vei-019-agent-synthese-locale.md) | Adapter l’agent à une synthèse locale bornée | VEI-003, VEI-016 |
 | [VEI-020](suites/vei-020-cookbook-veille.md) | Vérifier le cookbook après adaptation manuelle | VEI-019 |
+| [VEI-021](suites/vei-021-veille-references-plugins.md) | Signaler les textes modifiés touchant les références d'un plugin livré | BASE-014 |
 
 ## Contrats de contenu et responsabilités
 

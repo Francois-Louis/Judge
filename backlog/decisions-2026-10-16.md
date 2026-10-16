@@ -47,6 +47,10 @@ ne valident aucune règle de droit.
 | Droit d'auteur au-delà de la photo et du logiciel ; dessins et modèles | Suites du plugin propriété intellectuelle. | PI-026 à PI-030 ([découpage EXIST-008](02-plugins-existants/exist-008-decoupage-pi.md)) |
 | Faire ou subir un procès civil | Suites du plugin contentieux pour le particulier. | CTX-025 à CTX-028 ([découpage EXIST-006](02-plugins-existants/exist-006-decoupage-contentieux.md)) et situation S-47 |
 | Urbanisme | Déjà cadré par DOM-019 ; rien à ajouter. | — |
+| Avertissement « ne remplace pas » | Phrase courte en fin de chaque réponse, renfort en tête si délai, procédure, pénal ou enjeu irréversible ; l'interlocuteur nommé dépend du domaine (avocat, juriste, notaire, commissaire de justice, expert-comptable…). L'autorité qui mène une procédure n'est pas un conseil. | [BASE-013](00-fondations/base-013-avertissement-interlocuteur.md) ; critère ajouté au [modèle de story](story-template.md) |
+| Actualité des textes avant livraison | Relecture datée de chaque référence embarquée, bloquante pour un lot. | [BASE-014](00-fondations/base-014-relecture-references.md) |
+| Jurisprudence pendant une réponse | Cadrer l'accès aux décisions sans PISTE et la conduite en cas d'échec. | [BASE-015](00-fondations/base-015-jurisprudence-runtime.md) |
+| Veille des références livrées | Suite du plugin de veille réglementaire. | [VEI-021](02-plugins-existants/suites/vei-021-veille-references-plugins.md) |
 
 Les nouvelles stories sont `proposee`. Elles suivent le contrat commun de leur
 découpage et n'ont été ni sélectionnées ni implémentées.

@@ -92,8 +92,8 @@ def main():
     lot += proposals + [ROOT / 'backlog/README.md', HERE / 'exist-007-sources.json', HERE / 'exist-007-sondages.py']
     allowed = {p.relative_to(ROOT).as_posix() for p in lot + [Path(__file__), REPORT]}
     problems, future = [], {}
-    if {k for k in stories if k.startswith('VEI-')} != {f'VEI-{i:03}' for i in range(1, 21)} or len(proposals) != 20:
-        problems.append('Expected exactly 20 proposals VEI-001..020')
+    if {k for k in stories if k.startswith('VEI-')} != {f'VEI-{i:03}' for i in range(1, 22)} or len(proposals) != 21:
+        problems.append('Expected exactly 21 proposals VEI-001..021')
     required = ('Objectif et résultat attendu', 'Périmètre et fichiers',
                 'Entrées nécessaires', 'Travail attendu',
                 "Sources à rechercher lors de l'implémentation",
