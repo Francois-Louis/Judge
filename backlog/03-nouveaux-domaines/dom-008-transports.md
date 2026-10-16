@@ -1,7 +1,7 @@
 ---
 id: DOM-008
 titre: "Cadrer un plugin transports et voyages"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -35,11 +35,11 @@ Un premier skill de réclamation pour un mode et un type d'incident, à choisir 
 
 ## Critères d'acceptation
 
-- [ ] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
-- [ ] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
-- [ ] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle.
-- [ ] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
-- [ ] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
+- [x] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
+- [x] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
+- [x] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle.
+- [x] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
+- [x] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
 
 ## Scénarios pour éprouver le découpage
 
@@ -53,3 +53,38 @@ Vérifier le routage et les informations à demander. La story ne doit pas réso
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
 
+## Bilan d’exécution — 16 octobre 2026
+
+- [Découpage](dom-008-annexes/dom-008-decoupage-transports.md) : nom
+  `transport-legal` conservé (`judge-fr-eu-transport-legal`), qualification
+  commune des modes, trajets, dates, acteurs, contrats et qualités ; quatre
+  demandes distinctes, sans barème commun aux modes ni régime passager au fret.
+- Dix propositions TPT-001 à TPT-010 sous `suites/`, hiérarchisées : vol direct
+  annulé en première tranche ; correspondances, retard aérien, ferroviaire,
+  bagage aérien et forfait ensuite ; relance, autocar et bateau au rang 3 ;
+  qualification du fret professionnel sans réclamation au fond au rang 4.
+- Chaque story précise skill, références à ouvrir, pièces, sortie, fichiers,
+  dépendances et scénarios futurs, non exécutés. TPT-001 crée le paquet avec
+  son seul skill ; aucun profil ni autre plugin requis, aucun besoin identifié
+  d’agent, connecteur ou hook. Aucune implémentation lancée dans DOM-008.
+- Frontières explicites avec véhicules/garages (DOM-023), poste (DOM-022),
+  consommation, assurance, douanes, banque, commercial, responsabilité,
+  contentieux, données personnelles et travail.
+- [Vérification documentaire](dom-008-annexes/dom-008-verification.md) :
+  parcours sur vol annulé avec correspondance, retard ferroviaire et bagage
+  perdu en forfait ; douze cas limites, sans résoudre les consultations.
+- Ligne transports de la [matrice BASE-003](../00-fondations/base-003-annexes/base-003-dossier-architecture.md)
+  précisée ; famille TPT ajoutée au générateur et index régénéré.
+- [Contrôles statiques](dom-008-annexes/dom-008-resultats.json) produits par
+  [le contrôleur du lot](dom-008-annexes/dom-008-controles.py).
+
+Fichiers du lot : présente story, découpage, vérification, contrôleur, relevé
+JSON, dix propositions `suites/tpt-*.md`, ligne BASE-003, `backlog/etat.py` et
+`backlog/ETAT.md`. Lot limité à `backlog/`, sans entrée NOTICE.
+
+**Portée :** cadrage documentaire relu par l’agent de maintenance sur pièces
+fictives et contrôles statiques. Aucune source juridique externe ouverte :
+les textes nommés sont des pistes à vérifier, pas du droit actuel validé.
+Aucun plugin créé, skill exécuté, paquet installé ou lecteur indépendant.
+Le préalable PILOTE-003 est satisfait après BASE-011 ; aucune tranche n’est
+sélectionnée par ce cadrage.

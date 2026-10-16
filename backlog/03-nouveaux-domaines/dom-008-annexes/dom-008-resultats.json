@@ -1,0 +1,280 @@
+{
+  "story": "DOM-008",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "89357089fb96ad33035a1fb3bfa470b818da6aca",
+  "scope": "cadrage documentaire transports et voyages ; aucun plugin créé ni validation juridique",
+  "checks": {
+    "backlog_frontmatter_and_dependencies": {
+      "status": "passed",
+      "total": 540,
+      "statuses": {
+        "terminee": 40,
+        "en-cours": 1,
+        "proposee": 475,
+        "abandonnee": 23,
+        "a-verifier": 1
+      },
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 10,
+      "file_targets": 34,
+      "future_files": [
+        {
+          "path": "transport-legal/.claude-plugin/plugin.json",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/README.md",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/CLAUDE.md",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/LICENSE",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/NOTICE",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/references/shared/research-citation-method.md",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/references/isolation.md",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/scripts/judge_store.py",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/references/company-profile-template.md",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/references/dashboard-template.md",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/references/qualification-transport.md",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/skills/flight-cancellation-claim/SKILL.md",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/references/annulation-vol-direct.md",
+          "owner": "TPT-001"
+        },
+        {
+          "path": "transport-legal/skills/connecting-flight-cancellation/SKILL.md",
+          "owner": "TPT-002"
+        },
+        {
+          "path": "transport-legal/references/annulation-correspondance.md",
+          "owner": "TPT-002"
+        },
+        {
+          "path": "transport-legal/skills/flight-delay-claim/SKILL.md",
+          "owner": "TPT-003"
+        },
+        {
+          "path": "transport-legal/references/retard-aerien.md",
+          "owner": "TPT-003"
+        },
+        {
+          "path": "transport-legal/skills/rail-disruption-claim/SKILL.md",
+          "owner": "TPT-004"
+        },
+        {
+          "path": "transport-legal/references/incident-ferroviaire.md",
+          "owner": "TPT-004"
+        },
+        {
+          "path": "transport-legal/skills/air-baggage-claim/SKILL.md",
+          "owner": "TPT-005"
+        },
+        {
+          "path": "transport-legal/references/bagage-aerien.md",
+          "owner": "TPT-005"
+        },
+        {
+          "path": "transport-legal/skills/package-travel-claim/SKILL.md",
+          "owner": "TPT-006"
+        },
+        {
+          "path": "transport-legal/references/reclamation-forfait.md",
+          "owner": "TPT-006"
+        },
+        {
+          "path": "transport-legal/skills/transport-claim-follow-up/SKILL.md",
+          "owner": "TPT-007"
+        },
+        {
+          "path": "transport-legal/references/relance-transporteur.md",
+          "owner": "TPT-007"
+        },
+        {
+          "path": "transport-legal/skills/coach-disruption-claim/SKILL.md",
+          "owner": "TPT-008"
+        },
+        {
+          "path": "transport-legal/references/incident-autocar.md",
+          "owner": "TPT-008"
+        },
+        {
+          "path": "transport-legal/skills/waterborne-disruption-claim/SKILL.md",
+          "owner": "TPT-009"
+        },
+        {
+          "path": "transport-legal/references/incident-maritime.md",
+          "owner": "TPT-009"
+        },
+        {
+          "path": "transport-legal/skills/freight-incident-orientation/SKILL.md",
+          "owner": "TPT-010"
+        },
+        {
+          "path": "transport-legal/references/orienter-fret.md",
+          "owner": "TPT-010"
+        }
+      ],
+      "problems": []
+    },
+    "breakdown_table_consistency": {
+      "status": "passed",
+      "rows": 10,
+      "problems": []
+    },
+    "story_routing_scenarios": {
+      "status": "passed",
+      "legal_validation": false,
+      "business_scenarios_executed": false,
+      "note": "Présence des dossiers seulement ; routage relu séparément par le rédacteur.",
+      "problems": []
+    },
+    "no_plugin_created": {
+      "status": "passed",
+      "marketplace_plugins": 11,
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 14,
+      "local_links": 113,
+      "problems": []
+    },
+    "table_column_counts": {
+      "status": "passed",
+      "problems": []
+    },
+    "index_matrix_and_prerequisites": {
+      "status": "passed",
+      "problems": []
+    },
+    "figures_for_manual_review": {
+      "status": "manual-review",
+      "count": 0,
+      "occurrences": [],
+      "note": "Occurrences à relire : aucune durée, aucun seuil ni montant ne doit être présenté comme une règle."
+    },
+    "scope_vs_task_baseline": {
+      "status": "passed",
+      "baseline_git_head": "89357089fb96ad33035a1fb3bfa470b818da6aca",
+      "lot_changes": [
+        "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md",
+        "backlog/03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py",
+        "backlog/03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md",
+        "backlog/03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md",
+        "backlog/03-nouveaux-domaines/dom-008-transports.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-001-annulation-vol-direct.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-002-annulation-correspondance.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-003-retard-aerien.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-004-incident-ferroviaire.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-005-bagage-aerien.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-006-reclamation-forfait.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-007-relance-transporteur.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-008-incident-autocar.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-009-incident-maritime.md",
+        "backlog/03-nouveaux-domaines/suites/tpt-010-orienter-fret.md",
+        "backlog/ETAT.md",
+        "backlog/etat.py"
+      ],
+      "concurrent_patterns": [],
+      "concurrent_changes": [],
+      "preserved_files": 1088,
+      "report_excluded_from_own_comparison": true,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 85,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    }
+  },
+  "lot_sha256": {
+    "backlog/03-nouveaux-domaines/dom-008-transports.md": "179021d6462b4825bb5c1edca2c50728dc53f91d30fedc1c4d890455655de0e1",
+    "backlog/03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md": "1ca7ccd835113e2c238dabe124b66e5c1186c0afbb934e20832eeb832eca8e66",
+    "backlog/03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md": "9de3ed78048538fb1a71fb3852b7834935771d3e374a90b3dcddd019b416bb02",
+    "backlog/03-nouveaux-domaines/suites/tpt-001-annulation-vol-direct.md": "10d557592ef0bb53ad840c67759e1d849594e4a5d4a35d0f5ad0be57eb4b1307",
+    "backlog/03-nouveaux-domaines/suites/tpt-002-annulation-correspondance.md": "60d539d48f9f577f30f4e60ccfe5cbe6794bbdf3898a2d80067e262a61c9b449",
+    "backlog/03-nouveaux-domaines/suites/tpt-003-retard-aerien.md": "318466a2813c472f3c18a7d8454bf64dd821a868ccc2d87ce67abf2a0994f616",
+    "backlog/03-nouveaux-domaines/suites/tpt-004-incident-ferroviaire.md": "8ac5fde537569345d3eb234b021b16d1fe4d937bde09884adbd65247f0689266",
+    "backlog/03-nouveaux-domaines/suites/tpt-005-bagage-aerien.md": "23aa55670afe6aa4cd4634dcd432b8169385b132b1a5d521b208bdf2122ddf7f",
+    "backlog/03-nouveaux-domaines/suites/tpt-006-reclamation-forfait.md": "a948f71a7f67ebd7f7e0f7f1ad2f206c7c8ab678509ef022ed2951d637065758",
+    "backlog/03-nouveaux-domaines/suites/tpt-007-relance-transporteur.md": "68cfce81b58aacefbfe78a4d59a5db28013d067295ad219c910bea40014b4973",
+    "backlog/03-nouveaux-domaines/suites/tpt-008-incident-autocar.md": "d63f67c2ab7d3ac40d328213adf6c5468b1541f24eaeb56058e52e61d5fa596a",
+    "backlog/03-nouveaux-domaines/suites/tpt-009-incident-maritime.md": "0fda38cc948e0cdcffd533a8ceb8de85859a4ce2a2d31108e9f2f1693e21c844",
+    "backlog/03-nouveaux-domaines/suites/tpt-010-orienter-fret.md": "2a0a6b8d7dbd6f66f737ad45f1d507011024a8089638390cbd80c3f02296945d",
+    "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md": "e1077239b3df34f6cc02fd03eb84261b69f73e4aab36f4907ca253c1d5540a60",
+    "backlog/ETAT.md": "d0effc11fa10af6b5927d2a84fdab578f463f9ea29321a58124e8d5030be97aa",
+    "backlog/etat.py": "5d6b3281355aa968b0f9c7f6dfad9de9f295d69ba00d3ae1c3b08fba5380e244",
+    "backlog/03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py": "c93c822d05cfa27d3272a4f41ba991b53f0851894fc29285c942e985b3bc381c"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "calcul de délai, de seuil ou de montant",
+    "création ou exécution de skill",
+    "installation/recette client",
+    "lecteur réel ou indépendant",
+    "connexion/envoi/publication"
+  ],
+  "commands": [
+    [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "backlog\\03-nouveaux-domaines\\dom-008-annexes\\dom-008-controles.py",
+      "--baseline",
+      "C:/Users/fltou/AppData/Local/Temp/judge-dom008-baseline.json",
+      "--output",
+      "backlog/03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json"
+    ],
+    "python -X utf8 backlog/etat.py --check (appelé par le contrôleur)",
+    "python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)",
+    "git diff --check (appelé par le contrôleur)"
+  ],
+  "execution_notes": [
+    "Contrôles dans le checkout de travail ; aucun paquet créé ou installé.",
+    "Périmètre comparé à un instantané avant tâche si --baseline est fourni ; les fichiers préexistants hors lot doivent rester identiques.",
+    "Références de transport citées comme pistes non ouvertes ; scénarios métier non exécutés."
+  ]
+}

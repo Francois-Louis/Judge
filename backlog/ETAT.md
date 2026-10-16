@@ -7,12 +7,12 @@
 | En cours | 1 |
 | À vérifier | 1 |
 | Bloquée | 0 |
-| Terminée | 39 |
+| Terminée | 40 |
 | Prête | 0 |
-| À faire | 466 |
+| À faire | 475 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 146 |
-| Total | 530 |
+| dont prêtes à démarrer | 145 |
+| Total | 540 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -48,7 +48,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [CTX-016](02-plugins-existants/suites/ctx-016-fiche-echeance.md) | Établir une fiche d’échéance de procédure TJ écrite | P2 | implementation |
 | [CTX-021](02-plugins-existants/suites/ctx-021-preferences-contentieux.md) | Gérer des préférences contentieuses volontaires | P2 | implementation |
 | [CTX-022](02-plugins-existants/suites/ctx-022-espace-dossier.md) | Isoler les espaces de dossiers contentieux | P2 | implementation |
-| [DOM-008](03-nouveaux-domaines/dom-008-transports.md) | Cadrer un plugin transports et voyages | P2 | cadrage |
 | [DOM-009](03-nouveaux-domaines/dom-009-douanes.md) | Cadrer un plugin douanes et import-export | P2 | cadrage |
 | [DOM-012](03-nouveaux-domaines/dom-012-protection-sociale.md) | Cadrer un plugin de sécurité sociale et prestations | P2 | cadrage |
 | [DOM-013](03-nouveaux-domaines/dom-013-famille-patrimoine.md) | Cadrer un plugin famille et patrimoine du couple | P2 | cadrage |
@@ -255,6 +254,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [dom-006-controles.py](03-nouveaux-domaines/dom-006-annexes/dom-006-controles.py) · [dom-006-decoupage-logement.md](03-nouveaux-domaines/dom-006-annexes/dom-006-decoupage-logement.md) · [dom-006-resultats.json](03-nouveaux-domaines/dom-006-annexes/dom-006-resultats.json) · [dom-006-verification.md](03-nouveaux-domaines/dom-006-annexes/dom-006-verification.md)
 - [DOM-007](03-nouveaux-domaines/dom-007-sante.md) — Cadrer un plugin santé et droits des patients
   <br>Annexes : [dom-007-controles.py](03-nouveaux-domaines/dom-007-annexes/dom-007-controles.py) · [dom-007-decoupage-sante.md](03-nouveaux-domaines/dom-007-annexes/dom-007-decoupage-sante.md) · [dom-007-resultats.json](03-nouveaux-domaines/dom-007-annexes/dom-007-resultats.json) · [dom-007-verification.md](03-nouveaux-domaines/dom-007-annexes/dom-007-verification.md)
+- [DOM-008](03-nouveaux-domaines/dom-008-transports.md) — Cadrer un plugin transports et voyages
+  <br>Annexes : [dom-008-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py) · [dom-008-decoupage-transports.md](03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md) · [dom-008-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json) · [dom-008-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md)
 - [DOM-023](03-nouveaux-domaines/dom-023-vehicules-garages.md) — Cadrer un plugin véhicules, garages et réparations
   <br>Annexes : [dom-023-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py) · [dom-023-decoupage-vehicules.md](03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md) · [dom-023-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json) · [dom-023-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md)
 - Autres documents : [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt)
@@ -753,11 +754,10 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 35 à faire, 35 prêtes</summary>
+<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 34 à faire, 34 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [DOM-008](03-nouveaux-domaines/dom-008-transports.md) | Cadrer un plugin transports et voyages | P2 | ✅ |
 | [DOM-009](03-nouveaux-domaines/dom-009-douanes.md) | Cadrer un plugin douanes et import-export | P2 | ✅ |
 | [DOM-010](03-nouveaux-domaines/dom-010-administratif.md) | Cadrer un plugin de droit administratif | P3 | ✅ |
 | [DOM-011](03-nouveaux-domaines/dom-011-fiscalite.md) | Cadrer un plugin de fiscalité | P3 | ✅ |
@@ -888,6 +888,24 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [SAN-010](03-nouveaux-domaines/suites/san-010-soins-sans-consentement.md) | Lire une mesure de soins psychiatriques sans consentement | P2 | BASE-008, SAN-001 |
 | [SAN-011](03-nouveaux-domaines/suites/san-011-frais-soins.md) | Comparer une facture de soins à l'information reçue sur les frais | P2 | BASE-008, SAN-001 |
 | [SAN-012](03-nouveaux-domaines/suites/san-012-directives-anticipees.md) | Préparer des directives anticipées et la désignation d'une personne de confiance | P3 | BASE-008, SAN-001 |
+
+</details>
+
+<details>
+<summary><b>TPT</b> — Transports et voyages (03 — Nouveaux domaines) : 10 à faire, 0 prêtes</summary>
+
+| Story | Titre | Priorité | Bloquée par |
+| --- | --- | --- | --- |
+| [TPT-001](03-nouveaux-domaines/suites/tpt-001-annulation-vol-direct.md) | Préparer une réclamation pour un vol direct annulé | P2 | BASE-008 |
+| [TPT-002](03-nouveaux-domaines/suites/tpt-002-annulation-correspondance.md) | Qualifier une annulation aérienne avec correspondance | P2 | BASE-008, TPT-001 |
+| [TPT-003](03-nouveaux-domaines/suites/tpt-003-retard-aerien.md) | Préparer une réclamation pour un retard aérien | P2 | BASE-008, TPT-001 |
+| [TPT-004](03-nouveaux-domaines/suites/tpt-004-incident-ferroviaire.md) | Préparer une réclamation pour un incident ferroviaire | P2 | BASE-008, TPT-001 |
+| [TPT-005](03-nouveaux-domaines/suites/tpt-005-bagage-aerien.md) | Préparer une réclamation pour un bagage aérien | P2 | BASE-008, TPT-001 |
+| [TPT-006](03-nouveaux-domaines/suites/tpt-006-reclamation-forfait.md) | Préparer une réclamation relative à un forfait touristique | P2 | BASE-008, TPT-001 |
+| [TPT-007](03-nouveaux-domaines/suites/tpt-007-relance-transporteur.md) | Préparer une relance après une réclamation de transport | P2 | BASE-008, TPT-001 |
+| [TPT-008](03-nouveaux-domaines/suites/tpt-008-incident-autocar.md) | Préparer une réclamation pour un trajet en autocar perturbé | P2 | BASE-008, TPT-001 |
+| [TPT-009](03-nouveaux-domaines/suites/tpt-009-incident-maritime.md) | Préparer une réclamation pour un trajet maritime ou fluvial perturbé | P2 | BASE-008, TPT-001 |
+| [TPT-010](03-nouveaux-domaines/suites/tpt-010-orienter-fret.md) | Qualifier un incident de transport de marchandises avant orientation | P3 | BASE-008, TPT-001 |
 
 </details>
 
