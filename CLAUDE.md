@@ -28,7 +28,7 @@ twelve packages after changes, and include LICENSE/NOTICE. The vendor source
 is preserved but excluded from this marketplace. This is technical isolation;
 legal adaptation and live-client validation remain separate results.
 
-Run `python scripts/test-base008-isolation.py` for detâched-package filesystem
+Run `python scripts/test-base008-isolation.py` for detached-package filesystem
 and hub lifecycle tests. Cookbook dry-runs require Bash, jq, Python/PyYAML;
 `bash scripts/test-cookbooks.sh` supplies disposable deployment IDs without
 network calls. The orchestrator storage test also needs jsonschema; a missing
