@@ -1,9 +1,9 @@
 # Backlog — adaptation juridique France / Union européenne
 
-Ce dossier organise le travail à venir. Le backlog contient 387 stories :
+Ce dossier organise le travail à venir. Le backlog contient 389 stories :
 BASE-001 à BASE-007, BASE-009 à BASE-012, PILOTE-001 à PILOTE-005,
 USAGE-001 à USAGE-003, EXIST-001 à EXIST-011, DOM-001 à DOM-005 et LIV-001 sont `terminee`,
-BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 349 autres sont `proposee`.
+BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 351 autres sont `proposee`.
 Les [décisions du 16 octobre 2026](decisions-2026-10-16.md) consignent les
 arbitrages rendus après les cadrages DOM-001 à DOM-005 et la livraison LIV-001.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
@@ -459,6 +459,8 @@ rattachée à DOM-035.
 | [DOM-037](03-nouveaux-domaines/dom-037-fonction-publique.md) | Cadrer un plugin fonction publique et agents publics | cadrage | P2 |
 | [DOM-038](03-nouveaux-domaines/dom-038-violences-intrafamiliales.md) | Cadrer un plugin violences intrafamiliales et protection | cadrage | P2 |
 | [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) | Cadrer un plugin micro-entreprise et travail indépendant | cadrage | P2 |
+| [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) | Cadrer un plugin chasse et pêche de loisir | cadrage | P3 |
+| [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Cadrer un plugin relation avec un professionnel du droit | cadrage | P2 |
 
 ## Livraison d'un lot vérifié
 

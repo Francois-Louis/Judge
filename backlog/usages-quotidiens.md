@@ -24,7 +24,7 @@ reste dans BASE-003. Chaque domaine principal est retenu pour la tâche exprimé
 sous réserve des faits discriminants de la dernière colonne. Une question
 complémentaire ouvre une tâche distincte seulement si elle est utile.
 
-Chaque situation porte un identifiant stable, de `S-01` à `S-43`, à citer dans
+Chaque situation porte un identifiant stable, de `S-01` à `S-45`, à citer dans
 les stories. Une nouvelle situation reçoit le numéro suivant ; une situation
 retirée garde son numéro, qui n'est pas réattribué.
 
@@ -108,6 +108,8 @@ avant une revue documentaire ordinaire.
 | S-40 | Mon vol, mon train ou mon voyage ne s'est pas passé comme prévu. | Transports et voyages | [DOM-008](03-nouveaux-domaines/dom-008-transports.md) | Identifier contrat, incident, transporteur et demandes distinctes. | Transporteur/vendeur du voyage selon contrat ; assurance voyage → DOM-005. |
 | S-41 | Un compte en ligne est suspendu ou mon identité est usurpée. | Numérique et plateformes | [DOM-034](03-nouveaux-domaines/dom-034-numerique-plateformes.md) | Lire notification, rôle de la plateforme et mécanismes disponibles. | Plateforme ; données → données personnelles, droit d'auteur → propriété intellectuelle, achat → DOM-001, paiement → DOM-004, infraction alléguée → DOM-002. |
 | S-42 | Je veux accéder à mes données ou faire corriger une information. | Données personnelles | [EXIST-003](02-plugins-existants/exist-003-donnees-personnelles.md) | Qualifier le droit invoqué et le responsable concerné. | Responsable du traitement/délégué pour accès ou correction ; accès au compte/modération : DOM-034. Pas de profil de cabinet nécessaire. |
+| S-44 | Les frais de mon notaire ou les honoraires de mon avocat me paraissent injustifiés. | Professionnels du droit | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Distinguer frais réglementés, taxes et honoraires ; préparer les questions. | Professionnel concerné puis instance ou médiateur ; fond du dossier → son domaine (succession, achat, procédure). Ajoutée le 16 octobre 2026. |
+| S-45 | J'ai reçu un procès-verbal de chasse ou de pêche, ou du gibier ravage mon terrain. | Chasse et pêche | [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) | Identifier l'acte, l'agent, la règle invoquée et les pièces. | Agent verbalisateur ou fédération ; arme → CRIM-017, exploitation agricole → DOM-014, voisinage → DOM-020. Ajoutée le 16 octobre 2026. |
 
 ## Utilisation dans les stories
 

@@ -113,6 +113,8 @@ exacte sera vérifiée pour le régime choisi lors de l'implémentation.
 | Fonction publique — [DOM-037](../03-nouveaux-domaines/dom-037-fonction-publique.md) | `public-employment-legal` | Lire une décision individuelle de carrière/rémunération → motifs et questions pour un statut choisi | Employeur public/service RH ; emploi privé → employment, pension → DOM-036, caisse → DOM-012. |
 | Violences intrafamiliales — [DOM-038](../03-nouveaux-domaines/dom-038-violences-intrafamiliales.md) | `domestic-violence-legal` | Préparer un parcours de protection → canal sûr et pièces strictement utiles | Interlocuteur de protection adapté à la situation ; qualification pénale → DOM-002, séparation → DOM-013, logement → DOM-006, soins → DOM-007. |
 | Micro-entreprise — [DOM-039](../03-nouveaux-domaines/dom-039-micro-entreprise.md) | `self-employed-legal` | Lire un courrier de l'URSSAF → période, montants recopiés, stade et pièces | URSSAF/administration fiscale ; impôts du foyer → DOM-011, CAF → DOM-012, retraite → DOM-036, client professionnel → commercial, acte de saisie → DOM-003. |
+| Chasse et pêche — [DOM-040](../03-nouveaux-domaines/dom-040-chasse-peche.md) | `hunting-fishing-legal` | Lire un procès-verbal de chasse ou de pêche → infraction alléguée, stade et pièces | Agent verbalisateur/fédération ; arme → CRIM-017, procédure pénale → DOM-002, exploitation agricole → DOM-014, espèces et pollution → DOM-030, assurance → DOM-005. |
+| Professionnels du droit — [DOM-041](../03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | `legal-services-legal` | Lire un décompte de frais de notaire → émoluments, débours, taxes et questions | Notaire/avocat/commissaire de justice, instance ou médiateur à identifier ; fond du dossier → son domaine, frais d'un acte de saisie → ENF-003, faute pénale → DOM-002. |
 
 Les cadrages EXIST/DOM précisent ensuite les tâches supplémentaires et les
 stories d'implémentation. Leurs implémentations attendent le bilan PILOTE-003,
@@ -237,7 +239,7 @@ ils ne valent ni installation isolée ni validation du comportement juridique.
 ## Couverture des situations du quotidien
 
 La [matrice des usages](../usages-quotidiens.md) est confrontée aux propriétaires
-ci-dessus : toutes ses entrées renvoient soit à un DOM-001 à DOM-039, soit au
+ci-dessus : toutes ses entrées renvoient soit à un DOM-001 à DOM-041, soit au
 travail privé, aux contrats B2B ou aux données personnelles. Chaque renvoi a
 donc un plugin principal et une tâche candidate ; aucune entrée n'exige un
 plugin généraliste. Les tâches additionnelles restent à prioriser, notamment

@@ -39,5 +39,8 @@ ne valident aucune règle de droit.
 | Auto-entrepreneur, URSSAF, impôts de l'activité | Nouveau cadrage micro-entreprise ; CAF reste DOM-012, impôts des particuliers DOM-011. | [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) et situation S-43 |
 | Syndicats | Syndicats de salariés : droit syndical du salarié du privé. | [TRAV-018](01-pilote-travail/suites/trav-018-droits-syndicaux.md) |
 
+| Chasse et pêche de loisir | Nouveau cadrage (question posée le même jour). | [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) et situation S-45 |
+| Relation avec un notaire ou un avocat (frais, réclamation) | Nouveau cadrage « professionnels du droit ». | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) et situation S-44 |
+
 Les nouvelles stories sont `proposee`. Elles suivent le contrat commun de leur
 découpage et n'ont été ni sélectionnées ni implémentées.
