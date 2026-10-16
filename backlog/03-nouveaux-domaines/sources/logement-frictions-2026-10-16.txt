@@ -1,0 +1,930 @@
+# Logement en France : les pièges, abus et délais à connaître pour défendre ses droits
+
+Droit français — situation au 16 octobre 2026
+
+Les litiges liés au logement comportent plusieurs pièges particulièrement coûteux : un état des lieux mal rédigé, un préavis juridiquement inefficace, des charges injustifiées, une assemblée générale de copropriété non contestée à temps, une servitude mal documentée ou des travaux réalisés sans autorisation.
+
+La difficulté est souvent moins de connaître ses droits que de savoir quoi prouver, à qui réclamer, sous quelle forme et avant quelle date.
+
+Je distingue ci-dessous les pratiques contestables, les véritables abus et les situations parfaitement légales mais défavorables. Il ne s'agit pas d'un classement statistique des plaintes, mais d'un inventaire des litiges récurrents et des pièges procéduraux.
+
+## 1. Location : bail, agence, entrée dans le logement
+
+### A. Avant de signer
+
+1\. Le faux logement meublé
+
+Un propriétaire qualifie son logement de « meublé » alors que l'équipement est insuffisant, parfois simplement pour bénéficier du régime juridique du meublé.
+
+- Piège : le locataire accepte un bail d'un an, un dépôt de garantie plus élevé et un préavis différent.
+- Droit : la qualification dépend notamment du mobilier réellement fourni, pas seulement du titre du contrat.
+- Défense : photographier le mobilier, conserver l'inventaire et examiner une éventuelle requalification du bail.
+
+2\. Le bail de courte durée présenté comme librement renouvelable
+
+Un propriétaire propose un bail vide de six mois, sans justification légale.
+
+- Piège : faire croire que le locataire doit repartir à une date choisie par le propriétaire.
+- Droit : pour une résidence principale, le bail vide est normalement d'au moins trois ans avec un bailleur personne physique et six ans avec certains bailleurs personnes morales. Il existe des exceptions encadrées.
+- Défense : vérifier le régime juridique et les motifs de durée réduite.
+
+3\. La surface habitable artificiellement gonflée
+
+Combles trop bas, surfaces non habitables, cave, garage ou autres annexes comptabilisés à tort.
+
+- Piège : payer un loyer calculé sur une surface fictive.
+- Droit : lorsque la surface réelle d'un logement vide est inférieure de plus de 5 % à celle indiquée au bail, une diminution proportionnelle du loyer peut être demandée.
+- Délai critique : en cas de désaccord ou d'absence de réponse du bailleur pendant deux mois, l'action judiciaire doit être engagée dans les quatre mois suivant la demande initiale.
+- Défense : faire mesurer selon la surface habitable légale.
+
+4\. Les diagnostics immobiliers absents, périmés ou trompeurs
+
+DPE, électricité, gaz, état des risques ou autres diagnostics non communiqués selon les cas.
+
+- Piège : découvrir après la signature une installation dangereuse ou un logement énergivore.
+- Défense : demander le dossier de diagnostic technique complet avant de signer et vérifier notamment la date et le numéro du DPE.
+- Attention : l'absence d'un diagnostic ne rend pas automatiquement le bail nul.
+
+5\. Les frais de réservation illégitimes
+
+Versement exigé pour « bloquer » un appartement avant la signature du bail.
+
+- Piège : payer une somme qui ne correspond à aucune prestation ou garantie légalement exigible.
+- Défense : refuser les frais de réservation imposés hors cadre légal et conserver toute demande écrite.
+
+6\. Les frais d'agence surfacturés
+
+Facturation au locataire de prestations relevant du propriétaire, honoraires dépassant les plafonds ou frais administratifs inventés.
+
+En 2026, les plafonds facturables au locataire pour visite, dossier et rédaction du bail sont :
+
+| Zone                    | Plafond TTC/m² |
+| ----------------------- | -------------- |
+| Très tendue             | 12,10 €        |
+| Tendue                  | 10,09 €        |
+| Autres communes         | 8,07 €         |
+| État des lieux d'entrée | 3,03 €         |
+
+Ces plafonds se cumulent dans les conditions réglementaires, et la part du locataire ne peut pas dépasser celle du bailleur pour les prestations partagées.
+
+7\. Les documents abusifs exigés au candidat locataire
+
+Relevés bancaires, dossier médical, attestation d'absence de crédit ou autres justificatifs non autorisés.
+
+- Droit : les documents exigibles sont limités à une liste réglementaire.
+- Défense : fournir uniquement les justificatifs légalement autorisés et masquer les informations non nécessaires lorsque c'est possible.
+
+8\. Les clauses illégales noyées dans le bail
+
+Exemples : prélèvement automatique obligatoire, pénalités forfaitaires de retard, interdiction d'héberger des proches ou frais de quittance.
+
+- Piège : considérer qu'une clause est valable simplement parce qu'on l'a signée.
+- Droit : certaines clauses sont réputées non écrites.
+- Défense : confronter le contrat à l'article 4 de la loi du 6 juillet 1989.
+
+9\. Le logement situé dans une zone d'encadrement des loyers
+
+Le bailleur demande un loyer dépassant le plafond applicable, ou facture un « complément de loyer » insuffisamment justifié.
+
+- Piège : ignorer qu'il existe deux dispositifs distincts : encadrement de l'évolution des loyers et encadrement du niveau du loyer.
+- Délai critique : pour contester un complément de loyer dans les villes concernées, saisir la commission départementale de conciliation dans les trois mois de la signature du bail.
+- Défense : contrôler les plafonds officiels et les caractéristiques invoquées.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++5
+
+
+
+### B. État des lieux et dépôt de garantie
+
+10\. L'état des lieux d'entrée rédigé trop vite
+
+L'agence note « bon état » partout alors que les peintures sont usées, les joints noircis ou des équipements défectueux.
+
+- Piège : ces défauts peuvent ensuite être imputés au locataire.
+- Délai : 10 jours calendaires pour demander à compléter l'état des lieux d'entrée ; pour le chauffage, pendant le premier mois de la période de chauffe.
+- Défense : photographies datées, description de chaque anomalie et demande écrite de modification.
+
+11\. L'état des lieux non remis immédiatement
+
+Le document est conservé par l'agence puis modifié ou complété après le départ du locataire.
+
+\- Défense : exiger son exemplaire signé au moment de l'opération et conserver les photos originales.
+
+12\. L'absence d'état des lieux utilisée contre l'autre partie
+
+Selon la raison pour laquelle il manque, les présomptions légales et la charge de la preuve ne sont pas les mêmes.
+
+- Piège : croire systématiquement que l'absence d'état des lieux avantage le locataire.
+- Défense : demander formellement sa réalisation et, en cas de refus ou d'impossibilité, envisager un constat par commissaire de justice.
+
+13\. L'usure normale facturée comme une dégradation
+
+Peinture vieillie, moquette usée, équipements arrivés en fin de vie.
+
+- Droit : la vétusté résultant d'un usage normal reste à la charge du propriétaire.
+- Défense : demander la prise en compte de l'âge des éléments et de leur état initial.
+- Attention : repeindre systématiquement un logement avant de partir n'est pas une obligation générale.
+
+14\. Les travaux fictifs ou largement surfacturés à la sortie
+
+Une agence facture 800 € de peinture pour quelques traces ou retient 300 € de nettoyage sans description précise.
+
+- Droit : toute retenue doit être justifiée. Un devis peut suffire à justifier le montant, même si les travaux ne sont pas encore réalisés.
+- Défense : confronter les états des lieux, photos et montants ; contester la nécessité, l'imputabilité et le coût des réparations.
+
+15\. L'état des lieux de sortie payant
+
+Une agence facture des « frais de clôture » ou un état des lieux de sortie amiable.
+
+- Droit : l'état des lieux de sortie amiable ne peut pas être facturé au locataire.
+- Exception : un constat locatif par commissaire de justice, lorsque les conditions sont réunies, suit une tarification réglementée.
+
+16\. Le dépôt de garantie retenu sans justification
+
+Le propriétaire affirme simplement qu'il garde la caution « par sécurité ».
+
+- Délai : restitution dans le mois suivant la remise des clés si l'état des lieux de sortie est conforme ; deux mois en cas de différences.
+- Sanction : majoration de 10 % du loyer mensuel hors charges par mois de retard commencé, sous conditions.
+- Piège : ne pas transmettre sa nouvelle adresse peut faire perdre cette majoration.
+
+17\. Le dépôt de garantie conservé pour d'éventuelles charges
+
+Le bailleur invoque une future régularisation pour conserver toute la somme.
+
+- Droit : dans un immeuble collectif, une provision justifiée peut être conservée jusqu'à l'arrêté des comptes, sans dépasser 20 % du dépôt.
+- Défense : exiger le décompte et le remboursement du solde dans les délais prévus.
+
+18\. La confusion entre dépôt de garantie et dernier loyer
+
+Le locataire cesse de payer son dernier mois en estimant que le dépôt le couvre.
+
+- Piège : se placer soi-même en situation d'impayé alors qu'on disposait d'une créance à faire valoir.
+- Droit : le dépôt de garantie ne peut pas unilatéralement remplacer le dernier loyer.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+service-public.fr
+
++4
+
+
+
+## 2. Loyer, charges et résiliation du bail
+
+### C. Les pièges financiers
+
+19\. L'augmentation annuelle du loyer appliquée automatiquement
+
+- Piège : une agence augmente le loyer sans clause de révision, utilise le mauvais IRL ou réclame plusieurs années d'indexation oubliées.
+- Droit : la révision exige une clause contractuelle et doit respecter les modalités légales. Le bailleur dispose d'un an pour appliquer une révision, sans effet rétroactif.
+- Défense : recalculer l'IRL, vérifier le trimestre de référence et la date de demande.
+
+20\. L'augmentation du loyer malgré un DPE F ou G
+
+- Piège : le propriétaire continue l'indexation comme si le classement énergétique était sans conséquence.
+- Droit : en métropole, les logements F et G sont soumis à un gel des augmentations dans les conditions légales applicables depuis le 24 août 2022.
+- Défense : vérifier le classement DPE et la date de signature, renouvellement ou reconduction du bail.
+
+21\. Les charges locatives volontairement sous-estimées
+
+Le bail annonce 40 € mensuels de charges alors que les dépenses réelles atteignent 150 €.
+
+- Piège : rendre le logement artificiellement attractif, puis réclamer une régularisation importante.
+- Défense : demander le dernier décompte annuel avant de signer.
+- Attention : une provision trop basse n'est pas, à elle seule, une fraude démontrée.
+
+22\. La régularisation de charges réclamée plusieurs années après
+
+- Droit : les dettes de charges et de loyers se prescrivent généralement par trois ans.
+- Piège : une grosse facture arrive brutalement alors que le locataire ne dispose plus des justificatifs.
+- Défense : demander le détail annuel et les pièces justificatives. Une régularisation particulièrement brutale et déloyale peut être contestée.
+- Protection utile : si la régularisation intervient après la fin de l'année civile suivant celle de l'exigibilité des charges, le locataire peut demander un échelonnement sur douze mois.
+
+23\. Les charges de propriétaire transférées au locataire
+
+Exemples : grosses réparations, certains frais de syndic, honoraires de gestion ou dépenses de copropriété non récupérables.
+
+- Droit : seules les charges légalement récupérables peuvent être refacturées au locataire, hors dispositifs particuliers.
+- Défense : comparer le décompte avec le décret n° 87-713 du 26 août 1987.
+
+24\. La taxe foncière dissimulée dans les charges
+
+- Piège : faire payer au locataire une partie de la fiscalité normalement supportée par le propriétaire.
+- Droit : la taxe foncière n'est pas récupérable sur le locataire. La taxe d'enlèvement des ordures ménagères (TEOM) l'est, mais pas les frais de gestion figurant sur l'avis fiscal.
+- Défense : demander l'avis de taxe foncière et contrôler le montant refacturé.
+
+25\. Le forfait de charges d'un meublé augmenté après coup
+
+- Piège : facturer une régularisation supplémentaire alors que le bail prévoit un forfait.
+- Droit : un véritable forfait de charges ne donne pas lieu à régularisation ultérieure.
+- Défense : vérifier si le bail prévoit un forfait ou des provisions.
+
+26\. Le propriétaire qui refuse de transmettre les justificatifs
+
+- Droit : les justificatifs des charges doivent notamment être tenus à disposition pendant les six mois suivant l'envoi du décompte.
+- Défense : demander leur consultation par écrit, photographier les pièces et contester les sommes non justifiées.
+
+27\. La consommation d'eau anormale jamais signalée
+
+Une fuite fait exploser la facture, mais personne ne prévient l'occupant.
+
+- Piège : découvrir une dette importante après plusieurs mois.
+- Défense : conserver les relevés de compteur, rechercher la fuite et vérifier le mécanisme légal de plafonnement de certaines factures d'eau anormales, notamment pour les fuites après compteur sur canalisation.
+- Attention : les conditions et exclusions de ce plafonnement sont strictes.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service-Public.fr
+
++3
+
+
+
+### D. Congé, préavis et expulsion
+
+28\. Le préavis envoyé par un simple e-mail
+
+- Piège : croire que le préavis est valable parce que le propriétaire a répondu « OK ».
+- Droit : le congé du locataire doit respecter les modes de notification autorisés.
+- Défense : utiliser une lettre recommandée avec avis de réception, une remise contre récépissé ou un acte de commissaire de justice.
+
+29\. Le recommandé non retiré
+
+C'est un piège particulièrement vicieux.
+
+- Situation : le locataire envoie son préavis, mais le bailleur ne récupère jamais le recommandé.
+- Conséquence : le délai de préavis ne démarre normalement pas avec ce recommandé non réceptionné.
+- Défense : recourir à une signification par commissaire de justice en cas de blocage.
+
+30\. Le préavis réduit à un mois perdu pour une erreur de forme
+
+En location vide, certaines situations permettent de réduire le préavis habituel de trois mois à un mois : zone tendue, mutation professionnelle, perte d'emploi, RSA, AAH et autres cas légalement prévus.
+
+- Piège : oublier d'indiquer le motif ou de joindre le justificatif exigé.
+- Conséquence : le préavis de trois mois peut rester applicable.
+- Défense : mentionner expressément le fondement du préavis réduit et joindre la preuve lorsqu'elle est requise.
+
+31\. Le préavis facturé après l'arrivée d'un nouveau locataire
+
+- Droit : lorsque le bailleur accepte qu'un nouveau locataire occupe le logement avant la fin du préavis, l'ancien locataire n'a normalement plus à payer à compter de cette reprise.
+- Défense : conserver les preuves de la nouvelle occupation et de la date d'effet du nouveau bail.
+
+32\. Le faux congé pour vendre
+
+- Piège : demander au locataire de partir parce que le propriétaire souhaite vendre, alors qu'une vente occupée reste possible.
+- Droit : la volonté de vendre ne met pas fin au bail par elle-même. Le congé pour vendre doit respecter des conditions précises, avec un droit de préemption du locataire dans certains cas.
+- Défense : contrôler le motif, la date d'échéance et le formalisme du congé.
+
+33\. Le faux congé pour reprise personnelle
+
+Un bailleur prétend vouloir habiter le logement ou y installer un proche, alors que l'objectif réel serait de relouer plus cher.
+
+\- Défense : vérifier l'identité du bénéficiaire de la reprise, le caractère réel et sérieux du projet, puis conserver les preuves d'une éventuelle relocation frauduleuse.
+
+34\. Le congé envoyé trop tard par le propriétaire
+
+- Droit : en règle générale, le bailleur d'un logement vide doit notifier son congé au moins six mois avant l'échéance ; pour un meublé classique, trois mois.
+- Piège : recevoir un courrier laissant seulement quelques semaines pour partir.
+- Défense : ne pas confondre la date d'envoi et les règles de réception ou de notification.
+
+35\. Le locataire protégé dont les droits sont ignorés
+
+Certains locataires âgés disposant de faibles ressources bénéficient de protections particulières contre le congé, notamment selon la situation du propriétaire.
+
+\- Défense : contrôler l'âge, les ressources et les exceptions avant d'accepter un congé pour vente ou reprise.
+
+36\. La clause de solidarité oubliée après une colocation
+
+- Piège : quitter l'appartement, rendre les clés et continuer à répondre des impayés du colocataire resté sur place.
+- Droit : en colocation soumise à la loi de 1989, la solidarité d'un colocataire sortant prend en principe fin à l'arrivée d'un remplaçant ou, à défaut, au plus tard six mois après la prise d'effet de son congé.
+- Défense : vérifier la clause, la date du congé et l'existence d'un remplaçant.
+
+37\. Le propriétaire qui menace d'expulser immédiatement
+
+- Piège : utiliser le changement de serrure, la coupure d'électricité ou l'intimidation pour faire partir un occupant.
+- Droit : une expulsion ne peut normalement pas être réalisée par le propriétaire lui-même.
+- Défense : conserver les preuves, contacter rapidement les autorités en cas d'expulsion illégale et engager les recours adaptés.
+
+38\. Le commandement de payer ignoré
+
+- Piège : penser qu'un acte de commissaire de justice n'est qu'une relance ordinaire.
+- Délai critique : pour un commandement de payer visant la clause résolutoire d'un bail d'habitation soumis aux règles actuelles, le délai est généralement de six semaines.
+- Défense : contrôler immédiatement le décompte, reprendre les paiements possibles et demander de l'aide ou des délais sans attendre l'audience.
+
+39\. L'absence à l'audience d'expulsion
+
+- Piège : ne pas se présenter parce que le propriétaire a annoncé qu'un accord était possible.
+- Défense : comparaître, produire les justificatifs et solliciter les délais légaux appropriés. Une négociation en cours n'annule pas automatiquement l'audience.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+service-public.fr
+
++3
+
+
+
+## 3. Entretien, travaux, décence et jouissance du logement
+
+40\. L'humidité systématiquement imputée au locataire
+
+Le propriétaire accuse le locataire de mal aérer alors que l'origine peut être une infiltration, un pont thermique ou une ventilation défaillante.
+
+- Défense : faire documenter l'origine du problème, relever humidité et températures, photographier et signaler par écrit.
+- Point important : une condensation liée à l'usage et une infiltration structurelle n'engagent pas nécessairement la même responsabilité.
+
+41\. Les infiltrations de toiture jamais réparées
+
+- Piège : invoquer systématiquement la copropriété ou une assurance pour ne rien entreprendre.
+- Défense : écrire au bailleur, avertir le syndic si nécessaire et demander une recherche de cause puis un calendrier de réparation.
+
+42\. Les réparations importantes présentées comme de l'entretien locatif
+
+Exemples : remplacement d'une chaudière vétuste, installation électrique dangereuse, canalisations anciennes ou structure défaillante.
+
+- Droit : l'entretien courant et les petites réparations locatives sont distincts des travaux relevant du propriétaire.
+- Défense : identifier la cause, l'âge de l'installation et les réparations précisément prévues par le décret n° 87-712.
+
+43\. Les appareils vétustes facturés au locataire
+
+Un radiateur ou un chauffe-eau tombe en panne après de nombreuses années, et le propriétaire réclame son remplacement intégral.
+
+\- Défense : faire établir si la panne provient de l'usure, d'un défaut d'entretien courant ou d'une mauvaise utilisation.
+
+44\. L'absence de chauffage ou d'eau chaude utilisée comme moyen de pression
+
+- Piège : laisser traîner une panne pour contraindre un locataire à accepter un arrangement.
+- Défense : mise en demeure écrite, preuves de températures, diagnostics professionnels et, si nécessaire, intervention judiciaire rapide.
+
+45\. Le logement indécent loué malgré son état
+
+Insuffisance de surface, danger électrique, mauvaise ventilation, infiltration, absence d'équipements essentiels ou performance énergétique insuffisante.
+
+- Droit : en métropole, les logements G ne satisfont plus au critère de décence énergétique pour les baux signés, renouvelés ou tacitement reconduits depuis 2025. La restriction concernera F à partir de 2028 puis E en 2034.
+- Défense : constituer un dossier technique et engager les démarches de mise en conformité.
+- Attention : le classement G ne provoque pas automatiquement une expulsion du locataire ni l'annulation du bail.
+
+46\. Les travaux promis oralement jamais effectués
+
+- Piège : accepter de louer sur la promesse de travaux ultérieurs qui disparaît ensuite.
+- Défense : faire préciser les travaux, délais, entreprises et éventuelles compensations dans un engagement écrit.
+
+47\. L'intrusion du propriétaire dans le logement
+
+Le propriétaire dispose d'un double des clés et entre pour vérifier l'entretien ou faire visiter.
+
+- Droit : conserver un double n'autorise pas le bailleur à entrer sans l'accord du locataire.
+- Défense : documenter les entrées et rappeler par écrit le droit à la jouissance paisible du logement.
+
+48\. Les visites imposées à n'importe quelle heure
+
+- Piège : imposer des visites quotidiennes, le dimanche ou en l'absence du locataire.
+- Droit : les visites pour vente ou relocation sont encadrées ; une clause imposant des visites plus de deux heures les jours ouvrables ou les jours fériés est interdite.
+- Défense : convenir par écrit d'horaires raisonnables.
+
+49\. Les travaux interminables sans compensation
+
+- Droit : si les travaux relevant du bailleur durent plus de 21 jours, une diminution de loyer proportionnée à la durée des travaux et à la partie du logement dont le locataire est privé est prévue.
+- Défense : conserver les dates réelles d'intervention et les preuves des pièces inutilisables.
+
+50\. Le locataire qui arrête seul de payer son loyer pour protester
+
+- Piège : créer une dette locative et risquer une procédure d'expulsion alors qu'on réclame des travaux légitimes.
+- Règle : le locataire ne doit pas décider unilatéralement de suspendre le loyer. Une décision judiciaire peut être nécessaire pour en ordonner la consignation ou la réduction.
+
+51\. Les nuisibles utilisés pour déresponsabiliser le bailleur
+
+Punaises de lit, cafards, rongeurs ou infestations préexistantes.
+
+- Droit : le propriétaire doit délivrer un logement répondant aux exigences légales, notamment exempt d'infestation d'espèces nuisibles et parasites.
+- Attention : la responsabilité peut varier si une faute du locataire est démontrée.
+- Défense : signaler immédiatement les nuisibles et faire établir leur présence.
+
+52\. L'assurance utilisée comme prétexte pour repousser les réparations
+
+- Piège : le bailleur, le syndic et les assureurs se renvoient la responsabilité.
+- Défense : distinguer l'indemnisation des dommages, la recherche de leur cause et l'obligation de faire cesser cette cause.
+
+53\. Le dégât des eaux déclaré trop tard
+
+- Délai : le contrat d'assurance prévoit généralement une déclaration dans les cinq jours ouvrés suivant la connaissance du sinistre.
+- Défense : déclarer sans attendre que le responsable soit identifié ; faire un constat amiable si possible.
+- Précision : un retard ne suffit pas toujours à justifier un refus d'indemnisation : les conditions légales de la déchéance doivent être examinées.
+
+54\. La recherche de fuite facturée à la mauvaise personne
+
+- Piège : faire régler par l'occupant une recherche de fuite dans une canalisation commune ou une installation dont il n'est pas responsable.
+- Défense : déterminer la nature privative ou commune de l'installation, puis contrôler le règlement de copropriété et les conventions d'assurance applicables.
+
+55\. La moisissure repeinte pour dissimuler le problème
+
+- Piège : repeindre juste avant une visite ou un état des lieux sans réparer l'infiltration.
+- Défense : consulter l'historique des sinistres lorsqu'il est accessible, inspecter les endroits peu visibles et faire établir l'origine technique.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+service-public.gouv.fr
+
++4
+
+
+
+## 4. Copropriété : syndic, assemblées générales et parties communes
+
+### E. Gestion du syndic et décisions collectives
+
+56\. Les factures de travaux insuffisamment contrôlées
+
+- Piège : devis peu détaillés, avenants successifs, prestations déjà comprises dans un contrat d'entretien.
+- Défense : demander les devis, contrats, factures et justificatifs comptables accessibles aux copropriétaires ou au conseil syndical.
+- Attention : une facture élevée n'est pas nécessairement irrégulière ; il faut démontrer le problème.
+
+57\. Les honoraires supplémentaires du syndic
+
+- Piège : facturation de prestations qui devraient relever de la gestion courante.
+- Défense : confronter chaque montant au contrat type de syndic et aux prestations pouvant légalement faire l'objet d'honoraires particuliers.
+
+58\. Les travaux présentés comme urgents pour éviter un vote
+
+- Piège : qualifier une opération de travaux urgents pour la commander sans autorisation préalable de l'assemblée générale.
+- Droit : le syndic peut agir sans vote préalable pour les travaux réellement nécessaires à la sauvegarde de l'immeuble.
+- Défense : demander la justification de l'urgence, les devis et les mesures prises pour informer les copropriétaires.
+
+59\. Les charges réparties selon une mauvaise clé
+
+Un copropriétaire paie des dépenses ne relevant pas de la bonne catégorie de charges.
+
+- Droit : certaines charges dépendent des tantièmes, d'autres de l'utilité objective des équipements, selon les règles applicables.
+- Piège : croire qu'il suffit de ne jamais utiliser l'ascenseur pour ne rien payer.
+- Défense : contrôler le règlement de copropriété et les clés de répartition.
+
+60\. La confusion entre approbation des comptes et contestation de ses charges personnelles
+
+- Piège : croire qu'une AG ayant approuvé les comptes rend automatiquement incontestable toute erreur imputée à son lot.
+- Défense : distinguer la contestation d'une décision collective de celle d'une erreur individuelle de décompte.
+
+61\. Le syndic qui refuse de communiquer les documents
+
+Contrats d'entretien, factures, pièces justificatives, règlement ou documents comptables.
+
+- Défense : utiliser les droits de consultation applicables à chaque document ; passer par le conseil syndical lorsqu'il dispose de pouvoirs d'accès plus étendus.
+- Attention : tous les documents ne sont pas nécessairement communicables selon les mêmes modalités.
+
+62\. Les résolutions ajoutées discrètement à l'assemblée générale
+
+- Piège : faire voter une décision non inscrite régulièrement à l'ordre du jour.
+- Droit : une décision qui devait figurer à l'ordre du jour peut être annulée si elle a été irrégulièrement adoptée.
+- Défense : conserver convocation, ordre du jour, annexes et procès-verbal.
+
+63\. La convocation envoyée trop tard
+
+- Droit : une convocation d'AG doit normalement respecter un délai minimal de 21 jours, sauf exceptions.
+- Défense : vérifier les dates de notification, pas seulement la date imprimée sur la convocation.
+
+64\. Le vote favorable qui prive d'un recours classique
+
+- Piège : voter pour une résolution puis vouloir la faire annuler après avoir découvert son coût.
+- Droit : le recours en annulation est normalement ouvert aux copropriétaires opposants ou défaillants, dans les conditions légales.
+- Défense : ne pas voter favorablement à une résolution dont la régularité ou le contenu est sérieusement contesté sans avoir évalué les conséquences.
+
+65\. Le délai de deux mois raté après une AG
+
+C'est l'un des pièges procéduraux les plus importants.
+
+- Délai : deux mois à partir de la notification régulière du procès-verbal.
+- Conséquence : une décision irrégulière peut devenir définitive faute de recours à temps.
+- Défense : saisir le tribunal judiciaire avec avocat lorsque l'action est recevable. Une simple contestation par e-mail au syndic ne suffit pas.
+
+66\. Le procès-verbal jamais notifié
+
+- Piège : croire que l'absence de notification rend définitivement impossible la mise en œuvre des décisions.
+- Droit : l'absence de notification régulière modifie le régime des délais de contestation ; une action peut notamment rester possible dans le délai de droit commun applicable.
+- Défense : obtenir la preuve de notification et examiner rapidement les irrégularités.
+
+67\. Le syndic qui ne fait pas exécuter les décisions votées
+
+- Piège : travaux votés mais jamais commandés, sinistres persistants, relances sans résultat.
+- Défense : réunir PV, mises en demeure, conséquences du retard et, si nécessaire, rechercher la responsabilité du syndic ou du syndicat selon leurs obligations respectives.
+
+68\. Le conseil syndical qui décide à la place de l'AG
+
+- Piège : présenter une décision comme définitivement approuvée parce que quelques membres du conseil syndical sont d'accord.
+- Droit : les pouvoirs du conseil syndical ne sont pas illimités ; certaines compétences peuvent lui être déléguées dans des conditions légales précises.
+- Défense : demander la résolution ou le mandat autorisant la décision.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++4
+
+
+
+### F. Parties communes, travaux et conflits entre copropriétaires
+
+69\. Le jardin privatif qui n'appartient pas réellement au propriétaire
+
+- Piège : acheter un appartement avec « jardin privatif » en croyant être propriétaire du terrain.
+- Droit : il peut simplement s'agir d'une partie commune à jouissance privative.
+- Conséquence : les possibilités de construire, clôturer, creuser ou aménager sont différentes.
+- Défense : vérifier le règlement de copropriété et l'état descriptif de division.
+
+70\. L'occupation abusive d'une partie commune
+
+Un voisin privatise un palier, un couloir, des combles ou un local collectif.
+
+\- Défense : vérifier les droits attachés aux lots, signaler au syndic et demander la cessation de l'occupation irrégulière.
+
+71\. Les travaux réalisés sans autorisation de copropriété
+
+Exemples : percement d'un mur porteur, modification de façade, installation sur toiture commune.
+
+- Piège : croire qu'une autorisation de la mairie suffit.
+- Droit : une autorisation d'urbanisme ne dispense pas d'obtenir les autorisations de copropriété nécessaires.
+- Défense : demander les résolutions d'AG autorisant les travaux.
+
+72\. La terrasse ou le balcon transformé sans autorisation
+
+Pergola, véranda, fermeture, climatiseur, modification de garde-corps.
+
+- Piège : se croire libre de modifier une partie commune parce qu'on en a la jouissance exclusive.
+- Défense : déterminer si l'aménagement affecte la structure, l'aspect extérieur ou les droits collectifs.
+
+73\. Le changement de revêtement de sol nuisible aux voisins
+
+Moquette remplacée par du carrelage, augmentation des bruits d'impact.
+
+- Droit : un changement de revêtement peut devenir problématique s'il dégrade l'isolation acoustique au point de créer un trouble anormal ou s'il contrevient au règlement.
+- Défense : faire constater les nuisances et rechercher les obligations acoustiques applicables.
+
+74\. Les travaux collectifs imposés sans vérifier leur financement
+
+Ravalement, toiture, isolation, ascenseur.
+
+- Piège : approuver des travaux sans comprendre les appels de fonds, emprunts, subventions ou honoraires supplémentaires.
+- Défense : demander un calendrier financier et vérifier les conséquences d'un emprunt collectif ou des appels de fonds.
+
+75\. Le fonds de travaux pris pour une épargne récupérable
+
+- Piège : croire que sa quote-part du fonds de travaux sera automatiquement remboursée lors de la vente.
+- Droit : les cotisations au fonds de travaux sont attachées aux lots et ne sont normalement pas remboursées par le syndicat au vendeur.
+- Défense : intégrer cet élément dans la négociation immobilière.
+
+76\. Les caméras dans les parties communes
+
+- Piège : caméras placées de manière à surveiller les allées et venues d'un occupant sans respecter les règles applicables.
+- Défense : vérifier les autorisations collectives, la finalité, les personnes ayant accès aux images et les règles de protection des données.
+
+77\. Le syndic qui invoque les parties privatives pour écarter toute responsabilité
+
+- Piège : un défaut de toiture ou une canalisation commune est présenté comme un problème exclusivement privé.
+- Défense : identifier précisément l'origine du dommage, la qualification des équipements et les obligations d'entretien.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service-Public.fr
+
++3
+
+
+
+## 5. Mitoyenneté, limites de propriété et droit de passage
+
+### G. Murs, clôtures et bornage
+
+78\. Le plan cadastral pris pour une preuve exacte des limites
+
+- Piège : construire une clôture en suivant simplement le tracé affiché sur le cadastre.
+- Droit : le cadastre n'établit pas à lui seul la limite juridique exacte des propriétés.
+- Défense : obtenir le procès-verbal de bornage, les titres et, si nécessaire, solliciter un géomètre-expert.
+
+79\. Le procès-verbal de bornage signé sans être compris
+
+- Piège : accepter une limite défavorable ou mal placée pour « arranger » le voisin.
+- Conséquence : un bornage amiable contradictoire signé peut fixer définitivement la limite.
+- Défense : examiner le plan et les titres avant de signer.
+
+80\. Le voisin qui déplace des bornes
+
+- Piège : modifier matériellement la limite apparente d'un terrain.
+- Défense : conserver plans, coordonnées et photographies ; faire constater les déplacements et envisager les suites civiles ou pénales appropriées.
+
+81\. Le mur supposé mitoyen qui ne l'est pas
+
+- Piège : partager des travaux concernant un mur privatif ou intervenir sur un ouvrage appartenant exclusivement au voisin.
+- Défense : examiner titres, situation du mur et présomptions légales de mitoyenneté.
+
+82\. Les travaux sur mur mitoyen réalisés sans accord
+
+- Droit : les réparations d'un mur mitoyen doivent normalement être décidées en commun, hors urgence.
+- Piège : un voisin commande seul des travaux coûteux et réclame ensuite la moitié.
+- Défense : demander la preuve de l'accord et de la nécessité des travaux.
+
+83\. Le mur de soutènement présenté comme une clôture ordinaire
+
+- Piège : appliquer automatiquement la règle du partage des frais d'un mur mitoyen.
+- Défense : rechercher à qui appartient l'ouvrage, quelles terres il retient et quelle est sa fonction exacte.
+
+84\. La clôture construite en empiétant légèrement
+
+- Piège : avancer quelques centimètres sur le terrain voisin, volontairement ou par erreur.
+- Conséquence : même un faible empiètement peut conduire à une demande de suppression de l'ouvrage.
+- Défense : faire borner avant les travaux litigieux.
+
+85\. La renonciation à la mitoyenneté pour éviter les frais
+
+- Piège : croire qu'un propriétaire peut abandonner ses droits à tout moment afin de ne plus payer l'entretien.
+- Droit : cette renonciation est encadrée et n'est notamment pas possible dans certaines configurations, comme lorsqu'un bâtiment s'appuie sur le mur ou que celui-ci retient des terres.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++2
+
+
+
+### H. Servitudes et droits de passage
+
+86\. Le voisin qui affirme disposer d'un droit de passage « depuis toujours »
+
+- Piège : considérer qu'un usage ancien suffit automatiquement à créer une servitude conventionnelle de passage.
+- Droit : une servitude discontinue de passage ne s'acquiert en principe pas par simple prescription trentenaire.
+- Défense : demander le titre constitutif et vérifier l'existence d'un éventuel enclavement ou autre fondement légal.
+
+87\. Le terrain prétendument enclavé
+
+- Piège : demander un passage gratuit ou à l'endroit le plus commode alors qu'un accès suffisant existe déjà.
+- Droit : l'enclavement et la simple difficulté d'accès sont juridiquement distincts.
+- Défense : rechercher les accès existants et la situation des parcelles.
+
+88\. Le passage imposé au mauvais endroit
+
+- Droit : en cas d'enclave, le tracé doit respecter les règles du passage le plus court et du moindre dommage, avec des dispositions spécifiques lorsque l'enclave résulte d'une division de propriété.
+- Défense : faire expertiser les tracés et leurs contraintes.
+
+89\. L'élargissement unilatéral du droit de passage
+
+- Piège : transformer un passage piéton en voie automobile, multiplier les véhicules ou modifier fortement son usage.
+- Défense : confronter les usages au titre, à la destination du fonds et aux modalités d'exercice de la servitude.
+
+90\. Les réseaux enterrés installés au titre d'un simple passage
+
+- Piège : considérer qu'une servitude de passage autorise automatiquement la pose de canalisations, câbles ou raccordements.
+- Défense : contrôler le titre et les droits spécifiquement accordés.
+
+91\. L'entretien du passage refacturé abusivement
+
+- Droit : les modalités d'entretien dépendent notamment de l'usage, des conventions existantes et des règles légales.
+- Défense : documenter les utilisateurs, les dommages causés et les accords sur le partage des frais.
+
+92\. La servitude oubliée lors de la vente
+
+- Piège : acheter un terrain traversé par un droit de passage dont l'existence ou l'étendue n'a pas été suffisamment expliquée.
+- Défense : vérifier les titres, les actes publiés et la situation sur place avant de signer.
+
+93\. L'ancien droit de passage dont la nécessité a disparu
+
+- Droit : certaines servitudes peuvent s'éteindre lorsqu'elles ne sont plus justifiées ou dans les conditions de non-usage prévues par la loi.
+- Défense : éviter de supprimer unilatéralement le passage ; faire constater juridiquement son extinction.
+
+94\. Le « tour d'échelle » utilisé pour envahir le terrain voisin
+
+- Piège : poser un échafaudage, entreposer du matériel ou pénétrer chez le voisin sans accord, au motif de réparer sa façade.
+- Droit : ce passage temporaire n'est pas une autorisation générale d'occupation.
+- Défense : exiger un accord écrit sur l'emprise, les dates, les horaires, les mesures de sécurité et la remise en état. En cas de refus injustifié, une intervention judiciaire peut être possible.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++2
+
+
+
+## 6. Voisinage : nuisances, végétation, constructions et écoulement des eaux
+
+### I. Conflits de voisinage
+
+95\. Le mythe selon lequel tout bruit est autorisé avant 22 h
+
+- Droit : un bruit peut constituer un trouble anormal le jour comme la nuit.
+- Défense : tenir un journal des nuisances, réunir des témoignages et faire constater les faits.
+- Attention : tous les bruits gênants ne sont pas juridiquement anormaux.
+
+96\. Le harcèlement par nuisances répétées
+
+Portes claquées volontairement, coups dans les murs, comportements destinés à intimider.
+
+- Défense : documenter les épisodes avec dates, témoins, messages et constatations.
+- Piège : répondre par les mêmes comportements, ce qui peut brouiller les responsabilités.
+
+97\. Le locataire bruyant dont le propriétaire refuse de s'occuper
+
+- Droit : un bailleur informé des troubles causés par son locataire doit entreprendre les démarches relevant de ses obligations pour les faire cesser.
+- Défense : lui notifier les nuisances avec les preuves disponibles.
+
+98\. Les nuisances olfactives considérées comme insignifiantes
+
+Fumées, odeurs persistantes, déchets, activités professionnelles.
+
+- Défense : caractériser la fréquence, l'intensité, la durée et la provenance des nuisances.
+- Attention : le contexte local et la préexistence régulière de certaines activités peuvent limiter les recours.
+
+99\. Les arbres plantés trop près de la limite
+
+- Règle générale, sauf règles locales particulières : une plantation dépassant 2 m de hauteur doit se trouver à au moins 2 m de la limite ; pour une hauteur de 2 m ou moins, la distance minimale est de 50 cm.
+- Piège : ignorer les règles locales ou les situations de prescription trentenaire.
+- Défense : mesurer correctement et consulter les règles applicables.
+
+100\. Les branches qui dépassent sur le terrain voisin
+
+- Droit : le voisin peut généralement exiger que le propriétaire coupe les branches qui avancent chez lui.
+- Piège : couper soi-même ces branches sans droit.
+- Distinction : les racines, ronces et brindilles avançant sur son terrain sont soumises à un régime différent.
+
+101\. Les écoulements d'eau artificiellement aggravés
+
+- Droit : un terrain inférieur doit normalement recevoir les eaux qui s'écoulent naturellement depuis un terrain supérieur.
+- Piège : utiliser cette règle pour justifier un drainage ou un aménagement augmentant artificiellement le ruissellement.
+- Défense : démontrer la modification et l'aggravation des écoulements.
+
+102\. Les eaux de toiture rejetées sur la parcelle voisine
+
+- Piège : gouttières, descentes d'eau ou chéneaux orientés vers le terrain voisin.
+- Défense : examiner l'article 681 du Code civil, les ouvrages existants et les éventuelles servitudes.
+
+103\. Les fenêtres créant des vues irrégulières
+
+- Règle générale : les vues droites doivent respecter une distance de 1,90 m et les vues obliques une distance de 60 cm, sous réserve des exceptions applicables.
+- Défense : distinguer une véritable vue d'un simple jour et vérifier le point de mesure ainsi que les servitudes existantes.
+
+104\. Le permis de construire brandi comme autorisation de tout faire
+
+- Piège : un voisin affirme que son permis lui donne le droit d'empiéter ou de méconnaître une servitude privée.
+- Droit : une autorisation d'urbanisme ne supprime pas les droits civils des tiers.
+- Défense : distinguer le recours administratif contre l'autorisation et l'action civile concernant la propriété ou les nuisances.
+
+105\. Le panneau de chantier posé discrètement
+
+- Piège : découvrir trop tard le projet qui porte atteinte à ses intérêts.
+- Délai : sous les règles applicables en 2026, le recours contentieux des tiers contre une autorisation régulièrement affichée est normalement de deux mois à compter du premier jour de l'affichage continu requis.
+- Point vicieux : certaines notifications du recours doivent être réalisées dans les quinze jours francs suivant son dépôt, sous peine d'irrecevabilité.
+- Défense : photographier le panneau, consulter le dossier en mairie et contrôler immédiatement les délais.
+
+106\. La prescription invoquée pour couvrir une construction irrégulière
+
+- Piège : croire qu'après quelques années une construction devient automatiquement légale.
+- Droit : les délais pénaux, civils et administratifs sont distincts ; leur expiration n'efface pas nécessairement toutes les conséquences de l'irrégularité.
+- Défense : identifier précisément l'action envisageable plutôt que raisonner sur un délai unique.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++6
+
+
+
+## 7. Achat immobilier : les pièges à vérifier avant de devenir propriétaire
+
+107\. Les travaux votés avant la vente mais payables après. Vérifier les PV d'AG, appels de fonds et stipulations de l'acte. La répartition entre vendeur et acquéreur dépend notamment de l'exigibilité des sommes et des accords contractuels.
+
+108\. La copropriété financièrement fragile. Des charges apparemment faibles peuvent masquer de gros impayés, une trésorerie insuffisante ou des fournisseurs non payés. Demander les documents financiers, l'état des impayés et le plan pluriannuel de travaux.
+
+109\. Le lot vendu avec une annexe qui n'est pas juridiquement privative. Cave, parking, combles, terrasse ou jardin simplement mis à disposition. Vérifier l'état descriptif de division et les titres.
+
+110\. La superficie Carrez incorrecte. En copropriété, une superficie inférieure de plus de 5 % à celle annoncée peut permettre de demander une diminution du prix, dans les conditions légales. Le délai d'action est d'un an à compter de l'acte authentique.
+
+111\. Les nuisances de voisinage dissimulées. Bruit industriel, conflits récurrents, odeurs, travaux prévus. Effectuer plusieurs visites à des horaires différents et poser des questions écrites précises.
+
+112\. Les infiltrations temporairement maquillées. Travaux cosmétiques, meubles placés devant les zones humides, peinture fraîche. Faire inspecter les zones suspectes et demander les informations disponibles sur les sinistres antérieurs.
+
+113\. La condition suspensive de prêt mal rédigée. Montant, durée, taux maximal, date limite et justificatifs de refus. Le risque est de perdre une protection contractuelle en demandant un financement non conforme à la promesse.
+
+114\. Le délai de rétractation de dix jours mal calculé. Pour l'acquéreur non professionnel d'un logement, le délai légal démarre selon les conditions de notification et de remise des documents. En copropriété, l'absence de certains documents obligatoires peut en modifier le point de départ.
+
+115\. Les autorisations d'urbanisme absentes pour des travaux anciens. Extension, véranda, combles transformés, changement de destination. Demander les autorisations, déclarations d'achèvement et éléments de conformité disponibles.
+
+116\. Le vice caché opposé à la clause d'exonération de garantie. Une clause de vente en l'état ou d'exonération ne protège pas nécessairement un vendeur qui connaissait un défaut et l'a dissimulé. Il faut cependant pouvoir prouver les conditions de l'action, notamment l'antériorité et le caractère caché du défaut.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++2
+
+
+
+## 8. Les délais critiques à inscrire dans son calendrier
+
+C'est la partie à conserver en priorité.
+
+| Situation                                                           | Délai ou échéance                                             | Risque                          |
+| ------------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------- |
+| Compléter un état des lieux d'entrée                                | 10 jours calendaires                                          | Défauts non consignés           |
+| Défauts du chauffage à l'entrée                                     | 1er mois de chauffe                                           | Preuve plus difficile           |
+| Surface absente du bail                                             | Mise en demeure dans le mois suivant la signature             | Perte du recours spécial        |
+| Surface surestimée de plus de 5 %                                   | Action dans les 4 mois de la demande initiale, faute d'accord | Forclusion                      |
+| Contester un complément de loyer soumis au dispositif spécifique    | CDC sous 3 mois après signature                               | Action spéciale compromise      |
+| Dépôt de garantie                                                   | 1 ou 2 mois après restitution des clés, selon le cas          | Retenue prolongée               |
+| Révision annuelle du loyer                                          | 1 an pour le bailleur                                         | Révision annuelle perdue        |
+| Rappel de loyers ou charges locatives                               | En principe 3 ans                                             | Prescription                    |
+| Congé locataire, logement vide                                      | Généralement 3 mois ; parfois 1 mois                          | Loyers supplémentaires          |
+| Congé locataire, meublé classique                                   | 1 mois                                                        | Loyers supplémentaires          |
+| Congé bailleur, logement vide                                       | En principe 6 mois avant échéance                             | Congé irrégulier                |
+| Congé bailleur, meublé classique                                    | En principe 3 mois avant échéance                             | Congé irrégulier                |
+| Commandement de payer locatif relevant du régime actuel             | En principe 6 semaines                                        | Clause résolutoire et procédure |
+| Déclarer un dégât des eaux                                          | Au moins 5 jours ouvrés prévus par le contrat                 | Difficulté d'indemnisation      |
+| Convocation d'AG de copropriété                                     | En principe 21 jours avant                                    | Irrégularité                    |
+| Contester une décision d'AG régulièrement notifiée                  | 2 mois                                                        | Décision définitive             |
+| Recours contentieux du tiers contre un permis régulièrement affiché | En principe 2 mois                                            | Irrecevabilité                  |
+| Notification d'un recours d'urbanisme aux destinataires requis      | 15 jours francs à compter du dépôt                            | Irrecevabilité                  |
+| Rétractation d'un achat immobilier résidentiel                      | 10 jours selon le point de départ légal                       | Engagement définitif            |
+| Erreur de superficie Carrez de plus de 5 %                          | 1 an après l'acte authentique                                 | Action perdue                   |
+
+Ces délais ne sont pas interchangeables. Le point de départ et les causes de suspension ou d'interruption doivent être vérifiés pour chaque procédure. Certaines règles particulières ne concernent que la résidence principale ou un type précis de contrat.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
++4
+
+
+
+## 9. Les pièges procéduraux transversaux
+
+Voici les erreurs qui peuvent faire perdre un litige même lorsqu'on a raison sur le fond.
+
+117\. Envoyer une mise en demeure et croire qu'elle interrompt automatiquement la prescription. Une simple lettre recommandée ne suffit généralement pas à interrompre une prescription civile. Il faut examiner les actes interruptifs ou suspensifs prévus par la loi.
+
+118\. Saisir le mauvais interlocuteur. Une mise en demeure adressée au syndic ne remplace pas nécessairement une action contre le syndicat des copropriétaires ; une réclamation à l'agence ne règle pas toujours la question de la qualité du bailleur.
+
+119\. Confondre conciliation et recours juridictionnel. Une tentative amiable peut être obligatoire, mais elle ne remplace pas une saisine du tribunal lorsqu'un délai de forclusion impose de saisir le juge.
+
+120\. Signer un accord de conciliation trop large. Un accord qui contient une renonciation définitive à certaines prétentions peut empêcher de revenir sur celles-ci. Lire précisément l'étendue des concessions.
+
+121\. N'avoir aucune preuve de réception. Un courrier imprimé, même daté, ne prouve pas à lui seul sa remise au destinataire. Conserver accusés de réception, significations et récépissés.
+
+122\. Fournir seulement des captures d'écran incomplètes. Conserver les conversations et documents originaux, avec dates, expéditeurs, pièces jointes et contexte.
+
+123\. Accepter un devis comme preuve incontestable du dommage. Un devis peut justifier un coût estimé, mais l'imputabilité, la nécessité et le caractère raisonnable des travaux restent contestables.
+
+124\. Faire réaliser les réparations avant toute expertise. Pour un sinistre, sécuriser les lieux est prioritaire, mais il faut préserver les preuves avant les remises en état définitives lorsque c'est possible.
+
+125\. Signer une reconnaissance de dette sans vérifier le détail. Ne pas reconnaître globalement des charges, travaux ou loyers contestés sans décompte précis et vérification des périodes concernées.
+
+126\. Accepter une solution orale sans trace. Un arrangement verbal peut être valable, mais sa preuve peut devenir difficile. Formaliser les dates, montants, obligations et renonciations.
+
+## 10. Méthode de défense : quoi faire concrètement ?
+
+1\. Constituer un dossier de preuves
+
+Contrat, acte de vente, règlement, photos originales, correspondances, factures, rapports techniques, chronologie et preuves de remise.
+
+2\. Identifier immédiatement le délai applicable
+
+Rechercher son point de départ, l'acte nécessaire pour agir et la date limite réelle. Ajouter une alerte suffisamment en amont.
+
+3\. Réclamer par écrit
+
+Exposer les faits datés, les obligations invoquées, la demande exacte et un délai raisonnable de réponse. Employer le mode de notification légalement requis.
+
+4\. Choisir le bon recours
+
+[ADIL](https://www.anil.org/?utm_source=chatgpt.com) pour une information juridique gratuite ; commission départementale de conciliation pour les litiges locatifs relevant de sa compétence ; conciliateur de justice pour les conflits adaptés ; juge des contentieux de la protection ou tribunal judiciaire selon l'affaire.
+
+5\. Ne pas se mettre soi-même en faute
+
+Ne pas retenir unilatéralement un loyer, empiéter chez le voisin, bloquer une servitude existante, déplacer une borne ou effectuer une expulsion privée.
+
+Pour les situations urgentes, il faut distinguer la procédure au fond d'un éventuel référé, qui peut permettre d'obtenir des mesures provisoires lorsque les conditions légales sont réunies.
+
+Les trois réflexes les plus protecteurs sont donc : conserver des preuves originales, surveiller les délais de forclusion et ne jamais considérer qu'une simple réclamation écrite préserve automatiquement une action en justice.

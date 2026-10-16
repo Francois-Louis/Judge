@@ -74,3 +74,15 @@ la [matrice exécution](../dom-003-annexes/dom-003-frictions-utilisateurs.md).
 
 Autres régimes locatifs, révision de loyer au fond, frais d'acte au fond,
 échéancier imposé, prescription calculée, reconnaissance de dette et envoi.
+
+## Complément des frictions logement — 16 octobre 2026
+
+Points 18, 38, 50, 125 de la [matrice logement](../dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Distinguer dernier loyer, dépôt, charges et travaux contestés ; aucune compensation ou suspension unilatérale. Ventiler chaque période avant reconnaissance de dette et relever si une reconnaissance a déjà été signée, pour examiner séparément son effet. Ne pas fabriquer ni proposer une reconnaissance globale. Commandement : lecture d'acte ENF-001, conditions de délais LOG-009, demande judiciaire LOG-010 ; signaler l'urgence sans reprendre la durée du texte utilisateur.
+
+- [ ] Le scénario complémentaire produit les distinctions, pièces et réserves ci-dessous, dans la borne de la story.
+
+Scénario **attendu, non exécuté** : Reconnaissance globale proposée alors que charges et dépôt sont contestés : produire détail des postes et questions avant engagement, sans signer ni affirmer une interruption de prescription.
+Les montants et délais du texte utilisateur ne sont pas validés ; appliquer
+les sources locales et la recette de la story avant toute livraison.

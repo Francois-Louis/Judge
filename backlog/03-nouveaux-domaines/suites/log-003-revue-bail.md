@@ -73,3 +73,15 @@ conserver lors des couches BASE-006.
 
 Social/conventionné, meublé, commercial, saisonnier, cautionnement au fond,
 calcul du loyer légal, négociation automatique, signature et envoi.
+
+## Complément des frictions logement — 16 octobre 2026
+
+Points 2, 4, 8 de la [matrice logement](../dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Durée courte : qualifier bailleur personne physique/morale et justification particulière avant d'expliquer la clause. Diagnostics : inventorier dates, versions, annexes, références vérifiables et cohérence sans certifier l'installation ni déclarer automatiquement le bail nul. Demander inventaire si le vide est contesté puis orienter LOG-021 ; les effets au fond d'un meublé ne sont pas absorbés par cette revue. Encadrement → LOG-013, surface → LOG-015, honoraires → LOG-016 ; la revue signale le besoin sans refaire ces tâches.
+
+- [ ] Le scénario complémentaire produit les distinctions, pièces et réserves ci-dessous, dans la borne de la story.
+
+Scénario **attendu, non exécuté** : Bail vide court, diagnostic périmé allégué et prélèvement imposé : restituer questions distinctes et annexes manquantes, sans validation générale de conformité.
+Les montants et délais du texte utilisateur ne sont pas validés ; appliquer
+les sources locales et la recette de la story avant toute livraison.

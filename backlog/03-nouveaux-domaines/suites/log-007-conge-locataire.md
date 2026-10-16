@@ -71,3 +71,15 @@ conserver lors des couches BASE-006.
 
 Autres régimes locatifs, désolidarisation ou départ d'un seul cotitulaire au
 fond, transmission du congé, signature et envoi.
+
+## Complément des frictions logement — 16 octobre 2026
+
+Points 28–31 ; section 8 de la [matrice logement](../dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Distinguer courriel, accord informel, dépôt postal, présentation et réception prouvée. Un recommandé non retiré ne reçoit pas une date de réception inventée ; vérifier autre voie de notification. Réduction alléguée : motif, territoire et pièce utile, sans dossier de santé. Relocation anticipée : demander date d'occupation et accord du bailleur avant d'expliquer les sommes ; aucun effet déduit de la seule remise des clés. LOG-020 garde le meublé et LOG-018 la solidarité du sortant.
+
+- [ ] Le scénario complémentaire produit les distinctions, pièces et réserves ci-dessous, dans la borne de la story.
+
+Scénario **attendu, non exécuté** : Congé par courriel puis recommandé non retiré, nouveau locataire annoncé : frise des faits et preuves à demander, sans fixer fin de préavis depuis l'envoi.
+Les montants et délais du texte utilisateur ne sont pas validés ; appliquer
+les sources locales et la recette de la story avant toute livraison.

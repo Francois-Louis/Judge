@@ -79,3 +79,15 @@ conserver lors des couches BASE-006.
 
 Autres régimes locatifs, rédaction ou dépôt de demande judiciaire, contestation
 de l'acte, délais pour quitter les lieux, budget global et envoi.
+
+## Complément des frictions logement — 16 octobre 2026
+
+Points 38–39 de la [matrice logement](../dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Vérifier version et dispositions transitoires du bail et du commandement, signification, stade, reprise du loyer et éléments de ressources strictement utiles. Négociation et audience restent distinctes ; ne pas annoncer suspension de clause depuis un échange amiable. Échéance et acte nécessaires doivent recevoir leurs propres sources ; LOG-010 prépare la demande identifiée et ENF-005 garde l'expulsion.
+
+- [ ] Le scénario complémentaire produit les distinctions, pièces et réserves ci-dessous, dans la borne de la story.
+
+Scénario **attendu, non exécuté** : Accord verbal annoncé avant audience après reprise du loyer courant : conserver audience comme événement à vérifier, demander preuve de l'accord et ne pas promettre suspension.
+Les montants et délais du texte utilisateur ne sont pas validés ; appliquer
+les sources locales et la recette de la story avant toute livraison.

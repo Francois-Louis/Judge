@@ -60,3 +60,15 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+## Complément des frictions logement — 16 octobre 2026
+
+Points 71–72, 104–106, 115 de la [matrice logement](dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Découper le recours d'un tiers contre une autorisation et l'examen de travaux anciens ou irréguliers. Pièces : décision et dossier, commune/parcelle, règles locales, qualité/intérêt du requérant, photos du panneau et continuité d'affichage, achèvement, recours déjà déposés et preuves des notifications. Sortie : chronologie sourcée, recevabilité à vérifier, acte requis et destinataires de chaque notification ; distinguer recours gracieux/contentieux, délais et effets selon version aux faits. Aucun délai calculé depuis une photo isolée ou la seule date du permis. Distinguer prescriptions pénale, civile et administrative, extinction d'une action et régularité du bâti. Autorisation publique, autorisation collective DOM-018 et droits privés DOM-020 ne se remplacent pas ; la vente reste DOM-017. Aucun recours public orienté vers une fiche de procédure civile générique.
+
+- [ ] Le futur découpage attribue à chaque tâche ses entrées, sortie, sources, limites et scénarios, y compris les voies urgentes distinctes.
+
+Scénarios **attendus, non exécutés** : Panneau photographié tardivement et recours déjà déposé sans preuve de notification : demander dossier et traces immédiatement, ne pas présumer délai ouvert ou recours recevable. Ancienne véranda sans pièce : absence d'autorisation à établir, sans régularité déduite de l'ancienneté.
+Les textes, versions, transitions, seuils et échéances seront vérifiés sur
+sources officielles lors des implémentations. Ce complément ne termine pas
+le cadrage, ne crée aucun plugin et n'exécute aucune démarche externe.

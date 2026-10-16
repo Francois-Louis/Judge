@@ -60,3 +60,15 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+## Complément des frictions logement — 16 octobre 2026
+
+Points 56, 123–124 ; relais 41–43, 49, 52–55 de la [matrice logement](dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Découper la revue de facture/devis/avenant, la conservation de preuve avant remise en état et la demande à l'entreprise responsable d'un désordre. Pièces : contrat, réception, photos originales, rapports, devis/factures et urgence. Sorties : rapprochement prestation/coût/accord et dossier contradictoire à préparer ; un devis ne prouve pas seul la nécessité ou l'imputabilité. Séparer mesures conservatoires et réparations définitives, sans retarder la sécurité. LOG-004/005 gardent la demande au bailleur ; DOM-018 la décision et les comptes de copropriété ; INS-017 l'assurance.
+
+- [ ] Le futur découpage attribue à chaque tâche ses entrées, sortie, sources, limites et scénarios, y compris les voies urgentes distinctes.
+
+Scénarios **attendus, non exécutés** : Fuite après travaux et devis élevé, remise en état prévue avant expertise : documenter état et sécurité, demander base contractuelle et préserver preuve sans attribuer automatiquement la responsabilité.
+Les textes, versions, transitions, seuils et échéances seront vérifiés sur
+sources officielles lors des implémentations. Ce complément ne termine pas
+le cadrage, ne crée aucun plugin et n'exécute aucune démarche externe.

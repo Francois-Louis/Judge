@@ -74,3 +74,15 @@ conserver lors des couches BASE-006.
 
 Autres régimes locatifs, diagnostic médical ou technique, audit énergétique,
 signalement déposé, décision administrative, indemnisation, saisine et envoi.
+
+## Complément des frictions logement — 16 octobre 2026
+
+Points 4, 40, 44–45, 50–51, 55 de la [matrice logement](../dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Qualifier urgence et danger, durée des pannes, infestation et cause technique restant à établir. Rechercher critères de décence énergétique et transitions aux dates du bail, selon territoire ; le classement fourni n'impose pas à lui seul départ ou nullité. Distinguer faute alléguée, infestation préexistante et origine inconnue. Préserver preuves avant traitement ou peinture, sans différer une mise en sécurité. La demande au bailleur ne conseille ni arrêt de paiement ni consignation improvisée ; dette éventuelle LOG-008 et voie judiciaire à découper selon objectif. Aucun diagnostic médical demandé.
+
+- [ ] Le scénario complémentaire produit les distinctions, pièces et réserves ci-dessous, dans la borne de la story.
+
+Scénario **attendu, non exécuté** : Photos de moisissure repeinte et nuisibles signalés après entrée, DPE ancien : demander pièces techniques utiles et dates, préparer signalement factuel sans responsabilité automatique.
+Les montants et délais du texte utilisateur ne sont pas validés ; appliquer
+les sources locales et la recette de la story avant toute livraison.

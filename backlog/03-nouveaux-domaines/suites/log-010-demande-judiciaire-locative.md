@@ -81,3 +81,15 @@ conserver lors des couches BASE-006. Suite distincte exigée par les points
 
 Autres régimes locatifs, appel ou autre recours, contestation d'exécution,
 demande de délai pour quitter, représentation, dépôt, signature et envoi.
+
+## Complément des frictions logement — 16 octobre 2026
+
+Points 39, 119 ; section 10 de la [matrice logement](../dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Préparer les pièces de la demande locative déjà bornée ; distinguer négociation, audience, acte de saisine et décision. Un échange sur un accord ne prouve pas annulation d'audience. Vérifier compétence, représentation, préalable et actes selon procédure ; aucune extension automatique vers annulation d'AG, recours de permis, référé de travaux ou contestation de tout congé. Ces voies doivent être découpées dans leur domaine avant implémentation.
+
+- [ ] Le scénario complémentaire produit les distinctions, pièces et réserves ci-dessous, dans la borne de la story.
+
+Scénario **attendu, non exécuté** : Bailleur annonce un arrangement mais convocation maintenue dans les pièces : préparer chronologie, demandes et questions au conseil sans conseiller l'absence.
+Les montants et délais du texte utilisateur ne sont pas validés ; appliquer
+les sources locales et la recette de la story avant toute livraison.

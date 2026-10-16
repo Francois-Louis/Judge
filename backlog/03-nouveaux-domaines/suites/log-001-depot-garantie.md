@@ -102,3 +102,15 @@ dépôt avant départ, contentieux et envoi. Aucun profil imposé ni plugin vide
 
 Issue de DOM-006, sans sélection ni implémentation. PILOTE-003 terminé après
 BASE-011 ; les limites de recette sont conservées dans son bilan.
+
+## Complément des frictions logement — 16 octobre 2026
+
+Points 12–18, 123 de la [matrice logement](../dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Distinguer absence d'état, versions contradictoires et refus de réalisation ; ne pas inférer automatiquement la charge de preuve. Pour chaque retenue, rapprocher vétusté, nécessité, imputabilité, coût et justificatif. Un devis sans travaux réalisés n'est ni automatiquement invalide ni preuve complète. Réserve de charges : demander motif, comptes et solde, sans conserver toute la somme par principe. Le dépôt ne remplace pas le dernier loyer ; dette distincte LOG-008. LOG-012 traite l'entrée, LOG-016 les frais amiables, LOG-023 le défaut ou retard de restitution et la majoration ; LOG-001 garde son exclusion de calcul de majoration/prescription.
+
+- [ ] Le scénario complémentaire produit les distinctions, pièces et réserves ci-dessous, dans la borne de la story.
+
+Scénario **attendu, non exécuté** : Devis de peinture sans facture, peinture ancienne et réserve de charges : séparer les trois questions et préparer demande de détail ; aucun remboursement garanti.
+Les montants et délais du texte utilisateur ne sont pas validés ; appliquer
+les sources locales et la recette de la story avant toute livraison.

@@ -74,3 +74,15 @@ conserver lors des couches BASE-006.
 
 Parc social/conventionné, meublé, forfait au fond, facture directe, assemblée
 de copropriété, saisine et envoi. Aucun montant légal ni échéance non sourcés.
+
+## Complément des frictions logement — 16 octobre 2026
+
+Points 17, 21–24, 26–27 de la [matrice logement](../dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Comparer provisions annoncées, dépenses antérieures accessibles et solde sans conclure à une fraude depuis le seul écart. Ventiler exercice, période et exigibilité, puis vérifier prescription et conditions d'un étalement ; distinguer cette demande de délais judiciaires LOG-009. Examiner taxe foncière, ordures et frais de gestion sur extrait fiscal utile masqué. Refus de pièces : préparer demande ciblée et vérifier modalités/durée de consultation. Contrat d'eau direct et plafonnement → DOM-021 ; fuite incluse dans les charges : conserver ici répartition et demande au bailleur. Forfait meublé → LOG-022 ; charges réelles meublées restent à découper, hors borne vide.
+
+- [ ] Le scénario complémentaire produit les distinctions, pièces et réserves ci-dessous, dans la borne de la story.
+
+Scénario **attendu, non exécuté** : Régularisation multi-exercices contenant fiscalité et frais de syndic sans factures : ventiler périodes et postes, demander justificatifs et examiner étalement sans déclarer tout le solde prescrit.
+Les montants et délais du texte utilisateur ne sont pas validés ; appliquer
+les sources locales et la recette de la story avant toute livraison.

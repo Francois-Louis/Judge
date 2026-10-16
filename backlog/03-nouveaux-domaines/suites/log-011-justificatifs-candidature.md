@@ -85,3 +85,15 @@ conserver lors des couches BASE-006.
 Social/conventionné, mobilité, autres usages/territoires, audit RGPD complet,
 collecte ou coffre-fort de dossiers, effacement exécuté, plainte, discrimination
 au fond, scoring de solvabilité et envoi.
+
+## Complément des frictions logement — 16 octobre 2026
+
+Points 7 de la [matrice logement](../dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Comparer séparément justificatifs du candidat et du garant à la liste du régime/date. Relevés bancaires, informations médicales ou crédit demandé : documenter la demande sans exiger leur téléchargement pour l'examiner. PRV-026 traite finalité et conservation, PRV-024 une demande d'effacement ciblée ; la liste locative ne décide pas seule de tout le traitement de données.
+
+- [ ] Le scénario complémentaire produit les distinctions, pièces et réserves ci-dessous, dans la borne de la story.
+
+Scénario **attendu, non exécuté** : Agence réclamant relevés complets et dossier médical au garant : analyser la liste de demandes, sans collecter ces pièces sensibles.
+Les montants et délais du texte utilisateur ne sont pas validés ; appliquer
+les sources locales et la recette de la story avant toute livraison.

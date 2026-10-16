@@ -161,3 +161,44 @@ fixtures et sorties, puis les échecs et vérifications impossibles. Sans
 source : fiche factuelle, pièces, questions et brouillon factuel, conclusion
 juridique réservée. README, versions, manifestes et NOTICE reflètent seulement
 ce qui a été effectivement livré.
+
+## Complément des frictions logement — 16 octobre 2026
+
+La [matrice logement](dom-006-frictions-utilisateurs.md) ajoute douze tâches
+aux onze propositions initiales, toutes `proposee`, priorité P2. Le tableau
+initial reste le relevé du cadrage ; le périmètre actuel comporte **23 suites**.
+Chaque ajout dépend de DOM-006, PILOTE-003, BASE-005, BASE-006 et LOG-001,
+et possède une référence métier locale distincte. Aucun nouveau rang de
+livraison n'est arrêté ; la première tranche LOG-001 reste inchangée.
+
+| Story | Skill proposé | Résultat borné | Dépendance métier |
+|---|---|---|---|
+| [LOG-012](../suites/log-012-etat-lieux-entree.md) | `entry-inventory-amendment` | Copie ou complément documenté de l'état d'entrée vide | LOG-001 |
+| [LOG-013](../suites/log-013-encadrement-loyer.md) | `rent-cap-review` | Niveau local, évolution et complément du loyer vide distingués | LOG-001 |
+| [LOG-014](../suites/log-014-revision-loyer.md) | `annual-rent-review` | Révision annuelle du vide, indice et régime énergétique | LOG-001 |
+| [LOG-015](../suites/log-015-surface-habitable.md) | `rental-area-claim` | Surface absente ou erronée du bail vide : demande et voies | LOG-001 |
+| [LOG-016](../suites/log-016-frais-agence.md) | `rental-agency-fee-review` | Frais de location vide ventilés et comparés aux sources | LOG-001 |
+| [LOG-017](../suites/log-017-conge-bailleur-vide.md) | `unfurnished-landlord-notice-review` | Congé bailleur vide : motif, notification et protection | LOG-001 |
+| [LOG-018](../suites/log-018-solidarite-colocation.md) | `flatshare-liability-review` | Solidarité après départ du colocataire en vide | LOG-001 |
+| [LOG-019](../suites/log-019-acces-visites.md) | `landlord-access-request` | Accès et visites contestés du bailleur en vide | LOG-001 |
+| [LOG-020](../suites/log-020-conge-locataire-meuble.md) | `furnished-tenant-notice-preparation` | Départ du locataire en meublé ordinaire | LOG-001 |
+| [LOG-021](../suites/log-021-qualification-meuble.md) | `furnished-status-review` | Qualification du meublé confrontée au mobilier réel | LOG-001 |
+| [LOG-022](../suites/log-022-forfait-charges-meuble.md) | `furnished-charge-package-review` | Supplément sur forfait du meublé ordinaire | LOG-001 |
+| [LOG-023](../suites/log-023-restitution-tardive-depot.md) | `late-deposit-return-claim` | Restitution tardive du dépôt vide et majoration éventuelle | LOG-001 |
+
+Chaque nouvelle référence et chaque skill est créé par sa seule story ;
+LOG-001 reste propriétaire de la qualification et des ressources communes.
+Les autres plugins sont des orientations sur question distincte, jamais des
+dépendances d'installation. Meublé ne signifie pas mobilité, étudiant ou
+saisonnier. Aucune nouvelle tâche n'absorbe le parc social ou l'outre-mer.
+Le plan de sources initial est complété par les pistes propres à chaque
+story : indices officiels, actes locaux et plafonds datés, mobilier, surface,
+notification, colocation, forfait et restitution. Rien n'est vérifié ici au fond.
+
+Les compléments de LOG-001 à LOG-011 précisent pièces et scénarios sans
+transformer les bornes vide/meublé. Les domaines voisins gardent leurs
+questions, signalées dans la matrice et dans leurs cadrages complétés.
+Les lacunes explicites de la matrice restent à découper ; l'existence d'un
+propriétaire de backlog ne prouve aucune capacité livrée. Le contrôleur et le
+JSON initiaux restent des relevés historiques à onze suites ; le complément
+possède sa propre vérification.

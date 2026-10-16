@@ -61,3 +61,15 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+## Complément des frictions logement — 16 octobre 2026
+
+Points 27 ; relais 37, 44, 54 de la [matrice logement](dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Découper une tâche propre à la surconsommation d'eau et au plafonnement allégué, distincte de la première tranche électricité. Pièces : qualité d'abonné, contrat/opérateur, compteur et relevés, factures historiques, alerte reçue et date prouvée, localisation de fuite, réparation et attestation disponible. Sortie : comparaison des périodes/volumes, conditions et exclusions à vérifier, demande au service compétent et échéances de réponse ; ni plafonnement automatique ni responsabilité déduite de la consommation. Identifier fuite sur canalisation, équipement et situation avant tout régime ; si facture du bailleur, LOG-002 garde répartition et récupération, le droit de l'abonné doit être qualifié séparément. Coupure par bailleur et éviction → ENF-005 ; panne d'équipement → LOG-004/005 ; recherche de fuite → INS-017 et DOM-018 selon question.
+
+- [ ] Le futur découpage attribue à chaque tâche ses entrées, sortie, sources, limites et scénarios, y compris les voies urgentes distinctes.
+
+Scénarios **attendus, non exécutés** : Facture anormale après fuite réparée sans alerte retrouvée : demander relevés, preuve d'information et attestation ; si charges collectives, identifier abonné et destinataire avant d'invoquer le mécanisme.
+Les textes, versions, transitions, seuils et échéances seront vérifiés sur
+sources officielles lors des implémentations. Ce complément ne termine pas
+le cadrage, ne crée aucun plugin et n'exécute aucune démarche externe.

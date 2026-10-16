@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "scope": "complément documentaire ; aucun résultat juridique validé",
+  "validation_context": "HEAD plus fichiers logement ; hors changements funeraires concurrents",
+  "checks": {
+    "source_integrity": {
+      "status": "passed",
+      "problems": [],
+      "numbered_frictions": 126,
+      "sha256": "8c3e4f11161855042888f70f895de6c0c7a325f83a71503f135005ce3a6ef03a",
+      "attachment_compared": true
+    },
+    "matrix_coverage": {
+      "status": "passed",
+      "problems": [],
+      "rows": 126
+    },
+    "backlog_metadata_dependencies": {
+      "status": "passed",
+      "problems": [],
+      "stories": 564
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "problems": [],
+      "proposals": 23,
+      "new_skills": 12
+    },
+    "links_format_and_relays": {
+      "status": "passed",
+      "problems": [],
+      "local_links": 297,
+      "files": 36
+    },
+    "no_plugin_created": {
+      "status": "passed",
+      "problems": []
+    }
+  },
+  "not_run": [
+    "recherche juridique",
+    "skills et scénarios exécutables",
+    "installation client",
+    "lecteur indépendant",
+    "calcul juridique ou démarche externe"
+  ]
+}

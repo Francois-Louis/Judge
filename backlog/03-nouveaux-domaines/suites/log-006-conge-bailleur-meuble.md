@@ -73,3 +73,15 @@ conserver lors des couches BASE-006.
 
 Vide, étudiant, mobilité, social/conventionné, saisonnier, résidence secondaire,
 contestation judiciaire, expulsion, calcul d'une date sans source et envoi.
+
+## Complément des frictions logement — 16 octobre 2026
+
+Points 32–35 ; section 8 de la [matrice logement](../dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Comparer vente occupée et congé, reprise alléguée et preuve, échéance contractuelle et notification ; vérifier bénéficiaire, motif et protections avec exceptions du régime meublé. Ne pas importer une préemption du bail vide. Données de protection limitées aux catégories utiles, sans avis fiscal intégral par défaut. LOG-017 garde le vide et ENF-005 l'expulsion ; congé tardif ou frauduleux reste une hypothèse à vérifier, sans maintien garanti.
+
+- [ ] Le scénario complémentaire produit les distinctions, pièces et réserves ci-dessous, dans la borne de la story.
+
+Scénario **attendu, non exécuté** : Reprise contestée puis annonce de relocation : conserver traces et chronologie, réserver intention et validité sans conclure depuis la seule annonce.
+Les montants et délais du texte utilisateur ne sont pas validés ; appliquer
+les sources locales et la recette de la story avant toute livraison.

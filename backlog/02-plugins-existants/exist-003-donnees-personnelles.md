@@ -91,3 +91,20 @@ La [matrice des 60 points](exist-003-annexes/exist-003-frictions-utilisateurs.md
 Les régimes médicaux, professionnels, bancaires, de registre et de procédure gardent leurs propriétaires et leurs tâches encore à découper. Correction de routage : santé/dossier médical → DOM-007 ; DOM-009 porte les douanes. Le découpage courant est corrigé ; les mentions DOM-009 dans l'inventaire et la vérification historiques sont conservées comme traces du lot initial, avec le présent erratum.
 
 Les chiffres et règles fournis restent à vérifier lors des implémentations. Contrôles et portée dans le [relevé distinct](exist-003-annexes/exist-003-frictions-verification.md), sans modification des preuves historiques ni du plugin.
+
+## Complément des frictions logement — 16 octobre 2026
+
+Point 76 de la [matrice logement](../03-nouveaux-domaines/dom-006-annexes/dom-006-frictions-utilisateurs.md) :
+prévoir une tâche bornée sur les caméras dans les parties communes, hors
+travail. DOM-018 garde la décision collective et les autorisations ; ce domaine
+qualifie responsable, finalité, zones filmées, accès, durée et information,
+puis prépare une demande ciblée. Pièces minimales : emplacement et champ
+décrits, affichage, auteur/gestionnaire allégué et échanges ; aucune image de
+tiers ni identifiant d'accès requis par défaut. PRV-030 reste limité au travail
+et ne couvre pas ce besoin ; une suite dédiée reste à découper.
+
+Scénario **attendu, non exécuté** : caméra de palier autorisée par un vote
+mais visant une porte privative ; examiner séparément vote et traitement,
+sans conformité RGPD déduite de l'AG ni désactivation conseillée. Vérifier les
+textes et sources CNIL applicables lors de l'implémentation. Aucun audit,
+signalement ou traitement d'images exécuté par ce complément.

@@ -73,3 +73,15 @@ conserver lors des couches BASE-006.
 
 Autres régimes locatifs, expertise technique, recours travaux, indemnisation,
 réduction de loyer décidée, saisine et envoi.
+
+## Complément des frictions logement — 16 octobre 2026
+
+Points 40–44, 46, 49, 52, 54 de la [matrice logement](../dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Séparer infiltration, condensation et ventilation sans diagnostic depuis une photo. Distinguer entretien, usure, remplacement et réparation structurelle ; recueillir âge et entretien utiles. Formaliser une promesse de travaux avec faits, calendrier demandé et engagement non inventé. Travaux prolongés : documenter périodes et pièces inutilisables et préparer une demande de compensation à vérifier, sans chiffrage juridique ni réduction unilatérale. Si son traitement au fond dépasse la demande de réparation, découper une suite distincte avant livraison. Assurance (INS-017), parties communes (DOM-018) et responsabilité d'entreprise (DOM-015) gardent leurs questions.
+
+- [ ] Le scénario complémentaire produit les distinctions, pièces et réserves ci-dessous, dans la borne de la story.
+
+Scénario **attendu, non exécuté** : Bailleur invoquant assurance et copropriété pendant une fuite durable : préparer demande sur la cause et le calendrier, documenter privation d'usage et éviter les renvois circulaires.
+Les montants et délais du texte utilisateur ne sont pas validés ; appliquer
+les sources locales et la recette de la story avant toute livraison.

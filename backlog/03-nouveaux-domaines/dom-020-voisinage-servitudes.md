@@ -60,3 +60,19 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+## Complément des frictions logement — 16 octobre 2026
+
+Points 73, 78–106 ; relais 92, 97, 111 de la [matrice logement](dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Découper nuisances (bruit, impact, odeurs et intimidation) ; bornage/limite/empiètement ; propriété et travaux des murs dont soutènement/abandon ; fondement/enclave/tracé d'un passage ; aggravation, réseaux et obstacles ; extinction ; accès temporaire de chantier ; plantations/branches/racines ; eaux naturelles/toiture ; vues et jours. Pour chaque tâche : titres complets et actes constitutifs, plans/PV contradictoires, dates, état des accès, mesures, règles locales, photos et constatations utiles. Sortie : faits/preuves/hypothèses, titre ou mesure à obtenir, question technique au géomètre-expert ou acousticien et brouillon proportionné. Le cadastre ne remplace pas un bornage et l'ancien usage ne suffit pas à établir un passage ; qualifier division, enclave, assiette, destination et droits de réseaux séparément. Examiner exceptions locales, ancienneté et règles applicables aux végétaux ou ouvertures, sans recopier distances du texte. Nuisances du locataire voisin : identifier auteur et bailleur informé ; tâche sur obligation envers tiers à découper avec DOM-006, hors réparation LOG-004. Ne pas proposer coupe, obstacle, déplacement de borne, entrée, suppression d'ouvrage ou représailles. DOM-019 garde permis et recours publics, DOM-018 règlement et décisions collectives ; éventuel volet pénal DOM-002 séparé.
+
+- [ ] Le futur découpage attribue à chaque tâche ses entrées, sortie, sources, limites et scénarios, y compris les voies urgentes distinctes.
+
+Le point 91 exige aussi une tâche sur l'entretien du passage : utilisateurs,
+conventions, dégradations alléguées, devis et factures ; sortie comparant usage,
+accord et répartition demandée, sans partage automatique des frais.
+
+Scénarios **attendus, non exécutés** : Ancien passage sans titre, facture d'entretien, portail récent et conduites annoncées : examiner fondement, coûts et exercice séparément, sans reconnaître ni supprimer de droit. Arbre et écoulement après terrassement : demander mesures, contexte local et diagnostic d'origine, sans autoriser coupe ou drainage unilatéral.
+Les textes, versions, transitions, seuils et échéances seront vérifiés sur
+sources officielles lors des implémentations. Ce complément ne termine pas
+le cadrage, ne crée aucun plugin et n'exécute aucune démarche externe.

@@ -60,3 +60,15 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+## Complément des frictions logement — 16 octobre 2026
+
+Points 55, 69, 75, 92, 107–116 de la [matrice logement](dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Découper avant-contrat et condition de prêt ; rétractation et complétude documentaire ; surface Carrez ; annexes, droits réels et servitudes ; comptes et travaux de copropriété lors de vente ; défauts dissimulés et clause d'exonération. Pour chaque tâche : annonce, promesse/acte, notifications, titres, règlement/état descriptif, PV/appels, diagnostics, mesurage et rapports strictement utiles ; sortie sous forme de comparaison sourcée, chronologie et questions au notaire ou avocat. Distinguer exigibilité opposable au syndicat et accord vendeur/acquéreur. La condition de prêt se confronte aux demandes/refus réels, sans la confondre avec l'analyse bancaire. Carrez n'est pas la surface locative LOG-015 ; la jouissance exclusive n'est pas une propriété. Absence de notification ou de document : réserver point de départ ; défaut ou peinture récente ne suffit pas à prouver connaissance et dissimulation. Urbanisme DOM-019, droits privés DOM-020, comptes DOM-018 restent distincts.
+
+- [ ] Le futur découpage attribue à chaque tâche ses entrées, sortie, sources, limites et scénarios, y compris les voies urgentes distinctes.
+
+Scénarios **attendus, non exécutés** : Promesse avec condition de prêt, pièces de copropriété incomplètes et jardin seulement en jouissance : trois vérifications séparées avant engagement, sans délai de rétractation inventé. Après vente : infiltration et clause d'exonération, préserver preuves et conditions de l'action sans garantie d'annulation.
+Les textes, versions, transitions, seuils et échéances seront vérifiés sur
+sources officielles lors des implémentations. Ce complément ne termine pas
+le cadrage, ne crée aucun plugin et n'exécute aucune démarche externe.

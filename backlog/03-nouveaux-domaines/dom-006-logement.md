@@ -96,3 +96,24 @@ Tout reste dans `backlog/` ; aucune entrée NOTICE requise.
 et contrôles statiques ; aucun plugin créé, skill exécuté, paquet installé,
 lecteur réel ou indépendant, source juridique ouverte, délai ou montant établi,
 envoi ou saisine. Voir la vérification pour les réserves et scénarios attendus.
+
+## Intégration des frictions logement — 16 octobre 2026
+
+La [matrice des 126 points](dom-006-annexes/dom-006-frictions-utilisateurs.md)
+conserve le texte fourni à l'octet près, attribue chaque difficulté et traite
+séparément les sections échéances/méthode. Douze suites LOG-012 à LOG-023
+s'ajoutent aux onze propositions initiales : le [complément du découpage](dom-006-annexes/dom-006-decoupage-logement.md#complément-des-frictions-logement--16-octobre-2026)
+les liste. LOG-001 à LOG-011 reçoivent des exigences et scénarios ciblés.
+LOG-001 garde sa première borne et ses exclusions ; le retard de restitution
+et la majoration éventuelle relèvent de LOG-023, non d'une extension implicite.
+
+DOM-015/017/018/019/020/021 et EXIST-003 portent les compléments de frontière.
+Restent à découper en DOM-006 : obligations envers les tiers victimes d'un
+locataire bruyant, cautionnement locatif, dépôt et charges au réel en meublé,
+autres régimes exclus, réévaluation du loyer au renouvellement, voies
+judiciaires hors LOG-010 et compensation de travaux au fond si nécessaire.
+Ce ne sont pas des réponses déjà couvertes par les suites liées.
+
+Contrôles et portée dans la [vérification du complément](dom-006-annexes/dom-006-frictions-verification.md).
+Le bilan initial et ses résultats restent historiques ; toutes les suites
+LOG restent proposées, sans sélection, livraison ou validation du droit.

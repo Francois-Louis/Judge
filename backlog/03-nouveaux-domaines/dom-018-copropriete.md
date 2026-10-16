@@ -60,3 +60,15 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+## Complément des frictions logement — 16 octobre 2026
+
+Points 54, 56–77, 107–109 de la [matrice logement](dom-006-annexes/dom-006-frictions-utilisateurs.md).
+
+Découper charges individuelles et clés ; accès documentaire selon qualité ; honoraires du syndic ; préparation d'AG (convocation/ordre du jour/annexes) ; examen vote/PV/notification et recevabilité d'une contestation ; exécution des résolutions et délégations ; travaux urgents et autorisations ; parties communes/jouissance ; financement et fonds de travaux. Chaque suite demande règlement, état descriptif, contrat du syndic, décompte, factures, résolutions, vote et preuve de notification selon sa seule question, puis produit tableau sourcé, pièces absentes et brouillon ciblé. Opposant, absent, représenté ou vote favorable ne sont pas interchangeables ; approbation des comptes et erreur de lot restent distinctes. Pour le recours d'AG, prévoir une story propre : qualité, décision, notification, acte de saisine, représentation et conseil urgent ; une lettre au syndic n'est pas une action juridictionnelle. PV non notifié ne signifie ni délai infini ni décision inexécutable. Distinguer syndic et syndicat, mandat et délégation, propriété et jouissance ; le non-usage ne suffit pas à exclure une charge. Caméras : vote et traitement de données distincts, volet hors travail à découper en EXIST-003. Pas de diagnostic technique ou financier promis ; LOG-002 garde récupération locative, DOM-015 entreprise, DOM-017 vente, DOM-019 autorisation publique et DOM-020 nuisances.
+
+- [ ] Le futur découpage attribue à chaque tâche ses entrées, sortie, sources, limites et scénarios, y compris les voies urgentes distinctes.
+
+Scénarios **attendus, non exécutés** : Vote favorable puis courriel contestant un PV non notifié : conserver vote, décision et notification comme questions de recevabilité, sans délai calculé ni saisine supposée. Travaux urgents et facture supplémentaire : demander nécessité, mandat, contrat et coût, sans abus présumé.
+Les textes, versions, transitions, seuils et échéances seront vérifiés sur
+sources officielles lors des implémentations. Ce complément ne termine pas
+le cadrage, ne crée aucun plugin et n'exécute aucune démarche externe.
