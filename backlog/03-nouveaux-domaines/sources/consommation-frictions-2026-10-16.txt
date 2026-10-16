@@ -1,0 +1,579 @@
+# Guide de défense du consommateur en France — pièges, abus, délais et recours
+
+Droit français · Situation vérifiée au 16 octobre 2026
+
+Les litiges de consommation reposent souvent sur les mêmes mécanismes : information dissimulée, mauvaise interprétation des garanties, renvoi des responsabilités, frais injustifiés, délais volontairement compliqués ou simplement méconnus.
+
+Le plus dangereux n'est pas toujours l'escroquerie manifeste. C'est parfois une procédure apparemment normale qui conduit le consommateur à renoncer à un droit, accepter un avoir au lieu d'un remboursement ou laisser passer un délai.
+
+## 1. De quoi les consommateurs se plaignent-ils le plus ?
+
+La DGCCRF a reçu plus de 460 000 signalements en 2025, avec le commerce électronique en première ligne. Les principaux litiges concernent les commandes, les livraisons, la qualité des produits, les remboursements, les garanties et les pratiques commerciales trompeuses.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++2
+
+
+
+Voici les grandes familles de problèmes à surveiller. Il s'agit d'une classification pratique des risques, pas d'un classement statistique exact.
+
+| Domaine                   | Problèmes récurrents                                                        |
+| ------------------------- | --------------------------------------------------------------------------- |
+| Achats sur Internet       | Non-livraison, contrefaçons, faux sites, remboursements refusés             |
+| Livraison                 | Colis perdus, volés, abîmés, fausse preuve de livraison                     |
+| SAV                       | Réparations interminables, refus de garantie, renvoi vers le fabricant      |
+| Abonnements               | Reconduction automatique, abonnements cachés, résiliation difficile         |
+| Promotions                | Faux rabais, prix gonflés, frais ajoutés à la commande                      |
+| Marketplaces              | Vendeur introuvable, responsabilité contestée, litige clôturé trop tôt      |
+| Ventes entre particuliers | Vices cachés, fausses annonces, faux paiements                              |
+| Produits reconditionnés   | État trompeur, batteries usées, garantie minimisée                          |
+| Services numériques       | Facturations récurrentes, logiciels inutilisables, accès supprimés          |
+| Magasins physiques        | Avoir imposé, refus injustifié de garantie, ventes forcées                  |
+| Démarchage                | Consentement contestable, pression commerciale, contrats non compris        |
+| Recours                   | Service client dilatoire, médiateur difficile à identifier, délais dépassés |
+
+## 2. Les délais à connaître absolument
+
+AIDE-MÉMOIRE DES DÉLAIS
+
+| 14 jours   | Rétractation d'un achat à distance auprès d'un professionnel, sauf exception.                                        |
+| ---------- | -------------------------------------------------------------------------------------------------------------------- |
+| 14 jours   | Renvoi du produit après notification de la rétractation.                                                             |
+| 14 jours   | Remboursement après rétractation, sous réserve des conditions légales de différé.                                    |
+| 30 jours   | Livraison maximale en l'absence de délai convenu.                                                                    |
+| 30 jours   | Réparation ou remplacement sous garantie légale de conformité.                                                       |
+| 2 ans      | Période d'apparition des défauts couverts par la garantie légale de conformité d'un bien vendu par un professionnel. |
+| 12 mois    | Présomption d'antériorité du défaut pour un bien d'occasion vendu par un professionnel.                              |
+| 2 ans      | Action pour vice caché à compter de sa découverte, dans la limite de 20 ans après la vente.                          |
+| 1 an       | Délai maximal pour saisir le médiateur de la consommation après la réclamation écrite.                               |
+| 8 semaines | Contestation d'un prélèvement SEPA autorisé, selon les conditions applicables.                                       |
+| 13 mois    | Contestation ordinaire d'une opération de paiement non autorisée, avec exceptions.                                   |
+
+Ces délais ne sont pas tous des délais pour saisir un tribunal. Leur point de départ et leurs exceptions comptent autant que leur durée.
+
+Sources : ministère de l'Économie, Service-Public et Code de la consommation.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++5
+
+
+
+## 3. Achats sur Internet : les pièges avant et après la commande
+
+### Identification du vendeur et pratiques commerciales
+
+1\. Faux site marchand français. Nom français, drapeau tricolore, domaine `.fr`, mais société domiciliée à l'étranger. Vérifier l'identité juridique, le SIREN lorsqu'il existe, l'adresse et le véritable vendeur avant de payer.
+
+2\. Site cloné d'une enseigne connue. Adresse presque identique, publicité sponsorisée, prix cassés. Accéder au site par son adresse officielle plutôt que depuis une publicité.
+
+3\. Société fictive ou radiée. Mentions légales copiées d'une autre entreprise ou numéro SIREN usurpé. Croiser les renseignements avec l'Annuaire des entreprises.
+
+4\. Dropshipping dissimulé. Boutique présentée comme française, produit expédié directement depuis la Chine, délais et frais de retour imprévus. Le vendeur reste responsable de ses obligations envers le consommateur.
+
+5\. Faux stock disponible. Produit annoncé disponible alors qu'il sera commandé ultérieurement chez un fournisseur. Conserver une capture de la disponibilité et du délai promis.
+
+6\. Marketplace avec vendeur tiers peu identifiable. Acheter sur un grand site ne signifie pas acheter à l'enseigne qui l'exploite. Identifier le vendeur contractuel et le rôle exact de la plateforme.
+
+7\. Faux vendeur particulier. Professionnel se présentant comme particulier pour tenter d'écarter les garanties et le droit de rétractation. Une activité commerciale habituelle peut révéler un statut professionnel, indépendamment de l'étiquette affichée.
+
+8\. Avis clients fabriqués. Commentaires achetés, générés artificiellement ou recyclés entre plusieurs produits. Comparer les avis indépendants et vérifier la politique de modération de la plateforme.
+
+9\. Avis négatifs masqués. Publication sélective ou mécanisme de classement favorisant certains vendeurs. Une présentation trompeuse des avis peut constituer une pratique commerciale trompeuse.
+
+10\. Faux labels et certifications. Faux « Made in France », « CE certifié », label écologique inexistant. Vérifier les déclarations et leur portée exacte : le marquage CE n'est notamment pas un label général de qualité.
+
+11\. Origine du produit trompeuse. Marketing français alors que les opérations de fabrication déterminantes sont réalisées ailleurs. Demander des informations précises plutôt que de se fier aux drapeaux.
+
+12\. Influenceurs et publicités déguisées. Recommandations présentées comme spontanées malgré une rémunération ou une relation commerciale. Rechercher l'identification du partenariat.
+
+13\. Produit non conforme à sa description. Dimensions erronées, matériau différent, puissance insuffisante, accessoire absent. Archiver la fiche produit à la date de commande pour utiliser la garantie légale de conformité.
+
+### Prix et manipulation de l'achat
+
+14\. Prix barré fictif. Augmentation préalable du tarif pour afficher ensuite une fausse remise. Une annonce de réduction doit, en principe, se référer au prix le plus bas pratiqué par ce vendeur pendant les 30 jours précédents.
+
+15\. Faux sentiment d'urgence. Compteur qui se réinitialise, dernière pièce prétendument disponible, fausse pression sur les stocks. Ces mécanismes peuvent relever des pratiques trompeuses.
+
+16\. Prix d'appel incomplet. Frais administratifs, frais de traitement ou prestations imposées apparaissant à la fin du tunnel d'achat. Vérifier le total avant la validation du paiement.
+
+17\. Option payante précochée. Assurance colis, protection supplémentaire, abonnement premium. Les suppléments payants doivent faire l'objet d'un consentement valable, pas d'une acceptation déduite du silence.
+
+18\. Assurance colis facturée au client. Présentation d'une garantie payante comme indispensable pour bénéficier d'une livraison correcte. Le vendeur professionnel supporte déjà les risques du transport dans les conditions légales.
+
+19\. Frais de paiement injustifiés. Supplément simplement parce que le client utilise un moyen de paiement donné. La surfacturation du seul fait de l'utilisation d'un instrument de paiement est en principe interdite.
+
+20\. Financement présenté comme une remise. Paiement fractionné ou crédit mis en avant sans coût total suffisamment clair. Examiner les échéances, frais et éventuel crédit sous-jacent.
+
+21\. Réduction conditionnée à un abonnement. Livraison moins chère ou promotion réservée aux membres, avec abonnement reconductible peu visible.
+
+22\. Panier modifié avant paiement. Produit ajouté automatiquement, quantité augmentée, livraison express sélectionnée par défaut. Vérifier le récapitulatif final et conserver la confirmation.
+
+23\. Conditions générales changées après la vente. Le vendeur invoque une version de CGV que le client n'avait pas acceptée. Conserver la version applicable à la date de commande.
+
+24\. Prix manifestement erroné. Le commerçant refuse de livrer après une erreur de tarification. Attention : toute erreur de prix ne permet pas automatiquement d'exiger la vente, notamment lorsqu'elle est manifeste.
+
+Les faux rabais, options précochées, abonnements cachés et interfaces manipulatrices sont précisément documentés par la DGCCRF.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++4
+
+
+
+## 4. Livraisons : les responsabilités qu'on tente de déplacer
+
+25\. « Le transporteur est responsable, voyez directement avec lui. » Dans une vente professionnelle classique, le vendeur reste responsable de la bonne exécution de la livraison. Réclamer auprès de lui, sans accepter d'être renvoyé indéfiniment vers le transporteur.
+
+26\. Colis annoncé livré, mais introuvable. Demander au vendeur les éléments de preuve de la remise effective. Un simple statut informatique « livré » n'épuise pas nécessairement la contestation.
+
+27\. Colis abandonné devant la porte. Contestation possible si le colis n'a pas été effectivement remis dans les conditions prévues. Documenter immédiatement le lieu et les circonstances.
+
+28\. Signature électronique contestable. Signature attribuée au destinataire sans qu'il ait signé. Demander le justificatif et contester par écrit.
+
+29\. Colis remis à un voisin sans autorisation. La responsabilité dépend notamment de l'existence d'une instruction de livraison et des circonstances de remise.
+
+30\. Point relais modifié unilatéralement. Envoi vers un relais éloigné, inaccessible ou différent du point convenu. Demander une solution conforme au contrat.
+
+31\. Colis vide ou contenu manquant. Photographier emballage, étiquette, scellés, contenu et poids éventuellement indiqué. Conserver l'emballage jusqu'à résolution.
+
+32\. Produit cassé pendant le transport. Le commerçant impose au client une réclamation au transporteur. Exiger du vendeur une solution conforme, sans frais, sur le fondement de ses obligations contractuelles.
+
+33\. « Vous n'avez pas fait de réserves sous 48 heures. » Un délai contractuel de réserve ne supprime pas automatiquement les droits légaux du consommateur contre le vendeur.
+
+34\. « Vous avez signé le bon de livraison. » Une signature n'équivaut pas à une renonciation générale aux recours pour défauts ou non-conformités.
+
+35\. Commande partiellement livrée. Une facture complète ne prouve pas que tous les articles sont effectivement arrivés. Réclamer les éléments manquants au vendeur.
+
+36\. Produit substitué sans accord. Une autre couleur, référence ou capacité est expédiée. Une substitution non convenue peut être contestée au titre de la conformité.
+
+37\. Retard de livraison indéfini. Le vendeur promet continuellement une nouvelle date. Après une mise en demeure de livrer dans un délai supplémentaire raisonnable restée infructueuse, le consommateur peut résoudre le contrat.
+
+38\. Commande liée à un événement précis. Cadeau, mariage, événement professionnel. Si la date constituait une condition essentielle du contrat, une résolution immédiate peut être possible.
+
+39\. Remboursement bloqué après annulation pour non-livraison. Le vendeur dispose normalement de 14 jours après la résolution du contrat pour rembourser, avec des majorations légales en cas de retard.
+
+40\. Livraison non assurée parce que le client a choisi le transporteur. Il existe une exception lorsque le consommateur mandate lui-même un transporteur non proposé par le vendeur. Ne pas la confondre avec le simple choix parmi les transporteurs proposés par la boutique.
+
+Référence : Code de la consommation, articles L216-1 et suivants. Les enquêtes de la DGCCRF ont notamment relevé des clauses cherchant à transférer abusivement les risques de livraison aux clients.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++2
+
+
+
+## 5. Droit de rétractation : les détails qui font perdre un remboursement
+
+41\. « Aucun retour accepté pendant les soldes. » Faux pour un achat à distance relevant du droit de rétractation. Les soldes ne suppriment pas ce droit.
+
+42\. « Produit déballé = retour impossible. » Faux en général. On peut ouvrir et examiner normalement un article. Des exceptions existent, notamment pour certains produits scellés présentant des enjeux d'hygiène ou de santé.
+
+43\. « Produit utilisé = aucun remboursement. » Une manipulation excessive peut justifier une retenue correspondant à la dépréciation réelle, mais pas nécessairement l'exclusion totale de la rétractation.
+
+44\. « Il faut retourner le produit avant de demander la rétractation. » Les deux démarches sont distinctes : notifier la rétractation dans le délai, puis renvoyer le produit dans les 14 jours suivants.
+
+45\. Retour sans notification explicite. Renvoyer silencieusement un colis ou refuser la livraison n'est pas nécessairement une rétractation valable. Envoyer une déclaration écrite sans ambiguïté.
+
+46\. « Vous deviez utiliser notre formulaire exclusif. » La rétractation peut être exercée par une déclaration claire ; le formulaire type n'est pas le seul moyen valable.
+
+47\. « Le remboursement sera exclusivement en avoir. » En principe, le vendeur rembourse par le même moyen de paiement, sauf accord exprès pour une autre solution sans frais supplémentaires.
+
+48\. Frais de livraison initiaux retenus. Les frais de livraison standard doivent normalement être remboursés. Le supplément express expressément choisi peut ne pas l'être.
+
+49\. Frais de retour jamais annoncés. Si le commerçant n'a pas informé le consommateur que ces frais seraient à sa charge, il doit en principe les supporter.
+
+50\. Remboursement reporté jusqu'au traitement du colis en entrepôt. Le vendeur peut différer jusqu'à récupération du bien ou présentation d'une preuve d'expédition, le premier événement étant retenu. Il ne peut pas invoquer indéfiniment sa procédure interne.
+
+51\. Retour imposé dans un pays lointain non annoncé. Conserver la preuve de l'information fournie avant commande, notamment sur les frais et modalités de retour.
+
+52\. Produit personnalisé exclu de rétractation. Une véritable fabrication sur mesure peut être exclue. En revanche, le choix d'options standards n'en fait pas automatiquement un bien nettement personnalisé.
+
+53\. Produit fabriqué à la commande. Ce seul fait ne suffit pas toujours à supprimer la rétractation : il faut examiner la nature effective de la personnalisation.
+
+54\. Service numérique prétendument non remboursable. La perte du droit de rétractation suppose des conditions précises d'accord exprès, de reconnaissance de cette perte et, pour certains contenus numériques, de confirmation contractuelle.
+
+55\. Droit de rétractation jamais communiqué. Dans les contrats concernés, le délai peut être prolongé de 12 mois après l'expiration du délai initial.
+
+56\. Achat en foire ou salon. Pas de droit général de rétractation, sauf régimes particuliers, notamment certaines opérations financées par crédit affecté.
+
+57\. Achat en boutique physique. Pas de droit général à changer d'avis et à être remboursé pour un article conforme. La politique commerciale affichée peut néanmoins engager le commerçant.
+
+Point fondamental : rétractation et non-conformité sont deux fondements différents. Le droit de rétractation permet de changer d'avis ; la garantie légale permet de contester un produit défectueux ou non conforme, même après l'expiration des 14 jours.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++3
+
+
+
+## 6. SAV et produits défectueux : les abus les plus coûteux
+
+58\. « La garantie constructeur est d'un an. » La garantie commerciale du fabricant ne remplace pas la garantie légale de conformité de deux ans applicable aux ventes professionnelles de biens de consommation.
+
+59\. « Contactez directement le fabricant. » Pour la garantie légale de conformité, l'interlocuteur responsable est le vendeur professionnel.
+
+60\. « Il faut payer les frais de diagnostic. » Une mise en conformité relevant de la garantie légale doit être gratuite, y compris les opérations nécessaires.
+
+61\. « Les frais de retour SAV sont à votre charge. » La mise en conformité légale ne doit pas occasionner de frais définitifs au consommateur.
+
+62\. « Ce type de panne n'est jamais garanti. » Le vendeur ne peut pas écarter une garantie légale par une exclusion contractuelle générale. Il faut examiner l'origine réelle du défaut.
+
+63\. « Vous devez prouver le défaut de fabrication. » Pour un bien neuf, la présomption d'antériorité joue pendant deux ans, sauf exceptions prévues par la loi.
+
+64\. « Un produit d'occasion n'est garanti que six mois. » Faux lorsqu'il est vendu par un professionnel : la garantie légale couvre deux ans. En revanche, la présomption d'antériorité du défaut dure 12 mois.
+
+65\. « Le délai SAV est de six à huit semaines. » La mise en conformité sous garantie légale doit intervenir dans un délai raisonnable ne dépassant pas 30 jours après la demande.
+
+66\. Réparations répétées et inefficaces. Si le défaut persiste malgré une tentative de mise en conformité, le consommateur peut, selon les conditions légales, demander réduction du prix ou résolution de la vente.
+
+67\. Refus de remboursement malgré un défaut grave. Un défaut suffisamment grave peut permettre une réduction du prix ou une résolution immédiate sans exiger d'abord une réparation.
+
+68\. Produit immobilisé très longtemps. Conserver les dates de dépôt et de restitution ; elles peuvent affecter la prolongation des garanties et démontrer un inconvénient majeur.
+
+69\. Remplacement par une référence inférieure. Le remplacement doit remettre le consommateur dans la situation d'une fourniture conforme, pas servir à dégrader la prestation vendue.
+
+70\. Produit réparé puis garantie annoncée inchangée. L'article L217-13 prévoit six mois de prolongation en cas de réparation dans le cadre de la garantie légale de conformité. Si le consommateur choisit la réparation mais que le vendeur impose finalement un remplacement, un nouveau délai de deux ans court sur le bien remplacé.
+
+71\. « La batterie est un consommable, donc jamais garantie. » Le statut de pièce d'usure ne permet pas d'exclure automatiquement un défaut de conformité. Il faut distinguer usure normale, durée de vie raisonnablement attendue et défaut prématuré.
+
+72\. « Vous avez ouvert le produit, garantie annulée. » L'ouverture d'un appareil ne suffit pas, en soi, à supprimer tout droit légal. En revanche, un dommage causé par une intervention peut légitimement être exclu.
+
+73\. Accessoires ou emballage d'origine exigés systématiquement. Les conditions d'une garantie commerciale ne peuvent pas neutraliser les droits attachés à la garantie légale.
+
+74\. Reconditionné vendu comme neuf. L'état réel, les caractéristiques et les éventuelles réparations doivent correspondre à la présentation contractuelle du produit.
+
+75\. Extension de garantie vendue comme protection indispensable. Comparer les prestations supplémentaires réelles avec les droits légaux déjà gratuits : certaines extensions couvrent surtout une période déjà protégée.
+
+76\. Service numérique inutilisable. Logiciel, application ou service numérique peuvent bénéficier de protections légales propres à leur conformité, notamment en matière de fonctionnement et de mises à jour.
+
+77\. Mise à jour qui dégrade les fonctionnalités. Une modification imposée ou une mise à jour rendant le produit non conforme peut ouvrir des droits selon le contrat et le régime applicable.
+
+La DGCCRF a publié en février 2026 une enquête documentant précisément les mauvaises informations sur les garanties et la vente contestable d'extensions payantes.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++3
+
+
+
+Attention à une erreur dans une fiche ministérielle du 9 septembre 2026 : elle mentionne une prolongation d'un an après réparation, alors que l'article L217-13 du Code de la consommation en vigueur indique six mois. Pour invoquer ton droit, privilégie le texte législatif.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++1
+
+
+
+## 7. Abonnements, essais gratuits et contrats reconductibles
+
+78\. Essai gratuit transformé en abonnement payant. Passage automatique à la facturation après quelques jours. Vérifier le consentement initial, les conditions et la date d'expiration de l'essai.
+
+79\. Abonnement caché dans un achat ordinaire. Réduction ou livraison gratuite obtenue en contrepartie d'une inscription payante récurrente.
+
+80\. Assurance ajoutée lors d'un achat. Assurance mobile, extension de service ou assistance souscrite à l'occasion d'un paiement, parfois via une entreprise distincte.
+
+81\. Reconduction tacite discrète. Pour les contrats de prestation de services concernés par l'article L215-1, le professionnel doit envoyer une information écrite dans la période légale, généralement entre trois et un mois avant la date limite de non-reconduction.
+
+82\. Absence d'avis de reconduction. Lorsque l'article L215-1 s'applique et que l'information n'a pas été correctement délivrée, le consommateur peut mettre fin gratuitement au contrat à compter de sa reconduction.
+
+83\. « Pour résilier, appelez impérativement notre service client. » Depuis juin 2023, les professionnels concernés qui proposent la conclusion de contrats par voie électronique doivent permettre une résiliation en ligne facilement accessible, même lorsque le contrat a initialement été souscrit autrement.
+
+84\. Résiliation en ligne volontairement compliquée. Multiplication d'écrans, bouton invisible, parcours circulaire, impossibilité de confirmer. Faire des captures et signaler l'obstacle.
+
+85\. « Résiliation en trois clics = résiliation immédiate et gratuite. » Faux. La procédure doit être accessible, mais les préavis et éventuelles indemnités contractuelles légalement applicables ne disparaissent pas.
+
+86\. Demande de résiliation ignorée. Conserver l'accusé de réception et la date d'effet annoncée. Relancer par écrit en contestant les prélèvements postérieurs injustifiés.
+
+87\. Frais de résiliation non annoncés. Demander le fondement contractuel exact, l'information précontractuelle et le calcul détaillé.
+
+88\. Hausse de tarif discrète. Contrôler les clauses de révision et les obligations spécifiques d'information et de résiliation selon le secteur.
+
+89\. Abonnement souscrit dans une application. Le paiement peut être géré par un intermédiaire comme une boutique d'applications. Identifier qui facture réellement et où s'exerce la résiliation.
+
+90\. Compte supprimé, abonnement toujours actif. Effacer son compte ne met pas nécessairement fin à un contrat. Effectuer la véritable démarche de résiliation et en conserver la preuve.
+
+91\. Blocage bancaire présenté comme une résiliation. Bloquer le paiement ne résilie pas automatiquement un contrat valable. Cela peut laisser subsister une dette contestée ou réelle.
+
+92\. Service inutilisable mais facturation maintenue. Documenter la durée de l'indisponibilité et demander une solution adaptée au contrat ou à son inexécution.
+
+93\. Contrat de téléphonie reconduit sans information. Des dispositions particulières permettent notamment de résilier après prolongation automatique ; les opérateurs doivent respecter leurs obligations d'information.
+
+94\. Démarchage téléphonique non consenti. Depuis le 11 août 2026, le consentement préalable est requis pour le démarchage commercial téléphonique, sous réserve d'exceptions, notamment dans le cadre de certaines relations contractuelles en cours. Le dispositif Bloctel a pris fin avec cette réforme.
+
+Sources : articles L215-1 et L215-1-1 du Code de la consommation, DGCCRF et règles sectorielles.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++4
+
+
+
+## 8. Achats et ventes entre particuliers : les pièges des plateformes
+
+La distinction essentielle est la suivante : entre deux véritables particuliers, il n'existe pas de droit général de rétractation de 14 jours ni de garantie légale de conformité. La garantie des vices cachés peut en revanche s'appliquer, sous réserve des conditions et clauses valables.
+
+95\. Faux vendeur avec profil crédible. Compte ancien ou nombreux avis ne suffisent pas à prouver l'identité du vendeur.
+
+96\. Faux paiement sécurisé. E-mail ou SMS annonçant qu'une vente a été payée, avec un lien pour « récupérer l'argent ». Vérifier uniquement dans l'application officielle.
+
+97\. Faux transporteur. Demande de paiement pour une assurance, une réexpédition ou la validation d'une transaction. Ne pas quitter le système de paiement sécurisé de la plateforme.
+
+98\. Demande de coordonnées bancaires du vendeur. Prétexte visant à obtenir numéro de carte, cryptogramme ou code de validation. Ces informations ne sont pas nécessaires pour recevoir un simple virement.
+
+99\. Paiement par virement frauduleux ou non confirmé. Ne jamais remettre un objet en se fondant seulement sur une capture d'écran ou un e-mail de confirmation.
+
+100\. Acheteur qui déclare le colis vide. Pour les vendeurs : photographier l'objet, son état, son numéro de série et son emballage avant expédition. Conserver la preuve de dépôt et, si disponible, le poids constaté.
+
+101\. Acheteur qui retourne un autre objet. Noter les numéros de série et conserver les preuves avant la vente ; documenter soigneusement le colis retourné.
+
+102\. Vendeur qui fournit une référence différente. Comparer annonce, photos, messages et numéro de modèle. Le fait qu'il s'agisse d'une vente entre particuliers ne permet pas de livrer n'importe quel objet.
+
+103\. Objet présenté comme fonctionnel alors qu'il est défectueux. Si le vendeur a menti sciemment sur une caractéristique déterminante, plusieurs fondements juridiques peuvent être envisagés, au-delà du seul vice caché.
+
+104\. Vice caché après achat. Le défaut doit notamment avoir été caché, antérieur à la vente et suffisamment grave. L'acheteur doit en principe apporter la preuve.
+
+105\. « Vendu en l'état, sans aucune garantie. » Une clause d'exclusion de garantie des vices cachés peut être valable entre particuliers dans certaines conditions. Elle ne protège notamment pas un vendeur de mauvaise foi qui connaissait le vice.
+
+106\. Défaut apparent découvert après coup. Un défaut normalement visible lors d'un examen raisonnable ne relève pas nécessairement du vice caché. Faire un essai avant de payer.
+
+107\. Description orale impossible à démontrer. Conserver les échanges dans la messagerie, faire préciser les caractéristiques et demander des photographies détaillées.
+
+108\. Achat à distance avec protection acheteur limitée. Les conditions de remboursement internes peuvent imposer des délais très courts. Les surveiller immédiatement après livraison, indépendamment des éventuels droits légaux.
+
+109\. Litige automatiquement clos par la plateforme. Une décision interne ne supprime pas nécessairement les recours civils contre la partie responsable.
+
+110\. Vendeur qui demande une confirmation de réception anticipée. Ne jamais valider une bonne réception avant d'avoir effectivement récupéré et contrôlé l'objet.
+
+111\. Transaction déplacée hors plateforme. Le vendeur peut proposer une remise, mais la protection offerte par la plateforme peut être perdue.
+
+112\. Faux justificatif d'identité. Une carte d'identité transmise en photo peut avoir été volée. Ne jamais considérer sa présentation comme une garantie suffisante.
+
+113\. Envoi d'un objet coûteux sans preuve adaptée. Utiliser un mode d'expédition avec traçabilité, remise vérifiable et couverture correspondant à la valeur, dans les conditions du transporteur.
+
+114\. Objet contrefait ou volé. Vérifier l'origine, les numéros d'identification et les justificatifs disponibles. Une facture en photo n'est pas nécessairement authentique.
+
+115\. Vendeur prétendument particulier ayant une activité commerciale régulière. Si son activité réelle correspond à celle d'un professionnel, les règles de protection du consommateur peuvent s'appliquer.
+
+Pour les vices cachés, l'action doit être exercée dans les deux ans de leur découverte, sous le plafond légal de 20 ans à compter de la vente. Ne pas attendre l'approche de l'échéance pour obtenir une expertise ou engager une démarche.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++3
+
+
+
+## 9. Magasins physiques, promotions, acomptes et services
+
+116\. « Ni repris ni échangé » sur un produit défectueux. Cette mention ne peut pas écarter les garanties légales.
+
+117\. Avoir proposé à la place d'une garantie légale. Un avoir commercial n'est pas forcément le remède légal auquel le consommateur peut prétendre.
+
+118\. Cadeau sans ticket de caisse. L'absence d'un ticket n'efface pas automatiquement tous les droits : un achat peut être établi par d'autres preuves recevables.
+
+119\. Prix en rayon différent du prix en caisse. Conserver une photo de l'affichage et demander la correction ; en cas de refus, signaler la pratique. Attention aux erreurs manifestes.
+
+120\. Produit annoncé en promotion mais indisponible. Une publicité peut être trompeuse si le commerçant n'avait pas de raisons raisonnables de croire pouvoir satisfaire la demande prévue.
+
+121\. Remise réservée aux porteurs d'une carte. Cette condition doit être clairement identifiable.
+
+122\. Produits vendus en lots plus chers à l'unité. Comparer systématiquement le prix au kilo, au litre ou à l'unité lorsque pertinent.
+
+123\. Fausse liquidation. Fermeture ou travaux annoncés pour justifier une opération promotionnelle sans réalité correspondante.
+
+124\. Acompte et arrhes présentés comme identiques. Leur portée juridique diffère. Un acompte engage normalement fermement les parties ; les arrhes permettent en principe un dédit dans les conditions du Code civil. Examiner le contrat avant de payer.
+
+125\. Devis signé sans lecture détaillée. Un devis accepté peut devenir contractuellement contraignant. Contrôler les exclusions, frais et conditions d'annulation.
+
+126\. Travaux supplémentaires facturés sans accord. Demander les preuves de commande des prestations additionnelles.
+
+127\. Artisan qui utilise l'urgence pour imposer une réparation coûteuse. Serrurerie, plomberie et électricité sont particulièrement concernés. Exiger un devis détaillé avant intervention, même en situation d'urgence.
+
+128\. Diagnostic volontairement alarmiste. Remplacement intégral présenté comme indispensable alors qu'une réparation plus limitée pourrait suffire. Obtenir une seconde expertise en cas de doute.
+
+129\. Facturation de prestations non réalisées. Demander un décompte précis, les références des pièces remplacées et les justificatifs.
+
+130\. Démarchage à domicile avec paiement anticipé. Le démarchage hors établissement comporte des règles spécifiques, notamment sur les paiements durant les sept premiers jours et certaines exceptions.
+
+131\. Foire et salon présentés comme des achats rétractables. Il n'existe généralement pas de rétractation de droit commun : un vendeur doit informer le consommateur de cette absence de droit.
+
+132\. Cadeau ou produit envoyé sans commande. Une entreprise ne peut pas imposer le paiement d'un produit non sollicité en jouant sur l'absence de réaction du destinataire.
+
+Ces pratiques sont documentées notamment dans les enquêtes de la DGCCRF sur les soldes, les contrats, les devis et le dépannage à domicile.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.fr\&sz=32)
+
+Service Public
+
++4
+
+
+
+## 10. DGCCRF, SignalConso, 60 Millions de consommateurs : qui fait quoi ?
+
+Ces organismes n'ont pas les mêmes compétences.
+
+| Organisme                           | Ce qu'il peut faire                                                                          | Ce qu'il ne faut pas attendre                                            |
+| ----------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| DGCCRF                              | Contrôler, enquêter, faire cesser et sanctionner des manquements relevant de ses compétences | Régler automatiquement chaque demande individuelle de remboursement      |
+| SignalConso                         | Signaler une pratique et permettre un échange avec le professionnel                          | Rendre une décision judiciaire exécutoire                                |
+| 60 Millions de consommateurs / INC  | Informer, enquêter, comparer les produits, expliquer les droits                              | Assurer lui-même le traitement personnalisé des litiges                  |
+| Association de consommateurs agréée | Conseiller, aider à constituer un dossier, intervenir selon ses services                     | Garantir une issue favorable                                             |
+| Médiateur de la consommation        | Proposer gratuitement une solution amiable à un litige recevable                             | Imposer systématiquement sa solution aux parties                         |
+| Conciliateur de justice             | Rechercher gratuitement un accord, notamment dans un litige civil                            | Trancher comme un juge                                                   |
+| Tribunal compétent                  | Rendre une décision juridiquement contraignante                                              | Remplacer les démarches préalables obligatoires quand elles s'appliquent |
+
+### Les erreurs à éviter
+
+133\. Croire que SignalConso ordonne un remboursement. Un signalement ne remplace pas une mise en demeure ou une procédure judiciaire.
+
+134\. Attendre une réponse de la DGCCRF avant d'agir. Le signalement ne suspend pas automatiquement tous les délais légaux.
+
+135\. Confondre 60 Millions de consommateurs avec un médiateur. Le magazine appartient à l'Institut national de la consommation, qui précise ne pas traiter les litiges individuels.
+
+136\. Saisir directement un médiateur sans réclamation préalable. Il faut justifier d'une tentative de résolution écrite auprès du professionnel.
+
+137\. Saisir trop tard le médiateur. La saisine doit intervenir dans l'année suivant la réclamation écrite initiale.
+
+138\. Saisir le mauvais médiateur. Vérifier sa compétence et son rattachement réel au professionnel.
+
+139\. Saisir plusieurs médiateurs pour le même litige. Cela peut rendre une nouvelle demande irrecevable.
+
+140\. Croire que l'avis du médiateur est obligatoire. La solution proposée n'est pas automatiquement contraignante ; son acceptation peut toutefois produire des effets contractuels importants.
+
+141\. Accepter une transaction trop large. Une proposition de remboursement partiel peut être assortie d'une renonciation à d'autres recours. Lire la portée exacte du document.
+
+142\. Engager un procès sans vérifier la tentative amiable préalable. Pour certaines demandes n'excédant pas 5 000 €, une tentative de conciliation, médiation ou procédure participative est obligatoire, sauf exceptions.
+
+143\. Utiliser une ancienne plateforme européenne. La plateforme européenne de règlement en ligne des litiges (ODR/RLL) a fermé le 20 juillet 2025. Pour les litiges transfrontaliers concernés, utiliser le Centre européen des consommateurs ou les dispositifs actuels.
+
+Sources : DGCCRF, INC et ministère de l'Économie.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++6
+
+
+
+## 11. Fraudes au paiement et tentatives de récupération de l'argent
+
+144\. Escroquerie confondue avec simple litige commercial. Un marchand en retard n'est pas automatiquement un escroc. À l'inverse, un faux site ayant encaissé sans intention de livrer peut justifier une plainte pénale.
+
+145\. Banque qui refuse sans examiner le chargeback. Certaines cartes permettent une rétrofacturation pour non-livraison ou non-conformité. Ce mécanisme est contractuel, pas un droit automatique pour tous les paiements.
+
+146\. Confusion entre chargeback et opération non autorisée. Un paiement volontaire à un marchand défaillant ne relève pas automatiquement des règles de remboursement d'une fraude bancaire.
+
+147\. Délais contractuels de chargeback expirés. Les règles des réseaux de cartes imposent des délais variables. Ne pas attendre plusieurs mois de négociation avec le marchand avant de s'informer auprès de sa banque.
+
+148\. Prélèvement non autorisé présenté comme incontestable. Le délai de contestation est normalement de 13 mois dans le cadre applicable, avec exceptions pour certaines opérations hors EEE.
+
+149\. Prélèvement autorisé d'un montant contesté. Certains prélèvements SEPA en euros peuvent être remboursés sur demande dans les huit semaines. Cela n'efface pas une éventuelle dette contractuelle.
+
+150\. Nouvel abonnement prélevé après contestation. Demander séparément l'arrêt des paiements non autorisés et la résiliation ou contestation du contrat sous-jacent.
+
+151\. Faux support client après une commande. Un prétendu conseiller demande des coordonnées bancaires ou un code de sécurité pour « rembourser ». Ne jamais communiquer un code d'authentification pour recevoir un remboursement.
+
+152\. Faux numéro de SAV surtaxé. Des sites imitent les pages officielles et font payer l'appel. Utiliser les coordonnées du professionnel figurant sur les documents contractuels ou son site officiel.
+
+153\. Escroquerie au remboursement. Une fausse entreprise promet de récupérer des sommes perdues contre le paiement d'avance de « frais de dossier ».
+
+154\. Plainte pénale déposée trop tard. En matière d'escroquerie, le délai de prescription de droit commun est généralement de six ans, avec des règles de point de départ et d'interruption à examiner.
+
+155\. Attendre que la police récupère l'argent. Une plainte ne remplace pas les démarches bancaires, contractuelles ou civiles visant à limiter rapidement les pertes.
+
+En cas de faux site ou de fraude à la petite annonce, la plateforme THESEE permet un dépôt de plainte en ligne pour les situations relevant de son périmètre.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++2
+
+
+
+## 12. Les réflexes qui évitent de perdre ses droits
+
+Ce sont des mesures pratiques, pas toutes des obligations légales.
+
+Checklist de protection
+
+0/10
+
+Avant l'achat : vérifier l'identité du vendeur et son statut professionnel ou particulier.
+
+Conserver une capture de l'annonce, du prix, des caractéristiques et des délais promis.
+
+Enregistrer la confirmation de commande, les CGV et la facture.
+
+Photographier rapidement toute anomalie de livraison ou de conformité.
+
+Contester par écrit en identifiant le droit invoqué : rétractation, conformité, vice caché ou inexécution.
+
+Conserver les preuves d'envoi et de réception des réclamations.
+
+Noter les dates limites et prévoir une marge de sécurité.
+
+Pour un défaut important, obtenir une expertise avant toute réparation destructive.
+
+Ne pas accepter un avoir ou une transaction sans vérifier si cela clôt le litige.
+
+En cas de refus persistant, passer à une mise en demeure puis au recours adapté.
+
+&#x20;Copier la checklistRéinitialiser
+
+## 13. Comment réagir concrètement lorsqu'un commerçant refuse tes droits ?
+
+Étape 1 — Constituer le dossier
+
+Facture, commande, annonces, échanges, captures, photos, justificatifs de paiement et calendrier du litige. Identifier exactement le fondement juridique et le résultat demandé.
+
+Étape 2 — Faire une réclamation écrite
+
+Indiquer les faits, les dates, les références, la solution attendue et un délai de réponse raisonnable. Une réclamation prouvable est indispensable pour la suite.
+
+Étape 3 — Envoyer une mise en demeure
+
+Si nécessaire, par LRAR ou autre moyen permettant de démontrer son contenu et sa réception, avec les textes applicables et la demande précise. Un délai de 8 ou 15 jours peut être approprié selon le cas, sans constituer un délai légal universel.
+
+Étape 4 — Saisir le bon dispositif
+
+SignalConso pour signaler, médiateur pour rechercher un accord avec un professionnel, conciliateur pour certains litiges civils, CEC France si le vendeur est dans un pays couvert, banque si une rétrofacturation est possible.
+
+Étape 5 — Envisager l'action judiciaire
+
+Identifier le tribunal compétent, le montant de la demande, les preuves et les conditions préalables. Attention : une simple réclamation ou mise en demeure ne suspend pas systématiquement la prescription.
+
+### Références et services à conserver
+
+- [SignalConso](https://signal.conso.gouv.fr/?utm_source=chatgpt.com) — signaler un litige avec un professionnel.
+- [Service-Public](https://www.service-public.fr/?utm_source=chatgpt.com) — démarches, délais et modèles officiels.
+- [Légifrance](https://www.legifrance.gouv.fr/?utm_source=chatgpt.com) — vérifier les articles de loi dans leur version applicable.
+- [Institut national de la consommation](https://www.inc-conso.fr/?utm_source=chatgpt.com) — fiches, conseils et modèles de courrier.
+- [DGCCRF](https://www.economie.gouv.fr/dgccrf?utm_source=chatgpt.com) — fiches pratiques, enquêtes, alertes et réglementation.
+- [Centre européen des consommateurs France](https://www.europe-consommateurs.eu/?utm_source=chatgpt.com) — litiges transfrontaliers.
+- [RappelConso](https://rappel.conso.gouv.fr/?utm_source=chatgpt.com) — rappels de produits dangereux.
+- [Fraude liée à un achat sur Internet](https://www.service-public.fr/particuliers/vosdroits/F34000?utm_source=chatgpt.com) — procédures et conditions de dépôt de plainte.
+- [Médiation de la consommation](https://www.economie.gouv.fr/mediation-conso?utm_source=chatgpt.com) — informations officielles sur les médiateurs.
+
+Le principe à retenir : il faut toujours distinguer ce que prévoit réellement la loi, ce que promet le contrat et ce que le service client affirme. En cas de contradiction, une condition générale de vente ou une procédure interne ne peut pas supprimer un droit légal impératif.

@@ -97,6 +97,12 @@ réclamation. Aucun plafond ni écart n'est affirmé.
 
 ## Portée
 
+La [matrice des 99 points](dom-004-frictions-utilisateurs.md) complète cette
+relecture avec routage, résultats attendus et limites. Le contrôleur vérifie
+désormais aussi la continuité des 99 identifiants, leurs propriétaires, la
+source archivée et les 19 propositions BNK. La relecture initiale ci-dessus
+reste historique ; les nouveaux scénarios métier sont attendus, non exécutés.
+
 Cadrage du checkout et relecture par le seul agent de maintenance, sur
 pièces entièrement fictives ; contrôles statiques uniquement. Aucune source
 juridique lue : les articles et actes cités sont des pistes de recherche, pas

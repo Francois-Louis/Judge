@@ -1,6 +1,11 @@
 # DOM-005 — Découpage du domaine assurance
 
-Propositions du **16 octobre 2026**. Les 11 stories INS restent `proposee`.
+Propositions du **16 octobre 2026**. Les 21 stories INS restent `proposee`.
+Les [frictions bancaires](dom-004-frictions-utilisateurs.md) précisent INS-008
+et INS-011 et ajoutent INS-012 pour le rachat d'assurance-vie retardé.
+La [matrice des 90 frictions assurance](dom-005-frictions-utilisateurs.md)
+complète neuf suites existantes et ajoute INS-013 à INS-021 ; elle précise
+la couverture d'orientation seule des placements et le relais corporel DOM-035.
 La [relecture documentaire](dom-005-verification.md) éprouve le routage sur
 les trois scénarios de la story et sur des cas limites. Aucun répertoire de
 plugin n'est créé par ce cadrage.
@@ -93,16 +98,35 @@ portent la priorité P2, le rang 4 la priorité P3.
 | 2 | [INS-003](suites/ins-003-contester-expertise.md) | `expert-assessment-dispute` | Comparaison rapport, devis et contrat ; options à vérifier | INS-001 |
 | 2 | [INS-004](suites/ins-004-lire-garantie.md) | `coverage-review` | Lecture d'une garantie pour un événement donné | INS-001 |
 | 2 | [INS-005](suites/ins-005-mediation-assurance.md) | `insurance-mediation` | Escalade : service réclamations, puis médiateur | INS-001 |
+| 2 | [INS-013](suites/ins-013-suivre-indemnisation.md) | `claim-payment-follow-up` | Débloquer le règlement d'un sinistre | INS-001 |
+| 2 | [INS-021](suites/ins-021-echeances-recours.md) | `insurance-deadline-review` | Établir les échéances d'un dossier d'assurance | INS-001 |
 | 3 | [INS-006](suites/ins-006-resilier-contrat.md) | `policy-termination` | Résiliation par l'assuré ou lecture d'une résiliation par l'assureur | INS-001 |
 | 3 | [INS-007](suites/ins-007-protection-juridique.md) | `legal-expenses-cover` | Mobiliser une garantie protection juridique | INS-004 |
 | 3 | [INS-008](suites/ins-008-assurance-emprunteur.md) | `borrower-insurance` | Prise en charge ou changement d'assurance emprunteur | INS-001 |
 | 3 | [INS-009](suites/ins-009-complementaire-sante.md) | `health-cover-claim` | Refus d'une complémentaire santé ou d'une prévoyance | INS-001 |
+| 3 | [INS-014](suites/ins-014-contester-cotisation.md) | `insurance-premium-review` | Comprendre et contester une cotisation d'assurance | INS-001 |
+| 3 | [INS-015](suites/ins-015-declaration-risque.md) | `insured-risk-declaration` | Préparer une déclaration ou une correction du risque assuré | INS-001 |
+| 3 | [INS-016](suites/ins-016-contester-souscription.md) | `insurance-sale-complaint` | Contester les conditions de souscription d'une assurance | INS-001 |
+| 3 | [INS-017](suites/ins-017-coordonner-degat-eaux.md) | `water-damage-coordination` | Identifier les interlocuteurs d'un dégât des eaux | INS-002 |
+| 3 | [INS-018](suites/ins-018-catastrophe-naturelle.md) | `natural-disaster-claim` | Préparer et suivre un dossier catastrophe naturelle | INS-002 |
 | 4 | [INS-010](suites/ins-010-dommages-ouvrage.md) | `construction-insurance-claim` | Déclaration et suivi d'une assurance dommages-ouvrage | INS-001 |
 | 4 | [INS-011](suites/ins-011-assurance-vie-beneficiaire.md) | `life-insurance-beneficiary` | Démarches d'un bénéficiaire d'assurance-vie ou de capital décès | INS-001 |
+| 4 | [INS-012](suites/ins-012-rachat-assurance-vie.md) | `life-insurance-surrender-follow-up` | Chronologie d'un rachat retardé et relance à l'assureur | INS-001 |
+| 4 | [INS-019](suites/ins-019-garantie-professionnelle.md) | `professional-insurance-cover-review` | Lire une garantie professionnelle pour un risque précis | INS-004 |
+| 4 | [INS-020](suites/ins-020-actualiser-clause-beneficiaire.md) | `beneficiary-clause-update-preparation` | Préparer l'actualisation d'une clause bénéficiaire | INS-001 |
 
 INS-001 possède `qualification-assurance.md` et `motifs-refus.md`, relus par
 INS-008 à INS-011 ; INS-004 possède `lecture-garantie.md`, relu par INS-007.
 Une tâche suivante consomme ces références sans les réécrire. Aucun cycle.
+
+INS-013 à INS-021 possèdent chacun leur référence locale spécialisée.
+INS-017 et INS-018 s'appuient sur INS-002 pour la déclaration ; INS-019 sur
+INS-004 pour la lecture. Les autres relais sont des orientations et ne
+créent ni dépendance d'installation ni appel à un skill absent.
+
+Les rangs ajoutés ne sont pas une mesure de fréquence tirée des statistiques
+du texte utilisateur. INS-001 reste la première tranche proposée ; ses
+exclusions initiales ne sont pas étendues par l'existence des nouvelles suites.
 
 ## Première tranche : INS-001
 
@@ -134,7 +158,7 @@ runtime.
 | Motifs de refus | Code des assurances, exclusions, déchéance, nullité et réduction (pistes L112-4, L113-1, L113-2, L113-8, L113-9). | INS-001 |
 | Déclaration | Code des assurances, obligations de l'assuré après sinistre (piste L113-2) ; délais propres au risque. | INS-002 |
 | Expertise et indemnité | Clauses du contrat ; principe indemnitaire (piste L121-1) ; pratiques d'expertise contradictoire comme information. | INS-003 |
-| Prescription | Code des assurances (pistes L114-1, L114-2), à lire avant toute mention. | INS-001, INS-005 |
+| Prescription et échéances | Code des assurances (pistes L114-1, L114-2), Code civil, régimes spéciaux, points de départ, interruption et suspension à lire. | INS-021 ; INS-001 et INS-005 pour l'orientation |
 | Médiation | Médiation de l'assurance ; Code de la consommation, médiation ; ACPR et ABE Infoservice comme information. | INS-005 |
 | Résiliation | Code des assurances, résiliation et information sur l'échéance (pistes L113-3, L113-12, L113-15-1, L113-15-2). | INS-006 |
 | Protection juridique | Code des assurances (pistes L127-1 et suivants). | INS-007 |
@@ -143,6 +167,19 @@ runtime.
 | Construction | Code des assurances, assurance dommages-ouvrage (piste L242-1). | INS-010 |
 | Vie et décès | Code des assurances, assurance sur la vie (pistes L132-1 et suivants) ; dispositifs de recherche des bénéficiaires. | INS-011 |
 | Distribution | Directive (UE) 2016/97 ; devoir de conseil, selon le grief. | INS-001, INS-004 |
+| Dossier et paiement | Clauses de règlement, complétude, provisions et transaction ; régimes spéciaux isolés. | INS-013 |
+| Cotisations et malus | Clauses tarifaires, paiement, suspension et coefficient automobile ; tarif distinct du coefficient. | INS-014 |
+| Risque déclaré | Questions initiales, aggravation, nullité, réduction pour risque et réduction pour capitaux. | INS-015 |
+| Souscription contestée | Information, consentement, canal de vente, démarchage et renonciation ; réforme et transitions à rechercher. | INS-016 |
+| Dégât des eaux | Contrat, intervenants, dommages distincts de la cause, convention IRSI avec statut et champ propres. | INS-017 |
+| Catastrophe naturelle | Arrêté exact, territoire, phénomène et période ; franchises, sécheresse, relogement et transitions. | INS-018 |
+| Professionnel | Activité, propriété, préjudice, lieu, livraison, transport ; protections du consommateur non présumées. | INS-019 |
+| Clause bénéficiaire du vivant | Désignation, acceptation et pouvoirs de modification ; distinct du versement après décès. | INS-020 |
+
+Les affirmations de publications, réformes et accords en 2026 du texte
+fourni restent non vérifiées. Chaque propriétaire recherche les passages
+officiels et leur effet dans le temps ; aucune table de délais figée n'est
+embarquée à partir du document utilisateur.
 
 ## Contrat commun des stories INS
 

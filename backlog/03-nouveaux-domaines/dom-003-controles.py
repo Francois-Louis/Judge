@@ -1,6 +1,6 @@
 """Contrôles documentaires DOM-003, sans exécution d'un skill.
 
-python backlog/03-nouveaux-domaines/dom-001-controles.py
+python backlog/03-nouveaux-domaines/dom-003-controles.py
 Ajouter --baseline <instantane.json> pour contrôler les travaux préexistants.
 Ajouter --output <rapport.json> pour conserver un relevé, jamais une preuve de droit.
 L'instantané facultatif est un objet {"files": {chemin: sha256}, "git_head": ...}.
@@ -24,11 +24,18 @@ HERE = Path(__file__).resolve().parent
 REPORT = HERE / 'dom-003-resultats.json'
 COMMON = {'DOM-003', 'PILOTE-003', 'BASE-005', 'BASE-006'}
 LOT_DOCS = [HERE / ('dom-003-' + n + '.md') for n in (
-    'commissaires-justice-execution', 'decoupage-execution', 'verification')]
+    'commissaires-justice-execution', 'decoupage-execution', 'verification',
+    'frictions-utilisateurs')]
+SOURCE = HERE / 'sources/commissaires-justice-frictions-2026-10-16.txt'
+SOURCE_SHA256 = 'c0fba97738c12a167565fe35aa257f94864ff2e5efb6aa073257b6c618768762'
+RELAYS = [HERE / 'dom-006-logement.md', HERE / 'dom-035-responsabilite-dommages.md']
+EXPECTED_ENF = {f'ENF-{i:03}' for i in range(1, 20)}
 ALLOWED = {
     'backlog/README.md',
     'backlog/00-fondations/base-003-dossier-architecture.md',
     *(p.relative_to(ROOT).as_posix() for p in LOT_DOCS),
+    *(p.relative_to(ROOT).as_posix() for p in RELAYS),
+    SOURCE.relative_to(ROOT).as_posix(),
     'backlog/03-nouveaux-domaines/dom-003-controles.py',
     'backlog/03-nouveaux-domaines/dom-003-resultats.json',
 }
@@ -111,11 +118,11 @@ def main():
     proposals = sorted((HERE / 'suites').glob('enf-*.md'))
     for p in proposals:
         ALLOWED.add(p.relative_to(ROOT).as_posix())
-    expected = {f'ENF-{i:03}' for i in range(1, 14)}
+    expected = EXPECTED_ENF
     actual = {k for k in stories if k.startswith('ENF-')}
     problems = []
-    if actual != expected or len(proposals) != 13:
-        problems.append('Expected exactly ENF-001..ENF-013 and 13 files')
+    if actual != expected or len(proposals) != len(expected):
+        problems.append('Expected exactly ENF-001..ENF-019 and 19 files')
     required = ('Objectif et résultat attendu', 'Périmètre et fichiers',
                 'Pièces et informations nécessaires', 'Sortie attendue',
                 'Travail attendu', 'Références métier et sources à rechercher',
@@ -176,7 +183,7 @@ def main():
                       breakdown, re.M)
     problems = []
     if {r[1] for r in rows} != expected:
-        problems.append('Breakdown table does not list exactly ENF-001..013')
+        problems.append('Breakdown table does not list exactly ENF-001..019')
     for rank, ident, filename, skill, deps in rows:
         path, fm = stories[ident]
         if path.name != filename:
@@ -192,6 +199,29 @@ def main():
             problems.append(f'{ident}: rank {rank} expects {expected_priority}')
     record('breakdown_table_consistency', problems, rows=len(rows))
 
+    matrix = (HERE / 'dom-003-frictions-utilisateurs.md').read_text(encoding='utf-8')
+    source = SOURCE.read_text(encoding='utf-8')
+    source_numbers = [int(n) for n in re.findall(r'^### (\d+)\.', source, re.M)]
+    matrix_rows = re.findall(r'^\| (\d+) \| ([^\n]+)\|$', matrix, re.M)
+    matrix_numbers = [int(n) for n, _ in matrix_rows]
+    wanted = list(range(1, 48))
+    problems = []
+    if source_numbers != wanted:
+        problems.append('Source must contain exactly points 1..47 in order')
+    if matrix_numbers != wanted:
+        problems.append('Matrix must map each source point 1..47 exactly once in order')
+    if digest(SOURCE) != SOURCE_SHA256:
+        problems.append('Source differs from the user attachment copied byte for byte')
+    for number, row in matrix_rows:
+        if not re.search(r'\[(?:ENF-\d{3}|DOM-\d{3})\]\(', row):
+            problems.append(f'Point {number}: no linked primary owner')
+    for relay in RELAYS:
+        if '(dom-003-frictions-utilisateurs.md)' not in relay.read_text(encoding='utf-8'):
+            problems.append(f'{relay.name}: missing link to user requirements')
+    record('user_frictions_traceability', problems, source_points=len(source_numbers),
+           matrix_points=len(matrix_rows), source_sha256=digest(SOURCE),
+           legal_verification=False)
+
     market = json.loads((ROOT / '.claude-plugin/marketplace.json').read_text(encoding='utf-8'))
     problems = []
     if (ROOT / 'enforcement-legal').exists():
@@ -201,7 +231,7 @@ def main():
         problems.append('enforcement plugin listed in marketplace')
     record('no_plugin_created', problems, marketplace_plugins=len(names))
 
-    lot = LOT_DOCS + proposals + [ROOT / 'backlog/README.md',
+    lot = LOT_DOCS + proposals + RELAYS + [ROOT / 'backlog/README.md',
                                   ROOT / 'backlog/00-fondations/base-003-dossier-architecture.md']
     problems, count = [], 0
     for p in lot:
@@ -241,7 +271,7 @@ def main():
     index = (ROOT / 'backlog/README.md').read_text(encoding='utf-8')
     base003 = (ROOT / 'backlog/00-fondations/base-003-dossier-architecture.md').read_text(encoding='utf-8')
     problems = []
-    for name in ('decoupage-execution', 'verification'):
+    for name in ('decoupage-execution', 'verification', 'frictions-utilisateurs'):
         if f'(03-nouveaux-domaines/dom-003-{name}.md)' not in index:
             problems.append(f'Index missing {name}')
     match = re.search(r'contient (\d+) stories', index)
@@ -309,9 +339,9 @@ def main():
     report = {
         'story': 'DOM-003', 'date': '2026-10-16', 'timezone': 'Europe/Paris',
         'git_head': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
-        'scope': 'cadrage documentaire exécution et recouvrement ; aucun plugin créé ni validation juridique',
+        'scope': 'intégration documentaire des 47 frictions commissaires de justice ; aucun plugin créé ni validation juridique',
         'checks': checks,
-        'lot_sha256': {p.relative_to(ROOT).as_posix(): digest(p) for p in lot + [Path(__file__)]},
+        'lot_sha256': {p.relative_to(ROOT).as_posix(): digest(p) for p in lot + [SOURCE, Path(__file__)]},
         'not_run': ['recherche juridique externe', 'calcul de délai, de décompte ou de montant',
                     'création ou exécution de skill', 'installation/recette client',
                     'lecteur réel ou indépendant', 'connexion/envoi/publication'],
@@ -323,11 +353,10 @@ def main():
             'git diff --check (appelé par le contrôleur)',
         ],
         'execution_notes': [
-            "Instantané de début de tâche pris dans le répertoire temporaire de session, avant toute écriture du lot.",
-            "Contrôleur dérivé de celui de DOM-002 (préfixes, nombre de propositions, nom du plugin) ; les fichiers DOM-001 et DOM-002 non commités ne sont pas modifiés.",
-            "Premier passage : liens vers ce relevé absents avant sa création ; relevé régénéré une fois le fichier présent.",
-            "Montants des pièces fictives listés pour relecture manuelle : ce sont des données recopiées, pas des règles.",
-            "Un lot EXIST-008 était en cours d'écriture dans le même arbre ; ses fichiers sont déclarés par --concurrent et listés, sans être attribués à DOM-003.",
+            "Complément du 16 octobre 2026 : six nouvelles propositions ENF-014 à ENF-019 et exigences dans dix suites existantes.",
+            "Le texte utilisateur est conservé octet pour octet ; son empreinte est comparée à celle de la pièce jointe, sans validation de ses règles ni de ses citations.",
+            "Le contrôle de périmètre compare les fichiers à l'instantané pris avant l'intégration ; l'index et ENF-004 portaient déjà des modifications préexistantes, conservées.",
+            "Les scénarios métier sont attendus et non exécutés. Les durées du bilan initial sont des données fictives ; les références à la réforme du texte utilisateur restent non vérifiées.",
         ],
     }
     if args.output:

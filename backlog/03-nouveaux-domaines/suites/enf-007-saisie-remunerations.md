@@ -59,6 +59,16 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Calcul de paie, contestation rédigée, envoi.
 
+## Complément issu des frictions des commissaires de justice
+
+Points 26–28 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+
+- [ ] W03 — Commandement récent ou dossier antérieur à la réforme annoncée : qualifier date, titre, état de la procédure et transition ; identifier rôles du commissaire, répartiteur, employeur et JEX selon les sources lues, sans exiger par principe une nouvelle autorisation du juge.
+- [ ] W04 — Contestation envisagée : relever date et mode de signification du commandement ; faire vérifier forme, destinataire, représentation et effet selon le moment du recours. Ni simple lettre au cabinet ni négociation ne sont assimilées à l'assignation requise ; celle-ci n'est pas rédigée dans cette story.
+- [ ] W05 — Retenue contestée : recueillir assiette, période, bulletins, personnes à charge justifiées, autres retenues et minimum protégé ; identifier barème daté et exceptions pertinentes sans calcul de paie.
+
+Scénarios W03–W05 **attendus, non exécutés** : ancien dossier transféré ; commandement reçu et contestation informelle seule ; retenue sans prise en compte déclarée d'une charge de famille. Vérifier les textes de réforme et leur transition, le premier délai de contestation et ses effets, et le barème à la date pertinente ; les repères du document utilisateur restent à confirmer.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-003, sans implémentation ni sélection. Contrat commun :

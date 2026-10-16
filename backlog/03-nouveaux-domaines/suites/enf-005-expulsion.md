@@ -59,6 +59,18 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Saisine du juge, demande de logement, contestation du bail, envoi.
 
+## Complément issu des frictions des commissaires de justice
+
+Points 35–39 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+
+- [ ] X03 — Commandement de payer visant une clause : distinguer acte préalable, débat sur le bail, jugement, commandement de quitter et expulsion matérielle. Recueillir bail et dates ; vérifier le régime avant tout repère.
+- [ ] X04 — Suspension de clause résolutoire et dette locative : conserver les pièces et orienter vers DOM-006, qui doit encore découper ce besoin ; ne pas annoncer qu'une demande judiciaire y est disponible.
+- [ ] X05 — Trêve invoquée : séparer expulsion matérielle et poursuite des actes ou du procès ; examiner qualité de l'occupant, décision et exceptions avant de parler de protection.
+- [ ] X06 — Délai pour quitter ou délai supplémentaire : réunir signification, décision, situation du foyer et relogement ; identifier la démarche urgente et le destinataire, sans date calculée ni saisine rédigée.
+- [ ] X07 — Biens après expulsion : recueillir procès-verbal, inventaire, valeur attribuée, stockage et notification ; distinguer récupération et contestation de valeur, avec délais propres à vérifier.
+
+Scénarios X03–X07 **attendus, non exécutés** : commandement assimilé à une expulsion ; échéancier locatif envisagé ; acte reçu pendant une période présentée comme protégée ; relogement incomplet ; outils et papiers laissés sur place, sans valeur marchande attribuée. Sources supplémentaires à rechercher : bail concerné, clause résolutoire, délais judiciaires et biens après expulsion. Aucune durée du texte fourni n'est une règle acquise.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-003, sans implémentation ni sélection. Contrat commun :

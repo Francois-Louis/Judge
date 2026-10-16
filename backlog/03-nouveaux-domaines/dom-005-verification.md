@@ -92,6 +92,38 @@ données fictives recopiées ; aucun n'est déclaré dû.
 | Implémentations non lancées | Aucun fichier sous `insurance-legal/` ; marketplace inchangé. |
 | Distinctions demandées par la story | Absence de garantie, exclusion, déchéance et nullité séparées ; régimes auto, construction, santé et emprunteur isolés ; garantie séparée de la responsabilité des intervenants (DOM-015, DOM-023, DOM-007, DOM-035). |
 
+## Complément — intégration des frictions assurance
+
+La [matrice des 90 points](dom-005-frictions-utilisateurs.md) reprend le
+texte utilisateur archivé. Le découpage courant comporte 21 propositions ;
+les mentions des 11 propositions ci-dessus décrivent le cadrage initial.
+INS-012 provient du complément bancaire ; INS-013 à INS-021 de ce complément.
+Les anciennes modifications, notamment INS-008/INS-011, sont conservées.
+
+Relecture documentaire par l'agent de maintenance, sans exécution métier :
+
+| Situation du texte | Attribution relue | Réserve conservée |
+|---|---|---|
+| Pièces redemandées et quittance de solde avec paiement partiel | INS-013 | Complétude, nature du paiement et portée de la signature à établir. |
+| Malus et hausse commerciale concomitants | INS-014 | Coefficient, responsabilité alléguée et tarif séparés ; aucun recalcul. |
+| Livraison professionnelle avec voiture privée | INS-015 ; INS-019 pour la garantie | Questions initiales et usage réel, sans fausse déclaration intentionnelle déduite. |
+| Appel commercial, consentement contesté et réforme alléguée | INS-016 | Texte, version, transition et preuve de consentement à rechercher. |
+| Voisin, bailleur et syndic se renvoient la fuite | INS-017 | Gestionnaire à confirmer ; IRSI non tenue pour opposable universellement. |
+| Sécheresse et arrêté pour une autre période | INS-018, INS-021 | Commune, phénomène, période, causalité et échéance non inventés. |
+| Hébergement web ou stock artisanal dans un atelier partagé | INS-019 | Un risque ciblé, propriété et activité ; pas d'audit exhaustif ni de protection du particulier présumée. |
+| Clause d'un souscripteur vivant ou recherche après décès | INS-020 / INS-011 | Pouvoir de modifier distinct du droit au capital ; acceptation à vérifier. |
+| Frais ou perte sur unités de compte | BNK-011 | Orientation seule ; analyse au fond non couverte. |
+| Constat auto imprécis, offre de cession ou offre corporelle | INS-002 / INS-003 / DOM-035 | Faits sans attribution de responsabilité ; restrictions de véhicule à vérifier ; corps à découper. |
+| Réclamation simple, recommandé d'indemnisation et médiation | INS-005, INS-021 | Événements et preuves séparés ; aucune interruption ou suspension automatique. |
+
+Les contrôles ajoutés vérifient numérotation 1 à 90, liens des propriétaires,
+retour des suites concernées vers la matrice, neuf nouvelles suites reliées,
+bornes placements/corps et empreinte SHA-256 du texte comparée à celle de la
+pièce jointe. Le contrôleur conserve aussi dépendances, cohérence des 21
+stories et du tableau, absence de plugin, liens, formats et index.
+Le relevé JSON indique si la comparaison à l'instantané de début de tâche
+a été exécutée ; les contrôles ne valident aucune règle du texte.
+
 ## Portée
 
 Cadrage du checkout et relecture par le seul agent de maintenance, sur

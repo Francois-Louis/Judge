@@ -64,6 +64,16 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 Organisation d'une manifestation, recours administratif rédigé, défense au
 fond, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 49–58 et 82–87 de la [matrice](../dom-002-frictions-utilisateurs.md). Ajouter chronologie avant/pendant/après, lieu et déplacements, sommations entendues ou non, conditions de sortie d'un encerclement, durée déclarée, unités, identifiants, armes alléguées et blessures. CRS et gendarmes mobiles sont distingués dans le choix du canal.
+
+- [ ] D03 — Usage de force, dispersion ou nasse : relever contexte, danger annoncé, sommations, exceptions à rechercher, nécessité et proportionnalité à examiner ; ni absence de sommation ni présence d'une arme ne suffisent à conclure au droit applicable.
+- [ ] D04 — Interpellation dans une foule : séparer présence et faits individuels allégués ; CRIM-002/015 selon mesure en cours ou achevée ; avocat si mise en cause.
+- [ ] D05 — Images et agents non identifiés : séquences complètes, témoins et identification visible → CRIM-020 ; signalement → CRIM-021 ; plainte → CRIM-004. Aucun conseil pour franchir ou contourner un dispositif.
+
+Scénarios **attendus, non exécutés** : encerclement avec sortie alléguée impossible ; force sans sommations perçues ; vidéo tronquée d'une interpellation. Sources supplémentaires à rechercher : règles d'usage de la force et armes, sommations et exceptions, textes opérationnels et jurisprudence officielle sur l'encerclement avec date et portée exactes ; aucune décision présumée depuis le texte utilisateur.
+
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation ni sélection.

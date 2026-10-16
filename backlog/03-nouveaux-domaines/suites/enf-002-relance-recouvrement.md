@@ -65,6 +65,18 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Examen de la dette au fond, plainte, envoi, paiement.
 
+## Complément issu des frictions des commissaires de justice
+
+Points 1, 3–5, 8–10 et 45–46 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+
+- [ ] R05 — Décompte avec indemnité, frais de dossier et intérêts : demander principal, bases, taux, périodes, clause, texte ou décision ; ne pas présumer que la seule présence du professionnel justifie les frais.
+- [ ] R06 — Dette cédée ou déjà payée : identifier créancier d'origine et actuel, qualité du demandeur, pièces de cession ou de mandat pertinentes ; demander historique des règlements et imputation, avec justificatifs.
+- [ ] R07 — Dette ancienne et versement proposé : réunir exigibilité, titre éventuel, reconnaissances, paiements et actes invoqués ; distinguer prescription, forclusion et durée d'exécution du titre. Le calcul reste hors périmètre et le fond garde son domaine.
+- [ ] R08 — Pressions par appels ou visites : conserver messages, dates et propos exacts ; privilégier le brouillon écrit et orienter selon les faits vers ENF-015, un signalement à vérifier ou DOM-002, sans qualification automatique.
+- [ ] R09 — Le brouillon demande identité, origine, exigibilité, décompte et nature de l'intervention ; il ne prétend pas remplacer un recours judiciaire. Une formule « sans reconnaissance » ne garantit pas l'absence de tout effet d'un engagement ou paiement.
+
+Scénarios R05–R09 **attendus, non exécutés** : indemnité sans base fournie ; paiement absent d'une créance cédée ; dette ancienne et versement symbolique proposé ; appels documentés ; demande de justificatifs alors qu'une signification distincte vient d'être reçue. Sources supplémentaires à rechercher : champ des règles du recouvrement pour autrui selon le professionnel, charge des frais et exceptions, cession, reconnaissance, prescription et forclusion selon la dette. Invitation simplifiée : ENF-017 ; échéancier : ENF-008.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-003, sans implémentation ni sélection. Contrat commun :

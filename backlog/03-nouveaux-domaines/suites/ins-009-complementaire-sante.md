@@ -60,6 +60,16 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Prestations de sécurité sociale, envoi.
 
+## Complément issu des frictions assurance
+
+Points 12–13 et 53–57 de la [matrice](../dom-005-frictions-utilisateurs.md).
+
+- [ ] S03 — Décompte : séparer facture, base de remboursement, part obligatoire, complément, forfait, plafond et période ; un pourcentage de base n'est pas un pourcentage de facture.
+- [ ] S04 — Prévoyance : distinguer effet, carence, franchise temporelle, définition d'incapacité et invalidité contractuelle ; la décision de caisse ne suffit pas à établir la garantie privée.
+- [ ] S05 — Prestations arrêtées : demander clause, critère médical et rapport utile ; contre-avis médical à vérifier, sans diagnostic ni taux de séquelles établi par l'outil.
+
+Scénarios S03–S05 **attendus, non exécutés** : reste à charge malgré un pourcentage annoncé, plafond annuel optique, invalidité sociale mais garantie refusée, arrêt des versements avant reprise professionnelle. Définir l'organisme et son code ; recueillir les seules données de santé nécessaires, sans stockage. Aucun remboursement recalculé. GAV relève de la lecture du contrat INS-004 ; préjudice corporel → DOM-035.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :

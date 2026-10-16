@@ -59,6 +59,16 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Défense au fond, rédaction de conclusions, exécution de la peine.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 94–97 de la [matrice](../dom-002-frictions-utilisateurs.md). Le périmètre de lecture inclut la proposition de composition pénale reçue par une personne mise en cause ; ne pas la confondre avec ordonnance pénale, CRPC, jugement ou alternative adressée à la victime (CRIM-007).
+
+- [ ] J03 — Composition : identifier stade, reconnaissance ou consentement sollicités et conséquence annoncée ; préparer les questions à l'avocat avant décision, sans conseiller acceptation ni refus.
+- [ ] J04 — Ordonnance pénale : identifier matière, sanction, remise ou notification, pièces et voie d'opposition à vérifier ; ne pas appliquer un délai unique aux matières contraventionnelle et délictuelle. Aucun calcul ni acte d'opposition rédigé dans cette story.
+- [ ] J05 — Version des faits contestée : tableau mention du document, récit déclaré, pièce contradictoire et question à l'avocat ; aucune déclaration reconstituée comme certaine. Acte administratif → DOM-010.
+
+Scénarios **attendus, non exécutés** : composition présentée comme simple formalité ; ordonnance reçue sans audience et sans preuve de notification ; décision administrative prise pour jugement. CPP et notification des actes à rechercher pour chaque voie ; les délais du texte fourni ne font pas preuve.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :

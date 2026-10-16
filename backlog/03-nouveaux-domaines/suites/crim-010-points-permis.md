@@ -60,6 +60,14 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Recours administratif, stage, conduite sans permis.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 73–75 et 97 de la [matrice](../dom-002-frictions-utilisateurs.md). Rétention initiale et dépistage → CRIM-023 ; suspension ou invalidation administrative : lecture minimale et orientation vers DOM-010, sans recours préparé. Ne pas confondre ces mesures avec retrait de points ou suspension prononcée par un juge.
+
+- [ ] E03 — La fiche donne pour chaque document nature, autorité, notification, mesure annoncée et pièce absente, sans déduire la restitution ou le droit de conduire de la seule expiration d'une durée supposée.
+
+Scénario **attendu, non exécuté** : avis de rétention, lettre de suspension et courrier de points reçus pour les mêmes faits ; chaque volet garde son propriétaire.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :

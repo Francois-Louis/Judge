@@ -70,6 +70,16 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 Rédaction de la contestation (CRIM-005), points du permis (CRIM-010),
 paiement, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 59–62, 67–68, 79 et section 7 de la [matrice](../dom-002-frictions-utilisateurs.md). Recueillir avis initial et majoré, avis de paiement ou consignation, mode de notification, adresse du certificat d'immatriculation aux dates utiles et changement d'adresse, sans copier l'adresse complète dans la sortie.
+
+- [ ] F04 — Séparer paiement, consignation, contestation, demande de remise et photo radar ; identifier les effets propres à chaque démarche selon le texte lu, sans promettre que l'une conserve le délai de l'autre.
+- [ ] F05 — Distinguer amende routière, amende forfaitaire délictuelle, ordonnance pénale, stationnement interdit et forfait post-stationnement (FPS). Aucune grille de délais routiers appliquée par défaut ; FPS → DOM-010, ordonnance → CRIM-006.
+- [ ] F06 — Sans interception ou sans signature : ne pas déduire l'annulation ; préciser le procédé de constatation annoncé et les pièces manquantes.
+
+Scénarios **attendus, non exécutés** : paiement pris pour consignation ; avis majoré sans premier avis et adresse obsolète ; FPS pris pour contravention ; signature refusée. Référence `amendes.md` : les délais de paiement et de recours ont chacun leur point de départ, mode et exception à vérifier. Aucun calculateur ne reprend les constantes du texte utilisateur.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :

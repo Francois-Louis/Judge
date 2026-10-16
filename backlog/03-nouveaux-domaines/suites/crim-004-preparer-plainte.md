@@ -68,6 +68,18 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 Dépôt de la plainte, constitution de partie civile, chiffrage du préjudice
 (DOM-035), indemnisation par une commission ou un fonds, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 1–12 et section 11 de la [matrice](../dom-002-frictions-utilisateurs.md). Recueillir lieu et date de tentative, motif exact rapporté du refus, document demandé, plainte ou main courante proposée, absence de certificat ou de preuve, auteur inconnu, PV signé ou non et copie/récépissé disponibles. Ne pas bloquer la préparation sur une preuve encore absente.
+
+Compléter la sortie par un brouillon factuel de plainte au procureur lorsque le dépôt est bloqué : faits, pièces disponibles, pièces à venir, tentative et objectif. Aucun dépôt ni qualification définitive. Les allégations anciennes sont consignées sans prescription calculée. Distinguer contenu contesté d'un PV, correction sollicitée et récit complémentaire daté.
+
+- [ ] P04 — Refus pour secteur, rendez-vous, gravité, certificat, auteur inconnu, preuves manquantes, ancienneté ou classement anticipé : noter le motif et rechercher l'obligation de réception et la voie adaptée, sans promettre des poursuites.
+- [ ] P05 — Main courante proposée : expliquer la distinction vérifiée avec plainte, demander quel acte a réellement été enregistré, récépissé et copie du PV de plainte selon le texte lu.
+- [ ] P06 — Plainte visant un agent : CRIM-021 pour le signalement et CRIM-020 pour les preuves ; le brouillon pénal reste ici. Ne présumer aucun effet sur les autres délais.
+
+Scénarios **attendus, non exécutés** : plainte contre X sans certificat refusée hors secteur ; récit déformé avant signature ; main courante enregistrée malgré une demande de plainte ; plainte contre un agent. Sources à rechercher : CPP réception, récépissé et copie (piste 15-3), saisine du procureur, modes de dépôt et information de la victime.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :

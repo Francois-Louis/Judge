@@ -95,3 +95,35 @@ du secteur disponible, consumer traite le litige avec les règles générales et
 signale les règles sectorielles manquantes, d'où CONSO-014. La phrase du
 bilan « un secteur garde son litige, même quand son plugin n'est pas
 disponible » est remplacée par cette règle.
+
+## Intégration des frictions utilisateur — 16 octobre 2026
+
+Le [guide fourni](sources/consommation-frictions-2026-10-16.txt) est archivé
+intégralement comme expression du besoin, avec son empreinte contrôlée.
+La [matrice des 155 situations](dom-001-frictions-utilisateurs.md) relie chaque
+friction à un propriétaire, des preuves et un résultat attendu. Les sections
+non numérotées ajoutent checklist, calendrier et distinction des organismes.
+
+Les 14 suites existantes sont complétées par des critères et scénarios ; six
+propositions CONSO-015 à CONSO-020 portent vérification du vendeur et de l’offre,
+prix et frais, prestation et avance, protection de plateforme, mise en demeure
+et remboursement, démarchage et consentement. Le [découpage](dom-001-decoupage-consommation.md)
+compte désormais 20 propositions, toujours sans sélection d’implémentation.
+CONSO-011 traite aussi la position du vendeur particulier ; CONSO-012 garde
+la réponse d’une TPE. Les frontières banque, assurance, pénal, procédure,
+données et secteurs restent explicites, avec le repli CONSO-014 déjà décidé.
+
+La [relecture](dom-001-verification.md) éprouve le routage documentaire sur des
+cas fictifs. Le [contrôleur](dom-001-controles.py) et son
+[relevé](dom-001-resultats.json) vérifient structure, dépendances, couverture,
+liens, fichiers futurs et texte archivé. Les travaux préexistants hors lot
+sont comparés à l’instantané de début d’intégration, sans réécriture de leurs
+fichiers. L’index partagé est ajusté aux nombres réels de stories.
+
+**Portée du complément :** exigences de backlog seulement ; statistiques,
+délais, réformes et conflit de sources allégué dans le guide restent à
+vérifier selon BASE-005. Aucune recherche juridique, consultation résolue,
+création de plugin ou skill, exécution métier, lecteur réel, envoi ou dépôt.
+Les contrôles documentaires ne valident ni le droit ni la capacité du produit
+à répondre aux situations. DOM-001 reste un cadrage terminé ; ses suites
+restent proposées.

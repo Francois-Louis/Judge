@@ -66,6 +66,15 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Action contre la banque, négociation, procédure, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Point 97 de la [matrice](../dom-004-frictions-utilisateurs.md).
+
+- [ ] C03 — Garantie personnelle d'un concours professionnel : distinguer dette de l'entreprise, engagement personnel, montant/durée/conditions recopiés et recours à vérifier ; ne pas confondre caution et sûreté sur un bien.
+- [ ] C04 — Rupture du concours et appel de caution simultanés : produire deux questions ; le concours et la Médiation du crédit relèvent de BNK-018, sans suspension présumée de l'appel.
+
+Scénarios C03/C04 **attendus, non exécutés** ; aucune extension à une action contre la banque.
+
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation ni sélection.

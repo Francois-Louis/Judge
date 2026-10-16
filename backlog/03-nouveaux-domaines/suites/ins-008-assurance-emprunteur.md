@@ -61,6 +61,35 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Renégociation du prêt, souscription, envoi.
 
+## Complément issu des frictions bancaires
+
+Points 56–58 et 64 de la [matrice utilisateur](../dom-004-frictions-utilisateurs.md).
+Recueillir garanties exigées, contrat proposé en délégation, tableau d'équivalence,
+motifs du refus de substitution, réception des demandes et changements annoncés
+de taux, frais ou conditions du prêt. Pour la couverture : exclusions, carence,
+franchise, quotité et critères d'indemnisation, sans collecte de santé superflue.
+
+- [ ] B03 — Refus d'assurance externe : comparer garanties exigées, proposées et motifs ; préparer la demande de réexamen avec textes lus.
+- [ ] B04 — Frais ou modification du prêt à cause de la substitution : documenter les conditions avant/après et préparer la question au prêteur, distincte de la garantie ; crédit → BNK-005.
+- [ ] B05 — Risque que la personne croyait couvert : expliquer les clauses applicables et les pièces manquantes sans garantie d'indemnisation.
+
+Scénarios B03–B05 **attendus, non exécutés** : refus sans garantie manquante
+identifiée, frais d'avenant liés à une assurance externe, incapacité définie
+différemment du risque attendu. Sources à ouvrir : libre choix, substitution,
+motivation, conditions du crédit et garanties selon les dates des contrats.
+
+## Complément issu des frictions assurance
+
+Points 13 et 60–65 de la [matrice](../dom-005-frictions-utilisateurs.md).
+
+- [ ] B06 — Quotités : distinguer assuré, part de prêt, risque garanti et prestation annoncée ; aucun calcul de prise en charge.
+- [ ] B07 — Perte d'emploi : relever statut et cause de cessation, exclusions, carence et franchise ; ne pas présumer qu'une rupture conventionnelle ou un indépendant est couvert.
+- [ ] B08 — Substitution : frise ancien/nouveau contrat, acceptation du prêteur, date d'effet, carences et franchises ; ne pas confondre équivalence annoncée et continuité effective.
+- [ ] B09 — Questionnaire de santé : vérifier d'abord champ du crédit, montant cumulé par assuré, âge et terme ; ne demander les réponses médicales que si la tâche le nécessite.
+- [ ] B10 — Réponse inexacte : conserver question exacte, réponse et preuve du rôle de l'intermédiaire ; intention et sanction non déduites de la seule discordance.
+
+Scénarios B06–B10 **attendus, non exécutés** : quotités distinctes entre coemprunteurs, perte d'emploi non couverte, arrêt traversant la substitution, crédits cumulés et questionnaire réclamé, intermédiaire ayant rempli une réponse. Rechercher l'accord CCSF allégué du 26 mai 2026, son champ et son effet ; aucune règle tirée d'un communiqué seul. L'existence d'un questionnaire signé n'est pas un préalable systématique. Sources et droit dans le temps à vérifier.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :

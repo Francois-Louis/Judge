@@ -1,0 +1,502 @@
+# Forces de l'ordre en France : les abus, pièges administratifs et droits à connaître
+
+État du droit : 16 octobre 2026 — Police nationale, police municipale, gendarmerie, CRS et maintien de l'ordre.
+
+Le principal danger pour un citoyen n'est pas uniquement de subir un comportement abusif. C'est aussi de ne pas connaître les limites des pouvoirs policiers, de faire une déclaration qui se retourne contre lui, de perdre une preuve ou de laisser passer un délai de recours.
+
+Il faut distinguer trois situations :
+
+- Les abus avérés ou documentés : violences disproportionnées, discriminations, refus de plainte, manquements aux droits procéduraux.
+- Les pratiques légalement possibles mais défavorables au citoyen : auditions sans garde à vue, verbalisations sans interception, procédures forfaitaires, demandes de consentement.
+- Les irrégularités administratives et procédurales : procès-verbaux contestés, notifications problématiques, refus d'enregistrement, erreurs de qualification.
+
+## 1. De quoi les Français se plaignent-ils réellement ?
+
+L'enquête nationale du Défenseur des droits publiée en juin 2025, réalisée auprès de 5 030 personnes interrogées entre octobre 2024 et janvier 2025, apporte des données utiles.
+
+# 21 %
+
+des personnes ayant tenté de déposer une plainte ou une main courante déclarent avoir essuyé un refus.
+
+# 19 %
+
+des personnes contrôlées signalent des comportements non professionnels.
+
+# 52 %
+
+des personnes contrôlées déclarent ne pas avoir reçu d'explication du contrôle.
+
+# 8 %
+
+des personnes déclarant un comportement inapproprié ont tenté de le faire reconnaître.
+
+Enquête « Accès aux droits », Défenseur des droits, 2025. Ces résultats déclaratifs ne constituent pas des pourcentages d'illégalités judiciairement établies.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.defenseurdesdroits.fr\&sz=32)
+
+Défenseur des Droits
+
++1
+
+Dans son rapport annuel 2025, publié en avril 2026, le Défenseur des droits relève que l'usage excessif de la force est le motif de réclamation le plus fréquent en matière de déontologie de la sécurité. Il identifie également des difficultés récurrentes concernant les opérations de maintien de l'ordre et le traitement des personnes étrangères.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.defenseurdesdroits.fr\&sz=32)
+
+Défenseur des Droits
+
++1
+
+
+
+Ces constats ne signifient pas que toutes les interventions sont abusives. Ils permettent d'identifier les situations dans lesquelles connaître ses droits est particulièrement important.
+
+## 2. Dépôt de plainte : les refus et découragements
+
+C'est l'un des domaines les mieux documentés. L'article 15-3 du Code de procédure pénale impose aux services de police judiciaire de recevoir les plaintes des victimes d'infractions, même lorsque les faits relèvent d'un autre secteur géographique.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.defenseurdesdroits.fr\&sz=32)
+
+Défenseur des Droits
+
+
+
+| Situation problématique                                | Ce qu'il faut savoir et faire                                                                                                                                   |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. « Ce n'est pas notre secteur. »                     | Tu peux déposer plainte dans n'importe quel commissariat ou brigade de gendarmerie.                                                                             |
+| 2. « Il faut prendre rendez-vous. »                    | L'organisation de l'accueil ne doit pas aboutir à un refus de plainte. En cas de blocage, demande un supérieur ou saisis le procureur.                          |
+| 3. « Ce n'est pas assez grave. »                       | Ce n'est pas à l'agent d'accueil de conditionner la réception d'une plainte à son appréciation de la gravité.                                                   |
+| 4. « Sans certificat médical, on ne peut rien faire. » | Faux. Tu peux porter plainte sans certificat médical et compléter ton dossier ensuite.                                                                          |
+| 5. « On ne connaît pas l'auteur. »                     | Une plainte contre X est possible.                                                                                                                              |
+| 6. « Ça sera classé sans suite. »                      | Une éventuelle décision future du procureur ne justifie pas le refus d'enregistrement.                                                                          |
+| 7. « Faites plutôt une main courante. »                | Une main courante n'est pas une plainte. Elle ne produit pas les mêmes effets procéduraux.                                                                      |
+| 8. « Revenez avec davantage de preuves. »              | Tu peux déposer plainte même sans preuves matérielles immédiatement disponibles.                                                                                |
+| 9. Tes déclarations sont résumées incorrectement.      | Demande une correction avant de valider le procès-verbal. N'approuve pas un récit inexact.                                                                      |
+| 10. On refuse de te remettre un document.              | Demande le récépissé de plainte et une copie de ton procès-verbal de plainte, remise sur demande.                                                               |
+| 11. On te dit que les faits sont trop anciens.         | La question de la prescription ne justifie pas, à elle seule, un refus de réception de la plainte.                                                              |
+| 12. Ta plainte ne reçoit aucune suite apparente.       | Conserve la référence de procédure, demande des nouvelles au parquet et examine les possibilités de relance ou de constitution de partie civile avec un avocat. |
+
+Le réflexe le plus efficace en cas de refus : envoyer directement une plainte circonstanciée au procureur de la République du tribunal judiciaire compétent, idéalement en recommandé avec accusé de réception. Le signalement au Défenseur des droits peut être effectué en parallèle.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++1
+
+
+
+Attention : une plainte ne garantit ni une enquête approfondie ni des poursuites. Mais elle doit pouvoir être reçue lorsque tu déclares être victime d'une infraction.
+
+## 3. Contrôles d'identité : les limites à connaître
+
+Les contrôles peuvent être effectués pour différents motifs : soupçons liés à une infraction, prévention d'un risque sérieux pour l'ordre public, réquisitions du procureur, certaines zones frontalières, etc.
+
+Le contrôle n'est donc pas nécessairement illégal parce qu'aucune infraction ne t'est personnellement reprochée. En revanche, il doit reposer sur un fondement légal.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+| Situation                                                              | Droit ou précaution                                                                                                                       |
+| ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| 13. Contrôle sans explication                                          | Demande calmement le cadre juridique. L'absence d'explication immédiate ne suffit pas toujours à établir l'illégalité.                    |
+| 14. Contrôle fondé sur l'apparence ou l'origine                        | Un contrôle discriminatoire est interdit. Consigne les circonstances et les témoignages.                                                  |
+| 15. On exige obligatoirement ta carte d'identité                       | En règle générale, tu peux justifier ton identité par tout moyen. Il existe des obligations documentaires particulières.                  |
+| 16. Tu n'as aucun document                                             | Une vérification d'identité peut être engagée. Cela ne signifie pas automatiquement que tu as commis une infraction.                      |
+| 17. Vérification d'identité prolongée                                  | Durée maximale ordinaire : 4 heures depuis le début du contrôle, avec des régimes particuliers notamment à Mayotte et en Guyane.          |
+| 18. On veut t'interroger sur une autre affaire pendant la vérification | Une vérification d'identité ne doit pas être détournée en audition pénale.                                                                |
+| 19. On te photographie ou prend tes empreintes                         | Ce n'est pas automatiquement autorisé. Une procédure et des conditions spécifiques doivent être respectées.                               |
+| 20. Un policier municipal annonce un contrôle d'identité général       | Ses pouvoirs ordinaires de relevé d'identité sont plus limités que ceux d'un OPJ ou d'un APJ.                                             |
+| 21. On te tutoie, menace ou humilie                                    | Ce n'est pas un comportement déontologiquement acceptable. Documente les faits.                                                           |
+| 22. Contrôles répétés et ciblés                                        | Note chaque date, lieu, motif annoncé et identification des agents. La répétition peut contribuer à établir une pratique discriminatoire. |
+
+Deux subtilités importantes : tu n'es généralement pas obligé de porter une carte d'identité sur toi, mais ne pas pouvoir justifier ton identité peut entraîner une retenue légale ; et demander le motif du contrôle ne te donne pas le droit de quitter les lieux pendant celui-ci.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+## 4. Fouilles, palpations, véhicules et domicile
+
+Le piège classique est la confusion entre demander ton accord et t'imposer une mesure légalement autorisée.
+
+| Situation                                             | Ce qu'il faut savoir                                                                                                                      |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| 23. « Ouvrez votre coffre, s'il vous plaît. »         | Demande si c'est une sollicitation de consentement ou une mesure fondée sur un pouvoir légal.                                             |
+| 24. Fouille systématique après un contrôle d'identité | Un contrôle d'identité ne donne pas automatiquement un pouvoir général de fouille.                                                        |
+| 25. Palpation assimilée à une fouille                 | La palpation de sécurité est une recherche extérieure d'objets dangereux. Une fouille corporelle obéit à d'autres règles.                 |
+| 26. Fouille d'un sac sans consentement                | Certaines procédures l'autorisent, notamment sous réquisitions spécifiques. Dans d'autres situations, ton accord est nécessaire.          |
+| 27. Contrôle d'accès à un événement                   | Refuser une fouille peut être permis, mais entraîner un refus d'accès.                                                                    |
+| 28. Fouille à nu présentée comme systématique         | Elle n'est pas systématiquement autorisée : nécessité, cadre procédural, conditions d'exécution et respect de la dignité sont essentiels. |
+| 29. « Laissez-nous entrer pour jeter un œil. »        | L'entrée consentie et la perquisition contrainte sont différentes. Ne donne pas un accord sans comprendre son étendue.                    |
+| 30. Perquisition en enquête préliminaire              | En principe, accord écrit de l'occupant ; un juge peut autoriser une perquisition sans consentement dans certains cas.                    |
+| 31. Saisie de matériel                                | Demande les références de procédure et les documents relatifs aux objets placés sous scellés.                                             |
+
+Une perquisition peut être menée sans ton accord dans certaines procédures, notamment en flagrance ou sur décision judiciaire. Refuser ton consentement ne permet pas de t'opposer physiquement à une mesure légalement imposée.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++1
+
+
+
+## 5. Auditions, interrogatoires et gardes à vue
+
+Ce sont potentiellement les situations les plus dommageables pour quelqu'un qui ignore ses droits.
+
+### Audition libre : les pièges
+
+| Situation                                                                | Comment te protéger                                                                                                                         |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| 32. « Passez simplement répondre à quelques questions. »                 | Demande à quel titre tu es convoqué : témoin, suspect ou autre. Une convocation ne doit pas être ignorée.                                   |
+| 33. On te présente l'audition libre comme une formalité sans conséquence | Tes déclarations peuvent servir de preuves dans la procédure pénale.                                                                        |
+| 34. On te fait parler sans t'indiquer clairement les faits reprochés     | En audition libre de suspect, tu dois être informé de la nature, de la date et du lieu présumés de l'infraction, selon les éléments connus. |
+| 35. « Vous n'avez pas besoin d'avocat. »                                 | Si le crime ou le délit reproché est puni d'emprisonnement, tu peux être assisté d'un avocat.                                               |
+| 36. « Si vous n'avez rien à vous reprocher, répondez. »                  | Un suspect entendu librement dispose du droit de garder le silence.                                                                         |
+| 37. On te laisse croire que tu ne peux pas partir                        | En audition libre, tu peux quitter les locaux. Si une garde à vue commence, le régime change.                                               |
+| 38. Le procès-verbal ne reflète pas tes réponses                         | Relis-le intégralement. Demande les corrections et, en cas de désaccord persistant, refuse de signer. Le refus sera mentionné.              |
+| 39. On te refuse une copie du PV d'audition libre                        | Contrairement au PV de dépôt de plainte, une copie du PV d'audition libre de suspect n'est normalement pas remise à l'intéressé.            |
+
+Attention à une nuance fondamentale : être convoqué est obligatoire ; répondre aux questions incriminantes ne l'est pas lorsque tu bénéficies du droit au silence. L'audition libre peut aussi déboucher sur une garde à vue.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+### Garde à vue : les droits à exercer
+
+| Situation                                                    | Ce qu'il faut faire                                                                                                            |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| 40. Les policiers minimisent la nécessité d'un avocat        | Demande explicitement un avocat dès le début.                                                                                  |
+| 41. Tu ne sais pas pourquoi tu es retenu                     | Les faits reprochés, les motifs de placement et tes droits doivent être notifiés.                                              |
+| 42. Tu es fatigué, malade ou blessé                          | Demande un examen médical.                                                                                                     |
+| 43. On exige que tu répondes à toutes les questions          | Tu disposes du droit de garder le silence, en dehors de l'obligation de décliner ton identité.                                 |
+| 44. On t'invite à renoncer à ton avocat                      | Ne renonce pas à son assistance simplement pour accélérer la procédure.                                                        |
+| 45. Les enquêteurs rapportent tes propos de manière inexacte | Demande rectification du PV, fais mentionner ton désaccord et parle-en à ton avocat.                                           |
+| 46. Tu subis des menaces, humiliations ou pressions          | Informe ton avocat, demande un médecin et documente les faits dès que possible.                                                |
+| 47. Tes proches ne sont pas informés                         | Tu peux demander à faire prévenir un proche, ton employeur ou une personne de ton choix, sous réserve de restrictions légales. |
+| 48. Menottage systématique sans justification                | Le menottage doit notamment reposer sur un danger ou un risque de fuite, et non être une humiliation automatique.              |
+
+La garde à vue dure normalement 24 heures initialement, avec une prolongation possible de 24 heures supplémentaires dans les conditions prévues par la loi. Des régimes particuliers existent pour des infractions graves.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++1
+
+
+
+Réflexe : en cas de suspicion pénale sérieuse, demande un avocat avant de donner des explications détaillées. Il vaut mieux différer une réponse que donner une version improvisée et approximative.
+
+## 6. Violences, humiliations, identification et preuves
+
+Certaines pratiques sont expressément contraires aux règles de déontologie, même si une intervention ou une interpellation était initialement légitime.
+
+| Situation                                                           | Comment réagir                                                                                                                                                |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 49. Usage disproportionné de la force                               | Ne riposte pas physiquement. Fais constater les blessures et conserve les éléments de preuve.                                                                 |
+| 50. Coups après maîtrise ou menottage                               | Consigne précisément la chronologie, les témoins et les auteurs identifiables.                                                                                |
+| 51. Usage contestable de lacrymogène, taser ou LBD                  | Documente la distance, le contexte, les avertissements éventuels, les blessures et le déroulement exact.                                                      |
+| 52. Agent sans identification apparente                             | La police et la gendarmerie nationales doivent normalement porter leur identification individuelle visible, sous réserve d'exceptions.                        |
+| 53. Le policier refuse de donner son nom                            | Ne confonds pas nom civil et numéro d'identification opérationnel. Consigne plutôt son identification visible, son unité et les circonstances.                |
+| 54. Tutoiement et propos dégradants                                 | Les policiers et gendarmes doivent respecter une obligation de courtoisie incluant le vouvoiement.                                                            |
+| 55. On t'interdit de filmer une intervention publique               | Filmer une intervention policière est en principe légal, tant que tu ne gênes pas l'intervention et respectes les autres règles applicables.                  |
+| 56. Un agent veut supprimer ta vidéo                                | Une demande de suppression ne doit pas être exécutée simplement parce que les images dérangent. Une saisie judiciaire éventuelle relève de règles distinctes. |
+| 57. Les versions divergent après une intervention                   | Recherche rapidement témoins, vidéos, constats médicaux et documents contemporains des faits.                                                                 |
+| 58. Les enregistrements des caméras-piétons risquent de disparaître | Demande rapidement leur préservation et leur versement à la procédure.                                                                                        |
+
+Le Défenseur des droits a publié en juillet 2026 des exemples concrets de manquements : tutoiements et insultes pendant une audition, menottage systématique, emploi injustifié de lacrymogène, défaut d'assistance à une personne blessée et absence de contrôle hiérarchique.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.defenseurdesdroits.fr\&sz=32)
+
+Défenseur des Droits
+
+
+
+Le droit de filmer une intervention a également été rappelé par le Défenseur des droits. Filmer et diffuser publiquement sont deux actes différents : la diffusion peut engager d'autres règles, notamment celles concernant la vie privée et les risques pour les personnes.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.defenseurdesdroits.fr\&sz=32)
+
+Défenseur des Droits
+
+
+
+### Le piège des vidéos qui disparaissent
+
+Les caméras individuelles de la police nationale, de la police municipale et de la gendarmerie ont, hors conservation nécessaire à une procédure, une durée de conservation de référence d'un mois. Les systèmes de vidéoprotection fixes ont également une conservation limitée, souvent bien inférieure à un mois.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.cnil.fr\&sz=32)
+
+CNIL
+
++1
+
+
+
+Une plainte tardive peut donc arriver alors que les images ont été effacées.
+
+En cas d'incident, demande au plus vite la conservation des images en précisant la date, les heures exactes, le lieu et les caméras concernées. Si nécessaire, passe par un avocat pour solliciter leur réquisition.
+
+## 7. Contraventions, contrôles routiers et retraits de permis
+
+C'est un domaine particulièrement important, car une démarche mal effectuée peut entraîner une majoration, un retrait de points ou une perte du droit de conduire, parfois alors même que tu contestes les faits.
+
+| Situation                                                          | Le piège et le bon réflexe                                                                                                                                            |
+| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 59. « Payez, ce sera réglé. »                                      | Payer une amende forfaitaire vaut reconnaissance de l'infraction et ferme normalement la contestation.                                                                |
+| 60. Tu contestes mais verses le montant comme paiement             | Ne confonds jamais paiement et consignation. La consignation exigée pour certains recours n'a pas les mêmes effets.                                                   |
+| 61. Tu signes un procès-verbal                                     | Une signature n'a pas toujours le même effet juridique. Refuser de signer n'annule pas automatiquement la verbalisation.                                              |
+| 62. Tu reçois une contravention sans avoir été arrêté              | Certaines infractions peuvent être constatées sans interception, notamment par vidéoverbalisation ou contrôle automatisé.                                             |
+| 63. « C'est votre parole contre celle du policier. »               | Pour les contraventions, l'article 537 du CPP donne une force probante particulière aux PV réguliers. La preuve contraire peut être rapportée par écrit ou témoins.   |
+| 64. Un radar t'attribue une infraction contestée                   | Tu peux demander la photographie radar. Cette demande ne doit pas te faire oublier le délai de contestation.                                                          |
+| 65. Tu n'étais pas le conducteur                                   | Examine le régime de responsabilité applicable avant de payer ou de désigner quelqu'un. Ne désigne jamais un conducteur fictif.                                       |
+| 66. Tu vends un véhicule puis reçois ses amendes                   | Conserve la déclaration de cession, son accusé d'enregistrement et les preuves de la vente.                                                                           |
+| 67. Tu ne reçois jamais le premier avis                            | Vérifie l'adresse de ta carte grise. Une adresse obsolète peut conduire directement à une amende majorée.                                                             |
+| 68. Tu demandes une remise gracieuse au lieu de contester          | La remise du montant et la contestation de la réalité de l'infraction sont deux démarches distinctes.                                                                 |
+| 69. Le dépistage d'alcool est positif                              | Le dépistage ne doit pas être confondu avec la vérification du taux précis.                                                                                           |
+| 70. Tu contestes le résultat d'alcoolémie                          | Lors de la vérification, tu peux demander un second contrôle selon la procédure applicable.                                                                           |
+| 71. Dépistage positif aux stupéfiants                              | Au moment de la procédure, réserve expressément ta possibilité de demander une expertise : cela déclenche le prélèvement sanguin prévu à cet effet.                   |
+| 72. Tu attends trop longtemps pour la contre-expertise stupéfiants | Le délai légal de demande est de cinq jours suivant la notification des résultats, sous les conditions de la procédure.                                               |
+| 73. On retient ton permis                                          | Exige l'avis de rétention et relève l'heure exacte du début.                                                                                                          |
+| 74. Tu confonds rétention et suspension                            | La rétention est une mesure conservatoire, la suspension administrative une décision distincte.                                                                       |
+| 75. Tu penses récupérer automatiquement ton permis après 72 heures | La rétention dure généralement jusqu'à 72 heures, ou 120 heures dans les cas prévus. Vérifie l'existence d'une décision de suspension et la procédure de restitution. |
+
+Sources : Code de procédure pénale, article 537 ; Code de la route, articles R. 235-6 et R. 235-11 ; fiches officielles sur l'alcoolémie, les contraventions et la rétention du permis.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
++5
+
+
+
+### Un piège particulièrement coûteux : les délais des amendes
+
+Pour les amendes forfaitaires routières ordinaires :
+
+| Démarche                                      | Délai de principe                                         |
+| --------------------------------------------- | --------------------------------------------------------- |
+| Paiement au tarif minoré                      | 15 jours, ou 30 jours par télépaiement selon le cas       |
+| Contestation de l'amende forfaitaire          | 45 jours                                                  |
+| Paiement au tarif normal avant majoration     | 45 jours, ou 60 jours par télépaiement                    |
+| Contestation d'une amende forfaitaire majorée | 30 jours                                                  |
+| Amende majorée envoyée en recommandé          | 3 mois pour contester, dans le cas prévu par la procédure |
+
+Les délais dépendent du type d'avis, de son envoi et de la procédure utilisée. Ce tableau ne couvre pas tous les régimes particuliers.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+Autre subtilité : les amendes de stationnement payant. Un forfait post-stationnement (FPS) n'est pas une contravention de stationnement interdit. Il faut normalement déposer un recours administratif préalable obligatoire (RAPO) dans le délai d'un mois, puis éventuellement saisir le Tribunal du stationnement payant. Le RAPO ne suspend pas le délai de paiement de trois mois.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+## 8. Police municipale : les limites particulières de ses pouvoirs
+
+La police municipale possède de véritables pouvoirs de police, mais n'a pas les mêmes compétences générales d'enquête et de contrainte qu'un officier de police judiciaire.
+
+| Situation                                                                          | Point à vérifier                                                                                                         |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 76. Relevé d'identité pour une contravention                                       | Possible dans son champ de compétence. Ce n'est pas un pouvoir général de contrôle d'identité.                           |
+| 77. Un agent veut procéder à une vérification d'identité au commissariat municipal | Vérifie la procédure applicable : la vérification relève normalement d'un OPJ compétent.                                 |
+| 78. Fouille de sac ou de véhicule                                                  | Les pouvoirs dépendent du contexte. La qualité de policier municipal ne crée pas un pouvoir général de fouille.          |
+| 79. Verbalisation pour stationnement                                               | Vérifie la nature exacte de l'infraction, le lieu, les horaires, la signalisation et l'arrêté éventuellement applicable. |
+| 80. Usage de caméras-piétons                                                       | Ces caméras sont soumises à des règles d'enregistrement et de conservation.                                              |
+| 81. Comportement abusif d'un agent municipal                                       | Le maire constitue un interlocuteur administratif de contrôle ; le Défenseur des droits peut également être saisi.       |
+
+Pour les agents municipaux, le piège consiste surtout à supposer qu'ils peuvent exercer tous les pouvoirs de la police nationale, ou à l'inverse croire qu'ils ne peuvent pas verbaliser. Les deux raisonnements sont faux.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++1
+
+
+
+## 9. CRS, gendarmes mobiles et manifestations
+
+Les CRS appartiennent à la Police nationale. Les escadrons de gendarmerie mobile relèvent de la Gendarmerie nationale. Le cadre du maintien de l'ordre comporte des règles particulières.
+
+Les contestations récurrentes concernent principalement les usages de la force, les dispositifs d'encerclement, les sommations, les armes de force intermédiaire et les difficultés à identifier les agents.
+
+| Situation                                | Ce qu'il faut savoir                                                                                                                        |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| 82. Usage d'armes de force intermédiaire | Il doit répondre aux exigences légales de nécessité et de proportionnalité.                                                                 |
+| 83. Dispersion d'un attroupement         | Les règles relatives aux sommations comportent des exceptions. Leur absence ne rend donc pas systématiquement l'emploi de la force illégal. |
+| 84. Encerclement ou « nasse »            | Technique encadrée : conditions de danger, nécessité, proportionnalité, durée et possibilités de sortie sont déterminantes.                 |
+| 85. Interpellation au sein d'une foule   | La simple présence à proximité d'auteurs de violences ne démontre pas une participation personnelle à une infraction.                       |
+| 86. Agents difficilement identifiables   | Consigne les identifications visibles, unités, positions, véhicules et autres éléments descriptifs.                                         |
+| 87. Images de manifestations contestées  | Conserve les séquences avant et après les faits, et pas uniquement quelques secondes isolées.                                               |
+
+Le Conseil d'État a notamment précisé que l'encerclement doit être réservé à des situations précisément encadrées et ne peut pas servir de restriction générale et indifférenciée à la liberté de manifester.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.conseil-etat.fr\&sz=32)
+
+Conseil d'État
+
++1
+
+
+
+Il faut également éviter un piège pratique : contester verbalement la légitimité d'une intervention sur place n'est pas équivalent à la faire contrôler par la justice. Même face à une mesure que tu estimes illégale, évite toute résistance physique, sauf situation extrême où des règles particulières pourraient s'appliquer.
+
+## 10. Classements sans suite, fichiers de police et procédures opaques
+
+Ces difficultés sont moins visibles, mais elles peuvent avoir des conséquences longtemps après l'intervention.
+
+| Situation                                                                | Le risque et les démarches utiles                                                                                                 |
+| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| 88. Une plainte est classée sans suite                                   | Le classement ne signifie pas que les faits sont nécessairement faux. Des recours existent.                                       |
+| 89. La plainte n'avance pas depuis plusieurs mois                        | Sous conditions, une plainte avec constitution de partie civile est possible après trois mois sans suite, ou après un classement. |
+| 90. Tu n'obtiens pas d'information sur l'enquête                         | Demande le numéro de procédure et adresse une demande de suivi au service enquêteur ou au parquet.                                |
+| 91. Une procédure te met en cause sans condamnation                      | Une inscription dans le fichier TAJ peut subsister même après un classement sans suite.                                           |
+| 92. Tu découvres une inscription erronée au TAJ                          | Tu peux demander accès, rectification et, dans les cas prévus, effacement.                                                        |
+| 93. La demande d'effacement du TAJ est rejetée                           | Un recours devant le président de la chambre de l'instruction peut être possible dans le délai prévu.                             |
+| 94. On te propose une composition pénale                                 | Elle implique la reconnaissance des faits. Tu peux consulter un avocat avant de décider.                                          |
+| 95. Tu reçois une ordonnance pénale sans audience préalable              | Une opposition est possible, mais dans un délai court.                                                                            |
+| 96. Une version des faits retenue dans le dossier est contestée          | Conserve tous les éléments permettant de démontrer une erreur, une omission ou une contradiction.                                 |
+| 97. Tu reçois une décision administrative ou judiciaire incompréhensible | Identifie immédiatement la nature de la décision, son autorité, les voies de recours et la date de notification.                  |
+
+Pour le TAJ, le procureur dispose normalement de deux mois pour répondre à une demande d'effacement. En cas de rejet ou d'absence de réponse, le délai de recours est généralement d'un mois dans le cadre décrit par Service Public.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+Pour les ordonnances pénales, les délais ordinaires d'opposition sont de 30 jours en matière contraventionnelle et 45 jours en matière délictuelle, sous réserve des modalités de notification et règles particulières.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+## 11. Comment porter plainte contre un policier ou un gendarme ?
+
+Il faut distinguer trois démarches qui peuvent être complémentaires, mais ne se remplacent pas.
+
+Plainte pénale auprès du procureur
+
+Pour dénoncer des faits susceptibles de constituer une infraction : violences, menaces, discrimination, faux, etc. La voie appropriée lorsque tu recherches des poursuites pénales.
+
+Signalement disciplinaire
+
+[IGPN](https://www.service-public.gouv.fr/particuliers/vosdroits/R33718?utm_source=chatgpt.com) pour la Police nationale, CRS compris ; [IGGN](https://www.service-public.gouv.fr/particuliers/vosdroits/R47031?utm_source=chatgpt.com) pour la gendarmerie ; maire pour la police municipale, sans exclure les autres voies.
+
+[Défenseur des droits](https://www.defenseurdesdroits.fr/?utm_source=chatgpt.com)
+
+Autorité indépendante compétente notamment pour examiner les manquements à la déontologie, les discriminations et les atteintes aux droits.
+
+Point capital : saisir l'IGPN, l'IGGN ou le Défenseur des droits ne remplace pas une plainte pénale et ne suspend pas automatiquement les délais judiciaires.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+En 2025, l'IGGN a reçu 5 193 signalements externes, en hausse de 23 % par rapport à 2024. Elle indique toutefois que 67 % n'ont pas entraîné d'action directe de sa part, notamment pour des raisons de compétence ou de dossiers incomplets. Cela ne permet ni de conclure que tous les signalements sont fondés, ni qu'ils sont infondés.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.gendarmerie.interieur.gouv.fr\&sz=32)
+
+Gendinfo, Gendarmerie nationale
+
+
+
+## 12. Les délais à ne surtout pas manquer
+
+Ce tableau rassemble les principaux délais vérifiés. Le point de départ exact et les exceptions doivent toujours être contrôlés dans les documents reçus.
+
+| Situation                                                         | Délai de référence                                                       |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Préservation des vidéos                                           | Immédiatement ; conservation souvent limitée à quelques jours ou un mois |
+| Vérification d'identité                                           | 4 h maximum, régime général                                              |
+| Garde à vue ordinaire                                             | 24 h initiales, prolongation possible                                    |
+| Rétention du permis                                               | 72 h, ou 120 h dans certains cas                                         |
+| Contre-expertise stupéfiants au volant                            | 5 jours après notification des résultats, sous conditions                |
+| Contestation d'une amende forfaitaire routière                    | 45 jours                                                                 |
+| Contestation d'une amende forfaitaire majorée                     | 30 jours, avec notamment un régime de 3 mois en cas d'envoi recommandé   |
+| RAPO pour forfait post-stationnement                              | 1 mois                                                                   |
+| Opposition à une ordonnance pénale contraventionnelle             | 30 jours                                                                 |
+| Opposition à une ordonnance pénale délictuelle                    | 45 jours                                                                 |
+| Recours administratif contentieux de droit commun                 | Généralement 2 mois                                                      |
+| Plainte avec constitution de partie civile après absence de suite | Possible après 3 mois, sous conditions                                   |
+| Prescription pénale d'une contravention                           | En principe 1 an                                                         |
+| Prescription pénale d'un délit                                    | En principe 6 ans                                                        |
+| Prescription pénale d'un crime                                    | En principe 20 ans                                                       |
+
+Les prescriptions connaissent des exceptions majeures : infractions de presse, infractions sexuelles sur mineurs, terrorisme et autres régimes spécifiques. Certains actes peuvent également interrompre ou suspendre la prescription.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++2
+
+
+
+Aide-mémoire pour calculer un délai
+
+Type de délaiAmende forfaitaire routière
+
+Date de départ supposée16/10/26
+
+Échéance théorique, avant application des règles de computation
+
+# 30 novembre 2026
+
+Estimation indicative uniquement : le point de départ légal, les jours ouvrables, les prorogations et les exceptions peuvent modifier l'échéance opposable. Pour un recours réel, vérifie l'avis ou consulte un professionnel.
+
+## 13. Protocole pratique en cas d'intervention contestable
+
+Pendant l'intervention
+
+Ne résiste pas physiquement. Demande calmement le motif et le cadre légal du contrôle, précise si tu consens ou non à une fouille lorsque ton consentement est sollicité, et évite les déclarations improvisées. En cas de suspicion pénale, exerce ton droit à l'avocat et au silence selon ton statut.
+
+Juste après
+
+Note l'heure, le lieu, les agents identifiables, les témoins et la chronologie exacte. Sauvegarde les vidéos originales sans modification. Demande rapidement la préservation des éventuels enregistrements publics ou privés.
+
+En présence de blessures ou de violences
+
+Consulte rapidement un médecin ou un service d'urgence, photographie les lésions, garde les certificats et les justificatifs. Si une unité médico-judiciaire peut intervenir, fais constater les blessures dans ce cadre.
+
+Dès réception d'un document
+
+Classe l'original, enregistre la date d'envoi ou de notification, relève le délai et identifie l'autorité compétente. Ne considère jamais un simple signalement comme un recours ayant interrompu ce délai.
+
+Si le dossier présente un enjeu pénal
+
+Saisis rapidement un avocat pénaliste, particulièrement en cas de garde à vue, accusation d'outrage ou de rébellion, violences, saisie importante ou risque pour le permis de conduire.
+
+### Sources et démarches officielles utiles
+
+- [Contrôles d'identité — Service Public](https://www.service-public.gouv.fr/particuliers/vosdroits/F1036?utm_source=chatgpt.com)
+- [Palpations et fouilles — Service Public](https://www.service-public.gouv.fr/particuliers/vosdroits/F32041?utm_source=chatgpt.com)
+- [Audition libre — Service Public](https://www.service-public.gouv.fr/particuliers/vosdroits/F32124?utm_source=chatgpt.com)
+- [Garde à vue — Service Public](https://www.service-public.gouv.fr/particuliers/vosdroits/F14837?utm_source=chatgpt.com)
+- [Refus de plainte — Défenseur des droits](https://www.defenseurdesdroits.fr/que-faire-en-cas-de-refus-de-plainte-899?utm_source=chatgpt.com)
+- [Fichier TAJ et demandes d'effacement — Service Public](https://www.service-public.gouv.fr/particuliers/vosdroits/F32727?utm_source=chatgpt.com)
+- [ANTAI — Contestation des amendes](https://www.antai.gouv.fr/?utm_source=chatgpt.com)
+
+Les quatre erreurs les plus coûteuses à éviter sont de payer une amende qu'on souhaite contester, de renoncer trop facilement à l'assistance d'un avocat, de laisser disparaître les preuves et de supposer qu'un signalement administratif suspend une procédure judiciaire.

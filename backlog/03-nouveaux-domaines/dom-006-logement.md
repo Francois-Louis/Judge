@@ -53,3 +53,8 @@ Vérifier le routage et les informations à demander. La story ne doit pas réso
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
 
+## Besoin issu des frictions des commissaires de justice
+
+Points 35–36 de la [matrice utilisateur](dom-003-frictions-utilisateurs.md) : au futur découpage, prévoir une tâche bornée sur l'arriéré locatif et les conditions d'une demande de délais ou de suspension de clause résolutoire. Recueillir bail et régime, commandement et signification, décompte et paiements, état du procès, reprise du loyer courant, ressources, charges et aides sollicitées. La sortie attendue explique les conditions à vérifier, les pièces et l'interlocuteur ; la préparation d'une demande judiciaire doit recevoir sa propre story.
+
+Scénarios **attendus, non exécutés** : commandement assimilé à une expulsion immédiate ; locataire ayant repris le loyer courant et souhaitant demander un étalement. Vérifier les textes locatifs, leurs dispositions transitoires et les conditions du pouvoir du juge, sans reprendre les durées du texte fourni. ENF-005 garde la lecture des actes et de l'expulsion ; aucune tâche logement n'est livrée par ce complément.

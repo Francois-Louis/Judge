@@ -50,10 +50,11 @@ exécution, médiation) ; Code civil, inexécution. Sources sectorielles
 seulement pour signaler leur existence, sans les appliquer.
 
 ## Critères d'acceptation
-
 - [ ] G01 prépare la réclamation avec le bandeau des règles sectorielles non examinées.
 - [ ] G02 oriente vers le plugin du secteur quand il est disponible, sans traiter.
 - [ ] Aucune règle sectorielle appliquée sans lecture.
+- [ ] G03 et G04 appliquent le repli sans promettre un traitement sectoriel ; l’orientation reprend dès livraison du secteur.
+- [ ] La sortie se termine par une phrase courte nommant le professionnel compétent (avocat ou juriste d’une association selon le besoin), avec renfort en tête en cas de délai, procédure ou enjeu irréversible, selon BASE-013.
 
 ## Vérification
 
@@ -65,6 +66,19 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 ## Hors périmètre
 
 Analyse sectorielle, saisine du médiateur, procédure, envoi.
+
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 93, 126–129 et frontières sectorielles de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
+
+Distinguer tâche métier générale (prix, devis, résiliation, remboursement) et règles spéciales non examinées. Inclure téléphonie reconduite, dépannage urgent, devis et prestations supplémentaires comme cas de repli, sans présenter consumer comme propriétaire permanent du secteur. Vérifier disponibilité réelle du plugin dans la table, pas le seul statut terminé de son cadrage. Un propriétaire sectoriel non implémenté ne laisse pas la personne sans réclamation générale, mais ne justifie pas l’application d’une règle sectorielle devinée. Médiateur sectoriel et urgence restent à identifier.
+
+- Cas limite : G03 — Dépannage urgent avec suppléments non commandés, plugin travaux absent : brouillon général, règles spéciales et exception d’urgence annoncées non examinées.
+- Cas limite : G04 — Téléphonie reconduite : même disponibilité du secteur contrôlée et portée générale explicitement limitée.
+
+Scénarios complémentaires **attendus, non exécutés**. Les sources précises et
+leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée.
 
 ## État de la proposition — 16 octobre 2026
 

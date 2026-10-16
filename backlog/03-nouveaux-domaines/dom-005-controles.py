@@ -1,6 +1,6 @@
 """Contrôles documentaires DOM-005, sans exécution d'un skill.
 
-python backlog/03-nouveaux-domaines/dom-001-controles.py
+python backlog/03-nouveaux-domaines/dom-005-controles.py
 Ajouter --baseline <instantane.json> pour contrôler les travaux préexistants.
 Ajouter --output <rapport.json> pour conserver un relevé, jamais une preuve de droit.
 L'instantané facultatif est un objet {"files": {chemin: sha256}, "git_head": ...}.
@@ -24,11 +24,16 @@ HERE = Path(__file__).resolve().parent
 REPORT = HERE / 'dom-005-resultats.json'
 COMMON = {'DOM-005', 'PILOTE-003', 'BASE-005', 'BASE-006'}
 LOT_DOCS = [HERE / ('dom-005-' + n + '.md') for n in (
-    'assurance', 'decoupage-assurance', 'verification')]
+    'assurance', 'decoupage-assurance', 'verification', 'frictions-utilisateurs')]
+SOURCE = HERE / 'sources/assurances-frictions-2026-10-16.txt'
+SOURCE_SHA256 = '385c88b56cc9d624c19f11be11578e9d078b0bec1945db701186d01583a65d6d'
+RELAYS = [HERE / 'dom-035-responsabilite-dommages.md']
 ALLOWED = {
     'backlog/README.md',
     'backlog/00-fondations/base-003-dossier-architecture.md',
     *(p.relative_to(ROOT).as_posix() for p in LOT_DOCS),
+    *(p.relative_to(ROOT).as_posix() for p in RELAYS),
+    SOURCE.relative_to(ROOT).as_posix(),
     'backlog/03-nouveaux-domaines/dom-005-controles.py',
     'backlog/03-nouveaux-domaines/dom-005-resultats.json',
 }
@@ -111,11 +116,11 @@ def main():
     proposals = sorted((HERE / 'suites').glob('ins-*.md'))
     for p in proposals:
         ALLOWED.add(p.relative_to(ROOT).as_posix())
-    expected = {f'INS-{i:03}' for i in range(1, 12)}
+    expected = {f'INS-{i:03}' for i in range(1, 22)}
     actual = {k for k in stories if k.startswith('INS-')}
     problems = []
-    if actual != expected or len(proposals) != 11:
-        problems.append('Expected exactly INS-001..INS-011 and 11 files')
+    if actual != expected or len(proposals) != 21:
+        problems.append('Expected exactly INS-001..INS-021 and 21 files')
     required = ('Objectif et résultat attendu', 'Périmètre et fichiers',
                 'Pièces et informations nécessaires', 'Sortie attendue',
                 'Travail attendu', 'Références métier et sources à rechercher',
@@ -176,7 +181,7 @@ def main():
                       breakdown, re.M)
     problems = []
     if {r[1] for r in rows} != expected:
-        problems.append('Breakdown table does not list exactly INS-001..011')
+        problems.append('Breakdown table does not list exactly INS-001..021')
     for rank, ident, filename, skill, deps in rows:
         path, fm = stories[ident]
         if path.name != filename:
@@ -192,6 +197,43 @@ def main():
             problems.append(f'{ident}: rank {rank} expects {expected_priority}')
     record('breakdown_table_consistency', problems, rows=len(rows))
 
+    friction = (HERE / 'dom-005-frictions-utilisateurs.md').read_text(encoding='utf-8')
+    friction_rows = re.findall(r'^\| (\d+) \| ([^|]+) \| ([^|]+) \| ([^|]+) \|$', friction, re.M)
+    problems, owners = [], set()
+    if [int(row[0]) for row in friction_rows] != list(range(1, 91)):
+        problems.append('Expected 90 unique, ordered friction rows, numbered 1..90')
+    for number, label, owner_cell, result in friction_rows:
+        links = re.findall(r'\[([A-Z]+-\d{3})\]\(([^)]+)\)', owner_cell)
+        if not links:
+            problems.append(f'Friction {number}: missing linked owner')
+        for ident, target in links:
+            owners.add(ident)
+            if ident not in stories or (HERE / target).resolve() != stories[ident][0].resolve():
+                problems.append(f'Friction {number}: invalid owner/link {ident}: {target}')
+        if int(number) in (66, 67) and ('orientation seule' not in result.lower()
+                                      or not links or links[0][0] != 'BNK-011'):
+            problems.append(f'Friction {number}: investments must remain orientation only')
+        if int(number) == 52 and (not links or links[0][0] != 'DOM-035'):
+            problems.append('Friction 52: bodily injury must remain DOM-035')
+    if not {f'INS-{i:03}' for i in range(13, 22)} <= owners:
+        problems.append('New INS proposals are not all linked from the friction matrix')
+    for ident in sorted(owners & expected):
+        if '(../dom-005-frictions-utilisateurs.md)' not in stories[ident][0].read_text(encoding='utf-8'):
+            if ident != 'INS-007':  # Existing protection-juridique relay, unchanged.
+                problems.append(f'{ident}: missing return link to assurance frictions')
+    source_hash = digest(SOURCE) if SOURCE.is_file() else None
+    if source_hash != SOURCE_SHA256:
+        problems.append('User source missing or not identical to the supplied attachment')
+    if SOURCE.is_file():
+        numbers = [int(n) for n in re.findall(r'^(\d+)\\\.', SOURCE.read_text(encoding='utf-8'), re.M)]
+        if numbers != list(range(1, 91)):
+            problems.append('Archived user source does not contain exactly points 1..90')
+    if '(sources/assurances-frictions-2026-10-16.txt)' not in friction:
+        problems.append('Friction matrix does not link its archived user source')
+    record('user_friction_coverage', problems, rows=len(friction_rows),
+           owners=sorted(owners), source_sha256=source_hash,
+           legal_validation=False, business_scenarios_executed=False)
+
     market = json.loads((ROOT / '.claude-plugin/marketplace.json').read_text(encoding='utf-8'))
     problems = []
     if (ROOT / 'insurance-legal').exists():
@@ -201,7 +243,7 @@ def main():
         problems.append('insurance plugin listed in marketplace')
     record('no_plugin_created', problems, marketplace_plugins=len(names))
 
-    lot = LOT_DOCS + proposals + [ROOT / 'backlog/README.md',
+    lot = LOT_DOCS + proposals + RELAYS + [ROOT / 'backlog/README.md',
                                   ROOT / 'backlog/00-fondations/base-003-dossier-architecture.md']
     problems, count = [], 0
     for p in lot:
@@ -225,7 +267,7 @@ def main():
     record('links_and_format', problems, markdown_files=len(lot), local_links=count)
 
     problems = []
-    for p in LOT_DOCS + proposals:
+    for p in LOT_DOCS + proposals + RELAYS:
         width = None
         for line in p.read_text(encoding='utf-8').splitlines():
             if not line.startswith('|'):
@@ -241,7 +283,7 @@ def main():
     index = (ROOT / 'backlog/README.md').read_text(encoding='utf-8')
     base003 = (ROOT / 'backlog/00-fondations/base-003-dossier-architecture.md').read_text(encoding='utf-8')
     problems = []
-    for name in ('decoupage-assurance', 'verification'):
+    for name in ('decoupage-assurance', 'verification', 'frictions-utilisateurs'):
         if f'(03-nouveaux-domaines/dom-005-{name}.md)' not in index:
             problems.append(f'Index missing {name}')
     match = re.search(r'contient (\d+) stories', index)
@@ -268,7 +310,7 @@ def main():
                 figures.append({'file': p.name, 'line': number, 'text': hit})
     checks['figures_for_manual_review'] = {
         'status': 'manual-review', 'count': len(figures), 'occurrences': figures,
-        'note': 'Durées ou montants à relire : chaque occurrence doit être un fait fictif, jamais une règle.'}
+        'note': 'Occurrences à relire : données fictives ou allégations utilisateur explicitement non vérifiées ; aucune règle validée.'}
 
     now = snapshot()
     if args.baseline:
@@ -309,28 +351,26 @@ def main():
     report = {
         'story': 'DOM-005', 'date': '2026-10-16', 'timezone': 'Europe/Paris',
         'git_head': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
-        'scope': 'cadrage documentaire assurance ; aucun plugin créé ni validation juridique',
+        'scope': 'intégration documentaire des 90 frictions assurance ; aucun plugin créé ni validation juridique',
         'checks': checks,
-        'lot_sha256': {p.relative_to(ROOT).as_posix(): digest(p) for p in lot + [Path(__file__)]},
+        'lot_sha256': {p.relative_to(ROOT).as_posix(): digest(p) for p in lot + [SOURCE, Path(__file__)]},
         'not_run': ['recherche juridique externe', 'calcul de délai, de décompte ou de montant',
                     'création ou exécution de skill', 'installation/recette client',
                     'lecteur réel ou indépendant', 'connexion/envoi/publication'],
         'commands': [
-            'python -X utf8 backlog/03-nouveaux-domaines/dom-005-controles.py --baseline <instantane-debut-tache.json> '
-            + ' '.join(f"--concurrent '{g}'" for g in args.concurrent)
-            + ' --output backlog/03-nouveaux-domaines/dom-005-resultats.json',
+            [sys.executable, '-X', 'utf8', str(Path(__file__).relative_to(ROOT)), *sys.argv[1:]],
             'python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)',
             'git diff --check (appelé par le contrôleur)',
         ],
         'execution_notes': [
-            'Instantané de début de tâche pris dans le répertoire temporaire de session, avant toute écriture du lot.',
-            'Contrôleur dérivé de celui de DOM-004 (préfixes, nom du plugin) ; les fichiers DOM-001 à DOM-004 non commités ne sont pas modifiés.',
-            'Premier passage : liens vers ce relevé absents avant sa création ; relevé régénéré une fois le fichier présent.',
-            'Montants des pièces fictives : données recopiées, pas des règles ; le repérage automatique ne couvre pas les montants écrits avec espace et symbole euro.',
+            'Relevé actualisé pour 90 frictions, neuf suites complétées et neuf propositions INS-013 à INS-021 ; les compléments bancaires préexistants sont conservés.',
+            'Contrôle de périmètre contre l’instantané de début de cette intégration si --baseline est fourni ; les travaux hors lot préexistants sont comparés par empreinte.',
+            'Le texte utilisateur est conservé octet pour octet ; son empreinte est celle de la pièce jointe, sans validation du droit ou des statistiques.',
+            'Montants des pièces fictives : données recopiées, pas des règles ; scénarios métier non exécutés.',
         ],
     }
     if args.output:
-        args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     for key, val in checks.items():
         print(f"{key}: {val['status']}")
         for problem in val.get('problems', []):

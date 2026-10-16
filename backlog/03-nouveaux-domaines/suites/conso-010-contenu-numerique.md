@@ -44,9 +44,10 @@ Code de la consommation, dispositions transposant la directive (UE)
 2019/770, version à la date d'achat.
 
 ## Critères d'acceptation
-
 - [ ] D01 produit fiche et brouillon sur pièces.
 - [ ] D02 sépare la suspension de compte (DOM-034) et la réclamation d'achat.
+- [ ] D03 et D04 identifient régime et dates ; une renonciation alléguée à la rétractation ne tranche pas la demande de conformité.
+- [ ] La sortie se termine par une phrase courte nommant le professionnel compétent (avocat ou juriste d’une association selon le besoin), avec renfort en tête en cas de délai, procédure ou enjeu irréversible, selon BASE-013.
 
 ## Vérification
 
@@ -58,6 +59,19 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 ## Hors périmètre
 
 Contestation de modération, données personnelles, télécoms, envoi.
+
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 54, 76–77, 92 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
+
+Compléter la sortie par chronologie de disponibilité et tableau des fonctionnalités promises, versions et mises à jour, perte constatée et éléments techniques manquants. Distinguer contenu autonome, service continu et bien avec éléments numériques (CONSO-002). Une demande de remboursement ne suppose pas une rétractation ; les conditions de perte de ce droit sont examinées par CONSO-003. Résiliation récurrente chez CONSO-009 ; suppression ou modération de compte chez DOM-034.
+
+- Cas limite : D03 — Logiciel dégradé après mise à jour, fournisseur invoquant une renonciation à la rétractation : distinguer non-conformité, rétractation et preuve technique.
+- Cas limite : D04 — Service facturé pendant une indisponibilité sans dates précises : demander historique avant remède ou décompte.
+
+Scénarios complémentaires **attendus, non exécutés**. Les sources précises et
+leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée.
 
 ## État de la proposition — 16 octobre 2026
 

@@ -42,9 +42,10 @@ Code de la consommation, reconduction tacite et résiliation par voie
 électronique, version à la date des faits.
 
 ## Critères d'acceptation
-
 - [ ] A01 produit fiche et brouillon sans échéance non sourcée.
 - [ ] A02 oriente vers DOM-022 sans traiter le contrat.
+- [ ] A03 à A06 distinguent consentement, fin du contrat et paiement ; aucun bouton ni blocage ne vaut résiliation présumée.
+- [ ] La sortie se termine par une phrase courte nommant le professionnel compétent (avocat ou juriste d’une association selon le besoin), avec renfort en tête en cas de délai, procédure ou enjeu irréversible, selon BASE-013.
 
 ## Vérification
 
@@ -56,6 +57,23 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 ## Hors périmètre
 
 Abonnements sectoriels, remboursement de prélèvements, envoi.
+
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 21, 78–79, 81–92, 150 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
+
+Traiter souscription contestée et résiliation comme branches distinctes : essai devenu payant, réduction liée à une adhésion, reconduction, nouvel engagement allégué, hausse, préavis et frais. Demander preuves de consentement, information préalable, avis de reconduction, parcours de sortie, accusés et factures postérieures. Fiche : qui fournit, qui facture (y compris boutique d’applications), date de fin déclarée ou établie et sommes contestées.
+
+Distinguer facilité de résiliation, effet immédiat, frais et durée ; documenter boutons absents et parcours défaillant sans supposer gratuité. Compte supprimé ne vaut pas fin du contrat ; blocage d’un paiement ne vaut pas disparition de la dette. Les opérations bancaires relèvent de BNK-006 et les remboursements après réclamation de CONSO-019. Service numérique inutilisable : CONSO-010 ; télécoms DOM-022 ou repli CONSO-014 annoncé.
+
+- Cas limite : A03 — Essai gratuit, abonnement caché et consentement non fourni : brouillon de contestation, sans admettre la validité du contrat.
+- Cas limite : A04 — Bouton absent puis demande ignorée et nouveau débit : preuves des tentatives, date d’effet réservée et banque séparée.
+- Cas limite : A05 — Compte d’application supprimé mais facturation par une boutique : identifier fournisseur et canal, sans promettre la clôture.
+- Cas limite : A06 — Hausse et frais de sortie au calcul opaque : demander clause, notification et détail.
+
+Scénarios complémentaires **attendus, non exécutés**. Les sources précises et
+leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée.
 
 ## État de la proposition — 16 octobre 2026
 

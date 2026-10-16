@@ -429,3 +429,8 @@ published or pushed.
   employment-legal/README.md
   scripts/build-lot.py (new)
   scripts/test-base008-isolation.py (employment-legal expected version)
+
+DOM-001 to DOM-005 archive preservation (2026-10-16): disable Git newline
+normalization for archived user friction reports so their committed bytes
+retain the SHA-256 fingerprints checked by the documentary controls.
+  .gitattributes (new)

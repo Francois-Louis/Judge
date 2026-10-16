@@ -2,24 +2,24 @@
   "story": "DOM-005",
   "date": "2026-10-16",
   "timezone": "Europe/Paris",
-  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
-  "scope": "cadrage documentaire assurance ; aucun plugin créé ni validation juridique",
+  "git_head": "24adce2ab83c0f418cfa43fafdd7c6811c2e798f",
+  "scope": "intégration documentaire des 90 frictions assurance ; aucun plugin créé ni validation juridique",
   "checks": {
     "backlog_frontmatter_and_dependencies": {
       "status": "passed",
-      "total": 335,
+      "total": 412,
       "statuses": {
-        "terminee": 33,
+        "terminee": 36,
         "en-cours": 1,
-        "proposee": 300,
+        "proposee": 374,
         "a-verifier": 1
       },
       "problems": []
     },
     "bounded_proposals": {
       "status": "passed",
-      "count": 11,
-      "file_targets": 37,
+      "count": 21,
+      "file_targets": 57,
       "future_files": [
         {
           "path": "insurance-legal/.claude-plugin/plugin.json",
@@ -156,13 +156,124 @@
         {
           "path": "insurance-legal/references/assurance-vie.md",
           "owner": "INS-011"
+        },
+        {
+          "path": "insurance-legal/skills/life-insurance-surrender-follow-up/SKILL.md",
+          "owner": "INS-012"
+        },
+        {
+          "path": "insurance-legal/references/rachat-assurance-vie.md",
+          "owner": "INS-012"
+        },
+        {
+          "path": "insurance-legal/skills/claim-payment-follow-up/SKILL.md",
+          "owner": "INS-013"
+        },
+        {
+          "path": "insurance-legal/references/suivi-indemnisation.md",
+          "owner": "INS-013"
+        },
+        {
+          "path": "insurance-legal/skills/insurance-premium-review/SKILL.md",
+          "owner": "INS-014"
+        },
+        {
+          "path": "insurance-legal/references/cotisations.md",
+          "owner": "INS-014"
+        },
+        {
+          "path": "insurance-legal/skills/insured-risk-declaration/SKILL.md",
+          "owner": "INS-015"
+        },
+        {
+          "path": "insurance-legal/references/declaration-risque.md",
+          "owner": "INS-015"
+        },
+        {
+          "path": "insurance-legal/skills/insurance-sale-complaint/SKILL.md",
+          "owner": "INS-016"
+        },
+        {
+          "path": "insurance-legal/references/souscription-conseil.md",
+          "owner": "INS-016"
+        },
+        {
+          "path": "insurance-legal/skills/water-damage-coordination/SKILL.md",
+          "owner": "INS-017"
+        },
+        {
+          "path": "insurance-legal/references/coordination-degat-eaux.md",
+          "owner": "INS-017"
+        },
+        {
+          "path": "insurance-legal/skills/natural-disaster-claim/SKILL.md",
+          "owner": "INS-018"
+        },
+        {
+          "path": "insurance-legal/references/catastrophe-naturelle.md",
+          "owner": "INS-018"
+        },
+        {
+          "path": "insurance-legal/skills/professional-insurance-cover-review/SKILL.md",
+          "owner": "INS-019"
+        },
+        {
+          "path": "insurance-legal/references/garantie-professionnelle.md",
+          "owner": "INS-019"
+        },
+        {
+          "path": "insurance-legal/skills/beneficiary-clause-update-preparation/SKILL.md",
+          "owner": "INS-020"
+        },
+        {
+          "path": "insurance-legal/references/clause-beneficiaire.md",
+          "owner": "INS-020"
+        },
+        {
+          "path": "insurance-legal/skills/insurance-deadline-review/SKILL.md",
+          "owner": "INS-021"
+        },
+        {
+          "path": "insurance-legal/references/echeances-recours.md",
+          "owner": "INS-021"
         }
       ],
       "problems": []
     },
     "breakdown_table_consistency": {
       "status": "passed",
-      "rows": 11,
+      "rows": 21,
+      "problems": []
+    },
+    "user_friction_coverage": {
+      "status": "passed",
+      "rows": 90,
+      "owners": [
+        "BNK-011",
+        "DOM-035",
+        "INS-001",
+        "INS-002",
+        "INS-003",
+        "INS-004",
+        "INS-005",
+        "INS-006",
+        "INS-007",
+        "INS-008",
+        "INS-009",
+        "INS-011",
+        "INS-013",
+        "INS-014",
+        "INS-015",
+        "INS-016",
+        "INS-017",
+        "INS-018",
+        "INS-019",
+        "INS-020",
+        "INS-021"
+      ],
+      "source_sha256": "385c88b56cc9d624c19f11be11578e9d078b0bec1945db701186d01583a65d6d",
+      "legal_validation": false,
+      "business_scenarios_executed": false,
       "problems": []
     },
     "no_plugin_created": {
@@ -172,8 +283,8 @@
     },
     "links_and_format": {
       "status": "passed",
-      "markdown_files": 16,
-      "local_links": 226,
+      "markdown_files": 28,
+      "local_links": 428,
       "problems": []
     },
     "table_column_counts": {
@@ -188,40 +299,49 @@
       "status": "manual-review",
       "count": 0,
       "occurrences": [],
-      "note": "Durées ou montants à relire : chaque occurrence doit être un fait fictif, jamais une règle."
+      "note": "Occurrences à relire : données fictives ou allégations utilisateur explicitement non vérifiées ; aucune règle validée."
     },
     "scope_vs_task_baseline": {
       "status": "passed",
-      "baseline_git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+      "baseline_git_head": null,
       "lot_changes": [
-        "backlog/00-fondations/base-003-dossier-architecture.md",
         "backlog/03-nouveaux-domaines/dom-005-assurance.md",
         "backlog/03-nouveaux-domaines/dom-005-controles.py",
         "backlog/03-nouveaux-domaines/dom-005-decoupage-assurance.md",
+        "backlog/03-nouveaux-domaines/dom-005-frictions-utilisateurs.md",
         "backlog/03-nouveaux-domaines/dom-005-verification.md",
+        "backlog/03-nouveaux-domaines/dom-035-responsabilite-dommages.md",
+        "backlog/03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt",
         "backlog/03-nouveaux-domaines/suites/ins-001-refus-garantie.md",
         "backlog/03-nouveaux-domaines/suites/ins-002-declarer-sinistre.md",
         "backlog/03-nouveaux-domaines/suites/ins-003-contester-expertise.md",
         "backlog/03-nouveaux-domaines/suites/ins-004-lire-garantie.md",
         "backlog/03-nouveaux-domaines/suites/ins-005-mediation-assurance.md",
         "backlog/03-nouveaux-domaines/suites/ins-006-resilier-contrat.md",
-        "backlog/03-nouveaux-domaines/suites/ins-007-protection-juridique.md",
         "backlog/03-nouveaux-domaines/suites/ins-008-assurance-emprunteur.md",
         "backlog/03-nouveaux-domaines/suites/ins-009-complementaire-sante.md",
-        "backlog/03-nouveaux-domaines/suites/ins-010-dommages-ouvrage.md",
         "backlog/03-nouveaux-domaines/suites/ins-011-assurance-vie-beneficiaire.md",
+        "backlog/03-nouveaux-domaines/suites/ins-013-suivre-indemnisation.md",
+        "backlog/03-nouveaux-domaines/suites/ins-014-contester-cotisation.md",
+        "backlog/03-nouveaux-domaines/suites/ins-015-declaration-risque.md",
+        "backlog/03-nouveaux-domaines/suites/ins-016-contester-souscription.md",
+        "backlog/03-nouveaux-domaines/suites/ins-017-coordonner-degat-eaux.md",
+        "backlog/03-nouveaux-domaines/suites/ins-018-catastrophe-naturelle.md",
+        "backlog/03-nouveaux-domaines/suites/ins-019-garantie-professionnelle.md",
+        "backlog/03-nouveaux-domaines/suites/ins-020-actualiser-clause-beneficiaire.md",
+        "backlog/03-nouveaux-domaines/suites/ins-021-echeances-recours.md",
         "backlog/README.md"
       ],
       "concurrent_patterns": [],
       "concurrent_changes": [],
-      "preserved_files": 852,
+      "preserved_files": 942,
       "report_excluded_from_own_comparison": true,
       "note": "Les fichiers du lot partagés (index, BASE-003) peuvent aussi porter des changements concurrents ; le contrôle ne les attribue pas.",
       "problems": []
     },
     "repository_json_sanity": {
       "status": "passed",
-      "files": 78,
+      "files": 84,
       "problems": []
     },
     "cookbook_tool_scope_lint": {
@@ -236,23 +356,36 @@
     }
   },
   "lot_sha256": {
-    "backlog/03-nouveaux-domaines/dom-005-assurance.md": "9daa408b8aabf4d304c35e7188e901581ef9dc020c2dc6b0d7d68eaad24c7a30",
-    "backlog/03-nouveaux-domaines/dom-005-decoupage-assurance.md": "53f9a3fcbf55f4df263eb2cd6cd0184507f0f05af985f4261e9f5b63e06ff681",
-    "backlog/03-nouveaux-domaines/dom-005-verification.md": "c1852f5dab36b817466c6b7780580a315393971d2bdcc338999243377887759a",
-    "backlog/03-nouveaux-domaines/suites/ins-001-refus-garantie.md": "71ae359142f2d737753b0daa5159b0a2d30e4bb06d70b2e3c8a3c14cae7960a2",
-    "backlog/03-nouveaux-domaines/suites/ins-002-declarer-sinistre.md": "fc31d1b4625160733a66bd8fad41c6682a5b6af928e63a2b83c19cdab0d33a6e",
-    "backlog/03-nouveaux-domaines/suites/ins-003-contester-expertise.md": "c8a7f09b8ff2a17bf2361426c2d2a9bfc794cb8ba513be4400d8bc2b12fb58ee",
-    "backlog/03-nouveaux-domaines/suites/ins-004-lire-garantie.md": "45235c79cb5d53821416f196b8b8f236aeac9a608fb1695bcb1938a627efc4c6",
-    "backlog/03-nouveaux-domaines/suites/ins-005-mediation-assurance.md": "358bf94009cb1e27878bf8e6d31a922f1a698fadd96baa9994e6a97998d68363",
-    "backlog/03-nouveaux-domaines/suites/ins-006-resilier-contrat.md": "e546a0dd7d4e9e31dd1350b7b39c60e63a01ea23688231e202298a08a7bce7a5",
+    "backlog/03-nouveaux-domaines/dom-005-assurance.md": "0648b54de5b63b1cb34be52fe60f9b5a20ceb4e59f8b0f4593571cd972ba2c78",
+    "backlog/03-nouveaux-domaines/dom-005-decoupage-assurance.md": "927c2ebd53585eb27d2f783429ba3896bebe0ca18c01039c88811c0c1254f540",
+    "backlog/03-nouveaux-domaines/dom-005-verification.md": "86b5854406ec259a86167137a1c77d0ce7fbac0d1735b65e7e7ddba8380341db",
+    "backlog/03-nouveaux-domaines/dom-005-frictions-utilisateurs.md": "8417715e5f9df28d2a63c94e460242d2e8d6a442d2d0f8bb67912c44307b0393",
+    "backlog/03-nouveaux-domaines/suites/ins-001-refus-garantie.md": "5bf5afb55835c53d8b0edeff871605eef2ce1f020c24ca747451b1526e433077",
+    "backlog/03-nouveaux-domaines/suites/ins-002-declarer-sinistre.md": "443f1ce181b53de833f65a98eb856ebcb24671b8fa8a850cd74cacdb0d999790",
+    "backlog/03-nouveaux-domaines/suites/ins-003-contester-expertise.md": "8ffc4631c28a63185bae4412c34db78d8a6d718a28a58a3aa94ec6b0c4d8b5f6",
+    "backlog/03-nouveaux-domaines/suites/ins-004-lire-garantie.md": "33ac3bc832139d82cb0258b4ed7e792f9d8c7933a18be2fd41f9de54fa090fe4",
+    "backlog/03-nouveaux-domaines/suites/ins-005-mediation-assurance.md": "aa3315033197d3c622309dfd6c456b13e44b82a69c688901f73782d1ce22a066",
+    "backlog/03-nouveaux-domaines/suites/ins-006-resilier-contrat.md": "857c9e11f83c8dd482676c960313a9aea219cd466ed3ddbcb9d1fc9b039607e6",
     "backlog/03-nouveaux-domaines/suites/ins-007-protection-juridique.md": "1778e62ed77582afeaea123bdde70291d2e038172c99d50ac867476940079faa",
-    "backlog/03-nouveaux-domaines/suites/ins-008-assurance-emprunteur.md": "296efbfad0a8abab943f630a227e034233352efe23daac7c2f6eab0b7f53c849",
-    "backlog/03-nouveaux-domaines/suites/ins-009-complementaire-sante.md": "6dbd754d18f264e1ca9cec830712325373e6cc96ce5bb4280de0aecd607f8b45",
+    "backlog/03-nouveaux-domaines/suites/ins-008-assurance-emprunteur.md": "1b7ccf37448fdcf8d2c8d4d20a6c09c03d99f8baf070d5dfc8bda37cdae0c7e3",
+    "backlog/03-nouveaux-domaines/suites/ins-009-complementaire-sante.md": "9e2b3c4bd5a2d08777b02be845c4f5face93655f9c406f25311588bb51b1f081",
     "backlog/03-nouveaux-domaines/suites/ins-010-dommages-ouvrage.md": "64e2bb1d4999d9e5908b45bfac31cd9ed9520647f8721c77c64af8b0f781e355",
-    "backlog/03-nouveaux-domaines/suites/ins-011-assurance-vie-beneficiaire.md": "71f694593b826709b5485e9042c8384463136e34db28d31ac13bd6291beb76af",
-    "backlog/README.md": "7c0584ad18e496e2b43b61e14234d6a842c542e44a2ff741ebcd327fe9d6cc24",
-    "backlog/00-fondations/base-003-dossier-architecture.md": "2ce7b9ea13bcfdabdeb36710bc5798c2c0ac53dfa8079d850134d5f662b3e4f4",
-    "backlog/03-nouveaux-domaines/dom-005-controles.py": "9e94c97f2d23b7e9d040f1dc6dd44ee004500465fd7fa1bbc24a9fb02e964818"
+    "backlog/03-nouveaux-domaines/suites/ins-011-assurance-vie-beneficiaire.md": "6cb978ccd02e4bf611ab33eb6e88d770a64c0fb1b08e349ba77efc7a16ceb5c5",
+    "backlog/03-nouveaux-domaines/suites/ins-012-rachat-assurance-vie.md": "071db340d339fbfa3e2fdbbf91307e31a3bf7a3b487385d4030573fe0c32b486",
+    "backlog/03-nouveaux-domaines/suites/ins-013-suivre-indemnisation.md": "5cc1f5de81e5d3b806d6e65270a15253d08bec78c64136c5c4c1050033d78122",
+    "backlog/03-nouveaux-domaines/suites/ins-014-contester-cotisation.md": "17a97289f4115c8bf14bb769e9bd3a2e9026fc1d90246c8399407ce5ab8170c1",
+    "backlog/03-nouveaux-domaines/suites/ins-015-declaration-risque.md": "6292c525bd455998966b9442a7ff57b2e6a435b8888e5226c777e7b36821f56e",
+    "backlog/03-nouveaux-domaines/suites/ins-016-contester-souscription.md": "13014e932997627c53942bbb2e4fca1118f029d76ac341b37349c517e4db3929",
+    "backlog/03-nouveaux-domaines/suites/ins-017-coordonner-degat-eaux.md": "1170889183657b47026bbfe5bacadfaca4ef9358600621ebc0076584d65a75b4",
+    "backlog/03-nouveaux-domaines/suites/ins-018-catastrophe-naturelle.md": "d3f25f0791f3f21b8aee58181a8163ca513e6678f14932f30d2f40147a756213",
+    "backlog/03-nouveaux-domaines/suites/ins-019-garantie-professionnelle.md": "2861c01c28256c42628b1376c95a2632e8a5ca682062fa475801120dc0f7ffc7",
+    "backlog/03-nouveaux-domaines/suites/ins-020-actualiser-clause-beneficiaire.md": "43ec2063d3af0b5cb67b48a4ea04df51d83052dafd12abc576ae6ad0f8c902a6",
+    "backlog/03-nouveaux-domaines/suites/ins-021-echeances-recours.md": "43345e11e11ff3bba59897cea94eed28f75c0d11254948d1e70d649c8549907f",
+    "backlog/03-nouveaux-domaines/dom-035-responsabilite-dommages.md": "48688f464d3e63d996e4a35db6e97fd46a29ff650a3a6c6ff815f319d5dd89e9",
+    "backlog/README.md": "d7fa05efc85b0acc14de395042c4c995706885419a5030a95b15f18258fea90a",
+    "backlog/00-fondations/base-003-dossier-architecture.md": "cd3d9bd0f10ea0b9a5136d00865c21979975e391073f9132583cd556ea55a903",
+    "backlog/03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt": "385c88b56cc9d624c19f11be11578e9d078b0bec1945db701186d01583a65d6d",
+    "backlog/03-nouveaux-domaines/dom-005-controles.py": "01a1a69ae2516b13964a6df75970481ac2114c3a7f8e57189f50c114dcb4acb0"
   },
   "not_run": [
     "recherche juridique externe",
@@ -263,14 +396,23 @@
     "connexion/envoi/publication"
   ],
   "commands": [
-    "python -X utf8 backlog/03-nouveaux-domaines/dom-005-controles.py --baseline <instantane-debut-tache.json>  --output backlog/03-nouveaux-domaines/dom-005-resultats.json",
+    [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "backlog\\03-nouveaux-domaines\\dom-005-controles.py",
+      "--baseline",
+      "C:/Users/fltou/AppData/Local/Temp/judge-dom005-frictions-baseline.json",
+      "--output",
+      "backlog/03-nouveaux-domaines/dom-005-resultats.json"
+    ],
     "python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)",
     "git diff --check (appelé par le contrôleur)"
   ],
   "execution_notes": [
-    "Instantané de début de tâche pris dans le répertoire temporaire de session, avant toute écriture du lot.",
-    "Contrôleur dérivé de celui de DOM-004 (préfixes, nom du plugin) ; les fichiers DOM-001 à DOM-004 non commités ne sont pas modifiés.",
-    "Premier passage : liens vers ce relevé absents avant sa création ; relevé régénéré une fois le fichier présent.",
-    "Montants des pièces fictives : données recopiées, pas des règles ; le repérage automatique ne couvre pas les montants écrits avec espace et symbole euro."
+    "Relevé actualisé pour 90 frictions, neuf suites complétées et neuf propositions INS-013 à INS-021 ; les compléments bancaires préexistants sont conservés.",
+    "Contrôle de périmètre contre l’instantané de début de cette intégration si --baseline est fourni ; les travaux hors lot préexistants sont comparés par empreinte.",
+    "Le texte utilisateur est conservé octet pour octet ; son empreinte est celle de la pièce jointe, sans validation du droit ou des statistiques.",
+    "Montants des pièces fictives : données recopiées, pas des règles ; scénarios métier non exécutés."
   ]
 }

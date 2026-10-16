@@ -57,6 +57,19 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Saisine de la Banque de France faite à la place de la personne, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 12, 42–44, 49–51, 55 et 98 de la [matrice](../dom-004-frictions-utilisateurs.md).
+
+Inclure la clôture demandée par le client et refusée ou retardée ; recueillir sa demande et sa réception, opérations en attente, cotisations prépayées, date effective et solde de clôture. Pour l'ouverture, conserver dépôt, pièces remises, refus exprès ou silence.
+
+- [ ] A03 — Demande de clôture bloquée : expliquer les obstacles documentés et préparer la relance ; frais après fermeture et part de cotisation → demande de restitution à vérifier, détail BNK-003.
+- [ ] A04 — Silence sur une ouverture : établir réception et conditions du dossier avant la procédure de droit au compte ; ne pas supposer que tout silence est un refus.
+- [ ] A05 — Micro-entrepreneur : distinguer compte dédié, offre commerciale professionnelle et usage permis par la convention ; qualification de l'obligation → DOM-039.
+- [ ] A06 — Clôture avec chèques non débités ou nouvelles conditions : identifier opérations et versions ; mobilité → BNK-013, compte bloqué sans clôture → BNK-014.
+
+Scénarios A03–A06 **attendus, non exécutés**. Sources : clôture à l'initiative de chaque partie, restitution de frais périodiques, droit au compte, conventions et obligations de compte selon l'activité. Aucune clôture exécutée.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :

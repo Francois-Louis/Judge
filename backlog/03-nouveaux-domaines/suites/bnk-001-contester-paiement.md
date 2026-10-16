@@ -107,6 +107,19 @@ Compte professionnel au-delà de la qualification, prélèvement, chèque,
 crédit, actif numérique, opposition faite à la place de la personne, plainte,
 envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 28–29, 31–32, 34–36, 38–41 de la [matrice](../dom-004-frictions-utilisateurs.md).
+
+Pièces supplémentaires : captures et messages d'authentification masqués, refus écrit et preuves invoquées par le prestataire ; heures de l'opposition et des opérations, pays des deux prestataires et devise ; frais directement consécutifs.
+
+- [ ] P04 — Code validé, plainte exigée et « négligence grave » invoquée : le brouillon demande séparément preuve du consentement, faits et preuves de la faute alléguée, fondement de la plainte exigée et motif écrit ; aucune conclusion sur la négligence.
+- [ ] P05 — Remboursement différé pour enquête : la chronologie distingue signalement, réponse, remboursement et exception invoquée ; demande de réexamen selon les textes lus, sans délai chiffré non vérifié.
+- [ ] P06 — Frais après la fraude ou débit affiché après opposition : distinguer autorisation et comptabilisation ; demander remise en état documentée, avec BNK-003 pour le détail des frais.
+- [ ] P07 — Prestataire hors EEE ou achat non livré : qualifier pays et contrat avant le régime de délai ; pour la vente, demander les conditions et délais privés de chargeback sans les présenter comme un remboursement légal automatique.
+
+Cas supplémentaires **attendus, non exécutés** : code saisi pendant un appel ; enquête prolongée ; opposition horodatée suivie d'un débit ; un prestataire hors EEE. Sources à rechercher : preuve, responsabilité, information et champ territorial des services de paiement ; règles contractuelles du réseau pour la rétrofacturation. Le calcul de délai et de franchise reste exclu.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation. Préalable PILOTE-003 satisfait après

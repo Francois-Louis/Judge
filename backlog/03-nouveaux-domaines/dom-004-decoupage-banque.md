@@ -1,6 +1,9 @@
 # DOM-004 — Découpage du domaine bancaire
 
-Propositions du **16 octobre 2026**. Les 12 stories BNK restent `proposee`.
+Propositions du **16 octobre 2026**. Les 19 stories BNK restent `proposee`.
+La [matrice des 99 frictions utilisateur](dom-004-frictions-utilisateurs.md)
+complète les exigences et propose BNK-013 à BNK-019 ; les règles du texte
+fourni restent à vérifier. Les placements gardent leur périmètre d'orientation.
 La [relecture documentaire](dom-004-verification.md) éprouve le routage sur
 les trois scénarios de la story et sur des cas limites. Aucun répertoire de
 plugin n'est créé par ce cadrage.
@@ -93,6 +96,13 @@ priorité P2, le rang 4 la priorité P3.
 | 3 | [BNK-006](suites/bnk-006-prelevement.md) | `direct-debit-dispute` | Contestation d'un prélèvement | BNK-001 |
 | 3 | [BNK-007](suites/bnk-007-difficulte-credit.md) | `credit-repayment-difficulty` | Options à vérifier face à des échéances impayées | BNK-005 |
 | 3 | [BNK-008](suites/bnk-008-cloture-compte.md) | `account-closure-access` | Clôture, refus d'ouverture et droit au compte | BNK-001 |
+| 3 | [BNK-013](suites/bnk-013-mobilite-bancaire.md) | `bank-switch-follow-up` | Suivre une mobilité bancaire et ses incidents | BNK-001 |
+| 3 | [BNK-014](suites/bnk-014-blocage-compte.md) | `account-block-review` | Préparer une demande sur un compte ou un virement bloqué | BNK-001 |
+| 3 | [BNK-015](suites/bnk-015-erreur-virement.md) | `transfer-error-claim` | Réagir à une erreur d'exécution ou de bénéficiaire d'un virement | BNK-001 |
+| 3 | [BNK-016](suites/bnk-016-carte-preautorisation.md) | `card-hold-review` | Comprendre un double débit, une préautorisation ou un plafond de carte | BNK-001 |
+| 3 | [BNK-017](suites/bnk-017-compte-inactif.md) | `inactive-account-search` | Rechercher les fonds d'un compte inactif | BNK-001 |
+| 3 | [BNK-018](suites/bnk-018-financement-professionnel.md) | `business-credit-response` | Réagir à une réduction de concours ou à un refus de financement professionnel | BNK-005 |
+| 3 | [BNK-019](suites/bnk-019-encaissement-professionnel.md) | `merchant-settlement-review` | Comprendre les frais d'encaissement et les fonds commerçants retenus | BNK-001 |
 | 4 | [BNK-009](suites/bnk-009-remboursement-anticipe.md) | `credit-early-repayment` | Questions sur un remboursement anticipé ou une renégociation | BNK-005 |
 | 4 | [BNK-010](suites/bnk-010-fichiers-banque-france.md) | `banque-de-france-file-reading` | Lecture d'une inscription à un fichier de la Banque de France | BNK-007 |
 | 4 | [BNK-011](suites/bnk-011-placement.md) | `investment-orientation` | Orientation d'une réclamation sur un placement ou un actif numérique | BNK-001 |
@@ -142,6 +152,14 @@ vigueur.
 | Placements | Listes et alertes de l'AMF et de l'ACPR ; médiateur de l'AMF. Orientation seulement. | BNK-011 |
 
 ## Contrat commun des stories BNK
+
+Les nouvelles suites recherchent aussi les régimes de mobilité et de
+comptes inactifs, les règles d'identifiant unique et de vérification du
+bénéficiaire, les fonds bloqués sur carte, les concours aux entreprises et
+les contrats d'acquisition commerçant. Chaque tâche en possède la référence
+locale indiquée dans sa story ; BNK-001 garde la qualification et les règles
+générales de paiement, BNK-005 celles du crédit. Aucun calcul général de
+plafond, d'indemnité ou de prescription n'est ajouté à la première tranche.
 
 Chaque lot applique BASE-003, BASE-008, la méthode BASE-005 embarquée, les
 garde-fous ci-dessus et les couches de recette BASE-006 : structure, paquet

@@ -60,6 +60,22 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Négociation tarifaire, changement de banque, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 1–15, 24, 54, 70, 75–77, 90 et 96 de la [matrice](../dom-004-frictions-utilisateurs.md).
+
+Recueillir aussi notifications de frais et de modification tarifaire, ancien et nouveau tarifs, preuve du support et de réception, récapitulatif annuel ; pour la fragilité, critères retenus, période de reconnaissance, offre proposée ou souscrite et catégories facturées. Aucun justificatif de santé ou identifiant complet nécessaire.
+
+La sortie ventile frais d'incident, commission, courrier, tenue de compte, package, service facultatif, agios, retrait/change et frais de saisie. Pour chaque plafond à vérifier : statut du client, catégories incluses, période, règle, base et montant recopié. Un forfait de rejet n'est pas additionné arbitrairement aux éléments qu'il inclut.
+
+- [ ] T03 — Même prélèvement représenté : rapprocher références et montants, relever les doublons possibles et comparer frais et somme rejetée avec le texte applicable.
+- [ ] T04 — Offre spécifique ou fragilité alléguée : demander l'examen d'éligibilité et distinguer protections légales, réglementaires, engagements professionnels et tarif contractuel ; ne pas étendre un plafond à tous les frais.
+- [ ] T05 — Hausse peu visible ou frais sans préavis : comparer documents, support durable et dates ; demander récapitulatif annuel manquant et détail des services d'un package.
+- [ ] T06 — Retrait en devises ou virement instantané : isoler taux, marge, frais du distributeur et tarification du virement classique comparable ; vérifier pays, prestataire et calendrier d'application.
+- [ ] T07 — Agios contestés : demander taux, assiette, jours, minima et décompte ; aucune conclusion sur le taux d'usure sans catégorie, période et source lue, aucun calcul financier général.
+
+Scénarios **attendus, non exécutés** : deux rejets d'une opération ; offre spécifique avec plusieurs catégories de frais ; tarif envoyé dans la messagerie sans preuve de réception ; frais de change ventilés ; facture d'un compte professionnel. Sources à rechercher : plafonds propres à chaque frais, information préalable, clientèle fragile, comptes réglementés et inactifs, change et virements instantanés. Assurance facultative → INS-006 ; clôture → BNK-008 ; frais successoraux → DOM-016. Le détail des services est expliqué sans négociation ni recommandation commerciale.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :

@@ -59,6 +59,16 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Demande en nullité, recours contre la décision, envoi.
 
+## Complément issu des frictions des commissaires de justice
+
+Points 11–12 et 18 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+
+- [ ] S03 — Ancienne adresse : conserver adresse utilisée, situation réelle à la date, preuves de déménagement, diligences de recherche mentionnées et annexes ; distinguer erreur alléguée et irrégularité établie.
+- [ ] S04 — Mentions absentes ou inexactes : comparer acte complet et exigences propres à sa nature selon les textes lus ; documenter le grief allégué sans nullité automatique.
+- [ ] S05 — Avis de passage et retrait tardif : garder date de signification, date de découverte et date de retrait séparées ; ne pas affirmer que l'absence de remise à personne empêche tout délai de courir.
+
+Scénarios S03–S05 **attendus, non exécutés** : acte à l'ancien domicile ; mention erronée avec conséquences décrites ; avis retrouvé tardivement. Sources à rechercher : signification, recherches, effets et régime des nullités selon la procédure. Le recours contre la décision reste une démarche distincte.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-003, sans implémentation ni sélection. Contrat commun :

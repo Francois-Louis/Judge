@@ -29,6 +29,12 @@ Les dommages civils sans domaine spécial identifié sont ici ; accident de circ
 
 Décision du 16 octobre 2026 ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)) : l'offre d'indemnisation faite par un assureur à une victime d'accident de la circulation relève de ce domaine ; la garantie due par l'assureur à son propre assuré reste en DOM-005.
 
+## Besoins issus des frictions assurance
+
+Points 28, 44, 47–48, 52 et 58 de la [matrice assurance](dom-005-frictions-utilisateurs.md). Au futur découpage, prévoir inventaire des préjudices corporels et justificatifs (revenus, assistance, dépenses, séquelles alléguées, douleurs, besoins futurs), état de consolidation à établir avec les professionnels médicaux et lecture d'une offre avec renonciation. L'offre de l'assureur à la victime de la circulation garde ce propriétaire, conformément à la décision du 16 octobre 2026 ; garantie propre et seuil GAV restent en DOM-005.
+
+Scénarios **attendus, non exécutés** : offre corporelle avant consolidation ou sans poste de perte de revenus ; constat auto contesté et coefficient modifié. Distinguer faits et responsabilité alléguée, postes documentés et expertise médicale, transaction et provision ; ne pas déduire la responsabilité d'une case de constat. Prévoir régime spécial circulation, procédure d'offre et prescription à partir des faits et textes lus, sans calcul ni délai validé ici. Le coefficient et la cotisation restent INS-014 ; complément factuel au constat INS-002. Ces tâches au fond restent à découper ; aucun skill n'est livré par ce complément.
+
 ## Sources à prévoir et vérifier
 
 Code civil, régimes spéciaux pertinents et jurisprudence ; procédure, assurance et règles d'expertise selon le cas.
@@ -62,3 +68,8 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+## Besoin issu des frictions des commissaires de justice
+
+La [matrice utilisateur](dom-003-frictions-utilisateurs.md) et sa liste d'organismes demandent de distinguer réclamation professionnelle, recours contre une mesure et réparation d'un dommage. Au futur découpage, prévoir la préparation factuelle d'un dossier de responsabilité professionnelle alléguée : mission et actes, dates, faute alléguée, dommage documenté, causalité discutée, recours exercés et assureur éventuellement identifié. Aucune responsabilité n'est déduite de la seule irrégularité alléguée.
+
+Scénarios **attendus, non exécutés** : préjudice financier attribué à un acte contesté ; réclamation professionnelle déjà déposée mais indemnisation demandée séparément. ENF-015 possède la réclamation, ENF-014 les frais et la story de la mesure son recours. Vérifier régime de responsabilité, prescription, compétence et assurance à partir des faits ; cette tâche au fond reste à découper, sans demande indemnitaire livrée.

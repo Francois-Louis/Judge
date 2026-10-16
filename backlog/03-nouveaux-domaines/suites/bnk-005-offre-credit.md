@@ -63,6 +63,16 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Conseil d'achat, comparaison d'offres, simulation, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 56, 58, 62–63 et 78 de la [matrice](../dom-004-frictions-utilisateurs.md).
+
+- [ ] O03 — Crédit renouvelable présenté par sa seule mensualité : distinguer capital, amortissement, intérêts, TAEG, total annoncé et assurance, à partir des documents sans recalcul.
+- [ ] O04 — Assurance externe et frais de dossier : rapprocher clause, consentement et frais ; séparer lecture de l'offre et substitution INS-008.
+- [ ] O05 — Crédit proposé pour payer les frais d'incident : relever les dettes et orienter la situation globale vers DOM-024 sans recommander de nouveau financement.
+
+Pièces : contrat renouvelable, relevé de situation et détail des frais et assurances. Scénarios O03–O05 **attendus, non exécutés**. Les bornes de lecture et d'absence de simulation restent celles de cette story.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :

@@ -95,12 +95,13 @@ guide d'orientation, distinct du texte. Toute règle non lue reste réservée ;
 aucune norme étrangère de remplacement.
 
 ## Critères d'acceptation
-
 - [ ] N01 produit fiche, pièces manquantes et brouillon sans délai ni article non vérifié.
 - [ ] N02 conserve les branches (vendeur tiers, pays, statut « livré ») et pose les questions utiles, sans conclusion sur la responsabilité.
 - [ ] N03 n'emploie pas de brouillon « consommateur » et oriente vers commercial avec les questions sur la protection éventuelle.
 - [ ] La sortie se comprend sans formation juridique, sans présumer d'abus ni garantir l'issue.
 - [ ] Le paquet détaché fonctionne sans le checkout ni autre plugin ; copies communes identiques ; README limité à ce skill.
+- [ ] N04 à N07 séparent remise, transfert du risque et résolution ; un remboursement non reçu est orienté vers CONSO-019.
+- [ ] La sortie se termine par une phrase courte nommant le professionnel compétent (avocat ou juriste d’une association selon le besoin), avec renfort en tête en cas de délai, procédure ou enjeu irréversible, selon BASE-013.
 
 ## Vérification
 
@@ -118,6 +119,23 @@ porte sur le cadrage ; ces scénarios restent **attendus, non exécutés**.
 Bien reçu défectueux ou incomplet, rétractation, service, voyage, contenu
 numérique, véhicule, travaux, vente entre particuliers, contestation
 bancaire, procédure judiciaire, indemnité chiffrée, envoi du courrier.
+
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 25–30, 34, 37–40, 144 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
+
+Documenter instructions de remise, dépôt devant la porte, voisin autorisé ou non, signature contestée et relais déplacé. Distinguer transporteur proposé par le vendeur et transporteur extérieur mandaté par l’acheteur. Le statut informatique « livré » n’est pas traité comme une preuve suffisante par principe.
+
+Ajouter à la sortie une chronologie de l’engagement de livraison et des demandes prouvées. Séparer réclamation, délai supplémentaire raisonnable à vérifier, résolution et demande de remboursement. Une date essentielle ou un refus de livrer allégué appelle la recherche des conditions permettant une autre séquence ; aucun délai standard ni droit de résolution automatique. Le remboursement après résolution documentée peut être suivi dans CONSO-019 ; aucune majoration calculée ici. Un colis reçu incomplet ou cassé va à CONSO-002.
+
+- Cas limite : N04 — Colis devant la porte ou chez un voisin sans instruction fournie : conserver les branches et demander preuve de remise.
+- Cas limite : N05 — Signature contestée et relais déplacé : comparer contrat, suivi et justificatif, sans désigner d’auteur de faux.
+- Cas limite : N06 — Date d’un mariage annoncée avant commande, livraison manquée : vérifier caractère essentiel et conditions d’une résolution immédiate.
+- Cas limite : N07 — Transporteur extérieur mandaté par l’acheteur : ne pas confondre avec un choix proposé dans le panier.
+
+Scénarios complémentaires **attendus, non exécutés**. Les sources précises et
+leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée.
 
 ## État de la proposition — 16 octobre 2026
 

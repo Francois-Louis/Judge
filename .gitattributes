@@ -1,0 +1,2 @@
+# Preserve the exact bytes of user-provided sources checked by backlog controls.
+backlog/03-nouveaux-domaines/sources/*-frictions-*.txt -text -whitespace

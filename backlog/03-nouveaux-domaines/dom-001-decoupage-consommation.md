@@ -1,9 +1,10 @@
 # DOM-001 — Découpage du domaine consommation
 
-Propositions du **16 octobre 2026**. Les 14 stories CONSO restent `proposee`.
+Propositions du **16 octobre 2026**. Les 20 stories CONSO restent `proposee`.
 La [relecture documentaire](dom-001-verification.md) éprouve le routage sur
 les trois scénarios de la story et sur des cas limites. Aucun répertoire de
-plugin n'est créé par ce cadrage.
+plugin n'est créé par ce cadrage. La [matrice des 155 frictions utilisateur](dom-001-frictions-utilisateurs.md)
+complète les tâches et ajoute CONSO-015 à CONSO-020, sans sélection de tranche.
 
 ## Plugin retenu et contrat d'installation
 
@@ -30,11 +31,11 @@ le cadrage ne fixe pas la règle applicable.
 
 | Axe | Faits à recueillir | Ce qui peut changer |
 |---|---|---|
-| Qualité des parties | But de l'achat (privé, professionnel, mixte), personne physique ou morale, facture au nom de qui ; vendeur professionnel ou particulier. | Achat pour l'activité → commercial, sauf protections particulières à vérifier (petit professionnel, non-professionnel). Vendeur particulier → CONSO-011 (Code civil seulement). L'étiquette « pro » ou « particulier » posée par une partie ne suffit pas. |
+| Qualité des parties | But de l'achat (privé, professionnel, mixte), personne physique ou morale, facture au nom de qui ; vendeur professionnel ou particulier. | Achat pour l'activité → commercial, sauf protections particulières à vérifier (petit professionnel, non-professionnel). Vente entre particuliers → CONSO-011 (régime civil). L'étiquette « pro » ou « particulier » posée par une partie ne suffit pas. |
 | Objet | Bien, service, contenu ou service numérique, bien comportant des éléments numériques ; neuf, occasion, reconditionné, personnalisé. | Objet sectoriel → domaine du secteur (table suivante). Contenu numérique → CONSO-010. |
 | Canal | Magasin, à distance (site, téléphone), hors établissement (domicile, foire, salon), place de marché. | Rétractation et informations dues dépendent du canal ; à vérifier par tâche. |
 | Territoire et dates | Pays d'établissement du vendeur, pays de résidence, activité dirigée vers la France, date de commande et de délivrance. | Vendeur dans un autre État de l'UE → CONSO-007 ; hors UE → limites explicites. Version des textes à la date des faits (BASE-005). |
-| Rôle des plateformes | Qui est le cocontractant sur la confirmation et la facture : la plateforme, un vendeur tiers, un particulier. Qui encaisse, qui livre. | Le vendeur reste l'interlocuteur de la réclamation ; décision sur le compte → DOM-034 ; paiement → DOM-004. |
+| Rôle des plateformes | Qui est le cocontractant sur la confirmation et la facture : la plateforme, un vendeur tiers, un particulier. Qui encaisse, qui livre. | Le vendeur est identifié pour la réclamation ; protection contractuelle → CONSO-018 ; décision sur le compte → DOM-034 ; paiement → DOM-004. |
 | Pièces | Confirmation, annonce ou capture, conditions à la date de commande, facture, preuve de paiement, suivi, échanges, photos, garanties remises. | Une pièce absente est signalée comme manque, jamais présumée inexistante. |
 
 ## Frontières
@@ -53,10 +54,10 @@ l'orientation, pour éviter deux traitements concurrents du même dossier.
 | Banque — DOM-004 | Contestation d'un paiement, opposition, crédit à la consommation ou affecté, paiement fractionné. | La réclamation au vendeur pour le même achat, sans promettre le remboursement bancaire. |
 | Assurance — DOM-005 | Contrat d'assurance vendu avec un bien (casse, vol, panne) et ses refus. | Garantie commerciale émise par le vendeur ou le fabricant (CONSO-005). Le garant indiqué sur le document décide de la branche. |
 | Transports et voyages — DOM-008 | Voyage, forfait, transport de passagers, bagage. | Bien acheté et livré par le vendeur, même transporté par un tiers. |
-| Données — EXIST-003/PRV | Accès, effacement, prospection électronique, traceurs. | Rien sur ces questions ; un démarchage téléphonique est à qualifier, tâche non proposée ici. |
+| Données — EXIST-003/PRV | Accès, effacement, prospection électronique, traceurs. | Prospection et données chez privacy ; contestation du démarchage et du contrat chez CONSO-020, avec les questions distinctes explicites. |
 | Contrats B2B — EXIST-001/COM | Achat pour l'activité professionnelle sans protection particulière établie. | La qualification conditionnelle quand l'achat est présenté comme privé (CONSO-004). |
-| Produits et publicité — EXIST-004/PDT | Lancement, allégations, publicité d'un vendeur. | Revue de CGV B2C (CONSO-008) et demandes de l'acheteur. Pas de deuxième revue des CGV chez produit. |
-| Contentieux — EXIST-006 | Procédure judiciaire identifiée, assignation, injonction. | Réclamation et médiation ; un désaccord ne bascule pas seul vers le contentieux. |
+| Produits et publicité — EXIST-004/PDT | Lancement, allégations, publicité d'un vendeur. | Revue de CGV B2C (CONSO-008), vérification d’offre avant achat (CONSO-015) et demandes de l’acheteur. Pas de deuxième revue des CGV chez produit. |
+| Contentieux — EXIST-006 | Procédure judiciaire identifiée, assignation, injonction. | Réclamation, mise en demeure (CONSO-019) et médiation ; un désaccord ne bascule pas seul vers le contentieux. |
 | Exécution et dettes — DOM-003, DOM-024 | Recouvrement d'une dette, acte de saisie, surendettement. | Rien : le modèle « consumer » hérité de la clinique (recouvrement américain) n'est pas repris ici. |
 | Douanes — DOM-009 | Colis retenu, droits réclamés par la douane ou le transporteur. | L'obligation de livraison du vendeur et ce qu'il a annoncé sur les frais. |
 | Travaux — DOM-015 | Devis et chantier chez soi, démarchage pour des travaux. | Achat d'un bien sans pose. |
@@ -64,7 +65,7 @@ l'orientation, pour éviter deux traitements concurrents du même dossier.
 | Télécoms, poste — DOM-022 | Contrat opérateur ; envoi confié par l'usager à un opérateur postal. | Colis envoyé par le vendeur pour exécuter la vente. |
 | Véhicules — DOM-023 | Achat, location, réparation d'un véhicule. | Accessoire acheté séparément. |
 | Funéraire — DOM-031 | Devis, contrat et facture funéraires. | Rien. |
-| Numérique — DOM-034 | Suspension de compte, modération, décision de la plateforme. | Achat d'un contenu numérique non fourni (CONSO-010) et achat sur une place de marché. |
+| Numérique — DOM-034 | Suspension de compte, modération, décision de la plateforme. | Achat d’un contenu numérique non fourni (CONSO-010), demande au vendeur et contestation d’une protection contractuelle de plateforme (CONSO-018). |
 | Responsabilité — DOM-035 | Dommage causé par un produit à une personne ou à un autre bien. | Défaut du bien lui-même (CONSO-002). Un signal de danger est traité en premier. |
 | Autres | Animal (DOM-033), immobilier et logement (DOM-006, DOM-017), santé (DOM-007), refus discriminatoire (DOM-029), escroquerie alléguée (DOM-002). | La demande au vendeur quand un vendeur professionnel identifiable existe. |
 
@@ -87,9 +88,15 @@ Les rangs 1 à 3 portent la priorité P2, le rang 4 la priorité P3.
 | 3 | [CONSO-007](suites/conso-007-vendeur-ue.md) | `cross-border-purchase` | Orientation d'un litige avec un vendeur établi dans un autre État de l'UE | CONSO-001 |
 | 3 | [CONSO-008](suites/conso-008-cgv-tpe.md) | `b2c-terms-review` | Tableau des CGV de vente en ligne d'une TPE, écarts et questions | CONSO-001 |
 | 3 | [CONSO-014](suites/conso-014-secteur-non-couvert.md) | `general-consumer-claim` | Réclamation fondée sur les règles générales dans un secteur sans plugin disponible | CONSO-004 |
+| 3 | [CONSO-015](suites/conso-015-verifier-vendeur-offre.md) | `purchase-offer-check` | Fiche de vérification du vendeur et des informations de l’offre avant achat | CONSO-004 |
+| 3 | [CONSO-016](suites/conso-016-contester-prix-frais.md) | `price-fee-claim` | Comparaison offre, panier et facture ; brouillon de contestation d’un prix ou supplément | CONSO-001 |
+| 3 | [CONSO-017](suites/conso-017-prestation-acompte.md) | `service-performance-claim` | Lecture ciblée du devis et de l’avance ; réclamation sur l’exécution | CONSO-001 |
+| 3 | [CONSO-018](suites/conso-018-protection-plateforme.md) | `platform-protection-claim` | Dossier et contestation interne d’une protection d’achat ou de vente | CONSO-004 |
+| 3 | [CONSO-019](suites/conso-019-mise-en-demeure-remboursement.md) | `claim-escalation` | Mise en demeure, état des remboursements et suites distinctes | CONSO-001 |
+| 3 | [CONSO-020](suites/conso-020-demarchage-consentement.md) | `solicitation-dispute` | Contestation du démarchage ou du contrat allégué, preuves du consentement | CONSO-004 |
 | 4 | [CONSO-009](suites/conso-009-abonnement.md) | `subscription-exit` | Fiche d'abonnement hors secteur et brouillon de résiliation | CONSO-001 |
 | 4 | [CONSO-010](suites/conso-010-contenu-numerique.md) | `digital-content-claim` | Réclamation pour un contenu ou service numérique non fourni ou défectueux | CONSO-002 |
-| 4 | [CONSO-011](suites/conso-011-vente-entre-particuliers.md) | `private-sale-dispute` | Litige d'achat entre particuliers, sans droit de la consommation | CONSO-004 |
+| 4 | [CONSO-011](suites/conso-011-vente-entre-particuliers.md) | `private-sale-dispute` | Demande civile d’un acheteur ou vendeur particulier, qualité des parties à vérifier | CONSO-004 |
 | 4 | [CONSO-012](suites/conso-012-reponse-vendeur.md) | `seller-claim-response` | Projet de réponse d'un petit vendeur à un client particulier | CONSO-002 |
 | 4 | [CONSO-013](suites/conso-013-signalement.md) | `practice-report` | Fiche de signalement d'une pratique, distincte d'une réclamation | CONSO-001 |
 
@@ -97,7 +104,11 @@ CONSO-001 possède `qualification-achat.md` ; CONSO-002 possède
 `garanties-legales.md`, relu par CONSO-005, CONSO-010 et CONSO-012. Une
 tâche suivante consomme ces références sans les réécrire ; une correction
 passe par une mise à jour versionnée de la référence. Aucun cycle de
-dépendances.
+dépendances. CONSO-015 à CONSO-020 possèdent chacune leur référence métier.
+CONSO-018 garde la protection privée, CONSO-011 le litige civil entre parties ;
+CONSO-019 accepte aussi un dossier manuel sans dépendre de toutes les tâches
+qui peuvent produire une première réclamation. L’orientation CONSO-004 reste
+sans analyse de fond et sans brouillon.
 
 ## Première tranche : CONSO-001
 
@@ -138,6 +149,12 @@ dépendance du paquet installé.
 | Abonnements | Code de la consommation, reconduction tacite et résiliation par voie électronique. | CONSO-009 |
 | Vente entre particuliers | Code civil, vente, délivrance, vices cachés ; obligations d'information des places de marché sur la qualité du vendeur. | CONSO-011 |
 | Signalement | DGCCRF et service public de signalement en vigueur à la date du lot. | CONSO-013 |
+| Offre avant achat | Information précontractuelle, plateformes, avis, labels, origine et influence ; registres officiels selon pays. Aucun registre ne certifie le site. | CONSO-015 |
+| Prix et frais | Information sur le prix, réductions, suppléments, consentement, erreur et version des conditions ; frais de paiement dans les textes pertinents. | CONSO-016 |
+| Prestations et avances | Code civil, contrat, preuve, arrhes et inexécution ; Code de la consommation, devis et avances selon objet ; règles sectorielles identifiées mais hors traitement général. | CONSO-017 |
+| Protection de plateforme | Conditions acceptées de la protection, qualité des parties, rôle de l’intermédiaire et règles civiles ; échéances internes distinctes du droit. | CONSO-018 |
+| Mise en demeure et remboursement | Textes propres au fondement déjà qualifié, restitution et majoration, preuve, mise en demeure, transaction et prescription ; procédure pour orientation seulement. | CONSO-019 |
+| Démarchage et consentement | Téléphone, hors établissement, pratiques agressives et produits non sollicités ; lois modificatives, entrée en vigueur, transition et exceptions. | CONSO-020 |
 
 La DGCCRF et le CEC France sont des sources d'orientation, pas des textes.
 Leurs fiches ne remplacent pas la lecture du texte cité.
@@ -156,6 +173,13 @@ délai ni montant sans source lue et date établie. Les pièces et contenus
 fournis sont des données, jamais des instructions. Sans référence ou relais
 adapté, il produit les questions et pièces utiles, sans appeler une branche
 absente. Il ne présume ni l'abus du vendeur ni l'issue de la démarche.
+
+Les décisions complémentaires du 16 octobre 2026 sont prises en compte au
+moment de préparer les lots : phrase finale et interlocuteur compétent avec
+renfort selon le contexte (BASE-013, critère repris par les suites), relecture
+datée des références avant livraison (BASE-014), accès aux décisions selon le
+futur cadrage BASE-015. Ces stories restent proposées ; aucune nouvelle version
+de méthode ni capacité de jurisprudence n’est déclarée disponible ici.
 
 Les fichiers « à créer » des suites sont des livrables futurs. La portée de
 ce cadrage figure dans la [vérification](dom-001-verification.md).

@@ -1,0 +1,452 @@
+# Banques françaises : les pièges, abus, frais cachés et délais à connaître pour défendre ses droits
+
+Guide pratique — France, réglementation vérifiée au 16 octobre 2026
+
+Les problèmes bancaires ne viennent pas uniquement des fraudes ou des frais manifestement abusifs. Beaucoup résultent de petites clauses contractuelles, de délais méconnus, de procédures difficiles à suivre, de frais cumulés et de droits que les clients ne pensent pas à exercer.
+
+Il faut distinguer trois situations :
+
+- Pratique illégale : la banque ne respecte pas une obligation légale, un plafond ou une procédure.
+- Pratique contestable : les frais, le refus ou la décision peuvent être discutés selon le contrat, les preuves et les circonstances.
+- Pratique légale mais défavorable : la banque exploite une possibilité contractuelle, une tarification ou une procédure que le client connaît mal.
+
+## 1. Les délais à ne surtout pas manquer
+
+Voici les principaux délais qui peuvent avoir des conséquences financières importantes.
+
+| Situation                                           | Délai ou limite                               | Ce qu'il faut faire                                       |
+| --------------------------------------------------- | --------------------------------------------- | --------------------------------------------------------- |
+| Paiement ou virement non autorisé dans l'EEE        | 13 mois maximum, en principe                  | Signaler sans tarder                                      |
+| Prélèvement SEPA autorisé contesté                  | 8 semaines                                    | Demander le remboursement                                 |
+| Prélèvement SEPA non autorisé                       | 13 mois, en principe                          | Contester l'absence de mandat                             |
+| Réclamation bancaire classique                      | 2 mois                                        | Saisir le médiateur si réponse insatisfaisante ou absente |
+| Réclamation concernant un service de paiement       | 15 jours ouvrables, avec exception jusqu'à 35 | Relancer et saisir le médiateur selon la situation        |
+| Saisine du médiateur                                | Dans l'année suivant la réclamation écrite    | Ne pas laisser traîner                                    |
+| Modification des tarifs bancaires                   | Information 2 mois avant                      | Refuser ou résilier avant application                     |
+| Clôture d'un compte par la banque                   | Préavis de 2 mois en principe                 | Prévoir un compte de remplacement                         |
+| Contestation d'une SATD (saisie administrative)     | 2 mois                                        | Contester auprès de l'administration compétente           |
+| Chèque impayé non régularisé                        | Inscription possible pendant 5 ans            | Régulariser et obtenir la mise à jour du fichier          |
+| Information préalable au débit des frais d'incident | Au moins 14 jours                             | Vérifier leur montant et leur justification               |
+
+Attention : ces délais ne constituent pas tous des délais de prescription. Certains comportent des exceptions, notamment pour les paiements internationaux, les conditions d'information et les situations contractuelles particulières.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++4
+
+
+
+Règle essentielle : lorsqu'un débit paraît anormal, ne pas attendre la réponse d'un conseiller pour formaliser une contestation écrite. Les recours et leurs délais peuvent continuer à courir pendant les échanges avec la banque.
+
+## 2. Frais bancaires : les petites sommes qui s'accumulent
+
+C'est un domaine où les plafonds légaux sont particulièrement utiles.
+
+### Les plafonds à connaître
+
+| Frais                               | Plafond légal — cas général     |
+| ----------------------------------- | ------------------------------- |
+| Commission d'intervention           | 8 € par opération               |
+| Commissions d'intervention cumulées | 80 € par mois                   |
+| Rejet de prélèvement ou de virement | Montant rejeté, maximum 20 €    |
+| Chèque rejeté de 50 € ou moins      | 30 €                            |
+| Chèque rejeté de plus de 50 €       | 50 €                            |
+| Frais de compte courant inactif     | 30 € par an                     |
+| Frais de SATD                       | 10 % de la dette, maximum 100 € |
+
+Ces plafonds ne signifient pas que tous les autres frais sont autorisés sans limite, ni que le plafond général de 80 € couvre toutes les catégories de frais.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++2
+
+
+
+### Liste des pratiques à surveiller
+
+1\. Double facturation d'un prélèvement rejeté. Un même prélèvement est présenté deux fois et rejeté deux fois. La banque ne doit pas facturer de nouveaux frais de rejet pour cette même opération représentée.
+
+2\. Frais de rejet supérieurs au prélèvement. Un prélèvement de 7 € rejeté ne peut pas générer 20 € de frais de rejet.
+
+3\. Commissions d'intervention répétées. Plusieurs opérations sur une même journée peuvent déclencher plusieurs commissions. Vérifier le plafond mensuel, la réalité des interventions et le tarif applicable.
+
+4\. Frais de rejet et commissions cumulés. Vérifier que les frais inclus dans le forfait de rejet ne sont pas facturés une seconde fois sous une autre appellation.
+
+5\. Frais de courrier excessifs. Certains courriers automatisés sont facturés. Ils ne sont pas nécessairement illégaux, mais leur montant, leur justification et leur inclusion éventuelle dans un plafond sont vérifiables.
+
+6\. Frais débités sans préavis suffisant. Les frais d'incident doivent être annoncés au moins 14 jours avant leur prélèvement.
+
+7\. Frais de tenue de compte peu visibles. Une cotisation annuelle peut coexister avec des frais mensuels de gestion. Vérifier le coût total, pas seulement l'intitulé principal de l'offre.
+
+8\. Packages bancaires surdimensionnés. Assurance, carte premium, assistance et services divers sont regroupés alors qu'ils ne correspondent pas aux besoins réels. Demander le prix des services séparément.
+
+9\. Services facultatifs renouvelés automatiquement. Vérifier les assurances liées aux moyens de paiement, alertes payantes et abonnements annexes, ainsi que leurs règles de résiliation.
+
+10\. Hausse tarifaire noyée dans la messagerie. La banque doit informer son client au moins deux mois avant une modification de tarifs, sur un support durable approprié. Une simple publication sur son site ne suffit pas nécessairement.
+
+11\. Agios difficiles à vérifier. Contrôler le taux appliqué, les jours comptabilisés, le montant du découvert et les éventuels minima forfaitaires. Le TAEG doit respecter le taux d'usure applicable.
+
+12\. Frais facturés après fermeture du compte. Vérifier la date effective de clôture, les cotisations prépayées et la restitution des sommes dues.
+
+13\. Frais de retrait à l'étranger ou hors réseau. Vérifier les frais fixes, les pourcentages et ceux du distributeur.
+
+14\. Marge de change peu visible. Le coût réel d'un paiement en devises peut inclure une marge de conversion. Dans l'UE, des obligations d'information spécifiques s'appliquent.
+
+15\. Omission du récapitulatif annuel. Chaque mois de janvier, la banque doit fournir un récapitulatif détaillé des frais de l'année précédente.
+
+Réflexe : télécharger ce récapitulatif annuel et demander le remboursement, ligne par ligne, de tout frais mal calculé, non justifié ou prélevé contrairement aux règles applicables.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++2
+
+
+
+## 3. Prélèvements, virements et paiements : les pièges opérationnels
+
+16\. Prélèvement d'un ancien abonnement. Un service résilié continue à débiter le compte. Contester le paiement et conserver la preuve de résiliation.
+
+17\. Mandat SEPA jamais signé. Demander à la banque et au créancier les références du mandat et les éléments établissant l'autorisation.
+
+18\. Mandat révoqué, prélèvements persistants. Révoquer auprès du créancier et prévenir la banque ; demander si nécessaire un blocage adapté des prélèvements.
+
+19\. Prélèvement autorisé d'un montant erroné. Un prélèvement SEPA Core peut en principe être remboursé sur demande dans les huit semaines, sans avoir à démontrer une fraude. Le remboursement ne supprime toutefois pas une dette réellement due.
+
+20\. Rejet de prélèvement silencieux. La banque n'est pas systématiquement tenue de prévenir avant le rejet pour défaut de provision. Une facture essentielle peut donc rester impayée sans alerte préalable.
+
+21\. Prélèvements qui se chevauchent. Lors d'un changement de banque ou de mandat, un créancier peut prélever sur un ancien et un nouveau compte. Vérifier les deux relevés.
+
+22\. Virement envoyé au mauvais IBAN. Demander immédiatement le rappel des fonds. La récupération n'est pas garantie lorsqu'un virement a été correctement exécuté vers l'IBAN fourni.
+
+23\. Virement bloqué par un contrôle bancaire. Demander quelles informations ou pièces peuvent être fournies pour débloquer l'opération. Certains contrôles réglementaires ne permettent pas à la banque de communiquer tous leurs motifs.
+
+24\. Virement instantané présenté comme un service premium. En zone euro, le prix d'un virement instantané en euros ne peut pas dépasser celui d'un virement classique comparable. Il n'est donc pas obligatoirement gratuit si le virement classique correspondant est payant.
+
+25\. Vérification du bénéficiaire absente ou incorrecte. Depuis le 9 octobre 2025, les prestataires concernés de la zone euro doivent fournir gratuitement une vérification de concordance entre le nom et l'IBAN pour les virements concernés. Un défaut de vérification doit être documenté.
+
+26\. Paiement par carte débité deux fois. Demander la référence de chacune des opérations. Ne pas confondre une préautorisation temporaire avec un débit effectivement comptabilisé.
+
+27\. Préautorisation bancaire bloquée longtemps. Hôtels, stations-service et loueurs peuvent immobiliser une partie du solde disponible. Vérifier l'expiration de l'autorisation et demander sa levée lorsqu'elle n'a plus de justification.
+
+28\. Achat payé mais jamais livré. Demander une rétrofacturation (chargeback) lorsque les règles de la carte ou du contrat le permettent. Ce recours n'est pas automatiquement applicable à tous les paiements.
+
+29\. Paiement contesté, remboursement refusé sans examen. Demander explicitement le motif du refus et les données relatives à l'opération.
+
+30\. Carte bancaire dont le plafond est atteint sans explication. Vérifier la période glissante, les paiements différés, les préautorisations et le plafond contractuel.
+
+Les règles de contestation des prélèvements, de tarification des virements instantanés et de vérification du bénéficiaire sont précisées par Service Public et la BCE.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++4
+
+
+
+## 4. Fraudes bancaires : les refus de remboursement abusifs ou discutables
+
+C'est un sujet majeur dans les litiges bancaires. En 2025, la Banque de France a estimé la fraude aux moyens de paiement à environ 1,2 milliard d'euros. Cela ne signifie pas que toute fraude engage automatiquement la responsabilité de la banque.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://acpr.banque-france.fr\&sz=32)
+
+Banque de France
+
++1
+
+
+
+31\. La banque prétend que le code SMS ou l'application valide nécessairement le paiement. Faux : l'authentification forte ne prouve pas, à elle seule, que le client a autorisé l'opération.
+
+32\. La banque invoque automatiquement une négligence grave. Elle doit être en mesure de l'établir. Une simple affirmation ne suffit pas.
+
+33\. Refus immédiat après fraude au faux conseiller bancaire. L'usurpation du numéro de la banque ne rend pas automatiquement la victime responsable. Les circonstances précises doivent être examinées.
+
+34\. La banque impose systématiquement un dépôt de plainte avant d'examiner le remboursement. Le dépôt de plainte est utile, mais n'est pas une condition légale générale du remboursement d'une opération non autorisée.
+
+35\. La banque réclame une longue enquête avant remboursement. Pour une opération non autorisée relevant de ce régime, le remboursement doit normalement intervenir immédiatement, au plus tard à la fin du premier jour ouvrable suivant le signalement, sous réserve des exceptions légales.
+
+36\. La banque rembourse le vol, mais pas les frais consécutifs. Exiger aussi la remise du compte dans l'état où il aurait été sans l'opération, y compris les frais d'incident directement provoqués.
+
+37\. La banque confond fraude et escroquerie au virement volontairement autorisé. Attention : les règles sont différentes. Un virement réellement autorisé après manipulation par un escroc n'ouvre pas systématiquement droit au remboursement automatique.
+
+38\. Un virement frauduleux vers un compte étranger est détecté trop tard. Le délai de signalement peut être nettement plus court lorsque l'établissement du bénéficiaire se situe hors EEE : généralement 70 jours, éventuellement jusqu'à 120 jours selon le contrat.
+
+39\. La banque refuse d'expliquer sa décision. Demander une réponse écrite motivée, distinguant précisément authentification, autorisation et éventuelle négligence grave.
+
+40\. La banque se contente de dire que le paiement est irréversible. L'irréversibilité technique d'un paiement n'élimine pas les droits éventuels au remboursement de son émetteur.
+
+41\. Fraude commise sur une carte bloquée. Documenter l'heure exacte de l'opposition et les opérations postérieures, car la responsabilité peut être différente.
+
+Le Code monétaire et financier, notamment ses articles L133-18 à L133-24, encadre ces situations.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++3
+
+
+
+## 5. Comptes bancaires : fermeture, accès, blocages et changements
+
+42\. Compte clôturé sans préavis. Pour un compte de dépôt actif, la banque doit normalement respecter deux mois de préavis. Des exceptions légales existent. Une fermeture irrégulière peut ouvrir droit à réparation.
+
+43\. La banque refuse de clôturer un compte sans raison contractuelle valable. Demander la clôture par écrit, avec preuve de réception, après avoir traité les opérations en cours.
+
+44\. Cotisation annuelle de carte non remboursée après clôture. Demander la restitution de la part correspondant à la période postérieure à la résiliation, lorsque la réglementation le prévoit.
+
+45\. Compte dormant qui accumule les frais. Sur un compte courant inactif, le plafond est de 30 € par an. Certains produits d'épargne réglementés ne supportent pas ces frais.
+
+46\. Fonds oubliés transférés à la Caisse des dépôts. Rechercher les comptes ou contrats sur [Ciclade](https://ciclade.caissedesdepots.fr/?utm_source=chatgpt.com). En règle générale, les sommes d'un compte inactif sont transférées après dix ans, sauf situations particulières.
+
+47\. Mobilité bancaire non effectuée correctement. Le service est gratuit pour les comptes personnels éligibles et les démarches doivent normalement être effectuées dans un délai global de 22 jours ouvrés.
+
+48\. Incident de paiement provoqué par une mobilité bancaire ratée. Les banques responsables doivent indemniser sans délai le préjudice causé par un manquement à la procédure, sauf exceptions prévues par la loi.
+
+49\. Ancien compte fermé alors que des chèques circulent encore. Faire établir la liste des chèques non débités, conserver une provision adaptée et surveiller les opérations.
+
+50\. Banque qui refuse l'ouverture d'un compte. Si vous ne disposez pas de compte et remplissez les conditions, utiliser la procédure de droit au compte auprès de la Banque de France.
+
+51\. Refus d'ouverture jamais notifié. Une absence de réponse pendant 15 jours, dans les conditions prévues, peut valoir refus et permettre d'engager le droit au compte.
+
+52\. Compte bloqué pour vérification de conformité. Demander la liste des justificatifs nécessaires, conserver les preuves de remise et distinguer le blocage réglementaire d'un problème purement technique.
+
+53\. Services indisponibles sans solution alternative. En cas de problème informatique durable, documenter les transactions empêchées et les éventuelles pertes financières directement liées.
+
+54\. Frais de tenue de compte sur un produit réglementé. Les livrets réglementés et certains produits d'épargne logement bénéficient de règles spécifiques de gratuité.
+
+55\. Changement de conditions mal communiqué. Conserver les anciennes conditions générales et les nouvelles pour comparer les clauses et identifier la date d'entrée en vigueur.
+
+Sources : clôture, mobilité et droit au compte.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++3
+
+
+
+## 6. Crédits : les pièges les plus coûteux
+
+56\. Assurance emprunteur présentée comme obligatoirement liée à la banque. La banque peut imposer une assurance, mais l'emprunteur conserve la liberté de choisir un autre assureur offrant les garanties équivalentes exigées.
+
+57\. Refus de changement d'assurance sans justification précise. Pour un crédit immobilier, le changement est possible à tout moment. Un refus doit être motivé, notamment par les garanties manquantes.
+
+58\. Frais supplémentaires pour accepter une assurance externe. Vérifier toute modification du crédit liée à cette substitution : la banque ne peut pas librement pénaliser ce choix.
+
+59\. Prêt immobilier renégocié sans simulation complète. Comparer le coût total restant, les frais d'avenant, les garanties et l'assurance, et pas uniquement le nouveau taux.
+
+60\. Indemnités de remboursement anticipé excessives. En immobilier, elles sont notamment limitées au plus faible de deux plafonds : six mois d'intérêts sur le capital remboursé ou 3 % du capital restant dû, sous réserve des règles particulières applicables.
+
+61\. Pénalité appliquée alors qu'une exonération légale existe. Certains remboursements immobiliers anticipés liés à une vente consécutive à un changement professionnel, à une cessation forcée d'activité ou à un décès peuvent être exonérés, sous conditions.
+
+62\. Frais de dossier prélevés pour une opération non prévue au contrat. Demander le fondement contractuel précis et la preuve de l'accord.
+
+63\. Crédit renouvelable dont le coût réel est minimisé. Vérifier le TAEG, le capital réellement amorti, le montant total dû et le coût des assurances associées.
+
+64\. Assurance emprunteur qui ne couvre pas réellement le risque attendu. Examiner les exclusions, les délais de carence, les franchises, la quotité assurée et les critères d'indemnisation.
+
+65\. Échéances de crédit en retard et accumulation de pénalités. Demander un aménagement avant que les incidents se multiplient. En cas de difficultés sérieuses, un juge peut accorder un délai de grâce pouvant aller jusqu'à deux ans.
+
+66\. Déchéance du terme ou exigibilité anticipée mal comprise. Vérifier la clause contractuelle, les mises en demeure et les sommes réellement exigibles avant d'accepter un montant global.
+
+67\. Fichage FICP sans respect de la procédure. Pour un incident de remboursement, la banque doit prévenir le client de son intention et lui laisser en principe 30 jours calendaires pour régulariser.
+
+68\. Fichage maintenu après régularisation. Demander à l'organisme déclarant la mise à jour du FICP et conserver les preuves de paiement.
+
+69\. Délai de recours oublié lors d'un impayé. Pour certains litiges de crédit à la consommation, le prêteur dispose d'un délai de forclusion de deux ans, dont le point de départ doit être déterminé précisément. Une reconnaissance de dette ou un nouvel accord ne doit pas être signé sans comprendre ses conséquences.
+
+Ces questions peuvent représenter plusieurs milliers d'euros sur la durée d'un prêt.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++4
+
+
+
+## 7. Saisies, surendettement et interdictions bancaires
+
+C'est ici qu'un délai manqué peut entraîner les conséquences les plus graves.
+
+70\. Frais de saisie administrative disproportionnés. Les frais bancaires d'une SATD sont limités à 10 % du montant dû, dans la limite de 100 €.
+
+71\. Compte entièrement vidé après saisie. La banque doit respecter le solde bancaire insaisissable. En octobre 2026, il est fixé à 651,69 €, dans la limite des fonds effectivement disponibles.
+
+72\. Prestations sociales saisies à tort. Certaines sommes, comme le RSA ou la prime d'activité, sont insaisissables. Il faut parfois fournir rapidement les justificatifs permettant de les identifier.
+
+73\. Délai de contestation de saisie mal identifié. Une SATD peut être contestée dans les deux mois selon sa procédure. Pour une saisie-attribution par commissaire de justice, le délai de contestation judiciaire est généralement d'un mois. Ce ne sont pas les mêmes procédures.
+
+74\. Compte bloqué sans explication des démarches de mainlevée. Demander à l'autorité à l'origine de la saisie les conditions d'une éventuelle mainlevée, d'une régularisation ou d'un échéancier.
+
+75\. Frais excessifs sur un compte déjà fragile. Les clients reconnus financièrement fragiles bénéficient d'un plafonnement de certains frais d'incident à 25 € par mois, même sans adhérer à l'offre spécifique.
+
+76\. Offre clientèle fragile jamais proposée. Une banque doit proposer une offre spécifique aux clients éligibles. Son prix ne peut dépasser 3 € par mois, avec un encadrement renforcé des frais d'incident concernés.
+
+77\. Frais au-delà des plafonds de cette offre. Pour les neuf catégories de frais couvertes, le plafond est de 20 € par mois et 200 € par an. Les commissions d'intervention sont limitées à 4 € par opération.
+
+78\. Pression pour souscrire un nouveau crédit afin de rembourser des frais. Avant toute opération, comparer les coûts, examiner un plan d'apurement et, si nécessaire, les dispositifs de traitement du surendettement.
+
+79\. Dossier de surendettement retardé malgré une insolvabilité durable. La procédure de la Banque de France peut fournir des protections adaptées. Attendre peut aggraver les dettes et les frais.
+
+Sources : saisies et fragilité financière.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++4
+
+
+
+## 8. Épargne, placements et successions
+
+80\. Placement présenté comme sans risque alors qu'il peut perdre de la valeur. Vérifier les documents contractuels, la classification des risques et la conformité du conseil donné.
+
+81\. Frais d'entrée ou de gestion peu compris. Sur certains produits d'investissement et contrats d'assurance-vie, les frais peuvent réduire fortement le rendement à long terme.
+
+82\. Transfert de PEA excessivement long. Conserver les dates des demandes et des échanges, puis saisir le médiateur compétent. Le transfert de PEA figure parmi les principaux motifs de litige soumis au médiateur de l'AMF.
+
+83\. Frais de transfert de PEA excessifs. Vérifier les plafonds réglementaires applicables et la tarification des lignes transférées.
+
+84\. Assurance-vie dont le rachat est anormalement retardé. Le versement des fonds d'un rachat doit normalement intervenir dans un maximum de deux mois, avec intérêts de retard au-delà.
+
+85\. Capital d'assurance-vie non versé au bénéficiaire. Après réception des pièces nécessaires, l'assureur dispose normalement d'un mois pour effectuer le paiement. Des intérêts majorés sont prévus en cas de retard.
+
+86\. Frais de succession disproportionnés. En 2026, les frais concernés sont plafonnés à 1 % des avoirs entrant dans le périmètre réglementaire, et à 857 € au maximum.
+
+87\. Mauvaise application des règles de gratuité successorale. Attention à une modification récente : les cas de gratuité obligatoire instaurés en 2025 ont été supprimés par une décision du Conseil constitutionnel de juin 2026. Le plafonnement, lui, subsiste.
+
+88\. Sommes d'un défunt oubliées sur d'anciens comptes. Utiliser Ciclade et examiner les recherches que les établissements étaient tenus d'effectuer.
+
+89\. Confusion entre épargne garantie et placement exposé à une perte en capital. Demander la nature juridique exacte du produit, ses garanties, ses frais et ses possibilités de sortie avant la souscription.
+
+Le rapport 2025 du médiateur de l'AMF identifie notamment les difficultés de transfert de PEA, l'épargne salariale et les SCPI parmi les sujets significatifs.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.amf-france.org\&sz=32)
+
+AMF
+
++4
+
+
+
+## 9. Comptes professionnels et indépendants : protections différentes
+
+Pour un artisan, un commerçant ou un indépendant, certains risques sont encore plus importants parce que les règles protectrices des consommateurs ne s'appliquent pas systématiquement aux opérations professionnelles.
+
+90\. Frais professionnels non plafonnés comme ceux des particuliers. Vérifier les conditions contractuelles : ne pas supposer que les plafonds de frais d'incident des particuliers protègent automatiquement un compte professionnel.
+
+91\. Découvert professionnel dénoncé. La rupture de certains concours à durée indéterminée impose généralement un préavis écrit d'au moins 60 jours, avec des exceptions légales. C'est un délai crucial pour saisir la Médiation du crédit.
+
+92\. Autorisation de trésorerie réduite juste avant une grosse échéance. Documenter l'effet sur la trésorerie, les factures et les paiements fournisseurs ; contacter rapidement la banque.
+
+93\. Refus de financement laissant l'entreprise sans solution. La Médiation du crédit de la Banque de France peut intervenir gratuitement pour rechercher une solution avec les établissements concernés.
+
+94\. Tarification des terminaux de paiement opaque. Contrôler séparément les commissions sur transactions, l'abonnement, les frais fixes, la location, les remboursements et les frais de résiliation.
+
+95\. Fonds de transactions commerçantes retenus. Demander le fondement de la retenue, les réserves contractuelles, les éventuels litiges et les pièces nécessaires à la libération des fonds.
+
+96\. Frais de découvert et de financement mal compris. Comparer le taux nominal, les commissions annexes, les garanties et le coût annuel effectif.
+
+97\. Garanties personnelles souscrites sans mesurer les conséquences. Vérifier la portée, la durée et les limites d'un cautionnement personnel avant signature.
+
+98\. Utilisation professionnelle d'un compte personnel interdite par le contrat. Un micro-entrepreneur n'est pas automatiquement obligé d'ouvrir une offre bancaire professionnelle, mais son compte dédié doit répondre à ses obligations et la convention bancaire doit permettre l'usage envisagé.
+
+99\. Recours auprès du mauvais médiateur. Le médiateur bancaire de la consommation n'est pas nécessairement compétent pour un litige professionnel. Pour les difficultés de financement, la Médiation du crédit est un interlocuteur spécifique.
+
+La Médiation du crédit indique qu'en 2025, 64 % des dossiers traités ont abouti favorablement. Le recours précoce est déterminant : certains dossiers arrivent alors que la situation financière est déjà trop dégradée.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://acpr.banque-france.fr\&sz=32)
+
+Banque de France
+
++3
+
+
+
+## 10. Comment réagir efficacement face à une banque
+
+Les démarches les plus utiles ne consistent pas à multiplier les appels téléphoniques, mais à obtenir des documents et constituer un dossier daté.
+
+1\. Récupérer les pièces
+
+Convention de compte, brochure tarifaire applicable à la date des faits, relevés, échanges, contrats, notifications et justificatifs. Conserver les relevés bancaires au moins cinq ans, davantage en cas de litige en cours.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+2\. Faire une réclamation écrite et explicite
+
+Adresser la contestation au service réclamations, avec dates, montants, références des opérations, fondement de la demande et solution attendue. Conserver une preuve de dépôt ou d'envoi.
+
+3\. Inscrire les échéances dans un calendrier
+
+Suivre séparément les délais de contestation, les réponses attendues, la médiation et toute échéance judiciaire. Une réclamation ordinaire ne suspend pas automatiquement les autres délais.
+
+4\. Saisir le bon médiateur
+
+Pour un litige bancaire de consommation, la médiation est gratuite après réclamation préalable, dans les conditions réglementaires. Pour un litige financier, vérifier la compétence du médiateur de l'AMF.
+
+5\. Signaler les pratiques réglementairement problématiques
+
+L'ACPR peut recevoir des signalements, mais n'est pas chargée d'obtenir individuellement un remboursement à la place du client. Les démarches judiciaires restent possibles lorsque le règlement amiable échoue.
+
+[image](https://www.google.com/s2/favicons?domain=https://acpr.banque-france.fr\&sz=32)
+
+Banque de France
+
++2
+
+## 11. Les interlocuteurs utiles
+
+| Interlocuteur                                                                            | À utiliser pour                                                        |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [Banque de France](https://www.banque-france.fr/?utm_source=chatgpt.com)                 | Droit au compte, fichage, surendettement et orientation                |
+| [ACPR](https://acpr.banque-france.fr/?utm_source=chatgpt.com)                            | Signalement des manquements bancaires et assurantiels                  |
+| [Médiateur de l'AMF](https://www.amf-france.org/fr/le-mediateur?utm_source=chatgpt.com)  | Litiges concernant les placements financiers de son ressort            |
+| [Médiation du crédit](https://mediateur-credit.banque-france.fr/?utm_source=chatgpt.com) | Difficultés de financement des entreprises                             |
+| [Service Public](https://www.service-public.gouv.fr/?utm_source=chatgpt.com)             | Règles juridiques, formulaires et délais                               |
+| [DGCCRF / ministère de l'Économie](https://www.economie.gouv.fr/?utm_source=chatgpt.com) | Information sur les droits des consommateurs et pratiques commerciales |
+
+## 12. Les dix réflexes qui protègent le mieux
+
+Checklist de prévention
+
+0/10
+
+Vérifier chaque mois tous les frais et débits inconnus
+
+Télécharger le récapitulatif annuel des frais en janvier
+
+Conserver les anciennes conditions tarifaires et les notifications
+
+Ne jamais se contenter d'une promesse orale du conseiller
+
+Faire opposition et signaler immédiatement toute fraude
+
+Enregistrer la date limite de chaque contestation
+
+Conserver une preuve de chaque demande écrite
+
+Contrôler les plafonds et protections applicables aux incidents bancaires
+
+Ne jamais signer un nouvel accord de dette sans en comprendre les conséquences
+
+Garder un deuxième moyen de paiement ou compte de secours lorsque c'est possible
+
+&#x20;Copier la checklist
+
+Le point le plus important reste la distinction entre ce que la banque a légalement le droit de faire et ce qu'elle peut effectivement prouver avoir correctement fait. En cas de contestation, la chronologie, le contrat applicable et les justificatifs sont souvent plus déterminants que la formulation utilisée par le conseiller.

@@ -1,9 +1,9 @@
 # Backlog — adaptation juridique France / Union européenne
 
-Ce dossier organise le travail à venir. Le backlog contient 403 stories :
+Ce dossier organise le travail à venir. Le backlog contient 438 stories :
 BASE-001 à BASE-007, BASE-009 à BASE-012, PILOTE-001 à PILOTE-005,
 USAGE-001 à USAGE-003, EXIST-001 à EXIST-011, DOM-001 à DOM-005 et LIV-001 sont `terminee`,
-BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 365 autres sont `proposee`.
+BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 400 autres sont `proposee`.
 Les [décisions du 16 octobre 2026](decisions-2026-10-16.md) consignent les
 arbitrages rendus après les cadrages DOM-001 à DOM-005 et la livraison LIV-001.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
@@ -376,50 +376,73 @@ extension choisie, installation réelle ou notification externe.
 ## Nouveaux domaines à cadrer — P2 / P3
 
 Le domaine consommation est cadré dans le
-[découpage CONSO-001 à CONSO-013](03-nouveaux-domaines/dom-001-decoupage-consommation.md),
+[découpage CONSO-001 à CONSO-020](03-nouveaux-domaines/dom-001-decoupage-consommation.md),
 avec [relecture commande non livrée, produit défectueux et achat professionnel](03-nouveaux-domaines/dom-001-verification.md).
 Le plugin proposé reste `consumer-legal`, installable seul, sans profil,
 agent ni connecteur. Première tranche proposée : CONSO-001, réclamation pour
-une commande non livrée, qui crée le paquet avec ce seul skill. Les 14 CONSO
+une commande non livrée, qui crée le paquet avec ce seul skill. Les 20 CONSO
 restent `proposee` ; aucun répertoire de plugin n'est créé et aucune tranche
-n'est sélectionnée par DOM-001.
+n'est sélectionnée par DOM-001. La [matrice des 155 frictions utilisateur](03-nouveaux-domaines/dom-001-frictions-utilisateurs.md)
+complète les 14 suites initiales et ajoute CONSO-015 à CONSO-020 : vendeur et
+offre, prix et frais, prestation et avance, protection de plateforme, mise en
+demeure et remboursement, démarchage et consentement. Le texte est conservé
+comme besoin, sans validation de ses affirmations juridiques.
 
 Le domaine police et procédure pénale est cadré dans le
-[découpage CRIM-001 à CRIM-012](03-nouveaux-domaines/dom-002-decoupage-penal.md),
+[découpage CRIM-001 à CRIM-023](03-nouveaux-domaines/dom-002-decoupage-penal.md),
 avec [relecture convocation, garde à vue en cours et avis d'amende](03-nouveaux-domaines/dom-002-verification.md).
 Le plugin proposé reste `criminal-legal`, installable seul, sans profil ni
 stockage des faits pénaux. Ses garde-fous excluent tout conseil d'évitement
 de la justice et tout équivalent Miranda ou subpoena. Première tranche
 proposée : CRIM-001, lecture d'une convocation, qui crée le paquet avec ce
-seul skill. Les 17 CRIM restent `proposee` ; aucune tranche n'est
-sélectionnée par DOM-002.
+seul skill. Les 23 CRIM restent `proposee` ; aucune tranche n'est
+sélectionnée par DOM-002. La [matrice des 97 frictions utilisateur](03-nouveaux-domaines/dom-002-frictions-utilisateurs.md)
+complète les tâches et ajoute contrôle en cours, perquisition, preuves,
+signalement d'agent, TAJ et contrôle routier (CRIM-018 à CRIM-023).
+Les exigences FPS et recours administratifs du permis sont transmises à
+DOM-010, encore à découper ; aucune règle du texte fourni n'est validée ici.
 
 Le domaine exécution et recouvrement est cadré dans le
-[découpage ENF-001 à ENF-011](03-nouveaux-domaines/dom-003-decoupage-execution.md),
+[découpage ENF-001 à ENF-019](03-nouveaux-domaines/dom-003-decoupage-execution.md),
 avec [relecture relance de recouvrement, signification contestée et saisie sans ventilation](03-nouveaux-domaines/dom-003-verification.md).
 Le plugin proposé reste `enforcement-legal`, installable seul, sans profil ;
 il ne promet aucune suspension et laisse la dette d'origine à son domaine.
 Première tranche proposée : ENF-001, lecture d'un acte et repérage de
-l'urgence, qui crée le paquet avec ce seul skill. Les 13 ENF restent
+l'urgence, qui crée le paquet avec ce seul skill. Les 19 ENF restent
 `proposee`, dont l'opposition à une injonction de payer (ENF-012) et la
-saisie immobilière (ENF-013) ajoutées le 16 octobre 2026.
+saisie immobilière (ENF-013) ajoutées le 16 octobre 2026. La
+[matrice des 47 frictions utilisateur](03-nouveaux-domaines/dom-003-frictions-utilisateurs.md)
+complète les suites et ajoute ENF-014 à ENF-019 : frais, réclamation,
+lecture et devis de constat, petites créances et dossier de contestation
+bancaire. Les règles du texte fourni restent à vérifier ; aucune tranche
+n'est sélectionnée.
 
 Le domaine bancaire est cadré dans le
-[découpage BNK-001 à BNK-011](03-nouveaux-domaines/dom-004-decoupage-banque.md),
+[découpage BNK-001 à BNK-019](03-nouveaux-domaines/dom-004-decoupage-banque.md),
 avec [relecture carte contestée, virement sous tromperie et frais professionnels](03-nouveaux-domaines/dom-004-verification.md).
 Le plugin proposé reste `banking-legal`, installable seul, sans profil ni
 accès à un compte ; le skill `payment-dispute` est confirmé. Première tranche
 proposée : BNK-001, qualification d'un paiement contesté et réclamation, qui
-crée le paquet avec ce seul skill. Les 12 BNK restent `proposee`, dont la
-caution (BNK-012) ; placements et actifs numériques en orientation seule.
+crée le paquet avec ce seul skill. Les 19 BNK restent `proposee`, dont la
+caution (BNK-012). La [matrice des 99 frictions utilisateur](03-nouveaux-domaines/dom-004-frictions-utilisateurs.md)
+précise les exigences existantes et ajoute mobilité, blocage, erreur de
+virement, disponibilité de la carte, comptes inactifs, financement
+professionnel et encaissement commerçant (BNK-013 à BNK-019). Placements et
+actifs numériques restent en orientation seule ; les règles du texte fourni
+restent à vérifier.
 
 Le domaine assurance est cadré dans le
-[découpage INS-001 à INS-011](03-nouveaux-domaines/dom-005-decoupage-assurance.md),
+[découpage INS-001 à INS-021](03-nouveaux-domaines/dom-005-decoupage-assurance.md),
 avec [relecture exclusion citée, conditions particulières manquantes et expertise contestée](03-nouveaux-domaines/dom-005-verification.md).
 Le plugin proposé reste `insurance-legal`, installable seul, sans profil ni
 accès à un espace client. Première tranche proposée : INS-001, analyse d'un
-refus de garantie, qui crée le paquet avec ce seul skill. Les 11 INS restent
-`proposee`. L'indemnisation des victimes d'accidents de la circulation est
+refus de garantie, qui crée le paquet avec ce seul skill. Les 21 INS restent
+`proposee`, dont le suivi d'un rachat d'assurance-vie retardé (INS-012), issu
+des frictions bancaires. La [matrice des 90 frictions assurance](03-nouveaux-domaines/dom-005-frictions-utilisateurs.md)
+ajoute neuf tâches INS-013 à INS-021 et précise neuf suites existantes :
+paiement, cotisations, risque, souscription, eau, Cat Nat, professionnel,
+clause bénéficiaire et échéances. Les placements restent en orientation seule.
+L'indemnisation des victimes d'accidents de la circulation est
 rattachée à DOM-035.
 
 | Story | Résultat attendu | Nature | Priorité |

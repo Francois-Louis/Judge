@@ -47,10 +47,11 @@ organisme d'orientation. Copies propres au paquet : les lectures faites pour
 commercial ne sont pas une dépendance.
 
 ## Critères d'acceptation
-
 - [ ] X01 laisse loi et juge conditionnels et oriente vers le CEC France.
 - [ ] X02 explique les limites hors UE sans promettre de recours.
 - [ ] Aucun mécanisme européen cité sans statut vérifié.
+- [ ] X03 ne propose aucun service obsolète ou hors périmètre comme recours certain.
+- [ ] La sortie se termine par une phrase courte nommant le professionnel compétent (avocat ou juriste d’une association selon le besoin), avec renfort en tête en cas de délai, procédure ou enjeu irréversible, selon BASE-013.
 
 ## Vérification
 
@@ -62,6 +63,18 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 ## Hors périmètre
 
 Saisine d'une juridiction, traduction, recouvrement à l'étranger.
+
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 1, 4, 51, 143 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
+
+Identifier pays réel, preuve d’établissement et activité dirigée, sans déduire la loi du nom de domaine. Vérifier périmètre géographique et personnel du CEC et statut des services européens à la date de la démarche. L’annonce de fermeture de la plateforme ODR/RLL dans le guide reste une piste à ouvrir ; aucun ancien lien de CGV n’est proposé comme service actuel sans contrôle. Les limites hors UE et celles du recouvrement sont annoncées.
+
+- Cas limite : X03 — CGV renvoyant à un ancien service européen, vendeur d’un pays encore inconnu : vérifier disponibilité et périmètre avant orientation.
+
+Scénarios complémentaires **attendus, non exécutés**. Les sources précises et
+leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée.
 
 ## État de la proposition — 16 octobre 2026
 

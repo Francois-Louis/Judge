@@ -59,6 +59,16 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Procédure judiciaire, envoi de la saisine.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 29, 39, 99 et sections délais/démarches/interlocuteurs de la [matrice](../dom-004-frictions-utilisateurs.md).
+
+- [ ] M03 — Réclamation de paiement sans réponse : distinguer la procédure de réponse propre aux services de paiement de celle des autres réclamations ; rechercher exceptions, conditions et charte applicable.
+- [ ] M04 — Chronologie incomplète : tableau événement/date prouvée ou inconnue/nature du délai/source et version/échéance vérifiée ou restant à établir ; ne pas déduire qu'un appel au conseiller préserve tous les recours.
+- [ ] M05 — Litige professionnel : distinguer médiation de consommation, dispositif contractuel éventuel et Médiation du crédit (BNK-018) ; l'ACPR n'est pas présentée comme obtenant un remboursement individuel.
+
+Pièces : demande initiale et accusé de réception, relances, réponse définitive, charte et procédure judiciaire éventuelle. Scénarios M03–M05 **attendus, non exécutés** : service de paiement sans réponse, réclamation ancienne dont la réception manque, concours professionnel interrompu. Sources à rechercher : traitement des réclamations, médiation, recevabilité, délais et effets exacts sur les autres recours. Aucun effet suspensif ou interruptif présumé.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :

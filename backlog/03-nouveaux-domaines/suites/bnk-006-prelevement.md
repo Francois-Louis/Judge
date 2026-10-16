@@ -59,6 +59,18 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Litige avec le créancier, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 16–21 de la [matrice](../dom-004-frictions-utilisateurs.md).
+
+Recueillir références du mandat et du créancier, preuve d'autorisation ou demande de copie, notifications de révocation au créancier et à la banque, résiliation du contrat, motif du rejet et relevés des deux comptes en cas de mobilité.
+
+- [ ] D03 — Prélèvement autorisé au montant contesté : identifier SEPA Core, B2B ou autre régime avant de rechercher le droit et le délai de remboursement ; distinguer dette due et restitution du débit.
+- [ ] D04 — Débits après révocation : préparer la demande adaptée à la banque et la demande distincte au créancier, sans assimiler révocation du mandat et résiliation du contrat.
+- [ ] D05 — Rejet sans alerte ou double compte : relever l'information disponible et la facture à régulariser ; ne pas présumer une obligation d'alerte avant rejet ; mobilité → BNK-013 et frais → BNK-003.
+
+Scénarios D03–D05 **attendus, non exécutés** : mandat autorisé mais somme contestée, révocation documentée, prélèvement essentiel rejeté, même facture sur deux comptes. Sources à rechercher : régime du mandat, remboursement, révocation, blocage et information sur le refus d'exécution.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :

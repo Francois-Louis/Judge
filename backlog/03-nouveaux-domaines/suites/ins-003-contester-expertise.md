@@ -59,6 +59,18 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Évaluation technique des dommages, choix d'un expert, envoi.
 
+## Complément issu des frictions assurance
+
+Points 5–6, 9–11, 24–27 et 49–50 de la [matrice](../dom-005-frictions-utilisateurs.md). Ajouter aux pièces : méthode et taux de vétusté, justification de chaque franchise, conditions du complément valeur à neuf, comparables auto, kilométrage, entretien, équipements et éventuelle offre de cession.
+
+- [ ] X03 — Rapport absent : préparer sa demande ; vérifier séparément régime automobile et habitation sans affirmer une obligation générale identique.
+- [ ] X04 — Décompte opaque : distinguer taux de vétusté, plafonds, franchises cumulées, sous-assurance et complément conditionnel ; demander le détail sans recalcul.
+- [ ] X05 — Valeur auto contestée : présenter comparables et état du véhicule sans fixer une valeur technique.
+- [ ] X06 — Proposition de cession : restituer choix, étapes et conséquences annoncées ; vérifier procédure et restrictions administratives dans les textes, sans décider d'accepter ou de refuser.
+- [ ] X07 — Expertise contradictoire : identifier procédure, honoraires et garantie éventuelle ; aucune conclusion de l'expert présentée comme incontestable, aucune désignation exécutée.
+
+Scénarios X03–X07 **attendus, non exécutés** : rapport habitation demandé ; franchise et vétusté non détaillées ; véhicule sous-évalué et offre de cession reçue ; honoraires de contre-expertise non garantis. L'évaluation technique et corporelle reste exclue. Lire aussi les textes officiels relatifs au rapport et au véhicule économiquement irréparable ; échéances → INS-021, paiement/transaction → INS-013, protection juridique → INS-007.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :

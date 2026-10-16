@@ -96,3 +96,13 @@ après BASE-011 ; aucune tranche n'est sélectionnée.
 Points ouverts levés ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)) : l'opposition à une injonction de payer est
 rattachée à l'exécution (ENF-012) ; la saisie immobilière reçoit une story
 d'orientation (ENF-013). Le domaine compte désormais 13 propositions.
+
+## Intégration des frictions utilisateur — 16 octobre 2026
+
+La [matrice des 47 points](dom-003-frictions-utilisateurs.md) conserve le [texte fourni](sources/commissaires-justice-frictions-2026-10-16.txt) comme expression du besoin. Elle complète dix suites et ajoute six propositions ENF-014 à ENF-019 : frais contestés, réclamation professionnelle, lecture de constat, invitation simplifiée de petites créances, devis de constat et dossier de contestation de saisie-attribution. Le domaine compte désormais 19 propositions, toutes non sélectionnées.
+
+DOM-006 reçoit le besoin locatif et DOM-035 le besoin de dossier de responsabilité professionnelle, encore à découper. L'index, le découpage et les contrôles documentaires sont synchronisés. Les recours limités à une orientation restent explicitement signalés dans la matrice.
+
+Fichiers de ce complément : matrice et source, six nouvelles suites, compléments ENF-001 à ENF-008, ENF-011 et ENF-012, DOM-006, DOM-035, présente story, découpage, vérification, contrôleur, relevé et index. Les modifications préexistantes, notamment le complément bancaire ENF-004, sont conservées.
+
+**Portée de ce complément :** intégration documentaire, contrôles de structure et traçabilité ; aucune recherche juridique externe ni validation des affirmations du texte utilisateur, aucun skill ou plugin créé ou exécuté. Les scénarios restent attendus et non exécutés.

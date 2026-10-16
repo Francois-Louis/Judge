@@ -96,4 +96,19 @@ satisfait après BASE-011 ; aucune tranche n'est sélectionnée.
 
 Points ouverts levés ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)) : placements et actifs numériques en orientation
 seule (BNK-011), sans nouveau domaine ; caution d'un prêt découpée dans
-BNK-012. Le domaine compte désormais 12 propositions.
+BNK-012. Le domaine compte alors 12 propositions.
+
+## Intégration des frictions utilisateur — 16 octobre 2026
+
+La [matrice des 99 points](dom-004-frictions-utilisateurs.md) rattache chaque
+friction à sa tâche et à un résultat attendu. BNK-001 à BNK-012 sont précisées ;
+sept propositions BNK-013 à BNK-019 complètent mobilité, blocage, erreur de
+virement, carte indisponible, comptes inactifs et services professionnels.
+Le domaine compte désormais 19 propositions, toutes `proposee`.
+
+Rachat d'assurance-vie : INS-012 ; assurance emprunteur et capital décès :
+INS-008/INS-011 ; saisie : ENF-004 ; frais et comptes successoraux : DOM-016 ;
+situation d'endettement globale : DOM-024. Les tâches de ces cadrages restent
+à découper. Placements et PEA restent en orientation seule, selon la décision
+antérieure. Les montants, délais et événements juridiques du texte fourni ne
+sont pas validés par cette intégration. Aucune première tranche n'est lancée.

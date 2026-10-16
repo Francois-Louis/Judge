@@ -102,6 +102,17 @@ porte sur le cadrage ; ces scénarios restent **attendus, non exécutés**.
 Régimes isolés au-delà de l'orientation, calcul d'indemnité ou de délai,
 responsabilité de l'auteur du dommage, procédure, envoi.
 
+## Complément issu des frictions assurance
+
+Points 2, 17, 23–24, 31–32, 37, 58–59 et 79 de la [matrice](../dom-005-frictions-utilisateurs.md). Recueillir aussi présentation matérielle de la clause, questions et réponses initiales si le risque est discuté, factures d'entretien, photos antérieures et faits invoqués.
+
+- [ ] R04 — Retard : distinguer clause de déchéance, date de connaissance, déclaration, préjudice allégué par l'assureur et circonstances de force majeure ; aucune déchéance automatique.
+- [ ] R05 — Exclusion ou définition restrictive : qualifier le motif avant de vérifier précision, limitation, présentation et application aux faits ; aucune exclusion tenue pour valable du seul fait de sa présence.
+- [ ] R06 — Entretien, dommage antérieur ou déclaration du risque : demander preuves et raisonnement exacts, sans déduire cause ni intention ; correction du risque → INS-015.
+- [ ] R07 — Refus oral : préparer une demande écrite de clause/version, faits, pièces et postes refusés, sans inventer une obligation générale de motivation.
+
+Scénarios R04–R07 **attendus, non exécutés** : refus pour retard sans préjudice expliqué ; vol sans effraction invoqué tantôt comme définition tantôt comme exclusion ; facture d'entretien ignorée ; refus uniquement téléphonique. La qualification d'une GAV exige ses clauses et reste dans la borne de lecture, sans évaluation corporelle. Contrat professionnel au-delà de la qualification → INS-019 ; calendrier → INS-021. Sources à ouvrir : catégories de refus, charge de preuve et version applicable.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation. Préalable PILOTE-003 satisfait après

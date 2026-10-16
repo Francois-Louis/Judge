@@ -53,3 +53,13 @@ Vérifier le routage et les informations à demander. La story ne doit pas réso
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
 
+
+## Complément issu des frictions police/pénal — 16 octobre 2026
+
+La [matrice des 97 situations](dom-002-frictions-utilisateurs.md), notamment les points 74–75, 79, 97 et la section 7, ajoute les exigences de cadrage suivantes. DOM-010 reste proposé ; ces réponses au fond demandent encore des stories bornées, sans plugin créé ici.
+
+- FPS : distinguer stationnement payant et contravention de stationnement interdit ; recueillir avis, auteur, lieu, dates d'envoi et de notification, paiement, majoration, recours déjà tenté et réponses. Prévoir lecture du FPS, brouillon de RAPO puis orientation ou préparation contentieuse dans des tâches distinctes, selon compétence et préalables vérifiés. Séparer effets sur paiement et recours : aucune suspension présumée ni délai tiré du tableau utilisateur.
+- Permis : CRIM-023 identifie rétention et dépistage, CRIM-010 lit points et invalidation ; DOM-010 devra découper les recours contre suspension ou invalidation administrative. Recueillir décision complète, autorité, notification, mesures pénales parallèles, demandes et preuves ; sortie future : régime, acte attaqué, préalable, pièces, voie et urgence à vérifier. Aucun droit de conduire ni restitution automatique déduit du temps écoulé.
+- Décision administrative incomprise : qualifier la nature et le secteur avant toute voie de recours. Fichier TAJ → CRIM-022 ; décision d'emploi public → DOM-037 ; ordonnance pénale → CRIM-006.
+
+Scénarios de découpage **attendus, non exécutés** : FPS pris pour amende, RAPO déposé alors que le paiement reste une question distincte, FPS majoré après silence, avis de rétention suivi d'une décision préfectorale, invalidation confondue avec condamnation. Sources à rechercher : textes du stationnement payant et compétence juridictionnelle actuelle, Code de la route, CJA et textes de notification selon l'acte ; aucun régime spécial ramené au délai administratif de droit commun.

@@ -2,7 +2,7 @@
 
 Relecture du **16 octobre 2026** par l'agent de maintenance : suivre des
 pièces inventées dans le [découpage](dom-001-decoupage-consommation.md) et
-les 13 propositions CONSO, pour vérifier le routage et les informations à
+les 20 propositions CONSO, pour vérifier le routage et les informations à
 demander. La story interdit de résoudre ces consultations : aucun délai,
 montant ou droit n'est conclu. Le [relevé machine](dom-001-resultats.json)
 consigne séparément les contrôles statiques.
@@ -89,7 +89,7 @@ domaine. Les questions qui tranchent sont nommées, sans conclusion.
 |---|---|
 | Plugin propre et frontières | Découpage, sections plugin et frontières ; ligne mise à jour dans la matrice BASE-003. |
 | Tâches hiérarchisées, premier skill borné | Rangs 1 à 4 ; inclus et exclus de CONSO-001. |
-| Références, pièces, sortie, scénarios par story | Sections dédiées des 13 propositions, contrôlées par le relevé. |
+| Références, pièces, sortie, scénarios par story | Sections dédiées des 20 propositions, contrôlées par le relevé. |
 | Installation seule, pas d'agent ni connecteur par principe | Contrat d'installation du découpage. |
 | Implémentations non lancées | Aucun fichier sous `consumer-legal/` ; marketplace inchangé. |
 
@@ -102,3 +102,48 @@ règles vérifiées. Aucun délai ni montant établi, aucun skill créé ou exé
 aucun paquet installé, aucun lecteur réel ou indépendant, aucun envoi. Le
 préalable PILOTE-003 est satisfait après BASE-011 ; aucune tranche n'est
 sélectionnée par ce cadrage.
+
+## Relecture de l’intégration des 155 frictions — 16 octobre 2026
+
+La [matrice](dom-001-frictions-utilisateurs.md) reprend les points numérotés
+1 à 155 du [guide archivé](sources/consommation-frictions-2026-10-16.txt).
+Cette relecture contrôle exigences, frontières et pièces attendues, sans
+répondre juridiquement aux cas. Les titres des frictions reproduisent la
+formulation du guide ; ils ne sont pas des règles validées.
+
+| Cas fictif et points du guide | Parcours documentaire attendu | Ce qui reste réservé |
+|---|---|---|
+| F-A — Boutique francophone, SIREN copié et avis élogieux (1–12, 95, 112) | CONSO-015 compare identité de l’offre, registre, vendeur et bénéficiaire ; captures et questions ; CONSO-004 qualifie le vendeur ; fraude alléguée vers CRIM-004. | Le registre ne prouve pas l’identité du site ; aucune certification de fiabilité ou fraude constatée. |
+| F-B — Option colis, frais tardifs et CGV modifiées (14–24) | CONSO-016 rapproche offre, panier, facture et version acceptée ; CONSO-009 pour l’adhésion ; CONSO-013 pour un signalement distinct. | Consentement, prix de référence, erreur manifeste et portée de la version postérieure ; aucun montant légal ajouté. |
+| F-C — Statut livré, voisin ou signature contestée, date essentielle (25–30, 37–40) | CONSO-001 demande instructions et preuve de remise ; distingue transport extérieur et choix dans le panier ; chronologie avant résolution ; CONSO-019 suit le remboursement d’une résolution documentée. | Charge de la preuve, transfert du risque, nécessité du délai supplémentaire et majorations ; aucune responsabilité conclue. |
+| F-D — Retour soldé et déballé, preuve d’expédition, avoir imposé (41–55) | CONSO-003 sépare notification, retour, récupération, port et remboursement ; CONSO-019 après refus persistant ; personnalisation et renonciation numérique examinées séparément. | Exception d’hygiène, dépréciation réelle, coûts et différé ; aucune échéance depuis la réception d’un formulaire seul. |
+| F-E — Reconditionné et batterie, diagnostic payant, réparations répétées (58–75, 118) | CONSO-002 rapproche état promis et reçu, diagnostic, historique SAV et preuve alternative d’achat ; CONSO-005 compare extension ; DOM-005 si assurance distincte. | Présomption, couverture, usure et choix du remède ; conflit allégué guide / texte ouvert comme recherche, aucune durée choisie. |
+| F-F — Essai devenu payant, compte supprimé, bouton absent (78–92, 150) | CONSO-009 distingue contestation du consentement, résiliation et facturant ; BNK-006 pour les paiements ; CONSO-010 pour l’indisponibilité numérique ; DOM-034 pour le compte. | Date d’effet, frais, dette et preuve du consentement ; aucun blocage ne vaut disparition du contrat. |
+| F-G — Vendeur particulier, colis prétendu vide et autre appareil en retour (100–109, 113) | CONSO-011 prépare le dossier civil des parties ; CONSO-018 lit la protection, ses dates et la clôture ; photos, identifiants et poids disponibles, sans preuves créées. | Intention, authenticité, vice caché et effet de la clause ; une décision interne ne tranche pas les recours civils. |
+| F-H — Avance conservée, devis accepté et suppléments contestés (124–129) | CONSO-017 rapproche accord, versement et exécution ; travaux chez DOM-015 ou repli CONSO-014 annoncé ; diagnostic appelle un second avis technique. | Qualification arrhes ou acompte, portée d’une annulation, accord sur suppléments et règles sectorielles ; aucun chiffrage d’indemnité. |
+| F-I — Appel non consenti puis intervention au domicile (94, 130–132) | CONSO-020 distingue consentement à la sollicitation, au contrat et aux prestations ; CONSO-003 pour rétractation ; privacy pour données ; secteur selon objet. | Entrée en vigueur, transition, exceptions et dispositifs actuels ; aucune réforme ni fin de service validée depuis le guide. |
+| F-J — Signalement sans remboursement, médiations concurrentes et avoir transactionnel (133–143) | CONSO-013 distingue les organismes ; CONSO-006 examine compétence et recevabilité ; CONSO-019 relève portée de l’avoir et prépare mise en demeure ; EXIST-006 pour préalable et procédure ; CONSO-007 vérifie les services européens. | Effets d’une acceptation, délai de saisine, prescription et tentative obligatoire ; aucun seuil, mécanisme actuel ou effet suspensif affirmé. |
+| F-K — Paiement marchand autorisé, prélèvement contesté et faux SAV (144–155) | BNK-001 distingue litige marchand et opération non autorisée ; BNK-002 pour validation sous tromperie ; BNK-006 pour prélèvement ; CRIM-004 pour plainte ; demande au vendeur identifiable conservée. | Conditions et délai de chargeback, régime SEPA et prescription pénale ; ni code demandé ni remboursement garanti. |
+
+**Constats de relecture :** les six nouvelles tâches produisent chacune un
+résultat distinct de l’orientation. Les demandes au vendeur, à la plateforme,
+au prestataire de paiement et à l’autorité pénale restent séparées. Les
+14 suites existantes portent des critères et scénarios complémentaires ;
+les scénarios d’implémentation sont **attendus, non exécutés**.
+
+Le [contrôleur actualisé](dom-001-controles.py) vérifie 20 propositions,
+dépendances, propriétaires des fichiers futurs, cohérence du découpage,
+155 lignes ordonnées avec propriétaires liés, intégrité du texte fourni,
+liens, format, nombres de stories et absence de plugin consommation.
+Le contrôle de périmètre compare les empreintes à l’instantané pris avant
+cette intégration, en préservant les autres travaux locaux. Les fichiers
+ayant évolué en parallèle sont déclarés séparément par motifs exacts ;
+le contrôle ne les attribue pas à cette intégration. Le
+[relevé JSON](dom-001-resultats.json) consigne les résultats réels, la commande
+et les empreintes des documents contrôlés.
+
+Ces contrôles ne valident pas le sens juridique des 155 réponses attendues,
+ni l’exhaustivité des questions à poser dans un dossier réel. Les chiffres
+du guide, les textes, leurs versions et les dispositifs restent à vérifier
+lors des implémentations selon BASE-005. Aucun plugin créé, skill exécuté,
+paquet installé, lecteur réel ou indépendant, envoi, saisine ou dépôt.

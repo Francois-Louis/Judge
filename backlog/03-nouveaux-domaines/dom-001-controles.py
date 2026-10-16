@@ -24,11 +24,14 @@ HERE = Path(__file__).resolve().parent
 REPORT = HERE / 'dom-001-resultats.json'
 COMMON = {'DOM-001', 'PILOTE-003', 'BASE-005', 'BASE-006'}
 LOT_DOCS = [HERE / ('dom-001-' + n + '.md') for n in (
-    'consommation', 'decoupage-consommation', 'verification')]
+    'consommation', 'decoupage-consommation', 'verification', 'frictions-utilisateurs')]
+SOURCE = HERE / 'sources/consommation-frictions-2026-10-16.txt'
+SOURCE_SHA256 = 'c2727d33f1af56307efc85c59e763bd38fe1aa3b44d677ed080e7227c5f9bea5'
 ALLOWED = {
     'backlog/README.md',
     'backlog/00-fondations/base-003-dossier-architecture.md',
     *(p.relative_to(ROOT).as_posix() for p in LOT_DOCS),
+    SOURCE.relative_to(ROOT).as_posix(),
     'backlog/03-nouveaux-domaines/dom-001-controles.py',
     'backlog/03-nouveaux-domaines/dom-001-resultats.json',
 }
@@ -111,11 +114,11 @@ def main():
     proposals = sorted((HERE / 'suites').glob('conso-*.md'))
     for p in proposals:
         ALLOWED.add(p.relative_to(ROOT).as_posix())
-    expected = {f'CONSO-{i:03}' for i in range(1, 15)}
+    expected = {f'CONSO-{i:03}' for i in range(1, 21)}
     actual = {k for k in stories if k.startswith('CONSO-')}
     problems = []
-    if actual != expected or len(proposals) != 14:
-        problems.append('Expected exactly CONSO-001..CONSO-014 and 14 files')
+    if actual != expected or len(proposals) != 20:
+        problems.append('Expected exactly CONSO-001..CONSO-020 and 20 files')
     required = ('Objectif et résultat attendu', 'Périmètre et fichiers',
                 'Pièces et informations nécessaires', 'Sortie attendue',
                 'Travail attendu', 'Références métier et sources à rechercher',
@@ -176,7 +179,7 @@ def main():
                       breakdown, re.M)
     problems = []
     if {r[1] for r in rows} != expected:
-        problems.append('Breakdown table does not list exactly CONSO-001..014')
+        problems.append('Breakdown table does not list exactly CONSO-001..020')
     for rank, ident, filename, skill, deps in rows:
         path, fm = stories[ident]
         if path.name != filename:
@@ -191,6 +194,45 @@ def main():
         if fm['priorite'] != expected_priority:
             problems.append(f'{ident}: rank {rank} expects {expected_priority}')
     record('breakdown_table_consistency', problems, rows=len(rows))
+
+    friction = (HERE / 'dom-001-frictions-utilisateurs.md').read_text(encoding='utf-8')
+    friction_rows = re.findall(r'^\| (\d+) \| ([^|]+) \| ([^|]+) \| ([^|]+) \|$', friction, re.M)
+    problems, owners = [], set()
+    if [int(row[0]) for row in friction_rows] != list(range(1, 156)):
+        problems.append('Expected 155 unique, ordered friction rows, numbered 1..155')
+    primary = {}
+    for number, label, owner_cell, result in friction_rows:
+        links = re.findall(r'\[([A-Z]+-\d{3})\]\(([^)]+)\)', owner_cell)
+        if not links:
+            problems.append(f'Friction {number}: missing linked owner')
+        primary[int(number)] = links[0][0] if links else None
+        for ident, target in links:
+            owners.add(ident)
+            if ident not in stories or (HERE / target).resolve() != stories[ident][0].resolve():
+                problems.append(f'Friction {number}: invalid owner/link {ident}: {target}')
+    # Frontières sensibles : assurance, télécoms, tentative amiable et banque.
+    for number, ident in {80: 'DOM-005', 93: 'DOM-022', 142: 'EXIST-006',
+                          145: 'BNK-001', 146: 'BNK-001', 147: 'BNK-001',
+                          148: 'BNK-006', 149: 'BNK-006'}.items():
+        if primary.get(number) != ident:
+            problems.append(f'Friction {number}: expected primary owner {ident}')
+    if not {f'CONSO-{i:03}' for i in range(15, 21)} <= owners:
+        problems.append('New CONSO proposals are not all linked from the friction matrix')
+    for p in proposals:
+        if '(../dom-001-frictions-utilisateurs.md)' not in p.read_text(encoding='utf-8'):
+            problems.append(f'{p.name}: missing return link to consumption frictions')
+    source_hash = digest(SOURCE) if SOURCE.is_file() else None
+    if source_hash != SOURCE_SHA256:
+        problems.append('User source missing or not identical to the supplied attachment')
+    if SOURCE.is_file():
+        numbers = [int(n) for n in re.findall(r'^(\d+)\\\.', SOURCE.read_text(encoding='utf-8'), re.M)]
+        if numbers != list(range(1, 156)):
+            problems.append('Archived user source does not contain exactly points 1..155')
+    if '(sources/consommation-frictions-2026-10-16.txt)' not in friction:
+        problems.append('Friction matrix does not link its archived user source')
+    record('user_friction_coverage', problems, rows=len(friction_rows),
+           owners=sorted(owners), source_sha256=source_hash,
+           legal_validation=False, business_scenarios_executed=False)
 
     market = json.loads((ROOT / '.claude-plugin/marketplace.json').read_text(encoding='utf-8'))
     problems = []
@@ -241,7 +283,7 @@ def main():
     index = (ROOT / 'backlog/README.md').read_text(encoding='utf-8')
     base003 = (ROOT / 'backlog/00-fondations/base-003-dossier-architecture.md').read_text(encoding='utf-8')
     problems = []
-    for name in ('decoupage-consommation', 'verification'):
+    for name in ('decoupage-consommation', 'verification', 'frictions-utilisateurs'):
         if f'(03-nouveaux-domaines/dom-001-{name}.md)' not in index:
             problems.append(f'Index missing {name}')
     match = re.search(r'contient (\d+) stories', index)
@@ -268,7 +310,7 @@ def main():
                 figures.append({'file': p.name, 'line': number, 'text': hit})
     checks['figures_for_manual_review'] = {
         'status': 'manual-review', 'count': len(figures), 'occurrences': figures,
-        'note': 'Durées ou montants à relire : chaque occurrence doit être un fait fictif, jamais une règle.'}
+        'note': 'Occurrences à relire : données fictives ou allégations utilisateur explicitement non vérifiées ; aucune règle validée.'}
 
     now = snapshot()
     if args.baseline:
@@ -309,28 +351,26 @@ def main():
     report = {
         'story': 'DOM-001', 'date': '2026-10-16', 'timezone': 'Europe/Paris',
         'git_head': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
-        'scope': 'cadrage documentaire consommation ; aucun plugin créé ni validation juridique',
+        'scope': 'intégration documentaire des 155 frictions consommation ; aucun plugin créé ni validation juridique',
         'checks': checks,
-        'lot_sha256': {p.relative_to(ROOT).as_posix(): digest(p) for p in lot + [Path(__file__)]},
+        'lot_sha256': {p.relative_to(ROOT).as_posix(): digest(p) for p in lot + [SOURCE, Path(__file__)]},
         'not_run': ['recherche juridique externe', 'calcul de délai ou de montant',
                     'création ou exécution de skill', 'installation/recette client',
                     'lecteur réel ou indépendant', 'connexion/envoi/publication'],
         'commands': [
-            'python -X utf8 backlog/03-nouveaux-domaines/dom-001-controles.py --baseline <instantane-debut-tache.json> '
-            + ' '.join(f"--concurrent '{g}'" for g in args.concurrent)
-            + ' --output backlog/03-nouveaux-domaines/dom-001-resultats.json',
+            [sys.executable, '-X', 'utf8', str(Path(__file__).relative_to(ROOT)), *sys.argv[1:]],
             'python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)',
             'git diff --check (appelé par le contrôleur)',
         ],
         'execution_notes': [
-            "Instantané de début de tâche pris dans le répertoire temporaire de session, avant toute écriture du lot.",
-            "Un lot EXIST-006 a été écrit en parallèle dans le même arbre ; ses fichiers propres sont déclarés par --concurrent et listés, sans être attribués à DOM-001.",
-            "L'index du backlog porte aussi des lignes EXIST-006 ; l'en-tête a été recalé sur les décomptes réels au moment du contrôle.",
-            "Premier passage : liens vers ce relevé absents avant sa création et dépendance non transitive dans le contrôle ; corrigés, relevé régénéré.",
+            'Relevé actualisé pour 155 frictions, 14 suites complétées et six propositions CONSO-015 à CONSO-020.',
+            'Instantané de début de cette intégration pris avant toute écriture du lot ; les travaux préexistants hors lot sont comparés par empreinte si --baseline est fourni.',
+            'Le texte utilisateur est conservé octet pour octet ; son empreinte est celle de la pièce jointe, sans validation du droit ou des statistiques.',
+            'Les scénarios documentaires emploient des pièces fictives ; les scénarios métier restent non exécutés.',
         ],
     }
     if args.output:
-        args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     for key, val in checks.items():
         print(f"{key}: {val['status']}")
         for problem in val.get('problems', []):

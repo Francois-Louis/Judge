@@ -58,6 +58,18 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Souscription d'un nouveau contrat, envoi.
 
+## Complément issu des frictions assurance
+
+Points 51, 73–77 et 90 de la [matrice](../dom-005-frictions-utilisateurs.md).
+
+- [ ] T03 — Identifier régime et statut avant de proposer échéance, reconduction, infra-annuelle ou changement de situation ; ne pas généraliser les règles du particulier au professionnel.
+- [ ] T04 — Résiliation électronique : documenter parcours et preuve de demande ; vérifier champ de la fonctionnalité selon contrat et date, sans règle universelle.
+- [ ] T05 — Auto après sinistre : distinguer motif invoqué, conditions du régime spécial et résiliation à l'échéance ; aucun droit général de résiliation immédiate supposé.
+- [ ] T06 — Impayé : séparer mise en demeure, suspension, résiliation et reprise éventuelle selon paiement/régime ; maintien de couverture jamais supposé.
+- [ ] T07 — Débits après résiliation : établir effet et période facturée puis orienter la régularisation vers INS-014 ; rejet du prélèvement distinct de la résiliation.
+
+Scénarios T03–T07 **attendus, non exécutés** : résiliation infra-annuelle refusée, parcours numérique inaccessible, résiliation automobile après sinistre, impayé réglé sans confirmation de reprise, prélèvement d'une période ancienne après résiliation. Prévoir les sources mutualité/santé, dispositions automobiles spéciales et fonctionnalité électronique en plus des pistes générales. Échéances → INS-021.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :

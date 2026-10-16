@@ -1,0 +1,556 @@
+# Assurances en France : les pièges, abus, clauses et délais à connaître pour défendre ses droits
+
+État des règles et pratiques au 16 octobre 2026.
+
+Le problème le plus fréquent avec les assurances n'est pas nécessairement une fraude ou une pratique illégale. C'est souvent l'écart entre ce que l'assuré pense avoir acheté et ce que le contrat garantit réellement.
+
+Les difficultés apparaissent principalement au moment d'un sinistre : refus d'indemnisation, exclusion inattendue, franchise, expertise défavorable, déclaration jugée tardive ou interprétation restrictive des garanties.
+
+Il existe aussi de véritables manquements : informations trompeuses, résiliations irrégulières, obstacles aux réclamations ou refus insuffisamment justifiés.
+
+## 1. Ce dont les assurés se plaignent le plus
+
+Le rapport 2025 de la Médiation de l'Assurance, publié le 2 septembre 2026, donne une idée de l'ampleur du problème.
+
+Saisines reçues en 2025
+
+# 46 830
+
++28 % sur un an
+
+Issues favorables aux assurés
+
+# 55 %
+
+En tout ou partie, parmi les litiges résolus
+
+Litiges résolus
+
+# 14 223
+
+Transactions comprises
+
+Source : Médiation de l'Assurance, bilan 2025.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.mediation-assurance.org\&sz=32)
+
+mediation-assurance.org
+
+Répartition des saisines recevables en 2025
+
+Assurance vie et épargne retraite
+
+Assurances de biens et responsabilité
+
+Santé et prévoyance
+
+Source : Médiation de l'Assurance, rapport 2025
+
+Les contrats automobiles, habitation, assurance emprunteur, complémentaire santé et prévoyance concentrent une part importante des litiges.
+
+Les principaux sujets à surveiller sont donc, dans cet ordre pratique :
+
+1. Le refus de prise en charge, parfois fondé sur une exclusion très précise.
+2. L'indemnisation insuffisante, notamment à cause de la vétusté ou d'une expertise contestable.
+3. Les délais, tant pour déclarer un sinistre que pour exercer un recours.
+4. Les garanties mal comprises, avec des franchises, carences et plafonds discrets.
+5. La gestion du contrat, comprenant les cotisations, résiliations et modifications.
+6. Les déclarations de risque, dont les erreurs peuvent entraîner des sanctions très lourdes.
+
+Cette liste est une hiérarchisation pratique, pas un classement statistique exact de tous les motifs. La Médiation relève notamment de fortes augmentations des saisines en automobile (+81 %), habitation (+48 %), emprunteur (+77 %) et complémentaire santé (+97 %) entre 2024 et 2025.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.mediation-assurance.org\&sz=32)
+
+mediation-assurance.org
+
+
+
+## 2. Les pièges à la souscription et dans les contrats
+
+### A. Les exclusions et les garanties trompeuses
+
+1\. La garantie qui semble couvrir tout un risque, mais seulement dans certains cas. Exemple : assurance vol qui couvre l'effraction mais pas le vol à la tire, ou assurance casse qui exige un événement extérieur identifiable. Défense : exiger la définition contractuelle exacte du sinistre garanti.
+
+2\. La clause d'exclusion noyée dans les conditions générales. Une exclusion peut être contestée si elle n'est pas suffisamment précise, formelle et limitée, ou si elle n'apparaît pas en caractères très apparents. Ce n'est pas parce qu'une exclusion figure dans le contrat qu'elle est automatiquement valable. Articles L.113-1 et L.112-4 du Code des assurances.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
++1
+
+
+
+3\. La contradiction entre les conditions particulières et les conditions générales. Une garantie paraît acquise dans le récapitulatif, mais un autre document semble l'exclure. Défense : conserver tous les documents remis lors de la souscription et demander la justification écrite de l'interprétation retenue.
+
+4\. La garantie facultative présentée comme incluse. Assistance, protection juridique, vol hors domicile, indemnisation du conducteur ou perte d'exploitation peuvent être des options payantes.
+
+5\. La franchise dont on découvre le montant après le sinistre. Elle peut être fixe, proportionnelle, avec un minimum ou un maximum. Exemple : franchise de 10 % avec un minimum de 500 €, pour un dommage de 2 000 € : les 500 € restent à charge.
+
+6\. Plusieurs franchises sur un même événement. Certains contrats prévoient des franchises différentes selon les garanties mobilisées. Défense : demander le fondement contractuel et vérifier si leur cumul est réellement autorisé.
+
+7\. Les plafonds d'indemnisation par objet, événement ou année. Un contrat peut annoncer 30 000 € de couverture mobilière, mais limiter les bijoux à 2 000 € ou l'informatique à 3 000 €.
+
+8\. Le plafond global qui masque des sous-plafonds. Les frais de déplacement, l'hébergement, les honoraires d'expert ou les pertes financières peuvent avoir leurs propres limites.
+
+9\. L'application de la vétusté. L'assureur retire une partie de la valeur du bien selon son âge, son état et les conditions du contrat. Défense : demander le taux retenu, sa justification et le détail du calcul.
+
+10\. La valeur à neuf qui n'est pas immédiatement versée. Certains contrats paient d'abord la valeur vétusté déduite, puis un complément sur présentation des factures de remplacement, dans un délai précis.
+
+11\. La règle proportionnelle de capitaux. En présence d'une sous-assurance, l'indemnité peut être réduite proportionnellement, lorsque les conditions légales et contractuelles sont réunies. Défense : vérifier régulièrement les capitaux déclarés, notamment après l'achat de biens coûteux.
+
+12\. Les délais de carence. Une garantie souscrite aujourd'hui peut ne commencer à fonctionner que plusieurs semaines ou mois plus tard.
+
+13\. Les délais de franchise temporelle. Une assurance incapacité peut ne verser aucune indemnité pendant les 30, 60 ou 90 premiers jours d'arrêt, par exemple.
+
+14\. La date d'effet différente de la date de signature. Un contrat signé le 15 peut prévoir un début de couverture le 1er du mois suivant. Il faut vérifier aussi la date d'effet des garanties complémentaires.
+
+15\. Les promesses commerciales uniquement orales. Le conseiller promet une couverture sans pouvoir ensuite la prouver. Défense : demander une confirmation écrite indiquant les situations garanties et les exclusions correspondantes.
+
+## 3. Les pièges lors de la déclaration d'un sinistre
+
+C'est probablement la partie la plus importante pour éviter de perdre une indemnisation.
+
+16\. Le sinistre déclaré hors délai. Les délais habituels sont de cinq jours ouvrés pour un sinistre ordinaire et de deux jours ouvrés pour un vol. Le contrat peut accorder davantage.
+
+17\. Le refus automatique pour déclaration tardive. C'est un argument qu'il faut savoir contester : selon l'article L.113-2 du Code des assurances, la déchéance pour retard suppose notamment une clause contractuelle et la preuve par l'assureur d'un préjudice causé par ce retard. La force majeure peut également faire obstacle à cette sanction.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
+
+
+18\. La déclaration faite uniquement par téléphone. Difficulté : aucune trace fiable de ce qui a été déclaré. Défense : envoyer un courriel récapitulatif et conserver son accusé de réception.
+
+19\. Le dossier considéré comme incomplet pendant des mois. L'assureur réclame successivement des pièces complémentaires. Défense : transmettre un inventaire daté de toutes les pièces et demander une liste consolidée des documents encore nécessaires.
+
+20\. Une formulation imprécise retournée contre l'assuré. Exemple : indiquer « je n'avais pas fermé » alors qu'il s'agissait d'un volet, et non de la porte. Défense : décrire des faits observés, sans supposer une cause ni reconnaître une responsabilité incertaine.
+
+21\. L'assuré qui se prononce trop vite sur l'origine du sinistre. L'assureur peut ensuite s'appuyer sur cette première explication. Défense : distinguer clairement les constatations des hypothèses.
+
+22\. La réparation avant expertise. Les preuves disparaissent, rendant impossible la vérification du dommage. Défense : photographier, conserver les pièces détériorées et attendre l'accord avant les réparations définitives, sauf mesures conservatoires urgentes.
+
+23\. Le refus fondé sur un mauvais entretien. L'assureur attribue le sinistre à une négligence ancienne plutôt qu'à un événement accidentel. Défense : produire factures d'entretien, rapports techniques et éléments établissant la cause réelle.
+
+24\. Le rejet pour dommages antérieurs. L'expert considère certaines détériorations comme préexistantes. Défense : produire photographies antérieures, états des lieux, factures et témoignages.
+
+25\. L'expertise qui minimise le dommage. L'expert choisit une méthode de réparation moins coûteuse ou ignore certains frais. Défense : produire plusieurs devis chiffrés, demander des justifications techniques et, si nécessaire, une contre-expertise.
+
+26\. Le rapport d'expertise non communiqué. En automobile, l'expert doit transmettre une copie de son rapport. En habitation, il n'existe pas la même obligation légale générale, mais le rapport peut être demandé et une communication peut être recherchée en justice.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++1
+
+
+
+27\. L'expert d'assurance considéré comme une autorité incontestable. Ses conclusions peuvent être contestées. Une expertise amiable contradictoire peut être organisée avec un expert choisi par l'assuré, généralement à ses frais, sauf garantie spécifique.
+
+28\. L'indemnisation proposée à condition de solder le dossier. Une transaction peut limiter les recours ultérieurs sur le préjudice concerné. Défense : ne pas signer de renonciation générale avant d'avoir vérifié les dommages, les frais et la portée de l'accord.
+
+29\. Le paiement partiel présenté comme définitif. Vérifier si la somme est une provision, une première indemnité ou un règlement définitif, et demander un décompte.
+
+30\. Le délai d'indemnisation repoussé sans justification. Hors régimes particuliers, le paiement dépend notamment des clauses contractuelles et des étapes de gestion. Défense : demander par écrit ce qui empêche le règlement et la date prévisionnelle, puis engager une réclamation formelle.
+
+## 4. Assurance habitation : les pièges spécifiques
+
+31\. Le cambriolage sans effraction visible. Une garantie peut exiger des circonstances particulières pour reconnaître le vol. Défense : vérifier toutes les formes de vol garanties et conserver les constatations policières et techniques.
+
+32\. La porte ou la fenêtre insuffisamment sécurisée. Certains contrats imposent des serrures, fermetures, volets ou alarmes spécifiques. Il faut vérifier les obligations réellement souscrites et la sanction prévue.
+
+33\. Le logement inoccupé trop longtemps. Une clause d'inhabitation peut limiter la garantie vol après une période prolongée d'absence, parfois 90 jours consécutifs, selon le contrat.
+
+34\. Les biens volés dans une cave ou un garage. Leur plafond peut être très inférieur à celui de l'habitation principale, voire nul.
+
+35\. Les bijoux et objets précieux mal déclarés. Les bijoux, œuvres d'art, collections et autres biens de valeur peuvent relever de définitions et de plafonds particuliers. Défense : conserver factures, photographies et évaluations datées.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+36\. Le dégât des eaux couvert, mais pas la réparation de la fuite. Les dommages causés par l'eau et la réparation de l'installation défectueuse sont deux postes distincts.
+
+37\. L'infiltration considérée comme un défaut d'entretien. Une infiltration ancienne peut être exclue alors qu'un événement soudain peut être garanti. Défense : documenter l'événement, les intempéries, l'état antérieur et l'origine technique.
+
+38\. Le renvoi de responsabilité entre voisin, propriétaire, syndic et assureurs. Les conventions entre assureurs, notamment IRSI, organisent certains sinistres. Défense : demander quel assureur est gestionnaire, sans accepter qu'un conflit entre organismes bloque indéfiniment les démarches.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++1
+
+
+
+39\. La catastrophe naturelle déclarée trop tard. Depuis 2023, en métropole, la déclaration doit intervenir au plus tard dans les 30 jours après la publication de l'arrêté au Journal officiel, pour le régime catastrophe naturelle. Il est préférable de prévenir l'assureur dès la découverte du dommage.
+
+40\. Les franchises spécifiques aux catastrophes naturelles. Pour les habitations, les franchises légales usuelles sont notamment de 380 €, ou 1 520 € pour certains dommages liés à la sécheresse et à la réhydratation des sols.
+
+41\. Le relogement temporaire oublié. Certains frais de relogement d'urgence sont pris en charge dans les situations et limites prévues par la réglementation ou le contrat. Il faut les réclamer explicitement.
+
+42\. Les dommages professionnels exclus de l'habitation. Les équipements professionnels, marchandises et activités exercées à domicile ne sont pas nécessairement couverts par l'assurance habitation privée.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++1
+
+
+
+## 5. Assurance automobile : les pièges spécifiques
+
+43\. L'assurance au tiers prise pour une assurance des dommages personnels. La responsabilité civile obligatoire protège principalement les tiers victimes, pas automatiquement ton véhicule ni tes propres blessures.
+
+44\. La garantie conducteur absente. En cas d'accident responsable, tes propres blessures peuvent ne pas être indemnisées par ton contrat sans garantie adaptée.
+
+45\. Le prêt du véhicule mal encadré. Le prêt à un ami, un membre de la famille ou un jeune conducteur peut entraîner une franchise majorée ou des limitations. Défense : vérifier la clause de prêt du volant avant le prêt.
+
+46\. L'utilisation professionnelle non déclarée. Les trajets professionnels, livraisons ou transports liés à une activité peuvent nécessiter une adaptation du contrat.
+
+47\. La responsabilité établie sur un constat imprécis. Une case cochée à tort ou un croquis ambigu peut contribuer à une mauvaise attribution de responsabilité. Défense : photographier la scène, recueillir les témoins et détailler les observations.
+
+48\. Le malus appliqué à tort. Un accident totalement non responsable n'entraîne normalement pas de majoration du coefficient de réduction-majoration. En responsabilité partagée, la majoration prévue est généralement de 12,5 %, contre 25 % pour un accident totalement responsable, avec certaines exceptions.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++1
+
+
+
+49\. Le véhicule déclaré économiquement irréparable à une valeur trop faible. L'indemnisation proposée peut s'appuyer sur une valeur avant sinistre contestable. Défense : réunir annonces comparables, factures d'entretien, kilométrage et équipements réellement présents.
+
+50\. La proposition de cession du véhicule mal comprise. Dans la procédure de véhicule économiquement irréparable, l'assureur doit, dans les cas prévus, proposer la cession dans les 15 jours suivant le rapport d'expertise. L'assuré dispose de 30 jours pour répondre. Refuser l'offre peut entraîner des restrictions administratives sur le véhicule.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+51\. La résiliation consécutive à un sinistre. L'assureur n'a pas un droit général de résiliation immédiate après n'importe quel accident. Une résiliation à la suite d'un sinistre est encadrée, notamment dans certaines situations d'alcoolémie, de stupéfiants ou d'infraction routière entraînant une suspension ou annulation du permis. Une résiliation à l'échéance suit des règles différentes.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+52\. Les préjudices corporels sous-évalués. Les pertes de revenus, besoins d'assistance, séquelles, douleurs et préjudices futurs peuvent être oubliés. En cas d'accident de la route, l'indemnisation des victimes obéit à une procédure et à des délais particuliers. Défense : ne pas accepter trop vite une offre avant consolidation médicale et évaluation complète.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+## 6. Mutuelles, assurances santé, prévoyance et accidents de la vie
+
+53\. Les pourcentages de remboursement trompeurs en apparence. Une complémentaire affichant « 100 % BR » ne promet pas nécessairement de rembourser 100 % de la facture. Le pourcentage porte sur la base de remboursement de l'Assurance maladie, généralement Sécurité sociale incluse.
+
+54\. Les plafonds qui rendent une couverture presque inutile. Optique, dentaire, hospitalisation, médecines non conventionnelles ou appareils spécifiques peuvent être soumis à des forfaits annuels.
+
+55\. Les délais de carence et exclusions de la prévoyance. Un contrat peut couvrir l'incapacité de travail tout en excluant certaines causes ou certaines périodes.
+
+56\. L'incapacité de travailler confondue avec l'invalidité contractuelle. Être déclaré invalide par la Sécurité sociale ne déclenche pas automatiquement l'invalidité retenue par un assureur privé. Les définitions et barèmes peuvent être distincts.
+
+57\. L'indemnité qui s'arrête avant la reprise réelle du travail. Certains contrats prévoient une fin de versement selon leurs critères médicaux, indépendamment d'une situation professionnelle encore difficile. Défense : demander la base contractuelle et contester l'expertise médicale avec un médecin-conseil indépendant.
+
+58\. La garantie accidents de la vie avec seuil d'invalidité élevé. Un accident sérieux peut ne donner lieu à aucune indemnisation si le taux de séquelles permanentes reste sous le seuil contractuel. Certains contrats labellisés GAV retiennent par exemple 30 %.
+
+59\. La définition restrictive de l'accident. La notion d'accident employée par un assureur peut être plus étroite que son sens ordinaire. Ce problème est expressément relevé par la Médiation de l'Assurance dans son bilan 2025.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++2
+
+
+
+## 7. Assurance emprunteur : les difficultés qui peuvent coûter très cher
+
+60\. L'assurance qui rembourse uniquement une partie de la mensualité. Les quotités assurées peuvent limiter la prise en charge : par exemple, deux coemprunteurs couverts chacun à 50 % ne sont pas dans la même situation que deux personnes couvertes chacune à 100 %.
+
+61\. La garantie perte d'emploi presque impossible à déclencher. Démission, rupture conventionnelle, chômage de certains indépendants ou fin de contrat peuvent être exclus. Il faut vérifier les conditions exactes.
+
+62\. Les franchises et carences successives lors d'un changement d'assurance. C'est un problème important identifié en 2026 par la Médiation : deux contrats présentés comme équivalents peuvent laisser un intervalle sans couverture effective lors d'un arrêt de travail. Un accord du CCSF a été adopté le 26 mai 2026 sur ce sujet.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.mediation-assurance.org\&sz=32)
+
+mediation-assurance.org
+
+
+
+63\. Le remplacement d'assurance refusé sans motifs suffisants. Pour un crédit immobilier, l'assurance emprunteur peut être changée à tout moment, sous réserve d'équivalence des garanties exigées. Un refus du prêteur doit être explicite et motivé.
+
+64\. Le questionnaire médical demandé alors qu'il est interdit. Pour certains crédits immobiliers d'au maximum 200 000 € par assuré, dont le remboursement s'achève avant 60 ans, l'assureur ne peut pas demander de questionnaire ou d'examen de santé. Attention aux règles de cumul des crédits concernés.
+
+65\. L'erreur dans un questionnaire médical. Une fausse déclaration intentionnelle peut entraîner la nullité du contrat. Une erreur non intentionnelle relève d'un régime différent, pouvant notamment aboutir à une réduction proportionnelle de l'indemnité. Défense : conserver la copie exacte des questions et des réponses, et ne jamais laisser un intermédiaire les remplir approximativement.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++2
+
+
+
+## 8. Assurance vie, cartes bancaires et assurances complémentaires
+
+66\. L'assurance vie présentée comme un placement entièrement garanti. Le capital placé sur des unités de compte peut varier à la baisse. Il faut distinguer les supports garantis des supports présentant un risque de perte.
+
+67\. Les frais qui s'accumulent. Frais sur versement, gestion annuelle, arbitrage et supports d'investissement peuvent réduire significativement la performance. Défense : demander les coûts totaux, en euros et en pourcentage.
+
+68\. La clause bénéficiaire imprécise ou périmée. Une ancienne désignation peut ne plus correspondre à la situation familiale. Il faut la revoir après les changements importants et conserver une copie des désignations.
+
+69\. Les contrats d'assurance vie inconnus des proches. Après un décès, la recherche gratuite peut être effectuée via l'AGIRA, puis, pour certains fonds anciens, via Ciclade. Le versement du capital aux bénéficiaires est soumis à des délais spécifiques.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+70\. L'assurance de carte bancaire supposée couvrir tout voyage. Certaines garanties exigent d'avoir payé tout ou partie de la prestation avec la carte. Des plafonds, exclusions médicales et conditions d'assistance peuvent s'appliquer.
+
+71\. L'annulation de voyage pour un motif non garanti. Une assurance annulation n'autorise pas nécessairement une annulation pour convenance personnelle ou changement d'avis.
+
+72\. Les assurances de téléphone ou d'électronique vendues en supplément. Elles peuvent exclure la perte, les rayures, la panne ou le vol sans violence. Lorsque l'assurance est souscrite en complément d'un bien ou service, un droit de renonciation de 30 jours peut s'appliquer sous les conditions légales.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+## 9. Résiliation, cotisations et pratiques commerciales
+
+73\. La reconduction automatique passée inaperçue. Certains contrats se prolongent d'année en année. Le régime de résiliation dépend de l'assurance et du statut de l'assuré.
+
+74\. L'assureur qui prétend qu'on est engagé malgré la résiliation infra-annuelle. Pour de nombreuses assurances auto, habitation et complémentaires santé individuelles, la résiliation est possible à tout moment après la première année, selon leurs règles spécifiques.
+
+75\. Le parcours de résiliation volontairement compliqué. Les contrats d'assurance concernés par la souscription en ligne doivent proposer une fonctionnalité de résiliation électronique. La résiliation ne doit pas être conditionnée à un passage inutile en agence.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++2
+
+
+
+76\. Les frais prélevés après résiliation. Les sommes correspondant à une période postérieure à une résiliation effective doivent être régularisées selon le régime applicable. Défense : conserver confirmation de résiliation, date d'effet et relevés de prélèvement.
+
+77\. Le prélèvement rejeté qui aboutit à une absence de garantie. Pour les assurances concernées par l'article L.113-3, après mise en demeure, la couverture peut être suspendue à l'issue de 30 jours, puis le contrat résilié 10 jours plus tard. Défense : ne pas considérer qu'un contrat reste actif parce que l'assureur n'a pas encore envoyé sa confirmation de résiliation.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+78\. L'augmentation de cotisation non comprise. Elle peut découler d'une clause, d'une modification du risque ou de règles propres au contrat. Toute augmentation ne permet pas automatiquement une résiliation immédiate. Défense : comparer les avis d'échéance et rechercher les dispositions autorisant la hausse.
+
+79\. Une fausse déclaration de risque invoquée plusieurs années après. L'assureur peut découvrir qu'un véhicule, un logement ou une activité n'a pas été déclaré conformément aux réponses initiales. Défense : vérifier ce qui avait réellement été demandé, répondu et porté à la connaissance de l'assureur.
+
+80\. L'aggravation du risque non déclarée. Un changement qui rend inexactes les réponses initiales peut devoir être signalé sous 15 jours après en avoir eu connaissance, selon l'article L.113-2. Les simples changements sans incidence sur les risques déclarés ne sont pas tous concernés.
+
+81\. Le contrat souscrit à la suite d'un démarchage téléphonique contestable. Le démarchage en assurance est strictement encadré. Depuis le 11 août 2026, l'interdiction générale du démarchage téléphonique non sollicité connaît notamment des exceptions en cas de consentement préalable ou de contrat en cours. Il faut demander les preuves du consentement et de la souscription.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
++1
+
+
+
+## 10. Assurance professionnelle : les pièges supplémentaires
+
+Ces risques méritent une attention distincte pour une activité de développement web ou de fabrication artisanale.
+
+82\. La RC professionnelle qui couvre les dommages causés à autrui, mais pas les propres pertes de l'entreprise. Vérifier les garanties distinctes concernant les dommages matériels, immatériels consécutifs et immatériels non consécutifs.
+
+83\. Les pertes financières du client exclues. Dans le développement web, un incident technique peut occasionner une perte d'exploitation, des commandes perdues ou une indisponibilité. Ces préjudices ne sont pas forcément couverts par une RC Pro standard.
+
+84\. L'activité déclarée trop étroitement. Déclarer uniquement « développement de sites web » peut laisser des incertitudes sur l'hébergement, la maintenance, le conseil en sécurité, l'administration de serveurs ou les intégrations de paiement.
+
+85\. Les produits fabriqués ou vendus exclus de certaines garanties. Une responsabilité civile exploitation ne remplace pas nécessairement une responsabilité civile après livraison ou une garantie adaptée aux produits fabriqués.
+
+86\. Les biens confiés par les clients exclus. Les marchandises, pièces, équipements et matières premières appartenant à des tiers et déposés dans un atelier peuvent nécessiter une garantie dédiée.
+
+87\. Le stock déclaré sur une valeur insuffisante. Les variations saisonnières, les produits finis, matières premières et objets de grande valeur peuvent dépasser les capitaux assurés.
+
+88\. L'activité exercée dans un local partagé. Les garanties de chaque professionnel et celles du propriétaire ou du locataire principal ne se substituent pas automatiquement les unes aux autres. Il faut définir les responsabilités et les biens couverts.
+
+89\. Les risques de transport et d'expédition mal garantis. Une police multirisque professionnelle ne garantit pas nécessairement les marchandises en transit, notamment à l'international.
+
+90\. Les règles de résiliation des particuliers appliquées à tort aux contrats professionnels. Les protections de la loi Hamon et certains dispositifs de médiation de la consommation ne s'appliquent pas automatiquement à un contrat souscrit pour les besoins d'une activité professionnelle.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+## 11. Le tableau des délais à ne jamais manquer
+
+Ces délais concernent les situations usuelles. Certains contrats, régimes spéciaux et événements modifient leur point de départ ou leur durée.
+
+| Situation                                                                               | Délai à surveiller                                                           |
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Déclaration sinistre ordinaire (auto, habitation)                                       | 5 jours ouvrés minimum contractuel                                           |
+| Déclaration de vol                                                                      | 2 jours ouvrés minimum contractuel                                           |
+| Catastrophe naturelle reconnue                                                          | 30 jours après publication de l'arrêté                                       |
+| Déclaration d'une aggravation du risque                                                 | 15 jours après connaissance                                                  |
+| Mise en demeure pour impayé                                                             | Suspension possible après 30 jours ; résiliation possible 10 jours plus tard |
+| Accusé de réception d'une réclamation écrite                                            | 10 jours ouvrables, sauf réponse dans ce délai                               |
+| Réponse à une réclamation écrite                                                        | 2 mois maximum                                                               |
+| Saisine du médiateur après réclamation                                                  | Dès réponse définitive, ou après 2 mois                                      |
+| Date limite de médiation de consommation                                                | 1 an après la réclamation écrite                                             |
+| Prescription des actions issues du contrat d'assurance                                  | En principe 2 ans, avec exceptions                                           |
+| Recours contractuel pour certains dommages de sécheresse-réhydratation reconnus Cat Nat | 5 ans selon le régime légal applicable                                       |
+| Action en indemnisation corporelle après accident de la circulation                     | 10 ans à compter de la consolidation                                         |
+| Résiliation infra-annuelle de nombreux contrats auto/habitation/santé                   | Après la première année                                                      |
+| Substitution de l'assurance emprunteur immobilier                                       | À tout moment, sous conditions                                               |
+| Renonciation à un contrat d'assurance vie                                               | En principe 30 jours calendaires                                             |
+
+Sources : Code des assurances, Service Public, ACPR et ministère de l'Économie.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
++7
+
+
+
+### Les quatre délais les plus dangereux
+
+# 2 ans
+
+La prescription contractuelle
+
+Ce n'est pas automatiquement deux ans après la date du sinistre : le point de départ dépend des circonstances et des exceptions légales. Mais si tu tardes à agir, tu risques de perdre ton action contre l'assureur.
+
+# 1 an
+
+La saisine du médiateur
+
+Pour la médiation de la consommation, la demande doit être introduite dans l'année suivant la réclamation écrite initiale. Ne pas attendre une succession interminable d'échanges avec l'assureur.
+
+# 2 mois
+
+L'accès à la médiation
+
+Après deux mois suivant une réclamation écrite, tu peux saisir le médiateur compétent, même si l'assureur ne répond pas. Une réponse définitive permet généralement d'y accéder plus tôt.
+
+# 5 jours
+
+La déclaration ordinaire de sinistre
+
+C'est un délai minimal exprimé en jours ouvrés, que le contrat peut prolonger. Déclare rapidement, même si tu n'as pas encore toutes les factures ou tous les devis.
+
+Attention à une distinction essentielle : une réclamation ordinaire ne doit jamais être considérée comme interrompant automatiquement la prescription.
+
+L'article L.114-2 prévoit notamment l'interruption par un courrier recommandé avec accusé de réception de l'assuré à l'assureur concernant le règlement de l'indemnité, par la désignation d'experts après sinistre et par certaines causes ordinaires. La médiation peut suspendre la prescription. Le mécanisme exact doit être vérifié selon le dossier.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
++1
+
+
+
+## 12. Comment se défendre efficacement lors d'un litige
+
+## Procédure de recours
+
+6 étapes
+
+1. Constituer le dossier de preuves
+
+   Conserver le contrat, les conditions générales et particulières, les avenants, les factures, les photographies, les rapports d'expertise, les déclarations et les échanges. Établir une chronologie datée.
+2. Demander un refus écrit et motivé
+
+   Exiger la garantie concernée, la clause précise invoquée, les faits retenus, les pièces utilisées et le calcul de l'indemnité. Une simple affirmation orale ne suffit pas pour analyser correctement le refus.
+3. Contester formellement par écrit
+
+   Envoyer une réclamation claire à l'assureur ou à son service réclamations, en joignant les preuves et en indiquant exactement ce qui est demandé. Conserver la preuve d'envoi.
+4. Saisir le médiateur compétent
+
+   Après réponse définitive insatisfaisante ou au plus tard après deux mois sans solution, utiliser le médiateur indiqué dans le contrat. La médiation de la consommation est gratuite pour le consommateur, hors éventuels frais d'assistance ou d'expertise.
+5. Signaler séparément les manquements réglementaires
+
+   L'ACPR peut recevoir un signalement de pratiques irrégulières. Elle ne tranche pas le litige individuel ni n'ordonne ton indemnisation. Ce sont deux démarches différentes.
+6. Engager une action judiciaire si nécessaire
+
+   Si le litige persiste, consulter un avocat ou une permanence juridique, notamment lorsque la prescription approche. Pour une expertise complexe, un référé-expertise peut être pertinent.
+
+L'ACPR a d'ailleurs signalé en avril 2026 que certains professionnels présentent encore de façon ambiguë les recours disponibles, en donnant notamment à penser qu'un deuxième niveau interne de réclamation serait obligatoire avant la médiation. Ce n'est pas la règle générale.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://acpr.banque-france.fr\&sz=32)
+
+Banque de France
+
++1
+
+
+
+### Les recours officiels
+
+- [Médiation de l'Assurance](https://www.mediation-assurance.org/rapports-activite/?utm_source=chatgpt.com) : médiation et exemples de litiges.
+- [ACPR — Formuler une réclamation](https://acpr.banque-france.fr/fr/particuliers/vos-moyens-daction/formuler-une-reclamation?utm_source=chatgpt.com) : procédure et signalement des manquements.
+- [Ministère de l'Économie — Médiation de la consommation](https://www.economie.gouv.fr/mediation-conso/vous-etes-un-consommateur/les-etapes-de-la-mediation?utm_source=chatgpt.com) : recevabilité et délais.
+- [Service Public — Litige avec son assurance](https://www.service-public.gouv.fr/particuliers/vosdroits/F3050?utm_source=chatgpt.com) : démarches amiables et judiciaires.
+
+## 13. Les réflexes à adopter systématiquement
+
+Voici une checklist utilisable au moment de souscrire un contrat ou de subir un sinistre.
+
+Checklist de protection
+
+0/12
+
+Conserver le PDF intégral du contrat et toutes les conditions particulières
+
+Vérifier exclusions, franchises, plafonds, carences et garanties optionnelles
+
+Faire confirmer par écrit les déclarations de risque et les promesses importantes
+
+Conserver les factures, photos et preuves de valeur des biens
+
+Déclarer immédiatement le sinistre, même si le dossier est incomplet
+
+Ne jamais reconnaître une cause ou responsabilité incertaine
+
+Ne pas détruire les biens endommagés avant leur constatation, hors impératif de sécurité
+
+Demander toute décision de refus et tout calcul d'indemnité par écrit
+
+Ne pas accepter de transaction définitive sans examiner sa portée
+
+Conserver une chronologie des courriers, appels et pièces transmises
+
+Créer des alertes avant les échéances de recours et de prescription
+
+Ne pas laisser une négociation amiable faire expirer le délai d'action
+
+Réinitialiser Copier
+
+Le principe le plus utile est de ne jamais se contenter d'un refus oral ni laisser un dossier sans calendrier de recours. Un assureur peut opposer une clause légalement valable, mais il doit être possible d'identifier précisément cette clause et de vérifier qu'elle s'applique aux faits.
+
+À l'inverse, certains motifs de refus ne résistent pas à l'examen juridique ou technique. Le fait que 55 % des litiges résolus par la Médiation de l'Assurance en 2025 aient abouti à une issue totalement ou partiellement favorable aux assurés montre l'intérêt de contester un refus lorsque des arguments solides existent. Cela ne signifie toutefois pas que 55 % des refus d'assurance sont abusifs.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.mediation-assurance.org\&sz=32)
+
+mediation-assurance.org

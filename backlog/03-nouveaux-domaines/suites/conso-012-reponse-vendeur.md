@@ -44,9 +44,10 @@ Celles de CONSO-001, CONSO-002 et CONSO-003 selon la demande du client ;
 aucune source propre au-delà de la grille de réponse.
 
 ## Critères d'acceptation
-
 - [ ] Y01 distingue obligation à vérifier et geste commercial.
 - [ ] Y02 relève la date d'achat et les faits qui décident d'une rétractation, sans conclure.
+- [ ] RV03 n’utilise aucune clause interne comme motif suffisant de rejet ; les points manquants restent ouverts.
+- [ ] La sortie se termine par une phrase courte nommant le professionnel compétent (avocat ou juriste d’une association selon le besoin), avec renfort en tête en cas de délai, procédure ou enjeu irréversible, selon BASE-013.
 
 ## Vérification
 
@@ -58,6 +59,18 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 ## Hors périmètre
 
 Recouvrement, contentieux, assurance du vendeur, envoi.
+
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points réponses du SAV et du vendeur, en miroir des points 25, 33, 47, 58–75, 116–118 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
+
+Le projet de réponse rapproche grief, pièces détenues, garanties légales et offre commerciale. Ne pas opposer systématiquement fabricant, absence de ticket, emballage, réserve de livraison, extension expirée ou avoir obligatoire. Demander les pièces proportionnées ; signaler les droits à vérifier sans rédiger une renonciation générale à la place du client. Fraude alléguée, retour différent ou colis vide : recueillir constats et contradiction, sans accusation. Vendeur particulier : CONSO-011, pas cette tâche TPE.
+
+- Cas limite : RV03 — Client sans ticket, extension expirée et colis retourné endommagé : distinguer preuve d’achat, garantie et état du retour ; réponse factuelle sans refus systématique.
+
+Scénarios complémentaires **attendus, non exécutés**. Les sources précises et
+leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée.
 
 ## État de la proposition — 16 octobre 2026
 

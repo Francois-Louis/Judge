@@ -59,6 +59,15 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Analyse du produit, réclamation au fond, action collective, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 80–83 et 89 de la [matrice](../dom-004-frictions-utilisateurs.md).
+
+- [ ] V03 — Transfert PEA retardé ou coûteux : recueillir dates, établissements, lignes transférées, facture et réclamations ; produire orientation et liste de pièces, sans contrôler les plafonds ni établir la responsabilité.
+- [ ] V04 — « Sans risque » ou frais mal compris : identifier nature juridique, garantie annoncée, documents et publicité ; demander détail des frais et orienter, sans évaluer risque, rendement ou qualité du conseil.
+
+Scénarios V03/V04 **attendus, non exécutés**. Conserver la décision du 16 octobre 2026 : pas de traitement au fond des placements ni de nouveau domaine. Rachat d'assurance-vie → INS-012 ; capital après décès → INS-011. Le résultat annonce cette limite de couverture.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :

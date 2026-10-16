@@ -57,11 +57,12 @@ antérieur peut viser les contrats plus anciens : le rechercher plutôt que
 l'écarter.
 
 ## Critères d'acceptation
-
 - [ ] G01 distingue les garanties et ne suit pas le renvoi au fabricant sans examen.
 - [ ] G02 traite le signal de danger avant toute demande ordinaire.
 - [ ] G03 n'applique pas le Code de la consommation à un vendeur particulier.
 - [ ] La sortie se comprend sans formation juridique, sans garantir l'issue.
+- [ ] G04 à G09 produisent inventaire, chronologie, remèdes conditionnels et preuves manquantes ; aucun diagnostic ou délai générique ne tranche le dossier.
+- [ ] La sortie se termine par une phrase courte nommant le professionnel compétent (avocat ou juriste d’une association selon le besoin), avec renfort en tête en cas de délai, procédure ou enjeu irréversible, selon BASE-013.
 
 ## Vérification
 
@@ -75,6 +76,25 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Expertise technique, chiffrage d'un préjudice, dommage corporel, procédure
 judiciaire, envoi du courrier.
+
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 13, 31–36, 58–74, 77, 116–118 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
+
+Compléter les pièces par fiche produit et état promis, liste des articles reçus, diagnostic et frais annoncés, historique des demandes, dépôts, restitutions, réparations et remplacements. L’absence de ticket appelle la recherche d’autres preuves recevables ; aucun rejet automatique. Documenter bien neuf, occasion et reconditionné ; distinguer période de couverture et présomption d’antériorité.
+
+La sortie rapproche refus du SAV, fondement invoqué et justification : renvoi au fabricant, diagnostic payant, port, oxydation, batterie, ouverture du produit, emballage exigé, signature ou réserves. Elle présente les remèdes à vérifier selon défaut, gravité, choix, tentative antérieure et inconvénient ; pas de réduction ou résolution automatique. Tracer les effets éventuels de réparation, remplacement et immobilisation sur les garanties, sans durée codée en dur. Un conflit allégué entre fiche officielle et texte est recherché dans les deux versions et reste réservé sans lecture. Pour les vices cachés face à un professionnel, distinguer conditions, expertise, date de découverte et prescription ; CONSO-011 garde les ventes entre particuliers.
+
+- Cas limite : G04 — Colis reçu vide, article absent ou référence substituée : inventaire et demande au vendeur, distincts d’un colis jamais remis.
+- Cas limite : G05 — Reconditionné décrit comme neuf, batterie défaillante et refus « consommable » : rapprochement annonce / état et données techniques manquantes.
+- Cas limite : G06 — Diagnostic d’oxydation facturé, port et emballage exigés : demander rapport et fondement de chaque condition.
+- Cas limite : G07 — Réparation inefficace puis référence inférieure proposée : chronologie, remèdes conditionnels et effet temporel à vérifier.
+- Cas limite : G08 — Cadeau sans ticket et mention « ni repris ni échangé » : inventorier preuves alternatives et séparer politique commerciale et garantie.
+- Cas limite : G09 — Vice découvert tardivement ; guide et texte apparemment contradictoires sur les garanties : dater, préparer expertise et réserver toute échéance non vérifiée.
+
+Scénarios complémentaires **attendus, non exécutés**. Les sources précises et
+leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée.
 
 ## État de la proposition — 16 octobre 2026
 

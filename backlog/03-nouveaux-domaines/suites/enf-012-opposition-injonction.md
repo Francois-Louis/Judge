@@ -66,6 +66,16 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Dépôt de l'opposition, représentation à l'audience, défense au fond, envoi.
 
+## Complément issu des frictions des commissaires de justice
+
+Points 13–14 et 17–18 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+
+- [ ] O03 — Signification autre qu'à personne et découverte par une saisie : réunir ordonnance, signification, premiers actes ultérieurs et dates prouvées ; faire vérifier le déclencheur propre à l'opposition sans confondre les recours ENF-012 et ENF-019.
+- [ ] O04 — Délai de signification de l'ordonnance : relever date de décision et date de signification ; rechercher texte modificatif, entrée en vigueur et dispositions transitoires. La transition annoncée en septembre 2026 par le texte fourni n'est pas présumée exacte ni applicable.
+- [ ] O05 — Courriel de contestation à l'étude : expliquer la formalité d'opposition au tribunal compétent selon le texte lu ; ne pas présenter le courriel comme suffisant ou suspensif.
+
+Scénarios O03–O05 **attendus, non exécutés** : ordonnance ancienne découverte à la saisie ; deux décisions de part et d'autre de la transition annoncée ; contestation amiable seule. Sources supplémentaires à rechercher : délai de signification, caractère non avenu éventuel, point de départ de l'opposition, mode de saisine et transition normative. Si dates ou textes manquent, garder le point réservé et l'urgence visible.
+
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation ni sélection.

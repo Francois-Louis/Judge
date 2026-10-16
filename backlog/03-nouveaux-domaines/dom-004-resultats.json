@@ -2,24 +2,24 @@
   "story": "DOM-004",
   "date": "2026-10-16",
   "timezone": "Europe/Paris",
-  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "git_head": "24adce2ab83c0f418cfa43fafdd7c6811c2e798f",
   "scope": "cadrage documentaire bancaire ; aucun plugin créé ni validation juridique",
   "checks": {
     "backlog_frontmatter_and_dependencies": {
       "status": "passed",
-      "total": 324,
+      "total": 397,
       "statuses": {
-        "terminee": 32,
+        "terminee": 36,
         "en-cours": 1,
-        "proposee": 290,
+        "proposee": 359,
         "a-verifier": 1
       },
       "problems": []
     },
     "bounded_proposals": {
       "status": "passed",
-      "count": 11,
-      "file_targets": 37,
+      "count": 19,
+      "file_targets": 53,
       "future_files": [
         {
           "path": "banking-legal/.claude-plugin/plugin.json",
@@ -156,13 +156,84 @@
         {
           "path": "banking-legal/references/placements.md",
           "owner": "BNK-011"
+        },
+        {
+          "path": "banking-legal/skills/guarantee-review/SKILL.md",
+          "owner": "BNK-012"
+        },
+        {
+          "path": "banking-legal/references/caution.md",
+          "owner": "BNK-012"
+        },
+        {
+          "path": "banking-legal/skills/bank-switch-follow-up/SKILL.md",
+          "owner": "BNK-013"
+        },
+        {
+          "path": "banking-legal/references/mobilite.md",
+          "owner": "BNK-013"
+        },
+        {
+          "path": "banking-legal/skills/account-block-review/SKILL.md",
+          "owner": "BNK-014"
+        },
+        {
+          "path": "banking-legal/references/blocage-compte.md",
+          "owner": "BNK-014"
+        },
+        {
+          "path": "banking-legal/skills/transfer-error-claim/SKILL.md",
+          "owner": "BNK-015"
+        },
+        {
+          "path": "banking-legal/references/erreur-virement.md",
+          "owner": "BNK-015"
+        },
+        {
+          "path": "banking-legal/skills/card-hold-review/SKILL.md",
+          "owner": "BNK-016"
+        },
+        {
+          "path": "banking-legal/references/carte-preautorisation.md",
+          "owner": "BNK-016"
+        },
+        {
+          "path": "banking-legal/skills/inactive-account-search/SKILL.md",
+          "owner": "BNK-017"
+        },
+        {
+          "path": "banking-legal/references/compte-inactif.md",
+          "owner": "BNK-017"
+        },
+        {
+          "path": "banking-legal/skills/business-credit-response/SKILL.md",
+          "owner": "BNK-018"
+        },
+        {
+          "path": "banking-legal/references/financement-professionnel.md",
+          "owner": "BNK-018"
+        },
+        {
+          "path": "banking-legal/skills/merchant-settlement-review/SKILL.md",
+          "owner": "BNK-019"
+        },
+        {
+          "path": "banking-legal/references/encaissement-professionnel.md",
+          "owner": "BNK-019"
         }
       ],
       "problems": []
     },
     "breakdown_table_consistency": {
       "status": "passed",
-      "rows": 11,
+      "rows": 19,
+      "problems": []
+    },
+    "user_frictions_traceability": {
+      "status": "passed",
+      "points": 99,
+      "source_sha256": "10ae7341350acc24d1e512ef90bf459accf673e442506779f17171e00621d5ec",
+      "note": "Structural traceability only; no legal or functional validation",
       "problems": []
     },
     "no_plugin_created": {
@@ -172,8 +243,8 @@
     },
     "links_and_format": {
       "status": "passed",
-      "markdown_files": 16,
-      "local_links": 223,
+      "markdown_files": 33,
+      "local_links": 441,
       "problems": []
     },
     "table_column_counts": {
@@ -192,13 +263,20 @@
     },
     "scope_vs_task_baseline": {
       "status": "passed",
-      "baseline_git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+      "baseline_git_head": "24adce2ab83c0f418cfa43fafdd7c6811c2e798f",
       "lot_changes": [
-        "backlog/00-fondations/base-003-dossier-architecture.md",
         "backlog/03-nouveaux-domaines/dom-004-banque.md",
         "backlog/03-nouveaux-domaines/dom-004-controles.py",
         "backlog/03-nouveaux-domaines/dom-004-decoupage-banque.md",
+        "backlog/03-nouveaux-domaines/dom-004-frictions-utilisateurs.md",
         "backlog/03-nouveaux-domaines/dom-004-verification.md",
+        "backlog/03-nouveaux-domaines/dom-005-assurance.md",
+        "backlog/03-nouveaux-domaines/dom-005-controles.py",
+        "backlog/03-nouveaux-domaines/dom-005-decoupage-assurance.md",
+        "backlog/03-nouveaux-domaines/dom-005-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-016-successions-donations.md",
+        "backlog/03-nouveaux-domaines/dom-024-dettes-surendettement.md",
+        "backlog/03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt",
         "backlog/03-nouveaux-domaines/suites/bnk-001-contester-paiement.md",
         "backlog/03-nouveaux-domaines/suites/bnk-002-virement-tromperie.md",
         "backlog/03-nouveaux-domaines/suites/bnk-003-frais-bancaires.md",
@@ -210,50 +288,30 @@
         "backlog/03-nouveaux-domaines/suites/bnk-009-remboursement-anticipe.md",
         "backlog/03-nouveaux-domaines/suites/bnk-010-fichiers-banque-france.md",
         "backlog/03-nouveaux-domaines/suites/bnk-011-placement.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-012-caution.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-013-mobilite-bancaire.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-014-blocage-compte.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-015-erreur-virement.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-016-carte-preautorisation.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-017-compte-inactif.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-018-financement-professionnel.md",
+        "backlog/03-nouveaux-domaines/suites/bnk-019-encaissement-professionnel.md",
+        "backlog/03-nouveaux-domaines/suites/enf-004-saisie-compte.md",
+        "backlog/03-nouveaux-domaines/suites/ins-008-assurance-emprunteur.md",
+        "backlog/03-nouveaux-domaines/suites/ins-011-assurance-vie-beneficiaire.md",
+        "backlog/03-nouveaux-domaines/suites/ins-012-rachat-assurance-vie.md",
         "backlog/README.md"
       ],
-      "concurrent_patterns": [
-        "backlog/02-plugins-existants/exist-009-*",
-        "backlog/02-plugins-existants/suites/cln-*"
-      ],
-      "concurrent_changes": [
-        "backlog/02-plugins-existants/exist-009-clinique-juridique.md",
-        "backlog/02-plugins-existants/exist-009-controles.py",
-        "backlog/02-plugins-existants/exist-009-decoupage-clinique.md",
-        "backlog/02-plugins-existants/exist-009-resultats.json",
-        "backlog/02-plugins-existants/exist-009-verification.md",
-        "backlog/02-plugins-existants/suites/cln-001-cadre-structure.md",
-        "backlog/02-plugins-existants/suites/cln-002-accueil-minimal.md",
-        "backlog/02-plugins-existants/suites/cln-003-accueil-logement.md",
-        "backlog/02-plugins-existants/suites/cln-004-releve-conflits.md",
-        "backlog/02-plugins-existants/suites/cln-005-plan-recherche.md",
-        "backlog/02-plugins-existants/suites/cln-006-etat-recherches.md",
-        "backlog/02-plugins-existants/suites/cln-007-support-analyse.md",
-        "backlog/02-plugins-existants/suites/cln-008-forme-projet-logement.md",
-        "backlog/02-plugins-existants/suites/cln-009-demande-pieces.md",
-        "backlog/02-plugins-existants/suites/cln-010-point-personne.md",
-        "backlog/02-plugins-existants/suites/cln-011-point-referent.md",
-        "backlog/02-plugins-existants/suites/cln-012-saisie-echeance.md",
-        "backlog/02-plugins-existants/suites/cln-013-etat-echeances.md",
-        "backlog/02-plugins-existants/suites/cln-014-suivi-echeance.md",
-        "backlog/02-plugins-existants/suites/cln-015-soumission-revue.md",
-        "backlog/02-plugins-existants/suites/cln-016-decision-revue.md",
-        "backlog/02-plugins-existants/suites/cln-017-journal-contacts.md",
-        "backlog/02-plugins-existants/suites/cln-018-transmission-dossier.md",
-        "backlog/02-plugins-existants/suites/cln-019-continuite-cohorte.md",
-        "backlog/02-plugins-existants/suites/cln-020-accueil-etudiant.md",
-        "backlog/02-plugins-existants/suites/cln-021-guide-accueil.md",
-        "backlog/02-plugins-existants/suites/cln-022-preferences-clinique.md",
-        "backlog/02-plugins-existants/suites/cln-023-espace-dossier.md"
-      ],
-      "preserved_files": 809,
+      "concurrent_patterns": [],
+      "concurrent_changes": [],
+      "preserved_files": 916,
       "report_excluded_from_own_comparison": true,
       "note": "Les fichiers du lot partagés (index, BASE-003) peuvent aussi porter des changements concurrents ; le contrôle ne les attribue pas.",
       "problems": []
     },
     "repository_json_sanity": {
       "status": "passed",
-      "files": 77,
+      "files": 84,
       "problems": []
     },
     "cookbook_tool_scope_lint": {
@@ -268,23 +326,41 @@
     }
   },
   "lot_sha256": {
-    "backlog/03-nouveaux-domaines/dom-004-banque.md": "4faa45838ce7f6eac454331e0a9d490c0509d5062dd34cbc76c92f7776d7929a",
-    "backlog/03-nouveaux-domaines/dom-004-decoupage-banque.md": "90e030c8a3f40e172010bf2a410d8b565fa2858806a36ad0ba3a1b1ab55e5cb2",
-    "backlog/03-nouveaux-domaines/dom-004-verification.md": "3394c11ab0427dfb2317646738eef998bd51dfb8d24a02caa633439c14d367a2",
-    "backlog/03-nouveaux-domaines/suites/bnk-001-contester-paiement.md": "8def2b16e40fd16af8c9a3db30bff15cf9b1c3b89d54ab70b9c4d484e1e0692f",
-    "backlog/03-nouveaux-domaines/suites/bnk-002-virement-tromperie.md": "9b539979bfdb2c62e2656206920ebf5867048f1082f9ba65fdba9a3626eb9f7a",
-    "backlog/03-nouveaux-domaines/suites/bnk-003-frais-bancaires.md": "77f23310940c690b3ce2dfe72e02d0311a60f33d938f55138246c570490831a6",
-    "backlog/03-nouveaux-domaines/suites/bnk-004-mediation-bancaire.md": "74f0e879814f773369f05e297002b1ccfb7377029b546fcbc3d98c58402c080d",
-    "backlog/03-nouveaux-domaines/suites/bnk-005-offre-credit.md": "466d4414daac1b596193615a5f717cdea328f04bdf27497fe44b1222978d240a",
-    "backlog/03-nouveaux-domaines/suites/bnk-006-prelevement.md": "0c58ac48da2ea655e74e140e4cd4b0a589da36d2fe8c54e555bdec06cd7f453d",
-    "backlog/03-nouveaux-domaines/suites/bnk-007-difficulte-credit.md": "d1224faf40908c1c74cff91130550b19c8c95d8fa191fa39987d692157ef619b",
-    "backlog/03-nouveaux-domaines/suites/bnk-008-cloture-compte.md": "bc60d55f861dd43c4e19eb14276deb3e032d041c236c13a1308fe7b4012c0c27",
-    "backlog/03-nouveaux-domaines/suites/bnk-009-remboursement-anticipe.md": "d1f95f45f8c92401815ba5d86b0e91d68d530723389ed531e6d5d43e39973a21",
-    "backlog/03-nouveaux-domaines/suites/bnk-010-fichiers-banque-france.md": "4a2899aaa5fefb555455bccab46acb61d73a45ba804624d14c95b52d32afa4ca",
-    "backlog/03-nouveaux-domaines/suites/bnk-011-placement.md": "cd8d85d309a5a26ddb8ed0b88c0c9c1c869c3d4b5f47386f07ea3e09489849a3",
-    "backlog/README.md": "40801c6f1e49b8e2d61b6efbd9c02107f997b3c1997d8f313b10c25a67b9699a",
-    "backlog/00-fondations/base-003-dossier-architecture.md": "917b286a9ce144efeb76081dd2c2e32c47ee6a41bc191d02484dcae65b28f8a0",
-    "backlog/03-nouveaux-domaines/dom-004-controles.py": "f6216e1f40e0908900949c1781363352d774a5e6727f809eb020074c5a35e884"
+    "backlog/03-nouveaux-domaines/dom-004-banque.md": "e161c46e1708e3ba72e1dbf52b61a1b000ee474ce4960326f9b3ca36a6df1bce",
+    "backlog/03-nouveaux-domaines/dom-004-decoupage-banque.md": "b64c784c081945dc5f529f248a68fc6c7e5449b8bd2f4effbff9a1ce84711db3",
+    "backlog/03-nouveaux-domaines/dom-004-verification.md": "616161b5f4664a4dca93d455fbc25e77a6b05b569f92d24210265cd553dabf42",
+    "backlog/03-nouveaux-domaines/dom-004-frictions-utilisateurs.md": "01d4c7f909b8ab12c78dec340c659968ef51338e88b893b99903bdc63663b426",
+    "backlog/03-nouveaux-domaines/suites/bnk-001-contester-paiement.md": "b64628ceb6cad233d0e1f6d232876835622009a43e88c66b3c55753483be55d1",
+    "backlog/03-nouveaux-domaines/suites/bnk-002-virement-tromperie.md": "91844859403b99774a5db3bd04ce1705cdab9bacbab78b1100d9caafd88511f7",
+    "backlog/03-nouveaux-domaines/suites/bnk-003-frais-bancaires.md": "3bb81f8b3825afde45c7f3a525af730e244d96f37aa7083a765ac1d95fad4b3f",
+    "backlog/03-nouveaux-domaines/suites/bnk-004-mediation-bancaire.md": "f104aa0af0a9a2ea10df7616d88e2626ca89e5501e6206901cd92b6758cbb1a1",
+    "backlog/03-nouveaux-domaines/suites/bnk-005-offre-credit.md": "52676f6a97560c697516704479659f40178c2dfce1435552769bbad2a4103c5a",
+    "backlog/03-nouveaux-domaines/suites/bnk-006-prelevement.md": "466a9407499eaa3faafc9731fb53b26f445d33e1ee4cb15384fc1fea80403885",
+    "backlog/03-nouveaux-domaines/suites/bnk-007-difficulte-credit.md": "8ded8aab7826aee1d72e26daac6253769f5f7d805f29f3bbd5e34c2ddd57c4e7",
+    "backlog/03-nouveaux-domaines/suites/bnk-008-cloture-compte.md": "1fdf0c82094b9870bf88b3c295eac94c6eb3a9aed409fc59427fd489b874cd99",
+    "backlog/03-nouveaux-domaines/suites/bnk-009-remboursement-anticipe.md": "cff800eeab3ef7a824daaba19b06306b3ddd9fc95dad27ad1a552d015bd58b6e",
+    "backlog/03-nouveaux-domaines/suites/bnk-010-fichiers-banque-france.md": "6bc8ef21de059d4c1aefc9a1c8621d07ba88b930e468e5049a1d3fac03bc73af",
+    "backlog/03-nouveaux-domaines/suites/bnk-011-placement.md": "411714040c3ce94d92aad1b0c0361231e29bc2e1495e75f085695a3db11e2342",
+    "backlog/03-nouveaux-domaines/suites/bnk-012-caution.md": "7f35db5729f83611d8f1162f53182d54c56fc6d4f3dadd2affbe5ea2dc87cdf8",
+    "backlog/03-nouveaux-domaines/suites/bnk-013-mobilite-bancaire.md": "ed85a172185017b6acc46dfd62d328606791657551ce13ba77a2fa89c1ea8aa3",
+    "backlog/03-nouveaux-domaines/suites/bnk-014-blocage-compte.md": "baa9197bf45a7b854776b5d0ff1d18529632bad24cba5727f6a828dd2f20c5ef",
+    "backlog/03-nouveaux-domaines/suites/bnk-015-erreur-virement.md": "6cd15de9c9067d5b495b6f6aa11b2290606bc601a3dc9223aa382b2c5c431a2e",
+    "backlog/03-nouveaux-domaines/suites/bnk-016-carte-preautorisation.md": "5c1685f9ca693cac6c9a531222a4029acc7238c0a44a92106bd4b8a255d406d0",
+    "backlog/03-nouveaux-domaines/suites/bnk-017-compte-inactif.md": "52af8324f1076556ce8417022d7273d98e2f9716ca4b7a3fd3a0a379fbac2172",
+    "backlog/03-nouveaux-domaines/suites/bnk-018-financement-professionnel.md": "f92c74511ea7b118f8b55238a17752cc55d6b2c5d995335931d47aa566c71958",
+    "backlog/03-nouveaux-domaines/suites/bnk-019-encaissement-professionnel.md": "6a4026d32580d5eb032f384cbfe761116c80f65001ca77c9d6437bdde8217e77",
+    "backlog/03-nouveaux-domaines/dom-005-assurance.md": "c13508bbb74634ba72e15fb9362eca1556cf8ac2ae28a35817789faea9a06593",
+    "backlog/03-nouveaux-domaines/dom-005-decoupage-assurance.md": "3f0da3fa75c50c409dbf860e744217cf632cd4b3b919c692280d1b3f64828bf7",
+    "backlog/03-nouveaux-domaines/dom-016-successions-donations.md": "8721e76502cf2582c5b0d2f940c2cc672a43ec990153a8e2bdbb753010fc1cb8",
+    "backlog/03-nouveaux-domaines/dom-024-dettes-surendettement.md": "1ff17900fc1095628bf818e9a5441184f8ef427c9376c499f0970399e27c89de",
+    "backlog/03-nouveaux-domaines/suites/enf-004-saisie-compte.md": "355aa4b0a7881c582502c9a8e49417e983783a62b6028b7bb53bef16ff43b49b",
+    "backlog/03-nouveaux-domaines/suites/ins-008-assurance-emprunteur.md": "179b4c8d45872ca309f845a2dc3b85dbf3494b70f1007d3eca90d3bdec47ce78",
+    "backlog/03-nouveaux-domaines/suites/ins-011-assurance-vie-beneficiaire.md": "9867d12664794adf854bf252e44d2dc2533d101e232469792c9a0003461bc919",
+    "backlog/03-nouveaux-domaines/suites/ins-012-rachat-assurance-vie.md": "071db340d339fbfa3e2fdbbf91307e31a3bf7a3b487385d4030573fe0c32b486",
+    "backlog/README.md": "7136688573dbfaa65b2f17a7ad53a9e38b00e2581acb9cacf718628f285b3045",
+    "backlog/00-fondations/base-003-dossier-architecture.md": "cd3d9bd0f10ea0b9a5136d00865c21979975e391073f9132583cd556ea55a903",
+    "backlog/03-nouveaux-domaines/dom-004-controles.py": "123fe3e2c316df42097c3eb4798f09aebbf8c7ba56b9252bc1ac320377acecce",
+    "backlog/03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt": "10ae7341350acc24d1e512ef90bf459accf673e442506779f17171e00621d5ec"
   },
   "not_run": [
     "recherche juridique externe",
@@ -295,15 +371,22 @@
     "connexion/envoi/publication"
   ],
   "commands": [
-    "python -X utf8 backlog/03-nouveaux-domaines/dom-004-controles.py --baseline <instantane-debut-tache.json> --concurrent 'backlog/02-plugins-existants/exist-009-*' --concurrent 'backlog/02-plugins-existants/suites/cln-*' --output backlog/03-nouveaux-domaines/dom-004-resultats.json",
+    [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "backlog\\03-nouveaux-domaines\\dom-004-controles.py",
+      "--baseline",
+      "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-banking-frictions-baseline.json",
+      "--output",
+      "backlog/03-nouveaux-domaines/dom-004-resultats.json"
+    ],
     "python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)",
     "git diff --check (appelé par le contrôleur)"
   ],
   "execution_notes": [
-    "Instantané de début de tâche pris dans le répertoire temporaire de session, avant toute écriture du lot.",
-    "Contrôleur dérivé de celui de DOM-003 (préfixes, nom du plugin) ; les fichiers DOM-001 à DOM-003 non commités ne sont pas modifiés.",
-    "Premier passage : liens vers ce relevé absents avant sa création ; relevé régénéré une fois le fichier présent.",
-    "Montants des pièces fictives listés pour relecture manuelle : ce sont des données recopiées, pas des règles.",
-    "Un lot EXIST-009 a été écrit dans le même arbre pendant la tâche ; ses fichiers sont déclarés par --concurrent et listés, sans être attribués à DOM-004."
+    "Relevé actualisé lors de l’intégration des 99 frictions utilisateur et des huit nouvelles propositions BNK/INS.",
+    "Contrôle de périmètre exécuté seulement si un instantané --baseline est fourni ; voir le résultat dédié.",
+    "Montants fictifs et affirmations du texte utilisateur ne valent pas règles vérifiées ; scénarios métier non exécutés."
   ]
 }

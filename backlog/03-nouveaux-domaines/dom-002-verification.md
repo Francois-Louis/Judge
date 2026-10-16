@@ -1,8 +1,9 @@
 # DOM-002 — Vérification documentaire du cadrage
 
 Relecture du **16 octobre 2026** par l'agent de maintenance : suivre des
-pièces inventées dans le [découpage](dom-002-decoupage-penal.md) et les 12
-propositions CRIM, pour vérifier le routage et les informations à demander.
+pièces inventées dans le [découpage](dom-002-decoupage-penal.md) et les
+propositions CRIM du cadrage initial, pour vérifier le routage et les
+informations à demander.
 La story interdit de résoudre ces consultations : aucune durée, aucun délai,
 montant ou droit n'est conclu. Le [relevé machine](dom-002-resultats.json)
 consigne séparément les contrôles statiques.
@@ -87,7 +88,7 @@ démarche, sans montant autre que ceux du document ni délai calculé.
 |---|---|
 | Plugin propre et frontières | Découpage, sections plugin, garde-fous et frontières ; ligne mise à jour dans la matrice BASE-003. |
 | Tâches hiérarchisées, premier skill borné | Rangs 1 à 4 ; inclus et exclus de CRIM-001. |
-| Références, pièces, sortie, scénarios par story | Sections dédiées des 12 propositions, contrôlées par le relevé. |
+| Références, pièces, sortie, scénarios par story | Sections dédiées des 23 propositions après intégration, contrôlées par le relevé. |
 | Installation seule, pas d'agent ni connecteur par principe | Contrat d'installation du découpage ; aucun stockage des faits pénaux. |
 | Implémentations non lancées | Aucun fichier sous `criminal-legal/` ; marketplace inchangé. |
 | Distinctions demandées par la story | Contrôle, audition libre et garde à vue séparés dans la qualification ; droits, qualification et recours dans des sorties distinctes ; aucun équivalent Miranda ou subpoena. |
@@ -101,3 +102,26 @@ règles vérifiées. Aucune durée, aucun délai ni montant établi, aucun skill
 créé ou exécuté, aucun paquet installé, aucun lecteur réel ou indépendant,
 aucun envoi. Le préalable PILOTE-003 est satisfait après BASE-011 ; aucune
 tranche n'est sélectionnée par ce cadrage.
+
+## Relecture de l'intégration des frictions — 16 octobre 2026
+
+Parcours documentaire de l'agent de maintenance sur cas fictifs, sans exécution de skill ni réponse juridique. Les critères ajoutés aux stories restent **attendus, non exécutés**.
+
+| Cas fictif | Routage et résultat du parcours documentaire | Limite conservée |
+|---|---|---|
+| Plainte contre X refusée hors secteur faute de certificat | CRIM-004 : motif exact, preuves disponibles et futures, brouillon au procureur ; signalement distinct CRIM-021. | Aucune prescription ni obligation juridique conclue sans source. |
+| Audition dite libre, suspect, départ refusé, PV inexact | CRIM-002 : statut et changement de mesure à établir, avocat, heures, correction et copie selon le type de PV. | Aucun départ conseillé ni régime du témoin transposé. |
+| Contrôle municipal avec coffre et photographie | CRIM-018 maintenant, CRIM-008 après les faits ; corps, fondement, consentement et cadre de la prise d'image. | Aucun pouvoir général de fouille ou refus autorisé présumé. |
+| Entrée au domicile sans assentiment écrit, décision judiciaire évoquée | CRIM-019 : cadre, document, occupant, inventaire et scellés. | Aucune nullité déduite de la seule absence de signature. |
+| Blessures, vidéo tronquée et caméra-piéton supposée | CRIM-020 : soins et constat, originaux, détenteurs et conservation ; CRIM-004 plainte et CRIM-021 signalement. | Conservation distincte d'accès ; enregistrement non garanti. |
+| Agent municipal accusé d'humiliation, numéro visible, nom refusé | CRIM-021 : récit et canal selon corps, maire ou Défenseur des droits à vérifier. | IGPN non choisie par défaut ; nom civil et identification distincts. |
+| Vidéo demandée à effacer, appareil saisi | CRIM-020, puis CRIM-015 pour les documents après interpellation. | Aucun effacement ou reprise matérielle recommandé. |
+| Photo radar attendue, véhicule vendu, paiement appelé consignation | CRIM-003/005 : justificatif et nature du versement, cession et enregistrement, recours distinct de la photo. | Aucune suspension ni recevabilité présumée. |
+| FPS et lettre préfectorale pris pour actes pénaux | DOM-010 : exigences reçues, tâches au fond encore à découper ; CRIM-003/023 donnent le routage. | Aucun recours administratif annoncé comme disponible. |
+| Dépistage stupéfiants et rétention, résultats reçus sans trace de réserve | CRIM-023 : prélèvement, notification, heures, réserve et décision ultérieure à rechercher. | Aucun délai d'expertise ni droit de reprendre le volant déduit du récit. |
+| Encerclement, sommations non perçues, interpellation en foule | CRIM-016 puis CRIM-002/015 ; preuves CRIM-020, signalement CRIM-021. | Aucun contournement ni participation pénale déduite de la présence. |
+| Classement, casier vierge et mention TAJ alléguée | CRIM-007 lit classement ; CRIM-022 qualifie demande et refus ; CRIM-012 reste casier. | Aucun effacement ou recrutement promis. |
+| Composition à accepter ou ordonnance sans audience | CRIM-006 : acte, statut, notification et questions avocat. | Aucun choix conseillé ni délai universel d'opposition. |
+| Signalement en cours et date de recours proche | CRIM-021 sépare objectifs et recherche de délai avec la tâche propriétaire. | Aucun effet suspensif ou interruptif présumé du signalement. |
+
+Le contrôle de traçabilité compare les 97 numéros de la [source archivée](sources/police-penal-frictions-2026-10-16.txt) et de la [matrice](dom-002-frictions-utilisateurs.md), puis résout les liens des propriétaires. Les sections 1, 7 et 11–13 sont traitées dans une table distincte. Il contrôle aussi les identifiants et fichiers des 23 propositions, leurs dépendances, tableaux, liens et statuts. Il ne démontre pas l'exactitude juridique, l'exhaustivité de chaque futur skill ni son utilisabilité réelle.

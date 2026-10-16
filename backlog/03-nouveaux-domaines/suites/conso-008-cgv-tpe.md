@@ -47,10 +47,11 @@ Code de la consommation, information précontractuelle et clauses abusives
 abusives comme source non normative.
 
 ## Critères d'acceptation
-
 - [ ] V01 produit le tableau avec couverture visible, sans avis global.
 - [ ] V02 relève les clauses importées comme questions sourcées.
 - [ ] Aucune revue de traitement de données ni de publicité.
+- [ ] V03 rapproche clause, parcours fourni et source ; les corrections ne sont ni publiées ni présentées comme conformité globale.
+- [ ] La sortie se termine par une phrase courte nommant le professionnel compétent (avocat ou juriste d’une association selon le besoin), avec renfort en tête en cas de délai, procédure ou enjeu irréversible, selon BASE-013.
 
 ## Vérification
 
@@ -63,6 +64,18 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Rédaction complète de CGV, vente de services, conditions d'une place de
 marché, publication.
+
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points clauses et parcours de vente, en miroir des points 17–19, 23, 33, 41–50, 58–75, 136–138 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
+
+La revue des CGV pour une TPE rapproche clauses et parcours effectivement fourni : suppléments, assurance colis, renvoi au transporteur, réserve de livraison, formulaire imposé, avoir, port et retour, exclusion de garantie et médiateur. Séparer défaut de pièce, écart apparent et règle sourcée. Les interfaces peuvent être des pièces de vérification, sans étendre la tâche à l’audit global de publicité (PDT). La demande individuelle d’un acheteur garde son propriétaire CONSO, et les conditions de la plateforme restent hors périmètre.
+
+- Cas limite : V03 — CGV prévoyant avoir systématique, retour exclusivement par formulaire et garantie constructeur seule : tableau des clauses et informations manquantes, sans avis global.
+
+Scénarios complémentaires **attendus, non exécutés**. Les sources précises et
+leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée.
 
 ## État de la proposition — 16 octobre 2026
 

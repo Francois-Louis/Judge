@@ -58,7 +58,17 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 ## Hors périmètre
 
-Saisine du juge, dossier de surendettement, envoi.
+Calcul de prescription ou de forclusion, saisine du juge, dossier de surendettement, envoi.
+
+## Complément issu des frictions des commissaires de justice
+
+Points 6 et 46 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+
+- [ ] P05 — Accord ou versement présenté comme anodin : relire dette, montant et proposition avant de rédiger ; distinguer ce qui est reconnu, discuté et non vérifié. Si la dette est contestée ou ancienne, ENF-002 d'abord, sans paiement ni reconnaissance proposés automatiquement.
+- [ ] P06 — Reconnaissance, échéancier ou transaction : faire vérifier effets sur prescription, forclusion selon le régime et moyens de contestation ; une réserve de droits ne neutralise pas par principe tout engagement.
+- [ ] P07 — Invitation simplifiée ou saisie en cours : ENF-017 pour la procédure pouvant produire un titre ; story de la mesure pour le recours urgent. Une demande de délai ne vaut pas suspension obtenue.
+
+Scénarios P05–P07 **attendus, non exécutés** : versement symbolique pour une dette ancienne ; transaction contenant une renonciation ; échéancier proposé pendant une saisie. Sources supplémentaires à rechercher : reconnaissance, interruption et renonciation selon la prescription ou la forclusion applicable ; effets d'un accord et procédure simplifiée. Le calcul de prescription reste hors périmètre.
 
 ## État de la proposition — 16 octobre 2026
 

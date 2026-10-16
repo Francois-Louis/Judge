@@ -56,7 +56,18 @@ Lire une notification de surendettement et repérer stade, demandes de pièces e
 
 Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pas résoudre ces dossiers pendant le cadrage.
 
+## Complément à découper — frictions bancaires
+
+Points 78–79 de la [matrice utilisateur](dom-004-frictions-utilisateurs.md).
+
+- [ ] Une proposition de nouveau crédit pour payer les frais conduit à un inventaire dettes/revenus/charges/échéances et à des options à vérifier, sans conseil d'emprunter davantage ; l'offre relève de BNK-005.
+- [ ] Une insolvabilité durable sans dossier produit la liste des pièces et la démarche officielle à vérifier, sans assimiler dépôt, recevabilité et protections de la procédure.
+
+Cas à prévoir : compte régulièrement débiteur avec plusieurs créanciers,
+dossier préparé mais non déposé, activité indépendante avec dettes mixtes.
+Le contexte professionnel reçoit une qualification distincte ; concours
+bancaire professionnel → BNK-018. Le cadrage reste `proposee`, à découper.
+
 ## Hors périmètre
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
-

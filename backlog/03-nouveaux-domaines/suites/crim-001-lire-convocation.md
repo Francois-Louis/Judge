@@ -111,6 +111,14 @@ Mesure en cours, mineur, acte de juridiction, qualification d'infraction,
 préparation des déclarations, prédiction de la suite, contact du service,
 envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 32–36 de la [matrice](../dom-002-frictions-utilisateurs.md). Ne pas présenter la convocation comme une formalité sans effet ni déduire le statut du ton du message. Distinguer se présenter, répondre et pouvoir quitter une audition ; les droits sont vérifiés pour le statut établi. Audition déjà commencée → CRIM-002, sans préparation des réponses.
+
+- [ ] C04 — Convocation présentée comme informelle : demander qualité, faits annoncés, accès à l'avocat et interprète selon le statut, sans promettre l'absence de poursuites.
+
+Scénario **attendu, non exécuté** : appel « venez juste discuter », qualité inconnue, personne persuadée de ne pas avoir besoin d'avocat.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation. Préalable PILOTE-003 satisfait après

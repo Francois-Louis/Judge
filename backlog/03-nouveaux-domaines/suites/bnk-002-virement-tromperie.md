@@ -66,6 +66,15 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 Plainte, action contre le bénéficiaire, récupération des fonds par un tiers
 payant, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 25, 33, 37 de la [matrice](../dom-004-frictions-utilisateurs.md).
+
+- [ ] F03 — Faux conseiller : recueillir les écrans réellement affichés, nom/IBAN partiellement masqué, résultat de la vérification, avertissements, dates et acteurs ; ne pas déduire le consentement de la validation technique.
+- [ ] F04 — Vérification absente alléguée : demander les traces et vérifier le champ temporel et territorial du dispositif avant tout grief.
+
+Le brouillon distingue la demande urgente de rappel, la preuve du consentement et les obligations éventuellement manquées. Erreur de saisie sans tromperie → BNK-015. Scénarios F03/F04 **attendus, non exécutés** ; jurisprudence et texte européen à ouvrir lors du lot.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :

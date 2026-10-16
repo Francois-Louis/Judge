@@ -2,24 +2,24 @@
   "story": "DOM-002",
   "date": "2026-10-16",
   "timezone": "Europe/Paris",
-  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+  "git_head": "24adce2ab83c0f418cfa43fafdd7c6811c2e798f",
   "scope": "cadrage documentaire police et procédure pénale ; aucun plugin créé ni validation juridique",
   "checks": {
     "backlog_frontmatter_and_dependencies": {
       "status": "passed",
-      "total": 234,
+      "total": 418,
       "statuses": {
-        "terminee": 27,
+        "terminee": 36,
         "en-cours": 1,
-        "proposee": 205,
+        "proposee": 380,
         "a-verifier": 1
       },
       "problems": []
     },
     "bounded_proposals": {
       "status": "passed",
-      "count": 12,
-      "file_targets": 38,
+      "count": 23,
+      "file_targets": 60,
       "future_files": [
         {
           "path": "criminal-legal/.claude-plugin/plugin.json",
@@ -160,13 +160,108 @@
         {
           "path": "criminal-legal/references/casier.md",
           "owner": "CRIM-012"
+        },
+        {
+          "path": "criminal-legal/skills/victim-compensation/SKILL.md",
+          "owner": "CRIM-013"
+        },
+        {
+          "path": "criminal-legal/references/indemnisation-victimes.md",
+          "owner": "CRIM-013"
+        },
+        {
+          "path": "criminal-legal/skills/sentence-execution/SKILL.md",
+          "owner": "CRIM-014"
+        },
+        {
+          "path": "criminal-legal/references/execution-peines.md",
+          "owner": "CRIM-014"
+        },
+        {
+          "path": "criminal-legal/skills/arrest-follow-up/SKILL.md",
+          "owner": "CRIM-015"
+        },
+        {
+          "path": "criminal-legal/references/interpellation.md",
+          "owner": "CRIM-015"
+        },
+        {
+          "path": "criminal-legal/skills/demonstration-guide/SKILL.md",
+          "owner": "CRIM-016"
+        },
+        {
+          "path": "criminal-legal/references/manifestations.md",
+          "owner": "CRIM-016"
+        },
+        {
+          "path": "criminal-legal/skills/weapons-status/SKILL.md",
+          "owner": "CRIM-017"
+        },
+        {
+          "path": "criminal-legal/references/armes.md",
+          "owner": "CRIM-017"
+        },
+        {
+          "path": "criminal-legal/skills/stop-orientation/SKILL.md",
+          "owner": "CRIM-018"
+        },
+        {
+          "path": "criminal-legal/references/controle-en-cours.md",
+          "owner": "CRIM-018"
+        },
+        {
+          "path": "criminal-legal/skills/home-search-reading/SKILL.md",
+          "owner": "CRIM-019"
+        },
+        {
+          "path": "criminal-legal/references/perquisition-domicile.md",
+          "owner": "CRIM-019"
+        },
+        {
+          "path": "criminal-legal/skills/intervention-evidence/SKILL.md",
+          "owner": "CRIM-020"
+        },
+        {
+          "path": "criminal-legal/references/preuves-intervention.md",
+          "owner": "CRIM-020"
+        },
+        {
+          "path": "criminal-legal/skills/officer-conduct-report/SKILL.md",
+          "owner": "CRIM-021"
+        },
+        {
+          "path": "criminal-legal/references/signalement-agent.md",
+          "owner": "CRIM-021"
+        },
+        {
+          "path": "criminal-legal/skills/taj-request/SKILL.md",
+          "owner": "CRIM-022"
+        },
+        {
+          "path": "criminal-legal/references/fichier-taj.md",
+          "owner": "CRIM-022"
+        },
+        {
+          "path": "criminal-legal/skills/roadside-test-reading/SKILL.md",
+          "owner": "CRIM-023"
+        },
+        {
+          "path": "criminal-legal/references/controle-routier.md",
+          "owner": "CRIM-023"
         }
       ],
       "problems": []
     },
     "breakdown_table_consistency": {
       "status": "passed",
-      "rows": 12,
+      "rows": 23,
+      "problems": []
+    },
+    "user_frictions_traceability": {
+      "status": "passed",
+      "points": 97,
+      "source_sha256": "d5a1050b71ab215d31a4b192a761b94f66155a0dbca9cef533ed3fb6db3aaef5",
+      "note": "Structural traceability only; no legal or functional validation",
       "problems": []
     },
     "no_plugin_created": {
@@ -176,8 +271,8 @@
     },
     "links_and_format": {
       "status": "passed",
-      "markdown_files": 17,
-      "local_links": 209,
+      "markdown_files": 30,
+      "local_links": 457,
       "problems": []
     },
     "table_column_counts": {
@@ -196,13 +291,15 @@
     },
     "scope_vs_task_baseline": {
       "status": "passed",
-      "baseline_git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+      "baseline_git_head": "24adce2ab83c0f418cfa43fafdd7c6811c2e798f",
       "lot_changes": [
-        "backlog/00-fondations/base-003-dossier-architecture.md",
         "backlog/03-nouveaux-domaines/dom-002-controles.py",
         "backlog/03-nouveaux-domaines/dom-002-decoupage-penal.md",
+        "backlog/03-nouveaux-domaines/dom-002-frictions-utilisateurs.md",
         "backlog/03-nouveaux-domaines/dom-002-police-penal.md",
         "backlog/03-nouveaux-domaines/dom-002-verification.md",
+        "backlog/03-nouveaux-domaines/dom-010-administratif.md",
+        "backlog/03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt",
         "backlog/03-nouveaux-domaines/suites/crim-001-lire-convocation.md",
         "backlog/03-nouveaux-domaines/suites/crim-002-mesure-en-cours.md",
         "backlog/03-nouveaux-domaines/suites/crim-003-lire-avis-amende.md",
@@ -211,29 +308,28 @@
         "backlog/03-nouveaux-domaines/suites/crim-006-lire-acte-poursuite.md",
         "backlog/03-nouveaux-domaines/suites/crim-007-suivre-plainte.md",
         "backlog/03-nouveaux-domaines/suites/crim-008-controle-subi.md",
-        "backlog/03-nouveaux-domaines/suites/crim-009-requisition-organisation.md",
         "backlog/03-nouveaux-domaines/suites/crim-010-points-permis.md",
-        "backlog/03-nouveaux-domaines/suites/crim-011-mineur-mis-en-cause.md",
         "backlog/03-nouveaux-domaines/suites/crim-012-casier-judiciaire.md",
+        "backlog/03-nouveaux-domaines/suites/crim-015-interpellation.md",
+        "backlog/03-nouveaux-domaines/suites/crim-016-manifestation.md",
+        "backlog/03-nouveaux-domaines/suites/crim-018-controle-en-cours.md",
+        "backlog/03-nouveaux-domaines/suites/crim-019-perquisition-domicile.md",
+        "backlog/03-nouveaux-domaines/suites/crim-020-preserver-preuves.md",
+        "backlog/03-nouveaux-domaines/suites/crim-021-signaler-agent.md",
+        "backlog/03-nouveaux-domaines/suites/crim-022-fichier-taj.md",
+        "backlog/03-nouveaux-domaines/suites/crim-023-controle-routier.md",
         "backlog/README.md"
       ],
-      "concurrent_patterns": [
-        "backlog/02-plugins-existants/exist-007-*",
-        "backlog/02-plugins-existants/suites/vei-*"
-      ],
-      "concurrent_changes": [
-        "backlog/02-plugins-existants/exist-007-inventaire-veille.md",
-        "backlog/02-plugins-existants/exist-007-sondages.py",
-        "backlog/02-plugins-existants/exist-007-sources.json"
-      ],
-      "preserved_files": 721,
+      "concurrent_patterns": [],
+      "concurrent_changes": [],
+      "preserved_files": 948,
       "report_excluded_from_own_comparison": true,
       "note": "Les fichiers du lot partagés (index, BASE-003) peuvent aussi porter des changements concurrents ; le contrôle ne les attribue pas.",
       "problems": []
     },
     "repository_json_sanity": {
       "status": "passed",
-      "files": 72,
+      "files": 84,
       "problems": []
     },
     "cookbook_tool_scope_lint": {
@@ -248,24 +344,38 @@
     }
   },
   "lot_sha256": {
-    "backlog/03-nouveaux-domaines/dom-002-police-penal.md": "ab3a35b0add3f2972504334b33aad3cc145af1dc9117a0fc3a4963c74bf2da99",
-    "backlog/03-nouveaux-domaines/dom-002-decoupage-penal.md": "47b4c7f239060dda35a13c98db23f414ab6707046c38a1a49cf7bcf13d94fb87",
-    "backlog/03-nouveaux-domaines/dom-002-verification.md": "4e56b367a19bf3f34da17962df9d0046fa87a3d13b03d6d5de5582d783ae548a",
-    "backlog/03-nouveaux-domaines/suites/crim-001-lire-convocation.md": "ff446a6968b725f9dc90083266b8cc739c52632c611c9a9ee3844a21dbf81a56",
-    "backlog/03-nouveaux-domaines/suites/crim-002-mesure-en-cours.md": "6dc4068618a7da1a9997a71bf3847e925ba7fadf0ae4f74e718b43b9a7c9732e",
-    "backlog/03-nouveaux-domaines/suites/crim-003-lire-avis-amende.md": "2f3f9485efb3385c14804faa95369d97358c784166e1431ff3f76b3d9b1f0611",
-    "backlog/03-nouveaux-domaines/suites/crim-004-preparer-plainte.md": "da18bef0add625b985729173b190a477e1fbbe301b1b458de53ce02f9299a33e",
-    "backlog/03-nouveaux-domaines/suites/crim-005-contester-amende.md": "d3bf450f287044dadeff9410627a645494bf0118a5835e0f9931d7f1081778f4",
-    "backlog/03-nouveaux-domaines/suites/crim-006-lire-acte-poursuite.md": "81f4ff02efaa5fe7ee792a688f81f284c0430c2852f69449ea20ba714c3e2aea",
-    "backlog/03-nouveaux-domaines/suites/crim-007-suivre-plainte.md": "fe19b26ccac8bf066b36b04ece030b858cb0a32f0a9b38ecce6c7f834b4419c0",
-    "backlog/03-nouveaux-domaines/suites/crim-008-controle-subi.md": "f6c9dcf2d5d7f2c68d0091c3548bb05c36de1a20dfcffaf111ea5be18f9679c3",
+    "backlog/03-nouveaux-domaines/dom-002-police-penal.md": "886d2210b59352c176df47e5aa4a72fdb460526bc60ddb9ff7f546ed868e114a",
+    "backlog/03-nouveaux-domaines/dom-002-decoupage-penal.md": "45230a58a023c5095757cbd10b9d6689cf2e31a94810536b85c823521ac808fb",
+    "backlog/03-nouveaux-domaines/dom-002-verification.md": "04ac5ba1f0bcf283f0552ae5092a6c4cb14680e92edb5010ac250c3c6fa0be40",
+    "backlog/03-nouveaux-domaines/dom-002-frictions-utilisateurs.md": "0636d56322461f849e051975c836cd84cb17504f8dad28ccabd9bde7eb38eaeb",
+    "backlog/03-nouveaux-domaines/suites/crim-001-lire-convocation.md": "3eba7ee596b70e22f376a0463391891a98f4a8fb43c8e6d4bf1847078b9327e4",
+    "backlog/03-nouveaux-domaines/suites/crim-002-mesure-en-cours.md": "2ee45599ac73bc96ecf87c97f5e15f71a99835df04dd6dd8457d91dae8fdcf61",
+    "backlog/03-nouveaux-domaines/suites/crim-003-lire-avis-amende.md": "0a1da8e5d415033a0292df08d86aec56044ff7312f692c03ca367751fe5efdf6",
+    "backlog/03-nouveaux-domaines/suites/crim-004-preparer-plainte.md": "502075813f94d8f80ff8044ee58581231aaa4edfaa4d527aca9722d0b7030575",
+    "backlog/03-nouveaux-domaines/suites/crim-005-contester-amende.md": "916f4dbad4bafc89a30b2e2ad09e182de63e8b49589d6452e3a5a95ddd229021",
+    "backlog/03-nouveaux-domaines/suites/crim-006-lire-acte-poursuite.md": "89e1a0bf5cb973b7389b04a876f688191909eed15a315ffab1f45133e49d83ce",
+    "backlog/03-nouveaux-domaines/suites/crim-007-suivre-plainte.md": "1ee97e228c3c457dec9d2cadccb69db756dd6f456613554005e9ec293b17412c",
+    "backlog/03-nouveaux-domaines/suites/crim-008-controle-subi.md": "391be78a7ce74ee56933f4972a25b9b13770683a853e6c0a89d9cf497315dae2",
     "backlog/03-nouveaux-domaines/suites/crim-009-requisition-organisation.md": "b40b938c935e0813e220df5c6868e15aaae50c5c73d780419fc2f6155872f7a8",
-    "backlog/03-nouveaux-domaines/suites/crim-010-points-permis.md": "9c9531605530dc883e25c37052e683ecf774fc26e52a6f55ac476ccce58c27fa",
+    "backlog/03-nouveaux-domaines/suites/crim-010-points-permis.md": "7defca78344773679be817fa74948afce8a234a84cfcd7e1cd488cb4d305d7f1",
     "backlog/03-nouveaux-domaines/suites/crim-011-mineur-mis-en-cause.md": "ef9c14cf0fbcc4e7984599a92e1af1f76200222b50406e3a33b64841bf1abb6c",
-    "backlog/03-nouveaux-domaines/suites/crim-012-casier-judiciaire.md": "b8c46750ee6725763b55107e23026eb7ece0f64e6b4d833b50bcc310bc526931",
-    "backlog/README.md": "cdca75d04259fcb12d194552cfa2292e4e384002df6824a1ed850454ef85d2ed",
-    "backlog/00-fondations/base-003-dossier-architecture.md": "e88bc24152faddbb72838f56b304e605221b319c34f73fd8fb230deb625ea68b",
-    "backlog/03-nouveaux-domaines/dom-002-controles.py": "afba1a413da45015cf57eeb335e817e756af7ce11aea952273742f25629735a3"
+    "backlog/03-nouveaux-domaines/suites/crim-012-casier-judiciaire.md": "6f4ff7da3c2785f1ded28c80e0b09587ec4f24ec097b80fd270ff7c7b93309e1",
+    "backlog/03-nouveaux-domaines/suites/crim-013-indemnisation-victimes.md": "9c62a6d18141742cd870e35c7d2d364d73705dc50b3afd55b313460a9df63d5b",
+    "backlog/03-nouveaux-domaines/suites/crim-014-execution-peines.md": "6ebeb2f2ecfcce96c40ec569ff9fdd1298a9a5c9db9d23b7b488c99f38aeba45",
+    "backlog/03-nouveaux-domaines/suites/crim-015-interpellation.md": "432875943b6aac1f198902de3250473c605061efef3ead0bc9dcf235dd696ea3",
+    "backlog/03-nouveaux-domaines/suites/crim-016-manifestation.md": "e252a3f29e6169f4066cb38acfaee2cc69212d333b22f1dbdbe0643945828c8f",
+    "backlog/03-nouveaux-domaines/suites/crim-017-armes.md": "ee7092781a79c5ef91978f83fbca1c9b16a9475ae098df80c53a1607330bda4a",
+    "backlog/03-nouveaux-domaines/suites/crim-018-controle-en-cours.md": "011f14bab4229197ba8b88b1387f165fe62403f1ebb17cb7ad739d86bf340705",
+    "backlog/03-nouveaux-domaines/suites/crim-019-perquisition-domicile.md": "e29a3ed55d738b6e4bfc080c775ec3079420fe43a03ad10991d27534da15cc0c",
+    "backlog/03-nouveaux-domaines/suites/crim-020-preserver-preuves.md": "dacc06f4db059b2172bbc3e17f5812a34b2438d5e36e38dd8ee02fed2c4164cf",
+    "backlog/03-nouveaux-domaines/suites/crim-021-signaler-agent.md": "1a5e0ebc22a7e4d36d2e7e91fc1ff2863231edb3e1d2843fff4e80538fd61f9b",
+    "backlog/03-nouveaux-domaines/suites/crim-022-fichier-taj.md": "bdb0b39b8d563f19de170f88aad329bcfc934604d3bb663fa46e4d796f218031",
+    "backlog/03-nouveaux-domaines/suites/crim-023-controle-routier.md": "5dd9a013ccb2a03386f861f51df09cf8fd2de83774f0395d5e4d92d8a5239985",
+    "backlog/03-nouveaux-domaines/dom-010-administratif.md": "6b7755256c5350b8dc283361a888a79e125a506dcc66b0a4f4a82d46fdd9492b",
+    "backlog/README.md": "f275e73db34059ff24544c8774f4c2dfc6dcbe686d4df83ae1565c6915a45f85",
+    "backlog/00-fondations/base-003-dossier-architecture.md": "cd3d9bd0f10ea0b9a5136d00865c21979975e391073f9132583cd556ea55a903",
+    "backlog/03-nouveaux-domaines/dom-002-controles.py": "e33ee24b7b8b59a60b8dba8aea8a829402e62839ee9c80ef73c619b56898658c",
+    "backlog/03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt": "d5a1050b71ab215d31a4b192a761b94f66155a0dbca9cef533ed3fb6db3aaef5"
   },
   "not_run": [
     "recherche juridique externe",
@@ -276,14 +386,23 @@
     "connexion/envoi/publication"
   ],
   "commands": [
-    "python -X utf8 backlog/03-nouveaux-domaines/dom-002-controles.py --baseline <instantane-debut-tache.json> --concurrent 'backlog/02-plugins-existants/exist-007-*' --concurrent 'backlog/02-plugins-existants/suites/vei-*' --output backlog/03-nouveaux-domaines/dom-002-resultats.json",
+    [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "backlog\\03-nouveaux-domaines\\dom-002-controles.py",
+      "--baseline",
+      "C:/Users/fltou/AppData/Local/Temp/judge-dom002-before.json",
+      "--output",
+      "backlog/03-nouveaux-domaines/dom-002-resultats.json"
+    ],
     "python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)",
     "git diff --check (appelé par le contrôleur)"
   ],
   "execution_notes": [
-    "Instantané de début de tâche pris dans le répertoire temporaire de session, avant toute écriture du lot.",
-    "Contrôleur dérivé de celui de DOM-001 (préfixes, nombre de propositions, nom du plugin) ; les fichiers DOM-001 non commités ne sont pas modifiés.",
-    "Premier passage : liens vers ce relevé absents avant sa création ; relevé régénéré une fois le fichier présent.",
-    "Un lot EXIST-007 était en cours d'écriture dans le même arbre ; ses fichiers sont déclarés par --concurrent et listés, sans être attribués à DOM-002."
+    "Relevé actualisé pour les 97 situations utilisateur et les six propositions CRIM-018 à CRIM-023.",
+    "Instantané de début de cette intégration pris avant écriture ; contrôle de périmètre seulement si --baseline est fourni.",
+    "Les modifications préexistantes des domaines banque, assurance et exécution sont préservées ; voir scope_vs_task_baseline.",
+    "Traçabilité documentaire seulement ; sources juridiques non lues, scénarios métier non exécutés."
   ]
 }

@@ -50,11 +50,12 @@ exceptions, foires et salons ; directive 2011/83/UE. Version à la date de
 conclusion.
 
 ## Critères d'acceptation
-
 - [ ] R01 produit le brouillon et la liste des preuves, avec délai seulement s'il est sourcé et daté.
 - [ ] R02 isole l'achat sur salon et le crédit en questions distinctes.
 - [ ] R03 laisse la protection du petit professionnel conditionnelle.
 - [ ] La sortie se comprend sans formation juridique, sans garantir l'issue.
+- [ ] R04 à R08 distinguent notification, retour et remboursement ; l’exception, le différé et la dépréciation sont motivés ou réservés.
+- [ ] La sortie se termine par une phrase courte nommant le professionnel compétent (avocat ou juriste d’une association selon le besoin), avec renfort en tête en cas de délai, procédure ou enjeu irréversible, selon BASE-013.
 
 ## Vérification
 
@@ -68,6 +69,24 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Remboursement bancaire, annulation d'un crédit, frais de retour chiffrés
 sans source, envoi de la déclaration.
+
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 41–57, 130–131 de la [matrice des besoins](../dom-001-frictions-utilisateurs.md).
+Ces exigences complètent le périmètre ; elles ne valident aucune règle du guide.
+
+La sortie distingue notification explicite, expédition du retour, preuve fournie, récupération et remboursement ; ne pas traiter le retour silencieux comme notification certaine. Ajouter un état des sommes : prix, port standard, supplément express choisi, retour, dépréciation alléguée, avoir proposé. Chaque charge ou restitution reste à vérifier selon information préalable et texte lu.
+
+Examiner soldes, déballage, hygiène, usage excessif, personnalisation effective contre options standards, fabrication à la commande, information absente ou tardive, adresse de retour étrangère et formulaire prétendument exclusif. Pour le numérique, distinguer contenu et service, demande d’exécution, accord, reconnaissance de perte du droit et confirmation selon le régime ; ne pas utiliser une renonciation universelle. En boutique, lire aussi la politique promise. Foire, salon, crédit affecté et hors établissement restent des branches distinctes. Un remboursement refusé ou retardé après notification documentée ouvre CONSO-019.
+
+- Cas limite : R04 — Article soldé et déballé, formulaire imposé : vérifier nature du bien et preuve d’une déclaration claire.
+- Cas limite : R05 — Retour expédié, avoir imposé et port express retenu : état des sommes, preuve d’expédition et conditions de différé à vérifier.
+- Cas limite : R06 — Meuble fabriqué à la commande parmi des options standards, retour à l’étranger non annoncé : qualifier personnalisation et information.
+- Cas limite : R07 — Logiciel commencé, renonciation alléguée sans confirmation : distinguer service et contenu ; conditions laissées ouvertes.
+- Cas limite : R08 — Information sur la rétractation absente puis transmise tardivement : dater chaque événement avant recherche d’une prolongation.
+
+Scénarios complémentaires **attendus, non exécutés**. Les sources précises et
+leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée.
 
 ## État de la proposition — 16 octobre 2026
 

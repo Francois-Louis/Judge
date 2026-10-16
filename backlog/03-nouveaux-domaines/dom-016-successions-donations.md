@@ -57,7 +57,28 @@ Décrypter un courrier de règlement de succession et produire une liste de piè
 
 Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pas résoudre ces dossiers pendant le cadrage.
 
+## Complément à découper — frictions bancaires
+
+Points 86–88 de la [matrice utilisateur](dom-004-frictions-utilisateurs.md) :
+prévoir une tâche bornée de lecture des frais et demandes bancaires d'une
+succession, et une tâche de recherche de comptes oubliés. Pièces : date du
+décès, qualité de l'héritier, avoirs et produits concernés, tarif daté,
+décompte des frais et échanges ; notifications de transfert pour la recherche.
+Sorties : tableau avoir/frais/fondement à vérifier, demande de justification
+ou de restitution, et liste des recherches utiles avec interlocuteurs.
+
+- [ ] Le futur découpage distingue frais bancaires successoraux, honoraires du notaire et fiscalité ; la frontière DOM-004 garde ici le décompte successoral.
+- [ ] Un décompte sans détail ou une gratuité revendiquée reçoit une demande de pièces et une vérification du régime à la date pertinente, sans plafond ni gratuité affirmés sans texte lu.
+- [ ] La recherche de comptes distingue banque et Ciclade, qualité du demandeur et assurance-vie (INS-011) ; aucun accès promis aux fonds.
+
+Cas à prévoir : frais successoraux globaux sans assiette ; héritier invoquant
+une modification de droit de 2026 ; compte ancien sans preuve de transfert.
+L'affirmation du texte utilisateur sur une décision constitutionnelle de juin
+2026 reste à vérifier dans la décision officielle et ses effets dans le temps.
+Rechercher aussi les textes bancaires et tarifs applicables ; aucun droit
+nouveau ni suppression de droit déduit de ce seul texte. Ce cadrage reste
+`proposee` : aucune story d'implémentation successorale créée ici.
+
 ## Hors périmètre
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
-

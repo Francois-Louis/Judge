@@ -59,6 +59,16 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Assistance pendant un contrôle, plainte rédigée, publication de vidéos.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 13–28, 49–54, 76–78 et 81 de la [matrice](../dom-002-frictions-utilisateurs.md). Ajouter motif et cadre annoncés, territoire, corps et qualité, heures de début du contrôle et d'une vérification, consentement demandé ou non, mesure imposée, empreintes ou photographies prises, paroles rapportées et identifiants visibles.
+
+- [ ] B03 — Séparer contrôle/relevé/vérification d'identité, palpation/fouille corporelle/sac/véhicule, agents municipaux/nationaux/privés ; absence d'explication, absence de carte ou refus de nom civil ne suffisent pas à conclure à une illégalité.
+- [ ] B04 — Contrôles répétés allégués discriminatoires : tableau date, lieu, motif, termes exacts, comparaisons observées et témoins ; conserver le récit ici et la question de discrimination à DOM-029, sans causalité présumée.
+- [ ] B05 — Preuves à risque → CRIM-020 ; signalement à préparer → CRIM-021 ; plainte → CRIM-004 ; domicile → CRIM-019.
+
+Scénarios **attendus, non exécutés** : contrôle municipal suivi de photographies ; refus d'accès après refus de fouille ; contrôles répétés ; numéro visible mais nom refusé. Sources à rechercher : fondements des fouilles, relevé municipal, empreintes et photographie, identification et exceptions. Pour le contrôle en cours, l'orientation détaillée appartient à CRIM-018 ; CRIM-008 garde son périmètre après les faits.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :

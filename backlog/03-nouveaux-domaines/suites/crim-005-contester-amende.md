@@ -62,6 +62,17 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Procédure devant le tribunal de police, paiement, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 59–68 et 79 de la [matrice](../dom-002-frictions-utilisateurs.md). Recueillir motif exact, mode de constatation, photographie demandée ou reçue, écrit et témoin possibles, justificatifs de cession et enregistrement, adresse et notifications, justificatifs de paiement ou consignation.
+
+- [ ] K03 — PV contesté : rechercher la règle de preuve propre au régime (piste CPP 537), les mentions et les éléments contraires ; ni croire le PV irréfragable ni promettre qu'une déclaration suffit.
+- [ ] K04 — Photo radar demandée : suivre séparément la demande et le recours ; aucun effet suspensif présumé. Responsabilité du titulaire, conducteur réel et éventuelle obligation de désignation sont vérifiées séparément.
+- [ ] K05 — Véhicule cédé, avis sans interception, stationnement ou avis initial non reçu : demander les pièces adaptées et le régime exact, sans annulation automatique. Signalisation, emplacement, horaires et arrêté sont rapprochés pour le stationnement interdit ; FPS → DOM-010.
+- [ ] K06 — Paiement déjà fait, consignation ou remise gracieuse : reprendre CRIM-003 et vérifier la recevabilité avant le brouillon ; conserver la distinction contestation de l'infraction/remise financière.
+
+Scénarios **attendus, non exécutés** : conducteur différent sans désignation inventée ; cession non enregistrée ; PV et témoignage contradictoires ; cliché toujours attendu ; stationnement interdit confondu avec FPS. Aucun délai générique ni recours envoyé.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :

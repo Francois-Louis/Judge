@@ -1,6 +1,6 @@
 # DOM-002 — Découpage du domaine police et procédure pénale
 
-Propositions du **16 octobre 2026**. Les 17 stories CRIM restent `proposee`.
+Propositions du **16 octobre 2026**. Les 23 stories CRIM restent `proposee`.
 La [relecture documentaire](dom-002-verification.md) éprouve le routage sur
 les trois scénarios de la story et sur des cas limites. Aucun répertoire de
 plugin n'est créé par ce cadrage.
@@ -46,7 +46,7 @@ ne remplace pas l'avocat ; il prépare les faits et les questions à lui poser.
 
 CRIM-001 crée `criminal-legal/references/qualification-penale.md`, réutilisée
 par les autres skills du paquet. Chaque axe change la tâche ou la réponse ;
-le cadrage ne fixe pas la règle applicable.
+le cadrage ne fixe pas la règle applicable. Pendant un contrôle ou une fouille en cours : CRIM-018 ; audition ou garde à vue : CRIM-002 ; domicile : CRIM-019 ; dépistage routier ou rétention du permis : CRIM-023.
 
 | Axe | Faits à recueillir | Ce qui peut changer |
 |---|---|---|
@@ -71,7 +71,7 @@ civil, administratif ou de protection distincts, chacun avec son domaine.
 | Violences intrafamiliales — DOM-038 | Parcours de protection, canal sûr, coordination des volets. | La qualification pénale et les actes de procédure, sur question bornée transmise par DOM-038. CRIM-004 ne traite pas seul une plainte pour violences intrafamiliales. |
 | Séjour — DOM-028 | Retenue pour vérification du droit au séjour, éloignement, rétention. | Procédure pénale visant une personne étrangère ; les conséquences sur le séjour sont une question à DOM-028. |
 | Douanes — DOM-009 | Retenue, procès-verbal et transaction douaniers. | La procédure pénale lorsque l'affaire est confiée au parquet ou à la police judiciaire. |
-| Administratif — DOM-010 | Mesures de police administrative (fermeture, interdiction administrative). | Mesures de police judiciaire. |
+| Administratif — DOM-010 | Mesures de police administrative, FPS et ses recours, recours contre suspension ou invalidation du permis. Cadrage encore proposé, traitement au fond à découper. | Mesures de police judiciaire ; CRIM-023 lit la rétention initiale et distingue les suites administratives sans recours préparé. |
 | Véhicules — DOM-023 | Achat, location, réparation. | Infractions routières, amendes et information sur les points du permis ; la suspension ou l'invalidation administrative est lue et orientée, sans recours préparé. |
 | Exécution — DOM-003 | Acte de saisie, y compris pour le recouvrement d'une amende. | Contestation de l'amende elle-même. |
 | Numérique — DOM-034 | Signalement à la plateforme, retrait, suspension de compte. | Plainte pour harcèlement, usurpation ou menaces en ligne. |
@@ -95,10 +95,15 @@ P2, le rang 4 la priorité P3.
 | 2 | [CRIM-002](suites/crim-002-mesure-en-cours.md) | `custody-orientation` | Orientation brève pendant une garde à vue ou une retenue en cours | CRIM-001 |
 | 2 | [CRIM-003](suites/crim-003-lire-avis-amende.md) | `fine-notice-reading` | Fiche d'un avis d'amende, stade et options à vérifier | CRIM-001 |
 | 2 | [CRIM-004](suites/crim-004-preparer-plainte.md) | `complaint-preparation` | Chronologie, pièces et lieux de dépôt d'une plainte | CRIM-001 |
+| 2 | [CRIM-018](suites/crim-018-controle-en-cours.md) | `stop-orientation` | Orienter pendant un contrôle ou une fouille en cours | CRIM-001 |
 | 3 | [CRIM-005](suites/crim-005-contester-amende.md) | `fine-contest` | Brouillon de requête ou de réclamation contre une amende | CRIM-003 |
 | 3 | [CRIM-006](suites/crim-006-lire-acte-poursuite.md) | `court-document-reading` | Fiche d'un acte de poursuite ou d'un jugement pénal | CRIM-001 |
 | 3 | [CRIM-007](suites/crim-007-suivre-plainte.md) | `complaint-follow-up` | Lecture d'un avis de classement ou d'une suite donnée à une plainte | CRIM-004 |
 | 3 | [CRIM-015](suites/crim-015-interpellation.md) | `arrest-follow-up` | Point après une interpellation : documents, objets retenus, suite | CRIM-001 |
+| 3 | [CRIM-019](suites/crim-019-perquisition-domicile.md) | `home-search-reading` | Comprendre une perquisition au domicile et les objets saisis | CRIM-001 |
+| 3 | [CRIM-020](suites/crim-020-preserver-preuves.md) | `intervention-evidence` | Préparer la conservation des preuves d'une intervention | CRIM-001 |
+| 3 | [CRIM-021](suites/crim-021-signaler-agent.md) | `officer-conduct-report` | Préparer un signalement sur le comportement d'un agent | CRIM-001 |
+| 3 | [CRIM-023](suites/crim-023-controle-routier.md) | `roadside-test-reading` | Comprendre un dépistage routier et une rétention du permis | CRIM-001 |
 | 4 | [CRIM-008](suites/crim-008-controle-subi.md) | `stop-account` | Récit structuré d'un contrôle ou d'une fouille déjà subis, et canaux à vérifier | CRIM-001 |
 | 4 | [CRIM-009](suites/crim-009-requisition-organisation.md) | `requisition-reading` | Fiche d'une réquisition reçue par une organisation | CRIM-001 |
 | 4 | [CRIM-010](suites/crim-010-points-permis.md) | `licence-points-reading` | Lecture d'un courrier sur les points du permis | CRIM-003 |
@@ -108,6 +113,7 @@ P2, le rang 4 la priorité P3.
 | 4 | [CRIM-014](suites/crim-014-execution-peines.md) | `sentence-execution` | Lecture d'une peine prononcée et de ses convocations | CRIM-006 |
 | 4 | [CRIM-016](suites/crim-016-manifestation.md) | `demonstration-guide` | Cadre d'une manifestation et suites pour un participant | CRIM-001 |
 | 4 | [CRIM-017](suites/crim-017-armes.md) | `weapons-status` | Catégorie, autorisations et démarche régulière pour une arme ou un objet | CRIM-001 |
+| 4 | [CRIM-022](suites/crim-022-fichier-taj.md) | `taj-request` | Préparer une demande relative au fichier TAJ | CRIM-001 |
 
 CRIM-001 possède `qualification-penale.md` ; CRIM-003 possède
 `amendes.md`, relu par CRIM-005 et CRIM-010 ; CRIM-004 possède `plainte.md`,
@@ -174,3 +180,21 @@ et pièces utiles, sans appeler une branche absente.
 
 Les fichiers « à créer » des suites sont des livrables futurs. La portée de
 ce cadrage figure dans la [vérification](dom-002-verification.md).
+
+## Intégration des frictions utilisateur — 16 octobre 2026
+
+La [matrice des 97 situations](dom-002-frictions-utilisateurs.md) conserve le besoin et affecte chaque résultat. Le texte fourni ne vaut pas vérification juridique. CRIM-018 à CRIM-023 complètent les 17 propositions ; le premier lot proposé reste CRIM-001, sans sélection ni implémentation.
+
+Les orientations vers CRIM-020 (preuves), CRIM-021 (signalement), CRIM-022 (TAJ) et DOM-010 ne donnent pas accès à une branche absente. Aucune nouvelle dépendance métier entre stories existantes ; chaque référence nouvelle a un seul propriétaire. La composition pénale reçue par une personne mise en cause est lue par CRIM-006 ; CRIM-007 reste la suite donnée à une plainte côté victime. Une plainte bloquée peut donner lieu à un brouillon au procureur dans CRIM-004.
+
+| Recherche supplémentaire | Propriétaire |
+|---|---|
+| Contrôle en cours, consentement, relevé municipal, territoire et fouilles | CRIM-018 ; CRIM-008 pour le récit après faits |
+| Entrée au domicile, perquisition, scellés et restitution | CRIM-019 |
+| Caméras, conservation, accès, captation et diffusion | CRIM-020 |
+| Compétences des inspections, maire, Défenseur des droits et articulation avec plainte | CRIM-021 |
+| TAJ : accès, rectification, effacement, refus et silence | CRIM-022 |
+| Dépistage, vérification, expertise et rétention du permis | CRIM-023 |
+| Force, sommations, encerclement et jurisprudence officielle | CRIM-016 |
+
+Ces pistes seront lues lors des implémentations, avec régime, dates et exceptions. Les délais du texte utilisateur ne sont pas des règles embarquées ; aucun calculateur n'est ajouté.

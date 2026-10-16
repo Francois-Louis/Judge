@@ -1,6 +1,6 @@
 """Contrôles documentaires DOM-004, sans exécution d'un skill.
 
-python backlog/03-nouveaux-domaines/dom-001-controles.py
+python backlog/03-nouveaux-domaines/dom-004-controles.py
 Ajouter --baseline <instantane.json> pour contrôler les travaux préexistants.
 Ajouter --output <rapport.json> pour conserver un relevé, jamais une preuve de droit.
 L'instantané facultatif est un objet {"files": {chemin: sha256}, "git_head": ...}.
@@ -24,13 +24,23 @@ HERE = Path(__file__).resolve().parent
 REPORT = HERE / 'dom-004-resultats.json'
 COMMON = {'DOM-004', 'PILOTE-003', 'BASE-005', 'BASE-006'}
 LOT_DOCS = [HERE / ('dom-004-' + n + '.md') for n in (
-    'banque', 'decoupage-banque', 'verification')]
+    'banque', 'decoupage-banque', 'verification', 'frictions-utilisateurs')]
+FRICTION_SOURCE = HERE / 'sources/banques-frictions-2026-10-16.txt'
+FRICTION_RELAYS = [HERE / name for name in (
+    'dom-005-assurance.md', 'dom-005-decoupage-assurance.md',
+    'dom-016-successions-donations.md', 'dom-024-dettes-surendettement.md',
+    'suites/enf-004-saisie-compte.md', 'suites/ins-008-assurance-emprunteur.md',
+    'suites/ins-011-assurance-vie-beneficiaire.md', 'suites/ins-012-rachat-assurance-vie.md')]
 ALLOWED = {
     'backlog/README.md',
     'backlog/00-fondations/base-003-dossier-architecture.md',
     *(p.relative_to(ROOT).as_posix() for p in LOT_DOCS),
     'backlog/03-nouveaux-domaines/dom-004-controles.py',
     'backlog/03-nouveaux-domaines/dom-004-resultats.json',
+    *(p.relative_to(ROOT).as_posix() for p in FRICTION_RELAYS),
+    FRICTION_SOURCE.relative_to(ROOT).as_posix(),
+    'backlog/03-nouveaux-domaines/dom-005-controles.py',
+    'backlog/03-nouveaux-domaines/dom-005-resultats.json',
 }
 
 
@@ -111,11 +121,11 @@ def main():
     proposals = sorted((HERE / 'suites').glob('bnk-*.md'))
     for p in proposals:
         ALLOWED.add(p.relative_to(ROOT).as_posix())
-    expected = {f'BNK-{i:03}' for i in range(1, 13)}
+    expected = {f'BNK-{i:03}' for i in range(1, 20)}
     actual = {k for k in stories if k.startswith('BNK-')}
     problems = []
-    if actual != expected or len(proposals) != 12:
-        problems.append('Expected exactly BNK-001..BNK-012 and 12 files')
+    if actual != expected or len(proposals) != 19:
+        problems.append('Expected exactly BNK-001..BNK-019 and 19 files')
     required = ('Objectif et résultat attendu', 'Périmètre et fichiers',
                 'Pièces et informations nécessaires', 'Sortie attendue',
                 'Travail attendu', 'Références métier et sources à rechercher',
@@ -176,7 +186,7 @@ def main():
                       breakdown, re.M)
     problems = []
     if {r[1] for r in rows} != expected:
-        problems.append('Breakdown table does not list exactly BNK-001..012')
+        problems.append('Breakdown table does not list exactly BNK-001..019')
     for rank, ident, filename, skill, deps in rows:
         path, fm = stories[ident]
         if path.name != filename:
@@ -192,6 +202,32 @@ def main():
             problems.append(f'{ident}: rank {rank} expects {expected_priority}')
     record('breakdown_table_consistency', problems, rows=len(rows))
 
+    matrix = (HERE / 'dom-004-frictions-utilisateurs.md').read_text(encoding='utf-8')
+    friction_rows = re.findall(r'^\| (\d+) \| ([^|]+) \| ([^|]+) \| ([^|]+) \|$', matrix, re.M)
+    problems = []
+    if [int(row[0]) for row in friction_rows] != list(range(1, 100)):
+        problems.append('Friction matrix must list each input point 1..99 exactly once in order')
+    for number, situation, owners, result in friction_rows:
+        links = re.findall(r'\[([A-Z]+-\d{3})\]\(([^)]+)\)', owners)
+        if not links or not situation.strip() or not result.strip():
+            problems.append(f'Friction {number}: missing owner, situation or result')
+        for ident, target in links:
+            if ident not in stories or (HERE / target).resolve() != stories[ident][0].resolve():
+                problems.append(f'Friction {number}: invalid owner link {ident}: {target}')
+    if not FRICTION_SOURCE.is_file():
+        problems.append('Missing archived user input')
+    else:
+        source = FRICTION_SOURCE.read_text(encoding='utf-8')
+        # Numbered friction entries use escaped Markdown dots; later numbered
+        # practical steps restart at 1 and are deliberately kept separately.
+        numbered_part = source.split('## 10.', 1)[0]
+        source_numbers = re.findall(r'^(\d+)\\\.', numbered_part, re.M)
+        if [int(n) for n in source_numbers] != list(range(1, 100)):
+            problems.append('Archived input does not contain the original 99 numbered points')
+    record('user_frictions_traceability', problems, points=len(friction_rows),
+           source_sha256=digest(FRICTION_SOURCE) if FRICTION_SOURCE.is_file() else None,
+           note='Structural traceability only; no legal or functional validation')
+
     market = json.loads((ROOT / '.claude-plugin/marketplace.json').read_text(encoding='utf-8'))
     problems = []
     if (ROOT / 'banking-legal').exists():
@@ -201,7 +237,7 @@ def main():
         problems.append('banking plugin listed in marketplace')
     record('no_plugin_created', problems, marketplace_plugins=len(names))
 
-    lot = LOT_DOCS + proposals + [ROOT / 'backlog/README.md',
+    lot = LOT_DOCS + proposals + FRICTION_RELAYS + [ROOT / 'backlog/README.md',
                                   ROOT / 'backlog/00-fondations/base-003-dossier-architecture.md']
     problems, count = [], 0
     for p in lot:
@@ -225,7 +261,7 @@ def main():
     record('links_and_format', problems, markdown_files=len(lot), local_links=count)
 
     problems = []
-    for p in LOT_DOCS + proposals:
+    for p in LOT_DOCS + proposals + FRICTION_RELAYS:
         width = None
         for line in p.read_text(encoding='utf-8').splitlines():
             if not line.startswith('|'):
@@ -262,7 +298,7 @@ def main():
     record('index_matrix_and_prerequisites', problems)
 
     figures = []
-    for p in LOT_DOCS + proposals:
+    for p in LOT_DOCS + proposals + FRICTION_RELAYS:
         for number, line in enumerate(p.read_text(encoding='utf-8').splitlines(), 1):
             for hit in re.findall(r'\b\d+\s*(?:jours?|mois|ans?|semaines?|€|euros?)\b', line):
                 figures.append({'file': p.name, 'line': number, 'text': hit})
@@ -311,27 +347,23 @@ def main():
         'git_head': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
         'scope': 'cadrage documentaire bancaire ; aucun plugin créé ni validation juridique',
         'checks': checks,
-        'lot_sha256': {p.relative_to(ROOT).as_posix(): digest(p) for p in lot + [Path(__file__)]},
+        'lot_sha256': {p.relative_to(ROOT).as_posix(): digest(p) for p in lot + [Path(__file__), FRICTION_SOURCE]},
         'not_run': ['recherche juridique externe', 'calcul de délai, de décompte ou de montant',
                     'création ou exécution de skill', 'installation/recette client',
                     'lecteur réel ou indépendant', 'connexion/envoi/publication'],
         'commands': [
-            'python -X utf8 backlog/03-nouveaux-domaines/dom-004-controles.py --baseline <instantane-debut-tache.json> '
-            + ' '.join(f"--concurrent '{g}'" for g in args.concurrent)
-            + ' --output backlog/03-nouveaux-domaines/dom-004-resultats.json',
+            [sys.executable, '-X', 'utf8', str(Path(__file__).relative_to(ROOT)), *sys.argv[1:]],
             'python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)',
             'git diff --check (appelé par le contrôleur)',
         ],
         'execution_notes': [
-            "Instantané de début de tâche pris dans le répertoire temporaire de session, avant toute écriture du lot.",
-            "Contrôleur dérivé de celui de DOM-003 (préfixes, nom du plugin) ; les fichiers DOM-001 à DOM-003 non commités ne sont pas modifiés.",
-            "Premier passage : liens vers ce relevé absents avant sa création ; relevé régénéré une fois le fichier présent.",
-            "Montants des pièces fictives listés pour relecture manuelle : ce sont des données recopiées, pas des règles.",
-            "Un lot EXIST-009 a été écrit dans le même arbre pendant la tâche ; ses fichiers sont déclarés par --concurrent et listés, sans être attribués à DOM-004.",
+            'Relevé actualisé lors de l’intégration des 99 frictions utilisateur et des huit nouvelles propositions BNK/INS.',
+            'Contrôle de périmètre exécuté seulement si un instantané --baseline est fourni ; voir le résultat dédié.',
+            'Montants fictifs et affirmations du texte utilisateur ne valent pas règles vérifiées ; scénarios métier non exécutés.',
         ],
     }
     if args.output:
-        args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     for key, val in checks.items():
         print(f"{key}: {val['status']}")
         for problem in val.get('problems', []):

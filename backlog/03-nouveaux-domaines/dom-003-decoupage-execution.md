@@ -1,9 +1,11 @@
 # DOM-003 — Découpage du domaine exécution et recouvrement
 
-Propositions du **16 octobre 2026**. Les 13 stories ENF restent `proposee`.
+Propositions du **16 octobre 2026**. Les 19 stories ENF restent `proposee`.
 La [relecture documentaire](dom-003-verification.md) éprouve le routage sur
 les trois scénarios de la story et sur des cas limites. Aucun répertoire de
 plugin n'est créé par ce cadrage.
+
+La [matrice des 47 frictions utilisateur](dom-003-frictions-utilisateurs.md) complète ce découpage : six propositions ENF-014 à ENF-019 et exigences dans les suites existantes. Les règles du texte fourni restent à vérifier.
 
 ## Plugin retenu et contrat d'installation
 
@@ -59,9 +61,9 @@ par les autres skills du paquet.
 
 | Domaine | Ce qui lui revient | Ce que enforcement garde |
 |---|---|---|
-| Contentieux — EXIST-006/CTX | Procédure pour obtenir un titre, assignation, recours contre une décision. | Lecture de l'acte qui signifie la décision et repérage de l'urgence. |
+| Contentieux — EXIST-006/CTX | Procédure pour obtenir un titre, assignation, recours contre une décision. | Lecture de l'acte, urgence et opposition à une injonction de payer (ENF-012). Appel et arrêt de l'exécution provisoire : orientation vers un avocat ; les suites CTX ne livrent pas ces recours. |
 | Logement — DOM-006 | Dette locative, bail, maintien dans le logement au fond, aides. | Lecture du commandement et des actes d'expulsion (ENF-005). |
-| Banque — DOM-004 | Bien-fondé du crédit, frais facturés par la banque au titre de la saisie. | Saisie sur compte et sommes à laisser disponibles (ENF-004). |
+| Banque — DOM-004 | Bien-fondé du crédit, frais facturés par la banque au titre de la saisie. | Lecture et sommes disponibles (ENF-004) ; dossier de contestation de saisie-attribution (ENF-019). |
 | Surendettement — DOM-024 | Situation globale, procédure et ses effets sur les saisies. | Lecture d'un acte isolé ; plusieurs dettes → orientation DOM-024. |
 | Fiscalité, amendes, prestations — DOM-011, DOM-002, DOM-012 | Bien-fondé de l'impôt, de l'amende ou de l'indu ; contestation de la contrainte ou de l'avis. | Lecture d'un acte de saisie émis pour ces créances ; leur contestation propre reste à qualifier. |
 | Contrats B2B — EXIST-001/COM | Relance d'une facture impayée sans titre (COM-015), frais et pénalités (COM-016). | Créancier qui détient déjà un titre (ENF-010). |
@@ -71,6 +73,7 @@ par les autres skills du paquet.
 | Famille — DOM-013 | Pension alimentaire au fond, intermédiation. | Lecture d'un acte de saisie pour une pension. |
 | Administratif — DOM-010 | Concours de la force publique, indemnisation du bailleur. | Lecture des étapes de l'expulsion. |
 | Travail — employment | Relation de travail. | Saisie des rémunérations, y compris quand l'employeur est tiers saisi (ENF-007). |
+| Responsabilité — DOM-035 | Faute, causalité, dommage et réparation allégués, tâche au fond à découper. | Réclamation professionnelle ENF-015 et recours propre à la mesure, sans suspension déduite de la réclamation. |
 | Clinique — EXIST-009 | Accueil et supervision. Le modèle « consumer » (recouvrement américain) n'est pas repris. | La tâche du débiteur. |
 
 **Décision du 16 octobre 2026** ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)) : l'opposition d'un particulier à
@@ -93,10 +96,16 @@ priorité P2, le rang 4 la priorité P3.
 | 2 | [ENF-003](suites/enf-003-controler-decompte.md) | `statement-check` | Tableau du décompte, écarts et ventilation à demander | ENF-001 |
 | 2 | [ENF-004](suites/enf-004-saisie-compte.md) | `bank-seizure-orientation` | Orientation face à une saisie sur compte bancaire | ENF-001 |
 | 2 | [ENF-012](suites/enf-012-opposition-injonction.md) | `payment-order-opposition` | Urgence et brouillon d'opposition à une injonction de payer | ENF-001 |
+| 2 | [ENF-014](suites/enf-014-contester-frais.md) | `fee-dispute-preparation` | Demande motivée sur les frais et voie de contestation à vérifier | ENF-001, ENF-003 |
+| 2 | [ENF-017](suites/enf-017-petites-creances.md) | `small-claim-invitation-reading` | Lecture de l'invitation, étapes et portée des accords demandés | ENF-001 |
+| 2 | [ENF-019](suites/enf-019-contestation-saisie-attribution.md) | `bank-seizure-dispute-preparation` | Dossier et checklist de contestation de saisie-attribution, sans acte prêt à signifier | ENF-001, ENF-004 |
 | 3 | [ENF-005](suites/enf-005-expulsion.md) | `eviction-orientation` | Étape d'une procédure d'expulsion, urgences et interlocuteurs | ENF-001 |
 | 3 | [ENF-006](suites/enf-006-contester-signification.md) | `service-dispute` | Dossier factuel d'une remise d'acte contestée | ENF-001 |
 | 3 | [ENF-007](suites/enf-007-saisie-remunerations.md) | `wage-seizure-orientation` | Orientation face à une saisie sur salaire | ENF-001 |
 | 3 | [ENF-008](suites/enf-008-delais-paiement.md) | `payment-plan-request` | Brouillon de demande d'échéancier et options à vérifier | ENF-002 |
+| 3 | [ENF-015](suites/enf-015-reclamation-professionnelle.md) | `professional-complaint-preparation` | Chronologie, pièces et brouillon de réclamation professionnelle | ENF-001 |
+| 3 | [ENF-016](suites/enf-016-lire-constat.md) | `bailiff-report-reading` | Portée du constat, contradictions et preuves manquantes | ENF-001 |
+| 3 | [ENF-018](suites/enf-018-devis-constat.md) | `bailiff-report-quote-request` | Mission et demande de devis détaillé pour un constat | ENF-001 |
 | 4 | [ENF-009](suites/enf-009-mesure-conservatoire.md) | `protective-measure-reading` | Lecture d'une mesure conservatoire | ENF-001 |
 | 4 | [ENF-010](suites/enf-010-creancier-titre.md) | `creditor-title-orientation` | Orientation d'un petit créancier qui détient un titre | ENF-001 |
 | 4 | [ENF-011](suites/enf-011-saisie-biens.md) | `goods-seizure-orientation` | Orientation face à une saisie de biens ou de véhicule | ENF-001 |
@@ -104,7 +113,9 @@ priorité P2, le rang 4 la priorité P3.
 
 ENF-001 possède `qualification-acte.md` ; ENF-002 possède
 `recouvrement-amiable.md`, relu par ENF-008. Une tâche suivante consomme ces
-références sans les réécrire. Aucun cycle de dépendances.
+références sans les réécrire. ENF-014 consomme le rapprochement ENF-003 ; ENF-019 consomme la qualification de saisie ENF-004. Il s'agit de contrats d'entrée : des pièces équivalentes fournies manuellement sont admises après contrôle des manques, sans exécution préalable ni installation d'un autre plugin. Aucun cycle de dépendances.
+
+Les propositions ajoutées ne transforment pas les orientations ENF-005, ENF-007 et ENF-011 en recours rédigés. Les [limites de couverture](dom-003-frictions-utilisateurs.md#limites-de-couverture-prévues) explicitent aussi les tâches au fond encore à découper.
 
 ## Première tranche : ENF-001
 
@@ -142,6 +153,13 @@ runtime.
 | Délais de paiement | Code civil, délais de grâce (piste 1343-5). | ENF-008 |
 | Mesures conservatoires | Code des procédures civiles d'exécution (pistes L511-1 et suivants). | ENF-009 |
 | Biens et véhicule | Code des procédures civiles d'exécution, saisie-vente, biens insaisissables, immobilisation du véhicule. | ENF-011 |
+| Injonction de payer | CPC, opposition et signification (pistes 1405 et suivants, 1411 à 1416) ; rechercher la réforme et les dispositions transitoires annoncées dans le besoin, sans les présumer exactes. | ENF-012 |
+| Contestation bancaire | CPCE, dénonciation et contestations (pistes R211-3, R211-11 et suivants), compétence, représentation et placement ; distinguer effets sur attribution, indisponibilité et versement. | ENF-019 |
+| Frais contestés | CPCE, charge et utilité ; Code de commerce et arrêtés tarifaires datés ; CPC, vérification et taxe des dépens ; honoraires libres selon la prestation. | ENF-014 |
+| Réclamation professionnelle | Statut, déontologie, procédure officielle, destinataire et canal à vérifier ; distinguer signalement, discipline, recours judiciaire et indemnisation. | ENF-015 |
+| Portée d'un constat | Statut de la profession ; preuve civile, contradiction, conditions d'accès et règles sectorielles ; observations et causalité séparées. | ENF-016 |
+| Petites créances simplifiées | CPCE (pistes L125-1 et R125-1 et suivants), plafond, consentements, silence, frais et délivrance du titre. | ENF-017 |
+| Devis de constat | Régime du prix selon la prestation et la qualité du client, information préalable, mission et accès aux lieux. | ENF-018 |
 | Authenticité | Annuaire officiel de la profession, à identifier ; information publique sur les fraudes. | ENF-001 |
 
 ## Contrat commun des stories ENF

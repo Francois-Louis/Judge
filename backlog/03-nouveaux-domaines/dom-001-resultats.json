@@ -2,24 +2,24 @@
   "story": "DOM-001",
   "date": "2026-10-16",
   "timezone": "Europe/Paris",
-  "git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
-  "scope": "cadrage documentaire consommation ; aucun plugin créé ni validation juridique",
+  "git_head": "97cbf90c1232eefb734eef0cafa6996ad1166cef",
+  "scope": "intégration documentaire des 155 frictions consommation ; aucun plugin créé ni validation juridique",
   "checks": {
     "backlog_frontmatter_and_dependencies": {
       "status": "passed",
-      "total": 222,
+      "total": 438,
       "statuses": {
-        "terminee": 26,
+        "terminee": 36,
         "en-cours": 1,
-        "proposee": 194,
+        "proposee": 400,
         "a-verifier": 1
       },
       "problems": []
     },
     "bounded_proposals": {
       "status": "passed",
-      "count": 13,
-      "file_targets": 40,
+      "count": 20,
+      "file_targets": 54,
       "future_files": [
         {
           "path": "consumer-legal/.claude-plugin/plugin.json",
@@ -168,13 +168,108 @@
         {
           "path": "consumer-legal/references/signalement.md",
           "owner": "CONSO-013"
+        },
+        {
+          "path": "consumer-legal/skills/general-consumer-claim/SKILL.md",
+          "owner": "CONSO-014"
+        },
+        {
+          "path": "consumer-legal/references/regles-generales.md",
+          "owner": "CONSO-014"
+        },
+        {
+          "path": "consumer-legal/skills/purchase-offer-check/SKILL.md",
+          "owner": "CONSO-015"
+        },
+        {
+          "path": "consumer-legal/references/verification-offre.md",
+          "owner": "CONSO-015"
+        },
+        {
+          "path": "consumer-legal/skills/price-fee-claim/SKILL.md",
+          "owner": "CONSO-016"
+        },
+        {
+          "path": "consumer-legal/references/prix-frais.md",
+          "owner": "CONSO-016"
+        },
+        {
+          "path": "consumer-legal/skills/service-performance-claim/SKILL.md",
+          "owner": "CONSO-017"
+        },
+        {
+          "path": "consumer-legal/references/prestations-avances.md",
+          "owner": "CONSO-017"
+        },
+        {
+          "path": "consumer-legal/skills/platform-protection-claim/SKILL.md",
+          "owner": "CONSO-018"
+        },
+        {
+          "path": "consumer-legal/references/protection-plateforme.md",
+          "owner": "CONSO-018"
+        },
+        {
+          "path": "consumer-legal/skills/claim-escalation/SKILL.md",
+          "owner": "CONSO-019"
+        },
+        {
+          "path": "consumer-legal/references/mise-en-demeure-remboursement.md",
+          "owner": "CONSO-019"
+        },
+        {
+          "path": "consumer-legal/skills/solicitation-dispute/SKILL.md",
+          "owner": "CONSO-020"
+        },
+        {
+          "path": "consumer-legal/references/demarchage-consentement.md",
+          "owner": "CONSO-020"
         }
       ],
       "problems": []
     },
     "breakdown_table_consistency": {
       "status": "passed",
-      "rows": 13,
+      "rows": 20,
+      "problems": []
+    },
+    "user_friction_coverage": {
+      "status": "passed",
+      "rows": 155,
+      "owners": [
+        "BNK-001",
+        "BNK-002",
+        "BNK-005",
+        "BNK-006",
+        "CONSO-001",
+        "CONSO-002",
+        "CONSO-003",
+        "CONSO-004",
+        "CONSO-005",
+        "CONSO-006",
+        "CONSO-007",
+        "CONSO-009",
+        "CONSO-010",
+        "CONSO-011",
+        "CONSO-013",
+        "CONSO-014",
+        "CONSO-015",
+        "CONSO-016",
+        "CONSO-017",
+        "CONSO-018",
+        "CONSO-019",
+        "CONSO-020",
+        "CRIM-004",
+        "DOM-005",
+        "DOM-015",
+        "DOM-022",
+        "DOM-034",
+        "EXIST-003",
+        "EXIST-006"
+      ],
+      "source_sha256": "c2727d33f1af56307efc85c59e763bd38fe1aa3b44d677ed080e7227c5f9bea5",
+      "legal_validation": false,
+      "business_scenarios_executed": false,
       "problems": []
     },
     "no_plugin_created": {
@@ -184,8 +279,8 @@
     },
     "links_and_format": {
       "status": "passed",
-      "markdown_files": 18,
-      "local_links": 214,
+      "markdown_files": 26,
+      "local_links": 548,
       "problems": []
     },
     "table_column_counts": {
@@ -216,17 +311,18 @@
           "text": "1 an"
         }
       ],
-      "note": "Durées ou montants à relire : chaque occurrence doit être un fait fictif, jamais une règle."
+      "note": "Occurrences à relire : données fictives ou allégations utilisateur explicitement non vérifiées ; aucune règle validée."
     },
     "scope_vs_task_baseline": {
       "status": "passed",
-      "baseline_git_head": "e31ea94c9d079ffb9be5aff7192c5060c08eba33",
+      "baseline_git_head": "219ccd953d4f7de97ba4d55ab44f7dab16bb6d3f",
       "lot_changes": [
-        "backlog/00-fondations/base-003-dossier-architecture.md",
         "backlog/03-nouveaux-domaines/dom-001-consommation.md",
         "backlog/03-nouveaux-domaines/dom-001-controles.py",
         "backlog/03-nouveaux-domaines/dom-001-decoupage-consommation.md",
+        "backlog/03-nouveaux-domaines/dom-001-frictions-utilisateurs.md",
         "backlog/03-nouveaux-domaines/dom-001-verification.md",
+        "backlog/03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt",
         "backlog/03-nouveaux-domaines/suites/conso-001-commande-non-livree.md",
         "backlog/03-nouveaux-domaines/suites/conso-002-garantie-conformite.md",
         "backlog/03-nouveaux-domaines/suites/conso-003-retractation.md",
@@ -240,52 +336,45 @@
         "backlog/03-nouveaux-domaines/suites/conso-011-vente-entre-particuliers.md",
         "backlog/03-nouveaux-domaines/suites/conso-012-reponse-vendeur.md",
         "backlog/03-nouveaux-domaines/suites/conso-013-signalement.md",
+        "backlog/03-nouveaux-domaines/suites/conso-014-secteur-non-couvert.md",
+        "backlog/03-nouveaux-domaines/suites/conso-015-verifier-vendeur-offre.md",
+        "backlog/03-nouveaux-domaines/suites/conso-016-contester-prix-frais.md",
+        "backlog/03-nouveaux-domaines/suites/conso-017-prestation-acompte.md",
+        "backlog/03-nouveaux-domaines/suites/conso-018-protection-plateforme.md",
+        "backlog/03-nouveaux-domaines/suites/conso-019-mise-en-demeure-remboursement.md",
+        "backlog/03-nouveaux-domaines/suites/conso-020-demarchage-consentement.md",
         "backlog/README.md"
       ],
       "concurrent_patterns": [
-        "backlog/02-plugins-existants/exist-006-*",
-        "backlog/02-plugins-existants/suites/ctx-*"
+        "backlog/00-fondations/base-013-avertissement-interlocuteur.md",
+        "backlog/00-fondations/base-014-relecture-references.md",
+        "backlog/00-fondations/base-015-jurisprudence-runtime.md",
+        "backlog/02-plugins-existants/exist-007-controles.py",
+        "backlog/02-plugins-existants/exist-007-decoupage-veille.md",
+        "backlog/02-plugins-existants/exist-007-veille-reglementaire.md",
+        "backlog/02-plugins-existants/suites/vei-021-veille-references-plugins.md",
+        "backlog/decisions-2026-10-16.md",
+        "backlog/story-template.md"
       ],
       "concurrent_changes": [
-        "backlog/02-plugins-existants/exist-006-contentieux.md",
-        "backlog/02-plugins-existants/exist-006-controles.py",
-        "backlog/02-plugins-existants/exist-006-decoupage-contentieux.md",
-        "backlog/02-plugins-existants/exist-006-inventaire-contentieux.md",
-        "backlog/02-plugins-existants/exist-006-resultats.json",
-        "backlog/02-plugins-existants/exist-006-verification.md",
-        "backlog/02-plugins-existants/suites/ctx-001-orientation-document.md",
-        "backlog/02-plugins-existants/suites/ctx-002-mise-en-demeure-recue.md",
-        "backlog/02-plugins-existants/suites/ctx-003-preparer-demande-paiement.md",
-        "backlog/02-plugins-existants/suites/ctx-004-projet-mise-en-demeure.md",
-        "backlog/02-plugins-existants/suites/ctx-005-demande-communication-pieces.md",
-        "backlog/02-plugins-existants/suites/ctx-006-projet-communication-pieces.md",
-        "backlog/02-plugins-existants/suites/ctx-007-plan-conservation.md",
-        "backlog/02-plugins-existants/suites/ctx-008-reexamen-conservation.md",
-        "backlog/02-plugins-existants/suites/ctx-009-restrictions-communication.md",
-        "backlog/02-plugins-existants/suites/ctx-010-entretien-factuel.md",
-        "backlog/02-plugins-existants/suites/ctx-011-chronologie-documentee.md",
-        "backlog/02-plugins-existants/suites/ctx-012-matrice-preuve-contractuelle.md",
-        "backlog/02-plugins-existants/suites/ctx-013-section-factuelle-conclusions.md",
-        "backlog/02-plugins-existants/suites/ctx-014-ouverture-dossier.md",
-        "backlog/02-plugins-existants/suites/ctx-015-evenement-dossier.md",
-        "backlog/02-plugins-existants/suites/ctx-016-fiche-echeance.md",
-        "backlog/02-plugins-existants/suites/ctx-017-point-dossier.md",
-        "backlog/02-plugins-existants/suites/ctx-018-etat-portefeuille.md",
-        "backlog/02-plugins-existants/suites/ctx-019-demande-etat-conseil.md",
-        "backlog/02-plugins-existants/suites/ctx-020-cloture-suivi.md",
-        "backlog/02-plugins-existants/suites/ctx-021-preferences-contentieux.md",
-        "backlog/02-plugins-existants/suites/ctx-022-espace-dossier.md",
-        "backlog/02-plugins-existants/suites/ctx-023-rapport-evenements.md",
-        "backlog/02-plugins-existants/suites/ctx-024-cookbook-export-local.md"
+        "backlog/00-fondations/base-013-avertissement-interlocuteur.md",
+        "backlog/00-fondations/base-014-relecture-references.md",
+        "backlog/00-fondations/base-015-jurisprudence-runtime.md",
+        "backlog/02-plugins-existants/exist-007-controles.py",
+        "backlog/02-plugins-existants/exist-007-decoupage-veille.md",
+        "backlog/02-plugins-existants/exist-007-veille-reglementaire.md",
+        "backlog/02-plugins-existants/suites/vei-021-veille-references-plugins.md",
+        "backlog/decisions-2026-10-16.md",
+        "backlog/story-template.md"
       ],
-      "preserved_files": 674,
+      "preserved_files": 965,
       "report_excluded_from_own_comparison": true,
       "note": "Les fichiers du lot partagés (index, BASE-003) peuvent aussi porter des changements concurrents ; le contrôle ne les attribue pas.",
       "problems": []
     },
     "repository_json_sanity": {
       "status": "passed",
-      "files": 70,
+      "files": 84,
       "problems": []
     },
     "cookbook_tool_scope_lint": {
@@ -300,25 +389,34 @@
     }
   },
   "lot_sha256": {
-    "backlog/03-nouveaux-domaines/dom-001-consommation.md": "a42826a19908a59903b6e0d607ec7a1fe8a63d55bbfd500c495784b1bb2b939e",
-    "backlog/03-nouveaux-domaines/dom-001-decoupage-consommation.md": "47bed2a6487efef17de6adf22537ab46aa2766ce3510338e51bd685838c92d50",
-    "backlog/03-nouveaux-domaines/dom-001-verification.md": "a34664b101db0edcf2a182a5d76c239b528354c76d54dc4a22c791529a60f8ef",
-    "backlog/03-nouveaux-domaines/suites/conso-001-commande-non-livree.md": "797be13c8d01ad05f4e53bddf5046b95ad5ba7cb5da88080aeccb0d65e1d27ce",
-    "backlog/03-nouveaux-domaines/suites/conso-002-garantie-conformite.md": "dbd24035bb887f548eaca1d7ce33f5ce1216138342f5a560f571048df6506bb7",
-    "backlog/03-nouveaux-domaines/suites/conso-003-retractation.md": "d12460900c9bbe9898a3cc9108d5f30b2787b339bafd1ae5d429a449201d0d8c",
-    "backlog/03-nouveaux-domaines/suites/conso-004-qualifier-achat.md": "d493aaa9b3086890845ba71003145596bdfbfa28e3eeedf14cf58d8cdeac96c2",
-    "backlog/03-nouveaux-domaines/suites/conso-005-garantie-commerciale.md": "e953bb8770bf7e7038a7b3a9b7c50e1ce58278088787cc5ee1ff5eade68598dc",
-    "backlog/03-nouveaux-domaines/suites/conso-006-mediation.md": "58537a4216f538e54a6d3bd9b23fbed2bbb28be915bed01461be72a22150b4d7",
-    "backlog/03-nouveaux-domaines/suites/conso-007-vendeur-ue.md": "aa27a557e9f5fd0b69078eb44e5dbb7968a71acef69023ccade212cc63d794f5",
-    "backlog/03-nouveaux-domaines/suites/conso-008-cgv-tpe.md": "a6c47283f741478dacf848bb94bbdc19b23eee539a0cd3b6cd8d4cc22f3422e7",
-    "backlog/03-nouveaux-domaines/suites/conso-009-abonnement.md": "545294d74995fbabd3e3bc7f579d5409d119dede1a26e9547ed9f99f13fd496d",
-    "backlog/03-nouveaux-domaines/suites/conso-010-contenu-numerique.md": "7ea6ca52e08d0158ffb008015d150d8a566d36c0c95ae7c768ad60e9fcba7de4",
-    "backlog/03-nouveaux-domaines/suites/conso-011-vente-entre-particuliers.md": "7c5926632ab3a4088e32ab4e429eb4d251f019cb35ebcfcc717c16488c5d3e41",
-    "backlog/03-nouveaux-domaines/suites/conso-012-reponse-vendeur.md": "bfacbdca04e897ac7def530d9765338d40a65f5172fb8e45d7f39d5fd2d8b6fc",
-    "backlog/03-nouveaux-domaines/suites/conso-013-signalement.md": "d362a1da0d99cfba1efc18a620857de30017411b66d6c050e40ac98bf81218bc",
-    "backlog/README.md": "f6f19174172066ba3c0cb00134acc8e374d56b7bcac67c189215265e58346e46",
-    "backlog/00-fondations/base-003-dossier-architecture.md": "028d115ac97c0d0f846603ba726ad9b504f23e0bac4626b1542be6c819d9c143",
-    "backlog/03-nouveaux-domaines/dom-001-controles.py": "83661c3eb7fe2b81f98048437d808aaa9847b7489fe8f7feb5a894e0aeee6dfa"
+    "backlog/03-nouveaux-domaines/dom-001-consommation.md": "bfe963ee6dc38ed1ac9741e419f2cf179b999e6834ed4718fa5edfb1efa83889",
+    "backlog/03-nouveaux-domaines/dom-001-decoupage-consommation.md": "fb6cbc3843104ebcba65693dcb07de7aeb00f19b3be85a54901544b3f632d707",
+    "backlog/03-nouveaux-domaines/dom-001-verification.md": "d1492888a1763394a4c2cc28e3f336517cf539a1947fe2000e52d4a3573ec6cd",
+    "backlog/03-nouveaux-domaines/dom-001-frictions-utilisateurs.md": "60d89c26709a628ea3404cf8638eecc374877f391fa9d596d34789c2ac45b9f7",
+    "backlog/03-nouveaux-domaines/suites/conso-001-commande-non-livree.md": "4a8e4061539942da19efedb19317d0fcd6cc29a38295c076d21e843c816c380a",
+    "backlog/03-nouveaux-domaines/suites/conso-002-garantie-conformite.md": "d4d1f0e6e056c8cb82e8e8b49d0c7aa94b0d2469a95e443e6dd7665b3026fc0b",
+    "backlog/03-nouveaux-domaines/suites/conso-003-retractation.md": "e0c83974383754bccfc3b0ca21dd11844123f0351d23c1a23b9205bf1b59e606",
+    "backlog/03-nouveaux-domaines/suites/conso-004-qualifier-achat.md": "4d96a6a48044be3d1fc39f718c138bf5248b2b05b8cf1a5875adc283473e8341",
+    "backlog/03-nouveaux-domaines/suites/conso-005-garantie-commerciale.md": "9fea6e868e110071e8dbaee39d111ccce02d86a8623c9379758a91b3f154a82c",
+    "backlog/03-nouveaux-domaines/suites/conso-006-mediation.md": "38d0a4a9b5bb9fff31235cca1d0eece8f224f6683e16821fd7560a52943b3a9b",
+    "backlog/03-nouveaux-domaines/suites/conso-007-vendeur-ue.md": "cf969cdb3519018ce23d6b2c9d883ba4ed1b5f9c412f2bda8169b48c7cd2f1fa",
+    "backlog/03-nouveaux-domaines/suites/conso-008-cgv-tpe.md": "2b7680080c7efce55a4300bef393e716c7a0a2fc9af32c1578a5bcce9836d7da",
+    "backlog/03-nouveaux-domaines/suites/conso-009-abonnement.md": "c7a194ddbfda783b7448971406ba255a7d30c5ec03af98ae328b3190e80cbf4f",
+    "backlog/03-nouveaux-domaines/suites/conso-010-contenu-numerique.md": "61201cc2563aa5a15b7f515c265dfc79d0655065ca85f2d6334aa71039b3cdcc",
+    "backlog/03-nouveaux-domaines/suites/conso-011-vente-entre-particuliers.md": "8a50c42ef5ea4dd05c7be3d3fafff70060b1f5406fcafd094b7f2c87562f39ab",
+    "backlog/03-nouveaux-domaines/suites/conso-012-reponse-vendeur.md": "0d145d7b926ea3aae758a9f1ff8483700b151604d2c1b5f2b037be2fb072d741",
+    "backlog/03-nouveaux-domaines/suites/conso-013-signalement.md": "ed5702fcb6922bb2b6d54dd9b7fd93f3b6a424a72e774ad030a38922d8085cc1",
+    "backlog/03-nouveaux-domaines/suites/conso-014-secteur-non-couvert.md": "e5bb35c7852fc378e15289ce78d206383db87e8221f8ebd1e0f6bc39d537357d",
+    "backlog/03-nouveaux-domaines/suites/conso-015-verifier-vendeur-offre.md": "97414b6e5b8e7eb7670cb810b8272ee11539dc06c811049104dd2457c685980f",
+    "backlog/03-nouveaux-domaines/suites/conso-016-contester-prix-frais.md": "314c0978456f6b6b74d0ece5527d7fe06ffe5e728317b82b0a700ff866612aa0",
+    "backlog/03-nouveaux-domaines/suites/conso-017-prestation-acompte.md": "0926f3fe9b643db0f24aa9797405d2d617e2da6d77995dd9a3830690f268c6d9",
+    "backlog/03-nouveaux-domaines/suites/conso-018-protection-plateforme.md": "de530548bf875b0fea80d4c8db0609d78d887d0d116302dd36061933d1fef2f1",
+    "backlog/03-nouveaux-domaines/suites/conso-019-mise-en-demeure-remboursement.md": "4c9897732e9fb62f1aad62be13ad5fc168d23609c3f58df961b215a9392729ee",
+    "backlog/03-nouveaux-domaines/suites/conso-020-demarchage-consentement.md": "cb45fe9669038eef84c686f3fe67e6b9172426fa8a25a0c51f9e7dea527e6f7f",
+    "backlog/README.md": "d6c416fda65e5d5192b7775a72d8e306e753b91bc2aab142fcf23231c939cfff",
+    "backlog/00-fondations/base-003-dossier-architecture.md": "012cf97e2096f2fa66996300840a20f2fc174da868f5749793f6661e21bdb9cd",
+    "backlog/03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt": "c2727d33f1af56307efc85c59e763bd38fe1aa3b44d677ed080e7227c5f9bea5",
+    "backlog/03-nouveaux-domaines/dom-001-controles.py": "f446ed2e728fc1e26288e492cd2ed1698749c733b36501bfbd5a61ff32931660"
   },
   "not_run": [
     "recherche juridique externe",
@@ -329,14 +427,41 @@
     "connexion/envoi/publication"
   ],
   "commands": [
-    "python -X utf8 backlog/03-nouveaux-domaines/dom-001-controles.py --baseline <instantane-debut-tache.json> --concurrent 'backlog/02-plugins-existants/exist-006-*' --concurrent 'backlog/02-plugins-existants/suites/ctx-*' --output backlog/03-nouveaux-domaines/dom-001-resultats.json",
+    [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "backlog\\03-nouveaux-domaines\\dom-001-controles.py",
+      "--baseline",
+      "C:/Users/fltou/AppData/Local/Temp/judge-conso-frictions-baseline-20261016.json",
+      "--concurrent",
+      "backlog/00-fondations/base-013-avertissement-interlocuteur.md",
+      "--concurrent",
+      "backlog/00-fondations/base-014-relecture-references.md",
+      "--concurrent",
+      "backlog/00-fondations/base-015-jurisprudence-runtime.md",
+      "--concurrent",
+      "backlog/02-plugins-existants/exist-007-controles.py",
+      "--concurrent",
+      "backlog/02-plugins-existants/exist-007-decoupage-veille.md",
+      "--concurrent",
+      "backlog/02-plugins-existants/exist-007-veille-reglementaire.md",
+      "--concurrent",
+      "backlog/02-plugins-existants/suites/vei-021-veille-references-plugins.md",
+      "--concurrent",
+      "backlog/decisions-2026-10-16.md",
+      "--concurrent",
+      "backlog/story-template.md",
+      "--output",
+      "backlog/03-nouveaux-domaines/dom-001-resultats.json"
+    ],
     "python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)",
     "git diff --check (appelé par le contrôleur)"
   ],
   "execution_notes": [
-    "Instantané de début de tâche pris dans le répertoire temporaire de session, avant toute écriture du lot.",
-    "Un lot EXIST-006 a été écrit en parallèle dans le même arbre ; ses fichiers propres sont déclarés par --concurrent et listés, sans être attribués à DOM-001.",
-    "L'index du backlog porte aussi des lignes EXIST-006 ; l'en-tête a été recalé sur les décomptes réels au moment du contrôle.",
-    "Premier passage : liens vers ce relevé absents avant sa création et dépendance non transitive dans le contrôle ; corrigés, relevé régénéré."
+    "Relevé actualisé pour 155 frictions, 14 suites complétées et six propositions CONSO-015 à CONSO-020.",
+    "Instantané de début de cette intégration pris avant toute écriture du lot ; les travaux préexistants hors lot sont comparés par empreinte si --baseline est fourni.",
+    "Le texte utilisateur est conservé octet pour octet ; son empreinte est celle de la pièce jointe, sans validation du droit ou des statistiques.",
+    "Les scénarios documentaires emploient des pièces fictives ; les scénarios métier restent non exécutés."
   ]
 }

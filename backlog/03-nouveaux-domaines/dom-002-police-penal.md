@@ -93,3 +93,11 @@ Voir les [décisions du 16 octobre 2026](../decisions-2026-10-16.md) : cinq prop
 victimes), CRIM-014 (exécution des peines), CRIM-015 (interpellation),
 CRIM-016 (manifestations) et CRIM-017 (armes). La garde à vue reste CRIM-002.
 Le domaine compte désormais 17 propositions.
+
+## Intégration des frictions utilisateur — 16 octobre 2026
+
+- [Matrice des 97 situations](dom-002-frictions-utilisateurs.md), avec [texte fourni archivé](sources/police-penal-frictions-2026-10-16.txt) et besoins des sections non numérotées ; aucun délai, chiffre ou droit du texte n'est validé par son archivage.
+- CRIM-001 à CRIM-008, CRIM-010, CRIM-012, CRIM-015 et CRIM-016 complétées : pièces, sorties, frontières et scénarios attendus. CRIM-004 inclut un brouillon factuel au procureur en cas de dépôt bloqué ; CRIM-002 explicite l'audition libre en cours ; CRIM-006 lit aussi une composition pénale.
+- Six propositions nouvelles, CRIM-018 à CRIM-023 : contrôle en cours, perquisition, conservation de preuves, signalement d'agent, TAJ, dépistage routier et rétention du permis. Le domaine compte désormais 23 propositions, toutes non implémentées et non sélectionnées.
+- DOM-010 reçoit les exigences FPS et recours administratifs relatifs au permis ; son découpage reste à faire. Casier et TAJ, plainte et signalement, contrôle et audition restent distincts.
+- Découpage, vérification, contrôleur, relevé et index actualisés. Le relevé contrôle la structure et la traçabilité, sans recherche juridique ni recette métier. Les travaux préexistants sont comparés à l'instantané de début de cette intégration.

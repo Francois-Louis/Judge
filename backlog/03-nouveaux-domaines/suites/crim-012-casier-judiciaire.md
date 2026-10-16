@@ -58,6 +58,14 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Requête en effacement ou en réhabilitation, relations avec l'employeur.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 91–93 de la [matrice](../dom-002-frictions-utilisateurs.md) : ils relèvent de CRIM-022 pour le TAJ. Le casier et les fichiers de police ne sont pas interchangeables.
+
+- [ ] R03 — Un bulletin vierge ou un classement sans suite ne permet pas de conclure à l'absence de mention au TAJ ; orienter avec les pièces utiles sans traiter son effacement ici.
+
+Scénario **attendu, non exécuté** : casier vierge et mention TAJ alléguée à l'occasion d'une enquête administrative.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-002, sans implémentation ni sélection. Contrat commun :

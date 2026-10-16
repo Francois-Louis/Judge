@@ -101,3 +101,9 @@ recopiées. Aucun délai établi, aucun skill créé ou exécuté, aucun paquet
 installé, aucun lecteur réel ou indépendant, aucun envoi. Le préalable
 PILOTE-003 est satisfait après BASE-011 ; aucune tranche n'est sélectionnée
 par ce cadrage.
+
+## Complément de vérification — frictions utilisateur
+
+Le [nouveau besoin](dom-003-frictions-utilisateurs.md) ajoute une matrice des 47 points et six suites, sans rejouer les consultations fictives ci-dessus ni requalifier leur bilan historique. Relecture documentaire : les voies de frais, réclamation, responsabilité et recours contre la mesure ont des propriétaires distincts ; ENF-004 conserve la lecture bancaire, ENF-019 prépare le dossier de contestation ; ENF-016 distingue observation et causalité ; ENF-017 sépare accord simplifié et échéancier ; ENF-018 demande un devis avant commande. Les limites de l'appel et des orientations salaire, meubles et expulsion sont explicites.
+
+Le contrôleur vérifie la suite unique des 47 numéros dans la source et la matrice, l'empreinte de la copie source, les 19 propositions, leurs liens, cibles et dépendances, les totaux de l'index et l'absence de plugin. Les résultats effectivement exécutés figurent dans le [relevé régénéré](dom-003-resultats.json) ; les scénarios métier ajoutés restent **attendus, non exécutés**. Aucune affirmation juridique du document utilisateur n'a été vérifiée.

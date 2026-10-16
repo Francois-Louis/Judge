@@ -56,6 +56,16 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Comparaison d'offres de rachat, calcul, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 59–61 de la [matrice](../dom-004-frictions-utilisateurs.md).
+
+- [ ] E03 — Renégociation : tableau des montants annoncés pour capital, intérêts restants, frais d'avenant, garanties et assurance ; pièces manquantes et coût total restant à demander, sans comparaison d'offres ni simulation.
+- [ ] E04 — Indemnité contestée : demander capital, montant remboursé, clause, décompte et fondement des limites ; aucune indemnité recalculée.
+- [ ] E05 — Vente liée à un événement professionnel ou familial : recueillir événement, dates, lien avec la vente et justificatifs pour vérifier l'exonération selon le régime du prêt.
+
+Scénarios E03–E05 **attendus, non exécutés** : proposition à taux moindre mais frais absents, indemnité globale non détaillée, vente après cessation d'activité. Sources : remboursement anticipé et exonérations propres au type et à la date du crédit. Cette tranche prépare les vérifications ; elle ne promet pas de valider le montant.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :

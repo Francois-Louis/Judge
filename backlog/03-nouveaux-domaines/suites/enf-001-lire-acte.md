@@ -55,11 +55,11 @@ demande d'abord le titre du document et sa date.
 
 ## Sortie attendue
 
-1. Maintenant : ce que l'acte présente comme urgent et les deux ou trois actions utiles (relire toutes les pages, joindre l'émetteur au numéro de l'acte, consulter un avocat ou un point d'accès au droit), sans délai calculé.
+1. Maintenant : ce que l'acte présente comme urgent et les deux ou trois actions utiles (relire toutes les pages, joindre l'émetteur par des coordonnées officielles vérifiées, consulter un avocat ou un point d'accès au droit), sans délai calculé.
 2. Fiche de l'acte : chaque mention avec son statut (lue, déclarée, absente).
 3. Nature probable : relance amiable, acte de procédure ou mesure d'exécution, avec les mentions qui le montrent.
 4. Ce qui manque : titre exécutoire, ventilation, pages.
-5. Tâche suivante (ENF-002 à ENF-011, proposées) et domaine du fond.
+5. Tâche suivante (ENF-002 à ENF-019, proposées) et domaine du fond.
 6. Questions au commissaire de justice, au créancier et à un avocat.
 7. Limites.
 
@@ -111,6 +111,17 @@ porte sur le cadrage ; ces scénarios restent **attendus, non exécutés**.
 Contestation rédigée, calcul de délai ou de décompte, recours contre la
 décision signifiée, opposition à injonction de payer, saisie immobilière,
 examen de la dette d'origine, contact de l'émetteur, paiement, envoi.
+
+## Complément issu des frictions des commissaires de justice
+
+Points 1–2, 11, 15–18 et 45 de la [matrice utilisateur](../dom-003-frictions-utilisateurs.md).
+
+- [ ] A05 — Mise en demeure et jugement : qualifier par les mentions, pas par le seul papier à en-tête ; absence de titre mentionné ne prouve pas l'absence de tout titre ni de possibilité de mesure conservatoire.
+- [ ] A06 — Jugement signifié et appel envisagé : relever voies de recours, exécution provisoire mentionnée, juridiction et mode de remise ; orienter vers un avocat sans calcul ni promesse d'arrêt de l'exécution.
+- [ ] A07 — Page manquante ou mention apparemment erronée : relever précisément l'absence et demander la pièce ; ne pas annoncer la nullité pour une coquille.
+- [ ] A08 — Réclamation au cabinet ou à une chambre en cours : distinguer cette démarche du recours adapté et garder son urgence ; inclure la liste de contrôle identité officielle, type d'acte, dates, titre, décompte, paiements et pièces conservées.
+
+Scénarios A05–A08 **attendus, non exécutés** : lettre menaçante sans titre ; jugement avec exécution provisoire et appel envisagé ; acte incomplet ; attente d'une réponse amiable pendant une mesure. Sources à rechercher : effets de la signification, voies de recours et exécution provisoire selon la décision. Prescription de la créance, durée d'exécution du titre et forclusion restent des qualifications distinctes, sans calcul dans ENF-001.
 
 ## État de la proposition — 16 octobre 2026
 

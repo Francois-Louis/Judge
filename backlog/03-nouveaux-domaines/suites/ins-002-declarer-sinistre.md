@@ -59,6 +59,17 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Envoi de la déclaration, expertise, responsabilité du voisin.
 
+## Complément issu des frictions assurance
+
+Points 16, 18, 20–22 et 47 de la [matrice](../dom-005-frictions-utilisateurs.md).
+
+- [ ] D03 — Appel sans écrit : brouillon confirmant la déclaration, avec date de connaissance, premier signalement et réception connue ou inconnue ; ne pas attendre toutes les factures pour préparer le premier signalement.
+- [ ] D04 — Cause incertaine : séparer observation et hypothèse ; corriger explicitement une imprécision sans faire disparaître la première déclaration.
+- [ ] D05 — Réparation urgente : conserver photos, pièces et factures si possible ; distinguer sécurité et mesures conservatoires des réparations définitives, sans retarder une mise en sécurité.
+- [ ] D06 — Constat auto ambigu : préparer un complément factuel et les preuves de scène ; ne pas modifier un constat signé, analyser les cases ou attribuer la responsabilité (DOM-035).
+
+Scénarios D03–D06 **attendus, non exécutés** : déclaration par téléphone, confusion entre volet et porte, fuite nécessitant une intervention urgente, croquis auto contesté. Vol et sinistre ordinaire ne reçoivent pas un délai interchangeable ; échéances → INS-021, Cat Nat → INS-018, coordination eau → INS-017. Sources et contrat à lire selon le risque.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :

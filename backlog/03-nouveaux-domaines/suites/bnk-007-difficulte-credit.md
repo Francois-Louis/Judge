@@ -59,6 +59,16 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Dossier de surendettement, procédure, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 65–66 et 69 de la [matrice](../dom-004-frictions-utilisateurs.md).
+
+- [ ] C03 — Déchéance du terme annoncée : lire clause, mises en demeure, réception et échéances ; ventiler sommes réclamées et décompte à demander, sans recalcul.
+- [ ] C04 — Ancien impayé et proposition de nouvel accord : distinguer délai de grâce, prescription et forclusion ; relever incident, régularisations, accords, actes et dates puis orienter l'analyse contentieuse, sans déclarer la créance éteinte ni recommander une signature.
+- [ ] C05 — Demande de délai : exposer aménagement contractuel et voie judiciaire à vérifier comme options distinctes, sans les promettre.
+
+Scénarios C03–C05 **attendus, non exécutés** : exigibilité globale après relances, crédit à la consommation ancien avec réaménagement, perte temporaire de revenus. Sources supplémentaires : déchéance, forclusion et point de départ selon les faits, effet éventuel des accords ; contentieux → EXIST-006 et actes de recouvrement → DOM-003. Aucun calcul de forclusion livré par cette tranche.
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :

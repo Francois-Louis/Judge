@@ -62,6 +62,15 @@ Scénarios **attendus, non exécutés** ; couches BASE-006 à appliquer.
 
 Assistance pendant l'interpellation, plainte rédigée, défense au fond, envoi.
 
+## Complément issu des frictions utilisateur — 16 octobre 2026
+
+Points 31, 48–58, 85 et 96 de la [matrice](../dom-002-frictions-utilisateurs.md). Compléter par horaires des mesures successives, documents de saisie et scellés, effets personnels/inventaire, propos rapportés, constats médicaux et séquences vidéo complètes.
+
+- [ ] A03 — Après blessures ou menottage, santé et preuves à conserver → CRIM-020 ; plainte → CRIM-004 ; signalement → CRIM-021. Ne pas attendre une identification complète de l'agent pour structurer les faits.
+- [ ] A04 — Version du PV contestée ou allégation d'outrage/rébellion : séparer citations du document, faits déclarés, observations et pièces ; avocat, sans qualification ni fabrication d'une version. Présence dans une foule ≠ participation établie par le seul récit.
+
+Scénarios **attendus, non exécutés** : coups allégués après maîtrise ; interpellation en manifestation sans acte individuel décrit ; téléphone retenu sans document. Perquisition domiciliaire → CRIM-019. Aucun retour automatique des objets promis.
+
 ## État de la proposition — 16 octobre 2026
 
 Ajoutée par décision de l'utilisateur, sans implémentation ni sélection.

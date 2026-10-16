@@ -94,3 +94,27 @@ après BASE-011 ; aucune tranche n'est sélectionnée.
 
 Point ouvert levé ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)) : l'offre d'indemnisation d'une victime d'accident
 de la circulation est rattachée à DOM-035.
+
+## Complément issu des frictions bancaires — 16 octobre 2026
+
+La [matrice utilisateur](dom-004-frictions-utilisateurs.md) précise les
+critères d'INS-008 (assurance emprunteur) et d'INS-011 (capital après décès).
+Elle ajoute [INS-012](suites/ins-012-rachat-assurance-vie.md), suivi d'un
+rachat retardé demandé par le souscripteur vivant. Le domaine compte 12
+propositions ; aucune n'est sélectionnée ni implémentée par ce complément.
+
+## Complément issu des frictions assurance — 16 octobre 2026
+
+La [matrice des 90 points](dom-005-frictions-utilisateurs.md) conserve le
+texte utilisateur et attribue chaque besoin à son propriétaire ; les sections
+délais, recours et réflexes y ont leurs propres exigences. Neuf suites
+existantes sont précisées ; INS-013 à INS-021 ajoutent paiement bloqué,
+cotisation, risque déclaré, souscription contestée, coordination eau,
+catastrophe naturelle, garantie professionnelle, clause bénéficiaire et
+échéances d'un dossier. Le domaine compte désormais 21 propositions,
+toutes sans sélection ni implémentation.
+
+La décision d'orientation seule des placements reste applicable aux points
+66–67 ; l'offre corporelle reste DOM-035, avec tâches au fond à découper.
+Les affirmations juridiques, statistiques et événements de 2026 du texte
+ne sont pas vérifiés par cette intégration.
