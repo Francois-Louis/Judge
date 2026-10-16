@@ -81,3 +81,12 @@ paiement, garantie d'assurance, accident, procédure, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-023, sans implémentation. Contrat commun : [découpage](../dom-023-annexes/dom-023-decoupage-vehicules.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 146–150 de la [matrice](../dom-023-annexes/dom-023-frictions-utilisateurs.md). Exigences supplémentaires du futur skill, sans implémentation.
+
+- [ ] F01 — Constat de départ incomplet puis rapport tardif : demander originaux, métadonnées utiles et chronologie de garde ; absence de contradictoire et absence d'imputabilité ne sont pas équivalentes.
+- [ ] F02 — Franchise ou rachat incomplet : lire pneus/jantes/vitrage/bas de caisse et identifier nature du mécanisme ; assurance seulement si établie → INS-004. Frais carburant/nettoyage/retard/catégorie → VEH-017 ; préautorisation → BNK-016.
+
+Les cas F ci-dessus constituent les scénarios complémentaires **attendus, non exécutés**. Recueillir les pièces nommées, produire la comparaison et le brouillon prévus par la story ; sans source accessible, réserver droit, tarif, calendrier et effet de la clause. Rechercher les textes sectoriels et jurisprudence pertinents avec version, champ et dates ; le texte utilisateur n'est pas une source juridique. [Portée et vérification](../dom-023-annexes/dom-023-frictions-verification.md).

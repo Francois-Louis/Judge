@@ -79,3 +79,13 @@ Analyse de concurrence, indemnisation d'un dommage, procédure, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-023, sans implémentation. Contrat commun : [découpage](../dom-023-annexes/dom-023-decoupage-vehicules.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 48, 50, 75, 95–97, 100, 104, 106, 127 et 162 de la [matrice](../dom-023-annexes/dom-023-frictions-utilisateurs.md). Exigences supplémentaires du futur skill, sans implémentation.
+
+- [ ] F01 — Batterie électrique : rapprocher seuil contractuel, protocole de mesure, exclusions, entretien et rapport SOH sans valeur technique déterminée par le plugin.
+- [ ] F02 — Rappel, airbag et consigne 'stop drive' : demander avis, VIN et preuve des démarches ; consigne de sécurité en tête, pas d'utilisation conseillée pendant attente. Effet au contrôle technique et date d'entrée en vigueur → VEH-016, à rechercher sans reprendre la date du guide.
+- [ ] F03 — Véhicule loué ou modifié : identifier titulaire des droits, garant, pouvoirs et motif précis ; ne pas appliquer automatiquement la garantie d'un acheteur direct. Modification du risque → INS-015 ; conformité administrative → DOM-010.
+
+Les cas F ci-dessus constituent les scénarios complémentaires **attendus, non exécutés**. Recueillir les pièces nommées, produire la comparaison et le brouillon prévus par la story ; sans source accessible, réserver droit, tarif, calendrier et effet de la clause. Rechercher les textes sectoriels et jurisprudence pertinents avec version, champ et dates ; le texte utilisateur n'est pas une source juridique. [Portée et vérification](../dom-023-annexes/dom-023-frictions-verification.md).

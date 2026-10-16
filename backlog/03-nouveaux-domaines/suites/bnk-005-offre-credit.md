@@ -77,3 +77,15 @@ Pièces : contrat renouvelable, relevé de situation et détail des frais et ass
 
 Issue de DOM-004, sans implémentation ni sélection. Contrat commun :
 [découpage](../dom-004-annexes/dom-004-decoupage-banque.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 85, 116–120, 125, 128–130 ; tableau §11 de la [matrice véhicules](../dom-023-annexes/dom-023-frictions-utilisateurs.md).
+
+- [ ] AUTO01 — Qualifier LOA, crédit affecté et LLD sans option avant lecture des droits ; en LLD → VEH-018. Recopier premier versement, dépôt, loyers, option, entretien et frais/assurances annoncés ; demander coût total et postes absents sans simulation ni comparaison d'offres.
+- [ ] AUTO02 — Dater acceptation, demande de livraison anticipée et livraison ; distinguer échéances de financement et vente, source/version et événement de départ. Aucun délai extrait du guide ni disparition automatique d'un contrat depuis l'autre.
+- [ ] AUTO03 — Sortie anticipée LOA : identifier clause, décompte et question ; la demande au fond et la notification de rétractation restent à découper en DOM-004. BNK-005 garde sa borne de lecture et de questions ; VEH-009 traite les frais de restitution matérielle.
+
+Pièces : contrat complet et annexes, publicité, coûts annoncés, consentements et dates prouvées. Cas attendus : mensualité seule avec option omise ; premier loyer présenté comme dépôt ; livraison anticipée et deux calendriers. Scénarios **attendus, non exécutés** ; textes applicables et transitions du crédit à vérifier, aucun coût recalculé.
+
+[Portée et vérification documentaire](../dom-023-annexes/dom-023-frictions-verification.md) ; aucune implémentation ni droit validé par ce complément.

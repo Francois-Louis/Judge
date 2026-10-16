@@ -75,3 +75,15 @@ Scénarios X03–X07 **attendus, non exécutés** : rapport habitation demandé 
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
 [découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 175–178, 181 et 183 de la [matrice véhicules](../dom-023-annexes/dom-023-frictions-utilisateurs.md).
+
+- [ ] AUTO01 — Lire rapport, valeur et réparation alléguée, comparables, entretien, kilométrage et offre de cession ; distinguer VEI/VGE et remise en circulation selon régime à vérifier, sans fixer valeur ni classement technique.
+- [ ] AUTO02 — Demander les documents au détenteur pertinent (expert/assureur) ; dater rapport, offre, réception et réponse, avec INS-021 pour échéances. Silence/refus, cession et opposition au transfert ont des effets à sourcer séparément ; aucune option conseillée par défaut.
+- [ ] AUTO03 — Préjudice d'immobilisation : classer reçus, poste réclamé et fondement allégué, sans calcul d'indemnité. Demande contractuelle au réparateur → VEH-014 ; effet administratif/opposition → DOM-010 ; dommage corporel → DOM-035.
+
+Cas attendus : offre de cession sans rapport et réception incertaine ; refus de cession avec restriction administrative alléguée ; comparables et frais de location omis. Scénarios **attendus, non exécutés**. Rechercher textes du Code de la route/assurances et jurisprudence selon le régime ; les durées de l'utilisateur ne sont pas des règles validées.
+
+[Portée et vérification documentaire](../dom-023-annexes/dom-023-frictions-verification.md) ; aucune implémentation ni droit validé par ce complément.

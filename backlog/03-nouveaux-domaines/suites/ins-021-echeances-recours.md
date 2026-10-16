@@ -66,3 +66,9 @@ Calendrier certifié exhaustif, calcul sans source ou preuve, acte interruptif e
 ## État de la proposition — 16 octobre 2026
 
 Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-annexes/dom-005-decoupage-assurance.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 177–178 et 185 et lignes assurance du tableau §11 de la [matrice véhicules](../dom-023-annexes/dom-023-frictions-utilisateurs.md). Distinguer déclaration accident/vol, conditions de déchéance, prescription d'assurance et calendrier propre de la proposition de cession VEI/VGE (INS-003). Recueillir connaissance du sinistre, contrat, déclaration, rapport/offre/réception/réponse et causes de suspension/interruption prouvées. Cas attendus : accident déclaré tardivement sans préjudice établi de l'assureur ; offre de cession sans réception prouvée pendant médiation. Scénarios **attendus, non exécutés** ; aucune durée du guide, relance ou signalement transformé en protection automatique. DOM-010 garde restriction administrative ; INS-002 déclaration ; INS-001 refus.
+
+[Portée et vérification documentaire](../dom-023-annexes/dom-023-frictions-verification.md) ; aucune implémentation ni droit validé par ce complément.

@@ -105,3 +105,9 @@ Scénarios supplémentaires **attendus, non exécutés** : héritier pensant att
 Sources à ouvrir lors de l’implémentation : CGI, BOFiP et textes de dépôt/paiement/dispenses et assurance-vie ; territorialité et version à la date des faits.
 
 Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Point 191 : découper la préparation d'une demande de quitus ou la lecture d'un blocage fiscal d'acquisition de véhicule à l'étranger. Recueillir pays et qualité vendeur/acheteur, factures, dates, première mise en circulation, kilométrage utile, TVA annoncée, documents et réponse du service. Sortie : régime à rechercher, pièces manquantes et brouillon ciblé, sans TVA ou quitus automatiquement dû. Distinguer fiscalité DOM-011, douane DOM-009, immatriculation DOM-010 et documents promis VEH-019. Cas attendus : véhicule présenté comme occasion mais qualification fiscale inconnue ; facture étrangère et demande de pièce complémentaire. Versions, territorialité et définition fiscale à vérifier dans les sources officielles ; aucune règle ni montant repris du texte fourni.
+
+Exigences de la [matrice des 195 points](dom-023-annexes/dom-023-frictions-utilisateurs.md), à découper sans sélection de tranche. Sources et scénarios métier non vérifiés ; [portée de l’intégration](dom-023-annexes/dom-023-frictions-verification.md).

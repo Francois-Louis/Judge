@@ -52,3 +52,8 @@ Vérifier le routage et les informations à demander. La story ne doit pas réso
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
 
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 45 et 191. Prévoir la qualification documentaire de l'importation d'un véhicule de particulier, en distinguant achat dans l'Union et provenance d'un pays tiers, territoires douanier/fiscal, origine, provenance, résidence, usage et éventuel transfert de résidence. Recueillir factures, documents étrangers et douaniers, trajet, vendeur/mandataire et date ; sortie attendue : pièces manquantes et questions à la douane, sans taux ni droit calculé. Le document douanier ne remplace ni quitus fiscal DOM-011 ni immatriculation DOM-010 ; VEH-019 garde l'engagement contractuel de remise. Cas à découper : achat UE pris à tort pour import tiers ; véhicule tiers sans justificatif de dédouanement ; demande de franchise alléguée. Lire sources officielles et textes selon opération, sans transformer le guide en liste universelle de formalités.
+
+Exigences de la [matrice des 195 points](dom-023-annexes/dom-023-frictions-utilisateurs.md), à découper sans sélection de tranche. Sources et scénarios métier non vérifiés ; [portée de l’intégration](dom-023-annexes/dom-023-frictions-verification.md).

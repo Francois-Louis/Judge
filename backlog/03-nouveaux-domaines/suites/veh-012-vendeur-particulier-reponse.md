@@ -74,3 +74,12 @@ Défense en justice, amendes, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-023, sans implémentation. Contrat commun : [découpage](../dom-023-annexes/dom-023-decoupage-vehicules.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 73–74, 80, 112 et 187 de la [matrice](../dom-023-annexes/dom-023-frictions-utilisateurs.md). Exigences supplémentaires du futur skill, sans implémentation.
+
+- [ ] F01 — Clause 'en l'état', essai et renonciation invoqués : préparer réponse sur pièces sans clause réputée protectrice ni connaissance du défaut présumée ; expertise si utile. Arbitrage avec CONSO-011 inchangé.
+- [ ] F02 — Vente déclarée ou non et amendes après cession : conserver acte et preuve de démarche ; formalité DOM-010 distincte de CRIM-005 et de la réclamation de l'acheteur.
+
+Les cas F ci-dessus constituent les scénarios complémentaires **attendus, non exécutés**. Recueillir les pièces nommées, produire la comparaison et le brouillon prévus par la story ; sans source accessible, réserver droit, tarif, calendrier et effet de la clause. Rechercher les textes sectoriels et jurisprudence pertinents avec version, champ et dates ; le texte utilisateur n'est pas une source juridique. [Portée et vérification](../dom-023-annexes/dom-023-frictions-verification.md).

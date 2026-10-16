@@ -102,3 +102,15 @@ garantie en pourcentage de base et plafond annuel ; conditions particulières
 absentes, réponse réservée. Contrat de mutuelle/institution/assureur à
 qualifier par son code, pas assimilé au seul Code des assurances ; INS-009
 garde le refus et DOM-012 la caisse. [Portée](../dom-007-annexes/dom-007-frictions-verification.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 93, 126, 139–141, 149–150 et 174 de la [matrice véhicules](../dom-023-annexes/dom-023-frictions-utilisateurs.md).
+
+- [ ] AUTO01 — Assistance : rapprocher franchise kilométrique, destination, accord préalable et plafonds rapatriement/hébergement ; garanties de mobilité distinctes d'un prêt du garage VEH-014, aucun droit général à un véhicule de remplacement.
+- [ ] AUTO02 — Location et LOA : identifier qui assure quoi, qualité du locataire/bailleur et nature du rachat de franchise ; lire exclusions pneus/jantes/vitrage et perte financière, sans solde de dette présumé couvert. Revue bancaire BNK-005 ; frais du loueur VEH-006/017.
+- [ ] AUTO03 — Choix du réparateur : séparer liberté de choix à vérifier dans le texte exact, avance de frais/règlement et prestation du garage VEH-001 ; aucun paiement direct identique dans tous les garages supposé.
+
+Pièces supplémentaires : contrat d'assistance, décision d'accord/refus, location et option signée, règlement annoncé. Cas attendus : assistance proche domicile ; contrat perte financière sans conditions particulières ; réparateur hors réseau avec avance de frais. Scénarios **attendus, non exécutés** ; refus effectif → INS-001. Le lien légal du texte utilisateur reste à ouvrir et dater avant conclusion.
+
+[Portée et vérification documentaire](../dom-023-annexes/dom-023-frictions-verification.md) ; aucune implémentation ni droit validé par ce complément.

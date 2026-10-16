@@ -78,3 +78,12 @@ procédure, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-023, sans implémentation. Contrat commun : [découpage](../dom-023-annexes/dom-023-decoupage-vehicules.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 16, 20, 27, 113–114, 142, 161, 168, 179, 182 et 186 de la [matrice](../dom-023-annexes/dom-023-frictions-utilisateurs.md). Exigences supplémentaires du futur skill, sans implémentation.
+
+- [ ] F01 — Pièces à rendre contre consigne, codes effacés et réparation urgente : demander conservation possible, rapport initial, références, photos et chaîne de détention ; pas d'obligation absolue de restituer toute ancienne pièce, ni conservation mettant en danger.
+- [ ] F02 — Rapport du garage seul, centre de contrôle ou dommage après remorquage : identifier auteur, mission et contradictoire ; préparer questions et convocation sans conclure à la force probante ou cause. Contrôle judiciaire → CTX-032/033 ; sécurité et conservation urgente en tête.
+
+Les cas F ci-dessus constituent les scénarios complémentaires **attendus, non exécutés**. Recueillir les pièces nommées, produire la comparaison et le brouillon prévus par la story ; sans source accessible, réserver droit, tarif, calendrier et effet de la clause. Rechercher les textes sectoriels et jurisprudence pertinents avec version, champ et dates ; le texte utilisateur n'est pas une source juridique. [Portée et vérification](../dom-023-annexes/dom-023-frictions-verification.md).

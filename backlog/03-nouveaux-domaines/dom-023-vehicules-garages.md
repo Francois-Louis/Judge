@@ -113,3 +113,13 @@ fictives, avec contrôles statiques. Aucune source juridique lue : les
 articles cités sont des pistes. Aucun plugin créé, skill exécuté, paquet
 installé, lecteur réel ou indépendant. Le préalable PILOTE-003 est satisfait
 après BASE-011 ; aucune tranche n'est sélectionnée.
+
+## Complément des frictions utilisateur — 16 octobre 2026
+
+Le [texte automobile fourni](sources/vehicules-frictions-2026-10-16.txt) est conservé à l'octet près ; la [matrice](dom-023-annexes/dom-023-frictions-utilisateurs.md) rattache ses **195 points**, son tableau d'échéances et ses recommandations à un résultat et un propriétaire. Le bilan initial ci-dessus reste le relevé du premier cadrage.
+
+Les douze suites sont complétées sur pièces, sorties et scénarios ; VEH-004 explicite les garanties après livraison neuve/d'occasion par un professionnel et VEH-008 la commande professionnelle neuve/d'occasion, sans appliquer les règles du neuf indistinctement. Huit nouvelles propositions VEH-013 à VEH-020 portent dépôt/accords, retard d'atelier, dépannage, réclamation au centre de contrôle technique, frais de location courte, lecture LLD, demande au mandataire/vendeur étranger et rétractation d'achat à distance. Le [découpage actualisé](dom-023-annexes/dom-023-decoupage-vehicules.md) les relie à leurs dépendances. Il compte désormais vingt propositions, toutes `proposee`.
+
+Les frontières administratives, bancaires, fiscales, douanières et d'assurance sont complétées chez leurs propriétaires. Le contrat avec le centre ou le dépanneur est borné ici ; fourrière, homologation et formalités restent administratives. Les tâches LOA de sortie/rétractation, les procédures collectives côté consommateur et les volets non découpés restent signalés comme tels ; l'arbitrage privé avec CONSO-011 n'est pas tranché. Aucun plugin, source juridique validée ou fonctionnalité livré par cette intégration.
+
+[Vérification documentaire](dom-023-annexes/dom-023-frictions-verification.md) : intégrité de source, correspondances, liens, structure, dépendances et index ; scénarios métier attendus, non exécutés. Le lot reste sous `backlog/`, sans entrée NOTICE ni changement de version de plugin.

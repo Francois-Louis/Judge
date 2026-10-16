@@ -1,0 +1,105 @@
+{
+  "story": "DOM-023",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "scope": "Complément documentaire automobile ; aucune validation juridique ou exécution métier",
+  "checks": {
+    "source_integrity": {
+      "status": "passed",
+      "sha256": "d2f18240d1c45912b6df094cc1f34de573d59af35182c1842fba61300c7d23f7",
+      "bytes": 58743,
+      "problems": []
+    },
+    "friction_traceability": {
+      "status": "passed",
+      "points": 195,
+      "deadline_rows": 16,
+      "problems": []
+    },
+    "story_ids_and_dependency_graph": {
+      "status": "passed",
+      "stories": 592,
+      "problems": []
+    },
+    "vehicle_proposals_and_breakdown": {
+      "status": "passed",
+      "proposals": 20,
+      "future_targets": 52,
+      "problems": []
+    },
+    "neighbor_requirements": {
+      "status": "passed",
+      "owners": 9,
+      "problems": []
+    },
+    "lot_links_format_and_tables": {
+      "status": "passed",
+      "documents": 33,
+      "links": 471,
+      "problems": []
+    },
+    "generated_backlog_index": {
+      "status": "passed",
+      "problems": []
+    },
+    "no_vehicle_plugin_created": {
+      "status": "passed",
+      "marketplace_plugins": 11,
+      "problems": []
+    }
+  },
+  "not_run": [
+    "recherche juridique",
+    "validation des tarifs et délais",
+    "exécution des scénarios métier",
+    "implémentation de skill",
+    "recette paquet/client",
+    "lecteur indépendant",
+    "envoi ou dépôt"
+  ],
+  "preparation": {
+    "base_head": "934f19213f34b56898e0b18e48d3492dcd8fbe25",
+    "context": "Copie temporaire de HEAD et seuls changements automobiles ; index régénéré sans travaux concurrents non commités."
+  },
+  "supplementary_checks": {
+    "version_bump": {
+      "status": "passed",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "scripts/check-version-bump.py"
+      ],
+      "exit_code": 0
+    },
+    "cookbook_tool_scope": {
+      "status": "passed",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "scripts/lint-tool-scope.py"
+      ],
+      "exit_code": 0
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    "json_sanity": {
+      "status": "passed",
+      "files": 82,
+      "context": "Copie de préparation automobile"
+    }
+  },
+  "execution_notes": [
+    "Premier appel du lint sans -X utf8 interrompu par UnicodeEncodeError (sortie Windows cp1252) ; relancé en UTF-8.",
+    "Contrôles documentaires également exécutés dans le répertoire de travail avec succès ; aucune exécution métier.",
+    "Diff et contenu préparés relus avant commit ; travaux concurrents exclus."
+  ]
+}

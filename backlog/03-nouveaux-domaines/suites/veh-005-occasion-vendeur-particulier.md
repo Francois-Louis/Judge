@@ -83,3 +83,12 @@ appliquées comme droit, procédure, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-023, sans implémentation. Contrat commun : [découpage](../dom-023-annexes/dom-023-decoupage-vehicules.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 33–43, 70, 73–74, 76, 80 et 111–112 de la [matrice](../dom-023-annexes/dom-023-frictions-utilisateurs.md). Exigences supplémentaires du futur skill, sans implémentation.
+
+- [ ] F01 — Kilométrage, usage antérieur, historique ou défaut contestés : rapprocher annonce, entretien, contrôle et diagnostic, sans antériorité technique ni dissimulation conclues. 'Vu et essayé', 'en l'état' et exclusion sont examinés séparément de la connaissance du vice.
+- [ ] F02 — Apparition différée et vendeur particulier incertain : séparer découverte, vente, preuve et fondement ; ne pas importer garantie de conformité, présomption professionnelle ou durée du guide. Arbitrage avec CONSO-011 toujours ouvert, aucune attribution définitive ajoutée ici.
+
+Les cas F ci-dessus constituent les scénarios complémentaires **attendus, non exécutés**. Recueillir les pièces nommées, produire la comparaison et le brouillon prévus par la story ; sans source accessible, réserver droit, tarif, calendrier et effet de la clause. Rechercher les textes sectoriels et jurisprudence pertinents avec version, champ et dates ; le texte utilisateur n'est pas une source juridique. [Portée et vérification](../dom-023-annexes/dom-023-frictions-verification.md).

@@ -1,18 +1,19 @@
 ---
 id: VEH-003
-titre: "Préparer une réclamation au garage après une réparation qui n'a pas réglé la panne"
+titre: "Préparer une réclamation après une réparation défaillante ou une détérioration au garage"
 statut: proposee
 priorite: P2
 nature: implementation
 dependances: [DOM-023, PILOTE-003, BASE-005, BASE-006, BASE-008, VEH-001]
 ---
 
-# VEH-003 — Préparer une réclamation au garage après une réparation qui n'a pas réglé la panne
+# VEH-003 — Préparer une réclamation après une réparation défaillante ou une détérioration au garage
 
 ## Objectif et résultat attendu
 
-Une personne dont la panne persiste ou réapparaît après une réparation
-reconstitue ce qui a été demandé, fait et constaté, sait quelle question
+Une personne dont la panne persiste ou réapparaît après une réparation, ou
+qui constate une détérioration pendant la garde ou l'intervention,
+reconstitue les faits, sait quelle question
 technique reste ouverte, et obtient un brouillon de réclamation au garage.
 
 ## Périmètre et fichiers
@@ -80,3 +81,13 @@ procédure, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-023, sans implémentation. Contrat commun : [découpage](../dom-023-annexes/dom-023-decoupage-vehicules.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 10, 12–19, 25–27, 30–32, 163–169, 173, 179 et 195 de la [matrice](../dom-023-annexes/dom-023-frictions-utilisateurs.md). Exigences supplémentaires du futur skill, sans implémentation.
+
+- [ ] F01 — Essais de diagnostic successifs et panne répétée : tableau symptômes, mesures, codes, pièces, sous-traitant et coût annoncé ; demander justification technique sans faute déduite de la seule hypothèse erronée.
+- [ ] F02 — Détérioration pendant garde/intervention, kilomètres inexpliqués, pneus, vitrage/ADAS ou carrosserie : comparer photos, références, compteur et rapports avant/après ; demander constat et explication au cocontractant sans attribuer causalité, responsabilité ou nécessité du calibrage depuis le récit.
+- [ ] F03 — Clauses de limitation et proposition de geste contre quittance générale : citer clause et portée à vérifier ; transaction → CTX-039 ; préjudice documenté mais non chiffré → VEH-014, état → VEH-010. Sécurité en tête si freinage/direction ou capteur critique allégués.
+
+Les cas F ci-dessus constituent les scénarios complémentaires **attendus, non exécutés**. Recueillir les pièces nommées, produire la comparaison et le brouillon prévus par la story ; sans source accessible, réserver droit, tarif, calendrier et effet de la clause. Rechercher les textes sectoriels et jurisprudence pertinents avec version, champ et dates ; le texte utilisateur n'est pas une source juridique. [Portée et vérification](../dom-023-annexes/dom-023-frictions-verification.md).

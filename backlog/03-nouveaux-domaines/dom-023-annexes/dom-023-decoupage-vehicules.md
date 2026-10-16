@@ -1,6 +1,6 @@
 # DOM-023 — Découpage du domaine véhicules, garages et réparations
 
-Propositions du **16 octobre 2026**. Les 12 stories VEH restent `proposee`.
+Propositions du **16 octobre 2026**. Les 20 stories VEH restent `proposee` après le complément des frictions utilisateur du même jour.
 La [relecture documentaire](dom-023-verification.md) éprouve le routage sur
 les trois scénarios de la story et sur des cas limites. Aucun répertoire de
 plugin n'est créé par ce cadrage.
@@ -66,16 +66,24 @@ servent de contrôle d'orientation pour chaque lot.
 |---|---|
 | « Le garage m'a facturé plus que prévu » ; « il a fait des travaux que je n'ai pas demandés » | VEH-001 |
 | « Le garage ne me rend pas ma voiture » ; « on me réclame des frais de parking » | VEH-002 |
-| « La panne est revenue après la réparation » | VEH-003 |
-| « La voiture achetée chez un garage est tombée en panne » | VEH-004 |
+| « La panne est revenue après la réparation » ; « la voiture a été abîmée au garage » | VEH-003 |
+| « La voiture neuve ou d’occasion achetée chez un professionnel a un défaut » | VEH-004 |
 | « J'ai acheté une voiture à un particulier et elle a un problème » | VEH-005 |
 | « Le loueur me facture des rayures au retour » | VEH-006 |
 | « Je vais acheter cette voiture, qu'est-ce que je dois vérifier ? » | VEH-007 |
-| « Ma voiture neuve n'est toujours pas livrée » ; « elle n'est pas comme commandée » | VEH-008 |
+| « La voiture commandée au professionnel n’est pas livrée » ; « elle n’est pas comme commandée » | VEH-008 |
 | « À la fin de ma LOA on me réclame des frais de remise en état » | VEH-009 |
 | « Je veux faire constater l'état de la voiture avant qu'elle soit réparée » | VEH-010 |
 | « Le constructeur refuse la garantie » ; « mon véhicule est concerné par un rappel » | VEH-011 |
 | « J'ai vendu ma voiture et l'acheteur se plaint » | VEH-012 |
+| « Je vais laisser ma voiture au garage : comment borner mon accord ? » | VEH-013 |
+| « La réparation dure depuis des semaines et personne ne donne de date » | VEH-014 |
+| « La facture de dépannage contient des suppléments inexpliqués » | VEH-015 |
+| « Je conteste la prestation du centre de contrôle technique » | VEH-016 |
+| « Le loueur facture carburant, nettoyage ou retard, ou fournit une catégorie inférieure » | VEH-017 |
+| « Je veux comprendre cette LLD sans option d’achat ou son coût de sortie » | VEH-018 |
+| « Mon mandataire ou vendeur étranger ne remet pas les documents promis » | VEH-019 |
+| « J’ai acheté une voiture à distance et je souhaite me rétracter » | VEH-020 |
 
 Une phrase mêlant plusieurs objets (« le garage a mal réparé, refuse de
 rendre la voiture et facture le gardiennage ») produit une sortie par objet,
@@ -147,16 +155,24 @@ rangs 1 à 3 portent la priorité P2, le rang 4 la priorité P3.
 |---|---|---|---|---|
 | 1 | [VEH-001](../suites/veh-001-facture-garage.md) | `garage-invoice-review` | Facture de garage comparée au devis et aux accords retrouvés ; demande d'explication | Aucune |
 | 2 | [VEH-002](../suites/veh-002-gardiennage-retention.md) | `garage-storage-retention` | Frais de gardiennage lus et véhicule retenu : pièces, questions, demande de restitution | VEH-001 |
-| 2 | [VEH-003](../suites/veh-003-reparation-defaillante.md) | `repair-failure-claim` | Panne persistante ou nouvelle après réparation : chronologie et réclamation au garage | VEH-001 |
-| 2 | [VEH-004](../suites/veh-004-occasion-vendeur-pro.md) | `used-vehicle-dealer-defect` | Panne après achat d'occasion chez un professionnel : garanties à examiner, pièces, demande | VEH-001 |
+| 2 | [VEH-003](../suites/veh-003-reparation-defaillante.md) | `repair-failure-claim` | Réparation défaillante ou détérioration au garage : chronologie et réclamation | VEH-001 |
+| 2 | [VEH-004](../suites/veh-004-occasion-vendeur-pro.md) | `used-vehicle-dealer-defect` | Défaut après livraison neuve ou d’occasion par un professionnel : garanties, pièces, demande | VEH-001 |
 | 2 | [VEH-005](../suites/veh-005-occasion-vendeur-particulier.md) | `used-vehicle-private-defect` | Panne après achat à un particulier : fondements civils à examiner, pièces, demande | VEH-004 |
 | 2 | [VEH-006](../suites/veh-006-location-dommages-retour.md) | `rental-return-damage` | Dommages réclamés par un loueur au retour : états des lieux comparés, réponse | VEH-001 |
 | 3 | [VEH-007](../suites/veh-007-revue-avant-achat.md) | `vehicle-purchase-precheck` | Revue avant achat d'une annonce, d'un bon de commande et des garanties alléguées | VEH-004 |
-| 3 | [VEH-008](../suites/veh-008-commande-vehicule-neuf.md) | `new-vehicle-order-dispute` | Retard de livraison, versement ou écart avec la commande d'un véhicule neuf | VEH-004 |
+| 3 | [VEH-008](../suites/veh-008-commande-vehicule-neuf.md) | `new-vehicle-order-dispute` | Commande professionnelle neuve ou d’occasion : prix, versement, retard ou écart de livraison | VEH-004 |
 | 3 | [VEH-009](../suites/veh-009-restitution-location-longue.md) | `lease-return-charges` | Frais de fin de location longue durée ou avec option d'achat comparés au contrat | VEH-006 |
 | 3 | [VEH-010](../suites/veh-010-expertise-amiable.md) | `vehicle-evidence-preservation` | Conserver l'état du véhicule et préparer une expertise amiable | VEH-001 |
 | 3 | [VEH-011](../suites/veh-011-garantie-constructeur.md) | `manufacturer-warranty-claim` | Garantie constructeur refusée ou rappel : document de garantie lu, demande | VEH-004 |
 | 4 | [VEH-012](../suites/veh-012-vendeur-particulier-reponse.md) | `private-seller-response` | Réponse d'un vendeur particulier à la réclamation de l'acheteur | VEH-005 |
+| 3 | [VEH-013](../suites/veh-013-preparer-depot-garage.md) | `garage-work-authorization` | Demande écrite bornant diagnostic, réparations et suppléments avant dépôt | VEH-001 |
+| 3 | [VEH-014](../suites/veh-014-retard-immobilisation.md) | `garage-delay-request` | Chronologie et demande de calendrier avec justificatifs de perte d’usage | VEH-001 |
+| 3 | [VEH-015](../suites/veh-015-facture-depannage.md) | `towing-invoice-review` | Facture de dépannage comparée au régime identifié et aux accords | VEH-001 |
+| 3 | [VEH-016](../suites/veh-016-controle-technique.md) | `technical-inspection-claim` | Demande au centre sur prix, documents ou constat contesté | VEH-001 |
+| 3 | [VEH-017](../suites/veh-017-frais-location-courte.md) | `rental-service-charges` | Frais de location courte hors dommages comparés au contrat et aux constats | VEH-006 |
+| 3 | [VEH-018](../suites/veh-018-revue-contrat-lld.md) | `long-term-rental-review` | Fiche des engagements d’une LLD sans option et demande de décompte de sortie | VEH-006 |
+| 3 | [VEH-019](../suites/veh-019-achat-mandataire-import.md) | `vehicle-intermediary-claim` | Carte des parties et demande des documents contractuellement promis | VEH-004 |
+| 3 | [VEH-020](../suites/veh-020-retractation-achat-distance.md) | `vehicle-distance-withdrawal` | Qualification de vente à distance et projet de rétractation sourcé ou réservé | VEH-004 |
 
 VEH-001 possède `qualification-vehicule.md` et `accords-travaux.md`, relus
 par VEH-002, VEH-003 et VEH-010. VEH-004 possède `vente-vehicule.md`, la
@@ -177,8 +193,8 @@ l'ordre de réparation et les accords retrouvés dans les pièces ; tableau des
 efficacité de la réparation (VEH-003) ; facture réglée directement par un
 assureur ou chiffrage d'un expert d'assurance (DOM-005, la facture restant
 lisible ici) ; véhicule utilisé pour une activité professionnelle
-(orientation commercial) ; dépannage sur voie publique imposé par une
-autorité (orientation DOM-010) ; tout tarif, plafond ou obligation de devis
+(orientation commercial) ; enlèvement en fourrière décidé par une
+autorité (orientation DOM-010), facture de dépannage (VEH-015) ; tout tarif, plafond ou obligation de devis
 non sourcé ; avis technique sur la nécessité d'une opération ; envoi.
 
 **Sortie :** résumé clair ; fiche de qualification (garage, véhicule, dates,
@@ -194,19 +210,28 @@ persiste, médiateur à identifier) ; limites et phrase BASE-013.
 - Engins de déplacement personnel motorisés, vélos à assistance électrique
   et cyclomoteurs : appartenance au domaine et règles particulières à
   qualifier ; aucun propriétaire décidé.
-- Achat d'un véhicule dans un autre État membre ou par un mandataire :
-  articulation avec le droit de l'Union, la vente à distance et les
-  démarches d'immatriculation (DOM-010) ; pas de story tant que le
-  propriétaire n'est pas arrêté.
-- Contestation d'un procès-verbal de contrôle technique auprès du centre :
-  relation contractuelle ici ou régime administratif du contrôle ; à
-  qualifier avec DOM-010.
-- Dépannage et remorquage hors garage choisi (autoroute, voie publique) :
-  partage entre vehicle, DOM-010 et l'assistance de l'assurance (DOM-005).
+- Achat étranger ou par mandataire : VEH-019 borne la demande contractuelle,
+  VEH-020 la rétractation d'une vente professionnelle effectivement conclue à
+  distance. Formalités d'immatriculation, réception/homologation (DOM-010),
+  fiscalité (DOM-011) et douane (DOM-009) restent à découper. Droit applicable
+  et compétence sont recherchés avant toute application du droit français.
+- Contrôle technique : VEH-016 borne la réclamation sur la prestation du
+  centre ; régime administratif, restriction de circulation et recours
+  contre décision restent à découper dans DOM-010, sans faute déduite d'un PV.
+- Dépannage : VEH-015 lit la facture selon voie, poids, date et intervention ;
+  fourrière imposée par autorité → DOM-010, assistance → DOM-005. Ni tarif
+  ni droit de destination universels.
+- LOA : BNK-005 lit l'offre et ses échéances sous réserve de sources ;
+  demande de rétractation ou sortie anticipée au fond encore à découper en
+  DOM-004. VEH-018 garde la LLD sans option, VEH-009 la restitution matérielle.
+- Vendeur disparu : SOC-027 doit découper la démarche du créancier
+  consommateur en procédure collective ; VEH-004 prépare les pièces sans
+  prétendre que la lecture d'une prescription ordinaire résout ce besoin.
 - Achat entre particuliers d'un véhicule : voir l'arbitrage à confirmer.
 
-Ces besoins ne reçoivent aucune story tant que leur propriétaire n'est pas
-arrêté ; ils ne sont pas couverts par les suites ci-dessus.
+Les volets encore à découper ne sont pas couverts au fond par le seul renvoi
+à leur cadrage. Les propositions contractuelles ajoutées ne valent aucune
+validation des régimes administratifs ou transfrontières.
 
 ## Plan de recherche pour les futures implémentations
 
@@ -257,3 +282,15 @@ tête en cas de danger, de véhicule retenu ou d'échéance.
 
 Les fichiers « à créer » des suites sont des livrables futurs. La portée de
 ce cadrage figure dans la [vérification](dom-023-verification.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+La [matrice des 195 points](dom-023-frictions-utilisateurs.md) conserve chaque difficulté et résultat attendu, le tableau des échéances, les recours et les cinq précautions finales. Les compléments des douze suites initiales et les huit nouvelles propositions font partie du contrat de backlog ; aucun rang ne sélectionne une tranche.
+
+VEH-013 à VEH-020 créent chacune leur référence métier propre, indiquée dans la story. Elles relisent la qualification et les références des dépendances sans les réécrire ; aucun accès runtime à ces annexes. Les règles du neuf et de l'occasion sont recherchées séparément, même quand la tâche commune est dans VEH-004 ou VEH-008. Le nom historique du fichier de story ne réduit pas ce périmètre explicité.
+
+Plan de recherche complémentaire : information et accords avant dépôt/pièces de réemploi/consigne (013) ; retard d'exécution et perte d'usage sans droit automatique au prêt (014) ; textes tarifaires et agréments selon voie, poids et date (015) ; arrêtés du contrôle par catégorie et responsabilité contractuelle du centre (016) ; information des prix et frais du loueur (017) ; engagements et sortie de LLD (018) ; mandat, vente, droit applicable et compétence transfrontière (019) ; vente à distance et exceptions, retour et articulation du crédit (020). Ce sont des pistes non ouvertes, avec BASE-005/010/014/015 à appliquer selon le lot.
+
+Garanties : ne jamais copier la durée annoncée au point 115 sans vérifier texte, version et événement réparation/remplacement. Preuve : sécurité avant conservation ; photographies, codes, rapports et anciennes pièces selon possibilité et consigne. Recours : chaque échéance a sa propre fiche ; réclamation, négociation ou signalement ne prouvent aucun effet suspensif/interruptif à eux seuls.
+
+[Vérification du complément](dom-023-frictions-verification.md). Le contrôleur et le relevé JSON initiaux restent historiques ; leurs attentes de douze suites ne sont pas réécrites pour accepter ce complément.

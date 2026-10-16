@@ -79,3 +79,12 @@ procédure, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-023, sans implémentation. Contrat commun : [découpage](../dom-023-annexes/dom-023-decoupage-vehicules.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 118, 121–124 et 127 de la [matrice](../dom-023-annexes/dom-023-frictions-utilisateurs.md). Exigences supplémentaires du futur skill, sans implémentation.
+
+- [ ] F01 — Rayures, usure, expertise après départ et dépréciation sans travaux : distinguer constat, imputation, barème et fondement du poste ; demander photos et chronologie, sans déduire licéité ou illicéité de l'absence de travaux réalisés.
+- [ ] F02 — Panne pendant location : relever qualité du bailleur, vendeur, locataire et garant, pouvoir d'agir et interlocuteur ; question de garantie → VEH-011 avec réserve de régime et de qualité ; lecture LLD → VEH-018 ; sortie LOA à découper en DOM-004. Aucune garantie d'un achat direct transposée au locataire.
+
+Les cas F ci-dessus constituent les scénarios complémentaires **attendus, non exécutés**. Recueillir les pièces nommées, produire la comparaison et le brouillon prévus par la story ; sans source accessible, réserver droit, tarif, calendrier et effet de la clause. Rechercher les textes sectoriels et jurisprudence pertinents avec version, champ et dates ; le texte utilisateur n'est pas une source juridique. [Portée et vérification](../dom-023-annexes/dom-023-frictions-verification.md).

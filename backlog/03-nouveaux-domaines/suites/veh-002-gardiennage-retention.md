@@ -81,3 +81,12 @@ Contestation des travaux eux-mêmes, saisie, fourrière, procédure, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-023, sans implémentation. Contrat commun : [découpage](../dom-023-annexes/dom-023-decoupage-vehicules.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 8, 28–29 et 137 de la [matrice](../dom-023-annexes/dom-023-frictions-utilisateurs.md). Exigences supplémentaires du futur skill, sans implémentation.
+
+- [ ] F01 — Gardiennage après dépannage ou fin des travaux : identifier dépositaire, information préalable, tarif, déclencheur, dates et disponibilité pour retrait ; brouillon demandant détail et modalités de restitution.
+- [ ] F02 — Règlement avec réserves pour récupérer le véhicule : conserver contestation et paiement sans déclarer la créance fondée ni le recours abandonné ; fourrière administrative distincte, DOM-010.
+
+Les cas F ci-dessus constituent les scénarios complémentaires **attendus, non exécutés**. Recueillir les pièces nommées, produire la comparaison et le brouillon prévus par la story ; sans source accessible, réserver droit, tarif, calendrier et effet de la clause. Rechercher les textes sectoriels et jurisprudence pertinents avec version, champ et dates ; le texte utilisateur n'est pas une source juridique. [Portée et vérification](../dom-023-annexes/dom-023-frictions-verification.md).

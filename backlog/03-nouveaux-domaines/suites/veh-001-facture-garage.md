@@ -75,7 +75,7 @@ appliquer :
 - contestation de la qualité de la réparation → VEH-003, sans avis technique ;
 - assureur payeur ou expert d'assurance → la facture reste lue ici, la garantie relève de DOM-005 ;
 - usage professionnel du véhicule → qualification conditionnelle, orientation commercial ;
-- dépannage imposé par une autorité ou fourrière → orientation DOM-010.
+- enlèvement en fourrière décidé par une autorité → orientation DOM-010 ; facture de dépannage contractuel, y compris autoroutier → VEH-015.
 
 Charger la méthode locale BASE-005 et citer les sources réellement lues.
 Un accord allégué sans trace n'est ni retenu ni écarté ; un montant n'est
@@ -119,3 +119,13 @@ véhicule professionnel, avis technique, envoi.
 
 Issue de DOM-023, sans implémentation. Préalable PILOTE-003 satisfait après
 BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-023-annexes/dom-023-decoupage-vehicules.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 3, 5–6, 11, 14–15, 23–24, 29, 138, 165–166, 171–172 et 180 de la [matrice](../dom-023-annexes/dom-023-frictions-utilisateurs.md). Exigences supplémentaires du futur skill, sans implémentation.
+
+- [ ] F01 — Diagnostic/devis facturé, accord seulement oral, forfait et main-d'œuvre opaques : demander preuve de l'information préalable, méthode et contenu ; ne pas déclarer devis/ordre systématiquement obligatoires. Vérifier champ et seuil de la note détaillée sur texte/version, jamais sur le chiffre du guide.
+- [ ] F02 — Pièce annoncée neuve/constructeur, échange standard ou consigne : comparer nature, référence, prix annoncé et mention facturée ; demander traçabilité et conditions du remboursement de consigne sans diagnostiquer l'installation.
+- [ ] F03 — Prestation suspectée non réalisée et paiement pour reprendre la voiture : conserver rapports, réserves et preuve du règlement ; aucune fraude ou renonciation déduite. VEH-003/010 pour constat, VEH-002 si rétention.
+
+Les cas F ci-dessus constituent les scénarios complémentaires **attendus, non exécutés**. Recueillir les pièces nommées, produire la comparaison et le brouillon prévus par la story ; sans source accessible, réserver droit, tarif, calendrier et effet de la clause. Rechercher les textes sectoriels et jurisprudence pertinents avec version, champ et dates ; le texte utilisateur n'est pas une source juridique. [Portée et vérification](../dom-023-annexes/dom-023-frictions-verification.md).

@@ -9,10 +9,10 @@
 | Bloquée | 0 |
 | Terminée | 41 |
 | Prête | 0 |
-| À faire | 518 |
+| À faire | 526 |
 | Abandonnée | 23 |
 | dont prêtes à démarrer | 145 |
-| Total | 584 |
+| Total | 592 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -257,10 +257,10 @@ Stories à faire dont toutes les dépendances sont terminées.
 - [DOM-008](03-nouveaux-domaines/dom-008-transports.md) — Cadrer un plugin transports et voyages
   <br>Annexes : [dom-008-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py) · [dom-008-decoupage-transports.md](03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md) · [dom-008-frictions-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-controles.py) · [dom-008-frictions-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-resultats.json) · [dom-008-frictions-utilisateurs.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-utilisateurs.md) · [dom-008-frictions-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-verification.md) · [dom-008-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json) · [dom-008-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md)
 - [DOM-023](03-nouveaux-domaines/dom-023-vehicules-garages.md) — Cadrer un plugin véhicules, garages et réparations
-  <br>Annexes : [dom-023-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py) · [dom-023-decoupage-vehicules.md](03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md) · [dom-023-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json) · [dom-023-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md)
+  <br>Annexes : [dom-023-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py) · [dom-023-decoupage-vehicules.md](03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md) · [dom-023-frictions-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-controles.py) · [dom-023-frictions-utilisateurs.md](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-utilisateurs.md) · [dom-023-frictions-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-verification.md) · [dom-023-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json) · [dom-023-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md)
 - [DOM-031](03-nouveaux-domaines/dom-031-deces-obseques.md) — Cadrer un plugin décès et prestations funéraires
   <br>Annexes : [dom-031-controles.py](03-nouveaux-domaines/dom-031-annexes/dom-031-controles.py) · [dom-031-decoupage-funeraire.md](03-nouveaux-domaines/dom-031-annexes/dom-031-decoupage-funeraire.md) · [dom-031-frictions-utilisateurs.md](03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-utilisateurs.md) · [dom-031-frictions-verification.md](03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-verification.md) · [dom-031-resultats.json](03-nouveaux-domaines/dom-031-annexes/dom-031-resultats.json) · [dom-031-verification.md](03-nouveaux-domaines/dom-031-annexes/dom-031-verification.md)
-- Autres documents : [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [deces-obseques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/deces-obseques-frictions-2026-10-16.txt) · [logement-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/logement-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt) · [sante-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/sante-frictions-2026-10-16.txt) · [transports-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/transports-frictions-2026-10-16.txt)
+- Autres documents : [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [deces-obseques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/deces-obseques-frictions-2026-10-16.txt) · [logement-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/logement-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt) · [sante-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/sante-frictions-2026-10-16.txt) · [transports-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/transports-frictions-2026-10-16.txt) · [vehicules-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/vehicules-frictions-2026-10-16.txt)
 
 ### 04 — Livraison
 
@@ -963,22 +963,30 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>VEH</b> — Véhicules, garages et réparations (03 — Nouveaux domaines) : 12 à faire, 0 prêtes</summary>
+<summary><b>VEH</b> — Véhicules, garages et réparations (03 — Nouveaux domaines) : 20 à faire, 0 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
 | [VEH-001](03-nouveaux-domaines/suites/veh-001-facture-garage.md) | Comparer une facture de garage aux travaux autorisés | P2 | BASE-008 |
 | [VEH-002](03-nouveaux-domaines/suites/veh-002-gardiennage-retention.md) | Lire des frais de gardiennage et s'orienter face à un véhicule retenu par le garage | P2 | BASE-008, VEH-001 |
-| [VEH-003](03-nouveaux-domaines/suites/veh-003-reparation-defaillante.md) | Préparer une réclamation au garage après une réparation qui n'a pas réglé la panne | P2 | BASE-008, VEH-001 |
-| [VEH-004](03-nouveaux-domaines/suites/veh-004-occasion-vendeur-pro.md) | Documenter une panne après l'achat d'un véhicule d'occasion chez un professionnel | P2 | BASE-008, VEH-001 |
+| [VEH-003](03-nouveaux-domaines/suites/veh-003-reparation-defaillante.md) | Préparer une réclamation après une réparation défaillante ou une détérioration au garage | P2 | BASE-008, VEH-001 |
+| [VEH-004](03-nouveaux-domaines/suites/veh-004-occasion-vendeur-pro.md) | Documenter un défaut après l'achat d'un véhicule auprès d'un professionnel | P2 | BASE-008, VEH-001 |
 | [VEH-005](03-nouveaux-domaines/suites/veh-005-occasion-vendeur-particulier.md) | Documenter une panne après l'achat d'un véhicule à un particulier | P2 | BASE-008, VEH-004 |
 | [VEH-006](03-nouveaux-domaines/suites/veh-006-location-dommages-retour.md) | Répondre à un loueur qui réclame des dommages au retour du véhicule | P2 | BASE-008, VEH-001 |
 | [VEH-007](03-nouveaux-domaines/suites/veh-007-revue-avant-achat.md) | Préparer la revue d'une annonce, d'un bon de commande et des garanties alléguées avant l'achat d'un véhicule | P2 | BASE-008, VEH-004 |
-| [VEH-008](03-nouveaux-domaines/suites/veh-008-commande-vehicule-neuf.md) | Préparer une demande au vendeur d'un véhicule neuf livré en retard ou différent de la commande | P2 | BASE-008, VEH-004 |
+| [VEH-008](03-nouveaux-domaines/suites/veh-008-commande-vehicule-neuf.md) | Préparer une demande après un litige de commande de véhicule auprès d'un professionnel | P2 | BASE-008, VEH-004 |
 | [VEH-009](03-nouveaux-domaines/suites/veh-009-restitution-location-longue.md) | Comparer les frais de fin de location longue durée ou avec option d'achat au contrat | P2 | BASE-008, VEH-006 |
 | [VEH-010](03-nouveaux-domaines/suites/veh-010-expertise-amiable.md) | Conserver l'état d'un véhicule et préparer une expertise amiable | P2 | BASE-008, VEH-001 |
 | [VEH-011](03-nouveaux-domaines/suites/veh-011-garantie-constructeur.md) | Préparer une demande au constructeur après un refus de garantie ou un rappel | P2 | BASE-008, VEH-004 |
 | [VEH-012](03-nouveaux-domaines/suites/veh-012-vendeur-particulier-reponse.md) | Préparer la réponse d'un vendeur particulier à la réclamation de l'acheteur du véhicule | P3 | BASE-008, VEH-005 |
+| [VEH-013](03-nouveaux-domaines/suites/veh-013-preparer-depot-garage.md) | Préparer le dépôt d'un véhicule et borner les travaux autorisés | P2 | BASE-008, VEH-001 |
+| [VEH-014](03-nouveaux-domaines/suites/veh-014-retard-immobilisation.md) | Préparer une demande de calendrier après une immobilisation prolongée au garage | P2 | BASE-008, VEH-001 |
+| [VEH-015](03-nouveaux-domaines/suites/veh-015-facture-depannage.md) | Examiner une facture de dépannage ou de remorquage | P2 | BASE-008, VEH-001 |
+| [VEH-016](03-nouveaux-domaines/suites/veh-016-controle-technique.md) | Préparer une réclamation à un centre de contrôle technique | P2 | BASE-008, VEH-001 |
+| [VEH-017](03-nouveaux-domaines/suites/veh-017-frais-location-courte.md) | Examiner les frais et prestations contestés d'une location courte durée | P2 | BASE-008, VEH-006 |
+| [VEH-018](03-nouveaux-domaines/suites/veh-018-revue-contrat-lld.md) | Lire les engagements d'une location longue durée sans option d'achat | P2 | BASE-008, VEH-006 |
+| [VEH-019](03-nouveaux-domaines/suites/veh-019-achat-mandataire-import.md) | Préparer une demande contractuelle pour un achat de véhicule par mandataire ou à l'étranger | P2 | BASE-008, VEH-004 |
+| [VEH-020](03-nouveaux-domaines/suites/veh-020-retractation-achat-distance.md) | Préparer une demande de rétractation après un achat de véhicule à distance | P2 | BASE-008, VEH-004 |
 
 </details>
 

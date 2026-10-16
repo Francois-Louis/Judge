@@ -1,18 +1,18 @@
 ---
 id: VEH-004
-titre: "Documenter une panne après l'achat d'un véhicule d'occasion chez un professionnel"
+titre: "Documenter un défaut après l'achat d'un véhicule auprès d'un professionnel"
 statut: proposee
 priorite: P2
 nature: implementation
 dependances: [DOM-023, PILOTE-003, BASE-005, BASE-006, BASE-008, VEH-001]
 ---
 
-# VEH-004 — Documenter une panne après l'achat d'un véhicule d'occasion chez un professionnel
+# VEH-004 — Documenter un défaut après l'achat d'un véhicule auprès d'un professionnel
 
 ## Objectif et résultat attendu
 
-Un acheteur particulier dont le véhicule d'occasion acheté à un
-professionnel tombe en panne sait quelles garanties examiner, lesquelles
+Un acheteur particulier dont le véhicule neuf ou d'occasion acheté à un
+professionnel présente un défaut après livraison sait quelles garanties examiner, lesquelles
 dépendent de quelle pièce, ce qui reste à établir, et obtient un brouillon
 de demande au vendeur.
 
@@ -89,3 +89,14 @@ affecté, plainte, procédure, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-023, sans implémentation. Contrat commun : [découpage](../dom-023-annexes/dom-023-decoupage-vehicules.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 33–43, 51–54, 73–76, 92, 94, 98–99 et 101–115 de la [matrice](../dom-023-annexes/dom-023-frictions-utilisateurs.md). Exigences supplémentaires du futur skill, sans implémentation.
+
+- [ ] F01 — Vente professionnelle neuve ou d'occasion : tableau séparant conformité, vices cachés, garantie commerciale et garant ; documenter demande au vendeur, refus et passages en atelier. Cette extension porte sur les défauts après livraison ; commande/prix/livraison → VEH-008.
+- [ ] F02 — Garantie commerciale expirée, moteur-boîte-pont, usure et entretien hors réseau invoqués : comparer fondement du refus et pièces sans confondre durée de garantie, présomption, cause technique et garantie du constructeur VEH-011.
+- [ ] F03 — Diagnostic payant, mises à jour sans effet, défaut persistant : dater demande, réception, reprises et immobilisation ; rechercher gratuité, délai, recours et effets de réparation/remplacement dans la version applicable. L'extension de durée alléguée au point 115 n'est jamais recopiée comme règle.
+- [ ] F04 — Vente pour compte d'un tiers, société différente ou vendeur disparu : qualifier parties et contrat ; médiation et prescription séparées ; procédure collective → SOC-027, voie créancier consommateur encore à découper ; aucune conformité professionnelle appliquée automatiquement à un particulier.
+
+Les cas F ci-dessus constituent les scénarios complémentaires **attendus, non exécutés**. Recueillir les pièces nommées, produire la comparaison et le brouillon prévus par la story ; sans source accessible, réserver droit, tarif, calendrier et effet de la clause. Rechercher les textes sectoriels et jurisprudence pertinents avec version, champ et dates ; le texte utilisateur n'est pas une source juridique. [Portée et vérification](../dom-023-annexes/dom-023-frictions-verification.md).

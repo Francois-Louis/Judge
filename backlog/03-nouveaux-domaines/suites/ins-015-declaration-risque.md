@@ -66,3 +66,9 @@ Souscription, omission conseillée, décision sur la validité d'une sanction, c
 ## État de la proposition — 16 octobre 2026
 
 Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-annexes/dom-005-decoupage-assurance.md).
+
+## Complément des frictions véhicules — 16 octobre 2026
+
+Points 21–22, 96 et 192–195 de la [matrice véhicules](../dom-023-annexes/dom-023-frictions-utilisateurs.md). Ajouter aux entrées : nature de la modification E85/moteur/puissance/antipollution ou accessoire, facture, déclaration faite au moment de souscrire ou en cours de contrat, question de l'assureur, avis et dates. Comparer risque déclaré, changement allégué et réponse ; préparer demande d'information/déclaration sans certifier homologation ou garantie. Formalité/conformité → DOM-010, engagement du réparateur → VEH-013/003, garantie constructeur → VEH-011. Cas attendus : conversion proposée sans information d'assurance ; refus après modification dont le lien au sinistre n'est pas établi. Scénarios **attendus, non exécutés** ; rechercher conditions et effets selon Code des assurances/version, sans nullité ou exclusion automatique.
+
+[Portée et vérification documentaire](../dom-023-annexes/dom-023-frictions-verification.md) ; aucune implémentation ni droit validé par ce complément.
