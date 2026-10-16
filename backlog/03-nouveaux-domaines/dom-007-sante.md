@@ -1,7 +1,7 @@
 ---
 id: DOM-007
 titre: "Cadrer un plugin santé et droits des patients"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -34,11 +34,11 @@ Un premier skill de préparation d'une demande d'accès au dossier médical, lim
 
 ## Critères d'acceptation
 
-- [ ] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
-- [ ] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
-- [ ] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle.
-- [ ] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
-- [ ] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
+- [x] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
+- [x] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
+- [x] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle (scénarios rédigés, non exécutés).
+- [x] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
+- [x] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
 
 ## Scénarios pour éprouver le découpage
 
@@ -56,3 +56,51 @@ Implémenter le domaine entier, créer un plugin vide pour donner l'impression d
 ## Complément des frictions données personnelles — 16 octobre 2026
 
 Points 45–47 de la [matrice données personnelles](../02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md) : découper demande d'accès au dossier médical et contestation d'un accès tardif selon le régime sectoriel. Qualifier demandeur/pouvoir, nature et ancienneté des informations, réception et exceptions avant de rechercher les délais ; aucun calendrier RGPD automatique. PRV-001/025/034 gardent les demandes relatives au traitement et aux accès injustifiés allégués ; PRV-026 qualifie une transmission de données de santé. Demander au DPO les vérifications utiles sans promettre toutes les identités des agents. Scénario attendu : copie du dossier et soupçon de consultation, avec deux objets et calendriers distincts. Ces tâches sectorielles restent à découper ; portée et contrôles dans la matrice.
+
+## Bilan d'exécution — 16 octobre 2026
+
+- [Découpage](dom-007-annexes/dom-007-decoupage-sante.md) : nom `health-legal`
+  conservé (`judge-fr-eu-health-legal`) ; installation seule, sans profil,
+  agent, hook, connecteur ni accès à un espace numérique de santé ;
+  garde-fous (ni diagnostic ni avis médical, urgence médicale d'abord,
+  qualité du demandeur d'abord, quatre objets non fusionnés, statut public
+  ou privé établi, aucun délai ni seuil inventé, collecte minimale) ;
+  qualification commune (demandeur, structure, objectif, informations
+  visées, dates, pièces, urgence) ; frontières avec protection sociale,
+  assurance, responsabilité, protection des majeurs, handicap, données
+  personnelles, pénal, violences, contentieux, travail, fonction publique,
+  séjour, successions, consommation, publicité et éducation.
+- 12 propositions SAN-001 à SAN-012 sous `suites/`, en quatre rangs.
+  Première tranche : SAN-001, demande d'accès au dossier médical par le
+  patient majeur pour lui-même, qui crée le paquet avec ce seul skill.
+  Représentant ou proche, ayant droit, relance, réclamation et orientation
+  d'un dommage au rang 2 ; ordre, ARS, information, soins sans consentement
+  et frais au rang 3 ; directives anticipées au rang 4.
+- Établissement et commission des usagers, ARS, ordre, assurance,
+  commissions et ONIAM et juge répartis entre SAN-005 à SAN-008 et DOM-005 ;
+  soins sans consentement (SAN-010) et remboursement par une caisse
+  (DOM-012) séparés.
+- Complément des frictions données personnelles : points 45–47 rattachés
+  dans le découpage, sans modifier la matrice EXIST-003 ; scénario « copie
+  du dossier et soupçon de consultation » relu.
+- Quatre points ouverts sans story : médecine du travail et dossiers d'un
+  assureur ou d'un médecin-conseil, structures médico-sociales (partage
+  avec DOM-025), refus de soins discriminatoire, espace numérique de santé.
+- [Vérification documentaire](dom-007-annexes/dom-007-verification.md) :
+  les trois scénarios de la story, le scénario des frictions et onze cas
+  limites, sans délai, montant ni droit conclu.
+- Ligne `health-legal` de la [matrice BASE-003](../00-fondations/base-003-annexes/base-003-dossier-architecture.md)
+  précisée ; famille SAN ajoutée au générateur de l'index et index régénéré.
+- [Contrôles statiques](dom-007-annexes/dom-007-resultats.json), produits par
+  [le contrôleur du lot](dom-007-annexes/dom-007-controles.py), sur le modèle de DOM-005.
+
+Fichiers du lot : présente story, découpage, vérification, contrôleur,
+relevé JSON, 12 propositions `suites/san-*.md`, ligne de BASE-003,
+`backlog/etat.py` et `backlog/ETAT.md`. Le lot reste sous `backlog/`, sans
+entrée NOTICE.
+
+**Portée :** cadrage documentaire relu par l'agent de maintenance sur pièces
+fictives, avec contrôles statiques. Aucune source juridique lue : les
+articles cités sont des pistes. Aucun plugin créé, skill exécuté, paquet
+installé, lecteur réel ou indépendant. Le préalable PILOTE-003 est satisfait
+après BASE-011 ; aucune tranche n'est sélectionnée.

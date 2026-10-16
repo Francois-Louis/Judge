@@ -1,0 +1,396 @@
+{
+  "story": "DOM-007",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "62e76f32e4f46f869d48cf9e7dfc3e2939a13a9f",
+  "scope": "cadrage documentaire du domaine santé ; aucun plugin créé ni validation juridique",
+  "checks": {
+    "backlog_frontmatter_and_dependencies": {
+      "status": "passed",
+      "total": 518,
+      "statuses": {
+        "terminee": 38,
+        "en-cours": 1,
+        "proposee": 455,
+        "abandonnee": 23,
+        "a-verifier": 1
+      },
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 12,
+      "file_targets": 40,
+      "future_files": [
+        {
+          "path": "health-legal/.claude-plugin/plugin.json",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/README.md",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/CLAUDE.md",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/NOTICE",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/LICENSE",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/references/shared/research-citation-method.md",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/references/isolation.md",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/scripts/judge_store.py",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/references/company-profile-template.md",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/references/dashboard-template.md",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/references/qualification-sante.md",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/references/acces-dossier.md",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/skills/medical-record-request/SKILL.md",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/skills/medical-record-request/references/demande-acces.md",
+          "owner": "SAN-001"
+        },
+        {
+          "path": "health-legal/skills/representative-record-request/SKILL.md",
+          "owner": "SAN-002"
+        },
+        {
+          "path": "health-legal/references/qualite-demandeur.md",
+          "owner": "SAN-002"
+        },
+        {
+          "path": "health-legal/skills/deceased-patient-record-request/SKILL.md",
+          "owner": "SAN-003"
+        },
+        {
+          "path": "health-legal/references/acces-ayant-droit.md",
+          "owner": "SAN-003"
+        },
+        {
+          "path": "health-legal/skills/medical-record-access-follow-up/SKILL.md",
+          "owner": "SAN-004"
+        },
+        {
+          "path": "health-legal/references/suite-acces-dossier.md",
+          "owner": "SAN-004"
+        },
+        {
+          "path": "health-legal/skills/care-complaint/SKILL.md",
+          "owner": "SAN-005"
+        },
+        {
+          "path": "health-legal/references/objets-demarche.md",
+          "owner": "SAN-005"
+        },
+        {
+          "path": "health-legal/references/reclamation-etablissement.md",
+          "owner": "SAN-005"
+        },
+        {
+          "path": "health-legal/skills/medical-harm-orientation/SKILL.md",
+          "owner": "SAN-006"
+        },
+        {
+          "path": "health-legal/references/voies-indemnisation.md",
+          "owner": "SAN-006"
+        },
+        {
+          "path": "health-legal/skills/professional-board-complaint/SKILL.md",
+          "owner": "SAN-007"
+        },
+        {
+          "path": "health-legal/references/plainte-ordinale.md",
+          "owner": "SAN-007"
+        },
+        {
+          "path": "health-legal/skills/health-authority-report/SKILL.md",
+          "owner": "SAN-008"
+        },
+        {
+          "path": "health-legal/references/signalement-ars.md",
+          "owner": "SAN-008"
+        },
+        {
+          "path": "health-legal/skills/care-information-request/SKILL.md",
+          "owner": "SAN-009"
+        },
+        {
+          "path": "health-legal/references/information-consentement.md",
+          "owner": "SAN-009"
+        },
+        {
+          "path": "health-legal/skills/involuntary-care-orientation/SKILL.md",
+          "owner": "SAN-010"
+        },
+        {
+          "path": "health-legal/references/soins-sans-consentement.md",
+          "owner": "SAN-010"
+        },
+        {
+          "path": "health-legal/skills/care-bill-review/SKILL.md",
+          "owner": "SAN-011"
+        },
+        {
+          "path": "health-legal/references/information-frais.md",
+          "owner": "SAN-011"
+        },
+        {
+          "path": "health-legal/skills/advance-directives-preparation/SKILL.md",
+          "owner": "SAN-012"
+        },
+        {
+          "path": "health-legal/references/directives-personne-confiance.md",
+          "owner": "SAN-012"
+        }
+      ],
+      "problems": []
+    },
+    "breakdown_table_consistency": {
+      "status": "passed",
+      "rows": 12,
+      "problems": []
+    },
+    "story_scenarios_and_privacy_frictions": {
+      "status": "passed",
+      "privacy_owners": [
+        "PRV-001",
+        "PRV-025",
+        "PRV-026",
+        "PRV-033",
+        "PRV-034"
+      ],
+      "legal_validation": false,
+      "business_scenarios_executed": false,
+      "problems": []
+    },
+    "no_plugin_created": {
+      "status": "passed",
+      "marketplace_plugins": 11,
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 16,
+      "local_links": 113,
+      "problems": []
+    },
+    "table_column_counts": {
+      "status": "passed",
+      "problems": []
+    },
+    "index_matrix_and_prerequisites": {
+      "status": "passed",
+      "problems": []
+    },
+    "figures_for_manual_review": {
+      "status": "manual-review",
+      "count": 0,
+      "occurrences": [],
+      "note": "Occurrences à relire : aucune durée, aucun seuil ni montant ne doit être présenté comme une règle."
+    },
+    "scope_vs_task_baseline": {
+      "status": "passed",
+      "baseline_git_head": "50fa9a0d5cae2e79166edcca34ed9276cde76c3f",
+      "lot_changes": [
+        "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md",
+        "backlog/03-nouveaux-domaines/dom-007-annexes/dom-007-controles.py",
+        "backlog/03-nouveaux-domaines/dom-007-annexes/dom-007-decoupage-sante.md",
+        "backlog/03-nouveaux-domaines/dom-007-annexes/dom-007-verification.md",
+        "backlog/03-nouveaux-domaines/dom-007-sante.md",
+        "backlog/03-nouveaux-domaines/suites/san-001-acces-dossier-patient.md",
+        "backlog/03-nouveaux-domaines/suites/san-002-acces-representant.md",
+        "backlog/03-nouveaux-domaines/suites/san-003-acces-ayant-droit.md",
+        "backlog/03-nouveaux-domaines/suites/san-004-relancer-acces-dossier.md",
+        "backlog/03-nouveaux-domaines/suites/san-005-reclamation-etablissement.md",
+        "backlog/03-nouveaux-domaines/suites/san-006-orienter-dommage-soins.md",
+        "backlog/03-nouveaux-domaines/suites/san-007-plainte-ordre.md",
+        "backlog/03-nouveaux-domaines/suites/san-008-signalement-ars.md",
+        "backlog/03-nouveaux-domaines/suites/san-009-information-consentement.md",
+        "backlog/03-nouveaux-domaines/suites/san-010-soins-sans-consentement.md",
+        "backlog/03-nouveaux-domaines/suites/san-011-frais-soins.md",
+        "backlog/03-nouveaux-domaines/suites/san-012-directives-anticipees.md",
+        "backlog/ETAT.md",
+        "backlog/etat.py"
+      ],
+      "concurrent_patterns": [
+        "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md",
+        "backlog/02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-controles.py",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-decoupage-logement.md",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-verification.md",
+        "backlog/03-nouveaux-domaines/dom-006-logement.md",
+        "backlog/03-nouveaux-domaines/suites/enf-005-expulsion.md",
+        "backlog/03-nouveaux-domaines/suites/log-001-depot-garantie.md",
+        "backlog/03-nouveaux-domaines/suites/log-002-charges-locatives.md",
+        "backlog/03-nouveaux-domaines/suites/log-003-revue-bail.md",
+        "backlog/03-nouveaux-domaines/suites/log-004-reparations.md",
+        "backlog/03-nouveaux-domaines/suites/log-005-decence.md",
+        "backlog/03-nouveaux-domaines/suites/log-006-conge-bailleur-meuble.md",
+        "backlog/03-nouveaux-domaines/suites/log-007-conge-locataire.md",
+        "backlog/03-nouveaux-domaines/suites/log-008-arriere-locatif.md",
+        "backlog/03-nouveaux-domaines/suites/log-009-delais-clause-resolutoire.md",
+        "backlog/03-nouveaux-domaines/suites/log-010-demande-judiciaire-locative.md",
+        "backlog/03-nouveaux-domaines/suites/log-011-justificatifs-candidature.md",
+        "backlog/ETAT.md",
+        "backlog/etat.py"
+      ],
+      "concurrent_changes": [
+        "backlog/02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-controles.py",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-decoupage-logement.md",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-verification.md",
+        "backlog/03-nouveaux-domaines/dom-006-logement.md",
+        "backlog/03-nouveaux-domaines/suites/enf-005-expulsion.md",
+        "backlog/03-nouveaux-domaines/suites/log-001-depot-garantie.md",
+        "backlog/03-nouveaux-domaines/suites/log-002-charges-locatives.md",
+        "backlog/03-nouveaux-domaines/suites/log-003-revue-bail.md",
+        "backlog/03-nouveaux-domaines/suites/log-004-reparations.md",
+        "backlog/03-nouveaux-domaines/suites/log-005-decence.md",
+        "backlog/03-nouveaux-domaines/suites/log-006-conge-bailleur-meuble.md",
+        "backlog/03-nouveaux-domaines/suites/log-007-conge-locataire.md",
+        "backlog/03-nouveaux-domaines/suites/log-008-arriere-locatif.md",
+        "backlog/03-nouveaux-domaines/suites/log-009-delais-clause-resolutoire.md",
+        "backlog/03-nouveaux-domaines/suites/log-010-demande-judiciaire-locative.md",
+        "backlog/03-nouveaux-domaines/suites/log-011-justificatifs-candidature.md"
+      ],
+      "preserved_files": 1028,
+      "report_excluded_from_own_comparison": true,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 75,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    }
+  },
+  "lot_sha256": {
+    "backlog/03-nouveaux-domaines/dom-007-sante.md": "b8b251cce845cc51654ebf0d449a718da49c5dc1bec6dd0542077a48639c67de",
+    "backlog/03-nouveaux-domaines/dom-007-annexes/dom-007-decoupage-sante.md": "a8a0169af7356af78baff7fe9b2dd4cf46b9f859f52e5ab40f1e55e1edadcf3f",
+    "backlog/03-nouveaux-domaines/dom-007-annexes/dom-007-verification.md": "e14d84508006b3a7ca497c5546d776fc24fc7b0121de9f8c36971da183ed541e",
+    "backlog/03-nouveaux-domaines/suites/san-001-acces-dossier-patient.md": "28f3177638b60f149e37a72fbaf00fed009ebb8b447f6c912bd7d5b618c542ab",
+    "backlog/03-nouveaux-domaines/suites/san-002-acces-representant.md": "35d2291c1fce614066b54805947503c31f400a88c2f4cdf5f751ec2701343efa",
+    "backlog/03-nouveaux-domaines/suites/san-003-acces-ayant-droit.md": "aad3e0b0c0cfba0f0b20f8b3bfb32561a2aa9a7219179d04f8c64cced2453bfa",
+    "backlog/03-nouveaux-domaines/suites/san-004-relancer-acces-dossier.md": "7e3c200f404e94afb3d3024e907eabe01f2ca24a790a49bccc5bb4cfdcc8e710",
+    "backlog/03-nouveaux-domaines/suites/san-005-reclamation-etablissement.md": "3577e262754adae89d93b9d94e829437eb6e09d56f6d35f94cf41f5658927c8e",
+    "backlog/03-nouveaux-domaines/suites/san-006-orienter-dommage-soins.md": "d6d20d0995aa05ba0ed495d543fb59463a126ba2320cbaeefc8c2897f164f1b8",
+    "backlog/03-nouveaux-domaines/suites/san-007-plainte-ordre.md": "2d0b7d9d0425bc99c6ea09cc566de1c7e021b92e0d93a4163f03374459fc4d5f",
+    "backlog/03-nouveaux-domaines/suites/san-008-signalement-ars.md": "cd30135e857f7467a0ea2eaed505f2af00995ab278f994b25370e0b18bd907e7",
+    "backlog/03-nouveaux-domaines/suites/san-009-information-consentement.md": "32227b405e80b06eda718fb601f652dd756335a08a774267f2de88552e12aea8",
+    "backlog/03-nouveaux-domaines/suites/san-010-soins-sans-consentement.md": "1488a05ac8717239e132146038595b1704c9c1fd556ea41662f9ddfee5d8497a",
+    "backlog/03-nouveaux-domaines/suites/san-011-frais-soins.md": "74fa783c3126a80f1ce718d57ffaf00a7626ac32477fac35f41d18652e290226",
+    "backlog/03-nouveaux-domaines/suites/san-012-directives-anticipees.md": "b3dc1248565ad7ea55ddfe316d0617e33cf56e84185350e51c3b0faecc8286b5",
+    "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md": "4998d410323531eaed55cc73c5209a80d296c2849e7c7cd282b1c678a89cdb4a",
+    "backlog/etat.py": "3f1b9eb2163d0e85941b6adcd44c913cd8f46d9523c4ab85c457bc70ab5b506f",
+    "backlog/03-nouveaux-domaines/dom-007-annexes/dom-007-controles.py": "8df690db6d0f655eaaa5a7d71e052ce9c63188dee899926725a309a8f00abe90"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "calcul de délai, de seuil ou de montant",
+    "création ou exécution de skill",
+    "installation/recette client",
+    "lecteur réel ou indépendant",
+    "connexion/envoi/publication"
+  ],
+  "commands": [
+    [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "backlog\\03-nouveaux-domaines\\dom-007-annexes\\dom-007-controles.py",
+      "--baseline",
+      "C:/Users/fltou/AppData/Local/Temp/claude/c--Users-fltou-Desktop-Judge/6b16d59d-c8d4-4ced-8230-592e7d1c189b/scratchpad/dom-007-baseline-wt.json",
+      "--concurrent",
+      "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md",
+      "--concurrent",
+      "backlog/02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-controles.py",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-decoupage-logement.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-resultats.json",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-verification.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/dom-006-logement.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/enf-005-expulsion.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/log-001-depot-garantie.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/log-002-charges-locatives.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/log-003-revue-bail.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/log-004-reparations.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/log-005-decence.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/log-006-conge-bailleur-meuble.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/log-007-conge-locataire.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/log-008-arriere-locatif.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/log-009-delais-clause-resolutoire.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/log-010-demande-judiciaire-locative.md",
+      "--concurrent",
+      "backlog/03-nouveaux-domaines/suites/log-011-justificatifs-candidature.md",
+      "--concurrent",
+      "backlog/ETAT.md",
+      "--concurrent",
+      "backlog/etat.py",
+      "--output",
+      "backlog/03-nouveaux-domaines/dom-007-annexes/dom-007-resultats.json"
+    ],
+    "python -X utf8 backlog/etat.py --check (appelé par le contrôleur)",
+    "python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)",
+    "git diff --check (appelé par le contrôleur)"
+  ],
+  "execution_notes": [
+    "Relevé produit dans une copie de travail détachée de HEAD, ne contenant que ce lot, parce qu'un autre lot (DOM-006) modifiait en parallèle des fichiers partagés du checkout principal.",
+    "Contrôle de périmètre contre l'instantané de cette copie avant ajout du lot si --baseline est fourni.",
+    "Articles du Code de la santé publique cités comme pistes, non ouverts ; scénarios métier non exécutés."
+  ]
+}

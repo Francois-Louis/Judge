@@ -7,12 +7,12 @@
 | En cours | 1 |
 | À vérifier | 1 |
 | Bloquée | 0 |
-| Terminée | 37 |
+| Terminée | 38 |
 | Prête | 0 |
-| À faire | 444 |
+| À faire | 455 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 148 |
-| Total | 506 |
+| dont prêtes à démarrer | 147 |
+| Total | 518 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -48,7 +48,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [CTX-016](02-plugins-existants/suites/ctx-016-fiche-echeance.md) | Établir une fiche d’échéance de procédure TJ écrite | P2 | implementation |
 | [CTX-021](02-plugins-existants/suites/ctx-021-preferences-contentieux.md) | Gérer des préférences contentieuses volontaires | P2 | implementation |
 | [CTX-022](02-plugins-existants/suites/ctx-022-espace-dossier.md) | Isoler les espaces de dossiers contentieux | P2 | implementation |
-| [DOM-007](03-nouveaux-domaines/dom-007-sante.md) | Cadrer un plugin santé et droits des patients | P2 | cadrage |
 | [DOM-008](03-nouveaux-domaines/dom-008-transports.md) | Cadrer un plugin transports et voyages | P2 | cadrage |
 | [DOM-009](03-nouveaux-domaines/dom-009-douanes.md) | Cadrer un plugin douanes et import-export | P2 | cadrage |
 | [DOM-012](03-nouveaux-domaines/dom-012-protection-sociale.md) | Cadrer un plugin de sécurité sociale et prestations | P2 | cadrage |
@@ -255,6 +254,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [dom-005-controles.py](03-nouveaux-domaines/dom-005-annexes/dom-005-controles.py) · [dom-005-decoupage-assurance.md](03-nouveaux-domaines/dom-005-annexes/dom-005-decoupage-assurance.md) · [dom-005-frictions-utilisateurs.md](03-nouveaux-domaines/dom-005-annexes/dom-005-frictions-utilisateurs.md) · [dom-005-resultats.json](03-nouveaux-domaines/dom-005-annexes/dom-005-resultats.json) · [dom-005-verification.md](03-nouveaux-domaines/dom-005-annexes/dom-005-verification.md)
 - [DOM-006](03-nouveaux-domaines/dom-006-logement.md) — Cadrer un plugin logement locatif et habitat
   <br>Annexes : [dom-006-controles.py](03-nouveaux-domaines/dom-006-annexes/dom-006-controles.py) · [dom-006-decoupage-logement.md](03-nouveaux-domaines/dom-006-annexes/dom-006-decoupage-logement.md) · [dom-006-resultats.json](03-nouveaux-domaines/dom-006-annexes/dom-006-resultats.json) · [dom-006-verification.md](03-nouveaux-domaines/dom-006-annexes/dom-006-verification.md)
+- [DOM-007](03-nouveaux-domaines/dom-007-sante.md) — Cadrer un plugin santé et droits des patients
+  <br>Annexes : [dom-007-controles.py](03-nouveaux-domaines/dom-007-annexes/dom-007-controles.py) · [dom-007-decoupage-sante.md](03-nouveaux-domaines/dom-007-annexes/dom-007-decoupage-sante.md) · [dom-007-resultats.json](03-nouveaux-domaines/dom-007-annexes/dom-007-resultats.json) · [dom-007-verification.md](03-nouveaux-domaines/dom-007-annexes/dom-007-verification.md)
 - Autres documents : [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt)
 
 ### 04 — Livraison
@@ -751,11 +752,10 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 37 à faire, 37 prêtes</summary>
+<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 36 à faire, 36 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [DOM-007](03-nouveaux-domaines/dom-007-sante.md) | Cadrer un plugin santé et droits des patients | P2 | ✅ |
 | [DOM-008](03-nouveaux-domaines/dom-008-transports.md) | Cadrer un plugin transports et voyages | P2 | ✅ |
 | [DOM-009](03-nouveaux-domaines/dom-009-douanes.md) | Cadrer un plugin douanes et import-export | P2 | ✅ |
 | [DOM-010](03-nouveaux-domaines/dom-010-administratif.md) | Cadrer un plugin de droit administratif | P3 | ✅ |
@@ -868,6 +868,26 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [LOG-009](03-nouveaux-domaines/suites/log-009-delais-clause-resolutoire.md) | Vérifier les conditions d'une demande de délais et de suspension de clause | P2 | LOG-008 |
 | [LOG-010](03-nouveaux-domaines/suites/log-010-demande-judiciaire-locative.md) | Préparer une demande judiciaire locative de délais et suspension de clause | P3 | LOG-009 |
 | [LOG-011](03-nouveaux-domaines/suites/log-011-justificatifs-candidature.md) | Contrôler la liste de justificatifs d'une candidature locative | P2 | LOG-001 |
+
+</details>
+
+<details>
+<summary><b>SAN</b> — Santé et droits des patients (03 — Nouveaux domaines) : 12 à faire, 0 prêtes</summary>
+
+| Story | Titre | Priorité | Bloquée par |
+| --- | --- | --- | --- |
+| [SAN-001](03-nouveaux-domaines/suites/san-001-acces-dossier-patient.md) | Préparer une demande d'accès au dossier médical par le patient | P2 | BASE-008 |
+| [SAN-002](03-nouveaux-domaines/suites/san-002-acces-representant.md) | Vérifier la qualité d'un proche ou d'un représentant avant une demande d'accès | P2 | BASE-008, SAN-001 |
+| [SAN-003](03-nouveaux-domaines/suites/san-003-acces-ayant-droit.md) | Préparer la demande d'un ayant droit au dossier d'un patient décédé | P2 | BASE-008, SAN-001 |
+| [SAN-004](03-nouveaux-domaines/suites/san-004-relancer-acces-dossier.md) | Relancer ou contester une communication tardive, incomplète ou refusée du dossier médical | P2 | BASE-008, SAN-001 |
+| [SAN-005](03-nouveaux-domaines/suites/san-005-reclamation-etablissement.md) | Préparer une réclamation sur une prise en charge auprès d'un établissement | P2 | BASE-008, SAN-001 |
+| [SAN-006](03-nouveaux-domaines/suites/san-006-orienter-dommage-soins.md) | Orienter une demande d'indemnisation d'un dommage lié aux soins | P2 | BASE-008, SAN-005 |
+| [SAN-007](03-nouveaux-domaines/suites/san-007-plainte-ordre.md) | Préparer une plainte auprès de l'ordre d'un professionnel de santé | P2 | BASE-008, SAN-005 |
+| [SAN-008](03-nouveaux-domaines/suites/san-008-signalement-ars.md) | Préparer un signalement à l'agence régionale de santé | P2 | BASE-008, SAN-005 |
+| [SAN-009](03-nouveaux-domaines/suites/san-009-information-consentement.md) | Préparer les questions et la demande d'information sur un acte de soins | P2 | BASE-008, SAN-001 |
+| [SAN-010](03-nouveaux-domaines/suites/san-010-soins-sans-consentement.md) | Lire une mesure de soins psychiatriques sans consentement | P2 | BASE-008, SAN-001 |
+| [SAN-011](03-nouveaux-domaines/suites/san-011-frais-soins.md) | Comparer une facture de soins à l'information reçue sur les frais | P2 | BASE-008, SAN-001 |
+| [SAN-012](03-nouveaux-domaines/suites/san-012-directives-anticipees.md) | Préparer des directives anticipées et la désignation d'une personne de confiance | P3 | BASE-008, SAN-001 |
 
 </details>
 
