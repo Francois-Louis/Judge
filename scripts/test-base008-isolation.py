@@ -87,10 +87,10 @@ class MigratedPackages(unittest.TestCase):
         (path / "agents/worker.md").write_text("fixture", encoding="utf-8")
         return path
 
-    def test_manifest_contract_and_150_skill_names(self):
+    def test_manifest_contract_and_134_skill_names(self):
         self.assertEqual(MARKET["name"], "judge-fr-eu")
         self.assertEqual(MARKET["owner"]["name"], "Judge FR/UE maintainers")
-        self.assertEqual(len(MARKET["plugins"]), 12)
+        self.assertEqual(len(MARKET["plugins"]), 11)
         count = 0
         for entry in MARKET["plugins"]:
             domain = entry["source"][2:]
@@ -113,7 +113,7 @@ class MigratedPackages(unittest.TestCase):
             for path in skills:
                 data = self.checker.yaml.safe_load(path.read_text(encoding="utf-8").split("---", 2)[1])
                 self.assertEqual(data["name"], path.parent.name)
-        self.assertEqual(count, 150)
+        self.assertEqual(count, 134)
 
     def test_detached_package_structure(self):
         for domain, package in self.packages.items():

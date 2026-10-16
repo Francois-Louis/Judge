@@ -29,3 +29,7 @@ Files added or modified for this package:
   skills/session/SKILL.md
   skills/socratic-drill/SKILL.md
   skills/study-plan/SKILL.md
+
+Retirement of legal-clinic (2026-10-16, user decision, no story): references
+to the removed plugin updated.
+  CLAUDE.md

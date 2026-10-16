@@ -54,5 +54,11 @@ ne valident aucune règle de droit.
 | Médias | Nouveau cadrage couvrant personne atteinte, personne mise en cause, journalistes et créateurs, petits médias et sites. | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) et situation S-48 |
 | Vices de procédure et nullités | Repérage prudent dans chaque procédure : points à soumettre à l'avocat, alerte sur le moment (avant toute défense au fond), jamais « l'acte est nul ». | [CTX-029](02-plugins-existants/suites/ctx-029-reperer-irregularites-civiles.md), [ENF-020](03-nouveaux-domaines/suites/enf-020-reperer-irregularites-execution.md), [CRIM-024](03-nouveaux-domaines/suites/crim-024-reperer-irregularites-penales.md), complément de [DOM-010](03-nouveaux-domaines/dom-010-administratif.md) |
 
+## Retrait d'un plugin hérité
+
+| Sujet | Décision | Effet |
+|---|---|---|
+| Plugin `legal-clinic` (cliniques juridiques universitaires américaines) | Retirer le plugin, garder la trace du cadrage. | Répertoire et entrée du marketplace supprimés ; références actives retirées (README, connecteurs, `law-student`, hub). Le nom `judge-fr-eu-legal-clinic` reste réservé par le hub. [EXIST-009](02-plugins-existants/exist-009-clinique-juridique.md) reste `terminee` ; CLN-001 à CLN-023 passent `abandonnee`. Le marketplace compte onze plugins et 134 skills. |
+
 Les nouvelles stories sont `proposee`. Elles suivent le contrat commun de leur
 découpage et n'ont été ni sélectionnées ni implémentées.

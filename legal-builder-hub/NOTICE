@@ -40,3 +40,8 @@ automatically.
   agents/registry-sync.md
   skills/auto-updater/SKILL.md
   skills/customize/SKILL.md
+
+Retirement of legal-clinic (2026-10-16, user decision, no story): references
+to the removed plugin updated; the hub keeps its name reserved.
+  CLAUDE.md
+  skills/skill-manager/SKILL.md

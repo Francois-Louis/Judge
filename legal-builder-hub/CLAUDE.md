@@ -283,6 +283,6 @@ Both the source directory keys and these manifest identifiers are protected. The
 - `judge-fr-eu-ai-governance-legal` (directory `ai-governance-legal`)
 - `judge-fr-eu-litigation-legal` (directory `litigation-legal`)
 - `judge-fr-eu-law-student` (directory `law-student`)
-- `judge-fr-eu-legal-clinic` (directory `legal-clinic`)
+- `judge-fr-eu-legal-clinic` (directory `legal-clinic`) — retired from the marketplace on 2026-10-16; the name stays reserved
 - `judge-fr-eu-legal-builder-hub` (directory `legal-builder-hub`)
 - `judge-fr-eu-ip-legal` (directory `ip-legal`)

@@ -90,3 +90,10 @@ déploiement. Plugin et contenus éditeur inchangés ; sources françaises,
 versions, règles de structure, cadre professionnel/données et recettes restent
 aux futures implémentations.
 
+## Retrait du plugin — 16 octobre 2026
+
+Le plugin `legal-clinic` a été retiré du marketplace et du dépôt sur décision
+de l'utilisateur ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)).
+Ce cadrage reste terminé et sert de trace ; ses vingt-trois suites CLN sont
+`abandonnee`. Les liens du cadrage et de ses annexes vers `legal-clinic/`
+désignent l'état du dépôt avant ce retrait (commit `e215a2b`).

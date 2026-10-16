@@ -6,6 +6,27 @@ No affiliation or endorsement by Anthropic is claimed.
 Technical identity and storage changes do not certify France/EU legal adaptation.
 No upstream NOTICE was present in the source snapshot.
 
+Retirement of legal-clinic (2026-10-16, user decision, no story): the
+legal-clinic plugin (US law school clinics) is removed from the repository and
+the marketplace, which now lists eleven plugins and 134 skills. Active
+references are removed; the hub keeps the name reserved. EXIST-009 stays as a
+record and CLN-001 to CLN-023 are abandoned. Per-package mentions of "all 12
+plugins" in profiles and customize skills are left unchanged.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  CONNECTORS.md
+  CONTRIBUTING.md
+  QUICKSTART.md
+  README.md
+  NOTICE
+  legal-clinic/ (removed)
+  law-student/CLAUDE.md
+  law-student/NOTICE
+  legal-builder-hub/CLAUDE.md
+  legal-builder-hub/NOTICE
+  legal-builder-hub/skills/skill-manager/SKILL.md
+  scripts/test-base008-isolation.py (11 plugins, 134 skills)
+
 Agent workflow (2026-10-16, user request, no story): repository instructions
 require working directly on main and finishing changes with a commit and push.
   AGENTS.md

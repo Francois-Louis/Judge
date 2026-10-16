@@ -171,7 +171,8 @@ les cadrages ni tous les domaines pour livrer un petit lot.
 - Utiliser le [modèle de story](story-template.md) pour ajouter les tâches issues
   des cadrages. Référencer les identifiants des dépendances dans le frontmatter.
 - Statuts : `proposee` → `prete` → `en-cours` → `a-verifier` → `terminee`.
-  Utiliser `bloquee` en précisant le fait manquant et la condition de reprise.
+  Utiliser `bloquee` en précisant le fait manquant et la condition de reprise,
+  `abandonnee` pour une story retirée sur décision, avec la raison et le lien.
 - Priorités proposées : P0 fondations, P1 pilote, P2 extension après bilan,
   P3 domaines supplémentaires à prioriser. Elles ne sont pas des estimations de charge.
 

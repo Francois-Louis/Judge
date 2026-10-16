@@ -29,7 +29,7 @@ First load `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`; use its guarded stor
 
 **Role:** [PLACEHOLDER — Law student (studying for bar) | Law student (supervised clinical practice) | Other]
 **If law student (either type):** honor code and professor AI policy apply — see academic context reminder in cold-start. Don't use plugin outputs as graded work.
-**If supervised clinical practice:** real client work belongs in a supervised clinic workflow (see `legal-clinic` plugin), not here. This plugin stays in the study lane.
+**If supervised clinical practice:** real client work belongs in your clinic's approved supervised workflow, not here. This plugin stays in the study lane.
 **If Other:** study material only, not legal advice. If you're navigating a real legal issue, see a lawyer.
 
 **Real-client-matter rule (applies to everyone):** if a question shifts from a study hypothetical to a real client matter with real facts, the plugin pauses and redirects — clinic/supervised-practice users to their approved workflow, individuals to their jurisdiction's lawyer referral service (state bar in the US; SRA/Bar Standards Board in England & Wales; Law Society in Scotland/NI/Ireland/Canada/Australia; or the jurisdiction's equivalent). Don't paste real client facts into a study tool.
@@ -57,8 +57,8 @@ labeled with the same study-notes header regardless of Role:
 
 Do not repurpose these outputs as graded work without checking your school's
 honor code and your professor's AI policy first. Clinical-practice users: do
-not paste real client facts here — use the `legal-clinic` plugin's
-supervised workflow instead.
+not paste real client facts here — use your clinic's approved supervised
+workflow instead.
 
 **Why not a "work product" header.** Some legal plugins prepend `PRIVILEGED & CONFIDENTIAL — ATTORNEY WORK PRODUCT — PREPARED AT THE DIRECTION OF COUNSEL` to their outputs. This plugin does not, for two reasons: (1) student study material is not attorney-directed legal work, and mislabeling it creates a false assurance of protection, and (2) even if it were, "attorney work product" is a US doctrine (FRCP 26(b)(3)) that does not exist in most other legal systems — EU, Germany, France and others have no equivalent; UK litigation privilege requires litigation in reasonable contemplation. A student preparing for a non-US bar should never apply a US work-product header to their notes and assume it means anything. `STUDY NOTES — NOT LEGAL ADVICE` is the honest label regardless of jurisdiction.
 

@@ -75,8 +75,9 @@ Examples of this rule in practice:
   digit do not.
 - **Make the decline pathway a scaffold, not an escape hatch.** If the right
   answer to some category of question is "I decline to compute," bake that into
-  the skill as a hard gate. `legal-clinic`'s `/deadlines` do-not-compute rule is
-  the pattern: stated plainly, non-overridable, owned by the skill.
+  the skill as a hard gate. A deadline tracker that refuses to compute dates
+  from triggering events is the pattern: stated plainly, non-overridable, owned
+  by the skill.
 - **Write the gate header so the gate is default-on.** If there is an
   exemption, phrase the heading as the gate and narrow the exemption in a
   sub-bullet, not the other way around. A load-bearing parenthetical is a bug

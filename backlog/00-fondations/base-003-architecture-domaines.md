@@ -20,7 +20,7 @@ Traduire le découpage demandé en règles d'organisation applicables story par 
 - [employment-legal/](../../employment-legal/)
 - [commercial-legal/](../../commercial-legal/)
 - [litigation-legal/](../../litigation-legal/)
-- [legal-clinic/](../../legal-clinic/)
+- `legal-clinic/` (retiré le 16 octobre 2026, voir [décisions](../decisions-2026-10-16.md))
 
 ## Travail attendu
 

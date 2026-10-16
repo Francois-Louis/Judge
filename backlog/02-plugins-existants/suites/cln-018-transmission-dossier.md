@@ -1,7 +1,7 @@
 ---
 id: CLN-018
 titre: "Préparer la transmission d’un dossier"
-statut: proposee
+statut: abandonnee
 priorite: P2
 nature: implementation
 dependances: [EXIST-009, PILOTE-003, BASE-005, BASE-006, CLN-002]
@@ -93,3 +93,10 @@ limites H01 complet et lecteur indépendant consignées. Statut `proposee` :
 prochaine tranche soumise à sélection explicite, aucune tâche métier adaptée,
 donnée réelle ou action externe livrée dans ce cadrage.
 
+## Abandon — 16 octobre 2026
+
+Story abandonnée : le plugin `legal-clinic` a été retiré du marketplace et du
+dépôt sur décision de l'utilisateur ([décisions du
+16 octobre 2026](../../decisions-2026-10-16.md)). Aucune partie de cette story
+n'a été implémentée. Le cadrage reste consultable ; le plugin hérité est
+récupérable dans l'historique git si une clinique française est reprise un jour.

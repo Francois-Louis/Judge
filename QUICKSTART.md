@@ -25,8 +25,8 @@ registres du client. Recharger les plugins ou redémarrer la session, puis :
 ```
 
 Le nom publié est `judge-fr-eu-` suivi du répertoire de domaine existant.
-Les noms des 150 skills restent les mêmes ; le [README](README.md) donne les
-commandes qualifiées des douze domaines. CoCounsel est exclu du marketplace
+Les noms des 134 skills restent les mêmes ; le [README](README.md) donne les
+commandes qualifiées des onze domaines. CoCounsel est exclu du marketplace
 du fork ; son installation relève de la distribution d'origine.
 
 La portée `user` rend le plugin disponible dans tous les projets. Elle

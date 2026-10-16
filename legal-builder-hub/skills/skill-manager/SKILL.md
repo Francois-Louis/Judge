@@ -39,13 +39,13 @@ files inside a first-party plugin.
 
 ## Built-in plugins (do not touch)
 
-The 12 core plugins that ship with Judge FR/UE are off-limits from this
-command. The canonical list lives in the hub's CLAUDE.md under "Built-in
-plugins." Examples include `commercial-legal`, `corporate-legal`,
-`employment-legal`, `privacy-legal`, `product-legal`, `regulatory-legal`,
-`ai-governance-legal`, `ip-legal`, `litigation-legal`,
-`law-student`, `legal-clinic`, and the hub itself (`legal-builder-hub`). If
-the caller names a skill that resolves into any of these, refuse.
+The 11 core plugins that ship with Judge FR/UE, and the retired
+`legal-clinic` name, are off-limits from this command. The canonical list
+lives in the hub's CLAUDE.md under "Built-in plugins." Examples include
+`commercial-legal`, `corporate-legal`, `employment-legal`, `privacy-legal`,
+`product-legal`, `regulatory-legal`, `ai-governance-legal`, `ip-legal`,
+`litigation-legal`, `law-student`, the retired `legal-clinic`, and the hub
+itself (`legal-builder-hub`). If the caller names a skill that resolves into any of these, refuse.
 
 ## Workflow — uninstall
 

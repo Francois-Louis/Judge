@@ -23,10 +23,10 @@ Connectors shipped in the default `.mcp.json` of each plugin:
 
 | Connector | Plugins |
 |---|---|
-| **Slack** | all 12 |
-| **Google Drive** (`gdrive`) | all 12 |
-| **CourtListener** | legal-clinic, ip-legal, litigation-legal, law-student |
-| **Descrybe** | legal-clinic, ip-legal, law-student |
+| **Slack** | all 11 |
+| **Google Drive** (`gdrive`) | all 11 |
+| **CourtListener** | ip-legal, litigation-legal, law-student |
+| **Descrybe** | ip-legal, law-student |
 | **Definely** | commercial-legal, corporate-legal |
 | **iManage** | commercial-legal, corporate-legal |
 | **Solve Intelligence** | corporate-legal, ip-legal |
@@ -37,7 +37,6 @@ Connectors shipped in the default `.mcp.json` of each plugin:
 | **Everlaw** | litigation-legal |
 | **Trellis** | litigation-legal |
 | **Aurora** | litigation-legal |
-| **Courtroom5** | legal-clinic |
 | **Lawve AI** | legal-builder-hub |
 | **Linear** | product-legal |
 | **Atlassian (Jira)** | product-legal |

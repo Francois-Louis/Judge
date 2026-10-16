@@ -16,7 +16,7 @@ la [licence](LICENSE) et les [fichiers modifiés](NOTICE).
 Les intégrations Cowork/Office et l'exécution distante décrites ci-dessous
 proviennent de la documentation amont et restent à vérifier pour ce fork.
 
-Reference agents, skills, and data connectors for the legal workflows we see most — in-house commercial, privacy, product, corporate, employment, litigation, regulatory, AI governance, IP, and the learning side of the practice (law school clinics and students).
+Reference agents, skills, and data connectors for the legal workflows we see most — in-house commercial, privacy, product, corporate, employment, litigation, regulatory, AI governance, IP, and the learning side of the practice (law students).
 
 > **New here?** Start with [QUICKSTART.md](QUICKSTART.md) — install in 60 seconds. This README is the full reference.
 
@@ -115,15 +115,6 @@ Each agent is named for the workflow it runs. They're the most common surface �
 | **Matter Briefing** | Deep briefing on one matter — ready for a GC or outside counsel call | `litigation-legal` | `/judge-fr-eu-litigation-legal:matter-briefing` |
 | **Portfolio Status** | Risk distribution, upcoming deadlines, stale matters | `litigation-legal` | `/judge-fr-eu-litigation-legal:portfolio-status` |
 | **Outside Counsel Status** | Generates weekly status-request drafts across the active portfolio | `litigation-legal` | `/judge-fr-eu-litigation-legal:oc-status` |
-| **Clinic Intake** | Structured client intake with cross-area issue spotting and conflict flags | `legal-clinic` | `/judge-fr-eu-legal-clinic:client-intake` |
-| **Case Memo Scaffold** | IRAC-scaffolded case analysis memo with research gaps flagged | `legal-clinic` | `/judge-fr-eu-legal-clinic:memo` |
-| **Research Roadmap** | Statutes to check, case law areas, Westlaw search terms — leads, not cites | `legal-clinic` | `/judge-fr-eu-legal-clinic:research-start` |
-| **Clinic Deadline Tracker** | Add, report, update, and close case deadlines with malpractice-aware warnings | `legal-clinic` | `/judge-fr-eu-legal-clinic:deadlines` |
-| **Case Status Summarizer** | Case status by audience — client, professor, or court-ready | `legal-clinic` | `/judge-fr-eu-legal-clinic:status` |
-| **Client Letter Drafter** | Routine client correspondence — appointment confirms, doc requests, updates | `legal-clinic` | `/judge-fr-eu-legal-clinic:client-letter` |
-| **Student Ramp** | Semester onboarding — clinic procedures, tool walkthrough, practice exercises | `legal-clinic` | `/judge-fr-eu-legal-clinic:ramp` |
-| **Semester Handoff** | End-of-semester case handoff memos — the mirror of ramp | `legal-clinic` | `/judge-fr-eu-legal-clinic:semester-handoff` |
-| **Supervisor Review Queue** | Professor's review queue (when formal review supervision is configured) | `legal-clinic` | `/judge-fr-eu-legal-clinic:supervisor-review-queue` |
 | **Bar Prep Coach** | Jurisdiction-aware MBE and essay practice targeted at weak subjects | `law-student` | `/judge-fr-eu-law-student:bar-prep-questions` |
 | **Socratic Drill Sergeant** | It asks, you answer, it pushes back — does not give you the answer | `law-student` | `/judge-fr-eu-law-student:socratic-drill` |
 | **IRAC Grader** | Grades your IRAC essay on structure, issue-spotting, rules, analysis | `law-student` | `/judge-fr-eu-law-student:irac-practice` |
@@ -155,7 +146,6 @@ regulatory-legal/         # reg feed watcher, policy diff, gap tracker, NPRM com
 ai-governance-legal/      # AI use-case triage, AIAs, vendor AI review, AI reg gap-check
 ip-legal/                 # trademark clearance, FTO, C&D, DMCA, OSS, IP clauses, portfolio
 litigation-legal/         # portfolio, matters, holds, demands, depo prep, claim charts
-legal-clinic/             # clinic setup, student ramp, intake, deadlines, memos, handoffs
 law-student/              # Socratic drilling, outlining, IRAC, bar prep, flashcards
 legal-builder-hub/        # community skill discovery and install with a trust gate
 external_plugins/         # partner-built plugins maintained by their vendors
@@ -280,7 +270,6 @@ narrative, without a profile or interview.
 | Plugin | What it adds |
 |---|---|
 | **[law-student](./law-student)** | Socratic drilling, case briefing, outline building, IRAC grading, cold-call prep, flashcards, bar prep, exam forecasting, study planning. **Learning mode, not answer mode** — it never writes the answer for you. |
-| **[legal-clinic](./legal-clinic)** | Professor setup and student semester ramp. Per-practice-area supervisor guide with pedagogy posture (assist / guide / teach). Structured intake with cross-area issue spotting. Deadline tracking with malpractice-aware caution. Memo scaffolds, client letters (routine + plain-language), semester handoffs. Built within ABA Formal Op. 512. |
 
 ### Ecosystem
 
@@ -330,13 +319,12 @@ These plugins ship connectors for the systems legal teams live in. A connector g
 | **DocuSign / DocuSign CLM** | Envelope status, executed contracts, CLM metadata | `commercial-legal` | Customer subscription |
 | **iManage** | Read from the DMS — matter workspaces, document versions | `commercial-legal`, `corporate-legal` | Customer subscription |
 | **Everlaw** | E-discovery productions, tagged sets, chronologies | `litigation-legal` | Customer subscription |
-| **CourtListener** | Federal dockets and opinions | `legal-clinic`, `ip-legal`, `litigation-legal`, `law-student` | Public; optional API key |
+| **CourtListener** | Federal dockets and opinions | `ip-legal`, `litigation-legal`, `law-student` | Public; optional API key |
 | **Trellis** | State court dockets and motions | `litigation-legal` | Customer subscription |
 | **Aurora** | Clinic-style matter management and calendaring | `litigation-legal` | Customer subscription |
 | **Definely** | In-document drafting and defined-terms checks | `commercial-legal`, `corporate-legal` | Customer subscription |
 | **Lawve AI** | Contract review assist and clause libraries | `legal-builder-hub` | Customer subscription |
-| **Courtroom5** | Self-represented litigant workflow | `legal-clinic` | Customer subscription |
-| **Descrybe** | Case law research and summarization | `legal-clinic`, `ip-legal`, `law-student` | Customer subscription |
+| **Descrybe** | Case law research and summarization | `ip-legal`, `law-student` | Customer subscription |
 | **Solve Intelligence** | Patent drafting and prosecution | `corporate-legal`, `ip-legal` | Customer subscription |
 | **TopCounsel** | Matter routing and outside counsel panel | `commercial-legal`, `corporate-legal`, `litigation-legal` | Customer subscription |
 | **Linear** | Launch tracker, issue tracking | `product-legal` | Customer workspace |
@@ -405,24 +393,6 @@ The full map across all plugins. The cold-start interview is the first thing to 
 | `/judge-fr-eu-legal-builder-hub:disable` | skill-manager | Disable a community skill without removing files |
 | `/judge-fr-eu-legal-builder-hub:uninstall` | skill-manager | Uninstall a community skill installed via the hub |
 | scheduled | registry-sync (agent) | Periodic check of watched registries for updates |
-
-### legal-clinic
-
-| Command | Skill | What it does |
-|---|---|---|
-| `/judge-fr-eu-legal-clinic:cold-start-interview` | cold-start-interview | Professor setup — areas, jurisdiction, supervision style |
-| `/judge-fr-eu-legal-clinic:build-guide` | build-guide | Professor practice-area guide — intake, pedagogy posture, review gates |
-| `/judge-fr-eu-legal-clinic:ramp` | ramp | Student semester onboarding with practice exercises |
-| `/judge-fr-eu-legal-clinic:client-intake` | client-intake | Structured intake with cross-area issue spotting |
-| `/judge-fr-eu-legal-clinic:client-comms-log` | client-comms-log | Log a client communication — append-only per-case record |
-| `/judge-fr-eu-legal-clinic:research-start` | research-start | Research roadmap — statutes, case law, search terms |
-| `/judge-fr-eu-legal-clinic:memo` | memo | IRAC-scaffolded analysis memo with research gaps flagged |
-| `/judge-fr-eu-legal-clinic:draft` | draft | First draft of a common clinic document |
-| `/judge-fr-eu-legal-clinic:client-letter` | client-letter · plain-language-letters | Routine client correspondence from templates |
-| `/judge-fr-eu-legal-clinic:status` | status | Case status by audience — client, professor, court-ready |
-| `/judge-fr-eu-legal-clinic:deadlines` | deadlines | Track case deadlines with malpractice-aware warnings |
-| `/judge-fr-eu-legal-clinic:supervisor-review-queue` | supervisor-review-queue | Professor's review queue (if formal supervision) |
-| `/judge-fr-eu-legal-clinic:semester-handoff` | semester-handoff | End-of-semester case handoff memos |
 
 ### commercial-legal
 
