@@ -1,7 +1,7 @@
 ---
 id: BASE-011
 titre: "Exécuter la recette des paquets dans un client Claude isolé"
-statut: a-verifier
+statut: terminee
 priorite: P0
 nature: validation
 dependances: [BASE-006, BASE-008, BASE-012]
@@ -54,7 +54,7 @@ fournit l'environnement, les journaux et les observations.
 - [x] Le niveau d'isolation atteint et ses limites sont consignés avant tout scénario.
 - [x] Le plugin est installé seul ; version du client, commande et plugins chargés sont journalisés.
 - [x] Chaque scénario exécuté conserve outils appelés, ressources lues, sorties et erreurs.
-- [ ] Les reformulations de l'utilisateur sont recopiées et marquées non indépendantes. Non fait : réponses de fixture rédigées par l'agent à la demande de l'utilisateur.
+- [ ] Les reformulations de l'utilisateur sont recopiées et marquées non indépendantes. Critère levé par décision de l'utilisateur le 16 octobre 2026 (« je suis le lecteur, je valide ») : validation des réponses de fixture rédigées par l'agent, sans reformulation dans ses propres mots ; participant non indépendant.
 - [x] Le statut de BASE-008 et PILOTE-002 à 004 reflète les résultats observés.
 
 ## Vérification
@@ -120,3 +120,8 @@ Comportement observé sur pièces fictives dans un client réel, sans isolation
 système : le checkout et le vrai profil restaient lisibles (aucune lecture
 observée). Les sources citées par le client n'ont pas été relues ici ; aucune
 relecture juridique indépendante ni lecteur réel.
+
+## Clôture — 16 octobre 2026
+
+Close par décision de l'utilisateur (« je suis le lecteur, je valide »). Les critères non cochés le
+restent, avec leur motif ; aucun n'est présenté comme vérifié.

@@ -113,3 +113,10 @@ et ne vérifient aucun critère de compréhension.
 | Lecture 2 — mémorisé | Mon format de lecture : tableau au lieu de texte court. |
 | Lecture 2 — où | Dans mon profil de lecture d'embauche du plugin, `~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md`. |
 | Lecture 2 — reste à vérifier | L'annexe A et la classification ; le minimum conventionnel. |
+
+## Validation par l'utilisateur — 16 octobre 2026
+
+Message de l'utilisateur, recopié tel quel : « je suis le lecteur, je valide ». Il valide comme lecteur
+les réponses de fixture ci-dessus ; il n'a pas formulé de réponses propres.
+Résultat consigné comme **participant non indépendant**, sans essai de
+compréhension au sens des critères de PILOTE-002 et PILOTE-004.

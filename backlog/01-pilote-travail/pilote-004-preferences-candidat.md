@@ -1,7 +1,7 @@
 ---
 id: PILOTE-004
 titre: "Modifier une préférence candidat sans initialisation professionnelle"
-statut: a-verifier
+statut: terminee
 priorite: P1
 nature: implementation
 dependances: [PILOTE-002, BASE-006, BASE-008]
@@ -46,7 +46,7 @@ la simple lecture sans sauvegarde reste possible.
 - [x] Modifier le format sur un profil partiel ou US conserve les réponses hors demande et n'applique aucun défaut US. (P4-3)
 - [x] Le parcours termine la branche candidat sans exécuter l'entretien professionnel ni sonder un connecteur non demandé. (P4-2, P4-3)
 - [x] Lectures/écritures du helper et retour à la revue sont observés dans un client isolé ; le paquet n'exige aucun fichier du dépôt. Isolation par variables jetables seulement (BASE-011).
-- [ ] Un lecteur non juriste peut expliquer ce qui a été mémorisé, l'emplacement et ce qui reste à vérifier sur son contrat. Lecteur retenu : l'utilisateur, résultat marqué non indépendant ([BASE-011](../00-fondations/base-011-recette-client-isole.md)).
+- [ ] Un lecteur non juriste peut expliquer ce qui a été mémorisé, l'emplacement et ce qui reste à vérifier sur son contrat. Lecteur retenu : l'utilisateur, résultat marqué non indépendant ([BASE-011](../00-fondations/base-011-recette-client-isole.md)). Critère levé par décision de l'utilisateur le 16 octobre 2026 (« je suis le lecteur, je valide ») : validation des réponses de fixture rédigées par l'agent, sans reformulation dans ses propres mots ; participant non indépendant.
 
 ## Vérification
 
@@ -88,3 +88,8 @@ par le helper avec empreinte ; témoins et profil société inchangés ; sans
 Bash, aucune sauvegarde ni contournement. Les options `--redo` et
 `--check-integrations` n'ont pas été rejouées. La story reste `a-verifier`
 pour le seul critère du lecteur réel.
+
+## Clôture — 16 octobre 2026
+
+Close par décision de l'utilisateur (« je suis le lecteur, je valide »). Les critères non cochés le
+restent, avec leur motif ; aucun n'est présenté comme vérifié.

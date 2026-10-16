@@ -10,7 +10,10 @@ tracées dans [PILOTE-005](pilote-005-corrections-retrospective.md).
 
 Le pilote a produit ce qu'il visait sur le papier : une tranche verticale
 relisible, un paquet détaché qui passe les schémas officiels et des défauts
-reliés à des stories existantes. **L'epic n'est pas clos.** Trois stories sur
+reliés à des stories existantes. **Mise à jour du 16 octobre 2026 :** après
+la recette [BASE-011](../00-fondations/base-011-recette-client-isole.md),
+l'utilisateur a clos PILOTE-002 à PILOTE-004 ; sans lecteur indépendant ni
+nominal H01 complet. Au moment de la rétrospective, **l'epic n'était pas clos.** Trois stories sur
 quatre attendent la même recette, et rien dans le backlog n'en porte les moyens.
 
 | Story | Statut | Point ouvert |
