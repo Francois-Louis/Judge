@@ -80,6 +80,20 @@ Scénarios **attendus, non exécutés** ; [relecture DOM-031](../dom-031-annexes
 Saisine du juge, plainte, succession, médiation familiale menée par le
 plugin, envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 18, 36, 54, 131–133, 140 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FW01 — Relever messages, témoignages datés, écrits, mandat et contrat obsèques sans dévaloriser une volonté orale ni lui attribuer d’office une primauté ; conserver provenance et contradictions.
+- [ ] FW02 — Devant une opération imminente contestée, placer le renfort et l’avocat en tête ; distinguer recherche des volontés, qualité pour décider, acte irréversible et recours. Ne pas traiter une procédure civile générale comme la procédure funéraire spéciale.
+- [ ] FW03 — Identifier toute décision ou notification reçue et sa date pour le professionnel ; délais de décision et d’appel réservés faute de texte/version lus. La saisine et l’appel restent un besoin ouvert du cadrage, sans brouillon procédural ici.
+
+Scénarios supplémentaires **attendus, non exécutés** : opérateur choisi par un proche invoquant un mandat introuvable ; crémation prévue le lendemain, témoignage oral opposé à un contrat ancien ; décision du juge déjà reçue sans preuve de notification.
+
+Sources à ouvrir lors de l’implémentation : liberté des funérailles, preuve des volontés et procédure spéciale, voies de recours et point de départ ; lire les textes exacts avant tout chiffre.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-031, sans implémentation. Contrat commun : [découpage](../dom-031-annexes/dom-031-decoupage-funeraire.md).

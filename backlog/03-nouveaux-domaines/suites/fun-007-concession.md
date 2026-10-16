@@ -78,6 +78,20 @@ Scénarios **attendus, non exécutés** ; [relecture DOM-031](../dom-031-annexes
 
 Recours contentieux, succession, travaux de monument (FUN-010), envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 39–45, 53 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FK01 — Distinguer terrain commun et concession ; lire durée, nature individuelle/collective/familiale, bénéficiaires et conditions d’inhumation à vérifier sans promettre un emplacement.
+- [ ] FK02 — Pour échéance, renouvellement, reprise ou abandon : titre, dates, notifications et procédure identifiés séparément ; ne pas transformer un courrier de reprise en perte définitive des droits.
+- [ ] FK03 — Renonciation, columbarium ou scellement : recopier objet, durée et conditions ; alerter sur l’enjeu d’une signature irréversible sans arbitrer les droits des ayants droit.
+
+Scénarios supplémentaires **attendus, non exécutés** : concession dite perpétuelle confrontée à une procédure d’abandon ; renonciation présentée comme formulaire banal ; famille sans concession demandant les possibilités d’inhumation.
+
+Sources à ouvrir lors de l’implémentation : CGCT terrain commun, droit à inhumation, concessions, renouvellement/reprise et abandon ; titre, règlement et actes communaux applicables.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-031, sans implémentation. Contrat commun : [découpage](../dom-031-annexes/dom-031-decoupage-funeraire.md).

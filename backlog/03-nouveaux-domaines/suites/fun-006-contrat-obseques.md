@@ -79,6 +79,20 @@ Scénarios **attendus, non exécutés** ; [relecture DOM-031](../dom-031-annexes
 Garantie et capital d'assurance, souscription d'un nouveau contrat,
 résiliation, envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 90, 94–97, 133 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FC01 — Identifier les parties et deux objets : capital garanti par l’organisme et prestations promises par l’opérateur. Une mention « tout compris » ne suffit pas à établir l’étendue de l’un ou de l’autre.
+- [ ] FC02 — Rapprocher contrat initial, avenants, descriptif, devis d’exécution, facture, acomptes et fonds réellement reçus : supplément, différence esthétique et double facturation alléguée restent distincts.
+- [ ] FC03 — Demander désignation et modification d’opérateur, mandat et modalités invoquées, sans affirmer un droit non sourcé ; carence, cotisations, rachat et capital restent INS-004/011 ou le besoin DOM-005 à découper.
+
+Scénarios supplémentaires **attendus, non exécutés** : capital versé à un bénéficiaire différent de l’opérateur ; caveau exclu et transport ajouté au devis ; opérateur imposé malgré un avenant annoncé.
+
+Sources à ouvrir lors de l’implémentation : formules obsèques, prestations détaillées, facultés de modification et information contractuelle ; Code des assurances chez le propriétaire de la garantie.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-031, sans implémentation. Contrat commun : [découpage](../dom-031-annexes/dom-031-decoupage-funeraire.md).

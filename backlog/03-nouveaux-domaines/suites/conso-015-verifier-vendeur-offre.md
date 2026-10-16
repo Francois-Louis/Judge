@@ -75,3 +75,15 @@ Certification d’un vendeur ou d’un produit, enquête exhaustive, achat, revu
 
 Issue des [155 frictions utilisateur](../dom-001-annexes/dom-001-frictions-utilisateurs.md),
 sans implémentation ni sélection. Préalable PILOTE-003 satisfait après BASE-011.
+
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 11 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FO08 — Comparateur funéraire : sur URL/captures fournies, identifier exploitant, liens avec opérateurs, rémunération annoncée, panel et critères de classement ; indépendance alléguée et vérifiée restent distinctes. FUN-001 compare seulement les devis remis, sans classement d’entreprises.
+
+Scénarios supplémentaires **attendus, non exécutés** : site se disant indépendant et gratuit dont les mentions annoncent une rémunération par certains opérateurs seulement.
+
+Sources à ouvrir lors de l’implémentation : information des comparateurs et plateformes, transparence du classement et pratiques commerciales ; portée des déclarations et limites d’accès documentées.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).

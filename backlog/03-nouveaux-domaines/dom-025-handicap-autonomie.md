@@ -79,3 +79,16 @@ Scénarios **attendus, non exécutés** : cabinet inaccessible malgré demande
 écrite ; proche signalant soins et accompagnement manquants en EHPAD sans
 mandat. Séparer demande du résident, soins (SAN-017), accompagnement ici et
 urgence avant réclamation. [Portée et contrôles](dom-007-annexes/dom-007-frictions-verification.md).
+
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 33–34, 127–129 de la [matrice](dom-031-annexes/dom-031-frictions-utilisateurs.md). Tâches candidates à découper ; aucune nouvelle capacité livrée.
+
+- [ ] Prévoir une tâche candidate de contestation de la facture finale et du dépôt d’un EHPAD : établissement/régime, contrat, décès, retrait des effets, chambre libérée, états d’entrée/sortie, photos, sommes et preuves ; sortie : décompte périodes/postes/justificatifs et brouillon de demande de régularisation, sans appliquer automatiquement le bail d’habitation.
+- [ ] Pour effets personnels : demander inventaire, dépositaire, destinataire et remise documentée ; DOM-016 garde la répartition successorale. Questions de soins et dossier vers DOM-007, frais funéraires/transfert vers FUN-002/008. Propriétaire proposé du volet facturation médico-sociale à confirmer lors du découpage avec DOM-007.
+
+Scénarios supplémentaires **attendus, non exécutés** : chambre vidée mais facturation poursuivie ; dépôt retenu pour usure sans états des lieux ; inventaire de bijoux non remis aux proches.
+
+Sources à ouvrir lors de l’implémentation : CASF et règles propres à la facturation après décès, dépôt, états des lieux et remise des effets en établissement ; contrat et statut de la structure, sans généralisation depuis la location privée.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).

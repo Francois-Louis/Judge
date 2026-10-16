@@ -76,6 +76,20 @@ Scénarios **attendus, non exécutés** ; [relecture DOM-031](../dom-031-annexes
 
 Saisine du juge, plainte, élément étranger, envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 20, 48–54 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FU01 — Qualifier date de crémation, dépôt, lieu actuel, destination envisagée et volonté connue ; domicile, partage, dispersion, urne/scellement et concession sont des questions distinctes.
+- [ ] FU02 — Pour chaque destination : formalité, interlocuteur, justificatif et règle lue ou réservée ; identifier déclaration de dispersion, durée temporaire, notification et renouvellement éventuel sans importer un délai non vérifié.
+- [ ] FU03 — Ne pas traiter les cendres comme un actif à répartir ; désaccord et décision imminente → FUN-003 avec renfort, sans décider pour les proches.
+
+Scénarios supplémentaires **attendus, non exécutés** : urne au domicile depuis une date inconnue ; dépôt temporaire près de l’échéance alléguée ; dispersion envisagée en mer et deux proches réclamant chacun une partie des cendres.
+
+Sources à ouvrir lors de l’implémentation : CGCT destinations, dépôt temporaire et formalités des cendres ; respect des restes, règles du lieu et concessions, y compris transitions selon la date.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-031, sans implémentation. Contrat commun : [découpage](../dom-031-annexes/dom-031-decoupage-funeraire.md).

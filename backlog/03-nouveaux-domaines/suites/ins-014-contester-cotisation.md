@@ -63,6 +63,18 @@ Scénarios **attendus, non exécutés** ; conserver fixtures, ressources lues, s
 
 Recalcul du coefficient, calcul de prime ou de remboursement, conseil d'arrêter de payer, opposition bancaire, envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 91 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FO07 — Présenter séparément cotisations obsèques documentées, durée/forme des versements et capital annoncé au contrat, sans calcul de rendement ni affirmation qu’un dépassement constitue une anomalie ; mécanisme de garantie chez INS-004.
+
+Scénarios supplémentaires **attendus, non exécutés** : proche contestant des primes viagères au motif que les versements cumulés dépassent le capital nominal.
+
+Sources à ouvrir lors de l’implémentation : conditions des cotisations et information du contrat obsèques, régime de l’organisme et avis successifs ; pas de projection financière.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Ajout issu des frictions utilisateur, sans sélection ni implémentation. Contrat commun : [découpage assurance](../dom-005-annexes/dom-005-decoupage-assurance.md).

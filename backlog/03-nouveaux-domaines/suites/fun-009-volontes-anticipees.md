@@ -76,6 +76,19 @@ Scénarios **attendus, non exécutés** ; [relecture DOM-031](../dom-031-annexes
 Testament, souscription d'un contrat obsèques, conservation ou dépôt de
 l'écrit par le plugin, envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 36, 132 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FA01 — Préparer une expression des souhaits sans les confondre avec testament patrimonial, directives anticipées médicales ou contrat d’assurance ; relever contradictions avec les écrits connus.
+- [ ] FA02 — Ajouter les questions de conservation accessible, copies et proches informés ; aucun dépôt, archivage durable ni garantie d’exécution par le plugin.
+
+Scénarios supplémentaires **attendus, non exécutés** : volontés connues seulement d’un ami ; écrit conservé avec un testament inaccessible au moment des obsèques.
+
+Sources à ouvrir lors de l’implémentation : formes, conservation et communication des volontés funéraires ; articulation avec testament, contrat obsèques et directives médicales.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-031, sans implémentation. Contrat commun : [découpage](../dom-031-annexes/dom-031-decoupage-funeraire.md).

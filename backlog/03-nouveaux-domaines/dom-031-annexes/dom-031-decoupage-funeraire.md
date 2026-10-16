@@ -281,3 +281,13 @@ désaccord bloquant ou de paiement réclamé avec échéance.
 
 Les fichiers « à créer » des suites sont des livrables futurs. La portée de
 ce cadrage figure dans la [vérification](dom-031-verification.md).
+
+## Intégration des frictions utilisateur — 16 octobre 2026
+
+La [matrice](dom-031-frictions-utilisateurs.md) affecte les 142 points et les sections complémentaires. Les douze suites FUN sont précisées avec scénarios supplémentaires, sans nouveau skill, statut ni rang. La comparaison de devis dans FUN-001 porte uniquement sur les documents fournis pour un besoin comparable : postes, quantités, exclusions et inconnues. Elle n’est ni un classement, ni une recommandation, ni une recherche d’opérateurs.
+
+Le plan de sources de FUN-001 inclut le modèle de devis et la notice annoncés par le texte ; FUN-008 distingue domicile/établissement, chambres et transport avant mise en bière ; FUN-002 identifie initiateur, commande et périodes de transfert/séjour ; FUN-006 rapproche prestations et fonds réellement reçus. FUN-007/011/012 gardent leurs opérations distinctes.
+
+La frontière santé couvre soins/dossier ; la facturation et les biens d’EHPAD sont une tâche candidate DOM-025, à confirmer avec DOM-007. Réversion et ASPA d’un régime de retraite vers DOM-036 ; autres prestations vers DOM-012. FUN-008 signale ces questions sans les traiter au fond. Les nouveaux besoins candidats sont consignés dans les cadrages propriétaires, sans annoncer leur couverture.
+
+Les points ouverts ci-dessus sont maintenus : notamment aucune saisine funéraire spéciale ni contribution familiale sans actif n’est implémentée. EXIST-006 enregistre la candidature de la procédure urgente sans modifier l’arbitrage en attente. Chaque délai et montant du texte reste une affirmation à vérifier avec les sources/versions et les faits utiles. [Portée et contrôles](dom-031-frictions-verification.md).

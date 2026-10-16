@@ -125,3 +125,17 @@ Points 30, 82–83 de la [matrice transports](dom-008-annexes/dom-008-frictions-
 TPT-012 qualifie le PV de transport et son stade ; les voies pénales ou publiques contre une amende majorée restent à découper selon autorité et document. Faux chauffeur et usurpation : sécurité immédiate, faits et orientation pénale, sans plainte déposée ni qualification garantie.
 
 Scénarios **attendus, non exécutés** : Avis majoré après usurpation d’identité ou faux VTC : distinguer acte de recours urgent, preuve, signalement et remboursement de course TPT-016.
+
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 31–32, 81, 83, 136 de la [matrice](dom-031-annexes/dom-031-frictions-utilisateurs.md). Tâches candidates à découper ; aucune nouvelle capacité livrée.
+
+- [ ] Préciser la réponse à un proche en cas de décès suspect ou violent : autorité saisie, obstacle, autorisation reçue, opération bloquée et urgence ; aucune cause du décès ni infraction déterminée sur le récit.
+- [ ] Identifier le besoin à découper concernant autopsie judiciaire et place des proches : auteur de la décision, acte reçu, demande exacte et qualité ; distinguer autopsie médicale avec DOM-007 et accès au dossier SAN-003. Aucun droit général de refus ou délai non sourcé.
+- [ ] Distinguer collecte de preuves d’objets manquants, faux document ou usurpation et qualification pénale ; succession DOM-016 et incident de paiement DOM-004 restent des objets séparés.
+
+Scénarios supplémentaires **attendus, non exécutés** : famille demandant d’empêcher une autopsie ordonnée par une autorité ; obsèques programmées malgré obstacle signalé ; objets déclarés manquants sans inventaire.
+
+Sources à ouvrir lors de l’implémentation : CPP enquête/obstacle/autopsie, qualité et information des proches, dispositions sanitaires distinctes ; sources exactes selon acte et procédure.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).

@@ -89,3 +89,16 @@ Points 72–77 et 81–82 : découper lecture de convention d’honoraires, rapp
 CTX-040 consomme les coûts et prises en charge documentés sans décider les honoraires. Protection juridique → DOM-005. Scénarios : forfait excluant appel ; provisions sans détail ; avocat désigné d’office et aide non obtenue ; appel avec aide limitée à une autre étape. Rechercher textes professionnels, règles de contestation et d’aide applicables, sans tenir les financements pour acquis.
 
 Les scénarios indiqués sont attendus, non exécutés. Sources/version, champ, déclencheur, exceptions et transitions restent à rechercher ; le texte fourni n’est pas une autorité juridique.
+
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 63, 78, 89 et recours notarial de la [matrice](dom-031-annexes/dom-031-frictions-utilisateurs.md). Tâches candidates à découper ; aucune nouvelle capacité livrée.
+
+- [ ] Préciser les tâches candidates de mission successorale : lettre de mission, pièces et acte notarié demandé, démarches confiées, délais annoncés, preuve de dépôt fiscal et relances ; séparer question sur la prestation et échéance de fond DOM-011/016.
+- [ ] Plusieurs notaires : réunir demandes de chaque héritier, actes, coordination et décompte distinguant taxes/débours/émoluments/honoraires ; aucune exclusivité ou majoration de frais présumée. Prévoir réclamation, médiateur ou instance compétente selon profession et objet.
+
+Scénarios supplémentaires **attendus, non exécutés** : notaire sans réponse et délai fiscal proche ; deux héritiers souhaitant chacun leur notaire ; acte demandé pour une petite succession sans motif expliqué.
+
+Sources à ouvrir lors de l’implémentation : statut, tarifs et déontologie du notariat, mission/coordination, réclamation et médiation ; nécessité d’acte et fiscalité chez leurs propriétaires.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).

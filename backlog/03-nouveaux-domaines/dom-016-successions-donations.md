@@ -82,3 +82,19 @@ nouveau ni suppression de droit déduit de ce seul texte. Ce cadrage reste
 ## Hors périmètre
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
+
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 33, 55–89, 99, 117, 120–122, 137 de la [matrice](dom-031-annexes/dom-031-frictions-utilisateurs.md). Tâches candidates à découper ; aucune nouvelle capacité livrée.
+
+- [ ] Découper séparément option/sommation/acceptation tacite, acceptation à concurrence de l’actif net et inventaire, renonciation avec descendants mineurs, dette découverte et créance réclamée. Entrées : décès, qualité, actes, notification/réception, actif/passif et preuves ; sortie : choix à faire vérifier, pièces et échéances propres, sans option conseillée.
+- [ ] Préciser les tâches bancaires candidates : facture obsèques/règlement direct, carte et procuration, compte joint et propriété des fonds, frais/tarifs datés, petite succession, recherche FICOBA/Ciclade, coffres et opérations autour du décès. Aucun accès automatique aux comptes ; aucun seuil, plafond ou effet d’une décision constitutionnelle de 2026 annoncé sans source officielle lue.
+- [ ] Découper inventaire/remise des effets, donations et testament omis, évaluations, comptes d’indivision, pouvoirs sur une vente et contestation du partage. Entrées : acte, titulaires, accords, évaluations, recettes/dépenses et dates ; sortie : tableau documenté et questions, sans partage calculé ni recel établi.
+- [ ] Découper droits du conjoint au logement et manifestation de volonté, séparés du transfert du bail DOM-006 et du statut du couple DOM-013 ; fiscalité chez DOM-011 et réclamation notariale chez DOM-041.
+- [ ] Ajouter une tâche candidate de lecture du contrat de révélation d’un généalogiste : identité, mission, mandat allégué, information successorale et honoraires ; aucune dette ni authenticité admise sans pièce. DOM-001 garde les questions générales de consentement, DOM-002 une infraction alléguée.
+
+Scénarios supplémentaires **attendus, non exécutés** : sommation reçue alors que la déclaration fiscale approche ; vente d’un objet avant connaissance du passif ; inventaire manquant après une acceptation protégée ; compte joint dont fonctionnement et propriété sont confondus ; facture d’un généalogiste inconnu ; conjoint menacé d’un départ immédiat.
+
+Sources à ouvrir lors de l’implémentation : Code civil successions/option/indivision/logement, procédures et formalités, Code monétaire et financier paiement des obsèques/frais/recherches, décisions officielles avec effets temporels ; ne pas fusionner délais civils, fiscaux et bancaires.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).

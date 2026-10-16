@@ -102,3 +102,16 @@ Points 59–60 de la [matrice données personnelles](exist-003-annexes/exist-003
 La [matrice des 125 frictions](exist-006-annexes/exist-006-frictions-utilisateurs.md) conserve l’ordre du [texte fourni](sources/contentieux-frictions-2026-10-16.txt), ses tableaux et sa checklist. Le découpage compte désormais **41 suites CTX proposées** : CTX-030 à CTX-041 ajoutent prescription civile, demandes chiffrées, mission et observations d’expertise, réponse adverse, temps de réponse, préparation de vérification d’appel TJ, erreur matérielle, omission de statuer, transaction, budget et ordonnance d’injonction côté créancier.
 
 Les besoins administratifs, pénaux, d’exécution, de financement et de procédures collectives sont attribués à leurs domaines ; les tâches non découpées restent explicitement ouvertes. CTX-016 ne devient pas un calculateur universel et CTX-028 reste une lecture sans calcul de délai. Les assertions normatives du texte, notamment les réformes annoncées en 2026, ne sont pas validées par cette intégration. [Contrôles documentaires](exist-006-annexes/exist-006-frictions-verification.md) ; aucune tranche lancée, aucun plugin modifié. Les inventaire, vérification et résultats historiques du cadrage initial sont conservés à leur périmètre d’origine.
+
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 140–141 et D05 de la [matrice](../03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-utilisateurs.md). Tâches candidates à découper ; aucune nouvelle capacité livrée.
+
+- [ ] Enregistrer une candidature de découpage pour saisine funéraire urgente et appel : décision contestée, volontés, qualité, corps/urne, opération prévue, autorisations, jugement et notification/réception ; sortie candidate : dossier pour l’avocat et calendrier de la procédure spéciale après recherche.
+- [ ] Le point ouvert DOM-031 reste ouvert pour l’attribution finale et la tranche : FUN-003 prépare les éléments et oriente ; CTX-025/026 ne deviennent pas une saisine funéraire par simple renvoi. Ne pas assimiler délais du jugement, notification et appel ni présumer l’effet suspensif d’une démarche amiable.
+
+Scénarios supplémentaires **attendus, non exécutés** : crémation annoncée avant résolution du conflit ; décision déjà rendue mais date de notification inconnue ; médiation proposée alors qu’une opération irréversible est imminente.
+
+Sources à ouvrir lors de l’implémentation : CPC procédure spéciale des funérailles, compétence, saisine, délais, notification et appel ; voie et version exactes avant toute rédaction procédurale.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-verification.md).

@@ -78,6 +78,19 @@ Scénarios **attendus, non exécutés** ; [relecture DOM-031](../dom-031-annexes
 
 Règlement de la succession, défense en justice, exécution forcée, envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 76, 134, 136 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FP01 — Distinguer engagement signé envers l’opérateur, contribution finale entre proches et passif successoral. Renonciation déclarée ne vaut ni dispense de frais affirmée ni reconnaissance de dette.
+- [ ] FP02 — Si émetteur, facture ou coordonnées de paiement divergent, relever les écarts et préparer une vérification par un canal connu ; ne pas utiliser les coordonnées contestées comme seule preuve. Paiement déjà effectué sous tromperie → BNK-002 ; infraction alléguée → DOM-002.
+
+Scénarios supplémentaires **attendus, non exécutés** : signataire demandant aux autres enfants de tout rembourser ; facture reprenant le nom d’un opérateur connu avec coordonnées de paiement modifiées.
+
+Sources à ouvrir lors de l’implémentation : engagement contractuel, preuve de la demande et frais funéraires ; voies de réclamation bancaire ou pénale pour leurs seuls objets.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-031, sans implémentation. Contrat commun : [découpage](../dom-031-annexes/dom-031-decoupage-funeraire.md).

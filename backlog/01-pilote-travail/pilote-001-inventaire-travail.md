@@ -73,3 +73,17 @@ Réécrire le plugin entier ou traiter les 20 skills dans la même livraison.
 - Aucun skill adapté, aucun agent d'enquête lancé, aucun profil personnel
   consulté, aucun scénario H01–H14 exécuté. Le prochain lot proposé reste
   PILOTE-002, pas la réécriture du plugin entier.
+
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 115, 117, 119 de la [matrice](../03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-utilisateurs.md). Tâches candidates à découper ; aucune nouvelle capacité livrée.
+
+- [ ] Recueillir les besoins à découper hors des skills d’embauche : demande de congé pour décès/deuil d’un salarié privé, lien, événement, dates, convention et justificatif minimal ; sortie candidate : demande à l’employeur et droits sourcés, sans présumer une faveur discrétionnaire.
+- [ ] Prévoir une tâche distincte sur salaires/congés et sommes dus après décès du salarié : demandeur et qualité, contrat, bulletins, solde, décompte et pièces ; sortie candidate : tableau et demande au service employeur, sans distribuer les sommes entre héritiers.
+- [ ] Séparer congés emploi, aides DOM-012, prévoyance INS-009 et créance successorale DOM-016 ; statut public vers DOM-037. Ce complément ne rouvre pas la tranche pilote livrée et ne change pas son statut.
+
+Scénarios supplémentaires **attendus, non exécutés** : salarié demandant un congé après décès d’un enfant ; proche réclamant le solde de salaire sans qualité établie ; agent public orienté vers son régime.
+
+Sources à ouvrir lors de l’implémentation : Code du travail et convention applicable pour événements familiaux, droits dus et justificatifs ; statut du demandeur avant toute règle.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-verification.md).

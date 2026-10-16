@@ -72,6 +72,19 @@ Points 1, 3–8, 12–14, 31–36, 41–45, 58–59 et 70–72 de la [matrice](.
 
 Scénarios L03–L07 **attendus, non exécutés** : plafond mobilier et bijoux différent, option au récapitulatif contredite ailleurs, vol dans garage d'un logement inoccupé, blessures d'un conducteur assuré au tiers, assistance de carte sans paiement du voyage, GAV sous un seuil allégué. Aucun montant de prestation recalculé. Assurance accessoire → INS-016 pour la souscription/renonciation ; risque professionnel → INS-019 ; sinistre eau → INS-017 ; Cat Nat → INS-018. La question de conseil reste une orientation vers INS-016, pas une comparaison d'offres ici.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 90–94, 106 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FO01 — Contrat obsèques : lire capital, forme des cotisations, période garantie, carence, exclusions, revalorisation et faculté de rachat annoncée ; montants documentés séparés, sans performance prédite ni épargne récupérable présumée.
+- [ ] FO02 — Distinguer capital et prestations FUN-006 ; décès temporaire et garantie viagère ne sont pas assimilés. L’exercice d’un rachat obsèques reste à découper dans DOM-005, INS-012 n’étant pas automatiquement étendue à ce régime.
+
+Scénarios supplémentaires **attendus, non exécutés** : primes viagères déjà versées au-delà du capital indiqué ; garantie temporaire expirée avant décès ; demande de remboursement de toutes les primes sur la seule promesse « épargne obsèques ».
+
+Sources à ouvrir lors de l’implémentation : assurance vie/décès et financement obsèques, notices, clauses de rachat et information ; régime de l’organisme et contrat daté.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :

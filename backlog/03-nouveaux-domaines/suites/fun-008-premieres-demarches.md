@@ -80,6 +80,21 @@ Scénarios **attendus, non exécutés** ; [relecture DOM-031](../dom-031-annexes
 Démarches successorales, bancaires et sociales au fond, élément étranger,
 réalisation d'une démarche, envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 8, 15, 21, 23–32, 37–38, 98 et checklist R01–R19 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FM01 — Qualifier domicile/hôpital/EHPAD/voie publique et distinguer certificat médical, déclaration et acte d’état civil : qui agit, auprès de qui, pièce, coût allégué et preuve. Ne pas généraliser un délai entre ces lieux.
+- [ ] FM02 — Distinguer conservation au domicile, chambre mortuaire et chambre funéraire, initiateur du transfert, mise en bière, autorisations et périodes facturées ; relayer une facture litigieuse vers FUN-002.
+- [ ] FM03 — Séparer transport avant mise en bière, inhumation/crémation et exhumation ultérieure ; établir décès, autorisation judiciaire, territoire, dérogation et preuve avant un délai. Un obstacle médico-légal passe en tête sans enquête ni autopsie conseillée.
+- [ ] FM04 — Proposer une checklist avec fait/à faire/à vérifier, responsable, pièce et interlocuteur, et signaler les objets parallèles : volontés/contrat, comptes, assurances, logement, aides, emploi et succession. Ne pas reporter une urgence de capital ou de recours derrière le seul ordre « premiers mois ».
+
+Scénarios supplémentaires **attendus, non exécutés** : décès à domicile et délai allégué non confirmé ; transfert d’un EHPAD demandé par son directeur ; obstacle levé mais date d’autorisation absente ; proches demandant toutes les démarches et une priorité CPAM imminente.
+
+Sources à ouvrir lors de l’implémentation : Code civil état civil, textes CGCT et santé sur constat/certificat/chambres/transports/obsèques ; sources officielles par lieu, territoire, obstacle et exception. Recherche des contrats et délais sociaux chez leurs propriétaires.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-031, sans implémentation. Contrat commun : [découpage](../dom-031-annexes/dom-031-decoupage-funeraire.md).

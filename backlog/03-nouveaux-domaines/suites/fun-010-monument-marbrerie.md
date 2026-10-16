@@ -75,6 +75,19 @@ Scénarios **attendus, non exécutés** ; [relecture DOM-031](../dom-031-annexes
 
 Expertise technique, concession, travaux hors cimetière, procédure, envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 46–47 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FT01 — Séparer travaux nécessaires à l’opération envisagée, rénovation et embellissement ; rattacher caveau, ouverture/fermeture et gravure aux documents fournis et autorisations à vérifier.
+- [ ] FT02 — Préparer demande de descriptif, prix et justification, sans expertise ni conclusion qu’un ouvrage neuf est obligatoire ; réduction/exhumation → FUN-012 pour l’opération distincte.
+
+Scénarios supplémentaires **attendus, non exécutés** : rénovation globale proposée avec une simple ouverture de caveau ; frais d’autorisation et de fermeture mélangés au prix du monument.
+
+Sources à ouvrir lors de l’implémentation : contrat d’entreprise, devis et prix, règlement du cimetière et autorisations locales applicables ; actes relatifs aux opérations funéraires séparés.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-031, sans implémentation. Contrat commun : [découpage](../dom-031-annexes/dom-031-decoupage-funeraire.md).

@@ -92,3 +92,16 @@ La [matrice des 100 frictions](../02-plugins-existants/exist-002-annexes/exist-0
 Frontière : impôts courants de l'activité indépendante → DOM-039 ; impôts de société, contrôle et contentieux fiscal → ici. Une demande formelle issue du premier parcours reçoit une fiche de relais avec pièces et dates, sans nouvelle qualification contradictoire. Espaces particulier/professionnel et services activés doivent être identifiés ; aucune déclaration déduite du seul accès au compte.
 
 Scénarios attendus : CFE d'un artisan invoquant une exonération ; avis disponible uniquement en ligne ; société sans local ; franchissement de seuil en cours d'année ; prestation internationale sous franchise ; facture électronique et mention TVA présentées comme une urgence commerciale ; réclamation pendante sans sursis établi ; société fermée avec dernières déclarations manquantes. Résultat : distinction des questions, pièces et calculs réservés ; pas d'exécution métier ici. Voir la matrice pour la portée.
+
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 78–80, 82, 104 et D11 de la [matrice](dom-031-annexes/dom-031-frictions-utilisateurs.md). Tâches candidates à découper ; aucune nouvelle capacité livrée.
+
+- [ ] Découper déclaration fiscale de succession : date et lieu du décès, domiciles fiscaux, actif, donations, qualité, mission du notaire, dépôt et paiement ; sortie : pièces et échéances séparées de l’option civile, sans exonération assimilée à dispense de déclaration.
+- [ ] Prévoir la fiscalité du capital d’assurance-vie après décès : contrats, dates/primes, âge pertinent, bénéficiaire et attestations ; expliquer les questions au professionnel sans exonération générale ni liquidation sur données incomplètes.
+
+Scénarios supplémentaires **attendus, non exécutés** : héritier pensant attendre le partage avant dépôt ; bénéficiaire d’assurance-vie convaincu de l’exonération totale ; déclaration confiée au notaire sans preuve de dépôt.
+
+Sources à ouvrir lors de l’implémentation : CGI, BOFiP et textes de dépôt/paiement/dispenses et assurance-vie ; territorialité et version à la date des faits.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).

@@ -71,6 +71,20 @@ Scénarios **attendus, non exécutés** ; [relecture DOM-031](../dom-031-annexes
 
 Transfert international, organisation de l'opération, procédure, envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 47 et tableau D03 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FE01 — Séparer exhumation, réduction/réunion de corps, déplacement de l’urne et transport avant mise en bière ; identifier opération exacte et autorité sans les traiter comme un régime unique.
+- [ ] FE02 — Réunir demandeur, titre d’origine/d’accueil, accord contesté, autorisation, commande et devis détaillé ; conditions sanitaires uniquement comme questions à l’autorité, sans donnée médicale non nécessaire.
+- [ ] FE03 — Distinguer possibilité d’autoriser, accord de l’opérateur et prix : aucun transfert engagé, coût inventé ou autorisation déduite du devis signé. FUN-008 garde le transport initial avant obsèques.
+
+Scénarios supplémentaires **attendus, non exécutés** : devis regroupant ouverture, réduction et transfert sans autorisation fournie ; déplacement d’une urne décrit comme transport de corps avant mise en bière.
+
+Sources à ouvrir lors de l’implémentation : régimes CGCT propres aux opérations identifiées, qualité du demandeur et autorisations ; règlement local et pièces de commande, sans transport international traité.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-031, sans implémentation. Contrat commun : [découpage](../dom-031-annexes/dom-031-decoupage-funeraire.md).

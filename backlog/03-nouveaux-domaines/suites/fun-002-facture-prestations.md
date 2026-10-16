@@ -79,6 +79,20 @@ Scénarios **attendus, non exécutés** ; [relecture DOM-031](../dom-031-annexes
 
 Devis avant engagement, monument, recouvrement, procédure, envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 6–9, 12, 18–19, 22, 25, 29–30, 47, 97, 142 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FI01 — Rapprocher chaque ligne de la commande, des modifications, de l’autorisation et de l’exécution alléguée : prix, quantité, tiers bénéficiaire, taxes/redevances et prestations administratives restent identifiables.
+- [ ] FI02 — Pour chambre mortuaire/funéraire et transfert, relever lieu, initiateur de la demande, qualité, dates d’accueil et de sortie, consentement retrouvé et fondement de prise en charge allégué ; une signature de réception n’est pas assimilée sans examen à une commande.
+- [ ] FI03 — Le brouillon demande décompte, justificatifs, coordonnées du médiateur et correction motivée si établie ; conserver preuve de réclamation. Séparer signalement CONSO-013, médiation CONSO-006 et action, sans suspension générale ni remboursement promis.
+
+Scénarios supplémentaires **attendus, non exécutés** : établissement ayant demandé un transfert privé puis facture à un enfant ; ligne « taxes et formalités » globale ; porteurs supplémentaires sans commande retrouvée ; prestation financée alléguée mais aucun versement prouvé.
+
+Sources à ouvrir lors de l’implémentation : CGCT et textes sur chambres mortuaires/funéraires et transferts à l’initiative d’un établissement ; information sur les prix, commande, preuve et médiation ; pièces de tiers et tarifs datés.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-031, sans implémentation. Contrat commun : [découpage](../dom-031-annexes/dom-031-decoupage-funeraire.md).

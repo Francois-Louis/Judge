@@ -108,3 +108,11 @@ fictives, avec contrôles statiques. Aucune source juridique lue : les
 articles cités sont des pistes. Aucun plugin créé, skill exécuté, paquet
 installé, lecteur réel ou indépendant. Le préalable PILOTE-003 est satisfait
 après BASE-011 ; aucune tranche n'est sélectionnée.
+
+## Complément des frictions utilisateur — 16 octobre 2026
+
+La [matrice des 142 points](dom-031-annexes/dom-031-frictions-utilisateurs.md) conserve le [texte fourni](sources/deces-obseques-frictions-2026-10-16.txt), relie chaque besoin à son propriétaire et traite aussi nouveautés alléguées, 19 lignes de délais, recours, 19 réflexes et cinq risques finaux. Les douze suites FUN sont précisées ; les tâches successorales, fiscales, sociales, logement/EHPAD, emploi et procédure encore non découpées sont signalées dans leurs cadrages.
+
+Aucune suite nouvelle ni première tranche sélectionnée. Comptes du défunt et frais bancaires successoraux restent DOM-016 ; les garanties restent DOM-005. Les cinq points ouverts du cadrage initial demeurent, dont procédure funéraire urgente et contribution familiale sans actif. La candidature contentieuse et le rattachement proposé de la facture EHPAD ne constituent pas des arbitrages définitifs.
+
+[Vérification de l’intégration](dom-031-annexes/dom-031-frictions-verification.md) : contrôles documentaires et portée propres à ce complément ; le contrôleur et le relevé JSON initiaux ne sont pas réécrits. Aucun texte juridique n’est validé par le texte utilisateur.

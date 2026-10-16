@@ -157,3 +157,17 @@ conservatoire automatique. Complémentaire privée → INS-009 ; facture du
 soignant → SAN-011/014 ; traitement et continuité → SAN-013/016.
 
 Scénarios **attendus, non exécutés** ; [portée et contrôles](dom-007-annexes/dom-007-frictions-verification.md).
+
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 105, 113–117 et D07–D08 de la [matrice](dom-031-annexes/dom-031-frictions-utilisateurs.md). Tâches candidates à découper ; aucune nouvelle capacité livrée.
+
+- [ ] Découper le capital décès par régime : statut du défunt, organisme, qualité/priorité, événement, demande et preuve de réception ; distinguer délai de priorité et délai ordinaire, sans importer les délais de la CPAM à une prévoyance privée.
+- [ ] Découper aides décès France Travail et CAF/MSA, notamment décès d’enfant : entrées propres, qualité, demande et décision ; sortie : pièces, organisme et calendrier sourcé. Congés vers le domaine emploi, garantie collective privée vers INS-009.
+- [ ] Prévoir origine professionnelle du décès et créances de prestations encore dues : décision de reconnaissance, bénéficiaire et nature des sommes ; distinguer rentes/frais/prestations et responsabilité civile DOM-035. Réversion et ASPA d’un régime de retraite vers DOM-036 ; autre régime de récupération à qualifier.
+
+Scénarios supplémentaires **attendus, non exécutés** : demande CPAM tardive pour priorité mais pas nécessairement pour le droit ordinaire ; conjoint d’un allocataire France Travail ; décès d’enfant et aides multiples ; décès avec reconnaissance professionnelle en cours.
+
+Sources à ouvrir lors de l’implémentation : CSS, textes France Travail/CAF/MSA et régime AT/MP, sources des organismes ; conditions et échéances propres, sans prestation commune inventée.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).

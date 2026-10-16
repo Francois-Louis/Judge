@@ -126,3 +126,17 @@ Exigences issues des [125 frictions contentieuses](../02-plugins-existants/exist
 Points 78–80 : besoin à découper de lecture de protection juridique d’un litige identifié, distinct de la couverture du sinistre principal. Entrées : conditions générales/particulières, date des faits, déclaration et réponse de l’assureur, avocat choisi, devis et frais déjà engagés. Sortie future : tableau champ/exclusions, libre choix à vérifier, plafonds et franchises, démarches de déclaration et couverture confirmée ou réservée par étape. CTX-040 reprend seulement ces données documentées. Scénarios : frais antérieurs à la déclaration et proposition d’un avocat par l’assureur ; aucun refus ou remboursement décidé depuis le seul guide. Sources : Code des assurances, protection juridique et contrat applicable.
 
 Les scénarios indiqués sont attendus, non exécutés. Sources/version, champ, déclencheur, exceptions et transitions restent à rechercher ; le texte fourni n’est pas une autorité juridique.
+
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 90–108, 125, 130, 139 de la [matrice](dom-031-annexes/dom-031-frictions-utilisateurs.md). Tâches candidates à découper ; aucune nouvelle capacité livrée.
+
+- [ ] Conserver le partage entre prestations FUN-006, garanties INS-004, bénéficiaire/recherche/versement INS-011, prévoyance INS-009 et emprunteur INS-008. Comparaison des cotisations documentées dans INS-014, promesse commerciale contestée dans INS-016 ; aucune performance évaluée.
+- [ ] Identifier une tâche restant à découper pour l’exercice du rachat d’un contrat obsèques : souscripteur vivant ou demandeur habilité, régime du contrat, clause, valeur annoncée, demande et preuve ; ne pas annoncer INS-012 comme couverture automatique de cette famille.
+- [ ] La transmission/résiliation habitation et auto après décès est précisée dans INS-006 ; chaque recherche AGIRA obsèques/assurance-vie/Ciclade conserve ses conditions et son délai propre. Protection juridique INS-007 distincte de la garantie du décès.
+
+Scénarios supplémentaires **attendus, non exécutés** : primes prises pour épargne récupérable ; capital obsèques identifié mais versé à un autre bénéficiaire ; assurance habitation résiliée sans examen de la continuité.
+
+Sources à ouvrir lors de l’implémentation : Code des assurances et textes propres à l’organisme/contrat, dispositifs officiels de recherche et transmission ; pas de fiscalité ou succession traitée au fond ici.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).

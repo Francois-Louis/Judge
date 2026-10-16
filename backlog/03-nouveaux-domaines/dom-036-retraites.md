@@ -60,3 +60,15 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 109–112, 118 et D13 de la [matrice](dom-031-annexes/dom-031-frictions-utilisateurs.md). Tâches candidates à découper ; aucune nouvelle capacité livrée.
+
+- [ ] Découper une demande de réversion dans un régime identifié : mariage/PACS, âge, ressources si pertinentes, date du décès, dépôt, date d’effet et régimes de base/complémentaires distincts ; sortie : pièces et demande, sans réversion automatique ni rétroactivité universelle.
+- [ ] Ajouter une tâche candidate de lecture d’une récupération ASPA par un régime de retraite : organisme, décision, période, décès, territoire, actif net retenu, seuil versionné et décompte ; DOM-016 garde l’actif et le partage, DOM-012 un autre régime de récupération à qualifier. Aucun montant du texte utilisateur adopté.
+
+Scénarios supplémentaires **attendus, non exécutés** : partenaire pacsé pensant ouvrir une réversion ; plusieurs régimes et demandes à des dates différentes ; récupération ASPA présentée comme intégrale sans décompte.
+
+Sources à ouvrir lors de l’implémentation : CSS et textes des régimes de base/complémentaires, date d’effet des demandes et récupération ASPA, seuils indexés et règles territoriales.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).

@@ -117,3 +117,16 @@ Ce ne sont pas des réponses déjà couvertes par les suites liées.
 Contrôles et portée dans la [vérification du complément](dom-006-annexes/dom-006-frictions-verification.md).
 Le bilan initial et ses résultats restent historiques ; toutes les suites
 LOG restent proposées, sans sélection, livraison ou validation du droit.
+
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 120, 123–124 de la [matrice](dom-031-annexes/dom-031-frictions-utilisateurs.md). Tâches candidates à découper ; aucune nouvelle capacité livrée.
+
+- [ ] Découper bail après décès selon régime : vide/meublé/social, cotitularité, liens/occupation, date du décès, clés, maintien/transfert/fin et décompte des loyers ; sortie : pièces et demande au bailleur, sans assimiler qualité d’héritier et droit au bail.
+- [ ] Les droits successoraux temporaire/viager au logement restent DOM-016 ; la facturation EHPAD reste une tâche candidate DOM-025. Aucun skill de congé ordinaire ou dépôt locatif privé n’est annoncé couvrir ces objets nouveaux.
+
+Scénarios supplémentaires **attendus, non exécutés** : bailleur demandant un départ immédiat au survivant ; loyers réclamés après remise des clés et décès du seul locataire.
+
+Sources à ouvrir lors de l’implémentation : loi du 6 juillet 1989 selon champ, Code civil et textes du parc concerné sur décès/transfert du bail ; règles propres au survivant, occupation et loyers.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).

@@ -102,3 +102,16 @@ perte de revenus ; consolidation annoncée contestée par la victime. Dresser
 pièces/manques et questions au médecin-conseil/avocat avant signature, sans
 confondre soins, consolidation et point de départ de prescription.
 [Portée et contrôles](dom-007-annexes/dom-007-frictions-verification.md).
+
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 116, 138 de la [matrice](dom-031-annexes/dom-031-frictions-utilisateurs.md). Tâches candidates à découper ; aucune nouvelle capacité livrée.
+
+- [ ] Découper un dossier de préjudices des proches après décès accidentel ou fautif : qualité, événement, offre, postes documentés, garanties, provisions, transaction/quittance et réserves ; sortie : inventaire et questions au conseil, sans évaluation complète ni acceptation suggérée.
+- [ ] Séparer indemnisation civile, prestations AT/MP DOM-012, garanties d’assurance DOM-005 et enquête DOM-002. SAN-006 oriente le dommage de soins ; il ne valide pas une transaction ni le régime d’autopsie.
+
+Scénarios supplémentaires **attendus, non exécutés** : offre présentée comme définitive contre renonciation générale avant examen des droits de tous les proches ; accident professionnel avec plusieurs organismes.
+
+Sources à ouvrir lors de l’implémentation : responsabilité et indemnisation selon origine du décès, qualité des proches, transaction et articulation des prestations ; régime médical/circulation/professionnel à qualifier avant toute règle.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).

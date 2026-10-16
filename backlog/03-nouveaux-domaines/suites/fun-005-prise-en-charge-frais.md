@@ -80,6 +80,20 @@ Scénarios **attendus, non exécutés** ; [relecture DOM-031](../dom-031-annexes
 Règlement de la succession, lecture d'une garantie d'assurance, demande à un
 organisme social, contentieux familial, envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 55–56, 74, 105, 113–116, 134–135 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FF01 — Distinguer avance, règlement bancaire direct, capital privé, prestation publique, prise en charge communale et charge finale ; pour chaque piste : interlocuteur, pièce, date et inconnu, sans addition des droits supposés.
+- [ ] FF02 — Préparer les questions à la banque/notaire et à la commune du lieu du décès, sans plafond non vérifié ni prise en charge garantie. La demande CPAM distingue priorité et demande ordinaire ; réversion vers DOM-036.
+- [ ] FF03 — Si une renonciation successorale est invoquée, ne conclure ni que les frais disparaissent ni que chaque enfant est tenu ; conserver le point ouvert DOM-013/016 sur la contribution familiale sans actif.
+
+Scénarios supplémentaires **attendus, non exécutés** : famille sans liquidités mais compte du défunt connu ; enfant renonçant sollicité par la commune ; proches demandant en même temps capital CPAM et garantie de prévoyance.
+
+Sources à ouvrir lors de l’implémentation : paiement bancaire des obsèques, prise en charge communale, capital décès selon organisme et régime, articulation successorale/familiale ; uniquement pour orientation dans ce skill.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-031, sans implémentation. Contrat commun : [découpage](../dom-031-annexes/dom-031-decoupage-funeraire.md).

@@ -119,6 +119,21 @@ porte sur le cadrage ; ces scénarios restent **attendus, non exécutés**.
 Facture après les obsèques, désaccord entre proches, financement, contrat
 obsèques, monument, élément étranger, choix d'un opérateur, envoi.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 1–6, 10–11, 13–17, 20–23, 134 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FQ01 — À partir d’un devis ou d’une demande de signature sans devis, séparer modèle réglementaire, notice d’information, bon de commande, options, quantités, frais de tiers et taxes alléguées ; mention absente ne vaut pas manquement établi.
+- [ ] FQ02 — Comparer, si fournis, plusieurs devis pour les mêmes besoins : lignes équivalentes ou non, inclusions, exclusions, quantités, total recopié et inconnues ; ne classer ni recommander les opérateurs. Une différence arithmétique documentée ne suffit pas à conclure à une surfacturation.
+- [ ] FQ03 — Examiner séparément cercueil/crémation, capiton, urne, toilette, conservation, cérémonie, véhicules et chambre funéraire : exigence technique sourcée, circonstance particulière et choix esthétique distingués ; pas d’obligation générale présumée.
+- [ ] FQ04 — Préparer une demande de devis complet, de notice et de variantes répondant au besoin exprimé, sans signature conseillée sous pression. Expliquer que signataire, décideur et personne supportant les frais restent trois qualités distinctes.
+
+Scénarios supplémentaires **attendus, non exécutés** : deux devis dont l’un exclut le transport et annonce des soins obligatoires ; refus oral de devis et signature exigée le soir même ; devis daté autour d’un changement de modèle ou de notice.
+
+Sources à ouvrir lors de l’implémentation : textes CGCT et consommation sur devis/commande/information, arrêtés et annexes applicables au modèle et à la notice, règles techniques selon les opérations ; identifier champ, dates et transitions sans adopter celles annoncées dans le texte.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-031, sans implémentation. Préalable PILOTE-003 satisfait après

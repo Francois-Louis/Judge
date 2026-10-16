@@ -70,6 +70,18 @@ Points 51, 73–77 et 90 de la [matrice](../dom-005-annexes/dom-005-frictions-ut
 
 Scénarios T03–T07 **attendus, non exécutés** : résiliation infra-annuelle refusée, parcours numérique inaccessible, résiliation automobile après sinistre, impayé réglé sans confirmation de reprise, prélèvement d'une période ancienne après résiliation. Prévoir les sources mutualité/santé, dispositions automobiles spéciales et fonctionnalité électronique en plus des pistes générales. Échéances → INS-021.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 125, 130 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FO06 — Décès du souscripteur habitation/auto : qualifier contrat, bien assuré, transmission, personne pouvant agir, continuité et demande de résiliation ; ne pas présumer une fin automatique ni laisser sans examen un bien encore à assurer.
+
+Scénarios supplémentaires **attendus, non exécutés** : logement successoral vide dont un enfant veut cesser immédiatement l’assurance ; véhicule encore utilisé par un proche après décès.
+
+Sources à ouvrir lors de l’implémentation : Code des assurances transmission des biens assurés et résiliation après décès, contrat et qualité du demandeur ; aucun conseil de placement ou de transfert de propriété.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :

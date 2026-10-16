@@ -82,6 +82,20 @@ Point 69 de la [matrice](../dom-005-annexes/dom-005-frictions-utilisateurs.md).
 
 Scénarios V05/V06 **attendus, non exécutés** : proche sans référence de contrat ; réponse indiquant un transfert de fonds à rechercher. Sources officielles des dispositifs et règles applicables à ouvrir. Souscripteur vivant modifiant une clause → INS-020 ; frais et rendement → orientation seule BNK-011 ; rachat → INS-012.
 
+## Complément des frictions décès et obsèques — 16 octobre 2026
+
+Points 97–103 et D06 de la [matrice](../dom-031-annexes/dom-031-frictions-utilisateurs.md). Exigences supplémentaires de la proposition, sans sélection ni implémentation.
+
+- [ ] FO03 — Distinguer recherche obsèques, recherche assurance-vie et fonds transférés à la Caisse des dépôts ; demandeur, pièces, réception/transmission et délai propres à chaque dispositif vérifiés séparément.
+- [ ] FO04 — Distinguer héritier, organisateur, opérateur et bénéficiaire ; conserver clause et contradiction sans arbitrage. Contrat retrouvé, fonds reçus et facture réglée sont trois faits distincts.
+- [ ] FO05 — Pour retard, conserver frise complète et demande d’intérêts éventuels sourcés ; fiscalité DOM-011, cotisations/garantie INS-004, prestations FUN-006 et complémentaire/prévoyance INS-009.
+
+Scénarios supplémentaires **attendus, non exécutés** : contrat obsèques supposé présent mais aucun numéro ; capital annoncé à l’opérateur sans preuve de versement ; assurance-vie et fonds Ciclade recherchés simultanément.
+
+Sources à ouvrir lors de l’implémentation : dispositifs officiels AGIRA obsèques et assurance-vie, Ciclade, qualité et délais de pièces/versement avec déclencheur propre ; ne pas réutiliser le délai d’un dispositif pour l’autre.
+
+Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../dom-031-annexes/dom-031-frictions-verification.md).
+
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
