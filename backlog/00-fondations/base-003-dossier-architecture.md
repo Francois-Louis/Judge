@@ -116,6 +116,7 @@ exacte sera vérifiée pour le régime choisi lors de l'implémentation.
 | Chasse et pêche — [DOM-040](../03-nouveaux-domaines/dom-040-chasse-peche.md) | `hunting-fishing-legal` | Lire un procès-verbal de chasse ou de pêche → infraction alléguée, stade et pièces | Agent verbalisateur/fédération ; arme → CRIM-017, procédure pénale → DOM-002, exploitation agricole → DOM-014, espèces et pollution → DOM-030, assurance → DOM-005. |
 | Professionnels du droit et du chiffre — [DOM-041](../03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | `professional-services-legal` | Lire un décompte de frais de notaire → émoluments, débours, taxes et questions | Notaire/avocat/commissaire de justice/expert-comptable, instance ou médiateur à identifier ; fond du dossier → son domaine, frais d'un acte de saisie → ENF-003, faute pénale → DOM-002. |
 | Artistes et spectacle — [DOM-042](../03-nouveaux-domaines/dom-042-artistes-spectacle.md) | `arts-legal` | Lire un courrier de France Travail à un intermittent → décision, période, heures et pièces | URSSAF/France Travail/caisse des congés spectacles ; droits sur les œuvres → ip, travail ordinaire → employment, CAF → DOM-012, micro-entreprise → DOM-039. |
+| Médias et expression publique — [DOM-043](../03-nouveaux-domaines/dom-043-medias-expression.md) | `media-legal` | Documenter une publication qui atteint une personne → qualification possible, urgence et démarche | Auteur/éditeur/hébergeur, avocat pour une procédure de presse ; modération de plateforme → DOM-034, RGPD et déréférencement → privacy, droit d'auteur → ip, harcèlement → DOM-002, journaliste salarié → employment. |
 
 Les cadrages EXIST/DOM précisent ensuite les tâches supplémentaires et les
 stories d'implémentation. Leurs implémentations attendent le bilan PILOTE-003,
@@ -240,7 +241,7 @@ ils ne valent ni installation isolée ni validation du comportement juridique.
 ## Couverture des situations du quotidien
 
 La [matrice des usages](../usages-quotidiens.md) est confrontée aux propriétaires
-ci-dessus : toutes ses entrées renvoient soit à un DOM-001 à DOM-042, soit au
+ci-dessus : toutes ses entrées renvoient soit à un DOM-001 à DOM-043, soit au
 travail privé, aux contrats B2B ou aux données personnelles. Chaque renvoi a
 donc un plugin principal et une tâche candidate ; aucune entrée n'exige un
 plugin généraliste. Les tâches additionnelles restent à prioriser, notamment

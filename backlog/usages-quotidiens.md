@@ -24,7 +24,7 @@ reste dans BASE-003. Chaque domaine principal est retenu pour la tâche exprimé
 sous réserve des faits discriminants de la dernière colonne. Une question
 complémentaire ouvre une tâche distincte seulement si elle est utile.
 
-Chaque situation porte un identifiant stable, de `S-01` à `S-47`, à citer dans
+Chaque situation porte un identifiant stable, de `S-01` à `S-48`, à citer dans
 les stories. Une nouvelle situation reçoit le numéro suivant ; une situation
 retirée garde son numéro, qui n'est pas réattribué.
 
@@ -112,6 +112,7 @@ avant une revue documentaire ordinaire.
 | S-44 | Les frais de mon notaire ou les honoraires de mon avocat ou de mon comptable me paraissent injustifiés. | Professionnels du droit et du chiffre | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Distinguer frais réglementés, taxes et honoraires ; préparer les questions. | Professionnel concerné puis instance ou médiateur ; fond du dossier → son domaine (succession, achat, procédure). Ajoutée le 16 octobre 2026. |
 | S-45 | J'ai reçu un procès-verbal de chasse ou de pêche, ou du gibier ravage mon terrain. | Chasse et pêche | [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) | Identifier l'acte, l'agent, la règle invoquée et les pièces. | Agent verbalisateur ou fédération ; arme → CRIM-017, exploitation agricole → DOM-014, voisinage → DOM-020. Ajoutée le 16 octobre 2026. |
 | S-47 | Je veux faire un procès, ou je suis assigné ou convoqué devant un juge civil. | Contentieux civil | [EXIST-006](02-plugins-existants/exist-006-contentieux.md) | Identifier l'acte, la juridiction, l'urgence et la représentation ; préparer les pièces. | Juridiction ou conseil ; le fond reste à son domaine, pénal → DOM-002, exécution → DOM-003, aide juridictionnelle → DOM-041. Ajoutée le 16 octobre 2026. |
+| S-48 | Un article, une vidéo ou un message me met en cause, ou on me reproche un propos que j'ai publié. | Médias et expression publique | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) | Conserver la publication datée, identifier la qualification possible et l'urgence. | Auteur, éditeur ou hébergeur, avocat pour une procédure de presse ; compte suspendu → DOM-034, données → protection des données, harcèlement → DOM-002. Ajoutée le 16 octobre 2026. |
 
 ## Utilisation dans les stories
 

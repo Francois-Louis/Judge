@@ -51,6 +51,7 @@ ne valident aucune règle de droit.
 | Actualité des textes avant livraison | Relecture datée de chaque référence embarquée, bloquante pour un lot. | [BASE-014](00-fondations/base-014-relecture-references.md) |
 | Jurisprudence pendant une réponse | Cadrer l'accès aux décisions sans PISTE et la conduite en cas d'échec. | [BASE-015](00-fondations/base-015-jurisprudence-runtime.md) |
 | Veille des références livrées | Suite du plugin de veille réglementaire. | [VEI-021](02-plugins-existants/suites/vei-021-veille-references-plugins.md) |
+| Médias | Nouveau cadrage couvrant personne atteinte, personne mise en cause, journalistes et créateurs, petits médias et sites. | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) et situation S-48 |
 
 Les nouvelles stories sont `proposee`. Elles suivent le contrat commun de leur
 découpage et n'ont été ni sélectionnées ni implémentées.
