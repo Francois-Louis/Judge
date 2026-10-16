@@ -41,11 +41,11 @@ la simple lecture sans sauvegarde reste possible.
 
 ## Critères d'acceptation
 
-- [ ] Sans profil, une offre reçue peut être expliquée sans création persistante.
-- [ ] Une préférence volontairement mémorisée crée seulement le profil du fork ; pas de profil société ni registre.
-- [ ] Modifier le format sur un profil partiel ou US conserve les réponses hors demande et n'applique aucun défaut US.
-- [ ] Le parcours termine la branche candidat sans exécuter l'entretien professionnel ni sonder un connecteur non demandé.
-- [ ] Lectures/écritures du helper et retour à la revue sont observés dans un client isolé ; le paquet n'exige aucun fichier du dépôt.
+- [x] Sans profil, une offre reçue peut être expliquée sans création persistante. (P4-1, H12)
+- [x] Une préférence volontairement mémorisée crée seulement le profil du fork ; pas de profil société ni registre. (P4-2)
+- [x] Modifier le format sur un profil partiel ou US conserve les réponses hors demande et n'applique aucun défaut US. (P4-3)
+- [x] Le parcours termine la branche candidat sans exécuter l'entretien professionnel ni sonder un connecteur non demandé. (P4-2, P4-3)
+- [x] Lectures/écritures du helper et retour à la revue sont observés dans un client isolé ; le paquet n'exige aucun fichier du dépôt. Isolation par variables jetables seulement (BASE-011).
 - [ ] Un lecteur non juriste peut expliquer ce qui a été mémorisé, l'emplacement et ce qui reste à vérifier sur son contrat. Lecteur retenu : l'utilisateur, résultat marqué non indépendant ([BASE-011](../00-fondations/base-011-recette-client-isole.md)).
 
 ## Vérification
@@ -79,3 +79,12 @@ client isolé ni lecture avec un participant réel. Les cases ci-dessus ne sont
 pas cochées sur la seule base des consignes ou des tests du helper. La recette
 sans exécuteur et le retour effectif à la revue restent à observer. Aucune
 extension aux autres parcours ni publication réalisée.
+
+## Recette en client — 16 octobre 2026
+
+[BASE-011](../00-fondations/base-011-recette-client-isole.md) a exécuté les étapes 1 à 4 de la recette dans un client connecté
+([résultats](../00-fondations/base-011-resultats.json), scénarios P4 et profils avant/après). Toutes les écritures passent
+par le helper avec empreinte ; témoins et profil société inchangés ; sans
+Bash, aucune sauvegarde ni contournement. Les options `--redo` et
+`--check-integrations` n'ont pas été rejouées. La story reste `a-verifier`
+pour le seul critère du lecteur réel.

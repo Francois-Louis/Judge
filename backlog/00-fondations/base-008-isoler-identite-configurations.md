@@ -56,7 +56,7 @@ Cette isolation technique ne vaut pas adaptation des tâches juridiques.
 
 ## Critères d'acceptation
 
-- [ ] Original et fork sont simultanément installés et chargés ; leurs commandes
+- [x] Original et fork sont simultanément installés et chargés ; leurs commandes
   qualifiées distinctes appellent le bon paquet.
 - [x] Deux profils, profils partagés et dossiers de même slug conservent leurs
   marqueurs respectifs ; les accès réels restent dans le bon namespace.
@@ -144,3 +144,13 @@ c'est une absence d'outil, pas une réussite. Restent ouverts le critère 1
 La recette doit isoler le home du système : `CLAUDE_CONFIG_DIR` ne déplace pas
 les chemins `~/.claude/plugins/config/judge-fr-eu/`. Le critère 1 est repris
 par [BASE-011](base-011-recette-client-isole.md).
+
+### Recette en client authentifié — 16 octobre 2026
+
+[BASE-011](base-011-recette-client-isole.md) a installé l'original
+`employment-legal` 1.0.2 et le fork `judge-fr-eu-employment-legal` 0.2.0 dans
+une même configuration jetable connectée. La session les charge tous deux ;
+chaque commande qualifiée de `hiring-review` est résolue dans le répertoire
+de son paquet ([résultats](base-011-resultats.json), scénarios B8). Critère 1
+coché. Le critère 4 (cycle du hub, liens symboliques réels) reste ouvert :
+la story demeure `en-cours`.

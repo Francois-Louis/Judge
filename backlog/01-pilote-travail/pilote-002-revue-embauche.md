@@ -41,7 +41,7 @@ et le bilan PILOTE-003 sont conservés.
 ## Critères d'acceptation
 
 - [x] Le skill ne conclut pas sur une convention collective à partir du seul code APE ni sur le seul intitulé de poste.
-- [ ] Les règles françaises sont recherchées et appliquées aux faits ; aucun mécanisme américain n'est conservé comme défaut.
+- [x] Les règles françaises sont recherchées et appliquées aux faits ; aucun mécanisme américain n'est conservé comme défaut. Observé en client sur pièces fictives (H02–H16, BASE-011), sans relecture juridique indépendante.
 - [x] Les références nécessaires sont dans le plugin livré ; la procédure de configuration reste utilisable.
 - [x] Les documents du plugin indiquent précisément le périmètre adapté et les limites restantes.
 - [ ] Un candidat sans formation juridique comprend la sortie et les démarches proposées ; la revue ne suppose pas de playbook d'entreprise.
@@ -73,3 +73,11 @@ Les conclusions dépendant de décisions ou de textes non lus restent réservée
 ## Hors périmètre
 
 Licenciement, paie complète, congés, enquête interne, droit de la fonction publique ou adaptation du plugin entier.
+
+## Recette en client — 16 octobre 2026
+
+[BASE-011](../00-fondations/base-011-recette-client-isole.md) : H02–H10 et H13–H16 exécutés dans un client isolé connecté, tous
+réussis ; sorties, outils et sources lues dans les [résultats](../00-fondations/base-011-resultats.json). Le critère sur
+les règles françaises est coché avec sa réserve. La story reste
+`a-verifier` : nominal H01 complet (D02) non exécuté, aucune reformulation
+par un lecteur réel (réponses de fixture seulement).

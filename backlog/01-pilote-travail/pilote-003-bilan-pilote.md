@@ -1,7 +1,7 @@
 ---
 id: PILOTE-003
 titre: "Vérifier le pilote avant d'étendre l'adaptation"
-statut: a-verifier
+statut: terminee
 priorite: P1
 nature: validation
 dependances: [PILOTE-002]
@@ -71,3 +71,12 @@ La généralisation n'est pas engagée. La recette en client est portée par
 ## Hors périmètre
 
 Publier une version, installer des plugins sur le compte de l'utilisateur ou poursuivre tous les domaines dans la foulée.
+
+## Recette en client — 16 octobre 2026
+
+[BASE-011](../00-fondations/base-011-recette-client-isole.md) a exécuté la vérification de cette story : plugin installé seul dans un
+client jetable connecté (copie identique à l'inventaire, `SCHEMA OK`), H12
+sans profil et H11a/H11b sans source. Les trois scénarios réussissent : aucun
+fichier créé, refus d'accès tracés, conclusions dépendantes réservées
+([résultats](../00-fondations/base-011-resultats.json)). La story passe à `terminee`. Restent dans PILOTE-002 le nominal H01
+complet (D02) et le lecteur réel (D07) ; l'extension reste un choix explicite.

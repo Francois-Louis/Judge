@@ -1,9 +1,9 @@
 # Backlog — adaptation juridique France / Union européenne
 
 Ce dossier organise le travail à venir. Le backlog contient 88 stories :
-BASE-001 à BASE-007, BASE-009, BASE-010, BASE-012, PILOTE-001, PILOTE-005 et USAGE-001 à USAGE-003 sont `terminee`,
-BASE-008 est `en-cours`, PILOTE-002, PILOTE-003 et PILOTE-004 sont `a-verifier` ;
-les 69 autres, dont BASE-011, sont `proposee`.
+BASE-001 à BASE-007, BASE-009, BASE-010, BASE-012, PILOTE-001, PILOTE-003, PILOTE-005 et USAGE-001 à USAGE-003 sont `terminee`,
+BASE-008 est `en-cours`, BASE-011, PILOTE-002 et PILOTE-004 sont `a-verifier` ;
+les 68 autres sont `proposee`.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
 fait le bilan de l'epic 00 et de ses points ouverts.
 La [rétrospective du pilote travail](01-pilote-travail/retrospective-pilote-travail.md)
@@ -117,12 +117,12 @@ le [plan hiring-review](01-pilote-travail/pilote-001-plan-hiring-review.md) et
 proposées et dépendantes du bilan PILOTE-003. Aucun skill n'est adapté par cet audit.
 PILOTE-002 a depuis réécrit `hiring-review`, version de plugin `0.2.0`.
 Le [bilan PILOTE-003](01-pilote-travail/pilote-003-verification.md) rapporte
-les contrôles sur le paquet détaché et les vérifications impossibles :
-installation/invocation et essai avec lecteur réel restent non exécutés.
-Les deux stories restent `a-verifier`. La correction candidate
-[PILOTE-004](01-pilote-travail/pilote-004-preferences-candidat.md) est implémentée,
-avec sept tests du helper sur paquet détaché ; sa recette client et utilisateur
-reste ouverte (`a-verifier`). La tranche
+les contrôles sur le paquet détaché. La recette en client isolé
+[BASE-011](00-fondations/base-011-recette-client-isole.md) du 16 octobre 2026
+a exécuté installation et scénarios : PILOTE-003 est `terminee` ; PILOTE-002
+attend le nominal H01 complet et un lecteur réel, la correction
+[PILOTE-004](01-pilote-travail/pilote-004-preferences-candidat.md) le seul
+lecteur réel (`a-verifier`). La tranche
 [TRAV-017](01-pilote-travail/suites/trav-017-clause-non-concurrence.md) reste
 proposée ; aucune extension métier n'est engagée.
 La lecture des sources bloquées dans l'outil web dispose désormais de
@@ -137,8 +137,8 @@ des stocks reste à réaliser. L'accès PISTE refusé à l'utilisateur n'est pas
    petites tâches. Le pilote travail a été retenu lors de l'implémentation de PILOTE-002.
 5. PILOTE-001 a inventorié ce plugin ; PILOTE-002 a réécrit un seul skill,
    la revue d'un contrat reçu par un candidat, avec une recette encore ouverte.
-6. PILOTE-003 a produit le bilan et les corrections ; achever la recette
-   d'installation et d'usage (BASE-011) avant de statuer sur une extension.
+6. PILOTE-003 a produit le bilan ; la recette client BASE-011 l'a close. Un
+   lecteur réel et le nominal H01 restent à faire avant de statuer sur une extension.
 7. Choisir ensuite un autre skill ou un premier nouveau domaine, puis préparer
    une livraison correspondant seulement au périmètre terminé.
 
