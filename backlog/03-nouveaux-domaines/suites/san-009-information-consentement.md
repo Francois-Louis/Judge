@@ -76,3 +76,14 @@ envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-007, sans implémentation. Contrat commun : [découpage](../dom-007-annexes/dom-007-decoupage-sante.md).
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 35–36, 39, 43, 57–59, 81–85 et 153–154 de la [matrice santé](../dom-007-annexes/dom-007-frictions-utilisateurs.md).
+
+- [ ] FS01 — Retracer moment, explications, documents, alternatives et volonté ; signature seule insuffisante pour établir ce qui a été expliqué. Acte différent, refus et sortie : questions sans avis médical. Personne de confiance distincte du représentant.
+- [ ] FS02 — Le scénario ci-dessous produit les distinctions et réserves demandées.
+
+Scénario attendu : Formulaire signé juste avant intervention et changement de technique : demande d'explication, aucune faute conclue.
+
+Scénarios **attendus, non exécutés** ; [portée et contrôles](../dom-007-annexes/dom-007-frictions-verification.md).

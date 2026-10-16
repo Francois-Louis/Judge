@@ -61,3 +61,21 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+## Complément des frictions santé — 16 octobre 2026
+
+Points 15 et 151–155 de la [matrice santé](dom-007-annexes/dom-007-frictions-utilisateurs.md).
+À découper ici : demande d'aménagement d'accès, accompagnement/hébergement,
+prestations contractuelles et accès aux documents sociaux d'une structure.
+Recueillir volonté de la personne, besoin exprimé, structure/statut, contrat,
+pièces utiles et pouvoir du proche. Résultat : questions, demande ciblée et
+circuit propre à vérifier. SAN-017 garde réclamation sur les soins et demande
+d'informations de santé selon régime ; SAN-009 le consentement ; DOM-026
+l'étendue du pouvoir ; DOM-029 la discrimination alléguée. Aucun accès au
+dossier médical par simple qualité d'aidant et aucune CDU hospitalière
+appliquée automatiquement au médico-social. Sources : CASF, accessibilité,
+textes propres à la structure et CSP pour la frontière soins, à ouvrir.
+
+Scénarios **attendus, non exécutés** : cabinet inaccessible malgré demande
+écrite ; proche signalant soins et accompagnement manquants en EHPAD sans
+mandat. Séparer demande du résident, soins (SAN-017), accompagnement ici et
+urgence avant réclamation. [Portée et contrôles](dom-007-annexes/dom-007-frictions-verification.md).

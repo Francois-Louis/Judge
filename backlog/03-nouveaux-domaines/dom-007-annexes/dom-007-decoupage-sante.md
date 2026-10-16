@@ -218,3 +218,54 @@ renfort en tête en cas d'urgence, de mesure en cours ou d'échéance.
 
 Les fichiers « à créer » des suites sont des livrables futurs. La portée de
 ce cadrage figure dans la [vérification](dom-007-verification.md).
+
+## Complément des frictions santé — 16 octobre 2026
+
+La [matrice des 155 points](dom-007-frictions-utilisateurs.md) complète les
+12 propositions initiales et ajoute les sept tâches ci-dessous. **19
+stories SAN, toutes `proposee`** ; première tranche SAN-001 inchangée.
+Les rangs restent des propositions et ne sélectionnent aucune livraison.
+
+| Rang | Story | Skill proposé | Résultat borné | Dépendance métier |
+|---|---|---|---|---|
+| 2 | [SAN-013](../suites/san-013-acces-continuite-soins.md) | `care-access-request` | Demande au cabinet ou à la structure pour accès/continuité, sans rendez-vous garanti | SAN-005 |
+| 3 | [SAN-014](../suites/san-014-anomalies-facturation.md) | `care-billing-correction` | Anomalies factuelles, pièces et demande de détail/rectification | SAN-011 |
+| 3 | [SAN-015](../suites/san-015-devis-dispositif-soins.md) | `care-device-quote-review` | Lire un devis dentaire, optique ou auditif et préparer les questions | SAN-011 |
+| 3 | [SAN-016](../suites/san-016-demande-pharmacie.md) | `pharmacy-information-request` | Demande d'explication sur délivrance, refus, rupture ou substitution | SAN-009 |
+| 3 | [SAN-017](../suites/san-017-droits-soins-medico-social.md) | `medico-social-care-complaint` | Réclamation sur soins/traçabilité/participation en structure médico-sociale identifiée | SAN-005 |
+| 3 | [SAN-018](../suites/san-018-dossier-cci.md) | `cci-claim-preparation` | Pièces et rubriques factuelles d'un dossier CCI, admissibilité réservée | SAN-006 |
+| 3 | [SAN-019](../suites/san-019-observations-expertise-soins.md) | `care-expertise-observations` | Observations factuelles en expertise amiable/CCI pour le conseil | SAN-006 |
+
+Les dépendances communes BASE/PILOTE des suites initiales s'appliquent.
+Chaque nouvelle référence appartient à sa story, sans réécriture des
+références communes SAN-001/005. SAN-011 garde information sur les frais,
+SAN-014 les discordances et codes à faire vérifier, SAN-015 le devis avant
+engagement. Ni cotation, ni remboursement, ni avis médical recalculé.
+
+### Frontières précisant les points ouverts initiaux
+
+- Soins, informations de santé et participation en médico-social → SAN-017,
+  avec régime propre à qualifier ; accompagnement, hébergement, contrat et
+  documents sociaux → DOM-025. Pas de CDU hospitalière transposée par défaut.
+  SAN-001 reste exclu des dossiers médico-sociaux : sa première tranche
+  n'est pas élargie par ce complément.
+- Refus/continuité auprès d'un cabinet → SAN-013 ; indices et qualification
+  de discrimination → DOM-029 ; accessibilité → DOM-025 ; droits C2S/AME
+  et parcours de remboursement → DOM-012.
+- Indemnisation : orientation SAN-006, dossier CCI SAN-018, expertise
+  amiable/CCI SAN-019 ; expertise judiciaire CTX-032 ; préjudice corporel
+  DOM-035 ; portée d'une transaction CTX-039. Expertise du propre assureur
+  de la victime → INS-003, garantie de complémentaire → INS-009.
+- Mon espace santé : dossier intégral non présumé (SAN-001), traitement et
+  traces → privacy ; contrôles propres d'autorisation/masquage à découper
+  ensemble dans DOM-007/EXIST-003. Aucun réglage ni accès au compte.
+- Remboursement, affiliations, IJ, CRA/CMRA et transport sanitaire → DOM-012,
+  tâches candidates précisées mais non découpées en suites livrables.
+  Subrogation/attestation de salaire de l'employeur → cadrage travail.
+
+Ces frontières précisent les points ouverts du lot initial ; elles ne
+prétendent pas couvrir les tâches encore sans suite. Le dossier médecine du
+travail, assureur ou médecin-conseil reste à qualifier. Tous les garde-fous,
+contrats d'installation autonome, qualification et plan de recherche
+restent applicables. Les sources fournies ne sont pas réputées vérifiées.
+[Portée et contrôles du complément](dom-007-frictions-verification.md).

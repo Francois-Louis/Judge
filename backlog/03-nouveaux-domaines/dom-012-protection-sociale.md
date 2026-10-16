@@ -128,3 +128,32 @@ de la MSA et des départements. Les juridictions compétentes sont à vérifier
 pour chaque régime.
 
 Scénarios **attendus, non exécutés**.
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 5, 45, 64–66, 107–122, 134 et 142–147 et sections 12–15 de la
+[matrice santé](dom-007-annexes/dom-007-frictions-utilisateurs.md).
+Le cadrage reste `proposee` ; ces tâches restent à découper, sans recours commun.
+
+| Tâche candidate | Entrées et résultat borné | Cas de contrôle attendu |
+|---|---|---|
+| Remboursement, feuille papier et droits | Facture, décompte, transmission/réception, affiliation, médecin traitant et période ; demande de correction ou motif de décision, sans remboursement recalculé | Feuille papier égarée et base inattendue : séparer preuve d'envoi, parcours et montant de pièce |
+| ALD, tiers payant et forfaits | Prescription, lien déclaré avec ALD, droits et facture ; questions sur base, exonération et circuit, distinctes des dépassements | ALD présentée comme tout remboursé et chambre facturée : part caisse séparée de SAN-011/014 |
+| Indu et compensation | Notification, période, décompte et réception ; lecture du motif puis recours propre à l'organisme | Somme retenue sans détail : demander décompte sans remplacer le recours formel |
+| Arrêt et indemnités journalières | Arrêt/prolongation, dates, envoi, attestation de salaire, décomptes et subrogation ; pièces manquantes et décision à qualifier | IJ versées à employeur mais paie discordante : caisse ici, obligation/paie de l'employeur au cadrage travail |
+| Recours administratif de caisse | Décision et réception, régime, objet, voies mentionnées ; projet de recours préalable à borner puis calendrier propre | Réclamation simple sans saisine CRA : identifier acte requis ; silence et délai judiciaire à rechercher |
+| Recours médical de caisse | Décision médicale, contrôle, consolidation/taux annoncé et notification ; voie CMRA à vérifier selon champ | IJ suspendues ou consolidation contestée : ne pas choisir CRA sur le seul mot remboursement |
+| Transport sanitaire pris en charge | Prescription/date, mode, distance, ALD, accord préalable/réception, partage et facture ; conditions puis décision à contester | Prescription après trajet, refus de partage et absence de réponse : trois conditions à vérifier, aucun accord ou remboursement automatique |
+
+Sources à ouvrir : Code de la sécurité sociale et textes d'application,
+conventions/nomenclatures utiles, décisions et informations officielles
+Assurance maladie ; règles de CRA/CMRA, tribunal et médiation selon régime.
+Les règles 2026, montants des forfaits et durées d'arrêt du texte utilisateur
+sont des assertions à vérifier, avec transitions/exceptions ; aucun délai de
+médiation suspendu sans texte et événement établis. Notifications, accusés,
+réception et calendrier du silence sont des pièces essentielles. Aucune
+plainte ordinale, demande RGPD ou réclamation informelle ne reçoit d'effet
+conservatoire automatique. Complémentaire privée → INS-009 ; facture du
+soignant → SAN-011/014 ; traitement et continuité → SAN-013/016.
+
+Scénarios **attendus, non exécutés** ; [portée et contrôles](dom-007-annexes/dom-007-frictions-verification.md).

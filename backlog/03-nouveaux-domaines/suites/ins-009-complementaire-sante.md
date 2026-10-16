@@ -74,3 +74,16 @@ Scénarios S03–S05 **attendus, non exécutés** : reste à charge malgré un p
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
 [découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 45, 123–134 de la [matrice santé](../dom-007-annexes/dom-007-frictions-utilisateurs.md).
+
+- [ ] FS01 — Rapprocher simulation/accord, facture/code et remboursement final, dates de soins, prise d'effet, carence, résiliation et avenants. Relever clause invoquée et justificatifs manquants sans retenir automatiquement la date de facture ni recodifier pour obtenir la garantie.
+- [ ] FS02 — NOEMIE inactive ou organismes successifs : périodes d'affiliation et décomptes, demande écrite de régularisation ; aucune connexion au compte ni couverture déduite de la télétransmission.
+- [ ] FS03 — Identifier auteur de la décision et régime ; réclamation privée puis médiateur compétent via INS-005, échéances via INS-021. Ne pas appliquer CRA/CMRA à la complémentaire ni transférer ses délais à la CPAM.
+
+Scénarios **attendus, non exécutés** : soin avant résiliation mais facture
+postérieure ; ancienne mutuelle encore raccordée ; simulation contredite par
+plafond ou code. Sortie : clauses, dates, pièces et brouillon, sans prestation
+recalculée. Collecte minimale sans stockage. [Portée](../dom-007-annexes/dom-007-frictions-verification.md).

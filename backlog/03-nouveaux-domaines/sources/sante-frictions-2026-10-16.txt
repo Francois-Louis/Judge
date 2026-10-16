@@ -1,0 +1,724 @@
+# Les pièges du système de santé en France : abus, erreurs, facturation, remboursements et recours
+
+Guide pratique — France, octobre 2026
+
+Les problèmes les plus récurrents concernent l'accès aux soins, les délais de rendez-vous, les dépassements d'honoraires, les erreurs de prise en charge, les difficultés de remboursement et le manque d'information des patients. Les refus de soins discriminatoires constituent également un problème documenté par le Défenseur des droits.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.defenseurdesdroits.fr\&sz=32)
+
+Défenseur des Droits
+
++2
+
+
+
+Mais les pièges les plus dommageables ne sont pas toujours les plus visibles. Ce sont parfois des détails administratifs ou juridiques qui empêchent ensuite le patient de faire valoir ses droits : une notification ignorée, un consentement insuffisamment documenté, une facture mal codifiée, un dossier médical incomplet ou une indemnisation acceptée prématurément.
+
+Ce guide distingue les problèmes constatés, les pratiques potentiellement abusives et les délais légaux. Tous les dysfonctionnements ne constituent pas une faute médicale ou une fraude.
+
+## 1. Accès aux soins, médecins et rendez-vous
+
+### Médecins généralistes et spécialistes
+
+1\. Refus systématique de nouveaux patients. Cabinet indiquant ne plus accepter personne, sans solution de proximité. Ce refus n'est pas automatiquement illégal. En cas d'impossibilité de trouver un médecin traitant, contacter la CPAM et les organisations territoriales de soins.
+
+2\. Refus de soins discriminatoire. Patient écarté parce qu'il bénéficie de la Complémentaire santé solidaire (C2S), de l'AME, ou en raison d'un handicap, d'une origine ou d'un état de santé. Ces discriminations sont interdites. Conserver les échanges et saisir la CPAM, l'Ordre compétent ou le Défenseur des droits.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.defenseurdesdroits.fr\&sz=32)
+
+Défenseur des Droits
+
+
+
+3\. Faux prétexte d'agenda complet. Un cabinet annonce ne plus avoir de rendez-vous mais en propose lorsque le patient accepte certains tarifs ou révèle une autre situation administrative. Il faut documenter les différences de traitement avant d'alléguer une discrimination.
+
+4\. Rendez-vous disponibles seulement en consultation privée plus chère. Vérifier si la consultation proposée relève réellement d'une activité distincte et si les conditions tarifaires sont clairement indiquées.
+
+5\. Médecin traitant introuvable. Le patient subit éventuellement une minoration des remboursements sans avoir réellement pu trouver de médecin acceptant de le suivre. Demander à la CPAM quelles solutions ou exceptions peuvent être appliquées.
+
+6\. Départ du médecin sans continuité organisée. Départ à la retraite, fermeture du cabinet, dossiers difficiles à récupérer, renouvellements de traitement bloqués. Demander suffisamment tôt les éléments du dossier et organiser la continuité des soins.
+
+7\. Délais incompatibles avec la situation médicale. Rendez-vous de spécialiste dans plusieurs mois malgré une prescription urgente. Faire préciser le degré d'urgence par le prescripteur et solliciter un circuit adapté plutôt qu'attendre passivement.
+
+8\. Annulation unilatérale de rendez-vous. Consultation supprimée la veille après plusieurs mois d'attente, sans solution alternative. Conserver la preuve de la date initiale et demander un réexamen prioritaire.
+
+9\. Rendez-vous imposé sur une plateforme payante. Frais supplémentaires ou abonnement présenté comme indispensable pour accéder au cabinet. Vérifier l'existence d'un canal de prise de rendez-vous direct.
+
+10\. Facturation d'un rendez-vous non honoré. Pénalité automatisée alors que le patient affirme avoir annulé, que le praticien était absent ou que la plateforme a dysfonctionné. Contester avec les confirmations et les horodatages. Une pénalité n'est pas automatiquement une créance légitime.
+
+11\. Refus de consultation faute de carte Vitale. La carte Vitale simplifie la facturation, mais son absence n'empêche pas par principe l'établissement d'une feuille de soins papier.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+12\. Téléconsultation sans véritable prise en charge. Consultation très brève, impossibilité d'examen physique, conseils génériques ou absence de conduite à tenir. Demander un compte rendu et contester toute facturation d'un acte qui n'aurait pas effectivement été réalisé.
+
+13\. Patient renvoyé de professionnel en professionnel. Généraliste, spécialiste et établissement se renvoient la responsabilité du suivi. Faire désigner clairement le praticien chargé des résultats, renouvellements et orientations.
+
+14\. Rupture de traitement faute de rendez-vous. Ordonnance expirée, spécialiste indisponible ou médecin absent. Contacter rapidement le pharmacien et un médecin pour vérifier les solutions légalement possibles selon le médicament. Ne pas interrompre de soi-même un traitement critique.
+
+15\. Refus d'adaptation pour un patient handicapé. Cabinet inaccessible, absence d'aménagement raisonnable ou traitement défavorable lié au handicap. Signaler la situation et conserver les refus écrits.
+
+## 2. Honoraires, facturation et petits frais abusifs
+
+C'est une catégorie où des sommes modestes peuvent s'accumuler, et où les patients ne savent pas toujours distinguer les frais autorisés des frais injustifiés.
+
+### Consultations et dépassements
+
+16\. Dépassement d'honoraires découvert au moment de payer. Le tarif annoncé lors de la prise de rendez-vous diffère du montant encaissé. Demander une facture détaillée et vérifier l'information préalable.
+
+17\. Absence de devis ou d'information écrite obligatoire. En cas de dépassement, une information écrite préalable doit être remise lorsque les honoraires totaux atteignent 70 € ou plus, dépassement compris. Cela ne signifie pas que tout acte inférieur à 70 € peut être facturé sans information préalable.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Médecin
+
+
+
+18\. Secteur 1 facturant des dépassements ordinaires. Un médecin conventionné secteur 1 ne peut normalement appliquer un dépassement que dans des situations particulières autorisées, notamment liées à une exigence du patient. Un simple rendez-vous classique ne suffit pas.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+19\. Confusion entretenue entre secteur 2 et OPTAM. Un médecin secteur 2 peut pratiquer des dépassements, mais l'adhésion à l'OPTAM modifie notamment les engagements tarifaires et la base de remboursement. Vérifier son statut dans l'annuaire santé de l'Assurance maladie.
+
+20\. Médecin non conventionné présenté comme conventionné. Les remboursements des consultations en secteur 3 sont généralement très faibles. Vérifier le conventionnement avant de consulter.
+
+21\. Dépassement présenté comme intégralement remboursé. Un praticien suppose que la mutuelle paiera tout, sans connaître le contrat. Exiger le prix complet et obtenir une simulation écrite de la complémentaire.
+
+22\. Majoration injustifiée. Consultation facturée comme urgente, complexe, majorée ou réalisée à domicile alors que les conditions de cotation ne semblent pas réunies. Demander les codes des actes facturés et vérifier leur application.
+
+23\. Acte non réalisé mais facturé. Consultation, manipulation, examen ou prestation figurant sur un décompte sans avoir eu lieu. Demander rectification au professionnel et signaler à la CPAM les anomalies persistantes.
+
+24\. Double facturation. Même soin facturé deux fois, à deux dates ou sous deux codes différents. Comparer les factures aux relevés Ameli et aux justificatifs de rendez-vous.
+
+25\. Facturation d'actes déjà compris dans un forfait. Exemple : facturation séparée de frais de gestion ou de sous-traitance nécessaires à un examen déjà rémunéré.
+
+### Les frais annexes souvent contestables
+
+Pour les médecins conventionnés, l'Assurance maladie précise que les frais suivants ne peuvent pas être imposés en supplément des honoraires prévus : frais administratifs, de rendez-vous, d'annulation, d'envoi de résultats, postaux, d'archivage, de sous-traitance, de collecte et de gestion du tiers payant.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Médecin
+
+
+
+26\. Frais d'archivage des radiographies. Quelques euros ajoutés automatiquement pour conserver les images numériques.
+
+27\. Frais d'accès aux résultats d'analyses. Paiement demandé pour obtenir un compte rendu ou son envoi.
+
+28\. Frais de dossier administratif. Supplément présenté comme obligatoire lors de l'inscription ou de l'enregistrement médical.
+
+29\. Frais de gestion du tiers payant. Surcoût appliqué parce que le professionnel doit être payé par l'Assurance maladie.
+
+30\. Facturation d'un certificat ou d'un document sous un intitulé trompeur. Distinguer les certificats réellement hors nomenclature, qui peuvent être payants, des documents indissociables d'un soin déjà facturé.
+
+31\. Supplément facultatif rendu obligatoire de fait. Archivage ou service numérique présenté comme indispensable. Exiger la justification de la facturation et vérifier si la prestation peut être refusée.
+
+32\. Paiement en espèces sans justificatif. Un règlement en espèces n'est pas en soi illégal, mais il devient difficile de prouver le montant exact. Demander un justificatif détaillé.
+
+33\. Facture globale impossible à contrôler. Absence de ventilation entre consultation, acte technique, dépassement et prestations facultatives. Demander le détail avant paiement lorsque c'est possible.
+
+Réflexe : en cas de frais suspect, conserver la facture, le relevé CPAM et le justificatif de paiement. Demander par écrit sur quel texte ou sur quelle prestation repose chaque supplément.
+
+## 3. Dentistes, opticiens, audioprothésistes et centres de soins
+
+### Soins dentaires
+
+34\. Devis de prothèse dentaire sans solution 100 % Santé. Le chirurgien-dentiste doit présenter, lorsque cela est techniquement possible, une alternative sans reste à charge ou, à défaut, à tarif maîtrisé.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+35\. Présentation trompeuse des matériaux. Une prothèse plus chère est présentée comme indispensable sans explication réelle des différences avec les alternatives.
+
+36\. Plan de traitement artificiellement gonflé. Plusieurs couronnes, dévitalisations ou extractions recommandées alors que leur nécessité est contestée. Faire réaliser un second diagnostic indépendant avant des actes irréversibles.
+
+37\. Modification du devis en cours de traitement. Des suppléments apparaissent après le début des travaux. Exiger un devis rectificatif et une explication avant d'accepter de nouveaux actes.
+
+38\. Prothèse facturée sans information suffisante sur sa fabrication. Le devis type doit notamment indiquer les matériaux et le lieu de fabrication prévu, dans les conditions réglementaires applicables.
+
+39\. Traitement commencé avant accord clairement établi. Un soin non urgent est entrepris alors que le patient pensait seulement accepter une consultation ou un devis.
+
+40\. Prothèse mal adaptée et responsabilité renvoyée au patient. Inconfort, douleurs ou défaut d'ajustage. Documenter les symptômes, demander une correction et, en cas de désaccord, un avis indépendant.
+
+41\. Centre dentaire pratiquant des traitements difficilement suivis. Changements répétés de praticiens, fermeture d'établissement ou dossier introuvable. Obtenir systématiquement les radiographies, devis, références et comptes rendus.
+
+### Optique et audition
+
+42\. Offre 100 % Santé passée sous silence chez l'opticien. L'opticien doit proposer un équipement complet du panier 100 % Santé et remettre un devis conforme.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+43\. Verres coûteux présentés comme médicalement indispensables. Des traitements, marques ou options commerciales sont recommandés sans bénéfice individualisé expliqué. Demander les caractéristiques techniques exactes.
+
+44\. Facturation d'options non demandées. Traitements supplémentaires, deuxième paire, assurance casse ou accessoires ajoutés au devis.
+
+45\. Renouvellement anticipé mal remboursé. Les délais de renouvellement et exceptions dépendent de l'âge et de l'évolution de la correction. Vérifier l'éligibilité avant commande.
+
+46\. Aide auditive vendue sans présentation de la classe I. L'audioprothésiste doit proposer des solutions de classe I dans le cadre du 100 % Santé.
+
+47\. Aide auditive achetée sans essai suffisant. Un essai de 30 jours doit être proposé, et le devis normalisé doit détailler le dispositif et les prestations de suivi.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+48\. Prestations d'adaptation et de suivi peu claires. Le patient découvre après l'achat que certains services sont facturés séparément ou conteste l'accompagnement promis. Conserver le devis et vérifier les prestations incluses.
+
+49\. Centre de santé affichant une offre attractive puis orientant vers des actes coûteux. Prix d'appel, prestations additionnelles ou pression commerciale. Comparer les devis et distinguer urgence médicale et argument de vente.
+
+## 4. Hôpitaux, cliniques, urgences et hospitalisation
+
+Les patients hospitalisés disposent notamment de droits à l'information, au consentement, à la dignité, à la confidentialité et à la prise en charge de la douleur. Ces droits s'appliquent dans le public comme dans le privé.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+### Pendant les soins
+
+50\. Attente aux urgences sans réévaluation suffisante. Un état se dégrade après le tri initial. Signaler immédiatement tout symptôme nouveau ou aggravé, demander une réévaluation et faire inscrire les événements au dossier.
+
+51\. Sortie alors que le patient ne peut pas être pris en charge correctement à domicile. Absence de matériel, de soins infirmiers organisés ou de consignes adaptées. Demander un plan de sortie avant de quitter l'établissement.
+
+52\. Compte rendu de sortie incomplet. Médicaments modifiés sans explication, résultats en attente non mentionnés ou spécialiste chargé du suivi non identifié.
+
+53\. Résultat inquiétant non transmis. Un laboratoire ou un service produit un résultat qui n'est pas correctement communiqué au prescripteur ou au patient. Identifier par écrit qui doit informer le patient et assurer le suivi.
+
+54\. Examens répétés faute de partage des résultats. Imagerie ou analyses refaites parce que les données ne sont pas disponibles, avec des délais et coûts supplémentaires.
+
+55\. Douleur insuffisamment évaluée ou prise en charge. Demander la réévaluation, signaler l'inefficacité des traitements et faire consigner les symptômes.
+
+56\. Soins d'hygiène, d'alimentation ou de prévention des escarres insuffisants. Particulièrement préjudiciables aux personnes âgées ou dépendantes. Documenter les dates et les conséquences, puis saisir le cadre de santé.
+
+57\. Consentement recueilli précipitamment. Signature d'un formulaire juste avant une intervention, sans explication suffisante des risques et alternatives. La signature ne remplace pas l'obligation d'information ni le consentement libre et éclairé.
+
+58\. Intervention ou changement de technique non expliqué. Acte différent de celui initialement prévu. Demander l'indication médicale, le compte rendu opératoire et les circonstances justifiant ce changement.
+
+59\. Pression pour accepter une sortie contre avis médical. Situation inverse également possible : patient voulant quitter l'établissement sans recevoir une information suffisante sur les risques. Les conditions de départ doivent être explicitées et tracées.
+
+60\. Restriction injustifiée des visites ou de la présence d'un proche. Les restrictions doivent respecter le cadre légal et les situations particulières de sécurité ou de santé.
+
+### Facturation hospitalière
+
+61\. Chambre individuelle attribuée sans demande puis facturée. Demander la preuve de l'acceptation de cette prestation de confort et contester le supplément lorsqu'il n'a pas été choisi.
+
+62\. Prestation de confort précochée sur le formulaire d'admission. Télévision, accompagnant, téléphone ou chambre individuelle intégrés au dossier sans choix réellement éclairé.
+
+63\. Plusieurs factures successives pour un même séjour. Établissement, chirurgien, anesthésiste, laboratoire ou autres intervenants. Vérifier les émetteurs et les prestations : des factures distinctes peuvent être légitimes, mais une duplication doit être contestée.
+
+64\. Forfait patient urgences appliqué à tort. Depuis le 1er mars 2026, son montant de droit commun est de 23 € pour un passage sans hospitalisation. Certaines situations ouvrent droit à une minoration ou une exonération. Vérifier la facture et le statut retenu.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+65\. Forfait hospitalier mal calculé. Depuis le 1er mars 2026, il est normalement de 23 € par jour, ou 17 € en service psychiatrique, avec des exonérations possibles. Vérifier notamment les dates, journées facturées et cas d'exonération.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+66\. Paiement exigé sans prise en compte du tiers payant ou des droits sociaux. Demander la rectification du dossier administratif lorsque la prise en charge n'a pas été correctement appliquée.
+
+67\. Relances ou recouvrement d'une facture déjà payée. Demander le décompte précis au service de facturation et opposer le justificatif de paiement.
+
+## 5. Erreurs médicales, accidents de soins et dissimulation possible
+
+C'est ici que les conséquences peuvent être les plus graves, notamment lorsque le patient perd les preuves nécessaires à une expertise.
+
+Une complication médicale n'est pas nécessairement une faute. En revanche, une faute, un défaut d'information ou certains accidents médicaux non fautifs peuvent ouvrir droit à réparation selon les circonstances.
+
+### Erreurs et défauts de prise en charge
+
+68\. Erreur de diagnostic. Maladie non identifiée malgré des signes qui auraient dû conduire à des investigations. Conserver les consultations, symptômes décrits, prescriptions et résultats.
+
+69\. Diagnostic retardé. Un délai de plusieurs mois ou années entraîne une aggravation ou une perte de chance de guérison. Reconstituer précisément la chronologie médicale.
+
+70\. Examen nécessaire non prescrit. Signaux d'alerte ignorés ou investigations insuffisantes. Le caractère fautif dépend des connaissances et circonstances au moment des soins.
+
+71\. Résultat anormal non exploité. Une anomalie apparaît dans les analyses ou l'imagerie sans provoquer de suivi adapté.
+
+72\. Erreur médicamenteuse. Mauvaise molécule, mauvais dosage, confusion de patient, erreur de délivrance ou interaction non vérifiée.
+
+73\. Allergie ou contre-indication connue ignorée. Demander les feuilles de prescription, d'administration et les éléments attestant que l'information était disponible.
+
+74\. Erreur d'identité ou de côté opératoire. Patient, membre, organe ou procédure incorrects. Conserver les comptes rendus, consentements et éléments de traçabilité.
+
+75\. Lésion survenue pendant une intervention. Nerf, vaisseau ou organe endommagé. Demander si le dommage correspond à un risque connu non fautif ou à une erreur évitable.
+
+76\. Corps étranger oublié après une opération. Compresse, instrument ou autre matériel. Obtenir le compte rendu opératoire, les examens et les documents de traçabilité.
+
+77\. Infection associée aux soins. Infection nosocomiale dont l'origine, la gravité et les conséquences sont contestées. Les mécanismes de responsabilité et d'indemnisation sont particuliers.
+
+78\. Défaut de surveillance postopératoire. Signes d'hémorragie, d'infection, de complication ou de détresse insuffisamment détectés ou pris en charge.
+
+79\. Défaillance dans le transfert d'un patient. Informations médicales essentielles non transmises entre équipes ou établissements.
+
+80\. Erreur de matériel ou de dispositif médical. Implant défectueux, mauvais modèle, matériel non adapté, traçabilité insuffisante.
+
+### Les pièges après un accident médical
+
+81\. Complication systématiquement présentée comme un risque normal. Le fait qu'un risque soit connu ne démontre pas, à lui seul, l'absence de faute ou de défaut d'information.
+
+82\. Explications uniquement orales et changeantes. Les versions divergent au fil des entretiens. Demander un rendez-vous formel, puis confirmer par écrit ce qui a été expliqué.
+
+83\. Dossier médical présentant des lacunes importantes. Feuilles de surveillance absentes, chronologie incohérente, compte rendu incomplet. Demander le dossier intégral et conserver chaque version reçue.
+
+84\. Information tardive sur un dommage. L'article L1142-4 du Code de la santé publique prévoit une information sur les circonstances et les causes du dommage au plus tard 15 jours après sa découverte ou la demande expresse de la victime.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
+
+
+85\. Responsabilité rejetée sur le patient sans éléments solides. Non-observance, retard de consultation ou comportement présenté comme cause du dommage. Exiger que les éléments retenus soient explicités.
+
+86\. Expertise fondée sur un dossier incomplet. L'expert n'a pas reçu certains examens, antécédents ou comptes rendus. Adresser les pièces manquantes et des observations écrites.
+
+87\. Expertise amiable organisée uniquement par l'assureur du praticien. Elle peut être utile, mais les intérêts en présence doivent être identifiés. En cas d'enjeu important, envisager l'assistance d'un médecin-conseil indépendant de la partie adverse.
+
+88\. Sous-évaluation des séquelles. Douleurs, handicap, assistance quotidienne, pertes de revenus ou conséquences professionnelles insuffisamment évalués.
+
+89\. Consolidation médicale contestable. L'état est déclaré stabilisé alors que les conséquences continuent d'évoluer. Demander une justification médicale indépendante.
+
+90\. Offre d'indemnisation acceptée trop rapidement. Une transaction définitive peut fermer certaines voies de recours pour les préjudices concernés. Avant signature, vérifier les postes indemnisés, les réserves éventuelles et les conséquences juridiques.
+
+### Les recours spécifiques aux accidents médicaux
+
+La Commission de conciliation et d'indemnisation (CCI) peut être saisie pour des accidents médicaux, des infections nosocomiales et des affections iatrogènes. La procédure d'indemnisation amiable est gratuite, sous réserve des conditions de recevabilité et de gravité. Une voie de conciliation existe aussi pour des dommages n'atteignant pas le seuil d'indemnisation.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+Les subtilités importantes :
+
+- Le seuil de gravité ne dépend pas uniquement d'un taux d'incapacité permanente. Certaines incapacités temporaires importantes, une inaptitude professionnelle définitive ou des troubles graves dans les conditions d'existence peuvent aussi être pris en compte.
+- Le délai de six mois accordé à la CCI court à partir de la réception d'un dossier complet, pas nécessairement de la première prise de contact.
+- Si l'assureur responsable ne formule pas l'offre prévue, l'ONIAM peut, dans certaines conditions, intervenir en substitution.
+- La CCI peut être saisie même lorsqu'une procédure judiciaire est engagée, sous réserve d'informer les deux instances.
+- Une plainte auprès de l'Ordre des médecins peut conduire à une sanction disciplinaire, mais elle ne sert pas à obtenir des dommages et intérêts.&#x20;
+
+  [image](https://www.google.com/s2/favicons?domain=https://www.oniam.fr\&sz=32)
+
+  Oniam
+
+  +1
+
+
+
+## 6. Dossier médical, preuves et confidentialité
+
+L'accès au dossier médical est l'un des moyens de défense les plus importants pour un patient.
+
+### Rétention et difficultés d'accès
+
+91\. Refus de remettre le dossier médical. Le praticien ou l'établissement affirme qu'il s'agit de documents internes. Le patient dispose d'un droit d'accès aux informations médicales communicables le concernant.
+
+92\. Dossier transmis seulement sous forme de résumé. Certaines pièces essentielles sont absentes : compte rendu opératoire, surveillance, correspondances ou prescriptions. Réitérer la demande en énumérant les catégories manquantes.
+
+93\. Patient obligé de passer par un autre médecin. Ce n'est pas la règle générale : l'accès peut être direct. Il existe cependant des exceptions spécifiques, notamment dans certaines situations psychiatriques.
+
+94\. Délais de communication non respectés. En règle générale, les documents doivent être accessibles au plus tôt après 48 heures et au plus tard sous 8 jours, ou sous 2 mois lorsque les informations remontent à plus de cinq ans.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+service-public.gouv.fr
+
+
+
+95\. Dossier présenté comme perdu ou détruit. Les établissements de santé doivent généralement conserver les dossiers pendant au moins 20 ans après le dernier séjour ou la dernière consultation, avec des règles particulières. Pour les praticiens libéraux, le régime légal de conservation est différent.
+
+96\. Documents prétendument inexistants. Vérifier la présence des résultats dans les laboratoires, services d'imagerie et autres établissements ayant participé à la prise en charge.
+
+97\. Frais excessifs demandés pour communiquer le dossier. La consultation du dossier est gratuite. Les modalités de facturation éventuelle des copies et de leur envoi doivent respecter les règles applicables.
+
+98\. Modifications ou compléments apportés au dossier après un incident. Une rectification n'est pas nécessairement illicite. En cas de discordance, conserver les versions, dates de remise et métadonnées disponibles pour une éventuelle expertise.
+
+99\. Médecin parti à la retraite et dossier inaccessible. Rechercher le successeur, le responsable de conservation ou solliciter le conseil départemental de l'Ordre.
+
+100\. Accès au dossier d'un proche décédé refusé. Les ayants droit peuvent disposer d'un accès encadré, notamment pour connaître les causes du décès, défendre la mémoire du défunt ou faire valoir leurs droits, sous réserve des limites légales.
+
+Pour un refus de communication, les recours dépendent de la structure : CADA pour les établissements concernés par le droit d'accès aux documents administratifs, CNIL ou Ordre professionnel selon les autres situations. Pour la CADA, le délai de saisine est notamment de 2 mois à compter du refus ou du refus implicite.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+### Données médicales et secret professionnel
+
+101\. Consultation du dossier par un professionnel sans raison de prise en charge. Vérifier les historiques d'accès lorsqu'ils sont disponibles et demander des explications.
+
+102\. Données révélées à l'employeur ou à un proche sans base légale. Contester toute transmission injustifiée et préserver les preuves.
+
+103\. Diagnostic évoqué à l'accueil ou devant d'autres patients. Signaler les divulgations incompatibles avec les exigences de confidentialité.
+
+104\. Documents médicaux accessibles à un tiers par erreur. Demander la sécurisation immédiate de l'accès et le traitement de l'incident.
+
+105\. Confusion entre Mon espace santé et l'intégralité des dossiers médicaux. Mon espace santé ne remplace pas tous les dossiers conservés par les professionnels et établissements.
+
+106\. Accès numérique non maîtrisé. Dans Mon espace santé, vérifier l'historique des accès, les autorisations des professionnels et les possibilités de masquage. Attention : masquer des informations médicales peut également empêcher leur consultation lorsqu'elles sont nécessaires aux soins.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+## 7. Assurance maladie, remboursements et indemnités journalières
+
+C'est une catégorie particulièrement dangereuse sur le plan administratif : le délai d'un recours peut expirer pendant que l'assuré cherche simplement à comprendre ce qui bloque.
+
+### Difficultés courantes
+
+107\. Remboursement jamais reçu. Télétransmission échouée, acte rejeté ou feuille de soins non traitée. Vérifier le décompte avant de renvoyer les pièces.
+
+108\. Feuille de soins papier égarée. Garder une copie et une preuve d'envoi. Le délai de présentation est généralement de deux ans, avec les règles de fin de trimestre prévues pour les prestations maladie.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+109\. Remboursement calculé sur une base inattendue. Secteur 2 non OPTAM, parcours de soins non respecté, nomenclature différente ou taux minoré.
+
+110\. Erreur de médecin traitant déclaré. Le dossier administratif n'est pas à jour, entraînant une minoration potentielle des remboursements.
+
+111\. ALD présentée comme une prise en charge intégrale de tous les frais. Le « 100 % » concerne en principe la base de remboursement pour les soins en rapport avec l'ALD. Les dépassements et certains autres frais restent possibles.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+112\. Soin lié à l'ALD facturé hors du bon circuit. Prescription ou facturation incorrecte empêchant l'application du régime adapté. Demander une correction au prescripteur ou au facturant selon l'origine de l'erreur.
+
+113\. Droits à l'Assurance maladie non actualisés. Changement de situation, reprise d'activité, déménagement ou changement de régime non répercuté.
+
+114\. Récupération d'un prétendu trop-perçu. La caisse réclame des prestations versées antérieurement. Exiger les motifs, périodes, montants et voies de contestation avant de reconnaître la dette.
+
+115\. Compensation inattendue sur les remboursements. La caisse récupère des participations, franchises ou sommes dues sur des paiements futurs. Vérifier le détail de chaque retenue.
+
+### Arrêts maladie et indemnités
+
+116\. Arrêt maladie envoyé trop tard. Pour un salarié, la transmission doit normalement être effectuée dans les 48 heures selon les modalités applicables. Une télétransmission médicale ne dispense pas nécessairement d'envoyer le volet destiné à l'employeur.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+117\. Dates d'arrêt ou de prolongation incohérentes. Un jour non couvert peut perturber les indemnités. Vérifier la continuité des dates et faire rectifier les erreurs rapidement.
+
+118\. Attestation de salaire non transmise par l'employeur. Les indemnités restent bloquées. Demander confirmation de la transmission et conserver les relances.
+
+119\. Subrogation mal gérée. Les indemnités journalières sont versées à l'employeur, mais la régularisation sur la paie ne correspond pas aux sommes attendues.
+
+120\. Indemnités suspendues après contrôle médical. Le patient reçoit une décision qu'il ne comprend pas et tarde à la contester. Identifier immédiatement la voie de recours indiquée.
+
+121\. Date de consolidation ou taux d'incapacité contesté. La contestation peut relever de la commission médicale de recours amiable (CMRA), et non de la CRA ordinaire.
+
+122\. Nouvelles règles d'arrêts maladie en 2026 méconnues. Depuis le 1er septembre 2026, la durée normalement prescrite est plafonnée à 31 jours pour un arrêt initial et 62 jours pour une prolongation. Des dérogations médicalement justifiées sont possibles.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+### Le piège majeur : le mauvais recours
+
+Une décision administrative de la CPAM, par exemple un refus de remboursement, se conteste en principe devant la CRA. Une décision d'ordre médical relevant de la procédure prévue se conteste devant la CMRA.
+
+La notification de la décision est donc un document essentiel : elle indique normalement les voies et délais de recours.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+## 8. Mutuelles et assurances complémentaires
+
+123\. Pourcentage de remboursement mal compris. Une garantie à « 200 % BR » signifie généralement 200 % de la base de remboursement selon les modalités contractuelles, et non 200 % du prix effectivement payé.
+
+124\. Plafond annuel dissimulé dans les détails du contrat. Une garantie attractive est limitée à un montant annuel, parfois partagé entre plusieurs prestations.
+
+125\. Délai de carence découvert après souscription. Certains soins ne sont pas couverts immédiatement. Vérifier la date de prise d'effet de chaque garantie.
+
+126\. Acte médical expressément exclu. Le contrat ne couvre pas une prestation que le patient croyait garantie. Exiger la clause précise invoquée.
+
+127\. Remboursement refusé à cause d'un code d'acte. Le professionnel utilise une codification qui n'entre pas dans la garantie. Demander le détail du code et vérifier si une rectification est justifiée.
+
+128\. Télétransmission NOEMIE inactive. La CPAM a payé sa part, mais la mutuelle n'a jamais reçu le décompte. Faire vérifier la connexion et envoyer les décomptes manuellement si nécessaire.
+
+129\. Deux mutuelles se renvoyant le dossier. Une ancienne complémentaire reste enregistrée ou la nouvelle n'est pas correctement raccordée.
+
+130\. Prise en charge écrite différente du remboursement final. Comparer la simulation, les conditions qui la rendaient valable et la facture réelle.
+
+131\. Remboursement refusé après résiliation. Soin effectué avant la fin de la couverture, mais facture envoyée après. Vérifier quelle date détermine la garantie.
+
+132\. Modification des garanties mal comprise. Une prestation auparavant bien remboursée ne l'est plus à la suite d'une évolution du contrat.
+
+133\. Remboursement conditionné à des justificatifs supplémentaires. La mutuelle demande des pièces que le patient ne sait pas obtenir. Exiger la liste exacte et la clause contractuelle pertinente.
+
+134\. Litige mal orienté. La CPAM renvoie vers la mutuelle et inversement. Identifier qui a pris la décision contestée : régime obligatoire ou organisme complémentaire.
+
+Pour une complémentaire, faire une réclamation écrite puis, si nécessaire, saisir le médiateur compétent pour l'organisme. Le délai de prescription contractuelle doit être vérifié séparément : il ne faut pas lui appliquer automatiquement les délais des recours CPAM.
+
+## 9. Pharmacies, médicaments et dispositifs médicaux
+
+135\. Substitution de médicament mal expliquée. Le patient reçoit un générique, un biosimilaire ou une autre présentation sans comprendre les différences. Demander au pharmacien le motif et les conditions de substitution.
+
+136\. Rupture de stock sans continuité organisée. Un médicament indispensable est indisponible. Demander rapidement au pharmacien et au prescripteur une solution autorisée, notamment lorsqu'une interruption présente un risque.
+
+137\. Médicament non remboursé sans avertissement clair. Prix important découvert au comptoir. Vérifier le taux de remboursement et les alternatives éventuellement disponibles.
+
+138\. Produit de parapharmacie présenté comme nécessaire au traitement. Distinguer prescription thérapeutique, conseil de confort et proposition commerciale.
+
+139\. Dispositif médical inadapté. Attelle, orthèse, appareil ou matériel ne correspondant pas au besoin prescrit. Conserver l'ordonnance, la référence exacte et les conditions de délivrance.
+
+140\. Effet indésirable minimisé ou non documenté. Si un effet potentiellement grave survient, obtenir une évaluation médicale et conserver les éléments permettant une déclaration de pharmacovigilance.
+
+141\. Refus de délivrance ou modification de traitement insuffisamment expliqué. Certaines restrictions sont légalement justifiées. Demander la raison exacte plutôt que supposer un abus.
+
+## 10. Ambulances, taxis conventionnés et transports sanitaires
+
+142\. Transport prescrit trop tard. En dehors des exceptions d'urgence, la prescription doit normalement être établie avant le déplacement. Une prescription rédigée après coup peut ne pas permettre le remboursement.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+143\. Transport sanitaire présenté comme automatiquement remboursé en ALD. L'ALD seule ne suffit pas toujours : le déplacement doit répondre aux conditions de prise en charge, notamment médicales.
+
+144\. Mauvais mode de transport. Ambulance, VSL, taxi conventionné ou véhicule personnel ne répondent pas aux mêmes critères. Respecter le mode prescrit, sauf possibilités réglementaires.
+
+145\. Accord préalable oublié. Certains transports, notamment à longue distance, nécessitent une demande d'accord préalable. Dans les cas concernés, l'absence de réponse sous 15 jours vaut accord.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Transporteur sanitaire
+
+
+
+146\. Transport partagé refusé sans connaissance des conséquences. Lorsque le transport partagé est applicable, le refus peut supprimer le tiers payant et imposer l'avance des frais.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Médecin
+
+
+
+147\. Facturation de trajets ou suppléments contestables. Adresse, kilométrage, attentes ou transports non effectués. Comparer les éléments facturés aux déplacements réels et à la prescription.
+
+## 11. Psychiatrie, soins de longue durée et personnes vulnérables
+
+148\. Hospitalisation psychiatrique sans consentement mal expliquée. Le patient et ses proches ne comprennent pas le fondement de la mesure. Demander les décisions et les informations relatives aux voies de contestation. Ces mesures relèvent de procédures spécifiques.
+
+149\. Restriction de liberté sans justification claire. Isolement, contention ou limitations des communications. Les pratiques sont strictement encadrées ; demander leur fondement et les éléments consignés.
+
+150\. Difficultés d'accès aux soins psychiatriques. Délais prolongés, rupture de suivi, absence de relais après une hospitalisation. Demander une orientation écrite et un dispositif assurant la continuité des soins.
+
+151\. EHPAD : soins annoncés mais insuffisamment réalisés. Surveillance, toilette, hydratation, alimentation, prévention des chutes ou des escarres. Comparer les prestations convenues à la prise en charge effective.
+
+152\. EHPAD : actes médicaux ou paramédicaux mal tracés. Médicaments, pansements et visites annoncés mais difficiles à vérifier. Demander les éléments du dossier de soins communicables.
+
+153\. Personne âgée insuffisamment associée aux décisions. Les proches ne remplacent pas automatiquement le consentement du résident ou du patient lorsqu'il est capable d'exprimer sa volonté.
+
+154\. Personne de confiance confondue avec un représentant légal. La personne de confiance accompagne et témoigne des souhaits du patient dans les conditions prévues ; elle ne dispose pas automatiquement d'un pouvoir général de décision.
+
+155\. Plainte d'un patient vulnérable minimisée. Douleurs, maltraitance, négligence ou propos discriminatoires ignorés. Documenter les faits et signaler, selon leur nature et leur urgence, à la direction, à l'ARS, aux autorités compétentes ou à la justice.
+
+## 12. Les délais légaux à ne surtout pas manquer
+
+C'est probablement le tableau le plus important à conserver.
+
+| Situation                                      | Délai ou règle                                     | Point de vigilance                                     |
+| ---------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------ |
+| Envoi d'un arrêt maladie                       | 48 heures en principe                              | CPAM et employeur selon les volets                     |
+| Feuille de soins papier                        | Généralement 2 ans, avec règle de fin de trimestre | Ne pas attendre l'expiration                           |
+| Dossier médical récent                         | Au plus tard 8 jours                               | Délai de réflexion minimal de 48 h                     |
+| Dossier médical ancien                         | Jusqu'à 2 mois                                     | Informations de plus de 5 ans                          |
+| Refus d'accès à un dossier relevant de la CADA | 2 mois pour saisir la CADA                         | À partir du refus ou refus implicite                   |
+| Explications après dommage lié aux soins       | 15 jours                                           | Après découverte du dommage ou demande expresse        |
+| Contestation administrative CPAM               | 2 mois pour saisir la CRA                          | À partir de la notification                            |
+| Silence de la CRA                              | Rejet implicite après 2 mois                       | Puis délai de recours judiciaire de 2 mois             |
+| Contestation médicale CPAM relevant de la CMRA | 2 mois pour saisir la CMRA                         | À partir de la notification                            |
+| Silence de la CMRA                             | Rejet implicite après 4 mois                       | Puis délai judiciaire de 2 mois                        |
+| Recours au tribunal après décision CRA/CMRA    | Généralement 2 mois                                | Selon la notification et le point de départ applicable |
+| Action en responsabilité médicale              | 10 ans à partir de la consolidation                | Ce n'est pas nécessairement la date des soins          |
+| Avis CCI en indemnisation                      | 6 mois                                             | À partir du dossier complet                            |
+| Offre d'indemnisation après avis CCI           | En principe 4 mois                                 | Assureur ou ONIAM selon le cas                         |
+| Paiement après acceptation de l'offre          | En principe 1 mois                                 | Selon la procédure d'indemnisation concernée           |
+| Accord préalable pour certains transports      | Silence valant accord après 15 jours               | Sous réserve du champ de la procédure                  |
+
+Sources : Assurance maladie, Service Public, ONIAM, Code de la santé publique.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
++6
+
+
+
+Attention : les délais indiqués sont ceux des procédures de droit commun décrites ici. Certaines situations comportent des exceptions, des suspensions ou des règles particulières.
+
+## 13. Les pièges procéduraux qui peuvent faire perdre un recours
+
+Il faut distinguer le problème médical ou financier initial de la manière dont on engage le recours.
+
+1
+
+Déposer une simple réclamation alors qu'un recours formel est nécessaire.
+
+Une réclamation auprès du service client de la CPAM ne remplace pas automatiquement une saisine de la CRA ou de la CMRA.
+
+2
+
+Attendre indéfiniment une réponse administrative.
+
+Le silence d'une commission peut valoir rejet. Le délai pour saisir le tribunal commence alors à courir, même sans nouveau courrier.
+
+3
+
+Se tromper de destinataire.
+
+Ordre professionnel, ARS, CDU, CCI, CRA, CMRA et tribunal n'ont pas les mêmes compétences. Une plainte disciplinaire ne constitue pas nécessairement une demande d'indemnisation.
+
+4
+
+Supposer que toute médiation arrête automatiquement tous les délais.
+
+La médiation CPAM peut suspendre le délai de recours si le médiateur confirme la prise en charge du dossier, selon les conditions exposées par l'Assurance maladie. Il faut conserver cette confirmation et ne pas extrapoler cet effet à toutes les procédures.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ameli.fr\&sz=32)
+
+Assuré
+
+
+
+5
+
+Signer une quittance définitive trop tôt.
+
+Une transaction d'indemnisation peut empêcher de réclamer ultérieurement des sommes pour les mêmes préjudices, sous réserve des règles applicables.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+6
+
+Confondre responsabilité disciplinaire, pénale et indemnisation.
+
+Faire sanctionner un médecin ne signifie pas être indemnisé. Une procédure distincte peut être nécessaire pour obtenir réparation.
+
+7
+
+Accepter une expertise ou un chiffrage sans observations.
+
+À la CCI, il est possible de se faire assister et de faire valoir des observations. Ne pas laisser passer une erreur de dossier ou une séquelle omise.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+8
+
+Ne garder aucune preuve de l'envoi ou de la réception.
+
+Sans preuve datée, une contestation peut devenir difficile. Utiliser les canaux permettant de conserver un accusé, une copie du dossier transmis et la date de réception.
+
+## 14. À qui s'adresser selon le problème ?
+
+| Problème                                                          | Interlocuteur à privilégier                     |
+| ----------------------------------------------------------------- | ----------------------------------------------- |
+| Mauvais accueil, dysfonctionnement hospitalier, droits du patient | Commission des usagers (CDU) de l'établissement |
+| Facturation médicale contestable                                  | Professionnel, puis CPAM selon les faits        |
+| Refus de soins discriminatoire                                    | CPAM, Ordre professionnel, Défenseur des droits |
+| Manquement déontologique d'un médecin                             | Conseil départemental de l'Ordre des médecins   |
+| Dysfonctionnement d'un établissement                              | Direction, CDU, puis ARS selon les faits        |
+| Accident médical et demande d'indemnisation                       | CCI, assureur, ONIAM ou juridiction compétente  |
+| Refus administratif CPAM                                          | CRA                                             |
+| Décision médicale CPAM relevant de la CMRA                        | CMRA                                            |
+| Litige avec la complémentaire santé                               | Réclamation interne puis médiateur compétent    |
+| Refus d'accès au dossier médical                                  | CADA, CNIL ou Ordre selon le détenteur          |
+| Divulgation de données médicales                                  | DPO de l'établissement, puis CNIL               |
+| Faute médicale grave à l'hôpital public                           | Tribunal administratif selon le cadre juridique |
+| Faute médicale dans le secteur privé                              | Tribunal judiciaire selon le cadre juridique    |
+
+Pour obtenir une orientation juridique indépendante, France Assos Santé dispose du service [Santé Info Droits](https://www.france-assos-sante.org/sante-info-droits/?utm_source=chatgpt.com), joignable également au 01 53 62 40 30.
+
+## 15. Constitution d'un dossier de défense
+
+En cas de litige réel, il est utile de constituer un dossier unique, plutôt que multiplier les échanges téléphoniques ou les réclamations contradictoires.
+
+Checklist de constitution du dossier
+
+0/10
+
+Chronologie datée des faits et symptômes
+
+Identité des praticiens et établissements concernés
+
+Convocations, confirmations et annulations
+
+Ordonnances, résultats et comptes rendus
+
+Dossier médical demandé à chaque détenteur
+
+Devis, factures et justificatifs de paiement
+
+Décomptes CPAM et mutuelle
+
+Courriers, notifications et accusés de réception
+
+Liste des dommages et conséquences quotidiennes
+
+Dates limites de chaque recours
+
+Réinitialiser Copier la checklist
+
+Le principe à appliquer est simple : ne jamais laisser une démarche informelle remplacer une démarche juridique assortie d'un délai. Et en cas d'accident médical, obtenir rapidement les documents, les conserver et faire vérifier les conséquences d'une transaction avant de signer.
+
+Les sources officielles les plus utiles sont le [site de l'Assurance maladie](https://www.ameli.fr/?utm_source=chatgpt.com), le [portail Service Public](https://www.service-public.gouv.fr/?utm_source=chatgpt.com), l'[ONIAM](https://www.oniam.fr/?utm_source=chatgpt.com) et le [Défenseur des droits](https://www.defenseurdesdroits.fr/?utm_source=chatgpt.com).

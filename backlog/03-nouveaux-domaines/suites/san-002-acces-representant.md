@@ -85,3 +85,14 @@ consentement aux soins pour autrui, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-007, sans implémentation. Contrat commun : [découpage](../dom-007-annexes/dom-007-decoupage-sante.md).
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 100, 153–154 de la [matrice santé](../dom-007-annexes/dom-007-frictions-utilisateurs.md).
+
+- [ ] FS01 — Distinguer proche, personne de confiance, représentant et patient ; lire le pouvoir et la volonté de la personne. Après décès → SAN-003, sans représentation présumée maintenue.
+- [ ] FS02 — Le scénario ci-dessous produit les distinctions et réserves demandées.
+
+Scénario attendu : Personne de confiance demandant tout le dossier d'un résident capable : pouvoir et volonté à vérifier, aucun accès global promis.
+
+Scénarios **attendus, non exécutés** ; [portée et contrôles](../dom-007-annexes/dom-007-frictions-verification.md).

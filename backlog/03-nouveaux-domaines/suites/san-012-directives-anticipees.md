@@ -75,3 +75,14 @@ envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-007, sans implémentation. Contrat commun : [découpage](../dom-007-annexes/dom-007-decoupage-sante.md).
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 153–154 de la [matrice santé](../dom-007-annexes/dom-007-frictions-utilisateurs.md).
+
+- [ ] FS01 — Distinguer directives, désignation de personne de confiance, volonté actuelle et mesure de protection ; pas de pouvoir général ou droit global au dossier par simple désignation.
+- [ ] FS02 — Le scénario ci-dessous produit les distinctions et réserves demandées.
+
+Scénario attendu : Résident voulant désigner un proche tout en décidant lui-même : objets séparés, aucun mandat général produit.
+
+Scénarios **attendus, non exécutés** ; [portée et contrôles](../dom-007-annexes/dom-007-frictions-verification.md).

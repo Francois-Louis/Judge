@@ -82,3 +82,14 @@ saisine ou d'une requête, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-007, sans implémentation. Contrat commun : [découpage](../dom-007-annexes/dom-007-decoupage-sante.md).
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 40, 68–90 et 140 de la [matrice santé](../dom-007-annexes/dom-007-frictions-utilisateurs.md).
+
+- [ ] FS01 — Reconstituer symptômes déclarés, actes, résultats, transferts et conséquences sans qualifier faute/aléa. Explication écrite du dommage ; dossier CCI → SAN-018, expertise amiable → SAN-019, chiffrage → DOM-035, transaction → CTX-039. Sanction et indemnisation distinctes, aucun effet automatique sur prescription.
+- [ ] FS02 — Le scénario ci-dessous produit les distinctions et réserves demandées.
+
+Scénario attendu : Infection, consolidation incertaine et offre définitive : trois questions distinctes, point de départ non déduit des seuls soins.
+
+Scénarios **attendus, non exécutés** ; [portée et contrôles](../dom-007-annexes/dom-007-frictions-verification.md).

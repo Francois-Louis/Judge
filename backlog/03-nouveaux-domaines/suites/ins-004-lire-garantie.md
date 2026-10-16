@@ -76,3 +76,16 @@ Scénarios L03–L07 **attendus, non exécutés** : plafond mobilier et bijoux d
 
 Issue de DOM-005, sans implémentation ni sélection. Contrat commun :
 [découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 21 et 123–126 de la [matrice santé](../dom-007-annexes/dom-007-frictions-utilisateurs.md).
+
+- [ ] FS01 — Lire base de remboursement, plafond/période, forfait, carence, exclusion et bénéficiaire dans le contrat applicable ; la garantie exprimée en pourcentage n'est pas un pourcentage automatique de facture.
+- [ ] FS02 — Demander une simulation écrite avant soin si utile ; en relever conditions et limites sans garantir le remboursement ni recalculer le reste à charge.
+
+Scénarios **attendus, non exécutés** : promesse orale « tout remboursé »,
+garantie en pourcentage de base et plafond annuel ; conditions particulières
+absentes, réponse réservée. Contrat de mutuelle/institution/assureur à
+qualifier par son code, pas assimilé au seul Code des assurances ; INS-009
+garde le refus et DOM-012 la caisse. [Portée](../dom-007-annexes/dom-007-frictions-verification.md).

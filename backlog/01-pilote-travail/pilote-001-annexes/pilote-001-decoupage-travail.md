@@ -123,3 +123,19 @@ Les points 91–93, 95 et 98 demandent aussi un futur découpage des décisions,
 ## Complément des frictions données personnelles — 16 octobre 2026
 
 Points 32–40 de la [matrice données personnelles](../../02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md) : PRV-001/022/024/025/030 portent accès, correction, effacement, limitation et fiche de surveillance. Travail garde les effets sur candidature, évaluation, sanction ou rupture et leurs délais ; emploi public → DOM-037 selon statut. TRAV-012/013 concernent la charte de télétravail, sans couvrir toute contestation de surveillance. Découper la lecture d'une sanction hors licenciement, la contestation d'un dispositif et les recours adaptés ; ces besoins ne sont pas couverts par le pilote. Scénarios attendus : horaires erronés avec délai de contestation indépendant ; images rapidement écrasées avec demande ciblée de préservation. Portée et contrôles : voir la matrice.
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 118–119 de la [matrice santé](../../03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-utilisateurs.md).
+À découper côté travail privé : demande d'attestation de salaire et
+rapprochement subrogation/IJ/bulletin auprès de l'employeur. TRAV-007/008 ne
+couvrent pas automatiquement ce résultat. Recueillir arrêt limité aux dates,
+attestation, décompte IJ, bulletins et échanges, sans diagnostic. Sortie :
+dates, sommes recopiées, pièces/manques et brouillon à l'employeur ; DOM-012
+garde le droit/calcul/décision de caisse. Source applicable sur maintien de
+salaire, convention collective et subrogation à ouvrir avant tout calcul.
+
+Scénarios **attendus, non exécutés** : employeur n'envoyant pas l'attestation ;
+IJ reçues par l'employeur sans régularisation expliquée sur le bulletin.
+Deux demandes et destinataires, aucun rappel salarial calculé ici.
+[Portée](../../03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-verification.md).

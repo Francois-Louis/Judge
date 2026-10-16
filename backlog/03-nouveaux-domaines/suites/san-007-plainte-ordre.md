@@ -77,3 +77,14 @@ l'audience, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-007, sans implémentation. Contrat commun : [découpage](../dom-007-annexes/dom-007-decoupage-sante.md).
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 2–3, 23, 81–85 et 102–103 de la [matrice santé](../dom-007-annexes/dom-007-frictions-utilisateurs.md).
+
+- [ ] FS01 — Vérifier profession/ordre, distinguer déontologie, secret, refus et réparation ; discrimination → DOM-029, remboursement → DOM-012, pénal → DOM-002. Le récit ne prouve pas un manquement.
+- [ ] FS02 — Le scénario ci-dessous produit les distinctions et réserves demandées.
+
+Scénario attendu : Patient voulant obtenir remboursement par sanction ordinale : séparer rectification et discipline sans effet indemnitaire promis.
+
+Scénarios **attendus, non exécutés** ; [portée et contrôles](../dom-007-annexes/dom-007-frictions-verification.md).

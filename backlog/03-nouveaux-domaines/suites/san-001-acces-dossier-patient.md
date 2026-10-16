@@ -109,3 +109,14 @@ droits RGPD, lecture médicale des pièces, envoi.
 
 Issue de DOM-007, sans implémentation. Préalable PILOTE-003 satisfait après
 BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-007-annexes/dom-007-decoupage-sante.md).
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 6, 41, 52–54, 91–99 et 105 de la [matrice santé](../dom-007-annexes/dom-007-frictions-utilisateurs.md).
+
+- [ ] FS01 — Identifier détenteur, catégories, période et pièces attendues ; Mon espace santé ne remplace pas tous les dossiers. Fermeture/retraite : qualifier responsable de conservation et régime selon statut, sans durée universelle.
+- [ ] FS02 — Le scénario ci-dessous produit les distinctions et réserves demandées.
+
+Scénario attendu : Dossier de sortie seul et laboratoire distinct : deux demandes ciblées, existence des pièces non présumée.
+
+Scénarios **attendus, non exécutés** ; [portée et contrôles](../dom-007-annexes/dom-007-frictions-verification.md).

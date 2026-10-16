@@ -116,3 +116,21 @@ Point 125 de la [matrice transports](../03-nouveaux-domaines/dom-008-annexes/dom
 Demande d’images en gare/station après incident : identifier responsable, créneau et données strictement utiles ; accès, préservation éventuelle et communication à un tiers sont distincts. PRV-030 concerne le travail : une tâche hors travail reste à découper. Ne pas promettre conservation après une simple demande.
 
 Scénarios **attendus, non exécutés** : Caméra de station et images bientôt effacées : préparer les questions de canal/délai sans annoncer gel automatique ni réutiliser la surveillance au travail.
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 98 et 101–106 de la [matrice santé](../03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-utilisateurs.md).
+PRV-001/025 gardent demandes sur accès et traces, PRV-026 la transmission,
+PRV-034 le dossier de plainte CNIL selon objet ; SAN-001/004 gardent la copie
+sectorielle et les lacunes/versions. Ne pas promettre l'identité de tous les
+agents ni déduire une falsification d'une rectification. Incident : demander
+sécurisation au responsable/DPO avec preuves minimales, sans explorer les
+données de tiers. À découper avec DOM-007 : accès, historiques, autorisations
+et masquage propres à Mon espace santé, détenteurs/rôles et effets à vérifier
+sur sources officielles. Aucun réglage ou masquage exécuté ni conseillé sans
+information sur son effet sur les soins.
+
+Scénarios **attendus, non exécutés** : dossier tardif et accès soupçonné
+(deux objets/calendriers), document d'un tiers visible (preuve minimale et
+sécurisation), portail incomplet présenté comme dossier intégral (détenteurs
+et droits distincts). [Portée et contrôles](../03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-verification.md).

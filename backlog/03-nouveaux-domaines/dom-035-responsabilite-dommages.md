@@ -85,3 +85,20 @@ Points 38, 102, 124 de la [matrice transports](dom-008-annexes/dom-008-frictions
 Découper la fiche d’accident et la réparation corporelle selon mode, lieu et responsabilité. Identifier exploitant, véhicule, témoins et constat ; coordonner assurance sans garantir couverture. Les réclamations de service ne chiffrent pas le préjudice corporel.
 
 Scénarios **attendus, non exécutés** : Chute en station puis accident en covoiturage : qualifier séparément responsables et régimes, préserver preuves et orienter vers avocat et professionnel de santé selon urgence.
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 88–90 et sections 12–13 de la [matrice santé](dom-007-annexes/dom-007-frictions-utilisateurs.md).
+À découper : inventaire des conséquences corporelles alléguées, pertes de
+revenus, assistance, dépenses et besoins futurs ; justificatifs par poste et
+questions sur consolidation/expertise. Ne fixer ni taux, ni stabilisation,
+ni valorisation médicale. SAN-006 garde la voie sectorielle de soins,
+SAN-018 le dossier CCI, SAN-019 les observations amiables ; CTX-039 la portée
+d'une transaction, CTX-032 la mission judiciaire. L'assureur du soignant
+n'est pas la propre assurance privée de la victime (DOM-005).
+
+Scénarios **attendus, non exécutés** : offre omettant aide quotidienne et
+perte de revenus ; consolidation annoncée contestée par la victime. Dresser
+pièces/manques et questions au médecin-conseil/avocat avant signature, sans
+confondre soins, consolidation et point de départ de prescription.
+[Portée et contrôles](dom-007-annexes/dom-007-frictions-verification.md).

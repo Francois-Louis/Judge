@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "checks": {
+    "source_integrity": {
+      "status": "passed",
+      "problems": [],
+      "points": 155,
+      "sha256": "d709e0662639e243bf909e65d0b0d139bc0883877b921f9eaafe532d92b953d0",
+      "attachment_compared": true
+    },
+    "matrix_coverage": {
+      "status": "passed",
+      "problems": [],
+      "rows": 155
+    },
+    "metadata_and_dependencies": {
+      "status": "passed",
+      "problems": [],
+      "stories": 584
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "problems": [],
+      "proposals": 19,
+      "new_skills": 7
+    },
+    "links_format_and_relays": {
+      "status": "passed",
+      "problems": [],
+      "local_links": 457,
+      "files": 32
+    },
+    "no_plugin_created": {
+      "status": "passed",
+      "problems": []
+    }
+  },
+  "validation_context": "HEAD et seuls changements santé, avant commit",
+  "scope": "Intégration documentaire ; aucun résultat juridique validé",
+  "not_run": [
+    "recherche juridique",
+    "scénarios exécutables et skills",
+    "installation client",
+    "lecture indépendante",
+    "calcul ou démarche externe"
+  ]
+}

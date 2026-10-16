@@ -71,3 +71,21 @@ Point 112 de la [matrice transports](dom-008-annexes/dom-008-frictions-utilisate
 Refus d’embarquement : garder ici la qualification et les recours de discrimination à découper ; TPT-019 documente motifs, besoin fonctionnel et obligations sectorielles. Vérifier exceptions, acteurs et preuves sans déduire discrimination du seul refus.
 
 Scénarios **attendus, non exécutés** : Refus invoquant sécurité et handicap : séparer assistance, solution accessible et qualification au fond sans conclure automatiquement.
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 2–3 et 15 de la [matrice santé](dom-007-annexes/dom-007-frictions-utilisateurs.md).
+À découper : dossier d'indices d'un refus ou accès défavorable aux soins,
+critère allégué (droits sociaux, handicap, origine ou santé), motif annoncé,
+messages et comparateurs licitement disponibles. Sortie : chronologie,
+indices/manques, questions et orientation vers l'interlocuteur à compétence
+vérifiée ; aucun refus de nouveaux patients automatiquement discriminatoire,
+aucun test trompeur ou collecte de données sensibles tierces proposé.
+SAN-013 garde la demande de soins, SAN-007 la déontologie et DOM-012 les
+droits de caisse. Vérifier CSP, textes de non-discrimination, régime de
+preuve et voies selon situation ; ressources du Défenseur des droits.
+
+Scénarios **attendus, non exécutés** : agenda annoncé complet mais rendez-vous
+proposé au tarif privé ; refus après mention C2S avec messages incomplets.
+Garder les hypothèses et ne pas suspendre les délais sectoriels par ce dossier.
+[Portée et contrôles](dom-007-annexes/dom-007-frictions-verification.md).

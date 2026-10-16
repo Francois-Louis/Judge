@@ -9,10 +9,10 @@
 | Bloquée | 0 |
 | Terminée | 41 |
 | Prête | 0 |
-| À faire | 511 |
+| À faire | 518 |
 | Abandonnée | 23 |
 | dont prêtes à démarrer | 145 |
-| Total | 577 |
+| Total | 584 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -253,14 +253,14 @@ Stories à faire dont toutes les dépendances sont terminées.
 - [DOM-006](03-nouveaux-domaines/dom-006-logement.md) — Cadrer un plugin logement locatif et habitat
   <br>Annexes : [dom-006-controles.py](03-nouveaux-domaines/dom-006-annexes/dom-006-controles.py) · [dom-006-decoupage-logement.md](03-nouveaux-domaines/dom-006-annexes/dom-006-decoupage-logement.md) · [dom-006-frictions-controles.py](03-nouveaux-domaines/dom-006-annexes/dom-006-frictions-controles.py) · [dom-006-frictions-resultats.json](03-nouveaux-domaines/dom-006-annexes/dom-006-frictions-resultats.json) · [dom-006-frictions-utilisateurs.md](03-nouveaux-domaines/dom-006-annexes/dom-006-frictions-utilisateurs.md) · [dom-006-frictions-verification.md](03-nouveaux-domaines/dom-006-annexes/dom-006-frictions-verification.md) · [dom-006-resultats.json](03-nouveaux-domaines/dom-006-annexes/dom-006-resultats.json) · [dom-006-verification.md](03-nouveaux-domaines/dom-006-annexes/dom-006-verification.md)
 - [DOM-007](03-nouveaux-domaines/dom-007-sante.md) — Cadrer un plugin santé et droits des patients
-  <br>Annexes : [dom-007-controles.py](03-nouveaux-domaines/dom-007-annexes/dom-007-controles.py) · [dom-007-decoupage-sante.md](03-nouveaux-domaines/dom-007-annexes/dom-007-decoupage-sante.md) · [dom-007-resultats.json](03-nouveaux-domaines/dom-007-annexes/dom-007-resultats.json) · [dom-007-verification.md](03-nouveaux-domaines/dom-007-annexes/dom-007-verification.md)
+  <br>Annexes : [dom-007-controles.py](03-nouveaux-domaines/dom-007-annexes/dom-007-controles.py) · [dom-007-decoupage-sante.md](03-nouveaux-domaines/dom-007-annexes/dom-007-decoupage-sante.md) · [dom-007-frictions-controles.py](03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-controles.py) · [dom-007-frictions-resultats.json](03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-resultats.json) · [dom-007-frictions-utilisateurs.md](03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-utilisateurs.md) · [dom-007-frictions-verification.md](03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-verification.md) · [dom-007-resultats.json](03-nouveaux-domaines/dom-007-annexes/dom-007-resultats.json) · [dom-007-verification.md](03-nouveaux-domaines/dom-007-annexes/dom-007-verification.md)
 - [DOM-008](03-nouveaux-domaines/dom-008-transports.md) — Cadrer un plugin transports et voyages
   <br>Annexes : [dom-008-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py) · [dom-008-decoupage-transports.md](03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md) · [dom-008-frictions-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-controles.py) · [dom-008-frictions-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-resultats.json) · [dom-008-frictions-utilisateurs.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-utilisateurs.md) · [dom-008-frictions-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-verification.md) · [dom-008-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json) · [dom-008-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md)
 - [DOM-023](03-nouveaux-domaines/dom-023-vehicules-garages.md) — Cadrer un plugin véhicules, garages et réparations
   <br>Annexes : [dom-023-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py) · [dom-023-decoupage-vehicules.md](03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md) · [dom-023-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json) · [dom-023-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md)
 - [DOM-031](03-nouveaux-domaines/dom-031-deces-obseques.md) — Cadrer un plugin décès et prestations funéraires
   <br>Annexes : [dom-031-controles.py](03-nouveaux-domaines/dom-031-annexes/dom-031-controles.py) · [dom-031-decoupage-funeraire.md](03-nouveaux-domaines/dom-031-annexes/dom-031-decoupage-funeraire.md) · [dom-031-resultats.json](03-nouveaux-domaines/dom-031-annexes/dom-031-resultats.json) · [dom-031-verification.md](03-nouveaux-domaines/dom-031-annexes/dom-031-verification.md)
-- Autres documents : [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [logement-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/logement-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt) · [transports-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/transports-frictions-2026-10-16.txt)
+- Autres documents : [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [logement-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/logement-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt) · [sante-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/sante-frictions-2026-10-16.txt) · [transports-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/transports-frictions-2026-10-16.txt)
 
 ### 04 — Livraison
 
@@ -906,7 +906,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>SAN</b> — Santé et droits des patients (03 — Nouveaux domaines) : 12 à faire, 0 prêtes</summary>
+<summary><b>SAN</b> — Santé et droits des patients (03 — Nouveaux domaines) : 19 à faire, 0 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -922,6 +922,13 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [SAN-010](03-nouveaux-domaines/suites/san-010-soins-sans-consentement.md) | Lire une mesure de soins psychiatriques sans consentement | P2 | BASE-008, SAN-001 |
 | [SAN-011](03-nouveaux-domaines/suites/san-011-frais-soins.md) | Comparer une facture de soins à l'information reçue sur les frais | P2 | BASE-008, SAN-001 |
 | [SAN-012](03-nouveaux-domaines/suites/san-012-directives-anticipees.md) | Préparer des directives anticipées et la désignation d'une personne de confiance | P3 | BASE-008, SAN-001 |
+| [SAN-013](03-nouveaux-domaines/suites/san-013-acces-continuite-soins.md) | Préparer une demande d'accès ou de continuité des soins | P2 | BASE-008, SAN-005 |
+| [SAN-014](03-nouveaux-domaines/suites/san-014-anomalies-facturation.md) | Préparer une demande de rectification d'une facturation de soins | P2 | BASE-008, SAN-011 |
+| [SAN-015](03-nouveaux-domaines/suites/san-015-devis-dispositif-soins.md) | Lire un devis dentaire, optique ou auditif avant engagement | P2 | BASE-008, SAN-011 |
+| [SAN-016](03-nouveaux-domaines/suites/san-016-demande-pharmacie.md) | Préparer une demande d'explication à une pharmacie | P2 | BASE-008, SAN-009 |
+| [SAN-017](03-nouveaux-domaines/suites/san-017-droits-soins-medico-social.md) | Préparer une réclamation sur les soins en établissement médico-social | P2 | BASE-008, SAN-005 |
+| [SAN-018](03-nouveaux-domaines/suites/san-018-dossier-cci.md) | Préparer les pièces d'une demande d'indemnisation auprès d'une CCI | P2 | BASE-008, SAN-006 |
+| [SAN-019](03-nouveaux-domaines/suites/san-019-observations-expertise-soins.md) | Préparer des observations sur une expertise amiable de soins | P2 | BASE-008, SAN-006 |
 
 </details>
 

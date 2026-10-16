@@ -104,3 +104,31 @@ fictives, avec contrôles statiques. Aucune source juridique lue : les
 articles cités sont des pistes. Aucun plugin créé, skill exécuté, paquet
 installé, lecteur réel ou indépendant. Le préalable PILOTE-003 est satisfait
 après BASE-011 ; aucune tranche n'est sélectionnée.
+
+## Complément des frictions santé — 16 octobre 2026
+
+Le [texte utilisateur](sources/sante-frictions-2026-10-16.txt) est conservé à
+l'octet près. La [matrice](dom-007-annexes/dom-007-frictions-utilisateurs.md)
+relie les 155 points et les sections 12–15 à leurs tâches, résultats et
+limites. Elle complète le cadrage terminé, sans rouvrir ni réécrire son
+bilan initial et ses relevés historiques.
+
+- SAN-001 à SAN-012 reçoivent des scénarios et exigences ciblés.
+- Sept nouvelles propositions : SAN-013 accès/continuité, SAN-014 anomalies
+  de facturation, SAN-015 devis dentaire/optique/auditif, SAN-016 pharmacie,
+  SAN-017 soins en médico-social, SAN-018 préparation du dossier CCI,
+  SAN-019 observations d'expertise amiable/CCI.
+- DOM-012 reçoit les tâches candidates caisse/IJ/CRA/CMRA/transport ;
+  INS-004/009 le contrat et les refus de complémentaire ; DOM-025
+  l'accompagnement, DOM-029 les discriminations, DOM-035 le préjudice,
+  EXIST-003 les accès/données et le besoin Mon espace santé. Le découpage
+  travail reçoit les besoins attestation de salaire et subrogation.
+- Les points ouverts initiaux médico-social et refus de soins sont précisés
+  par ces frontières ; médecine du travail/assureur/médecin-conseil et
+  contrôles numériques propres à Mon espace santé restent à découper.
+
+Les **19 propositions SAN restent `proposee`**, sans plugin créé ni tranche
+sélectionnée. Première tranche SAN-001 conservée ; les sources, montants et
+délais du texte ne sont pas validés. [Vérification et portée](dom-007-annexes/dom-007-frictions-verification.md)
+et [contrôles du complément](dom-007-annexes/dom-007-frictions-controles.py).
+Les fichiers produits restent sous `backlog/`, sans entrée NOTICE.

@@ -81,3 +81,14 @@ d'indemnisation, structures médico-sociales au fond, envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-007, sans implémentation. Contrat commun : [découpage](../dom-007-annexes/dom-007-decoupage-sante.md).
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 12–13, 41, 50–56, 59–60, 82 et 155 de la [matrice santé](../dom-007-annexes/dom-007-frictions-utilisateurs.md).
+
+- [ ] FS01 — Tracer réévaluation, sortie, suivi des résultats, transmissions, douleur, hygiène/nutrition et visites comme faits déclarés/questions, sans appréciation médicale. Urgence avant brouillon ; cabinet → SAN-013, médico-social → SAN-017 sans CDU automatique.
+- [ ] FS02 — Le scénario ci-dessous produit les distinctions et réserves demandées.
+
+Scénario attendu : Sortie sans relais à domicile et résultat en attente : demandes précises, orientation médicale si danger, indication de sortie non jugée.
+
+Scénarios **attendus, non exécutés** ; [portée et contrôles](../dom-007-annexes/dom-007-frictions-verification.md).

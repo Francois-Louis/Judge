@@ -77,3 +77,14 @@ envoi.
 ## État de la proposition — 16 octobre 2026
 
 Issue de DOM-007, sans implémentation. Contrat commun : [découpage](../dom-007-annexes/dom-007-decoupage-sante.md).
+
+## Complément des frictions santé — 16 octobre 2026
+
+Points 4, 16–21, 26–33, 49 et 61–67 de la [matrice santé](../dom-007-annexes/dom-007-frictions-utilisateurs.md).
+
+- [ ] FS01 — Qualifier secteur, conventionnement, OPTAM, tarif annoncé, honoraires totaux, dépassement, options et choix du confort. Vérifier seuil écrit, forfaits et exonérations sans reprendre les chiffres fournis comme barème. Codes/doublons → SAN-014 ; devis d'équipement → SAN-015.
+- [ ] FS02 — Le scénario ci-dessous produit les distinctions et réserves demandées.
+
+Scénario attendu : Chambre non demandée et facture globale : demander preuve du choix et ventilation, séparer mutuelle et caisse.
+
+Scénarios **attendus, non exécutés** ; [portée et contrôles](../dom-007-annexes/dom-007-frictions-verification.md).
