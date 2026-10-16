@@ -1,9 +1,9 @@
 # Backlog — adaptation juridique France / Union européenne
 
-Ce dossier organise le travail à venir. Le backlog contient 389 stories :
+Ce dossier organise le travail à venir. Le backlog contient 399 stories :
 BASE-001 à BASE-007, BASE-009 à BASE-012, PILOTE-001 à PILOTE-005,
 USAGE-001 à USAGE-003, EXIST-001 à EXIST-011, DOM-001 à DOM-005 et LIV-001 sont `terminee`,
-BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 351 autres sont `proposee`.
+BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 361 autres sont `proposee`.
 Les [décisions du 16 octobre 2026](decisions-2026-10-16.md) consignent les
 arbitrages rendus après les cadrages DOM-001 à DOM-005 et la livraison LIV-001.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
@@ -297,7 +297,7 @@ avec [inventaire des 38 fichiers, 19 skills et cookbook associé](02-plugins-exi
 et [relecture mise en demeure, demande de pièces et convocation](02-plugins-existants/exist-006-verification.md).
 Mise en demeure, conservation/communication des preuves, écritures et suivi
 sont séparés ; aucune équivalence automatique subpoena/deposition/privilege
-log. Les 24 CTX restent `proposee`, sans adaptation, renommage, sélection
+log. Les 28 CTX, dont le parcours du particulier en procès (CTX-025 à 028), restent `proposee`, sans adaptation, renommage, sélection
 d'extension ou déploiement. Le préalable PILOTE-003 est satisfait après
 BASE-011 ; les limites du pilote restent consignées.
 
@@ -317,8 +317,9 @@ Les suites de propriété intellectuelle sont proposées dans le
 avec [inventaire des 27 fichiers et 12 skills](02-plugins-existants/exist-008-inventaire-pi.md)
 et [relecture marque France, invention de salarié et retrait de photo](02-plugins-existants/exist-008-verification.md).
 Titres/territoires, droit d'auteur, créations/inventions de salariés,
-cession/licence, OSS, retrait et portefeuille sont séparés. Les vingt-cinq PI
-restent `proposee` ; aucun défaut USPTO/DMCA/fair use transposé par simple
+cession/licence, OSS, retrait et portefeuille sont séparés. Les trente PI
+(dont édition, gestion collective, droit moral et dessins et modèles ajoutés
+le 16 octobre 2026) restent `proposee` ; aucun défaut USPTO/DMCA/fair use transposé par simple
 traduction, aucune liberté d'exploitation complète depuis recherche partielle.
 Préalable PILOTE-003 satisfait après BASE-011, limites du pilote consignées ;
 aucune adaptation du plugin, sélection d'extension ou action externe ici.
@@ -362,7 +363,7 @@ extension choisie, installation réelle ou notification externe.
 | [EXIST-003](02-plugins-existants/exist-003-donnees-personnelles.md) | Découper l'adaptation de la protection des données | cadrage | P2 |
 | [EXIST-004](02-plugins-existants/exist-004-produits-publicite.md) | Découper l'adaptation des produits et de la publicité | cadrage | P2 |
 | [EXIST-005](02-plugins-existants/exist-005-gouvernance-ia.md) | Découper l'adaptation de la gouvernance IA | cadrage | P2 |
-| [EXIST-006](02-plugins-existants/exist-006-contentieux.md) | Cadrage terminé : inventaire et 24 suites contentieuses proposées | cadrage | P2 |
+| [EXIST-006](02-plugins-existants/exist-006-contentieux.md) | Cadrage terminé : inventaire et 28 suites contentieuses proposées | cadrage | P2 |
 | [EXIST-007](02-plugins-existants/exist-007-veille-reglementaire.md) | Cadrage terminé : inventaire et 20 suites de veille proposées | cadrage | P2 |
 | [EXIST-008](02-plugins-existants/exist-008-propriete-intellectuelle.md) | Cadrage terminé : inventaire et 25 suites PI proposées | cadrage | P2 |
 | [EXIST-009](02-plugins-existants/exist-009-clinique-juridique.md) | Cadrage terminé : inventaire et 23 suites de clinique proposées | cadrage | P2 |
@@ -461,6 +462,7 @@ rattachée à DOM-035.
 | [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) | Cadrer un plugin micro-entreprise et travail indépendant | cadrage | P2 |
 | [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) | Cadrer un plugin chasse et pêche de loisir | cadrage | P3 |
 | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Cadrer un plugin relation avec un professionnel du droit ou du chiffre | cadrage | P2 |
+| [DOM-042](03-nouveaux-domaines/dom-042-artistes-spectacle.md) | Cadrer un plugin artistes-auteurs et intermittents du spectacle | cadrage | P2 |
 
 ## Livraison d'un lot vérifié
 

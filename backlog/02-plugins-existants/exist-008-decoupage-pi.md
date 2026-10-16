@@ -1,7 +1,7 @@
 # EXIST-008 — Découpage de la propriété intellectuelle
 
 Propositions du **16 octobre 2026**, issues de l’[inventaire exhaustif](exist-008-inventaire-pi.md).
-Les 25 PI restent `proposee`. La [relecture du cadrage](exist-008-verification.md)
+Les 30 PI restent `proposee`. La [relecture du cadrage](exist-008-verification.md)
 porte sur nom de marque en France, invention de salarié et retrait de contenu
 fictifs. Aucun droit, titre, recherche externe ou délai réel n’est validé ici.
 
@@ -54,6 +54,11 @@ stockage BASE-008 ; profil durable absent soumis à entretien neuf.
 | [PI-023](suites/pi-023-preferences-pi.md) | Gérer des préférences PI volontaires | Aucune |
 | [PI-024](suites/pi-024-dossier-pi.md) | Isoler un dossier PI | Aucune |
 | [PI-025](suites/pi-025-agent-rapport-pi.md) | Adapter l’agent à un rapport PI local | PI-020, PI-021, PI-022 |
+| [PI-026](suites/pi-026-contrat-edition-production.md) | Lire un contrat d'édition ou de production proposé à un auteur | PI-001 |
+| [PI-027](suites/pi-027-gestion-collective.md) | Comprendre l'adhésion et les relevés d'une société de gestion collective | PI-001 |
+| [PI-028](suites/pi-028-reprise-oeuvre.md) | Documenter la reprise d'un texte, d'une musique ou d'une œuvre plastique | PI-001 |
+| [PI-029](suites/pi-029-droit-moral.md) | Faire valoir le droit moral d'un auteur | PI-001 |
+| [PI-030](suites/pi-030-dessins-modeles.md) | Qualifier la protection d'un dessin ou modèle et documenter une copie alléguée | PI-001 |
 
 PI-025 attend adaptation et recette manuelles PI-020/021/022 ; aucun cookbook
 propre au plugin n’est livré ou créé dans ce découpage. Les tranches restent
@@ -132,7 +137,7 @@ brevets de `litigation-legal:claim-chart` reste hérité ; CTX-012 ne propose
 qu’une matrice contractuelle B2B. PI-006 fonctionne sans ce plugin et ne
 prétend pas livrer une contrefaçon brevet/JUB ; fiche manuelle au spécialiste.
 
-Dessins/modèles, obtentions végétales, certificats complémentaires, contentieux
+Dessins/modèles (hors PI-030, ajoutée le 16 octobre 2026), obtentions végétales, certificats complémentaires, contentieux
 de validité/opposition/dépôt, domaines et régimes publics/étrangers non bornés
 demandent cadrages propres avant implémentation. Leur retrait des branches
 US par défaut n’annonce pas un traitement France/UE de remplacement.

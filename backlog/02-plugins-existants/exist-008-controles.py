@@ -91,8 +91,8 @@ def main():
     lot += proposals + [ROOT / 'backlog/README.md']
     allowed = {p.relative_to(ROOT).as_posix() for p in lot + [Path(__file__), REPORT]}
     problems, future = [], {}
-    if {k for k in stories if k.startswith('PI-')} != {f'PI-{i:03}' for i in range(1, 26)} or len(proposals) != 25:
-        problems.append('Expected exactly 25 proposals PI-001..025')
+    if {k for k in stories if k.startswith('PI-')} != {f'PI-{i:03}' for i in range(1, 31)} or len(proposals) != 30:
+        problems.append('Expected exactly 30 proposals PI-001..030')
     required = ('Objectif et résultat attendu', 'Périmètre et fichiers',
                 'Entrées nécessaires', 'Travail attendu',
                 "Sources à rechercher lors de l'implémentation",

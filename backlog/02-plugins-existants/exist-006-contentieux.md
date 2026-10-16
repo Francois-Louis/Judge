@@ -86,3 +86,9 @@ compétences, actes, notifications, représentation et régimes de confidentiali
 restent à rechercher lors des futures implémentations. Plugin, cookbook et
 contenus éditeur inchangés ; aucune capacité France/UE nouvelle livrée ici.
 
+## Décisions du 16 octobre 2026
+
+Ajout par décision de l'utilisateur ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)) du parcours du particulier qui
+intente ou subit un procès civil : CTX-025 (assignation reçue), CTX-026
+(saisir le juge pour un petit litige), CTX-027 (audience sans avocat) et
+CTX-028 (jugement reçu). Le découpage compte désormais 28 suites.

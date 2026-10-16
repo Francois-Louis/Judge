@@ -24,7 +24,7 @@ reste dans BASE-003. Chaque domaine principal est retenu pour la tâche exprimé
 sous réserve des faits discriminants de la dernière colonne. Une question
 complémentaire ouvre une tâche distincte seulement si elle est utile.
 
-Chaque situation porte un identifiant stable, de `S-01` à `S-45`, à citer dans
+Chaque situation porte un identifiant stable, de `S-01` à `S-47`, à citer dans
 les stories. Une nouvelle situation reçoit le numéro suivant ; une situation
 retirée garde son numéro, qui n'est pas réattribué.
 
@@ -79,6 +79,7 @@ avant une revue documentaire ordinaire.
 | S-22 | Une caisse me réclame un indu ou refuse une prestation. | Protection sociale | [DOM-012](03-nouveaux-domaines/dom-012-protection-sociale.md) | Lire motif, période, décision et justificatifs nécessaires. | Caisse/organisme émetteur, dont MSA selon statut ; retraite → DOM-036, reconnaissance du handicap → DOM-025. |
 | S-23 | Une école ou un organisme de formation m'oppose une décision. | Éducation et formation | [DOM-027](03-nouveaux-domaines/dom-027-education-formation.md) | Distinguer statut de l'établissement et contrat ou décision. | Établissement ; apprentissage salarié → travail privé, handicap → DOM-025, aides → DOM-012. |
 | S-24 | Mon client professionnel ne paie pas ou conteste mon contrat. | Contrats professionnels B2B | [EXIST-001](02-plugins-existants/exist-001-contrats-commerciaux.md) | Préparer la revue du contrat et la demande de l'indépendant. | Client professionnel pour contrat courant ; client particulier/travaux : DOM-015 ou secteur B2C. Le statut professionnel du demandeur seul ne suffit pas ; acte d'exécution distinct : DOM-003. |
+| S-46 | Je suis artiste-auteur ou intermittent et l'URSSAF ou France Travail me demande quelque chose. | Artistes et spectacle | [DOM-042](03-nouveaux-domaines/dom-042-artistes-spectacle.md) | Identifier statut, organisme, période et pièces. | Organisme concerné ; droits sur les œuvres → propriété intellectuelle, CAF → DOM-012, micro-entreprise → DOM-039. Ajoutée le 16 octobre 2026. |
 | S-25 | Mon bail agricole ou un décompte de fermage pose problème. | Agriculture et rural | [DOM-014](03-nouveaux-domaines/dom-014-agriculture-rural.md) | Qualifier l'occupation, les pièces et les sommes à vérifier. | Bailleur/preneur ; caisse MSA → DOM-012, salarié agricole → travail privé, succession → DOM-016. |
 | S-26 | L'association ou le club m'exclut ou conserve une somme. | Associations | [DOM-032](03-nouveaux-domaines/dom-032-associations-adherents.md) | Distinguer statuts, décision, cotisation et service vendu. | Organe associatif ; service vendu → DOM-001 ou secteur, salarié → travail privé, accident → DOM-035 ou secteur. |
 | S-43 | L'URSSAF ou les impôts me réclament une somme pour mon auto-entreprise. | Micro-entreprise | [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) | Identifier l'organisme, la période, le stade et les pièces. | URSSAF/administration fiscale ; impôts du foyer → DOM-011, CAF → DOM-012, client → commercial ou consommation. Ajoutée le 16 octobre 2026. |
@@ -110,6 +111,7 @@ avant une revue documentaire ordinaire.
 | S-42 | Je veux accéder à mes données ou faire corriger une information. | Données personnelles | [EXIST-003](02-plugins-existants/exist-003-donnees-personnelles.md) | Qualifier le droit invoqué et le responsable concerné. | Responsable du traitement/délégué pour accès ou correction ; accès au compte/modération : DOM-034. Pas de profil de cabinet nécessaire. |
 | S-44 | Les frais de mon notaire ou les honoraires de mon avocat ou de mon comptable me paraissent injustifiés. | Professionnels du droit et du chiffre | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Distinguer frais réglementés, taxes et honoraires ; préparer les questions. | Professionnel concerné puis instance ou médiateur ; fond du dossier → son domaine (succession, achat, procédure). Ajoutée le 16 octobre 2026. |
 | S-45 | J'ai reçu un procès-verbal de chasse ou de pêche, ou du gibier ravage mon terrain. | Chasse et pêche | [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) | Identifier l'acte, l'agent, la règle invoquée et les pièces. | Agent verbalisateur ou fédération ; arme → CRIM-017, exploitation agricole → DOM-014, voisinage → DOM-020. Ajoutée le 16 octobre 2026. |
+| S-47 | Je veux faire un procès, ou je suis assigné ou convoqué devant un juge civil. | Contentieux civil | [EXIST-006](02-plugins-existants/exist-006-contentieux.md) | Identifier l'acte, la juridiction, l'urgence et la représentation ; préparer les pièces. | Juridiction ou conseil ; le fond reste à son domaine, pénal → DOM-002, exécution → DOM-003, aide juridictionnelle → DOM-041. Ajoutée le 16 octobre 2026. |
 
 ## Utilisation dans les stories
 

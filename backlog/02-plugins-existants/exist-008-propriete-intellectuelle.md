@@ -87,3 +87,10 @@ retrait, publication, planification ou déploiement. Plugin et contenus éditeur
 inchangés ; sources, versions, rattachements, procédures et recette restent
 aux futures implémentations.
 
+## Décisions du 16 octobre 2026
+
+Ajout par décision de l'utilisateur ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)) : contrat d'édition ou de
+production (PI-026), gestion collective (PI-027), reprise d'une œuvre autre
+que la photographie (PI-028), droit moral (PI-029) et dessins et modèles
+(PI-030). Le statut social et fiscal des artistes-auteurs relève de DOM-042.
+Le découpage compte désormais 30 suites.

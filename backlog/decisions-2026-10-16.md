@@ -43,6 +43,10 @@ ne valident aucune règle de droit.
 | Relation avec un notaire ou un avocat (frais, réclamation) | Nouveau cadrage « professionnels du droit ». | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) et situation S-44 |
 | Contrôles du fisc, de la CAF, de l'URSSAF et des autres organismes | Traités dans chaque domaine, pas de cadrage transversal. | Compléments dans [DOM-011](03-nouveaux-domaines/dom-011-fiscalite.md), [DOM-012](03-nouveaux-domaines/dom-012-protection-sociale.md) et [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) |
 | Comptables | Expert-comptable dans DOM-041 (professionnels du droit et du chiffre) ; comptable public et vérification de comptabilité dans DOM-011. | Compléments dans [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) et DOM-011 |
+| Artistes-auteurs et intermittents du spectacle | Nouveau cadrage dédié. | [DOM-042](03-nouveaux-domaines/dom-042-artistes-spectacle.md) et situation S-46 |
+| Droit d'auteur au-delà de la photo et du logiciel ; dessins et modèles | Suites du plugin propriété intellectuelle. | PI-026 à PI-030 ([découpage EXIST-008](02-plugins-existants/exist-008-decoupage-pi.md)) |
+| Faire ou subir un procès civil | Suites du plugin contentieux pour le particulier. | CTX-025 à CTX-028 ([découpage EXIST-006](02-plugins-existants/exist-006-decoupage-contentieux.md)) et situation S-47 |
+| Urbanisme | Déjà cadré par DOM-019 ; rien à ajouter. | — |
 
 Les nouvelles stories sont `proposee`. Elles suivent le contrat commun de leur
 découpage et n'ont été ni sélectionnées ni implémentées.

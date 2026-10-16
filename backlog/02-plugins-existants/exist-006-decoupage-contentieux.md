@@ -1,7 +1,7 @@
 # EXIST-006 — Découpage du contentieux
 
 Propositions du **16 octobre 2026**, issues de l'[inventaire exhaustif](exist-006-inventaire-contentieux.md).
-Les 24 suites CTX restent `proposee`. [La vérification](exist-006-verification.md)
+Les 28 suites CTX restent `proposee`. [La vérification](exist-006-verification.md)
 est une relecture du cadrage sur documents fictifs, pas une recette de skills.
 
 ## Contrat commun et première tranche proposée
@@ -53,6 +53,10 @@ gates et profils nécessaires, sans attendre une réécriture transversale.
 | [CTX-022](suites/ctx-022-espace-dossier.md) | Espace isolé sans collision ni lecture croisée implicite | Aucune |
 | [CTX-023](suites/ctx-023-rapport-evenements.md) | Rapport local de nouveaux événements depuis un export fourni | CTX-015, CTX-016 |
 | [CTX-024](suites/ctx-024-cookbook-export-local.md) | Dry-run du rapport sur export dans un déploiement jetable | CTX-023 |
+| [CTX-025](suites/ctx-025-assignation-recue.md) | Lecture d'une assignation ou d'une convocation reçue par un particulier | CTX-001 |
+| [CTX-026](suites/ctx-026-saisir-juge-petit-litige.md) | Préparation de la saisine du juge pour un petit litige civil | CTX-001 |
+| [CTX-027](suites/ctx-027-audience-sans-avocat.md) | Préparation d'une audience civile orale sans avocat | CTX-001 |
+| [CTX-028](suites/ctx-028-jugement-civil-recu.md) | Lecture d'un jugement civil reçu et des recours à vérifier | CTX-001 |
 
 ## Devenir des trois tâches sans équivalent automatique
 
