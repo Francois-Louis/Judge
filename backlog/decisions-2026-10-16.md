@@ -53,6 +53,9 @@ ne valident aucune règle de droit.
 | Veille des références livrées | Suite du plugin de veille réglementaire. | [VEI-021](02-plugins-existants/suites/vei-021-veille-references-plugins.md) |
 | Médias | Nouveau cadrage couvrant personne atteinte, personne mise en cause, journalistes et créateurs, petits médias et sites. | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) et situation S-48 |
 | Vices de procédure et nullités | Repérage prudent dans chaque procédure : points à soumettre à l'avocat, alerte sur le moment (avant toute défense au fond), jamais « l'acte est nul ». | [CTX-029](02-plugins-existants/suites/ctx-029-reperer-irregularites-civiles.md), [ENF-020](03-nouveaux-domaines/suites/enf-020-reperer-irregularites-execution.md), [CRIM-024](03-nouveaux-domaines/suites/crim-024-reperer-irregularites-penales.md), complément de [DOM-010](03-nouveaux-domaines/dom-010-administratif.md) |
+| France Travail, allocation chômage, RSA, prime d'activité | Compléter DOM-012 avec une tâche par régime (organisme, recours et juge propres) ; le cadrage dira si un plugin distinct se justifie. | Complément de [DOM-012](03-nouveaux-domaines/dom-012-protection-sociale.md) et situation S-64 |
+| Aides à la création d'entreprise | ACRE dans DOM-039 ; aide en capital et maintien de l'allocation de France Travail dans DOM-012, qui décide aussi du cumul avec l'activité. | Frontières de [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) et de DOM-012 |
+| Militaires, gendarmes, réservistes et anciens combattants | Nouveau cadrage dédié, distinct de la fonction publique civile. | [DOM-044](03-nouveaux-domaines/dom-044-militaires-anciens-combattants.md), situation S-65 ; frontières de DOM-036 et [DOM-037](03-nouveaux-domaines/dom-037-fonction-publique.md) |
 
 ## Retrait d'un plugin hérité
 

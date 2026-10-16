@@ -23,7 +23,7 @@ Nom de plugin proposé : `self-employed-legal`. Aucun plugin n'est créé par ce
 - Lire un courrier de l'URSSAF (cotisations, régularisation, majorations, mise en demeure) et repérer période, montant et stade.
 - Vérifier une déclaration de chiffre d'affaires, un dépassement de seuil ou un changement de régime.
 - Comprendre l'imposition de l'activité (versement libératoire, cotisation foncière des entreprises, TVA) sans calcul non sourcé.
-- Préparer les questions sur le cumul de l'activité avec un emploi salarié, une indemnisation chômage ou des aides.
+- Préparer les questions sur le cumul de l'activité avec un emploi salarié, une indemnisation chômage ou des aides ; la décision de France Travail ou d'une caisse sur ce cumul relève de DOM-012.
 - Lire un avis de contrôle de l'URSSAF, une lettre d'observations ou une mise en demeure qui suit un contrôle, et préparer la réponse.
 
 ## Qualification et frontières
@@ -33,7 +33,9 @@ date de création, chiffre d'affaires déclaré, organismes, courriers reçus et
 stade de chaque procédure.
 
 L'activité indépendante est ici. Impôts du foyer hors activité → DOM-011 ;
-prestations de la CAF et minima sociaux → DOM-012 ; retraite → DOM-036 ;
+prestations de la CAF, minima sociaux, allocation chômage et aides de France
+Travail à la création (aide en capital, maintien de l'allocation) → DOM-012,
+l'ACRE restant ici ; retraite → DOM-036 ;
 contrat avec un client professionnel → commercial ; client particulier →
 consommation ou secteur ; relation de travail déguisée → travail privé ;
 acte de saisie → DOM-003 ; difficultés de paiement globales d'une activité →

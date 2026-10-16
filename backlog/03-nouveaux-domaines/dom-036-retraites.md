@@ -25,7 +25,7 @@ Nom de plugin proposé : `pension-legal`. Aucun plugin n'est créé par cette st
 
 Régimes, périodes, statuts, relevés, décisions, pièces de carrière, dates et éventuel élément international.
 
-La carrière et la retraite sont ici ; les autres prestations restent en DOM-012, le litige employeur dans le plugin travail et la fiscalité en DOM-011. La complémentaire, l'agricole et le public demandent des références propres.
+La carrière et la retraite sont ici ; les autres prestations restent en DOM-012, le litige employeur dans le plugin travail et la fiscalité en DOM-011. La complémentaire, l'agricole et le public demandent des références propres. La retraite militaire reste ici ; les faits de service et la pension militaire d'invalidité relèvent de [DOM-044](dom-044-militaires-anciens-combattants.md).
 
 ## Sources à prévoir et vérifier
 

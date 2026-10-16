@@ -25,7 +25,7 @@ Nom de plugin proposé : `public-employment-legal`. Aucun plugin n'est créé pa
 
 Employeur, versant, statut titulaire/stagiaire/contractuel, contrat/corps, décision, dates, notifications et objet exact.
 
-La relation d'emploi public est ici ; l'emploi salarié privé reste dans employment-legal, la pension en DOM-036 et les prestations des caisses dans DOM-012.
+La relation d'emploi public est ici ; l'emploi salarié privé reste dans employment-legal, la pension en DOM-036 et les prestations des caisses dans DOM-012. Les militaires, gendarmes compris, et les réservistes relèvent de [DOM-044](dom-044-militaires-anciens-combattants.md) ; les civils de la défense restent ici (décision du 16 octobre 2026).
 
 ## Sources à prévoir et vérifier
 
@@ -53,6 +53,7 @@ Lire une décision individuelle de carrière ou de rémunération pour un statut
 - Un contractuel reçoit une décision de non-renouvellement.
 - Un agent conteste un élément de rémunération.
 - Une règle du salarié privé est invoquée pour un fonctionnaire.
+- Un gendarme ou un militaire sous contrat présente sa décision comme une décision de la fonction publique : orientation vers DOM-044.
 
 Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pas résoudre ces dossiers pendant le cadrage.
 

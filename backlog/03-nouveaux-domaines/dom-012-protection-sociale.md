@@ -88,3 +88,43 @@ Points 88, 115–116 de la [matrice transports](dom-008-annexes/dom-008-friction
 Distinguer conventionnement du taxi/VSL, prescription, accord préalable, facture et notification du refus CPAM. Découper une vérification de facturation médicale et un dossier de recours contre refus, avec sources Assurance maladie et textes de sécurité sociale aux faits ; les suites ne sont pas encore proposées.
 
 Scénarios **attendus, non exécutés** : VTC présenté comme taxi conventionné puis remboursement refusé : qualifier le mode et le motif sans promettre prise en charge ; la course seule reste TPT-016.
+
+## Complément emploi, minima sociaux et aides — 16 octobre 2026
+
+Ajouté par décision de l'utilisateur ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)).
+Ces tâches candidates restent à hiérarchiser. Chaque prestation a son
+organisme, son texte, son recours préalable et son juge : ils sont recherchés
+séparément, sans transposer la commission de recours amiable de la sécurité
+sociale ni un autre recours par analogie.
+
+| Régime | Tâches candidates | Cas de contrôle attendu |
+|---|---|---|
+| Inscription et suivi à France Travail | Lire un refus d'inscription, un avertissement, une sanction, une radiation de la liste ou une décision liée au contrat d'engagement ; recueillir convocation, motif, réponse donnée et notification | Radiation après une convocation non reçue : établir l'envoi et la réception avant la voie de recours |
+| Allocation chômage (assurance chômage) | Lire un refus, un calcul, une date de début ou un trop-perçu ; préparer pièces et questions sur la fin de contrat, les attestations et les périodes déclarées | Trop-perçu réclamé après une reprise d'activité déclarée en retard : période, décompte et demande d'explication, sans calcul refait |
+| Allocation de solidarité spécifique | Lire un refus ou une fin de droit ; identifier le texte et l'autorité qui décide | Fin de droits présentée comme définitive sans motif détaillé |
+| RSA | Lire une décision d'ouverture, de suspension, de réduction ou de fin, ou un indu ; distinguer le département qui décide de la CAF ou de la MSA qui instruit et verse ; qualifier les obligations d'accompagnement | RSA suspendu pour non-respect allégué du contrat d'engagement : pièces, motif et recours préalable propres au RSA |
+| Prime d'activité | Lire un refus, un recalcul ou un indu après déclaration trimestrielle ; rapprocher ressources déclarées et période | Indu après une déclaration trimestrielle erronée corrigée ensuite |
+| Aides de France Travail à la création ou reprise d'entreprise | Lire une décision sur l'aide en capital, le maintien de l'allocation pendant l'activité ou une autre aide ; recueillir dates de création et d'inscription, demande et réponse | Aide en capital refusée pour une demande jugée tardive : dates établies, aucune échéance donnée sans texte |
+
+Qualifier pour chaque demande le statut de la personne (demandeur d'emploi,
+allocataire, bénéficiaire du RSA, indépendant), l'organisme qui décide, celui
+qui verse, la décision, sa notification et sa réception. Les obligations et
+sanctions issues de la loi pour le plein emploi de 2023 sont à vérifier dans
+leur version applicable à la date des faits. Le cumul des allocations avec une
+activité indépendante se décide ici ; DOM-039 garde l'activité, ses
+déclarations et l'ACRE. L'attestation que doit remettre l'employeur reste
+TRAV-021. Les intermittents du spectacle relèvent d'abord de DOM-042. Une
+pension militaire d'invalidité relève de DOM-044.
+
+Le cadrage dira si l'emploi et les minima sociaux justifient un plugin
+distinct de `social-security-legal`. Le découpage par régime reste exigé dans
+les deux cas.
+
+Sources à prévoir : Code du travail et règlement d'assurance chômage pour
+l'allocation chômage et l'inscription ; Code de l'action sociale et des
+familles pour le RSA ; Code de la sécurité sociale pour la prime d'activité ;
+textes et informations officielles de France Travail, de l'Unédic, de la CAF,
+de la MSA et des départements. Les juridictions compétentes sont à vérifier
+pour chaque régime.
+
+Scénarios **attendus, non exécutés**.

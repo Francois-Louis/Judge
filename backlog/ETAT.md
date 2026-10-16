@@ -9,10 +9,10 @@
 | Bloquée | 0 |
 | Terminée | 41 |
 | Prête | 0 |
-| À faire | 510 |
+| À faire | 511 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 144 |
-| Total | 576 |
+| dont prêtes à démarrer | 145 |
+| Total | 577 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -74,6 +74,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Cadrer un plugin relation avec un professionnel du droit ou du chiffre | P2 | cadrage |
 | [DOM-042](03-nouveaux-domaines/dom-042-artistes-spectacle.md) | Cadrer un plugin artistes-auteurs et intermittents du spectacle | P2 | cadrage |
 | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) | Cadrer un plugin médias et expression publique | P2 | cadrage |
+| [DOM-044](03-nouveaux-domaines/dom-044-militaires-anciens-combattants.md) | Cadrer un plugin militaires, réservistes et anciens combattants | P2 | cadrage |
 | [ETU-001](02-plugins-existants/suites/etu-001-qualifier-exercice.md) | Qualifier la consigne et le cadre d’un exercice | P2 | implementation |
 | [IA-001](02-plugins-existants/suites/ia-001-inventaire-factuel.md) | Inventorier un système IA sans le classer | P2 | implementation |
 | [IA-012](02-plugins-existants/suites/ia-012-cartographie-contrat-fournisseur.md) | Cartographier les engagements d'une chaîne fournisseur IA | P2 | implementation |
@@ -755,7 +756,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 33 à faire, 33 prêtes</summary>
+<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 34 à faire, 34 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -792,6 +793,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Cadrer un plugin relation avec un professionnel du droit ou du chiffre | P2 | ✅ |
 | [DOM-042](03-nouveaux-domaines/dom-042-artistes-spectacle.md) | Cadrer un plugin artistes-auteurs et intermittents du spectacle | P2 | ✅ |
 | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) | Cadrer un plugin médias et expression publique | P2 | ✅ |
+| [DOM-044](03-nouveaux-domaines/dom-044-militaires-anciens-combattants.md) | Cadrer un plugin militaires, réservistes et anciens combattants | P2 | ✅ |
 
 </details>
 
