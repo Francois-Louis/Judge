@@ -7,12 +7,12 @@
 | En cours | 1 |
 | À vérifier | 1 |
 | Bloquée | 0 |
-| Terminée | 36 |
+| Terminée | 37 |
 | Prête | 0 |
-| À faire | 434 |
+| À faire | 444 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 149 |
-| Total | 495 |
+| dont prêtes à démarrer | 148 |
+| Total | 506 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -48,7 +48,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [CTX-016](02-plugins-existants/suites/ctx-016-fiche-echeance.md) | Établir une fiche d’échéance de procédure TJ écrite | P2 | implementation |
 | [CTX-021](02-plugins-existants/suites/ctx-021-preferences-contentieux.md) | Gérer des préférences contentieuses volontaires | P2 | implementation |
 | [CTX-022](02-plugins-existants/suites/ctx-022-espace-dossier.md) | Isoler les espaces de dossiers contentieux | P2 | implementation |
-| [DOM-006](03-nouveaux-domaines/dom-006-logement.md) | Cadrer un plugin logement locatif et habitat | P2 | cadrage |
 | [DOM-007](03-nouveaux-domaines/dom-007-sante.md) | Cadrer un plugin santé et droits des patients | P2 | cadrage |
 | [DOM-008](03-nouveaux-domaines/dom-008-transports.md) | Cadrer un plugin transports et voyages | P2 | cadrage |
 | [DOM-009](03-nouveaux-domaines/dom-009-douanes.md) | Cadrer un plugin douanes et import-export | P2 | cadrage |
@@ -254,6 +253,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [dom-004-controles.py](03-nouveaux-domaines/dom-004-annexes/dom-004-controles.py) · [dom-004-decoupage-banque.md](03-nouveaux-domaines/dom-004-annexes/dom-004-decoupage-banque.md) · [dom-004-frictions-utilisateurs.md](03-nouveaux-domaines/dom-004-annexes/dom-004-frictions-utilisateurs.md) · [dom-004-resultats.json](03-nouveaux-domaines/dom-004-annexes/dom-004-resultats.json) · [dom-004-verification.md](03-nouveaux-domaines/dom-004-annexes/dom-004-verification.md)
 - [DOM-005](03-nouveaux-domaines/dom-005-assurance.md) — Cadrer un plugin d'assurance
   <br>Annexes : [dom-005-controles.py](03-nouveaux-domaines/dom-005-annexes/dom-005-controles.py) · [dom-005-decoupage-assurance.md](03-nouveaux-domaines/dom-005-annexes/dom-005-decoupage-assurance.md) · [dom-005-frictions-utilisateurs.md](03-nouveaux-domaines/dom-005-annexes/dom-005-frictions-utilisateurs.md) · [dom-005-resultats.json](03-nouveaux-domaines/dom-005-annexes/dom-005-resultats.json) · [dom-005-verification.md](03-nouveaux-domaines/dom-005-annexes/dom-005-verification.md)
+- [DOM-006](03-nouveaux-domaines/dom-006-logement.md) — Cadrer un plugin logement locatif et habitat
+  <br>Annexes : [dom-006-controles.py](03-nouveaux-domaines/dom-006-annexes/dom-006-controles.py) · [dom-006-decoupage-logement.md](03-nouveaux-domaines/dom-006-annexes/dom-006-decoupage-logement.md) · [dom-006-resultats.json](03-nouveaux-domaines/dom-006-annexes/dom-006-resultats.json) · [dom-006-verification.md](03-nouveaux-domaines/dom-006-annexes/dom-006-verification.md)
 - Autres documents : [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt)
 
 ### 04 — Livraison
@@ -750,11 +751,10 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 38 à faire, 38 prêtes</summary>
+<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 37 à faire, 37 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [DOM-006](03-nouveaux-domaines/dom-006-logement.md) | Cadrer un plugin logement locatif et habitat | P2 | ✅ |
 | [DOM-007](03-nouveaux-domaines/dom-007-sante.md) | Cadrer un plugin santé et droits des patients | P2 | ✅ |
 | [DOM-008](03-nouveaux-domaines/dom-008-transports.md) | Cadrer un plugin transports et voyages | P2 | ✅ |
 | [DOM-009](03-nouveaux-domaines/dom-009-douanes.md) | Cadrer un plugin douanes et import-export | P2 | ✅ |
@@ -849,6 +849,25 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [INS-019](03-nouveaux-domaines/suites/ins-019-garantie-professionnelle.md) | Lire une garantie professionnelle pour un risque précis | P3 | INS-004 |
 | [INS-020](03-nouveaux-domaines/suites/ins-020-actualiser-clause-beneficiaire.md) | Préparer l'actualisation d'une clause bénéficiaire | P3 | INS-001 |
 | [INS-021](03-nouveaux-domaines/suites/ins-021-echeances-recours.md) | Établir les échéances d'un dossier d'assurance | P2 | INS-001 |
+
+</details>
+
+<details>
+<summary><b>LOG</b> — Logement locatif et habitat (03 — Nouveaux domaines) : 11 à faire, 0 prêtes</summary>
+
+| Story | Titre | Priorité | Bloquée par |
+| --- | --- | --- | --- |
+| [LOG-001](03-nouveaux-domaines/suites/log-001-depot-garantie.md) | Contester une retenue sur dépôt après une location privée vide | P2 | BASE-008 |
+| [LOG-002](03-nouveaux-domaines/suites/log-002-charges-locatives.md) | Comprendre une régularisation de charges et demander les justificatifs | P2 | LOG-001 |
+| [LOG-003](03-nouveaux-domaines/suites/log-003-revue-bail.md) | Relire un bail vide de résidence principale avant signature | P2 | LOG-001 |
+| [LOG-004](03-nouveaux-domaines/suites/log-004-reparations.md) | Préparer une demande de réparation au bailleur | P2 | LOG-001 |
+| [LOG-005](03-nouveaux-domaines/suites/log-005-decence.md) | Documenter un problème de décence et préparer une demande au bailleur | P2 | LOG-001 |
+| [LOG-006](03-nouveaux-domaines/suites/log-006-conge-bailleur-meuble.md) | Lire un congé reçu du bailleur pour une location meublée | P2 | LOG-001 |
+| [LOG-007](03-nouveaux-domaines/suites/log-007-conge-locataire.md) | Préparer le congé d'un locataire en location vide | P2 | LOG-001 |
+| [LOG-008](03-nouveaux-domaines/suites/log-008-arriere-locatif.md) | Rapprocher un arriéré locatif des paiements documentés | P2 | LOG-001 |
+| [LOG-009](03-nouveaux-domaines/suites/log-009-delais-clause-resolutoire.md) | Vérifier les conditions d'une demande de délais et de suspension de clause | P2 | LOG-008 |
+| [LOG-010](03-nouveaux-domaines/suites/log-010-demande-judiciaire-locative.md) | Préparer une demande judiciaire locative de délais et suspension de clause | P3 | LOG-009 |
+| [LOG-011](03-nouveaux-domaines/suites/log-011-justificatifs-candidature.md) | Contrôler la liste de justificatifs d'une candidature locative | P2 | LOG-001 |
 
 </details>
 

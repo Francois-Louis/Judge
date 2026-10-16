@@ -1,7 +1,7 @@
 ---
 id: DOM-006
 titre: "Cadrer un plugin logement locatif et habitat"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -35,11 +35,11 @@ Un premier skill de contestation d'une retenue sur dépôt de garantie, avec ré
 
 ## Critères d'acceptation
 
-- [ ] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
-- [ ] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
-- [ ] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle.
-- [ ] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
-- [ ] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
+- [x] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites (relecture documentaire du rédacteur).
+- [x] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
+- [x] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle (attendus, non exécutés).
+- [x] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
+- [x] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
 
 ## Scénarios pour éprouver le découpage
 
@@ -62,3 +62,37 @@ Scénarios **attendus, non exécutés** : commandement assimilé à une expulsio
 ## Complément des frictions données personnelles — 16 octobre 2026
 
 Le point 44 de la [matrice données personnelles](../02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md) demande de découper le contrôle d'un dossier locatif : bail, candidat/garant, liste de justificatifs autorisés et version applicable, finalité et conservation après refus. PRV-026 qualifie la collecte, PRV-024 prépare l'effacement ciblé. Scénario attendu : pièces intrusives et candidature refusée conservée, avec contrôle de liste et demande de données distincts. Aucun dossier entier sensible à collecter par défaut ; portée et contrôles dans la matrice.
+
+## Bilan d'exécution — 16 octobre 2026
+
+- [Découpage](dom-006-annexes/dom-006-decoupage-logement.md) : nom `housing-legal`
+  conservé, identifiant futur `judge-fr-eu-housing-legal` ; qualification
+  bail/usage/parc/parties/localisation/dates ; frontières et installation seule,
+  références locales, sans agent, connecteur, hook ni profil requis.
+- Onze propositions LOG-001 à LOG-011, une tâche par skill, en quatre rangs.
+  LOG-001 crée le paquet avec la seule contestation de retenues après une
+  location privée vide de résidence principale en France métropolitaine.
+  Meublé, social et autres régimes restent hors de cette première tranche.
+- Réparation au bailleur et recours contre l'entreprise distincts ; charges,
+  revue du bail, décence et deux congés séparés. LOG-008/009/010 découpent
+  décompte, conditions de délais/suspension de clause et préparation judiciaire.
+  LOG-011 contrôle les justificatifs de candidature avec relais PRV-026/024.
+- [Vérification documentaire](dom-006-annexes/dom-006-verification.md) : trois
+  scénarios de la story, compléments exécution/données et cas de frontière.
+  [Relevé statique](dom-006-annexes/dom-006-resultats.json) produit par le
+  [contrôleur](dom-006-annexes/dom-006-controles.py).
+- Matrice BASE-003, relais ENF-005 et matrice données précisés ; famille LOG
+  ajoutée au générateur de l'état du backlog et index régénéré.
+
+PILOTE-003 a été relu : terminé après BASE-011, avec limites de PILOTE-002
+toujours explicites. Aucune suite n'est sélectionnée par ce cadrage.
+
+Fichiers du lot : présente story, quatre annexes (découpage, vérification,
+contrôleur, relevé), onze suites `suites/log-*.md`, ligne BASE-003, relais
+ENF-005, ligne 44 de la matrice données, `backlog/etat.py` et `backlog/ETAT.md`.
+Tout reste dans `backlog/` ; aucune entrée NOTICE requise.
+
+**Portée :** relecture documentaire du seul rédacteur sur pièces fictives
+et contrôles statiques ; aucun plugin créé, skill exécuté, paquet installé,
+lecteur réel ou indépendant, source juridique ouverte, délai ou montant établi,
+envoi ou saisine. Voir la vérification pour les réserves et scénarios attendus.

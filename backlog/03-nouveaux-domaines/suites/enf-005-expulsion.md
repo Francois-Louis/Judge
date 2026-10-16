@@ -64,7 +64,7 @@ Saisine du juge, demande de logement, contestation du bail, envoi.
 Points 35–39 de la [matrice utilisateur](../dom-003-annexes/dom-003-frictions-utilisateurs.md).
 
 - [ ] X03 — Commandement de payer visant une clause : distinguer acte préalable, débat sur le bail, jugement, commandement de quitter et expulsion matérielle. Recueillir bail et dates ; vérifier le régime avant tout repère.
-- [ ] X04 — Suspension de clause résolutoire et dette locative : conserver les pièces et orienter vers DOM-006, qui doit encore découper ce besoin ; ne pas annoncer qu'une demande judiciaire y est disponible.
+- [ ] X04 — Suspension de clause résolutoire et dette locative : conserver les pièces et orienter vers [LOG-009](log-009-delais-clause-resolutoire.md) pour les conditions, après décompte LOG-008 ; [LOG-010](log-010-demande-judiciaire-locative.md) propose séparément la préparation judiciaire. Ces suites DOM-006 ne sont pas implémentées ; ne pas annoncer qu'une demande judiciaire y est disponible.
 - [ ] X05 — Trêve invoquée : séparer expulsion matérielle et poursuite des actes ou du procès ; examiner qualité de l'occupant, décision et exceptions avant de parler de protection.
 - [ ] X06 — Délai pour quitter ou délai supplémentaire : réunir signification, décision, situation du foyer et relogement ; identifier la démarche urgente et le destinataire, sans date calculée ni saisine rédigée.
 - [ ] X07 — Biens après expulsion : recueillir procès-verbal, inventaire, valeur attribuée, stockage et notification ; distinguer récupération et contestation de valeur, avec délais propres à vérifier.

@@ -48,6 +48,7 @@ FAMILLES = {
     "ENF": "Commissaires de justice et exécution",
     "BNK": "Banque",
     "INS": "Assurance",
+    "LOG": "Logement locatif et habitat",
     "LIV": "Livraison",
     "USAGE": "Usages quotidiens",
 }

@@ -1,0 +1,271 @@
+{
+  "story": "DOM-006",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "50fa9a0d5cae2e79166edcca34ed9276cde76c3f",
+  "scope": "cadrage documentaire logement ; aucun plugin ni règle juridique validée",
+  "validation_context": "staged-tree-isolated",
+  "checks": {
+    "backlog_metadata_dependencies": {
+      "status": "passed",
+      "total": 506,
+      "statuses": {
+        "terminee": 37,
+        "en-cours": 1,
+        "proposee": 444,
+        "abandonnee": 23,
+        "a-verifier": 1
+      },
+      "problems": []
+    },
+    "bounded_proposals_and_future_files": {
+      "status": "passed",
+      "count": 11,
+      "skills": {
+        "LOG-001": "security-deposit-dispute",
+        "LOG-002": "rental-charge-review",
+        "LOG-003": "residential-lease-review",
+        "LOG-004": "rental-repair-request",
+        "LOG-005": "housing-decency-request",
+        "LOG-006": "furnished-landlord-notice-review",
+        "LOG-007": "tenant-notice-preparation",
+        "LOG-008": "rent-arrears-review",
+        "LOG-009": "rent-relief-conditions",
+        "LOG-010": "rent-relief-court-preparation",
+        "LOG-011": "rental-application-document-review"
+      },
+      "future_file_owners": {
+        "housing-legal/.claude-plugin/plugin.json": [
+          "LOG-001"
+        ],
+        "housing-legal/README.md": [
+          "LOG-001"
+        ],
+        "housing-legal/CLAUDE.md": [
+          "LOG-001"
+        ],
+        "housing-legal/LICENSE": [
+          "LOG-001"
+        ],
+        "housing-legal/NOTICE": [
+          "LOG-001"
+        ],
+        "housing-legal/references/shared/research-citation-method.md": [
+          "LOG-001"
+        ],
+        "housing-legal/references/isolation.md": [
+          "LOG-001"
+        ],
+        "housing-legal/scripts/judge_store.py": [
+          "LOG-001"
+        ],
+        "housing-legal/references/company-profile-template.md": [
+          "LOG-001"
+        ],
+        "housing-legal/references/dashboard-template.md": [
+          "LOG-001"
+        ],
+        "housing-legal/references/qualification-logement.md": [
+          "LOG-001"
+        ],
+        "housing-legal/references/depot-garantie.md": [
+          "LOG-001"
+        ],
+        "housing-legal/skills/security-deposit-dispute/SKILL.md": [
+          "LOG-001"
+        ],
+        "housing-legal/skills/security-deposit-dispute/references/demande-restitution.md": [
+          "LOG-001"
+        ],
+        "housing-legal/skills/rental-charge-review/SKILL.md": [
+          "LOG-002"
+        ],
+        "housing-legal/references/charges-locatives.md": [
+          "LOG-002"
+        ],
+        "housing-legal/skills/rental-charge-review/references/demande-justificatifs.md": [
+          "LOG-002"
+        ],
+        "housing-legal/skills/residential-lease-review/SKILL.md": [
+          "LOG-003"
+        ],
+        "housing-legal/references/revue-bail-vide.md": [
+          "LOG-003"
+        ],
+        "housing-legal/skills/rental-repair-request/SKILL.md": [
+          "LOG-004"
+        ],
+        "housing-legal/references/reparations-locatives.md": [
+          "LOG-004"
+        ],
+        "housing-legal/skills/rental-repair-request/references/demande-intervention.md": [
+          "LOG-004"
+        ],
+        "housing-legal/skills/housing-decency-request/SKILL.md": [
+          "LOG-005"
+        ],
+        "housing-legal/references/decence-habitat.md": [
+          "LOG-005"
+        ],
+        "housing-legal/skills/housing-decency-request/references/demande-constat.md": [
+          "LOG-005"
+        ],
+        "housing-legal/skills/furnished-landlord-notice-review/SKILL.md": [
+          "LOG-006"
+        ],
+        "housing-legal/references/conge-bailleur-meuble.md": [
+          "LOG-006"
+        ],
+        "housing-legal/skills/tenant-notice-preparation/SKILL.md": [
+          "LOG-007"
+        ],
+        "housing-legal/references/conge-locataire-vide.md": [
+          "LOG-007"
+        ],
+        "housing-legal/skills/tenant-notice-preparation/references/conge.md": [
+          "LOG-007"
+        ],
+        "housing-legal/skills/rent-arrears-review/SKILL.md": [
+          "LOG-008"
+        ],
+        "housing-legal/references/decompte-locatif.md": [
+          "LOG-008"
+        ],
+        "housing-legal/skills/rent-arrears-review/references/demande-decompte.md": [
+          "LOG-008"
+        ],
+        "housing-legal/skills/rent-relief-conditions/SKILL.md": [
+          "LOG-009"
+        ],
+        "housing-legal/references/delais-clause-resolutoire.md": [
+          "LOG-009"
+        ],
+        "housing-legal/skills/rent-relief-court-preparation/SKILL.md": [
+          "LOG-010"
+        ],
+        "housing-legal/references/demande-judiciaire-locative.md": [
+          "LOG-010"
+        ],
+        "housing-legal/skills/rent-relief-court-preparation/references/projet-demande.md": [
+          "LOG-010"
+        ],
+        "housing-legal/skills/rental-application-document-review/SKILL.md": [
+          "LOG-011"
+        ],
+        "housing-legal/references/justificatifs-candidature.md": [
+          "LOG-011"
+        ],
+        "housing-legal/skills/rental-application-document-review/references/question-justificatifs.md": [
+          "LOG-011"
+        ]
+      },
+      "problems": []
+    },
+    "breakdown_consistency": {
+      "status": "passed",
+      "rows": 11,
+      "problems": []
+    },
+    "links_format_and_tables": {
+      "status": "passed",
+      "files": 20,
+      "local_links": 914,
+      "problems": []
+    },
+    "no_plugin_created": {
+      "status": "passed",
+      "marketplace_plugins": 11,
+      "problems": []
+    },
+    "index_matrix_relays_and_pilot": {
+      "status": "passed",
+      "problems": []
+    },
+    "git_task_scope": {
+      "status": "passed",
+      "lot_files": [
+        "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md",
+        "backlog/02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-controles.py",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-decoupage-logement.md",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-verification.md",
+        "backlog/03-nouveaux-domaines/dom-006-logement.md",
+        "backlog/03-nouveaux-domaines/suites/enf-005-expulsion.md",
+        "backlog/03-nouveaux-domaines/suites/log-001-depot-garantie.md",
+        "backlog/03-nouveaux-domaines/suites/log-002-charges-locatives.md",
+        "backlog/03-nouveaux-domaines/suites/log-003-revue-bail.md",
+        "backlog/03-nouveaux-domaines/suites/log-004-reparations.md",
+        "backlog/03-nouveaux-domaines/suites/log-005-decence.md",
+        "backlog/03-nouveaux-domaines/suites/log-006-conge-bailleur-meuble.md",
+        "backlog/03-nouveaux-domaines/suites/log-007-conge-locataire.md",
+        "backlog/03-nouveaux-domaines/suites/log-008-arriere-locatif.md",
+        "backlog/03-nouveaux-domaines/suites/log-009-delais-clause-resolutoire.md",
+        "backlog/03-nouveaux-domaines/suites/log-010-demande-judiciaire-locative.md",
+        "backlog/03-nouveaux-domaines/suites/log-011-justificatifs-candidature.md",
+        "backlog/ETAT.md",
+        "backlog/etat.py"
+      ],
+      "concurrent_files": [],
+      "concurrent_patterns": [],
+      "note": "Checkout propre observé avant édition ; changements DOM-007 apparus en parallèle. Le contrôle des chemins ne remplace pas la relecture du diff et du contenu indexé des fichiers partagés.",
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 74,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    }
+  },
+  "lot_sha256": {
+    "backlog/03-nouveaux-domaines/dom-006-logement.md": "de7a255ffc13096b017d2b5c266053e2f72d477b27352738d9402742b50d8abf",
+    "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-decoupage-logement.md": "c841b4c8b07e11a1c4cbc462305d29ca4c50978f26fc2ea767e45e5979629169",
+    "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-verification.md": "272d06aa282cabc1cc94f87abcb24cb463d32a1b8bc26dc050f4b6b11550848d",
+    "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-controles.py": "2422959946c5565e960e1e0adc8ae35f6d8f002bd9f7ab6d10f6cb6ad1338de4",
+    "backlog/03-nouveaux-domaines/suites/log-001-depot-garantie.md": "098abfbc399aa6f453b2f1018d0728b65a1b5a7a092c7acdd22d86ece2f0604f",
+    "backlog/03-nouveaux-domaines/suites/log-002-charges-locatives.md": "2cc956349a0552fdf300ebdad0be6aff4e595cd5bedc760294bda5aaaa95c68b",
+    "backlog/03-nouveaux-domaines/suites/log-003-revue-bail.md": "1a489b58aa3f08969efdfdab3ab83c33d3ce28ed2ba6e83977bdb64cc60ffded",
+    "backlog/03-nouveaux-domaines/suites/log-004-reparations.md": "02e190e1f0398c02f8dca9ccf31f9866ec371108acd8570e1ff411e509034722",
+    "backlog/03-nouveaux-domaines/suites/log-005-decence.md": "fbaca2e1a286d83681efdf9635a06544444638516f2642395dba7908a8e1f16f",
+    "backlog/03-nouveaux-domaines/suites/log-006-conge-bailleur-meuble.md": "09e13b8f55d93e1a366409a430eb5d7c36bebd6923dfa297b3156b702c024bde",
+    "backlog/03-nouveaux-domaines/suites/log-007-conge-locataire.md": "8c3f3b85d2eeff5915a29473826464143a15d9b4b5c2696d97986a8a09647bf1",
+    "backlog/03-nouveaux-domaines/suites/log-008-arriere-locatif.md": "26ee8dae06f954f78fc06a67f9c7e2b4b19591c9aa4c07398ff03bf67bdb46f5",
+    "backlog/03-nouveaux-domaines/suites/log-009-delais-clause-resolutoire.md": "ac80eb5929107beed7824941ac84d53da6dc5586b67159b8834336bc9697e364",
+    "backlog/03-nouveaux-domaines/suites/log-010-demande-judiciaire-locative.md": "909fb1cec0dc952f216b531c325c3f23ccdb44d5351efa8292feb49d0d94fe41",
+    "backlog/03-nouveaux-domaines/suites/log-011-justificatifs-candidature.md": "e68760f942222c884a8d125f82da44177ef93b803e2454ac41f31cb395b272aa",
+    "backlog/ETAT.md": "0b6e74235278481162a04894a926c5e2436ad72a28bf3397966b96ba2ae32713",
+    "backlog/etat.py": "c2b0fd545f95980f80f315eefa18f620ba246ce87e0b2e6c042e32ba004d7ba1",
+    "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md": "006b5ec8e0a28eab0d61747bddba23d69c9b2be648577bf7bd3c4c5d6ac8eb08",
+    "backlog/03-nouveaux-domaines/suites/enf-005-expulsion.md": "a8a42b9ad4c5a4f636c376c2227a5261fb0d6dd906638bb8c7ae15c426f05888",
+    "backlog/02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md": "6f852e416a379968db76805bf3386eeda31d7aa8002d8bbbffef6243ab690773"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "scénarios exécutables de skills",
+    "installation ou invocation client",
+    "lecteur réel ou indépendant",
+    "validation de schéma ou de paquet housing absent",
+    "calcul de délai ou montant juridique",
+    "envoi ou saisine"
+  ],
+  "command": [
+    "C:\\ProgramData\\miniconda3\\python.exe",
+    "-X",
+    "utf8",
+    "backlog\\03-nouveaux-domaines\\dom-006-annexes\\dom-006-controles.py",
+    "--context",
+    "staged-tree-isolated",
+    "--output",
+    "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-dom006-review-hpk0w2xw\\tree\\backlog\\03-nouveaux-domaines\\dom-006-annexes\\dom-006-resultats.json"
+  ]
+}
