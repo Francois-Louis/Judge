@@ -94,3 +94,13 @@ Prestations liées ou isolées : orientation ; annulation personnelle avant dép
 Issue de DOM-008, sans implémentation. Dépend de PILOTE-003 : préalable
 satisfait après BASE-011 ; aucune tranche sélectionnée par ce cadrage.
 Contrat commun : [découpage](../dom-008-annexes/dom-008-decoupage-transports.md).
+
+## Complément des frictions transports — 16 octobre 2026
+
+Points 6, 45, 63, 126 lorsque forfait à établir de la [matrice transports](../dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Cartographier vendeur, organisateur et transporteur avant de conclure à un forfait ; ne pas déduire le contrat du panier d’achat ni additionner automatiquement les réparations.
+
+- [ ] Le résultat conserve ces distinctions et les pièces correspondantes ; chiffres et délais du texte vérifiés sur sources à l’implémentation.
+
+Scénario **attendu, non exécuté** : Billets assemblés par une agence et bagage perdu : établir ou réserver le forfait avant de séparer les obligations.

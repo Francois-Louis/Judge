@@ -104,3 +104,13 @@ Correspondance (TPT-002), retard (TPT-003), bagage (TPT-005), forfait (TPT-006),
 Issue de DOM-008, sans implémentation. Dépend de PILOTE-003 : préalable
 satisfait après BASE-011 ; aucune tranche sélectionnée par ce cadrage.
 Contrat commun : [découpage](../dom-008-annexes/dom-008-decoupage-transports.md).
+
+## Complément des frictions transports — 16 octobre 2026
+
+Points 1, 48–50, 52–54, 56–57, 63, 117, 123, 126 de la [matrice transports](../dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Qualifier changement d’horaire, remboursement imposé, alternatives y compris autres transporteurs et avoir ; vérifier preuve du motif exceptionnel par demande. La qualification commune inclut désormais taxis/VTC, covoiturage et libre-service, sans étendre le premier skill aérien.
+
+- [ ] Le résultat conserve ces distinctions et les pièces correspondantes ; chiffres et délais du texte vérifiés sur sources à l’implémentation.
+
+Scénario **attendu, non exécuté** : Vol avancé, remboursement automatique et nouvel achat plus cher : qualifier incident et choix avant de réclamer les postes séparément.

@@ -108,3 +108,11 @@ mais visant une porte privative ; examiner séparément vote et traitement,
 sans conformité RGPD déduite de l'AG ni désactivation conseillée. Vérifier les
 textes et sources CNIL applicables lors de l'implémentation. Aucun audit,
 signalement ou traitement d'images exécuté par ce complément.
+
+## Complément des frictions transports — 16 octobre 2026
+
+Point 125 de la [matrice transports](../03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Demande d’images en gare/station après incident : identifier responsable, créneau et données strictement utiles ; accès, préservation éventuelle et communication à un tiers sont distincts. PRV-030 concerne le travail : une tâche hors travail reste à découper. Ne pas promettre conservation après une simple demande.
+
+Scénarios **attendus, non exécutés** : Caméra de station et images bientôt effacées : préparer les questions de canal/délai sans annoncer gel automatique ni réutiliser la surveillance au travail.

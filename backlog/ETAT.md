@@ -9,10 +9,10 @@
 | Bloquée | 0 |
 | Terminée | 41 |
 | Prête | 0 |
-| À faire | 498 |
+| À faire | 510 |
 | Abandonnée | 23 |
 | dont prêtes à démarrer | 144 |
-| Total | 564 |
+| Total | 576 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -254,12 +254,12 @@ Stories à faire dont toutes les dépendances sont terminées.
 - [DOM-007](03-nouveaux-domaines/dom-007-sante.md) — Cadrer un plugin santé et droits des patients
   <br>Annexes : [dom-007-controles.py](03-nouveaux-domaines/dom-007-annexes/dom-007-controles.py) · [dom-007-decoupage-sante.md](03-nouveaux-domaines/dom-007-annexes/dom-007-decoupage-sante.md) · [dom-007-resultats.json](03-nouveaux-domaines/dom-007-annexes/dom-007-resultats.json) · [dom-007-verification.md](03-nouveaux-domaines/dom-007-annexes/dom-007-verification.md)
 - [DOM-008](03-nouveaux-domaines/dom-008-transports.md) — Cadrer un plugin transports et voyages
-  <br>Annexes : [dom-008-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py) · [dom-008-decoupage-transports.md](03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md) · [dom-008-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json) · [dom-008-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md)
+  <br>Annexes : [dom-008-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py) · [dom-008-decoupage-transports.md](03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md) · [dom-008-frictions-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-controles.py) · [dom-008-frictions-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-resultats.json) · [dom-008-frictions-utilisateurs.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-utilisateurs.md) · [dom-008-frictions-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-verification.md) · [dom-008-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json) · [dom-008-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md)
 - [DOM-023](03-nouveaux-domaines/dom-023-vehicules-garages.md) — Cadrer un plugin véhicules, garages et réparations
   <br>Annexes : [dom-023-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py) · [dom-023-decoupage-vehicules.md](03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md) · [dom-023-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json) · [dom-023-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md)
 - [DOM-031](03-nouveaux-domaines/dom-031-deces-obseques.md) — Cadrer un plugin décès et prestations funéraires
   <br>Annexes : [dom-031-controles.py](03-nouveaux-domaines/dom-031-annexes/dom-031-controles.py) · [dom-031-decoupage-funeraire.md](03-nouveaux-domaines/dom-031-annexes/dom-031-decoupage-funeraire.md) · [dom-031-resultats.json](03-nouveaux-domaines/dom-031-annexes/dom-031-resultats.json) · [dom-031-verification.md](03-nouveaux-domaines/dom-031-annexes/dom-031-verification.md)
-- Autres documents : [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [logement-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/logement-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt)
+- Autres documents : [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [logement-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/logement-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt) · [transports-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/transports-frictions-2026-10-16.txt)
 
 ### 04 — Livraison
 
@@ -924,7 +924,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>TPT</b> — Transports et voyages (03 — Nouveaux domaines) : 10 à faire, 0 prêtes</summary>
+<summary><b>TPT</b> — Transports et voyages (03 — Nouveaux domaines) : 22 à faire, 0 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -938,6 +938,18 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [TPT-008](03-nouveaux-domaines/suites/tpt-008-incident-autocar.md) | Préparer une réclamation pour un trajet en autocar perturbé | P2 | BASE-008, TPT-001 |
 | [TPT-009](03-nouveaux-domaines/suites/tpt-009-incident-maritime.md) | Préparer une réclamation pour un trajet maritime ou fluvial perturbé | P2 | BASE-008, TPT-001 |
 | [TPT-010](03-nouveaux-domaines/suites/tpt-010-orienter-fret.md) | Qualifier un incident de transport de marchandises avant orientation | P3 | BASE-008, TPT-001 |
+| [TPT-011](03-nouveaux-domaines/suites/tpt-011-billet-ferroviaire.md) | Préparer une réclamation sur un billet ferroviaire | P2 | BASE-008, TPT-001 |
+| [TPT-012](03-nouveaux-domaines/suites/tpt-012-contester-pv-transport.md) | Préparer un dossier de contestation de PV de transport | P2 | BASE-008, TPT-001 |
+| [TPT-013](03-nouveaux-domaines/suites/tpt-013-service-titre-urbain.md) | Préparer une réclamation sur un titre ou un service urbain | P2 | BASE-008, TPT-001 |
+| [TPT-014](03-nouveaux-domaines/suites/tpt-014-billet-aerien-frais.md) | Préparer une contestation de frais de billetterie aérienne | P2 | BASE-008, TPT-001 |
+| [TPT-015](03-nouveaux-domaines/suites/tpt-015-refus-embarquement-aerien.md) | Préparer une réclamation après refus d’embarquement aérien | P2 | BASE-008, TPT-001 |
+| [TPT-016](03-nouveaux-domaines/suites/tpt-016-reclamation-taxi-vtc.md) | Préparer une réclamation sur une course taxi ou VTC | P2 | BASE-008, TPT-001 |
+| [TPT-017](03-nouveaux-domaines/suites/tpt-017-reclamation-covoiturage.md) | Préparer une réclamation après un incident de covoiturage | P2 | BASE-008, TPT-001 |
+| [TPT-018](03-nouveaux-domaines/suites/tpt-018-facturation-libre-service.md) | Préparer une contestation de facturation en libre-service | P2 | BASE-008, TPT-001 |
+| [TPT-019](03-nouveaux-domaines/suites/tpt-019-assistance-pmr-transport.md) | Préparer une demande d’assistance PMR liée à un trajet | P2 | BASE-008, TPT-001 |
+| [TPT-020](03-nouveaux-domaines/suites/tpt-020-bagage-autocar.md) | Préparer une réclamation pour un bagage d’autocar | P2 | BASE-008, TPT-001 |
+| [TPT-021](03-nouveaux-domaines/suites/tpt-021-dommage-bien-maritime.md) | Préparer une réclamation pour un bien endommagé en traversée | P2 | BASE-008, TPT-001 |
+| [TPT-022](03-nouveaux-domaines/suites/tpt-022-taxes-vol-non-effectue.md) | Préparer une demande de taxes pour un vol non effectué | P2 | BASE-008, TPT-001 |
 
 </details>
 

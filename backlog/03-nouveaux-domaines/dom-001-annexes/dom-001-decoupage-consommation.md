@@ -188,3 +188,12 @@ ce cadrage figure dans la [vérification](dom-001-verification.md).
 ## Complément publicité contestée — 16 octobre 2026
 
 [CONSO-021](../suites/conso-021-reclamation-publicite.md), issue de la [matrice marketing](../../02-plugins-existants/exist-004-annexes/exist-004-frictions-utilisateurs.md), prépare le rapprochement publicité/achat/résultat et la demande au vendeur. CONSO-015 garde l’offre avant achat ; CONSO-016 les prix/frais ; CONSO-002/005/009 les garanties et abonnements ; CONSO-013 le signalement. Sans achat, ne pas inventer de remboursement. Le propriétaire de la revue avant diffusion reste produit. Les 21 CONSO restent proposées ; aucune nouvelle première tranche n’est choisie.
+
+## Frontière précisée par les frictions transports — 16 octobre 2026
+
+[DOM-008](../dom-008-transports.md) possède désormais les propositions de
+course taxi/VTC TPT-016, covoiturage TPT-017 et facturation de libre-service
+TPT-018. Consommation conserve les ventes, autres services et locations
+classiques isolées ; ses règles utiles peuvent être embarquées par transport
+sans double propriétaire ni dépendance d’installation. Les nouveaux noms
+restent des propositions, sans skill disponible.

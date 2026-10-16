@@ -94,3 +94,13 @@ Responsabilité, plafonds, réserves juridiquement suffisantes et prescription a
 Issue de DOM-008, sans implémentation. Dépend de PILOTE-003 : préalable
 satisfait après BASE-011 ; aucune tranche sélectionnée par ce cadrage.
 Contrat commun : [découpage](../dom-008-annexes/dom-008-decoupage-transports.md).
+
+## Complément des frictions transports — 16 octobre 2026
+
+Points 126 si marchandise professionnelle de la [matrice transports](../dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Maintenir la qualification passager/fret ; aucune règle des 128 frictions de voyageurs ne devient une garantie professionnelle.
+
+- [ ] Le résultat conserve ces distinctions et les pièces correspondantes ; chiffres et délais du texte vérifiés sur sources à l’implémentation.
+
+Scénario **attendu, non exécuté** : Un professionnel voyage pour son travail avec un colis : qualifier transport personnel et contrat éventuel de marchandise sans assimiler déplacement professionnel et fret.

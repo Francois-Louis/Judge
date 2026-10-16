@@ -88,3 +88,29 @@ les textes nommés sont des pistes à vérifier, pas du droit actuel validé.
 Aucun plugin créé, skill exécuté, paquet installé ou lecteur indépendant.
 Le préalable PILOTE-003 est satisfait après BASE-011 ; aucune tranche n’est
 sélectionnée par ce cadrage.
+
+## Complément des frictions utilisateurs — 16 octobre 2026
+
+- [Source reçue](sources/transports-frictions-2026-10-16.txt) conservée à
+  l’octet près ; [matrice des 128 points](dom-008-annexes/dom-008-frictions-utilisateurs.md),
+  sections calendrier/méthode et lacunes explicites.
+- Dix suites initiales précisées et douze propositions TPT-011 à TPT-022 :
+  billet ferroviaire, PV, titre/service urbain, frais aériens, refus
+  d’embarquement, taxi/VTC, covoiturage, libre-service, assistance PMR,
+  bagage autocar, bien maritime et taxes de vol non effectué.
+- Frontières et relais actualisés : consommation, protection sociale,
+  responsabilité corporelle, pénal, discrimination et données personnelles.
+- [Vérification du complément](dom-008-annexes/dom-008-frictions-verification.md)
+  et [contrôles reproductibles](dom-008-annexes/dom-008-frictions-controles.py),
+  avec [relevé daté](dom-008-annexes/dom-008-frictions-resultats.json).
+
+Fichiers du complément : présente story, source, matrice, découpage, rapport,
+contrôleur et relevé, 22 suites TPT, cadrages DOM-002/012/029/035 et EXIST-003,
+frontière DOM-001, index ETAT. Lot limité à `backlog/`, sans entrée NOTICE.
+
+**Portée du complément :** intégration et relecture documentaires du rédacteur,
+contrôles structurels ; aucune recherche juridique, validation des chiffres
+et délais reçus, implémentation/exécution de skill, installation client,
+relecture indépendante ni démarche externe. Toutes les suites restent
+`proposee` ; aucune tranche n’est sélectionnée. Les contrôles et relevés du
+cadrage initial à dix suites sont historiques et ne sont pas réécrits.

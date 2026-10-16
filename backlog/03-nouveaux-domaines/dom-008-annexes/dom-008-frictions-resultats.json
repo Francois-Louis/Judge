@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "scope": "complément documentaire ; aucun résultat juridique validé",
+  "validation_context": "HEAD plus seuls fichiers transports, hors travaux santé/véhicules",
+  "checks": {
+    "source_integrity": {
+      "status": "passed",
+      "problems": [],
+      "numbered_frictions": 128,
+      "sha256": "ee09d4b8d4c2e97a7e2eb22ca19e481ad618c8bd198d2cb61f378ea21fdf0cbb",
+      "attachment_compared": true
+    },
+    "matrix_coverage": {
+      "status": "passed",
+      "problems": [],
+      "rows": 128
+    },
+    "backlog_metadata_dependencies": {
+      "status": "passed",
+      "problems": [],
+      "stories": 576
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "problems": [],
+      "proposals": 22,
+      "new_skills": 12
+    },
+    "links_format_and_relays": {
+      "status": "passed",
+      "problems": [],
+      "local_links": 342,
+      "files": 34
+    },
+    "no_plugin_created": {
+      "status": "passed",
+      "problems": []
+    },
+    "backlog_index": {
+      "status": "passed",
+      "problems": []
+    },
+    "json_sanity": {
+      "status": "passed",
+      "problems": [],
+      "files": 80
+    },
+    "cookbook_tool_scope": {
+      "status": "passed",
+      "problems": []
+    }
+  },
+  "not_run": [
+    "recherche juridique",
+    "skills et scénarios exécutables",
+    "installation client",
+    "lecteur indépendant",
+    "calcul juridique ou démarche externe"
+  ]
+}

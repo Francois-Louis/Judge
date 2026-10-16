@@ -117,3 +117,11 @@ Points 116–125 : CRIM-004 organise la plainte et CRIM-007 lit sa suite ; CRIM-
 Ne déduire ni culpabilité d’une plainte, ni procès garanti, ni extinction de l’action publique d’un retrait. Presse → DOM-043 ; indemnisation et condamnation restent distinctes. Scénarios : main courante prise pour plainte ; classement sans motif compris ; retrait pendant procédure ; citation directe avec auteur non identifié. Sources : CPP, textes pénaux spéciaux et règles de presse ; aucun délai générique du guide appliqué.
 
 Les scénarios indiqués sont attendus, non exécutés. Sources/version, champ, déclencheur, exceptions et transitions restent à rechercher ; le texte fourni n’est pas une autorité juridique.
+
+## Complément des frictions transports — 16 octobre 2026
+
+Points 30, 82–83 de la [matrice transports](dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+TPT-012 qualifie le PV de transport et son stade ; les voies pénales ou publiques contre une amende majorée restent à découper selon autorité et document. Faux chauffeur et usurpation : sécurité immédiate, faits et orientation pénale, sans plainte déposée ni qualification garantie.
+
+Scénarios **attendus, non exécutés** : Avis majoré après usurpation d’identité ou faux VTC : distinguer acte de recours urgent, preuve, signalement et remboursement de course TPT-016.

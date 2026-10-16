@@ -94,3 +94,13 @@ Retard sans annulation (TPT-003), forfait (TPT-006), garantie commerciale de cor
 Issue de DOM-008, sans implémentation. Dépend de PILOTE-003 : préalable
 satisfait après BASE-011 ; aucune tranche sélectionnée par ce cadrage.
 Contrat commun : [découpage](../dom-008-annexes/dom-008-decoupage-transports.md).
+
+## Complément des frictions transports — 16 octobre 2026
+
+Points 45 de la [matrice transports](../dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Cartographier les contrats indépendants assemblés par un intermédiaire ; même panier et correspondance garantie ne sont pas équivalents.
+
+- [ ] Le résultat conserve ces distinctions et les pièces correspondantes ; chiffres et délais du texte vérifiés sur sources à l’implémentation.
+
+Scénario **attendu, non exécuté** : Comparateur vendant deux billets indépendants : réserver la protection de correspondance et identifier les engagements de chaque acteur.

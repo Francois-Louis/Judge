@@ -81,3 +81,10 @@ Ces exigences restent à découper ou préciser ; [portée et contrôles de l'in
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
 
+## Complément des frictions transports — 16 octobre 2026
+
+Points 88, 115–116 de la [matrice transports](dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Distinguer conventionnement du taxi/VSL, prescription, accord préalable, facture et notification du refus CPAM. Découper une vérification de facturation médicale et un dossier de recours contre refus, avec sources Assurance maladie et textes de sécurité sociale aux faits ; les suites ne sont pas encore proposées.
+
+Scénarios **attendus, non exécutés** : VTC présenté comme taxi conventionné puis remboursement refusé : qualifier le mode et le motif sans promettre prise en charge ; la course seule reste TPT-016.

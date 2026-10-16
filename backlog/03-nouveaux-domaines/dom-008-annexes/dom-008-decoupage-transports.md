@@ -1,6 +1,6 @@
 # DOM-008 — Découpage des transports et voyages
 
-Cadrage du **16 octobre 2026**. Les dix stories TPT restent `proposee`.
+Cadrage du **16 octobre 2026**. Les vingt-deux stories TPT restent `proposee`.
 Aucun plugin, skill, agent, connecteur ou hook n’est créé ; les chemins et
 commandes proposés ne sont pas disponibles. Situation visée : S-40 du
 [backlog des usages](../../usages-quotidiens.md).
@@ -31,7 +31,7 @@ un régime universel de transport.
 | Axe | Informations et pièces à demander | Conséquence pour le routage |
 |---|---|---|
 | Qualité | Passager, représentant et pouvoir, expéditeur/destinataire professionnel ; acheteur distinct du voyageur. | Passager ou fret, aucune représentation supposée. |
-| Mode et trajet | Aérien, ferroviaire, autobus/autocar, maritime/fluvial, mixte ; tous les lieux et segments, pays de départ, correspondance et arrivée. | Champ territorial propre au mode ; multimodal ne signifie pas régime unique. |
+| Mode et trajet | Aérien, ferroviaire, autobus/autocar, maritime/fluvial, taxi/VTC, covoiturage, libre-service, mixte ; tous les lieux et segments, pays de départ, correspondance et arrivée. | Champ territorial propre au mode ; multimodal ne signifie pas régime unique. |
 | Contrat | Billets, confirmation, facture, conditions à l’achat ; réservation unique, billet direct ou contrats distincts ; achat groupé, prestation liée ou forfait à établir. | Même panier, vendeur ou référence ne suffisent pas à conclure. |
 | Acteurs | Transporteur commercial et effectif par segment, vendeur, organisateur, détaillant, commissionnaire selon le dossier. | Destinataire et obligation de chacun, sans responsabilité collective présumée. |
 | Dates et preuves | Achat, trajet prévu/réel, annulation et réception de l’avis, arrivée, remise de bagage, signalement et réception de réclamation ; fuseaux horaires. | Version applicable et chronologie ; aucun calcul sans déclencheur, preuve et source lus. |
@@ -48,7 +48,7 @@ examinés.
 
 | Domaine voisin | Ce qu’il garde | Ce que transport garde |
 |---|---|---|
-| Consommation — DOM-001 | Livraison d’un achat au consommateur, hébergement ou location de véhicule isolés, VTC à qualifier selon le client. | Incident du trajet et engagements du vendeur/organisateur dans un forfait qualifié. |
+| Consommation — DOM-001 | Livraison d’un achat au consommateur, hébergement ou location classique de véhicule isolés ; autres ventes/services au consommateur. | Incident du trajet et engagements du vendeur/organisateur dans un forfait qualifié ; course taxi/VTC TPT-016, covoiturage TPT-017 et facturation libre-service TPT-018. |
 | Véhicules et garages — DOM-023 | Achat, réparation, contrôle et prestations de garage. | Transport du voyageur ; dommage du véhicule embarqué reste ouvert, sans absorption du litige garage. |
 | Télécoms et poste — DOM-022 | Services postaux et envoi confié à un opérateur postal. | Fret non postal qualifié (TPT-010) ; ne pas décider à partir du seul mot « colis ». |
 | Assurance — DOM-005 | Garantie voyage, annulation personnelle, assistance de l’assureur ; garantie professionnelle du fret (INS-019). | Obligations du transporteur ou vendeur, sans les subordonner à l’existence d’une assurance. |
@@ -134,16 +134,47 @@ Les guides officiels orientent sans remplacer la source fondant une
 conclusion. Maintenance selon BASE-010 en cas d’échec d’accès ; aucun
 connecteur ou script de maintenance n’est imposé au paquet installé.
 
+## Complément des 128 frictions — 16 octobre 2026
+
+La [matrice](dom-008-frictions-utilisateurs.md) rattache chaque point aux
+propriétaires et distingue tâches proposées et lacunes des cadrages voisins.
+Douze suites supplémentaires, rang 3 et priorité P2, dépendent toutes de
+TPT-001 pour le paquet commun ; aucun nouveau prérequis entre elles.
+La première tranche aérienne TPT-001 conserve ses bornes.
+
+| Rang | Story | Skill proposé | Résultat borné | Dépendances métier |
+|---|---|---|---|---|
+| 3 | [TPT-011](../suites/tpt-011-billet-ferroviaire.md) | `rail-ticket-claim` | Un voyageur prépare une demande de correction ou de justification concernant un billet ou des frais ferroviaires, hors retard et annulation du service. | TPT-001 |
+| 3 | [TPT-012](../suites/tpt-012-contester-pv-transport.md) | `transport-penalty-review` | Une personne verbalisée dans un transport ferroviaire ou urbain français obtient la qualification de son document et un dossier de contestation adapté à son stade. | TPT-001 |
+| 3 | [TPT-013](../suites/tpt-013-service-titre-urbain.md) | `urban-transit-claim` | Un usager d’un métro, RER, tramway ou bus prépare une réclamation documentée sur la validité de son titre ou l’exécution du service local. | TPT-001 |
+| 3 | [TPT-014](../suites/tpt-014-billet-aerien-frais.md) | `air-ticket-fee-review` | Un passager prépare une demande ciblée sur prix, frais, identité ou condition no-show d’un billet aérien vendu hors forfait. | TPT-001 |
+| 3 | [TPT-015](../suites/tpt-015-refus-embarquement-aerien.md) | `denied-boarding-claim` | Un passager refusé à l’embarquement prépare une réclamation distincte de l’annulation ou du retard du vol. | TPT-001 |
+| 3 | [TPT-016](../suites/tpt-016-reclamation-taxi-vtc.md) | `taxi-private-hire-claim` | Un passager prépare une réclamation sur l’exécution ou le prix d’une course taxi ou VTC en France. | TPT-001 |
+| 3 | [TPT-017](../suites/tpt-017-reclamation-covoiturage.md) | `carpool-incident-claim` | Un passager prépare une demande sur annulation, supplément ou trajet non exécuté dans un covoiturage avec ou sans plateforme. | TPT-001 |
+| 3 | [TPT-018](../suites/tpt-018-facturation-libre-service.md) | `shared-mobility-billing-claim` | Un usager de vélo, trottinette ou véhicule en libre-service prépare une contestation de frais liée à une course déterminée. | TPT-001 |
+| 3 | [TPT-019](../suites/tpt-019-assistance-pmr-transport.md) | `accessible-travel-assistance` | Une personne handicapée ou à mobilité réduite prépare une demande ou réclamation d’assistance sur un trajet et un mode identifiés. | TPT-001 |
+| 3 | [TPT-020](../suites/tpt-020-bagage-autocar.md) | `coach-baggage-claim` | Un voyageur prépare un dossier pour un bagage en soute disparu, endommagé ou refusé lors d’un trajet d’autocar. | TPT-001 |
+| 3 | [TPT-021](../suites/tpt-021-dommage-bien-maritime.md) | `sea-passenger-property-claim` | Un passager prépare un dossier pour un bagage ou véhicule perdu ou endommagé pendant une traversée maritime qualifiée. | TPT-001 |
+| 3 | [TPT-022](../suites/tpt-022-taxes-vol-non-effectue.md) | `unused-flight-tax-refund` | Un passager n’ayant pas embarqué prépare une demande ciblée de taxes et redevances, distincte du remboursement du tarif aérien. | TPT-001 |
+
+TPT-012 possède la contestation de PV et sa médiation spécifique ; TPT-013
+le titre urbain et le service hors PV. TPT-014 garde les frais du billet,
+TPT-015 le refus d’embarquement et TPT-022 les seules taxes de non-embarquement.
+TPT-019 décline l’assistance et le fauteuil par mode, jamais avec un préavis
+universel. Les biens autocar et maritimes TPT-020/021 n’étendent pas les
+skills de perturbation TPT-008/009. Toute orientation vers une tâche absente
+reste une fiche factuelle avec question et interlocuteur, sans appel fictif.
+
 ## Points ouverts, sans couverture annoncée
 
-- Refus d’embarquement, déclassement, annulation personnelle et erreur de
-  réservation du vendeur : tâches à découper.
-- Mobilité réduite et assistance spécifique : besoin qualifié dès l’entrée,
-  sans annoncer les droits sectoriels comme une tâche livrée.
-- Bagages hors aérien, véhicule embarqué endommagé, trajet multimodal,
-  rapatriement et insolvabilité : périmètres à arrêter.
-- Fret : qualification seulement dans TPT-010 ; réclamations au fond à
-  découper par mode, trajet et contrat sans extension automatique.
+Déclassement, annulation personnelle hors taxes/garantie, bagage ferroviaire,
+multimodal complexe, rapatriement, insolvabilité et fret au fond restent à
+découper. Transport médical/CPAM DOM-012, dommages corporels DOM-035,
+discrimination DOM-029, pénal DOM-002 et images hors travail EXIST-003 gardent
+leurs tâches au fond à découper. Sources supplémentaires à rechercher :
+régimes de PV, tarifs taxi locaux, contrats de covoiturage/libre-service,
+assistance sectorielle et dommages maritimes, détaillés dans les nouvelles
+stories. Ni barème, ni délai ni règle du texte reçu n’est validé ici.
 
 ## Contrat de livraison des futures stories
 
@@ -162,7 +193,7 @@ isolé, invocation réelle, scénarios, relecture métier et compréhension par
 une personne réelle ; les résultats non exécutés restent explicites.
 
 Le bilan PILOTE-003 est satisfait après BASE-011, mais ne sélectionne pas
-une tranche. DOM-008 ne lance aucune des dix implémentations. La
+une tranche. DOM-008 ne lance aucune des vingt-deux implémentations. La
 [vérification documentaire](dom-008-verification.md) et le
 [relevé statique](dom-008-resultats.json) ont une portée distincte d’une
 recette de skill ou d’une validation juridique.

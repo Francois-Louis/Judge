@@ -94,3 +94,13 @@ Saisine ou dépôt, requête, exécution, transaction, cession de créance, fond
 Issue de DOM-008, sans implémentation. Dépend de PILOTE-003 : préalable
 satisfait après BASE-011 ; aucune tranche sélectionnée par ce cadrage.
 Contrat commun : [découpage](../dom-008-annexes/dom-008-decoupage-transports.md).
+
+## Complément des frictions transports — 16 octobre 2026
+
+Points 64–65, 75, 95, 118–120, 122, 127–128 de la [matrice transports](../dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Conserver formulaire complet, annexes, accusé et motifs. Distinguer relance, signalement, médiation et action individuelle ; vérifier la réforme procédurale aérienne alléguée en 2026 (champ, entrée en vigueur, transitions, exceptions et acte requis). Ne pas proposer CTX-026 par défaut. Transaction vers CTX-039 ; PV vers TPT-012, avec calendrier propre sans suspension présumée.
+
+- [ ] Le résultat conserve ces distinctions et les pièces correspondantes ; chiffres et délais du texte vérifiés sur sources à l’implémentation.
+
+Scénario **attendu, non exécuté** : Dossier aérien fermé automatiquement puis médiateur non compétent : produire chronologie et vérifications de procédure, sans saisine simplifiée ou effet interruptif garanti.

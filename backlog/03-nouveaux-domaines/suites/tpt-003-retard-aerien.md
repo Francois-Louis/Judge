@@ -94,3 +94,13 @@ Annulation (TPT-001/TPT-002), forfait (TPT-006), refus d’embarquement, bagages
 Issue de DOM-008, sans implémentation. Dépend de PILOTE-003 : préalable
 satisfait après BASE-011 ; aucune tranche sélectionnée par ce cadrage.
 Contrat commun : [découpage](../dom-008-annexes/dom-008-decoupage-transports.md).
+
+## Complément des frictions transports — 16 octobre 2026
+
+Points 45, 51–54, 57, 63 de la [matrice transports](../dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Mesurer le retard à destination finale selon segments et champ établis ; différencier météo, grève interne/externe, preuve causale et assistance. Changement d’horaire : qualification avant choix de tâche.
+
+- [ ] Le résultat conserve ces distinctions et les pièces correspondantes ; chiffres et délais du texte vérifiés sur sources à l’implémentation.
+
+Scénario **attendu, non exécuté** : Premier segment retardé et motif de grève générique : distinguer contrats et arrivée finale, sans exonération ou indemnité automatique.

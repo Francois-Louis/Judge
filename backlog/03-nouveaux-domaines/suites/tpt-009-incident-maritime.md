@@ -94,3 +94,13 @@ Bagages, dommage corporel, fret, avarie du véhicule embarqué, simple excursion
 Issue de DOM-008, sans implémentation. Dépend de PILOTE-003 : préalable
 satisfait après BASE-011 ; aucune tranche sélectionnée par ce cadrage.
 Contrat commun : [découpage](../dom-008-annexes/dom-008-decoupage-transports.md).
+
+## Complément des frictions transports — 16 octobre 2026
+
+Points 89–92, 95 de la [matrice transports](../dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Séparer retard au départ/à l’arrivée et durée prévue, assistance, hébergement et effets spécifiques de la météo. Notification de dommage TPT-021 distincte de plainte pour perturbation et prescription judiciaire.
+
+- [ ] Le résultat conserve ces distinctions et les pièces correspondantes ; chiffres et délais du texte vérifiés sur sources à l’implémentation.
+
+Scénario **attendu, non exécuté** : Ferry annulé pour météo, hôtel et bon proposés : vérifier chaque obligation et plafond sans exonération globale ni délai unique.

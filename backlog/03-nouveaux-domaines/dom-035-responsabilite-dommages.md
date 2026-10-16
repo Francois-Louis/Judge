@@ -77,3 +77,11 @@ Scénarios **attendus, non exécutés** : préjudice financier attribué à un a
 ## Complément des frictions données personnelles — 16 octobre 2026
 
 Points 48–53 et 59–60 de la [matrice données personnelles](../02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md) : prévoir une tâche bornée, encore à découper, pour organiser dommage allégué, preuve, causalité et demande de réparation après atteinte aux données, avec fondement spécial à rechercher. PRV-034 prépare la plainte CNIL ; voie juridictionnelle et recours contre l'autorité à qualifier avec EXIST-006/DOM-010. Scénario attendu : fuite, frais consécutifs allégués et indemnité recherchée, sans déduire dommage, causalité ou montant de la seule violation. Portée et contrôles : voir la matrice.
+
+## Complément des frictions transports — 16 octobre 2026
+
+Points 38, 102, 124 de la [matrice transports](dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Découper la fiche d’accident et la réparation corporelle selon mode, lieu et responsabilité. Identifier exploitant, véhicule, témoins et constat ; coordonner assurance sans garantir couverture. Les réclamations de service ne chiffrent pas le préjudice corporel.
+
+Scénarios **attendus, non exécutés** : Chute en station puis accident en covoiturage : qualifier séparément responsables et régimes, préserver preuves et orienter vers avocat et professionnel de santé selon urgence.

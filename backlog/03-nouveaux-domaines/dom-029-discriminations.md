@@ -64,3 +64,10 @@ Points 19–22 et 26 de la [matrice IA](../02-plugins-existants/exist-005-annexe
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+## Complément des frictions transports — 16 octobre 2026
+
+Point 112 de la [matrice transports](dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Refus d’embarquement : garder ici la qualification et les recours de discrimination à découper ; TPT-019 documente motifs, besoin fonctionnel et obligations sectorielles. Vérifier exceptions, acteurs et preuves sans déduire discrimination du seul refus.
+
+Scénarios **attendus, non exécutés** : Refus invoquant sécurité et handicap : séparer assistance, solution accessible et qualification au fond sans conclure automatiquement.

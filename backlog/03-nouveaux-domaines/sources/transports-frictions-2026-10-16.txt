@@ -1,0 +1,433 @@
+# France — Les pièges, abus et recours dans les transports
+
+État du droit vérifié au 16 octobre 2026 · Transports de voyageurs
+
+Les litiges les plus récurrents et les plus problématiques concernent les annulations, retards, amendes contestables, billets inutilisables, remboursements refusés, frais cachés, correspondances manquées et défauts de prise en charge.
+
+Le piège est souvent moins spectaculaire : une validation manquante, un délai de réclamation trop court, un billet qui ne garantit pas la correspondance, un remboursement accepté alors qu'un réacheminement aurait été plus avantageux, ou une preuve devenue inaccessible.
+
+Voici un inventaire des situations à surveiller, avec les moyens de se défendre. L'ordre privilégie les risques pratiques, sans prétendre constituer un classement statistique des plaintes.
+
+## 1. Train — SNCF, TER, TGV, OUIGO, Intercités et autres opérateurs
+
+### Billetterie et réservation
+
+1\. Billet acheté mais train supprimé. Le transporteur propose parfois uniquement un avoir ou un report. Lorsque les droits réglementaires s'appliquent, le voyageur doit pouvoir choisir entre remboursement et réacheminement. Ne pas accepter automatiquement un avoir.
+
+2\. Correspondance vendue sans véritable protection. Deux billets indépendants n'offrent pas nécessairement les garanties d'un billet direct. Vérifier avant l'achat la qualification du voyage, particulièrement entre TER, TGV et opérateurs différents.
+
+3\. Correspondance ratée à cause du premier train. Avec un billet direct, des droits au réacheminement existent. Avec deux réservations indépendantes, la protection est nettement moins favorable.
+
+4\. Billet marqué « non remboursable ». Cette condition ne supprime pas automatiquement les droits légaux lorsque le transporteur annule le train. Il faut distinguer annulation volontaire et annulation imposée.
+
+5\. Billet devenu beaucoup plus cher après un échange. Vérifier les frais d'échange, la différence tarifaire et les conditions de remboursement avant de confirmer.
+
+6\. Achat à un intermédiaire. Le vendeur et le transporteur se renvoient parfois la responsabilité. Conserver l'identité du transporteur effectif, la référence de réservation et le détail du contrat.
+
+7\. Mauvaise date, mauvaise gare ou mauvais nom. Certaines erreurs rendent le billet inutilisable. Vérifier notamment les gares secondaires, noms composés et trajets aller-retour.
+
+8\. Réduction achetée sans justificatif valable. Une carte expirée ou une réduction non justifiée peut entraîner une régularisation. Conserver la carte et les pièces justifiant le tarif.
+
+9\. Billet électronique inaccessible. Application en panne, compte déconnecté, batterie vide ou absence de réseau. Prévoir un accès hors ligne au billet lorsque les conditions du transporteur le permettent.
+
+10\. Bagage jugé non conforme à bord. Dimensions, nombre ou étiquetage peuvent entraîner une régularisation. Les règles diffèrent selon les transporteurs et les offres. Conserver les conditions applicables au moment de l'achat.
+
+### Retards, annulations et perturbations
+
+11\. Retard insuffisamment indemnisé. Pour les trajets ferroviaires concernés, le minimum réglementaire est de 25 % du billet dès 60 minutes de retard à l'arrivée et 50 % dès 120 minutes. Certaines offres sont plus favorables.
+
+12\. Absence de proposition de réacheminement. En cas de retard prévisible d'au moins 60 minutes à destination, des droits au remboursement ou à la poursuite du voyage peuvent s'ouvrir.
+
+13\. Train annulé et voyageur abandonné en gare. Repas, rafraîchissements et, si nécessaire, hébergement et transport vers cet hébergement peuvent être dus dans les conditions réglementaires.
+
+14\. Aucun réacheminement communiqué. Lorsque le règlement européen s'applique, si aucune solution n'est communiquée dans les 100 minutes suivant le départ prévu du train retardé ou annulé, le voyageur peut organiser un trajet alternatif en transport public, avec remboursement des frais nécessaires, appropriés et raisonnables.
+
+15\. Refus d'indemnisation pour « circonstances exceptionnelles ». Cette justification doit correspondre à une véritable cause exonératoire. La grève du personnel de l'entreprise ferroviaire n'en constitue pas une.
+
+16\. Retards répétés sur une ligne utilisée quotidiennement. Les titulaires d'abonnements peuvent bénéficier de mécanismes d'indemnisation des perturbations récurrentes. Il faut consulter les conditions de l'offre et documenter les retards.
+
+17\. Retard d'un TER traité comme celui d'un TGV. Les protections ne sont pas identiques pour tous les services. Les billets directs comprenant une correspondance TER bénéficient toutefois, depuis le 1er janvier 2025, des règles nationales d'indemnisation correspondantes.
+
+18\. Remboursement automatiquement proposé en bon d'achat. Pour l'indemnisation réglementaire ferroviaire, un paiement en argent peut être demandé. Ne pas confondre cette indemnisation avec une garantie commerciale supplémentaire.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++3
+
+
+
+## 2. Métro, RER, tramway et bus urbains
+
+### Amendes et pièges de validation
+
+19\. Titre payé, mais non validé. Avoir acheté son ticket ne suffit pas. Selon le réseau, l'absence de validation expose à une amende, même avec un abonnement payé.
+
+20\. Validation sans confirmation. Un bip insuffisant, un voyant rouge, un valideur défectueux ou un téléphone mal présenté peuvent faire croire que le titre est validé. Vérifier systématiquement la confirmation.
+
+21\. Ticket chargé sur téléphone mais indisponible. Batterie déchargée, NFC désactivé, application bloquée ou ticket non synchronisé. Une preuve d'achat ne remplace pas toujours la présentation du titre valide.
+
+22\. Correspondance hors du périmètre du ticket. La durée et les modalités de correspondance dépendent du réseau et du titre. Un changement de mode de transport peut nécessiter un nouveau billet.
+
+23\. Abonnement expiré le premier jour du mois. Le paiement ou le rechargement ne signifie pas nécessairement que le forfait est actif. Vérifier sa période de validité.
+
+24\. Ticket au tarif réduit sans justificatif. L'âge, la situation ou la réduction doivent parfois être prouvés pendant le contrôle.
+
+25\. Titre nominatif utilisé par un proche. Même payé, un abonnement personnel n'est généralement pas transférable.
+
+26\. Amende dressée malgré un automate ou un valideur défectueux. Photographier le matériel, relever son numéro, l'heure et la station. Signaler immédiatement le dysfonctionnement à un agent et conserver les justificatifs.
+
+27\. Contrôle à la sortie du réseau. La preuve de validité du titre peut rester obligatoire jusqu'à la fin du déplacement, y compris dans certaines zones de sortie ou de correspondance.
+
+28\. Erreur d'identité ou de lieu sur un procès-verbal. Demander une copie, vérifier les informations et réunir les preuves utiles. Une simple erreur matérielle n'annule pas nécessairement le PV.
+
+29\. Amende payée dans la précipitation pour éviter des complications. Le paiement ne rend pas toujours toute réclamation impossible, mais les procédures diffèrent. Faire préciser le motif exact et conserver la quittance.
+
+30\. Amende laissée sans réponse. C'est l'un des pièges les plus coûteux : pour les PV de transports concernés, le délai de contestation est de 3 mois à compter de la verbalisation. Ensuite, le dossier peut être transmis au Trésor public avec majoration.
+
+31\. Réclamation effectuée uniquement par téléphone. Sans preuve écrite, il devient difficile de démontrer la contestation. Privilégier la procédure officielle et conserver l'accusé de dépôt.
+
+32\. Médiateur saisi trop tard. Pour un PV SNCF non réglé, la médiation doit intervenir après contestation auprès du centre de recouvrement, mais avant la fin du délai de trois mois.
+
+### Qualité du service et sécurité
+
+33\. Bus passé en avance. La fréquence théorique ne prouve pas le passage réel. Noter la ligne, l'arrêt, l'horaire affiché et l'heure du passage constaté.
+
+34\. Bus qui ne s'arrête pas malgré la présence de voyageurs. Signaler les faits avec le numéro de véhicule, la ligne et l'heure précise.
+
+35\. Dernier métro ou bus supprimé sans solution. Conserver les preuves des horaires annoncés et des frais supplémentaires éventuels. Le remboursement d'un taxi n'est pas automatique.
+
+36\. Abonnement mensuel maintenu malgré de fortes perturbations. Vérifier les campagnes de dédommagement, leurs critères et leurs périodes de demande.
+
+37\. Escalator, ascenseur ou accès PMR durablement indisponible. Documenter les incidents et demander une solution accessible. Une simple signalisation ne règle pas nécessairement le problème d'accessibilité.
+
+38\. Accident, chute ou blessure dans un véhicule ou une station. Faire constater l'incident rapidement, demander les coordonnées des témoins, conserver les justificatifs médicaux et identifier l'exploitant.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.ratp.fr\&sz=32)
+
+RATP
+
++4
+
+
+
+## 3. Avion — Compagnies aériennes, aéroports et agences
+
+### Réservation et frais cachés
+
+39\. Prix d'appel trompeur. Un vol annoncé à bas prix devient plus cher après ajout des bagages, sièges et services. Les frais obligatoires doivent être intégrés au prix final annoncé ; les prestations optionnelles doivent être clairement présentées.
+
+40\. Bagage cabine facturé au dernier moment. Les compagnies appliquent des politiques de dimensions et de poids différentes. Photographier le bagage avec ses dimensions et conserver les conditions tarifaires.
+
+41\. Supplément pour enregistrement à l'aéroport. Certaines compagnies imposent des frais si l'enregistrement en ligne n'a pas été effectué. Vérifier les échéances de check-in.
+
+42\. Correction d'une faute de frappe facturée au prix fort. Les politiques varient selon les compagnies. Distinguer simple rectification d'identité et changement de passager.
+
+43\. Bagage à main refusé à la porte d'embarquement. Une différence de dimensions de quelques centimètres peut déclencher des frais. Conserver les règles applicables à la réservation.
+
+44\. Vol aller manqué entraînant l'annulation du retour. Les clauses dites no-show peuvent avoir de lourdes conséquences, particulièrement sur certains billets aller-retour. Vérifier les conditions tarifaires et contester une clause éventuellement abusive.
+
+45\. Deux vols vendus avec une correspondance non garantie. Une agence ou un comparateur peut assembler des billets indépendants. Un retard du premier vol ne protège pas nécessairement le second.
+
+46\. Billet non remboursable présenté comme totalement perdu. Même lorsque le passager renonce volontairement au voyage, certaines taxes et redevances liées à l'embarquement peuvent être remboursables.
+
+47\. Assurance annulation présentée comme couvrant tous les motifs. Maladie, empêchement professionnel ou changement d'avis ne sont pas forcément garantis. Lire les exclusions et franchises.
+
+### Annulations et indemnisation
+
+48\. Vol annulé avec remboursement imposé. Selon le règlement européen, le passager peut choisir entre remboursement et réacheminement dans les conditions prévues. Le remboursement unilatéral peut être défavorable si un nouveau billet coûte beaucoup plus cher.
+
+49\. Réacheminement limité aux vols de la même compagnie. La compagnie ne peut pas systématiquement exclure les autres transporteurs si une solution comparable est disponible plus tôt.
+
+50\. Indemnisation forfaitaire jamais proposée spontanément. Selon la distance et les circonstances, le règlement européen prévoit des indemnités de 250 €, 400 € ou 600 €.
+
+51\. Retard de trois heures sous-estimé. Le retard à l'arrivée à destination finale, et non uniquement au décollage, compte pour l'indemnisation. Les seuils précis dépendent du trajet.
+
+52\. Excuse générique de mauvais temps. La compagnie doit pouvoir démontrer les circonstances extraordinaires invoquées et le lien avec le retard ou l'annulation.
+
+53\. Grève utilisée comme justification universelle. Une grève interne du personnel de la compagnie n'exonère généralement pas de l'indemnisation, contrairement à certaines circonstances extérieures.
+
+54\. Hôtel et repas non proposés. Même en présence de circonstances extraordinaires, les obligations d'assistance peuvent subsister.
+
+55\. Surréservation ou surbooking. Un refus d'embarquement involontaire peut ouvrir droit à indemnisation, assistance et choix entre remboursement et réacheminement.
+
+56\. Proposition d'un bon d'achat à la place de l'argent. Ne pas accepter un avoir par défaut lorsque le remboursement en argent est dû.
+
+57\. Vol décalé à une heure très différente. Une modification importante, notamment une avance de plus d'une heure, peut être juridiquement assimilée à une annulation.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://europa.eu\&sz=32)
+
+Your Europe
+
++1
+
+
+
+### Bagages et contentieux
+
+58\. Valise absente à l'arrivée. Faire immédiatement établir un rapport d'irrégularité bagage (PIR) et conserver son numéro. Ne pas quitter l'aéroport sans signaler le problème si le service est disponible.
+
+59\. Bagage endommagé. Réclamation écrite dans les 7 jours suivant sa réception. Les photographies et les factures sont indispensables.
+
+60\. Bagage livré en retard. Réclamer par écrit dans les 21 jours suivant la réception. Conserver les factures des achats de première nécessité.
+
+61\. Valise définitivement perdue. Réunir une liste des objets, leurs valeurs et leurs justificatifs. L'indemnisation est plafonnée par la convention applicable ; elle n'équivaut pas nécessairement au prix d'achat de tous les biens.
+
+62\. Remboursement forfaitaire arbitraire des bagages. Demander la méthode de calcul et fournir les preuves de valeur. Ne pas supposer que le plafond de responsabilité est une indemnité automatiquement versée.
+
+63\. Réclamation adressée uniquement à l'agence de réservation. Pour les droits issus du règlement européen sur les passagers aériens, identifier et réclamer auprès du transporteur aérien effectif.
+
+64\. Action en justice engagée sans respecter la procédure. Depuis le 7 février 2026, la médiation préalable est obligatoire pour les contentieux d'indemnisation aérienne concernés, sous réserve d'exceptions transitoires. La saisine du tribunal doit ensuite se faire par assignation.
+
+65\. Plainte auprès de la DGAC confondue avec une action en indemnisation. La DGAC peut contrôler et sanctionner les manquements, mais ne constitue pas un tribunal chargé de faire payer directement le passager.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++3
+
+
+
+## 4. Autocars longue distance — FlixBus, BlaBlaCar Bus et autres
+
+66\. Autocar annulé sans proposition de solution. Sur les services réguliers concernés d'au moins 250 km, un choix entre remboursement et réacheminement doit être proposé.
+
+67\. Départ retardé de plus de deux heures. Le règlement européen prévoit un choix entre remboursement et réacheminement. Si le transporteur omet ce choix, une indemnisation supplémentaire de 50 % du billet peut être réclamée dans les conditions prévues.
+
+68\. Car parti avant l'heure affichée. Le départ anticipé est assimilé à une annulation au sens du règlement européen applicable.
+
+69\. Arrêt déplacé sans information suffisante. Conserver la confirmation initiale, les notifications reçues et les captures du point de départ.
+
+70\. Autocar qui ne s'arrête pas. Documenter la présence à l'arrêt avant le départ, l'horaire et le numéro du service. Réclamer rapidement.
+
+71\. Correspondance ratée entre deux autocars. Vérifier si les trajets font partie d'un même contrat ou de réservations indépendantes. La protection n'est pas automatiquement identique à celle d'un billet de train direct.
+
+72\. Voyageur laissé de nuit dans une gare routière. Sur certains trajets de plus de trois heures, un retard au départ supérieur à 90 minutes peut ouvrir droit à assistance, notamment restauration et hébergement plafonné.
+
+73\. Bagage disparu dans la soute. Demander un constat immédiatement. Conserver le ticket de bagage et la preuve de son dépôt. La responsabilité dépend des circonstances et du régime applicable.
+
+74\. Bagage refusé ou supplément imprévu. Photographier le bagage et conserver les conditions de franchise affichées lors de l'achat.
+
+75\. Réclamation envoyée trop tard. Pour les droits couverts par le règlement européen sur les autocars, la plainte doit être adressée dans les 3 mois suivant le service concerné.
+
+Attention : le seuil de 250 km correspond à la longueur prévue du service régulier d'autocar, pas nécessairement à la distance parcourue par un passager.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://europa.eu\&sz=32)
+
+Your Europe
+
++1
+
+
+
+## 5. Taxis et VTC
+
+76\. Taxi refusant la carte bancaire. En France, le taxi doit accepter la carte bancaire quel que soit le montant de la course et disposer d'un terminal en état de marche.
+
+77\. Compteur non enclenché. Le taximètre doit être utilisé, même lorsqu'un tarif a été convenu à l'avance, sous réserve des règles particulières applicables.
+
+78\. Suppléments injustifiés. Bagages, réservation, attente ou passagers supplémentaires : vérifier les suppléments autorisés localement et leur présence sur la note.
+
+79\. Course dans un aéroport à tarif forfaitaire réglementé. Certains trajets, notamment entre Paris et ses aéroports, obéissent à des forfaits. Vérifier le tarif applicable avant de payer.
+
+80\. Refus de délivrer une facture. La note de taxi est obligatoire à partir de 25 € TTC et doit être délivrée sur demande sous ce seuil.
+
+81\. Taxi empruntant volontairement un itinéraire anormal. Comparer l'itinéraire avec le trajet parcouru, demander la note et contester avec des éléments objectifs. Le trajet le plus court n'est pas toujours le plus rapide ni nécessairement obligatoire.
+
+82\. Faux taxi à la sortie d'une gare ou d'un aéroport. Vérifier les signes officiels, l'autorisation et le compteur. Éviter les sollicitations non officielles.
+
+83\. Faux VTC usurpant une réservation. Comparer l'immatriculation, le modèle du véhicule et l'identité du chauffeur avec l'application avant de monter.
+
+84\. Majoration dynamique VTC mal comprise. Un prix multiplié en période de forte demande n'est pas automatiquement illégal : les tarifs des VTC sont libres. En revanche, l'information tarifaire doit respecter les obligations de transparence.
+
+85\. Course VTC facturée malgré une annulation par le conducteur. Conserver les échanges et contester les frais auprès de la plateforme.
+
+86\. Frais d'attente ou de non-présentation injustifiés. Vérifier le point de rendez-vous contractuel, les horaires de présence, les appels et les notifications.
+
+87\. Course terminée dans l'application alors que le trajet continue, ou inversement. Capturer le parcours et réclamer la correction de la facturation.
+
+88\. Taxi conventionné confondu avec VTC. Pour des transports médicaux remboursables, un VTC classique n'ouvre pas droit à la prise en charge par l'Assurance maladie.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++3
+
+
+
+## 6. Ferry et transport maritime de passagers
+
+89\. Traversée annulée et bon d'achat imposé. Pour les traversées couvertes par le règlement européen, remboursement ou réacheminement doivent être proposés, dans les conditions prévues.
+
+90\. Départ retardé de plus de 90 minutes. Le voyageur peut bénéficier d'un choix entre remboursement et réacheminement, ainsi que d'une assistance sous conditions.
+
+91\. Indemnisation du retard à l'arrivée ignorée. Elle peut atteindre 25 % ou 50 % du billet selon la durée prévue du voyage et le retard subi.
+
+92\. Frais d'hôtel après une annulation. Une assistance peut être due, mais l'hébergement terrestre est plafonnable à trois nuits de 80 € et certaines conditions météorologiques constituent une exception.
+
+93\. Véhicule endommagé pendant la traversée. Photographier immédiatement les dommages, faire établir un constat et informer par écrit le transporteur.
+
+94\. Dégradation d'un bagage non signalée. Pour certains dommages couverts par les règles européennes sur les événements maritimes, une notification écrite doit intervenir avant de quitter le navire ou dans un délai maximal de 15 jours selon les circonstances.
+
+95\. Réclamation maritime tardive. Pour les droits des passagers liés aux retards et annulations, la plainte doit généralement être déposée dans les 2 mois suivant le service concerné.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://europa.eu\&sz=32)
+
+Your Europe
+
++1
+
+
+
+## 7. Covoiturage
+
+96\. Conducteur annulant à la dernière minute. Avec une plateforme, vérifier les conditions de remboursement ; en cas d'annulation par le conducteur, le passager doit normalement récupérer le prix versé selon les modalités applicables.
+
+97\. Conducteur demandant un supplément en espèces. Ne pas accepter de paiement supplémentaire non prévu et non justifié. Conserver les messages.
+
+98\. Trajet annoncé puis fortement modifié. Un détour important ou une destination différente peut constituer un manquement à l'accord initial.
+
+99\. Passager abandonné en cours de route. Conserver les échanges, la réservation et les preuves du lieu de dépose. Le recours dépend du contrat et des circonstances.
+
+100\. Faux covoiturage masquant du transport professionnel clandestin. Le véritable covoiturage repose sur un déplacement effectué pour le compte du conducteur et un partage des frais, non sur la réalisation d'un bénéfice.
+
+101\. Covoiturage confondu avec transport professionnel. Les protections légales applicables aux autocars ne se transposent pas automatiquement entre particuliers.
+
+102\. Assurance mal comprise lors d'un accident. Les passagers bénéficient de la couverture obligatoire de responsabilité civile automobile, mais les conditions de certaines garanties complémentaires doivent être vérifiées.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.economie.gouv.fr\&sz=32)
+
+economie.gouv.fr
+
++2
+
+
+
+## 8. Vélos, trottinettes et véhicules en libre-service
+
+Les problèmes suivants sont surtout des risques contractuels et probatoires : les recours exacts dépendent des conditions du service et du droit de la consommation.
+
+103\. Location qui continue après restitution. L'application n'enregistre pas la fin de course. Faire une capture du message de clôture et photographier le véhicule à son point de stationnement.
+
+104\. Véhicule déclaré mal stationné. Conserver une photo montrant le véhicule entier et son environnement, avec les règles de stationnement affichées.
+
+105\. Véhicule prétendument dégradé après utilisation. Photographier son état avant et après. Demander la preuve du dommage imputé et son chiffrage.
+
+106\. Préautorisation bancaire confondue avec un débit. Distinguer caution bloquée et paiement réellement encaissé. Vérifier les conditions de libération de la préautorisation.
+
+107\. Application qui impose un stationnement à un endroit inaccessible ou non autorisé. Documenter l'erreur de géolocalisation et contacter le support avant d'abandonner le véhicule.
+
+108\. Facturation à la minute poursuivie pendant une panne. Déclarer immédiatement le dysfonctionnement et conserver le suivi de la course.
+
+109\. Abonnement renouvelé automatiquement. Vérifier le type d'offre, l'échéance et le moyen de résiliation contractuellement prévu.
+
+110\. Assurance présentée comme incluse. Lire les exclusions : responsabilité civile, vol, casse, blessures du conducteur et franchise sont des protections distinctes.
+
+## 9. Handicap, mobilité réduite et transports médicaux
+
+111\. Assistance PMR refusée faute de réservation suffisamment anticipée. Pour faciliter sa garantie, l'assistance est généralement à demander 48 heures avant un vol, 24 heures avant un train en France, 36 heures avant un autocar longue distance et 48 heures avant un bateau. Les opérateurs doivent néanmoins s'efforcer d'aider lorsque la demande est plus tardive.
+
+112\. Refus d'embarquement fondé uniquement sur le handicap. Ce motif ne suffit pas à justifier un refus ; des exceptions strictes de sécurité ou d'accessibilité peuvent s'appliquer.
+
+113\. Fauteuil roulant endommagé ou perdu. Faire constater immédiatement les dommages et réclamer au titre du régime propre au mode de transport.
+
+114\. Accompagnant facturé alors que sa présence est imposée pour la sécurité. Certains modes de transport prévoient sa gratuité dans des circonstances précises. Vérifier le régime applicable.
+
+115\. Taxi ou VSL médical facturant des prestations contestables. Demander le détail des montants, la prescription et les justificatifs ; vérifier les règles conventionnelles.
+
+116\. Remboursement de transport médical refusé. La prescription, le mode de transport et, dans certains cas, l'accord préalable sont déterminants. Faire vérifier le motif écrit du refus par la CPAM.
+
+Sources :&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://europa.eu\&sz=32)
+
+European Union
+
++1
+
+
+
+## 10. Pièges transversaux à tous les transports
+
+117\. Absence de preuve d'un retard. Les horaires annoncés peuvent disparaître après l'incident. Capturer le numéro du service, l'heure initiale, l'heure réelle et les notifications.
+
+118\. Réclamation perdue dans un formulaire en ligne. Enregistrer une copie complète du texte et des pièces transmises, ainsi que l'accusé d'enregistrement.
+
+119\. Plateforme qui ferme le dossier sans réponse motivée. Réitérer la réclamation par un canal traçable et demander les coordonnées du médiateur compétent.
+
+120\. Réponse automatique affirmant que le dossier est clôturé. Une clôture informatique n'efface pas les droits légaux ni les possibilités de recours.
+
+121\. Signature d'un accord pour solde de tout compte. Lire précisément toute transaction avant de la signer : elle peut empêcher de formuler certaines réclamations ultérieures.
+
+122\. Acceptation d'une compensation commerciale de faible valeur. Vérifier si elle se substitue à une indemnisation légale ou si elle s'y ajoute.
+
+123\. Demande de remboursement sans factures. Les dépenses d'hôtel, taxi, nourriture et achat de remplacement doivent pouvoir être justifiées.
+
+124\. Accident sans identification de témoins. Relever les coordonnées de témoins, le véhicule, la ligne ou le service et faire constater les dommages corporels.
+
+125\. Images de vidéosurveillance effacées avant une demande. Demander rapidement au responsable du traitement la conservation ou l'accès aux images pertinentes, selon les droits applicables. Une demande n'assure pas automatiquement leur conservation.
+
+126\. Erreur d'interlocuteur. Transporteur, distributeur, gestionnaire de station, plateforme, assureur et organisateur de voyage peuvent avoir des responsabilités différentes.
+
+127\. Saisie d'un médiateur non compétent. La mauvaise saisine peut faire perdre du temps sans interrompre nécessairement tous les délais applicables.
+
+128\. Confusion entre signalement et indemnisation. SignalConso ou une autorité de contrôle peuvent traiter un manquement, mais cela ne remplace pas toujours une réclamation individuelle ou une action en justice.
+
+## 11. Les délais à ne surtout pas rater
+
+| Situation                                                    | Délai ou seuil décisif                                                                                            |
+| ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| Train concerné par le règlement européen                     | 60 min : ouverture de certains droits ; indemnisation minimale de 25 % dès 60 min, 50 % dès 120 min               |
+| Réacheminement ferroviaire non communiqué                    | 100 min après le départ prévu, sous conditions                                                                    |
+| PV SNCF/RATP non réglé                                       | 3 mois après verbalisation pour les voies de contestation concernées                                              |
+| Médiation commerciale SNCF                                   | En principe, après réponse négative ou 1 mois sans réponse ; saisine dans l'année suivant la première réclamation |
+| Vol annulé                                                   | Selon les conditions, indemnisation notamment si information moins de 14 jours avant le départ                    |
+| Vol retardé                                                  | Indemnisation possible dès 3 h à l'arrivée ; seuils spécifiques selon la distance                                 |
+| Bagage aérien endommagé                                      | 7 jours après réception                                                                                           |
+| Bagage aérien livré en retard                                | 21 jours après réception                                                                                          |
+| Réclamation pour autocar couvert par le règlement UE         | 3 mois après le service concerné                                                                                  |
+| Réclamation maritime concernant retard/annulation            | 2 mois après le service concerné                                                                                  |
+| Médiation puis action judiciaire pour indemnisation aérienne | Médiation préalable obligatoire depuis le 7 février 2026, sous réserve d'exceptions                               |
+
+Ces délais ne sont pas tous des prescriptions judiciaires : certains sont des délais de notification, de réclamation, de médiation ou des seuils déclenchant des droits. Ils ne sont donc pas interchangeables.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://mediation.sncf-voyageurs.com\&sz=32)
+
+MÉDIATION SNCF VOYAGEURS
+
++5
+
+
+
+## 12. Méthode pratique pour se défendre
+
+En cas de litige, respecter cet ordre permet généralement de préserver les preuves et d'éviter de perdre ses droits.
+
+1. Avant le trajet : sauvegarder les billets, les conditions tarifaires, l'identité du transporteur et les horaires contractuels.
+2. Dès l'incident : photographier ou capturer les preuves datées, demander une confirmation écrite au personnel et relever les témoins éventuels.
+3. Sur place : demander expressément les solutions légales disponibles (réacheminement, remboursement, assistance) avant de faire des dépenses importantes.
+4. Après le trajet : déposer une réclamation écrite avec références, faits chronologiques, fondement de la demande et justificatifs. Garder une preuve de réception.
+5. En cas de refus : utiliser le médiateur compétent, sans laisser expirer les délais particuliers ni ceux d'une éventuelle action judiciaire.
+
+Les ressources officielles à privilégier sont le [Service Public](https://www.service-public.gouv.fr/?utm_source=chatgpt.com), [Your Europe — droits des passagers](https://europa.eu/youreurope/citizens/travel/passenger-rights/index_fr.htm?utm_source=chatgpt.com), [SignalConso](https://signal.conso.gouv.fr/?utm_source=chatgpt.com) et, pour les litiges ferroviaires, la [Médiation SNCF Voyageurs](https://mediation.sncf-voyageurs.com/?utm_source=chatgpt.com).
+
+Le principe à retenir : ne jamais traiter une proposition commerciale du transporteur comme l'intégralité de ses obligations légales. Un remboursement, une assistance, un réacheminement et une indemnisation sont des droits distincts, qui ne se cumulent pas toujours, mais qu'il faut examiner séparément avant d'accepter une solution.

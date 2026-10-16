@@ -74,7 +74,7 @@ seuil, montant ou conversion n’est repris sans source effectivement lue.
 
 - Cas normal : Service régulier international annulé : qualifier avant toute demande.
 - Cas limite : Trajet local sans distance ni type établi : réserver le régime, aucun seuil inventé.
-- Cas limite : VTC annulé : orientation consommation/commercial selon la qualité du demandeur.
+- Cas limite : VTC annulé : orientation TPT-016 selon la qualité du demandeur, sans régime autocar.
 - Sans source : qualification et pièces utiles, aucun droit, délai ou montant dû confirmé.
 - Transfrontalier : tester pays tiers, acteur étranger et dates ; loi applicable, champ du régime et juge ne sont pas déduits de la langue du billet.
 - Héritage étranger : joindre un modèle américain et vérifier qu’aucune règle ou somme n’est importée dans la réclamation.
@@ -94,3 +94,13 @@ Taxi/VTC, location de véhicule, covoiturage, bagages, dommage corporel, forfait
 Issue de DOM-008, sans implémentation. Dépend de PILOTE-003 : préalable
 satisfait après BASE-011 ; aucune tranche sélectionnée par ce cadrage.
 Contrat commun : [découpage](../dom-008-annexes/dom-008-decoupage-transports.md).
+
+## Complément des frictions transports — 16 octobre 2026
+
+Points 66–72, 75 de la [matrice transports](../dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Distinguer longueur prévue du service et distance du passager, départ anticipé, arrêt déplacé/non desservi, correspondances indépendantes et assistance. Indemnité supplémentaire pour absence de choix et plainte : conditions et événement propres à vérifier. Bagages TPT-020.
+
+- [ ] Le résultat conserve ces distinctions et les pièces correspondantes ; chiffres et délais du texte vérifiés sur sources à l’implémentation.
+
+Scénario **attendu, non exécuté** : Service long mais court segment acheté, départ anticipé et nuit à l’arrêt : qualifier champ et preuves avant choix, assistance et éventuelle indemnité.

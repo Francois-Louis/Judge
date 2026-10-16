@@ -94,3 +94,13 @@ Fret, bagage ferroviaire, dommage corporel, forfait et contrat multimodal non qu
 Issue de DOM-008, sans implémentation. Dépend de PILOTE-003 : préalable
 satisfait après BASE-011 ; aucune tranche sélectionnée par ce cadrage.
 Contrat commun : [découpage](../dom-008-annexes/dom-008-decoupage-transports.md).
+
+## Complément des frictions transports — 16 octobre 2026
+
+Points 1–4, 6, 11–18, 117, 123 de la [matrice transports](../dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+Prévoir retards récurrents d’abonnement, service régional, billet direct, régime temporel/exemptions, réacheminement auto-organisé et coûts raisonnables. Vérifier séparément argent/avoir, garanties commerciales, assistance et exonération. Les seuils du texte sont à rechercher.
+
+- [ ] Le résultat conserve ces distinctions et les pièces correspondantes ; chiffres et délais du texte vérifiés sur sources à l’implémentation.
+
+Scénario **attendu, non exécuté** : TER puis TGV achetés ensemble, attente et taxi payé : qualifier billet direct et service, chronologie des propositions, puis frais sans remboursement automatique.

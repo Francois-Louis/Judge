@@ -94,3 +94,13 @@ Bagages des autres modes à découper ; marchandise professionnelle (TPT-010), a
 Issue de DOM-008, sans implémentation. Dépend de PILOTE-003 : préalable
 satisfait après BASE-011 ; aucune tranche sélectionnée par ce cadrage.
 Contrat commun : [découpage](../dom-008-annexes/dom-008-decoupage-transports.md).
+
+## Complément des frictions transports — 16 octobre 2026
+
+Points 58–62 de la [matrice transports](../dom-008-annexes/dom-008-frictions-utilisateurs.md).
+
+PIR, notification du dommage et réclamation écrite ne se confondent pas. Séparer détérioration, retard, perte qualifiée et plafond de responsabilité ; dépenses et valeur prouvées, conversion et version vérifiées.
+
+- [ ] Le résultat conserve ces distinctions et les pièces correspondantes ; chiffres et délais du texte vérifiés sur sources à l’implémentation.
+
+Scénario **attendu, non exécuté** : PIR seul puis bagage livré abîmé et tardivement : identifier les écrits nécessaires et événements distincts sans délai universel.
