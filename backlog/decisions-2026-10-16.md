@@ -41,6 +41,8 @@ ne valident aucune règle de droit.
 
 | Chasse et pêche de loisir | Nouveau cadrage (question posée le même jour). | [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) et situation S-45 |
 | Relation avec un notaire ou un avocat (frais, réclamation) | Nouveau cadrage « professionnels du droit ». | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) et situation S-44 |
+| Contrôles du fisc, de la CAF, de l'URSSAF et des autres organismes | Traités dans chaque domaine, pas de cadrage transversal. | Compléments dans [DOM-011](03-nouveaux-domaines/dom-011-fiscalite.md), [DOM-012](03-nouveaux-domaines/dom-012-protection-sociale.md) et [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) |
+| Comptables | Expert-comptable dans DOM-041 (professionnels du droit et du chiffre) ; comptable public et vérification de comptabilité dans DOM-011. | Compléments dans [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) et DOM-011 |
 
 Les nouvelles stories sont `proposee`. Elles suivent le contrat commun de leur
 découpage et n'ont été ni sélectionnées ni implémentées.

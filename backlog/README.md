@@ -460,7 +460,7 @@ rattachée à DOM-035.
 | [DOM-038](03-nouveaux-domaines/dom-038-violences-intrafamiliales.md) | Cadrer un plugin violences intrafamiliales et protection | cadrage | P2 |
 | [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) | Cadrer un plugin micro-entreprise et travail indépendant | cadrage | P2 |
 | [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) | Cadrer un plugin chasse et pêche de loisir | cadrage | P3 |
-| [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Cadrer un plugin relation avec un professionnel du droit | cadrage | P2 |
+| [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Cadrer un plugin relation avec un professionnel du droit ou du chiffre | cadrage | P2 |
 
 ## Livraison d'un lot vérifié
 

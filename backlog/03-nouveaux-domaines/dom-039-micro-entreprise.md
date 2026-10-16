@@ -24,6 +24,7 @@ Nom de plugin proposé : `self-employed-legal`. Aucun plugin n'est créé par ce
 - Vérifier une déclaration de chiffre d'affaires, un dépassement de seuil ou un changement de régime.
 - Comprendre l'imposition de l'activité (versement libératoire, cotisation foncière des entreprises, TVA) sans calcul non sourcé.
 - Préparer les questions sur le cumul de l'activité avec un emploi salarié, une indemnisation chômage ou des aides.
+- Lire un avis de contrôle de l'URSSAF, une lettre d'observations ou une mise en demeure qui suit un contrôle, et préparer la réponse.
 
 ## Qualification et frontières
 
@@ -36,7 +37,8 @@ prestations de la CAF et minima sociaux → DOM-012 ; retraite → DOM-036 ;
 contrat avec un client professionnel → commercial ; client particulier →
 consommation ou secteur ; relation de travail déguisée → travail privé ;
 acte de saisie → DOM-003 ; difficultés de paiement globales d'une activité →
-qualification séparée.
+qualification séparée. Vérification de comptabilité par le fisc → DOM-011 ;
+relation avec l'expert-comptable → DOM-041 (compléments du 16 octobre 2026).
 
 ## Sources à prévoir et vérifier
 
@@ -65,6 +67,7 @@ période, montants recopiés, stade et pièces à réunir.
 - Une mise en demeure de l'URSSAF pour des cotisations d'un trimestre déclaré à zéro.
 - Un dépassement de seuil de chiffre d'affaires découvert en fin d'année.
 - Une micro-entrepreneuse également salariée à temps partiel et allocataire de la CAF.
+- Une lettre d'observations de l'URSSAF après un contrôle, chiffrage non détaillé.
 
 Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pas
 résoudre ces dossiers pendant le cadrage.

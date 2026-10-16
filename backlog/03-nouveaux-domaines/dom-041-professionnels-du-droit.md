@@ -1,22 +1,23 @@
 ---
 id: DOM-041
-titre: "Cadrer un plugin relation avec un professionnel du droit"
+titre: "Cadrer un plugin relation avec un professionnel du droit ou du chiffre"
 statut: proposee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
 ---
 
-# DOM-041 — Cadrer un plugin relation avec un professionnel du droit
+# DOM-041 — Cadrer un plugin relation avec un professionnel du droit ou du chiffre
 
 ## Objectif
 
-Aider une personne à comprendre les frais d'un notaire ou les honoraires d'un
-avocat, à préparer une réclamation ou une contestation et à savoir à qui
-s'adresser lorsque la relation avec ce professionnel pose problème.
+Aider une personne à comprendre les frais d'un notaire, les honoraires d'un
+avocat ou d'un expert-comptable, à préparer une réclamation ou une
+contestation et à savoir à qui s'adresser lorsque la relation avec ce
+professionnel pose problème.
 Ajouté le 16 octobre 2026 ([décisions](../decisions-2026-10-16.md)).
 
-Nom de plugin proposé : `legal-services-legal`. Aucun plugin n'est créé par cette story.
+Nom de plugin proposé : `professional-services-legal`. Aucun plugin n'est créé par cette story.
 
 ## Tâches métier à découper
 
@@ -24,6 +25,7 @@ Nom de plugin proposé : `legal-services-legal`. Aucun plugin n'est créé par c
 - Lire une convention ou une facture d'honoraires d'avocat et préparer une contestation.
 - Préparer une réclamation contre un notaire, un avocat ou un commissaire de justice : retard, absence de réponse, restitution du dossier.
 - Préparer une demande d'aide juridictionnelle pour une procédure identifiée.
+- Lire une lettre de mission ou des honoraires d'expert-comptable ; préparer une réclamation pour documents non rendus, retard ou erreur alléguée dans une déclaration.
 
 ## Qualification et frontières
 
@@ -34,14 +36,17 @@ La relation avec le professionnel est ici. Le fond du dossier reste à son
 domaine : succession → DOM-016, achat immobilier → DOM-017, famille →
 DOM-013, procédure → litigation ; les taxes collectées par le notaire sont
 lues ici et leur assiette relève de DOM-011. Frais d'exécution figurant dans
-un acte de saisie → ENF-003. Faute pénale alléguée → DOM-002.
+un acte de saisie → ENF-003. Faute pénale alléguée → DOM-002. Conséquence
+fiscale ou sociale d'une erreur de l'expert-comptable → DOM-011 ou DOM-039 ;
+ici seulement la relation avec le professionnel.
 
 ## Sources à prévoir et vérifier
 
 Textes sur les tarifs réglementés des notaires (Code de commerce et arrêtés),
-statut des notaires et des avocats, procédure de contestation des honoraires
-d'avocat, aide juridictionnelle ; chambres des notaires, ordres des avocats,
-médiateurs des professions et service public comme sources d'information.
+statut des notaires, des avocats et des experts-comptables, procédure de
+contestation des honoraires d'avocat, aide juridictionnelle ; chambres des
+notaires, ordres des avocats et des experts-comptables, médiateurs des
+professions et service public comme sources d'information.
 
 Les guides orientent le cadrage ; les textes et versions applicables seront
 vérifiés lors de chaque implémentation.
@@ -64,6 +69,7 @@ honoraires, avec les questions à poser à l'étude.
 - Des « frais de notaire » d'achat immobilier jugés trop élevés par l'acquéreur.
 - Un avocat réclamant des honoraires sans convention écrite.
 - Une succession qui n'avance pas, notaire sans réponse depuis des mois.
+- Un expert-comptable qui ne rend pas les documents d'un artisan après la fin de sa mission.
 
 Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pas
 résoudre ces dossiers pendant le cadrage.

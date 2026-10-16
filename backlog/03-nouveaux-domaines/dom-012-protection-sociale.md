@@ -46,8 +46,30 @@ Un premier skill de lecture d'une notification d'indu pour un organisme et une p
 - Une notification d'indu.
 - Un refus de prise en charge.
 - Une décision portant sur un droit à prestation ou un calcul.
+- Une visite d'un contrôleur de la CAF, puis une demande de pièces.
+- Une suspension de prestation après un contrôle, avec mention d'une fraude possible.
 
 Vérifier le routage et les informations à demander. La story ne doit pas résoudre ces consultations ni fournir de délais ou montants non vérifiés.
+
+## Compléments du 16 octobre 2026
+
+Ajoutés par décision de l'utilisateur ([décisions du 16 octobre 2026](../decisions-2026-10-16.md)). Ces tâches candidates
+s'ajoutent à celles ci-dessus ; elles restent à hiérarchiser par le cadrage.
+
+- **Contrôle d'un organisme** (CAF, assurance maladie, France Travail,
+  MSA selon le statut) : courrier ou visite de contrôle, entretien, demande
+  de pièces, droit de communication auprès de tiers, rapport de contrôle.
+  Préparer les pièces et les questions ; distinguer contrôle, décision,
+  indu, suspension et pénalité administrative.
+- **Suspicion de fraude** : pénalité administrative et volet pénal
+  éventuel distingués ; plainte ou poursuite → DOM-002. Aucune présomption
+  de fraude ni d'innocence.
+- Les cotisations et contrôles URSSAF d'un indépendant relèvent de DOM-039 ;
+  ceux d'un employeur restent à qualifier séparément.
+
+Sources à prévoir en plus : Code de la sécurité sociale et textes propres à
+chaque organisme sur le contrôle, le droit de communication et les
+pénalités ; chartes de contrôle publiées par les organismes, à vérifier.
 
 ## Hors périmètre
 
