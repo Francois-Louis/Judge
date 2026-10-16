@@ -472,3 +472,11 @@ DOM-001 to DOM-005 archive preservation (2026-10-16): disable Git newline
 normalization for archived user friction reports so their committed bytes
 retain the SHA-256 fingerprints checked by the documentary controls.
   .gitattributes (new)
+
+Plugin version bump rule (2026-10-16): Claude Code caches installed plugins
+by version, so every change under a plugin directory must raise its
+plugin.json version. Documented in CLAUDE.md with a pre-push check comparing
+the working tree with origin/main. No plugin file changed.
+  CLAUDE.md
+  NOTICE
+  scripts/check-version-bump.py (new)

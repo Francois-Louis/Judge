@@ -144,6 +144,17 @@ For first-party plugins, `marketplace.json`'s `name`, `description`, and
 field. If you change a plugin's description in one place, change it in the
 other.
 
+### Bump the plugin version on every shipped change
+
+Claude Code caches installed plugins by `version`: without a bump, a pushed
+skill or agent never reaches users who update the marketplace. Any commit that
+changes files under `<plugin>/` raises that plugin's `version` in
+`<plugin>/.claude-plugin/plugin.json` (patch by default, minor for a new skill
+or adapted domain). Also update the expected version in
+`scripts/test-base008-isolation.py` and any version quoted in the plugin
+description. Before pushing, run `python scripts/check-version-bump.py`
+(compares with `origin/main`, `--base <ref>` otherwise).
+
 ### Skill names in prose must be canonical
 
 When a `SKILL.md` (especially `customize` or `cold-start-interview`) tells the
