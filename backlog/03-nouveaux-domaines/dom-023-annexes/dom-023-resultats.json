@@ -1,0 +1,304 @@
+{
+  "story": "DOM-023",
+  "date": "2026-10-16",
+  "timezone": "Europe/Paris",
+  "git_head": "2e167d905e1cc95474aae132bae154bf5eaa5396",
+  "scope": "cadrage documentaire du domaine véhicules, garages et réparations ; aucun plugin créé ni validation juridique",
+  "checks": {
+    "backlog_frontmatter_and_dependencies": {
+      "status": "passed",
+      "total": 530,
+      "statuses": {
+        "terminee": 39,
+        "en-cours": 1,
+        "proposee": 466,
+        "abandonnee": 23,
+        "a-verifier": 1
+      },
+      "problems": []
+    },
+    "bounded_proposals": {
+      "status": "passed",
+      "count": 12,
+      "file_targets": 39,
+      "future_files": [
+        {
+          "path": "vehicle-legal/.claude-plugin/plugin.json",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/README.md",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/CLAUDE.md",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/NOTICE",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/LICENSE",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/references/shared/research-citation-method.md",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/references/isolation.md",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/scripts/judge_store.py",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/references/company-profile-template.md",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/references/dashboard-template.md",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/references/qualification-vehicule.md",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/references/accords-travaux.md",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/skills/garage-invoice-review/SKILL.md",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/skills/garage-invoice-review/references/demande-explication.md",
+          "owner": "VEH-001"
+        },
+        {
+          "path": "vehicle-legal/skills/garage-storage-retention/SKILL.md",
+          "owner": "VEH-002"
+        },
+        {
+          "path": "vehicle-legal/references/retention-gardiennage.md",
+          "owner": "VEH-002"
+        },
+        {
+          "path": "vehicle-legal/skills/repair-failure-claim/SKILL.md",
+          "owner": "VEH-003"
+        },
+        {
+          "path": "vehicle-legal/references/reparation-defaillante.md",
+          "owner": "VEH-003"
+        },
+        {
+          "path": "vehicle-legal/skills/used-vehicle-dealer-defect/SKILL.md",
+          "owner": "VEH-004"
+        },
+        {
+          "path": "vehicle-legal/references/vente-vehicule.md",
+          "owner": "VEH-004"
+        },
+        {
+          "path": "vehicle-legal/skills/used-vehicle-private-defect/SKILL.md",
+          "owner": "VEH-005"
+        },
+        {
+          "path": "vehicle-legal/references/vente-entre-particuliers-vehicule.md",
+          "owner": "VEH-005"
+        },
+        {
+          "path": "vehicle-legal/skills/rental-return-damage/SKILL.md",
+          "owner": "VEH-006"
+        },
+        {
+          "path": "vehicle-legal/references/etat-restitution.md",
+          "owner": "VEH-006"
+        },
+        {
+          "path": "vehicle-legal/references/location-courte-duree.md",
+          "owner": "VEH-006"
+        },
+        {
+          "path": "vehicle-legal/skills/vehicle-purchase-precheck/SKILL.md",
+          "owner": "VEH-007"
+        },
+        {
+          "path": "vehicle-legal/references/revue-avant-achat.md",
+          "owner": "VEH-007"
+        },
+        {
+          "path": "vehicle-legal/skills/new-vehicle-order-dispute/SKILL.md",
+          "owner": "VEH-008"
+        },
+        {
+          "path": "vehicle-legal/references/commande-vehicule-neuf.md",
+          "owner": "VEH-008"
+        },
+        {
+          "path": "vehicle-legal/skills/lease-return-charges/SKILL.md",
+          "owner": "VEH-009"
+        },
+        {
+          "path": "vehicle-legal/references/location-longue-duree.md",
+          "owner": "VEH-009"
+        },
+        {
+          "path": "vehicle-legal/skills/vehicle-evidence-preservation/SKILL.md",
+          "owner": "VEH-010"
+        },
+        {
+          "path": "vehicle-legal/references/preuve-expertise.md",
+          "owner": "VEH-010"
+        },
+        {
+          "path": "vehicle-legal/skills/manufacturer-warranty-claim/SKILL.md",
+          "owner": "VEH-011"
+        },
+        {
+          "path": "vehicle-legal/references/garantie-constructeur.md",
+          "owner": "VEH-011"
+        },
+        {
+          "path": "vehicle-legal/skills/private-seller-response/SKILL.md",
+          "owner": "VEH-012"
+        }
+      ],
+      "problems": []
+    },
+    "breakdown_table_consistency": {
+      "status": "passed",
+      "rows": 12,
+      "problems": []
+    },
+    "story_scenarios_entry_points_and_arbitration": {
+      "status": "passed",
+      "entry_routes": 12,
+      "arbitration_pending": true,
+      "legal_validation": false,
+      "business_scenarios_executed": false,
+      "problems": []
+    },
+    "no_plugin_created": {
+      "status": "passed",
+      "marketplace_plugins": 11,
+      "problems": []
+    },
+    "links_and_format": {
+      "status": "passed",
+      "markdown_files": 16,
+      "local_links": 109,
+      "problems": []
+    },
+    "table_column_counts": {
+      "status": "passed",
+      "problems": []
+    },
+    "index_matrix_and_prerequisites": {
+      "status": "passed",
+      "problems": []
+    },
+    "figures_for_manual_review": {
+      "status": "manual-review",
+      "count": 0,
+      "occurrences": [],
+      "note": "Occurrences à relire : aucune durée, aucune durée de garantie, aucun seuil ni montant ne doit être présenté comme une règle."
+    },
+    "scope_vs_task_baseline": {
+      "status": "passed",
+      "baseline_git_head": "2e167d905e1cc95474aae132bae154bf5eaa5396",
+      "lot_changes": [
+        "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md",
+        "backlog/03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py",
+        "backlog/03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md",
+        "backlog/03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md",
+        "backlog/03-nouveaux-domaines/dom-023-vehicules-garages.md",
+        "backlog/03-nouveaux-domaines/suites/veh-001-facture-garage.md",
+        "backlog/03-nouveaux-domaines/suites/veh-002-gardiennage-retention.md",
+        "backlog/03-nouveaux-domaines/suites/veh-003-reparation-defaillante.md",
+        "backlog/03-nouveaux-domaines/suites/veh-004-occasion-vendeur-pro.md",
+        "backlog/03-nouveaux-domaines/suites/veh-005-occasion-vendeur-particulier.md",
+        "backlog/03-nouveaux-domaines/suites/veh-006-location-dommages-retour.md",
+        "backlog/03-nouveaux-domaines/suites/veh-007-revue-avant-achat.md",
+        "backlog/03-nouveaux-domaines/suites/veh-008-commande-vehicule-neuf.md",
+        "backlog/03-nouveaux-domaines/suites/veh-009-restitution-location-longue.md",
+        "backlog/03-nouveaux-domaines/suites/veh-010-expertise-amiable.md",
+        "backlog/03-nouveaux-domaines/suites/veh-011-garantie-constructeur.md",
+        "backlog/03-nouveaux-domaines/suites/veh-012-vendeur-particulier-reponse.md",
+        "backlog/ETAT.md",
+        "backlog/etat.py"
+      ],
+      "concurrent_patterns": [],
+      "concurrent_changes": [],
+      "preserved_files": 1071,
+      "report_excluded_from_own_comparison": true,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 84,
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    }
+  },
+  "lot_sha256": {
+    "backlog/03-nouveaux-domaines/dom-023-vehicules-garages.md": "25dd2c8b428cad0f914bea49d331c7fa9c5a266efd7845de03e1aa1b6dab4a6e",
+    "backlog/03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md": "9c7840885deaff2ed8ce22861de90e0282a0e70d02dcaec9aaed62b13874c5d5",
+    "backlog/03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md": "8717a12769cf6a54c1bb15eb76c4c8602d2e65bcca970850f423c325c7471277",
+    "backlog/03-nouveaux-domaines/suites/veh-001-facture-garage.md": "1444199e36bef1e4fff82c260afb2c93ca75d74e0d43306ee9e05aa947f8e461",
+    "backlog/03-nouveaux-domaines/suites/veh-002-gardiennage-retention.md": "f57288cf096ab854a66ec5a294a4b9667c598976be57834e7d43c9cbf4dcf22d",
+    "backlog/03-nouveaux-domaines/suites/veh-003-reparation-defaillante.md": "7151e0a8f67185947dcf68ffe7c59dc2ad5ce80d41cdc2cba9ccfe6e7bd4969c",
+    "backlog/03-nouveaux-domaines/suites/veh-004-occasion-vendeur-pro.md": "6fc3e11a812cc2240ef99b33b09a84d5250a3cf434468a06f073ccd46cc5fdd3",
+    "backlog/03-nouveaux-domaines/suites/veh-005-occasion-vendeur-particulier.md": "35430ca7545a0a0676ebc991ea47d773cca93ed9bdbc991c0496ef9d82d6de3a",
+    "backlog/03-nouveaux-domaines/suites/veh-006-location-dommages-retour.md": "c05a2f6e5c75360462773c803e2769f111188ded0c703b2d7e74d32fdebf3e82",
+    "backlog/03-nouveaux-domaines/suites/veh-007-revue-avant-achat.md": "3dda2e28fafe6f5b2ff94d86570de34009ce9e3abf07f0c4a35214ec7274c75a",
+    "backlog/03-nouveaux-domaines/suites/veh-008-commande-vehicule-neuf.md": "a2307812b7148993fa6d84b0a8ba51206793a66574090e3a806ddeb659a7be87",
+    "backlog/03-nouveaux-domaines/suites/veh-009-restitution-location-longue.md": "118ec999773f5faa2b33281a9cca205d009edaf3fa0f15380ec8d3e1e2b4a619",
+    "backlog/03-nouveaux-domaines/suites/veh-010-expertise-amiable.md": "ea4491d3060ff48cbf7aa1226b40b02f4a7c00f40e734a2b99e9f74afc0b0153",
+    "backlog/03-nouveaux-domaines/suites/veh-011-garantie-constructeur.md": "deade71bc8f0283282a988971f388dd3f34bbcb5a67aa6529dde857253894d5b",
+    "backlog/03-nouveaux-domaines/suites/veh-012-vendeur-particulier-reponse.md": "0cb22f0ce716735697f38a32a177204a7925f85541949d570afd6ed9c5d9ee79",
+    "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md": "e729059a129ded040ad1ec34e2cbd9c8ded234cf44ad6c2938beb82ae3bd7eb3",
+    "backlog/etat.py": "92c6306941ee25952b08f80ca2222878da95373d2c3f6493968da58a37fc2c39",
+    "backlog/03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py": "00fa07e26a2a58a8f0693eb1a8b7a644c78e85bcf9c3a8f71a44a966442d48e0"
+  },
+  "not_run": [
+    "recherche juridique externe",
+    "calcul de délai, de durée de garantie, de seuil ou de montant",
+    "création ou exécution de skill",
+    "installation/recette client",
+    "lecteur réel ou indépendant",
+    "connexion/envoi/publication"
+  ],
+  "commands": [
+    [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "backlog\\03-nouveaux-domaines\\dom-023-annexes\\dom-023-controles.py",
+      "--baseline",
+      "C:/Users/fltou/AppData/Local/Temp/claude/c--Users-fltou-Desktop-Judge/b186b954-6d59-4cdf-b041-5fb1b3355af6/scratchpad/baseline.json",
+      "--output",
+      "backlog/03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json"
+    ],
+    "python -X utf8 backlog/etat.py --check (appelé par le contrôleur)",
+    "python -X utf8 scripts/lint-tool-scope.py (appelé par le contrôleur)",
+    "git diff --check (appelé par le contrôleur)"
+  ],
+  "execution_notes": [
+    "Relevé produit dans le checkout principal, contre un instantané pris avant l'écriture du lot si --baseline est fourni.",
+    "Articles du Code civil, du Code de la consommation et du Code de la route cités comme pistes, non ouverts ; scénarios métier non exécutés.",
+    "Arbitrage sur la vente d'un véhicule entre particuliers laissé à l'utilisateur ; VEH-005 et VEH-012 restent conditionnelles."
+  ]
+}

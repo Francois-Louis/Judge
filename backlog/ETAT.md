@@ -7,12 +7,12 @@
 | En cours | 1 |
 | À vérifier | 1 |
 | Bloquée | 0 |
-| Terminée | 38 |
+| Terminée | 39 |
 | Prête | 0 |
-| À faire | 455 |
+| À faire | 466 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 147 |
-| Total | 518 |
+| dont prêtes à démarrer | 146 |
+| Total | 530 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -60,7 +60,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-020](03-nouveaux-domaines/dom-020-voisinage-servitudes.md) | Cadrer un plugin voisinage et servitudes | P2 | cadrage |
 | [DOM-021](03-nouveaux-domaines/dom-021-energie-eau.md) | Cadrer un plugin énergie, eau et services essentiels | P2 | cadrage |
 | [DOM-022](03-nouveaux-domaines/dom-022-telecoms-poste.md) | Cadrer un plugin télécoms et services postaux | P2 | cadrage |
-| [DOM-023](03-nouveaux-domaines/dom-023-vehicules-garages.md) | Cadrer un plugin véhicules, garages et réparations | P2 | cadrage |
 | [DOM-024](03-nouveaux-domaines/dom-024-dettes-surendettement.md) | Cadrer un plugin dettes et surendettement des particuliers | P2 | cadrage |
 | [DOM-025](03-nouveaux-domaines/dom-025-handicap-autonomie.md) | Cadrer un plugin handicap et autonomie | P2 | cadrage |
 | [DOM-026](03-nouveaux-domaines/dom-026-protection-majeurs.md) | Cadrer un plugin de protection juridique des majeurs | P2 | cadrage |
@@ -256,6 +255,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [dom-006-controles.py](03-nouveaux-domaines/dom-006-annexes/dom-006-controles.py) · [dom-006-decoupage-logement.md](03-nouveaux-domaines/dom-006-annexes/dom-006-decoupage-logement.md) · [dom-006-resultats.json](03-nouveaux-domaines/dom-006-annexes/dom-006-resultats.json) · [dom-006-verification.md](03-nouveaux-domaines/dom-006-annexes/dom-006-verification.md)
 - [DOM-007](03-nouveaux-domaines/dom-007-sante.md) — Cadrer un plugin santé et droits des patients
   <br>Annexes : [dom-007-controles.py](03-nouveaux-domaines/dom-007-annexes/dom-007-controles.py) · [dom-007-decoupage-sante.md](03-nouveaux-domaines/dom-007-annexes/dom-007-decoupage-sante.md) · [dom-007-resultats.json](03-nouveaux-domaines/dom-007-annexes/dom-007-resultats.json) · [dom-007-verification.md](03-nouveaux-domaines/dom-007-annexes/dom-007-verification.md)
+- [DOM-023](03-nouveaux-domaines/dom-023-vehicules-garages.md) — Cadrer un plugin véhicules, garages et réparations
+  <br>Annexes : [dom-023-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py) · [dom-023-decoupage-vehicules.md](03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md) · [dom-023-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json) · [dom-023-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md)
 - Autres documents : [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt)
 
 ### 04 — Livraison
@@ -752,7 +753,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 36 à faire, 36 prêtes</summary>
+<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 35 à faire, 35 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -771,7 +772,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-020](03-nouveaux-domaines/dom-020-voisinage-servitudes.md) | Cadrer un plugin voisinage et servitudes | P2 | ✅ |
 | [DOM-021](03-nouveaux-domaines/dom-021-energie-eau.md) | Cadrer un plugin énergie, eau et services essentiels | P2 | ✅ |
 | [DOM-022](03-nouveaux-domaines/dom-022-telecoms-poste.md) | Cadrer un plugin télécoms et services postaux | P2 | ✅ |
-| [DOM-023](03-nouveaux-domaines/dom-023-vehicules-garages.md) | Cadrer un plugin véhicules, garages et réparations | P2 | ✅ |
 | [DOM-024](03-nouveaux-domaines/dom-024-dettes-surendettement.md) | Cadrer un plugin dettes et surendettement des particuliers | P2 | ✅ |
 | [DOM-025](03-nouveaux-domaines/dom-025-handicap-autonomie.md) | Cadrer un plugin handicap et autonomie | P2 | ✅ |
 | [DOM-026](03-nouveaux-domaines/dom-026-protection-majeurs.md) | Cadrer un plugin de protection juridique des majeurs | P2 | ✅ |
@@ -888,6 +888,26 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [SAN-010](03-nouveaux-domaines/suites/san-010-soins-sans-consentement.md) | Lire une mesure de soins psychiatriques sans consentement | P2 | BASE-008, SAN-001 |
 | [SAN-011](03-nouveaux-domaines/suites/san-011-frais-soins.md) | Comparer une facture de soins à l'information reçue sur les frais | P2 | BASE-008, SAN-001 |
 | [SAN-012](03-nouveaux-domaines/suites/san-012-directives-anticipees.md) | Préparer des directives anticipées et la désignation d'une personne de confiance | P3 | BASE-008, SAN-001 |
+
+</details>
+
+<details>
+<summary><b>VEH</b> — Véhicules, garages et réparations (03 — Nouveaux domaines) : 12 à faire, 0 prêtes</summary>
+
+| Story | Titre | Priorité | Bloquée par |
+| --- | --- | --- | --- |
+| [VEH-001](03-nouveaux-domaines/suites/veh-001-facture-garage.md) | Comparer une facture de garage aux travaux autorisés | P2 | BASE-008 |
+| [VEH-002](03-nouveaux-domaines/suites/veh-002-gardiennage-retention.md) | Lire des frais de gardiennage et s'orienter face à un véhicule retenu par le garage | P2 | BASE-008, VEH-001 |
+| [VEH-003](03-nouveaux-domaines/suites/veh-003-reparation-defaillante.md) | Préparer une réclamation au garage après une réparation qui n'a pas réglé la panne | P2 | BASE-008, VEH-001 |
+| [VEH-004](03-nouveaux-domaines/suites/veh-004-occasion-vendeur-pro.md) | Documenter une panne après l'achat d'un véhicule d'occasion chez un professionnel | P2 | BASE-008, VEH-001 |
+| [VEH-005](03-nouveaux-domaines/suites/veh-005-occasion-vendeur-particulier.md) | Documenter une panne après l'achat d'un véhicule à un particulier | P2 | BASE-008, VEH-004 |
+| [VEH-006](03-nouveaux-domaines/suites/veh-006-location-dommages-retour.md) | Répondre à un loueur qui réclame des dommages au retour du véhicule | P2 | BASE-008, VEH-001 |
+| [VEH-007](03-nouveaux-domaines/suites/veh-007-revue-avant-achat.md) | Préparer la revue d'une annonce, d'un bon de commande et des garanties alléguées avant l'achat d'un véhicule | P2 | BASE-008, VEH-004 |
+| [VEH-008](03-nouveaux-domaines/suites/veh-008-commande-vehicule-neuf.md) | Préparer une demande au vendeur d'un véhicule neuf livré en retard ou différent de la commande | P2 | BASE-008, VEH-004 |
+| [VEH-009](03-nouveaux-domaines/suites/veh-009-restitution-location-longue.md) | Comparer les frais de fin de location longue durée ou avec option d'achat au contrat | P2 | BASE-008, VEH-006 |
+| [VEH-010](03-nouveaux-domaines/suites/veh-010-expertise-amiable.md) | Conserver l'état d'un véhicule et préparer une expertise amiable | P2 | BASE-008, VEH-001 |
+| [VEH-011](03-nouveaux-domaines/suites/veh-011-garantie-constructeur.md) | Préparer une demande au constructeur après un refus de garantie ou un rappel | P2 | BASE-008, VEH-004 |
+| [VEH-012](03-nouveaux-domaines/suites/veh-012-vendeur-particulier-reponse.md) | Préparer la réponse d'un vendeur particulier à la réclamation de l'acheteur du véhicule | P3 | BASE-008, VEH-005 |
 
 </details>
 

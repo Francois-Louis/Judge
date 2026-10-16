@@ -50,6 +50,7 @@ FAMILLES = {
     "INS": "Assurance",
     "SAN": "Santé et droits des patients",
     "LOG": "Logement locatif et habitat",
+    "VEH": "Véhicules, garages et réparations",
     "LIV": "Livraison",
     "USAGE": "Usages quotidiens",
 }
