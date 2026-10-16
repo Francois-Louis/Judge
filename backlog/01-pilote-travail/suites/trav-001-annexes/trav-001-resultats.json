@@ -1,0 +1,295 @@
+{
+  "story": "TRAV-001",
+  "date": "2026-10-17",
+  "client": {
+    "binary": "extension VS Code anthropic.claude-code-2.1.301, resources/native-binary/claude.exe",
+    "version": "2.1.301",
+    "model": "claude-opus-5-5"
+  },
+  "isolation": "Non isolé : compte et HOME réels de l'utilisateur (authentification existante), projet vide dans le scratchpad, --setting-sources project, --strict-mcp-config, aucun serveur MCP, --plugin-dir sur la copie détachée du paquet. Profil ~/.claude/plugins/config/judge-fr-eu absent avant et après. Variables de la session parente retirées.",
+  "command": "claude -p \"<pièce>\" --plugin-dir <copie>/employment-legal --setting-sources project --strict-mcp-config --output-format stream-json --verbose --max-budget-usd 3 --allowedTools \"Read Glob Grep WebFetch WebSearch Bash Skill\" --disallowedTools \"Write Edit NotebookEdit\" --no-session-persistence",
+  "package": {
+    "v1": "employment-legal 0.3.0 avant corrections D1/D3",
+    "v2": "employment-legal 0.3.0 final ; seul README.md diffère ensuite (phrase de statut de cette recette)"
+  },
+  "runs": [
+    {
+      "scenario": "T01",
+      "package": "v1",
+      "plugins_loaded": [
+        "judge-fr-eu-employment-legal@0.3.0",
+        "cc-plugin-agents-md",
+        "cc-plugin-telemetry",
+        "cc-plugin-plugin-authoring"
+      ],
+      "mcp_servers": [],
+      "tools": [
+        {
+          "tool": "Read",
+          "target": "<scratchpad>/pkg/employment-legal/references/isolation.md"
+        },
+        {
+          "tool": "Read",
+          "target": "<scratchpad>/pkg/employment-legal/references/shared/research-citation-method.md"
+        },
+        {
+          "tool": "Read",
+          "target": "<scratchpad>/pkg/employment-legal/references/worker-classification-fr.md"
+        },
+        {
+          "tool": "ToolSearch",
+          "target": "select:WebFetch"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/l8221-6"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/d8222-5"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/l8241-1"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/r8222-1"
+        }
+      ],
+      "result_subtype": "success",
+      "is_error": false,
+      "num_turns": 9,
+      "duration_ms": 73599,
+      "total_cost_usd": 0.5364,
+      "result_sha256": "befcfbf582232992e6b9782ea63c5acb6682181241f122bc0f3c658421768173"
+    },
+    {
+      "scenario": "T02",
+      "package": "v1",
+      "plugins_loaded": [
+        "judge-fr-eu-employment-legal@0.3.0",
+        "cc-plugin-agents-md",
+        "cc-plugin-telemetry",
+        "cc-plugin-plugin-authoring"
+      ],
+      "mcp_servers": [],
+      "tools": [],
+      "result_subtype": "success",
+      "is_error": false,
+      "num_turns": 1,
+      "duration_ms": 16584,
+      "total_cost_usd": 0.1254,
+      "result_sha256": "250573f909ad01eae49e13512db516e7ba82243100a7363a6e0310415445be58"
+    },
+    {
+      "scenario": "T03",
+      "package": "v1",
+      "plugins_loaded": [
+        "judge-fr-eu-employment-legal@0.3.0",
+        "cc-plugin-agents-md",
+        "cc-plugin-telemetry",
+        "cc-plugin-plugin-authoring"
+      ],
+      "mcp_servers": [],
+      "tools": [
+        {
+          "tool": "Read",
+          "target": "<scratchpad>/pkg/employment-legal/references/isolation.md"
+        },
+        {
+          "tool": "Read",
+          "target": "<scratchpad>/pkg/employment-legal/references/worker-classification-fr.md"
+        },
+        {
+          "tool": "Read",
+          "target": "<scratchpad>/pkg/employment-legal/references/shared/research-citation-method.md"
+        },
+        {
+          "tool": "ToolSearch",
+          "target": "select:WebFetch,WebSearch"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/l1254-3"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/l1511-1"
+        },
+        {
+          "tool": "WebSearch",
+          "target": "Nouvelle-Calédonie code du travail portage salarial loi du pays"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://juridoc.gouv.nc/juridoc/jdcodes.nsf/0/98CCC25858CB45C44B257567007545BA/$File/Code_du_travail_PL_ChG_03-06-2024.pdf"
+        },
+        {
+          "tool": "WebSearch",
+          "target": "juridoc.gouv.nc code du travail Nouvelle-Calédonie prêt de main-d'oeuvre travail temporaire entreprise établie hors Nouvelle-Calédonie salariés détachés"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://juridoc.gouv.nc/juridoc/jdjuris.nsf/3686b7826f334c074b257bab001782c4/$file/cass_soc_12-13831_10072013.pdf"
+        },
+        {
+          "tool": "Read",
+          "target": "C:\\Users\\<user>\\.claude\\projects\\C--Users-<user>-AppData-Local-Temp-claude-c--Users-<user>-Desktop-Judge-37e6469f-c832-41a1-b0f9-3eb6980b1410-scratchpad-proj\\953d81d9-2944-4ed3-abc5-959fe85f5089\\tool-"
+        }
+      ],
+      "result_subtype": "success",
+      "is_error": false,
+      "num_turns": 12,
+      "duration_ms": 109221,
+      "total_cost_usd": 0.6331,
+      "result_sha256": "ded6d3ebeadd3fc7b4678e602bc084b081d528031ee62ccd8086c755e2c1dc88"
+    },
+    {
+      "scenario": "T01",
+      "package": "v2",
+      "plugins_loaded": [
+        "judge-fr-eu-employment-legal@0.3.0",
+        "cc-plugin-agents-md",
+        "cc-plugin-telemetry",
+        "cc-plugin-plugin-authoring"
+      ],
+      "mcp_servers": [],
+      "tools": [
+        {
+          "tool": "Read",
+          "target": "<scratchpad>/pkg/employment-legal/references/isolation.md"
+        },
+        {
+          "tool": "Read",
+          "target": "<scratchpad>/pkg/employment-legal/references/shared/research-citation-method.md"
+        },
+        {
+          "tool": "Read",
+          "target": "<scratchpad>/pkg/employment-legal/references/worker-classification-fr.md"
+        },
+        {
+          "tool": "ToolSearch",
+          "target": "select:WebFetch"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/l8221-6"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/d8222-5"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/r8222-1"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/l8241-1"
+        }
+      ],
+      "result_subtype": "success",
+      "is_error": false,
+      "num_turns": 9,
+      "duration_ms": 66217,
+      "total_cost_usd": 0.4039,
+      "result_sha256": "4d8250f9348d3789280eb0a8ccea93c7e7b9e0173f2c03227b5c96bac19a370b"
+    },
+    {
+      "scenario": "T03",
+      "package": "v2",
+      "plugins_loaded": [
+        "judge-fr-eu-employment-legal@0.3.0",
+        "cc-plugin-agents-md",
+        "cc-plugin-telemetry",
+        "cc-plugin-plugin-authoring"
+      ],
+      "mcp_servers": [],
+      "tools": [
+        {
+          "tool": "Read",
+          "target": "<scratchpad>/pkg/employment-legal/references/isolation.md"
+        },
+        {
+          "tool": "Read",
+          "target": "<scratchpad>/pkg/employment-legal/references/shared/research-citation-method.md"
+        },
+        {
+          "tool": "Read",
+          "target": "<scratchpad>/pkg/employment-legal/references/worker-classification-fr.md"
+        },
+        {
+          "tool": "ToolSearch",
+          "target": "select:WebFetch,WebSearch"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/l1511-1"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/l1254-3"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://code.travail.gouv.fr/code-du-travail/l1254-2"
+        },
+        {
+          "tool": "WebSearch",
+          "target": "Nouvelle-Calédonie portage salarial code du travail Nouvelle-Calédonie"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://juridoc.gouv.nc/juridoc/jdcodes.nsf/0/98CCC25858CB45C44B257567007545BA/$File/Code_du_travail_PL_ChG_03-06-2024.pdf"
+        },
+        {
+          "tool": "WebSearch",
+          "target": "\"portage salarial\" \"Nouvelle-Calédonie\" loi du pays OR DTE OR juridoc"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://dtenc.gouv.nc/sites/default/files/documents/Reglementation/code_du_travail_pl_chg_15-09-2016.pdf"
+        },
+        {
+          "tool": "Bash",
+          "target": "mkdir -p /tmp/ncpdf && cd /tmp/ncpdf && cp \"~/.claude/projects/C--Users-<user>-AppData-Local-Temp-claude-c--Users-<user>-Desktop-Judge-37e6469f-c832-41a1-b0f9-3eb6980b1410-scratchpad-proj/fe7a20f3-f70"
+        },
+        {
+          "tool": "Bash",
+          "target": "cd /tmp/ncpdf && iconv -f latin1 -t utf-8 code.txt > u.txt; sed -n '1,12p;70,80p' u.txt; echo ----; sed -n '1365,1376p;1550,1565p' u.txt; echo ----; sed -n '15530,15700p' u.txt"
+        },
+        {
+          "tool": "Bash",
+          "target": "cd /tmp/ncpdf && sed -n '15700,15800p' u.txt; echo ----; grep -n \"Article Lp. 111-1$\\|Article Lp. 111-1 \" u.txt | head; n=$(grep -n \"Article Lp. 111-1\" u.txt | head -1 | cut -d: -f1); sed -n \"$((n)),$"
+        },
+        {
+          "tool": "Bash",
+          "target": "cd /tmp/ncpdf && grep -n -i \"objet exclusif\\|travail temporaire\" u.txt | head -20"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://dtenc.gouv.nc/sites/default/files/atoms/files/combine_e-ctnc_livre_6_mise_a_jour_du_2026-06-12.pdf"
+        },
+        {
+          "tool": "Bash",
+          "target": "mkdir -p /tmp/nc6 && cd /tmp/nc6 && cp \"~/.claude/projects/C--Users-<user>-AppData-Local-Temp-claude-c--Users-<user>-Desktop-Judge-37e6469f-c832-41a1-b0f9-3eb6980b1410-scratchpad-proj/fe7a20f3-f709-41"
+        },
+        {
+          "tool": "Bash",
+          "target": "cd /tmp/nc6 && sed -n '1175,1200p;1255,1300p' u.txt"
+        },
+        {
+          "tool": "WebFetch",
+          "target": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006682779"
+        }
+      ],
+      "result_subtype": "success",
+      "is_error": false,
+      "num_turns": 20,
+      "duration_ms": 196423,
+      "total_cost_usd": 0.8009,
+      "result_sha256": "d6938f72c955a3162c1a1de851381977f7dfda37c17d337367894f7257dde6e2"
+    }
+  ]
+}

@@ -68,3 +68,15 @@ run). No skill instruction or legal reference changed.
   .claude-plugin/plugin.json
   NOTICE
   README.md
+
+TRAV-001 changes (2026-10-17): version 0.3.0. worker-classification
+rewritten for a proposed work relationship in France before performance:
+facts/criteria/sources/risks table, documents to request, orientation for
+public employers, uncovered territories, cross-border work, platforms and
+already performed relationships. No automatic status choice; no US test.
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  references/worker-classification-fr.md (new)
+  skills/worker-classification/SKILL.md

@@ -1,7 +1,7 @@
 ---
 id: TRAV-001
 titre: "Qualifier une relation de travail proposée"
-statut: proposee
+statut: a-verifier
 priorite: P2
 nature: implementation
 dependances: [PILOTE-001, PILOTE-003, BASE-005, BASE-006]
@@ -44,12 +44,12 @@ nécessaires/optionnels et prévoir la sortie utile si la recherche reste empêc
 
 ## Critères d'acceptation
 
-- [ ] Le résultat défini ci-dessus est observable sur le cas normal ci-dessous.
-- [ ] La limite significative est traitée sans règle américaine de remplacement ni conclusion non établie.
-- [ ] Règles collectives, statut réel, territoire et versions déterminants sont établis ou réservés explicitement.
-- [ ] Sources et données sont traçables ; le paquet isolé ne requiert aucun fichier voisin du dépôt.
+- [x] Le résultat défini ci-dessus est observable sur le cas normal ci-dessous. Observé en client sur pièce fictive (T01), relu par le rédacteur.
+- [x] La limite significative est traitée sans règle américaine de remplacement ni conclusion non établie. Observé en client sur pièce fictive (T02), relu par le rédacteur.
+- [x] Règles collectives, statut réel, territoire et versions déterminants sont établis ou réservés explicitement. Observé sur pièces fictives (T01, T03), relu par le rédacteur.
+- [x] Sources et données sont traçables ; le paquet isolé ne requiert aucun fichier voisin du dépôt. Copie détachée chargée seule par `--plugin-dir`, client non isolé.
 - [ ] Une personne sans formation juridique comprend ce qui est établi, les pièces à demander et la prochaine démarche.
-- [ ] Le périmètre adapté et le reste non adapté sont explicitement distingués.
+- [x] Le périmètre adapté et le reste non adapté sont explicitement distingués.
 
 ## Vérification
 
@@ -70,3 +70,46 @@ Aucun envoi, dépôt, signature ni décision irréversible implicite.
 Proposition issue de PILOTE-001, le 15 octobre 2026. Implémentation et recette
 restent à réaliser après PILOTE-003 ; les dépendances n'annoncent aucune
 fonctionnalité adaptée déjà disponible.
+
+## Implémentation du 17 octobre 2026
+
+Plugin `employment-legal` `0.3.0`. `worker-classification` est réécrit pour un
+projet en France avant exécution : barrière de début d'exécution sans bannière
+« proceed anyway », qualification des acteurs et du cadre, critères lus
+(qualification par les faits, subordination, service organisé, présomption
+L8221-6, objet du contrat, prêt de main-d'œuvre et portage), tableau
+facteur/faits/critère et source/indication/pièce, risques sans chiffrage,
+pièces et interlocuteur, phrase finale BASE-013. Retirés : tests ABC et
+économiques, IRS § 530, W-2/1099, PAGA, « joint employer », préférence pour le
+vendor/SOW et porte d'avocat obligatoire.
+
+Fichiers : [skill](../../../employment-legal/skills/worker-classification/SKILL.md),
+[repères embarqués 1.0.0](../../../employment-legal/references/worker-classification-fr.md),
+modèle de profil (exception sans profil), README et NOTICE du plugin,
+manifeste et marketplace, README et NOTICE racine, version attendue du test
+BASE-008. Méthode BASE-005 locale `1.0.0` inchangée et identique à la source.
+
+Sources : 25 articles du Code du travail lus sur le Code du travail numérique,
+cinq décisions de la Cour de cassation lues dans le fonds CASS de la DILA après
+un refus HTTP 403 de Légifrance, règlement Rome I (art. 8) et directive
+2024/2831 (art. 5 et 29) sur EUR-Lex ; [relevé](trav-001-annexes/trav-001-sources-lues.json).
+Accès externes : lecture de publications officielles, optionnelle ; sans
+elle, la note relève faits et pièces et réserve les conclusions dépendantes.
+
+Recette : [vérification par couche](trav-001-annexes/trav-001-verification.md),
+[pièces fictives](trav-001-annexes/trav-001-pieces-fictives.md),
+[sorties](trav-001-annexes/trav-001-sorties.md),
+[journaux](trav-001-annexes/trav-001-resultats.json). Trois scénarios
+exécutés en client, deux défauts corrigés puis confirmés (calcul de seuil,
+reformulation remplie par le client).
+
+Story `a-verifier` : reformulation par un lecteur non juriste non faite.
+
+## Portée
+
+Comportement observé sur pièces fictives dans un client réel non isolé ; voir
+la [vérification](trav-001-annexes/trav-001-verification.md). Pas de
+relecture juridique indépendante. Les sources citées par le client au-delà des
+repères embarqués n'ont pas été relues. Restent non adaptés : audit d'une
+relation exécutée (TRAV-025), intérim (TRAV-024), contrat de prestation
+complet, cotisations et fiscalité, emploi public, territoires hors L1511-1.

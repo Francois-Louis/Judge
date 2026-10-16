@@ -9,7 +9,8 @@ le pilote `employment-legal:hiring-review` 0.2.1 est réécrit pour l'embauche
 privée en France, recette client faite sur fixtures et lecteur non indépendant,
 livré seul dans le [lot LIV-001](backlog/04-livraison/liv-001-annexes/liv-001-notes-version.md) ; `commercial-legal:review`
 0.2.0 est réécrit pour l'orientation contractuelle COM-001 sans profil obligatoire,
-avec validation client/utilisateur à compléter ; les autres
+avec validation client/utilisateur à compléter ; `employment-legal:worker-classification`
+0.3.0 qualifie une relation de travail proposée en France avant exécution (TRAV-001) ; les autres
 tâches juridiques héritées restent à adapter à la France et à l'UE.
 Voir le [démarrage du fork](QUICKSTART.md), les [preuves et limites de validation](references/base008-validation.md),
 la [licence](LICENSE) et les [fichiers modifiés](NOTICE).
@@ -64,7 +65,7 @@ Each agent is named for the workflow it runs. They're the most common surface �
 | **Data Room Watcher** | Monitors the VDR for new uploads and posts closing checklist status on schedule | `corporate-legal` | scheduled agent |
 | **Termination Reviewer** | Runs a proposed termination against jurisdiction-specific risk flags | `employment-legal` | `/judge-fr-eu-employment-legal:termination-review` |
 | **Hire Reviewer** | Reviews offer letters and restrictive covenants with a jurisdiction check | `employment-legal` | `/judge-fr-eu-employment-legal:hiring-review` |
-| **Worker Classification Screener** | Tests a proposed engagement against the controlling state test | `employment-legal` | `/judge-fr-eu-employment-legal:worker-classification` |
+| **Worker Classification Screener** | Qualifier une relation de travail proposée en France (faits, critères, sources, pièces), sans choix automatique du statut | `employment-legal` | `/judge-fr-eu-employment-legal:worker-classification` |
 | **Leave Tracker** | Monitors open leaves with FMLA/CFRA/PFL/ADA deadlines and decision-point alerts | `employment-legal` | scheduled agent |
 | **Investigation Lead** | Opens, tracks, adds to, and summarizes internal investigation matters | `employment-legal` | `/judge-fr-eu-employment-legal:investigation-open` |
 | **Policy Drafter** | Drafts employment policies with state supplements where law differs | `employment-legal` | `/judge-fr-eu-employment-legal:policy-drafting` |
@@ -441,7 +442,7 @@ pour l'orientation ponctuelle.
 | `/judge-fr-eu-employment-legal:wage-hour-qa` | wage-hour-qa | Jurisdiction-aware wage/hour and employment Q&A |
 | `/judge-fr-eu-employment-legal:hiring-review` | hiring-review | Review offer letter and restrictive covenants |
 | `/judge-fr-eu-employment-legal:termination-review` | termination-review | Termination review with high-risk flag detection |
-| `/judge-fr-eu-employment-legal:worker-classification` | worker-classification | Classify a proposed engagement against the state test |
+| `/judge-fr-eu-employment-legal:worker-classification` | worker-classification | Qualifier une relation proposée avant exécution (France) |
 | `/judge-fr-eu-employment-legal:policy-drafting` | policy-drafting | Draft employment policy with state supplements |
 | `/judge-fr-eu-employment-legal:leave-tracker` | leave-tracker | Check open leaves for deadline alerts |
 | `/judge-fr-eu-employment-legal:log-leave` | log-leave | Add a new leave to the leave register |

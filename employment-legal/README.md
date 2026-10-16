@@ -1,9 +1,12 @@
 <!-- Modified by Judge FR/UE for PILOTE-002 (2026-10-15): scope and setup of French hiring pilot. -->
 <!-- Modified by Judge FR/UE for LIV-001 (2026-10-16): version 0.2.1, validation status and lot installation. -->
+<!-- Modified by Judge FR/UE for TRAV-001 (2026-10-17): version 0.3.0, worker-classification adapted. -->
 
-# Judge FR/UE — revue d'embauche
+# Judge FR/UE — revue d'embauche et qualification d'une relation
 
-Version du plugin **0.2.1**. Seul `hiring-review` est réécrit pour l'embauche
+Version du plugin **0.3.0**. Deux tâches sont réécrites pour la France.
+`worker-classification` est décrit [plus bas](#qualifier-une-relation-avant-quelle-commence).
+`hiring-review` porte sur l'embauche
 salariée du privé en France : lire une offre ou un contrat reçu, comprendre
 les engagements et préparer les questions au recruteur. CDI métropolitain
 comme cas nominal ; CDD ordinaire avec contrôles spécifiques limités.
@@ -58,12 +61,33 @@ prochaine étape. Un texte court ou une liste peut remplacer le tableau selon
 le besoin. Les montants bruts, versements fixes et variables sont distingués.
 Aucun feu vert à signer, acceptation, envoi, suivi ou inscription à un registre.
 
+## Qualifier une relation avant qu'elle commence
+
+`/judge-fr-eu-employment-legal:worker-classification` (TRAV-001) aide un futur
+donneur d'ordre, un futur prestataire ou un candidat à qui l'on propose un
+statut d'indépendant, **avant tout début d'exécution**. Décrire la mission :
+tâches, qui décide des horaires et méthodes, outils, prix, durée, lieux et
+dates, intermédiaire éventuel (agence, portage, plateforme).
+
+La note relie chaque fait aux critères lus : subordination (ordres, contrôle,
+sanction, service organisé), présomption attachée à l'immatriculation, objet
+du contrat (prestation ou mise à disposition de personnel). Elle signale les
+risques sans chiffrage, les pièces à demander et l'interlocuteur. **Elle ne
+choisit pas le statut.** Une relation déjà commencée reçoit une orientation
+distincte, sans analyse rétrospective. Emploi public, territoires non couverts,
+travail transfrontalier, plateformes et métiers à présomption de salariat
+sont orientés. Repères embarqués : [qualification d'une relation 1.0.0](references/worker-classification-fr.md).
+Hors champ : contrat complet, audit du passé, cotisations et impôts chiffrés.
+Exécuté le 17 octobre 2026 sur trois pièces fictives dans un client réel non
+isolé ; aucun lecteur non juriste ni relecture juridique indépendante.
+
 ## Sources et prérequis réels
 
 - Python 3.12 ou ultérieur pour le helper de stockage, avant tout accès aux
   profils ou sorties persistantes ; voir [la frontière de stockage](references/isolation.md).
-- Les références nécessaires sont embarquées : [méthode BASE-005 1.0.0](references/shared/research-citation-method.md)
-  et [repères d'embauche France 1.0.0](references/hiring-review-fr.md).
+- Les références nécessaires sont embarquées : [méthode BASE-005 1.0.0](references/shared/research-citation-method.md),
+  [repères d'embauche France 1.0.0](references/hiring-review-fr.md) et
+  [qualification d'une relation 1.0.0](references/worker-classification-fr.md).
   Le parcours reprend USAGE-001 1.0.0 dans ses propres instructions.
 - Lecture de sources officielles par les outils disponibles dans la session,
   sans connecteur spécifique ni abonnement API obligatoire. Leur disponibilité
@@ -83,12 +107,12 @@ et travail transfrontalier reçoivent une orientation explicite.
 
 ## Reste du paquet : hérité et non adapté à la France/UE
 
-Les commandes de rupture, classification d'indépendants, congés, enquêtes,
+Les commandes de rupture, congés, enquêtes,
 politiques, handbook, expansion et questions de paie restent dans le paquet
 hérité. L'agent `leave-tracker`, les hooks et les connecteurs déclarés ne sont
 pas validés par ce pilote. La configuration professionnelle historique reste
 présente pour ces parcours, avec ses limites. Ne pas les appeler pour
-compléter la revue adaptée ni présenter leur installation comme une adaptation.
+compléter les tâches adaptées ni présenter leur installation comme une adaptation.
 
 Les seuls changements à `cold-start-interview`, `customize` et au modèle de
 profil servent le chemin court d'embauche. Le pilote ne garantit aucun secret

@@ -5,13 +5,13 @@
 | Statut | Stories |
 | --- | ---: |
 | En cours | 1 |
-| À vérifier | 1 |
+| À vérifier | 2 |
 | Bloquée | 0 |
 | Terminée | 41 |
 | Prête | 0 |
-| À faire | 566 |
+| À faire | 565 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 145 |
+| dont prêtes à démarrer | 144 |
 | Total | 632 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
@@ -22,6 +22,8 @@ Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes
   <br>Annexes : [base-008-inventaire-apres.tsv](00-fondations/base-008-annexes/base-008-inventaire-apres.tsv) · [base-008-inventaire-avant.tsv](00-fondations/base-008-annexes/base-008-inventaire-avant.tsv) · [base-008-residus.tsv](00-fondations/base-008-annexes/base-008-residus.tsv) · [base-008-resultats-client.json](00-fondations/base-008-annexes/base-008-resultats-client.json)
 - [COM-001](02-plugins-existants/suites/com-001-orientation-contrat.md) — **À vérifier** · P2 · Qualifier et orienter une demande sur un contrat
   <br>Annexes : [com-001-verification.md](02-plugins-existants/suites/com-001-annexes/com-001-verification.md) · [controles.py](02-plugins-existants/suites/com-001-annexes/controles.py) · [pieces-fictives.md](02-plugins-existants/suites/com-001-annexes/pieces-fictives.md) · [resultats-paquet.json](02-plugins-existants/suites/com-001-annexes/resultats-paquet.json) · [sorties-relecture.md](02-plugins-existants/suites/com-001-annexes/sorties-relecture.md) · [source-bruxelles-i-bis.json](02-plugins-existants/suites/com-001-annexes/source-bruxelles-i-bis.json) · [source-rome-i.json](02-plugins-existants/suites/com-001-annexes/source-rome-i.json)
+- [TRAV-001](01-pilote-travail/suites/trav-001-qualification-relation.md) — **À vérifier** · P2 · Qualifier une relation de travail proposée
+  <br>Annexes : [trav-001-pieces-fictives.md](01-pilote-travail/suites/trav-001-annexes/trav-001-pieces-fictives.md) · [trav-001-resultats.json](01-pilote-travail/suites/trav-001-annexes/trav-001-resultats.json) · [trav-001-sorties.md](01-pilote-travail/suites/trav-001-annexes/trav-001-sorties.md) · [trav-001-sources-lues.json](01-pilote-travail/suites/trav-001-annexes/trav-001-sources-lues.json) · [trav-001-verification.md](01-pilote-travail/suites/trav-001-annexes/trav-001-verification.md)
 
 ## Prêtes à démarrer
 
@@ -148,7 +150,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [SOC-025](02-plugins-existants/suites/soc-025-pieces-depot-comptes.md) | Rapprocher les pièces d'un dépôt de comptes et d'une demande de confidentialité | P2 | implementation |
 | [SOC-026](02-plugins-existants/suites/soc-026-qualifier-fermeture-solvable.md) | Préparer les questions d'une fermeture volontaire de société | P2 | implementation |
 | [SOC-027](02-plugins-existants/suites/soc-027-cadrage-entreprises-difficulte.md) | Découper l'aide aux entreprises en difficulté et ses frontières | P2 | cadrage |
-| [TRAV-001](01-pilote-travail/suites/trav-001-qualification-relation.md) | Qualifier une relation de travail proposée | P2 | implementation |
 | [TRAV-002](01-pilote-travail/suites/trav-002-minimum-remuneration.md) | Vérifier le minimum de rémunération d'un salarié | P2 | implementation |
 | [TRAV-004](01-pilote-travail/suites/trav-004-licenciement-personnel.md) | Lire les pièces d'un licenciement individuel pour motif personnel | P2 | implementation |
 | [TRAV-005](01-pilote-travail/suites/trav-005-rupture-conventionnelle.md) | Expliquer un projet de rupture conventionnelle individuelle | P2 | implementation |
@@ -292,11 +293,10 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>TRAV</b> — Travail (suites du pilote) (01 — Pilote travail) : 61 à faire, 15 prêtes</summary>
+<summary><b>TRAV</b> — Travail (suites du pilote) (01 — Pilote travail) : 60 à faire, 14 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [TRAV-001](01-pilote-travail/suites/trav-001-qualification-relation.md) | Qualifier une relation de travail proposée | P2 | ✅ |
 | [TRAV-002](01-pilote-travail/suites/trav-002-minimum-remuneration.md) | Vérifier le minimum de rémunération d'un salarié | P2 | ✅ |
 | [TRAV-003](01-pilote-travail/suites/trav-003-heures-supplementaires.md) | Relire un décompte d'heures supplémentaires | P2 | TRAV-002 |
 | [TRAV-004](01-pilote-travail/suites/trav-004-licenciement-personnel.md) | Lire les pièces d'un licenciement individuel pour motif personnel | P2 | ✅ |

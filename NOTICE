@@ -480,3 +480,21 @@ the working tree with origin/main. No plugin file changed.
   CLAUDE.md
   NOTICE
   scripts/check-version-bump.py (new)
+
+TRAV-001 changes (2026-10-17): employment-legal 0.3.0. worker-classification
+rewritten to qualify a proposed work relationship in France before any
+performance: facts linked to subordination, presumption and contract-object
+criteria read from official sources, risks and documents to request, no
+automatic status choice. An already performed relationship receives a
+distinct orientation only. US tests and the vendor/SOW preference removed;
+other inherited tasks remain unadapted.
+  .claude-plugin/marketplace.json
+  NOTICE
+  README.md
+  employment-legal/.claude-plugin/plugin.json
+  employment-legal/CLAUDE.md
+  employment-legal/NOTICE
+  employment-legal/README.md
+  employment-legal/references/worker-classification-fr.md (new)
+  employment-legal/skills/worker-classification/SKILL.md
+  scripts/test-base008-isolation.py (employment-legal expected version)

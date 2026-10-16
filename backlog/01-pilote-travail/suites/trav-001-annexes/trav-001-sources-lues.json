@@ -1,0 +1,343 @@
+{
+  "story": "TRAV-001",
+  "date": "2026-10-17",
+  "timezone": "Europe/Paris",
+  "note": "Lecture de maintenance pour la rédaction du skill et de la référence. Aucune applicabilité certifiée ; versions affichées par la reproduction, pas versions historiques.",
+  "code_du_travail": [
+    {
+      "reference": "D8222-5",
+      "route": "https://code.travail.gouv.fr/code-du-travail/d8222-5",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:37.227025+00:00",
+      "sha256_body": "cdb6c3132edb478426aeb913ec0cf1e4d6a23b5afd853544dc4ef95798fc304f",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/01/2023"
+    },
+    {
+      "reference": "L1221-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l1221-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:31.489033+00:00",
+      "sha256_body": "c26061846222b596c20085ba314867f955369b8f3356cf83d3a4769c178001c4",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/05/2008"
+    },
+    {
+      "reference": "L1221-10",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l1221-10",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:08:13.158983+00:00",
+      "sha256_body": "683001e32c4a229fc16dd98589412084749ea4c74e2742610e8f5546d3200862",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/05/2008"
+    },
+    {
+      "reference": "L1251-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l1251-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:34.570386+00:00",
+      "sha256_body": "14223a801325b9f070d17784f4822bc94270844088d38847a5fd9141c91a6dd1",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "07/08/2009"
+    },
+    {
+      "reference": "L1252-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l1252-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:08:13.549767+00:00",
+      "sha256_body": "539d6bef31f97f5a979c390f32a93f868dea8fc73d0b54a86bb7a6f7152593b6",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/05/2008"
+    },
+    {
+      "reference": "L1253-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l1253-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:08:13.944733+00:00",
+      "sha256_body": "dc7d2e1ddc603a274b5ee116e5a367e8c8d057bf098b51557f4d622c102bebda",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "07/03/2014"
+    },
+    {
+      "reference": "L1254-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l1254-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:35.073370+00:00",
+      "sha256_body": "7a980fe3e8be12865d2bc52f39cd23ae02e813c73415909e7ab92241a4533bcd",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "10/08/2016"
+    },
+    {
+      "reference": "L1254-2",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l1254-2",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:35.560704+00:00",
+      "sha256_body": "7c5a4132745d991e152d5dbd416aa2adc0c22997b16b1f517a411e6804af98ee",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "10/08/2016"
+    },
+    {
+      "reference": "L1254-3",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l1254-3",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:35.961687+00:00",
+      "sha256_body": "fd2c4aa3ba6228f068387f81e0e01e68f8d2cb84f025705a7b66751b11275fc9",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "04/04/2015"
+    },
+    {
+      "reference": "L1261-3",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l1261-3",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:40.507043+00:00",
+      "sha256_body": "38dfa4bc7e4eaf630a9965275db9de915f996039b62ace4accf2280b181f736b",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "07/09/2018"
+    },
+    {
+      "reference": "L1262-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l1262-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:40.936049+00:00",
+      "sha256_body": "c5b6de98cb6a90e37c066d64dfc9621a6307194e527a823988b4a2ce5828e366",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/05/2008"
+    },
+    {
+      "reference": "L1511-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l1511-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:37.786091+00:00",
+      "sha256_body": "5cd5b34559ea847882b2990a038e41960e927e44d1f615aaef80cb55d10434d4",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/01/2018"
+    },
+    {
+      "reference": "L7112-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l7112-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:39.667845+00:00",
+      "sha256_body": "5970a5da281911cfde182abd6bdf914a1c46bc7f0c5d4ad14069b26e0135b98f",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/05/2008"
+    },
+    {
+      "reference": "L7121-3",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l7121-3",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:40.082417+00:00",
+      "sha256_body": "7d535ad1b752584a3d5a8f621b09dead1e91b240c6ed455225dfdcdd5ee461fb",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/01/2023"
+    },
+    {
+      "reference": "L7341-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l7341-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:38.219015+00:00",
+      "sha256_body": "95febb154cb5356bef1fd713d6cfccb7bf159976025953a92afca52abadb3b65",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "10/08/2016"
+    },
+    {
+      "reference": "L8221-3",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l8221-3",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:08:12.306055+00:00",
+      "sha256_body": "e6ba9ab107c8e2d435e8820800eaec306708103f55155e827be2bce977c2e0ed",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/01/2023"
+    },
+    {
+      "reference": "L8221-5",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l8221-5",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:32.905858+00:00",
+      "sha256_body": "3c2a6da258c4c5cdcc1e353645f6b0b2f6cbb915c7c0310dc33d54808df8eef4",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "10/08/2016"
+    },
+    {
+      "reference": "L8221-6-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l8221-6-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:32.472266+00:00",
+      "sha256_body": "8c306cafb1a067e2bba3720796372e63b89e121ba45aae2ecfa9c5e9d781fa08",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "06/08/2008"
+    },
+    {
+      "reference": "L8221-6",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l8221-6",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:32.084609+00:00",
+      "sha256_body": "12ce3d3f3d01a4846afbf8040413bd26c0ac1d8d01f41c2275a357647683e845",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/01/2023"
+    },
+    {
+      "reference": "L8222-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l8222-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:36.366078+00:00",
+      "sha256_body": "6b7bb81127a982ecdb35d56f3dc2f1434401849e715e76f3ab47f22b9b511bb1",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "18/06/2011"
+    },
+    {
+      "reference": "L8222-2",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l8222-2",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:08:12.748741+00:00",
+      "sha256_body": "2bbff0d21bc44f99168a75a15d80c2022bcd7165f8be0e4ac1da42558dceff3b",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/05/2008"
+    },
+    {
+      "reference": "L8231-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l8231-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:34.172392+00:00",
+      "sha256_body": "855806cc87e180065aa957712fce251a338a607c7121bb43dbf4d0bd014da62f",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/05/2008"
+    },
+    {
+      "reference": "L8241-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l8241-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:33.346698+00:00",
+      "sha256_body": "c7680ea155b0d46bc5d875acb7a1510ae39d36f928e034420f01bf2160480f89",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "04/04/2015"
+    },
+    {
+      "reference": "L8241-2",
+      "route": "https://code.travail.gouv.fr/code-du-travail/l8241-2",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:33.760427+00:00",
+      "sha256_body": "2e542171b2928986be32a9bace49c8d8348d0f7360ff171a3e7d32cac742677c",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/01/2018"
+    },
+    {
+      "reference": "R8222-1",
+      "route": "https://code.travail.gouv.fr/code-du-travail/r8222-1",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:07:36.765338+00:00",
+      "sha256_body": "b889a458d6acce76d438053dfa12a4ca29cd49f1f8ce88a0ea7b882b4d66637a",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "date_affichee": "01/05/2015"
+    }
+  ],
+  "eur_lex": [
+    {
+      "reference": "32024L2831",
+      "route": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024L2831",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:08:47.706524+00:00",
+      "sha256_body": "cc9fba19af978ffc8a80201bc5c865e028f250c4e74373f9420d91ea2e436326",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "passages_lus": "articles 5 et 29"
+    },
+    {
+      "reference": "32008R0593",
+      "route": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32008R0593",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-16T22:08:48.661726+00:00",
+      "sha256_body": "d12de6be5533a1431e6575e759142135ee93e5c7f9fd9d6849b230429acd67cd",
+      "documentary_status": "lu",
+      "applicability": "a-etablir",
+      "passages_lus": "article 8"
+    }
+  ],
+  "cour_de_cassation": {
+    "route": "https://echanges.dila.gouv.fr/OPENDATA/CASS/Freemium_cass_global_20250713-140000.tar.gz",
+    "archive_sha256": "18658ed203e3cf9cd7f5e61aae7bbfe5d19895eddaa9cb41ecf2aa5dd44ee960",
+    "archive_bytes": 260063213,
+    "retrieved_on": "2026-10-17",
+    "echec_prealable": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007035180 : HTTP 403",
+    "decisions": [
+      {
+        "id": "JURITEXT000007011833",
+        "titre": "Cour de Cassation, Assemblée plénière, du 4 mars 1983, 81-15.290 81-11.647, Publié au bulletin",
+        "date": "1983-03-04",
+        "numero": "81-11647",
+        "sha256_xml": "836dd5fc3d4ff7b33d8d8f1bb011a3704d4af2ef6613f25a3b17c92f39a7b29a",
+        "legifrance": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007011833",
+        "documentary_status": "lu"
+      },
+      {
+        "id": "JURITEXT000007035180",
+        "titre": "Cour de Cassation, Chambre sociale, du 13 novembre 1996, 94-13.187, Publié au bulletin",
+        "date": "1996-11-13",
+        "numero": "94-13187",
+        "sha256_xml": "d20ea779ebd6ce448feac35da3a17e7c7bfca2bcc1d3dde5f21d8600d04db9f6",
+        "legifrance": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007035180",
+        "documentary_status": "lu"
+      },
+      {
+        "id": "JURITEXT000007043285",
+        "titre": "Cour de Cassation, Chambre sociale, du 19 décembre 2000, 98-40.572, Publié au bulletin",
+        "date": "2000-12-19",
+        "numero": "98-40572",
+        "sha256_xml": "bfb2db7e5ca3f5097c82c871709ac2a480e529aa063b3a635f8aa89383e8765d",
+        "legifrance": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007043285",
+        "documentary_status": "lu"
+      },
+      {
+        "id": "JURITEXT000037787075",
+        "titre": "Cour de cassation, civile, Chambre sociale, 28 novembre 2018, 17-20.079, Publié au bulletin",
+        "date": "2018-11-28",
+        "numero": "17-20079",
+        "sha256_xml": "d41caca3bae76b9c7b834d9ccbc9ff0dd4cfc78ee66cdc5fa08bf72ea7f2636e",
+        "legifrance": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000037787075",
+        "documentary_status": "lu"
+      },
+      {
+        "id": "JURITEXT000042025162",
+        "titre": "Cour de cassation, civile, Chambre sociale, 4 mars 2020, 19-13.316, Publié au bulletin",
+        "date": "2020-03-04",
+        "numero": "19-13316",
+        "sha256_xml": "9d770262faf6ec28c31cdb6b65257d4fcfc4a824671f996fb243a3285146434f",
+        "legifrance": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000042025162",
+        "documentary_status": "lu"
+      }
+    ]
+  },
+  "non_consultes": [
+    "Code de la sécurité sociale (affiliation, présomption pour les cotisations)",
+    "Code du travail D8222-4 (particulier donneur d'ordre)",
+    "Intérim : motifs, durées, égalité de rémunération ; portage : convention de branche et minimum",
+    "Jurisprudence prestation / prêt de main-d'œuvre",
+    "Régime des agents publics contractuels et marchés publics",
+    "Droit du travail de Nouvelle-Calédonie, Polynésie française, Wallis-et-Futuna",
+    "Transposition française de la directive (UE) 2024/2831"
+  ]
+}
