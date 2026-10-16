@@ -33,7 +33,9 @@ Convocation, juridiction, demandes des deux parties, pièces, échanges avec l'a
 
 ## Travail attendu
 
-Liste des pièces et de leur communication à l'adversaire, résumé des demandes en langage clair, questions à anticiper ; ne pas promettre d'issue ni rédiger un argumentaire juridique complet. Représentation obligatoire : avocat.
+Liste des pièces et de leur communication à l'adversaire, résumé des demandes en langage clair, questions à anticiper ; ne pas promettre d'issue ni rédiger un argumentaire juridique complet. Représentation obligatoire : avocat. Alerte en tête : certains moyens de
+procédure doivent être présentés avant tout débat sur le fond ; s'il en
+existe, les soumettre d'abord à un avocat (CTX-029).
 
 Charger la méthode locale BASE-005 et le helper BASE-008 pour tout accès
 durable. Une lecture ponctuelle reste conversationnelle, sans profil de

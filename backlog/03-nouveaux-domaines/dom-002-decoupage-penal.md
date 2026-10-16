@@ -1,6 +1,6 @@
 # DOM-002 — Découpage du domaine police et procédure pénale
 
-Propositions du **16 octobre 2026**. Les 23 stories CRIM restent `proposee`.
+Propositions du **16 octobre 2026**. Les 24 stories CRIM restent `proposee`.
 La [relecture documentaire](dom-002-verification.md) éprouve le routage sur
 les trois scénarios de la story et sur des cas limites. Aucun répertoire de
 plugin n'est créé par ce cadrage.
@@ -104,6 +104,7 @@ P2, le rang 4 la priorité P3.
 | 3 | [CRIM-020](suites/crim-020-preserver-preuves.md) | `intervention-evidence` | Préparer la conservation des preuves d'une intervention | CRIM-001 |
 | 3 | [CRIM-021](suites/crim-021-signaler-agent.md) | `officer-conduct-report` | Préparer un signalement sur le comportement d'un agent | CRIM-001 |
 | 3 | [CRIM-023](suites/crim-023-controle-routier.md) | `roadside-test-reading` | Comprendre un dépistage routier et une rétention du permis | CRIM-001 |
+| 3 | [CRIM-024](suites/crim-024-reperer-irregularites-penales.md) | `procedure-points-review` | Points de régularité d'une procédure pénale à soumettre à l'avocat | CRIM-001 |
 | 4 | [CRIM-008](suites/crim-008-controle-subi.md) | `stop-account` | Récit structuré d'un contrôle ou d'une fouille déjà subis, et canaux à vérifier | CRIM-001 |
 | 4 | [CRIM-009](suites/crim-009-requisition-organisation.md) | `requisition-reading` | Fiche d'une réquisition reçue par une organisation | CRIM-001 |
 | 4 | [CRIM-010](suites/crim-010-points-permis.md) | `licence-points-reading` | Lecture d'un courrier sur les points du permis | CRIM-003 |

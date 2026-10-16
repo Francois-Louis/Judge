@@ -63,3 +63,16 @@ La [matrice des 97 situations](dom-002-frictions-utilisateurs.md), notamment les
 - Décision administrative incomprise : qualifier la nature et le secteur avant toute voie de recours. Fichier TAJ → CRIM-022 ; décision d'emploi public → DOM-037 ; ordonnance pénale → CRIM-006.
 
 Scénarios de découpage **attendus, non exécutés** : FPS pris pour amende, RAPO déposé alors que le paiement reste une question distincte, FPS majoré après silence, avis de rétention suivi d'une décision préfectorale, invalidation confondue avec condamnation. Sources à rechercher : textes du stationnement payant et compétence juridictionnelle actuelle, Code de la route, CJA et textes de notification selon l'acte ; aucun régime spécial ramené au délai administratif de droit commun.
+
+## Complément du 16 octobre 2026 : régularité d'une décision administrative
+
+Par décision de l'utilisateur ([décisions](../decisions-2026-10-16.md)), le futur
+découpage prévoit une tâche de repérage prudent des points de régularité d'une
+décision administrative : auteur et compétence apparente, motivation, procédure
+contradictoire préalable annoncée, mention des voies et délais de recours,
+notification. La sortie liste des points à soumettre à un avocat ou à un
+juriste, avec l'urgence liée au délai de recours, sans conclure à
+l'illégalité ; les décisions d'un domaine spécialisé (fiscalité, caisse,
+urbanisme, séjour, emploi public) gardent leur propriétaire. Sources à
+vérifier : Code des relations entre le public et l'administration, Code de
+justice administrative et textes spéciaux.

@@ -1,9 +1,9 @@
 # Backlog — adaptation juridique France / Union européenne
 
-Ce dossier organise le travail à venir. Le backlog contient 439 stories :
+Ce dossier organise le travail à venir. Le backlog contient 442 stories :
 BASE-001 à BASE-007, BASE-009 à BASE-012, PILOTE-001 à PILOTE-005,
 USAGE-001 à USAGE-003, EXIST-001 à EXIST-011, DOM-001 à DOM-005 et LIV-001 sont `terminee`,
-BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 401 autres sont `proposee`.
+BASE-008 est `en-cours`, COM-001 est `a-verifier` ; les 404 autres sont `proposee`.
 Les [décisions du 16 octobre 2026](decisions-2026-10-16.md) consignent les
 arbitrages rendus après les cadrages DOM-001 à DOM-005 et la livraison LIV-001.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
@@ -300,7 +300,7 @@ avec [inventaire des 38 fichiers, 19 skills et cookbook associé](02-plugins-exi
 et [relecture mise en demeure, demande de pièces et convocation](02-plugins-existants/exist-006-verification.md).
 Mise en demeure, conservation/communication des preuves, écritures et suivi
 sont séparés ; aucune équivalence automatique subpoena/deposition/privilege
-log. Les 28 CTX, dont le parcours du particulier en procès (CTX-025 à 028), restent `proposee`, sans adaptation, renommage, sélection
+log. Les 29 CTX, dont le parcours du particulier en procès et le repérage des irrégularités (CTX-025 à 029), restent `proposee`, sans adaptation, renommage, sélection
 d'extension ou déploiement. Le préalable PILOTE-003 est satisfait après
 BASE-011 ; les limites du pilote restent consignées.
 
@@ -366,7 +366,7 @@ extension choisie, installation réelle ou notification externe.
 | [EXIST-003](02-plugins-existants/exist-003-donnees-personnelles.md) | Découper l'adaptation de la protection des données | cadrage | P2 |
 | [EXIST-004](02-plugins-existants/exist-004-produits-publicite.md) | Découper l'adaptation des produits et de la publicité | cadrage | P2 |
 | [EXIST-005](02-plugins-existants/exist-005-gouvernance-ia.md) | Découper l'adaptation de la gouvernance IA | cadrage | P2 |
-| [EXIST-006](02-plugins-existants/exist-006-contentieux.md) | Cadrage terminé : inventaire et 28 suites contentieuses proposées | cadrage | P2 |
+| [EXIST-006](02-plugins-existants/exist-006-contentieux.md) | Cadrage terminé : inventaire et 29 suites contentieuses proposées | cadrage | P2 |
 | [EXIST-007](02-plugins-existants/exist-007-veille-reglementaire.md) | Cadrage terminé : inventaire et 20 suites de veille proposées | cadrage | P2 |
 | [EXIST-008](02-plugins-existants/exist-008-propriete-intellectuelle.md) | Cadrage terminé : inventaire et 25 suites PI proposées | cadrage | P2 |
 | [EXIST-009](02-plugins-existants/exist-009-clinique-juridique.md) | Cadrage terminé : inventaire et 23 suites de clinique proposées | cadrage | P2 |
@@ -389,13 +389,13 @@ demeure et remboursement, démarchage et consentement. Le texte est conservé
 comme besoin, sans validation de ses affirmations juridiques.
 
 Le domaine police et procédure pénale est cadré dans le
-[découpage CRIM-001 à CRIM-023](03-nouveaux-domaines/dom-002-decoupage-penal.md),
+[découpage CRIM-001 à CRIM-024](03-nouveaux-domaines/dom-002-decoupage-penal.md),
 avec [relecture convocation, garde à vue en cours et avis d'amende](03-nouveaux-domaines/dom-002-verification.md).
 Le plugin proposé reste `criminal-legal`, installable seul, sans profil ni
 stockage des faits pénaux. Ses garde-fous excluent tout conseil d'évitement
 de la justice et tout équivalent Miranda ou subpoena. Première tranche
 proposée : CRIM-001, lecture d'une convocation, qui crée le paquet avec ce
-seul skill. Les 23 CRIM restent `proposee` ; aucune tranche n'est
+seul skill. Les 24 CRIM restent `proposee` ; aucune tranche n'est
 sélectionnée par DOM-002. La [matrice des 97 frictions utilisateur](03-nouveaux-domaines/dom-002-frictions-utilisateurs.md)
 complète les tâches et ajoute contrôle en cours, perquisition, preuves,
 signalement d'agent, TAJ et contrôle routier (CRIM-018 à CRIM-023).
@@ -403,12 +403,12 @@ Les exigences FPS et recours administratifs du permis sont transmises à
 DOM-010, encore à découper ; aucune règle du texte fourni n'est validée ici.
 
 Le domaine exécution et recouvrement est cadré dans le
-[découpage ENF-001 à ENF-019](03-nouveaux-domaines/dom-003-decoupage-execution.md),
+[découpage ENF-001 à ENF-020](03-nouveaux-domaines/dom-003-decoupage-execution.md),
 avec [relecture relance de recouvrement, signification contestée et saisie sans ventilation](03-nouveaux-domaines/dom-003-verification.md).
 Le plugin proposé reste `enforcement-legal`, installable seul, sans profil ;
 il ne promet aucune suspension et laisse la dette d'origine à son domaine.
 Première tranche proposée : ENF-001, lecture d'un acte et repérage de
-l'urgence, qui crée le paquet avec ce seul skill. Les 19 ENF restent
+l'urgence, qui crée le paquet avec ce seul skill. Les 20 ENF restent
 `proposee`, dont l'opposition à une injonction de payer (ENF-012) et la
 saisie immobilière (ENF-013) ajoutées le 16 octobre 2026. La
 [matrice des 47 frictions utilisateur](03-nouveaux-domaines/dom-003-frictions-utilisateurs.md)

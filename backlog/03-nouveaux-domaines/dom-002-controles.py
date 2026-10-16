@@ -115,11 +115,11 @@ def main():
     proposals = sorted((HERE / 'suites').glob('crim-*.md'))
     for p in proposals:
         ALLOWED.add(p.relative_to(ROOT).as_posix())
-    expected = {f'CRIM-{i:03}' for i in range(1, 24)}
+    expected = {f'CRIM-{i:03}' for i in range(1, 25)}
     actual = {k for k in stories if k.startswith('CRIM-')}
     problems = []
-    if actual != expected or len(proposals) != 23:
-        problems.append('Expected exactly CRIM-001..CRIM-023 and 23 files')
+    if actual != expected or len(proposals) != 24:
+        problems.append('Expected exactly CRIM-001..CRIM-024 and 24 files')
     required = ('Objectif et résultat attendu', 'Périmètre et fichiers',
                 'Pièces et informations nécessaires', 'Sortie attendue',
                 'Travail attendu', 'Références métier et sources à rechercher',
@@ -180,7 +180,7 @@ def main():
                       breakdown, re.M)
     problems = []
     if {r[1] for r in rows} != expected:
-        problems.append('Breakdown table does not list exactly CRIM-001..023')
+        problems.append('Breakdown table does not list exactly CRIM-001..024')
     for rank, ident, filename, skill, deps in rows:
         path, fm = stories[ident]
         if path.name != filename:

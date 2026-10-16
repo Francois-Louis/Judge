@@ -52,6 +52,7 @@ ne valident aucune règle de droit.
 | Jurisprudence pendant une réponse | Cadrer l'accès aux décisions sans PISTE et la conduite en cas d'échec. | [BASE-015](00-fondations/base-015-jurisprudence-runtime.md) |
 | Veille des références livrées | Suite du plugin de veille réglementaire. | [VEI-021](02-plugins-existants/suites/vei-021-veille-references-plugins.md) |
 | Médias | Nouveau cadrage couvrant personne atteinte, personne mise en cause, journalistes et créateurs, petits médias et sites. | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) et situation S-48 |
+| Vices de procédure et nullités | Repérage prudent dans chaque procédure : points à soumettre à l'avocat, alerte sur le moment (avant toute défense au fond), jamais « l'acte est nul ». | [CTX-029](02-plugins-existants/suites/ctx-029-reperer-irregularites-civiles.md), [ENF-020](03-nouveaux-domaines/suites/enf-020-reperer-irregularites-execution.md), [CRIM-024](03-nouveaux-domaines/suites/crim-024-reperer-irregularites-penales.md), complément de [DOM-010](03-nouveaux-domaines/dom-010-administratif.md) |
 
 Les nouvelles stories sont `proposee`. Elles suivent le contrat commun de leur
 découpage et n'ont été ni sélectionnées ni implémentées.

@@ -1,7 +1,7 @@
 # EXIST-006 — Découpage du contentieux
 
 Propositions du **16 octobre 2026**, issues de l'[inventaire exhaustif](exist-006-inventaire-contentieux.md).
-Les 28 suites CTX restent `proposee`. [La vérification](exist-006-verification.md)
+Les 29 suites CTX restent `proposee`. [La vérification](exist-006-verification.md)
 est une relecture du cadrage sur documents fictifs, pas une recette de skills.
 
 ## Contrat commun et première tranche proposée
@@ -57,6 +57,7 @@ gates et profils nécessaires, sans attendre une réécriture transversale.
 | [CTX-026](suites/ctx-026-saisir-juge-petit-litige.md) | Préparation de la saisine du juge pour un petit litige civil | CTX-001 |
 | [CTX-027](suites/ctx-027-audience-sans-avocat.md) | Préparation d'une audience civile orale sans avocat | CTX-001 |
 | [CTX-028](suites/ctx-028-jugement-civil-recu.md) | Lecture d'un jugement civil reçu et des recours à vérifier | CTX-001 |
+| [CTX-029](suites/ctx-029-reperer-irregularites-civiles.md) | Repérage des irrégularités possibles d'un acte de procédure civile, à soumettre à l'avocat | CTX-025 |
 
 ## Devenir des trois tâches sans équivalent automatique
 

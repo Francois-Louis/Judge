@@ -1,6 +1,6 @@
 # DOM-003 — Découpage du domaine exécution et recouvrement
 
-Propositions du **16 octobre 2026**. Les 19 stories ENF restent `proposee`.
+Propositions du **16 octobre 2026**. Les 20 stories ENF restent `proposee`.
 La [relecture documentaire](dom-003-verification.md) éprouve le routage sur
 les trois scénarios de la story et sur des cas limites. Aucun répertoire de
 plugin n'est créé par ce cadrage.
@@ -101,6 +101,7 @@ priorité P2, le rang 4 la priorité P3.
 | 2 | [ENF-019](suites/enf-019-contestation-saisie-attribution.md) | `bank-seizure-dispute-preparation` | Dossier et checklist de contestation de saisie-attribution, sans acte prêt à signifier | ENF-001, ENF-004 |
 | 3 | [ENF-005](suites/enf-005-expulsion.md) | `eviction-orientation` | Étape d'une procédure d'expulsion, urgences et interlocuteurs | ENF-001 |
 | 3 | [ENF-006](suites/enf-006-contester-signification.md) | `service-dispute` | Dossier factuel d'une remise d'acte contestée | ENF-001 |
+| 3 | [ENF-020](suites/enf-020-reperer-irregularites-execution.md) | `enforcement-defect-review` | Mentions et conditions d'un acte d'exécution à soumettre à l'avocat | ENF-001, ENF-006 |
 | 3 | [ENF-007](suites/enf-007-saisie-remunerations.md) | `wage-seizure-orientation` | Orientation face à une saisie sur salaire | ENF-001 |
 | 3 | [ENF-008](suites/enf-008-delais-paiement.md) | `payment-plan-request` | Brouillon de demande d'échéancier et options à vérifier | ENF-002 |
 | 3 | [ENF-015](suites/enf-015-reclamation-professionnelle.md) | `professional-complaint-preparation` | Chronologie, pièces et brouillon de réclamation professionnelle | ENF-001 |

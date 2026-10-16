@@ -29,7 +29,7 @@ LOT_DOCS = [HERE / ('dom-003-' + n + '.md') for n in (
 SOURCE = HERE / 'sources/commissaires-justice-frictions-2026-10-16.txt'
 SOURCE_SHA256 = 'c0fba97738c12a167565fe35aa257f94864ff2e5efb6aa073257b6c618768762'
 RELAYS = [HERE / 'dom-006-logement.md', HERE / 'dom-035-responsabilite-dommages.md']
-EXPECTED_ENF = {f'ENF-{i:03}' for i in range(1, 20)}
+EXPECTED_ENF = {f'ENF-{i:03}' for i in range(1, 21)}
 ALLOWED = {
     'backlog/README.md',
     'backlog/00-fondations/base-003-dossier-architecture.md',
@@ -122,7 +122,7 @@ def main():
     actual = {k for k in stories if k.startswith('ENF-')}
     problems = []
     if actual != expected or len(proposals) != len(expected):
-        problems.append('Expected exactly ENF-001..ENF-019 and 19 files')
+        problems.append('Expected exactly ENF-001..ENF-020 and 20 files')
     required = ('Objectif et résultat attendu', 'Périmètre et fichiers',
                 'Pièces et informations nécessaires', 'Sortie attendue',
                 'Travail attendu', 'Références métier et sources à rechercher',
@@ -183,7 +183,7 @@ def main():
                       breakdown, re.M)
     problems = []
     if {r[1] for r in rows} != expected:
-        problems.append('Breakdown table does not list exactly ENF-001..019')
+        problems.append('Breakdown table does not list exactly ENF-001..020')
     for rank, ident, filename, skill, deps in rows:
         path, fm = stories[ident]
         if path.name != filename:
