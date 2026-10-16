@@ -87,3 +87,15 @@ Scénarios **attendus, non exécutés** : soin avant résiliation mais facture
 postérieure ; ancienne mutuelle encore raccordée ; simulation contredite par
 plafond ou code. Sortie : clauses, dates, pièces et brouillon, sans prestation
 recalculée. Collecte minimale sans stockage. [Portée](../dom-007-annexes/dom-007-frictions-verification.md).
+
+## Complément des frictions allocations et aides sociales — 16 octobre 2026
+
+Point 144 de la [matrice](../dom-012-annexes/dom-012-frictions-utilisateurs.md).
+Sur arrêt, distinguer IJ caisse DOM-012/SA01, garantie privée ici et maintien
+salarial/obligation d'affiliation ou déclaration employeur au cadrage travail.
+Lire notice, période couverte, décomptes et refus ; aucune addition automatique
+des indemnités ni garantie déduite du seul arrêt. Sources futures : contrat,
+régime de l'organisme et textes de prévoyance utiles aux dates du dossier.
+Cas attendu : IJ versées, prévoyance refusée et paie réduite ; trois demandes
+à qualifier. Scénario non exécuté ;
+[portée](../dom-012-annexes/dom-012-frictions-verification.md).

@@ -53,3 +53,16 @@ Vérifier le routage et les informations à demander. La story ne doit pas réso
 
 Implémenter le domaine entier, créer un plugin vide pour donner l'impression d'avancer, ou regrouper les autres matières dans un module France/UE.
 
+
+## Complément des frictions allocations et aides sociales — 16 octobre 2026
+
+Points 138–140 de la [matrice](dom-012-annexes/dom-012-frictions-utilisateurs.md).
+JF02 garde chez DOM-012 les prestations ASF/parent isolé et le service ARIPA.
+Découper ici fixation/révision d'une pension et portée du titre, sans les
+confondre avec intermédiation ou recouvrement du service. Entrées : qualité,
+titre et notification, paiements partiels, changement familial, demande précise.
+Sortie : chronologie, pièces et démarche relevant du juge ou du service selon
+objet ; saisie vers DOM-003. Sources futures : Code civil, procédure familiale,
+CSS/textes ARIPA pour la frontière. Cas attendu : pension partiellement payée
+et séparation contestée, sans droit ASF ou révision automatique promis.
+Scénario non exécuté ; [portée](dom-012-annexes/dom-012-frictions-verification.md).

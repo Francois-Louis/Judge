@@ -130,3 +130,20 @@ Scénarios supplémentaires **attendus, non exécutés** : bailleur demandant un
 Sources à ouvrir lors de l’implémentation : loi du 6 juillet 1989 selon champ, Code civil et textes du parc concerné sur décès/transfert du bail ; règles propres au survivant, occupation et loyers.
 
 Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).
+
+## Complément des frictions allocations et aides sociales — 16 octobre 2026
+
+Points 115–120 et 149 de la [matrice](dom-012-annexes/dom-012-frictions-utilisateurs.md).
+LG02 distingue décision caisse DOM-012 et compte du bailleur ici. Rapprocher
+bail, attestation de loyer, décomptes CAF/MSA, quittances, impayé, signalement
+et éventuel plan ; sortie : tableau des versements/imputations et demande de
+correction au bailleur, distincte d'un recours contre décision d'aide. Décence
+et dette locative restent leurs tâches propres ; maintien/conservation de l'aide
+à rechercher chez DOM-012, sans arrêt de paiement ni suppression automatique.
+SA04 propose le dossier FSL chez DOM-012 selon règlement départemental, avec
+relais logement pour bail/dette ; propriétaire à confirmer lors du découpage.
+
+Sources futures : CCH et textes d'aides/impayés/décence, règlement FSL exact.
+Cas attendus : APL reçue mais loyer intégral réclamé ; aide conservée pour
+non-décence ; FSL proposé sous forme de prêt. Scénarios non exécutés ;
+[portée et contrôles](dom-012-annexes/dom-012-frictions-verification.md).

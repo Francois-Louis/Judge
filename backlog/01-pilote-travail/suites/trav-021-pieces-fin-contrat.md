@@ -73,3 +73,16 @@ finale nommant le professionnel compétent et renfort en tête si urgence ou
 procédure ; sources, paquet détaché, client et compréhension à vérifier selon
 BASE-005/006. Portée de l’intégration et lectures préliminaires :
 [vérification](../pilote-001-annexes/pilote-001-frictions-verification.md).
+
+## Complément des frictions allocations et aides sociales — 16 octobre 2026
+
+Points 2–4 de la [matrice](../../03-nouveaux-domaines/dom-012-annexes/dom-012-frictions-utilisateurs.md).
+Prévoir rapprochement attestation France Travail, contrat/rupture et bulletins,
+avec dates de remise/transmission, salaires et motif ; brouillon de correction
+ou relance employeur. Ouvrir les textes propres à l'attestation et à sa
+transmission lors de l'implémentation. FT01/02 chez DOM-012 gardent admission
+et calcul ARE, sans les déduire de la seule attestation.
+Cas attendu : motif de démission sur attestation contredit par lettre de
+rupture ; qualifier contradiction sans corriger soi-même le motif ni garantir
+les droits. Scénario non exécuté ;
+[portée](../../03-nouveaux-domaines/dom-012-annexes/dom-012-frictions-verification.md).

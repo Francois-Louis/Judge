@@ -105,3 +105,20 @@ Scénarios de cadrage à prévoir : première déclaration sans accusé ; décla
 ## Complément des frictions données personnelles — 16 octobre 2026
 
 Le point 29 de la [matrice données personnelles](../02-plugins-existants/exist-003-annexes/exist-003-frictions-utilisateurs.md) exige une tâche de non-diffusion/occultation des données de l'EI encore à découper : qualifier registre, acte, donnée, statut du demandeur, date et canal officiel. Distinguer Sirene/RNE, information de registre et copie privée ; procédures et effets à vérifier. PRV-028 prépare la demande à un annuaire privé, PRV-029 au moteur, sans disparition des copies garantie. Scénario attendu : domicile servant d'adresse professionnelle repris dans deux annuaires après changement de statut de diffusion. Portée et contrôles : voir la matrice.
+
+## Complément des frictions allocations et aides sociales — 16 octobre 2026
+
+Points 66–67, 73–80, 92–95 et 108 de la [matrice](dom-012-annexes/dom-012-frictions-utilisateurs.md).
+Tâches candidates à découper, sans sélection de tranche :
+
+- ACRE (CR01) : qualifier statut, date de création/reprise, antécédents, demande et accusé ; lire décision et période/taux de cotisations, puis préparer demande d'explication ou contestation propre. Séparer éligibilité/dépôt, suivi et calcul ; aucune réforme 2026 ni délai du guide adopté sans texte/version/transitions.
+- Rapprocher CA par activité, bénéfice et rémunération avec déclarations et pièces ; règles de prestation CAF ou ARE chez DOM-012, sans assiette ou abattement commun aux trois administrations.
+- Après cessation : dernières périodes, déclarations, régularisation et notification ; aucune extinction des cotisations déduite de la radiation. ATI et attestation de non-viabilité à coordonner avec CR07 chez DOM-012.
+
+Entrées : régime réel/micro, activité mixte éventuelle, création/début réel,
+CA encaissé, demandes, courriers, cotisations et réception. Résultat :
+chronologie, écarts de pièces et brouillon ciblé, sans tenue comptable.
+Sources à ouvrir : CSS, textes ACRE et transitions, Urssaf et formalités.
+Cas attendus : création autour d'une réforme et accusé absent ; cessation
+avec régularisation reçue après radiation. Scénarios non exécutés ;
+[portée et contrôles](dom-012-annexes/dom-012-frictions-verification.md).

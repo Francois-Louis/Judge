@@ -183,3 +183,36 @@ tranche de lecture d’un indu reste inchangée. TRAV-040 garde le signalement �
 l’employeur, TRAV-041/042 les visites et effets professionnels. Délais et voies
 sociales propres à l’acte ne sont pas remplacés par la procédure prud’homale.
 Scénarios et limites : voir la fiche et la vérification travail liée.
+
+## Complément des frictions allocations et aides sociales — 16 octobre 2026
+
+Le [guide intégral](sources/aides-sociales-frictions-2026-10-16.txt) et la
+[matrice des 185 points](dom-012-annexes/dom-012-frictions-utilisateurs.md)
+précisent les exigences d'entrée, résultats, frontières et sources futures.
+Les codes locaux de tâches ne sont ni des stories ni des commandes livrées.
+DOM-012 reste `proposee`, sans sélection de tranche ; le premier indu reste
+à borner à un organisme et une prestation. L'éventuelle séparation d'un
+plugin emploi/minima sociaux demeure une question du cadrage.
+
+- [ ] Décliner FT01–FT07 : ouverture/calcul/début ARE, reliquat/option/rechargement, actualisation, engagement, avertissement et sanction, en actes séparés. Attestation employeur vers TRAV-021, rupture/CSP contractuels vers TRAV-049/050.
+- [ ] Décliner RS01/02 et PA01 par prestation : foyer, résidence, ressources, période, préremplissage et correction, puis accompagnement/sanction RSA ; payeur et décideur distincts. Aucune fenêtre de ressources ou obligation d'activité commune imposée.
+- [ ] Séparer CR02–CR05/07 : questions ARCE/maintien ARE, versements/reprise, cumul indépendant, demande IPR et ATI. ACRE/cotisations CR01 chez DOM-039 ; fiscalité personnelle chez DOM-011 ; aide publique à la création CR06 proposée chez DOM-010, à confirmer.
+- [ ] Décliner LG01/02, FD01–FD03 et JF01/02 : logement, fin de droits ASS/RSA, rémunération/frais de formation, mobilité/garde, CEJ et prestations familiales. Compte bailleur chez DOM-006, contrat de formation chez DOM-027, fixation de pension chez DOM-013.
+- [ ] Séparer SA01–SA04 : IJ, C2S, paiement caisse distinct de reconnaissance handicap DOM-025, secours locaux/FSL avec règlement territorial et nature prêt/subvention.
+- [ ] Séparer IN01–IN05 et CT01/02 : lecture d'indu, prescription, contestation, remise/échéancier/retenues, contrainte, contrôle et pénalité. Dette, sanction, erreur et fraude ne se déduisent pas les unes des autres. Position sur dette demandée avant tout brouillon de remise ; ses effets restent à vérifier selon régime.
+- [ ] Décliner RC01/02 : voies préalables, silence, juridiction, médiation éventuelle obligatoire et urgence propres à chaque décision. Aucune CRA, juridiction ou durée commune aux décisions CAF, France Travail ou département. Procédures spécialisées à découper avec DOM-010/EXIST-006 selon attribution.
+
+Scénarios supplémentaires **attendus, non exécutés** : ancienne ARE reprise
+alors qu'une option est envisagée ; correction d'un net social mais indu non
+contesté ; micro-entreprise et SASU sans rémunération traitées selon leurs
+pièces propres ; RSA suspendu avec référents multiples ; AAH reconnue mais
+paiement refusé ; APL reçue par le bailleur sans imputation ; dette incertaine
+avec formulaire de remise ; contrainte pendant médiation et ressources vitales
+interrompues. Les tableaux annexés couvrent aussi trois prescriptions, neuf
+objets de recours, douze repères de calendrier et dix réflexes.
+
+Sources futures : textes d'assurance chômage/Code du travail, CASF, CSS,
+CCH et textes d'application propres à chaque régime, Unédic/France Travail,
+CAF/MSA, Assurance maladie, départements et règlements d'aides identifiés.
+Les réformes, montants, taux et délais du guide ne sont pas validés ici.
+[Contrôles et portée](dom-012-annexes/dom-012-frictions-verification.md).

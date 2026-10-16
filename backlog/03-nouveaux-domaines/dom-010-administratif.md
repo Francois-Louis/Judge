@@ -108,3 +108,25 @@ Points 21–22, 36, 59, 63, 66, 68–71, 144–145, 159–160, 178 et 187–195 
 Prestataire carte grise (189–190) : séparer habilitation, formalité publique, contrat de service et somme facturée ; tâche de lecture/réclamation du service à découper, sans prétendre que tout intermédiaire payant est illicite. VEH-019 garde les documents promis par vendeur/mandataire ; DOM-009 douane ; DOM-011 quitus/fiscalité ; INS-015 risque modifié ; CRIM-005 amende. Le recours contre une fourrière et celui contre une contravention ne se remplacent pas. Sources à chercher : Code de la route, arrêtés selon véhicule/opération, CRPA/CJA et régime spécial de compétence, sites officiels France Titres/DREAL selon l'objet. Cas attendus : cession non déclarée avec amende ; import avec document étranger manquant ; fourrière payée mais contestée ; E85 ou moteur modifié sans formalité expliquée. Aucune habilitation, homologation ou autorisation de circulation certifiée ; délais/tarifs à rechercher selon lieu et date.
 
 Exigences de la [matrice des 195 points](dom-023-annexes/dom-023-frictions-utilisateurs.md), à découper sans sélection de tranche. Sources et scénarios métier non vérifiés ; [portée de l’intégration](dom-023-annexes/dom-023-frictions-verification.md).
+
+## Complément des frictions allocations et aides sociales — 16 octobre 2026
+
+Points 96–104 et 178–185 de la [matrice](dom-012-annexes/dom-012-frictions-utilisateurs.md).
+CR06 propose ici la lecture d'une aide publique à la création : dispositif,
+financeur, région/appel, demande et décision, dépenses engagées, convention,
+engagements, cumuls et versements. Sortie candidate : chronologie,
+conditions/préalables et pièces de justification ; restitution et recours
+à découper séparément. Propriétaire à confirmer au cadrage ; un prêt
+d'honneur, une avance et une subvention ne sont pas assimilés au crédit
+bancaire BNK-018. ACRE reste DOM-039, aides France Travail DOM-012.
+
+RC02 : préciser avec DOM-012 la procédure d'urgence administrative pour une
+décision sociale choisie, son préalable éventuel, juge, preuves et conditions ;
+aucun référé général appliqué à toutes allocations. Une décision relevant
+d'un autre ordre ne reçoit pas ce circuit par défaut.
+
+Sources futures : règlement exact, décision/convention, textes de cumuls et
+CJA/CRPA dans leur champ propre. Scénarios attendus : investissement engagé
+sur accord de principe régional ; prestation interrompue pendant médiation.
+Tâches à découper, non exécutées ;
+[portée et contrôles](dom-012-annexes/dom-012-frictions-verification.md).

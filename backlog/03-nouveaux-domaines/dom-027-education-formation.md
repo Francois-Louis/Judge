@@ -67,3 +67,16 @@ Ces exigences restent à découper ou préciser ; [portée et contrôles de l'in
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+
+## Complément des frictions allocations et aides sociales — 16 octobre 2026
+
+Points 125–127 de la [matrice](dom-012-annexes/dom-012-frictions-utilisateurs.md).
+FD02 garde chez DOM-012 rémunération de formation et décision du financeur.
+Le litige contractuel avec l'organisme reste à découper ici : offre/contrat,
+statut, dates d'engagement, frais, validation et annulation ; sortie : pièces,
+conditions et brouillon ciblé. Aucun remboursement présumé au motif d'une
+inscription à France Travail. Sources futures : Code du travail sur formation,
+textes contractuels/consommation selon champ, contrat et décision du financeur.
+Cas attendu : formation payée avant accord et frais refusés, avec deux demandes
+distinctes. Scénario non exécuté ;
+[portée](dom-012-annexes/dom-012-frictions-verification.md).

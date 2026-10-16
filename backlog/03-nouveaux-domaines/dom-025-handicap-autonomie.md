@@ -92,3 +92,18 @@ Scénarios supplémentaires **attendus, non exécutés** : chambre vidée mais f
 Sources à ouvrir lors de l’implémentation : CASF et règles propres à la facturation après décès, dépôt, états des lieux et remise des effets en établissement ; contrat et statut de la structure, sans généralisation depuis la location privée.
 
 Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).
+
+## Complément des frictions allocations et aides sociales — 16 octobre 2026
+
+Points 146–147 et ligne V06 de la [matrice](dom-012-annexes/dom-012-frictions-utilisateurs.md).
+SA03 reste à découper : reconnaissance handicap, renouvellement et recours
+sur décision MDPH/CDAPH, avec auteur, droit demandé, notification/réception,
+fin de validité, demande et preuve de dépôt. Sortie : lecture du motif,
+pièces, voie préalable et calendrier propres à la décision. Le paiement,
+ressources ou indu de caisse relèvent de DOM-012 même si le droit se nomme AAH.
+Aucun transfert automatique de pièces ni continuité de versement garantie.
+
+Sources futures : CASF/CSS et textes propres au droit et au recours identifié.
+Cas attendus : AAH reconnue mais paiement refusé ; renouvellement déposé avec
+réception incertaine avant expiration. Scénarios non exécutés ;
+[portée et contrôles](dom-012-annexes/dom-012-frictions-verification.md).

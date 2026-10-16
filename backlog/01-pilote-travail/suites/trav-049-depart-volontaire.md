@@ -79,3 +79,16 @@ Statut `proposee` ; aucune extension sélectionnée ni scénario métier exécut
 PILOTE-003 est terminé avec ses limites documentées. Portée des contrôles de
 cette intégration : voir le relevé lié ci-dessus. La priorité P2 exprime la
 famille du backlog, pas une fréquence statistique ni un ordre de livraison.
+
+## Complément des frictions allocations et aides sociales — 16 octobre 2026
+
+Points 4–6 de la [matrice](../../03-nouveaux-domaines/dom-012-annexes/dom-012-frictions-utilisateurs.md).
+Documenter chronologie du projet/CEP/validation, démission et inscription
+quand la personne invoque une reconversion. L'effet contractuel reste ici ;
+conditions d'ARE et décision France Travail chez DOM-012/FT01. Aucun départ
+conseillé sur une indemnisation supposée, aucune procédure préalable réputée
+régularisable après rupture. Sources futures : textes du départ et de la
+reconversion aux dates utiles, articulation règlement d'assurance chômage.
+Cas attendu : démission déjà envoyée avant validation du projet, avec pièces
+et conseil compétent sans garantie. Scénario non exécuté ;
+[portée](../../03-nouveaux-domaines/dom-012-annexes/dom-012-frictions-verification.md).

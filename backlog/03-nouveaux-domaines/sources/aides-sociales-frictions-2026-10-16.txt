@@ -1,0 +1,795 @@
+# France — Les pièges des indemnisations, allocations et aides sociales
+
+Guide pratique de défense des droits — 16 octobre 2026
+
+Les difficultés les plus sensibles concernent le chômage, le RSA, la prime d'activité, les aides au logement, les aides à la création d'entreprise et les récupérations de trop-perçus.
+
+Les principaux risques sont les suivants :
+
+- Perdre un droit sans le savoir : actualisation oubliée, demande trop tardive, mauvaise case cochée, délai de recours dépassé.
+- Recevoir moins que prévu : mauvaise période de référence, ressources imputées à tort, mauvais calcul ou retenue non comprise.
+- Devoir rembourser plusieurs milliers d'euros : erreur de déclaration, changement de situation non enregistré, contrôle rétroactif.
+- Subir une suspension de ressources : documents manquants, absence à une convocation, sanction, dossier bloqué.
+- Renoncer à des aides pourtant accessibles : défaut d'information, confusion entre prestations, conditions d'éligibilité mal comprises.
+- Se retrouver incapable de contester : échanges téléphoniques sans trace, notification ignorée, mauvais interlocuteur ou mauvais recours.
+
+Il faut distinguer trois choses : les règles légales défavorables, les dysfonctionnements administratifs et les abus susceptibles d'être contestés. Une situation injuste n'est pas nécessairement illégale.
+
+Ce guide rassemble les pièges concrets, leurs conséquences, les moyens de s'en protéger et les délais particulièrement dangereux.
+
+## 1. Allocation chômage (ARE) — France Travail
+
+### A. Ouverture et calcul des droits
+
+| Piège                                          | Ce qui peut arriver                                                                                           | Comment se protéger                                                                                 |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 1. Inscription tardive                         | Versement retardé et risque de perdre la possibilité d'ouvrir ses droits si le délai maximal est dépassé.     | S'inscrire dès la fin du contrat, sans attendre tous les documents.                                 |
+| 2. Attestation employeur erronée               | Salaires, dates ou motif de rupture inexacts entraînant un mauvais calcul ou un blocage.                      | Comparer l'attestation aux bulletins de salaire et au contrat.                                      |
+| 3. Attestation non transmise                   | Le traitement du dossier reste incomplet.                                                                     | Relancer l'employeur par écrit et signaler immédiatement le problème à France Travail.              |
+| 4. Mauvais motif de rupture                    | Une démission peut être enregistrée alors que la situation devrait être examinée différemment.                | Vérifier la qualification exacte et les exceptions légales.                                         |
+| 5. Démission supposée indemnisable             | Une démission ordinaire n'ouvre généralement pas immédiatement l'ARE.                                         | Vérifier les cas de démission légitime ou la reconversion avant de rompre le contrat.               |
+| 6. Démission-reconversion mal préparée         | Démissionner avant la validation du projet peut compromettre les droits.                                      | Respecter la procédure préalable, notamment le CEP et la validation du projet.                      |
+| 7. Période d'affiliation mal calculée          | Des contrats courts, périodes de maladie ou contrats successifs peuvent être mal pris en compte.              | Demander le détail des périodes retenues.                                                           |
+| 8. Salaire journalier de référence défavorable | Certaines périodes sans emploi influencent le calcul du SJR selon les règles applicables.                     | Faire vérifier les périodes et les plafonnements prévus.                                            |
+| 9. Ancien reliquat de droits                   | Une allocation ancienne moins favorable peut être reprise plutôt que de nouveaux droits.                      | Examiner les conditions d'exercice du droit d'option.                                               |
+| 10. Rechargement non déclenché                 | Des périodes d'emploi ne sont pas retenues ou sont mal enregistrées.                                          | Conserver les justificatifs et demander un réexamen.                                                |
+| 11. Différé d'indemnisation                    | Les indemnités de rupture et les congés payés peuvent repousser le premier paiement.                          | Demander le décompte précis des différés.                                                           |
+| 12. Délai d'attente de 7 jours                 | Un délai supplémentaire peut s'appliquer, sous conditions.                                                    | Vérifier s'il a déjà été appliqué dans les 12 mois précédents.                                      |
+| 13. Confusion sur la durée des droits          | La durée annoncée n'est pas forcément égale au nombre de mois calendaires attendus.                           | Consulter la notification d'ouverture de droits et les jours restants.                              |
+| 14. Dégressivité de l'ARE                      | Certaines allocations élevées sont réduites après une période définie, selon l'âge et les règles applicables. | Vérifier dès l'ouverture si la dégressivité s'applique.                                             |
+| 15. Droit à l'ARE supposé automatique          | Une période suffisante de travail ne garantit pas à elle seule l'indemnisation.                               | Vérifier toutes les conditions : affiliation, rupture, inscription, aptitude et recherche d'emploi. |
+
+Attention au piège du premier versement : une personne peut avoir droit à l'ARE mais attendre plusieurs semaines, voire davantage, avant de recevoir son premier paiement. Il faut distinguer la date d'inscription, les différés d'indemnisation, le délai d'attente et le paiement à terme échu.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.francetravail.fr\&sz=32)
+
+francetravail.fr
+
++1
+
+
+
+### B. Actualisation et conservation des droits
+
+| Piège                                                      | Conséquence possible                                                                    | Réflexe                                                            |
+| ---------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| 16. Oublier l'actualisation                                | Cessation d'inscription et interruption de paiement.                                    | Effectuer l'actualisation dès son ouverture.                       |
+| 17. Croire que l'actualisation est inutile sans allocation | Les périodes d'emploi non déclarées peuvent ne pas être retenues pour de futurs droits. | Déclarer toute activité lorsqu'on est soumis à l'actualisation.    |
+| 18. Ne pas déclarer quelques heures d'intérim              | Régularisation, trop-perçu ou difficultés de rechargement.                              | Déclarer même les missions très courtes.                           |
+| 19. Déclarer un salaire dans le mauvais mois               | Calcul mensuel erroné et régularisation ultérieure.                                     | Suivre les consignes d'actualisation et garder les bulletins.      |
+| 20. Ne pas signaler un arrêt maladie                       | Risque de cumul irrégulier entre indemnités journalières et ARE.                        | Informer France Travail et la CPAM.                                |
+| 21. Oublier une formation                                  | Mauvais statut ou calcul d'allocation inadapté.                                         | Signaler l'entrée en formation, même non rémunérée.                |
+| 22. Absence ou séjour à l'étranger non déclaré             | Problème de disponibilité ou sanction.                                                  | Déclarer les absences conformément aux règles applicables.         |
+| 23. Convocation reçue seulement dans l'espace personnel    | Absence considérée comme injustifiée.                                                   | Contrôler régulièrement les convocations et notifications.         |
+| 24. Absence justifiée trop tardivement                     | Sanction malgré un motif potentiellement valable.                                       | Prévenir sans délai et transmettre un justificatif.                |
+| 25. Reprise d'emploi déclarée de manière incomplète        | Mauvaise indemnisation ou cessation d'inscription non anticipée.                        | Vérifier les conséquences de la reprise sur son statut.            |
+| 26. Activité non salariée non déclarée                     | Trop-perçu et possible qualification de fausse déclaration.                             | Déclarer toute création ou reprise d'activité.                     |
+| 27. Réponse inexacte à une question d'actualisation        | Changement de situation enregistré à tort.                                              | Relire les réponses avant validation et conserver le justificatif. |
+
+Délai essentiel — actualisation 2026
+
+Ouverture habituelle
+
+# 28
+
+26 en février
+
+Clôture
+
+# 15
+
+du mois suivant
+
+Le paiement de l'ARE dépend notamment de cette actualisation. Certaines personnes inscrites mais non indemnisées sont dispensées d'actualisation : il faut vérifier si la démarche est demandée dans leur espace personnel.
+
+[image](https://www.google.com/s2/favicons?domain=https://www.francetravail.fr\&sz=32)
+
+francetravail.fr
+
++2
+
+Ne jamais considérer une inscription à France Travail comme une garantie automatique de paiement.
+
+### C. Sanctions, radiations et obligations
+
+Les sanctions ont été réformées en 2025. Le nouveau régime prévoit notamment des suspensions ou suppressions d'allocation, avec des sanctions graduées selon les manquements. Certaines suspensions peuvent être levées lorsque la personne remplit à nouveau ses obligations.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
++1
+
+
+
+| Piège                                               | Risque                                                                | Défense                                                                               |
+| --------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| 28. Contrat d'engagement trop restrictif            | Engagement de recherche d'emploi inadapté aux contraintes réelles.    | Faire inscrire les contraintes de santé, mobilité, disponibilité et qualification.    |
+| 29. Offre raisonnable d'emploi mal définie          | Refus susceptible de conduire à une sanction.                         | Vérifier les critères inscrits au contrat d'engagement.                               |
+| 30. Refus de deux offres raisonnables               | Risque de sanction selon la situation.                                | Conserver les offres et expliquer par écrit les motifs précis de refus.               |
+| 31. Absence à un atelier obligatoire                | Sanction possible même si l'atelier paraît inutile.                   | Demander son caractère obligatoire et solliciter une adaptation justifiée.            |
+| 32. Recherches d'emploi non prouvées                | Difficulté à démontrer le respect de ses engagements.                 | Archiver candidatures, réponses, entretiens et démarches.                             |
+| 33. Convocation impossible à honorer                | Difficultés liées à la garde d'enfant, au transport ou à la santé.    | Demander un report avant la date et conserver les preuves.                            |
+| 34. Sanction sans prise en compte des justificatifs | Réduction ou suspension contestable.                                  | Demander le motif, le fondement de la sanction et exercer le recours indiqué.         |
+| 35. Confusion entre suspension et suppression       | Mauvaise compréhension de ce qui pourra éventuellement être récupéré. | Exiger une notification précisant la nature et la période de sanction.                |
+| 36. Médiation prise pour un recours juridictionnel  | Expiration possible d'un délai contentieux.                           | Exercer les recours obligatoires et surveiller les délais, même pendant la médiation. |
+
+Le contrat d'engagement doit notamment préciser les caractéristiques de l'emploi recherché, la zone géographique et le niveau de salaire souhaité. Il définit aussi les actions d'accompagnement de France Travail.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+## 2. RSA — Revenu de solidarité active
+
+### A. Les conditions qui font perdre des droits
+
+| Piège                                                  | Ce qui se passe                                                       | Protection                                                                          |
+| ------------------------------------------------------ | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| 37. Penser que le RSA est automatique                  | Une personne éligible peut ne rien percevoir faute de demande.        | Déposer rapidement une demande.                                                     |
+| 38. Confondre absence de revenu et droit au RSA        | Les autres conditions d'éligibilité peuvent faire obstacle.           | Examiner l'âge, les ressources, le foyer, le séjour et la résidence.                |
+| 39. Ressources du conjoint ignorées                    | Recalcul et dette importante.                                         | Déclarer toute vie de couple réelle, même sans mariage ni PACS.                     |
+| 40. Confondre colocation et concubinage                | Une mauvaise qualification modifie le RSA.                            | Conserver les éléments établissant la réalité de la situation.                      |
+| 41. Hébergement gratuit                                | Un forfait logement peut réduire le RSA.                              | Vérifier que le forfait retenu correspond à la situation.                           |
+| 42. Épargne non renseignée                             | Revenus du patrimoine ou forfaits susceptibles d'être pris en compte. | Demander quelles sommes et quelles règles de calcul sont utilisées.                 |
+| 43. Don familial confondu avec une ressource régulière | Des transferts bancaires peuvent être mal qualifiés.                  | Documenter la nature des versements et appliquer les règles propres à leur origine. |
+| 44. Revenus exceptionnels mal imputés                  | Forte diminution du droit durant une période donnée.                  | Vérifier la date et la nature des ressources retenues.                              |
+| 45. Perte récente d'emploi                             | Le calcul peut encore prendre en compte des revenus antérieurs.       | Demander si une neutralisation ou un abattement de ressources est applicable.       |
+| 46. Patrimoine immobilier oublié                       | Un bien autre que la résidence principale peut modifier les droits.   | Déclarer le patrimoine concerné et vérifier son traitement.                         |
+| 47. Revenus étrangers non déclarés                     | Régularisation, indu ou sanction.                                     | Déclarer les ressources étrangères prises en compte par la réglementation.          |
+| 48. Départ prolongé à l'étranger                       | Non-respect possible de la condition de résidence.                    | Vérifier la règle des 9 mois de résidence en France et les exceptions.              |
+| 49. Séparation non signalée                            | Mauvais calcul du RSA ou non-application d'une majoration.            | Déclarer rapidement la séparation réelle.                                           |
+| 50. Reprise d'activité indépendante                    | Ressources évaluées différemment des salaires.                        | Demander la méthode d'évaluation appliquée à l'activité.                            |
+
+La résidence, les ressources du foyer et la situation familiale sont des critères déterminants. La CAF peut recouper les données des administrations et demander des justificatifs.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.caf.fr\&sz=32)
+
+CAF – Caisse d’Allocations Familiales
+
++2
+
+
+
+### B. Les nouvelles obligations depuis 2025
+
+Depuis janvier 2025, les bénéficiaires du RSA sont en principe inscrits automatiquement à France Travail. Un contrat d'engagement définit un accompagnement et des actions à réaliser. La durée de référence de 15 heures d'activité hebdomadaires doit être adaptée à la situation de la personne ; ce n'est pas une obligation uniforme de travailler gratuitement 15 heures.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++1
+
+
+
+Les pièges supplémentaires sont :
+
+51\. Recevoir des convocations de plusieurs organismes : France Travail, conseil départemental et organisme référent peuvent intervenir dans le parcours. Il faut identifier qui assure effectivement l'accompagnement.
+
+52\. Se voir attribuer des engagements inadaptés : l'état de santé, le handicap, les difficultés de garde et les obstacles sociaux doivent être examinés.
+
+53\. Confondre activité d'insertion et emploi salarié : une action prévue au contrat n'est pas nécessairement un contrat de travail rémunéré.
+
+54\. Ne pas obtenir de copie du contrat : il devient difficile de savoir quelles obligations ont été acceptées.
+
+55\. Manquer une action faute d'information claire : demander systématiquement les dates, lieux, objectifs et modalités de justification.
+
+56\. Ne pas signaler l'impossibilité de respecter un engagement : prévenir par écrit et solliciter une adaptation.
+
+57\. Subir une suspension du RSA pour manquement : le nouveau régime permet des sanctions progressives et, sous conditions, une régularisation en cas de remobilisation.
+
+58\. Croire que toute sanction entraîne automatiquement une radiation définitive : suspension, suppression et radiation sont des mesures distinctes.
+
+59\. Ignorer les garanties de procédure : demander la décision motivée, les éléments reprochés et vérifier que la procédure contradictoire applicable a été respectée.
+
+60\. Contester auprès du mauvais organisme : la CAF verse généralement le RSA, mais le conseil départemental joue un rôle décisionnel essentiel. Il faut suivre les voies de recours propres à la décision contestée.
+
+[image](https://www.google.com/s2/favicons?domain=https://www.legifrance.gouv.fr\&sz=32)
+
+Légifrance
+
++2
+
+## 3. Prime d'activité — Les pièges de calcul
+
+La prime d'activité n'est pas réservée aux salariés : les indépendants peuvent également en bénéficier. Une réforme de son calcul est entrée en vigueur le 1er avril 2026.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++1
+
+
+
+| Piège                                                                | Conséquence                                                                       | Défense                                                             |
+| -------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| 61. Penser gagner trop pour y avoir droit                            | Non-recours à une aide potentielle.                                               | Faire une simulation puis déposer une demande si nécessaire.        |
+| 62. Croire que la prime est attribuée à tous les travailleurs        | Les ressources de l'ensemble du foyer interviennent.                              | Simuler avec toutes les ressources pertinentes.                     |
+| 63. Déclarer le net payé à la place du net social                    | Mauvais calcul.                                                                   | Contrôler le montant net social figurant sur les justificatifs.     |
+| 64. Se fier aveuglément aux cases préremplies                        | Une erreur transmise par un employeur peut affecter les droits.                   | Vérifier chaque ligne avant validation.                             |
+| 65. Mauvais mois de rattachement du salaire                          | Revenu imputé à une période inattendue.                                           | Vérifier la date de versement et les possibilités de correction.    |
+| 66. Confondre revenu et chiffre d'affaires                           | Déclaration incorrecte pour un micro-entrepreneur.                                | Utiliser les rubriques prévues pour les travailleurs indépendants.  |
+| 67. Mauvaise catégorie de chiffre d'affaires                         | Mauvais abattement fiscal.                                                        | Distinguer ventes, prestations BIC et activités BNC.                |
+| 68. Oublier les revenus du conjoint                                  | Trop-perçu ou erreur de montant.                                                  | Vérifier les ressources de tous les membres du foyer.               |
+| 69. Omettre les pensions alimentaires                                | Calcul incomplet.                                                                 | Vérifier les revenus complémentaires à déclarer.                    |
+| 70. Croire que le droit suit immédiatement les revenus               | Décalage entre les ressources du trimestre de référence et la situation actuelle. | Anticiper les variations de trésorerie.                             |
+| 71. Oublier la déclaration trimestrielle                             | Paiement susceptible d'être suspendu.                                             | Créer un rappel récurrent.                                          |
+| 72. Croire qu'une demande refusée ne mérite jamais d'être renouvelée | Perte de droits après un changement de situation.                                 | Réaliser une nouvelle simulation lorsque revenus ou foyer changent. |
+
+### Le piège du préremplissage depuis mars 2025
+
+Pour le RSA et la prime d'activité, la déclaration trimestrielle utilise les ressources des mois M-2 à M-4, et non plus celles des trois derniers mois immédiatement précédents.
+
+Par exemple, pour une déclaration réalisée en octobre, les ressources de juin, juillet et août peuvent être celles à vérifier.
+
+Les salaires et revenus de remplacement sont principalement préremplis, mais les revenus indépendants, pensions alimentaires et certaines autres ressources restent à compléter.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.caf.fr\&sz=32)
+
+CAF – Caisse d’Allocations Familiales
+
++1
+
+
+
+### Cas des micro-entrepreneurs
+
+En déclaration en ligne, il faut généralement saisir le chiffre d'affaires brut mensuel dans les catégories appropriées, sans appliquer soi-même l'abattement fiscal dans ces champs.
+
+| Nature d'activité                           | Abattement fiscal forfaitaire |
+| ------------------------------------------- | ----------------------------- |
+| Vente de marchandises                       | 71 %                          |
+| Prestations commerciales ou artisanales BIC | 50 %                          |
+| Prestations BNC                             | 34 %                          |
+
+Ces abattements servent au calcul de ressources dans les conditions du dispositif. Ils ne signifient pas que les dépenses réelles de l'entreprise sont déduites individuellement. Les règles peuvent différer pour les indépendants imposés au réel.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.caf.fr\&sz=32)
+
+CAF – Caisse d’Allocations Familiales
+
++1
+
+
+
+## 4. Création et reprise d'entreprise — ACRE, ARCE, ARE et autres aides
+
+C'est l'un des domaines où les décisions prises dans le mauvais ordre peuvent coûter cher.
+
+### A. ACRE : exonération de cotisations
+
+Changement majeur en 2026 : pour les micro-entreprises créées ou reprises à compter du 1er juillet 2026, l'exonération ACRE est passée de 50 % à 25 % des cotisations sociales concernées. La demande doit être déposée dans les 60 jours suivant l'ouverture de l'activité.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
++1
+
+
+
+| Piège                                     | Conséquence                                                                    | Précaution                                                                 |
+| ----------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
+| 73. Croire l'ACRE automatique             | Perte possible de l'exonération faute de demande.                              | Déposer la demande auprès de l'Urssaf.                                     |
+| 74. Rater les 60 jours                    | Demande hors délai.                                                            | Effectuer la démarche immédiatement après création.                        |
+| 75. Confondre ACRE et ARCE                | Mauvaise anticipation de la trésorerie.                                        | Distinguer exonération de cotisations et capital chômage.                  |
+| 76. Utiliser un ancien taux d'exonération | Prévisions financières trop optimistes.                                        | Appliquer les règles en vigueur à la date de création.                     |
+| 77. Créer sans vérifier l'éligibilité     | Refus potentiel de l'ACRE.                                                     | Vérifier les conditions personnelles et les aides antérieurement obtenues. |
+| 78. Créer en fin de trimestre civil       | Pour une micro-entreprise, période effective d'exonération parfois raccourcie. | Examiner la date optimale de début d'activité.                             |
+| 79. Ne pas conserver l'accusé de dépôt    | Difficulté à démontrer la demande dans les délais.                             | Archiver l'envoi et la décision.                                           |
+| 80. Ne pas suivre la réponse de l'Urssaf  | Incertitude sur le taux réellement appliqué.                                   | Vérifier la décision et les cotisations calculées.                         |
+
+### B. ARCE : transformer des droits chômage en capital
+
+L'ARCE représente en principe 60 % des droits ARE restants, versés en deux fractions, après application des retenues prévues.
+
+Le second versement intervient six mois après le premier, si l'activité existe toujours et, pour les créations concernées par les règles depuis le 1er avril 2025, si le bénéficiaire n'est pas titulaire d'un CDI à temps plein.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.francetravail.fr\&sz=32)
+
+francetravail.fr
+
++1
+
+
+
+Les pièges :
+
+81\. Créer l'entreprise avant d'avoir sécurisé ses droits ARE : la chronologie de création et d'ouverture des droits peut changer les possibilités d'indemnisation.
+
+82\. Demander l'ARCE sans avoir obtenu l'ACRE : l'ACRE est une condition d'attribution.
+
+83\. Choisir l'ARCE sans comparer au maintien de l'ARE : le capital reçu peut être moins adapté à une activité dont les revenus sont très incertains.
+
+84\. Confondre ARCE et avance remboursable : ce n'est pas un prêt ordinaire, mais une transformation d'une partie des droits chômage, soumise à conditions.
+
+85\. Anticiper le second versement comme garanti : la poursuite de l'activité et les autres conditions doivent être respectées.
+
+86\. Ne pas provisionner la fiscalité : l'ARCE doit être prise en compte dans la déclaration de revenus.
+
+87\. Croire que les 40 % de droits restants sont toujours immédiatement disponibles : leur récupération dépend des conditions de reprise, des délais et, notamment, de la cessation éventuelle de l'activité.
+
+88\. Ignorer le délai de déchéance des droits ARE : un reliquat non utilisé n'est pas conservé indéfiniment.
+
+### C. Maintien de l'ARE pendant l'activité indépendante
+
+89\. Croire que le maintien de l'ARE dure systématiquement jusqu'à épuisement de tous les droits : pour les droits concernés par les règles applicables depuis avril 2025, le cumul est en principe limité à 60 % des droits restants à la création.
+
+90\. Ignorer la possibilité de saisir l'instance paritaire régionale (IPR) : sous conditions, notamment en l'absence de revenus non salariés, une poursuite du cumul peut être demandée pour les 40 % restants.
+
+91\. Rater le délai de demande auprès de l'IPR : France Travail indique un délai de six mois à compter de l'atteinte du plafond concerné.
+
+92\. Déclarer incorrectement les revenus indépendants : le calcul diffère selon le statut, le régime et les justificatifs disponibles.
+
+93\. Confondre chiffre d'affaires, bénéfice et rémunération du dirigeant : notamment en micro-entreprise, entreprise individuelle et SASU.
+
+94\. Ignorer les paiements provisoires et régularisations : les justificatifs définitifs peuvent modifier les sommes initialement versées.
+
+95\. Croire qu'une SASU sans salaire empêche toute difficulté : l'absence de rémunération ne dispense pas de déclarer correctement son activité et de respecter les conditions de l'ARE.
+
+[image](https://www.google.com/s2/favicons?domain=https://www.francetravail.fr\&sz=32)
+
+francetravail.fr
+
++1
+
+### D. Aides financières à la création, prêts et subventions
+
+96\. Commencer un investissement avant l'accord de financement : certaines subventions excluent les dépenses engagées avant la demande ou l'autorisation.
+
+97\. Confondre accord de principe et attribution définitive : seule la décision formelle, avec ses conditions, permet de sécuriser le financement.
+
+98\. Oublier les critères de maintien de l'activité : certaines aides peuvent imposer une durée d'exploitation ou des engagements particuliers.
+
+99\. Ne pas remplir les obligations de publicité ou de justification : une subvention peut nécessiter des factures, preuves de paiement ou bilans.
+
+100\. Confondre subvention, avance remboursable, prêt d'honneur et garantie bancaire : chacun présente un risque financier différent.
+
+101\. Ne pas vérifier les cumuls d'aides : certaines aides publiques se cumulent, d'autres sont plafonnées ou incompatibles.
+
+102\. Croire que les aides régionales sont identiques partout : conditions, délais et enveloppes varient selon la région et l'appel à projets.
+
+103\. Rater une date de dépôt : certaines aides fonctionnent par appels à projets ou avec des budgets limités.
+
+104\. Ne pas vérifier les clauses de remboursement : cessation prématurée, dépenses non éligibles ou engagements non tenus peuvent entraîner une restitution.
+
+### E. Allocation des travailleurs indépendants (ATI)
+
+Un indépendant qui cesse son activité n'a pas automatiquement droit au chômage.
+
+L'ATI répond à des conditions strictes. Une simple fermeture volontaire ne suffit pas : les motifs admissibles comprennent notamment certaines procédures collectives et une cessation d'activité économiquement non viable, dont le caractère doit être justifié.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
++1
+
+
+
+105\. Fermer son entreprise en pensant percevoir automatiquement l'ATI : vérifier les critères avant cessation.
+
+106\. Ne pas faire attester la non-viabilité économique : l'attestation d'un tiers habilité peut être nécessaire.
+
+107\. Confondre ATI et anciens droits ARE : les dispositifs obéissent à des règles différentes.
+
+108\. Oublier les régularisations Urssaf après cessation : la fermeture administrative n'éteint pas nécessairement les cotisations restant à régulariser.
+
+## 5. Aides au logement — APL, ALF, ALS
+
+| Piège                                                           | Conséquence                                                                 | Réflexe                                                               |
+| --------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| 109. Demande déposée trop tard                                  | Perte d'une période de droit qui aurait pu être ouverte plus tôt.           | Déposer rapidement après l'emménagement.                              |
+| 110. Croire que le premier mois est toujours indemnisé          | Décalage entre entrée dans le logement, ouverture du droit et paiement.     | Prévoir le financement du premier mois.                               |
+| 111. Confondre loyer total et loyer retenu                      | Surévaluation de l'aide attendue.                                           | Vérifier plafonds, charges et zone géographique.                      |
+| 112. Ne pas déclarer une modification de loyer                  | Montant d'aide inexact.                                                     | Actualiser le dossier avec le nouveau justificatif.                   |
+| 113. Erreur sur les ressources des 12 mois de référence         | Réduction ou suppression inattendue.                                        | Examiner la période de ressources utilisée.                           |
+| 114. Changement de situation professionnelle non pris en compte | Calcul ne reflétant pas certaines circonstances nouvelles.                  | Demander une vérification et les corrections applicables.             |
+| 115. Paiement direct au propriétaire mal compris                | Le locataire croit ne pas avoir reçu l'aide.                                | Contrôler les quittances et les versements au bailleur.               |
+| 116. Bailleur ne déduisant pas l'APL reçue                      | Risque de paiement indu par le locataire.                                   | Comparer décomptes CAF et quittances.                                 |
+| 117. Attestation de loyer erronée                               | Dossier bloqué ou aide incorrecte.                                          | Faire corriger l'attestation par le bailleur.                         |
+| 118. Changement de logement non déclaré                         | Ancien droit suspendu, nouveau droit non ouvert correctement.               | Déclarer le déménagement et demander l'aide pour le nouveau logement. |
+| 119. Impayé de loyer                                            | Signalement à la CAF et risque sur le maintien de l'aide.                   | Demander rapidement un plan d'apurement et un accompagnement.         |
+| 120. Logement non décent                                        | Procédure particulière pouvant affecter le versement.                       | Conserver les preuves et saisir les interlocuteurs compétents.        |
+| 121. Confusion sur la résidence principale                      | Perte potentielle des aides si l'occupation ne respecte pas les conditions. | Vérifier la durée d'occupation requise.                               |
+
+Le droit à l'APL est normalement ouvert à partir du premier jour du mois suivant la demande, avec paiement à terme échu. Par exemple, une entrée en logement le 15 octobre peut conduire à un premier paiement début décembre, si la demande est déposée en octobre.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++1
+
+
+
+Un impayé ne signifie pas nécessairement une suppression immédiate de l'aide au logement. Des procédures permettent son maintien sous conditions, notamment pour faciliter le traitement de la dette locative.
+
+## 6. Autres indemnisations et aides souvent oubliées
+
+### A. Fin de droits chômage, formation et retour à l'emploi
+
+109 à 121 concernent les aides au logement. Voici les autres situations à surveiller.
+
+122\. Fin de l'ARE sans vérification de l'ASS : l'allocation de solidarité spécifique peut prendre le relais sous conditions de ressources et d'activité antérieure. Il faut vérifier son éligibilité avant la fin des droits.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+123\. Ne pas examiner le RSA lorsque l'ASS est refusée : les conditions sont différentes. Une personne exclue d'un dispositif peut être éligible à l'autre.
+
+124\. Croire que RSA et ASS sont totalement cumulables : un cumul différentiel peut exister, mais le RSA est diminué du montant de l'ASS.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+125\. Perdre son indemnisation pendant une formation : les mécanismes ARE-F, RFF et autres rémunérations de formation doivent être examinés avant l'entrée en formation.
+
+126\. Commencer une formation sans validation de France Travail : le financement des frais pédagogiques et le maintien de la rémunération ne sont pas automatiques.
+
+127\. Payer soi-même une formation en pensant obtenir ensuite un remboursement : obtenir l'accord de financement avant tout engagement non remboursable.
+
+128\. Oublier les aides à la mobilité : déplacement, repas et hébergement peuvent être partiellement financés pour une recherche d'emploi, une formation ou une reprise d'activité.
+
+129\. Rater le délai d'aide à la mobilité pour une reprise d'emploi : France Travail prévoit normalement une demande au plus tard dans les 30 jours suivant l'embauche, puis des justificatifs à transmettre dans les délais prévus.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.francetravail.fr\&sz=32)
+
+L'aide au déplacement |France Travail
+
+
+
+130\. Ignorer les aides à la garde d'enfants : certaines aides permettent de financer une garde lors d'une reprise d'emploi ou d'une entrée en formation.
+
+131\. Se fier à une ancienne aide au permis B : l'aide au permis B de France Travail a été supprimée depuis le 1er avril 2026.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+132\. Licenciement économique et CSP mal compris : le salarié dispose normalement de 21 jours calendaires pour accepter le contrat de sécurisation professionnelle. Le CSP peut modifier le régime d'indemnisation et le traitement du préavis.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://entreprendre.service-public.gouv.fr\&sz=32)
+
+Service Public Entreprendre
+
+
+
+133\. Accepter un CSP en pensant renoncer à toute contestation du licenciement : certaines contestations restent possibles, avec un délai spécifique de 12 mois.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+134\. Premier accès à l'ARE refusé sur la base d'une période de six mois sans examen de l'exception : depuis le 1er avril 2026, certains primo-entrants peuvent ouvrir des droits avec cinq mois d'affiliation au lieu de six.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+### B. Aides aux jeunes et aux familles
+
+135\. Contrat d'engagement jeune confondu avec une allocation automatique : il comporte des obligations d'accompagnement et une aide financière sous conditions.
+
+136\. Cumul CEJ/RSA/ARE mal anticipé : certaines prestations sont incompatibles, d'autres sont déduites de l'allocation CEJ.
+
+137\. Absence injustifiée à une action du CEJ : réduction ou suppression possible de l'allocation.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+138\. Ne pas vérifier les aides pour parent isolé : ASF, RSA majoré, aides à la garde et prestations familiales répondent à des conditions différentes.
+
+139\. Confondre pension alimentaire impayée et absence de recours : l'ARIPA peut intervenir dans le recouvrement et l'intermédiation des pensions alimentaires.
+
+140\. Oublier de signaler une naissance, une séparation ou un décès : ces événements peuvent ouvrir, modifier ou supprimer plusieurs prestations.
+
+141\. Croire que toutes les prestations familiales sont rétroactives : les règles varient. Certaines demandes tardives entraînent une perte définitive de mensualités.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+### C. Santé, handicap et précarité
+
+142\. Ne pas vérifier les indemnités journalières CPAM : les conditions de cotisation, d'activité et les justificatifs peuvent entraîner un refus ou un calcul erroné.
+
+143\. Confondre arrêt maladie et indemnisation automatique : un arrêt médical ne garantit pas à lui seul le versement d'indemnités journalières.
+
+144\. Ignorer la prévoyance collective ou individuelle : un complément d'indemnisation peut être prévu par l'employeur, une convention collective ou un contrat privé.
+
+145\. Ne pas vérifier la complémentaire santé solidaire (C2S) : les bénéficiaires du RSA disposent en principe d'une attribution automatique gratuite, sauf opposition.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+146\. Confondre décision médicale et décision administrative pour l'AAH : les voies de contestation ne sont pas nécessairement les mêmes selon qu'il s'agit de la reconnaissance du handicap ou du paiement.
+
+147\. Ne pas renouveler suffisamment tôt une reconnaissance ou une allocation liée au handicap : risque de rupture de droits pendant l'instruction.
+
+148\. Ignorer les aides du CCAS et du conseil départemental : secours d'urgence, alimentation, énergie, logement et autres soutiens locaux peuvent compléter les aides nationales.
+
+149\. Confondre subvention et prêt FSL : le Fonds de solidarité pour le logement peut intervenir sous l'une ou l'autre forme, selon les règles départementales.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
+
+
+## 7. Trop-perçus : le risque financier majeur
+
+### A. Les pièges du remboursement
+
+150\. Croire qu'une erreur de l'administration annule automatiquement la dette. C'est faux : une prestation versée à tort peut être récupérée même lorsque l'erreur vient de l'organisme.
+
+151\. Recevoir un indu sans décompte exploitable. Demander le détail mois par mois, avec les ressources retenues et les règles appliquées.
+
+152\. Se voir réclamer une période déjà prescrite. Vérifier la prestation concernée, la date de chaque paiement et les événements susceptibles d'avoir interrompu la prescription.
+
+153\. Confondre prescription du droit de réclamer et prescription du recouvrement. Les règles peuvent être différentes après une notification ou l'établissement d'un titre de recouvrement.
+
+154\. Accepter un calcul global sans vérifier les prestations distinctes. Une même erreur peut générer plusieurs indus, dont les bases et montants doivent être contrôlés séparément.
+
+155\. Subir des retenues sur les allocations suivantes. La CAF peut récupérer certaines dettes directement sur les prestations versées.
+
+156\. Croire que des ressources très faibles interdisent toute récupération. Il faut examiner les règles de retenue et demander leur adaptation lorsque c'est possible.
+
+157\. Ne pas solliciter un échéancier. Le remboursement en plusieurs fois peut éviter une aggravation de la situation financière.
+
+158\. Demander une remise de dette alors qu'on en conteste le principe. C'est un piège majeur : une demande de remise est généralement interprétée comme une reconnaissance de la dette.
+
+159\. Confondre remise gracieuse et droit à l'erreur. La bonne foi peut être importante pour les sanctions, mais elle n'annule pas automatiquement les sommes versées à tort.
+
+160\. Laisser passer le délai de contestation en discutant au téléphone. Une conversation téléphonique ne remplace pas le recours formel requis.
+
+161\. Recevoir une contrainte et ne pas former opposition. Pour certaines contraintes de France Travail, le délai d'opposition est de seulement 15 jours.
+
+162\. Ne pas distinguer erreur et fraude. La qualification de fraude peut entraîner des pénalités, des délais de récupération plus longs et des restrictions concernant les remises de dette.
+
+[image](https://www.google.com/s2/favicons?domain=https://caf.fr\&sz=32)
+
+CAF – Caisse d’Allocations Familiales
+
++2
+
+### B. Délais de prescription à surveiller
+
+| Organisme et prestation              | Délai de récupération de principe | Fraude ou fausse déclaration  |
+| ------------------------------------ | --------------------------------- | ----------------------------- |
+| CAF/MSA — prestations familiales     | 2 ans                             | 5 ans                         |
+| CAF/MSA — prime d'activité           | 2 ans                             | Régime dérogatoire à vérifier |
+| France Travail — allocations chômage | 3 ans                             | 10 ans                        |
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++2
+
+Ces délais sont des règles générales, pas une garantie qu'une dette est prescrite dès qu'elle a cet âge. La nature de la dette, son point de départ et les actes interruptifs doivent être vérifiés.
+
+### C. Le piège le plus dangereux : contester ou demander une remise ?
+
+Quelle est ta situation face à un trop-perçu ?
+
+Je conteste l'existence ou le montant de la dette
+
+Je reconnais la dette, mais je ne peux pas payer
+
+Je ne sais pas si la somme est réellement due
+
+Action : recours motivé dans le délai indiqué.
+
+Demander le calcul détaillé, exposer les erreurs et joindre les justificatifs. Ne pas substituer une demande de remise de dette à la contestation.
+
+La CAF distingue explicitement contestation et remise de dette.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.caf.fr\&sz=32)
+
+CAF – Caisse d’Allocations Familiales
+
++1
+
+## 8. Contrôles CAF et France Travail : les difficultés moins visibles
+
+163\. Croire qu'un contrôle nécessite toujours un soupçon de fraude : des contrôles automatisés, sur pièces ou sur place peuvent intervenir sans fraude établie.
+
+164\. Ne pas répondre à une demande de justificatifs : risque de suspension des prestations.
+
+165\. Refuser un contrôle en pensant exercer un droit absolu au silence : un organisme social dispose de pouvoirs légaux de vérification.
+
+166\. Ignorer le droit d'être accompagné lors d'un contrôle CAF sur place : la CAF indique expressément cette possibilité.
+
+167\. Confondre colocataire et conjoint : les indices de vie commune doivent être appréciés dans leur ensemble.
+
+168\. Voir un virement bancaire qualifié automatiquement de revenu : il peut s'agir d'un remboursement, d'un transfert entre comptes ou d'une opération patrimoniale ; il faut en établir la nature.
+
+169\. Avoir des comptes bancaires que l'administration ne connaît pas : les contrôles peuvent porter sur les comptes et les flux lorsqu'ils sont pertinents.
+
+170\. Faire confiance aux échanges automatisés : une information transmise par un employeur, l'Urssaf ou les impôts peut être incomplète ou erronée.
+
+171\. Ne pas conserver ses anciennes déclarations : elles deviennent indispensables pour comprendre les périodes recalculées.
+
+172\. Se voir reprocher une incohérence entre deux organismes : le calcul d'une ressource peut suivre des règles différentes à la CAF, à France Travail et à l'administration fiscale.
+
+173\. Corriger une erreur sans garder de preuve : conserver les déclarations rectificatives et les accusés de réception.
+
+174\. Confondre sélection algorithmique pour contrôle et preuve de fraude : un signalement de risque n'établit pas à lui seul une fraude.
+
+175\. Ne pas faire valoir ses observations avant une sanction : vérifier les garanties de contradiction applicables à la procédure.
+
+176\. Ne pas contester des conclusions factuellement inexactes : répondre précisément aux éléments reprochés, preuves à l'appui.
+
+177\. Envoyer de faux justificatifs pour débloquer un dossier : la falsification peut aggraver considérablement la situation administrative et pénale.
+
+Les contrôleurs CAF peuvent notamment demander des documents relatifs aux ressources, au logement, à la composition familiale et aux comptes bancaires. Le contrôle peut également conduire à constater des droits supplémentaires, et pas uniquement des sommes à récupérer.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.caf.fr\&sz=32)
+
+CAF – Caisse d’Allocations Familiales
+
++1
+
+
+
+## 9. Recours : savoir exactement où aller
+
+Le mauvais recours peut faire perdre plusieurs mois, voire rendre une contestation irrecevable.
+
+| Décision contestée                                   | Première voie à examiner                                              | Juge compétent en principe                    |
+| ---------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------- |
+| CAF — prime d'activité                               | Commission de recours amiable (CRA)                                   | Tribunal administratif                        |
+| RSA — attribution, montant, sanction                 | Recours préalable auprès du président du conseil départemental        | Tribunal administratif                        |
+| APL, ALS, ALF                                        | Recours préalable adapté à la décision, généralement auprès de la CAF | Tribunal administratif                        |
+| Prestations familiales CAF                           | CRA                                                                   | Tribunal judiciaire, pôle social              |
+| AAH — décision de paiement CAF                       | CRA                                                                   | Tribunal judiciaire, pôle social              |
+| AAH — décision liée au handicap                      | Recours préalable auprès de la MDPH/CDAPH                             | Tribunal judiciaire, pôle social, en principe |
+| France Travail — trop-perçu ARE                      | Contestation écrite préalable auprès de France Travail                | Selon la nature de la décision                |
+| France Travail — sanction                            | Procédure de contestation indiquée dans la notification               | Selon la nature de la sanction                |
+| CPAM — refus administratif d'indemnités journalières | CRA                                                                   | Tribunal judiciaire, pôle social              |
+
+Il existe des particularités locales, notamment des procédures de médiation préalable obligatoire dans certains contentieux RSA. Se référer à la notification et aux règles de la prestation avant de saisir un tribunal.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.caf.fr\&sz=32)
+
+CAF – Caisse d’Allocations Familiales
+
++3
+
+
+
+### Les huit erreurs procédurales à éviter
+
+178\. Envoyer une simple réclamation alors qu'un recours administratif préalable obligatoire est nécessaire.
+
+179\. Attendre la réponse du médiateur en croyant que tous les délais de justice sont suspendus.
+
+180\. Contester une notification sans préciser sa référence, sa date et les motifs du désaccord.
+
+181\. Saisir le mauvais tribunal.
+
+182\. Ignorer qu'une absence de réponse peut constituer un rejet implicite.
+
+183\. Ne pas conserver la preuve du dépôt du recours.
+
+184\. Supposer qu'un second recours identique relance automatiquement tous les délais.
+
+185\. Ne pas demander la suspension d'une décision par la voie appropriée lorsqu'une urgence financière grave le justifie. Un recours ordinaire n'est pas automatiquement suspensif.
+
+Pour les contestations CAF, deux mois après notification est un délai à surveiller particulièrement. Pour de nombreuses CRA, deux mois de silence valent rejet implicite.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.caf.fr\&sz=32)
+
+CAF – Caisse d’Allocations Familiales
+
++1
+
+
+
+## 10. Le calendrier des délais à ne surtout pas manquer
+
+Repères principaux — France métropolitaine, règles d'octobre 2026. Certaines exceptions dépendent de la prestation et de la situation.
+
+| Délai                                                       | Démarche                                                | Risque                                       |
+| ----------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------- |
+| Dès la fin du contrat                                       | Inscription France Travail                              | Paiement retardé                             |
+| En principe, 12 mois après fin du contrat                   | Inscription pour faire valoir ses droits ARE            | Perte possible de l'ouverture des droits     |
+| 28 au 15 du mois suivant (26 en février)                    | Actualisation France Travail                            | Cessation d'inscription                      |
+| Tous les 3 mois                                             | Déclaration RSA / prime d'activité                      | Interruption de paiement                     |
+| 21 jours calendaires                                        | Choix d'adhésion au CSP                                 | Fin du délai de réflexion                    |
+| 30 jours après l'embauche                                   | Demande d'aide à la mobilité liée à la reprise d'emploi | Refus possible                               |
+| 60 jours après ouverture d'activité                         | Demande ACRE pour les créations concernées              | Perte de l'exonération                       |
+| 2 mois après notification                                   | Nombreux recours CAF / RSA / CPAM                       | Irrecevabilité possible                      |
+| 2 mois après notification                                   | Contestation d'un trop-perçu France Travail             | Recours tardif                               |
+| 15 jours après notification d'une contrainte France Travail | Opposition à la contrainte                              | Titre pouvant produire ses effets            |
+| 6 mois après le premier versement                           | Second versement ARCE, sous conditions                  | Vérification d'éligibilité                   |
+| 6 mois après atteinte du plafond de cumul                   | Demande IPR pour les 40 % restants, si éligible         | Possibilité de poursuite du cumul compromise |
+
+[image](https://www.google.com/s2/favicons?domain=https://www.service-public.gouv.fr\&sz=32)
+
+Service Public
+
++6
+
+Les délais de recours doivent toujours être recalculés à partir de la notification réelle, de la procédure applicable et de ses éventuelles exceptions.
+
+## 11. Les réflexes de défense qui fonctionnent réellement
+
+Checklist de prévention
+
+À cocher
+
+0/10
+
+Télécharger les notifications et courriers des organismes
+
+Conserver les accusés de dépôt et les justificatifs transmis
+
+Vérifier les périodes et revenus retenus dans les calculs
+
+Inscrire immédiatement chaque date limite dans un calendrier
+
+Déclarer les changements de situation auprès de chaque organisme concerné
+
+Demander toute décision défavorable et son motif par écrit
+
+Exercer le recours formel sans attendre une réponse téléphonique
+
+Distinguer contestation de dette et demande de remise
+
+Vérifier les aides complémentaires lors d'une perte de revenus
+
+Conserver le suivi des recours, paiements et retenues
+
+&#x20;Copier la checklist
+
+### En cas de refus, de suspension ou de trop-perçu
+
+Appliquer cet ordre :
+
+1. Sauvegarder immédiatement la décision, sa date et ses annexes.
+2. Identifier la prestation, l'organisme décisionnaire et la nature exacte de la décision.
+3. Vérifier les voies et délais de recours.
+4. Demander le calcul détaillé et le fondement juridique.
+5. Déposer le recours formel dans le délai, même si certains justificatifs doivent être complétés ensuite.
+6. Conserver la preuve de transmission et de réception.
+7. En cas de difficulté financière grave, demander parallèlement une aide d'urgence ou la mesure appropriée pour éviter une interruption vitale de ressources.
+
+Une précision essentielle : avoir signalé une erreur ou être de bonne foi ne garantit pas qu'une somme perçue à tort sera conservée. La contestation doit porter sur un fondement concret : absence de dette, mauvais calcul, prescription, erreur de qualification, non-respect de procédure ou autre motif juridiquement pertinent.
+
+### Services à connaître
+
+- [Mes droits sociaux](https://www.mesdroitssociaux.gouv.fr/?utm_source=chatgpt.com) : panorama et simulation des prestations.
+- [Service Public](https://www.service-public.gouv.fr/?utm_source=chatgpt.com) : règles et démarches officielles.
+- [CAF](https://www.caf.fr/?utm_source=chatgpt.com) : allocations, déclarations, dettes, contestations.
+- [France Travail](https://www.francetravail.fr/?utm_source=chatgpt.com) : chômage, création d'entreprise, mobilité.
+- [Défenseur des droits](https://www.defenseurdesdroits.fr/?utm_source=chatgpt.com) : difficultés et atteintes aux droits dans les relations avec les services publics.
+- [France Services](https://www.france-services.gouv.fr/?utm_source=chatgpt.com) : accompagnement administratif de proximité.
+- [Point-justice](https://www.service-public.gouv.fr/particuliers/vosdroits/F20706?utm_source=chatgpt.com) : orientation vers une information juridique gratuite.
+
+Le point le plus important : lorsqu'une administration réclame de l'argent ou supprime une aide, ne pas se limiter à obtenir une explication orale. Il faut obtenir la décision écrite, vérifier son calcul et sécuriser immédiatement la voie de recours et son délai. C'est ce qui permet ensuite de défendre utilement le fond du dossier.

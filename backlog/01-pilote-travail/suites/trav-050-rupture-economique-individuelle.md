@@ -79,3 +79,16 @@ Statut `proposee` ; aucune extension sélectionnée ni scénario métier exécut
 PILOTE-003 est terminé avec ses limites documentées. Portée des contrôles de
 cette intégration : voir le relevé lié ci-dessus. La priorité P2 exprime la
 famille du backlog, pas une fréquence statistique ni un ordre de livraison.
+
+## Complément des frictions allocations et aides sociales — 16 octobre 2026
+
+Points 132–133 et D05 de la [matrice](../../03-nouveaux-domaines/dom-012-annexes/dom-012-frictions-utilisateurs.md).
+Réunir dossier CSP, date/preuve de remise, proposition et information de
+contestation, préavis et démarches. Séparer délai de réflexion/adhésion,
+effets contractuels et délai propre d'une contestation du licenciement ;
+acceptation et renonciation à tout recours ne sont pas assimilées. Textes
+CSP/rupture applicables à rechercher, sans adopter les durées du guide.
+Prestation CSP et décision d'indemnisation chez DOM-012. Cas attendu : CSP
+accepté et motif économique discuté, sans conclusion sur recevabilité sans
+pièces ni choix de l'adhésion à la place du salarié. Scénario non exécuté ;
+[portée](../../03-nouveaux-domaines/dom-012-annexes/dom-012-frictions-verification.md).
