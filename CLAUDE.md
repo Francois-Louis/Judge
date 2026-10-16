@@ -91,7 +91,9 @@ For France/EU adaptation lots, also follow the
 [BASE-006 validation checklist](references/package-validation.md). Run
 `python scripts/check-plugin-package.py <installed-plugin-root>` against the
 single installed/extracted artifact, outside the checkout, and use `--schema`
-to request the official validator separately. This bounded static check needs
+to request the official validator separately. When `claude` is not on the
+PATH, pass `--claude <path>` or set `JUDGE_CLAUDE_CLI` (e.g. the binary bundled
+with the Claude desktop app). This bounded static check needs
 PyYAML; it does not execute a skill or validate legal reasoning. Missing tools,
 manual-review findings, and unexecuted scenarios must remain explicit in the
 lot's report. Controller fixtures: `python scripts/test-check-plugin-package.py`.
@@ -152,6 +154,12 @@ Plugins under `external_plugins/` are built and maintained by the vendor
 (README.md has the policy). Don't change vendor-authored content without
 checking with them first; whitespace normalization and formatting are usually
 fine since the vendor lands changes via PR rather than mirroring a fork.
+
+### NOTICE files
+
+Root and plugin `NOTICE` files record one dated entry per story that changes
+files outside `backlog/`: plugin files, references, scripts. Backlog files are
+not listed; the story itself records them.
 
 ### Formatting
 

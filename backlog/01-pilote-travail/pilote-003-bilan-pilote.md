@@ -65,7 +65,8 @@ schémas officiels plugin et marketplace ont été passés en reprise
 une installation ni un environnement inaccessible au checkout et au profil
 réel. PILOTE-002 et PILOTE-003 restent `a-verifier` jusqu'à la recette décrite
 dans le bilan ; les cases de compte rendu cochées ne valent pas clôture.
-La généralisation n'est pas engagée.
+La généralisation n'est pas engagée. La recette en client est portée par
+[BASE-011](../00-fondations/base-011-recette-client-isole.md).
 
 ## Hors périmètre
 

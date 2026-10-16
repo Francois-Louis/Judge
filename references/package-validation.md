@@ -1,7 +1,8 @@
 # Validation d'une adaptation de skill et de son plugin — BASE-006
 
-Version `1.1.0` — 15 octobre 2026 (Europe/Paris). La 1.1.0 ajoute le
-contrôle au regard du protocole d'orientation USAGE-001 (USAGE-003).
+Version `1.2.0` — 16 octobre 2026 (Europe/Paris). La 1.1.0 ajoute le
+contrôle au regard du protocole d'orientation USAGE-001 (USAGE-003) ; la 1.2.0
+permet de désigner le binaire `claude` hors du PATH (BASE-012).
 
 Cette recette s'applique à un lot borné selon le
 [contrat BASE-003](../backlog/00-fondations/base-003-dossier-architecture.md)
@@ -135,6 +136,7 @@ Depuis la racine de l'artefact, avec le script copié hors du checkout :
 ```powershell
 python C:/outils/check-plugin-package.py .
 python C:/outils/check-plugin-package.py . --schema
+python C:/outils/check-plugin-package.py . --schema --claude <chemin du binaire claude>
 ```
 
 Le premier contrôle porte sur :
@@ -179,8 +181,13 @@ contrôle incomplet, dépendance d'outil absente ou relecture nécessaire. Toujo
 lire les lignes `STRUCTURE`, `SCHEMA` et les limites affichées, pas seulement
 le code. Sans `--schema`, le schéma est `NON_EXECUTE`, même avec un code `0`.
 
-Avec `--schema`, si la structure n'est pas en échec et si `claude` est présent,
-le script lance `claude plugin validate` sur ce même artefact depuis sa racine.
+Avec `--schema`, si la structure n'est pas en échec et si un binaire `claude` est
+trouvé, le script lance `claude plugin validate` sur ce même artefact depuis sa
+racine. Ordre de recherche : `--claude <chemin>`, puis la variable
+`JUDGE_CLAUDE_CLI`, puis le PATH ; la ligne `SCHEMA CLI` indique le binaire et
+son origine. Avant de conclure à son absence, chercher aussi un binaire embarqué
+(par exemple celui de l'application Claude desktop) et consigner les
+emplacements examinés. Un chemin désigné mais introuvable donne `NON_EXECUTE`.
 Une CLI absente, une interruption ou un délai dépassé ne donne jamais `SCHEMA OK`.
 Le résultat de ce processus ne vaut toujours pas exécution du skill.
 

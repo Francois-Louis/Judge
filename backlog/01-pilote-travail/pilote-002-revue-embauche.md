@@ -46,7 +46,7 @@ et le bilan PILOTE-003 sont conservés.
 - [x] Les documents du plugin indiquent précisément le périmètre adapté et les limites restantes.
 - [ ] Un candidat sans formation juridique comprend la sortie et les démarches proposées ; la revue ne suppose pas de playbook d'entreprise.
 - [x] La sortie respecte le protocole USAGE-001 dans la version citée : entrée en mots ordinaires, forme de restitution adaptée, pièces limitées au besoin, aucun envoi.
-- [ ] Au moins une personne sans formation juridique reformule, sans aide du rédacteur, l'engagement examiné, la question à poser, l'interlocuteur et la réserve principale ; réponses et corrections sont consignées. Sans participant réel, ce critère reste non coché.
+- [ ] Au moins une personne sans formation juridique reformule, sans aide du rédacteur, l'engagement examiné, la question à poser, l'interlocuteur et la réserve principale ; réponses et corrections sont consignées. Sans participant réel, ce critère reste non coché. Participant retenu le 16 octobre 2026 : l'utilisateur, résultat marqué non indépendant ; exécution dans [BASE-011](../00-fondations/base-011-recette-client-isole.md).
 
 ## Vérification
 

@@ -133,10 +133,10 @@ sous 90 jours, mais cette possibilité ne constitue pas un retour arrière garan
 
 | Élément à consigner | État |
 |---|---|
-| Choix A, B ou C | **À décider par l'utilisateur** |
-| Visibilité souhaitée | À décider séparément si nécessaire |
-| Nom du dépôt cible et devenir de Judge pour C | À décider si C est retenue |
-| Pertes acceptées et données à conserver | À consigner avant toute opération |
+| Choix A, B ou C | **A — conserver le fork**, choisi par l'utilisateur le 16 octobre 2026 |
+| Visibilité souhaitée | Inchangée (public) ; aucune demande de changement |
+| Nom du dépôt cible et devenir de Judge pour C | Sans objet |
+| Pertes acceptées et données à conserver | Sans objet : aucune opération distante |
 | Accord d'exécution distante | Aucun dans BASE-002 |
 
 Repères pour choisir : A conserve le fonctionnement actuel ; B retire le lien
@@ -144,7 +144,9 @@ de réseau au prix des pertes annoncées ; C permet de préparer une copie
 indépendante en gardant l'ancien dépôt disponible. Aucun de ces repères
 ne constitue un choix au nom de l'utilisateur.
 
-Après un choix explicite seulement, préparer une story dédiée qui précise :
+Le choix A ne demande aucune opération distante ni story d'exécution. Les
+règles BASE-007 (pas de PR vers l'origine) restent la protection applicable.
+Si le choix est revu plus tard vers B ou C, préparer une story dédiée qui précise :
 
 - le dépôt exact, son ID, l'option, la visibilité et les pertes acceptées ;
 - un inventaire des données Git et GitHub, les sauvegardes et leurs limites ;

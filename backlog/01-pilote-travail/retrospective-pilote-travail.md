@@ -93,7 +93,8 @@ tests ; `claude plugin validate` toujours réussi sur le marketplace et
    Son effet n'est pas mesuré faute de client.
 7. **Décomptes et NOTICE désynchronisés.** Le README du backlog annonce
    84 stories, dont 67 `proposee`, alors qu'il y en a 85, dont 68. L'écart
-   d'une story existait déjà dans `HEAD` (82 annoncées pour 83). Le NOTICE du plugin recense PILOTE-004, mais pas le NOTICE
+   d'une story existait déjà dans `HEAD` (82 annoncées pour 83). Le NOTICE
+   du plugin recense PILOTE-004, mais pas le NOTICE
    racine, qui omet aussi `scripts/test-pilote004-preferences.py`.
 8. Points mineurs : `pilote-003-bilan-pilote.md` se termine par une ligne
    vide. Les skills hérités `internal-investigation` et `worker-classification`
@@ -107,9 +108,9 @@ tests ; `claude plugin validate` toujours réussi sur le marketplace et
 | Écart 4 : mentions périmées de la CLI | Corrigé dans PILOTE-005 ; règle de recherche d'un outil ajoutée au [modèle de story](../story-template.md) |
 | Écart 5 : critères d'une story de validation | Règle ajoutée au modèle de story ; cases de PILOTE-003 laissées telles quelles, le bilan faisant foi |
 | Écart 7 et point mineur | Corrigés dans PILOTE-005 |
-| Écart 6 : densité | Règle « Portée » déjà au modèle. Alléger `hiring-review` modifie un comportement livré : **à décider**, de préférence après une première observation en client |
-| Écart 1 : environnement de recette | **Décision de l'utilisateur** : préparer un client jetable et un compte de test, en une story transverse qui débloque BASE-008 et le pilote, ou différer. Ne plus ouvrir de story `a-verifier` sur ce blocage d'ici là |
-| Écart 1 : lecteur réel | **Décision de l'utilisateur** : qui, quand, avec quelles pièces fictives |
-| Écart 2 : commits | **À autoriser par l'utilisateur** : lots PILOTE-002, PILOTE-003, PILOTE-004 puis rétrospective et PILOTE-005, sans push ; nom de branche à confirmer |
-| Option `--claude` ou variable d'environnement pour le contrôleur BASE-006 | Proposée, non réalisée : changement de script hors des corrections documentaires |
-| NOTICE | Politique de recensement toujours **à trancher** (rétrospective de l'epic 05) |
+| Écart 6 : densité | Décidé le 16 octobre 2026 : `hiring-review` est gardé tel quel, densité acceptée comme coût de la prudence |
+| Écart 1 : environnement de recette | Décidé : story transverse [BASE-011](../00-fondations/base-011-recette-client-isole.md), client jetable où l'utilisateur s'authentifie ; aucune nouvelle story `a-verifier` sur ce blocage d'ici là |
+| Écart 1 : lecteur réel | Décidé : l'utilisateur lui-même, résultat marqué non indépendant, dans BASE-011 |
+| Écart 2 : commits | Réalisé : quatre lots sur `usages-quotidiens/usage-001-003`, poussés le 16 octobre 2026 |
+| Option `--claude` ou variable d'environnement pour le contrôleur BASE-006 | Réalisé dans [BASE-012](../00-fondations/base-012-designer-cli-claude.md) |
+| NOTICE | Décidé : fichiers hors `backlog/` seulement, règle dans `CLAUDE.md` |

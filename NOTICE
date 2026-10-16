@@ -6,49 +6,33 @@ No affiliation or endorsement by Anthropic is claimed.
 Technical identity and storage changes do not certify France/EU legal adaptation.
 No upstream NOTICE was present in the source snapshot.
 
+BASE-012 changes and recorded decisions (2026-10-16): the package checker can
+use a claude binary outside the PATH (--claude, JUDGE_CLAUDE_CLI); NOTICE files
+now list only files outside backlog/. No plugin or skill changed.
+  scripts/check-plugin-package.py
+  scripts/test-check-plugin-package.py
+  references/package-validation.md
+  CLAUDE.md
+
 USAGE-003 changes (2026-10-15): retrospective corrections for the everyday-use
 epic; orientation protocol versioned and referenced by PILOTE-002 and the
 BASE-006 recipe; matrix situations numbered. Documentation only.
-  backlog/05-usages-quotidiens/retrospective-usages-quotidiens.md
-  backlog/05-usages-quotidiens/usage-003-corrections-retrospective.md
-  backlog/05-usages-quotidiens/usage-001-protocole-orientation.md
-  backlog/05-usages-quotidiens/usage-001-orientation-accessible.md
-  backlog/05-usages-quotidiens/usage-001-verification.md
-  backlog/05-usages-quotidiens/usage-002-comparaison-priorites.md
-  backlog/01-pilote-travail/pilote-002-revue-embauche.md
-  backlog/usages-quotidiens.md
-  backlog/story-template.md
-  backlog/README.md
   references/package-validation.md
-  NOTICE
 
 USAGE-002 changes (2026-10-15): comparison of five bounded everyday tasks,
 proposed first-lot scope and fictional review across three user profiles.
 The employment pilot remains proposed; no runtime skill was changed or started.
-  backlog/05-usages-quotidiens/usage-002-priorites-utilite.md
-  backlog/05-usages-quotidiens/usage-002-comparaison-priorites.md
-  backlog/05-usages-quotidiens/usage-002-verification.md
-  backlog/01-pilote-travail/pilote-002-revue-embauche.md
-  backlog/usages-quotidiens.md
-  backlog/README.md
-  NOTICE
+  (backlog documentation only; the story records its files)
 
 USAGE-001 changes (2026-10-15): documentary orientation protocol, explicit
 domain boundaries for everyday situations, and fictional scenario review.
 No runtime skill or legal domain was implemented by this framing story.
-  backlog/05-usages-quotidiens/usage-001-orientation-accessible.md
-  backlog/05-usages-quotidiens/usage-001-protocole-orientation.md
-  backlog/05-usages-quotidiens/usage-001-verification.md
-  backlog/usages-quotidiens.md
-  backlog/00-fondations/base-003-dossier-architecture.md
-  backlog/README.md
-  NOTICE
+  (backlog documentation only; the story records its files)
 
 BASE-008 files added or modified, relative to the pre-story worktree:
   .claude-plugin/marketplace.json
   .gitignore
   CLAUDE.md
-  NOTICE
   QUICKSTART.md
   README.md
   ai-governance-legal/.claude-plugin/plugin.json
@@ -72,12 +56,6 @@ BASE-008 files added or modified, relative to the pre-story worktree:
   ai-governance-legal/skills/reg-gap-analysis/SKILL.md
   ai-governance-legal/skills/use-case-triage/SKILL.md
   ai-governance-legal/skills/vendor-ai-review/SKILL.md
-  backlog/00-fondations/base-004-strategie-identite-configurations.md
-  backlog/00-fondations/base-008-inventaire-apres.tsv
-  backlog/00-fondations/base-008-isoler-identite-configurations.md
-  backlog/00-fondations/base-008-residus.tsv
-  backlog/00-fondations/base-008-resultats-client.json
-  backlog/README.md
   commercial-legal/.claude-plugin/plugin.json
   commercial-legal/CLAUDE.md
   commercial-legal/LICENSE
@@ -382,16 +360,6 @@ PILOTE-001 / BASE-010 changes (2026-10-15): audit and adaptation planning for
 employment-legal; public official-source retrieval routes without requiring
 a PISTE subscription. No employment skill behavior changed by the audit.
   CLAUDE.md
-  backlog/README.md
-  backlog/00-fondations/base-010-acces-sources-officielles.md
-  backlog/00-fondations/base-010-resultats-acces.json
-  backlog/01-pilote-travail/pilote-001-inventaire-travail.md
-  backlog/01-pilote-travail/pilote-001-releve-inventaire.md
-  backlog/01-pilote-travail/pilote-001-plan-hiring-review.md
-  backlog/01-pilote-travail/pilote-001-decoupage-travail.md
-  backlog/01-pilote-travail/pilote-001-resultats.json
-  backlog/01-pilote-travail/pilote-002-revue-embauche.md
-  backlog/01-pilote-travail/suites/trav-001 through trav-016 (story proposals)
   references/legal-source-access.md
   scripts/legal_sources.py
   scripts/test-legal-sources.py
@@ -419,12 +387,6 @@ remain pending. No legal privilege is claimed by a document label.
   .claude-plugin/marketplace.json
   README.md
   scripts/test-base008-isolation.py (version-aware upgrade fixture)
-  backlog/01-pilote-travail/pilote-002-revue-embauche.md
-  backlog/01-pilote-travail/pilote-002-pieces-fictives.md
-  backlog/01-pilote-travail/pilote-002-sorties-relecture.md
-  backlog/01-pilote-travail/pilote-002-sources-lues.json
-  backlog/01-pilote-travail/pilote-002-verification.md
-  backlog/01-pilote-travail/pilote-002-controles.json
 
 PILOTE-004 changes (2026-10-15): terminal candidate preference branches,
 minimal voluntary persistence, preservation of existing answers and return

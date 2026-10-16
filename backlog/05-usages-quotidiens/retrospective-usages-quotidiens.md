@@ -104,4 +104,4 @@ avec un seul cadrage principal ; `git diff --check` sans erreur.
 | Points mineurs | Liste PILOTE-002 réunifiée, décompte daté, lignes vides finales retirées |
 | Choix du pilote | **Décision de l'utilisateur**, avant tout développement de PILOTE-002 |
 | Essai de compréhension réel | Critère de PILOTE-002, non coché sans participant |
-| NOTICE | **À trancher par l'utilisateur** : continuer à recenser les nouveaux fichiers, ou s'en tenir aux fichiers modifiés |
+| NOTICE | Décidé le 16 octobre 2026 : seuls les fichiers hors `backlog/` sont recensés ; listes existantes nettoyées |

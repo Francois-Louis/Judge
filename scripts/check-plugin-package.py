@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -202,10 +203,27 @@ class Checker:
                 self.command(path, command, name, available)
 
 
+def resolve_cli(explicit: Path | None) -> tuple[str | None, str]:
+    """Pick the claude binary: --claude, then JUDGE_CLAUDE_CLI, then PATH."""
+    origin = "--claude"
+    if explicit is None and os.environ.get("JUDGE_CLAUDE_CLI"):
+        explicit, origin = Path(os.environ["JUDGE_CLAUDE_CLI"]), "JUDGE_CLAUDE_CLI"
+    if explicit is not None:
+        if explicit.is_file():
+            return str(explicit), origin
+        return None, f"CLI indiquée introuvable ({origin}): {explicit}"
+    found = shutil.which("claude")
+    if found:
+        return found, "PATH"
+    return None, "CLI claude absente du PATH ; utiliser --claude ou JUDGE_CLAUDE_CLI"
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("artifact", type=Path, help="racine du seul plugin installé/extrait")
     parser.add_argument("--schema", action="store_true", help="appeler aussi claude plugin validate")
+    parser.add_argument("--claude", type=Path,
+                        help="binaire claude pour --schema (sinon JUDGE_CLAUDE_CLI, puis PATH)")
     args = parser.parse_args()
     if yaml is None:
         print("NON_EXECUTE structure: PyYAML absent (python -m pip install PyYAML)")
@@ -223,8 +241,9 @@ def main():
     state = "ECHEC" if checker.errors else "INCOMPLET" if checker.reviews else "OK"
     print(f"STRUCTURE {state}: {checker.markdown_count} fichiers Markdown; contrôle statique borné")
     schema_failed = schema_missing = False
-    executable = shutil.which("claude") if args.schema else None
+    executable, origin = resolve_cli(args.claude) if args.schema else (None, "")
     if args.schema and executable and not checker.errors and checker.root.is_dir():
+        print(f"SCHEMA CLI: {executable} ({origin})", flush=True)
         try:
             result = subprocess.run([executable, "plugin", "validate", str(checker.root)],
                                     cwd=checker.root, check=False, timeout=120)
@@ -235,7 +254,7 @@ def main():
             print(f"SCHEMA NON_EXECUTE/INTERROMPU: {exc}")
     else:
         schema_missing = args.schema
-        reason = "CLI claude absente" if args.schema and not executable else "non demandé ou structure en échec"
+        reason = origin if args.schema and not executable else "non demandé ou structure en échec"
         print(f"SCHEMA NON_EXECUTE: {reason}")
     print("EXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE")
     return 1 if checker.errors or schema_failed else 2 if checker.reviews or schema_missing else 0

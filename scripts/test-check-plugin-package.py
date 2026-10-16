@@ -6,6 +6,7 @@ import contextlib
 import importlib.util
 import io
 import json
+import os
 import shutil
 import tempfile
 import unittest
@@ -55,9 +56,11 @@ Charger `../../references/shared/research-citation-method.md`.
         checker.run()
         return checker
 
-    def cli(self, *arguments):
+    def cli(self, *arguments, env=None):
         output = io.StringIO()
-        with patch("sys.argv", ["check-plugin-package.py", str(self.root), *arguments]):
+        environ = {k: v for k, v in os.environ.items() if k != "JUDGE_CLAUDE_CLI"}
+        environ.update(env or {})
+        with patch.dict(os.environ, environ, clear=True),                 patch("sys.argv", ["check-plugin-package.py", str(self.root), *arguments]):
             with contextlib.redirect_stdout(output):
                 code = MODULE.main()
         return code, output.getvalue()
@@ -138,6 +141,29 @@ Charger `../../references/shared/research-citation-method.md`.
         self.assertEqual(run.call_args.kwargs["cwd"], self.root.resolve())
         self.assertEqual(run.call_args.args[0][-1], str(self.root.resolve()))
         self.assertIn("SCHEMA ECHEC", output)
+
+    def test_explicit_cli_path_is_used_without_path_lookup(self):
+        fake = Path(self.temporary.name) / "bin" / "claude.exe"
+        fake.parent.mkdir()
+        fake.write_text("", encoding="utf-8")
+        for arguments, env, origin in ((("--claude", str(fake)), None, "--claude"),
+                                       ((), {"JUDGE_CLAUDE_CLI": str(fake)}, "JUDGE_CLAUDE_CLI")):
+            with self.subTest(origin=origin),                     patch.object(MODULE.shutil, "which", return_value=None) as which,                     patch.object(MODULE.subprocess, "run") as run:
+                run.return_value.returncode = 0
+                code, output = self.cli("--schema", *arguments, env=env)
+            self.assertEqual(run.call_args.args[0][0], str(fake))
+            self.assertIn(f"SCHEMA CLI: {fake} ({origin})", output)
+            self.assertIn("SCHEMA OK", output)
+            which.assert_not_called()
+            self.assertEqual(code, 0)
+
+    def test_missing_explicit_cli_is_not_success(self):
+        missing = Path(self.temporary.name) / "absent" / "claude.exe"
+        with patch.object(MODULE.shutil, "which", return_value="fake-claude"),                 patch.object(MODULE.subprocess, "run") as run:
+            code, output = self.cli("--schema", env={"JUDGE_CLAUDE_CLI": str(missing)})
+        run.assert_not_called()
+        self.assertEqual(code, 2)
+        self.assertIn("SCHEMA NON_EXECUTE: CLI indiquée introuvable (JUDGE_CLAUDE_CLI)", output)
 
     def test_missing_yaml_is_not_success(self):
         with patch.object(MODULE, "yaml", None):

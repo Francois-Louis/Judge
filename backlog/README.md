@@ -1,9 +1,9 @@
 # Backlog — adaptation juridique France / Union européenne
 
-Ce dossier organise le travail à venir. Le backlog contient 86 stories :
-BASE-001 à BASE-007, BASE-009, BASE-010, PILOTE-001, PILOTE-005 et USAGE-001 à USAGE-003 sont `terminee`,
+Ce dossier organise le travail à venir. Le backlog contient 88 stories :
+BASE-001 à BASE-007, BASE-009, BASE-010, BASE-012, PILOTE-001, PILOTE-005 et USAGE-001 à USAGE-003 sont `terminee`,
 BASE-008 est `en-cours`, PILOTE-002, PILOTE-003 et PILOTE-004 sont `a-verifier` ;
-les 68 autres sont `proposee`.
+les 69 autres, dont BASE-011, sont `proposee`.
 La [rétrospective des fondations](00-fondations/retrospective-fondations.md)
 fait le bilan de l'epic 00 et de ses points ouverts.
 La [rétrospective du pilote travail](01-pilote-travail/retrospective-pilote-travail.md)
@@ -106,7 +106,7 @@ réelle, ni schéma officiel validé, ni exécution des futurs skills adaptés.
 Ces observations servent au découpage. Elles ne remplacent pas l'audit complet,
 ni une vérification de l'état distant ou du droit applicable. Le lien public d'un
 fork avec son origine est une question distincte de la destination des push :
-BASE-002 en prépare le choix.
+l'utilisateur a choisi de conserver le fork (BASE-002, option A).
 
 ## Ordre de travail proposé
 
@@ -131,14 +131,14 @@ La lecture des sources bloquées dans l'outil web dispose désormais de
 des stocks reste à réaliser. L'accès PISTE refusé à l'utilisateur n'est pas un prérequis.
 
 1. BASE-001 : audit local du fork. BASE-003 : architecture par domaines.
-2. BASE-002 : choix du lien GitHub, sur une piste séparée du travail juridique.
+2. BASE-002 : lien GitHub, fork conservé (option A, 16 octobre 2026).
 3. BASE-004 à BASE-006 : identité/configurations, méthode de sources et contrôles.
 4. USAGE-001 et USAGE-002 ont défini l'orientation accessible et comparé cinq
    petites tâches. Le pilote travail a été retenu lors de l'implémentation de PILOTE-002.
 5. PILOTE-001 a inventorié ce plugin ; PILOTE-002 a réécrit un seul skill,
    la revue d'un contrat reçu par un candidat, avec une recette encore ouverte.
 6. PILOTE-003 a produit le bilan et les corrections ; achever la recette
-   d'installation et d'usage avant de statuer sur une extension.
+   d'installation et d'usage (BASE-011) avant de statuer sur une extension.
 7. Choisir ensuite un autre skill ou un premier nouveau domaine, puis préparer
    une livraison correspondant seulement au périmètre terminé.
 
@@ -212,6 +212,8 @@ besoin. Les exemples ci-dessus n'annoncent pas des fonctionnalités déjà prés
 | [BASE-008](00-fondations/base-008-isoler-identite-configurations.md) | Appliquer l'identité Judge FR/UE et isoler les configurations | implementation | P0 |
 | [BASE-009](00-fondations/base-009-corrections-retrospective.md) | Appliquer les corrections issues de la rétrospective des fondations | implementation | P0 |
 | [BASE-010](00-fondations/base-010-acces-sources-officielles.md) | Lire les sources officielles par des voies testées sans souscription API | implementation | P0 |
+| [BASE-011](00-fondations/base-011-recette-client-isole.md) | Exécuter la recette des paquets dans un client Claude isolé | validation | P0 |
+| [BASE-012](00-fondations/base-012-designer-cli-claude.md) | Désigner le binaire claude utilisé par le contrôleur de paquet | implementation | P1 |
 
 ## Orientation et utilité quotidienne — P0 / P1
 

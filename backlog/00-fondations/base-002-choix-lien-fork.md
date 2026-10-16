@@ -54,9 +54,9 @@ Effectuer le détachement, supprimer/recréer le dépôt ou publier du contenu.
 - Contrôles locaux : liens relatifs du livrable et de la story, cohérence du
   frontmatter et des critères d'acceptation, absence de changement des fichiers
   suivis et de la configuration Git.
-- **Choix de l'utilisateur : à décider.** Le statut `terminee` concerne le
-  dossier et les critères ci-dessus ; il ne signifie pas qu'une option a été
-  choisie. Une éventuelle story d'opération distante sera préparée après ce choix.
+- **Choix de l'utilisateur, 16 octobre 2026 : A — conserver le fork.** Aucune
+  opération distante ni story d'exécution n'en découle ; le bouton « Leave fork
+  network » n'a donc pas à être inspecté.
 - Aucun commit, push, PR, détachement, changement de visibilité, suppression,
   création de dépôt ou publication n'a été effectué.
 

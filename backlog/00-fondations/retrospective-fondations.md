@@ -9,12 +9,13 @@ qui ne demandaient aucune décision sont tracées dans
 
 Les fondations sont solides et leurs preuves distinguent nettement ce qui est
 vérifié, simulé ou non exécuté. L'epic n'est pas clos : BASE-008 reste
-`en-cours` et le choix de BASE-002 appartient à l'utilisateur.
+`en-cours` ; le choix de BASE-002 (A, conserver le fork) a été arrêté le
+16 octobre 2026.
 
 | Story | Statut | Point ouvert |
 |---|---|---|
 | BASE-001 | terminee | Réglages GitHub distants non inspectés |
-| BASE-002 | terminee | **Choix A/B/C à décider** ; bouton « Leave fork network » non vérifié |
+| BASE-002 | terminee | Choix A (conserver le fork) arrêté le 16 octobre 2026 |
 | BASE-003 | terminee | — |
 | BASE-004 | terminee | Mise en œuvre par BASE-008 |
 | BASE-005 | terminee | Plusieurs sources officielles inaccessibles à l'outil (403, JavaScript) |
@@ -52,7 +53,7 @@ vérifié, simulé ou non exécuté. L'epic n'est pas clos : BASE-008 reste
 |---|---|
 | Commit sur une branche dédiée, sans push | Réalisé après BASE-009 |
 | Points 2 à 5 et 7 | Corrigés dans BASE-009 |
-| Choix du lien de fork | BASE-002, décision de l'utilisateur |
-| Recette authentifiée, liens symboliques | BASE-008, hôte autorisant les liens symboliques et session jetable authentifiée |
+| Choix du lien de fork | Décidé le 16 octobre 2026 : A, conserver le fork ; aucune opération distante |
+| Recette authentifiée, liens symboliques | Recette authentifiée : [BASE-011](base-011-recette-client-isole.md) ; liens symboliques : BASE-008, hôte autorisant leur création |
 | Point 8 | Rappelé dans la recette BASE-008 ; pas de changement de contrat |
 | Taille des stories | Au-delà d'environ 50 fichiers modifiés, prévoir une relecture par une seconde personne |

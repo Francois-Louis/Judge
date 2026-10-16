@@ -142,4 +142,5 @@ cookbooks réussi. Sans `jsonschema`, le test de l'orchestrateur est ignoré :
 c'est une absence d'outil, pas une réussite. Restent ouverts le critère 1
 (session de modèle authentifiée) et le critère 4 (liens symboliques réels).
 La recette doit isoler le home du système : `CLAUDE_CONFIG_DIR` ne déplace pas
-les chemins `~/.claude/plugins/config/judge-fr-eu/`.
+les chemins `~/.claude/plugins/config/judge-fr-eu/`. Le critère 1 est repris
+par [BASE-011](base-011-recette-client-isole.md).

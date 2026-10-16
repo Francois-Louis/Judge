@@ -46,7 +46,7 @@ la simple lecture sans sauvegarde reste possible.
 - [ ] Modifier le format sur un profil partiel ou US conserve les réponses hors demande et n'applique aucun défaut US.
 - [ ] Le parcours termine la branche candidat sans exécuter l'entretien professionnel ni sonder un connecteur non demandé.
 - [ ] Lectures/écritures du helper et retour à la revue sont observés dans un client isolé ; le paquet n'exige aucun fichier du dépôt.
-- [ ] Un lecteur non juriste peut expliquer ce qui a été mémorisé, l'emplacement et ce qui reste à vérifier sur son contrat.
+- [ ] Un lecteur non juriste peut expliquer ce qui a été mémorisé, l'emplacement et ce qui reste à vérifier sur son contrat. Lecteur retenu : l'utilisateur, résultat marqué non indépendant ([BASE-011](../00-fondations/base-011-recette-client-isole.md)).
 
 ## Vérification
 
