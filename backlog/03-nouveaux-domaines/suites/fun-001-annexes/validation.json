@@ -1,0 +1,66 @@
+{
+  "story": "FUN-001",
+  "date": "2026-10-17",
+  "timezone": "Europe/Paris",
+  "reviewed_base_revision": "faa8c3fd9ba7b8033c25a24a7a2cf08288b5364f",
+  "initial_review_base_revision": "ca5efbd71a2f1bde9d4fc47d17860d2cf2a94118",
+  "review_environment": "Copie du contenu du commit propose hors checkout ; index separe pour exclure les changements concurrents non commis. Meme compte Windows, pas une sandbox OS.",
+  "checks": [
+    {
+      "command": "python scripts/test-base008-isolation.py",
+      "exit_code": 0,
+      "tests": 16,
+      "passed": 14,
+      "skipped": 2,
+      "duration_seconds": 44.259,
+      "skip_reasons": [
+        "jsonschema absent : test orchestrateur non execute",
+        "Windows ne permet pas la creation de liens symboliques : WinError 1314"
+      ],
+      "note": "Jonctions Windows et liens physiques effectivement testes. Premiere passe : 15 paquets / 138 skills en 32.272 secondes. Nouvelle passe apres integration concurrente CRIM-001 : 16 paquets / 139 skills."
+    },
+    {
+      "command": "claude plugin validate .claude-plugin/marketplace.json ; chaque manifeste interne ; external_plugins/cocounsel-legal",
+      "exit_code": 0,
+      "cli_version": "2.1.301",
+      "note": "Marketplace et 16 repertoires internes presents dans le snapshot, ainsi que le paquet externe. Marketplace valide a nouveau apres integration concurrente CRIM-001. Avertissements de modele CLAUDE.md attendus."
+    },
+    {
+      "command": "python scripts/lint-tool-scope.py",
+      "exit_code": 0,
+      "note": "Cinq cookbooks valides. Premiere tentative interrompue par encodage cp1252 de la sortie ; relance avec PYTHONUTF8=1 reussie."
+    },
+    {
+      "command": "python scripts/source_reviews.py funeral-legal --depuis 2026-10-17",
+      "exit_code": 0,
+      "reviews": 13,
+      "errors": [],
+      "note": "Controle de tracabilite seulement ; les sources inaccessibles restent reservees."
+    },
+    {
+      "command": "python backlog/etat.py --check",
+      "exit_code": 0
+    },
+    {
+      "command": "json.loads de tous les fichiers JSON du snapshot",
+      "exit_code": 0,
+      "files": 120
+    },
+    {
+      "command": "python scripts/check-version-bump.py",
+      "exit_code": 0,
+      "note": "Nouveau plugin funeral-legal 0.1.0."
+    }
+  ],
+  "detached_package_evidence": "resultats-paquet.json",
+  "runtime_evidence": "executions/results.json",
+  "runtime": {
+    "fixtures": 12,
+    "initialized": 12,
+    "blocked_by_quota": 12,
+    "business_resource_reads": 0,
+    "behavioral_cases_passed": 0,
+    "reader": "non-execute",
+    "status": "a-verifier"
+  }
+}

@@ -1,7 +1,7 @@
 ---
 id: FUN-001
 titre: "Lire un devis funéraire et préparer les demandes d'explication avant engagement"
-statut: proposee
+statut: a-verifier
 priorite: P2
 nature: implementation
 dependances: [DOM-031, PILOTE-003, BASE-005, BASE-006, BASE-008]
@@ -138,3 +138,35 @@ Les règles, montants et délais du texte fourni restent à vérifier selon les 
 
 Issue de DOM-031, sans implémentation. Préalable PILOTE-003 satisfait après
 BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-031-annexes/dom-031-decoupage-funeraire.md).
+
+## Implémentation — 17 octobre 2026
+
+La demande explicite « implémente la story fun-001 » sélectionne cette tranche
+et autorise la création du paquet, son inscription au marketplace et la mise
+à jour du décompte BASE-008. Historique de proposition ci-dessus conservé.
+Le paquet `funeral-legal` `0.1.0` livre un seul skill `funeral-quote-review`,
+sans profil ni stockage durable. FQ01–FQ04 sont intégrés : documents distincts,
+comparaison des devis fournis à mêmes besoins, lecture de chaque prestation
+et brouillon de demande complète/variantes. Aucun choix d'opérateur ni envoi.
+
+Les références embarquent BASE-005 `1.2.0` et BASE-008 à l'identique, les trois
+qualités, les frontières et les sources datées. La notice d'octobre 2026 et
+sa correction de septembre sont prises en compte. Modèle intégral récent,
+certains articles CGCT et consolidation de l'arrêté de prix restent réservés
+après les échecs d'accès consignés, sans règle reconstituée de mémoire.
+
+Preuves et bilan : [vérification](fun-001-annexes/verification.md),
+[fixtures Q01–Q12](fun-001-annexes/fixtures.json),
+[contrôles du paquet](fun-001-annexes/resultats-paquet.json) et
+[journal des tentatives client](fun-001-annexes/executions/results.json).
+Structure sans erreur bloquante, schéma et installation locale jetable
+contrôlés ; les trois signalements statiques des copies partagées restent
+documentés. Les commandes Q01–Q12 sont reconnues au chargement mais toutes
+les tentatives sont refusées par le quota du client avant lecture des
+ressources métier : aucun scénario comportemental réussi, aucune sortie
+juridique simulée présentée comme exécution. Lecteur réel non exécuté.
+
+Le statut reste `a-verifier` : rejouer les scénarios après disponibilité du
+client, relire les sources réservées et vérifier la compréhension d'un proche.
+Les cases d'acceptation et de friction ci-dessus restent ouvertes en attente
+de ces observations ; instructions présentes ne valent pas comportement validé.

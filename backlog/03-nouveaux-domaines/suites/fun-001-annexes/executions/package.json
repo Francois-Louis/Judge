@@ -1,0 +1,16 @@
+{
+  "CLAUDE.md": "734d5e2adb2cc9f25d1e88bc8182fd561a600c3d4cd1999417a3cf02f19dff9e",
+  "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "NOTICE": "b0aba4687e46350c3b0f5670f3e1724fd1fc20f4e20ce30321c815a3988f8caf",
+  "README.md": "e90bf903edc3b6254eedca69255ada6b81e6f08d91c6ec2877fe201f653f1002",
+  ".claude-plugin/plugin.json": "2592bdeb2e44e248c64ec1746b455cb432a2eb119fbb2c1f6f58db8d81cb7ae0",
+  "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+  "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+  "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+  "references/lecture-devis-funeraire.md": "0ad82795f5d459758050ad75217ce9d8e862a2902fa5f52992a60dcc8ccafdaa",
+  "references/qualification-funeraire.md": "f6d9571643b62a0edf9de6da32c02c60ae4be7d7c052de66b62d01f62c2f3c14",
+  "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+  "references/shared/research-citation-method.md": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+  "skills/funeral-quote-review/SKILL.md": "366f35f2642b6833dd504dc6d7fd0a624ee9c5c1ac88d2cdac12d68d66b23481",
+  "skills/funeral-quote-review/references/demande-explication.md": "2a49b1aa73baf9772d3ed124ca7e0af46f04ed7d3404ad86f278c61a03f277cf"
+}

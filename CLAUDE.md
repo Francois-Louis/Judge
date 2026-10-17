@@ -16,16 +16,16 @@
   Ne pas forcer le push ni écraser l'historique distant.
 
 Guidance for working on this repo. `judge-fr-eu` is the fork Claude Code plugin
-marketplace — fifteen internal legal plugins and five
+marketplace — sixteen internal legal plugins and five
 managed-agent cookbooks. Most work here is editing prompt content (skills,
 agents, hooks), plugin metadata, or cookbook config — not application code.
 
 BASE-008 uses `judge-fr-eu-<domain>` as every published identifier; source
 directories and the 134 inherited skill names stay unchanged; CONSO-001,
-BNK-001, ENF-001 and CRIM-001 add one skill each (138 total). Only the fork config root is
+BNK-001, ENF-001, CRIM-001 and FUN-001 add one skill each (139 total). Only the fork config root is
 active. Every entry point loads the packaged storage contract. Sync
 `scripts/judge_store.py` and `references/isolation.md` byte-for-byte into all
-fifteen packages after changes, and include LICENSE/NOTICE. The vendor source
+sixteen packages after changes, and include LICENSE/NOTICE. The vendor source
 is preserved but excluded from this marketplace. This is technical isolation;
 legal adaptation and live-client validation remain separate results.
 
@@ -69,7 +69,7 @@ lookup; reserve only the conclusions whose sources remain unverified.
 
 ```
 .claude-plugin/marketplace.json   # the marketplace manifest — one entry per plugin
-<plugin>/                         # 15 first-party plugins (commercial-legal, privacy-legal, ...)
+<plugin>/                         # 16 first-party plugins (commercial-legal, privacy-legal, ...)
   .claude-plugin/plugin.json      # plugin manifest (name, version, description, author)
   .mcp.json                       # MCP servers the plugin connects to
   CLAUDE.md                       # practice-profile TEMPLATE (see "Plugin CLAUDE.md" below)

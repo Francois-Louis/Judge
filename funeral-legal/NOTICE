@@ -1,0 +1,29 @@
+Judge FR/UE — funeral-legal
+Copyright 2026 Judge FR/UE maintainers
+Licensed under the Apache License, Version 2.0.
+Shared resources derive from the Judge FR/UE fork of Claude for Legal
+(Anthropic); upstream copyright notices are preserved in those resources.
+
+FUN-001 changes (2026-10-17): new standalone funeral-legal 0.1.0 package,
+one funeral-quote-review skill. qualification-funeraire.md 1.0.0 and
+lecture-devis-funeraire.md 1.0.0; factual draft demande-explication.md 1.0.0.
+Separate signer, decision authority and payment responsibility; compare only
+provided quotes for the same needs without ranking operators. Dated official
+notice readings include the September 2026 correction; inaccessible sources
+and case-specific obligations remain reserved. No profile, durable storage,
+automatic cross-plugin invocation, external sending or outcome guarantee.
+BASE-005 1.2.0 and BASE-008 resources copied unchanged.
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  LICENSE
+  NOTICE
+  README.md
+  references/company-profile-template.md
+  references/dashboard-template.md
+  references/isolation.md
+  references/qualification-funeraire.md
+  references/lecture-devis-funeraire.md
+  references/shared/research-citation-method.md
+  scripts/judge_store.py
+  skills/funeral-quote-review/SKILL.md
+  skills/funeral-quote-review/references/demande-explication.md

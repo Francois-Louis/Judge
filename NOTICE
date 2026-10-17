@@ -774,3 +774,31 @@ are separate from fixture execution and real-reader validation.
   criminal-legal/scripts/judge_store.py
   criminal-legal/skills/summons-reading/references/convocation.md
   criminal-legal/skills/summons-reading/SKILL.md
+
+FUN-001 changes (2026-10-17): new standalone funeral-legal 0.1.0 package,
+one funeral-quote-review skill with three separate roles, provided-quote
+comparison for identical needs and a factual draft to the operator.
+qualification-funeraire.md 1.0.0; lecture-devis-funeraire.md 1.0.0;
+demande-explication.md 1.0.0. Official notice readings include the September
+2026 correction; inaccessible sources reserved. BASE-005 1.2.0 and BASE-008
+copies unchanged. Package/schema/local-installation checks separate from
+runtime scenarios blocked by the client quota; no real-reader validation.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  scripts/test-base008-isolation.py
+  funeral-legal/.claude-plugin/plugin.json
+  funeral-legal/CLAUDE.md
+  funeral-legal/LICENSE
+  funeral-legal/NOTICE
+  funeral-legal/README.md
+  funeral-legal/references/company-profile-template.md
+  funeral-legal/references/dashboard-template.md
+  funeral-legal/references/isolation.md
+  funeral-legal/references/qualification-funeraire.md
+  funeral-legal/references/lecture-devis-funeraire.md
+  funeral-legal/references/shared/research-citation-method.md
+  funeral-legal/scripts/judge_store.py
+  funeral-legal/skills/funeral-quote-review/SKILL.md
+  funeral-legal/skills/funeral-quote-review/references/demande-explication.md

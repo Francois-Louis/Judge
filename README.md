@@ -25,6 +25,9 @@ ni envoi ; validation client et lecteur à compléter.
 gendarmerie pour un majeur (CRIM-001) : mentions, inconnues, authenticité et
 questions au service et à un avocat, sans stockage du dossier ni envoi ;
 recette client et lecteur à compléter.
+`funeral-legal:funeral-quote-review` 0.1.0 lit un devis funéraire et prépare
+les questions avant engagement (FUN-001), sans profil, stockage ni envoi ;
+réserves de sources et validation détaillées dans le paquet.
 Voir le [démarrage du fork](QUICKSTART.md), les [preuves et limites de validation](references/base008-validation.md),
 la [licence](LICENSE) et les [fichiers modifiés](NOTICE).
 Les intégrations Cowork/Office et l'exécution distante décrites ci-dessous
@@ -63,6 +66,7 @@ Each agent is named for the workflow it runs. They're the most common surface �
 |---|---|---|---|
 | **Lire une convocation** | Mentions, qualité inconnue ou indiquée, authenticité et questions ; CRIM-001, sans profil ni stockage | `criminal-legal` | `/judge-fr-eu-criminal-legal:summons-reading` |
 | **Commande non livrée** | Fiche, chronologie, pièces et brouillon au vendeur ; CONSO-001, sans profil ni envoi | `consumer-legal` | `/judge-fr-eu-consumer-legal:non-delivery-claim` |
+| **Devis funéraire** | Postes, trois qualités et demande d'explication ; FUN-001 | `funeral-legal` | `/judge-fr-eu-funeral-legal:funeral-quote-review` |
 | **Acte de recouvrement ou d’exécution reçu** | Lecture, authenticité, urgence, fiche et questions ; ENF-001 | `enforcement-legal` | `/judge-fr-eu-enforcement-legal:enforcement-act-reading` |
 | **Orientation contractuelle** | Qualifie contrat/récit, domaine, achat/vente, pièces et suite ; COM-001, sans profil obligatoire | `commercial-legal` | `/judge-fr-eu-commercial-legal:review` |
 | **Revue prestation / NDA / SaaS** | Branches héritées non adaptées France/UE ; COM-002/003/004 proposés, aucun lancement par `review` | `commercial-legal` | — |
@@ -221,7 +225,7 @@ After install, skills fire automatically when relevant, slash commands are avail
 ```
 
 **Run the cold-start interview first for inherited workflows.** CONSO-001
-(`consumer-legal`) requires no profile or setup. Every other inherited skill in a plugin reads from the practice profile it writes. Skipping setup is the single most common reason a skill produces generic output. The interview takes 10–20 minutes per plugin and will ask you to point at seed documents (a signed MSA, a playbook, a prior review memo — whatever fits the plugin). More seed material is better; a **quick start** option is available if you want to be productive in 2 minutes and refine later.
+(`consumer-legal`) and funeral quote review (`funeral-legal`) require no profile or setup. Every other inherited skill in a plugin reads from the practice profile it writes. Skipping setup is the single most common reason a skill produces generic output. The interview takes 10–20 minutes per plugin and will ask you to point at seed documents (a signed MSA, a playbook, a prior review memo — whatever fits the plugin). More seed material is better; a **quick start** option is available if you want to be productive in 2 minutes and refine later.
 
 **Start by connecting a research tool.** Everything else is better with one, and citations are unverified without one. See [MCP Connectors](#mcp-connectors) below for the full list — CourtListener, Trellis, Descrybe, and Solve Intelligence are the research tools the citation guardrails look for.
 
@@ -271,6 +275,7 @@ narrative, without a profile or interview.
 | **[criminal-legal](./criminal-legal)** | CRIM-001 `0.1.0` : lire une convocation de police ou de gendarmerie pour un majeur ; un skill sans profil ni stockage, [recette et limites](backlog/03-nouveaux-domaines/suites/crim-001-annexes/verification.md). |
 | **[consumer-legal](./consumer-legal)** | CONSO-001 : fiche, chronologie, pièces et brouillon de réclamation pour un bien commandé à distance et non reçu. Un skill sans profil ni envoi ; validation client et lecteur à compléter. |
 | **[banking-legal](./banking-legal)** | BNK-001 `0.1.1` : qualifier un paiement contesté et préparer la réclamation pour une opération non autorisée sur un compte personnel ; tromperie et litige commercial orientés. Un skill, sans profil ni stockage ; [recette partielle et limites](backlog/03-nouveaux-domaines/suites/bnk-001-annexes/verification.md). |
+| **[funeral-legal](./funeral-legal)** | FUN-001 `0.1.0` : lecture de devis, rapprochement des postes à besoins identiques et brouillon à l'opérateur. Un skill sans profil, stockage ni envoi ; règles non relues réservées. |
 | **[enforcement-legal](./enforcement-legal)** | ENF-001 `0.1.0` : lire un acte reçu, vérifier l'authenticité, repérer l'urgence et préparer les questions. Un skill sans profil, calcul de délai ni envoi ; [recette et limites](backlog/03-nouveaux-domaines/suites/enf-001-annexes/verification.md). |
 | **[commercial-legal](./commercial-legal)** | Orientation contractuelle COM-001 sans profil obligatoire. Revues, avenants, registres, escalades et agents hérités non adaptés France/UE. |
 | **[corporate-legal](./corporate-legal)** | M&A diligence with tabular review and citation-per-cell. Disclosure schedules, closing checklists, written consents, board minutes. Entity compliance tracker. Post-close integration. |
@@ -400,6 +405,12 @@ The consumer and criminal plugins require no setup.
 | Command | Skill | Description |
 |---|---|---|
 | `/judge-fr-eu-consumer-legal:non-delivery-claim` | non-delivery-claim | Préparer une réclamation pour une commande non livrée ; recette client et lecteur à compléter |
+
+### Prestations funéraires — FUN-001
+
+| Command | Skill | Description |
+|---|---|---|
+| `/judge-fr-eu-funeral-legal:funeral-quote-review` | funeral-quote-review | Lire un devis funéraire avant engagement et préparer les questions à l'opérateur |
 
 ### ai-governance-legal
 
