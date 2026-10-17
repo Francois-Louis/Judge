@@ -104,3 +104,9 @@ Issue de DOM-009 ; aucune implémentation ni sélection de tranche. Le bilan
 PILOTE-003 est terminé après BASE-011 ; l'extension reste un choix explicite.
 La [vérification DOM-009](../dom-009-annexes/dom-009-verification.md) porte sur
 le routage documentaire, pas sur l'exécution de ces scénarios.
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 4 et 7–10 : rapprocher prix réel, paiement, devise, transport/assurance, facture fret et Incoterm, en distinguant postes inclus et ajoutés. Signaler doublon documenté et ajustements à rechercher ; une transaction authentique ne fixe pas seule toute valeur douanière ou assiette TVA. Une facture minorée ne sert pas de base à une solution fictive. Cas : prix transport compris puis fret ajouté ; valeur catalogue différente de la facture. C02 porte la future rectification, V04 la question fiscale ; aucun montant dû calculé ici.
+
+Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).

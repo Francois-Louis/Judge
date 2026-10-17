@@ -168,3 +168,9 @@ pas été observée. La relecture est prise en charge par l'utilisateur selon
 la décision du 17 octobre 2026, sans être déclarée effectuée. Le préalable
 PILOTE-003 est satisfait après BASE-011 ; les tests des futures suites
 restent à exécuter lors de leur implémentation, aucune tranche sélectionnée.
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 40–44 et 46 : préciser IND-027 pour import de biens, franchise, identification et déclaration TVA, ventes UE/OSS et obligations distinctes ; aucun seuil micro assimilé au seuil TVA ou douanier. DOU-004 qualifie EORI/rôle/régime et C20 EMEBI ; contrôle et contentieux fiscal restent DOM-011. Pièces : statut, flux/territoires, factures, identification, période et données déclarées. Cas : micro en franchise estimant l'import sans obligation fiscale ; paiement étranger bloqué après livraison, question bancaire vers BNK-014/019 selon contrat. Ces relais ne sont pas des fonctionnalités livrées ; autoliquidation, CA3 et migration EORI du guide restent à rechercher.
+
+Exigences de la [matrice des 75 points](dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](dom-009-annexes/dom-009-frictions-verification.md).

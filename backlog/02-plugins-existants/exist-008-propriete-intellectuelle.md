@@ -104,3 +104,9 @@ Le découpage compte désormais 30 suites.
 ## Intégration marketing — 16 octobre 2026
 
 La [matrice des 140 frictions](exist-004-annexes/exist-004-frictions-utilisateurs.md) relie les besoins aux tâches et relais. PI-031 documente les droits d’une campagne synthétique ; les 31 PI restent proposées. Le droit à l’image/voix reste distinct du droit sur les sources et de la licence du générateur. Les résultats et empreintes historiques ci-dessus sont conservés. Portée de l’intégration et contrôles dans le [relevé dédié](exist-004-annexes/exist-004-frictions-verification.md).
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Point 63 : C17 chez DOM-009 prépare le volet procédural de retenue douanière à découper ; EXIST-008 garde identification du titre/titulaire, territoire, authenticité alléguée, licences/factures et moyens de discussion du droit invoqué. Prévoir une story PI spécifique, sans présenter une tâche de retrait Internet comme opposition douanière. Cas : destinataire disposant d'une facture et notification annonçant destruction en l'absence de réponse. Recueillir acte, réception, bien et pièces, proposer fiche de griefs/preuves et conseil urgent ; suspicion, contrefaçon établie et accord à destruction sont distincts. Délais, jours ouvrables, procédure simplifiée et effets du silence à rechercher, aucune opposition envoyée ni délai du guide adopté.
+
+Exigences de la [matrice des 75 points](../03-nouveaux-domaines/dom-009-annexes/dom-009-frictions-utilisateurs.md), à découper sans implémentation ni sélection de tranche. [Portée et contrôles](../03-nouveaux-domaines/dom-009-annexes/dom-009-frictions-verification.md).

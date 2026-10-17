@@ -98,3 +98,9 @@ du 17 octobre 2026 ; elle n'est pas déclarée effectuée. La compréhension par
 un lecteur réel n'a pas été observée. DOM-022 est close sur ses livrables et
 contrôles de cadrage, sans attendre cette relecture.
 
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 1, 5–6 et 13–24, 52 et 75 : V01 ajoute les frais privés de dédouanement/stockage/retour et l'inaction du prestataire aux tâches postales à découper. TEL-006 garde perte/dommage dans son périmètre ; ne pas prétendre qu'il couvre tous les honoraires. Recueillir rôle/contrat, facture ventilée, tarif, suivi, pièces demandées/transmises et dates ; sortie future : historique, fondement contractuel à rechercher et brouillon de réclamation. Cas : suivi douane sans acte ; facture après livraison ; destruction annoncée par le prestataire. Séparer décision officielle DOU-009/C16/C17, obligations du vendeur DOM-001, fret DOM-008 et assurance DOM-005. Médiation postale TEL-008 ne remplace pas un recours douanier ; aucune gratuité, suppression des frais ou suspension présumée.
+
+Exigences de la [matrice des 75 points](dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](dom-009-annexes/dom-009-frictions-verification.md).

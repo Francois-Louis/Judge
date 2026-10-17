@@ -139,3 +139,9 @@ Scénarios supplémentaires **attendus, non exécutés** : famille demandant d�
 Sources à ouvrir lors de l’implémentation : CPP enquête/obstacle/autopsie, qualité et information des proches, dispositions sanitaires distinctes ; sources exactes selon acte et procédure.
 
 Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 9–11, 24, 58 et 61–65 : DOU-009 identifie les actes ; PV, transaction, infraction douanière, statut de la personne et défense exigent un découpage propre avec avocat en droit douanier. C16/C17 ne livrent pas cette défense. Recueillir actes complets, réception, faits attribués, rôle/mandat, mesure sur personne ou biens et urgence ; sortie future : fiche factuelle et conseil/voie spécialisés à déterminer. Cas : PV inexact ; transaction proposée pour éviter des poursuites ; faux SMS payé ; couteau à destination étrangère C24. Ne pas transposer automatiquement une garde à vue générale à une procédure douanière, recommander signature/refus systématique ni considérer toute erreur comme fraude. Le droit étranger et la politique transporteur restent des recherches distinctes.
+
+Exigences de la [matrice des 75 points](dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](dom-009-annexes/dom-009-frictions-verification.md).

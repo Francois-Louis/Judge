@@ -79,3 +79,9 @@ annoncer une adaptation France/UE déjà disponible.
 ## Intégration marketing — 16 octobre 2026
 
 La [matrice des 140 frictions](exist-004-annexes/exist-004-frictions-utilisateurs.md) relie les besoins aux tâches et relais. Huit propositions PDT-018 à PDT-025 complètent les 17 initiales ; les 25 PDT restent proposées. Les revues d’allégations et d’influence existantes sont précisées, sans implémentation. Les résultats et empreintes historiques ci-dessus sont conservés. Portée de l’intégration et contrôles dans le [relevé dédié](exist-004-annexes/exist-004-frictions-verification.md).
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 28 et 53–58, dossiers K01/K02/K04 : qualifier marché, produit, rôle et allégation avant conformité CE, sécurité générale, règles de destination ou origine française. C21–C24 gardent le contrôle export, matières/espèces, emballage et couteaux ; DOU-007 distingue préférence douanière et marquage. Sortie future à préciser dans la tâche produit pertinente : texte/champ, pièces et points réservés, sans certification. Cas : couteau artisanal annoncé CE sans texte identifié ; produit admis en France mais livraison UK/Canada restreinte ; marquage français pris pour préférence. La date de sécurité générale des produits indiquée dans le guide et les règles locales restent à vérifier.
+
+Exigences de la [matrice des 75 points](../03-nouveaux-domaines/dom-009-annexes/dom-009-frictions-utilisateurs.md), à découper sans implémentation ni sélection de tranche. [Portée et contrôles](../03-nouveaux-domaines/dom-009-annexes/dom-009-frictions-verification.md).

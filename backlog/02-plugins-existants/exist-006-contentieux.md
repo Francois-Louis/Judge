@@ -115,3 +115,9 @@ Scénarios supplémentaires **attendus, non exécutés** : crémation annoncée 
 Sources à ouvrir lors de l’implémentation : CPC procédure spéciale des funérailles, compétence, saisine, délais, notification et appel ; voie et version exactes avant toute rédaction procédurale.
 
 Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](../03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-verification.md).
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 67–70 et 74–75 : C12 chez DOM-009 garde la contestation de créance, C13 la suite juridictionnelle à découper avec ce domaine, C14 sursis et C15 garanties. Entrées : acte, notification, réclamation/dépôt/réception, réponse ou silence, décision comptable et garanties. Sortie future : procédure, juge, représentation, acte et calendrier propres, puis story de saisine spécialisée ; aucune requête générique tenant lieu de tout recours. Cas : AMR contesté sans réponse ; garantie refusée alors que la créance est litigieuse. Rechercher recodification/transitions et textes français/UE selon dette, sans reprendre automatiquement L331-1/2, L332-2/3 ou leurs délais annoncés. DOM-003 reste l'acte d'exécution distinct ; médiation sans suspension présumée.
+
+Exigences de la [matrice des 75 points](../03-nouveaux-domaines/dom-009-annexes/dom-009-frictions-utilisateurs.md), à découper sans implémentation ni sélection de tranche. [Portée et contrôles](../03-nouveaux-domaines/dom-009-annexes/dom-009-frictions-verification.md).

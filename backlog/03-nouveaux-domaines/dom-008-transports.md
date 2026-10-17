@@ -114,3 +114,9 @@ et délais reçus, implémentation/exécution de skill, installation client,
 relecture indépendante ni démarche externe. Toutes les suites restent
 `proposee` ; aucune tranche n’est sélectionnée. Les contrôles et relevés du
 cadrage initial à dix suites sont historiques et ne sont pas réécrits.
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 5–6 et 13–22, 35–38, 57–58 : V01 demande de découper frais privés de dédouanement/stockage/retour et réclamation fret selon mode, trajet et contrat. TPT-010 reste une qualification de l'incident, sans recours au fond élargi implicitement. Recueillir contrat, rôles, demandes/pièces datées, déclaration éventuelle, tarif, chronologie du dommage et frais. Sortie future : tableau frais/causalité et brouillon ciblé. Cas : documents transmis mais magasinage continué ; transport retour après refus ; casse attribuée à la douane sans preuve. DOU-009 garde acte officiel, DOM-022 prestation postale, DOM-001 livraison de vente ; V02/DOM-005 police d'assurance distincte des plafonds de responsabilité du transporteur. Aucun barème passager appliqué au fret.
+
+Exigences de la [matrice des 75 points](dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](dom-009-annexes/dom-009-frictions-verification.md).

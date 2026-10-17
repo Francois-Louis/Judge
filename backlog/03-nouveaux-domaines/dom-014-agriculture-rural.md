@@ -60,3 +60,9 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
 
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 55 et 57, dossier K02 : C22/C23 demandent de qualifier matière/espèce et emballage avant d'attribuer un volet agricole, sanitaire ou phytosanitaire. DOM-009 garde documents et opération douanière ; confirmer ici la tâche sectorielle selon faits plutôt qu'attribuer tout matériau naturel au rural. Entrées : espèce scientifique si disponible, origine/licéité, transformation, pays/date, traitement/marquage et documents. Sortie future à découper : exigences pertinentes, pièces manquantes et question à l'autorité spécialisée. Cas : palette bloquée malgré produit accepté ; manche en bois ou matière animale mal identifié. CITES, réglementation de destination et NIMP 15 se recherchent séparément ; aucune autorisation ou exemption certifiée.
+
+Exigences de la [matrice des 75 points](dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](dom-009-annexes/dom-009-frictions-verification.md).

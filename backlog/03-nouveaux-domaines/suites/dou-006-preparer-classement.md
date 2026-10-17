@@ -104,3 +104,9 @@ Issue de DOM-009 ; aucune implémentation ni sélection de tranche. Le bilan
 PILOTE-003 est terminé après BASE-011 ; l'extension reste un choix explicite.
 La [vérification DOM-009](../dom-009-annexes/dom-009-verification.md) porte sur
 le routage documentaire, pas sur l'exécution de ces scénarios.
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 12 et 25–26 : relever code réellement déclaré, description et caractéristiques techniques (dont mécanisme d'ouverture pour couteau), pièces et mesures tarifaires/réglementaires à rechercher. Ne pas déduire code, taux ou admissibilité du mot outil ou de la décision du transporteur. C18 est une future demande de RTC distincte de cette préparation. Cas : classement automatique metal tool sans fiche technique ; opérations répétées motivant une question de renseignement contraignant. Sources de nomenclature, notes et portée d'une décision à vérifier lors du lot.
+
+Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).

@@ -114,3 +114,9 @@ Issue de DOM-009 ; aucune implémentation ni sélection de tranche. Le bilan
 PILOTE-003 est terminé après BASE-011 ; l'extension reste un choix explicite.
 La [vérification DOM-009](../dom-009-annexes/dom-009-verification.md) porte sur
 le routage documentaire, pas sur l'exécution de ces scénarios.
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 1–11 et 13–17 de la matrice : inventorier facture, paiement, postes TVA/droits/honoraires, déclaration disponible et demandes de pièces avec dates. Un suivi « douane » n'est pas un acte officiel ; identifier auteur et motif. La mention Gift, une valeur minorée ou un fractionnement ne deviennent pas des solutions. Détecter IOSS et seuils allégués sans collecter de secret IOSS ni calculer une taxation. C01/C02 et V01/V04 restent à découper ; aucun élargissement au recours ou à la déclaration.
+
+Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).

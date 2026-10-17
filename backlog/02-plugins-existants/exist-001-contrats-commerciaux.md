@@ -85,3 +85,9 @@ La [matrice des 100 frictions](exist-002-annexes/exist-002-frictions-utilisateur
 ## Intégration marketing — 16 octobre 2026
 
 La [matrice des 140 frictions](exist-004-annexes/exist-004-frictions-utilisateurs.md) relie les besoins aux tâches et relais. COM-021/022/023 ajoutent contrat d’influence, lecture des mesures/factures et sortie d’agence. Le découpage compte 23 COM : COM-001 reste `a-verifier`, les 22 autres `proposee`. Les résultats et empreintes historiques ci-dessus sont conservés. Portée de l’intégration et contrôles dans le [relevé dédié](exist-004-annexes/exist-004-frictions-verification.md).
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 18 et 33, 35–39, 45, 52 et 65 : V03 décrit revue de clause puis réclamation internationale à découper séparément, avec contrat/mandat, qualités, droit applicable, Incoterm/version/lieu, frais, preuve de sortie et refus de livraison. Cas : DDP annoncé mais facture à l'importateur ; EXW sans maîtrise du justificatif de sortie ; retour refacturé à l'expéditeur. Distinguer répartition contractuelle, qualité de redevable douanier C11, fiscalité V04 et frais de prestataire V01. Aucune recommandation automatique FCA ni reprise du tableau DAP/DDP comme avis complet ; rechercher règles ICC de la version convenue et textes applicables. Livraison B2C reste DOM-001.
+
+Exigences de la [matrice des 75 points](../03-nouveaux-domaines/dom-009-annexes/dom-009-frictions-utilisateurs.md), à découper sans implémentation ni sélection de tranche. [Portée et contrôles](../03-nouveaux-domaines/dom-009-annexes/dom-009-frictions-verification.md).

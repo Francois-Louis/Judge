@@ -131,3 +131,22 @@ restent proposées.
 ## Intégration des frictions marketing — 16 octobre 2026
 
 La [matrice des 140 points](../02-plugins-existants/exist-004-annexes/exist-004-frictions-utilisateurs.md) relie les pratiques publicitaires aux parcours acheteur. CONSO-021 ajoute une réclamation après achat fondée sur le rapprochement promesse/pièces/résultat, sans annulation automatique. Les 21 CONSO restent proposées. Le bilan et les empreintes historiques ci-dessus restent conservés ; portée et contrôles dans le [relevé dédié](../02-plugins-existants/exist-004-annexes/exist-004-frictions-verification.md).
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 1–6, 13–24, 37, 52 et 75 de la
+[matrice des 75 points](dom-009-annexes/dom-009-frictions-utilisateurs.md) :
+qualifier vente B2C, vendeur, droit applicable, choix du transporteur,
+information sur les frais, livraison/retour et remboursement commercial.
+Recueillir commande, contrat/CGV, promesse de taxes comprises, factures
+ventilées, suivi, échanges et dates. Résultat futur à préciser dans la tâche
+de vente pertinente : griefs/pièces et brouillon au responsable identifié,
+sans renvoi systématique au seul transporteur ni responsabilité universelle
+du vendeur. Cas : colis non livré avec suivi douane vague ; DDP annoncé
+mais facture à livraison ; retour commercial admis sans remboursement des
+droits. V01 garde frais/prestation postale ou fret, C01/C02/C03 les postes
+et déclarations, DOU-010/011 droits/remise et V04 TVA. Ces démarches et leurs
+calendriers sont distincts ; aucune restitution automatique de toute somme.
+
+Exigences documentaires, sans implémentation ni sélection de tranche ;
+[portée et contrôles](dom-009-annexes/dom-009-frictions-verification.md).

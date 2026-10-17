@@ -85,3 +85,9 @@ Proposition du 17 octobre 2026 issue de DOM-039, rang 3 dans le
 [découpage](../dom-039-annexes/dom-039-decoupage-independants.md).
 PILOTE-003 est terminé après BASE-011 ; aucune tranche n'est sélectionnée
 et aucune implémentation n'est lancée par ce cadrage.
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 41–44 : pour l'indépendant, distinguer franchise nationale, importation de biens, achat de services et ventes à distance UE ; recueillir territoires, identification TVA, opérations/périodes et données douanières/fiscales. Rechercher obligations d'identification, déclaration, autoliquidation et déduction propres, ainsi que localisation/OSS, sans affirmer une CA3 ou un seuil universels. C20 garde EMEBI statistique, DOM-011 le contrôle/contentieux ou la fiscalité de société. Cas : micro en franchise important un stock, aucune TVA encaissée au dédouanement ; boutique vendant à des particuliers de plusieurs États. Régimes et nouveautés du guide restent non vérifiés.
+
+Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).

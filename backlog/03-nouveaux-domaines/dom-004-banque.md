@@ -124,3 +124,9 @@ Points 56–57, 85, 116–130 et 154 ; tableau §11. BNK-005 lit offre LOA/créd
 VEH-018 garde LLD sans option et demande de décompte contractuel ; VEH-009 état/frais de restitution ; VEH-020 vente à distance ; INS-004 perte financière. Cas attendus : contrat intitulé LLD avec option ; premier loyer pris pour dépôt ; perte de revenus et indemnité de sortie LOA ; livraison anticipée avec rétractation alléguée. Lire le Code de la consommation, régime du crédit et textes de transposition/entrée en vigueur selon dates ; aucun total simulé, comparaison de financement ou conseil d'achat.
 
 Exigences de la [matrice des 195 points](dom-023-annexes/dom-023-frictions-utilisateurs.md), à découper sans sélection de tranche. Sources et scénarios métier non vérifiés ; [portée de l’intégration](dom-023-annexes/dom-023-frictions-verification.md).
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 24 et 45–46 : BNK-003 garde frais/change, BNK-014 blocage de compte/virement, BNK-019 encaissement professionnel selon contrat, pas tout virement international par défaut. Recueillir devise, ordre, contrat/tarif, taux et frais annoncés/appliqués, correspondants, motif communiqué et pièces économiques strictement utiles. Sortie future : rapprochement et demande ciblée de détail/réexamen sans présumer illégalité ni contourner conformité/sanctions. Cas : livraison achevée mais virement retenu ; frais intermédiaires réduisant net reçu. Faux message de douane avec paiement : qualifier opération autorisée/non autorisée et tromperie avant BNK-001/002, volet pénal DOM-002. Les consignes d'authentification et coordonnées officielles doivent être vérifiées au moment de la réponse.
+
+Exigences de la [matrice des 75 points](dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](dom-009-annexes/dom-009-frictions-verification.md).

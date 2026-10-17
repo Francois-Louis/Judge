@@ -104,3 +104,9 @@ Issue de DOM-009 ; aucune implémentation ni sélection de tranche. Le bilan
 PILOTE-003 est terminé après BASE-011 ; l'extension reste un choix explicite.
 La [vérification DOM-009](../dom-009-annexes/dom-009-verification.md) porte sur
 le routage documentaire, pas sur l'exécution de ces scénarios.
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 52 et 69–72 : dette/postes et état non payé d'abord, puis fondement propre et conditions à vérifier. Les motifs et délais de remise ne se confondent ni avec prescription de recouvrement ni avec contestation C12, sursis C14, garanties C15 ou facilité de paiement. Cas : difficulté de trésorerie sans motif de remise établi ; marchandise défectueuse non payée avec retour documenté. DOU-010 traite les sommes dont paiement est établi ; aucune remise automatiquement admise depuis le seul défaut ou la bonne foi.
+
+Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).

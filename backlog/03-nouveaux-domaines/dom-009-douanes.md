@@ -98,3 +98,34 @@ La relecture humaine est prise en charge par l'utilisateur conformément à
 AGENTS.md du 17 octobre 2026. Elle n'est pas déclarée effectuée ; la
 compréhension par un lecteur réel n'a pas été observée. La story est close
 sur ses livrables et contrôles de cadrage, sans attendre cette relecture.
+
+## Complément des 75 frictions douanes — 17 octobre 2026
+
+- [Source intégrale](sources/douanes-frictions-2026-10-16.txt) conservée à
+  l'octet près, avec ses quinze lignes de calendrier, dix réflexes et cinq
+  dossiers coutellerie. Sa mention de vérification juridique n'est pas une
+  validation par le dépôt.
+- [Matrice des besoins](dom-009-annexes/dom-009-frictions-utilisateurs.md) :
+  75 points reliés aux douze propositions existantes, aux voisins et à
+  26 tâches douanières candidates C01–C26 plus quatre tâches voisines V01–V04,
+  toutes à découper. Entrées, résultat et scénario futur par candidat.
+- Distinctions renforcées : lecture de frais, rectification/invalidation,
+  retour en l'état/SAV/perfectionnement/temporaire/transit, représentation,
+  observations/contestation/suite judiciaire/sursis/garanties, retenue PI,
+  RTC/RCO, EMEBI et restrictions produit/pays/matière.
+- Neuf propositions DOU précisées dans leur périmètre ; DOU-001 reste une
+  préparation documentaire sans calcul. Frontières fiscales, contrats,
+  poste/fret, assurance, banque, pénal, contentieux, produits, PI et matières
+  précisées dans les cadrages concernés.
+- [Vérification du complément](dom-009-annexes/dom-009-frictions-verification.md) :
+  couverture et cohérence documentaires, distinctes d'une recherche juridique
+  ou de l'exécution de skills. Les relevés du cadrage initial sont historiques.
+
+Lot limité à `backlog/` : source, matrice, rapport, présente story et
+découpage, neuf suites DOU, IND-027, treize cadrages voisins et index ETAT.
+Pas de changement de plugin, version ou NOTICE. DOM-009 reste close sur son
+cadrage ; les suites restent proposées et les candidats non implémentés.
+Sources, nouveautés 2026, délais et coordonnées du guide restent à vérifier
+aux dates des faits ; aucune règle adoptée ni tranche sélectionnée. La
+relecture humaine reste prise en charge par l'utilisateur, sans résultat
+de compréhension observé.

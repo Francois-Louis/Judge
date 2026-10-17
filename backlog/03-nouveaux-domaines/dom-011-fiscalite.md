@@ -123,3 +123,9 @@ chez DOM-012 ; fiscalité courante de l'activité indépendante chez DOM-039.
 Sources futures : CGI et doctrine fiscale officielle selon année et situation.
 Cas attendu : capital reçu et déclaration préremplie discordante. Scénario
 non exécuté ; [portée](dom-012-annexes/dom-012-frictions-verification.md).
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 2–4, 12, 39 et 41–44, 48 et 52 : V04 demande de découper TVA import/IOSS, assiette et correction, autoliquidation/déduction, preuve fiscale de sortie, ventes à distance/OSS, état récapitulatif TVA et DES selon opération et statut. IND-027 porte le parcours de l'indépendant, sans seconde qualification contradictoire ; contrôle/contentieux et sociétés restent ici. Douanes : C01 ventile, DOU-008 prépare la valeur, C02/C03 concernent déclaration, C20 EMEBI statistique. Recueillir factures/paiements, déclaration, identification/régime TVA, territoires, flux et période. Sorties : rapprochement des postes, pièces et brouillon fiscal ciblé après recherche. Cas : TVA au panier puis livraison ; micro en franchise important ; vente export sans preuve de sortie. Aucun seuil, forfait 2026, CA3, droit à déduction ou remboursement général repris sans vérification.
+
+Exigences de la [matrice des 75 points](dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](dom-009-annexes/dom-009-frictions-verification.md).

@@ -104,3 +104,9 @@ Issue de DOM-009 ; aucune implémentation ni sélection de tranche. Le bilan
 PILOTE-003 est terminé après BASE-011 ; l'extension reste un choix explicite.
 La [vérification DOM-009](../dom-009-annexes/dom-009-verification.md) porte sur
 le routage documentaire, pas sur l'exécution de ces scénarios.
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 27–31 et 73, dossier coutellerie K04 : séparer pays d'expédition, origine non préférentielle, marquage et préférence selon accord. Documenter matières/fournisseurs, transformations, pièces et incohérences ; rechercher règle, formule, seuil éventuel et statut d'exportateur propres à l'accord. Aucun French origin ni seuil de 6 000 € universels. C19 reste une demande de RCO à découper. Cas : couteau fabriqué en France avec composants étrangers et preuve préférentielle absente ; matière attribuée à un fournisseur sans pièce probante.
+
+Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).

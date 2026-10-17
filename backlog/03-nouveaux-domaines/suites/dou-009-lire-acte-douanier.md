@@ -104,3 +104,9 @@ Issue de DOM-009 ; aucune implémentation ni sélection de tranche. Le bilan
 PILOTE-003 est terminé après BASE-011 ; l'extension reste un choix explicite.
 La [vérification DOM-009](../dom-009-annexes/dom-009-verification.md) porte sur
 le routage documentaire, pas sur l'exécution de ces scénarios.
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 19 et 59–70, 73–75 : qualifier projet/contrôle, décision de dette, PV, transaction, retenue PI, saisie/confiscation et décision de garanties ; demander acte complet, annexes et réception. Relever les échéances annoncées comme mentions à vérifier, sans adopter les durées du guide. C10/C12–C17/C25 portent les tâches futures d'observations/recours/sursis/garanties/silence ; PV/transaction et défense pénale restent un découpage DOM-002 avec avocat douanier. Cas : projet sans annexes ; retenue PI avec destruction annoncée ; AMR et frais privés mêlés. Aucun recours, accord à destruction ou signature produit par cette seule lecture.
+
+Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).

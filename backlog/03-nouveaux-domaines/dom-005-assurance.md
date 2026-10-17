@@ -140,3 +140,9 @@ Scénarios supplémentaires **attendus, non exécutés** : primes prises pour é
 Sources à ouvrir lors de l’implémentation : Code des assurances et textes propres à l’organisme/contrat, dispositifs officiels de recherche et transmission ; pas de fiscalité ou succession traitée au fond ici.
 
 Les règles, montants et délais du texte fourni restent à vérifier selon les faits, le régime et la version applicable. [Portée et contrôles de cette intégration](dom-031-annexes/dom-031-frictions-verification.md).
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 21–22 : V02 demande un périmètre assurance transport/marchandises à préciser, avec INS-004 ou INS-019 selon contrat puis refus INS-001 si pertinent. Recueillir police/conditions, parties assurées, trajet, valeur, poids, exclusions, événement, déclaration et refus. Sortie future : tableau garantie/limite/pièce/réserve, calendrier propre et brouillon ciblé ; objet léger de forte valeur avec indemnité au poids alléguée. Assurance, responsabilité et plafonds du transporteur sont distincts ; V01/DOM-008/022 gardent la réclamation au prestataire, DOU-009 l'acte douanier. Ne pas certifier qu'un contrôle douanier exclut toute garantie ni importer la couverture d'un autre contrat.
+
+Exigences de la [matrice des 75 points](dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](dom-009-annexes/dom-009-frictions-verification.md).

@@ -104,3 +104,9 @@ Issue de DOM-009 ; aucune implémentation ni sélection de tranche. Le bilan
 PILOTE-003 est terminé après BASE-011 ; l'extension reste un choix explicite.
 La [vérification DOM-009](../dom-009-annexes/dom-009-verification.md) porte sur
 le routage documentaire, pas sur l'exécution de ces scénarios.
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 32 et 35–39, 47–58 : documenter destination réelle, produit, rôle des acteurs, clause/version/lieu Incoterm, déclaration et preuve de sortie effectivement disponibles. Le volet preuve fiscale est V04, le contrat V03. Détecter temporaire, SAV/perfectionnement, matières réglementées, double usage et restrictions de destination ; C04–C08/C21–C24 demandent des tâches propres, sans autorisation export/import certifiée ici. Cas : couteau envoyé au Canada avec matière du manche inconnue ; export EXW sans preuve de sortie. Conserver l'exclusion des régimes particuliers.
+
+Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).

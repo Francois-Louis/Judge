@@ -104,3 +104,9 @@ Issue de DOM-009 ; aucune implémentation ni sélection de tranche. Le bilan
 PILOTE-003 est terminé après BASE-011 ; l'extension reste un choix explicite.
 La [vérification DOM-009](../dom-009-annexes/dom-009-verification.md) porte sur
 le routage documentaire, pas sur l'exécution de ces scénarios.
+
+## Complément des frictions douanes — 17 octobre 2026
+
+Points 2, 52 et 71–72 : rattacher paiement, postes et motif (trop-perçu, défaut/non-conformité, autre fondement), notifications, identité des biens, usage et retour aux pièces. Rechercher les conditions et délais propres à chaque motif, y compris textes CDU allégués 117–120 et procédure pertinente, sans reprendre un délai unique. Invalidation C03, correction C02, remboursement vendeur, TVA V04 et honoraires V01 ont leur circuit. Cas : retour accepté commercialement mais déclaration inchangée ; produit défectueux retourné avec preuve de dette manquante. Aucun remboursement automatique ni double restitution promis.
+
+Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).

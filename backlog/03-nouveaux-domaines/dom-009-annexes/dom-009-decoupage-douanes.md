@@ -179,3 +179,25 @@ réimportation, franchise déménagement hors véhicule, produits réglementés,
 contrefaçon, défense pénale et recours au fond restent à découper avant
 toute couverture annoncée. Une urgence se traite par orientation immédiate,
 pas par une attente de livraison de skill.
+
+## Complément des 75 frictions — 17 octobre 2026
+
+La [matrice](dom-009-frictions-utilisateurs.md) précise les douze ancrages
+DOU et décrit 26 candidats douaniers C01–C26 et quatre candidats voisins
+V01–V04 : chacun garde entrées, résultat et scénario propres. Ils restent
+à découper en stories ; aucune nouvelle suite DOU n'est créée par ce
+complément. La première tranche DOU-001 et ses exclusions restent identiques.
+
+Les retours en l'état, réparations entrantes et sortantes, démonstrations,
+transformation et transit ne sont pas une extension implicite de DOU-004/005.
+DOU-009 identifie l'acte : observations C10, créance C12, suite judiciaire
+C13, sursis C14 et garanties C15 demandent des résultats et calendriers
+distincts. PV/transaction et défense pénale sont à découper avec DOM-002 et
+avocat douanier ; retenue PI C17 exige le volet droit invoqué chez EXIST-008.
+
+Le parcours coutellerie garde cinq dossiers K01–K05, avec caractéristiques
+mécaniques, pays, matières/espèces, série et retour SAV, fabrication/origine,
+contrat et preuve de sortie. Le calendrier D01–D15 et les réflexes R01–R10
+du guide sont des exigences de recherche/sortie, pas du droit validé. Les
+relevés du cadrage initial à douze propositions restent historiques ;
+[contrôles et portée du complément](dom-009-frictions-verification.md).
