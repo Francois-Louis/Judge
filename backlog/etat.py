@@ -54,6 +54,7 @@ FAMILLES = {
     "LOG": "Logement locatif et habitat",
     "VEH": "Véhicules, garages et réparations",
     "FUN": "Décès et prestations funéraires",
+    "IND": "Micro-entreprise et travail indépendant",
     "ANM": "Animaux et responsabilités",
     "CHP": "Chasse et pêche de loisir",
     "LIV": "Livraison",

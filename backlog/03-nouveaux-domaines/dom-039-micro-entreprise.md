@@ -1,7 +1,7 @@
 ---
 id: DOM-039
 titre: "Cadrer un plugin micro-entreprise et travail indépendant"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -17,6 +17,13 @@ statut, ses déclarations, ses cotisations et ses impôts liés à l'activité, 
 Ajouté le 16 octobre 2026 ([décisions](../decisions-2026-10-16.md)).
 
 Nom de plugin proposé : `self-employed-legal`. Aucun plugin n'est créé par cette story.
+
+Cadrage réalisé le 17 octobre 2026 : [découpage en 42 suites proposées](dom-039-annexes/dom-039-decoupage-independants.md),
+[couverture des demandes et compléments](dom-039-annexes/dom-039-couverture-demandes.md),
+[vérification documentaire](dom-039-annexes/dom-039-verification.md).
+Les mentions « à découper » des compléments datés ci-dessous décrivent le
+besoin reçu le 16 octobre ; le tableau de couverture précise son traitement
+actuel et les tâches laissées hors périmètre.
 
 ## Tâches métier à découper
 
@@ -58,11 +65,11 @@ période, montants recopiés, stade et pièces à réunir.
 
 ## Critères d'acceptation
 
-- [ ] Les tâches sont découpées en stories d'implémentation avec entrées, sortie, pièces, limites et scénarios.
-- [ ] Un utilisateur peut partir de son courrier sans connaître le nom du régime.
-- [ ] Le domaine garde ses références métier et son autonomie de paquetage ; les frontières ci-dessus évitent les doublons avec DOM-011, DOM-012 et commercial.
-- [ ] Aucun montant de cotisation ou d'impôt n'est calculé sans source lue et date établie.
-- [ ] Les implémentations attendent le bilan PILOTE-003 ; aucune adaptation complète n'est lancée ici.
+- [x] Les tâches sont découpées en stories d'implémentation avec entrées, sortie, pièces, limites et scénarios — 42 propositions IND-001 à IND-042.
+- [x] Un utilisateur peut partir de son courrier sans connaître le nom du régime — parcours documentaire fictif A ; compréhension par un utilisateur non observée.
+- [x] Le domaine garde ses références métier et son autonomie de paquetage ; les frontières ci-dessus évitent les doublons avec DOM-011, DOM-012 et commercial — contrat prévu, installation non exécutée dans ce cadrage.
+- [x] Aucun montant de cotisation ou d'impôt n'est calculé sans source lue et date établie — aucun calcul livré ; calculs futurs séparés et conditionnés aux sources/version/paramètres.
+- [x] Les implémentations attendent le bilan PILOTE-003 ; aucune adaptation complète n'est lancée ici — préalable satisfait, aucune tranche sélectionnée.
 
 ## Scénarios de contrôle
 
@@ -122,3 +129,42 @@ Sources à ouvrir : CSS, textes ACRE et transitions, Urssaf et formalités.
 Cas attendus : création autour d'une réforme et accusé absent ; cessation
 avec régularisation reçue après radiation. Scénarios non exécutés ;
 [portée et contrôles](dom-012-annexes/dom-012-frictions-verification.md).
+
+## Bilan d'exécution — 17 octobre 2026
+
+- [Découpage](dom-039-annexes/dom-039-decoupage-independants.md) : 42 propositions
+  IND-001 à IND-042, quatre rangs, toutes `proposee` ; première tranche proposée
+  IND-001, lecture factuelle d'un courrier Urssaf sans calcul ni recours.
+- Formalités EI, prérequis, ACRE (demande, décision, calcul), déclarations,
+  seuils micro et TVA, options fiscales, CFE, opérations TVA, cessation,
+  contrôle et recours, diffusion Sirene/occultation RNE et cumul séparés.
+  Chaque suite décrit entrées, sortie, pièces, sources futures, fichiers,
+  limites et scénarios nominal/limite/manquant/sans source/transfrontalier.
+- [Couverture](dom-039-annexes/dom-039-couverture-demandes.md) des exigences
+  initiales et des trois compléments, avec relais explicites : ACRE/CR01
+  ici, ARCE/ARE/ATI chez DOM-012, régularisation CR08 ici ; fiscalité courante
+  d'activité ici, contrôle/contentieux fiscal et facturation électronique
+  chez DOM-011. Les lacunes et tâches laissées hors tranche sont nommées.
+- [Vérification](dom-039-annexes/dom-039-verification.md) : quatre cas initiaux,
+  huit cas du complément et onze cas complémentaires, parcours documentaires
+  A à W ; aucune consultation résolue et aucun délai ou montant juridique fixé.
+- Contrat de paquet autonome et recette BASE-006/008 prévus ; références
+  métier locales, copie BASE-005 versionnée, aucun connecteur ni profil requis.
+  Ligne BASE-003 et famille IND du générateur mises à jour, index régénéré.
+- [Contrôles reproductibles](dom-039-annexes/dom-039-controles.py) et
+  [relevé](dom-039-annexes/dom-039-resultats.json) : structure, dépendances,
+  cohérence du découpage, couverture, liens, format, index et absence de plugin.
+
+Fichiers du lot : présente story, cinq annexes (découpage, couverture,
+vérification, contrôleur et relevé), 42 suites IND, ligne BASE-003,
+`backlog/etat.py` et `backlog/ETAT.md`. Lot limité à `backlog/`, sans entrée
+NOTICE ni changement de version de plugin.
+
+**Portée :** cadrage documentaire relu sur cas fictifs par l'agent de
+maintenance et contrôles statiques exécutés ; aucune source juridique
+externe ouverte, règle reçue validée, implémentation de skill, installation,
+recette client ou démarche externe. La compréhension par un lecteur n'a
+pas été observée. La relecture est prise en charge par l'utilisateur selon
+la décision du 17 octobre 2026, sans être déclarée effectuée. Le préalable
+PILOTE-003 est satisfait après BASE-011 ; les tests des futures suites
+restent à exécuter lors de leur implémentation, aucune tranche sélectionnée.

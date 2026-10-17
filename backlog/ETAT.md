@@ -7,12 +7,12 @@
 | En cours | 1 |
 | À vérifier | 7 |
 | Bloquée | 0 |
-| Terminée | 52 |
+| Terminée | 53 |
 | Prête | 0 |
-| À faire | 580 |
+| À faire | 621 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 181 |
-| Total | 663 |
+| dont prêtes à démarrer | 180 |
+| Total | 705 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -80,7 +80,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-036](03-nouveaux-domaines/dom-036-retraites.md) | Cadrer un plugin retraites et droits de carrière | P2 | cadrage |
 | [DOM-037](03-nouveaux-domaines/dom-037-fonction-publique.md) | Cadrer un plugin fonction publique et agents publics | P2 | cadrage |
 | [DOM-038](03-nouveaux-domaines/dom-038-violences-intrafamiliales.md) | Cadrer un plugin violences intrafamiliales et protection | P2 | cadrage |
-| [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) | Cadrer un plugin micro-entreprise et travail indépendant | P2 | cadrage |
 | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Cadrer un plugin relation avec un professionnel du droit ou du chiffre | P2 | cadrage |
 | [DOM-042](03-nouveaux-domaines/dom-042-artistes-spectacle.md) | Cadrer un plugin artistes-auteurs et intermittents du spectacle | P2 | cadrage |
 | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) | Cadrer un plugin médias et expression publique | P2 | cadrage |
@@ -327,6 +326,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [dom-031-controles.py](03-nouveaux-domaines/dom-031-annexes/dom-031-controles.py) · [dom-031-decoupage-funeraire.md](03-nouveaux-domaines/dom-031-annexes/dom-031-decoupage-funeraire.md) · [dom-031-frictions-utilisateurs.md](03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-utilisateurs.md) · [dom-031-frictions-verification.md](03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-verification.md) · [dom-031-resultats.json](03-nouveaux-domaines/dom-031-annexes/dom-031-resultats.json) · [dom-031-verification.md](03-nouveaux-domaines/dom-031-annexes/dom-031-verification.md)
 - [DOM-033](03-nouveaux-domaines/dom-033-animaux.md) — Cadrer un plugin animaux et responsabilités
   <br>Annexes : [dom-033-decoupage-animaux.md](03-nouveaux-domaines/dom-033-annexes/dom-033-decoupage-animaux.md) · [dom-033-resultats.json](03-nouveaux-domaines/dom-033-annexes/dom-033-resultats.json) · [dom-033-verification.md](03-nouveaux-domaines/dom-033-annexes/dom-033-verification.md)
+- [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) — Cadrer un plugin micro-entreprise et travail indépendant
+  <br>Annexes : [dom-039-controles.py](03-nouveaux-domaines/dom-039-annexes/dom-039-controles.py) · [dom-039-couverture-demandes.md](03-nouveaux-domaines/dom-039-annexes/dom-039-couverture-demandes.md) · [dom-039-decoupage-independants.md](03-nouveaux-domaines/dom-039-annexes/dom-039-decoupage-independants.md) · [dom-039-resultats.json](03-nouveaux-domaines/dom-039-annexes/dom-039-resultats.json) · [dom-039-verification.md](03-nouveaux-domaines/dom-039-annexes/dom-039-verification.md)
 - [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) — Cadrer un plugin chasse et pêche de loisir
   <br>Annexes : [dom-040-decoupage-chasse-peche.md](03-nouveaux-domaines/dom-040-annexes/dom-040-decoupage-chasse-peche.md) · [dom-040-resultats.json](03-nouveaux-domaines/dom-040-annexes/dom-040-resultats.json) · [dom-040-verification.md](03-nouveaux-domaines/dom-040-annexes/dom-040-verification.md)
 - Autres documents : [aides-sociales-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/aides-sociales-frictions-2026-10-16.txt) · [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [deces-obseques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/deces-obseques-frictions-2026-10-16.txt) · [logement-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/logement-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt) · [sante-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/sante-frictions-2026-10-16.txt) · [transports-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/transports-frictions-2026-10-16.txt) · [vehicules-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/vehicules-frictions-2026-10-16.txt)
@@ -889,7 +890,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 31 à faire, 31 prêtes</summary>
+<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 30 à faire, 30 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -919,7 +920,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-036](03-nouveaux-domaines/dom-036-retraites.md) | Cadrer un plugin retraites et droits de carrière | P2 | ✅ |
 | [DOM-037](03-nouveaux-domaines/dom-037-fonction-publique.md) | Cadrer un plugin fonction publique et agents publics | P2 | ✅ |
 | [DOM-038](03-nouveaux-domaines/dom-038-violences-intrafamiliales.md) | Cadrer un plugin violences intrafamiliales et protection | P2 | ✅ |
-| [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) | Cadrer un plugin micro-entreprise et travail indépendant | P2 | ✅ |
 | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Cadrer un plugin relation avec un professionnel du droit ou du chiffre | P2 | ✅ |
 | [DOM-042](03-nouveaux-domaines/dom-042-artistes-spectacle.md) | Cadrer un plugin artistes-auteurs et intermittents du spectacle | P2 | ✅ |
 | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) | Cadrer un plugin médias et expression publique | P2 | ✅ |
@@ -990,6 +990,56 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [FUN-010](03-nouveaux-domaines/suites/fun-010-monument-marbrerie.md) | Comparer les travaux d'un marbrier au devis et préparer une réclamation | P2 | BASE-008, FUN-002 |
 | [FUN-011](03-nouveaux-domaines/suites/fun-011-destination-cendres.md) | Préparer les questions et la demande sur la destination des cendres | P2 | BASE-008, FUN-003 |
 | [FUN-012](03-nouveaux-domaines/suites/fun-012-exhumation-transfert.md) | Préparer une demande d'exhumation ou de transfert d'un corps ou d'une urne | P3 | BASE-008, FUN-007 |
+
+</details>
+
+<details>
+<summary><b>IND</b> — Micro-entreprise et travail indépendant (03 — Nouveaux domaines) : 42 à faire, 0 prêtes</summary>
+
+| Story | Titre | Priorité | Bloquée par |
+| --- | --- | --- | --- |
+| [IND-001](03-nouveaux-domaines/suites/ind-001-courrier-urssaf.md) | Lire un courrier Urssaf et préparer les pièces | P2 | BASE-008 |
+| [IND-002](03-nouveaux-domaines/suites/ind-002-stade-formalite.md) | Lire le stade d'une formalité d'entreprise individuelle | P2 | BASE-008, IND-001 |
+| [IND-003](03-nouveaux-domaines/suites/ind-003-pieces-regularisation.md) | Préparer les pièces d'une régularisation de formalité EI | P2 | BASE-008, IND-001, IND-002 |
+| [IND-004](03-nouveaux-domaines/suites/ind-004-donnee-registre.md) | Qualifier une donnée de registre EI à corriger | P2 | BASE-008, IND-001 |
+| [IND-005](03-nouveaux-domaines/suites/ind-005-questions-statut.md) | Préparer les questions sur statut et régime de l'indépendant | P2 | BASE-008, IND-001 |
+| [IND-006](03-nouveaux-domaines/suites/ind-006-prerequis-activite.md) | Préparer la vérification des prérequis d'une activité indépendante | P2 | BASE-008, IND-001 |
+| [IND-007](03-nouveaux-domaines/suites/ind-007-acre-demande.md) | Préparer un dossier de demande ACRE | P2 | BASE-008, IND-001 |
+| [IND-008](03-nouveaux-domaines/suites/ind-008-acre-decision.md) | Lire une réponse Urssaf sur l'ACRE | P2 | BASE-008, IND-001, IND-007 |
+| [IND-009](03-nouveaux-domaines/suites/ind-009-calcul-acre.md) | Vérifier l'application chiffrée de l'ACRE sur une période | P3 | BASE-008, IND-001, IND-008, IND-042 |
+| [IND-010](03-nouveaux-domaines/suites/ind-010-declaration-ca.md) | Rapprocher une déclaration sociale des encaissements | P2 | BASE-008, IND-001 |
+| [IND-011](03-nouveaux-domaines/suites/ind-011-correction-declaration.md) | Préparer une correction de déclaration sociale ciblée | P2 | BASE-008, IND-001, IND-010 |
+| [IND-012](03-nouveaux-domaines/suites/ind-012-calendrier-social.md) | Établir l'échéance d'une déclaration sociale identifiée | P2 | BASE-008, IND-001 |
+| [IND-013](03-nouveaux-domaines/suites/ind-013-declaration-zero.md) | Lire une anomalie de déclaration sociale à zéro | P2 | BASE-008, IND-001, IND-010 |
+| [IND-014](03-nouveaux-domaines/suites/ind-014-seuil-micro.md) | Vérifier un franchissement de plafond micro | P2 | BASE-008, IND-001 |
+| [IND-015](03-nouveaux-domaines/suites/ind-015-franchise-tva.md) | Vérifier la franchise TVA et la date d'un dépassement | P2 | BASE-008, IND-001 |
+| [IND-016](03-nouveaux-domaines/suites/ind-016-option-micro-fiscale.md) | Lire une option fiscale de l'entreprise individuelle | P2 | BASE-008, IND-001 |
+| [IND-017](03-nouveaux-domaines/suites/ind-017-declaration-annuelle-activite.md) | Préparer les pièces de la déclaration fiscale annuelle de l'activité | P2 | BASE-008, IND-001 |
+| [IND-018](03-nouveaux-domaines/suites/ind-018-option-versement-liberatoire.md) | Vérifier les pièces d'une option pour le versement libératoire | P2 | BASE-008, IND-001 |
+| [IND-019](03-nouveaux-domaines/suites/ind-019-calcul-versement-liberatoire.md) | Vérifier un versement libératoire pour une période | P3 | BASE-008, IND-001, IND-018 |
+| [IND-020](03-nouveaux-domaines/suites/ind-020-compte-dedie.md) | Vérifier les faits déclenchant un compte dédié | P2 | BASE-008, IND-001 |
+| [IND-021](03-nouveaux-domaines/suites/ind-021-pieces-livres-archivage.md) | Dresser l'inventaire des pièces et livres de l'indépendant | P2 | BASE-008, IND-001 |
+| [IND-022](03-nouveaux-domaines/suites/ind-022-inactivite.md) | Qualifier une période sans activité de l'entreprise individuelle | P2 | BASE-008, IND-001 |
+| [IND-023](03-nouveaux-domaines/suites/ind-023-cfe-initiale.md) | Préparer les pièces d'une déclaration initiale CFE | P2 | BASE-008, IND-001 |
+| [IND-024](03-nouveaux-domaines/suites/ind-024-avis-cfe.md) | Lire un avis CFE de l'indépendant | P2 | BASE-008, IND-001 |
+| [IND-025](03-nouveaux-domaines/suites/ind-025-conditions-exoneration-cfe.md) | Préparer l'examen d'une exonération ou réduction CFE | P2 | BASE-008, IND-001 |
+| [IND-026](03-nouveaux-domaines/suites/ind-026-tva-operation-france.md) | Préparer les pièces TVA d'une opération intérieure | P2 | BASE-008, IND-001, IND-015 |
+| [IND-027](03-nouveaux-domaines/suites/ind-027-tva-internationale.md) | Qualifier une opération internationale de l'indépendant pour la TVA | P2 | BASE-008, IND-001 |
+| [IND-028](03-nouveaux-domaines/suites/ind-028-cessation-ei.md) | Préparer les pièces d'une cessation définitive d'EI | P2 | BASE-008, IND-001 |
+| [IND-029](03-nouveaux-domaines/suites/ind-029-dernieres-declarations-sociales.md) | Préparer la dernière déclaration sociale de l'indépendant | P2 | BASE-008, IND-001, IND-028 |
+| [IND-030](03-nouveaux-domaines/suites/ind-030-dernieres-pieces-fiscales.md) | Préparer les pièces d'une dernière obligation fiscale de l'activité | P2 | BASE-008, IND-001, IND-028 |
+| [IND-031](03-nouveaux-domaines/suites/ind-031-regularisation-apres-cessation.md) | Lire une régularisation de cotisations après cessation | P2 | BASE-008, IND-001, IND-028 |
+| [IND-032](03-nouveaux-domaines/suites/ind-032-avis-controle.md) | Lire un avis de contrôle Urssaf adressé à un indépendant | P2 | BASE-008, IND-001 |
+| [IND-033](03-nouveaux-domaines/suites/ind-033-lettre-observations.md) | Préparer une réponse factuelle à une lettre d'observations Urssaf | P2 | BASE-008, IND-001, IND-032 |
+| [IND-034](03-nouveaux-domaines/suites/ind-034-recours-cra.md) | Préparer un recours CRA contre une décision Urssaf de l'indépendant | P2 | BASE-008, IND-001 |
+| [IND-035](03-nouveaux-domaines/suites/ind-035-opposition-contrainte.md) | Préparer le dossier d'opposition à une contrainte Urssaf | P2 | BASE-008, IND-001 |
+| [IND-036](03-nouveaux-domaines/suites/ind-036-remise-majorations.md) | Préparer une demande de remise de majorations Urssaf | P2 | BASE-008, IND-001 |
+| [IND-037](03-nouveaux-domaines/suites/ind-037-echeancier-urssaf.md) | Préparer une demande d'échéancier Urssaf | P2 | BASE-008, IND-001 |
+| [IND-038](03-nouveaux-domaines/suites/ind-038-mediation-urssaf.md) | Préparer une saisine du médiateur Urssaf de l'indépendant | P2 | BASE-008, IND-001 |
+| [IND-039](03-nouveaux-domaines/suites/ind-039-non-diffusion-sirene.md) | Préparer une demande sur le statut de diffusion Sirene d'une EI | P2 | BASE-008, IND-001 |
+| [IND-040](03-nouveaux-domaines/suites/ind-040-occultation-rne.md) | Préparer une demande d'occultation d'une donnée ou d'un acte RNE | P2 | BASE-008, IND-001 |
+| [IND-041](03-nouveaux-domaines/suites/ind-041-questions-cumul.md) | Préparer les questions sur le cumul activité indépendante et autres statuts | P2 | BASE-008, IND-001 |
+| [IND-042](03-nouveaux-domaines/suites/ind-042-calcul-cotisations.md) | Vérifier un calcul de cotisations micro-sociales pour une période | P3 | BASE-008, IND-001 |
 
 </details>
 
