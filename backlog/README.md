@@ -55,7 +55,8 @@ rangées dans leur dossier.
   droit dans le temps) est partagée, par copie embarquée dans chaque paquet.
 
 Les arbitrages ultérieurs sont consignés dans les
-[décisions du 16 octobre 2026](decisions-2026-10-16.md).
+[décisions du 16 octobre 2026](decisions-2026-10-16.md) et les
+[décisions du 17 octobre 2026](decisions-2026-10-17.md).
 
 ## Documents de référence
 
@@ -100,6 +101,11 @@ relie les difficultés rapportées à leurs propriétaires.
 Une story est prête quand son périmètre, ses dépendances, son résultat et ses
 scénarios sont suffisamment précis. Elle est terminée lorsque ses critères sont
 satisfaits et que le bilan indique les vérifications réellement effectuées.
+Depuis la [décision du 17 octobre 2026](decisions-2026-10-17.md), l'utilisateur
+prend en charge toute la relecture : son attente seule ne bloque plus la
+clôture. Consigner cette prise en charge sans cocher un contrôle de lecture
+ou de compréhension non observé. Les défauts connus et tests non exécutés
+restent des motifs distincts de maintien ouvert.
 Un titre traduit, un manifeste valide ou une consigne générale « appliquer le
 droit français » ne suffisent pas à valider un workflow métier.
 

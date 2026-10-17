@@ -17,6 +17,11 @@ Recette du 17 octobre 2026 (Europe/Paris) de
 | Installation et exécution | réussi, client non isolé | `claude -p` 2.1.301, `--plugin-dir` sur la copie détachée, projet vide, `--setting-sources project`, aucun serveur MCP. Plugins chargés : le paquet `0.3.0` et trois plugins intégrés au client. Lectures de fichiers limitées au paquet copié, hors fichiers de résultats d'outils du client (D4). Compte et `HOME` réels : ce n'est pas l'isolation de BASE-011. |
 | Relecture juridique et d'usage | rédacteur seulement | Sorties relues par l'agent rédacteur. Aucun lecteur non juriste, aucune relecture juridique indépendante : `non exécuté`. |
 
+Clôture de la story le 17 octobre 2026 : l'utilisateur prend en charge toute
+la relecture ; son attente seule ne bloque plus la clôture
+([décision](../../../decisions-2026-10-17.md)). Le résultat de la couche de
+relecture ci-dessus reste inchangé, sans compréhension observée ajoutée.
+
 Régression : `test-base008-isolation.py` 16 tests (2 ignorés), contrôle de
 version `0.2.1 -> 0.3.0`, lint des cookbooks et JSON valides, `git diff --check` propre.
 

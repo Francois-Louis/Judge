@@ -27,6 +27,12 @@ plugins" in profiles and customize skills are left unchanged.
   legal-builder-hub/skills/skill-manager/SKILL.md
   scripts/test-base008-isolation.py (11 plugins, 134 skills)
 
+Review workflow (2026-10-17, user request, no story): the user handles all
+human review; awaiting review alone no longer blocks story closure. Actual
+review results and outstanding technical checks remain explicit.
+  AGENTS.md
+  CLAUDE.md
+
 Agent workflow (2026-10-16, user request, no story): repository instructions
 require working directly on main and finishing changes with a commit and push.
   AGENTS.md

@@ -1,7 +1,7 @@
 ---
 id: TRAV-001
 titre: "Qualifier une relation de travail proposée"
-statut: a-verifier
+statut: terminee
 priorite: P2
 nature: implementation
 dependances: [PILOTE-001, PILOTE-003, BASE-005, BASE-006]
@@ -48,7 +48,7 @@ nécessaires/optionnels et prévoir la sortie utile si la recherche reste empêc
 - [x] La limite significative est traitée sans règle américaine de remplacement ni conclusion non établie. Observé en client sur pièce fictive (T02), relu par le rédacteur.
 - [x] Règles collectives, statut réel, territoire et versions déterminants sont établis ou réservés explicitement. Observé sur pièces fictives (T01, T03), relu par le rédacteur.
 - [x] Sources et données sont traçables ; le paquet isolé ne requiert aucun fichier voisin du dépôt. Copie détachée chargée seule par `--plugin-dir`, client non isolé.
-- [ ] Une personne sans formation juridique comprend ce qui est établi, les pièces à demander et la prochaine démarche.
+- [ ] Une personne sans formation juridique comprend ce qui est établi, les pièces à demander et la prochaine démarche. Compréhension non observée ; relecture prise en charge par l'utilisateur, non bloquante pour la clôture (décision du 17 octobre 2026).
 - [x] Le périmètre adapté et le reste non adapté sont explicitement distingués.
 
 ## Vérification
@@ -103,7 +103,17 @@ Recette : [vérification par couche](trav-001-annexes/trav-001-verification.md),
 exécutés en client, deux défauts corrigés puis confirmés (calcul de seuil,
 reformulation remplie par le client).
 
-Story `a-verifier` : reformulation par un lecteur non juriste non faite.
+État avant la décision ci-dessous : `a-verifier`, uniquement pour la
+reformulation par un lecteur non juriste non faite.
+
+### Clôture sur décision de l'utilisateur — 17 octobre 2026
+
+Story `terminee` : l'utilisateur prend en charge toute la relecture et
+autorise la clôture des stories ouvertes pour ce seul motif
+([décision](../../decisions-2026-10-17.md)). La reformulation par un lecteur
+non juriste reste non exécutée et son critère reste non coché ; aucune
+relecture indépendante ni compréhension observée n'est déclarée acquise.
+Les résultats et limites de la recette ci-dessus sont conservés.
 
 ## Portée
 

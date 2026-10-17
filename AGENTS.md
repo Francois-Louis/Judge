@@ -3,6 +3,17 @@
 Ces consignes s'appliquent à tout le dépôt. Lire aussi le fichier
 `CLAUDE.md` à la racine pour les conventions et les validations.
 
+## Relecture : prise en charge par l'utilisateur
+
+- Depuis le 17 octobre 2026, l'utilisateur relit lui-même tous les livrables.
+  Ne pas maintenir une story ouverte uniquement pour attendre une relecture
+  humaine, juridique, indépendante ou par un lecteur non juriste.
+- Si seule cette relecture reste à faire, clore la story en consignant la
+  prise en charge par l'utilisateur. Ne pas déclarer sa relecture effectuée
+  ni un critère de compréhension vérifié sans résultat observé.
+- Les défauts connus, tests non exécutés et autres critères non satisfaits
+  restent à traiter ; cette consigne ne vaut pas validation technique.
+
 ## Git : terminer par un commit et un push
 
 - Travailler directement sur `main`, sans branche de travail ni pull request,
