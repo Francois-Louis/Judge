@@ -18,6 +18,9 @@ compétent, avec un renfort en tête en cas d'urgence, de procédure ou de péna
 Depuis BASE-016 (méthode commune 1.2.0, paquets 0.1.2, 0.2.2 et 0.3.4), une
 décision de justice n'est citée qu'après lecture de ses motifs, par des voies
 officielles sans abonnement ; à défaut, la conclusion qui en dépend est réservée.
+Depuis BASE-019 (méthode commune 1.3.0, version patch de chaque paquet), le
+corps de la note distingue décision lue pendant la réponse, fiche embarquée
+datée et source non consultée.
 `consumer-legal:non-delivery-claim` 0.1.0 prépare la fiche, la chronologie et
 le brouillon au vendeur pour une commande non livrée (CONSO-001), sans profil
 ni envoi ; validation client et lecteur à compléter.

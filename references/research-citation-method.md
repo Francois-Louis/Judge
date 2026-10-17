@@ -1,6 +1,6 @@
 ---
 id: judge-fr-eu-research-citation-method
-version: 1.2.0
+version: 1.3.0
 date_edition: 2026-10-17
 origine: Judge FR/UE — BASE-005
 source_edition: references/research-citation-method.md
@@ -148,7 +148,8 @@ via [outil / lien] lors de la tentative du [date réelle] : [obstacle observé].
 [Conclusion concernée] reste à vérifier. Pour avancer, il faut [pièce ou
 vérification précise]. » Les crochets sont des champs à renseigner, pas une
 consultation déjà effectuée. Sans tentative réelle, dire simplement que la
-source n'a pas été vérifiée, sans lui attribuer une panne.
+source n'a pas été consultée, sans lui attribuer une panne ni la dire
+inaccessible (section 10.6).
 
 ## 6. Documenter un délai sans créer de fausse certitude
 
@@ -290,7 +291,8 @@ paquetage du projet. Cette méthode seule ne certifie pas les plugins existants.
 Une décision n'est citée comme jurisprudence que si elle a été **ouverte et
 lue** pendant la réponse, ou si une référence embarquée la porte avec une
 relecture datée ; dans ce second cas, la citer avec cette date. Tout le reste
-est une piste.
+est une piste. La note dit, à l'endroit où elle invoque la décision, lequel des
+deux cas s'applique (section 10.6).
 
 ### 10.1 Nature de ce qui a été lu
 
@@ -407,6 +409,37 @@ Formulations utilisables (les crochets sont à renseigner) :
 > Je n'ai trouvé qu'un commentaire de [auteur, qualité] du [date], qui
 > rapporte que [juridiction] aurait jugé [solution]. Je n'ai pas lu la
 > décision elle-même.
+
+### 10.6 Dire, dans le corps de la note, ce qui a été lu
+
+La distinction entre décision lue et fiche embarquée s'écrit dans le texte, à
+l'endroit où la décision est invoquée. La liste des sources la confirme ; elle
+ne la remplace pas.
+
+- **Lire.** « J'ai lu », « après lecture », « j'ai consulté », « j'ai
+  vérifié » et leurs équivalents ne qualifient qu'une décision ouverte pendant
+  la réponse (section 10.3). Une formule d'ensemble (« j'ai lu votre contrat et
+  les décisions utiles ») ne vise que ce qui a été ouvert ; sinon, la scinder.
+- **Fiche embarquée.** Une décision connue seulement par la fiche d'une
+  référence embarquée est annoncée là où elle est invoquée : « d'après la fiche
+  de [référence], relue le [date] ». La date est celle de la relecture portée
+  par la fiche, jamais celle de la réponse. Ne pas écrire que cette décision a
+  été lue, consultée ou vérifiée pendant la réponse.
+- **Inaccessible ou non consultée.** Une source (décision, texte, convention
+  collective) n'est dite « inaccessible », « refusée » ou « illisible » que
+  pour une tentative réelle pendant la réponse, avec l'obstacle observé
+  (section 4). Sans tentative, elle est « non consultée » : le dire avec la
+  conclusion qui en dépend. Une observation antérieure, une référence
+  embarquée ou l'échec d'une autre source ne valent pas tentative.
+
+Formulation type pour un paragraphe qui mélange les deux (les crochets sont à
+renseigner) :
+
+> J'ai lu pendant cette réponse [juridiction, date, numéro], sur [source] :
+> [solution et motifs utiles]. D'après la fiche de [référence], relue le
+> [date], [juridiction] a aussi jugé le [date] (n° [numéro]) que [solution] ;
+> je n'ai pas rouvert cette décision. [Convention ou texte] n'a pas été
+> consulté pendant cette réponse : [conclusion concernée] reste à vérifier.
 
 ## Repères officiels utilisés pour rédiger cette version
 

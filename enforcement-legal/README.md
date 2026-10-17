@@ -1,6 +1,6 @@
 # Lire un acte d'exécution ou de recouvrement — ENF-001
 
-Version `0.1.0`. Une seule tâche est livrée :
+Version `0.1.1`. Une seule tâche est livrée :
 `/judge-fr-eu-enforcement-legal:enforcement-act-reading` aide la personne qui
 reçoit un courrier lié à une dette à comprendre le document, ce qui est urgent,
 ce qui manque et les questions à poser. Cas nominal : acte français, territoire
@@ -18,7 +18,7 @@ déclarées ou absentes, nature probable, pièces manquantes, orientation et
 questions au commissaire de justice, au créancier et à un avocat.
 
 Le paquet fonctionne seul, sans profil préalable, agent, hook, connecteur
-ou stockage durable. La méthode BASE-005 `1.2.0`, le helper et les modèles
+ou stockage durable. La méthode BASE-005 `1.3.0`, le helper et les modèles
 BASE-008 sont embarqués à l'identique. La recherche officielle reste nécessaire
 pour vérifier une règle dans un dossier ; les lectures de maintenance ne s'y
 substituent pas. Sans source relue, la fiche et les questions restent possibles,

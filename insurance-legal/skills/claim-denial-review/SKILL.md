@@ -13,7 +13,7 @@ description: >
 
 Lire `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`,
 [frontière BASE-008](../../references/isolation.md), puis
-[méthode BASE-005 `1.2.0`](../../references/shared/research-citation-method.md),
+[méthode BASE-005 `1.3.0`](../../references/shared/research-citation-method.md),
 [qualification commune](../../references/qualification-assurance.md),
 [motifs et sources datées](../../references/motifs-refus.md) et
 [modèle de demande](references/demande-reexamen.md).

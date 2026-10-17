@@ -1,6 +1,6 @@
 # Lire un devis funéraire — FUN-001
 
-Version `0.1.0` — 17 octobre 2026 (Europe/Paris).
+Version `0.1.1` — 17 octobre 2026 (Europe/Paris).
 
 `/judge-fr-eu-funeral-legal:funeral-quote-review` aide un proche à comprendre
 un devis d'obsèques avant engagement, y compris si un devis manque ou vient
@@ -31,7 +31,7 @@ répondent-ils ? Pouvez-vous préciser les variantes possibles ? »
 
 Lire les [qualifications et frontières](references/qualification-funeraire.md),
 les [repères datés et réserves de sources](references/lecture-devis-funeraire.md),
-la [méthode BASE-005 `1.2.0`](references/shared/research-citation-method.md) et
+la [méthode BASE-005 `1.3.0`](references/shared/research-citation-method.md) et
 le [contrat BASE-008](references/isolation.md). Tout est embarqué dans le paquet.
 Sans lecture des sources utiles à la date des faits, tableau et brouillon
 restent factuels ; aucune obligation, irrégularité, échéance ou prix courant

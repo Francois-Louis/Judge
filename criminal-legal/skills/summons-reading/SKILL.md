@@ -18,7 +18,7 @@ document et à préparer ses questions, dans des mots courants.
 
 Lire `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`,
 [contrat BASE-008](../../references/isolation.md), la
-[méthode BASE-005 `1.2.0`](../../references/shared/research-citation-method.md),
+[méthode BASE-005 `1.3.0`](../../references/shared/research-citation-method.md),
 la [qualification commune](../../references/qualification-penale.md) et les
 [repères, sources et modèle](references/convocation.md).
 Fichier manquant : signaler le défaut du paquet, sans chercher dans un

@@ -838,3 +838,92 @@ real-reader validation still pending.
   insurance-legal/scripts/judge_store.py
   insurance-legal/skills/claim-denial-review/SKILL.md
   insurance-legal/skills/claim-denial-review/references/demande-reexamen.md
+
+BASE-019 changes (2026-10-17): shared research method 1.3.0 adds
+section 10.6: in the body of a note, "read" and its equivalents qualify only
+a decision opened during the answer; a decision known only from an embedded
+reference is introduced "d'après la fiche de [référence], relue le [date]";
+a model wording covers a paragraph mixing both; a source is "inaccessible"
+only after a real attempt, otherwise "non consultée". Section 5 wording
+aligned. Synchronised byte-for-byte into the seventeen packages, each with a
+patch version (0.1.3, banking-legal 0.1.2, the five CONSO/ENF/CRIM/FUN/INS
+packages 0.1.1, commercial-legal 0.2.3, employment-legal 0.3.6); method
+citations updated to 1.3.0. hiring-review and worker-classification restate
+the rule. No legal rule added.
+  .claude-plugin/marketplace.json
+  NOTICE
+  README.md
+  ai-governance-legal/.claude-plugin/plugin.json
+  ai-governance-legal/NOTICE
+  ai-governance-legal/references/shared/research-citation-method.md
+  banking-legal/.claude-plugin/plugin.json
+  banking-legal/NOTICE
+  banking-legal/README.md
+  banking-legal/references/shared/research-citation-method.md
+  banking-legal/skills/payment-dispute/SKILL.md
+  commercial-legal/.claude-plugin/plugin.json
+  commercial-legal/NOTICE
+  commercial-legal/references/orientation-commerciale.md
+  commercial-legal/references/shared/research-citation-method.md
+  commercial-legal/skills/review/SKILL.md
+  consumer-legal/.claude-plugin/plugin.json
+  consumer-legal/NOTICE
+  consumer-legal/README.md
+  consumer-legal/references/shared/research-citation-method.md
+  consumer-legal/skills/non-delivery-claim/SKILL.md
+  corporate-legal/.claude-plugin/plugin.json
+  corporate-legal/NOTICE
+  corporate-legal/references/shared/research-citation-method.md
+  criminal-legal/.claude-plugin/plugin.json
+  criminal-legal/NOTICE
+  criminal-legal/README.md
+  criminal-legal/references/shared/research-citation-method.md
+  criminal-legal/skills/summons-reading/SKILL.md
+  employment-legal/.claude-plugin/plugin.json
+  employment-legal/CLAUDE.md
+  employment-legal/NOTICE
+  employment-legal/README.md
+  employment-legal/references/hiring-review-fr.md
+  employment-legal/references/shared/research-citation-method.md
+  employment-legal/references/worker-classification-fr.md
+  employment-legal/skills/hiring-review/SKILL.md
+  employment-legal/skills/worker-classification/SKILL.md
+  enforcement-legal/.claude-plugin/plugin.json
+  enforcement-legal/NOTICE
+  enforcement-legal/README.md
+  enforcement-legal/references/shared/research-citation-method.md
+  enforcement-legal/skills/enforcement-act-reading/SKILL.md
+  enforcement-legal/skills/enforcement-act-reading/references/lecture-acte.md
+  funeral-legal/.claude-plugin/plugin.json
+  funeral-legal/NOTICE
+  funeral-legal/README.md
+  funeral-legal/references/shared/research-citation-method.md
+  funeral-legal/skills/funeral-quote-review/SKILL.md
+  insurance-legal/.claude-plugin/plugin.json
+  insurance-legal/NOTICE
+  insurance-legal/README.md
+  insurance-legal/references/shared/research-citation-method.md
+  insurance-legal/skills/claim-denial-review/SKILL.md
+  ip-legal/.claude-plugin/plugin.json
+  ip-legal/NOTICE
+  ip-legal/references/shared/research-citation-method.md
+  law-student/.claude-plugin/plugin.json
+  law-student/NOTICE
+  law-student/references/shared/research-citation-method.md
+  legal-builder-hub/.claude-plugin/plugin.json
+  legal-builder-hub/NOTICE
+  legal-builder-hub/references/shared/research-citation-method.md
+  litigation-legal/.claude-plugin/plugin.json
+  litigation-legal/NOTICE
+  litigation-legal/references/shared/research-citation-method.md
+  privacy-legal/.claude-plugin/plugin.json
+  privacy-legal/NOTICE
+  privacy-legal/references/shared/research-citation-method.md
+  product-legal/.claude-plugin/plugin.json
+  product-legal/NOTICE
+  product-legal/references/shared/research-citation-method.md
+  references/research-citation-method.md
+  regulatory-legal/.claude-plugin/plugin.json
+  regulatory-legal/NOTICE
+  regulatory-legal/references/shared/research-citation-method.md
+  scripts/test-base008-isolation.py

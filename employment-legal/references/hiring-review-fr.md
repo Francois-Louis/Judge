@@ -5,7 +5,7 @@
 Version `1.1.0`, 17 octobre 2026 (Europe/Paris). Périmètre : `hiring-review`,
 CDI privé métropolitain, contrôles ciblés du CDD ordinaire. Ce document ne
 certifie ni les autres commandes, ni une convention collective particulière.
-Lire avec la [méthode BASE-005 1.2.0](shared/research-citation-method.md).
+Lire avec la [méthode BASE-005 1.3.0](shared/research-citation-method.md).
 
 ## Lectures effectuées et portée
 
@@ -51,7 +51,7 @@ l'application à un dossier.
 
 ## Décisions lues
 
-Fiches selon la section 10 de la méthode `1.2.0`. Chaque décision a été
+Fiches selon la section 10 de la méthode `1.3.0`. Chaque décision a été
 ouverte le **17 octobre 2026** sur Légifrance avec l'outil de lecture web
 d'une session de maintenance, en français. Ce même outil résume la page : les
 passages entre guillemets ont été demandés et restitués littéralement par

@@ -146,3 +146,22 @@ searched stay listed as missing readings.
   NOTICE
   README.md
   references/hiring-review-fr.md
+
+BASE-019 changes (2026-10-17): version 0.3.6. Shared method 1.3.0
+synchronised byte-for-byte (section 10.6: "read" only for a decision
+opened during the answer; an embedded record is cited with its review date
+in the note body; "inaccessible" only after a real attempt).
+hiring-review and worker-classification state in the note body
+which decisions were read during the answer and which come from the embedded
+record with its review date; a source is "inaccessible" only after a real
+attempt, otherwise "not consulted". References cite method 1.3.0; no legal
+rule and no reference content version changed.
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  references/hiring-review-fr.md
+  references/shared/research-citation-method.md
+  references/worker-classification-fr.md
+  skills/hiring-review/SKILL.md
+  skills/worker-classification/SKILL.md

@@ -1,6 +1,6 @@
 # Réclamation pour commande non livrée — CONSO-001
 
-Version `0.1.0` — 17 octobre 2026 (Europe/Paris).
+Version `0.1.1` — 17 octobre 2026 (Europe/Paris).
 
 La commande `/judge-fr-eu-consumer-legal:non-delivery-claim` prépare une
 réclamation au vendeur pour un bien acheté à distance et jamais reçu.
@@ -15,7 +15,7 @@ contesté ne suffit pas à trancher le dossier.
 
 Le paquet contient uniquement ce skill, sa [qualification commune](references/qualification-achat.md),
 ses [repères de non-livraison](skills/non-delivery-claim/references/non-livraison.md),
-la [méthode BASE-005 `1.2.0`](references/shared/research-citation-method.md) et
+la [méthode BASE-005 `1.3.0`](references/shared/research-citation-method.md) et
 les ressources du [contrat BASE-008](references/isolation.md), copiées à
 l'identique. Il fonctionne sans checkout ni autre plugin. L'accès aux sources
 officielles est optionnel : sans lecture de la version utile au dossier, le

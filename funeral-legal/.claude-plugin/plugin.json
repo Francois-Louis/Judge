@@ -1,7 +1,7 @@
 {
   "name": "judge-fr-eu-funeral-legal",
-  "version": "0.1.0",
-  "description": "Judge FR/UE 0.1.0 : lire un devis funéraire avant engagement, comparer les postes à besoins identiques et préparer une demande d'explication (FUN-001). Un skill sans profil, stockage ni envoi ; réserves de sources et validation détaillées dans le paquet.",
+  "version": "0.1.1",
+  "description": "Judge FR/UE 0.1.1 : lire un devis funéraire avant engagement, comparer les postes à besoins identiques et préparer une demande d'explication (FUN-001). Un skill sans profil, stockage ni envoi ; réserves de sources et validation détaillées dans le paquet.",
   "author": {
     "name": "Judge FR/UE maintainers"
   }

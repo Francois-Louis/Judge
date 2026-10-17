@@ -13,7 +13,7 @@ description: >
 
 Lire `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`,
 [frontière de stockage BASE-008](../../references/isolation.md), puis
-[méthode BASE-005 `1.2.0`](../../references/shared/research-citation-method.md),
+[méthode BASE-005 `1.3.0`](../../references/shared/research-citation-method.md),
 [qualification commune et trois qualités](../../references/qualification-funeraire.md),
 [lecture des postes et sources datées](../../references/lecture-devis-funeraire.md)
 et [modèle de demande](references/demande-explication.md).

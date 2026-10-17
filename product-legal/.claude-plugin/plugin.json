@@ -1,7 +1,7 @@
 {
   "name": "judge-fr-eu-product-legal",
-  "version": "0.1.2",
-  "description": "Judge FR/UE 0.1.2: technical isolation; legal adaptation pending. Reviews product launches against your risk calibration, answers 'is this a problem?' questions in minutes, checks marketing copy for claims that need substantiation, and flags upcoming launches that need legal eyes before anyone asks.",
+  "version": "0.1.3",
+  "description": "Judge FR/UE 0.1.3: technical isolation; legal adaptation pending. Reviews product launches against your risk calibration, answers 'is this a problem?' questions in minutes, checks marketing copy for claims that need substantiation, and flags upcoming launches that need legal eyes before anyone asks.",
   "author": {
     "name": "Anthropic"
   },

@@ -1,7 +1,7 @@
 {
   "name": "judge-fr-eu-consumer-legal",
-  "version": "0.1.0",
-  "description": "Judge FR/UE 0.1.0 : préparer une réclamation pour un bien commandé à distance à un vendeur professionnel et non livré (CONSO-001). Fiche, chronologie, pièces et brouillon sans profil obligatoire ni envoi ; validation client et lecteur à compléter.",
+  "version": "0.1.1",
+  "description": "Judge FR/UE 0.1.1 : préparer une réclamation pour un bien commandé à distance à un vendeur professionnel et non livré (CONSO-001). Fiche, chronologie, pièces et brouillon sans profil obligatoire ni envoi ; validation client et lecteur à compléter.",
   "author": {
     "name": "Judge FR/UE maintainers"
   }

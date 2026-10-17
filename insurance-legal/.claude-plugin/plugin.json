@@ -1,7 +1,7 @@
 {
   "name": "judge-fr-eu-insurance-legal",
-  "version": "0.1.0",
-  "description": "Judge FR/UE 0.1.0 : comprendre un refus de garantie d'assurance, repérer le motif et les pièces manquantes, préparer une demande d'explication ou de réexamen (INS-001). Un skill sans profil, stockage, calcul ni envoi ; sources et validation bornées.",
+  "version": "0.1.1",
+  "description": "Judge FR/UE 0.1.1 : comprendre un refus de garantie d'assurance, repérer le motif et les pièces manquantes, préparer une demande d'explication ou de réexamen (INS-001). Un skill sans profil, stockage, calcul ni envoi ; sources et validation bornées.",
   "author": {
     "name": "Judge FR/UE maintainers"
   }

@@ -5,16 +5,20 @@
 <!-- Modified by Judge FR/UE for BASE-014 (2026-10-17): version 0.3.2, source review dates. -->
 <!-- Modified by Judge FR/UE for BASE-014 follow-up (2026-10-17): version 0.3.3, LEGI version review. -->
 <!-- Modified by Judge FR/UE for TRAV-062 (2026-10-17): version 0.3.5, court decisions read in hiring-review-fr.md 1.1.0. -->
+<!-- Modified by Judge FR/UE for BASE-019 (2026-10-17): version 0.3.6, method 1.3.0. -->
 
 # Judge FR/UE — revue d'embauche et qualification d'une relation
 
-Version du plugin **0.3.5**. Deux tâches sont réécrites pour la France.
+Version du plugin **0.3.6**. Deux tâches sont réécrites pour la France.
 Chaque note se termine par une phrase courte : elle aide à comprendre et à
 préparer, sans remplacer l'avis d'un avocat ou d'un juriste en droit du
 travail ; un renfort ouvre la note si une signature ou une réponse presse
 (BASE-013, méthode BASE-005 1.1.0). Depuis la méthode 1.2.0 (BASE-016), une
 décision de justice n'est citée qu'après lecture de ses motifs ; sinon elle
-reste une piste et la conclusion qui en dépend est réservée. Les repères
+reste une piste et la conclusion qui en dépend est réservée. Depuis la
+méthode 1.3.0 (BASE-019), la note ne dit « j'ai lu » que pour une décision
+ouverte pendant la réponse ; un arrêt connu par la fiche embarquée est annoncé
+avec sa date de relecture dans le texte. Les repères
 d'embauche 1.1.0 (TRAV-062) portent quatre arrêts de la chambre sociale lus
 sur Légifrance, avec leur fiche : non-concurrence et offre/promesse.
 `worker-classification` est décrit [plus bas](#qualifier-une-relation-avant-quelle-commence).
@@ -97,7 +101,7 @@ isolé ; aucun lecteur non juriste ni relecture juridique indépendante.
 
 - Python 3.12 ou ultérieur pour le helper de stockage, avant tout accès aux
   profils ou sorties persistantes ; voir [la frontière de stockage](references/isolation.md).
-- Les références nécessaires sont embarquées : [méthode BASE-005 1.2.0](references/shared/research-citation-method.md),
+- Les références nécessaires sont embarquées : [méthode BASE-005 1.3.0](references/shared/research-citation-method.md),
   [repères d'embauche France 1.1.0](references/hiring-review-fr.md) et
   [qualification d'une relation 1.1.0](references/worker-classification-fr.md).
   Le parcours reprend USAGE-001 1.0.0 dans ses propres instructions.

@@ -2,7 +2,7 @@
 
 Version `1.0.0` — 17 octobre 2026 (Europe/Paris). Sources ouvertes en
 maintenance ce jour ; leurs limites ne sont pas une validation d'un dossier.
-Appliquer la méthode locale BASE-005 `1.2.0` et la qualification du paquet.
+Appliquer la méthode locale BASE-005 `1.3.0` et la qualification du paquet.
 
 ## Repères et mentions
 

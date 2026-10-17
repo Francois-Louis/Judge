@@ -13,12 +13,13 @@ argument-hint: "[offre, contrat, extrait lisible ou description de l'embauche]"
 <!-- Modified by Judge FR/UE for PILOTE-002 (2026-10-15): scoped France hiring review. -->
 <!-- Modified by Judge FR/UE for BASE-013 (2026-10-17): closing scope sentence, front warning and interlocutor. -->
 <!-- Modified by Judge FR/UE for BASE-016 (2026-10-17): method 1.2.0, case-law section 10. -->
+<!-- Modified by Judge FR/UE for BASE-019 (2026-10-17): method 1.3.0, read decision vs embedded record in the note body. -->
 
 # /hiring-review
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` avant tout accès
 aux profils, dossiers ou sorties persistantes. Ses contrôles de stockage
-restent applicables. Charger la [méthode BASE-005 version 1.2.0](../../references/shared/research-citation-method.md)
+restent applicables. Charger la [méthode BASE-005 version 1.3.0](../../references/shared/research-citation-method.md)
 et les [repères métier et limites de lecture](../../references/hiring-review-fr.md).
 Ce parcours applique le protocole d'orientation USAGE-001 **1.0.0**, dont les
 exigences utiles sont reprises ci-dessous ; aucun fichier du dépôt n'est requis.
@@ -152,7 +153,12 @@ entre particuliers sans analyse de transposition et d'invocabilité.
 Pour chaque conclusion déterminante, citer près de celle-ci titre/autorité,
 article ou décision/passage, lien exact, version/date d'application utile et
 date de consultation réelle ; distinguer **lu**, **fourni par la personne**,
-**non consulté** ou **inaccessible**. Expliquer le lien aux faits et les
+**non consulté** ou **inaccessible**. Dans le corps de la note, « j'ai lu »
+ne vise qu'une décision ouverte pendant la réponse ; un arrêt des repères
+embarqués non rouvert s'annonce « d'après la fiche des repères d'embauche,
+relue le [date] » là où il est invoqué ; une convention ou un texte n'est
+« inaccessible » qu'après une tentative réelle, sinon « non consulté »
+(section 10.6 de la méthode). Expliquer le lien aux faits et les
 transitions/versions encore à vérifier. Conserver le relevé dans la réponse
 ou le livrable demandé ; pas de journal persistant automatique.
 
@@ -199,7 +205,7 @@ Proposer une reformulation, sans y répondre à la place de la personne :
 point reste à vérifier ? » Adapter l'explication si besoin. Ce dialogue ne
 remplace pas une recette avec un participant réel.
 
-**Portée et interlocuteur** (section 8 de la méthode `1.2.0`). Si une réponse
+**Portée et interlocuteur** (section 8 de la méthode `1.3.0`). Si une réponse
 ou une signature est attendue à brève échéance, si le document a déjà été
 signé, ou si une clause peut entraîner un engagement difficile à défaire
 (non-concurrence, dédit, démission d'un emploi actuel), ouvrir la note par une

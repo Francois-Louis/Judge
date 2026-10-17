@@ -1,6 +1,6 @@
 # Lire une convocation — CRIM-001
 
-Version `0.1.0` — 17 octobre 2026. Pour une personne majeure convoquée en
+Version `0.1.1` — 17 octobre 2026. Pour une personne majeure convoquée en
 France par la police ou la gendarmerie, ou un proche qui l'aide à lire le
 document. Un seul skill est livré : `summons-reading`.
 
@@ -32,7 +32,7 @@ communs sont embarqués pour le contrat BASE-008 et ne sont pas utilisés.
 Le [skill](skills/summons-reading/SKILL.md) charge la
 [qualification pénale](references/qualification-penale.md), les
 [repères et sources datées](skills/summons-reading/references/convocation.md),
-la [méthode BASE-005 `1.2.0`](references/shared/research-citation-method.md)
+la [méthode BASE-005 `1.3.0`](references/shared/research-citation-method.md)
 et le [contrat BASE-008](references/isolation.md), tous locaux au paquet.
 Les articles 61-1 et 78 n'ont pas pu être lus lors de cette préparation :
 leurs conclusions sont réservées. Les fiches Service-Public lues restent

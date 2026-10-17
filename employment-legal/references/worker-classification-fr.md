@@ -7,7 +7,7 @@ projet de prestation ou de recrutement **avant tout début d'exécution**, donne
 d'ordre privé, travail en France métropolitaine ou dans un territoire où le Code
 du travail s'applique. Ce document ne certifie ni un statut, ni une convention
 collective, ni les autres commandes du plugin. Lire avec la
-[méthode BASE-005 1.2.0](shared/research-citation-method.md).
+[méthode BASE-005 1.3.0](shared/research-citation-method.md).
 
 ## Deux questions à ne pas confondre
 

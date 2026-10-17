@@ -17,7 +17,7 @@ utile et un brouillon à relire pour la personne, sans envoyer de courrier.
 
 Lire `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`,
 [frontière BASE-008](../../references/isolation.md), puis
-[méthode BASE-005 `1.2.0`](../../references/shared/research-citation-method.md),
+[méthode BASE-005 `1.3.0`](../../references/shared/research-citation-method.md),
 [qualification commune](../../references/qualification-achat.md) et
 [repères et modèles de non-livraison](references/non-livraison.md).
 Ces fichiers sont locaux au paquet installé. S'ils manquent, signaler le

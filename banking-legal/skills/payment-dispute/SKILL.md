@@ -11,7 +11,7 @@ description: >
 # /payment-dispute
 
 Lire `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` et charger la
-[méthode locale BASE-005 1.2.0](../../references/shared/research-citation-method.md),
+[méthode locale BASE-005 1.3.0](../../references/shared/research-citation-method.md),
 la [qualification commune](../../references/qualification-bancaire.md) et les
 [repères de paiement et sources](../../references/paiements.md).
 Aucun profil préalable ; aucune lecture/écriture de profil, registre, archive

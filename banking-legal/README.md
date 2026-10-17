@@ -1,6 +1,6 @@
 # Banque et paiements — BNK-001
 
-Version `0.1.1`. Une seule tâche est livrée :
+Version `0.1.2`. Une seule tâche est livrée :
 `/judge-fr-eu-banking-legal:payment-dispute` qualifie un paiement contesté
 et prépare le brouillon d'une réclamation au prestataire pour une opération
 non autorisée sur un compte personnel. Public : particulier sans formation
@@ -20,7 +20,7 @@ laisse le consentement à éclaircir. La négligence alléguée n'est jamais tra
 
 Le paquet fonctionne seul, sans profil préalable, agent, hook, connecteur,
 accès à un compte bancaire ou stockage durable. Il embarque la méthode
-BASE-005 `1.2.0` et les copies BASE-008 identiques aux sources du dépôt.
+BASE-005 `1.3.0` et les copies BASE-008 identiques aux sources du dépôt.
 Une recherche officielle est utile pour vérifier la règle à la date des faits ;
 sans source effectivement lue, le résultat reste factuel et les règles sont
 réservées. Les lectures de maintenance ne valent pas vérification d'un dossier.

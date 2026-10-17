@@ -10,7 +10,7 @@ description: >
 
 Lire `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`, puis la méthode locale
 `${CLAUDE_PLUGIN_ROOT}/references/shared/research-citation-method.md` (BASE-005
-`1.2.0`), la qualification
+`1.3.0`), la qualification
 `${CLAUDE_PLUGIN_ROOT}/references/qualification-acte.md` et
 [la référence de lecture et son modèle](references/lecture-acte.md).
 Ces ressources sont embarquées ; ne pas chercher leur original dans un dépôt.
