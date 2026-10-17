@@ -1,0 +1,156 @@
+{
+  "story": "CONSO-001",
+  "checked_at": "2026-10-17T06:39:33.378095+00:00",
+  "timezone": "Europe/Paris",
+  "commands": [
+    {
+      "label": "detached-package",
+      "args": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "<RECETTE>\\tools\\check-plugin-package.py",
+        "<RECETTE>\\market\\consumer-legal",
+        "--schema",
+        "--claude",
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe"
+      ],
+      "exit_code": 2,
+      "stdout": "A_RELIRE references/company-profile-template.md: modèle partagé : /cold-start-interview absent ; vérifier que le parcours ne charge pas ce modèle\nA_RELIRE references/dashboard-template.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/<domain>/outputs/dashboard-<topic>-<date>.html\nA_RELIRE references/isolation.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/\nSTRUCTURE INCOMPLET: 9 fichiers Markdown; contrôle statique borné\nSCHEMA CLI: C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe (--claude)\nValidating plugin manifest: <RECETTE>\\market\\consumer-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <RECETTE>\\market\\consumer-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\ni Advice (does not change the verdict):\n\n  > <RECETTE>\\market\\consumer-legal\\README.md: This README has no line that installs \"judge-fr-eu-consumer-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-consumer-legal --marketplace <owner>/<repo>\n\n√ Validation passed with warnings\nSCHEMA OK: code 0\nEXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE\n",
+      "stderr": ""
+    },
+    {
+      "label": "cli-version",
+      "args": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "2.1.299 (Claude Code)\n",
+      "stderr": ""
+    },
+    {
+      "label": "marketplace-schema",
+      "args": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "validate",
+        "<CHECKOUT>\\.claude-plugin\\marketplace.json"
+      ],
+      "exit_code": 0,
+      "stdout": "Validating marketplace manifest: <CHECKOUT>\\.claude-plugin\\marketplace.json\n\n√ Validation passed\n",
+      "stderr": ""
+    },
+    {
+      "label": "local-marketplace-add",
+      "args": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "marketplace",
+        "add",
+        "<RECETTE>\\market"
+      ],
+      "exit_code": 0,
+      "stdout": "Adding marketplace…√ Successfully added marketplace: judge-fr-eu (declared in user settings)\n",
+      "stderr": ""
+    },
+    {
+      "label": "local-plugin-install",
+      "args": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "install",
+        "judge-fr-eu-consumer-legal@judge-fr-eu"
+      ],
+      "exit_code": 0,
+      "stdout": "Installing plugin \"judge-fr-eu-consumer-legal@judge-fr-eu\"...√ Successfully installed plugin: judge-fr-eu-consumer-legal@judge-fr-eu (scope: user)\n",
+      "stderr": ""
+    },
+    {
+      "label": "local-plugin-list",
+      "args": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "list"
+      ],
+      "exit_code": 0,
+      "stdout": "Installed plugins:\n\n  > judge-fr-eu-consumer-legal@judge-fr-eu\n    Version: 0.1.0\n    Read from: <RECETTE>\\market\\consumer-legal\n    Scope: user\n    Status: √ enabled\n\n",
+      "stderr": ""
+    },
+    {
+      "label": "auth-status",
+      "args": [
+        "C:\\Users\\fltou\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "auth",
+        "status"
+      ],
+      "exit_code": 1,
+      "stdout": "{\"loggedIn\": false, \"authMethod\": \"none\", \"apiProvider\": \"firstParty\"}",
+      "stderr": ""
+    }
+  ],
+  "checks": {
+    "copies_identical": true,
+    "marketplace_matches": true,
+    "no_structure_errors": true,
+    "local_installation": true,
+    "package_unchanged": true
+  },
+  "skill_execution": "non-execute",
+  "reader": "non-execute",
+  "source_revision": "bee80d1d8086e1db3635a3894b02cc3a67a7a71b",
+  "checker_sha256": "12d0967ade987f1dd1f74b459739f8beab3e30540753333682538575100dd87b",
+  "package": {
+    ".claude-plugin/plugin.json": "30ca88458170d2b54c401a948a5868213c322c3da3317aedc57e799acdb05803",
+    "CLAUDE.md": "9d9c8e92ef67c00813a19f69a520a41723c06375de181917987491b9a6b956ca",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "81aad6222dca7481bf104004d26c95b78698a0751785bad5e5cbd7895a56b0f5",
+    "README.md": "b9e369063880339ab7fc07f19ab843caeb4ce712345d71a6abfc026a695850c4",
+    "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "references/qualification-achat.md": "58c3f95d8e22987a501c3f9d180967c189743f1dfcf383ba071a3cfe0c37d4d7",
+    "references/shared/research-citation-method.md": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+    "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "skills/non-delivery-claim/references/non-livraison.md": "fe50607f8adbbc6f7050e17688f1fbc4e3569a62ae9851ac6c1377e7a37b0f94",
+    "skills/non-delivery-claim/SKILL.md": "6d1ef5f369e541845a6d4938b6ccd8890e29e3efe32fad0e6a23d544051a4035"
+  },
+  "archive": {
+    "name": "consumer-legal.zip",
+    "sha256": "f7b029505e243bd66212463077a31679ee1722cdacdb7c40f87d9a7be9182157",
+    "bytes": 40350,
+    "retention": "jetable, inventaire conserve"
+  },
+  "copies": {
+    "LICENSE": {
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "embedded_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "scripts/judge_store.py": {
+      "source_sha256": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+      "embedded_sha256": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373"
+    },
+    "references/isolation.md": {
+      "source_sha256": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+      "embedded_sha256": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3"
+    },
+    "references/company-profile-template.md": {
+      "source_sha256": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+      "embedded_sha256": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96"
+    },
+    "references/dashboard-template.md": {
+      "source_sha256": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+      "embedded_sha256": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c"
+    },
+    "references/shared/research-citation-method.md": {
+      "source_sha256": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+      "embedded_sha256": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52"
+    }
+  },
+  "structure_reviews": [
+    "A_RELIRE references/company-profile-template.md: modèle partagé : /cold-start-interview absent ; vérifier que le parcours ne charge pas ce modèle",
+    "A_RELIRE references/dashboard-template.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/<domain>/outputs/dashboard-<topic>-<date>.html",
+    "A_RELIRE references/isolation.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/"
+  ],
+  "schema": "reussi",
+  "client_ready": false,
+  "runtime_limit": "Aucune authentification importee ou effectuee. Pas de skill invoque ; fixtures N01-N13 et lecteur reel non executes. Variables jetables sous le meme compte Windows, pas de sandbox OS."
+}

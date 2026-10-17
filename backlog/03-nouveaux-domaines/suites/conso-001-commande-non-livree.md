@@ -1,7 +1,7 @@
 ---
 id: CONSO-001
 titre: "Préparer une réclamation pour une commande non livrée"
-statut: proposee
+statut: a-verifier
 priorite: P2
 nature: implementation
 dependances: [DOM-001, PILOTE-003, BASE-005, BASE-006, BASE-008]
@@ -18,24 +18,25 @@ paquet `consumer-legal` avec ce seul skill.
 
 ## Périmètre et fichiers
 
-Plugin principal : `consumer-legal` (`judge-fr-eu-consumer-legal`). Les
-chemins « à créer » sont des livrables futurs.
+Plugin principal : `consumer-legal` (`judge-fr-eu-consumer-legal`). Les fichiers
+ci-dessous sont créés par la tranche du 17 octobre 2026 ; le bilan en fin de
+story distingue les couches de validation.
 
-- `consumer-legal/.claude-plugin/plugin.json` — manifeste, version `0.1.0` (à créer)
-- `consumer-legal/README.md` — tâche livrée, public, limites (à créer)
-- `consumer-legal/CLAUDE.md` — modèle minimal, aucun profil requis (à créer)
-- `consumer-legal/NOTICE` — entrée datée du lot (à créer)
-- `consumer-legal/LICENSE` — copie de la licence du dépôt (à créer)
-- `consumer-legal/references/shared/research-citation-method.md` — copie BASE-005 `1.0.0` identique (à créer)
-- `consumer-legal/references/isolation.md` — copie BASE-008 identique (à créer)
-- `consumer-legal/scripts/judge_store.py` — copie BASE-008 identique (à créer)
-- `consumer-legal/references/company-profile-template.md` — copie BASE-008 identique (à créer)
-- `consumer-legal/references/dashboard-template.md` — copie BASE-008 identique (à créer)
-- `consumer-legal/references/qualification-achat.md` — contrat commun de qualification (à créer)
-- `consumer-legal/skills/non-delivery-claim/SKILL.md` — le skill (à créer)
-- `consumer-legal/skills/non-delivery-claim/references/non-livraison.md` — repères, sources lues, modèle de brouillon (à créer)
-- `.claude-plugin/marketplace.json` — entrée du 13e plugin, après décision explicite
-- `scripts/test-base008-isolation.py` — passage de 12 à 13 paquets, après la même décision
+- `consumer-legal/.claude-plugin/plugin.json` — manifeste, version `0.1.0`
+- `consumer-legal/README.md` — tâche livrée, public, limites
+- `consumer-legal/CLAUDE.md` — modèle minimal, aucun profil requis
+- `consumer-legal/NOTICE` — entrée datée du lot
+- `consumer-legal/LICENSE` — copie de la licence du dépôt
+- `consumer-legal/references/shared/research-citation-method.md` — copie BASE-005 courante `1.2.0` identique
+- `consumer-legal/references/isolation.md` — copie BASE-008 identique
+- `consumer-legal/scripts/judge_store.py` — copie BASE-008 identique
+- `consumer-legal/references/company-profile-template.md` — copie BASE-008 identique
+- `consumer-legal/references/dashboard-template.md` — copie BASE-008 identique
+- `consumer-legal/references/qualification-achat.md` — contrat commun de qualification
+- `consumer-legal/skills/non-delivery-claim/SKILL.md` — le skill
+- `consumer-legal/skills/non-delivery-claim/references/non-livraison.md` — repères, sources lues, modèle de brouillon
+- `.claude-plugin/marketplace.json` — inscription, sélection explicite par la présente demande
+- `scripts/test-base008-isolation.py` — décompte réel et exception bornée de paquet sans entretien
 - `NOTICE` — entrée racine du lot
 
 Les mentions « douze paquets » de `CLAUDE.md` et des scripts sont mises à
@@ -137,7 +138,40 @@ Ajouter à la sortie une chronologie de l’engagement de livraison et des deman
 Scénarios complémentaires **attendus, non exécutés**. Les sources précises et
 leurs versions restent à rechercher selon BASE-005 avant toute règle affirmée.
 
-## État de la proposition — 16 octobre 2026
+## État de la proposition — 16 octobre 2026 (historique)
 
 Issue de DOM-001, sans implémentation. Préalable PILOTE-003 satisfait après
 BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-001-annexes/dom-001-decoupage-consommation.md).
+
+## Implémentation — 17 octobre 2026
+
+Sélection par la demande de l'utilisateur « implémente la story conso-001 » :
+création et inscription de `consumer-legal` `0.1.0`, avec le seul skill
+`non-delivery-claim`. La demande autorise l'inscription prévue par le cadrage.
+Le compte réel est désormais de 13 paquets et 136 skills, en tenant compte
+de BNK-001 ajouté en parallèle ; le passage anticipé 12 → 13 n'était pas
+l'état initial constaté de ce chantier (11 paquets, 134 skills).
+
+Tous les fichiers du périmètre du paquet sont créés. La copie commune est
+la version courante BASE-005 `1.2.0`, identique à la racine, plutôt que la
+`1.0.0` mentionnée dans la proposition ancienne. Aucun profil, stockage durable,
+agent, hook ou connecteur ajouté. Qualification commune et branches N01–N07
+sont intégrées ; les autres CONSO restent proposées, sans commande annoncée.
+
+Les sources lues, leurs bornes temporelles et les accès impossibles sont
+consignés dans les références métier. L'article liminaire et L221-15 n'ont
+pas pu être ouverts : conclusions dépendantes réservées. Le chapitre de
+livraison, les repères civils, la directive via CELLAR et la fiche DGCCRF
+ont été lus ; aucune veille exhaustive ou règle étrangère de remplacement.
+
+Voir le [bilan par couche](conso-001-annexes/verification.md), les
+[fixtures N01–N13](conso-001-annexes/pieces-fictives.md), le
+[contrôle reproductible](conso-001-annexes/controles.py), les
+[résultats du paquet](conso-001-annexes/resultats-paquet.json) et la
+[trace CELLAR](conso-001-annexes/source-directive.json).
+
+Les critères comportementaux ci-dessus restent ouverts : installation locale
+jetable et schéma ne valent pas invocation du skill. Aucun compte authentifié
+dans cette configuration, aucune authentification personnelle importée.
+Scénarios N01–N13 et reformulation par un lecteur réel **non exécutés** ;
+statut `a-verifier`, sans prétendre valider les sorties attendues.

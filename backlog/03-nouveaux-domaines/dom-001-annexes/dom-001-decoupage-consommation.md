@@ -1,6 +1,8 @@
 # DOM-001 — Découpage du domaine consommation
 
-Propositions du **16 octobre 2026**. Les 21 stories CONSO restent `proposee`.
+Propositions du **16 octobre 2026**. Mise à jour du 17 octobre : CONSO-001
+est implémentée (`a-verifier`), les 20 autres stories CONSO restent `proposee`.
+Le bilan de CONSO-001 distingue paquet livré et recette métier non exécutée.
 La [relecture documentaire](dom-001-verification.md) éprouve le routage sur
 les trois scénarios de la story et sur des cas limites. Aucun répertoire de
 plugin n'est créé par ce cadrage. La [matrice des 155 frictions utilisateur](dom-001-frictions-utilisateurs.md)
@@ -17,7 +19,7 @@ vendeur (artisan, TPE) face à un client particulier (CONSO-008, CONSO-012).
 
 | Élément | Décision du cadrage |
 |---|---|
-| Installation | Le paquet fonctionne seul : skills, références métier locales, copie BASE-005 `1.0.0` et copies BASE-008 exigées par les contrôles. Aucun autre plugin requis ; un relais vers un autre domaine est une orientation, pas un appel. |
+| Installation | Le paquet fonctionne seul : skills, références métier locales, copie BASE-005 courante (`1.2.0` pour CONSO-001) et copies BASE-008 exigées par les contrôles. Aucun autre plugin requis ; un relais vers un autre domaine est une orientation, pas un appel. |
 | Création du paquet | Par CONSO-001, avec son premier skill. Aucun paquet vide, aucun skill annoncé avant sa livraison. Inscription au marketplace et passage de 12 à 13 paquets dans les tests BASE-008 : décision explicite au moment de sélectionner CONSO-001. |
 | Profil | Aucun profil requis par les tâches proposées : les faits sont recueillis en conversation. `CLAUDE.md` reste un modèle minimal. Un stockage durable n'est ajouté que par une story qui en démontre le besoin, via le helper BASE-008. |
 | Agents, hooks, connecteurs | Aucun prévu. Les pièces sont fournies par la personne. Pas de `.mcp.json`, de hook, d'agent ni de cookbook par principe. |
@@ -185,7 +187,7 @@ de méthode ni capacité de jurisprudence n’est déclarée disponible ici.
 Les fichiers « à créer » des suites sont des livrables futurs. La portée de
 ce cadrage figure dans la [vérification](dom-001-verification.md).
 
-## Complément publicité contestée — 16 octobre 2026
+## Complément publicité contestée — 16 octobre 2026 (historique)
 
 [CONSO-021](../suites/conso-021-reclamation-publicite.md), issue de la [matrice marketing](../../02-plugins-existants/exist-004-annexes/exist-004-frictions-utilisateurs.md), prépare le rapprochement publicité/achat/résultat et la demande au vendeur. CONSO-015 garde l’offre avant achat ; CONSO-016 les prix/frais ; CONSO-002/005/009 les garanties et abonnements ; CONSO-013 le signalement. Sans achat, ne pas inventer de remboursement. Le propriétaire de la revue avant diffusion reste produit. Les 21 CONSO restent proposées ; aucune nouvelle première tranche n’est choisie.
 

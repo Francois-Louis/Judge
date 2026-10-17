@@ -262,6 +262,7 @@ narrative, without a profile or interview.
 
 | Plugin | What it adds |
 |---|---|
+| **[consumer-legal](./consumer-legal)** | CONSO-001 : fiche, chronologie, pièces et brouillon de réclamation pour un bien commandé à distance et non reçu. Un skill sans profil ni envoi ; validation client et lecteur à compléter. |
 | **[banking-legal](./banking-legal)** | BNK-001 `0.1.1` : qualifier un paiement contesté et préparer la réclamation pour une opération non autorisée sur un compte personnel ; tromperie et litige commercial orientés. Un skill, sans profil ni stockage ; [recette partielle et limites](backlog/03-nouveaux-domaines/suites/bnk-001-annexes/verification.md). |
 | **[commercial-legal](./commercial-legal)** | Orientation contractuelle COM-001 sans profil obligatoire. Revues, avenants, registres, escalades et agents hérités non adaptés France/UE. |
 | **[corporate-legal](./corporate-legal)** | M&A diligence with tabular review and citation-per-cell. Disclosure schedules, closing checklists, written consents, board minutes. Entity compliance tracker. Post-close integration. |

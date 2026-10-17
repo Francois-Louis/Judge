@@ -697,3 +697,31 @@ Package count reflects concurrently integrated consumer-legal: 13 / 136 skills.
   scripts/check-plugin-package.py
   scripts/test-base008-isolation.py
   scripts/test-check-plugin-package.py
+
+CONSO-001 changes (2026-10-17): consumer-legal 0.1.0, one non-delivery-claim
+skill with purchase qualification, factual order record and chronology,
+missing evidence and a draft to the seller. Separate delivery, risk,
+termination and reimbursement; no durable storage or external sending.
+Dated official-source readings and explicit access/version reserves.
+BASE-005 1.2.0 and BASE-008 copies unchanged. Detached package schema and
+local disposable installation checked; skill scenarios and real reader not run.
+Initial package files entered a concurrent BASE-017 commit; CONSO-001 follow-up
+records its own checks, scope and outstanding validation without rewriting history.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  consumer-legal/.claude-plugin/plugin.json
+  consumer-legal/CLAUDE.md
+  consumer-legal/LICENSE
+  consumer-legal/NOTICE
+  consumer-legal/README.md
+  consumer-legal/references/company-profile-template.md
+  consumer-legal/references/dashboard-template.md
+  consumer-legal/references/isolation.md
+  consumer-legal/references/qualification-achat.md
+  consumer-legal/references/shared/research-citation-method.md
+  consumer-legal/scripts/judge_store.py
+  consumer-legal/skills/non-delivery-claim/SKILL.md
+  consumer-legal/skills/non-delivery-claim/references/non-livraison.md
+  scripts/test-base008-isolation.py

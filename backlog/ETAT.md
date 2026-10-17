@@ -5,11 +5,11 @@
 | Statut | Stories |
 | --- | ---: |
 | En cours | 3 |
-| À vérifier | 3 |
+| À vérifier | 4 |
 | Bloquée | 0 |
 | Terminée | 45 |
 | Prête | 0 |
-| À faire | 562 |
+| À faire | 561 |
 | Abandonnée | 23 |
 | dont prêtes à démarrer | 184 |
 | Total | 636 |
@@ -27,6 +27,8 @@ Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes
   <br>Annexes : [P01-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P01-errors.txt) · [P01.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P01.jsonl) · [P01.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P01.md) · [P02-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P02-errors.txt) · [P02.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P02.jsonl) · [P02.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P02.md) · [P03-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P03-errors.txt) · [P03.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P03.jsonl) · [P03.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P03.md) · [P04-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P04-errors.txt) · [P04.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P04.jsonl) · [P04.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P04.md) · [P05-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P05-errors.txt) · [P05.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P05.jsonl) · [P05.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P05.md) · [P06-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P06-errors.txt) · [P06.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P06.jsonl) · [P06.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P06.md) · [P07-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P07-errors.txt) · [P07.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P07.jsonl) · [P07.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P07.md) · [P08-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P08-errors.txt) · [P08.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P08.jsonl) · [P08.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P08.md) · [P09-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P09-errors.txt) · [P09.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P09.jsonl) · [P09.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P09.md) · [P10-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P10-errors.txt) · [P10.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P10.jsonl) · [P10.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P10.md) · [P11-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P11-errors.txt) · [P11.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P11.jsonl) · [P11.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P11.md) · [P12-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P12-errors.txt) · [P12.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P12.jsonl) · [P12.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P12.md) · [package.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions/package.json) · [results.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions/results.json) · [fixtures.json](03-nouveaux-domaines/suites/bnk-001-annexes/fixtures.json) · [recette.py](03-nouveaux-domaines/suites/bnk-001-annexes/recette.py) · [validation.json](03-nouveaux-domaines/suites/bnk-001-annexes/validation.json) · [verification.md](03-nouveaux-domaines/suites/bnk-001-annexes/verification.md)
 - [COM-001](02-plugins-existants/suites/com-001-orientation-contrat.md) — **À vérifier** · P2 · Qualifier et orienter une demande sur un contrat
   <br>Annexes : [com-001-verification.md](02-plugins-existants/suites/com-001-annexes/com-001-verification.md) · [controles.py](02-plugins-existants/suites/com-001-annexes/controles.py) · [pieces-fictives.md](02-plugins-existants/suites/com-001-annexes/pieces-fictives.md) · [resultats-paquet.json](02-plugins-existants/suites/com-001-annexes/resultats-paquet.json) · [sorties-relecture.md](02-plugins-existants/suites/com-001-annexes/sorties-relecture.md) · [source-bruxelles-i-bis.json](02-plugins-existants/suites/com-001-annexes/source-bruxelles-i-bis.json) · [source-rome-i.json](02-plugins-existants/suites/com-001-annexes/source-rome-i.json)
+- [CONSO-001](03-nouveaux-domaines/suites/conso-001-commande-non-livree.md) — **À vérifier** · P2 · Préparer une réclamation pour une commande non livrée
+  <br>Annexes : [controles.py](03-nouveaux-domaines/suites/conso-001-annexes/controles.py) · [pieces-fictives.md](03-nouveaux-domaines/suites/conso-001-annexes/pieces-fictives.md) · [resultats-isolation.json](03-nouveaux-domaines/suites/conso-001-annexes/resultats-isolation.json) · [resultats-paquet.json](03-nouveaux-domaines/suites/conso-001-annexes/resultats-paquet.json) · [source-directive.json](03-nouveaux-domaines/suites/conso-001-annexes/source-directive.json) · [verification.md](03-nouveaux-domaines/suites/conso-001-annexes/verification.md)
 - [TRAV-001](01-pilote-travail/suites/trav-001-qualification-relation.md) — **À vérifier** · P2 · Qualifier une relation de travail proposée
   <br>Annexes : [trav-001-pieces-fictives.md](01-pilote-travail/suites/trav-001-annexes/trav-001-pieces-fictives.md) · [trav-001-resultats.json](01-pilote-travail/suites/trav-001-annexes/trav-001-resultats.json) · [trav-001-sorties.md](01-pilote-travail/suites/trav-001-annexes/trav-001-sorties.md) · [trav-001-sources-lues.json](01-pilote-travail/suites/trav-001-annexes/trav-001-sources-lues.json) · [trav-001-verification.md](01-pilote-travail/suites/trav-001-annexes/trav-001-verification.md)
 
@@ -785,11 +787,10 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>CONSO</b> — Consommation (03 — Nouveaux domaines) : 21 à faire, 0 prêtes</summary>
+<summary><b>CONSO</b> — Consommation (03 — Nouveaux domaines) : 20 à faire, 0 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [CONSO-001](03-nouveaux-domaines/suites/conso-001-commande-non-livree.md) | Préparer une réclamation pour une commande non livrée | P2 | BASE-008 |
 | [CONSO-002](03-nouveaux-domaines/suites/conso-002-garantie-conformite.md) | Demander la mise en conformité d'un bien défectueux | P2 | CONSO-001 |
 | [CONSO-003](03-nouveaux-domaines/suites/conso-003-retractation.md) | Exercer la rétractation d'un achat à distance ou hors établissement | P2 | CONSO-001 |
 | [CONSO-004](03-nouveaux-domaines/suites/conso-004-qualifier-achat.md) | Qualifier un achat et orienter la demande | P2 | CONSO-001 |
