@@ -53,6 +53,7 @@ FAMILLES = {
     "LOG": "Logement locatif et habitat",
     "VEH": "Véhicules, garages et réparations",
     "FUN": "Décès et prestations funéraires",
+    "CHP": "Chasse et pêche de loisir",
     "LIV": "Livraison",
     "USAGE": "Usages quotidiens",
 }

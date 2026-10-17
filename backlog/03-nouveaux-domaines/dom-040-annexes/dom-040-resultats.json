@@ -1,0 +1,83 @@
+{
+  "story": "DOM-040",
+  "date": "2026-10-17",
+  "fuseau": "Europe/Paris",
+  "base_git": "54c501638f11e271fd22a457d8f0195609e537aa",
+  "portee": "Controles documentaires dans un instantane du seul lot ; aucun skill execute, aucune validation juridique.",
+  "controles": [
+    {
+      "controle": "frontmatters_identifiants_dependances_sans_cycle",
+      "statut": "reussi",
+      "stories": 644,
+      "erreurs": []
+    },
+    {
+      "controle": "sept_suites_proposees_et_precedent_pilote",
+      "statut": "reussi",
+      "suites": [
+        "CHP-001",
+        "CHP-002",
+        "CHP-003",
+        "CHP-004",
+        "CHP-005",
+        "CHP-006",
+        "CHP-007"
+      ],
+      "erreurs": []
+    },
+    {
+      "controle": "liens_locaux_et_ancres_du_lot",
+      "statut": "reussi",
+      "liens": 30,
+      "erreurs": []
+    },
+    {
+      "controle": "utf8_et_format_des_fichiers_du_lot",
+      "statut": "reussi",
+      "erreurs": []
+    },
+    {
+      "controle": "index_genere_du_seul_lot",
+      "statut": "reussi",
+      "commande": "python backlog/etat.py --check",
+      "code": 0,
+      "erreurs": []
+    },
+    {
+      "controle": "perimetre_isole",
+      "statut": "reussi",
+      "methode": "HEAD archive puis superposition explicite des seuls fichiers DOM-040 et du generateur",
+      "fichiers": [
+        "backlog/03-nouveaux-domaines/dom-040-annexes/dom-040-decoupage-chasse-peche.md",
+        "backlog/03-nouveaux-domaines/dom-040-annexes/dom-040-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-040-annexes/dom-040-verification.md",
+        "backlog/03-nouveaux-domaines/dom-040-chasse-peche.md",
+        "backlog/03-nouveaux-domaines/suites/chp-001-lecture-acte-controle.md",
+        "backlog/03-nouveaux-domaines/suites/chp-002-documents-chasse.md",
+        "backlog/03-nouveaux-domaines/suites/chp-003-documents-peche-eau-douce.md",
+        "backlog/03-nouveaux-domaines/suites/chp-004-formalites-peche-maritime.md",
+        "backlog/03-nouveaux-domaines/suites/chp-005-droit-chasse-terrain.md",
+        "backlog/03-nouveaux-domaines/suites/chp-006-droit-peche-terrain.md",
+        "backlog/03-nouveaux-domaines/suites/chp-007-degats-gibier.md",
+        "backlog/ETAT.md",
+        "backlog/etat.py"
+      ],
+      "runtime_modifie": false,
+      "erreurs": []
+    },
+    {
+      "controle": "versions_plugins",
+      "statut": "reussi",
+      "commande": "python -X utf8 scripts/check-version-bump.py",
+      "code": 0,
+      "erreurs": []
+    },
+    {
+      "controle": "diff_sans_erreur_espace",
+      "statut": "reussi",
+      "commande": "git diff --check",
+      "code": 0,
+      "erreurs": []
+    }
+  ]
+}

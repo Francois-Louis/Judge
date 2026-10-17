@@ -7,12 +7,12 @@
 | En cours | 1 |
 | À vérifier | 7 |
 | Bloquée | 0 |
-| Terminée | 49 |
+| Terminée | 50 |
 | Prête | 0 |
-| À faire | 557 |
+| À faire | 563 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 184 |
-| Total | 637 |
+| dont prêtes à démarrer | 183 |
+| Total | 644 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -224,7 +224,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-030](03-nouveaux-domaines/dom-030-environnement-pollutions.md) | Cadrer un plugin environnement et pollutions | P3 | cadrage |
 | [DOM-032](03-nouveaux-domaines/dom-032-associations-adherents.md) | Cadrer un plugin associations et droits des adhérents | P3 | cadrage |
 | [DOM-033](03-nouveaux-domaines/dom-033-animaux.md) | Cadrer un plugin animaux et responsabilités | P3 | cadrage |
-| [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) | Cadrer un plugin chasse et pêche de loisir | P3 | cadrage |
 
 ## Terminées
 
@@ -326,6 +325,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [dom-023-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py) · [dom-023-decoupage-vehicules.md](03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md) · [dom-023-frictions-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-controles.py) · [dom-023-frictions-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-resultats.json) · [dom-023-frictions-utilisateurs.md](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-utilisateurs.md) · [dom-023-frictions-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-verification.md) · [dom-023-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json) · [dom-023-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md)
 - [DOM-031](03-nouveaux-domaines/dom-031-deces-obseques.md) — Cadrer un plugin décès et prestations funéraires
   <br>Annexes : [dom-031-controles.py](03-nouveaux-domaines/dom-031-annexes/dom-031-controles.py) · [dom-031-decoupage-funeraire.md](03-nouveaux-domaines/dom-031-annexes/dom-031-decoupage-funeraire.md) · [dom-031-frictions-utilisateurs.md](03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-utilisateurs.md) · [dom-031-frictions-verification.md](03-nouveaux-domaines/dom-031-annexes/dom-031-frictions-verification.md) · [dom-031-resultats.json](03-nouveaux-domaines/dom-031-annexes/dom-031-resultats.json) · [dom-031-verification.md](03-nouveaux-domaines/dom-031-annexes/dom-031-verification.md)
+- [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) — Cadrer un plugin chasse et pêche de loisir
+  <br>Annexes : [dom-040-decoupage-chasse-peche.md](03-nouveaux-domaines/dom-040-annexes/dom-040-decoupage-chasse-peche.md) · [dom-040-resultats.json](03-nouveaux-domaines/dom-040-annexes/dom-040-resultats.json) · [dom-040-verification.md](03-nouveaux-domaines/dom-040-annexes/dom-040-verification.md)
 - Autres documents : [aides-sociales-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/aides-sociales-frictions-2026-10-16.txt) · [assurances-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/assurances-frictions-2026-10-16.txt) · [banques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/banques-frictions-2026-10-16.txt) · [commissaires-justice-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/commissaires-justice-frictions-2026-10-16.txt) · [consommation-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/consommation-frictions-2026-10-16.txt) · [deces-obseques-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/deces-obseques-frictions-2026-10-16.txt) · [logement-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/logement-frictions-2026-10-16.txt) · [police-penal-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/police-penal-frictions-2026-10-16.txt) · [sante-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/sante-frictions-2026-10-16.txt) · [transports-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/transports-frictions-2026-10-16.txt) · [vehicules-frictions-2026-10-16.txt](03-nouveaux-domaines/sources/vehicules-frictions-2026-10-16.txt)
 
 ### 04 — Livraison
@@ -797,6 +798,21 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
+<summary><b>CHP</b> — Chasse et pêche de loisir (03 — Nouveaux domaines) : 7 à faire, 0 prêtes</summary>
+
+| Story | Titre | Priorité | Bloquée par |
+| --- | --- | --- | --- |
+| [CHP-001](03-nouveaux-domaines/suites/chp-001-lecture-acte-controle.md) | Lire un acte reçu après un contrôle de chasse ou de pêche | P3 | BASE-008 |
+| [CHP-002](03-nouveaux-domaines/suites/chp-002-documents-chasse.md) | Rapprocher les documents de chasse d'une pratique située | P3 | BASE-008, CHP-001 |
+| [CHP-003](03-nouveaux-domaines/suites/chp-003-documents-peche-eau-douce.md) | Lire une carte de pêche et les documents du secteur en eau douce | P3 | BASE-008, CHP-001 |
+| [CHP-004](03-nouveaux-domaines/suites/chp-004-formalites-peche-maritime.md) | Identifier les formalités d'une pêche maritime de loisir située | P3 | BASE-008, CHP-001 |
+| [CHP-005](03-nouveaux-domaines/suites/chp-005-droit-chasse-terrain.md) | Préparer les questions d'un propriétaire sur la chasse sur son terrain | P3 | BASE-008, CHP-001 |
+| [CHP-006](03-nouveaux-domaines/suites/chp-006-droit-peche-terrain.md) | Préparer les questions sur le droit de pêche d'un riverain ou propriétaire | P3 | BASE-008, CHP-001 |
+| [CHP-007](03-nouveaux-domaines/suites/chp-007-degats-gibier.md) | Documenter des dégâts de gibier et préparer les questions d'indemnisation | P3 | BASE-008, CHP-001 |
+
+</details>
+
+<details>
 <summary><b>CONSO</b> — Consommation (03 — Nouveaux domaines) : 20 à faire, 0 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
@@ -856,7 +872,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 34 à faire, 34 prêtes</summary>
+<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 33 à faire, 33 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -889,7 +905,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-037](03-nouveaux-domaines/dom-037-fonction-publique.md) | Cadrer un plugin fonction publique et agents publics | P2 | ✅ |
 | [DOM-038](03-nouveaux-domaines/dom-038-violences-intrafamiliales.md) | Cadrer un plugin violences intrafamiliales et protection | P2 | ✅ |
 | [DOM-039](03-nouveaux-domaines/dom-039-micro-entreprise.md) | Cadrer un plugin micro-entreprise et travail indépendant | P2 | ✅ |
-| [DOM-040](03-nouveaux-domaines/dom-040-chasse-peche.md) | Cadrer un plugin chasse et pêche de loisir | P3 | ✅ |
 | [DOM-041](03-nouveaux-domaines/dom-041-professionnels-du-droit.md) | Cadrer un plugin relation avec un professionnel du droit ou du chiffre | P2 | ✅ |
 | [DOM-042](03-nouveaux-domaines/dom-042-artistes-spectacle.md) | Cadrer un plugin artistes-auteurs et intermittents du spectacle | P2 | ✅ |
 | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) | Cadrer un plugin médias et expression publique | P2 | ✅ |
