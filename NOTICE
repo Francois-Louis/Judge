@@ -725,3 +725,25 @@ records its own checks, scope and outstanding validation without rewriting histo
   consumer-legal/skills/non-delivery-claim/SKILL.md
   consumer-legal/skills/non-delivery-claim/references/non-livraison.md
   scripts/test-base008-isolation.py
+
+ENF-001 changes (2026-10-17): new standalone enforcement-legal 0.1.0,
+act reading, authenticity, urgency and questions; BASE-005 1.2.0 and BASE-008
+resources copied unchanged. qualification-acte.md 1.0.0; lecture-acte.md 1.0.0.
+Marketplace and isolation inventory: fourteen packages, 137 skills.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  README.md
+  scripts/test-base008-isolation.py
+  enforcement-legal/.claude-plugin/plugin.json
+  enforcement-legal/CLAUDE.md
+  enforcement-legal/LICENSE
+  enforcement-legal/NOTICE
+  enforcement-legal/README.md
+  enforcement-legal/references/company-profile-template.md
+  enforcement-legal/references/dashboard-template.md
+  enforcement-legal/references/isolation.md
+  enforcement-legal/references/qualification-acte.md
+  enforcement-legal/references/shared/research-citation-method.md
+  enforcement-legal/scripts/judge_store.py
+  enforcement-legal/skills/enforcement-act-reading/references/lecture-acte.md
+  enforcement-legal/skills/enforcement-act-reading/SKILL.md

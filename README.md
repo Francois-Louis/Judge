@@ -58,6 +58,7 @@ Each agent is named for the workflow it runs. They're the most common surface �
 | Agent | What it does | Plugin | Command |
 |---|---|---|---|
 | **Commande non livrée** | Fiche, chronologie, pièces et brouillon au vendeur ; CONSO-001, sans profil ni envoi | `consumer-legal` | `/judge-fr-eu-consumer-legal:non-delivery-claim` |
+| **Acte de recouvrement ou d’exécution reçu** | Lecture, authenticité, urgence, fiche et questions ; ENF-001 | `enforcement-legal` | `/judge-fr-eu-enforcement-legal:enforcement-act-reading` |
 | **Orientation contractuelle** | Qualifie contrat/récit, domaine, achat/vente, pièces et suite ; COM-001, sans profil obligatoire | `commercial-legal` | `/judge-fr-eu-commercial-legal:review` |
 | **Revue prestation / NDA / SaaS** | Branches héritées non adaptées France/UE ; COM-002/003/004 proposés, aucun lancement par `review` | `commercial-legal` | — |
 | **Amendment Tracer** | Traces how a contract has changed across its base agreement and every amendment | `commercial-legal` | `/judge-fr-eu-commercial-legal:amendment-history` |
@@ -264,6 +265,7 @@ narrative, without a profile or interview.
 |---|---|
 | **[consumer-legal](./consumer-legal)** | CONSO-001 : fiche, chronologie, pièces et brouillon de réclamation pour un bien commandé à distance et non reçu. Un skill sans profil ni envoi ; validation client et lecteur à compléter. |
 | **[banking-legal](./banking-legal)** | BNK-001 `0.1.1` : qualifier un paiement contesté et préparer la réclamation pour une opération non autorisée sur un compte personnel ; tromperie et litige commercial orientés. Un skill, sans profil ni stockage ; [recette partielle et limites](backlog/03-nouveaux-domaines/suites/bnk-001-annexes/verification.md). |
+| **[enforcement-legal](./enforcement-legal)** | ENF-001 `0.1.0` : lire un acte reçu, vérifier l'authenticité, repérer l'urgence et préparer les questions. Un skill sans profil, calcul de délai ni envoi ; [recette et limites](backlog/03-nouveaux-domaines/suites/enf-001-annexes/verification.md). |
 | **[commercial-legal](./commercial-legal)** | Orientation contractuelle COM-001 sans profil obligatoire. Revues, avenants, registres, escalades et agents hérités non adaptés France/UE. |
 | **[corporate-legal](./corporate-legal)** | M&A diligence with tabular review and citation-per-cell. Disclosure schedules, closing checklists, written consents, board minutes. Entity compliance tracker. Post-close integration. |
 | **[privacy-legal](./privacy-legal)** | Privacy triage (PIA vs DPIA vs proceed), PIA generation, DPA review as controller or processor, DSAR response. Policy monitor watches drift between policy and practice. |

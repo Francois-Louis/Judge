@@ -1,7 +1,7 @@
 ---
 id: ENF-001
 titre: "Lire un acte d'exécution ou de recouvrement et repérer l'urgence"
-statut: proposee
+statut: a-verifier
 priorite: P2
 nature: implementation
 dependances: [DOM-003, PILOTE-003, BASE-005, BASE-006, BASE-008]
@@ -123,7 +123,27 @@ Points 1–2, 11, 15–18 et 45 de la [matrice utilisateur](../dom-003-annexes/d
 
 Scénarios A05–A08 **attendus, non exécutés** : lettre menaçante sans titre ; jugement avec exécution provisoire et appel envisagé ; acte incomplet ; attente d'une réponse amiable pendant une mesure. Sources à rechercher : effets de la signification, voies de recours et exécution provisoire selon la décision. Prescription de la créance, durée d'exécution du titre et forclusion restent des qualifications distinctes, sans calcul dans ENF-001.
 
-## État de la proposition — 16 octobre 2026
+## Livraison et vérification — 17 octobre 2026
 
-Issue de DOM-003, sans implémentation. Préalable PILOTE-003 satisfait après
-BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-003-annexes/dom-003-decoupage-execution.md).
+La demande d'implémentation sélectionne ENF-001 et la création du paquet,
+y compris l'entrée marketplace et l'ajustement de l'inventaire BASE-008.
+`enforcement-legal` `0.1.0` livre uniquement enforcement-act-reading. Les
+fichiers annoncés « à créer » ci-dessus sont maintenant livrés. La méthode
+BASE-005 actuelle `1.2.0` remplace la `1.0.0` du cadrage, à l'identique.
+Pas de profil, agent, hook, connecteur, stockage durable ou autre skill créé.
+
+L'implémentation couvre les gardes A01–A08 et les frontières DOM-003. Les
+cases d'acceptation restent ouvertes : elles ne valent pas réussite de
+scénarios non exécutés. Le client reconnaît le paquet détaché et la commande,
+mais sa limite de session bloque A01 avant toute lecture du skill et réponse
+métier. A02–A08 et les cinq autres fixtures restent non exécutées. Le scénario
+sans source normative relue est préparé, pas validé en exécution.
+
+Le [bilan par couche BASE-006](enf-001-annexes/verification.md), les
+[13 fixtures](enf-001-annexes/fixtures.json), l'[exécuteur](enf-001-annexes/recette.py),
+les [traces client](enf-001-annexes/executions/results.json) et les
+[contrôles et empreintes](enf-001-annexes/validation.json) distinguent les
+résultats statiques, le schéma, la limite client et la recette restant à faire.
+Les accès et réserves des sources sont consignés dans lecture-acte.md livré.
+Une installation en environnement réellement isolé et une lecture par une
+personne sans formation juridique restent à recetter. Statut `a-verifier`.

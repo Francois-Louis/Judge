@@ -1,0 +1,9 @@
+[
+  {
+    "case": "A01",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": []
+  }
+]

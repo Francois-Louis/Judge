@@ -5,11 +5,11 @@
 | Statut | Stories |
 | --- | ---: |
 | En cours | 3 |
-| À vérifier | 4 |
+| À vérifier | 5 |
 | Bloquée | 0 |
 | Terminée | 45 |
 | Prête | 0 |
-| À faire | 561 |
+| À faire | 560 |
 | Abandonnée | 23 |
 | dont prêtes à démarrer | 184 |
 | Total | 636 |
@@ -29,6 +29,8 @@ Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes
   <br>Annexes : [com-001-verification.md](02-plugins-existants/suites/com-001-annexes/com-001-verification.md) · [controles.py](02-plugins-existants/suites/com-001-annexes/controles.py) · [pieces-fictives.md](02-plugins-existants/suites/com-001-annexes/pieces-fictives.md) · [resultats-paquet.json](02-plugins-existants/suites/com-001-annexes/resultats-paquet.json) · [sorties-relecture.md](02-plugins-existants/suites/com-001-annexes/sorties-relecture.md) · [source-bruxelles-i-bis.json](02-plugins-existants/suites/com-001-annexes/source-bruxelles-i-bis.json) · [source-rome-i.json](02-plugins-existants/suites/com-001-annexes/source-rome-i.json)
 - [CONSO-001](03-nouveaux-domaines/suites/conso-001-commande-non-livree.md) — **À vérifier** · P2 · Préparer une réclamation pour une commande non livrée
   <br>Annexes : [controles.py](03-nouveaux-domaines/suites/conso-001-annexes/controles.py) · [pieces-fictives.md](03-nouveaux-domaines/suites/conso-001-annexes/pieces-fictives.md) · [resultats-isolation.json](03-nouveaux-domaines/suites/conso-001-annexes/resultats-isolation.json) · [resultats-paquet.json](03-nouveaux-domaines/suites/conso-001-annexes/resultats-paquet.json) · [source-directive.json](03-nouveaux-domaines/suites/conso-001-annexes/source-directive.json) · [verification.md](03-nouveaux-domaines/suites/conso-001-annexes/verification.md)
+- [ENF-001](03-nouveaux-domaines/suites/enf-001-lire-acte.md) — **À vérifier** · P2 · Lire un acte d'exécution ou de recouvrement et repérer l'urgence
+  <br>Annexes : [controles.py](03-nouveaux-domaines/suites/enf-001-annexes/controles.py) · [A01-errors.txt](03-nouveaux-domaines/suites/enf-001-annexes/executions/A01-errors.txt) · [A01.jsonl](03-nouveaux-domaines/suites/enf-001-annexes/executions/A01.jsonl) · [A01.md](03-nouveaux-domaines/suites/enf-001-annexes/executions/A01.md) · [package.json](03-nouveaux-domaines/suites/enf-001-annexes/executions/package.json) · [results.json](03-nouveaux-domaines/suites/enf-001-annexes/executions/results.json) · [fixtures.json](03-nouveaux-domaines/suites/enf-001-annexes/fixtures.json) · [recette.py](03-nouveaux-domaines/suites/enf-001-annexes/recette.py) · [validation.json](03-nouveaux-domaines/suites/enf-001-annexes/validation.json) · [verification.md](03-nouveaux-domaines/suites/enf-001-annexes/verification.md)
 - [TRAV-001](01-pilote-travail/suites/trav-001-qualification-relation.md) — **À vérifier** · P2 · Qualifier une relation de travail proposée
   <br>Annexes : [trav-001-pieces-fictives.md](01-pilote-travail/suites/trav-001-annexes/trav-001-pieces-fictives.md) · [trav-001-resultats.json](01-pilote-travail/suites/trav-001-annexes/trav-001-resultats.json) · [trav-001-sorties.md](01-pilote-travail/suites/trav-001-annexes/trav-001-sorties.md) · [trav-001-sources-lues.json](01-pilote-travail/suites/trav-001-annexes/trav-001-sources-lues.json) · [trav-001-verification.md](01-pilote-travail/suites/trav-001-annexes/trav-001-verification.md)
 
@@ -889,11 +891,10 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>ENF</b> — Commissaires de justice et exécution (03 — Nouveaux domaines) : 20 à faire, 0 prêtes</summary>
+<summary><b>ENF</b> — Commissaires de justice et exécution (03 — Nouveaux domaines) : 19 à faire, 0 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [ENF-001](03-nouveaux-domaines/suites/enf-001-lire-acte.md) | Lire un acte d'exécution ou de recouvrement et repérer l'urgence | P2 | BASE-008 |
 | [ENF-002](03-nouveaux-domaines/suites/enf-002-relance-recouvrement.md) | Répondre à une relance de recouvrement amiable | P2 | ENF-001 |
 | [ENF-003](03-nouveaux-domaines/suites/enf-003-controler-decompte.md) | Contrôler le décompte d'un acte d'exécution | P2 | ENF-001 |
 | [ENF-004](03-nouveaux-domaines/suites/enf-004-saisie-compte.md) | S'orienter face à une saisie sur compte bancaire | P2 | ENF-001 |

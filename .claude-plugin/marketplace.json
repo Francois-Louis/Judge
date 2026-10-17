@@ -123,6 +123,15 @@
       "author": {
         "name": "Judge FR/UE maintainers"
       }
+    },
+    {
+      "name": "judge-fr-eu-enforcement-legal",
+      "description": "Judge FR/UE 0.1.0 : lire un acte d'exécution ou de recouvrement, vérifier l'authenticité, repérer l'urgence et préparer les questions utiles. Un skill sans profil, calcul de délai, recours rédigé, envoi ni promesse de suspension.",
+      "author": {
+        "name": "Judge FR/UE maintainers"
+      },
+      "displayName": "Judge FR/UE — Exécution et recouvrement",
+      "source": "./enforcement-legal"
     }
   ],
   "version": "0.1.0"

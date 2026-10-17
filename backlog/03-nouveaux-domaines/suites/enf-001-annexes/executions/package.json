@@ -1,0 +1,15 @@
+{
+  "CLAUDE.md": "bd4764fbc7ea15ddf31307e2d9b278b8e2c711ca5031bf45a5c3c905760bab51",
+  "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "NOTICE": "027da7d7bf5042bc27fbc5b5dcd550bd7a733f165e64a30996be13a42d25acc7",
+  "README.md": "0702b8fb8e02570a8488a26fd037b58a380b19c0a29d1356c0ff83440463b69b",
+  ".claude-plugin/plugin.json": "1fb5a82a19e032b2e2e2f831c7934d727843c660bc9ba126e1f6a5daf7c4a984",
+  "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+  "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+  "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+  "references/qualification-acte.md": "f42a77d7a03abe9ab8e374e866001869f98fda1e4448ac21a324df16f289cbc3",
+  "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+  "references/shared/research-citation-method.md": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+  "skills/enforcement-act-reading/SKILL.md": "f76697487fa24279746667ec9c629c0c2cd2371651915a45a148a5edab4a71a8",
+  "skills/enforcement-act-reading/references/lecture-acte.md": "542cbf64a4d13bdd1b92e0c00ad126a9596f69963144397b4533afb2260d4253"
+}

@@ -1,0 +1,94 @@
+{
+  "copies": {
+    "LICENSE": {
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "artifact_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "identical": true
+    },
+    "scripts/judge_store.py": {
+      "source_sha256": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+      "artifact_sha256": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+      "identical": true
+    },
+    "references/isolation.md": {
+      "source_sha256": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+      "artifact_sha256": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+      "identical": true
+    },
+    "references/company-profile-template.md": {
+      "source_sha256": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+      "artifact_sha256": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+      "identical": true
+    },
+    "references/dashboard-template.md": {
+      "source_sha256": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+      "artifact_sha256": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+      "identical": true
+    },
+    "references/shared/research-citation-method.md": {
+      "source_sha256": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+      "artifact_sha256": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+      "identical": true
+    }
+  },
+  "checks": {
+    "package": {
+      "returncode": 2,
+      "output": "A_RELIRE references/company-profile-template.md: modèle partagé : /cold-start-interview absent ; vérifier que le parcours ne charge pas ce modèle\nA_RELIRE references/dashboard-template.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/<domain>/outputs/dashboard-<topic>-<date>.html\nA_RELIRE references/isolation.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/\nSTRUCTURE INCOMPLET: 9 fichiers Markdown; contrôle statique borné\nSCHEMA CLI: <home>\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe (--claude)\nValidating plugin manifest: <workspace>\\enforcement-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <workspace>\\enforcement-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\ni Advice (does not change the verdict):\n\n  > <workspace>\\enforcement-legal\\README.md: This README has no line that installs \"judge-fr-eu-enforcement-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-enforcement-legal --marketplace <owner>/<repo>\n\n√ Validation passed with warnings\nSCHEMA OK: code 0\nEXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE\n"
+    },
+    "marketplace_schema": {
+      "returncode": 0,
+      "output": "Validating marketplace manifest: <workspace>\\maintenance\\.claude-plugin\\marketplace.json\n\n√ Validation passed\n"
+    },
+    "source_reviews": {
+      "returncode": 0,
+      "output": "{\n  \"plugin\": \"enforcement-legal\",\n  \"depuis\": \"2026-10-17\",\n  \"errors\": [],\n  \"reviews\": 6\n}\n"
+    },
+    "isolation": {
+      "returncode": 0,
+      "output": "test_five_cookbooks_outputs_audit_and_separate_deployments (__main__.CookbookStorage.test_five_cookbooks_outputs_audit_and_separate_deployments) ... ok\ntest_orchestrator_audit_and_report_paths (__main__.CookbookStorage.test_orchestrator_audit_and_report_paths) ... skipped 'jsonschema absent: orchestrator test not executed'\ntest_all_documented_qualified_commands_resolve (__main__.MigratedPackages.test_all_documented_qualified_commands_resolve) ... ok\ntest_all_entrypoints_load_boundary_and_no_legacy_access (__main__.MigratedPackages.test_all_entrypoints_load_boundary_and_no_legacy_access) ... ok\ntest_detached_package_structure (__main__.MigratedPackages.test_detached_package_structure) ... ok\ntest_guard_refuses_traversal_windows_paths_and_existing_destinations (__main__.MigratedPackages.test_guard_refuses_traversal_windows_paths_and_existing_destinations) ... ok\ntest_hard_links_refused (__main__.MigratedPackages.test_hard_links_refused) ... ok\ntest_hub_lifecycle_leaves_original_and_durable_data_untouched (__main__.MigratedPackages.test_hub_lifecycle_leaves_original_and_durable_data_untouched) ... ok\ntest_hub_local_edits_and_backup_collision_preserved (__main__.MigratedPackages.test_hub_local_edits_and_backup_collision_preserved) ... ok\ntest_hub_refuses_existing_destination_unknown_skill_and_original_log (__main__.MigratedPackages.test_hub_refuses_existing_destination_unknown_skill_and_original_log) ... ok\ntest_hub_rejects_forged_logged_path_and_changed_backup (__main__.MigratedPackages.test_hub_rejects_forged_logged_path_and_changed_backup) ... ok\ntest_manifest_contract_and_137_skill_names (__main__.MigratedPackages.test_manifest_contract_and_137_skill_names) ... ok\ntest_real_storage_cli_all_domains_and_missing_cache_trap (__main__.MigratedPackages.test_real_storage_cli_all_domains_and_missing_cache_trap) ... ok\ntest_shared_profile_and_package_update_rollback_preserve_data (__main__.MigratedPackages.test_shared_profile_and_package_update_rollback_preserve_data) ... ok\ntest_symbolic_links_refused (__main__.MigratedPackages.test_symbolic_links_refused) ... skipped \"OS cannot create a symbolic link: [WinError 1314] Le client ne dispose pas d’un privilège nécessaire: 'C:\\\\\\\\Users\\\\\\\\fltou\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\judge-base008-home-e0s6ed8u\\\\\\\\outside' -> 'C:\\\\\\\\Users\\\\\\\\fltou\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\judge-base008-home-e0s6ed8u\\\\\\\\fork\\\\\\\\linked'\"\ntest_windows_junctions_refused (__main__.MigratedPackages.test_windows_junctions_refused) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 33.296s\n\nOK (skipped=2)\n"
+    },
+    "tool_scope": {
+      "returncode": 0,
+      "output": "  ✓ diligence-grid           orchestrator tool scope clean\n  ✓ docket-watcher           orchestrator tool scope clean\n  ✓ launch-radar             orchestrator tool scope clean\n  ✓ reg-monitor              orchestrator tool scope clean\n  ✓ renewal-watcher          orchestrator tool scope clean\n"
+    },
+    "version_bump": {
+      "returncode": 0,
+      "output": "OK   criminal-legal: new plugin at 0.1.0\nOK   enforcement-legal: new plugin at 0.1.0\nOK   funeral-legal: new plugin at 0.1.0\nVersion bump check passed against origin/main.\n"
+    }
+  },
+  "isolation_marketplace_plugins": [
+    "judge-fr-eu-commercial-legal",
+    "judge-fr-eu-privacy-legal",
+    "judge-fr-eu-product-legal",
+    "judge-fr-eu-corporate-legal",
+    "judge-fr-eu-employment-legal",
+    "judge-fr-eu-regulatory-legal",
+    "judge-fr-eu-ai-governance-legal",
+    "judge-fr-eu-litigation-legal",
+    "judge-fr-eu-law-student",
+    "judge-fr-eu-legal-builder-hub",
+    "judge-fr-eu-ip-legal",
+    "judge-fr-eu-banking-legal",
+    "judge-fr-eu-consumer-legal",
+    "judge-fr-eu-enforcement-legal"
+  ],
+  "artifact_inventory": {
+    "CLAUDE.md": "bd4764fbc7ea15ddf31307e2d9b278b8e2c711ca5031bf45a5c3c905760bab51",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "027da7d7bf5042bc27fbc5b5dcd550bd7a733f165e64a30996be13a42d25acc7",
+    "README.md": "0702b8fb8e02570a8488a26fd037b58a380b19c0a29d1356c0ff83440463b69b",
+    ".claude-plugin/plugin.json": "1fb5a82a19e032b2e2e2f831c7934d727843c660bc9ba126e1f6a5daf7c4a984",
+    "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "references/qualification-acte.md": "f42a77d7a03abe9ab8e374e866001869f98fda1e4448ac21a324df16f289cbc3",
+    "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "references/shared/research-citation-method.md": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+    "skills/enforcement-act-reading/SKILL.md": "f76697487fa24279746667ec9c629c0c2cd2371651915a45a148a5edab4a71a8",
+    "skills/enforcement-act-reading/references/lecture-acte.md": "542cbf64a4d13bdd1b92e0c00ad126a9596f69963144397b4533afb2260d4253"
+  },
+  "archive_sha256": "7aa05fb454b889828ef7a6e8598d1201a02b34a599b179e2361877ed30c31407",
+  "artifact_path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-enf001-check-fchtpw5b\\enforcement-legal",
+  "archive_path": "C:\\Users\\fltou\\AppData\\Local\\Temp\\judge-enf001-check-fchtpw5b\\enforcement-legal-0.1.0.zip"
+}
