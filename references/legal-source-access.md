@@ -99,6 +99,49 @@ Les données consolidées et les reproductions ne remplacent pas une publication
 authentifiée lorsqu'elle est nécessaire : conserver les métadonnées, relations
 et références de publication. La récupération n'établit pas l'applicabilité.
 
+## Versions futures et fin de vigueur d'un article du Code du travail
+
+Ajout du 17 octobre 2026. Le Code du travail numérique ne montre que la
+version en vigueur, et ses pages contiennent plusieurs identifiants LEGIARTI
+(articles liés, anciennes versions) : l'identifiant de l'article ne s'en déduit
+pas. Légifrance refuse les requêtes scriptées (HTTP 403). `legi-versions` lit
+donc le fonds LEGI de la DILA, sans compte :
+
+```powershell
+python scripts/legal_sources.py --timeout 60 legi-versions L1221-19 L8221-6
+python scripts/legal_sources.py --timeout 60 legi-versions --reference employment-legal/references/hiring-review-fr.md
+```
+
+Sans `--archive`, l'outil lit la liste officielle LEGI, prend le **dernier
+stock complet** (`Freemium_legi_global_*`, 1,1 Go au 13 juillet 2025) puis
+**tous les lots quotidiens publiés après lui**, dans l'ordre. Chaque archive
+est lue en flux ; rien n'est écrit sur le disque. Un article est identifié par
+son chemin et son contexte `LEGITEXT000006072050` (Code du travail), puis par
+son `NUM` : un même numéro dans un autre code est ignoré. Pour chaque version
+publiée, le XML donne `ETAT`, `DATE_DEBUT`, `DATE_FIN` et la liste `VERSIONS`
+de l'article ; la publication la plus récente l'emporte, et les listes de
+suppression des lots retirent les versions supprimées. `--reference` reprend
+les liens `code.travail.gouv.fr/code-du-travail/…` d'une référence métier.
+
+Le JSON donne, par article, toutes les versions connues, la version en vigueur
+à `--date` (aujourd'hui par défaut), les versions futures (début postérieur ou
+`VIGUEUR_DIFF`) et une éventuelle `fin_de_vigueur`. Statuts :
+`sans-version-future-ni-fin`, `version-future`, `fin-de-vigueur`,
+`aucune-version-en-vigueur`, `ambigu` (plusieurs versions en vigueur, à lire)
+et `absent-des-archives-lues`. Chaque archive porte URL, taille, SHA-256,
+nombre de membres et de XML retenus. Si une archive échoue, l'état est
+`unavailable` et aucun article n'est restitué : un lot manquant pourrait
+cacher une version. Limites : 4 Gio compressés par archive, 128 Gio
+décompressés, 20 millions de membres, 2 Mio par XML. La lecture complète
+télécharge environ 3 Go et dure une vingtaine de minutes ; `--archive`
+(répétable, dans l'ordre) restreint la lecture, mais la couverture est alors
+à justifier.
+
+Portée : une modification adoptée mais pas encore intégrée par la DILA, ou
+publiée après le dernier lot, n'est pas couverte ; le statut reste une donnée
+de version, pas une analyse des dispositions transitoires ni du texte, qui
+reste à lire par la voie `travail` ou `dila-read`.
+
 ## API Légifrance : option indisponible pour l'utilisateur
 
 L'[API officielle Légifrance](https://www.data.gouv.fr/dataservices/legifrance)
@@ -152,9 +195,11 @@ documentaire partielle. Les tests OAuth emploient des réponses fictives.
 
 ## Recette observée
 
-- `python scripts/test-legal-sources.py` : 21 tests hors ligne réussis
+- `python scripts/test-legal-sources.py` : 30 tests hors ligne réussis
   (repli, mauvais article, format, corps vide, réseau, redirections, paramètres
-  CELLAR, extraction XML ciblée et absence de fuite des secrets dans les résultats testés).
+  CELLAR, extraction XML ciblée et absence de fuite des secrets dans les résultats testés ;
+  pour `legi-versions` : version future, fin de vigueur, autre code, suppression,
+  lot manquant, choix du stock et des lots, URL refusées et limite de flux).
 - Réseau réel : Légifrance `403` → L2261-2 obtenu sur CDTN (`200`) ; EUR-Lex
   `202` avec écran JavaScript → Rome I obtenu sur CELLAR (`200`).
 - DILA : listes LEGI/KALI/CASS et XML `LEGIARTI000049945125`,

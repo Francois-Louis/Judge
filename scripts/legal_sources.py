@@ -33,6 +33,15 @@ HOSTS = {
     "echanges.dila.gouv.fr",
 }
 FUNDS = ("LEGI", "KALI", "JORF", "CASS", "INCA", "JADE", "CONSTIT", "CNIL", "ACCO")
+CODE_TRAVAIL = "LEGITEXT000006072050"
+OPEN_END = "2999-01-01"
+INACTIVE = {"MODIFIE_MORT_NE", "ANNULE", "DISJOINT"}  # never in force on their dates
+LEGI_ARCHIVE = re.compile(r"https://echanges\.dila\.gouv\.fr/OPENDATA/LEGI/"
+                          r"(?:Freemium_legi_global_|LEGI_)(\d{8}-\d{6})\.tar\.gz")
+LABOUR_ARTICLE = re.compile(r"[LRD]\d+(?:-\d+)+")
+# Streaming bounds for the complete LEGI stock (about 1.1 GB compressed in 2025).
+STREAM_LIMITS = {"compressed": 4 * 1024 ** 3, "members": 20_000_000,
+                 "scanned": 128 * 1024 ** 3, "xml": 2 * 1024 * 1024}
 
 
 def now():
@@ -261,6 +270,197 @@ def dila_read(url, identifier, *, timeout=20, transport=request):
     return output
 
 
+class HashingReader(io.RawIOBase):
+    """Count and hash a downloaded stream; refuse it beyond the compressed limit."""
+
+    def __init__(self, source, limit):
+        self.source, self.limit = source, limit
+        self.size, self.digest = 0, hashlib.sha256()
+
+    def readable(self):
+        return True
+
+    def readinto(self, buffer):
+        data = self.source.read(len(buffer))
+        self.size += len(data)
+        if self.size > self.limit:
+            raise ValueError("Archive exceeds the streaming limit")
+        self.digest.update(data)
+        buffer[:len(data)] = data
+        return len(data)
+
+
+def open_stream(url, *, timeout=20, opener=None):
+    """Open one official archive for streaming; the caller closes it."""
+    check_url(url)
+    req = urllib.request.Request(url, headers={"User-Agent": "Judge-FR-EU-legal-sources/1.0"})
+    response = (opener or urllib.request.build_opener(OfficialRedirects())).open(req, timeout=timeout)
+    if response.status != 200:
+        response.close()
+        raise ValueError("Archive download did not return HTTP 200")
+    return response
+
+
+def legi_archives(*, transport=request, timeout=20):
+    """Latest complete LEGI stock, then every daily delta published after it."""
+    listing = dila_list("LEGI", timeout=timeout, transport=transport)
+    stamped = [(LEGI_ARCHIVE.fullmatch(a["url"]), a["url"]) for a in listing.get("archives", [])]
+    stamped = [(m.group(1), "Freemium" in url, url) for m, url in stamped if m]
+    stocks = sorted(s for s in stamped if s[1])
+    if not stocks:
+        listing["attempts"][0].setdefault("reason", "No complete LEGI stock in the official listing")
+        return listing["attempts"][0], []
+    stock = stocks[-1]
+    deltas = sorted(s for s in stamped if not s[1] and s[0] > stock[0])
+    return listing["attempts"][0], [stock[2]] + [url for _, _, url in deltas]
+
+
+def article_record(xml):
+    """Version metadata of one Code du travail article XML, or None."""
+    root = ET.fromstring(xml)
+    text = root.find("CONTEXTE/TEXTE")
+    if root.tag != "ARTICLE" or text is None or text.get("cid") != CODE_TRAVAIL:
+        return None
+    meta = root.find("META/META_SPEC/META_ARTICLE")
+    record = {"id": root.findtext("META/META_COMMUN/ID", "").strip()}
+    for key in ("NUM", "ETAT", "DATE_DEBUT", "DATE_FIN"):
+        record[key.lower()] = (meta.findtext(key, "") if meta is not None else "").strip()
+    record["num"] = record["num"].replace(" ", "").replace(".", "").upper()
+    record["versions"] = [{"id": link.get("id"), "num": (link.get("num") or "").replace(" ", "").upper(),
+                           "etat": link.get("etat"), "date_debut": link.get("debut"),
+                           "date_fin": link.get("fin")}
+                          for link in root.iterfind("VERSIONS/VERSION/LIEN_ART")]
+    if not re.fullmatch(r"LEGIARTI\d{12}", record["id"]):
+        raise ValueError("Article XML without a valid identifier")
+    return record
+
+
+def scan_legi_archive(url, wanted, store, *, timeout=20, stream=open_stream):
+    """Update store {id: record} from one archive; return the attempt record."""
+    attempt = {"url": url, "attempted_at": now()}
+    marker = f"/{CODE_TRAVAIL}/article/"
+    try:
+        with stream(url, timeout=timeout) as response:
+            reader = HashingReader(response, STREAM_LIMITS["compressed"])
+            seen, deleted, members, scanned = set(), set(), 0, 0
+            with tarfile.open(fileobj=io.BufferedReader(reader, 1024 * 1024), mode="r|gz") as archive:
+                for member in archive:
+                    members += 1
+                    scanned += member.size
+                    if members > STREAM_LIMITS["members"] or scanned > STREAM_LIMITS["scanned"]:
+                        raise ValueError("Archive scan limit exceeded")
+                    if members % 10000 == 0:
+                        archive.members.clear()  # stream mode would keep every header in memory
+                    name = member.name
+                    if member.isfile() and name.endswith("liste_suppression_legi.dat"):
+                        if member.size > 64 * 1024 * 1024:
+                            raise ValueError("Oversized deletion list")
+                        with archive.extractfile(member) as source:
+                            deleted |= {line.rsplit("/", 1)[-1].strip() for line in
+                                        source.read().decode("utf-8").splitlines() if marker in line}
+                    elif member.isfile() and marker in name and name.endswith(".xml"):
+                        if member.size > STREAM_LIMITS["xml"]:
+                            raise ValueError("Oversized article XML")
+                        with archive.extractfile(member) as source:
+                            record = article_record(source.read())
+                        if record and record["num"] in wanted:
+                            record["archive"] = url.rsplit("/", 1)[-1]
+                            store[record["id"]] = record
+                            seen.add(record["id"])
+            # A deletion applies to documents not republished by the same archive.
+            removed = sorted(i for i in deleted - seen if i in store)
+            for identifier in removed:
+                del store[identifier]
+            attempt.update(state="retrieved", http_status=200, retrieved_at=now(),
+                           bytes=reader.size, sha256=reader.digest.hexdigest(),
+                           members=members, matched=len(seen), deleted=removed)
+    except urllib.error.HTTPError as exc:
+        attempt.update(state="http-error", http_status=exc.code)
+    except (OSError, ValueError, EOFError, tarfile.TarError, ET.ParseError, UnicodeError) as exc:
+        attempt.update(state="transport-error", reason=type(exc).__name__)
+    return attempt
+
+
+def article_versions(number, store, on):
+    """Version timeline of one article number as known from the scanned archives."""
+    records = [r for r in store.values() if r["num"] == number]
+    if not records:
+        return {"article": number, "statut": "absent-des-archives-lues", "versions": []}
+    versions = {}
+    # Lists from the most recently published XML first; each XML then confirms its own fields.
+    for record in sorted(records, key=lambda r: r["archive"]):
+        for link in record["versions"]:
+            if link["id"] and (not link["num"] or link["num"] == number):
+                versions[link["id"]] = {**link, "source": "liste VERSIONS"}
+    for record in records:
+        versions[record["id"]] = {key: record[key] for key in ("id", "num", "etat", "date_debut", "date_fin")}
+        versions[record["id"]].update(source="XML de la version", archive=record["archive"])
+    timeline = sorted(versions.values(), key=lambda v: (v["date_debut"] or "", v["id"]))
+    active = [v for v in timeline if v["etat"] not in INACTIVE]
+    current = [v for v in active if v["date_debut"] and v["date_debut"] <= on < (v["date_fin"] or OPEN_END)]
+    future = [v for v in active if (v["date_debut"] or "") > on or v["etat"] == "VIGUEUR_DIFF"]
+    output = {"article": number, "versions": timeline, "en_vigueur": current, "versions_futures": future}
+    if len(current) == 1 and current[0]["date_fin"] not in ("", OPEN_END):
+        output["fin_de_vigueur"] = current[0]["date_fin"]
+    if len(current) > 1:
+        output["statut"] = "ambigu"
+    elif not current:
+        output["statut"] = "aucune-version-en-vigueur"
+    elif future:
+        output["statut"] = "version-future"
+    elif "fin_de_vigueur" in output:
+        output["statut"] = "fin-de-vigueur"
+    else:
+        output["statut"] = "sans-version-future-ni-fin"
+    return output
+
+
+def reference_articles(path):
+    """Labour-code article numbers linked from a Markdown reference."""
+    found = re.findall(r"code\.travail\.gouv\.fr/code-du-travail/([a-z]\d+(?:-\d+)+)",
+                       Path(path).read_text(encoding="utf-8"))
+    return sorted({n.upper() for n in found})
+
+
+def legi_versions(numbers, *, archives=None, on=None, timeout=20, transport=request,
+                  stream=open_stream, progress=None):
+    """Future versions and end dates of Code du travail articles in LEGI open data."""
+    wanted = sorted({n.strip().upper() for n in numbers})
+    if not wanted or not all(LABOUR_ARTICLE.fullmatch(n) for n in wanted):
+        raise ValueError("Expected Code du travail articles, e.g. L1221-19")
+    on = on or datetime.now().date().isoformat()
+    datetime.strptime(on, "%Y-%m-%d")
+    attempts = []
+    if archives is None:
+        listing, archives = legi_archives(transport=transport, timeout=timeout)
+        attempts.append(listing)
+        selection = "Dernier stock LEGI complet et tous les lots quotidiens publiés après lui"
+        if not archives:
+            return result("legi-versions", CODE_TRAVAIL, attempts, None)
+    else:
+        selection = "Archives choisies par l'appelant ; couverture à justifier"
+    if not archives or not all(LEGI_ARCHIVE.fullmatch(url) for url in archives):
+        raise ValueError("Expected official LEGI archive URLs")
+    store, read = {}, 0
+    for url in archives:
+        attempts.append(scan_legi_archive(url, set(wanted), store, timeout=timeout, stream=stream))
+        if progress:
+            progress(f"{read + 1}/{len(archives)} {url.rsplit('/', 1)[-1]} {attempts[-1]['state']}")
+        if attempts[-1]["state"] != "retrieved":
+            break  # a missing delta would hide later versions: no partial answer
+        read += 1
+    output = result("legi-versions", CODE_TRAVAIL, attempts, None)
+    complete = read == len(archives)
+    output.update(
+        state="retrieved" if complete else "unavailable", reference_date=on, selection=selection,
+        coverage=("Versions publiées dans les archives lues seulement : une modification adoptée mais "
+                  "pas encore intégrée par la DILA, ou publiée après le dernier lot, n'est pas couverte."),
+        version_warning="Métadonnées de version ; lire le texte et les dispositions transitoires avant usage.",
+        articles=[article_versions(n, store, on) for n in wanted] if complete else [],
+    )
+    return output
+
+
 def piste(endpoint, body=None, *, sandbox=False, timeout=20, transport=request):
     """Read-only API calls, including POST searches. No tokens on CLI/stdout."""
     if endpoint not in ("search", "consult/getArticle", "consult/legiPart", "list/ping"):
@@ -325,6 +525,12 @@ def main():
     archive = commands.add_parser("dila-read", help="Read one exact XML ID from an official archive up to 8 MiB")
     archive.add_argument("url")
     archive.add_argument("identifier")
+    versions = commands.add_parser("legi-versions", help="Code du travail: future versions and end dates from the LEGI stock and deltas")
+    versions.add_argument("articles", nargs="*", help="Article numbers, e.g. L1221-19")
+    versions.add_argument("--reference", action="append", default=[], type=Path,
+                          help="Markdown reference whose code.travail.gouv.fr links name the articles")
+    versions.add_argument("--archive", action="append", help="Official LEGI archive, in order (default: latest stock and later deltas)")
+    versions.add_argument("--date", help="Reference date AAAA-MM-JJ (default: today)")
     api = commands.add_parser("piste", help="Read-only Legifrance API; credentials from environment")
     api.add_argument("endpoint", choices=("search", "consult/getArticle", "consult/legiPart", "list/ping"))
     api.add_argument("--body", type=Path, help="UTF-8 JSON request body, containing no credentials")
@@ -335,6 +541,12 @@ def main():
             output = dila_list(args.fund, timeout=args.timeout)
         elif args.kind == "dila-read":
             output = dila_read(args.url, args.identifier, timeout=args.timeout)
+        elif args.kind == "legi-versions":
+            numbers = list(args.articles)
+            for path in args.reference:
+                numbers += reference_articles(path)
+            output = legi_versions(numbers, archives=args.archive, on=args.date, timeout=args.timeout,
+                                   progress=lambda line: print(line, file=sys.stderr, flush=True))
         elif args.kind == "piste":
             if args.endpoint != "list/ping" and not args.body:
                 parser.error("--body is required for this endpoint")

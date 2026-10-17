@@ -52,7 +52,9 @@ For legal research during maintenance/adaptation, follow
 JavaScript challenge or empty 202 is not a reason to stop all research. Use
 `python scripts/legal_sources.py travail <article> --legifrance-id <id>` for
 the official labour-code reproduction, or `python scripts/legal_sources.py eu
-<CELEX>` for EUR-Lex/CELLAR. Record each route and read the actual text/version;
+<CELEX>` for EUR-Lex/CELLAR. `legi-versions <article>... | --reference <file>`
+reports future versions and end dates of labour-code articles from the LEGI
+stock and every later daily delta (about 3 GB, run in the background). Record each route and read the actual text/version;
 transport success does not certify legal applicability. For other French
 sources, `dila-list <FUND>` and `dila-read <archive-url> <exact-id>` provide
 public DILA archives/XML without an API subscription (bounded single-archive

@@ -105,3 +105,15 @@ no reference content version changed.
   README.md
   references/hiring-review-fr.md
   references/worker-classification-fr.md
+
+BASE-014 follow-up (2026-10-17): version 0.3.3. The 52 labour-code articles
+of both references were re-read in the DILA LEGI stock and every later daily
+delta (legal_sources.py legi-versions). L8222-2 has an adopted future version
+(loi n° 2026-534 du 25 juin 2026, art. 95; in force by 26 December 2026 at the
+latest) extending joint liability to new article L8222-1-1: integrated in
+worker-classification-fr.md 1.1.0. No other future version or end date found.
+  .claude-plugin/plugin.json
+  NOTICE
+  README.md
+  references/hiring-review-fr.md
+  references/worker-classification-fr.md

@@ -1,9 +1,10 @@
 # Validation d'une adaptation de skill et de son plugin — BASE-006
 
-Version `1.3.0` — 17 octobre 2026 (Europe/Paris). La 1.1.0 ajoute le
+Version `1.3.1` — 17 octobre 2026 (Europe/Paris). La 1.1.0 ajoute le
 contrôle au regard du protocole d'orientation USAGE-001 (USAGE-003) ; la 1.2.0
 permet de désigner le binaire `claude` hors du PATH (BASE-012) ; la 1.3.0
-impose la relecture datée des sources embarquées avant chaque lot (BASE-014).
+impose la relecture datée des sources embarquées avant chaque lot (BASE-014) ;
+la 1.3.1 désigne la voie LEGI des versions futures du Code du travail.
 
 Cette recette s'applique à un lot borné selon le
 [contrat BASE-003](../backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md)
@@ -211,9 +212,11 @@ rédaction. La date de rédaction ne remplace jamais cette relecture.
    ou Légifrance, archives quotidiennes LEGI de la DILA pour les modifications
    publiées depuis la lecture précédente, CELLAR (document et requête SPARQL
    des actes modificatifs et rectificatifs) pour l'Union.
-2. Rechercher dispositions transitoires, versions futures déjà adoptées
-   (Légifrance ; le Code du travail numérique ne les montre pas) et décisions
-   nouvelles utiles connues. Une recherche jurisprudentielle exhaustive n'est
+2. Rechercher dispositions transitoires, versions futures déjà adoptées et
+   dates de fin de vigueur (Code du travail : `legal_sources.py legi-versions`
+   sur le stock LEGI et ses lots quotidiens ; autres textes : Légifrance, le
+   Code du travail numérique ne les montrant pas) et décisions nouvelles
+   utiles connues. Une recherche jurisprudentielle exhaustive n'est
    pas exigée. Toute recherche non faite est écrite dans la référence.
 3. Consigner dans la colonne `Relecture` du tableau de sources :
    `AAAA-MM-JJ · issue · voie[ · précision]`, l'issue étant `inchangee`,

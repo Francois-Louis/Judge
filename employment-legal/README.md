@@ -3,10 +3,11 @@
 <!-- Modified by Judge FR/UE for TRAV-001 (2026-10-17): version 0.3.0, worker-classification adapted. -->
 <!-- Modified by Judge FR/UE for BASE-013 (2026-10-17): version 0.3.1, closing scope sentence. -->
 <!-- Modified by Judge FR/UE for BASE-014 (2026-10-17): version 0.3.2, source review dates. -->
+<!-- Modified by Judge FR/UE for BASE-014 follow-up (2026-10-17): version 0.3.3, LEGI version review. -->
 
 # Judge FR/UE — revue d'embauche et qualification d'une relation
 
-Version du plugin **0.3.2**. Deux tâches sont réécrites pour la France.
+Version du plugin **0.3.3**. Deux tâches sont réécrites pour la France.
 Chaque note se termine par une phrase courte : elle aide à comprendre et à
 préparer, sans remplacer l'avis d'un avocat ou d'un juriste en droit du
 travail ; un renfort ouvre la note si une signature ou une réponse presse
@@ -82,7 +83,7 @@ risques sans chiffrage, les pièces à demander et l'interlocuteur. **Elle ne
 choisit pas le statut.** Une relation déjà commencée reçoit une orientation
 distincte, sans analyse rétrospective. Emploi public, territoires non couverts,
 travail transfrontalier, plateformes et métiers à présomption de salariat
-sont orientés. Repères embarqués : [qualification d'une relation 1.0.0](references/worker-classification-fr.md).
+sont orientés. Repères embarqués : [qualification d'une relation 1.1.0](references/worker-classification-fr.md).
 Hors champ : contrat complet, audit du passé, cotisations et impôts chiffrés.
 Exécuté le 17 octobre 2026 sur trois pièces fictives dans un client réel non
 isolé ; aucun lecteur non juriste ni relecture juridique indépendante.
@@ -93,11 +94,13 @@ isolé ; aucun lecteur non juriste ni relecture juridique indépendante.
   profils ou sorties persistantes ; voir [la frontière de stockage](references/isolation.md).
 - Les références nécessaires sont embarquées : [méthode BASE-005 1.1.0](references/shared/research-citation-method.md),
   [repères d'embauche France 1.0.0](references/hiring-review-fr.md) et
-  [qualification d'une relation 1.0.0](references/worker-classification-fr.md).
+  [qualification d'une relation 1.1.0](references/worker-classification-fr.md).
   Le parcours reprend USAGE-001 1.0.0 dans ses propres instructions.
   Chaque source de ces repères porte sa date et son issue de relecture
   avant livraison (colonne « Relecture », BASE-014) ; dernière relecture
-  le 17 octobre 2026, aucune modification constatée.
+  le 17 octobre 2026, versions recherchées dans le fonds LEGI de la DILA :
+  L8222-2 a une version future (au plus tard le 26 décembre 2026), intégrée
+  aux repères de qualification 1.1.0 ; aucune autre version future ni fin.
 - Lecture de sources officielles par les outils disponibles dans la session,
   sans connecteur spécifique ni abonnement API obligatoire. Leur disponibilité
   doit être observée. Si une source manque, la conclusion concernée reste

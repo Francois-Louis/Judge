@@ -574,3 +574,24 @@ no change found. No legal rule changed.
   scripts/source_reviews.py (new)
   scripts/test-base008-isolation.py
   scripts/test-source-reviews.py (new)
+
+BASE-014 follow-up (2026-10-17): labour-code version route. The maintenance
+tool legal_sources.py gains `legi-versions`: future versions and end dates of
+Code du travail articles from the latest DILA LEGI stock and every later daily
+delta, without an API subscription; offline tests added. BASE-006 recipe
+1.3.1 names this route. employment-legal 0.3.3: the 52 cited articles were
+re-read by this route; the adopted future version of L8222-2 (in force by
+26 December 2026) is integrated in worker-classification-fr.md 1.1.0.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  NOTICE
+  employment-legal/.claude-plugin/plugin.json
+  employment-legal/NOTICE
+  employment-legal/README.md
+  employment-legal/references/hiring-review-fr.md
+  employment-legal/references/worker-classification-fr.md
+  references/legal-source-access.md
+  references/package-validation.md
+  scripts/legal_sources.py
+  scripts/test-base008-isolation.py
+  scripts/test-legal-sources.py

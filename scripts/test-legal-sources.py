@@ -184,6 +184,129 @@ class OfficialSourcesTests(unittest.TestCase):
         self.assertEqual(result["state"], "unavailable")
         self.assertNotIn("SECRET", json.dumps(result))
 
+    STOCK = "https://echanges.dila.gouv.fr/OPENDATA/LEGI/Freemium_legi_global_20250713-140000.tar.gz"
+    DELTA = "https://echanges.dila.gouv.fr/OPENDATA/LEGI/LEGI_20260601-210000.tar.gz"
+
+    @staticmethod
+    def legi_article(identifier, num, etat, debut, fin, versions=(), cid="LEGITEXT000006072050"):
+        links = "".join(f'<VERSION etat="{e}"><LIEN_ART debut="{d}" etat="{e}" fin="{f}" id="{i}" num="{num}" origine="LEGI"/></VERSION>'
+                        for i, e, d, f in versions)
+        return (f'<ARTICLE><META><META_COMMUN><ID>{identifier}</ID></META_COMMUN><META_SPEC><META_ARTICLE>'
+                f'<NUM>{num}</NUM><ETAT>{etat}</ETAT><DATE_DEBUT>{debut}</DATE_DEBUT><DATE_FIN>{fin}</DATE_FIN>'
+                f'</META_ARTICLE></META_SPEC></META><CONTEXTE><TEXTE cid="{cid}"/></CONTEXTE>'
+                f'<VERSIONS>{links}</VERSIONS></ARTICLE>').encode()
+
+    @staticmethod
+    def legi_archive(members):
+        buffer = io.BytesIO()
+        with tarfile.open(fileobj=buffer, mode="w:gz") as archive:
+            for name, data in members:
+                member = tarfile.TarInfo(name)
+                member.size = len(data)
+                archive.addfile(member, io.BytesIO(data))
+        return buffer.getvalue()
+
+    @staticmethod
+    def path(identifier, text="LEGITEXT000006072050"):
+        return f"x/legi/global/code_et_TNC_en_vigueur/code_en_vigueur/LEGI/TEXT/{text}/article/LEGI/ARTI/{identifier}.xml"
+
+    def streams(self, archives):
+        def stream(url, **kwargs):
+            if archives[url] is None:
+                raise TimeoutError("timed out")
+            return io.BytesIO(archives[url])
+        return stream
+
+    def test_legi_delta_reveals_future_version_and_end_of_current(self):
+        old = ("LEGIARTI000000000001", "VIGUEUR", "2008-05-01", "2999-01-01")
+        stock = self.legi_archive([(self.path(old[0]), self.legi_article(old[0], "L1221-19", *old[1:], versions=[old]))])
+        new = ("LEGIARTI000000000002", "VIGUEUR_DIFF", "2027-01-01", "2999-01-01")
+        ended = ("LEGIARTI000000000001", "VIGUEUR", "2008-05-01", "2027-01-01")
+        delta = self.legi_archive([
+            (self.path(new[0]), self.legi_article(new[0], "L1221-19", *new[1:], versions=[ended, new])),
+            (self.path(old[0]), self.legi_article(old[0], "L1221-19", *ended[1:], versions=[ended, new])),
+        ])
+        output = sources.legi_versions(["l1221-19"], archives=[self.STOCK, self.DELTA], on="2026-10-17",
+                                       stream=self.streams({self.STOCK: stock, self.DELTA: delta}))
+        self.assertEqual(output["state"], "retrieved")
+        article = output["articles"][0]
+        self.assertEqual(article["statut"], "version-future")
+        self.assertEqual(article["fin_de_vigueur"], "2027-01-01")
+        self.assertEqual([v["id"] for v in article["versions_futures"]], [new[0]])
+        self.assertEqual(output["attempts"][1]["matched"], 2)
+        self.assertEqual(len(output["attempts"][1]["sha256"]), 64)
+        self.assertEqual((output["documentary_status"], output["applicability"]), ("non-verifie", "a-etablir"))
+
+    def test_legi_scheduled_abrogation_is_an_end_date(self):
+        row = ("LEGIARTI000000000003", "ABROGE_DIFF", "2016-08-10", "2027-03-01")
+        archive = self.legi_archive([(self.path(row[0]), self.legi_article(row[0], "L3121-27", *row[1:], versions=[row]))])
+        output = sources.legi_versions(["L3121-27"], archives=[self.STOCK], on="2026-10-17",
+                                       stream=self.streams({self.STOCK: archive}))
+        self.assertEqual(output["articles"][0]["statut"], "fin-de-vigueur")
+        self.assertEqual(output["articles"][0]["fin_de_vigueur"], "2027-03-01")
+
+    def test_legi_same_number_in_another_code_is_ignored(self):
+        row = ("LEGIARTI000000000004", "VIGUEUR_DIFF", "2027-01-01", "2999-01-01")
+        current = ("LEGIARTI000000000005", "VIGUEUR", "2008-05-01", "2999-01-01")
+        archive = self.legi_archive([
+            (self.path(row[0], "LEGITEXT000006073189"), self.legi_article(row[0], "L1221-1", *row[1:], cid="LEGITEXT000006073189")),
+            (self.path(row[0] + "9"), self.legi_article(row[0], "L1221-1", *row[1:], cid="LEGITEXT000006073189")),
+            (self.path(current[0]), self.legi_article(current[0], "L1221-1", *current[1:], versions=[current])),
+        ])
+        output = sources.legi_versions(["L1221-1"], archives=[self.STOCK], on="2026-10-17",
+                                       stream=self.streams({self.STOCK: archive}))
+        self.assertEqual(output["articles"][0]["statut"], "sans-version-future-ni-fin")
+        self.assertEqual([v["id"] for v in output["articles"][0]["versions"]], [current[0]])
+
+    def test_legi_deletion_list_removes_withdrawn_version(self):
+        row = ("LEGIARTI000000000006", "VIGUEUR_DIFF", "2027-01-01", "2999-01-01")
+        stock = self.legi_archive([(self.path(row[0]), self.legi_article(row[0], "L8221-6", *row[1:]))])
+        delta = self.legi_archive([("x/liste_suppression_legi.dat",
+                                    b"legi/global/code_et_TNC_en_vigueur/code_en_vigueur/LEGI/TEXT/LEGITEXT000006072050/article/LEGI/ARTI/" + row[0].encode() + b"\n")])
+        output = sources.legi_versions(["L8221-6"], archives=[self.STOCK, self.DELTA], on="2026-10-17",
+                                       stream=self.streams({self.STOCK: stock, self.DELTA: delta}))
+        self.assertEqual(output["attempts"][1]["deleted"], [row[0]])
+        self.assertEqual(output["articles"][0]["statut"], "absent-des-archives-lues")
+
+    def test_legi_missing_delta_gives_no_partial_answer(self):
+        row = ("LEGIARTI000000000007", "VIGUEUR", "2008-05-01", "2999-01-01")
+        stock = self.legi_archive([(self.path(row[0]), self.legi_article(row[0], "L1221-1", *row[1:]))])
+        output = sources.legi_versions(["L1221-1"], archives=[self.STOCK, self.DELTA], on="2026-10-17",
+                                       stream=self.streams({self.STOCK: stock, self.DELTA: None}))
+        self.assertEqual(output["state"], "unavailable")
+        self.assertEqual(output["articles"], [])
+        self.assertEqual(output["attempts"][-1]["state"], "transport-error")
+
+    def test_legi_selects_latest_stock_and_later_deltas(self):
+        html = "".join(f'<a href="{n}">{n}</a>' for n in (
+            "Freemium_legi_global_20240101-000000.tar.gz", "Freemium_legi_global_20250713-140000.tar.gz",
+            "LEGI_20250712-211706.tar.gz", "LEGI_20261016-213852.tar.gz", "LEGI_20250713-205013.tar.gz"))
+        _, archives = sources.legi_archives(transport=lambda *a, **k: response(html))
+        self.assertEqual([a.rsplit("/", 1)[-1] for a in archives], [
+            "Freemium_legi_global_20250713-140000.tar.gz", "LEGI_20250713-205013.tar.gz", "LEGI_20261016-213852.tar.gz"])
+        output = sources.legi_versions(["L1221-1"], transport=lambda *a, **k: response("<a href='LEGI_20261016-213852.tar.gz'>x</a>"),
+                                       stream=lambda *a, **k: self.fail("network call"))
+        self.assertEqual(output["state"], "unavailable")
+
+    def test_legi_refuses_untrusted_archives_and_articles(self):
+        for archives, numbers in (([self.STOCK.replace("LEGI/", "KALI/")], ["L1221-1"]),
+                                  (["https://example.com/LEGI_20261016-213852.tar.gz"], ["L1221-1"]),
+                                  ([self.STOCK], ["../secret"]), ([self.STOCK], [])):
+            with self.subTest(archives=archives, numbers=numbers), self.assertRaises(ValueError):
+                sources.legi_versions(numbers, archives=archives, stream=lambda *a, **k: self.fail("network call"))
+
+    def test_legi_stream_limit_is_enforced(self):
+        reader = sources.HashingReader(io.BytesIO(b"x" * 10), 5)
+        with self.assertRaises(ValueError):
+            reader.read(10)
+
+    def test_reference_articles_reads_labour_code_links(self):
+        path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "employment-legal",
+                            "references", "hiring-review-fr.md")
+        numbers = sources.reference_articles(path)
+        self.assertIn("L1221-19", numbers)
+        self.assertTrue(all(sources.LABOUR_ARTICLE.fullmatch(n) for n in numbers))
+
     def test_hidden_scripts_do_not_supply_expected_passage(self):
         text, _ = sources.extract_text("<script>fake law</script><p>real content</p>")
         self.assertEqual(text, "real content")
