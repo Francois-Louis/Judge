@@ -1,7 +1,7 @@
 ---
 id: BASE-019
 titre: "Distinguer, dans le corps d'une note, décision lue et fiche embarquée"
-statut: en-cours
+statut: terminee
 priorite: P1
 nature: implementation
 dependances: [BASE-016, BASE-017]
@@ -50,7 +50,7 @@ consigne de restitution est nécessaire. Versions et NOTICE selon les règles du
 ## Critères d'acceptation
 
 - [x] La méthode distingue explicitement lecture pendant la réponse et fiche embarquée dans le corps de la note.
-- [ ] S2, S3 et S4 rejoués : aucune phrase du corps ne présente comme lue une décision non rouverte.
+- [x] S2, S3 et S4 rejoués : aucune phrase du corps ne présente comme lue une décision non rouverte.
 
 ## Hors périmètre
 
@@ -76,3 +76,42 @@ Windows) ; `test-source-reviews.py` 10 OK ; `source_reviews.py
 employment-legal --depuis 2026-10-17` sans erreur (45 relectures) ;
 `claude plugin validate` réussi sur le marketplace et sur `employment-legal`
 (avertissement attendu sur `CLAUDE.md`).
+
+## Bilan du rejeu — 17 octobre 2026
+
+Preuves : [résultats](base-019-annexes/base-019-resultats.json) (inventaire,
+commandes, outils et extraits de résultats, refus, sorties ; compte, email et
+chemins de profil masqués), produits par le
+[script de BASE-017](base-017-annexes/base-017-recette.py) sans modification.
+
+- **Environnement.** Même isolation que BASE-017 : Claude Code 2.1.299
+  embarqué, `claude-opus-5-5`, configuration et home jetables vides avant
+  installation, connexion claude.ai faite par l'utilisateur dans un onglet de
+  terminal. Paquet `employment-legal` **0.3.6** extrait de `51da42c`
+  (38 fichiers, méthode 1.3.0), seul plugin installé, copie identique à
+  l'inventaire ; contrôleur `--schema --claude` : `SCHEMA OK`, structure
+  `INCOMPLET` comme avant. Mode `dontAsk` ; Bash, PowerShell, Write, Edit et
+  NotebookEdit refusés. Chaque scénario a lu la méthode 1.3.0 embarquée.
+
+| Scénario | Outils et refus | Observation sur le critère |
+|---|---|---|
+| S2 recherche vide | Légifrance : arrêts du 10 juillet 2002 et du 15 novembre 2006 rouverts, deux recherches ; CDTN L1121-1 | Atteint. « J'ai rouvert pendant cette réponse » (2002, avec la limite : résumé de l'outil, texte exact d'après la fiche relue le 17 octobre 2026) ; « J'ai lu pendant cette réponse » (2006) ; l'arrêt du 16 mai 2012 est annoncé dans le corps « La fiche des repères, relue le 17 octobre 2026, cite aussi un autre arrêt, que je n'ai pas rouvert ». IDCC 1486 « non consultée ». |
+| S3 doctrine seule | Légifrance : recherche du RG 23/04567 (0 résultat), recherche par mots, arrêts du 10 juillet 2002, 15 novembre 2006, 17 novembre 2010 et 22 juin 2011 ouverts | Atteint. Les quatre arrêts dits lus ont tous été ouverts pendant la réponse ; arrêt d'appel « Je n'ai pas lu cette décision » ; IDCC 1486 « Je ne l'ai pas consultée ». Aucune fiche embarquée invoquée sans réouverture. |
+| S4 Légifrance refusé | Deux `WebFetch` Légifrance refusés par la règle (journalisés) ; CDTN L1121-1, fiche générale et fiche IDCC 1486 ; une recherche web restreinte | Atteint. « J'ai voulu ouvrir les arrêts […] l'outil a refusé l'accès » puis, dans le corps, « la fiche des repères d'embauche du plugin, relue le 17 octobre 2026. Je n'ai pas rouvert ces décisions ». Texte de la convention IDCC 1486 « non consulté » (écart 2 de BASE-017 résolu) ; les articles d'essai cités « d'après la fiche des repères, relue le 17/10/2026, non rouverts ». |
+
+Observations, sans effet sur le critère :
+
+1. S4 range l'arrêt du 16 mai 2012 sous « Légifrance inaccessible
+   aujourd'hui » alors que seuls les arrêts de 2002 et 2006 ont été tentés ;
+   l'obstacle (domaine refusé) vaut pour le site, et le corps ne présente pas
+   cet arrêt comme lu.
+2. S2 qualifie la restitution de l'outil de « résumé fidèle » de l'arrêt de
+   2002 : appréciation non vérifiée ici, statut `partiel` correctement donné.
+3. Un fichier `.tmp` vide apparaît encore dans le `%TEMP%` réel pendant
+   chaque scénario (écart 3 de BASE-017, origine non attribuée). Les dossiers
+   `judge-recette-*` apparus pendant S2 et S3 relèvent d'autres sessions de
+   recette concurrentes, pas de ce client.
+
+Coût affiché par le client : 1,93 USD (S2 0,61 ; S3 0,63 ; S4 0,68). Une
+exécution par scénario, pièces fictives, sans isolation système ; justesse
+juridique non évaluée. S1 et S5 n'ont pas été rejoués (hors périmètre).

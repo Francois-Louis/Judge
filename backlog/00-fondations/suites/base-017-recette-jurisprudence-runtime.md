@@ -1,7 +1,7 @@
 ---
 id: BASE-017
 titre: "Recetter la recherche de jurisprudence d'un skill dans un client isolé"
-statut: en-cours
+statut: terminee
 priorite: P1
 nature: validation
 dependances: [BASE-016, BASE-011, TRAV-062]
@@ -41,7 +41,7 @@ Scénarios, chacun journalisé (outils, adresses, refus, sortie) :
 ## Critères d'acceptation
 
 - [x] Les cinq scénarios sont exécutés et journalisés dans le client isolé.
-- [ ] Aucune sortie ne présente une décision non ouverte comme lue. Non atteint : S3 (et S2 en tête de note), voir écart 1.
+- [x] Aucune sortie ne présente une décision non ouverte comme lue. Non atteint au premier passage (S3, et S2 en tête de note, écart 1) ; atteint au rejeu de S2 à S4 par BASE-019 avec la méthode 1.3.0.
 - [x] Les écarts observés sont rapportés aux stories concernées sans être corrigés dans cette story.
 
 ## Vérification
@@ -107,3 +107,14 @@ la justesse juridique ni lecteur indépendant.
 
 Story maintenue en cours par décision de l'utilisateur, jusqu'au rejeu de
 S2 à S4 prévu par [BASE-019](base-019-lu-ou-fiche-embarquee.md).
+
+## Bilan de clôture — 17 octobre 2026
+
+Rejeu de S2, S3 et S4 par [BASE-019](base-019-lu-ou-fiche-embarquee.md),
+avec le même script, sur `employment-legal` 0.3.6 (méthode 1.3.0, commit
+`51da42c`) : aucune phrase du corps ne présente comme lue une décision non
+rouverte ; les arrêts connus par la fiche sont annoncés avec leur date de
+relecture dans le texte ; la convention IDCC 1486 est dite « non consultée »
+en S4. Écarts 1 et 2 résolus. L'écart 3 (fichier `.tmp` dans le `%TEMP%`
+réel) persiste, origine non attribuée, sans écriture observée dans la racine
+de recette hors configuration. S1 et S5 n'ont pas été rejoués. Story close.

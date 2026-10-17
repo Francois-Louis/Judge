@@ -4,12 +4,12 @@
 
 | Statut | Stories |
 | --- | ---: |
-| En cours | 2 |
+| En cours | 1 |
 | À vérifier | 7 |
 | Bloquée | 0 |
-| Terminée | 47 |
+| Terminée | 49 |
 | Prête | 0 |
-| À faire | 558 |
+| À faire | 557 |
 | Abandonnée | 23 |
 | dont prêtes à démarrer | 184 |
 | Total | 637 |
@@ -20,8 +20,6 @@ Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes
 
 - [BASE-008](00-fondations/base-008-isoler-identite-configurations.md) — **En cours** · P0 · Appliquer l'identité Judge FR/UE et isoler les configurations
   <br>Annexes : [base-008-inventaire-apres.tsv](00-fondations/base-008-annexes/base-008-inventaire-apres.tsv) · [base-008-inventaire-avant.tsv](00-fondations/base-008-annexes/base-008-inventaire-avant.tsv) · [base-008-residus.tsv](00-fondations/base-008-annexes/base-008-residus.tsv) · [base-008-resultats-client.json](00-fondations/base-008-annexes/base-008-resultats-client.json)
-- [BASE-017](00-fondations/suites/base-017-recette-jurisprudence-runtime.md) — **En cours** · P1 · Recetter la recherche de jurisprudence d'un skill dans un client isolé
-  <br>Annexes : [base-017-pieces-fictives.md](00-fondations/suites/base-017-annexes/base-017-pieces-fictives.md) · [base-017-recette.py](00-fondations/suites/base-017-annexes/base-017-recette.py) · [base-017-resultats.json](00-fondations/suites/base-017-annexes/base-017-resultats.json)
 - [BNK-001](03-nouveaux-domaines/suites/bnk-001-contester-paiement.md) — **À vérifier** · P2 · Qualifier un paiement contesté et préparer la réclamation au prestataire
   <br>Annexes : [P01-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P01-errors.txt) · [P01.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P01.jsonl) · [P01.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P01.md) · [P02-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P02-errors.txt) · [P02.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P02.jsonl) · [P02.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P02.md) · [P03-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P03-errors.txt) · [P03.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P03.jsonl) · [P03.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P03.md) · [P04-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P04-errors.txt) · [P04.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P04.jsonl) · [P04.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P04.md) · [P05-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P05-errors.txt) · [P05.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P05.jsonl) · [P05.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P05.md) · [P06-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P06-errors.txt) · [P06.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P06.jsonl) · [P06.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P06.md) · [P07-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P07-errors.txt) · [P07.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P07.jsonl) · [P07.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P07.md) · [P08-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P08-errors.txt) · [P08.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P08.jsonl) · [P08.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P08.md) · [P09-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P09-errors.txt) · [P09.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P09.jsonl) · [P09.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P09.md) · [P10-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P10-errors.txt) · [P10.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P10.jsonl) · [P10.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P10.md) · [P11-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P11-errors.txt) · [P11.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P11.jsonl) · [P11.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P11.md) · [P12-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P12-errors.txt) · [P12.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P12.jsonl) · [P12.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P12.md) · [package.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions/package.json) · [results.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions/results.json) · [fixtures.json](03-nouveaux-domaines/suites/bnk-001-annexes/fixtures.json) · [recette.py](03-nouveaux-domaines/suites/bnk-001-annexes/recette.py) · [validation.json](03-nouveaux-domaines/suites/bnk-001-annexes/validation.json) · [verification.md](03-nouveaux-domaines/suites/bnk-001-annexes/verification.md)
 - [COM-001](02-plugins-existants/suites/com-001-orientation-contrat.md) — **À vérifier** · P2 · Qualifier et orienter une demande sur un contrat
@@ -258,6 +256,10 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [base-015-acces-http.json](00-fondations/base-015-annexes/base-015-acces-http.json) · [base-015-acces-session.json](00-fondations/base-015-annexes/base-015-acces-session.json) · [base-015-decoupage.md](00-fondations/base-015-annexes/base-015-decoupage.md) · [base-015-inventaire-acces.md](00-fondations/base-015-annexes/base-015-inventaire-acces.md) · [base-015-methode-jurisprudence.md](00-fondations/base-015-annexes/base-015-methode-jurisprudence.md) · [base-015-sonde.py](00-fondations/base-015-annexes/base-015-sonde.py) · [base-015-verification.md](00-fondations/base-015-annexes/base-015-verification.md)
 - [BASE-016](00-fondations/suites/base-016-methode-decisions-justice.md) — Intégrer la conduite sur les décisions de justice à la méthode BASE-005
   <br>Annexes : [base-016-verification.md](00-fondations/suites/base-016-annexes/base-016-verification.md)
+- [BASE-017](00-fondations/suites/base-017-recette-jurisprudence-runtime.md) — Recetter la recherche de jurisprudence d'un skill dans un client isolé
+  <br>Annexes : [base-017-pieces-fictives.md](00-fondations/suites/base-017-annexes/base-017-pieces-fictives.md) · [base-017-recette.py](00-fondations/suites/base-017-annexes/base-017-recette.py) · [base-017-resultats.json](00-fondations/suites/base-017-annexes/base-017-resultats.json)
+- [BASE-019](00-fondations/suites/base-019-lu-ou-fiche-embarquee.md) — Distinguer, dans le corps d'une note, décision lue et fiche embarquée
+  <br>Annexes : [base-019-resultats.json](00-fondations/suites/base-019-annexes/base-019-resultats.json)
 - Autres documents : [retrospective-fondations.md](00-fondations/retrospective-fondations.md)
 
 ### 01 — Pilote travail
@@ -345,12 +347,11 @@ Stories à faire dont toutes les dépendances sont terminées.
 ✅ = prête à démarrer. Sinon, la colonne indique les dépendances non terminées.
 
 <details>
-<summary><b>BASE</b> — Fondations (00 — Fondations) : 2 à faire, 1 prêtes</summary>
+<summary><b>BASE</b> — Fondations (00 — Fondations) : 1 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
 | [BASE-018](00-fondations/suites/base-018-lecture-decisions-dila.md) | Lire une décision par son identifiant dans les fonds de jurisprudence DILA | P2 | ✅ |
-| [BASE-019](00-fondations/suites/base-019-lu-ou-fiche-embarquee.md) | Distinguer, dans le corps d'une note, décision lue et fiche embarquée | P1 | BASE-017 |
 
 </details>
 

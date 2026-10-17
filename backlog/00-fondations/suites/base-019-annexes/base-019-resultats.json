@@ -1,0 +1,621 @@
+{
+  "story": "BASE-019",
+  "rejeu_de": "BASE-017 (scénarios S2 à S4, script base-017-annexes/base-017-recette.py)",
+  "date": "2026-10-17",
+  "timezone": "Europe/Paris",
+  "root": "<RECETTE>",
+  "claude": "claude.exe embarqué par l'application desktop",
+  "source_revision": "51da42cb9bdee45eb4d0125df9385e1b40f444db",
+  "model": "claude-opus-5-5",
+  "package": {
+    ".claude-plugin/plugin.json": "a6e5d40d2f397a407df71ac033b04381b44b68ac03e8ea9b266b2b5f3bcc3e9e",
+    ".gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+    ".mcp.json": "bc8eca5209f34144a43ecde0dcc7cd9eeed74f86c6ae4df7f5ba27e27c2bf613",
+    "agents/leave-tracker.md": "5272f550f2e2bc09518df72c76f9960829be081f86e5d8180865b6cba0cc266c",
+    "CLAUDE.md": "a253d8b31a089a867765df5797488d06668bca1e346e2a480cd0891068f3d297",
+    "data/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hooks/hooks.json": "78922a784ee78e9e50587e93628cd3b9d4dfbe49087adc4514e6781cea38cbb9",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "f2798e711761de951414f5357cdf1414b66a14ba67c84d92c1a8d42cd8e28c0c",
+    "README.md": "fccf15a866c26a7113ee0c6ead26b6e6afc2e77dd48341112925a5c077d1bfa0",
+    "references/candidate-preferences.md": "0e822356ca851982c4392c5cb6aacc6be0ee22835e6726512018c50e71c8aa9e",
+    "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "references/hiring-review-fr.md": "54fdf00756094fa0559a8b45c228961b7d7ac9f0058801035f844cce6cde395d",
+    "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "references/shared/research-citation-method.md": "98cac94c8f52feb34fa73c45ff24506f3b3e1b322e4d9ecb1193d9172a5676f5",
+    "references/worker-classification-fr.md": "a8164dd4984b8147b22195678abe032fdc66f8ff2cbcc0e1321f7d2f35988ae6",
+    "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "skills/cold-start-interview/SKILL.md": "61e75d6acd82970e7992c4f6d53faeb060018a5509b28590bcd46701dc4c3ee0",
+    "skills/customize/SKILL.md": "9b7befc41e8d8a3e582f00af30b5291a94e2d5b40a25a05836473684dd2275cc",
+    "skills/expansion-kickoff/SKILL.md": "d9380c6381af98cd75332911cab4c1499c35b6748200635ba09ee577a752042c",
+    "skills/expansion-update/SKILL.md": "cbf7419813711c6b741f31f98b8855306c221ea25be34b5ee72badd0ae8cd50a",
+    "skills/handbook-updates/SKILL.md": "0fa25907f89521d26b09e1d87ad70b2d22b133db7cb287f4b3448d64b2a2a3cc",
+    "skills/hiring-review/SKILL.md": "b3cdbbebbc533e6cfd2e514cc1e9709c23079af5492327c82821d1687a58ef86",
+    "skills/internal-investigation/SKILL.md": "a2629733586e723f3f1301151b26994cba444caed68ca0463a5c8d708747b870",
+    "skills/international-expansion/SKILL.md": "d23a2b706b5d213c34a3cf09fb0205d928abe87b1ef9fa4aef6db14b42c005b7",
+    "skills/investigation-add/SKILL.md": "7e1cdb3e0a17ac1744aaf5649ed4612405d601299653e7c93518c5866ce8be6b",
+    "skills/investigation-memo/SKILL.md": "6e7a4fcac56471b202d37de725a18d4a13fa99fdc6fb265424ba8ad168e8b947",
+    "skills/investigation-open/SKILL.md": "eed8f997933e09e1530678f714d3e98ff85be662e42a0caa96ba912041a2942d",
+    "skills/investigation-query/SKILL.md": "5020badcc24a30cc8aaf604dcba5d34c5cbbc9f617ea17a37a715bb7eb58bc6b",
+    "skills/investigation-summary/SKILL.md": "c94637fd37aa0fb465bd50cfe303131549de8675780295d14265f1d42410a33a",
+    "skills/leave-tracker/SKILL.md": "442762e338d34ac93c0a81513c2cd03e331529db6b6592687d6507119ea4432a",
+    "skills/log-leave/SKILL.md": "321b136138d04e57fb048f96f3f2e2f2b9429e980bc6908e14e9385ebae8b9e7",
+    "skills/matter-workspace/SKILL.md": "7ddfd6905a28693b6e7ba58442dc01c4462f17f294ce46b02fb07dae2cfe7a9b",
+    "skills/policy-drafting/SKILL.md": "c7c6060d12424793854a0c721e2f5e7a7868f83aa3241b7b5eacc0e612f6f4ae",
+    "skills/termination-review/SKILL.md": "799e19e110ee79d4da99a7c6cb5f928c141043c43f23f9e0973d0a4283fdcc57",
+    "skills/wage-hour-qa/SKILL.md": "3fb71f569807838269e4b852ad937217ed752f290eea7694a2c3379ec7bff706",
+    "skills/worker-classification/SKILL.md": "14ca2c1b82f38042c7ffdff9cdc60beffe45a41252ed9475a0b8688ea9ac3f64"
+  },
+  "preflight": {
+    "config_empty": true,
+    "home_empty": true
+  },
+  "commands": [
+    {
+      "args": [
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "2.1.299 (Claude Code)\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "auth",
+        "status"
+      ],
+      "exit_code": 1,
+      "stdout": "{\n  \"loggedIn\": false,\n  \"authMethod\": \"none\",\n  \"apiProvider\": \"firstParty\",\n  \"analyticsDisabled\": false,\n  \"projectsDirectory\": \"<PROFIL>\\\\AppData\\\\Local\\\\Temp\\\\judge-base017-20261017-120002\\\\config\\\\projects\",\n  \"configDirectory\": \"<PROFIL>\\\\AppData\\\\Local\\\\Temp\\\\judge-base017-20261017-120002\\\\config\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "plugin",
+        "marketplace",
+        "add",
+        "<RECETTE>\\market"
+      ],
+      "exit_code": 0,
+      "stdout": "Adding marketplace…✔ Successfully added marketplace: judge-fr-eu (declared in user settings)\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "plugin",
+        "install",
+        "judge-fr-eu-employment-legal@judge-fr-eu"
+      ],
+      "exit_code": 0,
+      "stdout": "Installing plugin \"judge-fr-eu-employment-legal@judge-fr-eu\"...✔ Successfully installed plugin: judge-fr-eu-employment-legal@judge-fr-eu (scope: user)\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "plugin",
+        "list"
+      ],
+      "exit_code": 0,
+      "stdout": "Installed plugins:\n\n  ❯ judge-fr-eu-employment-legal@judge-fr-eu\n    Version: 0.3.6\n    Read from: <RECETTE>\\market\\employment-legal\n    Scope: user\n    Status: ✔ enabled\n\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "auth",
+        "status"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"loggedIn\": true,\n  \"authMethod\": \"claude.ai\",\n  \"apiProvider\": \"firstParty\",\n  \"analyticsDisabled\": false,\n  \"projectsDirectory\": \"<PROFIL>\\\\AppData\\\\Local\\\\Temp\\\\judge-base017-20261017-120002\\\\config\\\\projects\",\n  \"configDirectory\": \"<PROFIL>\\\\AppData\\\\Local\\\\Temp\\\\judge-base017-20261017-120002\\\\config\",\n  \"email\": \"<email>\",\n  \"orgId\": \"<masqué>\",\n  \"orgName\": \"<masqué>\",\n  \"subscriptionType\": \"pro\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "auth",
+        "status"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"loggedIn\": true,\n  \"authMethod\": \"claude.ai\",\n  \"apiProvider\": \"firstParty\",\n  \"analyticsDisabled\": false,\n  \"projectsDirectory\": \"<PROFIL>\\\\AppData\\\\Local\\\\Temp\\\\judge-base017-20261017-120002\\\\config\\\\projects\",\n  \"configDirectory\": \"<PROFIL>\\\\AppData\\\\Local\\\\Temp\\\\judge-base017-20261017-120002\\\\config\",\n  \"email\": \"<email>\",\n  \"orgId\": \"<masqué>\",\n  \"orgName\": \"<masqué>\",\n  \"subscriptionType\": \"pro\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "auth",
+        "status"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"loggedIn\": true,\n  \"authMethod\": \"claude.ai\",\n  \"apiProvider\": \"firstParty\",\n  \"analyticsDisabled\": false,\n  \"projectsDirectory\": \"<PROFIL>\\\\AppData\\\\Local\\\\Temp\\\\judge-base017-20261017-120002\\\\config\\\\projects\",\n  \"configDirectory\": \"<PROFIL>\\\\AppData\\\\Local\\\\Temp\\\\judge-base017-20261017-120002\\\\config\",\n  \"email\": \"<email>\",\n  \"orgId\": \"<masqué>\",\n  \"orgName\": \"<masqué>\",\n  \"subscriptionType\": \"pro\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "installed_copy_matches_inventory": true,
+  "installed_check": [
+    "STRUCTURE INCOMPLET: 30 fichiers Markdown; contrôle statique borné",
+    "SCHEMA CLI: <PROFIL>\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe (--claude)",
+    "✔ Validation passed with warnings",
+    "SCHEMA OK: code 0",
+    "EXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE"
+  ],
+  "scenarios": {
+    "S2": {
+      "scenario": "S2",
+      "prompt": "/judge-fr-eu-employment-legal:hiring-review contrat-K.md\n\nJe ne suis pas juriste. La clause 7 me paie en jetons de l'entreprise : est-ce que ça compte comme contrepartie ? Que dois-je demander ?",
+      "allowed_tools": [
+        "Read",
+        "Glob",
+        "Grep",
+        "Skill",
+        "ToolSearch",
+        "WebFetch",
+        "WebSearch"
+      ],
+      "disallowed_tools": [
+        "Bash",
+        "PowerShell",
+        "Write",
+        "Edit",
+        "NotebookEdit"
+      ],
+      "session_id": "1de17645-96fa-4dfc-9d02-00f32e2f1de6",
+      "exit_code": 0,
+      "result": "success",
+      "duration_s": 105,
+      "cost_usd": 0.612006,
+      "tools": [
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>/market/employment-legal/references/isolation.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t<!-- Added by Judge FR/UE for BASE-008, 2026-10-15. -->\n2\t\n3\t# Judge FR/UE storage boundary — 0.1.0\n4\t\n5\tThis file is packaged with every internal plugin. Load it before any durable\n6\tdata access, including implicit skill triggers and scheduled agents. This\n7\ttechnical migration does not adapt the inherited legal tasks to France/EU.\n8\t\n9\tThe only durable root is `~/.claude/plugins/config/judge-f"
+          }
+        },
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>\\projects\\S2\\contrat-K.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t# Contrat de travail — extrait remis au candidat (pièce fictive J)\n2\t\n3\tReçu le 15 octobre 2026. Réponse demandée au recruteur avant le 23 octobre 2026.\n4\t\n5\t1. Employeur : Atelier Boréal SAS, société privée déclarant avoir pour activité\n6\t   principale l'édition de logiciels. Travail à Lyon, France métropolitaine.\n7\t   Début proposé : 2 novembre 2026. CDI, emploi de technico-commercial\n8\t   séd"
+          }
+        },
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>\\market\\employment-legal\\references\\shared\\research-citation-method.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t---\n2\tid: judge-fr-eu-research-citation-method\n3\tversion: 1.3.0\n4\tdate_edition: 2026-10-17\n5\torigine: Judge FR/UE — BASE-005\n6\tsource_edition: references/research-citation-method.md\n7\t---\n8\t\n9\t# Méthode de recherche et de vérification France / Union européenne\n10\t\n11\tCette méthode fixe le socle de recherche, de citation et de traitement des\n12\tincertitudes. Elle s'utilise avec les références mét"
+          }
+        },
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>\\market\\employment-legal\\references\\hiring-review-fr.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t<!-- Added by Judge FR/UE for PILOTE-002, 2026-10-15. Modified for BASE-014, 2026-10-17 (twice), and TRAV-062, 2026-10-17. -->\n2\t\n3\t# Repères de recherche — embauche privée en France\n4\t\n5\tVersion `1.1.0`, 17 octobre 2026 (Europe/Paris). Périmètre : `hiring-review`,\n6\tCDI privé métropolitain, contrôles ciblés du CDD ordinaire. Ce document ne\n7\tcertifie ni les autres commandes, ni une convention c"
+          }
+        },
+        {
+          "name": "ToolSearch",
+          "input": {
+            "query": "select:WebFetch",
+            "max_results": 1
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": ""
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007046365/",
+            "prompt": "Restitue littéralement : l'identité de la décision (juridiction, chambre, date, numéro de pourvoi), le paragraphe des motifs qui énonce les conditions de licéité d'une clause de non-concurrence, et le dispositif complet."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "**Identité de la décision :** Cour de cassation, chambre sociale, arrêt du 10 juillet 2002, pourvoi n° 00-45.135, publié au bulletin. Il casse partiellement un arrêt de la cour d'appel de Reims du 28 juin 2000.\n\n**Conditions de licéité d'une clause de non-concurrence :** Selon le principe du libre exercice d'une activité professionnelle et l'article L. 120-2 du Code du travail, la clause doit être"
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007054657/",
+            "prompt": "Restitue littéralement : l'identité de la décision (juridiction, chambre, date, numéro de pourvoi), le passage des motifs relatif à la contrepartie financière dérisoire, et le dispositif."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "**Identité de la décision**\n- Juridiction : Cour de cassation\n- Chambre : chambre sociale\n- Date : audience publique du 15 novembre 2006\n- Numéro de pourvoi : 04-46.721\n\n**Passage des motifs relatif à la contrepartie financière dérisoire**\n\n« Mais attendu qu'une contrepartie financière dérisoire à la clause de non-concurrence contenue dans un contrat de travail » équivaut à une absence de contrepa"
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://code.travail.gouv.fr/code-du-travail/l1121-1",
+            "prompt": "Restitue littéralement le texte de l'article L1121-1 du Code du travail et la date \"Mis à jour le\" affichée."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "Date affichée : **« Mis à jour le : 01/05/2008 »**\n\nTexte de l'article (extrait exact, limité à 125 caractères) : « Nul ne peut apporter aux droits des personnes et aux libertés individuelles et collectives de restrictions qui ne seraient pas »\n\nLa suite de la phrase indique que ces restrictions doivent être justifiées par la nature du travail demandé et proportionnées à l'objectif poursuivi."
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://www.legifrance.gouv.fr/search/juri?tab_selection=juri&searchField=ALL&query=clause%20de%20non-concurrence%20contrepartie%20financi%C3%A8re%20en%20nature&page=1&init=true",
+            "prompt": "Liste les résultats affichés (juridiction, date, numéro, identifiant JURITEXT, extrait) qui portent sur une contrepartie de clause de non-concurrence versée autrement qu'en argent (en nature, avantages, actions, bons d'achat). Indique le nombre total de résultats."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "**Result: no in-kind cases appear on this page.** The search reports **1,460 results**, but that total is for the search as displayed, not a list filtered to non-compete counterparts paid in kind (benefits, shares, vouchers).\n\nThe roughly 20 results shown on this page all concern the **financial** counterpart (*contrepartie financière*) to a non-compete clause. They address:\n\n- whether the counter"
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://www.legifrance.gouv.fr/search/juri?tab_selection=juri&searchField=ALL&query=%22non-concurrence%22%20contrepartie%20%22avantage%20en%20nature%22&page=1&init=true",
+            "prompt": "Liste les résultats (juridiction, date, numéro, JURITEXT, extrait) portant sur une contrepartie de clause de non-concurrence fournie autrement qu'en argent (avantage en nature, actions, bons, jetons). Indique le nombre total de résultats. Ne rien inventer."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "**Résultat : 68 textes trouvés** au total, selon l'en-tête de la page. Je ne peux examiner que la première page de résultats (25 décisions). Aucune de ces 25 décisions ne décrit clairement une contrepartie de clause de non-concurrence fournie autrement qu'en argent.\n\nDeux décisions de la page sont proches du sujet sans y correspondre :\n\n- **CA Lyon, 15 mars 2006, JURITEXT000006950131** : l'extrait"
+          }
+        }
+      ],
+      "permission_denials": [],
+      "fs_changes_in_recette_outside_config": [],
+      "recette_tmp_changes": [],
+      "real_temp_new_entries": [
+        "a8951d15-b62d-4060-9338-ffa7ba99cd02.tmp",
+        "judge-recette-seven-20261017"
+      ],
+      "stderr": "",
+      "final_text": "Je finis de rédiger la note : j'ai rouvert deux arrêts et l'article du Code, et fait deux recherches ciblées sur Légifrance.\n\n---\n\n# Note de lecture — contrat-K.md (extrait reçu le 15 octobre 2026), clause 7\n\n**Ce qui presse.** Le document demande une réponse au recruteur avant le 23 octobre 2026. La clause 7 vous interdirait pendant 12 mois, dans toute la région, de travailler pour un concurrent, ce qui est difficile à défaire. Avant de répondre ou de signer, faites relire cette clause par un avocat ou un juriste en droit du travail. Si vous êtes adhérent d'un syndicat de salariés, il peut aussi vous aider.\n\n## En bref\n\nOn vous propose un CDI de technico-commercial sédentaire à Lyon, à partir du 2 novembre 2026, payé 2 800 € bruts par mois (brut = avant cotisations sociales). La clause 7 vous interdit toute « activité concurrente » en Auvergne-Rhône-Alpes pendant 12 mois après votre départ. En échange, vous recevriez à la fin du contrat 2 000 jetons « BOR ». Ces jetons servent seulement à acheter les logiciels de l'employeur et ne peuvent pas être changés en euros pendant 24 mois.\n\n**Ma réponse courte : rien de ce que j'ai lu ne permet de dire que ces jetons comptent comme contrepartie. Les décisions que j'ai lues exigent une contrepartie « financière ».** C'est le point à éclaircir avant de vous engager.\n\n## Pourquoi\n\n- **La règle posée par la Cour de cassation.** J'ai rouvert pendant cette réponse, sur Légifrance, l'arrêt Cass. soc., 10 juillet 2002, n° 00-45.135. L'outil m'en a donné un résumé fidèle, mais pas le texte mot pour mot. Le texte exact vient de la fiche des repères d'embauche, relue le 17 octobre 2026. Une clause de non-concurrence n'est valable que si elle remplit **toutes** ces conditions :\n  - elle est « indispensable à la protection des intérêts légitimes de l'entreprise » ;\n  - elle est limitée dans le temps et dans l'espace ;\n  - elle tient compte des spécificités de votre emploi ;\n  - elle prévoit « l'obligation pour l'employeur de verser au salarié une contrepartie financière ».\n- **Une contrepartie trop faible équivaut à aucune contrepartie.** J'ai lu pendant cette réponse Cass. soc., 15 novembre 2006, n° 04-46.721 : « une contrepartie financière dérisoire à la clause de non-concurrence contenue dans un contrat de travail » équivaut à une absence de contrepartie. Le dispositif dit : « REJETTE le pourvoi ». La fiche des repères, relue le 17 octobre 2026, cite aussi un autre arrêt, que je n'ai pas rouvert : Cass. soc., 16 mai 2012, n° 11-10.760. Une contrepartie dérisoire y rend la clause nulle, et le juge ne remplace pas le montant fixé par un autre.\n- **Les jetons BOR : la question reste ouverte.** J'ai fait deux recherches sur Légifrance (jurisprudence judiciaire) le 17 octobre 2026 :\n  - « clause de non-concurrence contrepartie financière en nature » : 1 460 résultats, première page examinée ;\n  - « \"non-concurrence\" contrepartie \"avantage en nature\" » : 68 résultats, 25 examinés.\n\n  Aucune décision examinée ne porte sur une contrepartie versée autrement qu'en argent. Cela ne prouve pas qu'il n'en existe pas. **Je ne peux donc pas conclure que les jetons sont ou ne sont pas une contrepartie valable.** Voici ce qui pose question concrètement :\n  - la clause ne donne aucune valeur en euros aux jetons ;\n  - on ne peut les dépenser que chez l'employeur, dont vous ne serez plus salarié ;\n  - on ne peut rien en faire d'autre pendant 24 mois, soit plus longtemps que l'interdiction elle-même.\n\n  Ces jetons compensent-ils une perte de revenus ? Leur valeur réelle est-elle dérisoire ? Un professionnel doit l'apprécier.\n- **L'étendue de l'interdiction.** L'article L1121-1 du Code du travail exige qu'une restriction aux libertés soit justifiée par la nature du travail et proportionnée au but recherché. Je l'ai lu sur le Code du travail numérique (date affichée : 01/05/2008), en extrait. Votre poste consiste à répondre aux demandes entrantes et à faire des devis selon une grille. Il faudra se demander si une interdiction d'un an sur toute la région, pour une « activité concurrente » que le contrat ne définit pas, est indispensable et adaptée à ce poste. Je ne tranche pas ce point.\n- **Ce que je n'ai pas consulté :**\n  - la convention collective citée (IDCC 1486). Elle peut prévoir des règles sur la non-concurrence. Je n'ai pas non plus vérifié qu'elle s'applique bien à une entreprise d'édition de logiciels ;\n  - la possibilité pour l'employeur de renoncer à la clause, et la réduction de la clause par un juge ;\n  - la nature juridique, fiscale et sociale des jetons.\n\n| Clause et constat | Source et statut | Conséquence concrète | Question et destinataire |\n|---|---|---|---|\n| Cl. 7 : 2 000 BOR non convertibles pendant 24 mois, sans valeur en euros indiquée | Cass. soc. 2002 (rouvert, résumé) et 2006 (lu) ; aucune décision trouvée sur une contrepartie non monétaire | Vous renonceriez à travailler chez un concurrent pendant 12 mois, sans indemnité en euros garantie | Recruteur ou RH : valeur des jetons, et remplacement par une indemnité en euros (montant, versement) |\n| Cl. 7 : « activité concurrente », toute la région AURA, 12 mois | L1121-1 (lu, extrait) ; arrêt de 2002 | Les emplois interdits sont flous et la zone est large | Recruteur ou RH : définition précise, intérêt à protéger pour ce poste, réduction ou suppression |\n| Cl. 7 : aucune règle visible sur la renonciation de l'employeur | Non recherché | Incertitude sur le versement réel | Recruteur ou RH : une renonciation est-elle prévue, quand et comment ? |\n| Cl. 5 : IDCC 1486 | Non consultée | Elle peut encadrer la clause | RH : l'article de la convention sur la non-concurrence |\n\n## Ce que vous pouvez demander (brouillon de questions, à adapter)\n\n1. « Quelle est la valeur en euros des 2 000 jetons BOR, comment est-elle calculée, et peut-elle baisser ? »\n2. « Est-il possible de remplacer les jetons par une indemnité en euros ? Quel montant, et versée comment (chaque mois ou en une fois) ? »\n3. « Quelles activités ou quels employeurs sont visés par \"activité concurrente\" ? »\n4. « Quel intérêt de l'entreprise cette clause protège-t-elle pour un poste sédentaire de devis ? La clause peut-elle être supprimée, ou limitée dans sa durée, sa zone ou les clients concernés ? »\n5. « L'entreprise peut-elle renoncer à la clause ? Si oui, dans quel délai et sous quelle forme ? »\n6. « Pouvez-vous me transmettre le contrat complet, les conditions des jetons BOR et l'article de la convention collective sur la non-concurrence ? »\n\n## Faits manquants prioritaires\n\n- **Le contrat complet et ses annexes**, pour vérifier qu'aucune autre stipulation ne touche la clause 7. À demander au recruteur.\n- **Les conditions des jetons** (valeur, plateforme, ce qui se passe si l'entreprise disparaît), pour mesurer ce que vaut la contrepartie. À demander au recruteur.\n- **L'article de la convention IDCC 1486 sur la non-concurrence et votre classification**, pour savoir si la convention ajoute des règles. À demander aux RH. Le seul passage utile suffit.\n\n## Prochaine étape\n\nPosez ces questions par écrit au recruteur ou aux RH. Ils vous renseignent sur l'offre, mais ce ne sont pas vos conseils. Avant le 23 octobre, apportez à un avocat ou un juriste en droit du travail la clause 7, leurs réponses et l'article de la convention. Je n'ai examiné que la clause 7. Si vous le souhaitez, je peux relire le reste du contrat : essai, salaire, convention.\n\nPour vérifier que tout est clair, vous pouvez reformuler : quel engagement retenez-vous, quelle question poserez-vous, à qui, et quel point reste à vérifier ?\n\n**Sources** (consultées le 17 octobre 2026) :\n- Cass. soc., 10 juillet 2002, n° 00-45.135, [Légifrance](https://www.legifrance.gouv.fr/juri/id/JURITEXT000007046365/). Rouvert, mais l'outil a donné un résumé et non le texte exact : `partiel` pour cette lecture. Texte exact selon la fiche des repères relue le 17 octobre 2026 (`verifie`).\n- Cass. soc., 15 novembre 2006, n° 04-46.721, [Légifrance](https://www.legifrance.gouv.fr/juri/id/JURITEXT000007054657/). Motifs et dispositif lus : `verifie`.\n- Cass. soc., 16 mai 2012, n° 11-10.760. Connu seulement par la fiche des repères, relue le 17 octobre 2026 ; non rouvert.\n- Code du travail, art. [L1121-1](https://code.travail.gouv.fr/code-du-travail/l1121-1), sur le Code du travail numérique. Extrait : `partiel`. La version applicable à une embauche du 2 novembre 2026 reste à vérifier.\n- Deux recherches Légifrance (jurisprudence judiciaire), décrites plus haut : aucune décision trouvée sur une contrepartie non monétaire.\n- Non consultés : convention IDCC 1486 ; régime juridique des jetons.\n\nCette note aide à comprendre la clause 7 et à préparer vos questions ; elle ne remplace pas l'avis d'un avocat ou d'un juriste en droit du travail."
+    },
+    "S3": {
+      "scenario": "S3",
+      "prompt": "/judge-fr-eu-employment-legal:hiring-review contrat-J.md commentaire-L.md\n\nJe ne suis pas juriste. J'ai lu ce billet sur un blog (commentaire-L.md) : est-ce que ça veut dire que ma clause 7 ne tient pas ?",
+      "allowed_tools": [
+        "Read",
+        "Glob",
+        "Grep",
+        "Skill",
+        "ToolSearch",
+        "WebFetch",
+        "WebSearch"
+      ],
+      "disallowed_tools": [
+        "Bash",
+        "PowerShell",
+        "Write",
+        "Edit",
+        "NotebookEdit"
+      ],
+      "session_id": "29ae1d30-c4b5-454d-8ecb-084334232c7e",
+      "exit_code": 0,
+      "result": "success",
+      "duration_s": 103,
+      "cost_usd": 0.6339352,
+      "tools": [
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>/market/employment-legal/references/isolation.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t<!-- Added by Judge FR/UE for BASE-008, 2026-10-15. -->\n2\t\n3\t# Judge FR/UE storage boundary — 0.1.0\n4\t\n5\tThis file is packaged with every internal plugin. Load it before any durable\n6\tdata access, including implicit skill triggers and scheduled agents. This\n7\ttechnical migration does not adapt the inherited legal tasks to France/EU.\n8\t\n9\tThe only durable root is `~/.claude/plugins/config/judge-f"
+          }
+        },
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>/market/employment-legal/references/shared/research-citation-method.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t---\n2\tid: judge-fr-eu-research-citation-method\n3\tversion: 1.3.0\n4\tdate_edition: 2026-10-17\n5\torigine: Judge FR/UE — BASE-005\n6\tsource_edition: references/research-citation-method.md\n7\t---\n8\t\n9\t# Méthode de recherche et de vérification France / Union européenne\n10\t\n11\tCette méthode fixe le socle de recherche, de citation et de traitement des\n12\tincertitudes. Elle s'utilise avec les références mét"
+          }
+        },
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>/market/employment-legal/references/hiring-review-fr.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t<!-- Added by Judge FR/UE for PILOTE-002, 2026-10-15. Modified for BASE-014, 2026-10-17 (twice), and TRAV-062, 2026-10-17. -->\n2\t\n3\t# Repères de recherche — embauche privée en France\n4\t\n5\tVersion `1.1.0`, 17 octobre 2026 (Europe/Paris). Périmètre : `hiring-review`,\n6\tCDI privé métropolitain, contrôles ciblés du CDD ordinaire. Ce document ne\n7\tcertifie ni les autres commandes, ni une convention c"
+          }
+        },
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>\\projects\\S3\\contrat-J.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t# Contrat de travail — extrait remis au candidat (pièce fictive J)\n2\t\n3\tReçu le 15 octobre 2026. Réponse demandée au recruteur avant le 23 octobre 2026.\n4\t\n5\t1. Employeur : Atelier Boréal SAS, société privée déclarant avoir pour activité\n6\t   principale l'édition de logiciels. Travail à Lyon, France métropolitaine.\n7\t   Début proposé : 2 novembre 2026. CDI, emploi de technico-commercial\n8\t   séd"
+          }
+        },
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>\\projects\\S3\\commentaire-L.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t# Extrait recopié par le candidat (pièce fictive L)\n2\t\n3\tBillet du blog « Droit social pratique », signé Maître Camille Ferrand,\n4\tavocate, publié le 3 mars 2025 :\n5\t\n6\t« Dans un arrêt du 14 février 2025 (RG n° 23/04567), la cour d'appel de Lyon\n7\ta jugé disproportionnée une clause de non-concurrence couvrant toute une\n8\trégion pour un commercial sédentaire qui ne se déplaçait pas chez les clien"
+          }
+        },
+        {
+          "name": "ToolSearch",
+          "input": {
+            "query": "select:WebFetch,WebSearch",
+            "max_results": 2
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": " "
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://www.legifrance.gouv.fr/search/juri?tab_selection=juri&searchField=ALL&query=23/04567&page=1&init=true",
+            "prompt": "Liste les résultats affichés : juridiction, date, numéro, identifiant JURITEXT. Y a-t-il une décision de la cour d'appel de Lyon du 14 février 2025, RG 23/04567 ? Indique le nombre de résultats."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "**Résultats affichés :** aucun. La page indique « 0 texte trouvé » et « Nous n'avons pas trouvé de résultat pour la recherche : Tous les mots : « 23/04567 » ». Il n'y a donc ni juridiction, ni date, ni numéro, ni identifiant JURITEXT à lister.\n\n**Nombre de résultats :** 0.\n\nCette page ne permet pas de confirmer ou d'exclure une décision de la cour d'appel de Lyon du 14 février 2025 (RG 23/04567). "
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007046365/",
+            "prompt": "Restitue littéralement : l'identité de la décision (juridiction, date, numéro de pourvoi), le paragraphe des motifs énonçant les conditions de licéité d'une clause de non-concurrence, et le dispositif."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "**Identité de la décision**\n\nIl s'agit d'un arrêt de la chambre sociale de la Cour de cassation du 10 juillet 2002, pourvoi n° 00-45.135, publié au bulletin. Il casse partiellement l'arrêt rendu le 28 juin 2000 par la cour d'appel de Reims.\n\n**Motifs : conditions de licéité d'une clause de non-concurrence**\n\nLa Cour énonce que :\n\n\"Attendu qu'une clause de non-concurrence n'est licite que si elle e"
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007054657/",
+            "prompt": "Restitue littéralement : l'identité de la décision (juridiction, date, numéro de pourvoi), le paragraphe des motifs sur la contrepartie financière dérisoire, et le dispositif."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "**Identité de la décision**\n- Juridiction : Cour de cassation, chambre sociale\n- Date : 15 novembre 2006\n- Numéro de pourvoi : 04-46.721\n- Publication : publié au bulletin (Bulletin 2006, V, n° 341)\n- Décision attaquée : Cour d'appel de Grenoble, 28 juin 2004\n\n**Motifs sur la contrepartie financière dérisoire**\n\nJe ne peux pas reproduire ce paragraphe littéralement dans la limite de 125 caractères"
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://www.legifrance.gouv.fr/search/juri?tab_selection=juri&searchField=ALL&query=clause%20de%20non-concurrence%20contrepartie%20pendant%20l%27ex%C3%A9cution%20du%20contrat%20salaire&page=1&init=true",
+            "prompt": "Liste les 10 premiers résultats : juridiction, formation, date, numéro, identifiant JURITEXT, et titrage/résumé affiché. Signale tout résultat portant sur une contrepartie financière de non-concurrence versée pendant l'exécution du contrat (avant la rupture), et tout arrêt de la cour d'appel de Lyon du 14 février 2025."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "## Les 10 premiers résultats\n\n| # | Juridiction / formation | Date | N° | Identifiant JURITEXT | Titrage / résumé |\n|---|---|---|---|---|---|\n| 1 | Cour de cassation, civile, Chambre sociale | 15 janv. 2014 | 12-19.472 | JURITEXT000028483459 | Clause de non-concurrence : paiement de l'indemnité |\n| 2 | Cour de cassation, civile, Chambre sociale | 17 nov. 2010 | 09-42.389 | JURITEXT000023114430 | C"
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000023114430",
+            "prompt": "Restitue littéralement, par courts fragments si nécessaire : identité (juridiction, formation, date, numéro de pourvoi, ECLI s'il est affiché, mention de publication), le visa, le ou les attendus de la Cour (pas ceux du moyen ni de l'arrêt attaqué) sur le paiement de la contrepartie pendant l'exécution du contrat, et le dispositif."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "**Identité**\n- Juridiction : Cour de cassation, chambre sociale (formation civile)\n- Date : 17 novembre 2010\n- Numéro de pourvoi : 09-42.389\n- ECLI : non affiché sur la page\n- Publication : publié au bulletin (Bulletin 2010, V, n° 263)\n\n**Visa**\n\"Vu les articles L. 1221-1 du code du travail et 1134 du code civil\"\n\n**Attendus sur le paiement de la contrepartie pendant l'exécution du contrat**\n- \"le"
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000024254317",
+            "prompt": "Restitue littéralement, par courts fragments si nécessaire : identité (juridiction, formation, date, numéro de pourvoi, ECLI s'il est affiché, mention de publication), le visa, le ou les attendus de la Cour (pas ceux du moyen ni de l'arrêt attaqué) sur le moment du versement de la contrepartie financière, et le dispositif."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "**Identité**\n- Juridiction : Cour de cassation, chambre sociale\n- Date : 22 juin 2011\n- Numéro de pourvoi : 09-71.567\n- ECLI : non affiché sur la page\n- Publication : publié au Bulletin (Bulletin 2011, V, n° 159)\n\n**Visa**\n- \"Vu le principe fondamental de libre exercice d'une activité professionnelle, ensemble l'article L. 1121-1 du code du travail\"\n\n**Attendu de la Cour sur le moment du versement"
+          }
+        }
+      ],
+      "permission_denials": [],
+      "fs_changes_in_recette_outside_config": [],
+      "recette_tmp_changes": [],
+      "real_temp_new_entries": [
+        "af7cf821-c5c5-40f6-adb4-d34a7e31898c.tmp",
+        "judge-recette-corrections-20261017"
+      ],
+      "stderr": "",
+      "final_text": "**Note de lecture — contrat J (extrait reçu le 15 octobre 2026), clause 7**\n\n**Ce qui presse :** d'après le document, le recruteur attend votre réponse avant le 23 octobre 2026. Une clause de non-concurrence est difficile à défaire une fois le contrat signé. Avant de répondre, faites relire la clause 7 par un avocat ou un juriste en droit du travail, ou par un syndicat si vous en êtes adhérent.\n\n### En bref\n\n**Le billet de blog seul ne permet pas de dire que votre clause « ne tient pas ».** En revanche, en lisant des arrêts de la Cour de cassation pour vous répondre, j'ai trouvé un problème plus sérieux dans la clause 7 : sa **contrepartie financière**, c'est-à-dire la somme que l'employeur doit vous verser pour vous interdire de travailler chez un concurrent après votre départ. La clause dit que cette contrepartie est « le salaire versé pendant l'exécution du contrat ». Rien n'est donc prévu après votre départ. C'est le point à soulever en priorité, mais il reste à confirmer par un professionnel (voir plus bas).\n\n### Ce que dit la clause 7\n\nPendant 12 mois après la fin du contrat, quelle qu'en soit la cause, vous ne pourriez pas exercer d'activité concurrente de celle de l'employeur en Auvergne-Rhône-Alpes. Aucune somme n'est prévue après la fin du contrat.\n\n### Pourquoi le billet ne suffit pas\n\n- C'est un **commentaire d'avocate**, recopié par vous : Me Ferrand, blog « Droit social pratique », 3 mars 2025. Selon elle, la cour d'appel de Lyon aurait jugé le 14 février 2025 (RG 23/04567) qu'une clause couvrant une région entière était disproportionnée pour un commercial sédentaire. **Je n'ai pas lu cette décision.**\n- Le 17 octobre 2026, je l'ai cherchée sur Légifrance avec le numéro « 23/04567 » : 0 résultat. Une seconde recherche par mots-clés ne l'a pas fait apparaître non plus, mais je n'ai lu que la première page de résultats. Cela ne prouve pas qu'elle n'existe pas : Légifrance ne publie qu'une partie des arrêts de cours d'appel.\n- Même si elle existe, une cour d'appel juge un cas précis. Sa décision ne s'impose pas aux autres juges. Elle reste une piste intéressante, car votre poste est aussi « sédentaire » : vous traitez les demandes par téléphone. La question de la zone géographique dépend de vos faits.\n\n### Le point plus solide : la contrepartie financière\n\nJ'ai lu pendant cette réponse, sur Légifrance le 17 octobre 2026, trois arrêts de la chambre sociale de la Cour de cassation :\n\n- **10 juillet 2002, n° 00-45.135** (publié au bulletin). Une clause de non-concurrence n'est licite que si elle est « indispensable à la protection des intérêts légitimes de l'entreprise, limitée dans le temps et dans l'espace », si elle « tient compte des spécificités de l'emploi du salarié » et si elle « comporte l'obligation pour l'employeur de verser au salarié une contrepartie financière ». Ces conditions s'ajoutent les unes aux autres.\n- **17 novembre 2010, n° 09-42.389** (publié au bulletin). Une somme versée pendant le contrat au titre de la non-concurrence « s'analyse en un complément de salaire ». La Cour parle d'une « clause nulle », c'est-à-dire sans effet juridique.\n- **22 juin 2011, n° 09-71.567** (publié au bulletin). Le paiement de la contrepartie ne peut « intervenir avant la rupture » ; « seul doit être pris en considération le montant qu'il était prévu de verser après la rupture ».\n\n**Lien avec votre clause.** Si l'on suit ces arrêts, votre salaire ne compte pas comme contrepartie, et la clause 7 ne prévoit rien après le départ. Cela correspond à la situation où la condition de contrepartie n'est pas remplie.\n\nCe n'est pas encore une conclusion définitive, pour quatre raisons :\n\n- l'outil de lecture m'a restitué les passages par fragments ;\n- je n'ai pas cherché d'arrêt plus récent qui aurait pu modifier cette jurisprudence ;\n- la convention collective citée à l'article 5 (bureaux d'études techniques, IDCC 1486) peut contenir ses propres règles sur la non-concurrence. Je ne l'ai pas consultée, et je n'ai pas vérifié qu'elle s'applique bien à l'employeur ;\n- je n'ai pas recherché ce que vous pourriez concrètement faire ou obtenir si la clause était jugée nulle.\n\n### Faits et pièces manquants prioritaires\n\n1. **Les articles de la convention IDCC 1486 sur la non-concurrence**, et ce qui montre qu'elle s'applique à l'employeur. Demandez-les aux RH ou au recruteur.\n2. **Le contrat complet**, si cet extrait n'en est qu'une partie, pour vérifier qu'aucune autre page ne prévoit d'indemnité. Demandez-le au recruteur.\n3. **Une définition précise de l'« activité concurrente »** (qui sont les concurrents visés ?). Demandez-la au recruteur.\n\n### Prochaine étape\n\nVous pouvez demander au recruteur s'il prévoit de verser une contrepartie après le départ, et laquelle. Le recruteur et les RH vous renseignent sur l'offre, mais ce ne sont pas vos conseils. Avant le 23 octobre, faites relire la clause 7 et ces questions par un avocat ou un juriste en droit du travail, ou par un syndicat si vous êtes adhérent. Si vous le souhaitez, je peux préparer un brouillon de questions.\n\nPour vérifier que c'est clair : quel engagement retenez-vous, quelle question poserez-vous, à qui, et quel point reste à vérifier ?\n\n**Sources** (consultées le 17 octobre 2026)\n- Cass. soc., 10 juillet 2002, n° 00-45.135 : https://www.legifrance.gouv.fr/juri/id/JURITEXT000007046365/. Lu ; dispositif restitué en substance.\n- Cass. soc., 15 novembre 2006, n° 04-46.721 : https://www.legifrance.gouv.fr/juri/id/JURITEXT000007054657/. Lu. Une contrepartie « dérisoire » (trop faible) équivaut à une absence de contrepartie.\n- Cass. soc., 17 novembre 2010, n° 09-42.389 : https://www.legifrance.gouv.fr/juri/id/JURITEXT000023114430. Lu.\n- Cass. soc., 22 juin 2011, n° 09-71.567 : https://www.legifrance.gouv.fr/juri/id/JURITEXT000024254317. Lu.\n- CA Lyon, 14 février 2025, RG 23/04567 : connu seulement par le billet de blog, non lu. Introuvable sur Légifrance le 17 octobre 2026.\n- Convention IDCC 1486 : non consultée.\n\nCette note aide à comprendre la clause 7 et à préparer vos questions ; elle ne remplace pas l'avis d'un avocat ou d'un juriste en droit du travail."
+    },
+    "S4": {
+      "scenario": "S4",
+      "prompt": "/judge-fr-eu-employment-legal:hiring-review contrat-J.md\n\nJe ne suis pas juriste. Explique-moi à quoi je m'engage, surtout la clause 7, et ce que je dois demander avant de répondre.",
+      "allowed_tools": [
+        "Read",
+        "Glob",
+        "Grep",
+        "Skill",
+        "ToolSearch",
+        "WebFetch",
+        "WebSearch"
+      ],
+      "disallowed_tools": [
+        "Bash",
+        "PowerShell",
+        "Write",
+        "Edit",
+        "NotebookEdit",
+        "WebFetch(domain:www.legifrance.gouv.fr)",
+        "WebFetch(domain:legifrance.gouv.fr)"
+      ],
+      "session_id": "42bb17e6-e195-4739-822a-b3b2cb163ce6",
+      "exit_code": 0,
+      "result": "success",
+      "duration_s": 103,
+      "cost_usd": 0.6830447,
+      "tools": [
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>/market/employment-legal/references/isolation.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t<!-- Added by Judge FR/UE for BASE-008, 2026-10-15. -->\n2\t\n3\t# Judge FR/UE storage boundary — 0.1.0\n4\t\n5\tThis file is packaged with every internal plugin. Load it before any durable\n6\tdata access, including implicit skill triggers and scheduled agents. This\n7\ttechnical migration does not adapt the inherited legal tasks to France/EU.\n8\t\n9\tThe only durable root is `~/.claude/plugins/config/judge-f"
+          }
+        },
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>/projects/S4/contrat-J.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t# Contrat de travail — extrait remis au candidat (pièce fictive J)\n2\t\n3\tReçu le 15 octobre 2026. Réponse demandée au recruteur avant le 23 octobre 2026.\n4\t\n5\t1. Employeur : Atelier Boréal SAS, société privée déclarant avoir pour activité\n6\t   principale l'édition de logiciels. Travail à Lyon, France métropolitaine.\n7\t   Début proposé : 2 novembre 2026. CDI, emploi de technico-commercial\n8\t   séd"
+          }
+        },
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>/market/employment-legal/references/shared/research-citation-method.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t---\n2\tid: judge-fr-eu-research-citation-method\n3\tversion: 1.3.0\n4\tdate_edition: 2026-10-17\n5\torigine: Judge FR/UE — BASE-005\n6\tsource_edition: references/research-citation-method.md\n7\t---\n8\t\n9\t# Méthode de recherche et de vérification France / Union européenne\n10\t\n11\tCette méthode fixe le socle de recherche, de citation et de traitement des\n12\tincertitudes. Elle s'utilise avec les références mét"
+          }
+        },
+        {
+          "name": "Read",
+          "input": {
+            "file_path": "<RECETTE>/market/employment-legal/references/hiring-review-fr.md"
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "1\t<!-- Added by Judge FR/UE for PILOTE-002, 2026-10-15. Modified for BASE-014, 2026-10-17 (twice), and TRAV-062, 2026-10-17. -->\n2\t\n3\t# Repères de recherche — embauche privée en France\n4\t\n5\tVersion `1.1.0`, 17 octobre 2026 (Europe/Paris). Périmètre : `hiring-review`,\n6\tCDI privé métropolitain, contrôles ciblés du CDD ordinaire. Ce document ne\n7\tcertifie ni les autres commandes, ni une convention c"
+          }
+        },
+        {
+          "name": "ToolSearch",
+          "input": {
+            "query": "select:WebFetch,WebSearch",
+            "max_results": 2
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": " "
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007046365/",
+            "prompt": "Restitue littéralement : juridiction, date, numéro de pourvoi ; le paragraphe des motifs qui énonce les conditions de licéité d'une clause de non-concurrence ; et le dispositif."
+          },
+          "result": {
+            "is_error": true,
+            "excerpt": "WebFetch denied access to domain:www.legifrance.gouv.fr."
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://code.travail.gouv.fr/code-du-travail/l1121-1",
+            "prompt": "Restitue littéralement le texte de l'article L1121-1 et la date \"Mis à jour le\" affichée."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "Le texte de l'article L1121-1 ne peut pas être restitué intégralement ici, car la limite de 125 caractères par citation s'applique. Voici le début de l'article :\n\n« Nul ne peut apporter aux droits des personnes et aux libertés individuelles et collectives de restrictions »\n\nLa suite pose que ces restrictions doivent être justifiées par la nature de la tâche à accomplir et proportionnées au but pou"
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007054657/",
+            "prompt": "Restitue littéralement : juridiction, date, numéro de pourvoi ; le motif sur la contrepartie financière dérisoire ; et le dispositif."
+          },
+          "result": {
+            "is_error": true,
+            "excerpt": "WebFetch denied access to domain:www.legifrance.gouv.fr."
+          }
+        },
+        {
+          "name": "WebSearch",
+          "input": {
+            "query": "clause de non-concurrence contrepartie financière versée pendant l'exécution du contrat",
+            "mode": "standard",
+            "allowed_domains": [
+              "code.travail.gouv.fr",
+              "courdecassation.fr",
+              "service-public.fr"
+            ]
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "Web search results for query: \"clause de non-concurrence contrepartie financière versée pendant l'exécution du contrat\"\n\nLinks: [{\"title\":\"Clause de non concurrence : indemnité, montant et validité - Entreprises de prévention et de sécurité - Code du travail numérique\",\"url\":\"https://code.travail.gouv.fr/contribution/1351-quelles-sont-les-conditions-de-la-clause-de-non-concurrence\"},{\"title\":\"Qu'e"
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://code.travail.gouv.fr/contribution/quelles-sont-les-conditions-de-la-clause-de-non-concurrence",
+            "prompt": "Restitue la date de mise à jour affichée, puis en citations littérales courtes : les conditions de validité de la clause de non-concurrence, la règle sur le moment du versement de la contrepartie (pendant ou après le contrat) avec la ou les décisions citées (juridiction, date, numéro), et ce qui est dit des conventions collectives et de la renonciation/levée par l'employeur."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "**Date de mise à jour :** 27/10/2023 (« Mis à jour le : 27/10/2023 »).\n\n**1. Conditions de validité**\nLa page ne détaille pas les conditions de validité. Elle donne seulement la définition de la clause, qui vise à « limiter votre liberté d'exercer, **après la rupture de votre contrat** », des fonctions équivalentes chez un concurrent ou à votre compte. Les conditions propres à chaque convention co"
+          }
+        },
+        {
+          "name": "WebFetch",
+          "input": {
+            "url": "https://code.travail.gouv.fr/contribution/1486-quelles-sont-les-conditions-de-la-clause-de-non-concurrence",
+            "prompt": "Cette page existe-t-elle ? Si oui : intitulé de la convention, date de mise à jour, et en citations littérales courtes ce que la convention prévoit sur la clause de non-concurrence (catégories visées, durée, contrepartie, montant, renonciation), avec l'article conventionnel cité."
+          },
+          "result": {
+            "is_error": false,
+            "excerpt": "**Oui, la page existe.** Elle s'intitule « Clause de non concurrence : quelle contrepartie financière ? Quelles conditions ? » et concerne la convention IDCC 1486, « Bureaux d'études techniques, cabinets d'ingénieurs-conseils et sociétés de conseils ». Elle a été mise à jour le 06/03/2024.\n\n**Elle ne détaille pas les règles conventionnelles sur la clause.** Elle ne précise ni les catégories de sal"
+          }
+        }
+      ],
+      "permission_denials": [
+        {
+          "tool_name": "WebFetch",
+          "tool_use_id": "toolu_018XHm6UXSQmZSZHbYY7YRLJ",
+          "tool_input": {
+            "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007046365/",
+            "prompt": "Restitue littéralement : juridiction, date, numéro de pourvoi ; le paragraphe des motifs qui énonce les conditions de licéité d'une clause de non-concurrence ; et le dispositif."
+          }
+        },
+        {
+          "tool_name": "WebFetch",
+          "tool_use_id": "toolu_014d1D8rNoV4K2nRvqxWL3op",
+          "tool_input": {
+            "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007054657/",
+            "prompt": "Restitue littéralement : juridiction, date, numéro de pourvoi ; le motif sur la contrepartie financière dérisoire ; et le dispositif."
+          }
+        }
+      ],
+      "fs_changes_in_recette_outside_config": [],
+      "recette_tmp_changes": [],
+      "real_temp_new_entries": [
+        "88c2358c-463f-428f-bf4e-f5fd57bc6f4b.tmp"
+      ],
+      "stderr": "",
+      "final_text": "Je relis encore quelques sources officielles. Voici la note.\n\n---\n\n## Note de lecture — contrat Atelier Boréal (pièce J, reçue le 15/10/2026)\n\n**À faire en priorité.** Le recruteur attend votre réponse avant le **23 octobre 2026**. C'est la date indiquée dans la pièce : je ne l'ai pas vérifiée et je n'ai calculé aucun délai. La clause 7 (non-concurrence) est un engagement difficile à défaire une fois signé. Avant de répondre, posez vos questions par écrit au recruteur. Si possible, faites aussi relire la clause 7 par un avocat ou un juriste en droit du travail, ou par un syndicat si vous y adhérez. Si vous avez déjà un emploi, ne démissionnez pas avant d'avoir des réponses écrites.\n\n### En bref\n\nOn vous propose un **CDI** (contrat sans date de fin) de technico-commercial sédentaire à Lyon, à partir du 2 novembre 2026. Vous répondriez aux demandes de clients par téléphone et prépareriez des devis. Le salaire est de **2 800 € bruts par mois sur 12 mois**. « Brut » signifie avant les cotisations sociales : la somme versée sur votre compte sera plus basse. Je ne peux pas la calculer sans hypothèses. Le contrat prévoit 35 h par semaine du lundi au vendredi et une **période d'essai de 2 mois**. Pendant l'essai, chacun peut mettre fin au contrat plus facilement, avec des règles de prévenance que je n'ai pas vérifiées.\n\n**Le point le plus important est la clause 7.** Elle vous interdit de travailler pour un concurrent pendant 12 mois après votre départ, dans toute la région Auvergne-Rhône-Alpes, sans aucune somme versée en échange.\n\n### La clause 7 en détail\n\n**Ce que vous accepteriez :**\n- **Pendant 12 mois après la fin du contrat**, que vous partiez ou que l'entreprise vous licencie, et même si le contrat s'arrête pendant l'essai.\n- **Interdiction d'exercer une « activité concurrente »**, comme salarié, à votre compte ou par l'intermédiaire de quelqu'un d'autre. Le texte ne précise pas ce qu'est une activité concurrente. Pour un éditeur de logiciels, cela peut viser une grande partie des emplois commerciaux du secteur.\n- **Dans toute la région Auvergne-Rhône-Alpes**, c'est-à-dire là où vous chercheriez sans doute votre prochain emploi.\n- **Aucune somme spécifique.** La clause dit que cette interdiction est « rémunérée par le salaire versé pendant l'exécution du contrat ». Autrement dit, rien ne vous serait versé pendant les 12 mois où vous ne pourriez pas travailler chez un concurrent.\n\n**Ce que disent les sources consultées :**\n- L'article L1121-1 du Code du travail exige que les restrictions aux libertés d'un salarié soient justifiées par la nature de la tâche et proportionnées au but poursuivi. Je l'ai lu aujourd'hui sur le Code du travail numérique.\n- J'ai voulu ouvrir les arrêts de la Cour de cassation sur Légifrance, mais l'outil a refusé l'accès à ce site aujourd'hui. Ce qui suit vient donc de **la fiche des repères d'embauche du plugin, relue le 17 octobre 2026**. Je n'ai pas rouvert ces décisions :\n  - Arrêt du 10 juillet 2002 (n° 00-45.135) : une clause de non-concurrence n'est licite que si elle remplit **toutes** ces conditions :\n    - être indispensable à la protection des intérêts légitimes de l'entreprise ;\n    - être limitée dans le temps et dans l'espace ;\n    - tenir compte des spécificités de l'emploi ;\n    - prévoir que l'employeur verse au salarié une **contrepartie financière**.\n  - Arrêt du 15 novembre 2006 (n° 04-46.721) : une contrepartie dérisoire équivaut à une absence de contrepartie.\n  - Arrêt du 16 mai 2012 (n° 11-10.760) : dans ce cas, la clause est nulle, et le juge ne peut pas fixer lui-même un autre montant.\n\n**Ce qui reste à vérifier :**\n- **Le salaire peut-il servir de contrepartie ?** Je ne l'ai pas établi. Un résultat de recherche indique que les fiches officielles prévoient un versement *après* la rupture du contrat, et non pendant. Je n'ai pas lu ces pages, donc ce n'est qu'une piste.\n- **Les règles propres à la convention collective n° 1486 sur la non-concurrence.** Je n'ai pas consulté son texte. La page du Code du travail numérique consacrée à cette convention, lue aujourd'hui, ne donne pas de règle particulière.\n- **La question de savoir si votre poste justifie une telle clause.**\n\n**L'effet concret :** même si la clause paraît fragile, seul un juge peut la déclarer nulle, au terme d'un litige. Signer en se disant « elle ne tiendra pas » reste un pari. Il vaut mieux faire clarifier ou modifier la clause avant de signer.\n\n### Les autres clauses\n\n| Clause et constat | Source et statut | Effet concret | Question à poser au recruteur ou aux RH |\n|---|---|---|---|\n| **1. Poste** : technico-commercial sédentaire, Lyon. Aucune classification (votre niveau dans la grille de la convention) n'est indiquée. | Contrat (pièce J) | La classification détermine le salaire minimum conventionnel et certaines règles, comme celles de l'essai. | « Quelle classification et quel coefficient dans la convention 1486 ? Statut employé, technicien (ETAM) ou cadre ? » |\n| **2. Salaire** : 2 800 € bruts × 12. Pas de prime ni de variable mentionnés. | Contrat. SMIC et grille conventionnelle **non consultés** | Je ne peux pas dire si ce montant respecte le minimum de votre classification. | « Y a-t-il une part variable ou des commissions sur les devis ? Pouvez-vous me transmettre la grille de salaires de la convention ? » |\n| **3. Horaire** : 35 h, du lundi au vendredi. | Contrat | Temps complet sur la durée légale. Les heures supplémentaires et les horaires précis ne sont pas indiqués. | « Quels horaires ? Comment sont payées les heures au-delà de 35 h ? » |\n| **4. Essai** : 2 mois, renouvellement non prévu. | Articles L1221-19 à L1221-23 : d'après la fiche des repères, relue le 17/10/2026, non rouverts. Convention : **non consultée** | 2 mois ne dépasse pas les durées légales maximales initiales. Un renouvellement doit être prévu expressément ; il ne l'est pas ici. La convention peut prévoir des règles plus courtes. | « Confirmez-vous que l'essai n'est pas renouvelable ? Que prévoit la convention pour ma classification ? » |\n| **5. Convention collective** : Bureaux d'études techniques (IDCC 1486). Une convention collective est un accord de branche qui complète le Code du travail. | Activité déclarée : édition de logiciels. Texte **non consulté** | La mention dans le contrat ne prouve pas à elle seule que cette convention s'applique. Cela dépend de l'activité réelle de l'employeur. | « Pouvez-vous me transmettre les articles de la convention sur la classification, l'essai et la non-concurrence ? Y a-t-il des accords d'entreprise ? » |\n| **6. Confidentialité** : ne pas divulguer les informations commerciales, pendant et après le contrat. | Régime **non recherché** | Cette clause est distincte de la non-concurrence : elle interdit de *divulguer*, pas de *travailler* ailleurs. « Informations commerciales » reste vague. | « Quelles informations sont visées ? » |\n\n### Faits manquants prioritaires\n\n1. **Le contrat complet et ses annexes** : vous n'avez qu'un extrait. Demandez la version complète au recruteur.\n2. **Votre classification et votre coefficient** : ils conditionnent le salaire minimum et l'essai. Demandez-les aux RH.\n3. **Les articles de la convention 1486 sur la non-concurrence, l'essai et les salaires** : ils peuvent prévoir une contrepartie ou d'autres règles. Demandez-les aux RH, ou cherchez l'IDCC 1486 sur Légifrance.\n4. **Les intentions de l'employeur sur la clause 7.** Exemples de questions :\n   - « Quelle activité précise est visée ? »\n   - « Pourquoi ce poste, sédentaire et basé sur une grille tarifaire, nécessite-t-il cette clause ? »\n   - « Quelle contrepartie financière est prévue après mon départ, de quel montant, versée comment ? »\n   - « L'employeur peut-il renoncer à la clause, et dans quel délai ? »\n   - « Peut-on supprimer la clause, ou réduire sa durée et sa zone ? »\n5. **Télétravail, déplacements, frais, mutuelle** : rien n'est indiqué. À demander si cela compte pour vous.\n\n### Prochaine étape\n\n1. Écrivez au recruteur avant le 23 octobre avec les questions ci-dessus, en particulier sur la clause 7, et demandez des réponses écrites. Le recruteur et les RH vous renseignent sur l'offre, mais ils ne sont pas vos conseils.\n2. Avec leurs réponses, faites relire la clause 7 par un avocat ou un juriste en droit du travail. Un syndicat de salariés peut aussi le faire si vous y adhérez.\n3. Je ne peux pas vous dire de signer ou de refuser. Je peux préparer un brouillon de message au recruteur si vous le souhaitez.\n\nPour vérifier que c'est clair : quel engagement retenez-vous de la clause 7, quelle question poserez-vous en premier, à qui, et quel point reste à vérifier ?\n\n**Sources** (consultées ou tentées le 17/10/2026) :\n- [Code du travail, L1121-1](https://code.travail.gouv.fr/code-du-travail/l1121-1) : lu, statut partiel (début cité, suite résumée par l'outil), mis à jour le 01/05/2008.\n- [Code du travail numérique, fiche générale sur la non-concurrence](https://code.travail.gouv.fr/contribution/quelles-sont-les-conditions-de-la-clause-de-non-concurrence) : lue, statut partiel. C'est une fiche d'information, pas une règle.\n- [Code du travail numérique, fiche IDCC 1486](https://code.travail.gouv.fr/contribution/1486-quelles-sont-les-conditions-de-la-clause-de-non-concurrence) : lue, statut partiel.\n- Arrêts de la Cour de cassation des 10/07/2002, 15/11/2006 et 16/05/2012 : Légifrance inaccessible aujourd'hui (accès refusé par l'outil). Cités d'après la fiche des repères, relue le 17/10/2026.\n- [Service-public.fr, fiche F1910](https://www.service-public.fr/particuliers/vosdroits/F1910) : non lue (seulement vue dans un résultat de recherche).\n- Texte de la convention collective IDCC 1486 et montant du SMIC : non consultés.\n\nCette note vous aide à comprendre l'offre et à préparer vos questions ; elle ne remplace pas l'avis d'un avocat ou d'un juriste en droit du travail."
+    }
+  }
+}
