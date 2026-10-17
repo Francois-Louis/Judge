@@ -1,0 +1,122 @@
+[
+  {
+    "case": "R01",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "initialized": true,
+    "resource_reads": [],
+    "runtime_status": "blocked-quota"
+  },
+  {
+    "case": "R02",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "initialized": true,
+    "resource_reads": [],
+    "runtime_status": "blocked-quota"
+  },
+  {
+    "case": "R03",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "initialized": true,
+    "resource_reads": [],
+    "runtime_status": "blocked-quota"
+  },
+  {
+    "case": "R04",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "initialized": true,
+    "resource_reads": [],
+    "runtime_status": "blocked-quota"
+  },
+  {
+    "case": "R05",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "initialized": true,
+    "resource_reads": [],
+    "runtime_status": "blocked-quota"
+  },
+  {
+    "case": "R06",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "initialized": true,
+    "resource_reads": [],
+    "runtime_status": "blocked-quota"
+  },
+  {
+    "case": "R07",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "initialized": true,
+    "resource_reads": [],
+    "runtime_status": "blocked-quota"
+  },
+  {
+    "case": "R08",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "initialized": true,
+    "resource_reads": [],
+    "runtime_status": "blocked-quota"
+  },
+  {
+    "case": "R09",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "initialized": true,
+    "resource_reads": [],
+    "runtime_status": "blocked-quota"
+  },
+  {
+    "case": "R10",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "initialized": true,
+    "resource_reads": [],
+    "runtime_status": "blocked-quota"
+  },
+  {
+    "case": "R11",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "initialized": true,
+    "resource_reads": [],
+    "runtime_status": "blocked-quota"
+  },
+  {
+    "case": "R12",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "initialized": true,
+    "resource_reads": [],
+    "runtime_status": "blocked-quota"
+  }
+]

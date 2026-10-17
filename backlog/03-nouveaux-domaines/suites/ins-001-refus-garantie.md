@@ -1,7 +1,7 @@
 ---
 id: INS-001
 titre: "Analyser un refus de garantie à partir du contrat et du courrier"
-statut: proposee
+statut: a-verifier
 priorite: P2
 nature: implementation
 dependances: [DOM-005, PILOTE-003, BASE-005, BASE-006, BASE-008]
@@ -117,3 +117,33 @@ Scénarios R04–R07 **attendus, non exécutés** : refus pour retard sans préj
 
 Issue de DOM-005, sans implémentation. Préalable PILOTE-003 satisfait après
 BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-005-annexes/dom-005-decoupage-assurance.md).
+
+## Implémentation — 17 octobre 2026
+
+La demande explicite « implémente la story ins-001 » sélectionne cette tranche,
+autorise son inscription au marketplace et la mise à jour du décompte BASE-008.
+L'état de proposition ci-dessus reste un historique. Le paquet autonome
+`insurance-legal` `0.1.0` contient le seul skill `claim-denial-review`, sans
+profil, stockage durable, calcul ou envoi. R01–R07 et les orientations sont
+intégrés aux instructions ; les autres suites INS ne sont pas implémentées.
+
+La méthode embarquée est la version courante BASE-005 `1.2.0`, copie entière
+identique remplaçant la piste `1.0.0` de la proposition. Les copies BASE-008
+et la licence sont identiques à leurs sources. Les références métier portent
+les qualifications, catégories, questions et réserves ; seul L113-8 a pu
+être ouvert et lu, les autres textes demeurent réservés après les tentatives
+officielles consignées. Aucun extrait de moteur traité comme texte lu.
+
+Preuves : [bilan par couche](ins-001-annexes/verification.md),
+[fixtures R01–R12](ins-001-annexes/fixtures.json),
+[paquet détaché et installation](ins-001-annexes/resultats-paquet.json),
+[tentatives runtime](ins-001-annexes/executions/results.json) et
+[journal des sources](ins-001-annexes/sources/lectures.md).
+
+Structure sans erreur bloquante, schémas et installation locale jetable
+contrôlés. Les douze commandes ont été reconnues au chargement, mais le
+quota Claude a empêché toute lecture des références et toute réponse métier.
+Les cases d'acceptation restent ouvertes : instructions présentes ne valent
+pas comportement observé. Relecture des sources réservées, recette runtime
+et compréhension par un utilisateur sans formation juridique restent à faire.
+Statut `a-verifier`, sans scénario simulé présenté comme exécution réussie.

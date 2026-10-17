@@ -1,0 +1,35 @@
+{
+  "source_family": "dila-list",
+  "reference": "LEGI",
+  "state": "retrieved",
+  "documentary_status": "non-verifie",
+  "applicability": "a-etablir",
+  "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+  "attempts": [
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/",
+      "attempted_at": "2026-10-17T07:41:32.718444+00:00",
+      "state": "retrieved",
+      "http_status": 200,
+      "final_url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/",
+      "retrieved_at": "2026-10-17T07:41:33.107106+00:00",
+      "bytes": 73856,
+      "sha256": "8b5b907c7776984c946be3501f78a39a8935181d53451b4310820ecfca345991"
+    }
+  ],
+  "coverage": "Archive listing only; daily deltas are not the complete corpus.",
+  "archive_count": 466,
+  "selected_stock": [
+    {
+      "name": "Freemium_legi_global_20250713-140000.tar.gz",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/Freemium_legi_global_20250713-140000.tar.gz"
+    }
+  ],
+  "latest_delta": [
+    {
+      "name": "LEGI_20261016-213852.tar.gz",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/LEGI_20261016-213852.tar.gz"
+    }
+  ],
+  "article_reading": "not performed; listing does not verify articles"
+}

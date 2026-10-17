@@ -802,3 +802,33 @@ runtime scenarios blocked by the client quota; no real-reader validation.
   funeral-legal/scripts/judge_store.py
   funeral-legal/skills/funeral-quote-review/SKILL.md
   funeral-legal/skills/funeral-quote-review/references/demande-explication.md
+
+INS-001 changes (2026-10-17): new standalone insurance-legal 0.1.0, one
+claim-denial-review skill for denial categories, policy documents, missing
+evidence and a factual explanation/review request. R01-R07 safeguards and
+specialized-domain orientations; no profile, durable storage, calculations
+or sending. qualification-assurance.md 1.0.0, motifs-refus.md 1.0.0 and
+demande-reexamen.md 1.0.0 added; official-source access failures reserved.
+BASE-005 1.2.0 and BASE-008 copies unchanged. Marketplace and isolation
+counts updated to 17 packages / 140 skills. Package, schema and installation
+checks are separate from twelve runtime cases blocked by client quota and
+real-reader validation still pending.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  scripts/test-base008-isolation.py
+  insurance-legal/.claude-plugin/plugin.json
+  insurance-legal/CLAUDE.md
+  insurance-legal/LICENSE
+  insurance-legal/NOTICE
+  insurance-legal/README.md
+  insurance-legal/references/company-profile-template.md
+  insurance-legal/references/dashboard-template.md
+  insurance-legal/references/isolation.md
+  insurance-legal/references/motifs-refus.md
+  insurance-legal/references/qualification-assurance.md
+  insurance-legal/references/shared/research-citation-method.md
+  insurance-legal/scripts/judge_store.py
+  insurance-legal/skills/claim-denial-review/SKILL.md
+  insurance-legal/skills/claim-denial-review/references/demande-reexamen.md

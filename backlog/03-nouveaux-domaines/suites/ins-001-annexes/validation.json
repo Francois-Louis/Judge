@@ -1,0 +1,299 @@
+{
+  "story": "INS-001",
+  "date": "2026-10-17",
+  "timezone": "Europe/Paris",
+  "commands": [
+    {
+      "label": "version-bump",
+      "command": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "scripts/check-version-bump.py"
+      ],
+      "returncode": 0,
+      "stdout": "OK   insurance-legal: new plugin at 0.1.0\nVersion bump check passed against origin/main.\n",
+      "stderr": ""
+    },
+    {
+      "label": "backlog-state",
+      "command": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "backlog/etat.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "ETAT.md est à jour.\n",
+      "stderr": ""
+    },
+    {
+      "label": "cookbook-tool-scope",
+      "command": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "scripts/lint-tool-scope.py"
+      ],
+      "returncode": 0,
+      "stdout": "  ✓ diligence-grid           orchestrator tool scope clean\n  ✓ docket-watcher           orchestrator tool scope clean\n  ✓ launch-radar             orchestrator tool scope clean\n  ✓ reg-monitor              orchestrator tool scope clean\n  ✓ renewal-watcher          orchestrator tool scope clean\n",
+      "stderr": ""
+    },
+    {
+      "label": "source-reviews",
+      "command": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "scripts/source_reviews.py",
+        "insurance-legal",
+        "--depuis",
+        "2026-10-17"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"plugin\": \"insurance-legal\",\n  \"depuis\": \"2026-10-17\",\n  \"errors\": [],\n  \"reviews\": 7\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "skill-frontmatter",
+      "command": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "C:/Users/fltou/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        "insurance-legal/skills/claim-denial-review"
+      ],
+      "returncode": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-commercial-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./commercial-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\commercial-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\commercial-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-privacy-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./privacy-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\privacy-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\privacy-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-product-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./product-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\product-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\product-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-corporate-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./corporate-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\corporate-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\corporate-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-employment-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./employment-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\employment-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\employment-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-regulatory-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./regulatory-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\regulatory-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\regulatory-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-ai-governance-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./ai-governance-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\ai-governance-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\ai-governance-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-litigation-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./litigation-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\litigation-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\litigation-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-law-student",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./law-student"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\law-student\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\law-student\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-legal-builder-hub",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./legal-builder-hub"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\legal-builder-hub\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\legal-builder-hub\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-ip-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./ip-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\ip-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\ip-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-banking-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./banking-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\banking-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\banking-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\ni Advice (does not change the verdict):\n\n  > <checkout>\\banking-legal\\README.md: This README has no line that installs \"judge-fr-eu-banking-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-banking-legal --marketplace <owner>/<repo>\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-consumer-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./consumer-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\consumer-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\consumer-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\ni Advice (does not change the verdict):\n\n  > <checkout>\\consumer-legal\\README.md: This README has no line that installs \"judge-fr-eu-consumer-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-consumer-legal --marketplace <owner>/<repo>\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-enforcement-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./enforcement-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\enforcement-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\enforcement-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\ni Advice (does not change the verdict):\n\n  > <checkout>\\enforcement-legal\\README.md: This README has no line that installs \"judge-fr-eu-enforcement-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-enforcement-legal --marketplace <owner>/<repo>\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-criminal-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./criminal-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\criminal-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\criminal-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-funeral-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./funeral-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\funeral-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\funeral-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-judge-fr-eu-insurance-legal",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "./insurance-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\insurance-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <checkout>\\insurance-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\n",
+      "stderr": ""
+    },
+    {
+      "label": "schema-vendor",
+      "command": [
+        "C:\\Users\\fltou\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+        "plugin",
+        "validate",
+        "external_plugins/cocounsel-legal"
+      ],
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <checkout>\\external_plugins\\cocounsel-legal\\.claude-plugin\\plugin.json\n\ni Advice (does not change the verdict):\n\n  > <checkout>\\external_plugins\\cocounsel-legal\\README.md: This README has no line that installs \"cocounsel-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install cocounsel-legal --marketplace <owner>/<repo>\n\n√ Validation passed\n",
+      "stderr": ""
+    }
+  ],
+  "json_parse": {
+    "returncode": 0,
+    "files": 126,
+    "scope": "tracked and non-ignored untracked repository files",
+    "ignored_non_utf8_or_invalid": [
+      "outputs/conso-001-directive.json"
+    ]
+  },
+  "base008": {
+    "returncode": 0,
+    "tests": 16,
+    "passed": 14,
+    "skipped": 2,
+    "skips": [
+      "jsonschema absent for orchestrator test",
+      "Windows symlink privilege unavailable; junction and hard-link tests passed"
+    ],
+    "evidence": "Summary of the run observed in this maintenance session, not a raw log"
+  },
+  "runtime": "See executions/results.json: all 12 cases blocked by quota before resource reads",
+  "reader": "non-execute"
+}
