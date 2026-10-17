@@ -7,9 +7,9 @@
 | En cours | 1 |
 | À vérifier | 2 |
 | Bloquée | 0 |
-| Terminée | 42 |
+| Terminée | 43 |
 | Prête | 0 |
-| À faire | 564 |
+| À faire | 563 |
 | Abandonnée | 23 |
 | dont prêtes à démarrer | 184 |
 | Total | 632 |
@@ -31,7 +31,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 
 | Story | Titre | Priorité | Nature |
 | --- | --- | --- | --- |
-| [BASE-014](00-fondations/base-014-relecture-references.md) | Relire les références embarquées avant chaque livraison | P1 | implementation |
 | [BASE-015](00-fondations/base-015-jurisprudence-runtime.md) | Cadrer l'accès à la jurisprudence pendant l'exécution d'un skill | P1 | cadrage |
 | [COM-013](02-plugins-existants/suites/com-013-preferences-commerciales.md) | Créer et modifier des préférences commerciales volontaires | P2 | implementation |
 | [COM-019](02-plugins-existants/suites/com-019-demande-paiement-suspecte.md) | Lire une demande de paiement présentée comme une obligation administrative | P2 | implementation |
@@ -208,6 +207,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [VEI-002](02-plugins-existants/suites/vei-002-capacite-source.md) | Vérifier la capacité d’une source de veille | P2 | implementation |
 | [VEI-017](02-plugins-existants/suites/vei-017-preferences-veille.md) | Gérer des préférences de veille volontaires | P2 | implementation |
 | [VEI-018](02-plugins-existants/suites/vei-018-dossier-veille.md) | Isoler un dossier de veille ou consultation | P2 | implementation |
+| [VEI-021](02-plugins-existants/suites/vei-021-veille-references-plugins.md) | Signaler les textes modifiés qui touchent les références d'un plugin livré | P2 | implementation |
 | [DOM-010](03-nouveaux-domaines/dom-010-administratif.md) | Cadrer un plugin de droit administratif | P3 | cadrage |
 | [DOM-011](03-nouveaux-domaines/dom-011-fiscalite.md) | Cadrer un plugin de fiscalité | P3 | cadrage |
 | [DOM-019](03-nouveaux-domaines/dom-019-urbanisme-foncier.md) | Cadrer un plugin urbanisme et foncier | P3 | cadrage |
@@ -240,6 +240,8 @@ Stories à faire dont toutes les dépendances sont terminées.
 - [BASE-012](00-fondations/base-012-designer-cli-claude.md) — Désigner le binaire claude utilisé par le contrôleur de paquet
 - [BASE-013](00-fondations/base-013-avertissement-interlocuteur.md) — Rendre systématique l'avertissement et l'interlocuteur compétent
   <br>Annexes : [base-013-pieces-fictives.md](00-fondations/base-013-annexes/base-013-pieces-fictives.md) · [base-013-resultats.json](00-fondations/base-013-annexes/base-013-resultats.json) · [base-013-sorties.md](00-fondations/base-013-annexes/base-013-sorties.md) · [base-013-sources-lues.json](00-fondations/base-013-annexes/base-013-sources-lues.json) · [base-013-verification.md](00-fondations/base-013-annexes/base-013-verification.md)
+- [BASE-014](00-fondations/base-014-relecture-references.md) — Relire les références embarquées avant chaque livraison
+  <br>Annexes : [base-014-relecture.json](00-fondations/base-014-annexes/base-014-relecture.json) · [base-014-verification.md](00-fondations/base-014-annexes/base-014-verification.md)
 - Autres documents : [retrospective-fondations.md](00-fondations/retrospective-fondations.md)
 
 ### 01 — Pilote travail
@@ -324,11 +326,10 @@ Stories à faire dont toutes les dépendances sont terminées.
 ✅ = prête à démarrer. Sinon, la colonne indique les dépendances non terminées.
 
 <details>
-<summary><b>BASE</b> — Fondations (00 — Fondations) : 2 à faire, 2 prêtes</summary>
+<summary><b>BASE</b> — Fondations (00 — Fondations) : 1 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [BASE-014](00-fondations/base-014-relecture-references.md) | Relire les références embarquées avant chaque livraison | P1 | ✅ |
 | [BASE-015](00-fondations/base-015-jurisprudence-runtime.md) | Cadrer l'accès à la jurisprudence pendant l'exécution d'un skill | P1 | ✅ |
 
 </details>
@@ -720,7 +721,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>VEI</b> — Veille réglementaire (02 — Plugins existants) : 21 à faire, 4 prêtes</summary>
+<summary><b>VEI</b> — Veille réglementaire (02 — Plugins existants) : 21 à faire, 5 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -744,7 +745,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [VEI-018](02-plugins-existants/suites/vei-018-dossier-veille.md) | Isoler un dossier de veille ou consultation | P2 | ✅ |
 | [VEI-019](02-plugins-existants/suites/vei-019-agent-synthese-locale.md) | Adapter l’agent à une synthèse locale bornée | P2 | VEI-003, VEI-016 |
 | [VEI-020](02-plugins-existants/suites/vei-020-cookbook-veille.md) | Vérifier le cookbook après adaptation manuelle | P2 | VEI-019 |
-| [VEI-021](02-plugins-existants/suites/vei-021-veille-references-plugins.md) | Signaler les textes modifiés qui touchent les références d'un plugin livré | P2 | BASE-014 |
+| [VEI-021](02-plugins-existants/suites/vei-021-veille-references-plugins.md) | Signaler les textes modifiés qui touchent les références d'un plugin livré | P2 | ✅ |
 
 </details>
 

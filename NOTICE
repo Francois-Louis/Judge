@@ -554,3 +554,23 @@ worker-classification and review apply it. No substantive rule added.
   regulatory-legal/NOTICE
   regulatory-legal/references/shared/research-citation-method.md
   scripts/test-base008-isolation.py
+
+BASE-014 changes (2026-10-17): source review before delivery. Business
+references list each official source with its review date, outcome and
+route; build-lot.py requires --relecture-depuis and refuses a lot with a
+stale, missing or unintegrated review (scripts/source_reviews.py).
+BASE-006 recipe 1.3.0. employment-legal 0.3.2 reviewed on 2026-10-17:
+no change found. No legal rule changed.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  NOTICE
+  employment-legal/.claude-plugin/plugin.json
+  employment-legal/NOTICE
+  employment-legal/README.md
+  employment-legal/references/hiring-review-fr.md
+  employment-legal/references/worker-classification-fr.md
+  references/package-validation.md
+  scripts/build-lot.py
+  scripts/source_reviews.py (new)
+  scripts/test-base008-isolation.py
+  scripts/test-source-reviews.py (new)

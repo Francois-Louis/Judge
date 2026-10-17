@@ -2,10 +2,11 @@
 <!-- Modified by Judge FR/UE for LIV-001 (2026-10-16): version 0.2.1, validation status and lot installation. -->
 <!-- Modified by Judge FR/UE for TRAV-001 (2026-10-17): version 0.3.0, worker-classification adapted. -->
 <!-- Modified by Judge FR/UE for BASE-013 (2026-10-17): version 0.3.1, closing scope sentence. -->
+<!-- Modified by Judge FR/UE for BASE-014 (2026-10-17): version 0.3.2, source review dates. -->
 
 # Judge FR/UE — revue d'embauche et qualification d'une relation
 
-Version du plugin **0.3.1**. Deux tâches sont réécrites pour la France.
+Version du plugin **0.3.2**. Deux tâches sont réécrites pour la France.
 Chaque note se termine par une phrase courte : elle aide à comprendre et à
 préparer, sans remplacer l'avis d'un avocat ou d'un juriste en droit du
 travail ; un renfort ouvre la note si une signature ou une réponse presse
@@ -94,6 +95,9 @@ isolé ; aucun lecteur non juriste ni relecture juridique indépendante.
   [repères d'embauche France 1.0.0](references/hiring-review-fr.md) et
   [qualification d'une relation 1.0.0](references/worker-classification-fr.md).
   Le parcours reprend USAGE-001 1.0.0 dans ses propres instructions.
+  Chaque source de ces repères porte sa date et son issue de relecture
+  avant livraison (colonne « Relecture », BASE-014) ; dernière relecture
+  le 17 octobre 2026, aucune modification constatée.
 - Lecture de sources officielles par les outils disponibles dans la session,
   sans connecteur spécifique ni abonnement API obligatoire. Leur disponibilité
   doit être observée. Si une source manque, la conclusion concernée reste

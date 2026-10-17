@@ -1,0 +1,872 @@
+{
+  "story": "BASE-014",
+  "date": "2026-10-17",
+  "fuseau": "Europe/Paris",
+  "objet": "Relecture avant livraison des sources de hiring-review-fr.md et worker-classification-fr.md (employment-legal)",
+  "code_du_travail": {
+    "voie": "python scripts/legal_sources.py travail <article> (Code du travail numérique, reproduction officielle) ; date « Mis à jour le » comparée à la date consignée",
+    "articles": [
+      {
+        "article": "D8222-5",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/01/2023",
+        "date_affichee_relecture": "01/01/2023",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/d8222-5",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:06.387263+00:00",
+        "sha256": "f015a0c5b9d25a78ec04f0ec4fa0fbc811388f1278232f24d72e0f233d3b7c88"
+      },
+      {
+        "article": "L1121-1",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1121-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:06.834352+00:00",
+        "sha256": "65ea6f7fc5f7de77e58c10a22dbffd296d4affafa2c45ccfab54e51e402cd045"
+      },
+      {
+        "article": "L1221-1",
+        "references": [
+          "hiring-review-fr.md",
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1221-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:07.261467+00:00",
+        "sha256": "14645f873a02b0755582dc0882b3cd21643d3b77dc6f92d3c80b4b02d47ed241"
+      },
+      {
+        "article": "L1221-10",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1221-10",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:07.686777+00:00",
+        "sha256": "9488ca5d29187a1f3b7a6ea6f68a42830c65232699cf5d584e5808094d74d973"
+      },
+      {
+        "article": "L1221-19",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "27/06/2008",
+        "date_affichee_relecture": "27/06/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1221-19",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:08.154077+00:00",
+        "sha256": "235e782972fd6dadc0de627f869269c83033a4eec38b14782e4e52f60b817ef3"
+      },
+      {
+        "article": "L1221-20",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "27/06/2008",
+        "date_affichee_relecture": "27/06/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1221-20",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:08.589268+00:00",
+        "sha256": "3ec540f7b9393a8893b8d99f86ff29621f9744d429adb3d3033e0a780c097d2d"
+      },
+      {
+        "article": "L1221-21",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "27/06/2008",
+        "date_affichee_relecture": "27/06/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1221-21",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:08.989458+00:00",
+        "sha256": "9009eec77f2ccde3bcc9e77c3bf1d415d4eabb924367278a776497a3078772df"
+      },
+      {
+        "article": "L1221-22",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "09/09/2023",
+        "date_affichee_relecture": "09/09/2023",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1221-22",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:09.430349+00:00",
+        "sha256": "fd32e97abc02942db4bbf4571f7f902f8b60e0b310ebbe4f1562312407480e0e"
+      },
+      {
+        "article": "L1221-23",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "27/06/2008",
+        "date_affichee_relecture": "27/06/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1221-23",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:09.854117+00:00",
+        "sha256": "728941507d0741ba103f3fccca98bc9c8c834c0fd72efceca4b94fd71bb8853b"
+      },
+      {
+        "article": "L1221-5-1",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "11/03/2023",
+        "date_affichee_relecture": "11/03/2023",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1221-5-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:10.285645+00:00",
+        "sha256": "46ea45b0864a849a6607ad9a4b8302db60fc2457b918176d3f8f7f52825bb787"
+      },
+      {
+        "article": "L1242-1",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1242-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:10.672123+00:00",
+        "sha256": "b211ba049308cd22a20b394af82b9f9024c51d15aa743a8c4c94238329dc05d3"
+      },
+      {
+        "article": "L1242-10",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1242-10",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:11.077436+00:00",
+        "sha256": "0a77b6dc6535c9cecdb5761732bd6852ac3bbcee9442c9e1391a1ac2df7d5c7a"
+      },
+      {
+        "article": "L1242-12",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1242-12",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:11.471662+00:00",
+        "sha256": "bc1ec712b443cb02caac2b3bddfb9c5b41e448c335668456098e0291c4d2f059"
+      },
+      {
+        "article": "L1242-13",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1242-13",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:12.102769+00:00",
+        "sha256": "72bcafc64d987e56f6a54a6fef7ff2b3f5a84d4b544085bf4f0f90b37b1034d1"
+      },
+      {
+        "article": "L1242-2",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "12/08/2018",
+        "date_affichee_relecture": "12/08/2018",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1242-2",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:12.470669+00:00",
+        "sha256": "e533259ef3464bd8d90263cd78a9c072c7f591f54a8d94a81a6248b0a10a03e1"
+      },
+      {
+        "article": "L1242-7",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "10/08/2016",
+        "date_affichee_relecture": "10/08/2016",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1242-7",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:12.843415+00:00",
+        "sha256": "06751a5a32eb3661a99ef5015de8d468030c5a44878d1200c636bd42df8e08b3"
+      },
+      {
+        "article": "L1245-1",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "22/12/2017",
+        "date_affichee_relecture": "22/12/2017",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1245-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:13.266693+00:00",
+        "sha256": "01dec7acbb3172e26b6aa56dd95577d55ae83c15a541a6af1c75b4884c0fb08f"
+      },
+      {
+        "article": "L1251-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "07/08/2009",
+        "date_affichee_relecture": "07/08/2009",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1251-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:13.786582+00:00",
+        "sha256": "d9f472a34fdc38debed8282dd6a21d1ebc002490b3bc5a1afe08f08d6c0759de"
+      },
+      {
+        "article": "L1252-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1252-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:14.250260+00:00",
+        "sha256": "af8e39dd932e0b92b9c3dc3ff47d23571398835a76cbc83f52a7a86bfefe0c72"
+      },
+      {
+        "article": "L1253-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "07/03/2014",
+        "date_affichee_relecture": "07/03/2014",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1253-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:14.632400+00:00",
+        "sha256": "1de77cf23b7f3171f1cff3c62689e628571437e0aa4d89611a7d7c519ef4da33"
+      },
+      {
+        "article": "L1254-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "10/08/2016",
+        "date_affichee_relecture": "10/08/2016",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1254-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:15.053916+00:00",
+        "sha256": "600d199e2f2e8768fbd7d2221e7b503a86d4f950717ed0ea1f01cee7f41c2330"
+      },
+      {
+        "article": "L1254-2",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "10/08/2016",
+        "date_affichee_relecture": "10/08/2016",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1254-2",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:15.537573+00:00",
+        "sha256": "5b41616ff5c9f886ea8132b6e49fbe588d00bebdf3b10e9222cf9f1f25f0bedd"
+      },
+      {
+        "article": "L1254-3",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "04/04/2015",
+        "date_affichee_relecture": "04/04/2015",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1254-3",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:15.932417+00:00",
+        "sha256": "467626b3eebd218356f4ceec33f9e76adf0f241da37fd3c00eda96b49dffbe03"
+      },
+      {
+        "article": "L1261-3",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "07/09/2018",
+        "date_affichee_relecture": "07/09/2018",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1261-3",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:16.325396+00:00",
+        "sha256": "8aa24f1400ff7c79c4486a50e3d2bd4a88af0f4e0044ff7c840a01cfeb4a2e7e"
+      },
+      {
+        "article": "L1262-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1262-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:16.725868+00:00",
+        "sha256": "d033daaa55d634ae37481575dddb9050926eeb32a510ed913b380242eea7d21a"
+      },
+      {
+        "article": "L1511-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/01/2018",
+        "date_affichee_relecture": "01/01/2018",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l1511-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:17.111024+00:00",
+        "sha256": "8760cfae79be7f2d74bdeb0724d950c19f7f398063352e4d585a1afa1b55122f"
+      },
+      {
+        "article": "L2253-1",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "01/04/2018",
+        "date_affichee_relecture": "01/04/2018",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l2253-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:17.494421+00:00",
+        "sha256": "e4fdd028fe8c6d46425e0f33230a2c70d41c5ddf597faeec5fce7d654d6e71bf"
+      },
+      {
+        "article": "L2253-2",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "01/04/2018",
+        "date_affichee_relecture": "01/04/2018",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l2253-2",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:17.944977+00:00",
+        "sha256": "130259ae3cbb0058fc1b3ba6614d8cc16c94c34fde32deeb1a7c267deec9d52b"
+      },
+      {
+        "article": "L2253-3",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "22/12/2017",
+        "date_affichee_relecture": "22/12/2017",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l2253-3",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:18.353132+00:00",
+        "sha256": "1aad9914f44d9ce24c77f098234d881cfc170b89a172e82249ee4a6bfe96ad71"
+      },
+      {
+        "article": "L2254-1",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l2254-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:18.735092+00:00",
+        "sha256": "9cd22a8f1d589c3fc2f3b2bf2bfe75aa84b66e978c7230966287726c3e6caa0a"
+      },
+      {
+        "article": "L2261-2",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l2261-2",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:19.112543+00:00",
+        "sha256": "9e5c81baeae8c66ee66673f5f7b20cabacb4f3c3d9ce3980b2de2a24bfa72d6a"
+      },
+      {
+        "article": "L3121-27",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "10/08/2016",
+        "date_affichee_relecture": "10/08/2016",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l3121-27",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:19.542827+00:00",
+        "sha256": "3238b6ae9ae47b135b5d03e16e6ae819011097cf73529cc0b0f9f4b09659d8be"
+      },
+      {
+        "article": "L3121-55",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "10/08/2016",
+        "date_affichee_relecture": "10/08/2016",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l3121-55",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:19.970193+00:00",
+        "sha256": "8fe5f2d5f9937ec7b6043e6f58a133fa49f020354bdb1407261a8d8115c039fd"
+      },
+      {
+        "article": "L3121-58",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "10/08/2016",
+        "date_affichee_relecture": "10/08/2016",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l3121-58",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:20.386844+00:00",
+        "sha256": "39786a633ee4a314b62e357402743c6e8fe16ec9ef4584684a111ca734bee740"
+      },
+      {
+        "article": "L3121-63",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "10/08/2016",
+        "date_affichee_relecture": "10/08/2016",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l3121-63",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:20.751620+00:00",
+        "sha256": "94d87e27b0e84dbdbf0e01dfe8ce0bbf552d30beacb20832cb2af1c655ce470c"
+      },
+      {
+        "article": "L3123-6",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "10/08/2016",
+        "date_affichee_relecture": "10/08/2016",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l3123-6",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:21.157356+00:00",
+        "sha256": "2f0e108ab9222c54aac43eb52d3972008c6d1991224d0d4149989cc7e9b1f2d3"
+      },
+      {
+        "article": "L3231-2",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l3231-2",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:21.584265+00:00",
+        "sha256": "f2d1ed496bb1b8183c4d02c91e81736f67e379c179a7e4fc7e7d30fc8a87b88e"
+      },
+      {
+        "article": "L7112-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l7112-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:22.091826+00:00",
+        "sha256": "e8d1ae35e45b1ac546cafaae6d9c365c02f1d86fe194f58c1118a3f2d13ed801"
+      },
+      {
+        "article": "L7121-3",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/01/2023",
+        "date_affichee_relecture": "01/01/2023",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l7121-3",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:22.527305+00:00",
+        "sha256": "974adcfb118c144b9f29d184f2206fc0acdd9d40d2be2baa63dd0bbfcf94f4fb"
+      },
+      {
+        "article": "L7341-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "10/08/2016",
+        "date_affichee_relecture": "10/08/2016",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l7341-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:22.916161+00:00",
+        "sha256": "f5305e470307598dd8e02f2aa0526c36ca4e1fe4ae565c9edc6540f48975bd24"
+      },
+      {
+        "article": "L8221-3",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/01/2023",
+        "date_affichee_relecture": "01/01/2023",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l8221-3",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:23.333051+00:00",
+        "sha256": "8ec317d509b6c18be3ec6837d4216a8f972fe1086632bf372c6602e86176c96c"
+      },
+      {
+        "article": "L8221-5",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "10/08/2016",
+        "date_affichee_relecture": "10/08/2016",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l8221-5",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:23.734317+00:00",
+        "sha256": "5b4dba0386c1968e969d40e436686b85833a4dadabe371d31a44bb101927b58d"
+      },
+      {
+        "article": "L8221-6",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/01/2023",
+        "date_affichee_relecture": "01/01/2023",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l8221-6",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:24.147385+00:00",
+        "sha256": "24c9d6e17bf2d9fe83aa5512827963f83b770e94b1f700344af3b5204b57c6d8"
+      },
+      {
+        "article": "L8221-6-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "06/08/2008",
+        "date_affichee_relecture": "06/08/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l8221-6-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:24.518431+00:00",
+        "sha256": "a550d0d7366c6cd3b07701f70e35b4db36f45f2356b558ce388808585293e999"
+      },
+      {
+        "article": "L8222-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "18/06/2011",
+        "date_affichee_relecture": "18/06/2011",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l8222-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:24.971545+00:00",
+        "sha256": "6d9ff12faf952957b8ca0e3bb5c28a8543ec30dde67d8ca9ac40fa298ab0773d"
+      },
+      {
+        "article": "L8222-2",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l8222-2",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:25.347944+00:00",
+        "sha256": "10d5cac9d52289ffa4ed25cbea1b9028a101d33f3bfc2031192c1cdf6aa33f7f"
+      },
+      {
+        "article": "L8231-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/05/2008",
+        "date_affichee_relecture": "01/05/2008",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l8231-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:25.738297+00:00",
+        "sha256": "9fd67854dd4649e0b71b57be4ed5e92ab5aa7d8f0b35d888288da164ae373ed8"
+      },
+      {
+        "article": "L8241-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "04/04/2015",
+        "date_affichee_relecture": "04/04/2015",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l8241-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:26.116522+00:00",
+        "sha256": "a13d9b6d009fe67135d0a0b11eb0ffb540998b995e315ae1967fb342920c655f"
+      },
+      {
+        "article": "L8241-2",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/01/2018",
+        "date_affichee_relecture": "01/01/2018",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/l8241-2",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:26.589635+00:00",
+        "sha256": "c0f21a1771abb980c8ea842a1fc1f144dfc9237b077a6a6a23938b58b27ee91a"
+      },
+      {
+        "article": "R1221-34",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "01/11/2023",
+        "date_affichee_relecture": "01/11/2023",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/r1221-34",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:27.035029+00:00",
+        "sha256": "caf9588f07bd08d13343321698e85b49558942c93f165b9fdf7636932bff1c22"
+      },
+      {
+        "article": "R1221-35",
+        "references": [
+          "hiring-review-fr.md"
+        ],
+        "date_consignee": "01/11/2023",
+        "date_affichee_relecture": "01/11/2023",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/r1221-35",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:27.634275+00:00",
+        "sha256": "cb60318aaac92bd787851d98a770db64a471b1b1cc5be7e04b5d3b97a0b3a03e"
+      },
+      {
+        "article": "R8222-1",
+        "references": [
+          "worker-classification-fr.md"
+        ],
+        "date_consignee": "01/05/2015",
+        "date_affichee_relecture": "01/05/2015",
+        "issue": "inchangee",
+        "voie": "https://code.travail.gouv.fr/code-du-travail/r8222-1",
+        "http_status": 200,
+        "retrieved_at": "2026-10-17T05:02:28.036723+00:00",
+        "sha256": "ec4f86b196177835a94d0127570cf5f679b3865410e2b785bd19c2f8f78310f5"
+      }
+    ]
+  },
+  "modifications_publiees": {
+    "voie": "Archives quotidiennes LEGI de la DILA parcourues en flux (articles du LEGITEXT000006072050 portant un numéro cité)",
+    "archives": [
+      {
+        "url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/LEGI_20261015-122925.tar.gz",
+        "attempted_at": "2026-10-17T05:03:30.780769+00:00",
+        "members": 169,
+        "code_travail_articles": 0,
+        "sha256": "7dd2b4a7b51cc32456abb43351325d38cfac87b69570dd15bfdeed95c93fe566",
+        "articles_cites": []
+      },
+      {
+        "url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/LEGI_20261015-214025.tar.gz",
+        "attempted_at": "2026-10-17T05:03:30.991792+00:00",
+        "members": 5958,
+        "code_travail_articles": 96,
+        "sha256": "15f2fa5bd780aae656e4c50c9d59bd4a3910b1739b72b9059c11012ca78c2c5b",
+        "articles_cites": [
+          {
+            "num": "L2253-1",
+            "id": "LEGIARTI000006901774",
+            "etat": "MODIFIE",
+            "date_debut": "2008-05-01",
+            "date_fin": "2017-09-24"
+          },
+          {
+            "num": "L2253-1",
+            "id": "LEGIARTI000035627428",
+            "etat": "MODIFIE",
+            "date_debut": "2017-09-24",
+            "date_fin": "2017-12-22"
+          },
+          {
+            "num": "L2253-1",
+            "id": "LEGIARTI000036262254",
+            "etat": "MODIFIE",
+            "date_debut": "2017-12-22",
+            "date_fin": "2018-04-01"
+          },
+          {
+            "num": "L2253-1",
+            "id": "LEGIARTI000036761771",
+            "etat": "VIGUEUR",
+            "date_debut": "2018-04-01",
+            "date_fin": "2999-01-01"
+          }
+        ]
+      },
+      {
+        "url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/LEGI_20261016-213852.tar.gz",
+        "attempted_at": "2026-10-17T05:03:31.740543+00:00",
+        "members": 7114,
+        "code_travail_articles": 87,
+        "sha256": "be276d8c7bdaca4dc2e43819d93db5fd86e3f7efcb91587ecb6a0178830aeb2f",
+        "articles_cites": [
+          {
+            "num": "L2253-2",
+            "id": "LEGIARTI000035627424",
+            "etat": "MODIFIE",
+            "date_debut": "2017-09-24",
+            "date_fin": "2017-12-22"
+          },
+          {
+            "num": "L2253-2",
+            "id": "LEGIARTI000036262246",
+            "etat": "MODIFIE",
+            "date_debut": "2017-12-22",
+            "date_fin": "2018-04-01"
+          },
+          {
+            "num": "L2253-2",
+            "id": "LEGIARTI000036761762",
+            "etat": "VIGUEUR",
+            "date_debut": "2018-04-01",
+            "date_fin": "2999-01-01"
+          },
+          {
+            "num": "L2253-2",
+            "id": "LEGIARTI000006901775",
+            "etat": "MODIFIE",
+            "date_debut": "2008-05-01",
+            "date_fin": "2017-09-24"
+          }
+        ]
+      }
+    ],
+    "lecture": "L2253-1 et L2253-2 republiés : versions historiques et version en vigueur depuis le 2018-04-01, date de fin 2999-01-01 ; aucune version nouvelle ni future. L'archive du 17 octobre n'était pas encore publiée."
+  },
+  "union_europeenne": {
+    "documents": [
+      {
+        "celex": "32008R0593",
+        "attempts": [
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32008R0593",
+            "http_status": 202,
+            "state": "blocked",
+            "attempted_at": "2026-10-17T05:04:20.384503+00:00",
+            "sha256": null
+          },
+          {
+            "url": "https://publications.europa.eu/resource/celex/32008R0593",
+            "http_status": 200,
+            "state": "retrieved",
+            "attempted_at": "2026-10-17T05:04:20.528520+00:00",
+            "sha256": "a1e7ac911a0bb3f630271af6cb23c025fac7ca009cb21f153be8e5d41415231a"
+          }
+        ]
+      },
+      {
+        "celex": "32024L2831",
+        "attempts": [
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024L2831",
+            "http_status": 202,
+            "state": "blocked",
+            "attempted_at": "2026-10-17T05:04:21.334582+00:00",
+            "sha256": null
+          },
+          {
+            "url": "https://publications.europa.eu/resource/celex/32024L2831",
+            "http_status": 200,
+            "state": "retrieved",
+            "attempted_at": "2026-10-17T05:04:21.411195+00:00",
+            "sha256": "05efa6bef8b04a713fc00e4d93377507b78f1e956ac9a066d35f29ce3d362bf1"
+          }
+        ]
+      }
+    ],
+    "sparql": "https://publications.europa.eu/webapi/rdf/sparql : actes modifiant, rectifiant, consolidant ou abrogeant 32008R0593 et 32024L2831, puis langues des rectificatifs",
+    "resultat": {
+      "32008R0593": "aucun acte modificatif ni abrogation ; consolidation unique 02008R0593-20080724 ; rectificatifs R(01) à R(08), seul R(02) du 2009-11-24 existe en français",
+      "32024L2831": "aucun acte modificatif ; consolidation 02024L2831-20241111 ; rectificatif R(01) du 2025-02-28 en anglais et maltais seulement ; article 29 relu : transposition au plus tard le 2 décembre 2026"
+    },
+    "eur_lex": "EUR-Lex : HTTP 202 sans contenu (écran JavaScript) pour le document et pour la page ALL ; voie alternative CELLAR"
+  },
+  "decisions": {
+    "voie": "Légifrance par l'outil de lecture web de la session (résumé et courtes citations)",
+    "resultats": [
+      {
+        "ref": "Cass. ass. plén., 4 mars 1983, n° 81-11.647 et 81-15.290",
+        "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007011833",
+        "issue": "inchangee",
+        "controle": "identité et passage sur la volonté des parties confirmés"
+      },
+      {
+        "ref": "Cass. soc., 13 novembre 1996, n° 94-13.187",
+        "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007035180",
+        "issue": "inchangee",
+        "controle": "définition du lien de subordination et du service organisé confirmée"
+      },
+      {
+        "ref": "Cass. soc., 19 décembre 2000, n° 98-40.572",
+        "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007043285",
+        "issue": "inchangee",
+        "controle": "identité et passage confirmés"
+      },
+      {
+        "ref": "Cass. soc., 28 novembre 2018, n° 17-20.079",
+        "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000037787075",
+        "issue": "inchangee",
+        "controle": "géolocalisation et pouvoir de sanction confirmés"
+      },
+      {
+        "ref": "Cass. soc., 4 mars 2020, n° 19-13.316",
+        "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000042025162",
+        "issue": "inchangee",
+        "controle": "service organisé, absence de clientèle propre, statut fictif confirmés ; fin de page non lue"
+      },
+      {
+        "ref": "Cass. soc., 10 juillet 2002, n° 00-45.135 (piste)",
+        "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007046365/",
+        "issue": "inchangee",
+        "controle": "texte intégral lisible ; conditions cumulatives dont contrepartie financière ; reste une piste dans la référence"
+      },
+      {
+        "ref": "Cass. soc., 21 septembre 2017, n° 16-20.103 (piste)",
+        "url": "https://www.courdecassation.fr/decision/5fd8f8792bd8d88d219aa6e1",
+        "issue": "inaccessible",
+        "controle": "page vide ; un identifiant Légifrance supposé (JURITEXT000035623496) ne correspond à aucun contenu ; réserve maintenue"
+      }
+    ]
+  },
+  "limites": "Décisions nouvelles : aucune recherche jurisprudentielle exhaustive (hors périmètre). Versions futures : Légifrance seulement pour un article témoin (L1221-19, aucune version future affichée) ; pour les autres, archives LEGI des 15 et 16 octobre seulement. Lectures par résumé de l'outil web pour les décisions."
+}

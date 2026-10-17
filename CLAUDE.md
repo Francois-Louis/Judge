@@ -111,6 +111,13 @@ PyYAML; it does not execute a skill or validate legal reasoning. Missing tools,
 manual-review findings, and unexecuted scenarios must remain explicit in the
 lot's report. Controller fixtures: `python scripts/test-check-plugin-package.py`.
 
+Before building a lot, re-read every official source linked from the
+delivered plugins' business references and record it in their `Relecture`
+column (`AAAA-MM-JJ · issue · voie`, BASE-014). `scripts/build-lot.py` requires
+`--relecture-depuis <start of lot preparation>` and refuses stale, missing or
+unintegrated reviews; check earlier with `python scripts/source_reviews.py
+<plugin> --depuis <date>`. Fixtures: `python scripts/test-source-reviews.py`.
+
 ### Marketplace invariants (I1–I11)
 
 `claude-plugins-official` layers these on top of the schema check. They apply

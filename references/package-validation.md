@@ -1,8 +1,9 @@
 # Validation d'une adaptation de skill et de son plugin — BASE-006
 
-Version `1.2.0` — 16 octobre 2026 (Europe/Paris). La 1.1.0 ajoute le
+Version `1.3.0` — 17 octobre 2026 (Europe/Paris). La 1.1.0 ajoute le
 contrôle au regard du protocole d'orientation USAGE-001 (USAGE-003) ; la 1.2.0
-permet de désigner le binaire `claude` hors du PATH (BASE-012).
+permet de désigner le binaire `claude` hors du PATH (BASE-012) ; la 1.3.0
+impose la relecture datée des sources embarquées avant chaque lot (BASE-014).
 
 Cette recette s'applique à un lot borné selon le
 [contrat BASE-003](../backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md)
@@ -198,6 +199,42 @@ déjà définies dans [CLAUDE.md](../CLAUDE.md). Le script existant
 [lint des outils](../scripts/lint-tool-scope.py) reste réservé aux cookbooks
 concernés ; inutile de le présenter comme une recette juridique des skills.
 
+## Relire les sources embarquées avant chaque lot
+
+Chaque source officielle citée par une référence métier du paquet
+(`references/*.md` et `skills/*/references/*.md`, hors copie de la méthode
+commune) est relue pendant la préparation du lot, même si elle a été lue à la
+rédaction. La date de rédaction ne remplace jamais cette relecture.
+
+1. Relire le texte et sa version consolidée par les voies officielles de
+   [l'accès aux sources](legal-source-access.md) : Code du travail numérique
+   ou Légifrance, archives quotidiennes LEGI de la DILA pour les modifications
+   publiées depuis la lecture précédente, CELLAR (document et requête SPARQL
+   des actes modificatifs et rectificatifs) pour l'Union.
+2. Rechercher dispositions transitoires, versions futures déjà adoptées
+   (Légifrance ; le Code du travail numérique ne les montre pas) et décisions
+   nouvelles utiles connues. Une recherche jurisprudentielle exhaustive n'est
+   pas exigée. Toute recherche non faite est écrite dans la référence.
+3. Consigner dans la colonne `Relecture` du tableau de sources :
+   `AAAA-MM-JJ · issue · voie[ · précision]`, l'issue étant `inchangee`,
+   `modifiee`, `abrogee`, `jurisprudence-nouvelle` ou `inaccessible`. Toute
+   source liée doit figurer dans une ligne d'un tel tableau.
+4. Une modification constatée met à jour la référence : nouvelle version,
+   précision `intégrée X.Y.Z` égale à cette version, entrée NOTICE du plugin
+   mentionnant `<fichier> X.Y.Z`. Une relecture `inchangee` ne change pas la
+   version du contenu.
+5. Une source `inaccessible` garde sa conclusion réservée dans la référence et
+   porte `réserve` dans sa précision ; elle ne bloque pas le lot.
+
+Le constructeur [build-lot.py](../scripts/build-lot.py) exige
+`--relecture-depuis <date de début de préparation>` et refuse le lot si une
+source n'a pas de relecture valide depuis cette date, ou si un changement n'est
+pas intégré ; l'inventaire du lot liste la date, l'issue et la voie de chaque
+relecture. Pendant la préparation, `python scripts/source_reviews.py <plugin>
+--depuis <date>` donne le même verdict. Ce contrôle lit du texte : il ne prouve
+ni qu'une lecture a eu lieu, ni qu'elle était juste. Fixtures :
+`python scripts/test-source-reviews.py`.
+
 ## Grille de scénarios à rejouer et à relire
 
 Pour chaque skill adapté, préparer des pièces fictives minimales et appliquer
@@ -250,6 +287,7 @@ Schéma plugin et marketplace (séparés) : statut, commande, code, journal :
 Installation et appels réels : statut, commande, ressources lues, sorties :
 Scénarios : identifiant, entrée, attendu, observé, preuve, statut, relecteur :
 Sources : document, passage, version, accès réel, applicabilité, incertitudes :
+Relecture des sources du lot : date de début, issues, voies, modifications intégrées :
 Compréhension par un utilisateur : statut, reformulation, corrections :
 Défauts / corrections / contrôles non exécutés et raisons :
 Décision humaine sur ce seul lot et limites :

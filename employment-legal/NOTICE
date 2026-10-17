@@ -94,3 +94,14 @@ signature or other urgency. No substantive legal rule added.
   references/worker-classification-fr.md
   skills/hiring-review/SKILL.md
   skills/worker-classification/SKILL.md
+
+BASE-014 changes (2026-10-17): version 0.3.2. Every official source of
+hiring-review-fr.md and worker-classification-fr.md carries its review date,
+outcome and route (Relecture column). Review of 17 October 2026: no change
+found; one 2017 decision still inaccessible, reserve kept. No legal rule and
+no reference content version changed.
+  .claude-plugin/plugin.json
+  NOTICE
+  README.md
+  references/hiring-review-fr.md
+  references/worker-classification-fr.md

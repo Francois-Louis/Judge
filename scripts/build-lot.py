@@ -1,24 +1,30 @@
-# Added by Judge FR/UE for LIV-001, 2026-10-16.
+# Added by Judge FR/UE for LIV-001, 2026-10-16. Modified for BASE-014, 2026-10-17.
 """Build a bounded Judge FR/UE lot: selected plugins and a one-lot marketplace.
 
-python scripts/build-lot.py --lot judge-fr-eu-lot-001 --plugin employment-legal \
-    --notes backlog/04-livraison/liv-001-annexes/liv-001-notes-version.md --out <dir-outside-checkout>
+python scripts/build-lot.py --lot judge-fr-eu-lot-002 --plugin employment-legal \
+    --notes <notes.md> --relecture-depuis <AAAA-MM-JJ> --out <dir-outside-checkout>
 
 The lot copies only git-tracked files of each selected plugin, from the working
 tree (default) or from --rev. It refuses an output inside the checkout or an
 existing output, untracked files in a selected plugin, links, and a marketplace
-entry whose name/description/author differ from the plugin manifest. It writes
-lot-inventory.json (SHA-256 of every file) and a reproducible ZIP next to the
-lot directory. Nothing is installed, published or pushed.
+entry whose name/description/author differ from the plugin manifest. It also
+refuses a plugin whose reference sources were not re-read since
+--relecture-depuis, or whose observed change was not integrated
+(scripts/source_reviews.py, BASE-014). It writes lot-inventory.json (SHA-256 of
+every file, date and outcome of every source review) and a reproducible ZIP
+next to the lot directory. Nothing is installed, published or pushed.
 """
 
 import argparse
+from datetime import date
 import hashlib
 import json
 from pathlib import Path, PurePosixPath
 import subprocess
 import sys
 import zipfile
+
+from source_reviews import check_plugin
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -42,6 +48,9 @@ def main():
                         help='Markdown release notes copied as the lot README.md.')
     parser.add_argument('--out', type=Path, required=True, help='Parent directory outside the checkout.')
     parser.add_argument('--rev', help='Build from this git revision instead of the working tree.')
+    parser.add_argument('--relecture-depuis', type=date.fromisoformat, required=True,
+                        help='Start of the lot preparation (AAAA-MM-JJ): every reference source '
+                             'must have been re-read on or after this date.')
     args = parser.parse_args()
 
     out_parent = args.out.resolve()
@@ -64,7 +73,7 @@ def main():
         return file.read_bytes()
 
     market = json.loads(read('.claude-plugin/marketplace.json'))
-    files, modified, plugins = {}, [], []
+    files, modified, plugins, reviews = {}, [], [], []
     for name in args.plugin:
         if PurePosixPath(name).name != name or name.startswith('.'):
             sys.exit(f'refused: plugin must be a top-level directory name: {name}')
@@ -85,6 +94,10 @@ def main():
             modified += [m for m in git('diff', '--name-only', '-z', 'HEAD', '--', name).split('\0') if m]
         for path in filter(None, tracked):
             files[path] = read(path)
+        errors, plugin_reviews = check_plugin(files, name, args.relecture_depuis)
+        if errors:
+            sys.exit('refused: reference sources not reviewed for this lot:\n  ' + '\n  '.join(errors))
+        reviews += plugin_reviews
         plugins.append({**entry, 'version': manifest['version']})
 
     files['LICENSE'] = read('LICENSE')
@@ -110,6 +123,7 @@ def main():
         'source': {'mode': 'git-revision' if rev else 'working-tree', 'revision': rev or head,
                    'head': head, 'modified_vs_head': sorted(modified)},
         'plugins': [{'name': p['name'], 'source': p['source'], 'version': p['version']} for p in plugins],
+        'source_reviews': {'since': str(args.relecture_depuis), 'reviews': reviews},
         'files': {path: sha256(data) for path, data in sorted(files.items())},
     }
     files['lot-inventory.json'] = (json.dumps(inventory, ensure_ascii=False, indent=2) + '\n').encode('utf-8')

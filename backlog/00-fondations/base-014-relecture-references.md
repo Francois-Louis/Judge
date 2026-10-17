@@ -1,7 +1,7 @@
 ---
 id: BASE-014
 titre: "Relire les références embarquées avant chaque livraison"
-statut: proposee
+statut: terminee
 priorite: P1
 nature: implementation
 dependances: [BASE-005, BASE-006, LIV-001]
@@ -42,10 +42,10 @@ livraison. Décision de l'utilisateur du 16 octobre 2026
 
 ## Critères d'acceptation
 
-- [ ] Chaque source des références du lot porte date et issue de relecture.
-- [ ] Le constructeur refuse un lot dont une source n'est pas relue pour cette livraison, test à l'appui.
-- [ ] Une modification constatée produit une mise à jour de la référence et une entrée NOTICE.
-- [ ] La relecture de `hiring-review-fr.md` est faite et consignée pour le prochain lot.
+- [x] Chaque source des références du lot porte date et issue de relecture. *Lot `employment-legal` ; `commercial-legal` à relire lors de son lot.*
+- [x] Le constructeur refuse un lot dont une source n'est pas relue pour cette livraison, test à l'appui.
+- [x] Une modification constatée produit une mise à jour de la référence et une entrée NOTICE. *Imposé par le constructeur, vérifié sur fixture : aucune modification réelle constatée.*
+- [x] La relecture de `hiring-review-fr.md` est faite et consignée pour le prochain lot. *Lot préparé à partir du 17 octobre 2026.*
 
 ## Vérification
 
@@ -57,3 +57,35 @@ livraison. Décision de l'utilisateur du 16 octobre 2026
 
 Veille continue entre deux livraisons (VEI-021), recherche jurisprudentielle
 exhaustive, mise à jour automatique sans relecture humaine.
+
+## Bilan d'exécution — 17 octobre 2026
+
+- [source_reviews.py](../../scripts/source_reviews.py) : contrôle des
+  références métier d'un plugin (hors copie de la méthode commune). Toute
+  source officielle liée doit figurer dans un tableau à colonne `Relecture`
+  (`AAAA-MM-JJ · issue · voie[ · précision]`), datée entre le début de la
+  préparation et le jour même ; un changement exige `intégrée X.Y.Z` égal à la
+  version de la référence et une entrée NOTICE ; une source inaccessible exige
+  `réserve`.
+- [build-lot.py](../../scripts/build-lot.py) : option obligatoire
+  `--relecture-depuis`, refus du lot en cas d'erreur, relevé des relectures
+  dans `lot-inventory.json`. [Fixtures](../../scripts/test-source-reviews.py) :
+  10 tests, dont une construction réelle et un refus réel.
+- [Recette BASE-006 1.3.0](../../references/package-validation.md) : section
+  « Relire les sources embarquées avant chaque lot » et ligne de la fiche de
+  preuve ; `CLAUDE.md` du dépôt complété.
+- `employment-legal` 0.3.2 : relecture réelle du 17 octobre 2026 de toutes les
+  sources de `hiring-review-fr.md` et `worker-classification-fr.md`, consignée
+  dans leurs colonnes `Relecture` ; aucune modification, une décision toujours
+  inaccessible avec réserve. Journal : [relecture](base-014-annexes/base-014-relecture.json) ;
+  contrôles : [vérification](base-014-annexes/base-014-verification.md).
+
+## Portée
+
+Voir la portée de la [vérification](base-014-annexes/base-014-verification.md).
+Le contrôle lit le texte des références : la réalité et l'exactitude des
+lectures restent de la responsabilité du préparateur. Versions futures
+recherchées sur Légifrance pour un seul article ; pas de recherche
+jurisprudentielle exhaustive. `commercial-legal` et les plugins hérités ne
+sont pas relus : leur lot sera refusé tant qu'ils ne le seront pas. La méthode
+commune et ses repères S1 à S4 ne sont pas soumis au contrôle.

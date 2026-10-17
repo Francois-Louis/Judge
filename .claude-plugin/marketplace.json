@@ -47,7 +47,7 @@
       "name": "judge-fr-eu-employment-legal",
       "displayName": "Judge FR/UE — Employment Legal",
       "source": "./employment-legal",
-      "description": "Judge FR/UE 0.3.1 : hiring-review pour comprendre une offre ou un contrat salarié privé en France (CDI, contrôles CDD ciblés) et worker-classification pour qualifier une relation de travail proposée avant exécution, sans choix automatique du statut. Recettes sur pièces fictives, lecteur non indépendant ; autres tâches héritées non adaptées.",
+      "description": "Judge FR/UE 0.3.2 : hiring-review pour comprendre une offre ou un contrat salarié privé en France (CDI, contrôles CDD ciblés) et worker-classification pour qualifier une relation de travail proposée avant exécution, sans choix automatique du statut. Recettes sur pièces fictives, lecteur non indépendant ; autres tâches héritées non adaptées.",
       "author": {
         "name": "Anthropic"
       }
