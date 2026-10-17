@@ -59,6 +59,7 @@ FAMILLES = {
     "IND": "Micro-entreprise et travail indépendant",
     "ANM": "Animaux et responsabilités",
     "CHP": "Chasse et pêche de loisir",
+    "SUC": "Successions et donations",
     "LIV": "Livraison",
     "USAGE": "Usages quotidiens",
 }

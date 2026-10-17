@@ -6,6 +6,10 @@ No affiliation or endorsement by Anthropic is claimed.
 Technical identity and storage changes do not certify France/EU legal adaptation.
 No upstream NOTICE was present in the source snapshot.
 
+DOM-016 (2026-10-17): register the proposed successions and donations story
+family in the backlog index generator; no plugin or runtime content changed.
+  backlog/etat.py
+
 Retirement of legal-clinic (2026-10-16, user decision, no story): the
 legal-clinic plugin (US law school clinics) is removed from the repository and
 the marketplace, which now lists eleven plugins and 134 skills. Active

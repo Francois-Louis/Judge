@@ -1,0 +1,106 @@
+{
+  "story": "DOM-016",
+  "date": "2026-10-17",
+  "fuseau": "Europe/Paris",
+  "base_git": "e5e29f54f4cea9a2c466855fb7b2db51e3a65cf0",
+  "portee": "Controles documentaires du seul lot ; cas fictifs, aucun skill execute ni validation juridique.",
+  "controles": [
+    {
+      "controle": "frontmatters_identifiants_dependances_sans_cycle",
+      "stories": 753,
+      "erreurs": [],
+      "statut": "reussi"
+    },
+    {
+      "controle": "25_suites_proposees_50_scenarios_et_precedent_pilote",
+      "erreurs": [],
+      "statut": "reussi"
+    },
+    {
+      "controle": "liens_locaux_et_ancres",
+      "liens": 93,
+      "erreurs": [],
+      "statut": "reussi"
+    },
+    {
+      "controle": "utf8_et_format",
+      "erreurs": [],
+      "statut": "reussi"
+    },
+    {
+      "controle": "regeneration_index_du_seul_lot",
+      "commande": "python -X utf8 backlog/etat.py",
+      "code": 0,
+      "sortie": "ETAT.md régénéré (1295 lignes).",
+      "erreurs": [],
+      "statut": "reussi"
+    },
+    {
+      "controle": "index_du_seul_lot_a_jour",
+      "commande": "python -X utf8 backlog/etat.py --check",
+      "code": 0,
+      "sortie": "ETAT.md est à jour.",
+      "erreurs": [],
+      "statut": "reussi"
+    },
+    {
+      "controle": "versions_plugins",
+      "commande": "python -X utf8 scripts/check-version-bump.py",
+      "code": 0,
+      "sortie": "Version bump check passed against origin/main.",
+      "erreurs": [],
+      "statut": "reussi"
+    },
+    {
+      "controle": "diff_sans_erreur_espace",
+      "commande": "git diff --check",
+      "code": 0,
+      "sortie": "",
+      "erreurs": [],
+      "statut": "reussi"
+    },
+    {
+      "controle": "perimetre_du_lot",
+      "methode": "Archive HEAD puis superposition explicite des seuls fichiers DOM-016 ; generateur HEAD avec seule famille SUC et index regenere dans cette copie.",
+      "fichiers": [
+        "backlog/03-nouveaux-domaines/dom-016-annexes/dom-016-decoupage-successions.md",
+        "backlog/03-nouveaux-domaines/dom-016-annexes/dom-016-parcours.md",
+        "backlog/03-nouveaux-domaines/dom-016-annexes/dom-016-resultats.json",
+        "backlog/03-nouveaux-domaines/dom-016-annexes/dom-016-sources.md",
+        "backlog/03-nouveaux-domaines/dom-016-annexes/dom-016-verification.md",
+        "backlog/03-nouveaux-domaines/dom-016-successions-donations.md",
+        "backlog/03-nouveaux-domaines/suites/suc-001-courrier-notaire.md",
+        "backlog/03-nouveaux-domaines/suites/suc-002-actif-passif.md",
+        "backlog/03-nouveaux-domaines/suites/suc-003-option-sommation.md",
+        "backlog/03-nouveaux-domaines/suites/suc-004-actes-acceptation.md",
+        "backlog/03-nouveaux-domaines/suites/suc-005-acceptation-actif-net.md",
+        "backlog/03-nouveaux-domaines/suites/suc-006-renonciation-descendants.md",
+        "backlog/03-nouveaux-domaines/suites/suc-007-creance-reclamee.md",
+        "backlog/03-nouveaux-domaines/suites/suc-008-dette-decouverte.md",
+        "backlog/03-nouveaux-domaines/suites/suc-009-frais-bancaires.md",
+        "backlog/03-nouveaux-domaines/suites/suc-010-recherche-comptes.md",
+        "backlog/03-nouveaux-domaines/suites/suc-011-paiement-obseques.md",
+        "backlog/03-nouveaux-domaines/suites/suc-012-fonctionnement-comptes.md",
+        "backlog/03-nouveaux-domaines/suites/suc-013-preuve-qualite.md",
+        "backlog/03-nouveaux-domaines/suites/suc-014-effets-inventaire.md",
+        "backlog/03-nouveaux-domaines/suites/suc-015-testament-donations.md",
+        "backlog/03-nouveaux-domaines/suites/suc-016-evaluations.md",
+        "backlog/03-nouveaux-domaines/suites/suc-017-comptes-indivision.md",
+        "backlog/03-nouveaux-domaines/suites/suc-018-occupation-indivise.md",
+        "backlog/03-nouveaux-domaines/suites/suc-019-vente-bien-indivis.md",
+        "backlog/03-nouveaux-domaines/suites/suc-020-projet-partage.md",
+        "backlog/03-nouveaux-domaines/suites/suc-021-contestation-partage.md",
+        "backlog/03-nouveaux-domaines/suites/suc-022-logement-survivant.md",
+        "backlog/03-nouveaux-domaines/suites/suc-023-contrat-genealogiste.md",
+        "backlog/03-nouveaux-domaines/suites/suc-024-projet-donation.md",
+        "backlog/03-nouveaux-domaines/suites/suc-025-element-etranger.md",
+        "backlog/ETAT.md",
+        "backlog/etat.py",
+        "NOTICE"
+      ],
+      "runtime_modifie": false,
+      "erreurs": [],
+      "statut": "reussi"
+    }
+  ]
+}

@@ -7,12 +7,12 @@
 | En cours | 1 |
 | À vérifier | 7 |
 | Bloquée | 0 |
-| Terminée | 55 |
+| Terminée | 56 |
 | Prête | 0 |
-| À faire | 642 |
+| À faire | 666 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 178 |
-| Total | 728 |
+| dont prêtes à démarrer | 177 |
+| Total | 753 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -63,7 +63,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-013](03-nouveaux-domaines/dom-013-famille-patrimoine.md) | Cadrer un plugin famille et patrimoine du couple | P2 | cadrage |
 | [DOM-014](03-nouveaux-domaines/dom-014-agriculture-rural.md) | Cadrer un plugin agricole et rural | P2 | cadrage |
 | [DOM-015](03-nouveaux-domaines/dom-015-construction-travaux.md) | Cadrer un plugin construction et travaux | P2 | cadrage |
-| [DOM-016](03-nouveaux-domaines/dom-016-successions-donations.md) | Cadrer un plugin successions et donations | P2 | cadrage |
 | [DOM-017](03-nouveaux-domaines/dom-017-transactions-immobilieres.md) | Cadrer un plugin d'achat et de vente immobilière | P2 | cadrage |
 | [DOM-018](03-nouveaux-domaines/dom-018-copropriete.md) | Cadrer un plugin copropriété et syndic | P2 | cadrage |
 | [DOM-020](03-nouveaux-domaines/dom-020-voisinage-servitudes.md) | Cadrer un plugin voisinage et servitudes | P2 | cadrage |
@@ -318,6 +317,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [dom-008-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py) · [dom-008-decoupage-transports.md](03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md) · [dom-008-frictions-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-controles.py) · [dom-008-frictions-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-resultats.json) · [dom-008-frictions-utilisateurs.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-utilisateurs.md) · [dom-008-frictions-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-verification.md) · [dom-008-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json) · [dom-008-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md)
 - [DOM-009](03-nouveaux-domaines/dom-009-douanes.md) — Cadrer un plugin douanes et import-export
   <br>Annexes : [dom-009-decoupage-douanes.md](03-nouveaux-domaines/dom-009-annexes/dom-009-decoupage-douanes.md) · [dom-009-resultats.json](03-nouveaux-domaines/dom-009-annexes/dom-009-resultats.json) · [dom-009-verification.md](03-nouveaux-domaines/dom-009-annexes/dom-009-verification.md)
+- [DOM-016](03-nouveaux-domaines/dom-016-successions-donations.md) — Cadrer un plugin successions et donations
+  <br>Annexes : [dom-016-decoupage-successions.md](03-nouveaux-domaines/dom-016-annexes/dom-016-decoupage-successions.md) · [dom-016-parcours.md](03-nouveaux-domaines/dom-016-annexes/dom-016-parcours.md) · [dom-016-resultats.json](03-nouveaux-domaines/dom-016-annexes/dom-016-resultats.json) · [dom-016-sources.md](03-nouveaux-domaines/dom-016-annexes/dom-016-sources.md) · [dom-016-verification.md](03-nouveaux-domaines/dom-016-annexes/dom-016-verification.md)
 - [DOM-021](03-nouveaux-domaines/dom-021-energie-eau.md) — Cadrer un plugin énergie, eau et services essentiels
   <br>Annexes : [dom-021-decoupage-services.md](03-nouveaux-domaines/dom-021-annexes/dom-021-decoupage-services.md) · [dom-021-resultats.json](03-nouveaux-domaines/dom-021-annexes/dom-021-resultats.json) · [dom-021-sources.md](03-nouveaux-domaines/dom-021-annexes/dom-021-sources.md) · [dom-021-verification.md](03-nouveaux-domaines/dom-021-annexes/dom-021-verification.md)
 - [DOM-022](03-nouveaux-domaines/dom-022-telecoms-poste.md) — Cadrer un plugin télécoms et services postaux
@@ -892,7 +893,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 28 à faire, 28 prêtes</summary>
+<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 27 à faire, 27 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -902,7 +903,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-013](03-nouveaux-domaines/dom-013-famille-patrimoine.md) | Cadrer un plugin famille et patrimoine du couple | P2 | ✅ |
 | [DOM-014](03-nouveaux-domaines/dom-014-agriculture-rural.md) | Cadrer un plugin agricole et rural | P2 | ✅ |
 | [DOM-015](03-nouveaux-domaines/dom-015-construction-travaux.md) | Cadrer un plugin construction et travaux | P2 | ✅ |
-| [DOM-016](03-nouveaux-domaines/dom-016-successions-donations.md) | Cadrer un plugin successions et donations | P2 | ✅ |
 | [DOM-017](03-nouveaux-domaines/dom-017-transactions-immobilieres.md) | Cadrer un plugin d'achat et de vente immobilière | P2 | ✅ |
 | [DOM-018](03-nouveaux-domaines/dom-018-copropriete.md) | Cadrer un plugin copropriété et syndic | P2 | ✅ |
 | [DOM-019](03-nouveaux-domaines/dom-019-urbanisme-foncier.md) | Cadrer un plugin urbanisme et foncier | P3 | ✅ |
@@ -1126,6 +1126,39 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [SAN-017](03-nouveaux-domaines/suites/san-017-droits-soins-medico-social.md) | Préparer une réclamation sur les soins en établissement médico-social | P2 | BASE-008, SAN-005 |
 | [SAN-018](03-nouveaux-domaines/suites/san-018-dossier-cci.md) | Préparer les pièces d'une demande d'indemnisation auprès d'une CCI | P2 | BASE-008, SAN-006 |
 | [SAN-019](03-nouveaux-domaines/suites/san-019-observations-expertise-soins.md) | Préparer des observations sur une expertise amiable de soins | P2 | BASE-008, SAN-006 |
+
+</details>
+
+<details>
+<summary><b>SUC</b> — Successions et donations (03 — Nouveaux domaines) : 25 à faire, 0 prêtes</summary>
+
+| Story | Titre | Priorité | Bloquée par |
+| --- | --- | --- | --- |
+| [SUC-001](03-nouveaux-domaines/suites/suc-001-courrier-notaire.md) | Décrypter un courrier de règlement de succession | P2 | BASE-008 |
+| [SUC-002](03-nouveaux-domaines/suites/suc-002-actif-passif.md) | Organiser les avoirs et dettes avant une décision successorale | P2 | BASE-008, SUC-001 |
+| [SUC-003](03-nouveaux-domaines/suites/suc-003-option-sommation.md) | Lire une demande d’option ou une sommation successorale | P2 | BASE-008, SUC-001 |
+| [SUC-004](03-nouveaux-domaines/suites/suc-004-actes-acceptation.md) | Documenter les actes susceptibles d’affecter l’option successorale | P2 | BASE-008, SUC-001 |
+| [SUC-005](03-nouveaux-domaines/suites/suc-005-acceptation-actif-net.md) | Préparer le suivi des formalités d’acceptation à concurrence de l’actif net | P2 | BASE-008, SUC-001 |
+| [SUC-006](03-nouveaux-domaines/suites/suc-006-renonciation-descendants.md) | Préparer les pièces d’une renonciation et ses suites pour les descendants | P2 | BASE-008, SUC-001 |
+| [SUC-007](03-nouveaux-domaines/suites/suc-007-creance-reclamee.md) | Lire une créance réclamée au titre d’une succession | P2 | BASE-008, SUC-001 |
+| [SUC-008](03-nouveaux-domaines/suites/suc-008-dette-decouverte.md) | Préparer un dossier de dette découverte après acceptation | P2 | BASE-008, SUC-001 |
+| [SUC-009](03-nouveaux-domaines/suites/suc-009-frais-bancaires.md) | Lire un décompte de frais bancaires successoraux | P2 | BASE-008, SUC-001 |
+| [SUC-010](03-nouveaux-domaines/suites/suc-010-recherche-comptes.md) | Préparer une recherche de comptes et avoirs oubliés d’un défunt | P2 | BASE-008, SUC-001 |
+| [SUC-011](03-nouveaux-domaines/suites/suc-011-paiement-obseques.md) | Préparer une demande bancaire de règlement d’une facture d’obsèques | P2 | BASE-008, SUC-001 |
+| [SUC-012](03-nouveaux-domaines/suites/suc-012-fonctionnement-comptes.md) | Lire une réponse bancaire sur les comptes après décès | P2 | BASE-008, SUC-001 |
+| [SUC-013](03-nouveaux-domaines/suites/suc-013-preuve-qualite.md) | Lire une demande de preuve d’héritier dans une petite succession | P2 | BASE-008, SUC-001 |
+| [SUC-014](03-nouveaux-domaines/suites/suc-014-effets-inventaire.md) | Préparer l’inventaire et la remise des effets du défunt | P2 | BASE-008, SUC-001 |
+| [SUC-015](03-nouveaux-domaines/suites/suc-015-testament-donations.md) | Documenter un testament ou des donations omis du dossier | P2 | BASE-008, SUC-001 |
+| [SUC-016](03-nouveaux-domaines/suites/suc-016-evaluations.md) | Comparer des évaluations d’un bien successoral | P2 | BASE-008, SUC-001 |
+| [SUC-017](03-nouveaux-domaines/suites/suc-017-comptes-indivision.md) | Organiser les recettes et dépenses d’une indivision successorale | P2 | BASE-008, SUC-001 |
+| [SUC-018](03-nouveaux-domaines/suites/suc-018-occupation-indivise.md) | Préparer les questions sur l’occupation d’un bien indivis successoral | P2 | BASE-008, SUC-001 |
+| [SUC-019](03-nouveaux-domaines/suites/suc-019-vente-bien-indivis.md) | Lire un projet d’acte portant sur un bien indivis successoral | P2 | BASE-008, SUC-001 |
+| [SUC-020](03-nouveaux-domaines/suites/suc-020-projet-partage.md) | Préparer la lecture des comptes d’un projet de partage | P2 | BASE-008, SUC-001 |
+| [SUC-021](03-nouveaux-domaines/suites/suc-021-contestation-partage.md) | Préparer un dossier de contestation d’un partage signé | P2 | BASE-008, SUC-001 |
+| [SUC-022](03-nouveaux-domaines/suites/suc-022-logement-survivant.md) | Préparer les pièces sur les droits au logement du survivant | P2 | BASE-008, SUC-001 |
+| [SUC-023](03-nouveaux-domaines/suites/suc-023-contrat-genealogiste.md) | Lire un contrat de révélation de succession proposé par un généalogiste | P2 | BASE-008, SUC-001 |
+| [SUC-024](03-nouveaux-domaines/suites/suc-024-projet-donation.md) | Préparer les questions sur un projet de donation | P2 | BASE-008, SUC-001 |
+| [SUC-025](03-nouveaux-domaines/suites/suc-025-element-etranger.md) | Qualifier les pièces d’une succession comportant un élément étranger | P2 | BASE-008, SUC-001 |
 
 </details>
 
