@@ -1,8 +1,8 @@
-<!-- Added by Judge FR/UE for PILOTE-002, 2026-10-15. Modified for BASE-014, 2026-10-17 (twice). -->
+<!-- Added by Judge FR/UE for PILOTE-002, 2026-10-15. Modified for BASE-014, 2026-10-17 (twice), and TRAV-062, 2026-10-17. -->
 
 # Repères de recherche — embauche privée en France
 
-Version `1.0.0`, 15 octobre 2026 (Europe/Paris). Périmètre : `hiring-review`,
+Version `1.1.0`, 17 octobre 2026 (Europe/Paris). Périmètre : `hiring-review`,
 CDI privé métropolitain, contrôles ciblés du CDD ordinaire. Ce document ne
 certifie ni les autres commandes, ni une convention collective particulière.
 Lire avec la [méthode BASE-005 1.2.0](shared/research-citation-method.md).
@@ -49,13 +49,36 @@ l'application à un dossier.
 | [L1242-12](https://code.travail.gouv.fr/code-du-travail/l1242-12), [L1242-13](https://code.travail.gouv.fr/code-du-travail/l1242-13) | 01/05/2008 | Motif précis/mentions écrites et remise du CDD ; distinguer contrat réellement incomplet et extrait transmis au lecteur. | 2026-10-17 · inchangee · CDTN et LEGI de la DILA (stock et lots au 16/10/2026) · ni version future ni fin de vigueur |
 | [L1245-1](https://code.travail.gouv.fr/code-du-travail/l1245-1) | 22/12/2017 | Conséquences des manquements ; le seul retard de transmission ne suffit pas à la requalification. Ne pas annoncer une décision judiciaire acquise. | 2026-10-17 · inchangee · CDTN et LEGI de la DILA (stock et lots au 16/10/2026) · ni version future ni fin de vigueur |
 
+## Décisions lues
+
+Fiches selon la section 10 de la méthode `1.2.0`. Chaque décision a été
+ouverte le **17 octobre 2026** sur Légifrance avec l'outil de lecture web
+d'une session de maintenance, en français. Ce même outil résume la page : les
+passages entre guillemets ont été demandés et restitués littéralement par
+fragments, identité et dispositif compris. Statut `verifie` pour le passage
+cité et la question indiquée seulement ; aucune décision ne vaut état actuel
+de la jurisprudence.
+
+Recherche des décisions postérieures, **non exhaustive** : une recherche
+Légifrance (fonds JURI, « clause de non-concurrence contrepartie financière
+dérisoire », 141 résultats, première page de 25 lue par pertinence) ; seuls
+deux arrêts publiés de la chambre sociale ont été ouverts. Les arrêts inédits
+de la liste, les cours d'appel, la levée de la clause, sa renonciation, sa
+réduction par le juge et la réparation du salarié n'ont pas été recherchés.
+
+| Décision lue | Fiche | Passage lu | Portée et limite | Relecture |
+|---|---|---|---|---|
+| Non-concurrence, conditions : [Cass. soc., 10 juillet 2002, n° 00-45.135](https://www.legifrance.gouv.fr/juri/id/JURITEXT000007046365/) | Cour de cassation, chambre sociale ; 10 juillet 2002 ; pourvoi n° 00-45.135 ; ECLI non affiché ; publié au bulletin (Bull. 2002 V n° 239 p. 234) ; arrêt attaqué : CA Reims, 28 juin 2000 ; cassation partielle. `verifie` | Visa du principe fondamental de libre exercice d'une activité professionnelle et de l'article L. 120-2 ancien. Motifs : « une clause de non-concurrence n'est licite que si elle est indispensable à la protection des intérêts légitimes » « de l'entreprise, limitée dans le temps et dans l'espace, qu'elle tient compte des spécificités de l'emploi du salarié » « et comporte l'obligation pour l'employeur de verser au salarié une contrepartie financière ». Dispositif : « CASSE ET ANNULE, mais seulement en sa disposition rejetant la demande de dommages-intérêts pour clause de non-concurrence ». | Conditions cumulatives d'une clause stipulée dans un contrat de travail, posées en attendu de principe. L'article L. 120-2 visé a été recodifié en L1121-1 (lu plus haut) ; vérifier le texte et la version utiles au dossier. Ne dit rien d'une clause d'exclusivité pendant le contrat. | 2026-10-17 · inchangee · Légifrance par outil de lecture web · visa, motifs et dispositif lus ; fiche complétée en 1.1.0 |
+| Contrepartie dérisoire : [Cass. soc., 15 novembre 2006, n° 04-46.721](https://www.legifrance.gouv.fr/juri/id/JURITEXT000007054657/) | Cour de cassation, chambre sociale ; 15 novembre 2006 ; pourvoi n° 04-46.721 ; ECLI non affiché ; publié au bulletin ; arrêt attaqué : CA Grenoble, 28 juin 2004 ; rejet. `verifie` | Motifs : « Mais attendu qu'une contrepartie financière dérisoire à la clause de non-concurrence » « contenue dans un contrat de travail équivaut à une absence de contrepartie ; ». Dispositif : « REJETTE le pourvoi ; ». | Une contrepartie existante mais dérisoire ne satisfait pas la condition de 2002. Le seuil du dérisoire est apprécié sur les faits : aucun montant ou pourcentage n'en découle. | 2026-10-17 · jurisprudence-nouvelle · Légifrance par outil de lecture web · motifs et dispositif lus · intégrée 1.1.0 |
+| Office du juge : [Cass. soc., 16 mai 2012, n° 11-10.760](https://www.legifrance.gouv.fr/juri/id/JURITEXT000025897186/) | Cour de cassation, chambre sociale ; 16 mai 2012 ; pourvoi n° 11-10.760 ; ECLI non affiché ; publié au bulletin ; arrêt attaqué : CA Paris, 25 novembre 2010 ; cassation. `verifie` | Visa des articles 1131 du code civil et L. 1121-1 du code du travail. Motifs : « si une contrepartie dérisoire à la clause de non-concurrence équivaut à une absence de contrepartie rendant la clause nulle, » « le juge ne peut, sous couvert de l'appréciation du caractère dérisoire de la contrepartie pécuniaire » « substituer son appréciation du montant de cette contrepartie à celle fixée par les parties ». Dispositif : « CASSE ET ANNULE, dans toutes ses dispositions, l'arrêt rendu le 25 novembre 2010, ». | Confirme qu'une contrepartie dérisoire rend la clause nulle ; le juge ne fixe pas lui-même un autre montant. Article 1131 visé dans sa rédaction antérieure à l'ordonnance du 10 février 2016 : ne pas reprendre ce fondement pour un contrat récent sans vérification. Effets de la nullité pour le salarié non traités ici. | 2026-10-17 · jurisprudence-nouvelle · Légifrance par outil de lecture web · visa, motifs et dispositif lus · intégrée 1.1.0 |
+| Offre/promesse : [Cass. soc., 21 septembre 2017, n° 16-20.103](https://www.legifrance.gouv.fr/juri/id/JURITEXT000035616989/) | Cour de cassation, chambre sociale ; 21 septembre 2017 ; pourvoi n° 16-20.103 ; ECLI:FR:CCASS:2017:SO02063 ; publié au bulletin ; arrêt attaqué : CA Montpellier, 1er juin 2016 ; cassation. `verifie` | Visa des articles 1134 du code civil, « dans sa rédaction applicable en la cause », et L. 1221-1 du code du travail. Motifs : l'acte « précisant l'emploi, la rémunération et la date d'entrée en fonction » « et exprime la volonté de son auteur d'être lié en cas d'acceptation, » « constitue une offre de contrat de travail, qui peut être librement rétractée » « tant qu'elle n'est pas parvenue à son destinataire ; » ; la promesse unilatérale accorde au bénéficiaire « le droit d'opter » et « la révocation de la promesse pendant le temps laissé au bénéficiaire pour opter » « n'empêche pas la formation du contrat de travail promis ; ». Dispositif : « CASSE ET ANNULE, en toutes ses dispositions ». | Distingue offre et promesse à partir de l'évolution du droit des obligations par l'ordonnance n° 2016-131 ; l'écrit doit être qualifié sur ses termes et les échanges. Faits sportifs, écrit de 2012 : vérifier la comparabilité. Aucune décision postérieure n'a été recherchée sur ce point. Adresse corrigée en 1.1.0 (la publication de la Cour était illisible pour l'outil). | 2026-10-17 · inchangee · Légifrance par outil de lecture web · visa, motifs et dispositif lus ; inaccessible en 1.0.0 par la publication de la Cour |
+
 ## Lectures manquantes : pistes, pas règles validées
 
-| Piste | État à la rédaction | Relecture |
-|---|---|---|
-| Non-concurrence : [Cass. soc., 10 juillet 2002, n° 00-45.135](https://www.legifrance.gouv.fr/juri/id/JURITEXT000007046365/) ; [publication de la Cour](https://www.courdecassation.fr/decision/6079b1ab9ba5988459c53061) | Légifrance HTTP 403, publication de la Cour et export sous écran JavaScript/cookies : texte non lu. Rechercher une publication officielle lisible et les évolutions utiles avant d'appliquer une solution. | 2026-10-17 · inchangee · Légifrance par outil de lecture web · texte intégral lisible ; reste une piste dans cette version, évolutions postérieures non recherchées |
-| Offre/promesse : [Cass. soc., 21 septembre 2017, n° 16-20.103](https://www.courdecassation.fr/decision/5fd8f8792bd8d88d219aa6e1) | Résultat de recherche trouvé, ouverture sur écran JavaScript ; décision non vérifiée. Qualification à rechercher sur les faits et échanges. | 2026-10-17 · inaccessible · publication de la Cour par outil de lecture web · page vide ; réserve maintenue |
-
+- Non-concurrence : la recherche ci-dessus ne couvre ni la levée ou la
+  renonciation, ni la réduction de la clause par le juge, ni la réparation due
+  au salarié, ni les régimes conventionnels de branche. Rechercher ces points
+  s'ils sont déterminants ; à défaut, les réserver.
 - Essai : déductions, consentement au renouvellement et prévenance ne sont pas
   établis par la seule série d'articles lue ci-dessus. Lire les articles et
   décisions supplémentaires nécessaires au cas.

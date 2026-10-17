@@ -133,3 +133,16 @@ worker-classification-fr.md 1.1.0. No other future version or end date found.
   README.md
   references/hiring-review-fr.md
   references/worker-classification-fr.md
+
+TRAV-062 changes (2026-10-17): version 0.3.5. hiring-review-fr.md 1.1.0
+records four Cour de cassation (chambre sociale) decisions read on
+Legifrance with a section 10 record (method 1.2.0): 10 July 2002,
+n° 00-45.135 and 21 September 2017, n° 16-20.103 (address corrected; was
+inaccessible through the Cour de cassation site), plus two later published
+decisions from a bounded, non-exhaustive search on a derisory consideration:
+15 November 2006, n° 04-46.721 and 16 May 2012, n° 11-10.760. Points not
+searched stay listed as missing readings.
+  .claude-plugin/plugin.json
+  NOTICE
+  README.md
+  references/hiring-review-fr.md

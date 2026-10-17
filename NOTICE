@@ -652,3 +652,16 @@ worker-classification and review cite 1.2.0. No legal rule added.
   regulatory-legal/NOTICE
   regulatory-legal/references/shared/research-citation-method.md
   scripts/test-base008-isolation.py
+
+TRAV-062 changes (2026-10-17): employment-legal 0.3.5.
+hiring-review-fr.md 1.1.0 cites four chambre sociale decisions read on
+Legifrance with their record (non-compete conditions and derisory
+consideration, offer and promise of an employment contract), after a
+bounded, non-exhaustive search. No other plugin changed.
+  .claude-plugin/marketplace.json
+  NOTICE
+  employment-legal/.claude-plugin/plugin.json
+  employment-legal/NOTICE
+  employment-legal/README.md
+  employment-legal/references/hiring-review-fr.md
+  scripts/test-base008-isolation.py

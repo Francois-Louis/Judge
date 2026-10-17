@@ -4,14 +4,14 @@
 
 | Statut | Stories |
 | --- | ---: |
-| En cours | 1 |
+| En cours | 2 |
 | À vérifier | 2 |
 | Bloquée | 0 |
 | Terminée | 45 |
 | Prête | 0 |
-| À faire | 565 |
+| À faire | 564 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 185 |
+| dont prêtes à démarrer | 184 |
 | Total | 636 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
@@ -20,6 +20,7 @@ Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes
 
 - [BASE-008](00-fondations/base-008-isoler-identite-configurations.md) — **En cours** · P0 · Appliquer l'identité Judge FR/UE et isoler les configurations
   <br>Annexes : [base-008-inventaire-apres.tsv](00-fondations/base-008-annexes/base-008-inventaire-apres.tsv) · [base-008-inventaire-avant.tsv](00-fondations/base-008-annexes/base-008-inventaire-avant.tsv) · [base-008-residus.tsv](00-fondations/base-008-annexes/base-008-residus.tsv) · [base-008-resultats-client.json](00-fondations/base-008-annexes/base-008-resultats-client.json)
+- [TRAV-062](01-pilote-travail/suites/trav-062-pistes-jurisprudence-embauche.md) — **En cours** · P1 · Requalifier les pistes jurisprudentielles de la revue d'embauche
 - [COM-001](02-plugins-existants/suites/com-001-orientation-contrat.md) — **À vérifier** · P2 · Qualifier et orienter une demande sur un contrat
   <br>Annexes : [com-001-verification.md](02-plugins-existants/suites/com-001-annexes/com-001-verification.md) · [controles.py](02-plugins-existants/suites/com-001-annexes/controles.py) · [pieces-fictives.md](02-plugins-existants/suites/com-001-annexes/pieces-fictives.md) · [resultats-paquet.json](02-plugins-existants/suites/com-001-annexes/resultats-paquet.json) · [sorties-relecture.md](02-plugins-existants/suites/com-001-annexes/sorties-relecture.md) · [source-bruxelles-i-bis.json](02-plugins-existants/suites/com-001-annexes/source-bruxelles-i-bis.json) · [source-rome-i.json](02-plugins-existants/suites/com-001-annexes/source-rome-i.json)
 - [TRAV-001](01-pilote-travail/suites/trav-001-qualification-relation.md) — **À vérifier** · P2 · Qualifier une relation de travail proposée
@@ -31,7 +32,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 
 | Story | Titre | Priorité | Nature |
 | --- | --- | --- | --- |
-| [TRAV-062](01-pilote-travail/suites/trav-062-pistes-jurisprudence-embauche.md) | Requalifier les pistes jurisprudentielles de la revue d'embauche | P1 | implementation |
 | [BASE-018](00-fondations/suites/base-018-lecture-decisions-dila.md) | Lire une décision par son identifiant dans les fonds de jurisprudence DILA | P2 | implementation |
 | [COM-013](02-plugins-existants/suites/com-013-preferences-commerciales.md) | Créer et modifier des préférences commerciales volontaires | P2 | implementation |
 | [COM-019](02-plugins-existants/suites/com-019-demande-paiement-suspecte.md) | Lire une demande de paiement présentée comme une obligation administrative | P2 | implementation |
@@ -341,7 +341,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>TRAV</b> — Travail (suites du pilote) (01 — Pilote travail) : 61 à faire, 55 prêtes</summary>
+<summary><b>TRAV</b> — Travail (suites du pilote) (01 — Pilote travail) : 60 à faire, 54 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -405,7 +405,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [TRAV-059](01-pilote-travail/suites/trav-059-ecart-salarial.md) | Documenter un écart de rémunération entre salariés comparables | P2 | ✅ |
 | [TRAV-060](01-pilote-travail/suites/trav-060-compteur-rtt-repos.md) | Relire un compteur de RTT ou de repos conventionnel | P2 | ✅ |
 | [TRAV-061](01-pilote-travail/suites/trav-061-rupture-aux-torts-decoupage.md) | Découper les demandes de rupture aux torts de l'employeur | P2 | ✅ |
-| [TRAV-062](01-pilote-travail/suites/trav-062-pistes-jurisprudence-embauche.md) | Requalifier les pistes jurisprudentielles de la revue d'embauche | P1 | ✅ |
 
 </details>
 
