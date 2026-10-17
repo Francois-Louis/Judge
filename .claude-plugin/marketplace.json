@@ -105,6 +105,24 @@
       "author": {
         "name": "Anthropic"
       }
+    },
+    {
+      "name": "judge-fr-eu-banking-legal",
+      "description": "Judge FR/UE 0.1.0 : qualifier un paiement contesté et préparer une réclamation pour une opération non autorisée sur un compte personnel. Tromperie et litige commercial : urgence et orientation. Aucun envoi ni calcul de délai ou de franchise.",
+      "author": {
+        "name": "Judge FR/UE maintainers"
+      },
+      "displayName": "Judge FR/UE — Banque et paiements",
+      "source": "./banking-legal"
+    },
+    {
+      "name": "judge-fr-eu-consumer-legal",
+      "displayName": "Judge FR/UE — Consommation",
+      "source": "./consumer-legal",
+      "description": "Judge FR/UE 0.1.0 : préparer une réclamation pour un bien commandé à distance à un vendeur professionnel et non livré (CONSO-001). Fiche, chronologie, pièces et brouillon sans profil obligatoire ni envoi ; validation client et lecteur à compléter.",
+      "author": {
+        "name": "Judge FR/UE maintainers"
+      }
     }
   ],
   "version": "0.1.0"

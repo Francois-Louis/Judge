@@ -1,0 +1,16 @@
+{
+  "CLAUDE.md": "e75780c20b37db14ad9b34bbb26611569e804dee7f4b07c4b5711b8e05b7d9dc",
+  "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "NOTICE": "54b491896c98696d33bc1f91343e1a43bbb47b82043ec66a42e29948ee0707ca",
+  "README.md": "4ea3a5704b80fe8d4711e96303d1ab9e04a59f8d4de74edef85dfad120e61a38",
+  ".claude-plugin/plugin.json": "51159c10e9abf58cd9416f4df24d113bd4365f943d7869df9b4b8f1d25f37bca",
+  "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+  "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+  "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+  "references/paiements.md": "6705ee8519bb08373e5e881c6ab0e9bde84ea10fbadf55bc5e3c6a5a7ff4e25b",
+  "references/qualification-bancaire.md": "20f93061010a5195a24cdde7bd01bd624d6b5ae75ab69fdc8a218241fb8acca3",
+  "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+  "references/shared/research-citation-method.md": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+  "skills/payment-dispute/SKILL.md": "95addf135634da8a921c4b8b15e16dedaeef44ef099d1253e657b6206dc5e5d1",
+  "skills/payment-dispute/references/reclamation-paiement.md": "b2b6401e3e14aa5afee590dbd333e10b05ddebfbed35176955fce9af5b04fcd6"
+}

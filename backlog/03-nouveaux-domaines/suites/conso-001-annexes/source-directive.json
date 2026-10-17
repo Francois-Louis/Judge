@@ -1,0 +1,33 @@
+{
+  "source_family": "eu",
+  "reference": "02011L0083-20260927",
+  "state": "retrieved",
+  "documentary_status": "verifie-pour-passages-lus",
+  "applicability": "a-etablir",
+  "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+  "attempts": [
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02011L0083-20260927",
+      "attempted_at": "2026-10-17T06:31:45.390451+00:00",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02011L0083-20260927",
+      "content_type": "text/html",
+      "state": "blocked",
+      "reason": "Challenge/access restriction; not a legal document"
+    },
+    {
+      "url": "https://publications.europa.eu/resource/celex/02011L0083-20260927",
+      "attempted_at": "2026-10-17T06:31:45.645329+00:00",
+      "http_status": 200,
+      "final_url": "https://publications.europa.eu/resource/cellar/82067e60-3e52-11f1-814f-01aa75ed71a1.0010.03/DOC_1",
+      "content_type": "application/xhtml+xml",
+      "state": "retrieved",
+      "retrieved_at": "2026-10-17T06:31:46.450636+00:00",
+      "bytes": 323765,
+      "sha256": "0c8a62de30523f1cd694a4a23ed1b8306583be6c145300a1819b77112fd463ec"
+    }
+  ],
+  "read_passages": [
+    "Articles 1 ? 4, 18, 20, 28"
+  ]
+}

@@ -1,0 +1,29 @@
+Judge FR/UE banking-legal
+Copyright 2026 Judge FR/UE maintainers.
+
+Licensed under the Apache License, Version 2.0; see LICENSE.
+Shared templates, research method and storage boundary/helper derive from
+the repository's Claude for Legal / Anthropic fork; their original notices
+are preserved in the copied files. See the repository NOTICE for provenance.
+
+BNK-001 changes (2026-10-17): banking-legal 0.1.0, first banking package.
+One payment-dispute skill, personal payment qualification and complaint draft;
+deception, merchant and excluded-instrument cases receive orientation only.
+qualification-bancaire.md 1.0.0, paiements.md 1.0.0 and
+reclamation-paiement.md 1.0.0. BASE-005 method 1.2.0 and BASE-008 resources
+copied byte-for-byte. No persistent storage, connector, agent, hook or sending.
+Official-source access limitations are recorded, without asserting unread law.
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  LICENSE
+  NOTICE
+  README.md
+  references/company-profile-template.md
+  references/dashboard-template.md
+  references/isolation.md
+  references/paiements.md
+  references/qualification-bancaire.md
+  references/shared/research-citation-method.md
+  scripts/judge_store.py
+  skills/payment-dispute/SKILL.md
+  skills/payment-dispute/references/reclamation-paiement.md

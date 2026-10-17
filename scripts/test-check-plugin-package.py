@@ -103,6 +103,18 @@ Charger `../../references/shared/research-citation-method.md`.
         self.assertEqual(code, 2)
         self.assertIn("commande d'un autre plugin à qualifier", output)
 
+    def test_shared_setup_template_requires_review_without_hiding_missing_commands(self):
+        self.write("references/company-profile-template.md", "Modèle : `/cold-start-interview`.\n")
+        checker = self.check()
+        self.assertEqual(checker.errors, [])
+        self.assertTrue(any("modèle partagé" in item for item in checker.reviews))
+        # Only the known setup instruction in this shared template is reviewable.
+        self.write("references/company-profile-template.md", "`/missing-task`\n")
+        self.assertTrue(self.check().errors)
+        self.write("references/company-profile-template.md", "Modèle facultatif\n")
+        self.write("skills/review/SKILL.md", "---\nname: review\ndescription: Fixture\n---\n`/cold-start-interview`\n")
+        self.assertTrue(self.check().errors)
+
     def test_escape_and_missing_reference_definition(self):
         self.write("README.md", "[sortie](../checkout/secret.md)\n"
                    "[pièce][preuve]\n[preuve]: references/absent.md\n")

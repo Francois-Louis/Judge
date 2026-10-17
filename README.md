@@ -18,6 +18,9 @@ compétent, avec un renfort en tête en cas d'urgence, de procédure ou de péna
 Depuis BASE-016 (méthode commune 1.2.0, paquets 0.1.2, 0.2.2 et 0.3.4), une
 décision de justice n'est citée qu'après lecture de ses motifs, par des voies
 officielles sans abonnement ; à défaut, la conclusion qui en dépend est réservée.
+`consumer-legal:non-delivery-claim` 0.1.0 prépare la fiche, la chronologie et
+le brouillon au vendeur pour une commande non livrée (CONSO-001), sans profil
+ni envoi ; validation client et lecteur à compléter.
 Voir le [démarrage du fork](QUICKSTART.md), les [preuves et limites de validation](references/base008-validation.md),
 la [licence](LICENSE) et les [fichiers modifiés](NOTICE).
 Les intégrations Cowork/Office et l'exécution distante décrites ci-dessous
@@ -54,6 +57,7 @@ Each agent is named for the workflow it runs. They're the most common surface �
 
 | Agent | What it does | Plugin | Command |
 |---|---|---|---|
+| **Commande non livrée** | Fiche, chronologie, pièces et brouillon au vendeur ; CONSO-001, sans profil ni envoi | `consumer-legal` | `/judge-fr-eu-consumer-legal:non-delivery-claim` |
 | **Orientation contractuelle** | Qualifie contrat/récit, domaine, achat/vente, pièces et suite ; COM-001, sans profil obligatoire | `commercial-legal` | `/judge-fr-eu-commercial-legal:review` |
 | **Revue prestation / NDA / SaaS** | Branches héritées non adaptées France/UE ; COM-002/003/004 proposés, aucun lancement par `review` | `commercial-legal` | — |
 | **Amendment Tracer** | Traces how a contract has changed across its base agreement and every amendment | `commercial-legal` | `/judge-fr-eu-commercial-legal:amendment-history` |
@@ -210,7 +214,8 @@ After install, skills fire automatically when relevant, slash commands are avail
 /judge-fr-eu-corporate-legal:cold-start-interview
 ```
 
-**Run the cold-start interview first.** Every other skill in a plugin reads from the practice profile it writes. Skipping setup is the single most common reason a skill produces generic output. The interview takes 10–20 minutes per plugin and will ask you to point at seed documents (a signed MSA, a playbook, a prior review memo — whatever fits the plugin). More seed material is better; a **quick start** option is available if you want to be productive in 2 minutes and refine later.
+**Run the cold-start interview first for inherited workflows.** CONSO-001
+(`consumer-legal`) requires no profile or setup. Every other inherited skill in a plugin reads from the practice profile it writes. Skipping setup is the single most common reason a skill produces generic output. The interview takes 10–20 minutes per plugin and will ask you to point at seed documents (a signed MSA, a playbook, a prior review memo — whatever fits the plugin). More seed material is better; a **quick start** option is available if you want to be productive in 2 minutes and refine later.
 
 **Start by connecting a research tool.** Everything else is better with one, and citations are unverified without one. See [MCP Connectors](#mcp-connectors) below for the full list — CourtListener, Trellis, Descrybe, and Solve Intelligence are the research tools the citation guardrails look for.
 
@@ -257,6 +262,7 @@ narrative, without a profile or interview.
 
 | Plugin | What it adds |
 |---|---|
+| **[banking-legal](./banking-legal)** | BNK-001 : qualifier un paiement contesté et préparer la réclamation pour une opération non autorisée sur un compte personnel ; tromperie et litige commercial orientés. Un skill, sans profil ni stockage ; validation détaillée dans le bilan BNK-001. |
 | **[commercial-legal](./commercial-legal)** | Orientation contractuelle COM-001 sans profil obligatoire. Revues, avenants, registres, escalades et agents hérités non adaptés France/UE. |
 | **[corporate-legal](./corporate-legal)** | M&A diligence with tabular review and citation-per-cell. Disclosure schedules, closing checklists, written consents, board minutes. Entity compliance tracker. Post-close integration. |
 | **[privacy-legal](./privacy-legal)** | Privacy triage (PIA vs DPIA vs proceed), PIA generation, DPA review as controller or processor, DSAR response. Policy monitor watches drift between policy and practice. |
@@ -371,7 +377,14 @@ No build step. Everything is markdown and JSON.
 
 ## Skill & Command Reference
 
-The full map across all plugins. The cold-start interview is the first thing to run in any plugin.
+The full map across all plugins. Inherited workflows start with the cold-start interview.
+The consumer plugin requires no setup.
+
+### Consommation — CONSO-001
+
+| Command | Skill | Description |
+|---|---|---|
+| `/judge-fr-eu-consumer-legal:non-delivery-claim` | non-delivery-claim | Préparer une réclamation pour une commande non livrée ; recette client et lecteur à compléter |
 
 ### ai-governance-legal
 

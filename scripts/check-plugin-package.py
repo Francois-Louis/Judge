@@ -100,7 +100,11 @@ class Checker:
         elif (short if separator else namespace) not in available:
             if not separator and command in BUILTINS:
                 return
-            self.error(path, f"commande inexistante dans le paquet: /{command}")
+            if (path.relative_to(self.root).as_posix() == "references/company-profile-template.md"
+                    and command == "cold-start-interview"):
+                self.review(path, "modèle partagé : /cold-start-interview absent ; vérifier que le parcours ne charge pas ce modèle")
+            else:
+                self.error(path, f"commande inexistante dans le paquet: /{command}")
 
     def run(self):
         if (self.supplied_root.is_symlink()
