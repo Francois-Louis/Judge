@@ -1,6 +1,6 @@
-<!-- Modified by Judge FR/UE for COM-001, 2026-10-16. -->
+<!-- Modified by Judge FR/UE for COM-001, 2026-10-16, and BASE-013, 2026-10-17. -->
 
-# Contrats commerciaux — Judge FR/UE 0.2.0
+# Contrats commerciaux — Judge FR/UE 0.2.1
 
 `review` qualifie une demande sur un contrat ou un récit en France/UE et
 prépare la suite : domaine principal, rôle achat/vente, tâche visée, pièces
@@ -42,6 +42,9 @@ restent fournis, y compris sans profil ou source juridique accessible.
 Les noms techniques sont conservés. Leur présence ne certifie pas leur
 adaptation. Même avec `confirm_routing: false`, `review` ne lance aucune branche
 non adaptée. La fiche n'est ni une revue complète ni un feu vert pour signer.
+Elle se termine par une phrase courte qui nomme l'interlocuteur compétent pour
+la branche retenue (notaire pour ses frais, avocat en pénal…) et s'ouvre sur
+un renfort en cas de délai, de procédure ou de convocation (BASE-013, 0.2.1).
 
 ## Pièces, sources et accès optionnels
 

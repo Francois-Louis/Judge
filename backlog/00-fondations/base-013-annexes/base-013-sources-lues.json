@@ -1,0 +1,54 @@
+{
+  "story": "BASE-013",
+  "date": "2026-10-17",
+  "fuseau": "Europe/Paris",
+  "outil": "WebFetch de la session de maintenance (lecture résumée par le client, citations limitées)",
+  "objet": "Cadre de la consultation juridique (piste de la story) pour le repère S4 de la méthode 1.1.0",
+  "sources": [
+    {
+      "id": "S4-sommaire",
+      "reference": "Loi n° 71-1130 du 31 décembre 1971, sommaire du texte",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000508793",
+      "lu": "intitulé du titre II (articles 54 à 66-6) et identifiants LEGIARTI de la table des matières ; corps des articles non atteint dans la page",
+      "statut": "partiel"
+    },
+    {
+      "id": "S4-art54",
+      "reference": "Loi n° 71-1130, article 54, LEGIARTI000039280601",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039280601",
+      "version": "en vigueur depuis le 1er janvier 2020, ordonnance n° 2019-964 du 18 septembre 2019, art. 35",
+      "lu": "réserve de la consultation juridique et de la rédaction d'actes sous seing privé pour autrui, à titre habituel et rémunéré, et conditions de compétence, d'honorabilité et d'autorisation",
+      "statut": "verifie",
+      "applicabilite": "a-etablir"
+    },
+    {
+      "id": "S4-art63",
+      "reference": "Loi n° 71-1130, article 63, LEGIARTI000006903440",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006903440",
+      "version": "en vigueur depuis le 8 avril 1997, loi n° 97-308 du 7 avril 1997, art. 2",
+      "lu": "associations et fondations listées (dont associations agréées de consommateurs et associations familiales) : consultations pour leurs seuls membres, sur des questions se rapportant directement à leur objet",
+      "statut": "verifie",
+      "applicabilite": "a-etablir"
+    },
+    {
+      "id": "S4-art64",
+      "reference": "Loi n° 71-1130, article 64, LEGIARTI000006903453",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006903453",
+      "version": "en vigueur depuis le 1er janvier 1992, loi n° 90-1259 du 31 décembre 1990",
+      "lu": "syndicats et associations professionnels régis par le code du travail : consultations au profit des personnes dont la défense des intérêts est visée par leurs statuts, sur des questions liées à leur objet",
+      "statut": "verifie",
+      "applicabilite": "a-etablir"
+    },
+    {
+      "id": "S4-art66-2",
+      "reference": "Loi n° 71-1130, article 66-2, LEGIARTI000006903493",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006903493",
+      "version": "affichée en vigueur du 1er janvier 1992 au 1er février 2027 ; la version suivante n'a pas été lue",
+      "lu": "sanction pénale par renvoi à l'article 72 en cas de consultation ou de rédaction d'actes en violation du chapitre",
+      "statut": "partiel",
+      "applicabilite": "a-etablir",
+      "suite": "Lire la version applicable à compter du 1er février 2027 avant toute mention dans un paquet ; non citée dans la méthode."
+    }
+  ],
+  "limites": "Lectures par résumé de l'outil web, sans copie intégrale conservée. Aucune jurisprudence sur la notion de consultation juridique n'a été lue ; la méthode n'en tire aucune qualification."
+}

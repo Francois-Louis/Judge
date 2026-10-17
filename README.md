@@ -12,6 +12,9 @@ livré seul dans le [lot LIV-001](backlog/04-livraison/liv-001-annexes/liv-001-n
 avec validation client/utilisateur à compléter ; `employment-legal:worker-classification`
 0.3.0 qualifie une relation de travail proposée en France avant exécution (TRAV-001) ; les autres
 tâches juridiques héritées restent à adapter à la France et à l'UE.
+Depuis BASE-013 (méthode commune 1.1.0, paquets 0.1.1, 0.2.1 et 0.3.1), ces tâches
+adaptées terminent chaque réponse par une phrase courte nommant le professionnel
+compétent, avec un renfort en tête en cas d'urgence, de procédure ou de pénal.
 Voir le [démarrage du fork](QUICKSTART.md), les [preuves et limites de validation](references/base008-validation.md),
 la [licence](LICENSE) et les [fichiers modifiés](NOTICE).
 Les intégrations Cowork/Office et l'exécution distante décrites ci-dessous

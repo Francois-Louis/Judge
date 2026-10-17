@@ -5,7 +5,7 @@
 Version `1.0.0`, 15 octobre 2026 (Europe/Paris). Périmètre : `hiring-review`,
 CDI privé métropolitain, contrôles ciblés du CDD ordinaire. Ce document ne
 certifie ni les autres commandes, ni une convention collective particulière.
-Lire avec la [méthode BASE-005 1.0.0](shared/research-citation-method.md).
+Lire avec la [méthode BASE-005 1.1.0](shared/research-citation-method.md).
 
 ## Lectures effectuées et portée
 

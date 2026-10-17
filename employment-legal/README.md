@@ -1,10 +1,15 @@
 <!-- Modified by Judge FR/UE for PILOTE-002 (2026-10-15): scope and setup of French hiring pilot. -->
 <!-- Modified by Judge FR/UE for LIV-001 (2026-10-16): version 0.2.1, validation status and lot installation. -->
 <!-- Modified by Judge FR/UE for TRAV-001 (2026-10-17): version 0.3.0, worker-classification adapted. -->
+<!-- Modified by Judge FR/UE for BASE-013 (2026-10-17): version 0.3.1, closing scope sentence. -->
 
 # Judge FR/UE — revue d'embauche et qualification d'une relation
 
-Version du plugin **0.3.0**. Deux tâches sont réécrites pour la France.
+Version du plugin **0.3.1**. Deux tâches sont réécrites pour la France.
+Chaque note se termine par une phrase courte : elle aide à comprendre et à
+préparer, sans remplacer l'avis d'un avocat ou d'un juriste en droit du
+travail ; un renfort ouvre la note si une signature ou une réponse presse
+(BASE-013, méthode BASE-005 1.1.0).
 `worker-classification` est décrit [plus bas](#qualifier-une-relation-avant-quelle-commence).
 `hiring-review` porte sur l'embauche
 salariée du privé en France : lire une offre ou un contrat reçu, comprendre
@@ -85,7 +90,7 @@ isolé ; aucun lecteur non juriste ni relecture juridique indépendante.
 
 - Python 3.12 ou ultérieur pour le helper de stockage, avant tout accès aux
   profils ou sorties persistantes ; voir [la frontière de stockage](references/isolation.md).
-- Les références nécessaires sont embarquées : [méthode BASE-005 1.0.0](references/shared/research-citation-method.md),
+- Les références nécessaires sont embarquées : [méthode BASE-005 1.1.0](references/shared/research-citation-method.md),
   [repères d'embauche France 1.0.0](references/hiring-review-fr.md) et
   [qualification d'une relation 1.0.0](references/worker-classification-fr.md).
   Le parcours reprend USAGE-001 1.0.0 dans ses propres instructions.

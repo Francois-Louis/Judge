@@ -498,3 +498,59 @@ other inherited tasks remain unadapted.
   employment-legal/references/worker-classification-fr.md (new)
   employment-legal/skills/worker-classification/SKILL.md
   scripts/test-base008-isolation.py (employment-legal expected version)
+
+BASE-013 changes (2026-10-17): shared research method 1.1.0 adds a
+closing scope sentence as the last line of every adapted-skill answer,
+a front warning for deadlines, procedure, criminal matters, imminent
+signature or irreversible stakes, and a rule for naming the competent
+contact (adviser vs. authority, no lawyer by default, lawyer in criminal
+matters). Synchronised byte-for-byte into the eleven packages; versions
+0.1.1, commercial-legal 0.2.1, employment-legal 0.3.1. hiring-review,
+worker-classification and review apply it. No substantive rule added.
+  .claude-plugin/marketplace.json
+  NOTICE
+  README.md
+  ai-governance-legal/.claude-plugin/plugin.json
+  ai-governance-legal/NOTICE
+  ai-governance-legal/references/shared/research-citation-method.md
+  commercial-legal/.claude-plugin/plugin.json
+  commercial-legal/NOTICE
+  commercial-legal/README.md
+  commercial-legal/references/orientation-commerciale.md
+  commercial-legal/references/shared/research-citation-method.md
+  commercial-legal/skills/review/SKILL.md
+  corporate-legal/.claude-plugin/plugin.json
+  corporate-legal/NOTICE
+  corporate-legal/references/shared/research-citation-method.md
+  employment-legal/.claude-plugin/plugin.json
+  employment-legal/CLAUDE.md
+  employment-legal/NOTICE
+  employment-legal/README.md
+  employment-legal/references/hiring-review-fr.md
+  employment-legal/references/shared/research-citation-method.md
+  employment-legal/references/worker-classification-fr.md
+  employment-legal/skills/hiring-review/SKILL.md
+  employment-legal/skills/worker-classification/SKILL.md
+  ip-legal/.claude-plugin/plugin.json
+  ip-legal/NOTICE
+  ip-legal/references/shared/research-citation-method.md
+  law-student/.claude-plugin/plugin.json
+  law-student/NOTICE
+  law-student/references/shared/research-citation-method.md
+  legal-builder-hub/.claude-plugin/plugin.json
+  legal-builder-hub/NOTICE
+  legal-builder-hub/references/shared/research-citation-method.md
+  litigation-legal/.claude-plugin/plugin.json
+  litigation-legal/NOTICE
+  litigation-legal/references/shared/research-citation-method.md
+  privacy-legal/.claude-plugin/plugin.json
+  privacy-legal/NOTICE
+  privacy-legal/references/shared/research-citation-method.md
+  product-legal/.claude-plugin/plugin.json
+  product-legal/NOTICE
+  product-legal/references/shared/research-citation-method.md
+  references/research-citation-method.md
+  regulatory-legal/.claude-plugin/plugin.json
+  regulatory-legal/NOTICE
+  regulatory-legal/references/shared/research-citation-method.md
+  scripts/test-base008-isolation.py

@@ -26,3 +26,10 @@ Files added or modified for this package:
   skills/policy-monitor/SKILL.md
   skills/reg-gap-analysis/SKILL.md
   skills/use-case-triage/SKILL.md
+
+BASE-013 changes (2026-10-17): version 0.1.1. Shared method 1.1.0 synchronised byte-for-byte
+(closing scope sentence, front warning, choice of competent contact).
+No skill of this package is adapted by this change.
+  .claude-plugin/plugin.json
+  NOTICE
+  references/shared/research-citation-method.md

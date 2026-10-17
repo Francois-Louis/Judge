@@ -42,3 +42,14 @@ research method and storage boundary/helper preserved byte-for-byte.
   NOTICE
   references/orientation-commerciale.md (new)
   skills/review/SKILL.md
+
+BASE-013 changes (2026-10-17): version 0.2.1. Shared method 1.1.0 synchronised. review ends with
+a short scope sentence naming the competent contact for the chosen
+branch, with a front warning for deadlines, procedure or criminal
+matters; orientation reference 1.1.0 adds criminal and professional-fee rows.
+  .claude-plugin/plugin.json
+  NOTICE
+  README.md
+  references/orientation-commerciale.md
+  references/shared/research-citation-method.md
+  skills/review/SKILL.md

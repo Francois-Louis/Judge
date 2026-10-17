@@ -7,11 +7,11 @@
 | En cours | 1 |
 | À vérifier | 2 |
 | Bloquée | 0 |
-| Terminée | 41 |
+| Terminée | 42 |
 | Prête | 0 |
-| À faire | 565 |
+| À faire | 564 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 144 |
+| dont prêtes à démarrer | 184 |
 | Total | 632 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
@@ -164,6 +164,46 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [TRAV-019](01-pilote-travail/suites/trav-019-premiere-embauche-tpe.md) | Préparer les pièces d'une première embauche par une TPE française | P2 | implementation |
 | [TRAV-020](01-pilote-travail/suites/trav-020-anomalie-dsn.md) | Lire une anomalie ou notification de substitution DSN | P2 | implementation |
 | [TRAV-021](01-pilote-travail/suites/trav-021-pieces-fin-contrat.md) | Rapprocher les pièces administratives d'une fin de contrat de travail | P2 | implementation |
+| [TRAV-022](01-pilote-travail/suites/trav-022-offre-embauche-retiree.md) | Lire une offre ou promesse d'embauche retirée | P2 | implementation |
+| [TRAV-023](01-pilote-travail/suites/trav-023-anomalie-cdd.md) | Examiner une anomalie d'un CDD exécuté | P2 | implementation |
+| [TRAV-024](01-pilote-travail/suites/trav-024-mission-interim.md) | Lire les conditions d'une mission d'intérim | P2 | implementation |
+| [TRAV-025](01-pilote-travail/suites/trav-025-relation-executee.md) | Documenter les indices de salariat d'une prestation exécutée | P2 | implementation |
+| [TRAV-026](01-pilote-travail/suites/trav-026-periode-essai.md) | Lire le renouvellement ou la rupture d'une période d'essai | P2 | implementation |
+| [TRAV-027](01-pilote-travail/suites/trav-027-classification-reelle.md) | Comparer les fonctions réelles à une classification conventionnelle | P2 | implementation |
+| [TRAV-028](01-pilote-travail/suites/trav-028-modification-contrat.md) | Lire un changement proposé de poste ou de lieu de travail | P2 | implementation |
+| [TRAV-029](01-pilote-travail/suites/trav-029-delegation-pouvoirs.md) | Lire une délégation de pouvoirs proposée au salarié | P2 | implementation |
+| [TRAV-030](01-pilote-travail/suites/trav-030-consigne-securite.md) | Documenter une consigne de travail présentant un risque | P2 | implementation |
+| [TRAV-031](01-pilote-travail/suites/trav-031-objectifs-evaluation.md) | Préparer des observations sur une évaluation professionnelle | P2 | implementation |
+| [TRAV-032](01-pilote-travail/suites/trav-032-planning-repos.md) | Examiner un planning de travail et ses repos | P2 | implementation |
+| [TRAV-033](01-pilote-travail/suites/trav-033-astreinte-disponibilite.md) | Relire une période d'astreinte ou de disponibilité imposée | P2 | implementation |
+| [TRAV-034](01-pilote-travail/suites/trav-034-forfait-jours.md) | Lire une convention de forfait jours et son suivi | P2 | implementation |
+| [TRAV-035](01-pilote-travail/suites/trav-035-temps-partiel.md) | Examiner un écart entre contrat à temps partiel et horaires réels | P2 | implementation |
+| [TRAV-036](01-pilote-travail/suites/trav-036-anomalie-paie.md) | Préparer une demande sur une anomalie de rémunération | P2 | implementation |
+| [TRAV-037](01-pilote-travail/suites/trav-037-compteur-conges.md) | Rapprocher un compteur de congés payés de ses justificatifs | P2 | implementation |
+| [TRAV-038](01-pilote-travail/suites/trav-038-dates-conges.md) | Lire un refus ou changement de dates de congés | P2 | implementation |
+| [TRAV-039](01-pilote-travail/suites/trav-039-conge-evenement-familial.md) | Préparer une demande de congé pour un événement familial | P2 | implementation |
+| [TRAV-040](01-pilote-travail/suites/trav-040-signalement-accident-travail.md) | Préparer le signalement initial d'un accident au travail | P2 | implementation |
+| [TRAV-041](01-pilote-travail/suites/trav-041-visite-sante-travail.md) | Préparer une demande de visite de santé au travail | P2 | implementation |
+| [TRAV-042](01-pilote-travail/suites/trav-042-avis-inaptitude.md) | Lire un avis d'inaptitude et ses suites professionnelles | P2 | implementation |
+| [TRAV-043](01-pilote-travail/suites/trav-043-alerte-salarie.md) | Préparer un signalement salarié de harcèlement ou discrimination allégués | P2 | implementation |
+| [TRAV-044](01-pilote-travail/suites/trav-044-contester-sanction.md) | Préparer des observations sur une sanction disciplinaire | P2 | implementation |
+| [TRAV-045](01-pilote-travail/suites/trav-045-cse-elections-decoupage.md) | Découper les demandes relatives au CSE et aux élections | P2 | cadrage |
+| [TRAV-046](01-pilote-travail/suites/trav-046-rupture-salarie-protege.md) | Lire une décision relative à la rupture d'un salarié protégé | P2 | implementation |
+| [TRAV-047](01-pilote-travail/suites/trav-047-clause-collective.md) | Lire une clause d'accord collectif ou de règlement intérieur opposée au salarié | P2 | implementation |
+| [TRAV-048](01-pilote-travail/suites/trav-048-entretien-parcours.md) | Préparer une demande d'entretien de parcours professionnel | P2 | implementation |
+| [TRAV-049](01-pilote-travail/suites/trav-049-depart-volontaire.md) | Lire une démission ou mise en demeure pour abandon de poste | P2 | implementation |
+| [TRAV-050](01-pilote-travail/suites/trav-050-rupture-economique-individuelle.md) | Lire les documents reçus lors d'un licenciement économique individuel | P2 | implementation |
+| [TRAV-051](01-pilote-travail/suites/trav-051-sommes-fin-contrat.md) | Vérifier une somme de fin de contrat et la portée du reçu | P2 | implementation |
+| [TRAV-052](01-pilote-travail/suites/trav-052-non-concurrence-execution.md) | Examiner le paiement ou la levée d'une non-concurrence après rupture | P2 | implementation |
+| [TRAV-053](01-pilote-travail/suites/trav-053-creance-salariale-ags.md) | Préparer le rapprochement d'une créance salariale en procédure collective | P2 | implementation |
+| [TRAV-054](01-pilote-travail/suites/trav-054-dossier-defense-salarie.md) | Préparer une fiche de défense et de calendrier d'un litige salarié | P2 | implementation |
+| [TRAV-055](01-pilote-travail/suites/trav-055-transaction-travail.md) | Lire une transaction proposée dans un litige de travail | P2 | implementation |
+| [TRAV-056](01-pilote-travail/suites/trav-056-conge-parentalite.md) | Lire le refus d'un congé lié à la maternité ou parentalité | P2 | implementation |
+| [TRAV-057](01-pilote-travail/suites/trav-057-clause-exclusivite.md) | Lire une clause d'exclusivité face à un projet d'activité | P2 | implementation |
+| [TRAV-058](01-pilote-travail/suites/trav-058-clause-dedit-formation.md) | Lire une demande de remboursement de formation au salarié | P2 | implementation |
+| [TRAV-059](01-pilote-travail/suites/trav-059-ecart-salarial.md) | Documenter un écart de rémunération entre salariés comparables | P2 | implementation |
+| [TRAV-060](01-pilote-travail/suites/trav-060-compteur-rtt-repos.md) | Relire un compteur de RTT ou de repos conventionnel | P2 | implementation |
+| [TRAV-061](01-pilote-travail/suites/trav-061-rupture-aux-torts-decoupage.md) | Découper les demandes de rupture aux torts de l'employeur | P2 | cadrage |
 | [VEI-001](02-plugins-existants/suites/vei-001-qualifier-publication.md) | Qualifier une publication fournie | P2 | implementation |
 | [VEI-002](02-plugins-existants/suites/vei-002-capacite-source.md) | Vérifier la capacité d’une source de veille | P2 | implementation |
 | [VEI-017](02-plugins-existants/suites/vei-017-preferences-veille.md) | Gérer des préférences de veille volontaires | P2 | implementation |
@@ -198,6 +238,8 @@ Stories à faire dont toutes les dépendances sont terminées.
 - [BASE-011](00-fondations/base-011-recette-client-isole.md) — Exécuter la recette des paquets dans un client Claude isolé
   <br>Annexes : [base-011-lecture-utilisateur.md](00-fondations/base-011-annexes/base-011-lecture-utilisateur.md) · [base-011-resultats.json](00-fondations/base-011-annexes/base-011-resultats.json)
 - [BASE-012](00-fondations/base-012-designer-cli-claude.md) — Désigner le binaire claude utilisé par le contrôleur de paquet
+- [BASE-013](00-fondations/base-013-avertissement-interlocuteur.md) — Rendre systématique l'avertissement et l'interlocuteur compétent
+  <br>Annexes : [base-013-pieces-fictives.md](00-fondations/base-013-annexes/base-013-pieces-fictives.md) · [base-013-resultats.json](00-fondations/base-013-annexes/base-013-resultats.json) · [base-013-sorties.md](00-fondations/base-013-annexes/base-013-sorties.md) · [base-013-sources-lues.json](00-fondations/base-013-annexes/base-013-sources-lues.json) · [base-013-verification.md](00-fondations/base-013-annexes/base-013-verification.md)
 - Autres documents : [retrospective-fondations.md](00-fondations/retrospective-fondations.md)
 
 ### 01 — Pilote travail
@@ -282,18 +324,17 @@ Stories à faire dont toutes les dépendances sont terminées.
 ✅ = prête à démarrer. Sinon, la colonne indique les dépendances non terminées.
 
 <details>
-<summary><b>BASE</b> — Fondations (00 — Fondations) : 3 à faire, 2 prêtes</summary>
+<summary><b>BASE</b> — Fondations (00 — Fondations) : 2 à faire, 2 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [BASE-013](00-fondations/base-013-avertissement-interlocuteur.md) | Rendre systématique l'avertissement et l'interlocuteur compétent | P1 | BASE-008 |
 | [BASE-014](00-fondations/base-014-relecture-references.md) | Relire les références embarquées avant chaque livraison | P1 | ✅ |
 | [BASE-015](00-fondations/base-015-jurisprudence-runtime.md) | Cadrer l'accès à la jurisprudence pendant l'exécution d'un skill | P1 | ✅ |
 
 </details>
 
 <details>
-<summary><b>TRAV</b> — Travail (suites du pilote) (01 — Pilote travail) : 60 à faire, 14 prêtes</summary>
+<summary><b>TRAV</b> — Travail (suites du pilote) (01 — Pilote travail) : 60 à faire, 54 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -317,46 +358,46 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [TRAV-019](01-pilote-travail/suites/trav-019-premiere-embauche-tpe.md) | Préparer les pièces d'une première embauche par une TPE française | P2 | ✅ |
 | [TRAV-020](01-pilote-travail/suites/trav-020-anomalie-dsn.md) | Lire une anomalie ou notification de substitution DSN | P2 | ✅ |
 | [TRAV-021](01-pilote-travail/suites/trav-021-pieces-fin-contrat.md) | Rapprocher les pièces administratives d'une fin de contrat de travail | P2 | ✅ |
-| [TRAV-022](01-pilote-travail/suites/trav-022-offre-embauche-retiree.md) | Lire une offre ou promesse d'embauche retirée | P2 | BASE-013 |
-| [TRAV-023](01-pilote-travail/suites/trav-023-anomalie-cdd.md) | Examiner une anomalie d'un CDD exécuté | P2 | BASE-013 |
-| [TRAV-024](01-pilote-travail/suites/trav-024-mission-interim.md) | Lire les conditions d'une mission d'intérim | P2 | BASE-013 |
-| [TRAV-025](01-pilote-travail/suites/trav-025-relation-executee.md) | Documenter les indices de salariat d'une prestation exécutée | P2 | BASE-013 |
-| [TRAV-026](01-pilote-travail/suites/trav-026-periode-essai.md) | Lire le renouvellement ou la rupture d'une période d'essai | P2 | BASE-013 |
-| [TRAV-027](01-pilote-travail/suites/trav-027-classification-reelle.md) | Comparer les fonctions réelles à une classification conventionnelle | P2 | BASE-013 |
-| [TRAV-028](01-pilote-travail/suites/trav-028-modification-contrat.md) | Lire un changement proposé de poste ou de lieu de travail | P2 | BASE-013 |
-| [TRAV-029](01-pilote-travail/suites/trav-029-delegation-pouvoirs.md) | Lire une délégation de pouvoirs proposée au salarié | P2 | BASE-013 |
-| [TRAV-030](01-pilote-travail/suites/trav-030-consigne-securite.md) | Documenter une consigne de travail présentant un risque | P2 | BASE-013 |
-| [TRAV-031](01-pilote-travail/suites/trav-031-objectifs-evaluation.md) | Préparer des observations sur une évaluation professionnelle | P2 | BASE-013 |
-| [TRAV-032](01-pilote-travail/suites/trav-032-planning-repos.md) | Examiner un planning de travail et ses repos | P2 | BASE-013 |
-| [TRAV-033](01-pilote-travail/suites/trav-033-astreinte-disponibilite.md) | Relire une période d'astreinte ou de disponibilité imposée | P2 | BASE-013 |
-| [TRAV-034](01-pilote-travail/suites/trav-034-forfait-jours.md) | Lire une convention de forfait jours et son suivi | P2 | BASE-013 |
-| [TRAV-035](01-pilote-travail/suites/trav-035-temps-partiel.md) | Examiner un écart entre contrat à temps partiel et horaires réels | P2 | BASE-013 |
-| [TRAV-036](01-pilote-travail/suites/trav-036-anomalie-paie.md) | Préparer une demande sur une anomalie de rémunération | P2 | BASE-013 |
-| [TRAV-037](01-pilote-travail/suites/trav-037-compteur-conges.md) | Rapprocher un compteur de congés payés de ses justificatifs | P2 | BASE-013 |
-| [TRAV-038](01-pilote-travail/suites/trav-038-dates-conges.md) | Lire un refus ou changement de dates de congés | P2 | BASE-013 |
-| [TRAV-039](01-pilote-travail/suites/trav-039-conge-evenement-familial.md) | Préparer une demande de congé pour un événement familial | P2 | BASE-013 |
-| [TRAV-040](01-pilote-travail/suites/trav-040-signalement-accident-travail.md) | Préparer le signalement initial d'un accident au travail | P2 | BASE-013 |
-| [TRAV-041](01-pilote-travail/suites/trav-041-visite-sante-travail.md) | Préparer une demande de visite de santé au travail | P2 | BASE-013 |
-| [TRAV-042](01-pilote-travail/suites/trav-042-avis-inaptitude.md) | Lire un avis d'inaptitude et ses suites professionnelles | P2 | BASE-013 |
-| [TRAV-043](01-pilote-travail/suites/trav-043-alerte-salarie.md) | Préparer un signalement salarié de harcèlement ou discrimination allégués | P2 | BASE-013 |
-| [TRAV-044](01-pilote-travail/suites/trav-044-contester-sanction.md) | Préparer des observations sur une sanction disciplinaire | P2 | BASE-013 |
-| [TRAV-045](01-pilote-travail/suites/trav-045-cse-elections-decoupage.md) | Découper les demandes relatives au CSE et aux élections | P2 | BASE-013 |
-| [TRAV-046](01-pilote-travail/suites/trav-046-rupture-salarie-protege.md) | Lire une décision relative à la rupture d'un salarié protégé | P2 | BASE-013 |
-| [TRAV-047](01-pilote-travail/suites/trav-047-clause-collective.md) | Lire une clause d'accord collectif ou de règlement intérieur opposée au salarié | P2 | BASE-013 |
-| [TRAV-048](01-pilote-travail/suites/trav-048-entretien-parcours.md) | Préparer une demande d'entretien de parcours professionnel | P2 | BASE-013 |
-| [TRAV-049](01-pilote-travail/suites/trav-049-depart-volontaire.md) | Lire une démission ou mise en demeure pour abandon de poste | P2 | BASE-013 |
-| [TRAV-050](01-pilote-travail/suites/trav-050-rupture-economique-individuelle.md) | Lire les documents reçus lors d'un licenciement économique individuel | P2 | BASE-013 |
-| [TRAV-051](01-pilote-travail/suites/trav-051-sommes-fin-contrat.md) | Vérifier une somme de fin de contrat et la portée du reçu | P2 | BASE-013 |
-| [TRAV-052](01-pilote-travail/suites/trav-052-non-concurrence-execution.md) | Examiner le paiement ou la levée d'une non-concurrence après rupture | P2 | BASE-013 |
-| [TRAV-053](01-pilote-travail/suites/trav-053-creance-salariale-ags.md) | Préparer le rapprochement d'une créance salariale en procédure collective | P2 | BASE-013 |
-| [TRAV-054](01-pilote-travail/suites/trav-054-dossier-defense-salarie.md) | Préparer une fiche de défense et de calendrier d'un litige salarié | P2 | BASE-013 |
-| [TRAV-055](01-pilote-travail/suites/trav-055-transaction-travail.md) | Lire une transaction proposée dans un litige de travail | P2 | BASE-013 |
-| [TRAV-056](01-pilote-travail/suites/trav-056-conge-parentalite.md) | Lire le refus d'un congé lié à la maternité ou parentalité | P2 | BASE-013 |
-| [TRAV-057](01-pilote-travail/suites/trav-057-clause-exclusivite.md) | Lire une clause d'exclusivité face à un projet d'activité | P2 | BASE-013 |
-| [TRAV-058](01-pilote-travail/suites/trav-058-clause-dedit-formation.md) | Lire une demande de remboursement de formation au salarié | P2 | BASE-013 |
-| [TRAV-059](01-pilote-travail/suites/trav-059-ecart-salarial.md) | Documenter un écart de rémunération entre salariés comparables | P2 | BASE-013 |
-| [TRAV-060](01-pilote-travail/suites/trav-060-compteur-rtt-repos.md) | Relire un compteur de RTT ou de repos conventionnel | P2 | BASE-013 |
-| [TRAV-061](01-pilote-travail/suites/trav-061-rupture-aux-torts-decoupage.md) | Découper les demandes de rupture aux torts de l'employeur | P2 | BASE-013 |
+| [TRAV-022](01-pilote-travail/suites/trav-022-offre-embauche-retiree.md) | Lire une offre ou promesse d'embauche retirée | P2 | ✅ |
+| [TRAV-023](01-pilote-travail/suites/trav-023-anomalie-cdd.md) | Examiner une anomalie d'un CDD exécuté | P2 | ✅ |
+| [TRAV-024](01-pilote-travail/suites/trav-024-mission-interim.md) | Lire les conditions d'une mission d'intérim | P2 | ✅ |
+| [TRAV-025](01-pilote-travail/suites/trav-025-relation-executee.md) | Documenter les indices de salariat d'une prestation exécutée | P2 | ✅ |
+| [TRAV-026](01-pilote-travail/suites/trav-026-periode-essai.md) | Lire le renouvellement ou la rupture d'une période d'essai | P2 | ✅ |
+| [TRAV-027](01-pilote-travail/suites/trav-027-classification-reelle.md) | Comparer les fonctions réelles à une classification conventionnelle | P2 | ✅ |
+| [TRAV-028](01-pilote-travail/suites/trav-028-modification-contrat.md) | Lire un changement proposé de poste ou de lieu de travail | P2 | ✅ |
+| [TRAV-029](01-pilote-travail/suites/trav-029-delegation-pouvoirs.md) | Lire une délégation de pouvoirs proposée au salarié | P2 | ✅ |
+| [TRAV-030](01-pilote-travail/suites/trav-030-consigne-securite.md) | Documenter une consigne de travail présentant un risque | P2 | ✅ |
+| [TRAV-031](01-pilote-travail/suites/trav-031-objectifs-evaluation.md) | Préparer des observations sur une évaluation professionnelle | P2 | ✅ |
+| [TRAV-032](01-pilote-travail/suites/trav-032-planning-repos.md) | Examiner un planning de travail et ses repos | P2 | ✅ |
+| [TRAV-033](01-pilote-travail/suites/trav-033-astreinte-disponibilite.md) | Relire une période d'astreinte ou de disponibilité imposée | P2 | ✅ |
+| [TRAV-034](01-pilote-travail/suites/trav-034-forfait-jours.md) | Lire une convention de forfait jours et son suivi | P2 | ✅ |
+| [TRAV-035](01-pilote-travail/suites/trav-035-temps-partiel.md) | Examiner un écart entre contrat à temps partiel et horaires réels | P2 | ✅ |
+| [TRAV-036](01-pilote-travail/suites/trav-036-anomalie-paie.md) | Préparer une demande sur une anomalie de rémunération | P2 | ✅ |
+| [TRAV-037](01-pilote-travail/suites/trav-037-compteur-conges.md) | Rapprocher un compteur de congés payés de ses justificatifs | P2 | ✅ |
+| [TRAV-038](01-pilote-travail/suites/trav-038-dates-conges.md) | Lire un refus ou changement de dates de congés | P2 | ✅ |
+| [TRAV-039](01-pilote-travail/suites/trav-039-conge-evenement-familial.md) | Préparer une demande de congé pour un événement familial | P2 | ✅ |
+| [TRAV-040](01-pilote-travail/suites/trav-040-signalement-accident-travail.md) | Préparer le signalement initial d'un accident au travail | P2 | ✅ |
+| [TRAV-041](01-pilote-travail/suites/trav-041-visite-sante-travail.md) | Préparer une demande de visite de santé au travail | P2 | ✅ |
+| [TRAV-042](01-pilote-travail/suites/trav-042-avis-inaptitude.md) | Lire un avis d'inaptitude et ses suites professionnelles | P2 | ✅ |
+| [TRAV-043](01-pilote-travail/suites/trav-043-alerte-salarie.md) | Préparer un signalement salarié de harcèlement ou discrimination allégués | P2 | ✅ |
+| [TRAV-044](01-pilote-travail/suites/trav-044-contester-sanction.md) | Préparer des observations sur une sanction disciplinaire | P2 | ✅ |
+| [TRAV-045](01-pilote-travail/suites/trav-045-cse-elections-decoupage.md) | Découper les demandes relatives au CSE et aux élections | P2 | ✅ |
+| [TRAV-046](01-pilote-travail/suites/trav-046-rupture-salarie-protege.md) | Lire une décision relative à la rupture d'un salarié protégé | P2 | ✅ |
+| [TRAV-047](01-pilote-travail/suites/trav-047-clause-collective.md) | Lire une clause d'accord collectif ou de règlement intérieur opposée au salarié | P2 | ✅ |
+| [TRAV-048](01-pilote-travail/suites/trav-048-entretien-parcours.md) | Préparer une demande d'entretien de parcours professionnel | P2 | ✅ |
+| [TRAV-049](01-pilote-travail/suites/trav-049-depart-volontaire.md) | Lire une démission ou mise en demeure pour abandon de poste | P2 | ✅ |
+| [TRAV-050](01-pilote-travail/suites/trav-050-rupture-economique-individuelle.md) | Lire les documents reçus lors d'un licenciement économique individuel | P2 | ✅ |
+| [TRAV-051](01-pilote-travail/suites/trav-051-sommes-fin-contrat.md) | Vérifier une somme de fin de contrat et la portée du reçu | P2 | ✅ |
+| [TRAV-052](01-pilote-travail/suites/trav-052-non-concurrence-execution.md) | Examiner le paiement ou la levée d'une non-concurrence après rupture | P2 | ✅ |
+| [TRAV-053](01-pilote-travail/suites/trav-053-creance-salariale-ags.md) | Préparer le rapprochement d'une créance salariale en procédure collective | P2 | ✅ |
+| [TRAV-054](01-pilote-travail/suites/trav-054-dossier-defense-salarie.md) | Préparer une fiche de défense et de calendrier d'un litige salarié | P2 | ✅ |
+| [TRAV-055](01-pilote-travail/suites/trav-055-transaction-travail.md) | Lire une transaction proposée dans un litige de travail | P2 | ✅ |
+| [TRAV-056](01-pilote-travail/suites/trav-056-conge-parentalite.md) | Lire le refus d'un congé lié à la maternité ou parentalité | P2 | ✅ |
+| [TRAV-057](01-pilote-travail/suites/trav-057-clause-exclusivite.md) | Lire une clause d'exclusivité face à un projet d'activité | P2 | ✅ |
+| [TRAV-058](01-pilote-travail/suites/trav-058-clause-dedit-formation.md) | Lire une demande de remboursement de formation au salarié | P2 | ✅ |
+| [TRAV-059](01-pilote-travail/suites/trav-059-ecart-salarial.md) | Documenter un écart de rémunération entre salariés comparables | P2 | ✅ |
+| [TRAV-060](01-pilote-travail/suites/trav-060-compteur-rtt-repos.md) | Relire un compteur de RTT ou de repos conventionnel | P2 | ✅ |
+| [TRAV-061](01-pilote-travail/suites/trav-061-rupture-aux-torts-decoupage.md) | Découper les demandes de rupture aux torts de l'employeur | P2 | ✅ |
 
 </details>
 
@@ -424,18 +465,18 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [CTX-027](02-plugins-existants/suites/ctx-027-audience-sans-avocat.md) | Se préparer à une audience civile sans avocat | P2 | CTX-001 |
 | [CTX-028](02-plugins-existants/suites/ctx-028-jugement-civil-recu.md) | Lire un jugement civil reçu et les voies de recours à vérifier | P2 | CTX-001 |
 | [CTX-029](02-plugins-existants/suites/ctx-029-reperer-irregularites-civiles.md) | Repérer les irrégularités possibles d'un acte de procédure civile | P2 | CTX-025 |
-| [CTX-030](02-plugins-existants/suites/ctx-030-chronologie-prescription-civile.md) | Reconstituer la prescription d'une action civile déterminée | P2 | BASE-013, CTX-011 |
-| [CTX-031](02-plugins-existants/suites/ctx-031-tableau-demandes-civiles.md) | Structurer les demandes d'un petit litige civil | P2 | BASE-013, CTX-026 |
-| [CTX-032](02-plugins-existants/suites/ctx-032-lire-mission-expertise.md) | Lire une mission d'expertise judiciaire civile | P2 | BASE-013, CTX-001 |
-| [CTX-033](02-plugins-existants/suites/ctx-033-observations-expertise.md) | Préparer des observations sur une expertise civile | P2 | BASE-013, CTX-032 |
-| [CTX-034](02-plugins-existants/suites/ctx-034-tableau-reponse-adverse.md) | Préparer un tableau de réponse aux arguments adverses | P2 | BASE-013, CTX-011 |
-| [CTX-035](02-plugins-existants/suites/ctx-035-demande-temps-reponse.md) | Préparer une demande de temps pour répondre en procédure civile | P2 | BASE-013, CTX-001 |
-| [CTX-036](02-plugins-existants/suites/ctx-036-fiche-appel-jugement-tj.md) | Préparer la vérification d'un appel de jugement du tribunal judiciaire | P2 | BASE-013, CTX-028 |
-| [CTX-037](02-plugins-existants/suites/ctx-037-erreur-materielle-jugement.md) | Documenter une erreur matérielle alléguée dans un jugement civil | P2 | BASE-013, CTX-028 |
-| [CTX-038](02-plugins-existants/suites/ctx-038-omission-statuer-civile.md) | Documenter une omission de statuer alléguée au civil | P2 | BASE-013, CTX-028 |
-| [CTX-039](02-plugins-existants/suites/ctx-039-lire-transaction-litige.md) | Lire la portée d'une transaction proposée dans un litige civil | P2 | BASE-013, CTX-001 |
-| [CTX-040](02-plugins-existants/suites/ctx-040-budget-proces-civil.md) | Organiser le budget d'un procès civil déterminé | P2 | BASE-013, CTX-001 |
-| [CTX-041](02-plugins-existants/suites/ctx-041-ordonnance-injonction-creancier.md) | Lire une ordonnance d'injonction de payer côté créancier | P2 | BASE-013, CTX-001 |
+| [CTX-030](02-plugins-existants/suites/ctx-030-chronologie-prescription-civile.md) | Reconstituer la prescription d'une action civile déterminée | P2 | CTX-011 |
+| [CTX-031](02-plugins-existants/suites/ctx-031-tableau-demandes-civiles.md) | Structurer les demandes d'un petit litige civil | P2 | CTX-026 |
+| [CTX-032](02-plugins-existants/suites/ctx-032-lire-mission-expertise.md) | Lire une mission d'expertise judiciaire civile | P2 | CTX-001 |
+| [CTX-033](02-plugins-existants/suites/ctx-033-observations-expertise.md) | Préparer des observations sur une expertise civile | P2 | CTX-032 |
+| [CTX-034](02-plugins-existants/suites/ctx-034-tableau-reponse-adverse.md) | Préparer un tableau de réponse aux arguments adverses | P2 | CTX-011 |
+| [CTX-035](02-plugins-existants/suites/ctx-035-demande-temps-reponse.md) | Préparer une demande de temps pour répondre en procédure civile | P2 | CTX-001 |
+| [CTX-036](02-plugins-existants/suites/ctx-036-fiche-appel-jugement-tj.md) | Préparer la vérification d'un appel de jugement du tribunal judiciaire | P2 | CTX-028 |
+| [CTX-037](02-plugins-existants/suites/ctx-037-erreur-materielle-jugement.md) | Documenter une erreur matérielle alléguée dans un jugement civil | P2 | CTX-028 |
+| [CTX-038](02-plugins-existants/suites/ctx-038-omission-statuer-civile.md) | Documenter une omission de statuer alléguée au civil | P2 | CTX-028 |
+| [CTX-039](02-plugins-existants/suites/ctx-039-lire-transaction-litige.md) | Lire la portée d'une transaction proposée dans un litige civil | P2 | CTX-001 |
+| [CTX-040](02-plugins-existants/suites/ctx-040-budget-proces-civil.md) | Organiser le budget d'un procès civil déterminé | P2 | CTX-001 |
+| [CTX-041](02-plugins-existants/suites/ctx-041-ordonnance-injonction-creancier.md) | Lire une ordonnance d'injonction de payer côté créancier | P2 | CTX-001 |
 
 </details>
 

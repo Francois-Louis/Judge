@@ -1,7 +1,7 @@
 {
   "name": "judge-fr-eu-regulatory-legal",
-  "version": "0.1.0",
-  "description": "Judge FR/UE 0.1.0: technical isolation; legal adaptation pending. Watches regulatory feeds, diffs new rules against your policy library, tracks comment deadlines and open gaps, and writes the digest your team reads Monday morning.",
+  "version": "0.1.1",
+  "description": "Judge FR/UE 0.1.1: technical isolation; legal adaptation pending. Watches regulatory feeds, diffs new rules against your policy library, tracks comment deadlines and open gaps, and writes the digest your team reads Monday morning.",
   "author": {
     "name": "Anthropic"
   },

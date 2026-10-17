@@ -11,12 +11,13 @@ argument-hint: "[offre, contrat, extrait lisible ou description de l'embauche]"
 ---
 
 <!-- Modified by Judge FR/UE for PILOTE-002 (2026-10-15): scoped France hiring review. -->
+<!-- Modified by Judge FR/UE for BASE-013 (2026-10-17): closing scope sentence, front warning and interlocutor. -->
 
 # /hiring-review
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` avant tout accès
 aux profils, dossiers ou sorties persistantes. Ses contrôles de stockage
-restent applicables. Charger la [méthode BASE-005 version 1.0.0](../../references/shared/research-citation-method.md)
+restent applicables. Charger la [méthode BASE-005 version 1.1.0](../../references/shared/research-citation-method.md)
 et les [repères métier et limites de lecture](../../references/hiring-review-fr.md).
 Ce parcours applique le protocole d'orientation USAGE-001 **1.0.0**, dont les
 exigences utiles sont reprises ci-dessous ; aucun fichier du dépôt n'est requis.
@@ -190,6 +191,19 @@ et coordonnées avant de les annoncer. Un brouillon peut être préparé à la
 demande, clairement identifié et sans ajout de faits. Ce skill n'envoie rien,
 ne signe ni n'accepte l'offre, n'active aucun suivi et n'écrit aucun registre.
 
-Proposer une reformulation : « Quel engagement retenez-vous, quelle question
-poserez-vous, à qui, et quel point reste à vérifier ? » Adapter l'explication
-si besoin. Ce dialogue ne remplace pas une recette avec un participant réel.
+Proposer une reformulation, sans y répondre à la place de la personne :
+« Quel engagement retenez-vous, quelle question poserez-vous, à qui, et quel
+point reste à vérifier ? » Adapter l'explication si besoin. Ce dialogue ne
+remplace pas une recette avec un participant réel.
+
+**Portée et interlocuteur** (section 8 de la méthode `1.1.0`). Si une réponse
+ou une signature est attendue à brève échéance, si le document a déjà été
+signé, ou si une clause peut entraîner un engagement difficile à défaire
+(non-concurrence, dédit, démission d'un emploi actuel), ouvrir la note par une
+ou deux phrases : ce qui presse et qui consulter avant de répondre, sans
+calculer de délai. Dans la prochaine étape, préciser que le recruteur ou les
+RH renseignent sur l'offre sans être le conseil de la personne ; un syndicat
+de salariés peut être cité pour ses adhérents. La **dernière ligne**, après les
+sources éventuelles, est une phrase courte : la note aide à comprendre l'offre
+et à préparer les questions ; elle ne remplace pas l'avis d'un avocat ou d'un
+juriste en droit du travail.

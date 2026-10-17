@@ -9,7 +9,7 @@ description: >
 argument-hint: '[fichier | lien documentaire | texte ou récit]'
 ---
 
-<!-- Modified by Judge FR/UE for COM-001, 2026-10-16. -->
+<!-- Modified by Judge FR/UE for COM-001, 2026-10-16, and BASE-013, 2026-10-17. -->
 
 # /review — Comprendre la demande et choisir la suite
 
@@ -22,7 +22,7 @@ abonnement ni connecteur obligatoire.
 
 Charger d'abord `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`,
 [la frontière de stockage](../../references/isolation.md), puis
-[la méthode BASE-005](../../references/shared/research-citation-method.md) et
+[la méthode BASE-005 `1.1.0`](../../references/shared/research-citation-method.md) et
 [l'orientation commerciale](../../references/orientation-commerciale.md).
 Sous un cookbook, résoudre ces fichiers dans sa copie embarquée du plugin ;
 aucun checkout ni autre plugin requis. Une référence indispensable absente est
@@ -108,6 +108,17 @@ Commencer par quelques phrases accessibles sans formation juridique :
   prouvées distinctes ; échéance juridique à déterminer sans régime/déclencheur
   vérifiés. Aucun envoi, signature, inscription, rappel ou protection par le
   secret professionnel annoncé sans preuve.
+
+**Portée et interlocuteur** (section 8 de la méthode `1.1.0`). Si la demande
+comporte délai, acte de procédure, convocation ou mesure pénale, signature
+imminente ou enjeu irréversible, ouvrir la fiche par une ou deux phrases :
+ce qui presse et qui contacter rapidement, sans calcul de délai. Terminer
+toujours par une phrase courte : la fiche aide à comprendre la demande et à
+préparer la suite ; elle ne remplace pas l'avis de l'interlocuteur compétent
+nommé pour la branche retenue (référence locale, dernière colonne). En pénal,
+nommer l'avocat ; l'officier de police judiciaire est une autorité, pas un
+conseil. Pour les frais d'un notaire, nommer le notaire puis l'instance de la
+profession ou un médiateur à identifier, sans avocat par défaut.
 
 Livrer dans la conversation. Une conservation expressément demandée utilise
 le helper et une destination isolée validée, jamais le paquet installé.

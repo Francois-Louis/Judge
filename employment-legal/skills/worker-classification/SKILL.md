@@ -12,12 +12,13 @@ argument-hint: "[projet de mission, de contrat ou d'embauche, en mots courants]"
 ---
 
 <!-- Modified by Judge FR/UE for TRAV-001 (2026-10-17): prospective French work-relationship qualification. -->
+<!-- Modified by Judge FR/UE for BASE-013 (2026-10-17): method 1.1.0 and front warning. -->
 
 # /worker-classification
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` avant tout accès
 aux profils, dossiers ou sorties persistantes. Charger la
-[méthode BASE-005 version 1.0.0](../../references/shared/research-citation-method.md)
+[méthode BASE-005 version 1.1.0](../../references/shared/research-citation-method.md)
 et les [repères de qualification](../../references/worker-classification-fr.md).
 Aucun fichier du dépôt n'est requis.
 
@@ -181,3 +182,6 @@ personne : « Qu'est-ce qui est établi, quelle pièce demanderez-vous, à qui,
 et quel point reste à vérifier ? », puis par
 une phrase courte : cette note aide à comprendre et à préparer la démarche ;
 elle ne remplace pas l'avis d'un avocat ou d'un juriste en droit du travail.
+Si une signature ou un démarrage est imminent, ou si l'exécution a commencé,
+ouvrir aussi par une ou deux phrases de renfort : ce qui presse et qui
+consulter, sans calcul de délai (section 8 de la méthode).

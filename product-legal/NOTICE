@@ -26,3 +26,10 @@ Files added or modified for this package:
   skills/launch-review/references/seven-category-framework.md
   skills/marketing-claims-review/SKILL.md
   skills/matter-workspace/SKILL.md
+
+BASE-013 changes (2026-10-17): version 0.1.1. Shared method 1.1.0 synchronised byte-for-byte
+(closing scope sentence, front warning, choice of competent contact).
+No skill of this package is adapted by this change.
+  .claude-plugin/plugin.json
+  NOTICE
+  references/shared/research-citation-method.md

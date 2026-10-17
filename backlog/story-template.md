@@ -38,7 +38,7 @@ Quel problème cette story résout et quel résultat concret doit exister à la 
 - [ ] La tâche ne dépend pas d'un fichier absent du plugin installé.
 - [ ] Les limites du résultat sont documentées sans promettre l'adaptation du domaine entier.
 - [ ] La sortie explique la somme, l'obligation, les pièces ou la démarche utile en langage clair, sans présumer un abus ni garantir une issue favorable.
-- [ ] La sortie se termine par une phrase courte rappelant qu'elle informe sans remplacer le professionnel compétent nommé pour la situation (avocat, juriste, notaire, commissaire de justice, expert-comptable…), avec un renfort en tête si délai, procédure, pénal ou enjeu irréversible ([BASE-013](00-fondations/base-013-avertissement-interlocuteur.md)).
+- [ ] La sortie se termine par une phrase courte rappelant qu'elle informe sans remplacer le professionnel compétent nommé pour la situation (avocat, juriste, notaire, commissaire de justice, expert-comptable…), avec un renfort en tête si délai, procédure, pénal ou enjeu irréversible, selon la section 8 de la méthode BASE-005 `1.1.0` ([BASE-013](00-fondations/base-013-avertissement-interlocuteur.md)).
 
 ## Vérification
 

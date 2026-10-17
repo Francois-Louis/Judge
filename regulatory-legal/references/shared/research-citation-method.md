@@ -1,7 +1,7 @@
 ---
 id: judge-fr-eu-research-citation-method
-version: 1.0.0
-date_edition: 2026-10-15
+version: 1.1.0
+date_edition: 2026-10-17
 origine: Judge FR/UE — BASE-005
 source_edition: references/research-citation-method.md
 ---
@@ -196,7 +196,65 @@ sans fondement vérifié. Limiter les données personnelles aux besoins de la
 recherche, masquer les identifiants inutiles et ne pas transmettre un dossier
 à un service externe sans autorisation appropriée.
 
-## 8. Embarquer et maintenir la méthode
+## 8. Rappeler la portée de la réponse et nommer l'interlocuteur
+
+Toute réponse d'un skill adapté qui charge cette méthode se termine par **une
+phrase courte**, d'une ou deux lignes, après l'explication utile et sans la
+remplacer :
+
+> Cette [note / fiche / réponse] aide à comprendre [la situation] et à préparer
+> [la démarche] ; elle ne remplace pas l'avis [d'un interlocuteur compétent
+> nommé pour cette situation].
+
+C'est la dernière ligne de la réponse, après une éventuelle liste de sources
+ou question de reformulation ; les autres interlocuteurs (partie, autorité,
+syndicat) figurent dans la prochaine démarche, pas après cette phrase.
+Adapter les mots et la langue de la personne, une seule fois par réponse. Pas
+de bandeau répété, de formule anglaise (« not legal advice »), de mention de
+secret professionnel, ni de condition préalable à l'explication.
+
+**Renfort en tête.** Ajouter une ou deux phrases avant l'explication quand la
+situation comporte : délai, échéance ou prescription possible ; acte de
+procédure reçu ou annoncé (assignation, convocation, signification,
+commandement, décision notifiée) ; mesure pénale ou privative de liberté ;
+signature ou engagement imminent ; enjeu irréversible (perte d'un droit, d'un
+logement, d'un bien, d'un emploi). Le renfort dit ce qui presse et qui
+contacter rapidement, sans calculer ni affirmer un délai (section 6). La
+phrase finale reste due.
+
+**Choix de l'interlocuteur.** La référence métier du plugin propriétaire de la
+tâche fixe l'interlocuteur ; à défaut, appliquer ces règles :
+
+1. Distinguer le **conseil** de la personne et l'**autorité ou la partie** qui
+   mène la procédure, émet l'acte ou décide : officier ou agent de police
+   judiciaire, parquet, juridiction, administration, organisme, employeur,
+   commissaire de justice mandaté par le créancier, vendeur ou bailleur. Cette
+   autorité ou partie renseigne sur le dossier ou reçoit une démarche ; elle
+   n'est jamais présentée comme le conseil de la personne.
+2. Nommer le professionnel compétent pour la question posée, pas l'avocat par
+   défaut : notaire pour un acte notarié, ses frais ou une succession qu'il
+   règle, puis l'instance de la profession ou un médiateur à identifier ;
+   commissaire de justice pour un acte qu'il doit établir ; expert-comptable
+   pour la comptabilité ; association ou syndicat pour ses membres sur son
+   objet ; point d'accès au droit pour une information générale.
+3. Nommer l'avocat lorsqu'une procédure contentieuse est engagée ou envisagée,
+   lorsque le différend porte sur la validité d'un acte du professionnel
+   consulté, et toujours en matière pénale : le conseil à recommander reste
+   l'avocat, même si une autorité est l'interlocuteur du dossier.
+4. Préciser le domaine (« avocat ou juriste en droit du travail »). Nommer une
+   catégorie, pas une personne ; ne donner des coordonnées que vérifiées. La
+   compétence exacte se vérifie pour le régime de la tâche.
+
+Ces règles maintiennent la réponse du côté de l'explication et de la
+préparation. En France, donner à titre habituel et rémunéré des consultations
+juridiques ou rédiger des actes sous seing privé pour autrui est réservé aux
+personnes remplissant les conditions du titre II de la loi n° 71-1130 du
+31 décembre 1971 [S4] ; certains organismes ne peuvent le faire que pour leurs
+membres, sur leur objet. La méthode ne qualifie pas le périmètre exact de ces
+notions : elle impose de ne pas présenter une réponse comme l'avis personnalisé
+du professionnel nommé.
+
+## 9. Embarquer et maintenir la méthode
 
 La source d'édition est `references/research-citation-method.md` à la racine du
 dépôt Judge. À la préparation d'un lot, copier **ce fichier entier et à
@@ -241,3 +299,15 @@ Ces lectures de cadrage ne vérifient pas les sources de futurs dossiers.
   rubrique de présentation de la base lue le **15 octobre 2026** ; statut
   `verifie` pour sa fonction d'accès à la jurisprudence. Aucune décision
   individuelle n'a été vérifiée par cette lecture.
+- **S4** — Loi n° 71-1130 du 31 décembre 1971, titre II « Réglementation de la
+  consultation en matière juridique et de la rédaction d'actes sous seing
+  privé », [article 54](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039280601)
+  (version en vigueur depuis le 1er janvier 2020, ordonnance n° 2019-964),
+  [article 63](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006903440)
+  (version depuis le 8 avril 1997) et
+  [article 64](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006903453)
+  (version depuis le 1er janvier 1992), Légifrance, lus le **17 octobre 2026**
+  par un outil de lecture web (résumé et courtes citations, sans copie
+  intégrale) ; statut `verifie` pour l'existence de la réserve et des exceptions citées,
+  applicabilité `a-etablir` : aucune qualification d'une réponse de skill en
+  consultation juridique n'est tirée de cette lecture.

@@ -80,3 +80,17 @@ already performed relationships. No automatic status choice; no US test.
   README.md
   references/worker-classification-fr.md (new)
   skills/worker-classification/SKILL.md
+
+BASE-013 changes (2026-10-17): version 0.3.1. Shared method 1.1.0 synchronised. hiring-review
+and worker-classification end with a short scope sentence naming a
+lawyer or employment-law adviser, with a front warning for imminent
+signature or other urgency. No substantive legal rule added.
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  references/hiring-review-fr.md
+  references/shared/research-citation-method.md
+  references/worker-classification-fr.md
+  skills/hiring-review/SKILL.md
+  skills/worker-classification/SKILL.md

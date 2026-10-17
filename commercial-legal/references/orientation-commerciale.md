@@ -1,6 +1,6 @@
-<!-- Added by Judge FR/UE for COM-001, 2026-10-16. -->
+<!-- Added by Judge FR/UE for COM-001, 2026-10-16. Modified for BASE-013, 2026-10-17. -->
 
-# Orientation d'une demande contractuelle — 1.0.0
+# Orientation d'une demande contractuelle — 1.1.0
 
 Référence métier locale de `review`, France/UE. Reprend USAGE-001 `1.0.0`
 (15 octobre 2026) et les frontières BASE-003 sans dépendre du backlog à
@@ -26,6 +26,8 @@ signifie pas « absent du contrat ».
 | Désaccord, facture ou relance sans procédure identifiée | Le domaine du contrat conserve le fond ; le désaccord seul ne déclenche pas le contentieux. | Contrat, facture, exécution, paiements/avoirs et échanges ; cocontractant ou conseil du fond. |
 | Assignation, décision ou procédure civile/commerciale identifiée | Tâche procédurale distincte ; `litigation-legal` existe mais reste hérité à adapter. | Acte complet, preuve de notification et dates, juridiction ; conseil chargé de la procédure rapidement si date annoncée. |
 | Titre, saisie ou acte d'exécution allégué | Exécution, futur `enforcement-legal` proposé ; conserver le fond chez son domaine. Un commissaire de justice peut aussi émettre une simple relance : qualifier l'acte. | Acte, titre mentionné, décompte et notification ; émetteur/commissaire de justice ou conseil compétent pour identifier l'acte et la suite. Aucun acte exécuté ici. |
+| Convocation par la police ou la gendarmerie, plainte ou poursuite pénale liée au contrat | Pénal, futur `criminal-legal` proposé, non disponible ; le volet contractuel reste une question distincte. | Convocation complète, qualité annoncée et date ; renfort en tête ; avocat à contacter rapidement, éventuellement pénaliste. L'officier de police judiciaire renseigne sur la convocation : c'est une autorité, pas un conseil. |
+| Frais, honoraires ou acte d'un notaire, avocat, commissaire de justice ou expert-comptable | Professionnels du droit et du chiffre, futur `professional-services-legal` proposé ; le fond du dossier garde son domaine. | Décompte ou facture, convention, acte et échanges ; le professionnel concerné pour le détail, puis l'instance de sa profession ou un médiateur à identifier. Avocat seulement en cas de procédure ou de contestation de la validité de l'acte. |
 
 Ne pas exclure automatiquement toute protection particulière d'un petit
 professionnel. Selon les faits, demander objet par rapport à l'activité,
@@ -38,6 +40,11 @@ une annexe IA ne change pas automatiquement le domaine principal. Identifier
 le complément et ses pièces : rôles/traitements pour les données, mesures et
 exclusions pour le service. Aucune revue de ces annexes réputée effectuée,
 aucun dossier envoyé à un autre plugin ou service.
+
+La dernière colonne fournit l'interlocuteur de la fiche, selon la section 8 de
+la méthode BASE-005 `1.1.0` : « conseil » désigne un avocat ou un juriste du
+domaine nommé ; l'émetteur d'un acte, le cocontractant ou une autorité
+renseignent sans être le conseil de la personne.
 
 ## Tâches et disponibilité — état livré au 16 octobre 2026
 
