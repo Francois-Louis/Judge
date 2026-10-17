@@ -1,0 +1,142 @@
+{
+  "story": "DOM-009",
+  "date": "2026-10-17",
+  "timezone": "Europe/Paris",
+  "base_commit": "e57e5746eddfce37fb77021a50e637f51c7a3478",
+  "scope": "Cadrage documentaire douanes ; contrôles statiques, aucune validation juridique ni exécution de skill.",
+  "execution": "Contrôles ponctuels Python/PyYAML sur une vue temporaire git archive HEAD backlog + seuls changements DOM-009 ; index régénéré dans cette vue. Liens hors backlog résolus dans le dépôt. Aucun nouveau test de skill.",
+  "checks": {
+    "backlog_yaml_ids_and_dependency_graph": {
+      "status": "passed",
+      "stories": 656,
+      "problems": []
+    },
+    "bounded_implementation_proposals": {
+      "status": "passed",
+      "count": 12,
+      "future_files": 35,
+      "canonical_skills": {
+        "DOU-001": "import-document-checklist",
+        "DOU-002": "overseas-shipment-documents",
+        "DOU-003": "traveller-goods-documents",
+        "DOU-004": "commercial-import-intake",
+        "DOU-005": "export-document-preparation",
+        "DOU-006": "tariff-classification-dossier",
+        "DOU-007": "goods-origin-dossier",
+        "DOU-008": "customs-value-dossier",
+        "DOU-009": "customs-notice-review",
+        "DOU-010": "customs-repayment-request",
+        "DOU-011": "customs-remission-request",
+        "DOU-012": "vehicle-customs-documents"
+      },
+      "problems": []
+    },
+    "breakdown_table_and_story_consistency": {
+      "status": "passed",
+      "rows": 12,
+      "problems": []
+    },
+    "local_links_tables_and_utf8_format": {
+      "status": "passed",
+      "files": 22,
+      "markdown_files": 20,
+      "links": 1926,
+      "problems": []
+    },
+    "cadrage_closed_pilot_satisfied_and_no_plugin_created": {
+      "status": "passed",
+      "implementation_started": false,
+      "problems": []
+    },
+    "generated_index_in_task_only_view": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 474,
+      "problems": [],
+      "method": "json.loads(path.read_bytes()) : encodages JSON détectés par le parseur",
+      "utf16_files": [
+        "outputs/conso-001-directive.json"
+      ],
+      "note": "Le premier passage imposant UTF-8 a signalé outputs/conso-001-directive.json, artefact UTF-16 hors lot. Le passage sur octets vérifie sa syntaxe sans le modifier."
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "command": "python -X utf8 scripts/lint-tool-scope.py",
+      "exit_code": 0,
+      "observed": "5 orchestrators clean (separate execution before this report)"
+    },
+    "plugin_version_bump": {
+      "status": "passed",
+      "command": "python -X utf8 scripts/check-version-bump.py",
+      "exit_code": 0,
+      "observed": "Passed against origin/main; no plugin changed by DOM-009"
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0,
+      "problems": []
+    }
+  },
+  "files": [
+    "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md",
+    "backlog/03-nouveaux-domaines/dom-009-douanes.md",
+    "backlog/03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-utilisateurs.md",
+    "backlog/03-nouveaux-domaines/suites/veh-019-achat-mandataire-import.md",
+    "backlog/ETAT.md",
+    "backlog/etat.py",
+    "backlog/usages-quotidiens.md",
+    "backlog/03-nouveaux-domaines/suites/dou-001-dossier-achat-pays-tiers.md",
+    "backlog/03-nouveaux-domaines/suites/dou-002-envoi-outre-mer.md",
+    "backlog/03-nouveaux-domaines/suites/dou-003-biens-voyageur.md",
+    "backlog/03-nouveaux-domaines/suites/dou-004-qualifier-import-professionnel.md",
+    "backlog/03-nouveaux-domaines/suites/dou-005-preparer-exportation.md",
+    "backlog/03-nouveaux-domaines/suites/dou-006-preparer-classement.md",
+    "backlog/03-nouveaux-domaines/suites/dou-007-preparer-origine.md",
+    "backlog/03-nouveaux-domaines/suites/dou-008-preparer-valeur.md",
+    "backlog/03-nouveaux-domaines/suites/dou-009-lire-acte-douanier.md",
+    "backlog/03-nouveaux-domaines/suites/dou-010-demande-remboursement.md",
+    "backlog/03-nouveaux-domaines/suites/dou-011-demande-remise.md",
+    "backlog/03-nouveaux-domaines/suites/dou-012-dossier-vehicule.md",
+    "backlog/03-nouveaux-domaines/dom-009-annexes/dom-009-decoupage-douanes.md",
+    "backlog/03-nouveaux-domaines/dom-009-annexes/dom-009-resultats.json",
+    "backlog/03-nouveaux-domaines/dom-009-annexes/dom-009-verification.md"
+  ],
+  "sha256": {
+    "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md": "fa912228a8f2e6f5a8a8e55ebcffda02009e157937e1f6dccbb3f7188e672097",
+    "backlog/03-nouveaux-domaines/dom-009-douanes.md": "2b3325a3c7bd487c332f8e857569fd5118dd0352a701d3c2800841dac5e3496b",
+    "backlog/03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-utilisateurs.md": "ef937b512e7261e8394512bca1266754cf7ab22799a3bacc9e167d5fece10f26",
+    "backlog/03-nouveaux-domaines/suites/veh-019-achat-mandataire-import.md": "87dbef5576c3dd30f4258f80b1c3d14fd2c53ca8c34312b1afb0575ea89da6c3",
+    "backlog/ETAT.md": "311c7147308cc295a4e5f5ff9c46b8f41e51c25f64376336f3040e9a45bfa4dc",
+    "backlog/etat.py": "9064454217bcd45f45234a1515d0ad46d8260787d62641417c02bee5f66956d8",
+    "backlog/usages-quotidiens.md": "898ed63c677f3210589287d043b58a83083076e915144ca885c0cdc8fbffbdb4",
+    "backlog/03-nouveaux-domaines/suites/dou-001-dossier-achat-pays-tiers.md": "d1a7662b345e929bf491ddd9b881e32b61da73116c3ecc757148802bb075d896",
+    "backlog/03-nouveaux-domaines/suites/dou-002-envoi-outre-mer.md": "d32ebd585acb9bb1707f187030878c1defdddceb1bf7f6f0d7e4f8fdb4a47e5b",
+    "backlog/03-nouveaux-domaines/suites/dou-003-biens-voyageur.md": "0142ec5a1e1a2fd7db4ea62b87871f972240788d989e49ab94b2d846041444a1",
+    "backlog/03-nouveaux-domaines/suites/dou-004-qualifier-import-professionnel.md": "e5c0819d3b6084bd25672093406e6cc3fd672b26aa84d01cbc4b5edded4fe65e",
+    "backlog/03-nouveaux-domaines/suites/dou-005-preparer-exportation.md": "b2acb3a8eb43c1999b2493bbea3af479916d752fcaa19517f637b681bdc55fea",
+    "backlog/03-nouveaux-domaines/suites/dou-006-preparer-classement.md": "548180fd130ee4c8e39756be55737a92cb94bcfa3a430cd81b78202422838ec0",
+    "backlog/03-nouveaux-domaines/suites/dou-007-preparer-origine.md": "7db496887d9cb8c4389a997f64b07fdf308093fdab6234d38354b14310426dfc",
+    "backlog/03-nouveaux-domaines/suites/dou-008-preparer-valeur.md": "28c2b94212c008b4bb62eb0fb173c656b6f735e8ea1707e5a62557006bdb33aa",
+    "backlog/03-nouveaux-domaines/suites/dou-009-lire-acte-douanier.md": "2710050442cf24fea444f883368225eb9041b48678123bfae2209340912e7987",
+    "backlog/03-nouveaux-domaines/suites/dou-010-demande-remboursement.md": "00812bb53cffac31e17139cc8a6ed191abdf7b9bec5edbc6de1edfe0484056e8",
+    "backlog/03-nouveaux-domaines/suites/dou-011-demande-remise.md": "47722b911ee524a84455f14e7b850b74edf83a760e5b36c763ea22ba86f671d1",
+    "backlog/03-nouveaux-domaines/suites/dou-012-dossier-vehicule.md": "48c68eac71f437890a6f25201cb7b63c9ef7876418178bdc309522403beb1615",
+    "backlog/03-nouveaux-domaines/dom-009-annexes/dom-009-decoupage-douanes.md": "f9e10015ef02d8f42f2d0c7136b40e852d30718dba69074b3142912cbf26c6b9",
+    "backlog/03-nouveaux-domaines/dom-009-annexes/dom-009-verification.md": "ebce0ffe113980428b98567895121acbce940a6344cfe5f8dad21195404e4181"
+  },
+  "concurrent_work": "Les stories ANM/CHP/IND et changements voisins restent hors lot ; seules les lignes DOM-009 des fichiers partagés seront indexées. Le fichier ETAT committé est généré depuis la vue de ce lot, le fichier de travail conserve les autres travaux.",
+  "not_run": [
+    "Recherche juridique externe et vérification du droit applicable",
+    "Calcul de délai, taux ou montant",
+    "Implémentation, installation ou invocation de skill",
+    "Scénarios métier sur sortie de skill",
+    "Relecture humaine (prise en charge par utilisateur) et compréhension observée",
+    "Validation schéma plugin/marketplace : aucun changement de ces fichiers",
+    "Envoi, déclaration, paiement ou dépôt"
+  ],
+  "manual_documentary_review": "Trois dossiers de routage, trois variantes véhicules et limites relus par le rédacteur dans dom-009-verification.md ; ne prouve pas le résultat métier."
+}

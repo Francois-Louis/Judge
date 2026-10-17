@@ -1,7 +1,7 @@
 ---
 id: DOM-009
 titre: "Cadrer un plugin douanes et import-export"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -34,11 +34,11 @@ Un premier skill de préparation documentaire d'une opération bornée, sans cal
 
 ## Critères d'acceptation
 
-- [ ] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
-- [ ] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
-- [ ] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle.
-- [ ] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
-- [ ] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
+- [x] Le domaine a son propre plugin dans la matrice d'architecture, avec des frontières explicites.
+- [x] Les tâches candidates sont hiérarchisées ; le premier skill a un périmètre et des exclusions précis.
+- [x] Chaque story d'implémentation précise les références métier, les pièces nécessaires, la sortie et les scénarios de contrôle.
+- [x] Le plugin est prévu pour être installé seul ; agents, connecteurs et hooks ne sont ajoutés que pour un besoin identifié.
+- [x] Les implémentations sont conditionnées au bilan PILOTE-003 et ne sont pas lancées dans cette story.
 
 ## Scénarios pour éprouver le découpage
 
@@ -57,3 +57,44 @@ Implémenter le domaine entier, créer un plugin vide pour donner l'impression d
 Points 45 et 191. Prévoir la qualification documentaire de l'importation d'un véhicule de particulier, en distinguant achat dans l'Union et provenance d'un pays tiers, territoires douanier/fiscal, origine, provenance, résidence, usage et éventuel transfert de résidence. Recueillir factures, documents étrangers et douaniers, trajet, vendeur/mandataire et date ; sortie attendue : pièces manquantes et questions à la douane, sans taux ni droit calculé. Le document douanier ne remplace ni quitus fiscal DOM-011 ni immatriculation DOM-010 ; VEH-019 garde l'engagement contractuel de remise. Cas à découper : achat UE pris à tort pour import tiers ; véhicule tiers sans justificatif de dédouanement ; demande de franchise alléguée. Lire sources officielles et textes selon opération, sans transformer le guide en liste universelle de formalités.
 
 Exigences de la [matrice des 195 points](dom-023-annexes/dom-023-frictions-utilisateurs.md), à découper sans sélection de tranche. Sources et scénarios métier non vérifiés ; [portée de l’intégration](dom-023-annexes/dom-023-frictions-verification.md).
+
+## Bilan d'exécution — 17 octobre 2026
+
+- [Découpage douanes](dom-009-annexes/dom-009-decoupage-douanes.md) : nom
+  `customs-legal` conservé, identifiant futur `judge-fr-eu-customs-legal` ;
+  qualification marchandise, qualités, opération, usage, territoires douanier
+  et fiscal, origine, provenance, valeur, acteurs, dates et acte reçu.
+- Douze propositions DOU-001 à DOU-012 sous `suites/`, avec un skill, ses
+  entrées, sortie, références à ouvrir et scénarios propres à chaque tâche.
+  Classement, origine, valeur, formalités, dette et sanction sont séparés ;
+  remboursement et remise ont chacun leur story.
+- Première tranche DOU-001 : dossier d'un achat privé ordinaire expédié d'un
+  pays tiers vers la métropole, sans calcul ni déclaration. Outre-mer,
+  voyageur, professionnel, véhicule et acte notifié sortent de cette tranche.
+- DOU-012 reprend les points véhicules 45 et 191 : achat UE, provenance
+  tierce et franchise alléguée ; quitus DOM-011, immatriculation DOM-010,
+  engagement contractuel VEH-019 et historique VEH-007 restent distincts.
+- [Vérification documentaire](dom-009-annexes/dom-009-verification.md) :
+  trois dossiers demandés, trois variantes véhicules et cas limites relus
+  par le rédacteur ; [relevé des contrôles](dom-009-annexes/dom-009-resultats.json)
+  structurels distinct de la validation juridique ou de l'exécution de skill.
+- Ligne douanes de la matrice BASE-003, situation S-17 et liens véhicules
+  précisés ; famille DOU ajoutée au générateur, index ETAT régénéré.
+
+Fichiers du lot : présente story, découpage, vérification, relevé JSON,
+douze propositions `suites/dou-*.md`, ligne douanes BASE-003, situation S-17,
+liens de la matrice véhicules et de VEH-019, `backlog/etat.py` et
+`backlog/ETAT.md`. Lot limité à `backlog/`, sans entrée NOTICE ni changement
+de version de plugin.
+
+**Portée :** cadrage documentaire, aucun plugin créé ni inscrit au
+marketplace, aucun skill implémenté ou exécuté, aucune installation ni
+démarche externe. Les sources sont des pistes non ouvertes et non une
+vérification du droit actuel ; aucun délai, taux ou montant validé.
+PILOTE-003 est terminé après BASE-011, sans sélection automatique d'une
+tranche ; toutes les suites restent `proposee`.
+
+La relecture humaine est prise en charge par l'utilisateur conformément à
+AGENTS.md du 17 octobre 2026. Elle n'est pas déclarée effectuée ; la
+compréhension par un lecteur réel n'a pas été observée. La story est close
+sur ses livrables et contrôles de cadrage, sans attendre cette relecture.

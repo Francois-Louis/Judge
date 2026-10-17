@@ -7,12 +7,12 @@
 | En cours | 1 |
 | À vérifier | 7 |
 | Bloquée | 0 |
-| Terminée | 50 |
+| Terminée | 51 |
 | Prête | 0 |
-| À faire | 563 |
+| À faire | 574 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 183 |
-| Total | 644 |
+| dont prêtes à démarrer | 182 |
+| Total | 656 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -59,7 +59,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [CTX-016](02-plugins-existants/suites/ctx-016-fiche-echeance.md) | Établir une fiche d’échéance de procédure TJ écrite | P2 | implementation |
 | [CTX-021](02-plugins-existants/suites/ctx-021-preferences-contentieux.md) | Gérer des préférences contentieuses volontaires | P2 | implementation |
 | [CTX-022](02-plugins-existants/suites/ctx-022-espace-dossier.md) | Isoler les espaces de dossiers contentieux | P2 | implementation |
-| [DOM-009](03-nouveaux-domaines/dom-009-douanes.md) | Cadrer un plugin douanes et import-export | P2 | cadrage |
 | [DOM-012](03-nouveaux-domaines/dom-012-protection-sociale.md) | Cadrer un plugin de sécurité sociale et prestations | P2 | cadrage |
 | [DOM-013](03-nouveaux-domaines/dom-013-famille-patrimoine.md) | Cadrer un plugin famille et patrimoine du couple | P2 | cadrage |
 | [DOM-014](03-nouveaux-domaines/dom-014-agriculture-rural.md) | Cadrer un plugin agricole et rural | P2 | cadrage |
@@ -321,6 +320,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [dom-007-controles.py](03-nouveaux-domaines/dom-007-annexes/dom-007-controles.py) · [dom-007-decoupage-sante.md](03-nouveaux-domaines/dom-007-annexes/dom-007-decoupage-sante.md) · [dom-007-frictions-controles.py](03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-controles.py) · [dom-007-frictions-resultats.json](03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-resultats.json) · [dom-007-frictions-utilisateurs.md](03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-utilisateurs.md) · [dom-007-frictions-verification.md](03-nouveaux-domaines/dom-007-annexes/dom-007-frictions-verification.md) · [dom-007-resultats.json](03-nouveaux-domaines/dom-007-annexes/dom-007-resultats.json) · [dom-007-verification.md](03-nouveaux-domaines/dom-007-annexes/dom-007-verification.md)
 - [DOM-008](03-nouveaux-domaines/dom-008-transports.md) — Cadrer un plugin transports et voyages
   <br>Annexes : [dom-008-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py) · [dom-008-decoupage-transports.md](03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md) · [dom-008-frictions-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-controles.py) · [dom-008-frictions-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-resultats.json) · [dom-008-frictions-utilisateurs.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-utilisateurs.md) · [dom-008-frictions-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-verification.md) · [dom-008-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json) · [dom-008-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md)
+- [DOM-009](03-nouveaux-domaines/dom-009-douanes.md) — Cadrer un plugin douanes et import-export
+  <br>Annexes : [dom-009-decoupage-douanes.md](03-nouveaux-domaines/dom-009-annexes/dom-009-decoupage-douanes.md) · [dom-009-resultats.json](03-nouveaux-domaines/dom-009-annexes/dom-009-resultats.json) · [dom-009-verification.md](03-nouveaux-domaines/dom-009-annexes/dom-009-verification.md)
 - [DOM-023](03-nouveaux-domaines/dom-023-vehicules-garages.md) — Cadrer un plugin véhicules, garages et réparations
   <br>Annexes : [dom-023-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py) · [dom-023-decoupage-vehicules.md](03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md) · [dom-023-frictions-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-controles.py) · [dom-023-frictions-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-resultats.json) · [dom-023-frictions-utilisateurs.md](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-utilisateurs.md) · [dom-023-frictions-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-verification.md) · [dom-023-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json) · [dom-023-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md)
 - [DOM-031](03-nouveaux-domaines/dom-031-deces-obseques.md) — Cadrer un plugin décès et prestations funéraires
@@ -872,11 +873,10 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 33 à faire, 33 prêtes</summary>
+<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 32 à faire, 32 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [DOM-009](03-nouveaux-domaines/dom-009-douanes.md) | Cadrer un plugin douanes et import-export | P2 | ✅ |
 | [DOM-010](03-nouveaux-domaines/dom-010-administratif.md) | Cadrer un plugin de droit administratif | P3 | ✅ |
 | [DOM-011](03-nouveaux-domaines/dom-011-fiscalite.md) | Cadrer un plugin de fiscalité | P3 | ✅ |
 | [DOM-012](03-nouveaux-domaines/dom-012-protection-sociale.md) | Cadrer un plugin de sécurité sociale et prestations | P2 | ✅ |
@@ -909,6 +909,26 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-042](03-nouveaux-domaines/dom-042-artistes-spectacle.md) | Cadrer un plugin artistes-auteurs et intermittents du spectacle | P2 | ✅ |
 | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) | Cadrer un plugin médias et expression publique | P2 | ✅ |
 | [DOM-044](03-nouveaux-domaines/dom-044-militaires-anciens-combattants.md) | Cadrer un plugin militaires, réservistes et anciens combattants | P2 | ✅ |
+
+</details>
+
+<details>
+<summary><b>DOU</b> — Douanes et import-export (03 — Nouveaux domaines) : 12 à faire, 0 prêtes</summary>
+
+| Story | Titre | Priorité | Bloquée par |
+| --- | --- | --- | --- |
+| [DOU-001](03-nouveaux-domaines/suites/dou-001-dossier-achat-pays-tiers.md) | Préparer le dossier d'un achat privé expédié d'un pays tiers | P2 | BASE-008 |
+| [DOU-002](03-nouveaux-domaines/suites/dou-002-envoi-outre-mer.md) | Préparer le dossier d'un envoi vers un territoire ultramarin | P2 | BASE-008, DOU-001 |
+| [DOU-003](03-nouveaux-domaines/suites/dou-003-biens-voyageur.md) | Préparer les pièces de biens accompagnant un voyageur | P2 | BASE-008, DOU-001 |
+| [DOU-004](03-nouveaux-domaines/suites/dou-004-qualifier-import-professionnel.md) | Qualifier une importation commerciale ordinaire | P2 | BASE-008, DOU-001 |
+| [DOU-005](03-nouveaux-domaines/suites/dou-005-preparer-exportation.md) | Préparer les pièces d'une exportation définitive ordinaire | P3 | BASE-008, DOU-001 |
+| [DOU-006](03-nouveaux-domaines/suites/dou-006-preparer-classement.md) | Préparer un dossier de classement tarifaire | P2 | BASE-008, DOU-001 |
+| [DOU-007](03-nouveaux-domaines/suites/dou-007-preparer-origine.md) | Préparer les preuves d'origine d'une marchandise | P2 | BASE-008, DOU-001 |
+| [DOU-008](03-nouveaux-domaines/suites/dou-008-preparer-valeur.md) | Préparer les éléments d'une valeur en douane | P2 | BASE-008, DOU-001 |
+| [DOU-009](03-nouveaux-domaines/suites/dou-009-lire-acte-douanier.md) | Lire un contrôle ou avis douanier déjà notifié | P2 | BASE-008, DOU-001 |
+| [DOU-010](03-nouveaux-domaines/suites/dou-010-demande-remboursement.md) | Préparer une demande de remboursement douanier | P3 | BASE-008, DOU-001 |
+| [DOU-011](03-nouveaux-domaines/suites/dou-011-demande-remise.md) | Préparer une demande de remise d'une dette douanière | P3 | BASE-008, DOU-001 |
+| [DOU-012](03-nouveaux-domaines/suites/dou-012-dossier-vehicule.md) | Préparer le dossier douanier d'un véhicule de particulier | P2 | BASE-008, DOU-001 |
 
 </details>
 

@@ -74,3 +74,12 @@ Dépôt de formalités ; calcul fiscal/douanier ; litige transfrontière résolu
 ## État de la proposition — 16 octobre 2026
 
 Complément de DOM-023. [Portée de l'intégration documentaire](../dom-023-annexes/dom-023-frictions-verification.md) ; aucune réponse juridique ni fonctionnalité livrée par ce cadrage.
+
+## Relais douanier précisé — 17 octobre 2026
+
+[DOU-012](dou-012-dossier-vehicule.md), proposée par DOM-009, porte les pièces
+et questions douanières du véhicule : achat UE ou provenance tierce, trajet,
+territoires, résidence, usage et franchise alléguée, sans calcul. VEH-019
+garde l'engagement contractuel de remise ; quitus DOM-011 et immatriculation
+DOM-010 restent distincts. Ce relais n'est ni un skill disponible ni une
+dépendance d'installation et ne sélectionne aucune tranche.
