@@ -1,0 +1,86 @@
+[
+  {
+    "case": "P01",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": []
+  },
+  {
+    "case": "P02",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": []
+  },
+  {
+    "case": "P03",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": []
+  },
+  {
+    "case": "P04",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": []
+  },
+  {
+    "case": "P05",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": []
+  },
+  {
+    "case": "P06",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": []
+  },
+  {
+    "case": "P07",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": []
+  },
+  {
+    "case": "P08",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": []
+  },
+  {
+    "case": "P09",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": []
+  },
+  {
+    "case": "P10",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": []
+  },
+  {
+    "case": "P11",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": []
+  },
+  {
+    "case": "P12",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": []
+  }
+]

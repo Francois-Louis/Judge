@@ -168,6 +168,11 @@ Les chemins dynamiques/de profil et commandes d'un autre plugin produisent
 `A_RELIRE` et un résultat incomplet. Une URI autre que HTTP(S), mail ou téléphone
 demande aussi une relecture. Une orientation optionnelle peut être légitime :
 en conserver la justification dans le bilan plutôt que masquer le signalement.
+Le modèle partagé company-profile-template peut être embarqué à l'identique
+dans un paquet sans configuration : sa seule mention de cold-start-interview
+absent produit `A_RELIRE`. Vérifier alors que le parcours ne charge pas ce
+modèle. La même commande absente dans un skill reste une erreur, de même que
+toute autre commande inexistante dans ce modèle.
 Les liens HTTP(S) ne sont pas ouverts par ce script.
 
 Limites délibérées : ce n'est pas un parseur Markdown complet ni le schéma

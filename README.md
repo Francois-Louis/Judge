@@ -262,7 +262,7 @@ narrative, without a profile or interview.
 
 | Plugin | What it adds |
 |---|---|
-| **[banking-legal](./banking-legal)** | BNK-001 : qualifier un paiement contesté et préparer la réclamation pour une opération non autorisée sur un compte personnel ; tromperie et litige commercial orientés. Un skill, sans profil ni stockage ; validation détaillée dans le bilan BNK-001. |
+| **[banking-legal](./banking-legal)** | BNK-001 `0.1.1` : qualifier un paiement contesté et préparer la réclamation pour une opération non autorisée sur un compte personnel ; tromperie et litige commercial orientés. Un skill, sans profil ni stockage ; [recette partielle et limites](backlog/03-nouveaux-domaines/suites/bnk-001-annexes/verification.md). |
 | **[commercial-legal](./commercial-legal)** | Orientation contractuelle COM-001 sans profil obligatoire. Revues, avenants, registres, escalades et agents hérités non adaptés France/UE. |
 | **[corporate-legal](./corporate-legal)** | M&A diligence with tabular review and citation-per-cell. Disclosure schedules, closing checklists, written consents, board minutes. Entity compliance tracker. Post-close integration. |
 | **[privacy-legal](./privacy-legal)** | Privacy triage (PIA vs DPIA vs proceed), PIA generation, DPA review as controller or processor, DSAR response. Policy monitor watches drift between policy and practice. |

@@ -108,7 +108,7 @@
     },
     {
       "name": "judge-fr-eu-banking-legal",
-      "description": "Judge FR/UE 0.1.0 : qualifier un paiement contesté et préparer une réclamation pour une opération non autorisée sur un compte personnel. Tromperie et litige commercial : urgence et orientation. Aucun envoi ni calcul de délai ou de franchise.",
+      "description": "Judge FR/UE 0.1.1 : qualifier un paiement contesté et préparer une réclamation pour une opération non autorisée sur un compte personnel. Tromperie et litige commercial : urgence et orientation. Aucun envoi ni calcul de délai ou de franchise.",
       "author": {
         "name": "Judge FR/UE maintainers"
       },

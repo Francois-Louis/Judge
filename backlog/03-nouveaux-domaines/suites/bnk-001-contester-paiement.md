@@ -1,7 +1,7 @@
 ---
 id: BNK-001
 titre: "Qualifier un paiement contesté et préparer la réclamation au prestataire"
-statut: proposee
+statut: a-verifier
 priorite: P2
 nature: implementation
 dependances: [DOM-004, PILOTE-003, BASE-005, BASE-006, BASE-008]
@@ -22,12 +22,12 @@ réclamation adaptée à son prestataire. Cette tranche crée le paquet
 Plugin principal : `banking-legal` (`judge-fr-eu-banking-legal`). Les chemins
 « à créer » sont des livrables futurs.
 
-- `banking-legal/.claude-plugin/plugin.json` — manifeste, version `0.1.0` (à créer)
+- `banking-legal/.claude-plugin/plugin.json` — manifeste initial `0.1.0`, final `0.1.1` après relecture
 - `banking-legal/README.md` — tâche livrée, public, garde-fous, limites (à créer)
 - `banking-legal/CLAUDE.md` — modèle minimal, aucun profil requis (à créer)
 - `banking-legal/NOTICE` — entrée datée du lot (à créer)
 - `banking-legal/LICENSE` — copie de la licence du dépôt (à créer)
-- `banking-legal/references/shared/research-citation-method.md` — copie BASE-005 `1.0.0` identique (à créer)
+- `banking-legal/references/shared/research-citation-method.md` — copie BASE-005 courante `1.2.0` identique
 - `banking-legal/references/isolation.md` — copie BASE-008 identique (à créer)
 - `banking-legal/scripts/judge_store.py` — copie BASE-008 identique (à créer)
 - `banking-legal/references/company-profile-template.md` — copie BASE-008 identique (à créer)
@@ -122,5 +122,31 @@ Cas supplémentaires **attendus, non exécutés** : code saisi pendant un appel 
 
 ## État de la proposition — 16 octobre 2026
 
-Issue de DOM-004, sans implémentation. Préalable PILOTE-003 satisfait après
-BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-004-annexes/dom-004-decoupage-banque.md).
+État historique : issue de DOM-004, sans implémentation au 16 octobre.
+Préalable PILOTE-003 satisfait après BASE-011. Contrat commun :
+[découpage](../dom-004-annexes/dom-004-decoupage-banque.md).
+
+## Implémentation — 17 octobre 2026
+
+La demande d'implémentation sélectionne cette tranche et son paquet avec le
+seul skill payment-dispute. Décision d'intégration : inscription au marketplace
+sans réordonner les entrées existantes, et extension des contrôles BASE-008.
+Le dépôt compte désormais 13 paquets / 136 skills, y compris consumer-legal
+intégré par un travail parallèle. La méthode actuelle `1.2.0` remplace la
+version `1.0.0` prévue au cadrage, sans modifier sa source ; copies identiques.
+Tous les fichiers métier listés sont créés ; aucun autre skill, connecteur,
+hook ou stockage n'est ajouté. Les relais restent des orientations proposées.
+
+Version `0.1.0` enregistrée dans le commit concurrent bee80d1 pendant le travail ;
+version finale `0.1.1` pour les corrections issues des sorties client. Pas de
+réécriture de cet historique partagé.
+
+Preuves : [bilan de vérification](bnk-001-annexes/verification.md),
+[fixtures](bnk-001-annexes/fixtures.json),
+[exécuteur](bnk-001-annexes/recette.py),
+[résultats client](bnk-001-annexes/executions/results.json).
+P01/P02/P03/P04/P06 ont produit une sortie en client, sans accès web ;
+P05/P07–P12 sont bloqués par la limite de session du compte.
+Les cases ci-dessus restent ouvertes : corrections finales non réexécutées,
+sources partiellement inaccessibles, installation isolée et lecteur réel
+non validés. L'implémentation est livrée, la recette complète reste à vérifier.

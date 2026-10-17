@@ -5,11 +5,11 @@
 | Statut | Stories |
 | --- | ---: |
 | En cours | 3 |
-| À vérifier | 2 |
+| À vérifier | 3 |
 | Bloquée | 0 |
 | Terminée | 45 |
 | Prête | 0 |
-| À faire | 563 |
+| À faire | 562 |
 | Abandonnée | 23 |
 | dont prêtes à démarrer | 184 |
 | Total | 636 |
@@ -23,6 +23,8 @@ Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes
 - [BASE-017](00-fondations/suites/base-017-recette-jurisprudence-runtime.md) — **En cours** · P1 · Recetter la recherche de jurisprudence d'un skill dans un client isolé
   <br>Annexes : [base-017-pieces-fictives.md](00-fondations/suites/base-017-annexes/base-017-pieces-fictives.md) · [base-017-recette.py](00-fondations/suites/base-017-annexes/base-017-recette.py) · [base-017-resultats.json](00-fondations/suites/base-017-annexes/base-017-resultats.json)
 - [TRAV-062](01-pilote-travail/suites/trav-062-pistes-jurisprudence-embauche.md) — **En cours** · P1 · Requalifier les pistes jurisprudentielles de la revue d'embauche
+- [BNK-001](03-nouveaux-domaines/suites/bnk-001-contester-paiement.md) — **À vérifier** · P2 · Qualifier un paiement contesté et préparer la réclamation au prestataire
+  <br>Annexes : [P01-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P01-errors.txt) · [P01.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P01.jsonl) · [P01.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P01.md) · [P02-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P02-errors.txt) · [P02.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P02.jsonl) · [P02.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P02.md) · [P03-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P03-errors.txt) · [P03.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P03.jsonl) · [P03.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P03.md) · [P04-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P04-errors.txt) · [P04.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P04.jsonl) · [P04.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P04.md) · [P05-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P05-errors.txt) · [P05.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P05.jsonl) · [P05.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P05.md) · [P06-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P06-errors.txt) · [P06.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P06.jsonl) · [P06.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P06.md) · [P07-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P07-errors.txt) · [P07.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P07.jsonl) · [P07.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P07.md) · [P08-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P08-errors.txt) · [P08.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P08.jsonl) · [P08.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P08.md) · [P09-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P09-errors.txt) · [P09.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P09.jsonl) · [P09.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P09.md) · [P10-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P10-errors.txt) · [P10.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P10.jsonl) · [P10.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P10.md) · [P11-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P11-errors.txt) · [P11.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P11.jsonl) · [P11.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P11.md) · [P12-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P12-errors.txt) · [P12.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P12.jsonl) · [P12.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P12.md) · [package.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions/package.json) · [results.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions/results.json) · [fixtures.json](03-nouveaux-domaines/suites/bnk-001-annexes/fixtures.json) · [recette.py](03-nouveaux-domaines/suites/bnk-001-annexes/recette.py) · [validation.json](03-nouveaux-domaines/suites/bnk-001-annexes/validation.json) · [verification.md](03-nouveaux-domaines/suites/bnk-001-annexes/verification.md)
 - [COM-001](02-plugins-existants/suites/com-001-orientation-contrat.md) — **À vérifier** · P2 · Qualifier et orienter une demande sur un contrat
   <br>Annexes : [com-001-verification.md](02-plugins-existants/suites/com-001-annexes/com-001-verification.md) · [controles.py](02-plugins-existants/suites/com-001-annexes/controles.py) · [pieces-fictives.md](02-plugins-existants/suites/com-001-annexes/pieces-fictives.md) · [resultats-paquet.json](02-plugins-existants/suites/com-001-annexes/resultats-paquet.json) · [sorties-relecture.md](02-plugins-existants/suites/com-001-annexes/sorties-relecture.md) · [source-bruxelles-i-bis.json](02-plugins-existants/suites/com-001-annexes/source-bruxelles-i-bis.json) · [source-rome-i.json](02-plugins-existants/suites/com-001-annexes/source-rome-i.json)
 - [TRAV-001](01-pilote-travail/suites/trav-001-qualification-relation.md) — **À vérifier** · P2 · Qualifier une relation de travail proposée
@@ -757,11 +759,10 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>BNK</b> — Banque (03 — Nouveaux domaines) : 19 à faire, 0 prêtes</summary>
+<summary><b>BNK</b> — Banque (03 — Nouveaux domaines) : 18 à faire, 0 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [BNK-001](03-nouveaux-domaines/suites/bnk-001-contester-paiement.md) | Qualifier un paiement contesté et préparer la réclamation au prestataire | P2 | BASE-008 |
 | [BNK-002](03-nouveaux-domaines/suites/bnk-002-virement-tromperie.md) | Réclamer après une opération validée sous tromperie | P2 | BNK-001 |
 | [BNK-003](03-nouveaux-domaines/suites/bnk-003-frais-bancaires.md) | Contester des frais bancaires | P2 | BNK-001 |
 | [BNK-004](03-nouveaux-domaines/suites/bnk-004-mediation-bancaire.md) | Escalader une réclamation bancaire jusqu'au médiateur | P2 | BNK-001 |

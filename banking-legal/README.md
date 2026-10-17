@@ -1,6 +1,6 @@
 # Banque et paiements — BNK-001
 
-Version `0.1.0`. Une seule tâche est livrée :
+Version `0.1.1`. Une seule tâche est livrée :
 `/judge-fr-eu-banking-legal:payment-dispute` qualifie un paiement contesté
 et prépare le brouillon d'une réclamation au prestataire pour une opération
 non autorisée sur un compte personnel. Public : particulier sans formation
@@ -38,5 +38,10 @@ conseil d'investissement ou conclusion sur la négligence.
 
 Validation : structure du paquet détaché et schéma officiel contrôlés en
 maintenance ; voir le bilan BNK-001 dans le backlog du projet pour les traces,
-les scénarios exécutés et les limites. Une copie détachée ne prouve pas une
+les scénarios exécutés et les limites. Cinq scénarios ont produit une sortie
+dans le client ; sept sont bloqués par sa limite de session. Les corrections
+finales du skill ne sont pas réexécutées en client. Les signalements statiques
+des modèles/profils sont relus comme ressources inactives ; aucune installation
+isolée ni compréhension par un participant réel n'est validée.
+Une copie détachée ne prouve pas une
 installation isolée et une relecture du rédacteur ne vaut pas test utilisateur.

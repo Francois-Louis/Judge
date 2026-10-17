@@ -57,6 +57,9 @@ Produire l'urgence, la fiche et l'orientation vers le traitement de la tromperie
 proposé), sans promesse de remboursement bancaire ; le chargeback est un
 mécanisme privé à vérifier auprès du prestataire. Les relais ne nécessitent
 aucune installation et ne sont pas des skills disponibles dans ce paquet.
+Un achat voulu n'exclut pas une escroquerie du vendeur : dire que la seule
+non-livraison n'établit pas un paiement non autorisé, sans affirmer l'absence
+de fraude commerciale. Le volet pénal reste une orientation distincte.
 
 ## Vérifier les règles utiles
 
@@ -74,6 +77,9 @@ lue, donner la fiche, les questions et un brouillon factuel conditionnel :
 réserver règles, remboursement, responsabilité et portée des délais ; ne pas
 inventer une consultation, un échec d'accès ou un droit de mémoire. Ne pas
 reprendre comme source lue un résultat de moteur ou une référence de la personne.
+En mode sans source relue, formuler une demande de preuves sans affirmer
+juridiquement à qui incombe la preuve : « demandons les éléments sur lesquels
+la banque fonde sa réponse ». Réserver aussi cette règle de preuve.
 Le calcul de délai, de franchise et de pénalités reste exclu même avec les textes.
 
 ## Préparer la réclamation adaptée

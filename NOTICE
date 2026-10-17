@@ -665,3 +665,35 @@ bounded, non-exhaustive search. No other plugin changed.
   employment-legal/README.md
   employment-legal/references/hiring-review-fr.md
   scripts/test-base008-isolation.py
+
+BNK-001 changes (2026-10-17): new banking-legal package and payment-dispute.
+Initial 0.1.0 files were included by concurrent commit bee80d1; final 0.1.1
+clarifies evidence requests without re-read law and the merchant-fraud boundary.
+BASE-005 1.2.0 and BASE-008 copies are unchanged. Five actual client fixture
+outputs, seven account-limit failures, no isolated installation or real-user
+validation. Official-source access limits and unexecuted corrections recorded.
+Shared company-profile-template setup command is a manual-review finding when
+absent from a no-setup package; missing runtime commands remain errors.
+Package count reflects concurrently integrated consumer-legal: 13 / 136 skills.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  banking-legal/.claude-plugin/plugin.json
+  banking-legal/CLAUDE.md
+  banking-legal/LICENSE
+  banking-legal/NOTICE
+  banking-legal/README.md
+  banking-legal/references/company-profile-template.md
+  banking-legal/references/dashboard-template.md
+  banking-legal/references/isolation.md
+  banking-legal/references/paiements.md
+  banking-legal/references/qualification-bancaire.md
+  banking-legal/references/shared/research-citation-method.md
+  banking-legal/scripts/judge_store.py
+  banking-legal/skills/payment-dispute/SKILL.md
+  banking-legal/skills/payment-dispute/references/reclamation-paiement.md
+  references/package-validation.md
+  scripts/check-plugin-package.py
+  scripts/test-base008-isolation.py
+  scripts/test-check-plugin-package.py

@@ -1,5 +1,6 @@
 Judge FR/UE banking-legal
 Copyright 2026 Judge FR/UE maintainers.
+Derived shared resources: Copyright 2026 Anthropic PBC.
 
 Licensed under the Apache License, Version 2.0; see LICENSE.
 Shared templates, research method and storage boundary/helper derive from
@@ -27,3 +28,13 @@ Official-source access limitations are recorded, without asserting unread law.
   scripts/judge_store.py
   skills/payment-dispute/SKILL.md
   skills/payment-dispute/references/reclamation-paiement.md
+
+BNK-001 final review (2026-10-17): banking-legal 0.1.1.
+After actual fixture outputs, clarify the factual request for evidence when
+no legal source was re-read, and preserve the separate possibility of merchant
+fraud despite an authorised purchase. Five client outputs on 0.1.0; final
+wording not re-executed after account session limit. No legal outcome certified.
+  .claude-plugin/plugin.json
+  NOTICE
+  README.md
+  skills/payment-dispute/SKILL.md
