@@ -1,0 +1,98 @@
+{
+  "story": "DOM-033",
+  "date": "2026-10-17",
+  "timezone": "Europe/Paris",
+  "source_revision": "b6c9a972d445c6325602eb6f6c338de266c2f30a",
+  "scope": "Contrôles documentaires et statiques ; aucune validation juridique ni exécution des futurs skills.",
+  "checks": [
+    {
+      "name": "backlog_ids_and_dependency_graph",
+      "status": "passed",
+      "problems": [],
+      "stories_scanned": 705
+    },
+    {
+      "name": "proposal_structure_and_scope",
+      "status": "passed",
+      "problems": [],
+      "count": 7,
+      "common_dependencies": [
+        "BASE-005",
+        "BASE-006",
+        "BASE-008",
+        "BASE-013",
+        "DOM-033",
+        "PILOTE-003"
+      ]
+    },
+    {
+      "name": "breakdown_table_consistency",
+      "status": "passed",
+      "problems": [],
+      "rows": 7
+    },
+    {
+      "name": "local_markdown_links",
+      "status": "passed",
+      "problems": [],
+      "links_checked": 25
+    },
+    {
+      "name": "utf8_format_and_tables",
+      "status": "passed",
+      "problems": []
+    },
+    {
+      "name": "cadrage_without_implementation",
+      "status": "passed",
+      "problems": [],
+      "pilot_status": "terminee",
+      "legal_sources_opened": false,
+      "skill_execution": false,
+      "client_installation": false
+    },
+    {
+      "name": "backlog_index",
+      "status": "passed",
+      "problems": [],
+      "command": [
+        "python",
+        "backlog/etat.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "plugin_version_bump",
+      "status": "passed",
+      "problems": [],
+      "command": [
+        "python",
+        "scripts/check-version-bump.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "diff_whitespace",
+      "status": "passed",
+      "problems": [],
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "routing_review": "dom-033-verification.md : parcours documentaires fictifs relus par le rédacteur",
+  "human_review": "Prise en charge par l’utilisateur, non déclarée effectuée ; compréhension réelle non observée.",
+  "concurrent_changes": "Autres travaux présents dans le checkout ; ils sont exclus du commit DOM-033. Les contrôles globaux décrivent le checkout au moment de leur exécution.",
+  "isolated_commit_snapshot": {
+    "status": "passed",
+    "base_revision": "b6c9a972d445c6325602eb6f6c338de266c2f30a",
+    "method": "Archive du backlog HEAD et seuls fichiers/hunks DOM-033, puis génération et --check de ETAT.md ; aucune installation de plugin.",
+    "story_count": 663,
+    "proposed_anm": 7,
+    "missing_dependencies": 0
+  }
+}
