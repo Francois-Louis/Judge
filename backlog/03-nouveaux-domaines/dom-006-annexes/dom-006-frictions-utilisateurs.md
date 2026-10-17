@@ -6,8 +6,9 @@ est conservé à l'octet près. Cette matrice reprend ses **126 points**, puis
 ses sections non numérotées sur les échéances et la méthode de défense.
 
 **État : exigences de backlog.** LOG-001 à LOG-023 restent `proposee`.
-DOM-015/017/018/019/020/021 et les volets spécialisés signalés ci-dessous
-restent à découper. Un rattachement à un cadrage ne livre aucune réponse au
+DOM-015/017/018/019/020 et les volets spécialisés signalés ci-dessous
+restent à découper ; DOM-021 est découpé en propositions UTI le 17 octobre 2026.
+Un rattachement à un cadrage ne livre aucune réponse au
 fond. Le complément ne clôt aucun cadrage et ne sélectionne aucune extension.
 
 ## Statut du texte et règles de lecture
@@ -72,7 +73,7 @@ ses scénarios dans la story liée. Les numéros ne fixent pas l'ordre de livrai
 | 24 | Fiscalité transférée | [LOG-002](../suites/log-002-charges-locatives.md) | Séparer taxe foncière, ordures et frais de gestion, sur avis utile masqué. |
 | 25 | Régularisation d'un forfait meublé | [LOG-022](../suites/log-022-forfait-charges-meuble.md) | Qualifier forfait et provisions ; distinguer supplément et révision. |
 | 26 | Justificatifs de charges refusés | [LOG-002](../suites/log-002-charges-locatives.md) | Préparer demande de consultation, pièces et preuve de réception. |
-| 27 | Eau anormalement facturée | [DOM-021](../dom-021-energie-eau.md), [LOG-002](../suites/log-002-charges-locatives.md) | Distinguer abonné et charges ; relevés, alerte, fuite et justificatif de réparation pour examen du plafonnement. |
+| 27 | Eau anormalement facturée | [UTI-004](../suites/uti-004-surconsommation-eau.md), [DOM-021](../dom-021-energie-eau.md), [LOG-002](../suites/log-002-charges-locatives.md) | Distinguer abonné et charges ; relevés/historique, alerte et réception, canalisation ou équipement, réparation/attestation et vérification du compteur pour demande conditionnelle. Aucun plafonnement automatique ; UTI-004 proposée, non implémentée. |
 | 28 | Congé par courriel | [LOG-007](../suites/log-007-conge-locataire.md), [LOG-020](../suites/log-020-conge-locataire-meuble.md) | Identifier régime, canal et preuve ; pas d'effet déduit d'un simple accord informel. |
 | 29 | Recommandé non retiré | [LOG-007](../suites/log-007-conge-locataire.md), [LOG-020](../suites/log-020-conge-locataire-meuble.md) | Distinguer dépôt, présentation et réception ; voie de notification à vérifier. |
 | 30 | Préavis réduit mal motivé | [LOG-007](../suites/log-007-conge-locataire.md) | Demander motif, commune et pièce utile ; vérifier exigences et date. |

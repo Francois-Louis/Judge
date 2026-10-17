@@ -1,0 +1,145 @@
+{
+  "story": "DOM-021",
+  "date": "2026-10-17",
+  "timezone": "Europe/Paris",
+  "base_commit": "59cdba250c2677fc307dd79df8b49756e29550e1",
+  "scope": "Cadrage documentaire énergie/eau : contrôles statiques et parcours de conception, aucune exécution de skill ni validation juridique.",
+  "execution": "Contrôles ponctuels Python/PyYAML dans une vue temporaire git archive HEAD backlog + seuls changements DOM-021 ; index régénéré dans cette vue. Liens hors backlog résolus dans le dépôt. Aucun test de skill ajouté.",
+  "checks": {
+    "backlog_yaml_ids_and_dependency_graph": {
+      "status": "passed",
+      "stories": 728,
+      "problems": []
+    },
+    "bounded_implementation_proposals": {
+      "status": "passed",
+      "count": 14,
+      "canonical_skills": {
+        "UTI-001": "electricity-bill-review",
+        "UTI-002": "gas-bill-review",
+        "UTI-003": "water-bill-review",
+        "UTI-004": "water-overconsumption-request",
+        "UTI-005": "energy-subscription-complaint",
+        "UTI-006": "energy-contract-change-review",
+        "UTI-007": "energy-closing-bill-review",
+        "UTI-008": "water-subscription-complaint",
+        "UTI-009": "water-service-change-review",
+        "UTI-010": "water-closing-bill-review",
+        "UTI-011": "electricity-interruption-notice",
+        "UTI-012": "gas-interruption-notice",
+        "UTI-013": "water-interruption-notice",
+        "UTI-014": "utility-outage-intake"
+      },
+      "problems": []
+    },
+    "breakdown_and_stories_consistent": {
+      "status": "passed",
+      "rows": 14,
+      "problems": []
+    },
+    "local_links_tables_and_utf8_format": {
+      "status": "passed",
+      "files": 24,
+      "markdown_files": 22,
+      "links": 1870,
+      "anchors_checked": false,
+      "problems": [],
+      "single_final_newline": true
+    },
+    "cadrage_closed_pilot_satisfied_no_plugin": {
+      "status": "passed",
+      "implementation_started": false,
+      "problems": []
+    },
+    "generated_index_in_task_only_view": {
+      "status": "passed",
+      "command": "python -X utf8 backlog/etat.py --check",
+      "exit_code": 0,
+      "problems": []
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 476,
+      "method": "json.loads(path.read_bytes()), UTF-8/UTF-16 autodetected",
+      "problems": []
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "command": "python -X utf8 scripts/lint-tool-scope.py",
+      "observed": "5 orchestrators clean; run separately before this report"
+    },
+    "plugin_version_bump": {
+      "status": "passed",
+      "command": "python -X utf8 scripts/check-version-bump.py",
+      "observed": "Passed against origin/main; no plugin changed by DOM-021"
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "command": "git diff --cached --check",
+      "observed": "After correction of extra terminal blank lines in new files; staged DOM-021 diff only, exit code 0."
+    }
+  },
+  "files": [
+    "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md",
+    "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-frictions-utilisateurs.md",
+    "backlog/03-nouveaux-domaines/dom-021-energie-eau.md",
+    "backlog/ETAT.md",
+    "backlog/etat.py",
+    "backlog/usages-quotidiens.md",
+    "backlog/03-nouveaux-domaines/suites/uti-001-regularisation-electricite.md",
+    "backlog/03-nouveaux-domaines/suites/uti-002-regularisation-gaz.md",
+    "backlog/03-nouveaux-domaines/suites/uti-003-facture-eau.md",
+    "backlog/03-nouveaux-domaines/suites/uti-004-surconsommation-eau.md",
+    "backlog/03-nouveaux-domaines/suites/uti-005-souscription-energie.md",
+    "backlog/03-nouveaux-domaines/suites/uti-006-modification-energie.md",
+    "backlog/03-nouveaux-domaines/suites/uti-007-cloture-energie.md",
+    "backlog/03-nouveaux-domaines/suites/uti-008-souscription-eau.md",
+    "backlog/03-nouveaux-domaines/suites/uti-009-modification-eau.md",
+    "backlog/03-nouveaux-domaines/suites/uti-010-cloture-eau.md",
+    "backlog/03-nouveaux-domaines/suites/uti-011-urgence-electricite.md",
+    "backlog/03-nouveaux-domaines/suites/uti-012-urgence-gaz.md",
+    "backlog/03-nouveaux-domaines/suites/uti-013-urgence-eau.md",
+    "backlog/03-nouveaux-domaines/suites/uti-014-interruption-reseau.md",
+    "backlog/03-nouveaux-domaines/dom-021-annexes/dom-021-decoupage-services.md",
+    "backlog/03-nouveaux-domaines/dom-021-annexes/dom-021-sources.md",
+    "backlog/03-nouveaux-domaines/dom-021-annexes/dom-021-verification.md",
+    "backlog/03-nouveaux-domaines/dom-021-annexes/dom-021-resultats.json"
+  ],
+  "sha256": {
+    "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md": "d11cc67ce6352bdef182a772d4725183579730f0beb988945c6d066bd9029e33",
+    "backlog/03-nouveaux-domaines/dom-006-annexes/dom-006-frictions-utilisateurs.md": "a7f88e667602c3e16bae79a2d904c09c2efbd6b36bddef9171ae4c81032a4a0e",
+    "backlog/03-nouveaux-domaines/dom-021-energie-eau.md": "3fba83016e4fdc5ef4f13618bb2b8dcc98acd83fb3a8a61ebdab1e01613848f7",
+    "backlog/ETAT.md": "89895569cd812484175b7b9be320373fc5e85b1b1fadc3382a418ab3fbe7b76e",
+    "backlog/etat.py": "be648b6225eebd1712ac896397084ccf52adb9406b6674e605b556f4618effb3",
+    "backlog/usages-quotidiens.md": "008a86173d6c1459c3efbc5029050f28261680e8199de795b3c957538fc58682",
+    "backlog/03-nouveaux-domaines/suites/uti-001-regularisation-electricite.md": "2f76196ca7e76bbd510f14cb5ff4b1cdd733cbea18e0eae913e71eeb56007cf7",
+    "backlog/03-nouveaux-domaines/suites/uti-002-regularisation-gaz.md": "0d96cec69a5716e62dab51f7dfa7f5327beb86cc51ab33dcd4b3069d6ebcf646",
+    "backlog/03-nouveaux-domaines/suites/uti-003-facture-eau.md": "e92df256fcee68cc6ad6308baa1f816c1a942b7029c6e0a45ec99cb47199c44f",
+    "backlog/03-nouveaux-domaines/suites/uti-004-surconsommation-eau.md": "46a7ecc73a0438f7baab09507d9cefa090d82dde1f244299895d92574aacff00",
+    "backlog/03-nouveaux-domaines/suites/uti-005-souscription-energie.md": "ed8d27e904b51e72cc8a89ebe2bdd6112949955fbe879a41cc70d027fbe8bf81",
+    "backlog/03-nouveaux-domaines/suites/uti-006-modification-energie.md": "78553100d05f0e5e088c7ca49a704d25708de5ae04002df748a94f5d56d143b5",
+    "backlog/03-nouveaux-domaines/suites/uti-007-cloture-energie.md": "8c6e139f13c86f44c93c3148d22e1fe1d1bdf0796a6c93f6318f686fe5c9249b",
+    "backlog/03-nouveaux-domaines/suites/uti-008-souscription-eau.md": "1d5d10776cd8af21186a61b7db68574c978640f98822f7c485baac698cbf34a7",
+    "backlog/03-nouveaux-domaines/suites/uti-009-modification-eau.md": "1580eb809a09163692f4ffd05be0c03ff5dde0bd7ed019dad0a7a9ea8f05e59f",
+    "backlog/03-nouveaux-domaines/suites/uti-010-cloture-eau.md": "216c6c19459556beebd378ce6c408b867a2eb5e2db744b914c45e8bd983845b6",
+    "backlog/03-nouveaux-domaines/suites/uti-011-urgence-electricite.md": "f8f6b917a01cdd8f29768a0aa35a8722833dd3f17e3c4d6ce1670937f23e8cf1",
+    "backlog/03-nouveaux-domaines/suites/uti-012-urgence-gaz.md": "6df10235be389874290776a6564d7a4b811ed01a540b396989d7491935c4d9d5",
+    "backlog/03-nouveaux-domaines/suites/uti-013-urgence-eau.md": "632f502b9e6467a3ce5c945bc176d50d213cf904f2961d9a934029bd61812b83",
+    "backlog/03-nouveaux-domaines/suites/uti-014-interruption-reseau.md": "4a7925831694e45416d6639922ba39e1aaccc82a6d965d716ca0f9c3ae2092f1",
+    "backlog/03-nouveaux-domaines/dom-021-annexes/dom-021-decoupage-services.md": "196db08868feed29a4c08fa48999b4df84264c87606b6e1b81d14c4b4bce10f3",
+    "backlog/03-nouveaux-domaines/dom-021-annexes/dom-021-sources.md": "bb05690489a39199cca4e50db9872071951338a1577bb19a320fbb00b5b1e8e6",
+    "backlog/03-nouveaux-domaines/dom-021-annexes/dom-021-verification.md": "5174a4f419da260d9e17bacdfca5db79760722b0dbfdb9732c27505f40140797"
+  },
+  "manual_documentary_review": "Treize dossiers/variantes A à M et limites transverses relus par le rédacteur dans dom-021-verification.md.",
+  "source_reading": "Trois pages officielles d’information ouvertes ; articles CGCT recherchés mais non lus (HTTP 403), détails dans dom-021-sources.md. Aucun seuil/délai validé.",
+  "concurrent_work": "Travaux DOM-016/SUC et DOM-022/TEL observés en parallèle. Les changements non committés hors DOM-021 sont exclus de la vue et du lot ; les commits déjà présents restent la base. Seules les lignes DOM-021 des fichiers partagés sont retenues. Le fichier ETAT de travail conserve le suivi global.",
+  "not_run": [
+    "Implémentation, installation ou invocation de skill",
+    "Scénarios métier sur sorties de skill",
+    "Vérification normative des textes, versions et jurisprudence",
+    "Validation schéma plugin/marketplace, aucun fichier de plugin modifié",
+    "Relecture humaine prise en charge par utilisateur, compréhension réelle non observée",
+    "Envoi, paiement, souscription, résiliation ou intervention technique"
+  ],
+  "hash_scope": "SHA-256 des blobs Git indexés (fins de ligne normalisées par Git), hors relevé lui-même."
+}

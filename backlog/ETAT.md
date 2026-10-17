@@ -7,12 +7,12 @@
 | En cours | 1 |
 | À vérifier | 7 |
 | Bloquée | 0 |
-| Terminée | 54 |
+| Terminée | 55 |
 | Prête | 0 |
-| À faire | 629 |
+| À faire | 642 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 179 |
-| Total | 714 |
+| dont prêtes à démarrer | 178 |
+| Total | 728 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -67,7 +67,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-017](03-nouveaux-domaines/dom-017-transactions-immobilieres.md) | Cadrer un plugin d'achat et de vente immobilière | P2 | cadrage |
 | [DOM-018](03-nouveaux-domaines/dom-018-copropriete.md) | Cadrer un plugin copropriété et syndic | P2 | cadrage |
 | [DOM-020](03-nouveaux-domaines/dom-020-voisinage-servitudes.md) | Cadrer un plugin voisinage et servitudes | P2 | cadrage |
-| [DOM-021](03-nouveaux-domaines/dom-021-energie-eau.md) | Cadrer un plugin énergie, eau et services essentiels | P2 | cadrage |
 | [DOM-024](03-nouveaux-domaines/dom-024-dettes-surendettement.md) | Cadrer un plugin dettes et surendettement des particuliers | P2 | cadrage |
 | [DOM-025](03-nouveaux-domaines/dom-025-handicap-autonomie.md) | Cadrer un plugin handicap et autonomie | P2 | cadrage |
 | [DOM-026](03-nouveaux-domaines/dom-026-protection-majeurs.md) | Cadrer un plugin de protection juridique des majeurs | P2 | cadrage |
@@ -319,6 +318,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [dom-008-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py) · [dom-008-decoupage-transports.md](03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md) · [dom-008-frictions-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-controles.py) · [dom-008-frictions-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-resultats.json) · [dom-008-frictions-utilisateurs.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-utilisateurs.md) · [dom-008-frictions-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-verification.md) · [dom-008-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json) · [dom-008-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md)
 - [DOM-009](03-nouveaux-domaines/dom-009-douanes.md) — Cadrer un plugin douanes et import-export
   <br>Annexes : [dom-009-decoupage-douanes.md](03-nouveaux-domaines/dom-009-annexes/dom-009-decoupage-douanes.md) · [dom-009-resultats.json](03-nouveaux-domaines/dom-009-annexes/dom-009-resultats.json) · [dom-009-verification.md](03-nouveaux-domaines/dom-009-annexes/dom-009-verification.md)
+- [DOM-021](03-nouveaux-domaines/dom-021-energie-eau.md) — Cadrer un plugin énergie, eau et services essentiels
+  <br>Annexes : [dom-021-decoupage-services.md](03-nouveaux-domaines/dom-021-annexes/dom-021-decoupage-services.md) · [dom-021-resultats.json](03-nouveaux-domaines/dom-021-annexes/dom-021-resultats.json) · [dom-021-sources.md](03-nouveaux-domaines/dom-021-annexes/dom-021-sources.md) · [dom-021-verification.md](03-nouveaux-domaines/dom-021-annexes/dom-021-verification.md)
 - [DOM-022](03-nouveaux-domaines/dom-022-telecoms-poste.md) — Cadrer un plugin télécoms et services postaux
   <br>Annexes : [dom-022-decoupage-telecoms-poste.md](03-nouveaux-domaines/dom-022-annexes/dom-022-decoupage-telecoms-poste.md) · [dom-022-resultats.json](03-nouveaux-domaines/dom-022-annexes/dom-022-resultats.json) · [dom-022-verification.md](03-nouveaux-domaines/dom-022-annexes/dom-022-verification.md)
 - [DOM-023](03-nouveaux-domaines/dom-023-vehicules-garages.md) — Cadrer un plugin véhicules, garages et réparations
@@ -891,7 +892,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 29 à faire, 29 prêtes</summary>
+<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 28 à faire, 28 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -906,7 +907,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-018](03-nouveaux-domaines/dom-018-copropriete.md) | Cadrer un plugin copropriété et syndic | P2 | ✅ |
 | [DOM-019](03-nouveaux-domaines/dom-019-urbanisme-foncier.md) | Cadrer un plugin urbanisme et foncier | P3 | ✅ |
 | [DOM-020](03-nouveaux-domaines/dom-020-voisinage-servitudes.md) | Cadrer un plugin voisinage et servitudes | P2 | ✅ |
-| [DOM-021](03-nouveaux-domaines/dom-021-energie-eau.md) | Cadrer un plugin énergie, eau et services essentiels | P2 | ✅ |
 | [DOM-024](03-nouveaux-domaines/dom-024-dettes-surendettement.md) | Cadrer un plugin dettes et surendettement des particuliers | P2 | ✅ |
 | [DOM-025](03-nouveaux-domaines/dom-025-handicap-autonomie.md) | Cadrer un plugin handicap et autonomie | P2 | ✅ |
 | [DOM-026](03-nouveaux-domaines/dom-026-protection-majeurs.md) | Cadrer un plugin de protection juridique des majeurs | P2 | ✅ |
@@ -1173,6 +1173,28 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [TPT-020](03-nouveaux-domaines/suites/tpt-020-bagage-autocar.md) | Préparer une réclamation pour un bagage d’autocar | P2 | BASE-008, TPT-001 |
 | [TPT-021](03-nouveaux-domaines/suites/tpt-021-dommage-bien-maritime.md) | Préparer une réclamation pour un bien endommagé en traversée | P2 | BASE-008, TPT-001 |
 | [TPT-022](03-nouveaux-domaines/suites/tpt-022-taxes-vol-non-effectue.md) | Préparer une demande de taxes pour un vol non effectué | P2 | BASE-008, TPT-001 |
+
+</details>
+
+<details>
+<summary><b>UTI</b> — Énergie, eau et services essentiels (03 — Nouveaux domaines) : 14 à faire, 0 prêtes</summary>
+
+| Story | Titre | Priorité | Bloquée par |
+| --- | --- | --- | --- |
+| [UTI-001](03-nouveaux-domaines/suites/uti-001-regularisation-electricite.md) | Lire une régularisation d'électricité et demander ses justificatifs | P2 | BASE-008 |
+| [UTI-002](03-nouveaux-domaines/suites/uti-002-regularisation-gaz.md) | Lire une régularisation de gaz naturel et demander ses justificatifs | P2 | BASE-008, UTI-001 |
+| [UTI-003](03-nouveaux-domaines/suites/uti-003-facture-eau.md) | Lire une facture d'eau et préparer une demande de justification | P2 | BASE-008, UTI-001 |
+| [UTI-004](03-nouveaux-domaines/suites/uti-004-surconsommation-eau.md) | Préparer une demande sur une surconsommation d'eau et un plafonnement allégué | P2 | BASE-008, UTI-001 |
+| [UTI-005](03-nouveaux-domaines/suites/uti-005-souscription-energie.md) | Préparer une réclamation sur une souscription d'énergie contestée | P2 | BASE-008, UTI-001 |
+| [UTI-006](03-nouveaux-domaines/suites/uti-006-modification-energie.md) | Préparer une réclamation sur une modification d'un contrat d'énergie | P2 | BASE-008, UTI-001 |
+| [UTI-007](03-nouveaux-domaines/suites/uti-007-cloture-energie.md) | Préparer une réclamation sur une clôture de contrat d'énergie | P2 | BASE-008, UTI-001 |
+| [UTI-008](03-nouveaux-domaines/suites/uti-008-souscription-eau.md) | Préparer une réclamation sur une souscription au service d'eau | P2 | BASE-008, UTI-001 |
+| [UTI-009](03-nouveaux-domaines/suites/uti-009-modification-eau.md) | Préparer une demande sur une modification des conditions du service d'eau | P2 | BASE-008, UTI-001 |
+| [UTI-010](03-nouveaux-domaines/suites/uti-010-cloture-eau.md) | Préparer une réclamation sur une clôture d'abonnement d'eau | P2 | BASE-008, UTI-001 |
+| [UTI-011](03-nouveaux-domaines/suites/uti-011-urgence-electricite.md) | Lire une menace de réduction ou de coupure d'électricité pour impayé | P2 | BASE-008, UTI-001 |
+| [UTI-012](03-nouveaux-domaines/suites/uti-012-urgence-gaz.md) | Lire une menace de coupure de gaz naturel pour impayé | P2 | BASE-008, UTI-001 |
+| [UTI-013](03-nouveaux-domaines/suites/uti-013-urgence-eau.md) | Lire une menace d'interruption d'eau liée à un impayé | P2 | BASE-008, UTI-001 |
+| [UTI-014](03-nouveaux-domaines/suites/uti-014-interruption-reseau.md) | Qualifier une interruption de service hors impayé et préparer un signalement | P2 | BASE-008, UTI-001 |
 
 </details>
 
