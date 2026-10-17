@@ -7,12 +7,12 @@
 | En cours | 1 |
 | À vérifier | 7 |
 | Bloquée | 0 |
-| Terminée | 53 |
+| Terminée | 54 |
 | Prête | 0 |
-| À faire | 621 |
+| À faire | 629 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 180 |
-| Total | 705 |
+| dont prêtes à démarrer | 179 |
+| Total | 714 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -68,7 +68,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-018](03-nouveaux-domaines/dom-018-copropriete.md) | Cadrer un plugin copropriété et syndic | P2 | cadrage |
 | [DOM-020](03-nouveaux-domaines/dom-020-voisinage-servitudes.md) | Cadrer un plugin voisinage et servitudes | P2 | cadrage |
 | [DOM-021](03-nouveaux-domaines/dom-021-energie-eau.md) | Cadrer un plugin énergie, eau et services essentiels | P2 | cadrage |
-| [DOM-022](03-nouveaux-domaines/dom-022-telecoms-poste.md) | Cadrer un plugin télécoms et services postaux | P2 | cadrage |
 | [DOM-024](03-nouveaux-domaines/dom-024-dettes-surendettement.md) | Cadrer un plugin dettes et surendettement des particuliers | P2 | cadrage |
 | [DOM-025](03-nouveaux-domaines/dom-025-handicap-autonomie.md) | Cadrer un plugin handicap et autonomie | P2 | cadrage |
 | [DOM-026](03-nouveaux-domaines/dom-026-protection-majeurs.md) | Cadrer un plugin de protection juridique des majeurs | P2 | cadrage |
@@ -320,6 +319,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [dom-008-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-controles.py) · [dom-008-decoupage-transports.md](03-nouveaux-domaines/dom-008-annexes/dom-008-decoupage-transports.md) · [dom-008-frictions-controles.py](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-controles.py) · [dom-008-frictions-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-resultats.json) · [dom-008-frictions-utilisateurs.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-utilisateurs.md) · [dom-008-frictions-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-frictions-verification.md) · [dom-008-resultats.json](03-nouveaux-domaines/dom-008-annexes/dom-008-resultats.json) · [dom-008-verification.md](03-nouveaux-domaines/dom-008-annexes/dom-008-verification.md)
 - [DOM-009](03-nouveaux-domaines/dom-009-douanes.md) — Cadrer un plugin douanes et import-export
   <br>Annexes : [dom-009-decoupage-douanes.md](03-nouveaux-domaines/dom-009-annexes/dom-009-decoupage-douanes.md) · [dom-009-resultats.json](03-nouveaux-domaines/dom-009-annexes/dom-009-resultats.json) · [dom-009-verification.md](03-nouveaux-domaines/dom-009-annexes/dom-009-verification.md)
+- [DOM-022](03-nouveaux-domaines/dom-022-telecoms-poste.md) — Cadrer un plugin télécoms et services postaux
+  <br>Annexes : [dom-022-decoupage-telecoms-poste.md](03-nouveaux-domaines/dom-022-annexes/dom-022-decoupage-telecoms-poste.md) · [dom-022-resultats.json](03-nouveaux-domaines/dom-022-annexes/dom-022-resultats.json) · [dom-022-verification.md](03-nouveaux-domaines/dom-022-annexes/dom-022-verification.md)
 - [DOM-023](03-nouveaux-domaines/dom-023-vehicules-garages.md) — Cadrer un plugin véhicules, garages et réparations
   <br>Annexes : [dom-023-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-controles.py) · [dom-023-decoupage-vehicules.md](03-nouveaux-domaines/dom-023-annexes/dom-023-decoupage-vehicules.md) · [dom-023-frictions-controles.py](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-controles.py) · [dom-023-frictions-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-resultats.json) · [dom-023-frictions-utilisateurs.md](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-utilisateurs.md) · [dom-023-frictions-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-frictions-verification.md) · [dom-023-resultats.json](03-nouveaux-domaines/dom-023-annexes/dom-023-resultats.json) · [dom-023-verification.md](03-nouveaux-domaines/dom-023-annexes/dom-023-verification.md)
 - [DOM-031](03-nouveaux-domaines/dom-031-deces-obseques.md) — Cadrer un plugin décès et prestations funéraires
@@ -890,7 +891,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 30 à faire, 30 prêtes</summary>
+<summary><b>DOM</b> — Cadrages des nouveaux domaines (03 — Nouveaux domaines) : 29 à faire, 29 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -906,7 +907,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-019](03-nouveaux-domaines/dom-019-urbanisme-foncier.md) | Cadrer un plugin urbanisme et foncier | P3 | ✅ |
 | [DOM-020](03-nouveaux-domaines/dom-020-voisinage-servitudes.md) | Cadrer un plugin voisinage et servitudes | P2 | ✅ |
 | [DOM-021](03-nouveaux-domaines/dom-021-energie-eau.md) | Cadrer un plugin énergie, eau et services essentiels | P2 | ✅ |
-| [DOM-022](03-nouveaux-domaines/dom-022-telecoms-poste.md) | Cadrer un plugin télécoms et services postaux | P2 | ✅ |
 | [DOM-024](03-nouveaux-domaines/dom-024-dettes-surendettement.md) | Cadrer un plugin dettes et surendettement des particuliers | P2 | ✅ |
 | [DOM-025](03-nouveaux-domaines/dom-025-handicap-autonomie.md) | Cadrer un plugin handicap et autonomie | P2 | ✅ |
 | [DOM-026](03-nouveaux-domaines/dom-026-protection-majeurs.md) | Cadrer un plugin de protection juridique des majeurs | P2 | ✅ |
@@ -1126,6 +1126,23 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [SAN-017](03-nouveaux-domaines/suites/san-017-droits-soins-medico-social.md) | Préparer une réclamation sur les soins en établissement médico-social | P2 | BASE-008, SAN-005 |
 | [SAN-018](03-nouveaux-domaines/suites/san-018-dossier-cci.md) | Préparer les pièces d'une demande d'indemnisation auprès d'une CCI | P2 | BASE-008, SAN-006 |
 | [SAN-019](03-nouveaux-domaines/suites/san-019-observations-expertise-soins.md) | Préparer des observations sur une expertise amiable de soins | P2 | BASE-008, SAN-006 |
+
+</details>
+
+<details>
+<summary><b>TEL</b> — Télécoms et services postaux (03 — Nouveaux domaines) : 9 à faire, 0 prêtes</summary>
+
+| Story | Titre | Priorité | Bloquée par |
+| --- | --- | --- | --- |
+| [TEL-001](03-nouveaux-domaines/suites/tel-001-frais-resiliation.md) | Préparer une réclamation sur des frais de résiliation télécoms | P2 | BASE-008 |
+| [TEL-002](03-nouveaux-domaines/suites/tel-002-materiel-restitue.md) | Préparer une contestation de matériel télécoms facturé après retour | P2 | BASE-008, TEL-001 |
+| [TEL-003](03-nouveaux-domaines/suites/tel-003-facturation-options.md) | Préparer une réclamation de facturation ou d'option télécoms | P2 | BASE-008, TEL-001 |
+| [TEL-004](03-nouveaux-domaines/suites/tel-004-non-installation.md) | Préparer une réclamation pour un accès télécoms non installé | P2 | BASE-008, TEL-001 |
+| [TEL-005](03-nouveaux-domaines/suites/tel-005-interruption-service.md) | Préparer une réclamation pour interruption d'un service télécoms | P2 | BASE-008, TEL-001 |
+| [TEL-006](03-nouveaux-domaines/suites/tel-006-reclamation-envoi.md) | Qualifier une perte ou un dommage postal et préparer une réclamation | P2 | BASE-008, TEL-001 |
+| [TEL-007](03-nouveaux-domaines/suites/tel-007-mediation-telecoms.md) | Préparer un dossier de médiation télécoms sans présumer sa recevabilité | P3 | BASE-008, TEL-001 |
+| [TEL-008](03-nouveaux-domaines/suites/tel-008-mediation-postale.md) | Préparer un dossier de médiation postale pour un prestataire identifié | P3 | BASE-008, TEL-001 |
+| [TEL-009](03-nouveaux-domaines/suites/tel-009-signalement-regulateur.md) | Préparer un signalement télécoms ou postal au régulateur | P3 | BASE-008, TEL-001 |
 
 </details>
 

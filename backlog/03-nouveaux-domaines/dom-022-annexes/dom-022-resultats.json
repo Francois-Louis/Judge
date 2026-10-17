@@ -1,0 +1,109 @@
+{
+  "story": "DOM-022",
+  "date": "2026-10-17",
+  "timezone": "Europe/Paris",
+  "scope": "Cadrage documentaire et contrôles statiques uniquement ; aucune vérification du droit ni exécution de skill.",
+  "base_commit": "14dc336c69b3d56bb283a2b89f558d2ca1438783",
+  "checks": {
+    "backlog_yaml_ids_and_dependency_graph": {
+      "status": "passed",
+      "stories": 714,
+      "problems": []
+    },
+    "bounded_proposals_and_breakdown_consistency": {
+      "status": "passed",
+      "count": 9,
+      "canonical_skills": {
+        "TEL-001": "termination-fee-complaint",
+        "TEL-002": "equipment-return-complaint",
+        "TEL-003": "subscription-billing-complaint",
+        "TEL-004": "uninstalled-service-complaint",
+        "TEL-005": "service-outage-complaint",
+        "TEL-006": "postal-shipment-complaint",
+        "TEL-007": "telecom-mediation-dossier",
+        "TEL-008": "postal-mediation-dossier",
+        "TEL-009": "telecom-postal-regulator-report"
+      },
+      "problems": []
+    },
+    "local_links_tables_and_utf8_format": {
+      "status": "passed",
+      "files": 17,
+      "markdown_files": 15,
+      "links": 1636,
+      "problems": []
+    },
+    "isolated_backlog_index": {
+      "status": "passed",
+      "observed": "ETAT.md est à jour.",
+      "method": "Archive HEAD + seuls fichiers et lignes DOM-022 ; index généré dans cette vue."
+    },
+    "repository_json_sanity": {
+      "status": "passed",
+      "files": 476,
+      "method": "json.loads sur octets ; encodage JSON détecté sans modifier les fichiers."
+    },
+    "cookbook_tool_scope_lint": {
+      "status": "passed",
+      "command": "python -X utf8 scripts/lint-tool-scope.py",
+      "observed": "5 orchestrateurs propres ; exécution séparée avant le rapport."
+    },
+    "plugin_version_bump": {
+      "status": "passed",
+      "command": "python -X utf8 scripts/check-version-bump.py",
+      "observed": "Passed against origin/main ; aucun plugin modifié par DOM-022."
+    },
+    "git_diff_check": {
+      "status": "passed",
+      "exit_code": 0
+    }
+  },
+  "files": [
+    "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md",
+    "backlog/03-nouveaux-domaines/dom-022-annexes/dom-022-decoupage-telecoms-poste.md",
+    "backlog/03-nouveaux-domaines/dom-022-annexes/dom-022-resultats.json",
+    "backlog/03-nouveaux-domaines/dom-022-annexes/dom-022-verification.md",
+    "backlog/03-nouveaux-domaines/dom-022-telecoms-poste.md",
+    "backlog/03-nouveaux-domaines/suites/tel-001-frais-resiliation.md",
+    "backlog/03-nouveaux-domaines/suites/tel-002-materiel-restitue.md",
+    "backlog/03-nouveaux-domaines/suites/tel-003-facturation-options.md",
+    "backlog/03-nouveaux-domaines/suites/tel-004-non-installation.md",
+    "backlog/03-nouveaux-domaines/suites/tel-005-interruption-service.md",
+    "backlog/03-nouveaux-domaines/suites/tel-006-reclamation-envoi.md",
+    "backlog/03-nouveaux-domaines/suites/tel-007-mediation-telecoms.md",
+    "backlog/03-nouveaux-domaines/suites/tel-008-mediation-postale.md",
+    "backlog/03-nouveaux-domaines/suites/tel-009-signalement-regulateur.md",
+    "backlog/ETAT.md",
+    "backlog/etat.py",
+    "backlog/usages-quotidiens.md"
+  ],
+  "sha256": {
+    "backlog/00-fondations/base-003-annexes/base-003-dossier-architecture.md": "02a15f08855095de1c526e0223e76d970735ce7fad4bfcacf225a83a3a632779",
+    "backlog/03-nouveaux-domaines/dom-022-annexes/dom-022-decoupage-telecoms-poste.md": "5da2d3ae6d4c0fb87bfa3d9a47d123f4a001d09aeb36d346e33b38a6639c9eb8",
+    "backlog/03-nouveaux-domaines/dom-022-annexes/dom-022-verification.md": "9514c3a3bc9791f087b8d2ce81aef3498ed628fe6f5f895b8ad6c979f8469154",
+    "backlog/03-nouveaux-domaines/dom-022-telecoms-poste.md": "c82ddc52a6558b305e9810ad867e5de322edd2afbb6e3d3eba9be1f9267d50d7",
+    "backlog/03-nouveaux-domaines/suites/tel-001-frais-resiliation.md": "bf4ed202fff2eb3c88df42dd6d4f13e7d2a9eb787bb196b1ef6fd1eb1a71b72d",
+    "backlog/03-nouveaux-domaines/suites/tel-002-materiel-restitue.md": "3e99d582e22e67c1a085ee3853e60f3a95c19b594a86b2c365fa31acb7634229",
+    "backlog/03-nouveaux-domaines/suites/tel-003-facturation-options.md": "8f51c5b2f4dd880df3ed6bf6f3ff22ea6b413797ab30d6197b3ff2eefd2672ca",
+    "backlog/03-nouveaux-domaines/suites/tel-004-non-installation.md": "c58cc25133b601845b78ee98b91bdc9c0837ed8acdd20daf987ddb616908ba0b",
+    "backlog/03-nouveaux-domaines/suites/tel-005-interruption-service.md": "19030329b1947ce89d5d2aafacab1b0f7a594d5112dcd0ac1a3d3727407fb57f",
+    "backlog/03-nouveaux-domaines/suites/tel-006-reclamation-envoi.md": "891dbb6fee521e6c2b8ab2eb661ac6625216af0932fe93484223c41d580406eb",
+    "backlog/03-nouveaux-domaines/suites/tel-007-mediation-telecoms.md": "5e6d8adee4a561a7f4cf86223162352b51a2970a2e7f80edf4d4dc320c02a67e",
+    "backlog/03-nouveaux-domaines/suites/tel-008-mediation-postale.md": "1d27fe204a83c9c975a706e39e715563bbdbc55dbddc0f0209378a108f0f0e8b",
+    "backlog/03-nouveaux-domaines/suites/tel-009-signalement-regulateur.md": "e582065305a0dc2a5ea2dc264652683ae589c1f3b353d62b7085f7c74f507758",
+    "backlog/ETAT.md": "f33d507c20306f1d4383c1ca1dc669609b108196d45d450b899d0eda9056459d",
+    "backlog/etat.py": "e573654d0df65b071013d497b96ce19b980464dc11a79408e8cf6b7f6974d326",
+    "backlog/usages-quotidiens.md": "9808766871e2159889fa3f1aa444bd49ddd657051931ad11d446e74e42805777"
+  },
+  "concurrent_work": "Propositions SUC/UTI et autres tâches hors lot. Les fichiers partagés sont reconstruits depuis HEAD avec les seules lignes DOM-022 ; ETAT est généré dans cette vue. Le fichier de travail conserve les autres travaux.",
+  "manual_documentary_review": "Trois cas demandés et douze autres parcours relus par le rédacteur dans dom-022-verification.md ; pas de sortie métier observée.",
+  "not_run": [
+    "Recherche juridique externe et versions applicables",
+    "Calcul de montant ou délai",
+    "Installation ou invocation de skill",
+    "Scénarios métier des suites",
+    "Relecture humaine prise en charge par utilisateur et compréhension observée",
+    "Validation schéma plugin/marketplace : aucun changement",
+    "Envoi, saisine, résiliation ou dépôt"
+  ]
+}

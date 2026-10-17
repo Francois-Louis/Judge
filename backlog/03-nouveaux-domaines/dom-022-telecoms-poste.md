@@ -1,7 +1,7 @@
 ---
 id: DOM-022
 titre: "Cadrer un plugin télécoms et services postaux"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: cadrage
 dependances: [BASE-003, BASE-005]
@@ -42,12 +42,12 @@ Préparer une réclamation pour des frais de résiliation contestés sur un abon
 
 ## Critères d'acceptation
 
-- [ ] Les tâches sont découpées en stories d'implémentation avec entrées, sortie, pièces, limites et scénarios.
-- [ ] Un utilisateur peut partir de son problème sans connaître le nom du code ou sa qualification juridique.
-- [ ] Le domaine garde ses références métier et son autonomie de paquetage ; les frontières ci-dessus évitent les doublons.
-- [ ] Le cadrage distingue médiation, signalement au régulateur et demande de réparation ; il identifie le bon cocontractant pour un colis.
-- [ ] Le cadrage ne présume pas que l'autre partie a tort et ne promet pas un remboursement ou une issue favorable.
-- [ ] Les implémentations attendent le bilan PILOTE-003 ; aucune adaptation complète n'est lancée ici.
+- [x] Les tâches sont découpées en stories d'implémentation avec entrées, sortie, pièces, limites et scénarios.
+- [x] Un utilisateur peut partir de son problème sans connaître le nom du code ou sa qualification juridique.
+- [x] Le domaine garde ses références métier et son autonomie de paquetage ; les frontières ci-dessus évitent les doublons.
+- [x] Le cadrage distingue médiation, signalement au régulateur et demande de réparation ; il identifie le bon cocontractant pour un colis.
+- [x] Le cadrage ne présume pas que l'autre partie a tort et ne promet pas un remboursement ou une issue favorable.
+- [x] Les implémentations attendent le bilan PILOTE-003 ; aucune adaptation complète n'est lancée ici.
 
 ## Scénarios de contrôle
 
@@ -60,4 +60,41 @@ Vérifier l'orientation, les pièces à demander et le résultat attendu ; ne pa
 ## Hors périmètre
 
 Créer un plugin vide, couvrir toute la matière en une seule story ou exécuter une démarche externe.
+
+## Bilan d'exécution — 17 octobre 2026
+
+- [Découpage télécoms et poste](dom-022-annexes/dom-022-decoupage-telecoms-poste.md) :
+  nom `telecom-postal-legal` conservé, identifiant publié futur
+  `judge-fr-eu-telecom-postal-legal`, qualification des contrats, personnes,
+  territoires, dates, incidents et objectifs ; autonomie de paquetage prévue.
+- Neuf propositions TEL-001 à TEL-009 dans `suites/`, chacune avec entrées,
+  sortie, pièces, limites, référence métier future et scénarios. Première
+  tranche TEL-001 limitée à la réclamation de frais de résiliation d'un
+  abonnement particulier en France métropolitaine, sans calcul de somme due.
+- Matériel, facturation/options, non-installation, interruption et envoi
+  postal séparés ; médiations télécoms et postale distinctes, signalement
+  au régulateur séparé d'une demande de réparation individuelle.
+- Livraison de vente conservée en DOM-001 ; qualité de l'expéditeur,
+  destinataire et cocontractant postal établie par les contrats et pièces,
+  sans recours exclusif imposé au transporteur. Frontières fret DOM-008,
+  douanes DOM-009 et plateformes DOM-034 explicites.
+- [Vérification documentaire](dom-022-annexes/dom-022-verification.md) des
+  trois scénarios demandés et des limites, distincte des
+  [résultats statiques](dom-022-annexes/dom-022-resultats.json).
+- Matrice BASE-003 et situation S-12 précisées ; famille TEL ajoutée au
+  générateur et index ETAT régénéré. Lot limité à `backlog/` : présente story,
+  trois annexes, neuf propositions, architecture, usages, générateur et index.
+  Aucun changement de plugin, de version ou de NOTICE.
+
+**Portée :** cadrage documentaire, aucun plugin ni skill créé ou exécuté,
+aucune installation ou démarche externe. Sources métier non consultées et
+versions applicables à vérifier lors des futures implémentations ; aucun
+délai, montant ou résultat juridique validé. PILOTE-003 est terminé après
+BASE-011 ; son bilan ne sélectionne pas automatiquement de tranche. Toutes
+les suites restent `proposee`.
+
+La relecture humaine est prise en charge par l'utilisateur selon AGENTS.md
+du 17 octobre 2026 ; elle n'est pas déclarée effectuée. La compréhension par
+un lecteur réel n'a pas été observée. DOM-022 est close sur ses livrables et
+contrôles de cadrage, sans attendre cette relecture.
 

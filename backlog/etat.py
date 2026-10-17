@@ -51,6 +51,7 @@ FAMILLES = {
     "SAN": "Santé et droits des patients",
     "TPT": "Transports et voyages",
     "DOU": "Douanes et import-export",
+    "TEL": "Télécoms et services postaux",
     "LOG": "Logement locatif et habitat",
     "VEH": "Véhicules, garages et réparations",
     "FUN": "Décès et prestations funéraires",
