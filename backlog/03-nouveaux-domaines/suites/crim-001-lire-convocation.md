@@ -1,7 +1,7 @@
 ---
 id: CRIM-001
 titre: "Lire et qualifier une convocation par la police ou la gendarmerie"
-statut: proposee
+statut: a-verifier
 priorite: P2
 nature: implementation
 dependances: [DOM-002, PILOTE-003, BASE-005, BASE-006, BASE-008]
@@ -119,7 +119,31 @@ Points 32–36 de la [matrice](../dom-002-annexes/dom-002-frictions-utilisateurs
 
 Scénario **attendu, non exécuté** : appel « venez juste discuter », qualité inconnue, personne persuadée de ne pas avoir besoin d'avocat.
 
-## État de la proposition — 16 octobre 2026
+## Implémentation — 17 octobre 2026
 
-Issue de DOM-002, sans implémentation. Préalable PILOTE-003 satisfait après
-BASE-011 ; aucune tranche sélectionnée. Contrat commun : [découpage](../dom-002-annexes/dom-002-decoupage-penal.md).
+Tranche sélectionnée par la demande utilisateur d'implémenter CRIM-001.
+Paquet `criminal-legal` `0.1.0` créé avec son seul skill `summons-reading` ;
+inscription au marketplace et décompte BASE-008 inclus dans cette sélection,
+CONSO-001 et BNK-001 déjà intégrées : **14 paquets, 137 skills**. Aucun tri
+global du marketplace, agent, hook ou connecteur ajouté. Le préalable
+PILOTE-003 est satisfait ; BASE-008 fournit le contrat technique déjà utilisé,
+sans prétendre que sa validation globale restante est achevée.
+
+Tous les fichiers du périmètre « à créer » sont présents. La méthode commune
+est embarquée à l'identique en **1.2.0**, version courante incluant BASE-013
+et BASE-016, plutôt que l'ancienne 1.0.0 visée lors du cadrage. Les autres
+copies BASE-008 et la licence sont identiques aux sources racine. Le skill
+charge les seules références locales ; aucun profil ni stockage du dossier.
+
+Les directives ont été récupérées et lues dans leur publication initiale
+française via CELLAR ; Service-Public a été lu comme information générale.
+CPP 61-1 et 78 : accès web et Python refusé, texte/version et conclusions
+réservés. Aucun contenu reconstitué depuis les résultats du moteur.
+
+Voir le [bilan par couche](crim-001-annexes/verification.md), les
+[fixtures C01–C10](crim-001-annexes/fixtures.json), le
+[contrôleur reproductible](crim-001-annexes/controles.py) et les
+[preuves de paquet](crim-001-annexes/resultats-paquet.json).
+Les cases comportementales restent ouvertes tant que les sorties réelles
+et la compréhension par un lecteur sans formation juridique ne sont pas
+vérifiées. Statut `a-verifier`, sans recette fictivement déclarée réussie.

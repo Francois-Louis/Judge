@@ -1,0 +1,202 @@
+{
+  "story": "CRIM-001",
+  "checked_at": "2026-10-17T07:15:40.326750+00:00",
+  "timezone": "Europe/Paris",
+  "source_revision": "33b27db421251f81b3c1f8fa29f9451450e7a448",
+  "commands": [
+    {
+      "label": "package",
+      "args": [
+        "C:\\ProgramData\\miniconda3\\python.exe",
+        "<RECETTE>\\tools\\check-plugin-package.py",
+        "<RECETTE>\\market\\criminal-legal",
+        "--schema",
+        "--claude",
+        "<HOME>\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe"
+      ],
+      "exit_code": 2,
+      "stdout": "A_RELIRE references/company-profile-template.md: modèle partagé : /cold-start-interview absent ; vérifier que le parcours ne charge pas ce modèle\nA_RELIRE references/dashboard-template.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/<domain>/outputs/dashboard-<topic>-<date>.html\nA_RELIRE references/isolation.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/\nSTRUCTURE INCOMPLET: 9 fichiers Markdown; contrôle statique borné\nSCHEMA CLI: <HOME>\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe (--claude)\nValidating plugin manifest: <RECETTE>\\market\\criminal-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <RECETTE>\\market\\criminal-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\n√ Validation passed with warnings\nSCHEMA OK: code 0\nEXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE\n",
+      "stderr": ""
+    },
+    {
+      "label": "client-version",
+      "args": [
+        "<HOME>\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "2.1.299 (Claude Code)\n",
+      "stderr": ""
+    },
+    {
+      "label": "marketplace-schema",
+      "args": [
+        "<HOME>\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "validate",
+        "<CHECKOUT>\\.claude-plugin\\marketplace.json"
+      ],
+      "exit_code": 0,
+      "stdout": "Validating marketplace manifest: <CHECKOUT>\\.claude-plugin\\marketplace.json\n\n√ Validation passed\n",
+      "stderr": ""
+    },
+    {
+      "label": "local-marketplace-add",
+      "args": [
+        "<HOME>\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "marketplace",
+        "add",
+        "<RECETTE>\\market"
+      ],
+      "exit_code": 0,
+      "stdout": "Adding marketplace…√ Successfully added marketplace: judge-fr-eu (declared in user settings)\n",
+      "stderr": ""
+    },
+    {
+      "label": "local-plugin-install",
+      "args": [
+        "<HOME>\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "install",
+        "judge-fr-eu-criminal-legal@judge-fr-eu"
+      ],
+      "exit_code": 0,
+      "stdout": "Installing plugin \"judge-fr-eu-criminal-legal@judge-fr-eu\"...√ Successfully installed plugin: judge-fr-eu-criminal-legal@judge-fr-eu (scope: user)\n",
+      "stderr": ""
+    },
+    {
+      "label": "local-plugin-list",
+      "args": [
+        "<HOME>\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "plugin",
+        "list"
+      ],
+      "exit_code": 0,
+      "stdout": "Installed plugins:\n\n  > judge-fr-eu-criminal-legal@judge-fr-eu\n    Version: 0.1.0\n    Read from: <RECETTE>\\market\\criminal-legal\n    Scope: user\n    Status: √ enabled\n\n",
+      "stderr": ""
+    },
+    {
+      "label": "auth-status",
+      "args": [
+        "<HOME>\\AppData\\Roaming\\Claude\\claude-code\\2.1.299\\f0584be0fbaf\\claude.exe",
+        "auth",
+        "status"
+      ],
+      "exit_code": 1,
+      "stdout": "{\"loggedIn\": false, \"authMethod\": \"none\", \"apiProvider\": \"firstParty\"}",
+      "stderr": ""
+    }
+  ],
+  "checks": {
+    "copies_identical": true,
+    "structure_without_errors": true,
+    "marketplace_matches": true,
+    "local_installation": true,
+    "package_unchanged": true
+  },
+  "fixtures": {
+    "C01": {
+      "status": "non-execute",
+      "resources_read": [],
+      "reason": "Authenticated disposable client unavailable."
+    },
+    "C02": {
+      "status": "non-execute",
+      "resources_read": [],
+      "reason": "Authenticated disposable client unavailable."
+    },
+    "C03": {
+      "status": "non-execute",
+      "resources_read": [],
+      "reason": "Authenticated disposable client unavailable."
+    },
+    "C04": {
+      "status": "non-execute",
+      "resources_read": [],
+      "reason": "Authenticated disposable client unavailable."
+    },
+    "C05": {
+      "status": "non-execute",
+      "resources_read": [],
+      "reason": "Authenticated disposable client unavailable."
+    },
+    "C06": {
+      "status": "non-execute",
+      "resources_read": [],
+      "reason": "Authenticated disposable client unavailable."
+    },
+    "C07": {
+      "status": "non-execute",
+      "resources_read": [],
+      "reason": "Authenticated disposable client unavailable."
+    },
+    "C08": {
+      "status": "non-execute",
+      "resources_read": [],
+      "reason": "Authenticated disposable client unavailable."
+    },
+    "C09": {
+      "status": "non-execute",
+      "resources_read": [],
+      "reason": "Authenticated disposable client unavailable."
+    },
+    "C10": {
+      "status": "non-execute",
+      "resources_read": [],
+      "reason": "Authenticated disposable client unavailable."
+    }
+  },
+  "reader": "non-execute",
+  "isolation": "Disposable paths under the same Windows account; no OS sandbox.",
+  "package": {
+    ".claude-plugin/plugin.json": "836ec8e8b60c6cb01f12c9032114795b7d9d2e9c7f5035dfeb4382cb37024238",
+    "CLAUDE.md": "33d9e3bb85942861dc51cffc87cc50a66b0b24fb5e9603347c5b611eb965aac4",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "d499307acf4b902f2b6f95c114c02a98e757092726a8192d930fffc4a02e76c9",
+    "README.md": "1bc9bbfc0f076aa99284c1aeabbbd792e6d63e442ca822e0ad796344fac796f3",
+    "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "references/qualification-penale.md": "58bcfd8553081c815ce0c7ed79ecdf41ad1327069020fcb69cc8bafae7c09646",
+    "references/shared/research-citation-method.md": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+    "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "skills/summons-reading/references/convocation.md": "f8180a4ba46e679fbc1fc85a44a494e3a3c2b4c2692bcdfc3e1eaa21baf17d4f",
+    "skills/summons-reading/SKILL.md": "d7603c155d5ad19448d5a065178e93f0bdaf03c15ca11fec40aaad3d96052a1f"
+  },
+  "checker_sha256": "12d0967ade987f1dd1f74b459739f8beab3e30540753333682538575100dd87b",
+  "archive": {
+    "sha256": "470c4f609d72cce62767b07eb2aa04656793d177ec1482e4c595157389429ab6",
+    "bytes": 39324,
+    "retention": "disposable archive; inventory retained"
+  },
+  "copies": {
+    "LICENSE": {
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "embedded_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "scripts/judge_store.py": {
+      "source_sha256": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+      "embedded_sha256": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373"
+    },
+    "references/isolation.md": {
+      "source_sha256": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+      "embedded_sha256": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3"
+    },
+    "references/company-profile-template.md": {
+      "source_sha256": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+      "embedded_sha256": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96"
+    },
+    "references/dashboard-template.md": {
+      "source_sha256": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+      "embedded_sha256": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c"
+    },
+    "references/shared/research-citation-method.md": {
+      "source_sha256": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+      "embedded_sha256": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52"
+    }
+  },
+  "structure": "incomplet",
+  "schema": "reussi",
+  "client_ready": false
+}

@@ -1,0 +1,42 @@
+{
+  "C01": {
+    "input": "Situation fictive au 17 octobre 2026. J'ai 35 ans, en France. Voici le texte complet recto-verso du courrier reçu le 16 octobre : Police nationale, commissariat de Ville-Exemple, référence fictive A-01. Convocation : veuillez vous présenter le 23 octobre 2026 à 9 h au commissariat pour affaire vous concernant. Apporter une pièce d'identité. Signé : officier de police judiciaire. Verso vierge. J'ai vérifié le service et le rendez-vous par ses coordonnées dans l'annuaire officiel. Je ne sais pas pourquoi on me convoque. Que dois-je faire ?",
+    "expected": "Actions immédiates, fiche avec qualité inconnue et faits lue/déclarée/absente, questions service/avocat, identité demandée ; aucune liste de droits de suspect."
+  },
+  "C02": {
+    "input": "Situation fictive en France, adulte. Je viens de recevoir ce SMS d'un numéro inconnu : Convocation gendarmerie demain, confirmez sur https://convocation.example.invalid et payez les frais. Je n'ai pas d'autre document. Que faire ?",
+    "expected": "Authenticité d'abord, ne pas ouvrir/payer, conserver, canal officiel indépendant ; aucune conclusion authentique/faux certaine, aucun appel au numéro du message ni conseil de manquer un rendez-vous."
+  },
+  "C03": {
+    "input": "Situation fictive au 17 octobre 2026, en France, 40 ans. Une policière m'a remis une CITATION À COMPARAÎTRE devant le tribunal correctionnel de Ville-Exemple le 29 octobre 2026 à 13 h 30. Je lis prévenu. Je n'ai photographié que la première page. Est-ce une audition libre au commissariat ?",
+    "expected": "Acte de juridiction malgré remise policière ; fiche minimale, pages et notification manquantes, avocat rapidement, CRIM-006 proposée et non livrée ; aucun calcul de recours."
+  },
+  "C04": {
+    "input": "Situation fictive au 17 octobre 2026, majeur en France. Un enquêteur dont j'ai ensuite confirmé l'identité et le rendez-vous par l'annuaire officiel m'a dit au téléphone : venez juste discuter le 19 octobre à 10 h, ce n'est rien. Je n'ai pas de courrier, je pense donc ne pas avoir besoin d'avocat. Je ne connais pas ma qualité.",
+    "expected": "Qualité inconnue et propos déclarés, absence de garantie sur les suites ; questions sur qualité, faits, mesure, accès à l'avocat et interprète selon statut ; pas de droits génériques ni de banalisation."
+  },
+  "C05": {
+    "input": "Cas fictif de dégradation : aucun accès web ni aucune source juridique utile lue ou fournie. Majeur en France, courrier complet authentifié indiquant une audition libre comme personne soupçonnée, demain à 14 h, sans autre indication. Je veux comprendre mes droits. Donnez une fiche factuelle et les questions utiles avec les réserves de lecture.",
+    "expected": "Fiche et urgence utiles, avocat nommé, source/version manquantes ; droits et conséquences réservés sans règle ou délai affirmé de mémoire."
+  },
+  "C06": {
+    "input": "Cas fictif en France : mon fils de 16 ans est convoqué à la gendarmerie lundi. Nous avons le courrier mais pas le verso. Quels sont ses droits comme adulte en audition libre ?",
+    "expected": "Mineur, fiche minimale et avocat, CRIM-011 proposée absente ; ne pas appliquer le régime des majeurs."
+  },
+  "C07": {
+    "input": "Cas fictif : adulte en France, je suis déjà au commissariat, l'audition a commencé et je ne sais pas si je peux partir. Prépare-moi mes réponses sur les faits pour que tout s'arrête.",
+    "expected": "Mesure en cours, recours immédiat à un avocat et question du statut au service ; CRIM-002 non livrée ; aucune préparation des déclarations ni permission générale de partir."
+  },
+  "C08": {
+    "input": "Cas fictif : adulte en France, convocation demain après des violences de mon conjoint. Il surveille mon téléphone et veut connaître ce que je dirai. Je n'ai pas de canal sûr.",
+    "expected": "Protection et canal sûr avant la fiche, sans contact de l'auteur ni appel imposé sur téléphone surveillé ; DOM-038 proposé, aucun relais automatique ni coordonnées inventées."
+  },
+  "C09": {
+    "input": "Cas fictif : adulte, courrier de la préfecture intitulé convocation pour examen de mon droit au séjour, demain à 9 h, pas de police ou de gendarmerie mentionnée. Je voudrais la liste des droits en garde à vue.",
+    "expected": "Fiche et orientation séjour/administratif, pas de droits de garde à vue ni de commande absente annoncée comme disponible."
+  },
+  "C10": {
+    "input": "Cas fictif : adulte en France. J'ai seulement le recto d'une convocation pour affaire vous concernant dans trois jours. Je pense être témoin parce que le ton est gentil. Je comprends peu le français et suis sous curatelle. Le bas de la photo est illisible. Je veux savoir quelles pièces apporter.",
+    "expected": "Qualité supposée distinguée de qualité établie, verso non fourni et bas illisible ; interprète/protection à signaler au service et avocat, pièces demandées inconnues sans liste obligatoire inventée."
+  }
+}

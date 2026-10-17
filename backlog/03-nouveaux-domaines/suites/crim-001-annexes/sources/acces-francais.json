@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-17",
+  "timezone": "Europe/Paris",
+  "attempts": [
+    {
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042915707",
+      "routes": [
+        "web open",
+        "Python urllib HTTPS"
+      ],
+      "http_status": 403,
+      "documentary_status": "inaccessible",
+      "applicability": "a-etablir",
+      "reserve": "Texte, version et conséquences non vérifiés."
+    },
+    {
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655614",
+      "routes": [
+        "web open",
+        "Python urllib HTTPS"
+      ],
+      "http_status": 403,
+      "documentary_status": "inaccessible",
+      "applicability": "a-etablir",
+      "reserve": "Texte, version et conséquences non vérifiés."
+    }
+  ],
+  "information_pages_read": [
+    {
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32124",
+      "editor_date": "2026-07-08",
+      "sections": [
+        "convocation",
+        "droits",
+        "majeur protégé",
+        "suites"
+      ],
+      "documentary_status": "verifie",
+      "nature": "fiche-information",
+      "applicability": "conditionnelle"
+    },
+    {
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2807",
+      "editor_date": "2026-06-11",
+      "sections": [
+        "motifs",
+        "transmission",
+        "objet",
+        "empêchement et absence"
+      ],
+      "documentary_status": "verifie",
+      "nature": "fiche-information",
+      "applicability": "conditionnelle"
+    }
+  ]
+}

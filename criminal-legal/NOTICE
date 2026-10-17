@@ -1,0 +1,25 @@
+Judge FR/UE — independent fork of Claude for Legal (Anthropic).
+Repository license and inherited attribution preserved in LICENSE.
+
+CRIM-001 changes (2026-10-17): criminal-legal 0.1.0, one summons-reading
+skill for an adult summoned by French police or gendarmerie. Local penal
+qualification, authenticity-first handling, unknown status preserved,
+questions for the service and a criminal lawyer, no statement preparation,
+profile, durable case storage or sending. Proposed referrals are not commands.
+qualification-penale.md 1.0.0; convocation.md 1.0.0. BASE-005 1.2.0 and
+BASE-008 copies unchanged. Service-Public and initial EU directive readings
+dated; CPP articles 61-1 and 78 inaccessible and reserved. Detached package
+checks are separate from skill execution and real-reader validation.
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  LICENSE
+  NOTICE
+  README.md
+  references/company-profile-template.md
+  references/dashboard-template.md
+  references/isolation.md
+  references/qualification-penale.md
+  references/shared/research-citation-method.md
+  scripts/judge_store.py
+  skills/summons-reading/SKILL.md
+  skills/summons-reading/references/convocation.md
