@@ -1,6 +1,6 @@
 ---
 id: judge-fr-eu-research-citation-method
-version: 1.1.0
+version: 1.2.0
 date_edition: 2026-10-17
 origine: Judge FR/UE — BASE-005
 source_edition: references/research-citation-method.md
@@ -73,7 +73,8 @@ préparatoire ; ne pas le présenter comme du droit applicable.
    Légifrance et Journal officiel pour la France ; EUR-Lex et JOUE pour l'UE ;
    site de la juridiction ou base officielle pour la jurisprudence française,
    CURIA/EUR-Lex pour la CJUE, HUDOC pour la Cour EDH [S3]. Les autorités et bases
-   propres au secteur sont choisies et documentées par le plugin métier.
+   propres au secteur sont choisies et documentées par le plugin métier. Pour
+   une décision de justice, suivre les voies et la borne de la section 10.
 3. Ouvrir le document, lire la disposition exacte et son contexte. Un résultat
    de moteur, une page d'accueil ou un résumé ne vérifient pas le document
    recherché. Vérifier aussi annexes, renvois, modifications et rectificatifs
@@ -90,7 +91,8 @@ préparatoire ; ne pas le présenter comme du droit applicable.
    distinguer une solution d'espèce d'une portée plus générale. Vérifier les
    suites, recours, caractère définitif ou évolutions jurisprudentielles utiles,
    et signaler ce qui reste inconnu. Un arrêt récent n'efface pas à lui seul
-   toute la jurisprudence antérieure.
+   toute la jurisprudence antérieure. La section 10 précise la lecture des
+   motifs et la fiche d'une décision.
 6. Relier chaque conclusion déterminante aux faits retenus et aux sources qui
    la soutiennent. Expliquer les divergences de sources ; si elles restent
    irrésolues, les exposer et réserver la conclusion concernée.
@@ -104,7 +106,7 @@ seul ne remplace pas l'explication de l'applicabilité.
 | Champ | Contenu attendu |
 |---|---|
 | Identifiant et question | Repère local, proposition soutenue et faits nécessaires à son application. |
-| Référence exacte | Texte : intitulé, numéro et date lorsqu'ils existent, article, alinéa ou annexe ; décision : juridiction, formation, date, numéro d'affaire/pourvoi/requête, ECLI si disponible, paragraphes ou pages utiles. N'inventer aucun identifiant. |
+| Référence exacte | Texte : intitulé, numéro et date lorsqu'ils existent, article, alinéa ou annexe ; décision : juridiction, formation, date, numéro d'affaire/pourvoi/requête, ECLI si disponible, paragraphes ou pages utiles (fiche de la section 10.2). N'inventer aucun identifiant. |
 | Nature et autorité | Texte normatif, décision, travaux préparatoires, fiche d'information, doctrine, pièce fournie ; ordre juridique et auteur. |
 | Version et temporalité | Version lue, période de validité connue, date pertinente du dossier, dispositions transitoires et date d'application ; indiquer explicitement ce qui reste à établir. |
 | Accès | URL exacte effectivement ouverte ; si copie locale, nom/identifiant, provenance et pages. Mentionner langue, traduction et éventuelles lacunes. Un lien cible non ouvert est marqué comme tel. |
@@ -139,6 +141,7 @@ dépend ; un seuil général de fraîcheur ne remplace pas ce contrôle.
 | Règle non vérifiée ou fait déterminant inconnu | Isoler l'hypothèse et expliquer la conséquence concrète de l'incertitude. Fournir les explications et démarches préparatoires possibles ; réserver toute conclusion définitive qui dépend de cette règle ou de ce fait. |
 | Réforme adoptée mais pas encore applicable | Séparer règle actuellement applicable, règle future et transition ; vérifier le calendrier et le champ de chaque disposition. Présenter la préparation éventuelle comme telle, sans appliquer par anticipation la réforme aux faits. |
 | Projet de réforme ou information contradictoire | Étiqueter le projet comme tel, rechercher le texte adopté éventuel et son calendrier ; exposer le conflit non résolu au lieu de choisir silencieusement une version. |
+| Décision de justice introuvable, illisible, divergente ou seulement commentée | Appliquer la conduite de la section 10.5. |
 
 Formulation utilisable en cas d'échec : « Je n'ai pas pu lire [document / passage]
 via [outil / lien] lors de la tentative du [date réelle] : [obstacle observé].
@@ -281,6 +284,129 @@ les versions suivantes lors des lots concernés, sans synchronisation automatiqu
 à l'exécution. Toute différence de version doit être explicite. Avant livraison,
 contrôler la copie et ses renvois dans le paquet isolé selon les contrôles de
 paquetage du projet. Cette méthode seule ne certifie pas les plugins existants.
+
+## 10. Rechercher, lire et citer une décision de justice
+
+Une décision n'est citée comme jurisprudence que si elle a été **ouverte et
+lue** pendant la réponse, ou si une référence embarquée la porte avec une
+relecture datée ; dans ce second cas, la citer avec cette date. Tout le reste
+est une piste.
+
+### 10.1 Nature de ce qui a été lu
+
+| Ce qui a été lu | Exemples | Ce qu'il permet |
+|---|---|---|
+| **Décision lue** | Texte intégral sur Légifrance, sur le site de la juridiction, HUDOC, CELLAR | Fonder la proposition, après lecture des motifs et du dispositif. |
+| **Résumé officiel** | Analyse, titrage ou sommaire de Légifrance ; fiche, note explicative ou lettre de chambre de la juridiction ; analyses du Conseil d'État | Orienter et repérer la portée annoncée. La décision reste `partiel` tant que ses motifs ne sont pas lus. |
+| **Communiqué** | Communiqué de presse de la juridiction | Signaler une décision et son importance ; même statut que le résumé. |
+| **Conclusions ou avis** | Rapporteur public, avocat général, conclusions devant la CJUE | Éclairer le raisonnement ; ne disent pas ce que la juridiction a jugé. |
+| **Doctrine** | Article, commentaire, blog d'avocat, éditeur privé, fiche d'un syndicat | Citée comme doctrine (auteur, qualité, date, support). La décision commentée reste `non-verifie`. |
+| **Résultat de moteur** | Liste ou synthèse d'une recherche web | Trouver un numéro ou une adresse. Jamais une lecture. |
+| **Mémoire du modèle** | Référence ou solution rappelée sans document | Rien. Ne pas l'énoncer comme une solution jugée. |
+
+Une référence rappelée de mémoire peut seulement guider une recherche. Si elle
+est montrée à la personne, elle porte « de mémoire, non vérifiée, peut être
+inexacte » et ne s'accompagne d'aucune formule du type « la Cour a jugé ». Ne
+jamais compléter de mémoire un numéro, une date, un ECLI ou une citation.
+
+### 10.2 Fiche d'une décision
+
+| Champ | Contenu |
+|---|---|
+| Juridiction et formation | Par exemple « Cour de cassation, chambre sociale », « Conseil d'État, juge des référés ». |
+| Date | Date de la décision (prononcé ou lecture), pas celle de la publication. |
+| Numéro | Pourvoi, requête, affaire ou numéro de rôle, tel qu'affiché. |
+| ECLI | S'il est affiché dans la source ; ne jamais le construire. Sinon « ECLI non affiché ». |
+| Publication | Bulletin, Lebon ou tables, inédit, ou mention absente. |
+| Accès | Adresse effectivement ouverte, voie (outil), date réelle de consultation, langue. |
+| Passages lus | Numéros de paragraphes ou considérants des motifs utiles et dispositif ; extrait littéral court. |
+| Statut | `verifie`, `partiel`, `inaccessible` ou `non-verifie` (section 4), pour ce passage et cette question. |
+| Portée et applicabilité | Faits comparables ou non, solution de principe ou d'espèce, texte interprété et sa version, évolutions connues ou non recherchées. |
+
+### 10.3 Lire les motifs
+
+1. Identifier la décision dans la page même : juridiction, date, numéro. Un
+   titre de résultat de recherche ne suffit pas.
+2. Lire, dans cet ordre utile : faits et procédure nécessaires, question
+   posée, **réponse de la juridiction** (motifs) et **dispositif**. Ne pas
+   attribuer à la juridiction un argument du moyen, de l'arrêt attaqué, des
+   conclusions ou d'une partie.
+3. Distinguer la règle énoncée, son application aux faits et la solution
+   d'espèce. Une cassation pour manque de base légale ou un rejet fondé sur
+   le pouvoir souverain des juges du fond ne pose pas la même règle qu'un
+   attendu de principe.
+4. Pour une page longue, poursuivre la lecture jusqu'au dispositif (lecture
+   par tranches). Un dispositif non atteint laisse la décision `partiel`.
+5. Avec un outil qui résume la page, demander la restitution littérale des
+   paragraphes déterminants, du dispositif et de l'identité. La décision est
+   `verifie` pour le passage seulement si ces trois éléments viennent de la
+   page de la décision ; sinon `partiel`.
+
+Une décision lue ne prouve ni l'état actuel de la jurisprudence, ni
+l'exhaustivité de la recherche. Le dire quand la réponse en dépend.
+
+### 10.4 Où chercher pendant une réponse
+
+Recherche **ciblée** : seulement pour une conclusion qui dépend d'une
+décision. Au plus trois recherches et trois décisions ouvertes par question ;
+au-delà, réserver la conclusion et indiquer la voie suivante. Ordre :
+
+1. Les décisions des références embarquées du plugin, avec leur date de
+   relecture : ouvrir leur adresse si un outil web est disponible.
+2. **Légifrance**, par numéro puis par mots : fonds JURI (Cour de cassation,
+   sélection des juges du fond) et CETAT (juridiction administrative).
+3. Le site de la juridiction pour une décision dont l'adresse est connue :
+   Conseil d'État (ArianeWeb), Conseil constitutionnel, HUDOC (adresse de
+   conversion du document) ; pour la CJUE, une manifestation CELLAR dont
+   l'adresse est déjà connue.
+4. Une recherche web **restreinte aux domaines officiels** pour retrouver un
+   numéro ou une adresse ; puis ouvrir la décision.
+5. En dernier, la doctrine, citée comme telle.
+
+Ne pas construire une adresse ou un identifiant à la main : un échec sur une
+adresse devinée ne prouve rien. Un zéro résultat sur Légifrance ne prouve pas
+l'absence de décision : seule une sélection des décisions des juridictions du
+fond y est diffusée. Aucune voie ne demande de compte, de clé API, de
+connecteur ni de script : l'outil de lecture web de la session suffit.
+
+Voies observées le 17 octobre 2026 avec l'outil de lecture web d'une session ;
+elles peuvent changer, et l'échec d'une voie ne prouve pas l'absence :
+
+| Source | Adresse | Observation |
+|---|---|---|
+| Légifrance, recherche judiciaire | `https://www.legifrance.gouv.fr/search/juri?tab_selection=juri&searchField=ALL&query=<numéro ou mots>&page=1&init=true` | Résultats avec identifiant JURITEXT. |
+| Légifrance, décision judiciaire | `https://www.legifrance.gouv.fr/juri/id/<JURITEXT…>` | Texte intégral et analyse. |
+| Légifrance, recherche administrative | `https://www.legifrance.gouv.fr/search/cetat?tab_selection=cetat&searchField=ALL&query=<numéro ou mots>&page=1&init=true` | Résultats avec identifiant CETATEXT. |
+| Légifrance, décision administrative | `https://www.legifrance.gouv.fr/ceta/id/<CETATEXT…>` | Texte intégral, analyse, mention Lebon. |
+| Conseil d'État | `https://www.conseil-etat.fr/fr/arianeweb/CE/decision/<AAAA-MM-JJ>/<numéro>` | Lisible si l'adresse vient d'une recherche. |
+| Conseil constitutionnel | `https://www.conseil-constitutionnel.fr/decision/<année>/<numéro>.htm` | Lisible ; la recherche du site ignorait la requête. |
+| Cour EDH | `https://hudoc.echr.coe.int/app/conversion/docx/html/body?library=ECHR&id=<001-…>` | Lisible ; la page HUDOC ordinaire était vide. |
+| CJUE | manifestation CELLAR déjà connue | CURIA et EUR-Lex illisibles par l'outil. |
+| Cour de cassation (Judilibre) | — | Pages vides pour l'outil ; passer par Légifrance. |
+
+### 10.5 Conduite quand la recherche n'aboutit pas
+
+| Situation | Conduite |
+|---|---|
+| **Recherche vide** | Dire où et comment la recherche a été faite (source, termes ou numéro, date). Rappeler qu'un résultat vide ne prouve pas l'absence de jurisprudence. Réserver la seule conclusion qui dépend d'une décision ; donner la règle écrite lue, la piste (notion, question à poser) et la voie de recherche ; poursuivre le reste de la réponse. |
+| **Décision identifiée mais illisible** | Fiche au statut `inaccessible` avec l'obstacle observé. Essayer une autre publication officielle (Légifrance ou site de la juridiction). Sinon proposer à la personne de l'ouvrir dans son navigateur ou de la fournir, ou au professionnel nommé de la vérifier. Ne pas restituer son contenu de mémoire. |
+| **Seulement un résumé officiel ou un communiqué** | Le citer comme tel, avec la décision au statut `partiel` ; conclusion présentée comme conditionnelle. |
+| **Seulement de la doctrine** | « Selon [auteur, qualité], dans [support] du [date], [juridiction] aurait jugé… ; je n'ai pas lu la décision. » Chercher ensuite la décision par son numéro sur Légifrance ; si elle reste introuvable, réserver. |
+| **Jurisprudence divergente** | Exposer les décisions lues avec juridiction, formation, date et publication. Distinguer Cour de cassation et juges du fond, chambres différentes, formations solennelles, publié et inédit. Une décision plus récente n'efface pas automatiquement les autres. Ne pas choisir en silence : conclusion conditionnelle et risque expliqué. |
+| **Décision ancienne et texte plus récent** | Vérifier quel texte et quelle version la décision interprétait, et quelle version s'applique aux faits (section 3). Si le texte a changé, signaler que la décision peut ne plus être pertinente et chercher une décision postérieure ; pour des faits anciens, elle peut rester pertinente. Ne présumer ni l'un ni l'autre. |
+| **Décision non définitive, revirement, décision d'une cour suprême ou européenne** | Signaler un recours connu ou non recherché, une inconstitutionnalité à effet différé, une interprétation de la CJUE ou un constat de la Cour EDH qui peut modifier la portée ; ne pas en tirer un effet sur le dossier sans le vérifier. |
+| **Aucun outil web** | Citer seulement les décisions des références embarquées, avec leur date de relecture, comme pistes non relues pendant la réponse. Ne citer aucune autre décision. Réserver la conclusion et indiquer la vérification à faire. |
+
+Formulations utilisables (les crochets sont à renseigner) :
+
+> J'ai cherché une décision sur [question] dans [source] le [date] avec
+> [termes / numéro] : [aucun résultat / résultat illisible]. Cela ne prouve
+> pas qu'il n'en existe pas. [Conclusion] reste donc à confirmer ; pour
+> avancer, [voie de recherche ou professionnel].
+
+> Je n'ai trouvé qu'un commentaire de [auteur, qualité] du [date], qui
+> rapporte que [juridiction] aurait jugé [solution]. Je n'ai pas lu la
+> décision elle-même.
 
 ## Repères officiels utilisés pour rédiger cette version
 

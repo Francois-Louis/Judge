@@ -39,6 +39,7 @@ Quel problème cette story résout et quel résultat concret doit exister à la 
 - [ ] Les limites du résultat sont documentées sans promettre l'adaptation du domaine entier.
 - [ ] La sortie explique la somme, l'obligation, les pièces ou la démarche utile en langage clair, sans présumer un abus ni garantir une issue favorable.
 - [ ] La sortie se termine par une phrase courte rappelant qu'elle informe sans remplacer le professionnel compétent nommé pour la situation (avocat, juriste, notaire, commissaire de justice, expert-comptable…), avec un renfort en tête si délai, procédure, pénal ou enjeu irréversible, selon la section 8 de la méthode BASE-005 `1.1.0` ([BASE-013](00-fondations/base-013-avertissement-interlocuteur.md)).
+- [ ] Toute décision de justice citée a été ouverte et lue (motifs et dispositif) ou est présentée comme piste, résumé, communiqué ou doctrine, selon la section 10 de la méthode BASE-005 `1.2.0` ([BASE-016](00-fondations/suites/base-016-methode-decisions-justice.md)) ; aucune décision n'est restituée de mémoire.
 
 ## Vérification
 

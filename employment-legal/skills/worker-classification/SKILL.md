@@ -13,12 +13,13 @@ argument-hint: "[projet de mission, de contrat ou d'embauche, en mots courants]"
 
 <!-- Modified by Judge FR/UE for TRAV-001 (2026-10-17): prospective French work-relationship qualification. -->
 <!-- Modified by Judge FR/UE for BASE-013 (2026-10-17): method 1.1.0 and front warning. -->
+<!-- Modified by Judge FR/UE for BASE-016 (2026-10-17): method 1.2.0, case-law section 10. -->
 
 # /worker-classification
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` avant tout accès
 aux profils, dossiers ou sorties persistantes. Charger la
-[méthode BASE-005 version 1.1.0](../../references/shared/research-citation-method.md)
+[méthode BASE-005 version 1.2.0](../../references/shared/research-citation-method.md)
 et les [repères de qualification](../../references/worker-classification-fr.md).
 Aucun fichier du dépôt n'est requis.
 
@@ -164,8 +165,10 @@ de questions peut être préparé à la demande, sans ajout de faits.
 ## Rechercher et traiter les limites
 
 Lire les publications officielles : Légifrance ; Code du travail numérique
-pour sa reproduction des articles ; fonds publics de la DILA, site de la Cour
-de cassation pour les décisions ; EUR-Lex pour un texte de l'Union. Après un
+pour sa reproduction des articles ; EUR-Lex pour un texte de l'Union. Pour une
+décision de justice, suivre la section 10 de la méthode : voies, borne de
+recherche, fiche, lecture des motifs et conduite si la recherche échoue ; une
+décision non ouverte reste une piste. Après un
 refus, une page JavaScript ou une réponse vide, essayer une autre publication
 officielle, sans redemander permission à chaque lecture. Si tout échoue,
 consigner les tentatives, réserver la seule conclusion dépendante et

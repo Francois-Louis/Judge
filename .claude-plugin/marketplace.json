@@ -11,7 +11,7 @@
       "name": "judge-fr-eu-commercial-legal",
       "displayName": "Judge FR/UE — Commercial Legal",
       "source": "./commercial-legal",
-      "description": "Judge FR/UE 0.2.1 : orientation contractuelle France/UE sans profil obligatoire (COM-001) ; domaine, rôle achat/vente, tâche, pièces et questions utiles. Revues, registres et agents hérités non adaptés ; aucune branche aval automatique. Validation client/utilisateur à compléter.",
+      "description": "Judge FR/UE 0.2.2 : orientation contractuelle France/UE sans profil obligatoire (COM-001) ; domaine, rôle achat/vente, tâche, pièces et questions utiles. Revues, registres et agents hérités non adaptés ; aucune branche aval automatique. Validation client/utilisateur à compléter.",
       "author": {
         "name": "Anthropic"
       }
@@ -20,7 +20,7 @@
       "name": "judge-fr-eu-privacy-legal",
       "displayName": "Judge FR/UE — Privacy Legal",
       "source": "./privacy-legal",
-      "description": "Judge FR/UE 0.1.1: technical isolation; legal adaptation pending. Triages processing activities, generates PIAs, reviews DPAs as controller or processor, drafts DSAR responses within statutory timelines, and monitors policy drift against practice.",
+      "description": "Judge FR/UE 0.1.2: technical isolation; legal adaptation pending. Triages processing activities, generates PIAs, reviews DPAs as controller or processor, drafts DSAR responses within statutory timelines, and monitors policy drift against practice.",
       "author": {
         "name": "Anthropic"
       }
@@ -29,7 +29,7 @@
       "name": "judge-fr-eu-product-legal",
       "displayName": "Judge FR/UE — Product Legal",
       "source": "./product-legal",
-      "description": "Judge FR/UE 0.1.1: technical isolation; legal adaptation pending. Reviews product launches against your risk calibration, answers 'is this a problem?' questions in minutes, checks marketing copy for claims that need substantiation, and flags upcoming launches that need legal eyes before anyone asks.",
+      "description": "Judge FR/UE 0.1.2: technical isolation; legal adaptation pending. Reviews product launches against your risk calibration, answers 'is this a problem?' questions in minutes, checks marketing copy for claims that need substantiation, and flags upcoming launches that need legal eyes before anyone asks.",
       "author": {
         "name": "Anthropic"
       }
@@ -38,7 +38,7 @@
       "name": "judge-fr-eu-corporate-legal",
       "displayName": "Judge FR/UE — Corporate Legal",
       "source": "./corporate-legal",
-      "description": "Judge FR/UE 0.1.1: technical isolation; legal adaptation pending. Runs M&A diligence at scale with cited tabular review, builds disclosure schedules and closing checklists, drafts board consents and minutes in house format, and tracks entity compliance deadlines across jurisdictions.",
+      "description": "Judge FR/UE 0.1.2: technical isolation; legal adaptation pending. Runs M&A diligence at scale with cited tabular review, builds disclosure schedules and closing checklists, drafts board consents and minutes in house format, and tracks entity compliance deadlines across jurisdictions.",
       "author": {
         "name": "Anthropic"
       }
@@ -47,7 +47,7 @@
       "name": "judge-fr-eu-employment-legal",
       "displayName": "Judge FR/UE — Employment Legal",
       "source": "./employment-legal",
-      "description": "Judge FR/UE 0.3.3 : hiring-review pour comprendre une offre ou un contrat salarié privé en France (CDI, contrôles CDD ciblés) et worker-classification pour qualifier une relation de travail proposée avant exécution, sans choix automatique du statut. Recettes sur pièces fictives, lecteur non indépendant ; autres tâches héritées non adaptées.",
+      "description": "Judge FR/UE 0.3.4 : hiring-review pour comprendre une offre ou un contrat salarié privé en France (CDI, contrôles CDD ciblés) et worker-classification pour qualifier une relation de travail proposée avant exécution, sans choix automatique du statut. Recettes sur pièces fictives, lecteur non indépendant ; autres tâches héritées non adaptées.",
       "author": {
         "name": "Anthropic"
       }
@@ -56,7 +56,7 @@
       "name": "judge-fr-eu-regulatory-legal",
       "displayName": "Judge FR/UE — Regulatory Legal",
       "source": "./regulatory-legal",
-      "description": "Judge FR/UE 0.1.1: technical isolation; legal adaptation pending. Watches regulatory feeds, diffs new rules against your policy library, tracks comment deadlines and open gaps, and writes the digest your team reads Monday morning.",
+      "description": "Judge FR/UE 0.1.2: technical isolation; legal adaptation pending. Watches regulatory feeds, diffs new rules against your policy library, tracks comment deadlines and open gaps, and writes the digest your team reads Monday morning.",
       "author": {
         "name": "Anthropic"
       }
@@ -65,7 +65,7 @@
       "name": "judge-fr-eu-ai-governance-legal",
       "displayName": "Judge FR/UE — AI Governance Legal",
       "source": "./ai-governance-legal",
-      "description": "Judge FR/UE 0.1.1: technical isolation; legal adaptation pending. Triages proposed AI use cases against your registry, runs impact assessments across the regimes in scope, reviews vendor AI terms for training-on-data and liability gaps, and keeps your AI policy current with practice.",
+      "description": "Judge FR/UE 0.1.2: technical isolation; legal adaptation pending. Triages proposed AI use cases against your registry, runs impact assessments across the regimes in scope, reviews vendor AI terms for training-on-data and liability gaps, and keeps your AI policy current with practice.",
       "author": {
         "name": "Anthropic"
       }
@@ -74,7 +74,7 @@
       "name": "judge-fr-eu-litigation-legal",
       "displayName": "Judge FR/UE — Litigation Legal",
       "source": "./litigation-legal",
-      "description": "Judge FR/UE 0.1.1: technical isolation; legal adaptation pending. Manages the litigation portfolio — matters, deadlines, holds, demands, outside counsel — and does the work: claim charts (patent and civil), chronologies, depo prep, privilege logs, brief drafting. Adapts to how you work litigation: in-house, firm, or solo.",
+      "description": "Judge FR/UE 0.1.2: technical isolation; legal adaptation pending. Manages the litigation portfolio — matters, deadlines, holds, demands, outside counsel — and does the work: claim charts (patent and civil), chronologies, depo prep, privilege logs, brief drafting. Adapts to how you work litigation: in-house, firm, or solo.",
       "author": {
         "name": "Anthropic"
       }
@@ -83,7 +83,7 @@
       "name": "judge-fr-eu-law-student",
       "displayName": "Judge FR/UE — Law Student",
       "source": "./law-student",
-      "description": "Judge FR/UE 0.1.1: technical isolation; legal adaptation pending. Drills Socratically, briefs cases, builds outlines, runs bar prep sessions tuned to your jurisdiction, grades IRAC practice, and plans the study schedule — without ever writing it for you.",
+      "description": "Judge FR/UE 0.1.2: technical isolation; legal adaptation pending. Drills Socratically, briefs cases, builds outlines, runs bar prep sessions tuned to your jurisdiction, grades IRAC practice, and plans the study schedule — without ever writing it for you.",
       "author": {
         "name": "Anthropic"
       }
@@ -92,7 +92,7 @@
       "name": "judge-fr-eu-legal-builder-hub",
       "displayName": "Judge FR/UE — Legal Builder Hub",
       "source": "./legal-builder-hub",
-      "description": "Judge FR/UE 0.1.1: technical isolation; legal adaptation pending. Finds, evaluates, and installs community legal skills — with a security review gate before anything lands in your environment.",
+      "description": "Judge FR/UE 0.1.2: technical isolation; legal adaptation pending. Finds, evaluates, and installs community legal skills — with a security review gate before anything lands in your environment.",
       "author": {
         "name": "Anthropic"
       }
@@ -101,7 +101,7 @@
       "name": "judge-fr-eu-ip-legal",
       "displayName": "Judge FR/UE — IP Legal",
       "source": "./ip-legal",
-      "description": "Judge FR/UE 0.1.1: technical isolation; legal adaptation pending. Runs first-pass trademark clearance and freedom-to-operate triage, screens invention disclosures for initial patentability, drafts and triages cease-and-desist letters and DMCA takedowns (send and respond), checks open source compliance, reviews IP clauses, and tracks registrations and renewal deadlines.",
+      "description": "Judge FR/UE 0.1.2: technical isolation; legal adaptation pending. Runs first-pass trademark clearance and freedom-to-operate triage, screens invention disclosures for initial patentability, drafts and triages cease-and-desist letters and DMCA takedowns (send and respond), checks open source compliance, reviews IP clauses, and tracks registrations and renewal deadlines.",
       "author": {
         "name": "Anthropic"
       }

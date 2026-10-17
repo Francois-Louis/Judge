@@ -595,3 +595,60 @@ re-read by this route; the adopted future version of L8222-2 (in force by
   scripts/legal_sources.py
   scripts/test-base008-isolation.py
   scripts/test-legal-sources.py
+
+BASE-016 changes (2026-10-17): shared research method 1.2.0 adds section
+10 on court decisions: what was read (decision, official summary, press
+release, opinion, commentary, search result, model memory), the record of a
+decision, reading the reasoning, a bounded search order through official
+routes observed on 17 October 2026 without subscription, and the conduct
+for an empty search, an unreadable decision, commentary only, conflicting
+case law, an older decision against a newer text and no web tool.
+Synchronised byte-for-byte into the eleven packages; versions 0.1.2,
+commercial-legal 0.2.2, employment-legal 0.3.4. hiring-review,
+worker-classification and review cite 1.2.0. No legal rule added.
+  .claude-plugin/marketplace.json
+  NOTICE
+  README.md
+  ai-governance-legal/.claude-plugin/plugin.json
+  ai-governance-legal/NOTICE
+  ai-governance-legal/references/shared/research-citation-method.md
+  commercial-legal/.claude-plugin/plugin.json
+  commercial-legal/NOTICE
+  commercial-legal/references/orientation-commerciale.md
+  commercial-legal/references/shared/research-citation-method.md
+  commercial-legal/skills/review/SKILL.md
+  corporate-legal/.claude-plugin/plugin.json
+  corporate-legal/NOTICE
+  corporate-legal/references/shared/research-citation-method.md
+  employment-legal/.claude-plugin/plugin.json
+  employment-legal/CLAUDE.md
+  employment-legal/NOTICE
+  employment-legal/README.md
+  employment-legal/references/hiring-review-fr.md
+  employment-legal/references/shared/research-citation-method.md
+  employment-legal/references/worker-classification-fr.md
+  employment-legal/skills/hiring-review/SKILL.md
+  employment-legal/skills/worker-classification/SKILL.md
+  ip-legal/.claude-plugin/plugin.json
+  ip-legal/NOTICE
+  ip-legal/references/shared/research-citation-method.md
+  law-student/.claude-plugin/plugin.json
+  law-student/NOTICE
+  law-student/references/shared/research-citation-method.md
+  legal-builder-hub/.claude-plugin/plugin.json
+  legal-builder-hub/NOTICE
+  legal-builder-hub/references/shared/research-citation-method.md
+  litigation-legal/.claude-plugin/plugin.json
+  litigation-legal/NOTICE
+  litigation-legal/references/shared/research-citation-method.md
+  privacy-legal/.claude-plugin/plugin.json
+  privacy-legal/NOTICE
+  privacy-legal/references/shared/research-citation-method.md
+  product-legal/.claude-plugin/plugin.json
+  product-legal/NOTICE
+  product-legal/references/shared/research-citation-method.md
+  references/research-citation-method.md
+  regulatory-legal/.claude-plugin/plugin.json
+  regulatory-legal/NOTICE
+  regulatory-legal/references/shared/research-citation-method.md
+  scripts/test-base008-isolation.py

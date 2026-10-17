@@ -53,3 +53,12 @@ matters; orientation reference 1.1.0 adds criminal and professional-fee rows.
   references/orientation-commerciale.md
   references/shared/research-citation-method.md
   skills/review/SKILL.md
+
+BASE-016 changes (2026-10-17): version 0.2.2. Shared method 1.2.0 synchronised byte-for-byte
+(section 10: reading and citing court decisions, conduct when a case-law search fails).
+review and the commercial orientation reference cite method 1.2.0; no orientation rule changed.
+  .claude-plugin/plugin.json
+  NOTICE
+  references/orientation-commerciale.md
+  references/shared/research-citation-method.md
+  skills/review/SKILL.md

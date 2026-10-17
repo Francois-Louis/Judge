@@ -39,3 +39,10 @@ No skill of this package is adapted by this change.
   .claude-plugin/plugin.json
   NOTICE
   references/shared/research-citation-method.md
+
+BASE-016 changes (2026-10-17): version 0.1.2. Shared method 1.2.0 synchronised byte-for-byte
+(section 10: reading and citing court decisions, conduct when a case-law search fails).
+No skill of this package is adapted by this change.
+  .claude-plugin/plugin.json
+  NOTICE
+  references/shared/research-citation-method.md

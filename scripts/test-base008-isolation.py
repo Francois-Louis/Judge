@@ -100,7 +100,7 @@ class MigratedPackages(unittest.TestCase):
                 self.assertEqual(entry[field], manifest[field])
             self.assertEqual(manifest["name"], "judge-fr-eu-" + domain)
             self.assertEqual(manifest["author"]["name"], "Anthropic")
-            expected_version = {"employment-legal": "0.3.3", "commercial-legal": "0.2.1"}.get(domain, "0.1.1")
+            expected_version = {"employment-legal": "0.3.4", "commercial-legal": "0.2.2"}.get(domain, "0.1.2")
             self.assertEqual(manifest["version"], expected_version)
             self.assertEqual((package / "LICENSE").read_bytes(), (ROOT / "LICENSE").read_bytes())
             self.assertTrue((package / "NOTICE").is_file())

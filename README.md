@@ -15,6 +15,9 @@ tâches juridiques héritées restent à adapter à la France et à l'UE.
 Depuis BASE-013 (méthode commune 1.1.0, paquets 0.1.1, 0.2.1 et 0.3.1), ces tâches
 adaptées terminent chaque réponse par une phrase courte nommant le professionnel
 compétent, avec un renfort en tête en cas d'urgence, de procédure ou de pénal.
+Depuis BASE-016 (méthode commune 1.2.0, paquets 0.1.2, 0.2.2 et 0.3.4), une
+décision de justice n'est citée qu'après lecture de ses motifs, par des voies
+officielles sans abonnement ; à défaut, la conclusion qui en dépend est réservée.
 Voir le [démarrage du fork](QUICKSTART.md), les [preuves et limites de validation](references/base008-validation.md),
 la [licence](LICENSE) et les [fichiers modifiés](NOTICE).
 Les intégrations Cowork/Office et l'exécution distante décrites ci-dessous

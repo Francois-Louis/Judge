@@ -63,7 +63,7 @@ Les arbitrages ultérieurs sont consignés dans les
 |---|---|
 | Architecture, propriétaires des tâches, contrat d'un plugin | [Dossier BASE-003](00-fondations/base-003-annexes/base-003-dossier-architecture.md) |
 | Identité `judge-fr-eu` et séparation des configurations | [Cadrage BASE-004](00-fondations/base-004-annexes/base-004-strategie-identite-configurations.md), [validation BASE-008](../references/base008-validation.md) |
-| Méthode de recherche et de citation (v1.0.0) | [Méthode BASE-005](../references/research-citation-method.md) |
+| Méthode de recherche et de citation (v1.2.0) | [Méthode BASE-005](../references/research-citation-method.md) |
 | Contrôles d'un skill et d'un plugin | [Recette BASE-006](../references/package-validation.md) |
 | Accès aux sources officielles sans souscription | [Voies BASE-010](../references/legal-source-access.md) |
 | Avertissement et interlocuteur compétent | [BASE-013](00-fondations/base-013-avertissement-interlocuteur.md) |

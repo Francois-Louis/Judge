@@ -7,9 +7,9 @@
 | En cours | 1 |
 | À vérifier | 2 |
 | Bloquée | 0 |
-| Terminée | 44 |
+| Terminée | 45 |
 | Prête | 0 |
-| À faire | 566 |
+| À faire | 565 |
 | Abandonnée | 23 |
 | dont prêtes à démarrer | 185 |
 | Total | 636 |
@@ -31,7 +31,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 
 | Story | Titre | Priorité | Nature |
 | --- | --- | --- | --- |
-| [BASE-016](00-fondations/suites/base-016-methode-decisions-justice.md) | Intégrer la conduite sur les décisions de justice à la méthode BASE-005 | P1 | implementation |
+| [TRAV-062](01-pilote-travail/suites/trav-062-pistes-jurisprudence-embauche.md) | Requalifier les pistes jurisprudentielles de la revue d'embauche | P1 | implementation |
 | [BASE-018](00-fondations/suites/base-018-lecture-decisions-dila.md) | Lire une décision par son identifiant dans les fonds de jurisprudence DILA | P2 | implementation |
 | [COM-013](02-plugins-existants/suites/com-013-preferences-commerciales.md) | Créer et modifier des préférences commerciales volontaires | P2 | implementation |
 | [COM-019](02-plugins-existants/suites/com-019-demande-paiement-suspecte.md) | Lire une demande de paiement présentée comme une obligation administrative | P2 | implementation |
@@ -245,6 +245,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [base-014-relecture.json](00-fondations/base-014-annexes/base-014-relecture.json) · [base-014-verification.md](00-fondations/base-014-annexes/base-014-verification.md)
 - [BASE-015](00-fondations/base-015-jurisprudence-runtime.md) — Cadrer l'accès à la jurisprudence pendant l'exécution d'un skill
   <br>Annexes : [base-015-acces-http.json](00-fondations/base-015-annexes/base-015-acces-http.json) · [base-015-acces-session.json](00-fondations/base-015-annexes/base-015-acces-session.json) · [base-015-decoupage.md](00-fondations/base-015-annexes/base-015-decoupage.md) · [base-015-inventaire-acces.md](00-fondations/base-015-annexes/base-015-inventaire-acces.md) · [base-015-methode-jurisprudence.md](00-fondations/base-015-annexes/base-015-methode-jurisprudence.md) · [base-015-sonde.py](00-fondations/base-015-annexes/base-015-sonde.py) · [base-015-verification.md](00-fondations/base-015-annexes/base-015-verification.md)
+- [BASE-016](00-fondations/suites/base-016-methode-decisions-justice.md) — Intégrer la conduite sur les décisions de justice à la méthode BASE-005
+  <br>Annexes : [base-016-verification.md](00-fondations/suites/base-016-annexes/base-016-verification.md)
 - Autres documents : [retrospective-fondations.md](00-fondations/retrospective-fondations.md)
 
 ### 01 — Pilote travail
@@ -329,18 +331,17 @@ Stories à faire dont toutes les dépendances sont terminées.
 ✅ = prête à démarrer. Sinon, la colonne indique les dépendances non terminées.
 
 <details>
-<summary><b>BASE</b> — Fondations (00 — Fondations) : 3 à faire, 2 prêtes</summary>
+<summary><b>BASE</b> — Fondations (00 — Fondations) : 2 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [BASE-016](00-fondations/suites/base-016-methode-decisions-justice.md) | Intégrer la conduite sur les décisions de justice à la méthode BASE-005 | P1 | ✅ |
-| [BASE-017](00-fondations/suites/base-017-recette-jurisprudence-runtime.md) | Recetter la recherche de jurisprudence d'un skill dans un client isolé | P1 | BASE-016, TRAV-062 |
+| [BASE-017](00-fondations/suites/base-017-recette-jurisprudence-runtime.md) | Recetter la recherche de jurisprudence d'un skill dans un client isolé | P1 | TRAV-062 |
 | [BASE-018](00-fondations/suites/base-018-lecture-decisions-dila.md) | Lire une décision par son identifiant dans les fonds de jurisprudence DILA | P2 | ✅ |
 
 </details>
 
 <details>
-<summary><b>TRAV</b> — Travail (suites du pilote) (01 — Pilote travail) : 61 à faire, 54 prêtes</summary>
+<summary><b>TRAV</b> — Travail (suites du pilote) (01 — Pilote travail) : 61 à faire, 55 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -404,7 +405,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [TRAV-059](01-pilote-travail/suites/trav-059-ecart-salarial.md) | Documenter un écart de rémunération entre salariés comparables | P2 | ✅ |
 | [TRAV-060](01-pilote-travail/suites/trav-060-compteur-rtt-repos.md) | Relire un compteur de RTT ou de repos conventionnel | P2 | ✅ |
 | [TRAV-061](01-pilote-travail/suites/trav-061-rupture-aux-torts-decoupage.md) | Découper les demandes de rupture aux torts de l'employeur | P2 | ✅ |
-| [TRAV-062](01-pilote-travail/suites/trav-062-pistes-jurisprudence-embauche.md) | Requalifier les pistes jurisprudentielles de la revue d'embauche | P1 | BASE-016 |
+| [TRAV-062](01-pilote-travail/suites/trav-062-pistes-jurisprudence-embauche.md) | Requalifier les pistes jurisprudentielles de la revue d'embauche | P1 | ✅ |
 
 </details>
 

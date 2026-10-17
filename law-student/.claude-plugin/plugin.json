@@ -1,7 +1,7 @@
 {
   "name": "judge-fr-eu-law-student",
-  "version": "0.1.1",
-  "description": "Judge FR/UE 0.1.1: technical isolation; legal adaptation pending. Drills Socratically, briefs cases, builds outlines, runs bar prep sessions tuned to your jurisdiction, grades IRAC practice, and plans the study schedule — without ever writing it for you.",
+  "version": "0.1.2",
+  "description": "Judge FR/UE 0.1.2: technical isolation; legal adaptation pending. Drills Socratically, briefs cases, builds outlines, runs bar prep sessions tuned to your jurisdiction, grades IRAC practice, and plans the study schedule — without ever writing it for you.",
   "author": {
     "name": "Anthropic"
   },

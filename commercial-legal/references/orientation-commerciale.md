@@ -42,7 +42,7 @@ exclusions pour le service. Aucune revue de ces annexes réputée effectuée,
 aucun dossier envoyé à un autre plugin ou service.
 
 La dernière colonne fournit l'interlocuteur de la fiche, selon la section 8 de
-la méthode BASE-005 `1.1.0` : « conseil » désigne un avocat ou un juriste du
+la méthode BASE-005 `1.2.0` : « conseil » désigne un avocat ou un juriste du
 domaine nommé ; l'émetteur d'un acte, le cocontractant ou une autorité
 renseignent sans être le conseil de la personne.
 

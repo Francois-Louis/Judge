@@ -12,12 +12,13 @@ argument-hint: "[offre, contrat, extrait lisible ou description de l'embauche]"
 
 <!-- Modified by Judge FR/UE for PILOTE-002 (2026-10-15): scoped France hiring review. -->
 <!-- Modified by Judge FR/UE for BASE-013 (2026-10-17): closing scope sentence, front warning and interlocutor. -->
+<!-- Modified by Judge FR/UE for BASE-016 (2026-10-17): method 1.2.0, case-law section 10. -->
 
 # /hiring-review
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/references/isolation.md` avant tout accès
 aux profils, dossiers ou sorties persistantes. Ses contrôles de stockage
-restent applicables. Charger la [méthode BASE-005 version 1.1.0](../../references/shared/research-citation-method.md)
+restent applicables. Charger la [méthode BASE-005 version 1.2.0](../../references/shared/research-citation-method.md)
 et les [repères métier et limites de lecture](../../references/hiring-review-fr.md).
 Ce parcours applique le protocole d'orientation USAGE-001 **1.0.0**, dont les
 exigences utiles sont reprises ci-dessous ; aucun fichier du dépôt n'est requis.
@@ -133,8 +134,10 @@ séparément si demandés ou déterminants ; à défaut les identifier comme res
 ## Rechercher et traiter les limites
 
 Utiliser les publications officielles et lire le passage exact : Légifrance,
-Code du travail numérique pour sa reproduction des articles, site de la
-juridiction pour la décision, EUR-Lex pour un instrument UE pertinent. Une
+Code du travail numérique pour sa reproduction des articles, EUR-Lex pour un
+instrument UE pertinent. Pour une décision de justice, suivre la section 10 de
+la méthode : voies, borne de recherche, fiche, lecture des motifs et conduite
+si la recherche échoue ; une décision non ouverte reste une piste. Une
 fiche explicative officielle aide à comprendre mais ne remplace pas la règle
 ou la décision nécessaire. Aucun connecteur n'est présumé disponible.
 
@@ -196,7 +199,7 @@ Proposer une reformulation, sans y répondre à la place de la personne :
 point reste à vérifier ? » Adapter l'explication si besoin. Ce dialogue ne
 remplace pas une recette avec un participant réel.
 
-**Portée et interlocuteur** (section 8 de la méthode `1.1.0`). Si une réponse
+**Portée et interlocuteur** (section 8 de la méthode `1.2.0`). Si une réponse
 ou une signature est attendue à brève échéance, si le document a déjà été
 signé, ou si une clause peut entraîner un engagement difficile à défaire
 (non-concurrence, dédit, démission d'un emploi actuel), ouvrir la note par une

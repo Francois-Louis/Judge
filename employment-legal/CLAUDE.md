@@ -40,7 +40,7 @@ guardrails, Jurisdiction recognition, création de journaux et profil société)
   handbook ou mémo de rupture exigé d'un candidat. Sans profil, entretien
   factuel dans la conversation ; aucune écriture persistante par défaut.
 - Charger les références locales `hiring-review-fr.md` et la méthode BASE-005
-  `1.1.0` dans le dossier references du paquet. Recherche officielle à chaque
+  `1.2.0` dans le dossier references du paquet. Recherche officielle à chaque
   dossier ; ne pas appliquer de règle mémorisée même étiquetée « verify ».
   Essayer une autre voie officielle après un échec d'accès, sans nouvelle
   permission de lecture. Réserver la seule conclusion non vérifiable.
@@ -66,7 +66,7 @@ guardrails, Jurisdiction recognition, création de journaux et profil société)
 recrutement en France **avant tout début d'exécution**. Mêmes exceptions que
 ci-dessus : profil facultatif, aucun profil société, recherche officielle,
 note en langage courant, aucun envoi ni registre. Charger
-`worker-classification-fr.md` et la méthode BASE-005 `1.1.0`. Une relation
+`worker-classification-fr.md` et la méthode BASE-005 `1.2.0`. Une relation
 déjà commencée reçoit une orientation, jamais une analyse rétrospective. Les
 rubriques « Wage & hour » et escalades héritées ci-dessous ne s'appliquent pas.
 

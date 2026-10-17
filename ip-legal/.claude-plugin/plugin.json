@@ -1,7 +1,7 @@
 {
   "name": "judge-fr-eu-ip-legal",
-  "version": "0.1.1",
-  "description": "Judge FR/UE 0.1.1: technical isolation; legal adaptation pending. Runs first-pass trademark clearance and freedom-to-operate triage, screens invention disclosures for initial patentability, drafts and triages cease-and-desist letters and DMCA takedowns (send and respond), checks open source compliance, reviews IP clauses, and tracks registrations and renewal deadlines.",
+  "version": "0.1.2",
+  "description": "Judge FR/UE 0.1.2: technical isolation; legal adaptation pending. Runs first-pass trademark clearance and freedom-to-operate triage, screens invention disclosures for initial patentability, drafts and triages cease-and-desist letters and DMCA takedowns (send and respond), checks open source compliance, reviews IP clauses, and tracks registrations and renewal deadlines.",
   "author": {
     "name": "Anthropic"
   },
