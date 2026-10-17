@@ -175,3 +175,14 @@ jetable et schéma ne valent pas invocation du skill. Aucun compte authentifié
 dans cette configuration, aucune authentification personnelle importée.
 Scénarios N01–N13 et reformulation par un lecteur réel **non exécutés** ;
 statut `a-verifier`, sans prétendre valider les sorties attendues.
+
+## Reprise des tests client — 17 octobre 2026
+
+N01–N13 : quinze sorties avec N04 porte/voisin et N07 extérieur/panier séparés. Défauts de sources et de provenance corrigés dans consumer-legal 0.1.2 ; le développement de certaines variantes par le nouvel exécuteur a aussi été corrigé. Ces sorties ne valident pas les fixtures propres ni la version finale, à rejouer.
+
+La relecture est prise en charge par l'utilisateur et ne bloque pas la
+clôture. Le statut reste `a-verifier` pour les défauts/rejeux et tests
+non exécutés, après épuisement du quota annoncé jusqu'à 16 h 40
+(Europe/Paris). Aucun critère métier non observé n'est déclaré réussi.
+
+[Bilan transversal et commande de reprise](../../recette-2026-10-17.md).

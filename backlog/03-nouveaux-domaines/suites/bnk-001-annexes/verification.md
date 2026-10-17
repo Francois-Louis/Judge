@@ -1,5 +1,7 @@
 # BNK-001 — Implémentation et vérification
 
+> Ce bilan initial est conservé comme historique. La [reprise du 17 octobre](#reprise-des-tests-client--17-octobre-2026) ci-dessous donne le dernier état.
+
 17 octobre 2026 (Europe/Paris). Paquet final banking-legal `0.1.1`, un seul
 skill payment-dispute. Rédacteur et relecteur non indépendants. Aucun dossier
 réel utilisé. L'implémentation est livrée ; la recette complète reste ouverte.
@@ -105,3 +107,18 @@ Reste : rejouer les sept cas bloqués et les deux corrections, nominal avec
 sources accessibles, installation réellement isolée sans autres plugins,
 compréhension par participant réel et vérifications juridiques réservées.
 La story reste `a-verifier`, sans certification globale ni lot LIV publié.
+
+## Reprise des tests client — 17 octobre 2026
+
+Sonde P01 en 0.1.1, puis P01–P03 en 0.1.2 intermédiaire. Les réserves de preuve et de téléservice sont améliorées. P03 appelle encore une correction livraison/remboursement et opposition ; formulation finale 0.1.3 non rejouée. P04–P12 sans nouveau résultat.
+
+[Résultats de cette série](executions-reprise-2026-10-17/results.json),
+[schéma/structure des copies initiales](executions-reprise-2026-10-17/checks.json),
+[empreintes inchangées](executions-reprise-2026-10-17/integrity.json).
+Les reprises et corrections conservent leurs propres journaux ;
+une réponse finale ne signifie pas que le scénario est validé.
+
+Détail des constats, limites et reprise : [bilan transversal](../../../recette-2026-10-17.md).
+La compréhension par un lecteur reste non observée ; l'utilisateur
+prend en charge sa relecture. Le blocage courant est le quota client
+et les validations comportementales restantes.

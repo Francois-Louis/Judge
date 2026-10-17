@@ -1,0 +1,62 @@
+[
+  {
+    "case": "Q01",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "Q02",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "Q03",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "Q04",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "Q05",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "Q06",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "Q07",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "Q08",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "Q09",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "Q10",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "Q11",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "Q12",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  }
+]

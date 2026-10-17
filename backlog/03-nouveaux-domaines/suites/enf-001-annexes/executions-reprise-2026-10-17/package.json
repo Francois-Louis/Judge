@@ -1,0 +1,67 @@
+{
+  "story": "ENF-001",
+  "started_utc": "2026-10-17T10:01:35.699582+00:00",
+  "client": "2.1.301 (Claude Code)",
+  "revision": "86e721ae45b708c70d2c831da0245bc2c83b39ba",
+  "plugin": "judge-fr-eu-enforcement-legal",
+  "version": "0.1.0",
+  "web": false,
+  "os_sandbox": false,
+  "package_inventory": {
+    ".claude-plugin/plugin.json": "1fb5a82a19e032b2e2e2f831c7934d727843c660bc9ba126e1f6a5daf7c4a984",
+    "CLAUDE.md": "bd4764fbc7ea15ddf31307e2d9b278b8e2c711ca5031bf45a5c3c905760bab51",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "027da7d7bf5042bc27fbc5b5dcd550bd7a733f165e64a30996be13a42d25acc7",
+    "README.md": "0702b8fb8e02570a8488a26fd037b58a380b19c0a29d1356c0ff83440463b69b",
+    "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "references/qualification-acte.md": "f42a77d7a03abe9ab8e374e866001869f98fda1e4448ac21a324df16f289cbc3",
+    "references/shared/research-citation-method.md": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+    "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "skills/enforcement-act-reading/references/lecture-acte.md": "542cbf64a4d13bdd1b92e0c00ad126a9596f69963144397b4533afb2260d4253",
+    "skills/enforcement-act-reading/SKILL.md": "f76697487fa24279746667ec9c629c0c2cd2371651915a45a148a5edab4a71a8"
+  },
+  "fixtures": {
+    "A01": {
+      "input": "Cas fictif, particulier en France métropolitaine, aucun profil. Pièce intégralement transcrite, une page : société Recouvrement Exemple pour Télécom Exemple, lettre du 12 octobre 2026, ancien abonnement, principal 100 EUR, intérêts 5 EUR, frais 30 EUR, total 135 EUR, 'saisie sous 8 jours'. Aucune décision ou titre visé. Je conteste la dette et voudrais comprendre si cette lettre est une saisie. Pas de recherche web disponible : ne prétends pas avoir relu des textes actuels. Produis la fiche et les questions maintenant."
+    },
+    "A02": {
+      "input": "Cas fictif. France métropolitaine. Pièce p1 : signification de jugement, acte du 2 octobre 2026, 'remise à domicile, copie à retirer à l'étude', jugement TJ Exemple du 10 septembre 2026 visé. Pièce p2 : avis de passage daté du 2 octobre. Je déclare avoir découvert l'avis le 16 octobre et retiré la copie le 17 octobre. Voies de recours non fournies. La date de découverte fait-elle repartir le délai ? Fiche complète demandée, aucune source web accessible, pas de calcul."
+    },
+    "A03": {
+      "input": "Cas fictif. France. Pièce p1 : dénonciation de saisie-attribution sur un compte à Banque Exemple, acte du 14 octobre 2026, créancier Exemple, jugement TJ Exemple du 1er juin 2026, total réclamé 2400 EUR sans principal ni intérêts ni frais détaillés. Je déclare avoir déjà payé 300 EUR le 1er septembre, sans justificatif fourni. Les annexes annoncées ne sont pas jointes. Je veux comprendre ce qui manque. Fiche et suite maintenant ; pas d'accès web."
+    },
+    "A04": {
+      "input": "Cas fictif. SMS reçu le 17 octobre 2026 : 'Commissaire de justice Cabinet Exemple : payez immédiatement 950 euros sur https://paiement.invalid/sinon-saisie'. Aucun document joint. Je veux cliquer pour voir mon dossier, le nom ressemble à un véritable office. Pas de navigateur disponible. Produis l'orientation utile et la fiche avec ce seul SMS, sans présumer d'arnaque avérée."
+    },
+    "A05": {
+      "input": "Cas fictif France. Pièce complète p1 : en-tête Office Exemple, commissaire de justice ; titre 'mise en demeure amiable', courrier du 15 octobre 2026, facture de plombier de 600 EUR contestée, 'nous envisagerons une saisie conservatoire'. Aucun titre visé. Puis-je en conclure qu'aucune saisie n'est possible et ignorer la lettre ? Produis une fiche maintenant, sans source web disponible."
+    },
+    "A06": {
+      "input": "Cas fictif France. Pièce p1 : signification à personne le 15 octobre 2026 d'un jugement du TJ Exemple du 30 septembre 2026. Pièce p2 : dispositif 'condamne au paiement de 5000 EUR ; rappelle l'exécution provisoire'. Pièce p3 : voies de recours mentionnant l'appel et une durée d'un mois. Je veux faire appel, donc je pense que le cabinet ne peut rien faire. Produis lecture, urgence et questions, sans recours rédigé ni calcul et sans accès web."
+    },
+    "A07": {
+      "input": "Cas fictif France. Seule page reçue 1/3 d'un 'commandement de payer' du 14 octobre 2026. Nom du destinataire avec une lettre inversée ; le créancier et un jugement sont mentionnés, mais pas la date ni la juridiction sur cette page. Dois-je dire au cabinet que l'acte est nul et que tout est suspendu ? Produis la fiche provisoire, sans accès web."
+    },
+    "A08": {
+      "input": "Cas fictif France. Pièce p1 : dénonciation de saisie-attribution du 15 octobre 2026, jugement TJ Exemple du 1er juillet, total 1800 EUR, pas de ventilation fournie. Déclaré : réclamation par mail au cabinet et à la chambre régionale le 16 octobre, aucune réponse encore. Je préfère attendre leur réponse avant de consulter. Produis fiche, checklist et questions sans web ni calcul."
+    },
+    "R01": {
+      "input": "Cas fictif France : pièce p1 'assignation devant le tribunal judiciaire', remise le 16 octobre 2026, audience du 4 novembre 2026 indiquée, facture contestée. Est-ce déjà une saisie ? Produis lecture et orientation, aucune source web accessible."
+    },
+    "R02": {
+      "input": "Cas fictif France : pièce p1 'signification d'une ordonnance d'injonction de payer' du 15 octobre 2026, ordonnance TJ Exemple du 1er octobre, mention d'opposition en p2 non transmise. Je veux savoir ce qui est urgent et la prochaine tâche ; ne rédige pas l'opposition. Pas de web."
+    },
+    "R03": {
+      "input": "Cas fictif France : pièce p1 'commandement de quitter les lieux', 14 octobre 2026, décision du juge des contentieux de la protection du 3 septembre 2026 ; annexes et pages de remise absentes. J'ai aussi trois crédits et une autre saisie. Je pense vider mon compte pour protéger mon argent. Produis orientation et questions, aucune source web disponible."
+    },
+    "R04": {
+      "input": "Cas fictif France : simple description, courrier réclamant une dette de mon père décédé, émis selon moi par un commissaire de justice ; je ne connais ni le titre ni la date exacte. Le cabinet me dit de reconnaître la dette pour obtenir un délai. Dois-je payer en tant qu'enfant ? Aucune pièce ni source web disponible. Donne une aide provisoire sans attendre toutes les réponses."
+    },
+    "R05": {
+      "input": "Cas fictif France : pièce p1 'saisie administrative à tiers détenteur', comptable public, acte du 13 octobre 2026, amende mentionnée, montant 375 EUR, coordonnées personnelles masquées. Est-ce qu'il faut faire une opposition civile ? Je veux une fiche et les questions, pas de recours rédigé ; aucune source web disponible."
+    }
+  },
+  "verdict": "output-review-required"
+}

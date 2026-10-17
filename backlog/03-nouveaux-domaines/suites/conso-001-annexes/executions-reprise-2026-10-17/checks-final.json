@@ -1,0 +1,23 @@
+{
+  "returncode": 2,
+  "stdout": "A_RELIRE references/company-profile-template.md: mod�le partag� : /cold-start-interview absent ; v�rifier que le parcours ne charge pas ce mod�le\nA_RELIRE references/dashboard-template.md: chemin dynamique/profil � �prouver: ~/.claude/plugins/config/judge-fr-eu/<domain>/outputs/dashboard-<topic>-<date>.html\nA_RELIRE references/isolation.md: chemin dynamique/profil � �prouver: ~/.claude/plugins/config/judge-fr-eu/\nSTRUCTURE INCOMPLET: 9 fichiers Markdown; contr�le statique born�\nSCHEMA CLI: <home>\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe (--claude)\nValidating plugin manifest: <workspace>\\final-artifacts\\consumer-legal\\.claude-plugin\\plugin.json\n\nValidating plugin: <workspace>\\final-artifacts\\consumer-legal\\CLAUDE.md\n\n‼ Found 1 warning:\n\n  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.\n\ni Advice (does not change the verdict):\n\n  > <workspace>\\final-artifacts\\consumer-legal\\README.md: This README has no line that installs \"judge-fr-eu-consumer-legal\" from a marketplace. Add the install line, which works in one step on Claude Code 2.1.275 or later. Validate the folder that holds its marketplace.json to have <owner>/<repo> filled in, and the name its marketplace lists it under.\n      /plugin install judge-fr-eu-consumer-legal --marketplace <owner>/<repo>\n\n√ Validation passed with warnings\nSCHEMA OK: code 0\nEXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE\n",
+  "stderr": "",
+  "package_inventory": {
+    ".claude-plugin/plugin.json": "31a5c653ebd29d2de6b0a6e935aad0c98d81785d9adaccd29f6bd7c5c8f263fd",
+    "CLAUDE.md": "9d9c8e92ef67c00813a19f69a520a41723c06375de181917987491b9a6b956ca",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "10def1cc13dd1b8c75cfd7b451f71872d2f4d399855a20a4a39b6a09bfbf2152",
+    "README.md": "b9e369063880339ab7fc07f19ab843caeb4ce712345d71a6abfc026a695850c4",
+    "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "references/qualification-achat.md": "58c3f95d8e22987a501c3f9d180967c189743f1dfcf383ba071a3cfe0c37d4d7",
+    "references/shared/research-citation-method.md": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+    "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "skills/non-delivery-claim/references/non-livraison.md": "fe50607f8adbbc6f7050e17688f1fbc4e3569a62ae9851ac6c1377e7a37b0f94",
+    "skills/non-delivery-claim/SKILL.md": "5222ceee30acddf152c80835ab5c76369891d182af2caa11c39152c6469da683"
+  },
+  "schema_ok": true,
+  "structure_failed": false,
+  "behavior_replay": "not-run-quota"
+}

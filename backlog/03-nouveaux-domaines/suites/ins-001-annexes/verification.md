@@ -1,5 +1,7 @@
 # INS-001 — Bilan de livraison du paquet 0.1.0
 
+> Ce bilan initial est conservé comme historique. La [reprise du 17 octobre](#reprise-des-tests-client--17-octobre-2026) ci-dessous donne le dernier état.
+
 17 octobre 2026 (Europe/Paris). Statut : **à vérifier**.
 La demande d'implémentation sélectionne INS-001 et autorise création du paquet,
 inscription au marketplace et passage à 17 paquets/140 skills. L'ordre
@@ -94,3 +96,18 @@ réserves de sources avant d'appliquer les règles, puis observer les ressources
 sorties et limites de chaque scénario ; faire reformuler la prochaine démarche
 à un particulier. L'implémentation est livrée, les cases d'acceptation et le
 statut restent ouverts tant que ces observations manquent.
+
+## Reprise des tests client — 17 octobre 2026
+
+Douze scénarios préparés, sans nouvelle invocation : arrêt global après le refus de quota observé sur CRIM-001. Les anciennes preuves sont conservées et les cas sont marqués not-run-quota, pas réussis.
+
+[Résultats de cette série](executions-reprise-2026-10-17/results.json),
+[schéma/structure des copies initiales](executions-reprise-2026-10-17/checks.json),
+[empreintes inchangées](executions-reprise-2026-10-17/integrity.json).
+Les reprises et corrections conservent leurs propres journaux ;
+une réponse finale ne signifie pas que le scénario est validé.
+
+Détail des constats, limites et reprise : [bilan transversal](../../../recette-2026-10-17.md).
+La compréhension par un lecteur reste non observée ; l'utilisateur
+prend en charge sa relecture. Le blocage courant est le quota client
+et les validations comportementales restantes.

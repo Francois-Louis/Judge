@@ -35,3 +35,11 @@ added.
   README.md
   references/shared/research-citation-method.md
   skills/summons-reading/SKILL.md
+
+CRIM-001 runtime reprise (2026-10-17): version 0.1.2. C01-C07 produced client
+outputs; C08 was rejected by the account session quota, C09-C10 not attempted.
+Reserve minor/adult overlap, parent participation and individual attendance
+obligations without a current source. Do not infer regularity from a vague
+summons. Final instructions have not been replayed after quota exhaustion.
+  .claude-plugin/plugin.json
+  skills/summons-reading/SKILL.md

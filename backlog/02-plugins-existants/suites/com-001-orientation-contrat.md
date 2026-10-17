@@ -101,3 +101,14 @@ manifeste/README/NOTICE commerciaux, fixture de version BASE-008. Backlog :
 présente story, bilan et dossier de recette, état du découpage et index README.
 L'inventaire EXIST-001 demeure un relevé historique, sans mise à jour de ses
 empreintes comme si le plugin était resté inchangé.
+
+## Reprise des tests client — 17 octobre 2026
+
+C01–C07, C09 et C08-A/B : dix sorties ; C04 rejoué après une première correction. Les constats sur les règles de mémoire, la dette et le NDA ont conduit à commercial-legal 0.2.4. La formulation finale reste à rejouer.
+
+La relecture est prise en charge par l'utilisateur et ne bloque pas la
+clôture. Le statut reste `a-verifier` pour les défauts/rejeux et tests
+non exécutés, après épuisement du quota annoncé jusqu'à 16 h 40
+(Europe/Paris). Aucun critère métier non observé n'est déclaré réussi.
+
+[Bilan transversal et commande de reprise](../../recette-2026-10-17.md).

@@ -1,5 +1,7 @@
 # CONSO-001 — Bilan de l'implémentation
 
+> Ce bilan initial est conservé comme historique. La [reprise du 17 octobre](#reprise-des-tests-client--17-octobre-2026) ci-dessous donne le dernier état.
+
 17 octobre 2026 (Europe/Paris). Statut : `a-verifier`.
 
 Le paquet `consumer-legal` `0.1.0` fournit un seul skill,
@@ -88,3 +90,18 @@ Pour terminer la recette : installer seul le paquet dans un environnement
 authentifié de test autorisé, invoquer la commande sur les [fixtures](pieces-fictives.md),
 conserver traces/sorties/erreurs, puis relire les conclusions et faire
 reformuler par un lecteur réel. Aucun succès N01–N13 n'est revendiqué ici.
+
+## Reprise des tests client — 17 octobre 2026
+
+N01–N13 : quinze sorties avec N04 porte/voisin et N07 extérieur/panier séparés. Défauts de sources et de provenance corrigés dans consumer-legal 0.1.2 ; le développement de certaines variantes par le nouvel exécuteur a aussi été corrigé. Ces sorties ne valident pas les fixtures propres ni la version finale, à rejouer.
+
+[Résultats de cette série](executions-reprise-2026-10-17/results.json),
+[schéma/structure des copies initiales](executions-reprise-2026-10-17/checks.json),
+[empreintes inchangées](executions-reprise-2026-10-17/integrity.json).
+Les reprises et corrections conservent leurs propres journaux ;
+une réponse finale ne signifie pas que le scénario est validé.
+
+Détail des constats, limites et reprise : [bilan transversal](../../../recette-2026-10-17.md).
+La compréhension par un lecteur reste non observée ; l'utilisateur
+prend en charge sa relecture. Le blocage courant est le quota client
+et les validations comportementales restantes.

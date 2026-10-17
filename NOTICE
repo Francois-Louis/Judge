@@ -27,6 +27,27 @@ plugins" in profiles and customize skills are left unchanged.
   legal-builder-hub/skills/skill-manager/SKILL.md
   scripts/test-base008-isolation.py (11 plugins, 134 skills)
 
+Runtime recipes (2026-10-17, COM-001, CONSO-001, CRIM-001, BNK-001): detached
+client executions and a resumable runner; preserve historical evidence and
+distinguish completed execution, output findings and account quota rejection.
+Instructions tightened after observed unsourced claims and unsupported facts.
+Final behavioral replay remains pending after the session quota was exhausted.
+  scripts/recette-stories.py
+  scripts/test-base008-isolation.py
+  .claude-plugin/marketplace.json
+  commercial-legal/.claude-plugin/plugin.json
+  commercial-legal/skills/review/SKILL.md
+  commercial-legal/NOTICE
+  consumer-legal/.claude-plugin/plugin.json
+  consumer-legal/skills/non-delivery-claim/SKILL.md
+  consumer-legal/NOTICE
+  criminal-legal/.claude-plugin/plugin.json
+  criminal-legal/skills/summons-reading/SKILL.md
+  criminal-legal/NOTICE
+  banking-legal/.claude-plugin/plugin.json
+  banking-legal/skills/payment-dispute/SKILL.md
+  banking-legal/NOTICE
+
 Review workflow (2026-10-17, user request, no story): the user handles all
 human review; awaiting review alone no longer blocks story closure. Actual
 review results and outstanding technical checks remain explicit.

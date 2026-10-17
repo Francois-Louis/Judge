@@ -34,3 +34,11 @@ added.
   README.md
   references/shared/research-citation-method.md
   skills/non-delivery-claim/SKILL.md
+
+CONSO-001 runtime reprise (2026-10-17): version 0.1.2. Fifteen client outputs
+exposed unsupported negative facts and legal rules stated without a source
+re-read. Preserve unknown replies and reserve small-business, temporal and
+refund rules. Fixture expansion errors are recorded separately in the backlog.
+Final wording and corrected fixtures need replay after the account quota reset.
+  .claude-plugin/plugin.json
+  skills/non-delivery-claim/SKILL.md

@@ -1,7 +1,7 @@
 {
   "name": "judge-fr-eu-criminal-legal",
-  "version": "0.1.1",
-  "description": "Judge FR/UE 0.1.1 : lire une convocation de police ou de gendarmerie pour un majeur (CRIM-001). Fiche, inconnues et questions au service et à un avocat, sans profil, stockage ni envoi ; validation client et lecteur à compléter.",
+  "version": "0.1.2",
+  "description": "Judge FR/UE 0.1.2 : lire une convocation de police ou de gendarmerie pour un majeur (CRIM-001). Fiche, inconnues et questions au service et à un avocat, sans profil, stockage ni envoi ; validation client et lecteur à compléter.",
   "author": {
     "name": "Judge FR/UE maintainers"
   }

@@ -11,7 +11,7 @@ description: >
 
 # Lire une convocation de police ou de gendarmerie
 
-CRIM-001 — `0.1.0`, 17 octobre 2026. Aider la personne à comprendre le
+CRIM-001 — `0.1.2`, 17 octobre 2026. Aider la personne à comprendre le
 document et à préparer ses questions, dans des mots courants.
 
 ## Charger les ressources locales
@@ -72,6 +72,14 @@ références juridiques génériques, jamais les données du dossier.
    convocation. Un ton informel ne garantit pas l'absence de poursuites.
    Les conditions d'assistance d'un avocat et d'interprétation sont à vérifier,
    pas à nier faute de mention dans le courrier.
+   Pour un mineur, dire que le cadre des majeurs ne peut pas être transposé
+   automatiquement ; ne pas dire qu'aucun droit des adultes ne lui est
+   applicable. Demander à l'avocat de vérifier le rôle du parent, sans
+   présumer qu'il peut accompagner l'audition. Sans source actuelle lue, ne
+   pas déduire une obligation individuelle de se présenter d'une fiche de
+   maintenance : inviter à confirmer la conduite à tenir avec le service et
+   l'avocat, sans conseiller de manquer le rendez-vous. Une convocation vague
+   ne permet de conclure ni à sa régularité ni à son irrégularité.
 
 ## Restituer une fiche courte et utilisable
 

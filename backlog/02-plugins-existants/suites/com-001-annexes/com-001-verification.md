@@ -1,5 +1,7 @@
 # COM-001 — Bilan de l'orientation contractuelle
 
+> Ce bilan initial est conservé comme historique. La [reprise du 17 octobre](#reprise-des-tests-client--17-octobre-2026) ci-dessous donne le dernier état.
+
 16 octobre 2026, Europe/Paris. Story [COM-001](../com-001-orientation-contrat.md),
 plugin principal `judge-fr-eu-commercial-legal` **0.2.0**, skill canonique `review`.
 État : **implémenté, à vérifier**. Le résultat est borné à l'orientation ; les
@@ -107,3 +109,18 @@ C09, conserver messages/outils/ressources et relire les sorties ; rejouer sans
 profil et sans source. Faire reformuler à un lecteur réel. Toute conclusion
 dépendant de F1/F2 nécessite la source exacte/version applicable. Pas de
 lancement automatique de COM-002 ou d'élargissement à l'issue de ces contrôles.
+
+## Reprise des tests client — 17 octobre 2026
+
+C01–C07, C09 et C08-A/B : dix sorties ; C04 rejoué après une première correction. Les constats sur les règles de mémoire, la dette et le NDA ont conduit à commercial-legal 0.2.4. La formulation finale reste à rejouer.
+
+[Résultats de cette série](executions-reprise-2026-10-17/results.json),
+[schéma/structure des copies initiales](executions-reprise-2026-10-17/checks.json),
+[empreintes inchangées](executions-reprise-2026-10-17/integrity.json).
+Les reprises et corrections conservent leurs propres journaux ;
+une réponse finale ne signifie pas que le scénario est validé.
+
+Détail des constats, limites et reprise : [bilan transversal](../../../recette-2026-10-17.md).
+La compréhension par un lecteur reste non observée ; l'utilisateur
+prend en charge sa relecture. Le blocage courant est le quota client
+et les validations comportementales restantes.

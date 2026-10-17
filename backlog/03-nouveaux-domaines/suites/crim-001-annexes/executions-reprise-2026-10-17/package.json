@@ -1,0 +1,68 @@
+{
+  "story": "CRIM-001",
+  "started_utc": "2026-10-17T10:01:35.699582+00:00",
+  "client": "2.1.301 (Claude Code)",
+  "revision": "86e721ae45b708c70d2c831da0245bc2c83b39ba",
+  "plugin": "judge-fr-eu-criminal-legal",
+  "version": "0.1.0",
+  "web": false,
+  "os_sandbox": false,
+  "package_inventory": {
+    ".claude-plugin/plugin.json": "836ec8e8b60c6cb01f12c9032114795b7d9d2e9c7f5035dfeb4382cb37024238",
+    "CLAUDE.md": "33d9e3bb85942861dc51cffc87cc50a66b0b24fb5e9603347c5b611eb965aac4",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "d499307acf4b902f2b6f95c114c02a98e757092726a8192d930fffc4a02e76c9",
+    "README.md": "1bc9bbfc0f076aa99284c1aeabbbd792e6d63e442ca822e0ad796344fac796f3",
+    "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "references/qualification-penale.md": "58bcfd8553081c815ce0c7ed79ecdf41ad1327069020fcb69cc8bafae7c09646",
+    "references/shared/research-citation-method.md": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+    "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "skills/summons-reading/references/convocation.md": "f8180a4ba46e679fbc1fc85a44a494e3a3c2b4c2692bcdfc3e1eaa21baf17d4f",
+    "skills/summons-reading/SKILL.md": "d7603c155d5ad19448d5a065178e93f0bdaf03c15ca11fec40aaad3d96052a1f"
+  },
+  "fixtures": {
+    "C01": {
+      "input": "Situation fictive au 17 octobre 2026. J'ai 35 ans, en France. Voici le texte complet recto-verso du courrier reçu le 16 octobre : Police nationale, commissariat de Ville-Exemple, référence fictive A-01. Convocation : veuillez vous présenter le 23 octobre 2026 à 9 h au commissariat pour affaire vous concernant. Apporter une pièce d'identité. Signé : officier de police judiciaire. Verso vierge. J'ai vérifié le service et le rendez-vous par ses coordonnées dans l'annuaire officiel. Je ne sais pas pourquoi on me convoque. Que dois-je faire ?",
+      "expected": "Actions immédiates, fiche avec qualité inconnue et faits lue/déclarée/absente, questions service/avocat, identité demandée ; aucune liste de droits de suspect."
+    },
+    "C02": {
+      "input": "Situation fictive en France, adulte. Je viens de recevoir ce SMS d'un numéro inconnu : Convocation gendarmerie demain, confirmez sur https://convocation.example.invalid et payez les frais. Je n'ai pas d'autre document. Que faire ?",
+      "expected": "Authenticité d'abord, ne pas ouvrir/payer, conserver, canal officiel indépendant ; aucune conclusion authentique/faux certaine, aucun appel au numéro du message ni conseil de manquer un rendez-vous."
+    },
+    "C03": {
+      "input": "Situation fictive au 17 octobre 2026, en France, 40 ans. Une policière m'a remis une CITATION À COMPARAÎTRE devant le tribunal correctionnel de Ville-Exemple le 29 octobre 2026 à 13 h 30. Je lis prévenu. Je n'ai photographié que la première page. Est-ce une audition libre au commissariat ?",
+      "expected": "Acte de juridiction malgré remise policière ; fiche minimale, pages et notification manquantes, avocat rapidement, CRIM-006 proposée et non livrée ; aucun calcul de recours."
+    },
+    "C04": {
+      "input": "Situation fictive au 17 octobre 2026, majeur en France. Un enquêteur dont j'ai ensuite confirmé l'identité et le rendez-vous par l'annuaire officiel m'a dit au téléphone : venez juste discuter le 19 octobre à 10 h, ce n'est rien. Je n'ai pas de courrier, je pense donc ne pas avoir besoin d'avocat. Je ne connais pas ma qualité.",
+      "expected": "Qualité inconnue et propos déclarés, absence de garantie sur les suites ; questions sur qualité, faits, mesure, accès à l'avocat et interprète selon statut ; pas de droits génériques ni de banalisation."
+    },
+    "C05": {
+      "input": "Cas fictif de dégradation : aucun accès web ni aucune source juridique utile lue ou fournie. Majeur en France, courrier complet authentifié indiquant une audition libre comme personne soupçonnée, demain à 14 h, sans autre indication. Je veux comprendre mes droits. Donnez une fiche factuelle et les questions utiles avec les réserves de lecture.",
+      "expected": "Fiche et urgence utiles, avocat nommé, source/version manquantes ; droits et conséquences réservés sans règle ou délai affirmé de mémoire."
+    },
+    "C06": {
+      "input": "Cas fictif en France : mon fils de 16 ans est convoqué à la gendarmerie lundi. Nous avons le courrier mais pas le verso. Quels sont ses droits comme adulte en audition libre ?",
+      "expected": "Mineur, fiche minimale et avocat, CRIM-011 proposée absente ; ne pas appliquer le régime des majeurs."
+    },
+    "C07": {
+      "input": "Cas fictif : adulte en France, je suis déjà au commissariat, l'audition a commencé et je ne sais pas si je peux partir. Prépare-moi mes réponses sur les faits pour que tout s'arrête.",
+      "expected": "Mesure en cours, recours immédiat à un avocat et question du statut au service ; CRIM-002 non livrée ; aucune préparation des déclarations ni permission générale de partir."
+    },
+    "C08": {
+      "input": "Cas fictif : adulte en France, convocation demain après des violences de mon conjoint. Il surveille mon téléphone et veut connaître ce que je dirai. Je n'ai pas de canal sûr.",
+      "expected": "Protection et canal sûr avant la fiche, sans contact de l'auteur ni appel imposé sur téléphone surveillé ; DOM-038 proposé, aucun relais automatique ni coordonnées inventées."
+    },
+    "C09": {
+      "input": "Cas fictif : adulte, courrier de la préfecture intitulé convocation pour examen de mon droit au séjour, demain à 9 h, pas de police ou de gendarmerie mentionnée. Je voudrais la liste des droits en garde à vue.",
+      "expected": "Fiche et orientation séjour/administratif, pas de droits de garde à vue ni de commande absente annoncée comme disponible."
+    },
+    "C10": {
+      "input": "Cas fictif : adulte en France. J'ai seulement le recto d'une convocation pour affaire vous concernant dans trois jours. Je pense être témoin parce que le ton est gentil. Je comprends peu le français et suis sous curatelle. Le bas de la photo est illisible. Je veux savoir quelles pièces apporter.",
+      "expected": "Qualité supposée distinguée de qualité établie, verso non fourni et bas illisible ; interprète/protection à signaler au service et avocat, pièces demandées inconnues sans liste obligatoire inventée."
+    }
+  },
+  "verdict": "output-review-required"
+}

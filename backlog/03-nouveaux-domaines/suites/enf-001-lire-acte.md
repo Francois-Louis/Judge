@@ -147,3 +147,14 @@ résultats statiques, le schéma, la limite client et la recette restant à fair
 Les accès et réserves des sources sont consignés dans lecture-acte.md livré.
 Une installation en environnement réellement isolé et une lecture par une
 personne sans formation juridique restent à recetter. Statut `a-verifier`.
+
+## Reprise des tests client — 17 octobre 2026
+
+Treize scénarios préparés, sans nouvelle invocation : arrêt global après le refus de quota observé sur CRIM-001. Les anciennes preuves sont conservées et les cas sont marqués not-run-quota, pas réussis.
+
+La relecture est prise en charge par l'utilisateur et ne bloque pas la
+clôture. Le statut reste `a-verifier` pour les défauts/rejeux et tests
+non exécutés, après épuisement du quota annoncé jusqu'à 16 h 40
+(Europe/Paris). Aucun critère métier non observé n'est déclaré réussi.
+
+[Bilan transversal et commande de reprise](../../recette-2026-10-17.md).

@@ -81,6 +81,19 @@ En mode sans source relue, formuler une demande de preuves sans affirmer
 juridiquement à qui incombe la preuve : « demandons les éléments sur lesquels
 la banque fonde sa réponse ». Réserver aussi cette règle de preuve.
 Le calcul de délai, de franchise et de pénalités reste exclu même avec les textes.
+La réserve doit accompagner chaque point dépendant, pas seulement la dernière
+rubrique. Sans texte relu, ne pas affirmer « une authentification ne suffit
+pas à prouver le consentement » : demander ce qui a été validé et les éléments
+sur lesquels la banque fonde sa réponse, en réservant leur portée juridique.
+Ne pas nommer un téléservice de mémoire, même avec « à vérifier » ; demander
+à la personne de rechercher la démarche sur le site officiel de l'autorité.
+Pour le litige de livraison, ne pas annoncer que « le vendeur vous doit la
+livraison ou le remboursement » : ces droits dépendent du régime encore à
+vérifier. Orienter le fond au vendeur et limiter la demande bancaire aux
+conditions de rétrofacturation ; ne pas fabriquer une date de livraison puis
+un remboursement automatique dans un brouillon. Dire que la seule non-livraison
+n'appelle pas d'opposition, sans exclure d'autres motifs de sécurisation
+si les faits changent. Une liste d'actions utiles n'épuise pas tous les recours.
 
 ## Préparer la réclamation adaptée
 

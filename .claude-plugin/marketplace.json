@@ -11,7 +11,7 @@
       "name": "judge-fr-eu-commercial-legal",
       "displayName": "Judge FR/UE — Commercial Legal",
       "source": "./commercial-legal",
-      "description": "Judge FR/UE 0.2.3 : orientation contractuelle France/UE sans profil obligatoire (COM-001) ; domaine, rôle achat/vente, tâche, pièces et questions utiles. Revues, registres et agents hérités non adaptés ; aucune branche aval automatique. Validation client/utilisateur à compléter.",
+      "description": "Judge FR/UE 0.2.4 : orientation contractuelle France/UE sans profil obligatoire (COM-001) ; domaine, rôle achat/vente, tâche, pièces et questions utiles. Revues, registres et agents hérités non adaptés ; aucune branche aval automatique. Validation client/utilisateur à compléter.",
       "author": {
         "name": "Anthropic"
       }
@@ -108,7 +108,7 @@
     },
     {
       "name": "judge-fr-eu-banking-legal",
-      "description": "Judge FR/UE 0.1.2 : qualifier un paiement contesté et préparer une réclamation pour une opération non autorisée sur un compte personnel. Tromperie et litige commercial : urgence et orientation. Aucun envoi ni calcul de délai ou de franchise.",
+      "description": "Judge FR/UE 0.1.3 : qualifier un paiement contesté et préparer une réclamation pour une opération non autorisée sur un compte personnel. Tromperie et litige commercial : urgence et orientation. Aucun envoi ni calcul de délai ou de franchise.",
       "author": {
         "name": "Judge FR/UE maintainers"
       },
@@ -119,7 +119,7 @@
       "name": "judge-fr-eu-consumer-legal",
       "displayName": "Judge FR/UE — Consommation",
       "source": "./consumer-legal",
-      "description": "Judge FR/UE 0.1.1 : préparer une réclamation pour un bien commandé à distance à un vendeur professionnel et non livré (CONSO-001). Fiche, chronologie, pièces et brouillon sans profil obligatoire ni envoi ; validation client et lecteur à compléter.",
+      "description": "Judge FR/UE 0.1.2 : préparer une réclamation pour un bien commandé à distance à un vendeur professionnel et non livré (CONSO-001). Fiche, chronologie, pièces et brouillon sans profil obligatoire ni envoi ; validation client et lecteur à compléter.",
       "author": {
         "name": "Judge FR/UE maintainers"
       }
@@ -137,7 +137,7 @@
       "name": "judge-fr-eu-criminal-legal",
       "displayName": "Judge FR/UE — Police et procédure pénale",
       "source": "./criminal-legal",
-      "description": "Judge FR/UE 0.1.1 : lire une convocation de police ou de gendarmerie pour un majeur (CRIM-001). Fiche, inconnues et questions au service et à un avocat, sans profil, stockage ni envoi ; validation client et lecteur à compléter.",
+      "description": "Judge FR/UE 0.1.2 : lire une convocation de police ou de gendarmerie pour un majeur (CRIM-001). Fiche, inconnues et questions au service et à un avocat, sans profil, stockage ni envoi ; validation client et lecteur à compléter.",
       "author": {
         "name": "Judge FR/UE maintainers"
       }

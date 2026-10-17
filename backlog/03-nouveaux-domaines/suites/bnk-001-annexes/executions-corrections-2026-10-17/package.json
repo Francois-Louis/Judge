@@ -1,0 +1,38 @@
+{
+  "story": "BNK-001",
+  "started_utc": "2026-10-17T10:04:29.994782+00:00",
+  "client": "2.1.301 (Claude Code)",
+  "revision": "86e721ae45b708c70d2c831da0245bc2c83b39ba",
+  "plugin": "judge-fr-eu-banking-legal",
+  "version": "0.1.2",
+  "web": false,
+  "os_sandbox": false,
+  "package_inventory": {
+    ".claude-plugin/plugin.json": "c30aa796f2a9137eeaa852d8a8e8297b269978cbed3110d2e50afc58c9efdeaa",
+    "CLAUDE.md": "e75780c20b37db14ad9b34bbb26611569e804dee7f4b07c4b5711b8e05b7d9dc",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "27a7147f04fa8992c7d8c190fc4766f00fb951bafb64b987856eb2791cbdf1d3",
+    "README.md": "cc3e73822bf228cf00d35761adf21c4487dd73d05a7834a1e047670799f0d228",
+    "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "references/paiements.md": "6705ee8519bb08373e5e881c6ab0e9bde84ea10fbadf55bc5e3c6a5a7ff4e25b",
+    "references/qualification-bancaire.md": "20f93061010a5195a24cdde7bd01bd624d6b5ae75ab69fdc8a218241fb8acca3",
+    "references/shared/research-citation-method.md": "325b6783b5b9130a44fc8fb1d22032b666550132854aa43181b2195c6718fa52",
+    "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "skills/payment-dispute/references/reclamation-paiement.md": "b2b6401e3e14aa5afee590dbd333e10b05ddebfbed35176955fce9af5b04fcd6",
+    "skills/payment-dispute/SKILL.md": "ee3d0c6aed677d1405039252a4061cdc99be097656afa5bc4a1e3a3bfc44ad2b"
+  },
+  "fixtures": {
+    "P01": {
+      "input": "Je suis un particulier, compte personnel chez une banque en France métropolitaine. Mon relevé montre trois paiements carte en ligne inconnus le 15/10/2026 : 89 EUR SHOP A, 140 EUR SHOP B, 32 EUR SHOP C. Je garde ma carte et je n'ai rien validé. Découvert ce matin le 17/10. Pas encore d'opposition ni de signalement. Pays du prestataire du bénéficiaire inconnu. Aide-moi à contester et prépare mon courrier."
+    },
+    "P02": {
+      "input": "Un prétendu conseiller m'a appelé hier. J'ai validé dans mon application pour annuler ce qu'il appelait une fraude ; 920 EUR ont été débités. Je suis en France et mon compte est personnel. Je ne sais plus ce qu'affichait le message. Je n'ai pas encore prévenu ma banque. Que faire ?"
+    },
+    "P03": {
+      "input": "J'ai payé volontairement 180 EUR par carte une commande jamais livrée. Le vendeur ne répond pas. Je veux savoir quoi demander à ma banque et au vendeur. Compte personnel et banque en France. Puis-je récupérer mon argent ?"
+    }
+  },
+  "verdict": "output-review-required"
+}

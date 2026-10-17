@@ -1,5 +1,7 @@
 # CRIM-001 — Bilan de recette du 17 octobre 2026
 
+> Ce bilan initial est conservé comme historique. La [reprise du 17 octobre](#reprise-des-tests-client--17-octobre-2026) ci-dessous donne le dernier état.
+
 Périmètre : `criminal-legal` `0.1.0`, seul skill `summons-reading`, personne
 majeure convoquée en France par la police ou la gendarmerie. Statut de la
 story : `a-verifier`. Aucun succès comportemental C01–C10 n'est revendiqué.
@@ -106,3 +108,18 @@ environnement isolé autorisé, conserver appels, ressources lues, sorties et
 erreurs pour C01–C10, relire les conclusions et les textes pertinents, puis
 faire reformuler les prochaines démarches à un participant réel. Aucun
 nouveau plugin ni profil n'est nécessaire pour accomplir cette tâche.
+
+## Reprise des tests client — 17 octobre 2026
+
+C01–C07 ont produit une sortie. C08 est refusé par le quota ; C09–C10 non lancés. Les formulations sur mineur, accompagnement parental, obligation de présentation et régularité sont précisées dans criminal-legal 0.1.2 ; rejeu final non exécuté.
+
+[Résultats de cette série](executions-reprise-2026-10-17/results.json),
+[schéma/structure des copies initiales](executions-reprise-2026-10-17/checks.json),
+[empreintes inchangées](executions-reprise-2026-10-17/integrity.json).
+Les reprises et corrections conservent leurs propres journaux ;
+une réponse finale ne signifie pas que le scénario est validé.
+
+Détail des constats, limites et reprise : [bilan transversal](../../../recette-2026-10-17.md).
+La compréhension par un lecteur reste non observée ; l'utilisateur
+prend en charge sa relecture. Le blocage courant est le quota client
+et les validations comportementales restantes.

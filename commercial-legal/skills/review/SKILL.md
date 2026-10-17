@@ -45,6 +45,18 @@ est illisible ou un accès manque, demander le fichier, l'extrait utile ou sa
 retranscription et donner l'orientation conditionnelle possible sur le récit.
 Ne pas explorer d'autres dossiers. DocuSign et Slack ne sont pas requis.
 Sans accès aux sources officielles, réserver les conclusions de droit.
+Une réserve finale ne permet pas d'énoncer auparavant une règle « de mémoire »
+ou sous la rubrique « hypothèses ». Sans texte relu, garder une question à
+vérifier : par exemple, « les horaires et le contrôle décrits au §7 justifient
+une analyse en droit du travail ; la qualification reste à vérifier ». Ne pas
+énoncer le test juridique de qualification ni l'effet d'une clause de mémoire.
+Cette limite vaut dès l'introduction. Pour une facture contestée, dire
+« solde arithmétique apparent, à rapprocher des pièces » ; jamais « le client
+doit sans doute » avant d'avoir vérifié la créance. Pour un NDA, demander à
+qui les clauses imposent des obligations sans présumer la partie protégée,
+leur validité, leur caractère inhabituel ou leur effet favorable. Deux parties
+françaises ne suffisent pas à exclure une question de loi applicable : relever
+les rattachements manquants et réserver cette question.
 
 ## Parcours
 

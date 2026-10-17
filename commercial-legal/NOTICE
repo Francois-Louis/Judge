@@ -32,6 +32,14 @@ Files added or modified for this package:
   skills/stakeholder-summary/SKILL.md
   skills/vendor-agreement-review/SKILL.md
 
+COM-001 runtime reprise (2026-10-17): version 0.2.4. Ten initial client
+outputs and a targeted C04 replay exposed claims from memory and premature
+debt/NDA conclusions. Tighten source and factual limits throughout the reply.
+The first C04 correction was replayed; subsequent wording needs a fresh run
+after the account session limit. No legal outcome certified.
+  .claude-plugin/plugin.json
+  skills/review/SKILL.md
+
 COM-001 changes (2026-10-16): scoped France/EU contract orientation without
 mandatory practice setup. Version 0.2.0. No inherited downstream legal review
 is adapted or launched; client/reader validation remains pending. Shared

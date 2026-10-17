@@ -1,0 +1,467 @@
+[
+  {
+    "case": "C01",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.32105,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-criminal-legal",
+        "path": "<workspace>\\CRIM-001\\criminal-legal",
+        "source": "judge-fr-eu-criminal-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/qualification-penale.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/skills/summons-reading/references/convocation.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "C02",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.29411499999999996,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-criminal-legal",
+        "path": "<workspace>\\CRIM-001\\criminal-legal",
+        "source": "judge-fr-eu-criminal-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/qualification-penale.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/skills/summons-reading/references/convocation.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "C03",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3032574,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-criminal-legal",
+        "path": "<workspace>\\CRIM-001\\criminal-legal",
+        "source": "judge-fr-eu-criminal-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/qualification-penale.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/skills/summons-reading/references/convocation.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "C04",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3017742,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-criminal-legal",
+        "path": "<workspace>\\CRIM-001\\criminal-legal",
+        "source": "judge-fr-eu-criminal-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/qualification-penale.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/skills/summons-reading/references/convocation.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "C05",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3271654,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-criminal-legal",
+        "path": "<workspace>\\CRIM-001\\criminal-legal",
+        "source": "judge-fr-eu-criminal-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/qualification-penale.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/skills/summons-reading/references/convocation.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "C06",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.2912866,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-criminal-legal",
+        "path": "<workspace>\\CRIM-001\\criminal-legal",
+        "source": "judge-fr-eu-criminal-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/qualification-penale.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/skills/summons-reading/references/convocation.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "C07",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.2835354,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-criminal-legal",
+        "path": "<workspace>\\CRIM-001\\criminal-legal",
+        "source": "judge-fr-eu-criminal-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/qualification-penale.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/skills/summons-reading/references/convocation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CRIM-001/criminal-legal/references/shared/research-citation-method.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "C08",
+    "execution_status": "blocked-quota",
+    "returncode": 1,
+    "subtype": "success",
+    "is_error": true,
+    "errors": [],
+    "cost_usd": 0,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-criminal-legal",
+        "path": "<workspace>\\CRIM-001\\criminal-legal",
+        "source": "judge-fr-eu-criminal-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [],
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "C09",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  },
+  {
+    "case": "C10",
+    "execution_status": "not-run-quota",
+    "verdict": "not-evaluated"
+  }
+]

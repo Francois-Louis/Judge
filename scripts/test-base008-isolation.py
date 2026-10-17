@@ -101,8 +101,8 @@ class MigratedPackages(unittest.TestCase):
             self.assertEqual(manifest["name"], "judge-fr-eu-" + domain)
             expected_author = "Judge FR/UE maintainers" if domain in {"banking-legal", "consumer-legal", "enforcement-legal", "criminal-legal", "funeral-legal", "insurance-legal"} else "Anthropic"
             self.assertEqual(manifest["author"]["name"], expected_author)
-            expected_version = {"employment-legal": "0.3.6", "commercial-legal": "0.2.3",
-                                "banking-legal": "0.1.2", "consumer-legal": "0.1.1", "enforcement-legal": "0.1.1", "criminal-legal": "0.1.1", "funeral-legal": "0.1.1", "insurance-legal": "0.1.1"}.get(domain, "0.1.3")
+            expected_version = {"employment-legal": "0.3.6", "commercial-legal": "0.2.4",
+                                "banking-legal": "0.1.3", "consumer-legal": "0.1.2", "enforcement-legal": "0.1.1", "criminal-legal": "0.1.2", "funeral-legal": "0.1.1", "insurance-legal": "0.1.1"}.get(domain, "0.1.3")
             self.assertEqual(manifest["version"], expected_version)
             self.assertEqual((package / "LICENSE").read_bytes(), (ROOT / "LICENSE").read_bytes())
             self.assertTrue((package / "NOTICE").is_file())

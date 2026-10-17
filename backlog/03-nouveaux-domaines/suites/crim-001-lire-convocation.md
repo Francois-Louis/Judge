@@ -148,3 +148,14 @@ Voir le [bilan par couche](crim-001-annexes/verification.md), les
 Les cases comportementales restent ouvertes tant que les sorties réelles
 et la compréhension par un lecteur sans formation juridique ne sont pas
 vérifiées. Statut `a-verifier`, sans recette fictivement déclarée réussie.
+
+## Reprise des tests client — 17 octobre 2026
+
+C01–C07 ont produit une sortie. C08 est refusé par le quota ; C09–C10 non lancés. Les formulations sur mineur, accompagnement parental, obligation de présentation et régularité sont précisées dans criminal-legal 0.1.2 ; rejeu final non exécuté.
+
+La relecture est prise en charge par l'utilisateur et ne bloque pas la
+clôture. Le statut reste `a-verifier` pour les défauts/rejeux et tests
+non exécutés, après épuisement du quota annoncé jusqu'à 16 h 40
+(Europe/Paris). Aucun critère métier non observé n'est déclaré réussi.
+
+[Bilan transversal et commande de reprise](../../recette-2026-10-17.md).

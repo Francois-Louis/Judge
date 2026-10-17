@@ -73,6 +73,7 @@ Les arbitrages ultérieurs sont consignés dans les
 | Audit initial du fork (15 octobre 2026) | [Relevé BASE-001](00-fondations/base-001-annexes/base-001-releve-audit.md) |
 | Bilans d'epic | [Fondations](00-fondations/retrospective-fondations.md), [pilote travail](01-pilote-travail/retrospective-pilote-travail.md), [usages quotidiens](05-usages-quotidiens/retrospective-usages-quotidiens.md) |
 | Premier lot livré | [LIV-001](04-livraison/liv-001-livrer-lot-borne.md), [notes de version](04-livraison/liv-001-annexes/liv-001-notes-version.md) |
+| Reprise des tests client des sept stories | [Recette du 17 octobre 2026](recette-2026-10-17.md) : sorties, défauts, quota et commande de reprise |
 
 Chaque cadrage EXIST ou DOM a dans ses annexes un `*-decoupage-*.md` qui
 liste ses suites, et le plus souvent un `*-frictions-utilisateurs.md` qui

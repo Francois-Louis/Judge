@@ -3,6 +3,14 @@ Copyright 2026 Judge FR/UE maintainers.
 Derived shared resources: Copyright 2026 Anthropic PBC.
 
 Licensed under the Apache License, Version 2.0; see LICENSE.
+
+BNK-001 runtime reprise (2026-10-17): version 0.1.3. P01 probe and P01-P03
+replays on detached packages; remove a rule/service named from memory and
+reserve merchant remedies and opposition advice to verified facts/sources.
+P03 still exposed overbroad delivery/refund wording; final clarification is
+not behaviorally replayed because the account session quota was exhausted.
+  .claude-plugin/plugin.json
+  skills/payment-dispute/SKILL.md
 Shared templates, research method and storage boundary/helper derive from
 the repository's Claude for Legal / Anthropic fork; their original notices
 are preserved in the copied files. See the repository NOTICE for provenance.

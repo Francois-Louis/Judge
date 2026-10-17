@@ -1,5 +1,7 @@
 # FUN-001 — Bilan de livraison du paquet 0.1.0
 
+> Ce bilan initial est conservé comme historique. La [reprise du 17 octobre](#reprise-des-tests-client--17-octobre-2026) ci-dessous donne le dernier état.
+
 17 octobre 2026 (Europe/Paris). Statut : **à vérifier**.
 Sélection et inscription au marketplace autorisées par la demande explicite
 d'implémentation de FUN-001 ; aucun paquet vide ni skill supplémentaire.
@@ -105,3 +107,18 @@ de chaque sortie, puis faire reformuler la prochaine démarche à un proche.
 Le contrôle sans web et les cas transitoires restent obligatoires. Le paquet
 est implémenté ; ni les critères comportementaux ni la compréhension réelle
 ne sont clôturés par ce bilan.
+
+## Reprise des tests client — 17 octobre 2026
+
+Douze scénarios préparés, sans nouvelle invocation : arrêt global après le refus de quota observé sur CRIM-001. Les anciennes preuves sont conservées et les cas sont marqués not-run-quota, pas réussis.
+
+[Résultats de cette série](executions-reprise-2026-10-17/results.json),
+[schéma/structure des copies initiales](executions-reprise-2026-10-17/checks.json),
+[empreintes inchangées](executions-reprise-2026-10-17/integrity.json).
+Les reprises et corrections conservent leurs propres journaux ;
+une réponse finale ne signifie pas que le scénario est validé.
+
+Détail des constats, limites et reprise : [bilan transversal](../../../recette-2026-10-17.md).
+La compréhension par un lecteur reste non observée ; l'utilisateur
+prend en charge sa relecture. Le blocage courant est le quota client
+et les validations comportementales restantes.

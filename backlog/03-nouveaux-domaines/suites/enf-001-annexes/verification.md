@@ -1,5 +1,7 @@
 # ENF-001 — Implémentation et vérification
 
+> Ce bilan initial est conservé comme historique. La [reprise du 17 octobre](#reprise-des-tests-client--17-octobre-2026) ci-dessous donne le dernier état.
+
 17 octobre 2026 (Europe/Paris). enforcement-legal `0.1.0`, un seul skill
 enforcement-act-reading. Aucun dossier réel utilisé. Relecture du rédacteur,
 sans revue juridique indépendante ni test avec un lecteur réel.
@@ -103,3 +105,18 @@ réponses aux critères et corriger si nécessaire. Compléter les versions
 officielles utiles, recetter une installation avec HOME/checkout inaccessibles
 et faire relire la réponse par une personne sans formation juridique.
 L'implémentation est livrée ; la story reste `a-verifier`.
+
+## Reprise des tests client — 17 octobre 2026
+
+Treize scénarios préparés, sans nouvelle invocation : arrêt global après le refus de quota observé sur CRIM-001. Les anciennes preuves sont conservées et les cas sont marqués not-run-quota, pas réussis.
+
+[Résultats de cette série](executions-reprise-2026-10-17/results.json),
+[schéma/structure des copies initiales](executions-reprise-2026-10-17/checks.json),
+[empreintes inchangées](executions-reprise-2026-10-17/integrity.json).
+Les reprises et corrections conservent leurs propres journaux ;
+une réponse finale ne signifie pas que le scénario est validé.
+
+Détail des constats, limites et reprise : [bilan transversal](../../../recette-2026-10-17.md).
+La compréhension par un lecteur reste non observée ; l'utilisateur
+prend en charge sa relecture. Le blocage courant est le quota client
+et les validations comportementales restantes.

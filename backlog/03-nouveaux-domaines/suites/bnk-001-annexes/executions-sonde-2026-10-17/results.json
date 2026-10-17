@@ -1,0 +1,8 @@
+{
+  "case": "P01",
+  "plugin_version": "0.1.1",
+  "execution_status": "completed",
+  "verdict": "correction-required",
+  "defect": "Authentication/consent rule asserted without current source; service named from memory.",
+  "cost_usd": 0.37459939999999997
+}

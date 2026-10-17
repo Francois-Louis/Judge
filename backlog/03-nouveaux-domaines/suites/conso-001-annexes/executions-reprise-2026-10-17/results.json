@@ -1,0 +1,909 @@
+[
+  {
+    "case": "N01",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.37062660000000003,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N02",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3730473999999999,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N03",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.34075839999999996,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N05",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.39777320000000005,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N06",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3676024,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N08",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3272436,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N09",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3826496,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N10",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3438176,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N11",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3430196,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      },
+      {
+        "name": "Glob",
+        "input": {
+          "pattern": "**/*",
+          "path": "<workspace>\\CONSO-001\\project"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N12",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3470424,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N13",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3896248,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N04-porte",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3884556,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N04-voisin",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3782236,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N07-exterieur",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3904412,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "N07-panier",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.41620039999999997,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-consumer-legal",
+        "path": "<workspace>\\CONSO-001\\consumer-legal",
+        "source": "judge-fr-eu-consumer-legal@inline",
+        "version": "0.1.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/references/qualification-achat.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/CONSO-001/consumer-legal/skills/non-delivery-claim/references/non-livraison.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  }
+]

@@ -1,7 +1,7 @@
 {
   "name": "judge-fr-eu-commercial-legal",
-  "version": "0.2.3",
-  "description": "Judge FR/UE 0.2.3 : orientation contractuelle France/UE sans profil obligatoire (COM-001) ; domaine, rôle achat/vente, tâche, pièces et questions utiles. Revues, registres et agents hérités non adaptés ; aucune branche aval automatique. Validation client/utilisateur à compléter.",
+  "version": "0.2.4",
+  "description": "Judge FR/UE 0.2.4 : orientation contractuelle France/UE sans profil obligatoire (COM-001) ; domaine, rôle achat/vente, tâche, pièces et questions utiles. Revues, registres et agents hérités non adaptés ; aucune branche aval automatique. Validation client/utilisateur à compléter.",
   "author": {
     "name": "Anthropic"
   },

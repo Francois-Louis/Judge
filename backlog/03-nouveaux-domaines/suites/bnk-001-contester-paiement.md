@@ -150,3 +150,14 @@ P05/P07–P12 sont bloqués par la limite de session du compte.
 Les cases ci-dessus restent ouvertes : corrections finales non réexécutées,
 sources partiellement inaccessibles, installation isolée et lecteur réel
 non validés. L'implémentation est livrée, la recette complète reste à vérifier.
+
+## Reprise des tests client — 17 octobre 2026
+
+Sonde P01 en 0.1.1, puis P01–P03 en 0.1.2 intermédiaire. Les réserves de preuve et de téléservice sont améliorées. P03 appelle encore une correction livraison/remboursement et opposition ; formulation finale 0.1.3 non rejouée. P04–P12 sans nouveau résultat.
+
+La relecture est prise en charge par l'utilisateur et ne bloque pas la
+clôture. Le statut reste `a-verifier` pour les défauts/rejeux et tests
+non exécutés, après épuisement du quota annoncé jusqu'à 16 h 40
+(Europe/Paris). Aucun critère métier non observé n'est déclaré réussi.
+
+[Bilan transversal et commande de reprise](../../recette-2026-10-17.md).
