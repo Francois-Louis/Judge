@@ -1,0 +1,314 @@
+{
+  "story": "BASE-015",
+  "outil": "urllib (voie Bash/Python d'une session)",
+  "user_agent": "Judge-FR-EU-base015-probe/1.0",
+  "portee": "Transport seulement : un marqueur présent ne vaut pas lecture de la décision ni applicabilité.",
+  "resultats": [
+    {
+      "id": "legifrance-juri-decision",
+      "source": "Légifrance JURI",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000049053200",
+      "attempted_at": "2026-10-17T05:17:29.422337+00:00",
+      "http_status": 403,
+      "final_url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000049053200",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5529,
+      "sha256": "18a7775d0cb3de33bdfde1f728ea4ca5efe2a18c8e2ea79a0da814cf97a4d082",
+      "visible_chars": 16,
+      "markers": {
+        "22-20.926": false,
+        "PAR CES MOTIFS": false
+      },
+      "state": "refus-ou-erreur-http"
+    },
+    {
+      "id": "legifrance-juri-recherche",
+      "source": "Légifrance JURI",
+      "url": "https://www.legifrance.gouv.fr/search/juri?tab_selection=juri&searchField=ALL&query=clause+de+non-concurrence+contrepartie+financi%C3%A8re&page=1&init=true",
+      "attempted_at": "2026-10-17T05:17:29.553706+00:00",
+      "http_status": 403,
+      "final_url": "https://www.legifrance.gouv.fr/search?fonds=JURI&tab_selection=juri&searchField=ALL&query=clause+de+non-concurrence+contrepartie+financi%C3%A8re&page=1&init=true",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 6053,
+      "sha256": "27f0dbea35081459c4186c55d946a3d354c9a75d705e2754581e7e512404c3c3",
+      "visible_chars": 16,
+      "markers": {
+        "JURITEXT": false
+      },
+      "state": "refus-ou-erreur-http"
+    },
+    {
+      "id": "legifrance-ceta-decision",
+      "source": "Légifrance CETAT",
+      "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000048734416",
+      "attempted_at": "2026-10-17T05:17:29.814892+00:00",
+      "http_status": 403,
+      "final_url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000048734416",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5529,
+      "sha256": "c07fac5cc21b7765c4112c1b89938c5f65e1625268178ea74a5816bbcde1beba",
+      "visible_chars": 16,
+      "markers": {
+        "489206": false
+      },
+      "state": "refus-ou-erreur-http"
+    },
+    {
+      "id": "cassation-decision",
+      "source": "Cour de cassation",
+      "url": "https://www.courdecassation.fr/decision/6079b1ab9ba5988459c53061",
+      "attempted_at": "2026-10-17T05:17:29.935459+00:00",
+      "http_status": 200,
+      "final_url": "https://www.courdecassation.fr/decision/6079b1ab9ba5988459c53061",
+      "content_type": "text/html",
+      "bytes": 255,
+      "sha256": "52e5ef3251c4b9dc6c48b7d4cfd82fb042bb9e53a0ac6f2929594b6fb26013b2",
+      "visible_chars": 0,
+      "markers": {
+        "00-45.135": false
+      },
+      "state": "corps-vide-ou-javascript"
+    },
+    {
+      "id": "cassation-judilibre-recherche",
+      "source": "Cour de cassation",
+      "url": "https://www.courdecassation.fr/recherche-judilibre?search_api_fulltext=clause+de+non-concurrence&op=Rechercher",
+      "attempted_at": "2026-10-17T05:17:30.094928+00:00",
+      "http_status": 200,
+      "final_url": "https://www.courdecassation.fr/recherche-judilibre?search_api_fulltext=clause+de+non-concurrence&op=Rechercher",
+      "content_type": "text/html",
+      "bytes": 301,
+      "sha256": "151d32b225733e6e87aab9b6671ff6542769b31db499782a4f8bed4aff09bc59",
+      "visible_chars": 0,
+      "markers": {
+        "non-concurrence": false
+      },
+      "state": "corps-vide-ou-javascript"
+    },
+    {
+      "id": "conseil-etat-arianeweb",
+      "source": "Conseil d'État",
+      "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2024-05-23/494320",
+      "attempted_at": "2026-10-17T05:17:30.203804+00:00",
+      "http_status": 200,
+      "final_url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2024-05-23/494320",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 131290,
+      "sha256": "c75b9ca805f73f8214e700be7ddd6a5033df8c48e1e7c6ba6b31a7b64b121b4e",
+      "visible_chars": 31906,
+      "markers": {
+        "494320": true
+      },
+      "state": "marqueurs-presents"
+    },
+    {
+      "id": "conseil-constitutionnel-decision",
+      "source": "Conseil constitutionnel",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2010/201014_22QPC.htm",
+      "attempted_at": "2026-10-17T05:17:30.716024+00:00",
+      "http_status": 200,
+      "final_url": "https://www.conseil-constitutionnel.fr/decision/2010/201014_22QPC.htm",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 117844,
+      "sha256": "109fc46492692d9b84a3f2150264097cd2df702e071efae78fa9a138de69ea22",
+      "visible_chars": 57054,
+      "markers": {
+        "2010-14/22 QPC": true
+      },
+      "state": "marqueurs-presents"
+    },
+    {
+      "id": "curia-document",
+      "source": "CJUE (CURIA)",
+      "url": "https://curia.europa.eu/juris/document/document.jsf?docid=169195&doclang=FR",
+      "attempted_at": "2026-10-17T05:17:30.854137+00:00",
+      "http_status": 200,
+      "final_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/document/document.jsf?docid=169195&doclang=FR",
+      "content_type": "text/html",
+      "bytes": 130226,
+      "sha256": "413824fbbaa5c6d60c5e8a24f6bd3861e173e4a45ae5e1490e78df16ce269fb6",
+      "visible_chars": 4,
+      "markers": {
+        "Schrems": false
+      },
+      "state": "corps-vide-ou-javascript"
+    },
+    {
+      "id": "eurlex-celex-arret",
+      "source": "CJUE (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62014CJ0362",
+      "attempted_at": "2026-10-17T05:17:31.193829+00:00",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62014CJ0362",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "visible_chars": 0,
+      "markers": {
+        "Schrems": false
+      },
+      "state": "refus-ou-erreur-http"
+    },
+    {
+      "id": "cellar-celex-arret",
+      "source": "CJUE (CELLAR)",
+      "url": "https://publications.europa.eu/resource/celex/62014CJ0362",
+      "attempted_at": "2026-10-17T05:17:31.238748+00:00",
+      "http_status": 200,
+      "final_url": "http://publications.europa.eu/resource/cellar/cdf1b143-6c15-11e5-9317-01aa75ed71a1.0010.01/DOC_2",
+      "content_type": "application/xhtml+xml;charset=UTF-8",
+      "bytes": 222543,
+      "sha256": "fe41073b62954fcbf1b932f2e3be313637894e13703dfdafa3cb3b4833cc0ee3",
+      "visible_chars": 100873,
+      "markers": {
+        "Schrems": true
+      },
+      "state": "marqueurs-presents"
+    },
+    {
+      "id": "hudoc-page",
+      "source": "Cour EDH (HUDOC)",
+      "url": "https://hudoc.echr.coe.int/fre?i=001-57619",
+      "attempted_at": "2026-10-17T05:17:31.665511+00:00",
+      "http_status": 403,
+      "final_url": "https://hudoc.echr.coe.int/fre?i=001-57619",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5479,
+      "sha256": "46523ceb02627791006527971c23da4d96e572bb4140067658d688d6902ce779",
+      "visible_chars": 16,
+      "markers": {
+        "Soering": false
+      },
+      "state": "refus-ou-erreur-http"
+    },
+    {
+      "id": "hudoc-conversion",
+      "source": "Cour EDH (HUDOC)",
+      "url": "https://hudoc.echr.coe.int/app/conversion/docx/html/body?library=ECHR&id=001-57619",
+      "attempted_at": "2026-10-17T05:17:31.713824+00:00",
+      "http_status": 403,
+      "final_url": "https://hudoc.echr.coe.int/app/conversion/docx/html/body?library=ECHR&id=001-57619",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5656,
+      "sha256": "55e7abbd951e2979e3daad40c07aa9b030583d00156b4dc1225619b3c90c4efc",
+      "visible_chars": 16,
+      "markers": {
+        "Soering": false,
+        "14038/88": false
+      },
+      "state": "refus-ou-erreur-http"
+    },
+    {
+      "id": "hudoc-requete",
+      "source": "Cour EDH (HUDOC)",
+      "url": "https://hudoc.echr.coe.int/app/query/results?query=contentsitename%3AECHR%20AND%20itemid%3A%22001-57619%22&select=itemid,docname,ecli,appno,kpdate&sort=&start=0&length=1",
+      "attempted_at": "2026-10-17T05:17:31.773879+00:00",
+      "http_status": 403,
+      "final_url": "https://hudoc.echr.coe.int/app/query/results?query=contentsitename%3AECHR%20AND%20itemid%3A%22001-57619%22&select=itemid,docname,ecli,appno,kpdate&sort=&start=0&length=1",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 6090,
+      "sha256": "63dbcead3da9dca089254a9770cd58d5d0aa3dd034479d968603511def1f6b4c",
+      "visible_chars": 16,
+      "markers": {
+        "Soering": false
+      },
+      "state": "refus-ou-erreur-http"
+    },
+    {
+      "id": "dila-cass",
+      "source": "Données ouvertes DILA",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/",
+      "attempted_at": "2026-10-17T05:17:31.853796+00:00",
+      "http_status": 200,
+      "final_url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/",
+      "content_type": "text/html;charset=ISO-8859-1",
+      "bytes": 9643,
+      "sha256": "29acf761d42d13d18d929bfebf90456dd1c86b3d777f6351d2129d645bea4ba5",
+      "visible_chars": 3072,
+      "markers": {
+        ".tar.gz": true
+      },
+      "state": "marqueurs-presents"
+    },
+    {
+      "id": "dila-capp",
+      "source": "Données ouvertes DILA",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CAPP/",
+      "attempted_at": "2026-10-17T05:17:32.007566+00:00",
+      "http_status": 200,
+      "final_url": "https://echanges.dila.gouv.fr/OPENDATA/CAPP/",
+      "content_type": "text/html;charset=ISO-8859-1",
+      "bytes": 3991,
+      "sha256": "04306facc0676d58d6b854dca1403e0e30331877a98d282df662f343eff1c0c0",
+      "visible_chars": 1236,
+      "markers": {
+        ".tar.gz": true
+      },
+      "state": "marqueurs-presents"
+    },
+    {
+      "id": "dila-inca",
+      "source": "Données ouvertes DILA",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/INCA/",
+      "attempted_at": "2026-10-17T05:17:32.134201+00:00",
+      "http_status": 200,
+      "final_url": "https://echanges.dila.gouv.fr/OPENDATA/INCA/",
+      "content_type": "text/html;charset=ISO-8859-1",
+      "bytes": 10271,
+      "sha256": "5bdbe3b774f044abaf865f8a5a72fea74e04730c65e51e145e4753e5d23b867c",
+      "visible_chars": 3276,
+      "markers": {
+        ".tar.gz": true
+      },
+      "state": "marqueurs-presents"
+    },
+    {
+      "id": "dila-jade",
+      "source": "Données ouvertes DILA",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JADE/",
+      "attempted_at": "2026-10-17T05:17:32.284869+00:00",
+      "http_status": 200,
+      "final_url": "https://echanges.dila.gouv.fr/OPENDATA/JADE/",
+      "content_type": "text/html;charset=ISO-8859-1",
+      "bytes": 55647,
+      "sha256": "629541ecd0fee922ab82e90ada88a96826a50b90310d6f0dbad4a4e5d8bcb2fd",
+      "visible_chars": 18015,
+      "markers": {
+        ".tar.gz": true
+      },
+      "state": "marqueurs-presents"
+    },
+    {
+      "id": "dila-constit",
+      "source": "Données ouvertes DILA",
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/",
+      "attempted_at": "2026-10-17T05:17:32.470000+00:00",
+      "http_status": 200,
+      "final_url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/",
+      "content_type": "text/html;charset=ISO-8859-1",
+      "bytes": 4461,
+      "sha256": "aec38e4fc45297b0fe37ff9a8f43c761621f4586fb59352a31ee98b51f523ed0",
+      "visible_chars": 1416,
+      "markers": {
+        ".tar.gz": true
+      },
+      "state": "marqueurs-presents"
+    },
+    {
+      "id": "conseil-etat-opendata",
+      "source": "Données ouvertes Conseil d'État",
+      "url": "https://opendata.conseil-etat.fr/",
+      "attempted_at": "2026-10-17T05:17:32.622470+00:00",
+      "http_status": 200,
+      "final_url": "https://opendata.justice-administrative.fr/",
+      "content_type": "text/html",
+      "bytes": 9072,
+      "sha256": "bcf3a8614d6433b7ae9b5be36888d1b4e4fd14d673946bc34a6394137297cbad",
+      "visible_chars": 2550,
+      "markers": {
+        "CE": false
+      },
+      "state": "marqueurs-absents"
+    }
+  ]
+}

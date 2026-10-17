@@ -67,6 +67,7 @@ Les arbitrages ultérieurs sont consignés dans les
 | Contrôles d'un skill et d'un plugin | [Recette BASE-006](../references/package-validation.md) |
 | Accès aux sources officielles sans souscription | [Voies BASE-010](../references/legal-source-access.md) |
 | Avertissement et interlocuteur compétent | [BASE-013](00-fondations/base-013-avertissement-interlocuteur.md) |
+| Jurisprudence pendant une réponse (accès testés, méthode proposée) | [BASE-015](00-fondations/base-015-jurisprudence-runtime.md) |
 | Orientation à partir d'un problème concret | [Protocole USAGE-001](05-usages-quotidiens/usage-001-annexes/usage-001-protocole-orientation.md), [situations du quotidien](usages-quotidiens.md) |
 | Audit initial du fork (15 octobre 2026) | [Relevé BASE-001](00-fondations/base-001-annexes/base-001-releve-audit.md) |
 | Bilans d'epic | [Fondations](00-fondations/retrospective-fondations.md), [pilote travail](01-pilote-travail/retrospective-pilote-travail.md), [usages quotidiens](05-usages-quotidiens/retrospective-usages-quotidiens.md) |

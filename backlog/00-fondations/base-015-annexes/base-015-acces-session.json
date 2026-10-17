@@ -1,0 +1,226 @@
+{
+  "story": "BASE-015",
+  "date": "2026-10-17",
+  "fuseau": "Europe/Paris",
+  "outils": "WebFetch et WebSearch de la session de maintenance (Claude Code, application desktop), outils d'une session ordinaire ; aucun connecteur, aucun compte, aucune clé",
+  "heure": "non relevée par l'outil ; toutes les tentatives ont eu lieu le 17 octobre 2026",
+  "portee": "Issue observée de l'outil, qui restitue une réponse d'un petit modèle sur la page et limite les citations à environ 125 caractères. Une réponse « texte intégral affiché » est une observation de l'outil, contrôlée par les identifiants et passages restitués, pas une copie de la page.",
+  "tentatives": [
+    {
+      "id": "S01",
+      "outil": "WebFetch",
+      "source": "Légifrance JURI, décision",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000007046365/",
+      "issue": "lue",
+      "observation": "Cass. soc., 10 juillet 2002, n° 00-45.135 ; texte intégral, motifs et dispositif affichés, plus une rubrique Analyse ; ECLI non affiché."
+    },
+    {
+      "id": "S02",
+      "outil": "WebFetch",
+      "source": "Légifrance JURI, recherche par mots",
+      "url": "https://www.legifrance.gouv.fr/search/juri?tab_selection=juri&searchField=ALL&query=clause+de+non-concurrence+contrepartie+financi%C3%A8re&page=1&init=true",
+      "issue": "resultats",
+      "observation": "2 279 résultats annoncés ; cinq premiers avec juridiction, date, numéro et identifiant JURITEXT, dont Cass. soc., 24 janvier 2024, n° 22-20.926 (JURITEXT000049053200)."
+    },
+    {
+      "id": "S03",
+      "outil": "WebFetch",
+      "source": "Légifrance JURI, décision",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000049053200",
+      "issue": "lue",
+      "observation": "Cass. soc., 24 janvier 2024, n° 22-20.926, ECLI:FR:CCASS:2024:SO00084, publié au bulletin, cassation partielle ; texte intégral affiché. Deuxième appel : paragraphes 5 et 7 de la réponse de la Cour et premier paragraphe du dispositif restitués par extraits littéraux courts et paraphrase ; présidence indiquée."
+    },
+    {
+      "id": "S04",
+      "outil": "WebFetch",
+      "source": "Cour de cassation, page de décision",
+      "url": "https://www.courdecassation.fr/decision/6079b1ab9ba5988459c53061",
+      "issue": "vide",
+      "observation": "Page sans texte (contenu chargé par JavaScript) ; aucune identité ni motif."
+    },
+    {
+      "id": "S05",
+      "outil": "WebFetch",
+      "source": "Cour de cassation, recherche Judilibre",
+      "url": "https://www.courdecassation.fr/recherche-judilibre?search_api_fulltext=clause+de+non-concurrence+contrepartie+financi%C3%A8re&op=Rechercher",
+      "issue": "vide",
+      "observation": "Aucun résultat restitué ; page sans texte."
+    },
+    {
+      "id": "S06",
+      "outil": "WebFetch",
+      "source": "Conseil d'État, ArianeWeb (adresse construite à la main)",
+      "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2020-12-04/431767",
+      "issue": "http-404",
+      "observation": "Adresse formée sans référence vérifiée : l'échec ne vaut pas inaccessibilité du site. Un identifiant ne se devine pas."
+    },
+    {
+      "id": "S07",
+      "outil": "WebSearch",
+      "source": "Recherche web restreinte à conseil-etat.fr",
+      "url": "requête « conseil-etat.fr arianeweb décision Conseil d'État 2024 référé-liberté », domaine conseil-etat.fr",
+      "issue": "resultats",
+      "observation": "Dix liens ArianeWeb réels ; la synthèse du moteur mêle référé-liberté et référé-suspension et ne vérifie aucun dispositif."
+    },
+    {
+      "id": "S08",
+      "outil": "WebFetch",
+      "source": "Conseil d'État, ArianeWeb, décision",
+      "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2024-05-23/494320",
+      "issue": "lue",
+      "observation": "CE, juge des référés, 23 mai 2024, n° 494320, ECLI:FR:CEORD:2024:494320.20240523 ; visas, considérants et dispositif affichés."
+    },
+    {
+      "id": "S09",
+      "outil": "WebFetch",
+      "source": "Conseil d'État, recherche ArianeWeb (adresse construite à la main)",
+      "url": "https://www.conseil-etat.fr/fr/arianeweb/recherche?search=r%C3%A9f%C3%A9r%C3%A9-libert%C3%A9",
+      "issue": "http-404",
+      "observation": "Aucune adresse de recherche directe validée pour ArianeWeb ; passer par Légifrance CETAT ou une recherche web restreinte."
+    },
+    {
+      "id": "S10",
+      "outil": "WebFetch",
+      "source": "Légifrance CETAT, recherche",
+      "url": "https://www.legifrance.gouv.fr/search/cetat?tab_selection=cetat&searchField=ALL&query=r%C3%A9f%C3%A9r%C3%A9-libert%C3%A9+logement&page=1&init=true",
+      "issue": "resultats",
+      "observation": "Trois premiers résultats avec identifiant CETATEXT, dont CE, 29 décembre 2023, n° 489206 (CETATEXT000048734416)."
+    },
+    {
+      "id": "S11",
+      "outil": "WebFetch",
+      "source": "Légifrance CETAT, décision",
+      "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000048734416",
+      "issue": "lue",
+      "observation": "CE, 1re et 4e chambres réunies, 29 décembre 2023, n° 489206, ECLI:FR:CECHR:2023:489206.20231229, mentionné aux tables ; visas, points 1 à 10, dispositif, analyse."
+    },
+    {
+      "id": "S12",
+      "outil": "WebFetch",
+      "source": "Légifrance CETAT, identifiant non vérifié",
+      "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000042619563",
+      "issue": "page-sans-contenu",
+      "observation": "« Pas de contenu disponible » : identifiant non issu d'une recherche ; même conclusion que S06."
+    },
+    {
+      "id": "S13",
+      "outil": "WebFetch",
+      "source": "Conseil constitutionnel, décision",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2010/201014_22QPC.htm",
+      "issue": "lue",
+      "observation": "Décision n° 2010-14/22 QPC du 30 juillet 2010 ; ECLI affiché ; visas, considérants et dispositif présents."
+    },
+    {
+      "id": "S14",
+      "outil": "WebFetch",
+      "source": "Conseil constitutionnel, recherche",
+      "url": "https://www.conseil-constitutionnel.fr/les-decisions/recherche?search_api_fulltext=garde+%C3%A0+vue",
+      "issue": "resultats-non-filtres",
+      "observation": "Liste des décisions les plus récentes (16 octobre 2026), sans rapport avec la requête : le paramètre n'est pas appliqué. Ne pas présenter cette liste comme une recherche."
+    },
+    {
+      "id": "S15",
+      "outil": "WebFetch",
+      "source": "CJUE, CURIA",
+      "url": "https://curia.europa.eu/juris/document/document.jsf?docid=169195&doclang=FR",
+      "issue": "redirection-puis-vide",
+      "observation": "301 vers infocuria.curia.europa.eu ; la page de destination ne contient que « RPEX ». Même redirection pour juris/liste.jsf."
+    },
+    {
+      "id": "S16",
+      "outil": "WebFetch",
+      "source": "CJUE, EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62014CJ0362",
+      "issue": "vide",
+      "observation": "Page sans texte."
+    },
+    {
+      "id": "S17",
+      "outil": "WebFetch",
+      "source": "CJUE, CELLAR par CELEX",
+      "url": "https://publications.europa.eu/resource/celex/62014CJ0362",
+      "issue": "redirection-notice",
+      "observation": "303 vers une notice RDF complète, que l'outil refuse (plus de 10 Mo). WebFetch n'envoie pas l'en-tête Accept nécessaire."
+    },
+    {
+      "id": "S18",
+      "outil": "WebFetch",
+      "source": "CJUE, manifestation CELLAR",
+      "url": "https://publications.europa.eu/resource/cellar/cdf1b143-6c15-11e5-9317-01aa75ed71a1.0010.01/DOC_2",
+      "issue": "lue-partiellement",
+      "observation": "Arrêt C-362/14 du 6 octobre 2015 en français ; 215 972 caractères, seuls les 100 000 premiers lus, dispositif non atteint (lecture suivante par offset). Adresse connue grâce au script de maintenance, non déductible par la session."
+    },
+    {
+      "id": "S19",
+      "outil": "WebFetch",
+      "source": "Cour EDH, HUDOC, page",
+      "url": "https://hudoc.echr.coe.int/fre?i=001-57619",
+      "issue": "vide",
+      "observation": "Seule une description générale de la base ; application JavaScript."
+    },
+    {
+      "id": "S20",
+      "outil": "WebFetch",
+      "source": "Cour EDH, HUDOC, conversion du document",
+      "url": "https://hudoc.echr.coe.int/app/conversion/docx/html/body?library=ECHR&id=001-57619",
+      "issue": "lue",
+      "observation": "Soering c. Royaume-Uni, 7 juillet 1989, requête 14038/88 ; version anglaise de cet identifiant ; 127 701 caractères, lus en deux appels (offset 100000) jusqu'au dispositif. ECLI non affiché."
+    },
+    {
+      "id": "S21",
+      "outil": "WebSearch",
+      "source": "Recherche web restreinte à courdecassation.fr et legifrance.gouv.fr",
+      "url": "requête « Cour de cassation chambre sociale clause de non-concurrence contrepartie financière arrêt »",
+      "issue": "resultats",
+      "observation": "Dix liens Légifrance réels ; la synthèse du moteur attribue à certains arrêts des propositions tirées des moyens ou d'extraits et signale elle-même devoir vérifier la motivation. Pistes seulement."
+    },
+    {
+      "id": "S22",
+      "outil": "WebFetch",
+      "source": "Légifrance JURI, recherche sans résultat",
+      "url": "https://www.legifrance.gouv.fr/search/juri?tab_selection=juri&searchField=ALL&query=%22clause+de+non-concurrence%22+%22trottinette+%C3%A9lectrique+partag%C3%A9e%22+%22d%C3%A9dit%22&page=1&init=true",
+      "issue": "zero-resultat",
+      "observation": "« 0 texte trouvé » et message « Nous n'avons pas trouvé de résultat pour la recherche »."
+    },
+    {
+      "id": "S23",
+      "outil": "WebFetch",
+      "source": "Légifrance JURI, recherche par numéro",
+      "url": "https://www.legifrance.gouv.fr/search/juri?tab_selection=juri&searchField=ALL&query=16-20.103&page=1&init=true",
+      "issue": "resultats",
+      "observation": "Cass. soc., 21 septembre 2017, n° 16-20.103, publié, JURITEXT000035616989, parmi cinq résultats. La référence hiring-review-fr.md d'employment-legal 0.3.2 la marque inaccessible (publication de la Cour vide, identifiant supposé JURITEXT000035623496 sans contenu)."
+    },
+    {
+      "id": "S24",
+      "outil": "WebSearch",
+      "source": "Recherche web ouverte",
+      "url": "requête « cour d'appel 2025 clause de non-concurrence salarié arrêt commentaire »",
+      "issue": "resultats-non-officiels",
+      "observation": "Pages d'un éditeur privé, d'un syndicat, d'un réseau d'avocats et d'un blog d'avocat ; aucune publication officielle de décision de cour d'appel."
+    },
+    {
+      "id": "S25",
+      "outil": "WebFetch",
+      "source": "Commentaire d'avocat (doctrine)",
+      "url": "https://consultation.avocat.fr/blog/mohamed-el-hassan-kohen/article-2976927-cour-d-appel-de-bordeaux-le-9-septembre-2025-n-23-00380.html",
+      "issue": "lue-doctrine",
+      "observation": "Article d'un avocat au barreau de Paris, publié le 23 décembre 2025, analysant CA Bordeaux, ch. soc., 9 septembre 2025, n° 23/00380 ; pas de texte intégral, pas de lien officiel."
+    },
+    {
+      "id": "S26",
+      "outil": "WebFetch",
+      "source": "Légifrance JURI, recherche par numéro de cour d'appel",
+      "url": "https://www.legifrance.gouv.fr/search/juri?tab_selection=juri&searchField=ALL&query=%2223%2F00380%22&page=1&init=true",
+      "issue": "zero-resultat",
+      "observation": "0 texte trouvé : la décision commentée n'est pas diffusée sur Légifrance ; Judilibre n'est pas lisible par l'outil (S05)."
+    },
+    {
+      "id": "S27",
+      "outil": "WebFetch",
+      "source": "Légifrance JURI, recherche par numéro",
+      "url": "https://www.legifrance.gouv.fr/search/juri?tab_selection=juri&searchField=ALL&query=24-13.585&page=1&init=true",
+      "issue": "resultats",
+      "observation": "Cass. soc., 17 décembre 2025, n° 24-13.585, inédit, cassation partielle (JURITEXT000053197015) : un arrêt cité par la doctrine retrouvé dans la publication officielle ; motifs non lus dans cette story."
+    }
+  ]
+}
