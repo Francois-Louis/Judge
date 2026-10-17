@@ -10,7 +10,7 @@ User-specific configuration for this plugin lives at a version-independent path 
 Rules for every skill, command, and agent in this plugin:
 First load `${CLAUDE_PLUGIN_ROOT}/references/isolation.md`; use its guarded storage helper for all durable data access.
 1. READ configuration from that path. Not from this file.
-2. For inherited skills, if that file does not exist or still contains [PLACEHOLDER] markers, require fresh setup before substantive work; do not use placeholder/default legal rules. Exception PILOTE-002/PILOTE-004/TRAV-001: hiring-review, worker-classification and the candidate branches of cold-start-interview/customize use the packaged references/candidate-preferences.md contract. A missing profile (helper status interview-required) or professional placeholders require only useful questions in conversation, never professional setup or mandatory saving. cold-start-interview also runs without setup, including --check-integrations.
+2. For inherited skills, if that file does not exist or still contains [PLACEHOLDER] markers, require fresh setup before substantive work; do not use placeholder/default legal rules. Exceptions PILOTE-002/PILOTE-004/TRAV-001/TRAV-002: hiring-review, worker-classification, wage-hour-qa and the candidate branches of cold-start-interview/customize use their packaged references and instructions. A missing profile (helper status interview-required) or professional placeholders require only useful questions in conversation, never professional setup or mandatory saving. cold-start-interview also runs without setup, including --check-integrations.
 3. Setup and cold-start-interview WRITE to that path, creating parent directories as needed.
 4. If the fork profile is missing, start a fresh interview from confirmed answers. Never search a cache or another distribution for a profile. Preserve existing fork answers; no automatic import.
 5. This file (the one you are reading) is the TEMPLATE. It ships with the plugin and shows the
@@ -70,6 +70,21 @@ note en langage courant, aucun envoi ni registre. Charger
 `worker-classification-fr.md` et la méthode BASE-005 `1.3.0`. Une relation
 déjà commencée reçoit une orientation, jamais une analyse rétrospective. Les
 rubriques « Wage & hour » et escalades héritées ci-dessous ne s'appliquent pas.
+
+### Comparaison des minima de rémunération (TRAV-002)
+
+<!-- Modified by Judge FR/UE for TRAV-002 (2026-10-17): minimum-pay scope and profile exception. -->
+
+`wage-hour-qa` est adapté à la comparaison datée du SMIC et des minima
+collectifs d'un salarié du privé en France, sans paie complète. Priorité aux
+instructions du skill et aux [repères locaux](references/minimum-remuneration-fr.md),
+méthode BASE-005 `1.3.0`. Profil et profil société facultatifs ; aucune
+configuration professionnelle, escalade obligatoire, règle US, sauvegarde ou
+journal imposés. Aucun accès au profil société pour ce parcours. Les rubriques
+Wage & hour, Outputs et Jurisdiction recognition héritées ne s'y appliquent pas.
+Comparer chaque minimum sur ses propres éléments/périodes ; CCN, heures ou
+source inconnues : réserver la ligne, nommer les pièces et poursuivre le reste.
+Les autres questions de paie/temps de travail restent hors adaptation.
 
 ### Faits et préférences de revue d'embauche
 

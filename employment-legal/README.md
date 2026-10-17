@@ -7,9 +7,9 @@
 <!-- Modified by Judge FR/UE for TRAV-062 (2026-10-17): version 0.3.5, court decisions read in hiring-review-fr.md 1.1.0. -->
 <!-- Modified by Judge FR/UE for BASE-019 (2026-10-17): version 0.3.6, method 1.3.0. -->
 
-# Judge FR/UE — revue d'embauche et qualification d'une relation
+# Judge FR/UE — embauche, relation proposée et minima de rémunération
 
-Version du plugin **0.3.6**. Deux tâches sont réécrites pour la France.
+Version du plugin **0.4.0**. Trois tâches sont réécrites pour la France.
 Chaque note se termine par une phrase courte : elle aide à comprendre et à
 préparer, sans remplacer l'avis d'un avocat ou d'un juriste en droit du
 travail ; un renfort ouvre la note si une signature ou une réponse presse
@@ -97,13 +97,31 @@ Hors champ : contrat complet, audit du passé, cotisations et impôts chiffrés.
 Exécuté le 17 octobre 2026 sur trois pièces fictives dans un client réel non
 isolé ; aucun lecteur non juriste ni relecture juridique indépendante.
 
+## Vérifier le minimum de rémunération
+
+<!-- Modified by Judge FR/UE for TRAV-002 (2026-10-17): version 0.4.0, minimum-pay comparison. -->
+
+`/judge-fr-eu-employment-legal:wage-hour-qa` compare séparément SMIC et minima
+collectifs pour une période donnée, avec les éléments retenus/exclus, la
+classification documentée, les calculs et les réserves. Présenter période,
+contrat/bulletin masqués, fonctions, durée et textes collectifs connus.
+Aucun profil ni connecteur RH nécessaire ; sans CCN, heures ou source utile,
+la note précise les pièces à demander au service paie. Elle n'établit pas une
+paie complète, une créance nette ou une prescription. Référence embarquée :
+[minima de rémunération 1.0.0](references/minimum-remuneration-fr.md).
+Le taux de janvier 2026 est un repère historique, pas un taux actuel garanti.
+Les garanties conventionnelles peuvent avoir des périodes et planchers
+distincts ; une rémunération supérieure au SMIC ne prouve pas leur respect.
+La recette et ses limites sont consignées dans le backlog TRAV-002.
+
 ## Sources et prérequis réels
 
 - Python 3.12 ou ultérieur pour le helper de stockage, avant tout accès aux
   profils ou sorties persistantes ; voir [la frontière de stockage](references/isolation.md).
 - Les références nécessaires sont embarquées : [méthode BASE-005 1.3.0](references/shared/research-citation-method.md),
   [repères d'embauche France 1.1.0](references/hiring-review-fr.md) et
-  [qualification d'une relation 1.1.0](references/worker-classification-fr.md).
+  [qualification d'une relation 1.1.0](references/worker-classification-fr.md) et
+  [minima de rémunération 1.0.0](references/minimum-remuneration-fr.md).
   Le parcours reprend USAGE-001 1.0.0 dans ses propres instructions.
   Chaque source de ces repères porte sa date et son issue de relecture
   avant livraison (colonne « Relecture », BASE-014) ; dernière relecture
@@ -129,7 +147,7 @@ et travail transfrontalier reçoivent une orientation explicite.
 ## Reste du paquet : hérité et non adapté à la France/UE
 
 Les commandes de rupture, congés, enquêtes,
-politiques, handbook, expansion et questions de paie restent dans le paquet
+politiques, handbook, expansion et questions de paie hors comparaison des minima restent dans le paquet
 hérité. L'agent `leave-tracker`, les hooks et les connecteurs déclarés ne sont
 pas validés par ce pilote. La configuration professionnelle historique reste
 présente pour ces parcours, avec ses limites. Ne pas les appeler pour

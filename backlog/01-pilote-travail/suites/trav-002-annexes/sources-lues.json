@@ -1,0 +1,139 @@
+{
+  "story": "TRAV-002",
+  "date_review": "2026-10-17",
+  "timezone": "Europe/Paris",
+  "reviewer": "agent rédacteur, pas une relecture juridique indépendante",
+  "method": "BASE-005 1.3.0",
+  "read_sources": [
+    {
+      "trace": "sources-cdtn.json",
+      "scope": "D3231-5, D3231-6, L2253-1, L2261-2, L2261-15, L3121-27, L3242-1, L1511-1 ; texte reproduit lu, dates affichées comparées, champ limité au cas documenté."
+    },
+    {
+      "trace": "source-decret-article1.json",
+      "scope": "Article 1 réellement lu ; 12,02 EUR métropole et territoires listés / 9,33 EUR Mayotte à compter du 01/01/2026. Publication initiale ; taux non prolongé au reste de 2026."
+    },
+    {
+      "trace": "source-decret.json",
+      "scope": "Métadonnées de publication uniquement, sans corps : lecture de cette seule structure non suffisante, complétée par article 1."
+    },
+    {
+      "trace": "sources-kali.json",
+      "scope": "Stock KALI, articles 7.2, 1 et 3 de l’accord de salaires et métadonnées de publication/extension ; autres passages récupérés ne fondent aucune conclusion supplémentaire."
+    },
+    {
+      "trace": "sources-kali-complement.json",
+      "scope": "Article 7.1 courant et chaîne de versions remplacées ; annexe salariale ETAM 2.3/355 à 2 045 EUR ; texte et dates lus."
+    },
+    {
+      "trace": "kali-deltas.json",
+      "scope": "260 lots après le stock au 16/10/2026 récupérés ; décompte des articles IDCC 1486 et XML des cinq sources ciblées ; contenu 7.1/7.2 reconstaté inchangé dans leurs dernières copies. Pas de traitement des suppressions et structures : réserve explicite."
+    },
+    {
+      "trace": "executions-extension-2026-10-17/M09.jsonl",
+      "scope": "Arrêté d’extension 08/11/2024, JORFTEXT000050663556 : deux WebFetch pendant le client. Identité/publi, art.2/3 cités, art.1/visas partiellement paraphrasés ; statut partiel, passage intégral à confirmer. La première sortie en tirait une absence de réserve trop affirmative ; instruction corrigée et recette finale ciblée."
+    },
+    {
+      "trace": "versions-legi.json",
+      "scope": "Stock complet du 13/07/2025 et 464 lots postérieurs au 16/10/2026 ; huit articles, sans version future ni fin de vigueur trouvée ; dates CDTN/LEGI comparées. Métadonnées seulement : adoption non intégrée et publications après dernier lot non couvertes."
+    }
+  ],
+  "web_access": [
+    {
+      "url": "https://www.legifrance.gouv.fr/conv_coll/id/KALITEXT000050228699/",
+      "issue": "HTTP 403 ; repli vers stock et deltas KALI"
+    },
+    {
+      "url": "https://www.legifrance.gouv.fr/conv_coll/id/KALIARTI000047513883/",
+      "issue": "HTTP 403 ; recherche initiale attribuait à tort 7.1 à cet ID, le XML révèle 7.2 ; références finales corrigées avant recette"
+    },
+    {
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000053042520/",
+      "issue": "HTTP 403 après une ouverture initiale réussie ; article 1 lu dans XML JORF de la DILA"
+    },
+    {
+      "url": "https://code.travail.gouv.fr/fiche-ministere-travail/le-smic",
+      "issue": "Reproduction informative lue, mise à jour 28/05/2026, hausse au 01/06/2026 signalée ; texte primaire de cette hausse non lu, aucun calcul à partir de juin livré"
+    },
+    {
+      "url": "https://travail-emploi.gouv.fr/le-smic-salaire-minimum-de-croissance",
+      "issue": "Écran de vérification JavaScript ; reproduction ministérielle sur CDTN lue"
+    },
+    {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050663556",
+      "issue": "Arrêté d’extension du 08/11/2024 : HTTP 403 ; liste JORF publique consultée, lot 27/11/2024 absent (stock disponible au 13/07/2025) ; texte non ouvert, extrait de moteur non assimilé à une lecture. Réserves d’extension conservées. Ensuite deux WebFetch du client ont ouvert la page (voir M09), sous forme de résumé et citations courtes ; ne vaut pas lecture littérale intégrale."
+    }
+  ],
+  "applicability": "Les données des pièces fictives établissent le champ pour les simulations ; une grille Syntec ne vaut pas convention du dossier réel. Pas de classement définitif, de paie complète ou de créance nette.",
+  "missing_readings": [
+    "Arrêté d’extension du 08/11/2024 : ouvert par client, lecture partielle ; article 1 et contexte intégral à confirmer, réserve maintenue sur absence de réserve et champ exact.",
+    "Autres grilles/CCN, accords d’entreprise, annexes de classification pour un reclassement disputé : hors exemple, à lire dans le dossier",
+    "Texte primaire de revalorisation de juin 2026 et jurisprudence sur primes particulières : non lus, aucune règle de remplacement livrée"
+  ],
+  "version_date_comparisons": [
+    {
+      "article": "D3231-5",
+      "legi_id": "LEGIARTI000018533878",
+      "cdtn_displayed_date": "01/05/2008",
+      "legi_start": "2008-05-01",
+      "matches": true,
+      "status": "sans-version-future-ni-fin"
+    },
+    {
+      "article": "D3231-6",
+      "legi_id": "LEGIARTI000018533876",
+      "cdtn_displayed_date": "01/05/2008",
+      "legi_start": "2008-05-01",
+      "matches": true,
+      "status": "sans-version-future-ni-fin"
+    },
+    {
+      "article": "L1511-1",
+      "legi_id": "LEGIARTI000035902382",
+      "cdtn_displayed_date": "01/01/2018",
+      "legi_start": "2018-01-01",
+      "matches": true,
+      "status": "sans-version-future-ni-fin"
+    },
+    {
+      "article": "L2253-1",
+      "legi_id": "LEGIARTI000036761771",
+      "cdtn_displayed_date": "01/04/2018",
+      "legi_start": "2018-04-01",
+      "matches": true,
+      "status": "sans-version-future-ni-fin"
+    },
+    {
+      "article": "L2261-15",
+      "legi_id": "LEGIARTI000042654539",
+      "cdtn_displayed_date": "01/06/2021",
+      "legi_start": "2021-06-01",
+      "matches": true,
+      "status": "sans-version-future-ni-fin"
+    },
+    {
+      "article": "L2261-2",
+      "legi_id": "LEGIARTI000006901780",
+      "cdtn_displayed_date": "01/05/2008",
+      "legi_start": "2008-05-01",
+      "matches": true,
+      "status": "sans-version-future-ni-fin"
+    },
+    {
+      "article": "L3121-27",
+      "legi_id": "LEGIARTI000033020376",
+      "cdtn_displayed_date": "10/08/2016",
+      "legi_start": "2016-08-10",
+      "matches": true,
+      "status": "sans-version-future-ni-fin"
+    },
+    {
+      "article": "L3242-1",
+      "legi_id": "LEGIARTI000006902858",
+      "cdtn_displayed_date": "01/05/2008",
+      "legi_start": "2008-05-01",
+      "matches": true,
+      "status": "sans-version-future-ni-fin"
+    }
+  ]
+}

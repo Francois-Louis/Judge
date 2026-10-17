@@ -1,4 +1,4 @@
-"""Invoke the seven pending story recipes on detached, fictional packages.
+"""Invoke selected story recipes on detached packages with fictional inputs.
 
 Usage: python scripts/recette-stories.py --claude <binary> --label <new-run>
        --workspace <fresh-directory-outside-checkout> [--story BNK-001]
@@ -26,6 +26,7 @@ from threading import Event
 ROOT = Path(__file__).resolve().parents[1]
 DOM = ROOT / 'backlog/03-nouveaux-domaines/suites'
 STORIES = {
+    'TRAV-002': ('employment-legal', 'wage-hour-qa', ROOT / 'backlog/01-pilote-travail/suites/trav-002-annexes', 'fixtures.json'),
     'COM-001': ('commercial-legal', 'review', ROOT / 'backlog/02-plugins-existants/suites/com-001-annexes', 'pieces-fictives.md'),
     'CONSO-001': ('consumer-legal', 'non-delivery-claim', DOM / 'conso-001-annexes', 'pieces-fictives.md'),
     'CRIM-001': ('criminal-legal', 'summons-reading', DOM / 'crim-001-annexes', 'fixtures.json'),

@@ -1,0 +1,57 @@
+[
+  {
+    "command": [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "scripts/test-base008-isolation.py"
+    ],
+    "completed_utc": "2026-10-17T18:52:42.541762+00:00",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_five_cookbooks_outputs_audit_and_separate_deployments (__main__.CookbookStorage.test_five_cookbooks_outputs_audit_and_separate_deployments) ... ok\ntest_orchestrator_audit_and_report_paths (__main__.CookbookStorage.test_orchestrator_audit_and_report_paths) ... skipped 'jsonschema absent: orchestrator test not executed'\ntest_all_documented_qualified_commands_resolve (__main__.MigratedPackages.test_all_documented_qualified_commands_resolve) ... ok\ntest_all_entrypoints_load_boundary_and_no_legacy_access (__main__.MigratedPackages.test_all_entrypoints_load_boundary_and_no_legacy_access) ... ok\ntest_detached_package_structure (__main__.MigratedPackages.test_detached_package_structure) ... ok\ntest_guard_refuses_traversal_windows_paths_and_existing_destinations (__main__.MigratedPackages.test_guard_refuses_traversal_windows_paths_and_existing_destinations) ... ok\ntest_hard_links_refused (__main__.MigratedPackages.test_hard_links_refused) ... ok\ntest_hub_lifecycle_leaves_original_and_durable_data_untouched (__main__.MigratedPackages.test_hub_lifecycle_leaves_original_and_durable_data_untouched) ... ok\ntest_hub_local_edits_and_backup_collision_preserved (__main__.MigratedPackages.test_hub_local_edits_and_backup_collision_preserved) ... ok\ntest_hub_refuses_existing_destination_unknown_skill_and_original_log (__main__.MigratedPackages.test_hub_refuses_existing_destination_unknown_skill_and_original_log) ... ok\ntest_hub_rejects_forged_logged_path_and_changed_backup (__main__.MigratedPackages.test_hub_rejects_forged_logged_path_and_changed_backup) ... ok\ntest_manifest_contract_and_140_skill_names (__main__.MigratedPackages.test_manifest_contract_and_140_skill_names) ... ok\ntest_real_storage_cli_all_domains_and_missing_cache_trap (__main__.MigratedPackages.test_real_storage_cli_all_domains_and_missing_cache_trap) ... ok\ntest_shared_profile_and_package_update_rollback_preserve_data (__main__.MigratedPackages.test_shared_profile_and_package_update_rollback_preserve_data) ... ok\ntest_symbolic_links_refused (__main__.MigratedPackages.test_symbolic_links_refused) ... skipped \"OS cannot create a symbolic link: [WinError 1314] Le client ne dispose pas d’un privilège nécessaire: 'C:\\\\\\\\Users\\\\\\\\fltou\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\judge-base008-home-xwg_1p_3\\\\\\\\outside' -> 'C:\\\\\\\\Users\\\\\\\\fltou\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\judge-base008-home-xwg_1p_3\\\\\\\\fork\\\\\\\\linked'\"\ntest_windows_junctions_refused (__main__.MigratedPackages.test_windows_junctions_refused) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 41.790s\n\nOK (skipped=2)\n"
+  },
+  {
+    "command": [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "scripts/lint-tool-scope.py"
+    ],
+    "completed_utc": "2026-10-17T18:52:42.659021+00:00",
+    "returncode": 0,
+    "stdout": "  ✓ diligence-grid           orchestrator tool scope clean\n  ✓ docket-watcher           orchestrator tool scope clean\n  ✓ launch-radar             orchestrator tool scope clean\n  ✓ reg-monitor              orchestrator tool scope clean\n  ✓ renewal-watcher          orchestrator tool scope clean\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "scripts/check-version-bump.py"
+    ],
+    "completed_utc": "2026-10-17T18:52:42.935127+00:00",
+    "returncode": 0,
+    "stdout": "OK   employment-legal: 0.3.6 -> 0.4.0 (6 file(s) changed)\nVersion bump check passed against origin/main.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\ProgramData\\miniconda3\\python.exe",
+      "scripts/source_reviews.py",
+      "employment-legal",
+      "--depuis",
+      "2026-10-17"
+    ],
+    "completed_utc": "2026-10-17T18:52:43.024877+00:00",
+    "returncode": 0,
+    "stdout": "{\n  \"plugin\": \"employment-legal\",\n  \"depuis\": \"2026-10-17\",\n  \"errors\": [],\n  \"reviews\": 61\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "<home>\\.vscode\\extensions\\anthropic.claude-code-2.1.301-win32-x64\\resources\\native-binary\\claude.exe",
+      "plugin",
+      "validate",
+      ".claude-plugin/marketplace.json"
+    ],
+    "completed_utc": "2026-10-17T18:52:43.843155+00:00",
+    "returncode": 0,
+    "stdout": "Validating marketplace manifest: <checkout>\\.claude-plugin\\marketplace.json\n\n√ Validation passed\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "case": "M09",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.4285684,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-employment-legal",
+        "path": "<workspace>\\TRAV-002\\employment-legal",
+        "source": "judge-fr-eu-employment-legal@inline",
+        "version": "0.4.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/minimum-remuneration-fr.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "WebFetch",
+        "input": {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050663556",
+          "prompt": "Restitue littéralement : titre complet de l'arrêté, date de publication au JORF et numéro du JO, texte intégral des articles 1 et 2 (y compris toute réserve ou exclusion), et l'accord étendu (IDCC, date de l'accord)."
+        }
+      },
+      {
+        "name": "WebFetch",
+        "input": {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050663556",
+          "prompt": "Combien d'articles comporte cet arrêté ? Restitue littéralement l'article 1 en entier (sans couper le nom de la convention), le dernier article, les visas, et toute phrase contenant « réserve », « exclu », « sous réserve » ou « à l'exclusion ». Indique aussi la mention de la date de signature et du signataire."
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  }
+]

@@ -1,0 +1,2507 @@
+{
+  "listing": {
+    "source_family": "dila-list",
+    "reference": "KALI",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+    "attempts": [
+      {
+        "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/",
+        "attempted_at": "2026-10-17T18:28:25.845672+00:00",
+        "state": "retrieved",
+        "http_status": 200,
+        "final_url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/",
+        "retrieved_at": "2026-10-17T18:28:26.215714+00:00",
+        "bytes": 47071,
+        "sha256": "2dd8f2df3a8695183b85c4a8d2369021b5300e3b96c1571c534c4dd5be4f98ec"
+      }
+    ],
+    "text": null,
+    "coverage": "Archive listing only; daily deltas are not the complete corpus.",
+    "listed_archive_count": 262
+  },
+  "archives": [
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250715-205701.tar.gz",
+      "read_utc": "2026-10-17T18:28:26.218730+00:00",
+      "documents": [],
+      "bytes": 53181,
+      "sha256": "ce0882aa8700af79b07024940f8a09b00ba3631f9079ea02fbbb77f3fe177f5f",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250716-211907.tar.gz",
+      "read_utc": "2026-10-17T18:28:26.228729+00:00",
+      "documents": [],
+      "bytes": 37065,
+      "sha256": "c7fe2484c5a0692957b9e9780cca805996f72adbabd13ac460c74205764b895b",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250717-220632.tar.gz",
+      "read_utc": "2026-10-17T18:28:26.238912+00:00",
+      "documents": [],
+      "bytes": 52804,
+      "sha256": "a5cda60ef4312369b66a2967ebbe256b1e364412188be34aaced0f75e2f8149d",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250718-215845.tar.gz",
+      "read_utc": "2026-10-17T18:28:26.255154+00:00",
+      "documents": [],
+      "bytes": 756240,
+      "sha256": "36e9f2468d327608519e9d43a28d885e27a3bfced751c60044eba6b4a5dc3884",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250721-212334.tar.gz",
+      "read_utc": "2026-10-17T18:28:26.737173+00:00",
+      "documents": [],
+      "bytes": 509251,
+      "sha256": "76e8105022b0a9584e4fb055c6033922bbe346f6e7f09f6ff3d1114f04a5de18",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250722-211916.tar.gz",
+      "read_utc": "2026-10-17T18:28:26.738174+00:00",
+      "documents": [],
+      "bytes": 526900,
+      "sha256": "221e2fdc5c59b6faec73b55ede3f3f3a4d771c91c18061f249d03e1c32776ff0",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250723-215323.tar.gz",
+      "read_utc": "2026-10-17T18:28:26.748974+00:00",
+      "documents": [],
+      "bytes": 1612254,
+      "sha256": "8231d0bed19d25859ef3573510d0c7ae3a1b3f28c0eac03c123007c39f2fe176",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250728-212443.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.020461+00:00",
+      "documents": [],
+      "bytes": 449216,
+      "sha256": "ce9e9df26256099b1ac058b3816d751347f6589e1ccc90a16027608d9e44696f",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250729-212953.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.058799+00:00",
+      "documents": [],
+      "bytes": 50083,
+      "sha256": "ce8f54b28820abff8720357bcae7c5d863572ca85520717efb8130629c92eb64",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250730-215254.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.060801+00:00",
+      "documents": [],
+      "bytes": 398873,
+      "sha256": "ccab69b5cc06d1c3ee086bff761a61b83c0279fd2915c85dd86202c76e5d754e",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250731-220719.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.222042+00:00",
+      "documents": [],
+      "bytes": 252364,
+      "sha256": "8a78f3252010afc1325d93c5a24edd15c4fb8ecc23f9f3b53740f9d4c741f7a4",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250801-220941.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.294733+00:00",
+      "documents": [],
+      "bytes": 1163535,
+      "sha256": "972736464cd8924182bc965fc8813dd311a80c227d27f3994c57d016dce39b0a",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250804-215726.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.352465+00:00",
+      "documents": [],
+      "bytes": 264175,
+      "sha256": "0156c12b238d71944c51fb6915d2be76d677706ecaa9a5738cf4b81fec1cdc44",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 89
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250805-212821.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.357413+00:00",
+      "documents": [],
+      "bytes": 44529,
+      "sha256": "c3e16e545e875c382dc3b4b394a99ba309b492cb276ac554074b3a57590c3105",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250806-213327.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.429190+00:00",
+      "documents": [],
+      "bytes": 97306,
+      "sha256": "025a4db123e6768abaed312191c31c9e6218e467e750a81c9b1274ffdef0479b",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250808-135605.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.496257+00:00",
+      "documents": [],
+      "bytes": 120684,
+      "sha256": "15c8b36028d669c6f9087864c44e193d0172fd96b6619514c576a650a62cb27f",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250808-210042.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.573658+00:00",
+      "documents": [],
+      "bytes": 40378,
+      "sha256": "2dd8fa38dd5482b91d54500cd18e15cb83d30ae8e6e27659f659cdf2d2aabb66",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250811-210141.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.583661+00:00",
+      "documents": [],
+      "bytes": 92842,
+      "sha256": "6e91da326410c74524d6109ce04f09a1924a494ea8aae236e38f0d150c511eec",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250812-214714.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.665676+00:00",
+      "documents": [],
+      "bytes": 218235,
+      "sha256": "67b40c3438d282e402f014ad85bbd45a9f9cf2292455de112130558be1fdcc38",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250813-220317.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.711096+00:00",
+      "documents": [],
+      "bytes": 83709,
+      "sha256": "4e26f7e4b8ecb2f094174cbc65510b3a8da6b92cc7d43f4150974e50bd4a8547",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250814-212734.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.741208+00:00",
+      "documents": [],
+      "bytes": 129591,
+      "sha256": "9f73361d370fd1696611e0f6c3ca8d90fe08d1682fef4759ae71cd393f96e9dd",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250818-211522.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.754225+00:00",
+      "documents": [],
+      "bytes": 68305,
+      "sha256": "da91ec014c59e7fd73e2a0430e5829c5ea6834426773d45a489dd263fc76ac8f",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250820-210516.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.879486+00:00",
+      "documents": [],
+      "bytes": 155966,
+      "sha256": "31b6c6e9090f56d46878dd7c68767c8b03b770ba43ad66e7b4bd67ba52dfa5a3",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 3
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250821-212230.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.886577+00:00",
+      "documents": [],
+      "bytes": 541811,
+      "sha256": "c495a82043692e9de961cf98372617f6b50caf67566f6b9d0582f1d51523e368",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250822-212413.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.937593+00:00",
+      "documents": [],
+      "bytes": 74071,
+      "sha256": "78ae899c2215f1e7b8b765d944493924e6ef4303835aefba6ce343a158619d76",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250825-211704.tar.gz",
+      "read_utc": "2026-10-17T18:28:27.941711+00:00",
+      "documents": [],
+      "bytes": 142277,
+      "sha256": "56dbd2b657e34195ef62c32f12adb82e673838f9724e40030d7580b071eb9ce3",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250826-205450.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.087064+00:00",
+      "documents": [],
+      "bytes": 169329,
+      "sha256": "005290e58348529fdb3f89afc300de811f777fee1b6c5d41f4ab7b2ce5d4137b",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250827-210900.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.152916+00:00",
+      "documents": [],
+      "bytes": 157070,
+      "sha256": "e0071a162b8e19a61631bb28ef3d1d35001974744d72a432c038d7381846910d",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250908-213456.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.167916+00:00",
+      "documents": [],
+      "bytes": 48615,
+      "sha256": "60597fd5e1f5f3834cd497acdb5d4a5ab3105ed6c41a66d063428fe3c442d9e0",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250909-220116.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.185282+00:00",
+      "documents": [],
+      "bytes": 157276,
+      "sha256": "a3dd6a83469f2200c5d3d98ec32e4f65c096d75460140437284635f0e7158922",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250910-214153.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.284435+00:00",
+      "documents": [],
+      "bytes": 225197,
+      "sha256": "21b48eb2134c5d3476c9dc44bc0048711015f3998c01a153b8a586789b1bca23",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250911-214911.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.296834+00:00",
+      "documents": [],
+      "bytes": 149282,
+      "sha256": "9bb4207d107c0200660299d12b0ebb33b2ae649d94454ad14aadc8cd5b2f93f2",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250912-212714.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.313848+00:00",
+      "documents": [],
+      "bytes": 248896,
+      "sha256": "0b7fdea1b06bcd9502532c40050e9632755b0da5127299e41e6d73b84bcd3198",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250915-205430.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.400451+00:00",
+      "documents": [],
+      "bytes": 74437,
+      "sha256": "a9c5a67e5cc1e0dfb377a23a2b290739ab5a7c82a19a82a42ff49973ed649347",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250916-210611.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.473103+00:00",
+      "documents": [],
+      "bytes": 99715,
+      "sha256": "2c259fcb252291dbe1297b948fa8c5a3cbea8ddbb060c2e7a396219912a03d8c",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250917-210515.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.483320+00:00",
+      "documents": [],
+      "bytes": 59813,
+      "sha256": "6598c843dca850f6bae4a7c744b9485686a9a86cfe63543cc255ace31863017d",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250918-210801.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.522459+00:00",
+      "documents": [],
+      "bytes": 340921,
+      "sha256": "4d9a8c3a44d092d44644daadce24825205f6fdec8133a19d59913e4d4e1927ba",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250919-212001.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.574374+00:00",
+      "documents": [],
+      "bytes": 931200,
+      "sha256": "de76152fb3c2059489e9553c7e8a0d3d624f8cbadd935f208ff8a1760810b9ae",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250922-205012.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.607213+00:00",
+      "documents": [],
+      "bytes": 217936,
+      "sha256": "ff5c23a9586e0f71aa33b78f4e5cecefb5a9daef1b06afa0601d7029b731bea1",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250923-211012.tar.gz",
+      "read_utc": "2026-10-17T18:28:28.630660+00:00",
+      "documents": [],
+      "bytes": 116238,
+      "sha256": "e50db870abee6ea289a5c37fa93ae73195d8472310dc0efd2e9368705b1d8eee",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250924-211352.tar.gz",
+      "read_utc": "2026-10-17T18:28:29.023032+00:00",
+      "documents": [],
+      "bytes": 139243,
+      "sha256": "81961182e5a5410048219b52ea7c2280c8db519c4a58995efa5ccbcb1842119e",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250925-212238.tar.gz",
+      "read_utc": "2026-10-17T18:28:29.037192+00:00",
+      "documents": [],
+      "bytes": 502443,
+      "sha256": "be8f38464a64e89259afe03a9f06db6e517ffdb4e3db15e04437bae99977cd0a",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250926-212301.tar.gz",
+      "read_utc": "2026-10-17T18:28:29.092422+00:00",
+      "documents": [],
+      "bytes": 340778,
+      "sha256": "259deee49f68233744549a92b90c23b93ce8feeb92822b76fccdd616eef47a03",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250929-211717.tar.gz",
+      "read_utc": "2026-10-17T18:28:29.264701+00:00",
+      "documents": [],
+      "bytes": 635464,
+      "sha256": "8ee3acf4d26286fd1420e49af844a94d2cd9b42566f8f22d3837e7715bf6b3ba",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 30
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20250930-214355.tar.gz",
+      "read_utc": "2026-10-17T18:28:29.283761+00:00",
+      "documents": [],
+      "bytes": 1606009,
+      "sha256": "79e007af9272b7738ee84ea624e6259a07057a01a2cb63aa11b5dc8b6f48c1a7",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251001-212247.tar.gz",
+      "read_utc": "2026-10-17T18:28:29.553627+00:00",
+      "documents": [],
+      "bytes": 698933,
+      "sha256": "dcd0ff936d2d67b5318af63b0eacacc89669af0e93cbf97e45bd63d4b9e9dfef",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251002-213135.tar.gz",
+      "read_utc": "2026-10-17T18:28:29.568043+00:00",
+      "documents": [],
+      "bytes": 63367,
+      "sha256": "da111d7a6c7976d586a85314326ebf5aedeccbfe9667b1e858eadaa6cb5def9d",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251003-212356.tar.gz",
+      "read_utc": "2026-10-17T18:28:29.733741+00:00",
+      "documents": [],
+      "bytes": 801229,
+      "sha256": "e8bead37c918f5067642e4304210419d17e6edcf4602939a58dff966bce5bb3a",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251006-211801.tar.gz",
+      "read_utc": "2026-10-17T18:28:29.822308+00:00",
+      "documents": [],
+      "bytes": 508640,
+      "sha256": "89684ad34de379871e39c89e2f23ba68a531c83469863be4c058b442774332ae",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251007-212923.tar.gz",
+      "read_utc": "2026-10-17T18:28:30.856186+00:00",
+      "documents": [],
+      "bytes": 259762,
+      "sha256": "a7e8a17d972ef6dbff2d063520d1560ccfea6d0c55e99ea1d173c7be4770e360",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251008-211500.tar.gz",
+      "read_utc": "2026-10-17T18:28:30.872962+00:00",
+      "documents": [],
+      "bytes": 39361,
+      "sha256": "66bb4c9397feeecac3afc0fc5b76d3007e86c43cbaa137e5b32250b6816e2c52",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251009-211254.tar.gz",
+      "read_utc": "2026-10-17T18:28:30.971083+00:00",
+      "documents": [],
+      "bytes": 118777,
+      "sha256": "8e7ad2d25e3ccd45541a21e1594465b383acf7e68c2971e679faa17031a417bd",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251010-211727.tar.gz",
+      "read_utc": "2026-10-17T18:28:31.033281+00:00",
+      "documents": [],
+      "bytes": 246528,
+      "sha256": "b4fed9fb4ab855fc7cfffe85a2ad8f2f89d29ff746a4a218ae1c5be79fe46ca6",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251013-205930.tar.gz",
+      "read_utc": "2026-10-17T18:28:31.269779+00:00",
+      "documents": [],
+      "bytes": 3263,
+      "sha256": "6e558cb1bb9ffc45e21d8e3d6e50bad32b1fde011440222b05cdfd230363ffb9",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251014-210215.tar.gz",
+      "read_utc": "2026-10-17T18:28:31.285814+00:00",
+      "documents": [],
+      "bytes": 10045,
+      "sha256": "1cf3533a9253820e620d45ed54fab94641854ae56a3e41bbcccabab335a74088",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251015-215624.tar.gz",
+      "read_utc": "2026-10-17T18:28:31.378790+00:00",
+      "documents": [],
+      "bytes": 278147,
+      "sha256": "0117b38ade1a6663da7702ec2af2b58b0234488356ebeffe2769638ec2ef56e5",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251016-211834.tar.gz",
+      "read_utc": "2026-10-17T18:28:31.400823+00:00",
+      "documents": [],
+      "bytes": 26721,
+      "sha256": "b953cb05e866fa3c2d3d4e224ea0495ab178631551535b04f5a61869bfadf7da",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251020-203554.tar.gz",
+      "read_utc": "2026-10-17T18:28:31.407816+00:00",
+      "documents": [],
+      "bytes": 20095,
+      "sha256": "9b264cd829d2a91b5771caad974d48b57c084d17bbc9c807108b507f7f99271e",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251021-211313.tar.gz",
+      "read_utc": "2026-10-17T18:28:31.414043+00:00",
+      "documents": [],
+      "bytes": 289971,
+      "sha256": "50439bf518711e046af3fefb1f76ebb89f64d09adc94d037c955606c536ec2de",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251022-210403.tar.gz",
+      "read_utc": "2026-10-17T18:28:31.551579+00:00",
+      "documents": [],
+      "bytes": 363655,
+      "sha256": "9f1848ca68f4684fb18337a5a45cd1b2f4dbb2f7207b619f983853099de7762a",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251023-211436.tar.gz",
+      "read_utc": "2026-10-17T18:28:31.552578+00:00",
+      "documents": [],
+      "bytes": 158176,
+      "sha256": "156b1bb464786e68ce6d49f0f514ea32610b6a6f1d4fa71f301611f355536311",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251024-205512.tar.gz",
+      "read_utc": "2026-10-17T18:28:32.066802+00:00",
+      "documents": [],
+      "bytes": 511648,
+      "sha256": "56e20a72d683aef52e4aa187d852f0f5e55019020ad9e7edd6638da293ed2d17",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251027-211613.tar.gz",
+      "read_utc": "2026-10-17T18:28:32.167585+00:00",
+      "documents": [],
+      "bytes": 462416,
+      "sha256": "32e3c99a7b4e786859acda8b23d77aeff344a2e86363cc86f70d1e6c4bc8c2c6",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251028-213036.tar.gz",
+      "read_utc": "2026-10-17T18:28:32.190739+00:00",
+      "documents": [],
+      "bytes": 565007,
+      "sha256": "554f8cf587b8011001883a732ad07d7453c1b3904088a0776eececc604eb169e",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251029-215609.tar.gz",
+      "read_utc": "2026-10-17T18:28:32.232304+00:00",
+      "documents": [],
+      "bytes": 438851,
+      "sha256": "8d414d73404a27ad5c39922dda6c393ccd984f37d1782afc82b832bd7f04e4fa",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251030-215845.tar.gz",
+      "read_utc": "2026-10-17T18:28:33.181053+00:00",
+      "documents": [],
+      "bytes": 659361,
+      "sha256": "4fe39e029f4ea63c4e3018d0fba1ffb2b364ed6b3fa12ebe413560d12e341a01",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251103-213357.tar.gz",
+      "read_utc": "2026-10-17T18:28:33.508693+00:00",
+      "documents": [],
+      "bytes": 422352,
+      "sha256": "0bfc2ae891b59c8aa0568c5463f91c5bf0b6b92834ba4ae5eeb8afc1b4068c33",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251104-212237.tar.gz",
+      "read_utc": "2026-10-17T18:28:33.634345+00:00",
+      "documents": [],
+      "bytes": 417835,
+      "sha256": "c9ec0df27c726c6b327ce15f215f5a96e760ec09a351d8d723937368fd9b1bf0",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251105-213346.tar.gz",
+      "read_utc": "2026-10-17T18:28:33.815797+00:00",
+      "documents": [],
+      "bytes": 1242763,
+      "sha256": "899dad1c3241b45dff2df8a82fbdcbfa1ff285675212b938a49e765d9da06419",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251106-212731.tar.gz",
+      "read_utc": "2026-10-17T18:28:34.301978+00:00",
+      "documents": [],
+      "bytes": 450030,
+      "sha256": "e9efe55bf987b398fe17e2add9cb977c92c4d14f899bc1130cec63cc08c38b80",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251107-213531.tar.gz",
+      "read_utc": "2026-10-17T18:28:34.504456+00:00",
+      "documents": [],
+      "bytes": 684916,
+      "sha256": "1796844484e3e5fc56a8b0d5a11e9346ccf05d00f0734b198fcb8a68d5336cf8",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251110-211525.tar.gz",
+      "read_utc": "2026-10-17T18:28:34.539118+00:00",
+      "documents": [],
+      "bytes": 799141,
+      "sha256": "2af641c27716fbdd4e9cf2c58830a30bf8df7504c4bdd65b3ea157dbd08e8705",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251112-205214.tar.gz",
+      "read_utc": "2026-10-17T18:28:35.234980+00:00",
+      "documents": [],
+      "bytes": 562837,
+      "sha256": "990b28aef9f20bba2d7bec2c309e35eb0ccf565650cb1176fb3904d4d8fbaf04",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251113-212834.tar.gz",
+      "read_utc": "2026-10-17T18:28:35.552758+00:00",
+      "documents": [],
+      "bytes": 336575,
+      "sha256": "f3036fe029ef2f9e96e182386597d1ab7402e662576039655498f1f9a799016c",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251117-210231.tar.gz",
+      "read_utc": "2026-10-17T18:28:35.924138+00:00",
+      "documents": [],
+      "bytes": 609789,
+      "sha256": "5f59c142aecb3f00a82321da8f4e2adb6e7b8637cc4218dfc4546a363d36d47c",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251118-212555.tar.gz",
+      "read_utc": "2026-10-17T18:28:36.329439+00:00",
+      "documents": [],
+      "bytes": 384599,
+      "sha256": "eed42ed992d7890e13634be990e20b0e95934e631e100caeb5c045a790d7ef0a",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251119-212941.tar.gz",
+      "read_utc": "2026-10-17T18:28:36.436293+00:00",
+      "documents": [],
+      "bytes": 335675,
+      "sha256": "6861641d29a746f7bd6c46299fe666257bb5e8bd38d6a5a5db8eda87a3ad4e78",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251120-214647.tar.gz",
+      "read_utc": "2026-10-17T18:28:36.472038+00:00",
+      "documents": [],
+      "bytes": 487964,
+      "sha256": "6cb17f568b2f01d3248a77125e679db9d4f5e43370894c0e198b6045329b0f5d",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251121-221742.tar.gz",
+      "read_utc": "2026-10-17T18:28:37.063614+00:00",
+      "documents": [],
+      "bytes": 665072,
+      "sha256": "6beca4c8c3743f062539c50c00bfe207595d550be13f2033dd45cc8966b9e1cd",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 298
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251124-213422.tar.gz",
+      "read_utc": "2026-10-17T18:28:37.164033+00:00",
+      "documents": [],
+      "bytes": 626776,
+      "sha256": "588613e4753a867a99a05a8f5ebadc665bec4e0dd9a8c7a805f7ca053d6f8c53",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 134
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251125-211507.tar.gz",
+      "read_utc": "2026-10-17T18:28:37.210431+00:00",
+      "documents": [],
+      "bytes": 352322,
+      "sha256": "161f3ac57173c3527158f60adea7db879477363a8d54715cbbee2d130f69a9e6",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 17
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251126-230052.tar.gz",
+      "read_utc": "2026-10-17T18:28:38.305229+00:00",
+      "documents": [],
+      "bytes": 752141,
+      "sha256": "5eb869bf4f2e87b1afbc9c66c144814d5add71da1bb52071fb214646e4ec0a5f",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251127-221105.tar.gz",
+      "read_utc": "2026-10-17T18:28:38.370920+00:00",
+      "documents": [],
+      "bytes": 273301,
+      "sha256": "727321169a2f137232596073aed5b708d877d2871e08500250e5ac361920d29b",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251128-214432.tar.gz",
+      "read_utc": "2026-10-17T18:28:38.615760+00:00",
+      "documents": [],
+      "bytes": 1007648,
+      "sha256": "e58573df8aaf62d3e768b06bafd47286b95dde8bcada65c8819c0deb8be367ef",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 27
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251201-212627.tar.gz",
+      "read_utc": "2026-10-17T18:28:38.620764+00:00",
+      "documents": [],
+      "bytes": 344613,
+      "sha256": "02b2bba7938de0ed02f0ba31940feaf2f3f2aca348de6a36093135368da6654f",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251202-212251.tar.gz",
+      "read_utc": "2026-10-17T18:28:38.890688+00:00",
+      "documents": [],
+      "bytes": 461950,
+      "sha256": "b555af0f0828f6e87d3fb6b576c405d90de85aedc9f0dea2926454c629a1ec27",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251203-213427.tar.gz",
+      "read_utc": "2026-10-17T18:28:39.543043+00:00",
+      "documents": [],
+      "bytes": 298844,
+      "sha256": "e3a922d36689862c14b433934a69f0411055dcfc8fc91ca9b99bca69c8dcfe43",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251205-211816.tar.gz",
+      "read_utc": "2026-10-17T18:28:39.556047+00:00",
+      "documents": [],
+      "bytes": 87143,
+      "sha256": "28437c163d7b214b5163c0b6e39ec468907656d3496f58128ea0d4d2552ff341",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251208-211633.tar.gz",
+      "read_utc": "2026-10-17T18:28:39.874810+00:00",
+      "documents": [],
+      "bytes": 223872,
+      "sha256": "97bf294087b373f0a07da3ec72e8b2902ff790b7d7a00c3c9b7cd1304d997d7b",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251209-213053.tar.gz",
+      "read_utc": "2026-10-17T18:28:40.089674+00:00",
+      "documents": [],
+      "bytes": 118324,
+      "sha256": "6ac8bd475565fca8f371894b23a10e569d838aca5b22f48e838b41bddac67ac1",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251210-215256.tar.gz",
+      "read_utc": "2026-10-17T18:28:40.450942+00:00",
+      "documents": [],
+      "bytes": 51546,
+      "sha256": "3e81895b9ff8ae1d3f282bfdf2ace639e8931162ba3758863da1ec7958aacf58",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251216-213609.tar.gz",
+      "read_utc": "2026-10-17T18:28:40.456084+00:00",
+      "documents": [],
+      "bytes": 175941,
+      "sha256": "a15d81e2ac9d98fcfd4fbc2f9129f149a04339a53ab371427da477be74037cc4",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251217-213805.tar.gz",
+      "read_utc": "2026-10-17T18:28:40.468805+00:00",
+      "documents": [],
+      "bytes": 464989,
+      "sha256": "f27f3188b21dfd285a6e20a0123078f402386ceffb9e3b97764d83c8e451091f",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251218-215251.tar.gz",
+      "read_utc": "2026-10-17T18:28:40.478942+00:00",
+      "documents": [],
+      "bytes": 179974,
+      "sha256": "1636de69c8d1872fa09aaa11e8b742211856def948ec4a04008f42911ba1fc7a",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251219-221759.tar.gz",
+      "read_utc": "2026-10-17T18:28:40.627417+00:00",
+      "documents": [],
+      "bytes": 365524,
+      "sha256": "1c5b88c522ddf53d4cd976b6c7c12a3b3601c4821742b85b7e9fba64a0dc083d",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251222-215837.tar.gz",
+      "read_utc": "2026-10-17T18:28:40.800893+00:00",
+      "documents": [],
+      "bytes": 1167184,
+      "sha256": "76f9efaa84e36068f939e4169f75483488f202060b9214e2e39e775884720a57",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251223-224143.tar.gz",
+      "read_utc": "2026-10-17T18:28:40.810897+00:00",
+      "documents": [],
+      "bytes": 76667,
+      "sha256": "ba33a61f8872b3ac3377edb2d66e3ecf7d52b38e63aa5ddd5965fde824aa7446",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251229-225156.tar.gz",
+      "read_utc": "2026-10-17T18:28:41.099586+00:00",
+      "documents": [],
+      "bytes": 1178676,
+      "sha256": "2655cf8a1d7d4e3ad820dc071eb0cb53450bf499f230a1298db9953bdba81e22",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251230-230019.tar.gz",
+      "read_utc": "2026-10-17T18:28:41.214647+00:00",
+      "documents": [],
+      "bytes": 2709644,
+      "sha256": "15b48d1201d1b7019c536c7e89c9372226abbcf101dc043a60e7159c71404143",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20251231-230401.tar.gz",
+      "read_utc": "2026-10-17T18:28:41.219643+00:00",
+      "documents": [],
+      "bytes": 89847,
+      "sha256": "9ae8e05def13f1e7c5fe83ec8aaecac58ebfc7ddcf86a4b4c38766087c82d919",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260106-222302.tar.gz",
+      "read_utc": "2026-10-17T18:28:41.482723+00:00",
+      "documents": [],
+      "bytes": 159232,
+      "sha256": "ac6d1b662211fd74588b4d4af442f8c6ee17937062841717a384fd8cb16934de",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260107-222303.tar.gz",
+      "read_utc": "2026-10-17T18:28:41.851738+00:00",
+      "documents": [],
+      "bytes": 55097,
+      "sha256": "5c6b370e2f68615ffb3bcb1600853a24481d192653d836e04928f998b90231cb",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260108-220205.tar.gz",
+      "read_utc": "2026-10-17T18:28:42.087273+00:00",
+      "documents": [],
+      "bytes": 486118,
+      "sha256": "f5f34cf3049f3298cdff38497120e367073438461e84f2d95962c0f3f49ac8d7",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260109-215114.tar.gz",
+      "read_utc": "2026-10-17T18:28:42.290555+00:00",
+      "documents": [],
+      "bytes": 398009,
+      "sha256": "575e4f3dd6b63b1bff4a1bc305f278e2b3bc1ef34c48098247dd1d70cd316b79",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260112-212754.tar.gz",
+      "read_utc": "2026-10-17T18:28:42.840419+00:00",
+      "documents": [],
+      "bytes": 719940,
+      "sha256": "653e6cc39cf656646aa3bee342262d4a45022c396b893f150920f096a5d77fee",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260113-211022.tar.gz",
+      "read_utc": "2026-10-17T18:28:42.976237+00:00",
+      "documents": [],
+      "bytes": 459980,
+      "sha256": "09b1651432279e3cbe98aee47588332268a537bd4d42f87c9fc4d4181548d683",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260114-215319.tar.gz",
+      "read_utc": "2026-10-17T18:28:43.048290+00:00",
+      "documents": [],
+      "bytes": 727984,
+      "sha256": "15aad1c1af0143a173556c4adb46d7ec11e3090d19387f82489aca081a0c9720",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260115-213622.tar.gz",
+      "read_utc": "2026-10-17T18:28:43.912695+00:00",
+      "documents": [],
+      "bytes": 48814,
+      "sha256": "a0d5cf0f126438fac1f8ec85a69766739e249f853ad9c52dc1f9f353a5a9daaf",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260116-213855.tar.gz",
+      "read_utc": "2026-10-17T18:28:44.142477+00:00",
+      "documents": [],
+      "bytes": 77440,
+      "sha256": "f682294241b2f7ab84967d6e40dc038211e6d95ce1ca5e3293276d2cd4c7169f",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260119-211610.tar.gz",
+      "read_utc": "2026-10-17T18:28:44.147472+00:00",
+      "documents": [],
+      "bytes": 109064,
+      "sha256": "7848daa9d53c0ddcfb7fe23b468a15963a95ef1f65f9653677efae4d5e828fec",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260121-220031.tar.gz",
+      "read_utc": "2026-10-17T18:28:44.535420+00:00",
+      "documents": [],
+      "bytes": 79810,
+      "sha256": "e6ba794543811f8641ebe021a4c3b8ef6f3703d4be60fab1ecb454eb090e23e5",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260122-211654.tar.gz",
+      "read_utc": "2026-10-17T18:28:44.545114+00:00",
+      "documents": [],
+      "bytes": 100422,
+      "sha256": "1e4086088079297d50921ae2c0451ecff23210cb8dd99f0f4aad47c1277455ff",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260123-213816.tar.gz",
+      "read_utc": "2026-10-17T18:28:44.668889+00:00",
+      "documents": [],
+      "bytes": 74277,
+      "sha256": "7e1fe3ea06e573d3d3ec5676eabd302ea4e2f06f2dd5efce3fab0a76408b7d4c",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 1
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260126-211407.tar.gz",
+      "read_utc": "2026-10-17T18:28:44.698743+00:00",
+      "documents": [],
+      "bytes": 269084,
+      "sha256": "63f0d7d0df230507f3330f33fe5bcc805566f98c651e8c7d8ca273a039073395",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 2
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260127-212213.tar.gz",
+      "read_utc": "2026-10-17T18:28:44.827468+00:00",
+      "documents": [],
+      "bytes": 763682,
+      "sha256": "0c787c2fbb47800f3f436dd6d3c6ad76ba0e0eec31d7b94b52ab7b9813149c71",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260129-214549.tar.gz",
+      "read_utc": "2026-10-17T18:28:44.831469+00:00",
+      "documents": [],
+      "bytes": 122518,
+      "sha256": "4e2305456f67ad5f638819e4ac76bb1a6424c9215d1a5e48099a6d4cbb0b14ab",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260130-215723.tar.gz",
+      "read_utc": "2026-10-17T18:28:44.863887+00:00",
+      "documents": [],
+      "bytes": 111870,
+      "sha256": "25ffaaf1608e294136ccc014cbd007a8e49776ea15ccf09193dd99c0ab393df4",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260202-213906.tar.gz",
+      "read_utc": "2026-10-17T18:28:45.128947+00:00",
+      "documents": [],
+      "bytes": 475619,
+      "sha256": "72fdd45cc21bdc2f07cecb62c207ca0e901fc21a5047f41dccc8460d6bd4bae8",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260203-212644.tar.gz",
+      "read_utc": "2026-10-17T18:28:45.130953+00:00",
+      "documents": [],
+      "bytes": 313372,
+      "sha256": "2af14adff259a2b9eb76fe3748c7b90ce0d3d2a02f4943ebf151b318fb20c716",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260204-213125.tar.gz",
+      "read_utc": "2026-10-17T18:28:45.169731+00:00",
+      "documents": [],
+      "bytes": 164292,
+      "sha256": "6a1501ce4c84ee6bac6d4ae8de14fc0973e6c6b1383bd9b5cef0d67797684e63",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260206-213731.tar.gz",
+      "read_utc": "2026-10-17T18:28:45.674548+00:00",
+      "documents": [],
+      "bytes": 7386,
+      "sha256": "c7dca3d187f977e01be29381b8bc394c67f48a4d5e67e2eb96119d480f37e431",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260212-213618.tar.gz",
+      "read_utc": "2026-10-17T18:28:45.757906+00:00",
+      "documents": [],
+      "bytes": 1214251,
+      "sha256": "beeba93d24c630ff31e20ed6679145715c0d5801948f53987ac19a38b386ca58",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260213-215711.tar.gz",
+      "read_utc": "2026-10-17T18:28:45.818870+00:00",
+      "documents": [],
+      "bytes": 1719187,
+      "sha256": "76b667f314077dce659e13704c12b7e857ad6f8357ff60da63bda38408d6c5f6",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260216-213927.tar.gz",
+      "read_utc": "2026-10-17T18:28:45.825699+00:00",
+      "documents": [],
+      "bytes": 55859,
+      "sha256": "a7ad466742c27e2dbb2d588dedb5f9fbb3d763774d774ea93bf2e97f84bb72ad",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260217-213718.tar.gz",
+      "read_utc": "2026-10-17T18:28:45.886183+00:00",
+      "documents": [],
+      "bytes": 93243,
+      "sha256": "cbbdc7f0c50ef611918c42556d036da50ef9afaa38cea38191813a4bc9badda4",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260218-215419.tar.gz",
+      "read_utc": "2026-10-17T18:28:46.039168+00:00",
+      "documents": [],
+      "bytes": 670320,
+      "sha256": "5bf08b8d44fa274ec48e426538b9f5450319705a6e784086398158fc4081d557",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 78
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260219-212232.tar.gz",
+      "read_utc": "2026-10-17T18:28:46.139173+00:00",
+      "documents": [],
+      "bytes": 819349,
+      "sha256": "97c78adb6760d1c7d571e5cc28989a7cf69752f844ddeb4fa0161f9cc36e2ab2",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260220-221620.tar.gz",
+      "read_utc": "2026-10-17T18:28:47.356926+00:00",
+      "documents": [],
+      "bytes": 1428606,
+      "sha256": "090bc4e7f538169c671f6134c3c5b4c51645ec4cfac98f12aec5c0b8c5b5f901",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260223-224003.tar.gz",
+      "read_utc": "2026-10-17T18:28:47.404847+00:00",
+      "documents": [],
+      "bytes": 29958,
+      "sha256": "af81671f5685f8d42301b93c545a003dd493c004d90d22f8f41f6d16d9fe029e",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260224-221302.tar.gz",
+      "read_utc": "2026-10-17T18:28:47.502470+00:00",
+      "documents": [],
+      "bytes": 85835,
+      "sha256": "c38e1f617dbf319b5bf55e6f0a08bb09fdbed9f854adcc6c58f84f3d11502c77",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260225-222454.tar.gz",
+      "read_utc": "2026-10-17T18:28:47.568769+00:00",
+      "documents": [],
+      "bytes": 147776,
+      "sha256": "20163e4066a82fab1b247369866530bc2882d499078e2ad09c20bc13db1a61af",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260226-220114.tar.gz",
+      "read_utc": "2026-10-17T18:28:47.828267+00:00",
+      "documents": [],
+      "bytes": 200015,
+      "sha256": "75d7658d05e1389da4522bf4c5ce69eb80406d38be7397dd75108684859fb54e",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260227-215222.tar.gz",
+      "read_utc": "2026-10-17T18:28:47.942168+00:00",
+      "documents": [],
+      "bytes": 354465,
+      "sha256": "5682f4668862553aa65e8fd41a6752d10c2ae316a90e0b0970011db37b663d58",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260302-213830.tar.gz",
+      "read_utc": "2026-10-17T18:28:48.020781+00:00",
+      "documents": [],
+      "bytes": 52923,
+      "sha256": "c76a3695676248b64ad70c3f2338dc8e99d47b64a78fee4d5de2ef0760c02355",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260303-213235.tar.gz",
+      "read_utc": "2026-10-17T18:28:48.281978+00:00",
+      "documents": [],
+      "bytes": 106998,
+      "sha256": "a99e3a7f7041f773640978023ce6288ceb61f540bcff9c84f3688fd35a93b111",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260304-214724.tar.gz",
+      "read_utc": "2026-10-17T18:28:48.325525+00:00",
+      "documents": [],
+      "bytes": 80833,
+      "sha256": "49f7312df3c4310427ed32ea33963194276b12d4bd162a1565b7f0c698d8d121",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260305-214718.tar.gz",
+      "read_utc": "2026-10-17T18:28:48.613153+00:00",
+      "documents": [],
+      "bytes": 31145,
+      "sha256": "97ead98cc57f443a148788b672c6c8eec727b8f2ade1b4319a603d91c3c56afe",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260306-214123.tar.gz",
+      "read_utc": "2026-10-17T18:28:48.663810+00:00",
+      "documents": [],
+      "bytes": 271075,
+      "sha256": "74b684ec8429e06c9b067399c24016288251e95cf4cc200c668aa0cf414000e5",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260309-211112.tar.gz",
+      "read_utc": "2026-10-17T18:28:48.684600+00:00",
+      "documents": [],
+      "bytes": 221613,
+      "sha256": "92a2dfd856a3ce69a935fae72d3c0a6194434c140c36ed62d183c3ded18f7429",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260310-213318.tar.gz",
+      "read_utc": "2026-10-17T18:28:48.716191+00:00",
+      "documents": [],
+      "bytes": 187489,
+      "sha256": "bfa787d34ab1a400d348f776e002eff9b323ad1e86ff368d5af21ee0c0a57c5a",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260311-215438.tar.gz",
+      "read_utc": "2026-10-17T18:28:48.832641+00:00",
+      "documents": [],
+      "bytes": 7763,
+      "sha256": "79b55e77853ae3d69f842f7fad65cbd1133a52865a3156a4adb9acb1fd3933d4",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260312-214147.tar.gz",
+      "read_utc": "2026-10-17T18:28:49.006277+00:00",
+      "documents": [],
+      "bytes": 56214,
+      "sha256": "68172946c3b8e3690ad008d0029224ba969a74ba87ab5b483d4ddc8317cfffb9",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260313-214659.tar.gz",
+      "read_utc": "2026-10-17T18:28:49.218614+00:00",
+      "documents": [],
+      "bytes": 230218,
+      "sha256": "cc502370f4ed8dd746a14873187160d7c74b4db7fcb1f70c3e72b73513b2124b",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260316-213019.tar.gz",
+      "read_utc": "2026-10-17T18:28:49.244335+00:00",
+      "documents": [],
+      "bytes": 382062,
+      "sha256": "515a0ba1341a5b2f7440d0df55d5d4b7b2735c8e0b24016992434f6ea1985473",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 5
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260317-212200.tar.gz",
+      "read_utc": "2026-10-17T18:28:49.286360+00:00",
+      "documents": [],
+      "bytes": 244050,
+      "sha256": "487c00767ccbaf4993e5a284a9b5ed2a7da8c29bbd407357835d384d029b430f",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260318-213412.tar.gz",
+      "read_utc": "2026-10-17T18:28:49.291047+00:00",
+      "documents": [],
+      "bytes": 740406,
+      "sha256": "f1aea8df6fb2131c07c42fc6d18661dfaa886130fdff5b3a942a00a50c63b4b9",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260323-211443.tar.gz",
+      "read_utc": "2026-10-17T18:28:50.028926+00:00",
+      "documents": [],
+      "bytes": 5457,
+      "sha256": "255e73a515a4f58f53158dd8e63813a9387dab7f04f3c574a48744b569e82fcb",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260325-214514.tar.gz",
+      "read_utc": "2026-10-17T18:28:50.087587+00:00",
+      "documents": [],
+      "bytes": 22631,
+      "sha256": "36b4646a86abf7139719bda15c0eda9eda27d2359ebd1b3c1d75b94a590feee2",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260326-221059.tar.gz",
+      "read_utc": "2026-10-17T18:28:50.148563+00:00",
+      "documents": [],
+      "bytes": 37938,
+      "sha256": "5d4f84965ab2809ced108e9631798cdb8f56be4bacf67f93d0a6b225a8f3e190",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260327-214904.tar.gz",
+      "read_utc": "2026-10-17T18:28:50.176309+00:00",
+      "documents": [],
+      "bytes": 285213,
+      "sha256": "1dbe6da5b49ec736be76f906865592122e3a9866c460cf6f42b0756de4d2d580",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260330-213449.tar.gz",
+      "read_utc": "2026-10-17T18:28:50.225768+00:00",
+      "documents": [],
+      "bytes": 539177,
+      "sha256": "b1abe226ff034c4d5abe3c069b91fd801869e778e9eaf58b97b184622f5842cb",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260331-215650.tar.gz",
+      "read_utc": "2026-10-17T18:28:50.293637+00:00",
+      "documents": [],
+      "bytes": 174298,
+      "sha256": "9d208391530732129ba3be1d4250e23d318be4a849c2c33e72acbbf70e8f3e2a",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260401-215458.tar.gz",
+      "read_utc": "2026-10-17T18:28:50.388845+00:00",
+      "documents": [],
+      "bytes": 629255,
+      "sha256": "673a3760824d4a507efc247dbd2443cdb3d0b5625e971aabd2bd60d02ecb52b1",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260402-215758.tar.gz",
+      "read_utc": "2026-10-17T18:28:50.824385+00:00",
+      "documents": [],
+      "bytes": 1292391,
+      "sha256": "155733d83e5a31fe9f835e1e84226a91705dd271fe93f10392ec48bd40c607a5",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260403-221345.tar.gz",
+      "read_utc": "2026-10-17T18:28:50.840878+00:00",
+      "documents": [],
+      "bytes": 2050514,
+      "sha256": "9604f5ef8305efd5d55db52bf89c39d4a70ffb8eef8822f8b0b3743be919f72f",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260407-213340.tar.gz",
+      "read_utc": "2026-10-17T18:28:50.980463+00:00",
+      "documents": [
+        {
+          "id": "KALIARTI000047513883",
+          "member": "20260407-213340/kali/global/article/KALI/ARTI/00/00/47/51/38/KALIARTI000047513883.xml",
+          "sha256_xml": "696de13982e213c1d52cf3c1d4a1dc394b87314649b4514480ad25b6db7fae99",
+          "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ARTICLE>\n<META>\n<META_COMMUN>\n<ID>KALIARTI000047513883</ID>\n<ANCIEN_ID/>\n<ORIGINE>KALI</ORIGINE>\n<URL>article/KALI/ARTI/00/00/47/51/38/KALIARTI000047513883.xml</URL>\n<NATURE>Article</NATURE>\n</META_COMMUN>\n<META_SPEC>\n<META_ARTICLE>\n\n<NUM>7.2</NUM>\n<TITRE>Classifications</TITRE>\n\n<ETAT>VIGUEUR_ETEN</ETAT>\n\n\n<CALIPSOS/>\n<HISTORIQUE/>\n<DATE_DEBUT>2023-05-01</DATE_DEBUT>\n<DATE_FIN>2999-01-01</DATE_FIN>\n<DATE_DEB_EXT>2999-01-01</DATE_DEB_EXT>\n<DATE_FIN_EXT>2999-01-01</DATE_FIN_EXT>\n<TYPE>AUTONOME</TYPE>\n\n</META_ARTICLE>\n</META_SPEC>\n</META>\n<CONTEXTE>\n<TEXTE cid=\"KALITEXT000044253019\" date_publi=\"2999-01-01\" date_signature=\"2021-07-16\" nature=\"Convention collective nationale\" nor=\"ASET2150857M\" num=\"46\" num_parution_jo=\"\">\n<TITRE_TXT c_titre_court=\"Convention collective nationale des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils du 16 juillet 2021\" debut=\"2023-05-01\" fin=\"2999-01-01\" id_txt=\"KALITEXT000044253019\">Convention collective nationale des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils du 16 juillet 2021 (Avenant n° 46 du 16 juillet 2021)</TITRE_TXT>\n\n\n<TM>\n<TITRE_TM debut=\"2023-05-01\" fin=\"2999-01-01\" id=\"KALISCTA000044253036\">Annexes</TITRE_TM>\n<TM>\n<TITRE_TM debut=\"2023-05-01\" fin=\"2999-01-01\" id=\"KALISCTA000047504922\">Annexe 1 : convention collective nationale </TITRE_TM>\n<TM>\n<TITRE_TM debut=\"2023-05-01\" fin=\"2999-01-01\" id=\"KALISCTA000044253045\">Titre 7 Rémunération</TITRE_TM>\n</TM>\n</TM>\n</TM>\n</TEXTE>\n<CONTENEUR cid=\"KALICONT000005635173\" date_publi=\"2023-05-01\" etat=\"VIGUEUR_ETEN\" nature=\"IDCC\" num=\"1486\" titre=\"Convention collective nationale des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils du 16 juillet 2021 (Avenant n° 46 du 16 juillet 2021)\" url=\"conteneur/KALI/CONT/00/00/05/63/51/KALICONT000005635173.xml\"/>\n</CONTEXTE>\n<VERSIONS>\n<VERSION etat=\"REMPLACE\">\n<LIEN_ART debut=\"2023-05-01\" etat=\"REMPLACE\" fin=\"2023-05-01\" id=\"KALIARTI000044253106\" num=\"7.2\" origine=\"KALI\"/>\n</VERSION>\n<VERSION etat=\"VIGUEUR_ETEN\">\n<LIEN_ART debut=\"2023-05-01\" etat=\"VIGUEUR_ETEN\" fin=\"2999-01-01\" id=\"KALIARTI000047513883\" num=\"7.2\" origine=\"KALI\"/>\n</VERSION>\n</VERSIONS>\n<BLOC_TEXTUEL>\n<CONTENU>\n<p align=\"center\">ETAM</p>\n<p align=\"left\">Les classifications des employés, techniciens et agents de maîtrise (ETAM) figurent en annexe 1 de la convention collective. Les agents de maîtrise sont classés dans le groupe 3 de cette grille.</p>\n<p align=\"left\">Ces classifications s'imposent à toutes les entreprises soumises à la convention collective. Toute difficulté d'application tenant à l'activité de l'entreprise peut faire l'objet d'un accord d'entreprise, mais sous réserve de l'accord de la commission paritaire permanente de négociation et d'interprétation (CPPNI) de la branche .</p>\n<p align=\"left\">La fonction remplie est seule prise en considération pour son classement dans les emplois prévus par la classification en cause.</p>\n<p align=\"left\">Le salarié dont les fonctions relèvent de façon continue de diverses catégories est considéré comme appartenant à la catégorie la plus élevée parmi celles-ci.</p>\n<p align=\"center\">Ingénieurs et cadres</p>\n<p align=\"left\">Les classifications des ingénieurs et cadres figurent en annexe 2 de la convention collective.</p>\n<p align=\"left\">La classification est effectuée en tenant compte des responsabilités assumées et des connaissances mises en application.</p>\n<p align=\"left\">Ces classifications s'imposent à toutes les entreprises soumises à la convention collective. Toute difficulté d'application tenant à l'activité de l'entreprise peut faire l'objet d'un accord de la commission paritaire permanente de négociation et d'interprétation (CPPNI) de la branche.</p>\n<p align=\"left\">La fonction remplie est seule prise en considération pour son classement dans les emplois prévus par la classification en cause.</p>\n<p align=\"left\">Le salarié dont les fonctions relèvent de façon continue de diverses catégories est considéré comme appartenant à la catégorie la plus élevée parmi celles-ci.</p>\n</CONTENU>\n</BLOC_TEXTUEL>\n<LIENS>\n<LIEN cidtexte=\"KALITEXT000047006904\" datesignatexte=\"2022-10-27\" id=\"KALIARTI000047006976\" naturetexte=\"Avenant\" nortexte=\"ASET2251468M\" num=\"30\" numtexte=\"2\" sens=\"cible\" typelien=\"MODIFIE\">Modifications de la convention collective - art. 30 (VNE)</LIEN>\n\n</LIENS>\n\n\n\n<INFORMATIONS_COMPLEMENTAIRES>\n<CONTENU/>\n</INFORMATIONS_COMPLEMENTAIRES>\n</ARTICLE>\n",
+          "number": "7.2",
+          "title": "Classifications",
+          "state": "VIGUEUR_ETEN",
+          "start": "2023-05-01",
+          "end": "2999-01-01"
+        },
+        {
+          "id": "KALIARTI000049764147",
+          "member": "20260407-213340/kali/global/article/KALI/ARTI/00/00/49/76/41/KALIARTI000049764147.xml",
+          "sha256_xml": "1ce59b2a6e9493b3380ae93e6db4490960d8447ad4dc52394ea90eac0c72daf8",
+          "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ARTICLE>\n<META>\n<META_COMMUN>\n<ID>KALIARTI000049764147</ID>\n<ANCIEN_ID/>\n<ORIGINE>KALI</ORIGINE>\n<URL>article/KALI/ARTI/00/00/49/76/41/KALIARTI000049764147.xml</URL>\n<NATURE>Article</NATURE>\n</META_COMMUN>\n<META_SPEC>\n<META_ARTICLE>\n\n<NUM>7.1</NUM>\n<TITRE>Généralités</TITRE>\n\n<ETAT>VIGUEUR_ETEN</ETAT>\n\n\n<CALIPSOS/>\n<HISTORIQUE/>\n<DATE_DEBUT>2024-07-01</DATE_DEBUT>\n<DATE_FIN>2999-01-01</DATE_FIN>\n<DATE_DEB_EXT>2999-01-01</DATE_DEB_EXT>\n<DATE_FIN_EXT>2999-01-01</DATE_FIN_EXT>\n<TYPE>AUTONOME</TYPE>\n\n</META_ARTICLE>\n</META_SPEC>\n</META>\n<CONTEXTE>\n<TEXTE cid=\"KALITEXT000044253019\" date_publi=\"2999-01-01\" date_signature=\"2021-07-16\" nature=\"Convention collective nationale\" nor=\"ASET2150857M\" num=\"46\" num_parution_jo=\"\">\n<TITRE_TXT c_titre_court=\"Convention collective nationale des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils du 16 juillet 2021\" debut=\"2023-05-01\" fin=\"2999-01-01\" id_txt=\"KALITEXT000044253019\">Convention collective nationale des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils du 16 juillet 2021 (Avenant n° 46 du 16 juillet 2021)</TITRE_TXT>\n\n\n<TM>\n<TITRE_TM debut=\"2023-05-01\" fin=\"2999-01-01\" id=\"KALISCTA000044253036\">Annexes</TITRE_TM>\n<TM>\n<TITRE_TM debut=\"2023-05-01\" fin=\"2999-01-01\" id=\"KALISCTA000047504922\">Annexe 1 : convention collective nationale </TITRE_TM>\n<TM>\n<TITRE_TM debut=\"2023-05-01\" fin=\"2999-01-01\" id=\"KALISCTA000044253045\">Titre 7 Rémunération</TITRE_TM>\n</TM>\n</TM>\n</TM>\n</TEXTE>\n<CONTENEUR cid=\"KALICONT000005635173\" date_publi=\"2023-05-01\" etat=\"VIGUEUR_ETEN\" nature=\"IDCC\" num=\"1486\" titre=\"Convention collective nationale des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils du 16 juillet 2021 (Avenant n° 46 du 16 juillet 2021)\" url=\"conteneur/KALI/CONT/00/00/05/63/51/KALICONT000005635173.xml\"/>\n</CONTEXTE>\n<VERSIONS>\n<VERSION etat=\"REMPLACE\">\n<LIEN_ART debut=\"2023-05-01\" etat=\"REMPLACE\" fin=\"2023-05-01\" id=\"KALIARTI000044253104\" num=\"7.1\" origine=\"KALI\"/>\n</VERSION>\n<VERSION etat=\"VIGUEUR_ETEN\">\n<LIEN_ART debut=\"2024-07-01\" etat=\"VIGUEUR_ETEN\" fin=\"2999-01-01\" id=\"KALIARTI000049764147\" num=\"7.1\" origine=\"KALI\"/>\n</VERSION>\n<VERSION etat=\"REMPLACE\">\n<LIEN_ART debut=\"2023-05-01\" etat=\"REMPLACE\" fin=\"2023-05-01\" id=\"KALIARTI000047513125\" num=\"7.1\" origine=\"KALI\"/>\n</VERSION>\n<VERSION etat=\"REMPLACE\">\n<LIEN_ART debut=\"2023-05-01\" etat=\"REMPLACE\" fin=\"2024-07-01\" id=\"KALIARTI000047513880\" num=\"7.1\" origine=\"KALI\"/>\n</VERSION>\n</VERSIONS>\n<BLOC_TEXTUEL>\n<CONTENU>\n<br/>\n<p align=\"left\">Le salaire est basé sur la durée légale ou conventionnelle du travail.</p>\n<p align=\"left\">Les salaires minimaux hiérarchiques excluent :<br/>\n– les primes d'assiduité, de participation et d'intéressement ;<br/>\n– les primes et gratifications de caractère exceptionnel ;<br/>\n– les remboursements de frais ;<br/>\n– les indemnités en cas de déplacement ou détachement ;<br/>\n– la rémunération des heures supplémentaires et complémentaires ;<br/>\n– l'indemnité compensatrice de congés payés.</p>\n<p align=\"left\">Les salaires minimaux hiérarchiques incluent les avantages en nature évalués d'un commun accord et mentionnés dans le contrat de travail.</p>\n<p align=\"left\">Pour établir si le salarié reçoit au moins le minimum le concernant, les avantages prévus ci-dessus doivent être intégrés dans la rémunération annuelle dont 1/12 ne doit, en aucun cas, être inférieur à ce minimum.</p>\n<p align=\"left\">La rémunération mensuelle ne sera pas inférieure à 95 % du salaire minimal hiérarchique mensuel ou à 92 % en cas d'existence d'un 13e mois. En cas de départ en cours d'année d'un salarié ayant une rémunération mensuelle inférieure au salaire minimal hiérarchique, l'entreprise complétera la rémunération perçue afin qu'elle corresponde au moins au salaire minimal hiérarchique sur la période de présence.</p>\n<p align=\"left\">Les salaires minimaux hiérarchiques sont examinés une fois par an par la commission paritaire permanente de négociation et d'interprétation (CPPNI) de la branche, au plus tard le 30 juin. Elle est précédée, au plus tard 15 jours à l'avance, de l'envoi, par les organisations professionnelles d'employeurs aux organisations syndicales de salariés, des informations exigées par la loi.</p>\n<p align=\"left\">Les salaires minimaux hiérarchiques des ETAM sont déterminés selon la formule suivante :</p>\n<p align=\"center\">Salaire minimal hiérarchique = base fixe + (valeur du point ETAM × coefficient de la position)</p>\n<p align=\"left\">Les salaires minimaux hiérarchiques relatifs à chaque emploi des ingénieurs et cadres sont déterminés par l'application aux coefficients hiérarchiques des valeurs du point de rémunération correspondantes.</p>\n<br/>\n<br/>\n</CONTENU>\n</BLOC_TEXTUEL>\n<LIENS>\n\n<LIEN cidtexte=\"KALITEXT000005679936\" datesignatexte=\"1999-06-22\" id=\"KALISCTA000005724217\" naturetexte=\"ACCORD\" nortexte=\"ASET9950692M\" num=\"\" numtexte=\"\" sens=\"source\" typelien=\"CITATION\">Durée du travail (application de la loi du 13 juin 1998)</LIEN>\n<LIEN cidtexte=\"KALITEXT000047348407\" datesignatexte=\"2022-12-13\" id=\"KALIARTI000047348432\" naturetexte=\"Avenant\" nortexte=\"ASET2350029M\" num=\"3\" numtexte=\"2\" sens=\"cible\" typelien=\"MODIFIE\">Durée du travail - art. 3 (VE)</LIEN>\n</LIENS>\n\n\n\n<INFORMATIONS_COMPLEMENTAIRES>\n<CONTENU/>\n</INFORMATIONS_COMPLEMENTAIRES>\n</ARTICLE>\n",
+          "number": "7.1",
+          "title": "Généralités",
+          "state": "VIGUEUR_ETEN",
+          "start": "2024-07-01",
+          "end": "2999-01-01"
+        }
+      ],
+      "bytes": 686005,
+      "sha256": "3083bf92716d209b18baf26a9302a190f5abd4c15782e59abaa6dc850e2dcb67",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 130
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260408-214134.tar.gz",
+      "read_utc": "2026-10-17T18:28:51.111921+00:00",
+      "documents": [],
+      "bytes": 611771,
+      "sha256": "488d3aaf36cac482cb5d9bf656bbcb50404fda18b2d5bb002fa7b0f4bc6375e6",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260409-215606.tar.gz",
+      "read_utc": "2026-10-17T18:28:52.805269+00:00",
+      "documents": [],
+      "bytes": 25581,
+      "sha256": "cec973265b2fee3abbc11d2633131f351c19d620b946f5de1b8aae59d1e2801c",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260414-215312.tar.gz",
+      "read_utc": "2026-10-17T18:28:52.820156+00:00",
+      "documents": [],
+      "bytes": 6938,
+      "sha256": "8d609c515101081cf368af70ab89a0242efe21f223da886392609d400de140f2",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260415-215728.tar.gz",
+      "read_utc": "2026-10-17T18:28:52.967897+00:00",
+      "documents": [],
+      "bytes": 216293,
+      "sha256": "cc03b9258806c04104c0d2d7da34bd4708f7d97180d941237f6f293247118fe2",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260416-214438.tar.gz",
+      "read_utc": "2026-10-17T18:28:52.978898+00:00",
+      "documents": [],
+      "bytes": 356110,
+      "sha256": "b76a535a914dead6651101ed5fa202ff232a30427fe40d99476fc446d5c16cfd",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260420-214116.tar.gz",
+      "read_utc": "2026-10-17T18:28:53.023899+00:00",
+      "documents": [],
+      "bytes": 505819,
+      "sha256": "ec711d916e398f645c756971a597f3bb56ba0ab353897d6cd5c9b48f536f19b3",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260421-212406.tar.gz",
+      "read_utc": "2026-10-17T18:28:53.626209+00:00",
+      "documents": [],
+      "bytes": 380693,
+      "sha256": "7a64cdccc53bf3ef892c624668b040a01eaf02b8aeb48b239494672be2bdc235",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260422-214145.tar.gz",
+      "read_utc": "2026-10-17T18:28:53.691949+00:00",
+      "documents": [],
+      "bytes": 321466,
+      "sha256": "495be2d2fdd363cc34407cc75ea93ec30f7c505e8a398cc1bd5db864ac18f5e3",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260423-213844.tar.gz",
+      "read_utc": "2026-10-17T18:28:53.849249+00:00",
+      "documents": [],
+      "bytes": 40804,
+      "sha256": "21cecf317206e56d7295c56cc1f1c1aeee4ab6eda85d1a396a0d1b37bedbb64e",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260424-215737.tar.gz",
+      "read_utc": "2026-10-17T18:28:53.900383+00:00",
+      "documents": [],
+      "bytes": 168493,
+      "sha256": "e3cefa0cee14e3ceb4f4f909a186caaf4a55a48a441621b7eb8bc8803a4a2789",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260427-212938.tar.gz",
+      "read_utc": "2026-10-17T18:28:54.034610+00:00",
+      "documents": [],
+      "bytes": 150783,
+      "sha256": "86b2d00cdfa66e8aee9eca1f2c9e803cf5da8664fde5793c169f9f4673c96e66",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260428-213918.tar.gz",
+      "read_utc": "2026-10-17T18:28:54.152410+00:00",
+      "documents": [],
+      "bytes": 316113,
+      "sha256": "5ad97daf805ae00a2c4e9d876a16afb8ebb10ad46478504c9d74b84c03fcd4f5",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260429-214715.tar.gz",
+      "read_utc": "2026-10-17T18:28:54.263479+00:00",
+      "documents": [],
+      "bytes": 719287,
+      "sha256": "39c61d11ebceea6c73428213820755c3b04bc263c9b4d928375728def9b8c2a6",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260430-220503.tar.gz",
+      "read_utc": "2026-10-17T18:28:54.307352+00:00",
+      "documents": [],
+      "bytes": 129104,
+      "sha256": "c22373e2f5fae78873b39193e390c480a579d845712d17e862f0e2200d56b92d",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260504-212959.tar.gz",
+      "read_utc": "2026-10-17T18:28:54.358879+00:00",
+      "documents": [],
+      "bytes": 40308,
+      "sha256": "854d2e9dc3c419d334128d9587a964cfeda43b8038932dfc475cfaf27f27f710",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260505-215314.tar.gz",
+      "read_utc": "2026-10-17T18:28:54.563551+00:00",
+      "documents": [],
+      "bytes": 233074,
+      "sha256": "82d72086e7aa901c30cf5a9b0b38cba896ef9257a4429d832f3cf9e5b69a74ff",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260506-212453.tar.gz",
+      "read_utc": "2026-10-17T18:28:54.598285+00:00",
+      "documents": [],
+      "bytes": 187133,
+      "sha256": "660acfc65e3e9e062818e997b8862240f24aef8dc6b16fc348904160ada4dc91",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260507-213433.tar.gz",
+      "read_utc": "2026-10-17T18:28:54.716774+00:00",
+      "documents": [],
+      "bytes": 472212,
+      "sha256": "ed52279dac0ce03bc68d2163c4a62fd4d56c71c99429467a6fc9209161a90b2b",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260511-222130.tar.gz",
+      "read_utc": "2026-10-17T18:28:54.957518+00:00",
+      "documents": [],
+      "bytes": 1052614,
+      "sha256": "bbae62edd473fcac539fa4fa1f9c6c6e303d68d54178d0efdd83b9e8626ebdd3",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260512-214003.tar.gz",
+      "read_utc": "2026-10-17T18:28:55.026353+00:00",
+      "documents": [],
+      "bytes": 556151,
+      "sha256": "6a0eb8ac36b09c3ec121ad5f5bd119d842655b36f15fb8c8f766fdab8b7933f3",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260513-221833.tar.gz",
+      "read_utc": "2026-10-17T18:28:55.063038+00:00",
+      "documents": [],
+      "bytes": 527643,
+      "sha256": "006fbc54ac5b899721dfda7a65d4b9088a0c74c193b16972e94bfa29e33bfc2d",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260518-211450.tar.gz",
+      "read_utc": "2026-10-17T18:28:55.193781+00:00",
+      "documents": [],
+      "bytes": 815073,
+      "sha256": "cb849e892bb4193af45c6c62e2083197140a47a7b84228fa9118754001eff3d2",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260519-205954.tar.gz",
+      "read_utc": "2026-10-17T18:28:56.181483+00:00",
+      "documents": [],
+      "bytes": 124655,
+      "sha256": "f1e655b7e6e595c79f7f66c1a9752144be6fc8150b67092f2fbbd03e07a90b41",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260520-213005.tar.gz",
+      "read_utc": "2026-10-17T18:28:56.293110+00:00",
+      "documents": [],
+      "bytes": 119601,
+      "sha256": "c94de742ee3b5a277e95abf1df43dcefed0f030b136244de8e31449f573f1bee",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260521-213511.tar.gz",
+      "read_utc": "2026-10-17T18:28:56.463586+00:00",
+      "documents": [],
+      "bytes": 223130,
+      "sha256": "a246c9d84240df144788a27ccd3380d7f960d5362802cba1f37de5d7f2b9bb0c",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260522-211557.tar.gz",
+      "read_utc": "2026-10-17T18:28:56.575028+00:00",
+      "documents": [],
+      "bytes": 6451,
+      "sha256": "b12d6bc3142e24cd5608ba95d7361f7ba607e9593f24ac60a720ed26a87d9c9c",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260527-222846.tar.gz",
+      "read_utc": "2026-10-17T18:28:56.602233+00:00",
+      "documents": [],
+      "bytes": 20627,
+      "sha256": "c7e9fea11e0598b89f9eedca51a7aecb77f0f19494b1efd267db92cb2a646820",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260528-212842.tar.gz",
+      "read_utc": "2026-10-17T18:28:56.728240+00:00",
+      "documents": [
+        {
+          "id": "KALIARTI000047513883",
+          "member": "20260528-212842/kali/global/article/KALI/ARTI/00/00/47/51/38/KALIARTI000047513883.xml",
+          "sha256_xml": "4326d69575710216d12aa8c1956ca0ed45fd6cd43d5199f4df7283ce8514dd95",
+          "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ARTICLE>\n<META>\n<META_COMMUN>\n<ID>KALIARTI000047513883</ID>\n<ANCIEN_ID/>\n<ORIGINE>KALI</ORIGINE>\n<URL>article/KALI/ARTI/00/00/47/51/38/KALIARTI000047513883.xml</URL>\n<NATURE>Article</NATURE>\n</META_COMMUN>\n<META_SPEC>\n<META_ARTICLE>\n\n<NUM>7.2</NUM>\n<TITRE>Classifications</TITRE>\n\n<ETAT>VIGUEUR_ETEN</ETAT>\n\n\n<CALIPSOS/>\n<HISTORIQUE/>\n<DATE_DEBUT>2023-05-01</DATE_DEBUT>\n<DATE_FIN>2999-01-01</DATE_FIN>\n<DATE_DEB_EXT>2999-01-01</DATE_DEB_EXT>\n<DATE_FIN_EXT>2999-01-01</DATE_FIN_EXT>\n<TYPE>AUTONOME</TYPE>\n\n</META_ARTICLE>\n</META_SPEC>\n</META>\n<CONTEXTE>\n<TEXTE cid=\"KALITEXT000044253019\" date_publi=\"2999-01-01\" date_signature=\"2021-07-16\" nature=\"Convention collective nationale\" nor=\"ASET2150857M\" num=\"46\" num_parution_jo=\"\">\n<TITRE_TXT c_titre_court=\"Convention collective nationale des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils du 16 juillet 2021\" debut=\"2023-05-01\" fin=\"2999-01-01\" id_txt=\"KALITEXT000044253019\">Convention collective nationale des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils du 15 décembre 1987 mise à jour par avenant n° 46 du 16 juillet 2021 </TITRE_TXT>\n\n\n<TM>\n<TITRE_TM debut=\"2023-05-01\" fin=\"2999-01-01\" id=\"KALISCTA000044253036\">Annexes</TITRE_TM>\n<TM>\n<TITRE_TM debut=\"2023-05-01\" fin=\"2999-01-01\" id=\"KALISCTA000047504922\">Annexe 1 : convention collective nationale </TITRE_TM>\n<TM>\n<TITRE_TM debut=\"2023-05-01\" fin=\"2999-01-01\" id=\"KALISCTA000044253045\">Titre 7 Rémunération</TITRE_TM>\n</TM>\n</TM>\n</TM>\n</TEXTE>\n<CONTENEUR cid=\"KALICONT000005635173\" date_publi=\"2023-05-01\" etat=\"VIGUEUR_ETEN\" nature=\"IDCC\" num=\"1486\" titre=\"Convention collective nationale des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils du 15 décembre 1987 mise à jour par avenant n° 46 du 16 juillet 2021 \" url=\"conteneur/KALI/CONT/00/00/05/63/51/KALICONT000005635173.xml\"/>\n</CONTEXTE>\n<VERSIONS>\n<VERSION etat=\"REMPLACE\">\n<LIEN_ART debut=\"2023-05-01\" etat=\"REMPLACE\" fin=\"2023-05-01\" id=\"KALIARTI000044253106\" num=\"7.2\" origine=\"KALI\"/>\n</VERSION>\n<VERSION etat=\"VIGUEUR_ETEN\">\n<LIEN_ART debut=\"2023-05-01\" etat=\"VIGUEUR_ETEN\" fin=\"2999-01-01\" id=\"KALIARTI000047513883\" num=\"7.2\" origine=\"KALI\"/>\n</VERSION>\n</VERSIONS>\n<BLOC_TEXTUEL>\n<CONTENU>\n<p align=\"center\">ETAM</p>\n<p align=\"left\">Les classifications des employés, techniciens et agents de maîtrise (ETAM) figurent en annexe 1 de la convention collective. Les agents de maîtrise sont classés dans le groupe 3 de cette grille.</p>\n<p align=\"left\">Ces classifications s'imposent à toutes les entreprises soumises à la convention collective. Toute difficulté d'application tenant à l'activité de l'entreprise peut faire l'objet d'un accord d'entreprise, mais sous réserve de l'accord de la commission paritaire permanente de négociation et d'interprétation (CPPNI) de la branche .</p>\n<p align=\"left\">La fonction remplie est seule prise en considération pour son classement dans les emplois prévus par la classification en cause.</p>\n<p align=\"left\">Le salarié dont les fonctions relèvent de façon continue de diverses catégories est considéré comme appartenant à la catégorie la plus élevée parmi celles-ci.</p>\n<p align=\"center\">Ingénieurs et cadres</p>\n<p align=\"left\">Les classifications des ingénieurs et cadres figurent en annexe 2 de la convention collective.</p>\n<p align=\"left\">La classification est effectuée en tenant compte des responsabilités assumées et des connaissances mises en application.</p>\n<p align=\"left\">Ces classifications s'imposent à toutes les entreprises soumises à la convention collective. Toute difficulté d'application tenant à l'activité de l'entreprise peut faire l'objet d'un accord de la commission paritaire permanente de négociation et d'interprétation (CPPNI) de la branche.</p>\n<p align=\"left\">La fonction remplie est seule prise en considération pour son classement dans les emplois prévus par la classification en cause.</p>\n<p align=\"left\">Le salarié dont les fonctions relèvent de façon continue de diverses catégories est considéré comme appartenant à la catégorie la plus élevée parmi celles-ci.</p>\n</CONTENU>\n</BLOC_TEXTUEL>\n<LIENS>\n<LIEN cidtexte=\"KALITEXT000047006904\" datesignatexte=\"2022-10-27\" id=\"KALIARTI000047006976\" naturetexte=\"Avenant\" nortexte=\"ASET2251468M\" num=\"30\" numtexte=\"2\" sens=\"cible\" typelien=\"MODIFIE\">Modifications de la convention collective - art. 30 (VNE)</LIEN>\n\n</LIENS>\n\n\n\n<INFORMATIONS_COMPLEMENTAIRES>\n<CONTENU/>\n</INFORMATIONS_COMPLEMENTAIRES>\n</ARTICLE>\n",
+          "number": "7.2",
+          "title": "Classifications",
+          "state": "VIGUEUR_ETEN",
+          "start": "2023-05-01",
+          "end": "2999-01-01"
+        },
+        {
+          "id": "KALIARTI000049764147",
+          "member": "20260528-212842/kali/global/article/KALI/ARTI/00/00/49/76/41/KALIARTI000049764147.xml",
+          "sha256_xml": "1a0a09387397570c729868d0aa76af7da112e1d333b5ccce055e191cb37a302e",
+          "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ARTICLE>\n<META>\n<META_COMMUN>\n<ID>KALIARTI000049764147</ID>\n<ANCIEN_ID/>\n<ORIGINE>KALI</ORIGINE>\n<URL>article/KALI/ARTI/00/00/49/76/41/KALIARTI000049764147.xml</URL>\n<NATURE>Article</NATURE>\n</META_COMMUN>\n<META_SPEC>\n<META_ARTICLE>\n\n<NUM>7.1</NUM>\n<TITRE>Généralités</TITRE>\n\n<ETAT>VIGUEUR_ETEN</ETAT>\n\n\n<CALIPSOS/>\n<HISTORIQUE/>\n<DATE_DEBUT>2024-07-01</DATE_DEBUT>\n<DATE_FIN>2999-01-01</DATE_FIN>\n<DATE_DEB_EXT>2999-01-01</DATE_DEB_EXT>\n<DATE_FIN_EXT>2999-01-01</DATE_FIN_EXT>\n<TYPE>AUTONOME</TYPE>\n\n</META_ARTICLE>\n</META_SPEC>\n</META>\n<CONTEXTE>\n<TEXTE cid=\"KALITEXT000044253019\" date_publi=\"2999-01-01\" date_signature=\"2021-07-16\" nature=\"Convention collective nationale\" nor=\"ASET2150857M\" num=\"46\" num_parution_jo=\"\">\n<TITRE_TXT c_titre_court=\"Convention collective nationale des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils du 16 juillet 2021\" debut=\"2023-05-01\" fin=\"2999-01-01\" id_txt=\"KALITEXT000044253019\">Convention collective nationale des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils du 15 décembre 1987 mise à jour par avenant n° 46 du 16 juillet 2021 </TITRE_TXT>\n\n\n<TM>\n<TITRE_TM debut=\"2023-05-01\" fin=\"2999-01-01\" id=\"KALISCTA000044253036\">Annexes</TITRE_TM>\n<TM>\n<TITRE_TM debut=\"2023-05-01\" fin=\"2999-01-01\" id=\"KALISCTA000047504922\">Annexe 1 : convention collective nationale </TITRE_TM>\n<TM>\n<TITRE_TM debut=\"2023-05-01\" fin=\"2999-01-01\" id=\"KALISCTA000044253045\">Titre 7 Rémunération</TITRE_TM>\n</TM>\n</TM>\n</TM>\n</TEXTE>\n<CONTENEUR cid=\"KALICONT000005635173\" date_publi=\"2023-05-01\" etat=\"VIGUEUR_ETEN\" nature=\"IDCC\" num=\"1486\" titre=\"Convention collective nationale des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils du 15 décembre 1987 mise à jour par avenant n° 46 du 16 juillet 2021 \" url=\"conteneur/KALI/CONT/00/00/05/63/51/KALICONT000005635173.xml\"/>\n</CONTEXTE>\n<VERSIONS>\n<VERSION etat=\"REMPLACE\">\n<LIEN_ART debut=\"2023-05-01\" etat=\"REMPLACE\" fin=\"2023-05-01\" id=\"KALIARTI000044253104\" num=\"7.1\" origine=\"KALI\"/>\n</VERSION>\n<VERSION etat=\"VIGUEUR_ETEN\">\n<LIEN_ART debut=\"2024-07-01\" etat=\"VIGUEUR_ETEN\" fin=\"2999-01-01\" id=\"KALIARTI000049764147\" num=\"7.1\" origine=\"KALI\"/>\n</VERSION>\n<VERSION etat=\"REMPLACE\">\n<LIEN_ART debut=\"2023-05-01\" etat=\"REMPLACE\" fin=\"2023-05-01\" id=\"KALIARTI000047513125\" num=\"7.1\" origine=\"KALI\"/>\n</VERSION>\n<VERSION etat=\"REMPLACE\">\n<LIEN_ART debut=\"2023-05-01\" etat=\"REMPLACE\" fin=\"2024-07-01\" id=\"KALIARTI000047513880\" num=\"7.1\" origine=\"KALI\"/>\n</VERSION>\n</VERSIONS>\n<BLOC_TEXTUEL>\n<CONTENU>\n<br/>\n<p align=\"left\">Le salaire est basé sur la durée légale ou conventionnelle du travail.</p>\n<p align=\"left\">Les salaires minimaux hiérarchiques excluent :<br/>\n– les primes d'assiduité, de participation et d'intéressement ;<br/>\n– les primes et gratifications de caractère exceptionnel ;<br/>\n– les remboursements de frais ;<br/>\n– les indemnités en cas de déplacement ou détachement ;<br/>\n– la rémunération des heures supplémentaires et complémentaires ;<br/>\n– l'indemnité compensatrice de congés payés.</p>\n<p align=\"left\">Les salaires minimaux hiérarchiques incluent les avantages en nature évalués d'un commun accord et mentionnés dans le contrat de travail.</p>\n<p align=\"left\">Pour établir si le salarié reçoit au moins le minimum le concernant, les avantages prévus ci-dessus doivent être intégrés dans la rémunération annuelle dont 1/12 ne doit, en aucun cas, être inférieur à ce minimum.</p>\n<p align=\"left\">La rémunération mensuelle ne sera pas inférieure à 95 % du salaire minimal hiérarchique mensuel ou à 92 % en cas d'existence d'un 13e mois. En cas de départ en cours d'année d'un salarié ayant une rémunération mensuelle inférieure au salaire minimal hiérarchique, l'entreprise complétera la rémunération perçue afin qu'elle corresponde au moins au salaire minimal hiérarchique sur la période de présence.</p>\n<p align=\"left\">Les salaires minimaux hiérarchiques sont examinés une fois par an par la commission paritaire permanente de négociation et d'interprétation (CPPNI) de la branche, au plus tard le 30 juin. Elle est précédée, au plus tard 15 jours à l'avance, de l'envoi, par les organisations professionnelles d'employeurs aux organisations syndicales de salariés, des informations exigées par la loi.</p>\n<p align=\"left\">Les salaires minimaux hiérarchiques des ETAM sont déterminés selon la formule suivante :</p>\n<p align=\"center\">Salaire minimal hiérarchique = base fixe + (valeur du point ETAM × coefficient de la position)</p>\n<p align=\"left\">Les salaires minimaux hiérarchiques relatifs à chaque emploi des ingénieurs et cadres sont déterminés par l'application aux coefficients hiérarchiques des valeurs du point de rémunération correspondantes.</p>\n<br/>\n<br/>\n</CONTENU>\n</BLOC_TEXTUEL>\n<LIENS>\n\n<LIEN cidtexte=\"KALITEXT000005679936\" datesignatexte=\"1999-06-22\" id=\"KALISCTA000005724217\" naturetexte=\"ACCORD\" nortexte=\"ASET9950692M\" num=\"\" numtexte=\"\" sens=\"source\" typelien=\"CITATION\">Durée du travail (application de la loi du 13 juin 1998)</LIEN>\n<LIEN cidtexte=\"KALITEXT000047348407\" datesignatexte=\"2022-12-13\" id=\"KALIARTI000047348432\" naturetexte=\"Avenant\" nortexte=\"ASET2350029M\" num=\"3\" numtexte=\"2\" sens=\"cible\" typelien=\"MODIFIE\">Durée du travail - art. 3 (VE)</LIEN>\n</LIENS>\n\n\n\n<INFORMATIONS_COMPLEMENTAIRES>\n<CONTENU/>\n</INFORMATIONS_COMPLEMENTAIRES>\n</ARTICLE>\n",
+          "number": "7.1",
+          "title": "Généralités",
+          "state": "VIGUEUR_ETEN",
+          "start": "2024-07-01",
+          "end": "2999-01-01"
+        }
+      ],
+      "bytes": 93928,
+      "sha256": "0024364b9691905aa958cb8fdf5a6c490adb92000100c8fe9d602ed60cc46685",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 126
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260601-220831.tar.gz",
+      "read_utc": "2026-10-17T18:28:56.785537+00:00",
+      "documents": [],
+      "bytes": 166119,
+      "sha256": "68056b23581806223be697165af4fd2ca65786ee1599c508406210d78dfebc47",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260602-214656.tar.gz",
+      "read_utc": "2026-10-17T18:28:56.854168+00:00",
+      "documents": [],
+      "bytes": 1615855,
+      "sha256": "23bc453f55e3a355b03f06f86cf807c835be4687c18c32cd208505f1d4375167",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260603-220526.tar.gz",
+      "read_utc": "2026-10-17T18:28:56.900798+00:00",
+      "documents": [],
+      "bytes": 1445393,
+      "sha256": "6b1955e5e7723d1c7af4d0440c56cddfdade8e7b426d982c974542d2d287e32c",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260605-222728.tar.gz",
+      "read_utc": "2026-10-17T18:28:56.998918+00:00",
+      "documents": [],
+      "bytes": 913929,
+      "sha256": "66ca66ad4af885cd88cb933e4c37255252adbc7e8fece9729f313ae972b8ce07",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260608-213910.tar.gz",
+      "read_utc": "2026-10-17T18:28:57.061167+00:00",
+      "documents": [],
+      "bytes": 1582214,
+      "sha256": "9bf7d5a8f7843e6f956deb89bc0f76bd6d8443294c4203a5417d587ae5031e27",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260609-212725.tar.gz",
+      "read_utc": "2026-10-17T18:28:58.538016+00:00",
+      "documents": [],
+      "bytes": 278593,
+      "sha256": "549b4e9eaa4972342638a88fac8b16b82237d8ea4592c92b1f02009fe53be82d",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260610-214017.tar.gz",
+      "read_utc": "2026-10-17T18:28:58.852250+00:00",
+      "documents": [],
+      "bytes": 599308,
+      "sha256": "1f40a0f6947ddd32caf8138fd75ff0f5486719b29013978eb8f3e78502884f61",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 33
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260611-215545.tar.gz",
+      "read_utc": "2026-10-17T18:28:59.006798+00:00",
+      "documents": [],
+      "bytes": 596190,
+      "sha256": "4acc1a722df17132a9b1221e076fb2f8cbdb7c79b379d65ac73cd2476f4b729b",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260615-221231.tar.gz",
+      "read_utc": "2026-10-17T18:28:59.130171+00:00",
+      "documents": [],
+      "bytes": 559726,
+      "sha256": "2f8bbc7bce4996eff47c6bc5bc01e62381b20e71e66c9fee37dab04cb78af5ac",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260616-213852.tar.gz",
+      "read_utc": "2026-10-17T18:28:59.231852+00:00",
+      "documents": [],
+      "bytes": 1093633,
+      "sha256": "a6047f61f34c1373f84f966799a271d23de4a5e99a5130dee3e3eb1c9e7a0132",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260617-213057.tar.gz",
+      "read_utc": "2026-10-17T18:28:59.490292+00:00",
+      "documents": [],
+      "bytes": 410335,
+      "sha256": "5c1d7882cdd929fb2c1ea930ac15168f11c677be20ea816c9f3eed151bf51acf",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260618-213729.tar.gz",
+      "read_utc": "2026-10-17T18:28:59.888065+00:00",
+      "documents": [],
+      "bytes": 292378,
+      "sha256": "5e2a446fd9c0ed27db33e0917799f8888ce522feb6d98e31d2dd9425e90ab65a",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 3
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260619-212738.tar.gz",
+      "read_utc": "2026-10-17T18:29:00.034950+00:00",
+      "documents": [],
+      "bytes": 563759,
+      "sha256": "79ad434ace3ef4657a7c3518c659f4b8014313bc8c4c7286ab02460df24cc915",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260624-215402.tar.gz",
+      "read_utc": "2026-10-17T18:29:00.179677+00:00",
+      "documents": [],
+      "bytes": 100020,
+      "sha256": "51b8e17fee9e5baacec1783c635d3324398cc556965d18977eca4cb65f409eff",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260625-214542.tar.gz",
+      "read_utc": "2026-10-17T18:29:00.314891+00:00",
+      "documents": [],
+      "bytes": 460020,
+      "sha256": "21a5cc8f0bf02c8d5040d0c963a59e92ffbddd35af276b9174d25dc9d6cb8863",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260626-222225.tar.gz",
+      "read_utc": "2026-10-17T18:29:00.442845+00:00",
+      "documents": [],
+      "bytes": 734376,
+      "sha256": "ff3957466d29c9d6481f2e6f49bbafd1a729a193bdf36559b6a88c35d45f7132",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260629-223234.tar.gz",
+      "read_utc": "2026-10-17T18:29:00.726169+00:00",
+      "documents": [],
+      "bytes": 57924,
+      "sha256": "6dafc6eb2f0f384c623a8254bd2c44d633ea7532b91bff807c507c0195d61636",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260630-220855.tar.gz",
+      "read_utc": "2026-10-17T18:29:00.914259+00:00",
+      "documents": [],
+      "bytes": 366754,
+      "sha256": "a2cb14b7a2a94c5091f958c918bc61c47b1d2a78b3a21bb51289ec6e7bf1d854",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260701-222046.tar.gz",
+      "read_utc": "2026-10-17T18:29:01.033633+00:00",
+      "documents": [],
+      "bytes": 107142,
+      "sha256": "f94d357e5e51b6f5ce12978bcf17ed3a660a6fcddb12355fc53325bad9cb3f1c",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260702-223445.tar.gz",
+      "read_utc": "2026-10-17T18:29:01.090035+00:00",
+      "documents": [],
+      "bytes": 744671,
+      "sha256": "562e1edf3a106138a51debb087119c10b0d6420cc607ab90811280c48dee1ed0",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260703-214412.tar.gz",
+      "read_utc": "2026-10-17T18:29:01.152521+00:00",
+      "documents": [],
+      "bytes": 906533,
+      "sha256": "6326d132a545bddf2da823fe574bc498948fe6b24f7beff32d0b33fb556543f8",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260706-211216.tar.gz",
+      "read_utc": "2026-10-17T18:29:01.307345+00:00",
+      "documents": [],
+      "bytes": 5099,
+      "sha256": "fe4e6b4b52544df8bec22f3ff8105e80755010bd51b291ef08189124b566695b",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260707-211437.tar.gz",
+      "read_utc": "2026-10-17T18:29:01.402878+00:00",
+      "documents": [],
+      "bytes": 13086,
+      "sha256": "a15d00f880cb81816b691123c269fddd9e146bff672ef0a231822e22d18d3aaa",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260710-220101.tar.gz",
+      "read_utc": "2026-10-17T18:29:01.454511+00:00",
+      "documents": [],
+      "bytes": 438357,
+      "sha256": "4fb87c96dce9e8057e4e0d27bd6b0ee8043761cc19066eae0fc7419f5241feed",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260715-212020.tar.gz",
+      "read_utc": "2026-10-17T18:29:01.549495+00:00",
+      "documents": [],
+      "bytes": 93365,
+      "sha256": "e783924c0c800a579c5412935170bf19b3d2f02d57a956333137f9f9ae1fbcf7",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260716-214918.tar.gz",
+      "read_utc": "2026-10-17T18:29:01.865507+00:00",
+      "documents": [],
+      "bytes": 641334,
+      "sha256": "3d5adb1cb814470a24d6370f61b979f6c2274fba099873c96dd64e39b406114e",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260717-215733.tar.gz",
+      "read_utc": "2026-10-17T18:29:02.208051+00:00",
+      "documents": [],
+      "bytes": 1003951,
+      "sha256": "a1d8069ab8e6493840f4b48860952e0d265ca174254af161773365278572cdfe",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260720-210701.tar.gz",
+      "read_utc": "2026-10-17T18:29:02.284644+00:00",
+      "documents": [],
+      "bytes": 394559,
+      "sha256": "34f227abd8cb86cc14e2b6b2658bd25ab9b2d988dbad7bb9fcae1025d4920fe4",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260721-211112.tar.gz",
+      "read_utc": "2026-10-17T18:29:02.489413+00:00",
+      "documents": [],
+      "bytes": 181872,
+      "sha256": "ab40f194d105c95c4f4eb08537c7ef665261e239f68b7d83deac08731d7ddd9b",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260722-220255.tar.gz",
+      "read_utc": "2026-10-17T18:29:02.658854+00:00",
+      "documents": [],
+      "bytes": 76900,
+      "sha256": "20a41ac859ddcf686aa4c3e32a5b7385dc780acf42eccd6e353a6f783edb9fd6",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260723-224400.tar.gz",
+      "read_utc": "2026-10-17T18:29:02.809395+00:00",
+      "documents": [],
+      "bytes": 311840,
+      "sha256": "d87076985dfc38c520b05a55e210dd915ad8ebf421956ad297fb52d7f745b2cf",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260724-222927.tar.gz",
+      "read_utc": "2026-10-17T18:29:02.869195+00:00",
+      "documents": [],
+      "bytes": 1068761,
+      "sha256": "10be6250bfd4a66797cb1b49365bc10f0f1d83b7ca4f088b9d79417bc09843ec",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260727-214936.tar.gz",
+      "read_utc": "2026-10-17T18:29:02.935375+00:00",
+      "documents": [],
+      "bytes": 730419,
+      "sha256": "87ef6709e542bc94eab59d8ffb58dd9194292a5fb251242d9f28105f63cc40de",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260729-223923.tar.gz",
+      "read_utc": "2026-10-17T18:29:03.139242+00:00",
+      "documents": [],
+      "bytes": 26950,
+      "sha256": "585df70e343dc727fcd2ac84ba9be5b3b47358754219274efe75656af6f088bf",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260812-214541.tar.gz",
+      "read_utc": "2026-10-17T18:29:03.223565+00:00",
+      "documents": [],
+      "bytes": 379920,
+      "sha256": "2e0345381beb5f6cfd1bbd9c6fa74088da1e3fb41b9e0ce1434cc46f4a4ad02a",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 56
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260813-212523.tar.gz",
+      "read_utc": "2026-10-17T18:29:03.286257+00:00",
+      "documents": [],
+      "bytes": 122743,
+      "sha256": "6447a10511c7a75a2cef5edef8c9e3d8b3dcda55623747a697eaf9752932bff9",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260814-213449.tar.gz",
+      "read_utc": "2026-10-17T18:29:03.966446+00:00",
+      "documents": [],
+      "bytes": 230840,
+      "sha256": "60e6f9e6b0a8d3977bc8c13515017b174e525ae146b6dfff83ce56225b798f27",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260818-223511.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.051217+00:00",
+      "documents": [],
+      "bytes": 14983,
+      "sha256": "08499ac8ddd2867fe94dcdbe4fec863bfc71d040c7bb9c101d977a0197589f0a",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260820-220411.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.175784+00:00",
+      "documents": [],
+      "bytes": 5436,
+      "sha256": "8593a8e0a018be4a93d801c918f0e26a90366e7942699b82b77ef0a4b7da5eda",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260821-211659.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.199804+00:00",
+      "documents": [],
+      "bytes": 42153,
+      "sha256": "04c1443394191a3f0cef70ea6057e364c5b272bd0596eb33e811ffd10c02bfa0",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260824-213520.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.327792+00:00",
+      "documents": [],
+      "bytes": 29068,
+      "sha256": "b4c6ad297061dc2cf13b67f0d0366f43b0c2a3edda4a63a6091ba0b84688fd13",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260825-215737.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.382262+00:00",
+      "documents": [],
+      "bytes": 41426,
+      "sha256": "404214f72b1cb194f27b8151dcdf9902603a4d45ee7368c010e8bd55cf1b380f",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260826-214758.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.394257+00:00",
+      "documents": [],
+      "bytes": 183092,
+      "sha256": "c2d60db55e3bcc657f41023d2635ac49c7f40304a185b4881de437376e4f04b0",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260828-213058.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.510644+00:00",
+      "documents": [],
+      "bytes": 35395,
+      "sha256": "cf94f7e2bfb4aacdaaf809529ed9ae6055d13b88afa8514b11692e9922950a87",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260831-212841.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.545834+00:00",
+      "documents": [],
+      "bytes": 125808,
+      "sha256": "a2ddaf9625abed510180cd4c25aada74f8d6470c5de8bb8ff6b969249fd624ed",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260901-212910.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.556838+00:00",
+      "documents": [],
+      "bytes": 43562,
+      "sha256": "071264d828db123b81072e663b8447c3c50e08f4952e07a9a63fc0e05f83b823",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260902-210756.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.668141+00:00",
+      "documents": [],
+      "bytes": 59067,
+      "sha256": "a4ae25fc1bdf45791d97d5bc2bd07df7516ddb0b2de668df0b8407a223e939c2",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260903-213439.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.739803+00:00",
+      "documents": [],
+      "bytes": 8992,
+      "sha256": "f57395777f502cb910cb811677abd82d6d0545aee250d8af5246c57cb034ac0b",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260904-212554.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.742508+00:00",
+      "documents": [],
+      "bytes": 99474,
+      "sha256": "e5505c6ed11839f215f2ff07c500eae82bcb5ddff7402f5d39abaec62fad2ec7",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260907-214720.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.840204+00:00",
+      "documents": [],
+      "bytes": 405381,
+      "sha256": "5fb5bf1d73cd82486d99653c20a3c3160bb23e4e4c8dd01595a0274c430b3b6d",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260908-213244.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.843192+00:00",
+      "documents": [],
+      "bytes": 455402,
+      "sha256": "457d64915e0dea04c0925d5708d9675e1d8c14ce088eeea657386bd798c56947",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260909-214416.tar.gz",
+      "read_utc": "2026-10-17T18:29:04.883235+00:00",
+      "documents": [],
+      "bytes": 331719,
+      "sha256": "693a9ed78ab34a5ea712485f40ce4a476773af685fb949f4916ce3746b15956d",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260910-214601.tar.gz",
+      "read_utc": "2026-10-17T18:29:05.005793+00:00",
+      "documents": [],
+      "bytes": 337501,
+      "sha256": "e52e0b87ee4a966b9206fff13e9d57026862469616e5ee5ac58596aefc9efde2",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260911-215706.tar.gz",
+      "read_utc": "2026-10-17T18:29:05.683528+00:00",
+      "documents": [],
+      "bytes": 1094652,
+      "sha256": "bd947804daece3fb6cacf874a7a21e7fb8dbe9e5f8ccce528ac5f2a231029809",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260914-210916.tar.gz",
+      "read_utc": "2026-10-17T18:29:05.743672+00:00",
+      "documents": [],
+      "bytes": 142741,
+      "sha256": "d0d04952e3adf7aace326a66658c3825bc36dc28088d2715108b13667dddc9cd",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 1
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260916-214544.tar.gz",
+      "read_utc": "2026-10-17T18:29:05.814981+00:00",
+      "documents": [],
+      "bytes": 405967,
+      "sha256": "cb2e1cc713ebf33155a8395e506b05a7bf551a805d03c084311907e6b03cea31",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260917-213733.tar.gz",
+      "read_utc": "2026-10-17T18:29:05.866356+00:00",
+      "documents": [],
+      "bytes": 179102,
+      "sha256": "75ecc7f951e0cd2c71f55f9f39b41fe7a009cd06d83f7bf2e2133384ec53c5be",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260918-214701.tar.gz",
+      "read_utc": "2026-10-17T18:29:06.032777+00:00",
+      "documents": [],
+      "bytes": 166204,
+      "sha256": "e7384b39bdba46bf19994cb3b5524d5aecb7390e9f6676076cc2a4670cb15526",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260921-220149.tar.gz",
+      "read_utc": "2026-10-17T18:29:06.665538+00:00",
+      "documents": [],
+      "bytes": 177776,
+      "sha256": "35bd7425aa69f26bb08791f8d78ade30f312b1e1ae577d16cde460c099dfd67b",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260922-214912.tar.gz",
+      "read_utc": "2026-10-17T18:29:06.691354+00:00",
+      "documents": [],
+      "bytes": 521726,
+      "sha256": "7d75f2e7ed3686bb22f83f6eed27c10409a75877564f02eaa111bf211de1052c",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260923-215642.tar.gz",
+      "read_utc": "2026-10-17T18:29:06.865452+00:00",
+      "documents": [],
+      "bytes": 1299760,
+      "sha256": "e2e5baad12e78c3cf2840e5c93bc365f4a4d1d42016c171d0dd2f1168f1b3e38",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260924-214040.tar.gz",
+      "read_utc": "2026-10-17T18:29:07.035772+00:00",
+      "documents": [],
+      "bytes": 1190515,
+      "sha256": "3a366cae8325914f439b727bb597311d473ff9c97af23d1c6ff4e994f50e4c31",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260925-214830.tar.gz",
+      "read_utc": "2026-10-17T18:29:07.045163+00:00",
+      "documents": [],
+      "bytes": 325498,
+      "sha256": "08819af620d0943d77437dd8ebf966800178f1d92e6298929e3daeb3e3b14856",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260929-213457.tar.gz",
+      "read_utc": "2026-10-17T18:29:07.269655+00:00",
+      "documents": [],
+      "bytes": 39200,
+      "sha256": "95590183b780cf0a8c800455558cbd19e03667971dfc9b6f4ec3728079e690a4",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20260930-215413.tar.gz",
+      "read_utc": "2026-10-17T18:29:07.539673+00:00",
+      "documents": [],
+      "bytes": 608169,
+      "sha256": "5f9ddeef3f42960a7e90ade19c6fce309ba80c846e156b12646b09c118b3f854",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261001-214554.tar.gz",
+      "read_utc": "2026-10-17T18:29:08.265552+00:00",
+      "documents": [],
+      "bytes": 712632,
+      "sha256": "9ec6548ff4fbab70959eecc7d8feeeb1c2526d87bf176ba9cdb9e8fa18a04bb7",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261002-214631.tar.gz",
+      "read_utc": "2026-10-17T18:29:08.874282+00:00",
+      "documents": [],
+      "bytes": 1122398,
+      "sha256": "f7f8310b81d05714a801557747dd0c4e4006ebd7889c64494078a9b37a856ff3",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261005-214539.tar.gz",
+      "read_utc": "2026-10-17T18:29:09.026658+00:00",
+      "documents": [],
+      "bytes": 2057658,
+      "sha256": "b87b07dce3b7859068cecec8a2a83db8179333b78cdf6e02981f987af53277e9",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261006-212213.tar.gz",
+      "read_utc": "2026-10-17T18:29:09.037658+00:00",
+      "documents": [],
+      "bytes": 190762,
+      "sha256": "eb30d77c163b3741400581bf9418282bac0acdd729a3885e6c141095b1bae2a4",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261007-211514.tar.gz",
+      "read_utc": "2026-10-17T18:29:09.162220+00:00",
+      "documents": [],
+      "bytes": 198515,
+      "sha256": "fb786496fb7eb8f265c7a5cc28baff6e4a381520a8143fcc003aee61a04aaa3a",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261008-213853.tar.gz",
+      "read_utc": "2026-10-17T18:29:09.393927+00:00",
+      "documents": [],
+      "bytes": 97318,
+      "sha256": "58c754551c9c44a8094f3924d97ca821b2b0899a9da956180afee02f5a99f4e9",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261009-214339.tar.gz",
+      "read_utc": "2026-10-17T18:29:09.734132+00:00",
+      "documents": [],
+      "bytes": 384162,
+      "sha256": "21f7f6b2038f7e74644758cc8957d97d6be255ad73e1c99c1efb247f1f23c1be",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 1
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261013-212750.tar.gz",
+      "read_utc": "2026-10-17T18:29:09.796147+00:00",
+      "documents": [],
+      "bytes": 4512,
+      "sha256": "b5bd729d4cdd7d188929bff1e6cecd361a6039cfd7ee4621d81fd94237c61847",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261014-214049.tar.gz",
+      "read_utc": "2026-10-17T18:29:09.940254+00:00",
+      "documents": [],
+      "bytes": 71187,
+      "sha256": "1aeae9546871200003f15f18c620ac4b61d6c78b8236704139086c63cb995287",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261015-214025.tar.gz",
+      "read_utc": "2026-10-17T18:29:10.177096+00:00",
+      "documents": [],
+      "bytes": 1219026,
+      "sha256": "808575c04fef0bdbac29d7a7188b9dc1e2c4d42e44c6f5ab2a33308761b3e4dc",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    },
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/KALI/KALI_20261016-213852.tar.gz",
+      "read_utc": "2026-10-17T18:29:10.262905+00:00",
+      "documents": [],
+      "bytes": 316562,
+      "sha256": "06fc1cda55bb94e87f373756458bf40a2748ae22271a83a0b0314d4d2cbe99cb",
+      "state": "retrieved",
+      "idcc1486_articles_seen": 0
+    }
+  ],
+  "scope": "260 deltas KALI après le stock au 16/10/2026 lus ; URL, empreinte et nombre d’articles IDCC 1486 conservés pour chaque archive, XML seulement pour les cinq sources livrées. Les textes d’autres questions de branche ne sont pas des sources de cette story. Pas de consolidation des structures ni suppressions.",
+  "contextes_salariaux_ou_post_accord_2024": [
+    {
+      "id": "KALITEXT000051694816",
+      "title": "Avenant n° 8 du 14 février 2025 à l'accord du 7 octobre 2015 relatif à la modernisation du régime de complémentaire santé au 1er janvier 2026",
+      "signature": "2025-02-14",
+      "last_seen_archive": "KALI_20251128-214432.tar.gz"
+    },
+    {
+      "id": "KALITEXT000052119023",
+      "title": "Accord du 30 avril 2025 relatif à la mise en place d'un mécanisme expérimental de participation au sein des entreprises non soumises au dispositif de droit commun",
+      "signature": "2025-04-30",
+      "last_seen_archive": "KALI_20260123-213816.tar.gz"
+    },
+    {
+      "id": "KALITEXT000005679907",
+      "title": "Annexe III. Grille des rémunérations minimales brutes des chargés d'enquête",
+      "signature": "1987-12-15",
+      "last_seen_archive": "KALI_20251121-221742.tar.gz"
+    },
+    {
+      "id": "KALITEXT000005679974",
+      "title": " Accord du 22 février 2005 relatif  aux disponibilités du plan de formation des entreprises employant au minimum 10 salariés",
+      "signature": "2005-02-22",
+      "last_seen_archive": "KALI_20251121-221742.tar.gz"
+    },
+    {
+      "id": "KALITEXT000005680010",
+      "title": "Annexe I du 7 décembre 2000 relative aux salaires",
+      "signature": "2000-12-07",
+      "last_seen_archive": "KALI_20251124-213422.tar.gz"
+    },
+    {
+      "id": "KALITEXT000005680012",
+      "title": "Avenant n° 24 du 6 décembre 2001 salaires (ETAM)",
+      "signature": "2001-12-06",
+      "last_seen_archive": "KALI_20251124-213422.tar.gz"
+    },
+    {
+      "id": "KALITEXT000005680014",
+      "title": "Avenant n° 25 du 6 décembre 2001 relatif aux salaires (ingénieurs et cadres)",
+      "signature": "2001-12-06",
+      "last_seen_archive": "KALI_20251124-213422.tar.gz"
+    },
+    {
+      "id": "KALITEXT000005680016",
+      "title": "Avenant n° 29 du 5 octobre 2004 relatif aux salaires",
+      "signature": "2004-10-05",
+      "last_seen_archive": "KALI_20251124-213422.tar.gz"
+    },
+    {
+      "id": "KALITEXT000005680018",
+      "title": "Avenant n° 30 du 20 octobre 2004 relatif aux salaires",
+      "signature": "2004-10-20",
+      "last_seen_archive": "KALI_20251124-213422.tar.gz"
+    },
+    {
+      "id": "KALITEXT000005680022",
+      "title": "Avenant n° 32 du 15 décembre 2005 relatif aux salaires (ETAM)",
+      "signature": "2005-12-15",
+      "last_seen_archive": "KALI_20251124-213422.tar.gz"
+    },
+    {
+      "id": "KALITEXT000051664638",
+      "title": "Accord du 18 décembre 2024 relatif à la promotion du dialogue social en entreprise",
+      "signature": "2024-12-18",
+      "last_seen_archive": "KALI_20260126-211407.tar.gz"
+    },
+    {
+      "id": "KALITEXT000053497361",
+      "title": "Avenant n° 9 du 22 octobre 2025 à l'accord du 7 octobre 2015 relatif à la complémentaire santé",
+      "signature": "2025-10-22",
+      "last_seen_archive": "KALI_20260218-215419.tar.gz"
+    },
+    {
+      "id": "KALITEXT000053434107",
+      "title": "Avenant n° 49 du 22 octobre 2025 relatif à la parentalité et aux évènements familiaux",
+      "signature": "2025-10-22",
+      "last_seen_archive": "KALI_20260407-213340.tar.gz"
+    },
+    {
+      "id": "KALITEXT000054091937",
+      "title": "Avenant n° 8 du 16 décembre 2025 à l'accord du 27 mars 1997 relatif à la prévoyance lourde",
+      "signature": "2025-12-16",
+      "last_seen_archive": "KALI_20260610-214017.tar.gz"
+    },
+    {
+      "id": "KALITEXT000053434038",
+      "title": "Accord du 22 octobre 2025 relatif à la lutte contre les inégalités professionnelles entre les femmes et les hommes",
+      "signature": "2025-10-22",
+      "last_seen_archive": "KALI_20260914-210916.tar.gz"
+    }
+  ],
+  "limite_recherche_contextes": "Titres des contextes des articles IDCC 1486 des deltas : mots salair/minim/rémunération ou signature après le 26/06/2024. Ce repérage ne couvre pas un acte adopté non intégré, ni une suppression, ni tous les objets possibles d’un accord au titre générique."
+}

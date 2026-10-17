@@ -1,0 +1,34 @@
+[
+  {
+    "run": "executions-finales-2026-10-17",
+    "package_matches_final_source": true,
+    "package_integrity": {
+      "package_unchanged": true
+    },
+    "observed_local_reads": [
+      "<workspace>/TRAV-002/employment-legal/references/isolation.md",
+      "<workspace>/TRAV-002/employment-legal/references/minimum-remuneration-fr.md",
+      "<workspace>/TRAV-002/employment-legal/references/shared/research-citation-method.md"
+    ],
+    "all_observed_local_reads_in_detached_package": true,
+    "execution_count": 8,
+    "all_completed": true,
+    "permission_denials": 0
+  },
+  {
+    "run": "executions-web-finales-2026-10-17",
+    "package_matches_final_source": true,
+    "package_integrity": {
+      "package_unchanged": true
+    },
+    "observed_local_reads": [
+      "<workspace>/TRAV-002/employment-legal/references/isolation.md",
+      "<workspace>/TRAV-002/employment-legal/references/minimum-remuneration-fr.md",
+      "<workspace>/TRAV-002/employment-legal/references/shared/research-citation-method.md"
+    ],
+    "all_observed_local_reads_in_detached_package": true,
+    "execution_count": 1,
+    "all_completed": true,
+    "permission_denials": 0
+  }
+]

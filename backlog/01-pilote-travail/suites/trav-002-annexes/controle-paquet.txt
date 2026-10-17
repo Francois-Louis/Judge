@@ -1,0 +1,62 @@
+A_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md
+A_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml
+A_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/
+A_RELIRE CLAUDE.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/verification-log.md
+A_RELIRE README.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE agents/leave-tracker.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE agents/leave-tracker.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml
+A_RELIRE references/candidate-preferences.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE references/dashboard-template.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/<domain>/outputs/dashboard-<topic>-<date>.html
+A_RELIRE references/isolation.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/
+A_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md
+A_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/cold-start-interview/SKILL.md: chemin dynamique/profil à éprouver: ~/CLAUDE.md
+A_RELIRE skills/cold-start-interview/SKILL.md: commande d'un autre plugin à qualifier: /judge-fr-eu-legal-builder-hub:related-skills-surfacer
+A_RELIRE skills/customize/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/company-profile.md
+A_RELIRE skills/customize/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/expansion-kickoff/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/expansion-kickoff/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[slug].yaml
+A_RELIRE skills/expansion-update/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/expansion-update/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[slug].yaml
+A_RELIRE skills/handbook-updates/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/handbook-updates/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/
+A_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/
+A_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[matter-slug]/documents-reviewed.yaml
+A_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[matter-slug]/log.yaml
+A_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[matter-slug]/sources-checklist.yaml
+A_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[slug]/memo.md
+A_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/investigation-[slug]/sources-checklist.yaml
+A_RELIRE skills/internal-investigation/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/
+A_RELIRE skills/international-expansion/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/international-expansion/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/expansion-[country-slug].yaml
+A_RELIRE skills/international-expansion/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/
+A_RELIRE skills/investigation-add/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/investigation-open/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/leave-tracker/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml
+A_RELIRE skills/log-leave/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/log-leave/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/leave-register.yaml
+A_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/*/matter.md
+A_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<slug>/
+A_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<slug>/matter.md
+A_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/_archived/
+A_RELIRE skills/matter-workspace/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/_archived/<slug>/
+A_RELIRE skills/policy-drafting/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/policy-drafting/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/
+A_RELIRE skills/termination-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/CLAUDE.md
+A_RELIRE skills/termination-review/SKILL.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/employment-legal/matters/<matter-slug>/
+STRUCTURE INCOMPLET: 31 fichiers Markdown; contrôle statique borné
+SCHEMA CLI: C:\Users\fltou\.vscode\extensions\anthropic.claude-code-2.1.301-win32-x64\resources\native-binary\claude.exe (--claude)
+Validating plugin manifest: <workspace>\TRAV-002\employment-legal\.claude-plugin\plugin.json
+
+Validating plugin: <workspace>\TRAV-002\employment-legal\CLAUDE.md
+
+‼ Found 1 warning:
+
+  > root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.
+
+√ Validation passed with warnings
+SCHEMA OK: code 0
+EXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE

@@ -1,0 +1,434 @@
+[
+  {
+    "case": "M01",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3532098,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-employment-legal",
+        "path": "<workspace>\\TRAV-002\\employment-legal",
+        "source": "judge-fr-eu-employment-legal@inline",
+        "version": "0.4.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/minimum-remuneration-fr.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/shared/research-citation-method.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "M02",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.35809379999999996,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-employment-legal",
+        "path": "<workspace>\\TRAV-002\\employment-legal",
+        "source": "judge-fr-eu-employment-legal@inline",
+        "version": "0.4.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/minimum-remuneration-fr.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/shared/research-citation-method.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "M03",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3372536,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-employment-legal",
+        "path": "<workspace>\\TRAV-002\\employment-legal",
+        "source": "judge-fr-eu-employment-legal@inline",
+        "version": "0.4.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/minimum-remuneration-fr.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/shared/research-citation-method.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "M04",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.344563,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-employment-legal",
+        "path": "<workspace>\\TRAV-002\\employment-legal",
+        "source": "judge-fr-eu-employment-legal@inline",
+        "version": "0.4.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/minimum-remuneration-fr.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "M05",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3501986,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-employment-legal",
+        "path": "<workspace>\\TRAV-002\\employment-legal",
+        "source": "judge-fr-eu-employment-legal@inline",
+        "version": "0.4.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/minimum-remuneration-fr.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "M06",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.348293,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-employment-legal",
+        "path": "<workspace>\\TRAV-002\\employment-legal",
+        "source": "judge-fr-eu-employment-legal@inline",
+        "version": "0.4.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/minimum-remuneration-fr.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/shared/research-citation-method.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "M07",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3515314,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-employment-legal",
+        "path": "<workspace>\\TRAV-002\\employment-legal",
+        "source": "judge-fr-eu-employment-legal@inline",
+        "version": "0.4.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/minimum-remuneration-fr.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/shared/research-citation-method.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "M08",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.3188394,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-employment-legal",
+        "path": "<workspace>\\TRAV-002\\employment-legal",
+        "source": "judge-fr-eu-employment-legal@inline",
+        "version": "0.4.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/minimum-remuneration-fr.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/shared/research-citation-method.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  }
+]

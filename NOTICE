@@ -952,3 +952,22 @@ the rule. No legal rule added.
   regulatory-legal/NOTICE
   regulatory-legal/references/shared/research-citation-method.md
   scripts/test-base008-isolation.py
+
+TRAV-002 changes (2026-10-17): employment plugin 0.4.0. Rewrites
+wage-hour-qa for dated French SMIC/collective-minimum comparisons; embeds
+minimum-remuneration-fr.md 1.0.0, local method 1.3.0 unchanged. Separate
+assessable pay components and monthly/annual periods, classification and
+territorial gates, missing-data/source fallback, no US replacement rules.
+Optional profile; no payroll modification, automatic persistence or sending.
+Fictional client recipes and detached-package checks recorded in the backlog.
+  .claude-plugin/marketplace.json
+  README.md
+  NOTICE
+  scripts/recette-stories.py
+  scripts/test-base008-isolation.py
+  employment-legal/.claude-plugin/plugin.json
+  employment-legal/CLAUDE.md
+  employment-legal/README.md
+  employment-legal/NOTICE
+  employment-legal/references/minimum-remuneration-fr.md
+  employment-legal/skills/wage-hour-qa/SKILL.md

@@ -1,0 +1,91 @@
+[
+  {
+    "case": "M02",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.4585926,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-employment-legal",
+        "path": "<workspace>\\TRAV-002\\employment-legal",
+        "source": "judge-fr-eu-employment-legal@inline",
+        "version": "0.4.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/TRAV-002/employment-legal/references/minimum-remuneration-fr.md"
+        }
+      },
+      {
+        "name": "WebFetch",
+        "input": {
+          "url": "https://code.travail.gouv.fr/code-du-travail/d3231-6",
+          "prompt": "Restitue littéralement le texte de l'article D3231-6 du Code du travail et la date de mise à jour affichée."
+        }
+      },
+      {
+        "name": "WebFetch",
+        "input": {
+          "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053042543",
+          "prompt": "Restitue littéralement l'identité du texte (décret, numéro, date) et le texte de l'article 1, notamment le montant du SMIC horaire en métropole et la date d'effet."
+        }
+      },
+      {
+        "name": "WebFetch",
+        "input": {
+          "url": "https://www.legifrance.gouv.fr/conv_coll/id/KALIARTI000049764147",
+          "prompt": "Restitue littéralement l'intitulé, l'état/version et le texte de l'article 7.1 (garantie de rémunération, plancher mensuel, éléments exclus)."
+        }
+      },
+      {
+        "name": "WebFetch",
+        "input": {
+          "url": "https://www.legifrance.gouv.fr/conv_coll/id/KALIARTI000050228718",
+          "prompt": "Restitue littéralement l'identité du texte et la ligne ETAM position 2.3 coefficient 355 avec son montant et la date d'effet."
+        }
+      },
+      {
+        "name": "WebFetch",
+        "input": {
+          "url": "https://www.legifrance.gouv.fr/conv_coll/id/KALIARTI000050228709",
+          "prompt": "Restitue littéralement l'intitulé et le texte de l'article 3 (date d'effet des minima, articulation branche/entreprise) et l'état de vigueur affiché."
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  }
+]

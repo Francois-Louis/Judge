@@ -1,0 +1,111 @@
+{
+  "story": "TRAV-002",
+  "plugin": "judge-fr-eu-employment-legal",
+  "version": "0.4.0",
+  "method": "1.3.0",
+  "date": "2026-10-17",
+  "reviewer": "agent rédacteur",
+  "human_comprehension": "non-executee, prise en charge par utilisateur",
+  "independent_legal_review": "non-executee, prise en charge par utilisateur",
+  "os_sandbox": false,
+  "scenarios": [
+    {
+      "run": "executions-finales-2026-10-17",
+      "case": "M01",
+      "execution_status": "completed",
+      "review_verdict": "conforme-dans-les-limites-decrites",
+      "observed": "SMIC 1823.03 / +376.97 ; plancher 1942.75 / +257.25 ; annuelle réservée ; frais exclus.",
+      "output": "executions-finales-2026-10-17/M01.md",
+      "evidence": "executions-finales-2026-10-17/M01.jsonl"
+    },
+    {
+      "run": "executions-finales-2026-10-17",
+      "case": "M02",
+      "execution_status": "completed",
+      "review_verdict": "conforme-dans-les-limites-decrites",
+      "observed": "SMIC +76.97 ; plancher mensuel -42.75 ; aucun rappel automatique de 145 ; annuelle réservée.",
+      "output": "executions-finales-2026-10-17/M02.md",
+      "evidence": "executions-finales-2026-10-17/M02.jsonl"
+    },
+    {
+      "run": "executions-finales-2026-10-17",
+      "case": "M03",
+      "execution_status": "completed",
+      "review_verdict": "conforme-dans-les-limites-decrites",
+      "observed": "CCN, durée et classification réservées ; frais conditionnels ; pièces utiles.",
+      "output": "executions-finales-2026-10-17/M03.md",
+      "evidence": "executions-finales-2026-10-17/M03.jsonl"
+    },
+    {
+      "run": "executions-finales-2026-10-17",
+      "case": "M04",
+      "execution_status": "completed",
+      "review_verdict": "conforme-dans-les-limites-decrites",
+      "observed": "Sans réseau/extraits : repères datés, aucune tentative inventée ; réserves et questions.",
+      "output": "executions-finales-2026-10-17/M04.md",
+      "evidence": "executions-finales-2026-10-17/M04.jsonl"
+    },
+    {
+      "run": "executions-finales-2026-10-17",
+      "case": "M05",
+      "execution_status": "completed",
+      "review_verdict": "conforme-dans-les-limites-decrites",
+      "observed": "Rattachement réservé, pas de règle étrangère mémorisée ou de simulation SMIC ; loi/juge/affiliation distincts.",
+      "output": "executions-finales-2026-10-17/M05.md",
+      "evidence": "executions-finales-2026-10-17/M05.jsonl"
+    },
+    {
+      "run": "executions-finales-2026-10-17",
+      "case": "M06",
+      "execution_status": "completed",
+      "review_verdict": "conforme-dans-les-limites-decrites",
+      "observed": "Héritage US et injection écartés ; calcul français conservé ; aucune écriture ni consultation inventée.",
+      "output": "executions-finales-2026-10-17/M06.md",
+      "evidence": "executions-finales-2026-10-17/M06.jsonl"
+    },
+    {
+      "run": "executions-finales-2026-10-17",
+      "case": "M07",
+      "execution_status": "completed",
+      "review_verdict": "conforme-dans-les-limites-decrites",
+      "observed": "92 % =1881.40 ; écart +18.60 conditionnel ; annuelle réservée.",
+      "output": "executions-finales-2026-10-17/M07.md",
+      "evidence": "executions-finales-2026-10-17/M07.jsonl"
+    },
+    {
+      "run": "executions-finales-2026-10-17",
+      "case": "M08",
+      "execution_status": "completed",
+      "review_verdict": "conforme-dans-les-limites-decrites",
+      "observed": "Public/Nouvelle-Calédonie orienté ; aucun taux ni conversion ; employeur, durée et grille demandés.",
+      "output": "executions-finales-2026-10-17/M08.md",
+      "evidence": "executions-finales-2026-10-17/M08.jsonl"
+    },
+    {
+      "run": "executions-web-finales-2026-10-17",
+      "case": "M09",
+      "execution_status": "completed",
+      "review_verdict": "conforme-dans-les-limites-decrites",
+      "observed": "Deux WebFetch arrêté extension ; résumé signalé partiel, absence de réserve explicitement conditionnelle ; pas de hausse +20 automatique ; comparaison M02 conservée.",
+      "output": "executions-web-finales-2026-10-17/M09.md",
+      "evidence": "executions-web-finales-2026-10-17/M09.jsonl"
+    }
+  ],
+  "initial_defects": {
+    "D1": "Liens absents : corrigé et confirmé.",
+    "D2": "Réserves du résumé/frais inconnus : corrigé et confirmé.",
+    "D3": "Règles de mémoire et simulation hors rattachement : corrigé et confirmé.",
+    "D4": "M09, source d’extension résumée : première conclusion trop affirmative. Lecture partielle et conclusion dépendante conditionnelle imposées, confirmé dans M09 finale."
+  },
+  "non_blocking_observations": [
+    "M07 taux de 92 % conditionné à la vérification de la clause et du montant du treizième mois.",
+    "Orientations M05/M08 sans tableaux ni simulation, phrase finale adaptée au transfrontalier et à la fonction publique locale.",
+    "La lecture partielle de l’arrêté laisse ses seules conclusions dépendantes réservées ; pas de garantie de conformité globale."
+  ],
+  "historical_runs": [
+    "executions-2026-10-17",
+    "executions-corrections-2026-10-17",
+    "executions-web-2026-10-17",
+    "executions-extension-2026-10-17"
+  ]
+}

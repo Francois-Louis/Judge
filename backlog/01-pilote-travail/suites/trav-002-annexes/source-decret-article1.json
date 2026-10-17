@@ -1,0 +1,25 @@
+{
+  "source_family": "dila-xml",
+  "reference": "JORFARTI000053042543",
+  "state": "retrieved",
+  "documentary_status": "non-verifie",
+  "applicability": "a-etablir",
+  "version_warning": "Check identity, version, dates, amendments and context before relying; current reproduction is not a historical version.",
+  "attempts": [
+    {
+      "url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20251218-003435.tar.gz",
+      "attempted_at": "2026-10-17T18:23:09.090570+00:00",
+      "http_status": 200,
+      "final_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20251218-003435.tar.gz",
+      "bytes": 304401,
+      "sha256": "f5991e782bb4d5197abf678ea4ff52977076ca408bed7fbe3bd2b78a6916d327",
+      "state": "retrieved",
+      "retrieved_at": "2026-10-17T18:23:09.605738+00:00",
+      "archive_member": "20251218-003435/jorf/global/article/JORF/ARTI/00/00/53/04/25/JORFARTI000053042543.xml",
+      "xml_sha256": "dd55deabf6a55263163d372f890008ced09c28635a9ad87bbf34166d9593fc5c"
+    }
+  ],
+  "text": "JORFARTI000053042543\nhttps://www.legifrance.gouv.fr/eli/decret/2025/12/17/TRSX2532954D/jo/article_1\nhttps://www.legifrance.gouv.fr/eli/decret/2025/12/17/2025-1228/jo/article_1\nJORF\narticle/JORF/ARTI/00/00/53/04/25/JORFARTI000053042543.xml\nArticle\n1\n2999-01-01\n2999-01-01\nAUTONOME\nDécret n° 2025-1228 du 17 décembre 2025 portant relèvement du salaire minimum de croissance\nA compter du 1\ner\njanvier 2026, pour les catégories de travailleurs mentionnés à l'article L. 2211-1 du code du travail, le montant du salaire minimum de croissance est relevé dans les conditions ci-après :\n1° En métropole, en Guadeloupe, en Guyane, en Martinique, à La Réunion, à Saint-Barthélemy, à Saint-Martin et à Saint-Pierre-et-Miquelon, son montant est porté à 12,02 euros l'heure ;\n2° A Mayotte, son montant est fixé à 9,33 euros l'heure.",
+  "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ARTICLE>\n<META>\n<META_COMMUN>\n<ID>JORFARTI000053042543</ID>\n<ID_ELI>https://www.legifrance.gouv.fr/eli/decret/2025/12/17/TRSX2532954D/jo/article_1</ID_ELI>\n<ELI_ALIAS>\n<ID_ELI_ALIAS>https://www.legifrance.gouv.fr/eli/decret/2025/12/17/2025-1228/jo/article_1</ID_ELI_ALIAS>\n</ELI_ALIAS>\n<ANCIEN_ID/>\n<ORIGINE>JORF</ORIGINE>\n<URL>article/JORF/ARTI/00/00/53/04/25/JORFARTI000053042543.xml</URL>\n<NATURE>Article</NATURE>\n</META_COMMUN>\n<META_SPEC>\n<META_ARTICLE>\n<NUM>1</NUM>\n\n\n\n<MCS_ART/>\n\n<DATE_DEBUT>2999-01-01</DATE_DEBUT>\n<DATE_FIN>2999-01-01</DATE_FIN>\n\n\n<TYPE>AUTONOME</TYPE>\n\n\n</META_ARTICLE>\n</META_SPEC>\n</META>\n<CONTEXTE>\n<TEXTE cid=\"JORFTEXT000053042520\" date_publi=\"2025-12-18\" date_signature=\"2025-12-17\" nature=\"DECRET\" nor=\"TRSX2532954D\" num=\"2025-1228\" num_parution_jo=\"0296\">\n<TITRE_TXT c_titre_court=\"Décret n°2025-1228 du 17 décembre 2025\" debut=\"2999-01-01\" fin=\"2999-01-01\" id_txt=\"JORFTEXT000053042520\">Décret n° 2025-1228 du 17 décembre 2025 portant relèvement du salaire minimum de croissance</TITRE_TXT>\n</TEXTE>\n</CONTEXTE>\n<VERSIONS>\n<VERSION etat=\"\">\n<LIEN_ART debut=\"2999-01-01\" etat=\"\" fin=\"2999-01-01\" id=\"JORFARTI000053042543\" num=\"1\" origine=\"JORF\"/>\n</VERSION>\n</VERSIONS>\n<SM>\n<CONTENU/>\n</SM>\n<BLOC_TEXTUEL>\n<CONTENU>\n<p>\n<br/>A compter du 1<sup>er</sup> janvier 2026, pour les catégories de travailleurs mentionnés à l'article L. 2211-1 du code du travail, le montant du salaire minimum de croissance est relevé dans les conditions ci-après :<br/>1° En métropole, en Guadeloupe, en Guyane, en Martinique, à La Réunion, à Saint-Barthélemy, à Saint-Martin et à Saint-Pierre-et-Miquelon, son montant est porté à 12,02 euros l'heure ;<br/>2° A Mayotte, son montant est fixé à 9,33 euros l'heure.</p>\n</CONTENU>\n</BLOC_TEXTUEL>\n<LIENS>\n\n</LIENS>\n</ARTICLE>\n",
+  "coverage": "One identified XML document from one archive; not a complete or current corpus."
+}

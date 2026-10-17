@@ -1,0 +1,72 @@
+{
+  "story": "TRAV-002",
+  "date": "2026-10-17",
+  "checks": [
+    {
+      "command": "python scripts/test-base008-isolation.py",
+      "returncode": 0,
+      "tests": 16,
+      "skipped": 2,
+      "skip_reasons": [
+        "jsonschema absent : test orchestrateur non exécuté",
+        "Privilège de création de lien symbolique Windows absent"
+      ],
+      "scope": "Stockage/identité et chargements statiques ; pas validation juridique."
+    },
+    {
+      "command": "PYTHONUTF8=1 python scripts/lint-tool-scope.py",
+      "returncode": 0,
+      "scope": "Cinq cookbooks ; relance après erreur d’affichage cp1252, aucun défaut de scope."
+    },
+    {
+      "command": "python scripts/check-version-bump.py",
+      "returncode": 0,
+      "observed": "employment-legal 0.3.6 -> 0.4.0 contre origin/main"
+    },
+    {
+      "command": "python scripts/check-plugin-package.py <copie-détachée> --schema --claude <cli>",
+      "returncode": 2,
+      "structure": "INCOMPLET",
+      "a_relire": 49,
+      "adapted_files_findings": 0,
+      "schema": "OK",
+      "schema_returncode": 0,
+      "log": "controle-paquet.txt"
+    },
+    {
+      "command": "claude plugin validate .claude-plugin/marketplace.json",
+      "returncode": 0
+    },
+    {
+      "command": "python scripts/source_reviews.py employment-legal --depuis 2026-10-17",
+      "returncode": 0,
+      "reviews": 61,
+      "errors": []
+    },
+    {
+      "command": "Comparaison SHA-256 méthode racine / copie locale",
+      "identical": true,
+      "sha256": "98cac94c8f52feb34fa73c45ff24506f3b3e1b322e4d9ecb1193d9172a5676f5"
+    },
+    {
+      "command": "Audit inventaires source / copies exécutées",
+      "evidence": "integrite-finale.json",
+      "matches": true
+    },
+    {
+      "command": "python scripts/legal_sources.py --timeout 60 legi-versions D3231-5 D3231-6 L2253-1 L2261-2 L2261-15 L3121-27 L3242-1 L1511-1",
+      "returncode": 0,
+      "state": "retrieved",
+      "archives": 465,
+      "article_count": 8,
+      "result": "sans-version-future-ni-fin pour les huit articles ; dates de début concordantes avec CDTN",
+      "evidence": "versions-legi.json"
+    }
+  ],
+  "client_evidence": "resultats.json",
+  "limitations": [
+    "Compte/HOME réels du client, pas de bac à sable système ni installation marketplace persistante",
+    "49 avertissements statiques hérités : aucun dans les deux fichiers adaptés",
+    "Compréhension et relecture juridique indépendante non exécutées ; utilisateur prend en charge la relecture"
+  ]
+}

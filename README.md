@@ -10,7 +10,9 @@ privée en France, recette client faite sur fixtures et lecteur non indépendant
 livré seul dans le [lot LIV-001](backlog/04-livraison/liv-001-annexes/liv-001-notes-version.md) ; `commercial-legal:review`
 0.2.0 est réécrit pour l'orientation contractuelle COM-001 sans profil obligatoire,
 avec validation client/utilisateur à compléter ; `employment-legal:worker-classification`
-0.3.0 qualifie une relation de travail proposée en France avant exécution (TRAV-001) ; les autres
+0.3.0 qualifie une relation de travail proposée en France avant exécution (TRAV-001).
+Depuis le plugin emploi 0.4.0, `employment-legal:wage-hour-qa` compare SMIC et
+minima conventionnels datés sur pièces, hors paie complète (TRAV-002) ; les autres
 tâches juridiques héritées restent à adapter à la France et à l'UE.
 Depuis BASE-013 (méthode commune 1.1.0, paquets 0.1.1, 0.2.1 et 0.3.1), ces tâches
 adaptées terminent chaque réponse par une phrase courte nommant le professionnel
@@ -97,7 +99,7 @@ Each agent is named for the workflow it runs. They're the most common surface �
 | **Investigation Lead** | Opens, tracks, adds to, and summarizes internal investigation matters | `employment-legal` | `/judge-fr-eu-employment-legal:investigation-open` |
 | **Policy Drafter** | Drafts employment policies with state supplements where law differs | `employment-legal` | `/judge-fr-eu-employment-legal:policy-drafting` |
 | **International Expansion Planner** | Kicks off EOR-vs-entity planning and outside-counsel briefing for a new country | `employment-legal` | `/judge-fr-eu-employment-legal:expansion-kickoff` |
-| **Wage & Hour Q&A** | Jurisdiction-aware employment Q&A for the "quick question" channel | `employment-legal` | `/judge-fr-eu-employment-legal:wage-hour-qa` |
+| **Minima de rémunération** | Comparer SMIC et minima collectifs datés, éléments retenus, calculs et pièces manquantes (France, hors paie complète) | `employment-legal` | `/judge-fr-eu-employment-legal:wage-hour-qa` |
 | **DSAR Responder** | Drafts DSAR acknowledgments and substantive responses within statutory timelines | `privacy-legal` | `/judge-fr-eu-privacy-legal:dsar-response` |
 | **DPA Reviewer** | Reviews a DPA against your playbook as controller or processor | `privacy-legal` | `/judge-fr-eu-privacy-legal:dpa-review` |
 | **PIA Generator** | Generates a Privacy Impact Assessment in house format for a new feature or activity | `privacy-legal` | `/judge-fr-eu-privacy-legal:pia-generation` |
@@ -498,7 +500,7 @@ pour l'orientation ponctuelle.
 | Command | Skill | What it does |
 |---|---|---|
 | `/judge-fr-eu-employment-legal:cold-start-interview` | cold-start-interview | Cold-start — learns jurisdictions and escalation rules |
-| `/judge-fr-eu-employment-legal:wage-hour-qa` | wage-hour-qa | Jurisdiction-aware wage/hour and employment Q&A |
+| `/judge-fr-eu-employment-legal:wage-hour-qa` | wage-hour-qa | Comparer SMIC et minima conventionnels sur pièces datées (France) |
 | `/judge-fr-eu-employment-legal:hiring-review` | hiring-review | Review offer letter and restrictive covenants |
 | `/judge-fr-eu-employment-legal:termination-review` | termination-review | Termination review with high-risk flag detection |
 | `/judge-fr-eu-employment-legal:worker-classification` | worker-classification | Qualifier une relation proposée avant exécution (France) |
