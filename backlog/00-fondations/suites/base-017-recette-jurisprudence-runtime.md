@@ -102,3 +102,8 @@ Comportement observé sur pièces fictives, une exécution par scénario, dans
 un client réel sans isolation système. Les décisions citées par le client
 n'ont pas été relues ici au-delà des fiches TRAV-062 ; aucune évaluation de
 la justesse juridique ni lecteur indépendant.
+
+## Décision — 17 octobre 2026
+
+Story maintenue en cours par décision de l'utilisateur, jusqu'au rejeu de
+S2 à S4 prévu par [BASE-019](base-019-lu-ou-fiche-embarquee.md).
