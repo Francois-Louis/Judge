@@ -8,6 +8,7 @@ marketplace jetable contenant le seul paquet employment-legal extrait de HEAD.
     python base-017-recette.py prepare --claude <claude.exe>
     python base-017-recette.py login <racine>     # commande que l'utilisateur lance
     python base-017-recette.py run <racine> S1    # S1 à S5
+    python base-017-recette.py reparse <racine> S4  # relit un journal déjà enregistré
     python base-017-recette.py collect <racine> <sortie.json>
 
 L'agent ne s'authentifie jamais : l'utilisateur fait lui-même /login dans la
@@ -200,6 +201,55 @@ def login(args):
     print(f'& "{state["claude"]}"')
 
 
+def parse_stream(raw):
+    """Return (tools with their result, final result message) from stream-json."""
+    tools, results, final = [], {}, {}
+    for line in raw.splitlines():
+        try:
+            msg = json.loads(line)
+        except ValueError:
+            continue
+        message = msg.get('message')  # a string for system events such as permission_denied
+        content = message.get('content') if isinstance(message, dict) else None
+        if isinstance(content, list):
+            for block in content:
+                if block.get('type') == 'tool_use':
+                    tools.append({'id': block['id'], 'name': block['name'], 'input': block['input']})
+                elif block.get('type') == 'tool_result':
+                    body = block.get('content')
+                    if isinstance(body, list):
+                        body = ' '.join(b.get('text', '') for b in body if isinstance(b, dict))
+                    results[block.get('tool_use_id')] = {
+                        'is_error': bool(block.get('is_error')), 'excerpt': str(body)[:400]}
+        if msg.get('type') == 'result':
+            final = msg
+    for t in tools:
+        t['result'] = results.pop(t.pop('id'), None)
+    return tools, final
+
+
+def reparse(args):
+    """Rebuild a scenario entry from its saved journal, without running it again."""
+    root = Path(args.root)
+    state = load(root)
+    sc = SCENARIOS[args.scenario]
+    raw = (root / 'runs' / f'{args.scenario}.jsonl').read_text(encoding='utf-8')
+    tools, final = parse_stream(raw)
+    unmeasured = 'non mesuré : analyse reprise depuis le journal enregistré'
+    state.setdefault('scenarios', {})[args.scenario] = {
+        'scenario': args.scenario, 'reparsed_from_journal': True,
+        'prompt': f'/{FULL}:hiring-review {" ".join(sc["files"])}\n\n{sc["ask"]}',
+        'allowed_tools': sc['allowed'], 'disallowed_tools': ALWAYS_DENIED + sc['denied'],
+        'session_id': final.get('session_id'), 'exit_code': None,
+        'result': final.get('subtype'), 'duration_s': None,
+        'cost_usd': final.get('total_cost_usd'), 'tools': tools,
+        'permission_denials': final.get('permission_denials', []),
+        'fs_changes_in_recette_outside_config': unmeasured,
+        'recette_project_files': sorted(p.name for p in (root / 'projects' / args.scenario).iterdir()),
+        'final_text': final.get('result', '')}
+    save(root, state)
+
+
 def run(args):
     root = Path(args.root)
     state = load(root)
@@ -225,27 +275,7 @@ def run(args):
                           timeout=1800)
     raw = clean_path(redact(proc.stdout), root)
     (root / 'runs' / f'{args.scenario}.jsonl').write_text(raw, encoding='utf-8')
-    tools, results, final = [], {}, {}
-    for line in raw.splitlines():
-        try:
-            msg = json.loads(line)
-        except ValueError:
-            continue
-        content = (msg.get('message') or {}).get('content')
-        if isinstance(content, list):
-            for block in content:
-                if block.get('type') == 'tool_use':
-                    tools.append({'id': block['id'], 'name': block['name'], 'input': block['input']})
-                elif block.get('type') == 'tool_result':
-                    body = block.get('content')
-                    if isinstance(body, list):
-                        body = ' '.join(b.get('text', '') for b in body if isinstance(b, dict))
-                    results[block.get('tool_use_id')] = {
-                        'is_error': bool(block.get('is_error')), 'excerpt': str(body)[:400]}
-        if msg.get('type') == 'result':
-            final = msg
-    for t in tools:
-        t['result'] = results.pop(t.pop('id'), None)
+    tools, final = parse_stream(raw)
     after = tree(root, skip=('config', 'state.json', 'runs'))
     changed = sorted(k for k in set(before) | set(after) if before.get(k) != after.get(k))
     entry = {'scenario': args.scenario, 'prompt': clean_path(prompt, root),
@@ -273,8 +303,12 @@ def collect(args):
     state = load(root)
     state['root'] = '<RECETTE>'
     state['claude'] = 'claude.exe embarqué par l\'application desktop'
-    Path(args.out).write_text(json.dumps(state, ensure_ascii=False, indent=2) + '\n',
-                              encoding='utf-8')
+    text = json.dumps(state, ensure_ascii=False, indent=2)
+    # Tool inputs keep the stream's escaped Windows paths: mask them in that form too.
+    for form in (str(root), str(root).replace('\\', '/')):
+        text = text.replace(json.dumps(form)[1:-1], '<RECETTE>')
+    text = re.sub(r'C:(?:\\+|/)Users(?:\\+|/)[^\\/"]+', '<PROFIL>', text)
+    Path(args.out).write_text(text + '\n', encoding='utf-8')
 
 
 def main():
@@ -288,11 +322,15 @@ def main():
     p = sub.add_parser('run')
     p.add_argument('root')
     p.add_argument('scenario', choices=sorted(SCENARIOS))
+    p = sub.add_parser('reparse')
+    p.add_argument('root')
+    p.add_argument('scenario', choices=sorted(SCENARIOS))
     p = sub.add_parser('collect')
     p.add_argument('root')
     p.add_argument('out')
     args = parser.parse_args()
-    {'prepare': prepare, 'login': login, 'run': run, 'collect': collect}[args.cmd](args)
+    {'prepare': prepare, 'login': login, 'run': run, 'reparse': reparse,
+     'collect': collect}[args.cmd](args)
 
 
 if __name__ == '__main__':

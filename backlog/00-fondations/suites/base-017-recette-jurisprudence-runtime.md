@@ -40,9 +40,9 @@ Scénarios, chacun journalisé (outils, adresses, refus, sortie) :
 
 ## Critères d'acceptation
 
-- [ ] Les cinq scénarios sont exécutés et journalisés dans le client isolé.
-- [ ] Aucune sortie ne présente une décision non ouverte comme lue.
-- [ ] Les écarts observés sont rapportés aux stories concernées sans être corrigés dans cette story.
+- [x] Les cinq scénarios sont exécutés et journalisés dans le client isolé.
+- [ ] Aucune sortie ne présente une décision non ouverte comme lue. Non atteint : S3 (et S2 en tête de note), voir écart 1.
+- [x] Les écarts observés sont rapportés aux stories concernées sans être corrigés dans cette story.
 
 ## Vérification
 
@@ -52,34 +52,53 @@ La recette elle-même ; le critère 1 reste non coché tant qu'elle n'est pas ex
 
 Évaluation de la justesse juridique des solutions, autres plugins, lecteur indépendant.
 
-## Exécution partielle — 17 octobre 2026
+## Bilan d'exécution — 17 octobre 2026
 
 Preuves : [pièces](base-017-annexes/base-017-pieces-fictives.md),
 [script](base-017-annexes/base-017-recette.py) et
 [résultats](base-017-annexes/base-017-resultats.json) (inventaire, commandes,
-outils, refus, sorties ; identifiants masqués).
+outils, refus, sorties ; compte et chemins de profil masqués).
 
 - **Environnement.** Claude Code 2.1.299 embarqué, `claude-opus-5-5`,
   connexion claude.ai faite par l'utilisateur. Variables jetables
-  (`CLAUDE_CONFIG_DIR`, `HOME`, `USERPROFILE`, `TEMP`, `TMP`), même compte
-  Windows ; home et configuration vides avant installation. Paquet
-  `employment-legal` 0.3.5 extrait de `62b233a` (38 fichiers), seul plugin
-  installé ; copie identique à l'inventaire ; `--schema` : `SCHEMA OK`.
-  Mode `dontAsk`, Bash/PowerShell/Write/Edit refusés.
-- **S1 normal : réussi.** Arrêts du 10 juillet 2002 et du 15 novembre 2006
-  ouverts sur Légifrance pendant la réponse, cités avec passages des motifs ;
-  le second est noté `partiel` pour la lecture du jour, la fiche embarquée
-  étant mentionnée à part. Conclusion sur l'argument « salaire pendant le
-  contrat » réservée ; phrase finale de portée présente (critère 4 de TRAV-062).
-- **S2 recherche vide : réussi.** Recherche Légifrance décrite (termes, date,
-  première page), absence de résultat non prise pour une absence de
-  jurisprudence, conclusion réservée, voie indiquée. L'arrêt de 2012, non
-  rouvert, est cité depuis la fiche avec sa date de relecture.
-- **S3, S4, S5 : non exécutés.** Le client a répondu « You've hit your session
-  limit · resets 11:40am (Europe/Paris) » sans appeler d'outil (code 1).
-- **Écart.** Un fichier `.tmp` vide est apparu dans le `%TEMP%` réel pendant
-  S1 et S2 ; origine non attribuée (le `TEMP` du client était redirigé).
+  (`CLAUDE_CONFIG_DIR`, `HOME`, `USERPROFILE`, `TEMP`, `TMP`), variables
+  `CLAUDE*`/`ANTHROPIC*`/`MCP_*` retirées, même compte Windows (checkout et
+  vrai profil restent lisibles, aucune lecture observée). Home et
+  configuration vides avant installation. Paquet `employment-legal` 0.3.5
+  extrait de `62b233a` (38 fichiers), seul plugin installé, copie identique à
+  l'inventaire ; contrôleur `--schema --claude` : `SCHEMA OK`, structure
+  `INCOMPLET` comme avant. Mode `dontAsk` ; Bash, PowerShell, Write, Edit et
+  NotebookEdit refusés dans tous les scénarios.
 
-Aucune sortie exécutée ne présente une décision non ouverte comme lue. Les
-critères restent non cochés tant que S3 à S5 ne sont pas rejoués
-(`base-017-recette.py run <racine> S3`, nouvelle racine si l'ancienne est effacée).
+| Scénario | Outils et refus | Observation |
+|---|---|---|
+| S1 normal | 4 lectures locales ; Légifrance : arrêts du 10 juillet 2002 et du 15 novembre 2006 ouverts ; CDTN L1121-1 et fiche IDCC 1486 ; une recherche web restreinte aux domaines officiels | Réussi. Motifs cités entre guillemets avec numéro ; arrêt de 2006 noté `partiel` pour la lecture du jour, distinct de la fiche embarquée. Conclusion sur le « salaire valant contrepartie » réservée faute de décision lue ; phrase finale de portée présente. |
+| S2 recherche vide | Légifrance : deux arrêts embarqués rouverts, recherche « clause de non-concurrence contrepartie en nature » ; CDTN L3241-1 | Réussi sur le fond : recherche décrite (source, termes, date, première page), « ne prouve pas » dit, conclusion sur les jetons réservée, voie indiquée. Écart 1 : la note s'ouvre sur « J'ai lu […] les décisions de justice utiles » ; l'arrêt de 2012 cité n'a pas été rouvert (précisé dans les sources). |
+| S3 doctrine seule | Légifrance : recherche du RG 23/04567 (0 résultat), recherche par mots, arrêts du 15 janvier 2014 (n° 12-19.472) et du 17 novembre 2010 ouverts | Réussi pour le billet : cité comme commentaire (autrice, qualité, support, date), « Je n'ai pas lu cette décision », absence sur Légifrance non prise pour inexistence, arrêt d'appel « non vérifiée ». Arrêt de 2010 marqué lecture partielle. **Écart 1** : « J'ai lu les décisions suivantes » introduit aussi trois arrêts non rouverts (le tableau des sources le dit). |
+| S4 Légifrance refusé | Deux `WebFetch` Légifrance refusés par la règle (journalisés) ; repli CDTN (L1121-1, fiche IDCC 1486) | Réussi. Refus tracé ; arrêts cités d'après la référence embarquée, « je ne les ai pas rouvertes » ; aucune solution restituée de mémoire. Écart 2 : la convention IDCC 1486 est dite inaccessible « (Légifrance a refusé l'accès) » sans qu'une lecture de la convention ait été tentée. |
+| S5 sans outil web | 4 lectures locales, aucun autre outil | Réussi. Seules les décisions et articles de la référence, « relues le 17 octobre 2026 », « je ne les ai pas rouverts » ; conclusion de validité réservée. Contrairement à H11b (BASE-011), aucune règle énoncée « de mémoire ». La date de relecture n'apparaît qu'en fin de note (même famille que l'écart 1). |
+
+Écarts observés, non corrigés ici :
+
+1. **Lu ou fiche embarquée dans le corps de la note** (S2, S3 ; S4, S5 pour
+   la place de la date) : rapporté à [BASE-019](base-019-lu-ou-fiche-embarquee.md).
+2. **Inaccessibilité attribuée sans tentative** (S4) : rapporté à BASE-019,
+   même règle de formulation de la méthode.
+3. **Fichier `.tmp` vide dans le `%TEMP%` réel** pendant S1, S2, S3 et S5,
+   origine non attribuée (le `TEMP` du client était redirigé ; aucune
+   écriture dans la racine de recette hors configuration).
+4. **Recette.** S3 à S5 ont d'abord été bloqués par la limite de session du
+   compte (aucun outil appelé, consigné dans `blocked_attempts`) puis rejoués.
+   L'analyse du journal de S4 a échoué sur un événement système ; elle a été
+   reprise depuis le journal enregistré (`reparse`) : les écritures disque de
+   S4 n'ont donc pas été mesurées, son dossier ne contient que `contrat-J.md`.
+
+Coût affiché par le client : 3,01 USD (S1 0,67 ; S2 0,58 ; S3 0,62 ; S4 0,64 ;
+S5 0,50).
+
+## Portée
+
+Comportement observé sur pièces fictives, une exécution par scénario, dans
+un client réel sans isolation système. Les décisions citées par le client
+n'ont pas été relues ici au-delà des fiches TRAV-062 ; aucune évaluation de
+la justesse juridique ni lecteur indépendant.

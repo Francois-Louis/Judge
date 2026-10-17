@@ -1,7 +1,7 @@
 ---
 id: TRAV-062
 titre: "Requalifier les pistes jurisprudentielles de la revue d'embauche"
-statut: en-cours
+statut: terminee
 priorite: P1
 nature: implementation
 dependances: [BASE-016, BASE-014]
@@ -41,7 +41,7 @@ change, NOTICE locale et racine, version du plugin.
 - [x] Chaque décision citée porte juridiction, formation, date, numéro, ECLI s'il est affiché, adresse Légifrance et passage lu.
 - [x] Aucune décision n'est citée sans lecture ; une décision restée illisible garde sa réserve.
 - [x] `python scripts/source_reviews.py employment-legal --depuis <date>` passe sans erreur.
-- [ ] La revue d'un contrat avec clause de non-concurrence se termine par la phrase de la section 8 (BASE-013).
+- [x] La revue d'un contrat avec clause de non-concurrence se termine par la phrase de la section 8 (BASE-013).
 
 ## Vérification
 
@@ -75,9 +75,11 @@ Autres clauses (TRAV-057, TRAV-058), autres références du plugin, recette en c
   décodage de la sortie console Windows, avant comme après ce lot) ;
   `claude plugin validate` du marketplace et du paquet : réussi (avertissement
   attendu sur `CLAUDE.md`).
-- **Critère 4 et cas normal.** Non vérifiés ici : ils sont observés dans le
-  scénario 1 de [BASE-017](../../00-fondations/suites/base-017-recette-jurisprudence-runtime.md).
-  Le cas limite (décision illisible) ne s'est pas produit.
+- **Critère 4 et cas normal.** Observés le 17 octobre 2026 dans le scénario
+  S1 de [BASE-017](../../00-fondations/suites/base-017-recette-jurisprudence-runtime.md)
+  (client isolé, paquet 0.3.5) : la note cite l'arrêt de 2002 lu sur
+  Légifrance et la condition de contrepartie, et se termine par la phrase de
+  la section 8. Le cas limite (décision illisible) ne s'est pas produit.
 
 ## Portée
 
