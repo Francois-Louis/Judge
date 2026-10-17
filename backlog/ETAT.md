@@ -5,11 +5,11 @@
 | Statut | Stories |
 | --- | ---: |
 | En cours | 3 |
-| À vérifier | 5 |
+| À vérifier | 6 |
 | Bloquée | 0 |
 | Terminée | 45 |
 | Prête | 0 |
-| À faire | 560 |
+| À faire | 559 |
 | Abandonnée | 23 |
 | dont prêtes à démarrer | 184 |
 | Total | 636 |
@@ -29,6 +29,8 @@ Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes
   <br>Annexes : [com-001-verification.md](02-plugins-existants/suites/com-001-annexes/com-001-verification.md) · [controles.py](02-plugins-existants/suites/com-001-annexes/controles.py) · [pieces-fictives.md](02-plugins-existants/suites/com-001-annexes/pieces-fictives.md) · [resultats-paquet.json](02-plugins-existants/suites/com-001-annexes/resultats-paquet.json) · [sorties-relecture.md](02-plugins-existants/suites/com-001-annexes/sorties-relecture.md) · [source-bruxelles-i-bis.json](02-plugins-existants/suites/com-001-annexes/source-bruxelles-i-bis.json) · [source-rome-i.json](02-plugins-existants/suites/com-001-annexes/source-rome-i.json)
 - [CONSO-001](03-nouveaux-domaines/suites/conso-001-commande-non-livree.md) — **À vérifier** · P2 · Préparer une réclamation pour une commande non livrée
   <br>Annexes : [controles.py](03-nouveaux-domaines/suites/conso-001-annexes/controles.py) · [pieces-fictives.md](03-nouveaux-domaines/suites/conso-001-annexes/pieces-fictives.md) · [resultats-isolation.json](03-nouveaux-domaines/suites/conso-001-annexes/resultats-isolation.json) · [resultats-paquet.json](03-nouveaux-domaines/suites/conso-001-annexes/resultats-paquet.json) · [source-directive.json](03-nouveaux-domaines/suites/conso-001-annexes/source-directive.json) · [verification.md](03-nouveaux-domaines/suites/conso-001-annexes/verification.md)
+- [CRIM-001](03-nouveaux-domaines/suites/crim-001-lire-convocation.md) — **À vérifier** · P2 · Lire et qualifier une convocation par la police ou la gendarmerie
+  <br>Annexes : [controles.py](03-nouveaux-domaines/suites/crim-001-annexes/controles.py) · [fixtures.json](03-nouveaux-domaines/suites/crim-001-annexes/fixtures.json) · [resultats-isolation.json](03-nouveaux-domaines/suites/crim-001-annexes/resultats-isolation.json) · [resultats-paquet.json](03-nouveaux-domaines/suites/crim-001-annexes/resultats-paquet.json) · [32010L0064.json](03-nouveaux-domaines/suites/crim-001-annexes/sources/32010L0064.json) · [32012L0013.json](03-nouveaux-domaines/suites/crim-001-annexes/sources/32012L0013.json) · [32013L0048.json](03-nouveaux-domaines/suites/crim-001-annexes/sources/32013L0048.json) · [acces-francais.json](03-nouveaux-domaines/suites/crim-001-annexes/sources/acces-francais.json) · [verification.md](03-nouveaux-domaines/suites/crim-001-annexes/verification.md)
 - [ENF-001](03-nouveaux-domaines/suites/enf-001-lire-acte.md) — **À vérifier** · P2 · Lire un acte d'exécution ou de recouvrement et repérer l'urgence
   <br>Annexes : [controles.py](03-nouveaux-domaines/suites/enf-001-annexes/controles.py) · [A01-errors.txt](03-nouveaux-domaines/suites/enf-001-annexes/executions/A01-errors.txt) · [A01.jsonl](03-nouveaux-domaines/suites/enf-001-annexes/executions/A01.jsonl) · [A01.md](03-nouveaux-domaines/suites/enf-001-annexes/executions/A01.md) · [package.json](03-nouveaux-domaines/suites/enf-001-annexes/executions/package.json) · [results.json](03-nouveaux-domaines/suites/enf-001-annexes/executions/results.json) · [fixtures.json](03-nouveaux-domaines/suites/enf-001-annexes/fixtures.json) · [recette.py](03-nouveaux-domaines/suites/enf-001-annexes/recette.py) · [validation.json](03-nouveaux-domaines/suites/enf-001-annexes/validation.json) · [verification.md](03-nouveaux-domaines/suites/enf-001-annexes/verification.md)
 - [TRAV-001](01-pilote-travail/suites/trav-001-qualification-relation.md) — **À vérifier** · P2 · Qualifier une relation de travail proposée
@@ -817,11 +819,10 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>CRIM</b> — Police et pénal (03 — Nouveaux domaines) : 24 à faire, 0 prêtes</summary>
+<summary><b>CRIM</b> — Police et pénal (03 — Nouveaux domaines) : 23 à faire, 0 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [CRIM-001](03-nouveaux-domaines/suites/crim-001-lire-convocation.md) | Lire et qualifier une convocation par la police ou la gendarmerie | P2 | BASE-008 |
 | [CRIM-002](03-nouveaux-domaines/suites/crim-002-mesure-en-cours.md) | Orienter une personne ou un proche pendant une mesure en cours | P2 | CRIM-001 |
 | [CRIM-003](03-nouveaux-domaines/suites/crim-003-lire-avis-amende.md) | Lire un avis d'amende et identifier son stade | P2 | CRIM-001 |
 | [CRIM-004](03-nouveaux-domaines/suites/crim-004-preparer-plainte.md) | Préparer les faits d'une plainte | P2 | CRIM-001 |

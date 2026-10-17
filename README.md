@@ -21,6 +21,10 @@ officielles sans abonnement ; à défaut, la conclusion qui en dépend est rése
 `consumer-legal:non-delivery-claim` 0.1.0 prépare la fiche, la chronologie et
 le brouillon au vendeur pour une commande non livrée (CONSO-001), sans profil
 ni envoi ; validation client et lecteur à compléter.
+`criminal-legal:summons-reading` 0.1.0 lit une convocation de police ou de
+gendarmerie pour un majeur (CRIM-001) : mentions, inconnues, authenticité et
+questions au service et à un avocat, sans stockage du dossier ni envoi ;
+recette client et lecteur à compléter.
 Voir le [démarrage du fork](QUICKSTART.md), les [preuves et limites de validation](references/base008-validation.md),
 la [licence](LICENSE) et les [fichiers modifiés](NOTICE).
 Les intégrations Cowork/Office et l'exécution distante décrites ci-dessous
@@ -57,6 +61,7 @@ Each agent is named for the workflow it runs. They're the most common surface �
 
 | Agent | What it does | Plugin | Command |
 |---|---|---|---|
+| **Lire une convocation** | Mentions, qualité inconnue ou indiquée, authenticité et questions ; CRIM-001, sans profil ni stockage | `criminal-legal` | `/judge-fr-eu-criminal-legal:summons-reading` |
 | **Commande non livrée** | Fiche, chronologie, pièces et brouillon au vendeur ; CONSO-001, sans profil ni envoi | `consumer-legal` | `/judge-fr-eu-consumer-legal:non-delivery-claim` |
 | **Acte de recouvrement ou d’exécution reçu** | Lecture, authenticité, urgence, fiche et questions ; ENF-001 | `enforcement-legal` | `/judge-fr-eu-enforcement-legal:enforcement-act-reading` |
 | **Orientation contractuelle** | Qualifie contrat/récit, domaine, achat/vente, pièces et suite ; COM-001, sans profil obligatoire | `commercial-legal` | `/judge-fr-eu-commercial-legal:review` |
@@ -263,6 +268,7 @@ narrative, without a profile or interview.
 
 | Plugin | What it adds |
 |---|---|
+| **[criminal-legal](./criminal-legal)** | CRIM-001 `0.1.0` : lire une convocation de police ou de gendarmerie pour un majeur ; un skill sans profil ni stockage, [recette et limites](backlog/03-nouveaux-domaines/suites/crim-001-annexes/verification.md). |
 | **[consumer-legal](./consumer-legal)** | CONSO-001 : fiche, chronologie, pièces et brouillon de réclamation pour un bien commandé à distance et non reçu. Un skill sans profil ni envoi ; validation client et lecteur à compléter. |
 | **[banking-legal](./banking-legal)** | BNK-001 `0.1.1` : qualifier un paiement contesté et préparer la réclamation pour une opération non autorisée sur un compte personnel ; tromperie et litige commercial orientés. Un skill, sans profil ni stockage ; [recette partielle et limites](backlog/03-nouveaux-domaines/suites/bnk-001-annexes/verification.md). |
 | **[enforcement-legal](./enforcement-legal)** | ENF-001 `0.1.0` : lire un acte reçu, vérifier l'authenticité, repérer l'urgence et préparer les questions. Un skill sans profil, calcul de délai ni envoi ; [recette et limites](backlog/03-nouveaux-domaines/suites/enf-001-annexes/verification.md). |
@@ -381,7 +387,13 @@ No build step. Everything is markdown and JSON.
 ## Skill & Command Reference
 
 The full map across all plugins. Inherited workflows start with the cold-start interview.
-The consumer plugin requires no setup.
+The consumer and criminal plugins require no setup.
+
+### Police et procédure pénale — CRIM-001
+
+| Command | Skill | Description |
+|---|---|---|
+| `/judge-fr-eu-criminal-legal:summons-reading` | summons-reading | Lire une convocation pour un majeur ; [périmètre et limites](criminal-legal/README.md), recette client et lecteur à compléter |
 
 ### Consommation — CONSO-001
 

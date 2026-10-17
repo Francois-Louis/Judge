@@ -132,6 +132,15 @@
       },
       "displayName": "Judge FR/UE — Exécution et recouvrement",
       "source": "./enforcement-legal"
+    },
+    {
+      "name": "judge-fr-eu-criminal-legal",
+      "displayName": "Judge FR/UE — Police et procédure pénale",
+      "source": "./criminal-legal",
+      "description": "Judge FR/UE 0.1.0 : lire une convocation de police ou de gendarmerie pour un majeur (CRIM-001). Fiche, inconnues et questions au service et à un avocat, sans profil, stockage ni envoi ; validation client et lecteur à compléter.",
+      "author": {
+        "name": "Judge FR/UE maintainers"
+      }
     }
   ],
   "version": "0.1.0"

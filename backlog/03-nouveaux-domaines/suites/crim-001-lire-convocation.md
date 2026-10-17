@@ -124,7 +124,8 @@ Scénario **attendu, non exécuté** : appel « venez juste discuter », qualit�
 Tranche sélectionnée par la demande utilisateur d'implémenter CRIM-001.
 Paquet `criminal-legal` `0.1.0` créé avec son seul skill `summons-reading` ;
 inscription au marketplace et décompte BASE-008 inclus dans cette sélection,
-CONSO-001 et BNK-001 déjà intégrées : **14 paquets, 137 skills**. Aucun tri
+CONSO-001 et BNK-001 déjà intégrées : **14 paquets, 137 skills** pour CRIM-001
+seule ; **15 paquets, 138 skills** avec ENF-001 commitée pendant ce chantier. Aucun tri
 global du marketplace, agent, hook ou connecteur ajouté. Le préalable
 PILOTE-003 est satisfait ; BASE-008 fournit le contrat technique déjà utilisé,
 sans prétendre que sa validation globale restante est achevée.

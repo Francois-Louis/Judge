@@ -747,3 +747,30 @@ Marketplace and isolation inventory: fourteen packages, 137 skills.
   enforcement-legal/scripts/judge_store.py
   enforcement-legal/skills/enforcement-act-reading/references/lecture-acte.md
   enforcement-legal/skills/enforcement-act-reading/SKILL.md
+
+CRIM-001 changes (2026-10-17): criminal-legal 0.1.0 and one summons-reading
+skill, adult police/gendarmerie summons in France. Authentication of messages,
+status before rights, minimal judicial/minor referrals, local sources and
+questions for a criminal lawyer. No profile, durable case storage or sending.
+BASE-005 1.2.0 and BASE-008 copies unchanged. Marketplace registration and
+isolation counts: 15 packages / 138 skills after ENF-001 integration. CPP source access reserved;
+initial EU directives and Service-Public readings dated. Package/schema checks
+are separate from fixture execution and real-reader validation.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  scripts/test-base008-isolation.py
+  criminal-legal/.claude-plugin/plugin.json
+  criminal-legal/CLAUDE.md
+  criminal-legal/LICENSE
+  criminal-legal/NOTICE
+  criminal-legal/README.md
+  criminal-legal/references/company-profile-template.md
+  criminal-legal/references/dashboard-template.md
+  criminal-legal/references/isolation.md
+  criminal-legal/references/qualification-penale.md
+  criminal-legal/references/shared/research-citation-method.md
+  criminal-legal/scripts/judge_store.py
+  criminal-legal/skills/summons-reading/references/convocation.md
+  criminal-legal/skills/summons-reading/SKILL.md

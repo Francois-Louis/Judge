@@ -52,6 +52,9 @@ observer. Le résultat statique reste `INCOMPLET`.
   CRIM-001 (14 paquets / 137 skills). ENF-001 et FUN-001 modifient simultanément
   l'espace partagé ; leurs changements non commités sont préservés et exclus
   du périmètre de cette preuve. Leurs validations restent distinctes.
+  Une seconde [preuve d'intégration](resultats-integration.json) reprend les
+  contrôles après le commit ENF-001, avec 15 paquets / 138 skills ; FUN-001
+  reste exclue tant qu'elle n'est pas commitée.
 - `python scripts/source_reviews.py criminal-legal --depuis 2026-10-17` :
   sept lignes de relecture, aucune erreur de forme. Cela ne prouve pas la
   lecture ni l'applicabilité ; le relevé de la référence les distingue.
