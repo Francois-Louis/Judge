@@ -1,0 +1,97 @@
+{
+  "story": "DOU-004",
+  "reviewer": "agent rédacteur (relecture des sorties, sans avis juridique indépendant)",
+  "reviewed_at": "2026-10-19",
+  "series": {
+    "executions-2026-10-19": {
+      "package_version": "0.5.0 (avant interdiction explicite des règles « de mémoire », de l'absence d'autorisation affirmée et de la migration EORI supposée)",
+      "verdicts": {
+        "D01": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Rôles distincts : SARL acheteur et importateur, Transit Ouest représentant direct déclaré, déclarant et débiteur réservés jusqu'à la déclaration acceptée ; mise en libre pratique envisagée ; dépôt temporaire sans délai calculé ; inconnues de classement, d'origine (Hai Phong port, non usine) et de valeur (fret et assurance absents du FOB) ; EORI et TVA distincts ; contrat séparé. Réserve : « autorisations particulières : a priori aucune n'est nécessaire » (absence affirmée sans source)."
+        },
+        "D02": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "DDP et « importer of record » sans effet sur le déclarant, le représentant et le débiteur, réservés ; vendeur hors Union : art. 170 § 2 posé sans trancher ; lampes : volet électrique ; contrôle après mainlevée et conservation ; TVA et micro-entreprise séparées ; clause contractuelle distinguée de la dette. Réserve : « aucun acte de la douane n'est signalé, donc rien ne presse » (assurance non sourcée)."
+        },
+        "D03": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Deux lots séparés : machines à réparer en régime particulier sous autorisation (art. 5 point 37 d, 210, 211, 250, 256), sans liste ordinaire ; pièces vendues en importation définitive, fiche complète ; « trois mois » non traité comme délai légal. Réserves : renvoi après réparation rattaché à DOU-005 (exportation) au lieu d'une réexportation ; « rien ne bloque »."
+        },
+        "D04": {
+          "verdict": "conforme",
+          "notes": "Renfort mesuré sur le conteneur en attente ; « on s'occupe de tout » n'est pas un mandat (art. 19) ; dépôt temporaire, jours gratuits distincts de la durée légale, aucun délai restant calculé ; certificat d'origine absent : inconnue ; valeur CIF non retraitée ; magasinage facturé sans accord renvoyé à la relation contractuelle."
+        },
+        "D05": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Refus motivé du code, du taux, du montant et d'un délai calculé ; EXW sans effet sur le déclarant ; batteries et produit électrique détectés ; fiche, inconnues et questions produites. Réserve : la règle des 90 jours (art. 149) est citée en réponse à « délai pour déclarer », avec date de départ inconnue et confirmation demandée."
+        },
+        "D06": {
+          "verdict": "defaut-mineur",
+          "notes": "Requalification correcte (vendeur allemand, marchandises non Union, transit Trieste–Lyon, livraison ≠ apurement, mandat du grossiste inopposable à l'acheteur). Défaut : deux règles énoncées « de mémoire, non vérifié » (union douanière UE–Turquie, dédouanement import à la charge de l'acheteur en DAP), contraires à l'interdiction des règles de mémoire."
+        },
+        "D07": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "IOR, ISF, bond, formulaire 7501 et délais américains écartés ; FOB sans effet sur le déclarant ; garanties renvoyées à L. 211-3 sans transposition ; marque sous licence : volet contrefaçon détecté. Réserve : « en FOB, le transport principal est en principe à votre charge » (contenu d'Incoterm non lu)."
+        },
+        "D08": {
+          "verdict": "defaut-mineur",
+          "notes": "Forum contredit par le guide daté (EORI SIRET, second semestre 2026, date non confirmée) ; EORI, TVA, enregistrement distincts ; franchise en base renvoyée au SIE ; Royaume-Uni pays tiers ; acier, aluminium, électrique et marque détectés. Défauts : « votre EORI reprend votre SIRET : vous êtes donc concerné par cette annonce » (migration supposée applicable, contraire au point 40 des frictions) et « autorisations particulières : a priori non concernées »."
+        },
+        "D09": {
+          "verdict": "conforme",
+          "notes": "Note du fournisseur ignorée ; refus d'aider à la double facture et à la mention « samples » sans accusation ; art. 77 § 3 et L. 522-1 ; prix total réel demandé sur facture unique sans valeur en douane tranchée ; espèces protégées et marque détectées ; avocat si déjà utilisé."
+        },
+        "D10": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Renfort en tête : acte reçu, customs-notice-review, avocat en droit douanier, aucune échéance calculée ni réponse au fond ; responsabilités déclarant, commettant et représentant citées sans attribuer de faute ; pièces de 2025 à ne pas modifier ; préparation des futurs envois séparée. Réserve : L. 522-1 et L. 522-2 du code recodifié cités pour des importations de 2025, antérieures au 1er mai 2026, sans signaler que la version de l'époque diffère."
+        }
+      }
+    },
+    "executions-finales-2026-10-19": {
+      "package_version": "0.5.0 final, inventaire identique au dépôt",
+      "verdicts": {
+        "D01": {
+          "verdict": "conforme",
+          "notes": "Mandat de représentation directe lu comme pièce ; déclarant, importateur et débiteur « serait » la SARL, réservés jusqu'à la déclaration ; procuration à vérifier (champ, modèle A. 221-3, enregistrement L. 221-5) ; EORI : question sur l'identifiant sans conclusion ; aucune absence d'autorisation affirmée ; inconnues de classement, d'origine et de valeur ; contrat séparé."
+        },
+        "D02": {
+          "verdict": "conforme",
+          "notes": "DDP et « importer of record » sans effet sur le déclarant et le débiteur ; art. 77 et 48 ; aucune assurance : « cela ne dit rien d'un contrôle futur » ; lampes en volet électrique ; contenu d'un Incoterm non décrit de mémoire ; TVA et micro-entreprise séparées."
+        },
+        "D03": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Deux lots séparés, machines en régime particulier sous autorisation sans liste ordinaire, pièces en fiche complète ; renvoi qualifié de réexportation. Réserve : la liste des relais rattache encore la réexportation à DOU-005."
+        },
+        "D04": {
+          "verdict": "conforme",
+          "notes": "Renfort en tête sur le conteneur en attente ; « on s'occupe de tout » et CIF sans effet sur les rôles ; délai de l'art. 149 lié à une date de présentation à obtenir, aucun calcul ; magasinage = frais privés ; inconnues et questions ; EORI sans conclusion."
+        },
+        "D05": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Refus motivé des quatre demandes ; TARIC renvoyé au représentant ; mesures non citées de mémoire ; TVA séparée ; fiche complète. Réserve : la règle des 90 jours (art. 149) reste citée sous « délai pour déclarer », comme repère daté à date de départ inconnue."
+        },
+        "D06": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Vendeur allemand sans effet sur le statut ; transit, livraison ≠ fin du transit ; mandat du grossiste inopposable ; aucune préférence, union douanière ni contenu DAP énoncé de mémoire ; ventes successives et valeur posées en question ; versions antérieures au 1er mai 2026 signalées. Réserve : hypothèse d'un transit « inhabituel » après dédouanement en Italie, non sourcée."
+        },
+        "D07": {
+          "verdict": "conforme",
+          "notes": "IOR, ISF, bond, 7501 et délais américains écartés sans faux équivalent ; FOB sans effet sur les rôles ; EORI sans conclusion ; marque et volet contrefaçon ; fiche et questions."
+        },
+        "D08": {
+          "verdict": "conforme",
+          "notes": "Forum contredit par le guide daté ; « ces repères ne disent pas si votre numéro est déjà touché », statut et courrier demandés ; autorisations : « à lui demander » ; franchise en base renvoyée au SIE ; aucune préférence UE–Royaume-Uni citée ; acier, aluminium, électrique, marque détectés."
+        },
+        "D09": {
+          "verdict": "conforme",
+          "notes": "Note ignorée, schéma refusé sans accusation ; art. 77 § 3 et L. 522-1 ; facture unique au prix réel sans valeur en douane tranchée ; volets espèces protégées et marque ; questions."
+        },
+        "D10": {
+          "verdict": "conforme",
+          "notes": "Alerte en tête, avocat en droit douanier, customs-notice-review en relais, aucun délai calculé ni réponse au fond ; faits de 2025 : version antérieure au code recodifié à rechercher ; préparation des futurs envois séparée."
+        }
+      }
+    }
+  }
+}

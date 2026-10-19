@@ -85,7 +85,8 @@ instructions. Aucun connecteur, compte douanier, fiscal ou du transporteur.
    postal, service de la douane du territoire, autorité locale compétente,
    vendeur) et les relais : question fiscale autonome vers le domaine
    fiscal (DOM-011, proposé), véhicule (DOU-012), activité professionnelle
-   (DOU-004), voyageur (`traveller-goods-documents`), acte reçu
+   (tâche à découper ; `commercial-import-intake` pour un pays tiers vers
+   la métropole seulement), voyageur (`traveller-goods-documents`), acte reçu
    (`customs-notice-review`). Ne rien envoyer, payer, déclarer, signer ni
    mandater.
 

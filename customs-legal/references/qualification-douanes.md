@@ -1,7 +1,7 @@
 # Qualifier l'opération douanière avant toute liste de pièces
 
-Version `1.3.0` — 19 octobre 2026 (Europe/Paris), DOU-001 ; disponibilités
-mises à jour par DOU-009, DOU-002 et DOU-003.
+Version `1.4.0` — 19 octobre 2026 (Europe/Paris), DOU-001 ; disponibilités
+mises à jour par DOU-009, DOU-002, DOU-003 et DOU-004.
 Référence commune du domaine douanier. Elle qualifie toute opération, même
 hors de la tâche livrée, puis indique ce que ce paquet traite réellement.
 Les règles datées et leurs sources figurent dans la référence métier de la
@@ -25,7 +25,7 @@ observée** (et son auteur), **source lue** (avec date) et **inconnue**.
 
 | Axe | Entrées à demander | Effet sur le travail |
 |---|---|---|
-| Personne et rôle | Particulier ou professionnel ; acheteur, vendeur, expéditeur, destinataire, déclarant, représentant et forme de la représentation si connue. | L'acheteur n'est pas présumé déclarant ; le transporteur n'est pas présumé représentant. Usage professionnel ou revente : hors tranche. |
+| Personne et rôle | Particulier ou professionnel ; acheteur, vendeur, expéditeur, destinataire, déclarant, représentant et forme de la représentation si connue. | L'acheteur n'est pas présumé déclarant ; le transporteur n'est pas présumé représentant. Usage professionnel ou revente : `commercial-import-intake` pour une importation définitive d'un pays tiers vers la métropole, sinon orientation. |
 | Opération et usage | Achat à distance, cadeau, voyage, retour ou réparation, réimportation, transit, transfert de résidence allégué ; usage privé, revente, temporaire ou définitif. | Ne pas traiter toute entrée comme une vente ordinaire ni toute franchise comme acquise. |
 | Marchandise | Désignation précise, composition ou matière, fonction, quantité, état (neuf, usagé), fiche produit ; catégorie sensible éventuelle. | Une description commerciale ne fixe pas le classement ; produit réglementé ou sensible : orientation. |
 | Territoires et trajet | Pays et ville d'établissement du vendeur, lieu exact d'expédition, pays de passage, lieu d'entrée annoncé, adresse de destination (ville et territoire, sans adresse complète). | Territoire douanier et territoire fiscal se vérifient séparément. « France », « UE », la langue, la monnaie ou le site du vendeur ne prouvent pas le trajet. |
@@ -69,7 +69,7 @@ observée** (et son auteur), **source lue** (avec date) et **inconnue**.
 | Envoi non accompagné, par un particulier, entre la France métropolitaine et un territoire ultramarin français identifié, dans un sens. | **Traité** par `overseas-shipment-documents` (DOU-002) : fiche territoriale, axes douanier et fiscal séparés, opération, inventaire, pièces et questions ; aucun taux, montant, franchise ni déclaration. |
 | Achat d'un pays tiers livré outre-mer, envoi entre deux territoires ultramarins, Monaco ou autre territoire particulier invoqué. | Qualification territoriale et questions ; tâche à découper, non livrée. Les impositions propres à un territoire ne sont pas étudiées ici : demander au service d'information quels droits et taxes s'appliquent, sans en nommer de mémoire. |
 | Biens ordinaires transportés dans ses bagages par un voyageur majeur, pour son usage privé, à l'arrivée en France métropolitaine d'un pays tiers ou d'un territoire fiscalement tiers. | **Traité** par `traveller-goods-documents` (DOU-003) : fiche trajet et qualité, inventaire, questions sur le régime et pièces ; aucune franchise garantie, calcul ni déclaration. Mineur, déménagement, véhicule et biens réglementés : détection et orientation. |
-| Achat pour une activité ou revente. | Orientation ; DOU-004 proposée. Classement DOU-006, origine DOU-007, valeur DOU-008 : proposées. |
+| Marchandises achetées par un professionnel pour son activité ou la revente, expédiées d'un pays tiers vers la France métropolitaine pour y rester. | **Traité** par `commercial-import-intake` (DOU-004) : carte des rôles (importateur déclaré, déclarant, représentant, débiteur) et des pièces, régime envisagé à confirmer, inconnues de classement, d'origine et de valeur, questions ; aucune déclaration, code, taux ni montant. Classement DOU-006, origine DOU-007, valeur DOU-008 : proposées. Activité professionnelle entre la métropole et l'outre-mer : tâche à découper. |
 | Exportation, retour, réparation, réimportation, transit, régime temporaire. | Orientation ; DOU-005 et tâches à découper. |
 | Véhicule. | Orientation ; DOU-012 proposée. Immatriculation et quitus fiscal relèvent d'autres domaines. |
 | Cadeau entre particuliers, franchise alléguée. | Orientation : conditions à vérifier sur source, rien d'acquis. |

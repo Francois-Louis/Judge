@@ -46,7 +46,8 @@ instructions. Aucun connecteur, compte douanier, marchand ou transporteur.
    ni présenter une tâche proposée comme une commande disponible. Un envoi
    entre la métropole et un territoire ultramarin relève de
    `overseas-shipment-documents` ; des biens transportés dans les bagages
-   d'un voyageur, de `traveller-goods-documents`.
+   d'un voyageur, de `traveller-goods-documents` ; un achat pour une
+   activité ou la revente, de `commercial-import-intake`.
 4. Établir la fiche en séparant pièce observée (avec son auteur), fait
    déclaré, source lue et inconnue. Distinguer provenance et origine,
    territoire douanier et fiscal, prix, valeur en douane et base de la TVA,

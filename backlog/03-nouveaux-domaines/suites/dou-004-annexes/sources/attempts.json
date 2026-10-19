@@ -1,0 +1,253 @@
+[
+  {
+    "route": "scripts/legal_sources.py eu",
+    "reference": "02013R0952-20221212",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02013R0952-20221212",
+        "attempted_at": "2026-10-19T14:48:42.091452+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02013R0952-20221212",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02013R0952-20221212",
+        "attempted_at": "2026-10-19T14:48:42.186190+00:00",
+        "http_status": 200,
+        "final_url": "https://publications.europa.eu/resource/cellar/1c0f12d9-8b8e-11ed-999b-01aa75ed71a1.0011.02/DOC_2",
+        "content_type": "application/xhtml+xml",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-19T14:48:42.702413+00:00",
+        "bytes": 1071657,
+        "sha256": "a44f4b191734ce2d2db999dfc45504eb6154e9de99559f49e5503ec2b9708e2f"
+      }
+    ]
+  },
+  {
+    "route": "scripts/legal_sources.py eu",
+    "reference": "02006L0112-20250414",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02006L0112-20250414",
+        "attempted_at": "2026-10-19T14:48:42.759945+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02006L0112-20250414",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02006L0112-20250414",
+        "attempted_at": "2026-10-19T14:48:42.820676+00:00",
+        "http_status": 200,
+        "final_url": "https://publications.europa.eu/resource/cellar/03c42d77-512a-11f0-a9d0-01aa75ed71a1.0011.02/DOC_1",
+        "content_type": "application/xhtml+xml",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-19T14:48:43.416485+00:00",
+        "bytes": 1933755,
+        "sha256": "3c14548595c996f64e9d90a8c29789956a6239c72e7a24610967ceaaf19b0040"
+      }
+    ]
+  },
+  {
+    "route": "CELLAR, téléchargement direct (Accept: application/xhtml+xml, Accept-Language: fra)",
+    "reference": "02015R2446-20260701",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://publications.europa.eu/resource/celex/02015R2446-20260701",
+        "attempted_at": "2026-10-19T14:49:58Z",
+        "http_status": 200,
+        "final_url": "http://publications.europa.eu/resource/cellar/2e297d47-8125-11f1-bf5e-01aa75ed71a1.0016.02/DOC_1",
+        "bytes": 29618131,
+        "sha256": "16a2fb162dbb1ddaacc29f557f11a443d751d659c4d37dd776b48d5698425ab0",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "DILA JORF, archive téléchargée et lue hors outil (tarfile, sans extraction)",
+    "reference": "JORF_20260411-003912 (JORFTEXT000053791010, JORFTEXT000053793585, JORFTEXT000053795071)",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20260411-003912.tar.gz",
+        "attempted_at": "2026-10-19T14:49:16Z",
+        "http_status": 200,
+        "bytes": 679825,
+        "sha256": "d09e9043819b4de4ed028d9e8dae773998c558473c883ca957918b33d7af27a7",
+        "state": "retrieved",
+        "articles": [
+          "L211-1",
+          "L211-2",
+          "L211-3",
+          "L221-1",
+          "L221-2",
+          "L221-3",
+          "L221-4",
+          "L221-5",
+          "L221-6",
+          "L321-7",
+          "L522-1",
+          "L522-2",
+          "R221-11",
+          "R221-12",
+          "R221-13",
+          "R221-14",
+          "R221-15",
+          "R221-16",
+          "R221-17",
+          "R221-20",
+          "R221-21",
+          "R221-22",
+          "R221-23",
+          "R221-24",
+          "R221-25",
+          "R221-26",
+          "D221-27",
+          "R221-28",
+          "A221-3"
+        ]
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G1",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.douane.gouv.fr/fiche/le-numero-eori-economic-operator-registration-and-identification",
+        "attempted_at": "2026-10-19",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G2",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.douane.gouv.fr/vers-un-eori-siren-unique-et-un-portail-europeen-pour-les-autorisations-douanieres",
+        "attempted_at": "2026-10-19",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G3",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.douane.gouv.fr/fiche/le-representant-en-douane-enregistre",
+        "attempted_at": "2026-10-19",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G4",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.douane.gouv.fr/les-nouvelles-regles-incotermsr-2020-et-la-valeur-en-douane",
+        "attempted_at": "2026-10-19",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G5",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.douane.gouv.fr/fiche/limport-ou-lexport-une-obligation-declarer-sa-marchandise",
+        "attempted_at": "2026-10-19",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G6",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.douane.gouv.fr/demarche/beneficier-automatiquement-de-lautoliquidation-de-la-tva-limport",
+        "attempted_at": "2026-10-19",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G7",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.douane.gouv.fr/professionnels/commerce-international/import-export/vous-souhaitez-importer",
+        "attempted_at": "2026-10-19",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "T1",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=fr",
+        "attempted_at": "2026-10-19",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "T2",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://trade.ec.europa.eu/access-to-markets/fr/home",
+        "attempted_at": "2026-10-19",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebSearch, domaine douane.gouv.fr)",
+    "reference": "recherche de pages",
+    "state": "search-only",
+    "attempts": [
+      {
+        "query": "douane.gouv.fr numéro EORI obtenir importation professionnel",
+        "attempted_at": "2026-10-19",
+        "state": "search-only"
+      },
+      {
+        "query": "douane.gouv.fr représentation en douane mandat représentant en douane enregistré procuration",
+        "attempted_at": "2026-10-19",
+        "state": "search-only"
+      },
+      {
+        "query": "douane.gouv.fr Incoterms dédouanement importation qui est déclarant",
+        "attempted_at": "2026-10-19",
+        "state": "search-only"
+      },
+      {
+        "query": "douane.gouv.fr \"autoliquidation de la TVA à l'import\" bénéficier automatiquement",
+        "attempted_at": "2026-10-19",
+        "state": "search-only"
+      }
+    ]
+  }
+]

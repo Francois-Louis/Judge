@@ -1,6 +1,7 @@
 # Biens accompagnant un voyageur à l'arrivée en France métropolitaine
 
-Version `1.0.0` — 19 octobre 2026 (Europe/Paris), DOU-003.
+Version `1.0.1` — 19 octobre 2026 (Europe/Paris), DOU-003 ; relais de
+l'importation commerciale mis à jour par DOU-004.
 Méthode métier, repères datés et modèle de sortie pour un voyageur majeur
 qui prépare les pièces des biens ordinaires qu'il transporte avec lui, pour
 son usage privé, en arrivant en France métropolitaine d'un pays tiers ou
@@ -21,7 +22,7 @@ interlocuteur douanier à confirmer.
 **Exclus** : voyageur mineur et biens d'un mineur, franchise chiffrée
 appliquée à un inventaire, déménagement ou transfert de résidence, biens
 recueillis par succession ou liés à un mariage, véhicule (DOU-012), achat
-pour une activité ou la revente (DOU-004), colis ou fret envoyé à part
+pour une activité ou la revente (`commercial-import-intake`), colis ou fret envoyé à part
 (`import-document-checklist`, `overseas-shipment-documents`), voyage depuis
 un autre État membre, produits réglementés et soumis à accise, argent
 liquide, infraction, acte de la douane déjà remis (`customs-notice-review`),
@@ -97,7 +98,7 @@ offertes, sans intention commerciale traduite par leur nature ou leur
 quantité (U2 art. 6 ; U4 art. 1 point 21 b). Des quantités identiques, un
 remboursement par des tiers, une revente même partielle ou des voyages
 répétés pour acheter laissent ce caractère **non établi** : qualifier,
-poser les questions et orienter vers DOU-004 (proposée, non livrée), sans
+poser les questions et orienter vers `commercial-import-intake`, sans
 appliquer la franchise ni la déclarer perdue.
 
 | Repère lu | Ce qu'il prévoit | Ce qui reste à établir |
@@ -216,8 +217,8 @@ Questions types, à adapter :
 La douane renseigne sur les formalités et la compagnie sur les bagages ;
 aucune n'est le conseil de la personne. Conseil : avocat en droit douanier
 dès qu'une retenue, un procès-verbal, une transaction, une contestation ou
-un volet pénal apparaît. Relais proposés, non livrés : DOU-004 (activité ou
-revente), DOU-012 (véhicule) ; déménagement, mineurs et volets spécialisés :
+un volet pénal apparaît. Activité ou revente : `commercial-import-intake`.
+Relais proposé, non livré : DOU-012 (véhicule) ; déménagement, mineurs et volets spécialisés :
 tâches à découper. Acte reçu : `customs-notice-review`. Ne jamais présenter
 une tâche proposée comme une commande disponible.
 

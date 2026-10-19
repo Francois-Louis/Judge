@@ -70,7 +70,8 @@ du vendeur ; aucun code ni identifiant demandé.
    personnel ou familial ou cadeau, nature et quantité sans intention
    commerciale) ; biens déjà détenus et preuve de leur statut ; quantités
    ou répétitions évoquant la revente : caractère non commercial non établi,
-   orientation DOU-004 (proposée), sans lui appliquer la franchise.
+   orientation vers `commercial-import-intake` (importation commerciale),
+   sans lui appliquer la franchise.
    Catégories réglementées (médicaments, aliments, produits animaux ou
    végétaux, espèces protégées, armes ou couteaux, contrefaçons, biens
    culturels, argent liquide, alcools et tabacs) : volet spécialisé détecté,

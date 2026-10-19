@@ -1,7 +1,7 @@
 ---
 id: DOU-004
 titre: "Qualifier une importation commerciale ordinaire"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: implementation
 dependances: [DOM-009, PILOTE-003, BASE-005, BASE-006, BASE-008, DOU-001]
@@ -71,12 +71,12 @@ une source inaccessible qu'après une tentative réelle. Aucun corpus validé ic
 
 ## Critères d'acceptation
 
-- [ ] Le résultat propre à cette tâche, décrit ci-dessus, est produit sur le cas normal avec pièces et inconnues visibles.
-- [ ] Les cas limites gardent les distinctions et exclusions métier indiquées ; aucune conclusion dépendante n'est complétée de mémoire.
-- [ ] Chaque règle ou formalité retenue a une source lue et un champ territorial/temporel établi ; sans source, la fiche factuelle reste utile.
-- [ ] Le paquet détaché fonctionne seul, sans profil préalable ni autre plugin ; recette BASE-006 consignée par couche, invocation et sorties observées conservées.
-- [ ] La sortie se termine par la phrase BASE-013 avec professionnel adapté ; renfort en tête si acte notifié, échéance ou risque immédiat.
-- [ ] Aucun envoi, déclaration, paiement ou dépôt n'est réalisé ; versions, métadonnées et NOTICE sont cohérents avec les tâches effectivement livrées.
+- [x] Le résultat propre à cette tâche, décrit ci-dessus, est produit sur le cas normal avec pièces et inconnues visibles.
+- [x] Les cas limites gardent les distinctions et exclusions métier indiquées ; aucune conclusion dépendante n'est complétée de mémoire.
+- [x] Chaque règle ou formalité retenue a une source lue et un champ territorial/temporel établi ; sans source, la fiche factuelle reste utile.
+- [x] Le paquet détaché fonctionne seul, sans profil préalable ni autre plugin ; recette BASE-006 consignée par couche, invocation et sorties observées conservées.
+- [x] La sortie se termine par la phrase BASE-013 avec professionnel adapté ; renfort en tête si acte notifié, échéance ou risque immédiat.
+- [x] Aucun envoi, déclaration, paiement ou dépôt n'est réalisé ; versions, métadonnées et NOTICE sont cohérents avec les tâches effectivement livrées.
 
 ## Vérification
 
@@ -110,3 +110,53 @@ le routage documentaire, pas sur l'exécution de ces scénarios.
 Points 9–11, 20, 26, 32–33, 40–42, 59 et 65–66 : qualifier rôle, mandat/représentation, déclaration réelle, données transmises, EORI, numéro TVA et habilitations distincts. Identifier régime, statut de stockage et transit ; livraison ne prouve pas apurement. Demander le courrier ou statut d'identifiant plutôt que supposer la migration 2026 applicable. Rectification, représentation contestée, régimes particuliers et EMEBI sont C02/C04–C11/C20 à découper ; fiscalité V04/IND-027 séparée. Cette story reste une qualification, sans calcul de dette ni formalité déposée.
 
 Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).
+
+## Implémentation — 19 octobre 2026
+
+La demande « implémente la story dou-004 » sélectionne cette tranche, de
+rang 4 dans le découpage DOM-009. L'état de proposition ci-dessus reste un
+historique. `customs-legal` passe à `0.5.0` avec le skill
+`commercial-import-intake`, sans profil, stockage, calcul, déclaration ni
+envoi ; marketplace et isolation à 18 paquets / 145 skills.
+
+Ressources : `qualification-import-professionnel.md 1.0.0` (rôles établis
+sur pièce et jamais déduits de l'Incoterm, identifiants EORI, TVA,
+enregistrement du représentant et autorisations distincts, régime envisagé
+et signaux de régime particulier, dépôt temporaire, inconnues de classement,
+d'origine et de valeur, après la mainlevée, TVA en axe séparé, modèle de
+sortie, quinze repères relus le 19 octobre 2026) ; `qualification-douanes.md`
+passe en `1.4.0`, `biens-voyageur.md` en `1.0.1` et `envoi-outre-mer.md` en
+`1.0.2` pour les relais ; `import-document-checklist`,
+`traveller-goods-documents` et `overseas-shipment-documents` routent
+l'importation professionnelle vers le nouveau skill, une activité entre la
+métropole et l'outre-mer restant à découper. Lectures : CDU, règl. délégué
+2015/2446 (EORI et annexe B : importateur, déclarant, représentant,
+vendeur, acheteur), directive 2006/112/CE ; Code des douanes recodifié dans
+sa publication au JORF du 11 avril 2026 (représentation, procuration,
+enregistrement, enlèvement, responsabilité du déclarant et du
+représentant) ; sept pages de la Douane comme guides, dont l'annonce de la
+désactivation des EORI construits sur le SIRET au second semestre 2026,
+date non fixée ; TARIC et Access2Markets comme outils.
+
+Recette : dix cas fictifs D01–D10 exécutés dans le client réel sur paquet
+détaché, deux fois. Première série : 8 conformes dont 6 avec réserve et 2
+défauts mineurs (D06 énonçait de mémoire l'union douanière UE–Turquie et le
+contenu du DAP ; D08 supposait la migration EORI applicable et l'absence
+d'autorisation). Après correction du skill et de la référence, série finale
+10/10 conformes selon la relecture du rédacteur, D03, D05 et D06 avec une
+réserve de formulation. Preuves :
+[vérification par couche](dou-004-annexes/verification.md),
+[fixtures](dou-004-annexes/fixtures.json), [verdicts](dou-004-annexes/resultats.json),
+[sources](dou-004-annexes/sources/lectures.md),
+[contrôle du paquet](dou-004-annexes/controle-paquet.txt) et
+[contrôles techniques](dou-004-annexes/controles-techniques.txt).
+
+Les critères sont cochés sur ces observations ; aucun scénario avec
+recherche web pendant la réponse n'a été exécuté. Les règles Incoterms, le
+CGI et la recodification de la TVA au 1er janvier 2027, les accords
+préférentiels, les réglementations propres aux produits, le mécanisme
+d'ajustement carbone et la version de l'ancien code pour des faits
+antérieurs au 1er mai 2026 restent non étudiés au-delà de la détection.
+La relecture juridique et de compréhension par un lecteur réel est prise en
+charge par l'utilisateur selon les consignes du 17 octobre 2026 ; elle
+n'est pas déclarée effectuée et ne maintient pas la story ouverte.

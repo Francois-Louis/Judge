@@ -1,6 +1,6 @@
-# Douanes : achat d'un pays tiers, envoi outre-mer, biens du voyageur et document reçu — DOU-001, DOU-002, DOU-003, DOU-009
+# Douanes : achat d'un pays tiers, envoi outre-mer, biens du voyageur, importation commerciale et document reçu — DOU-001, DOU-002, DOU-003, DOU-004, DOU-009
 
-Version `0.4.0` — 19 octobre 2026 (Europe/Paris).
+Version `0.5.0` — 19 octobre 2026 (Europe/Paris).
 
 ## Préparer le dossier d'un achat expédié d'un pays tiers (DOU-001)
 
@@ -45,8 +45,9 @@ Outre-mer, voyageur, cadeau, véhicule, usage professionnel, exportation,
 retour, transit, franchise alléguée, produit réglementé et sanction :
 qualification et orientation seulement. Un envoi entre la métropole et un
 territoire ultramarin est préparé par `overseas-shipment-documents`, les biens
-d'un voyageur par `traveller-goods-documents` ; un acte de la douane déjà
-reçu est lu par `customs-notice-review`.
+d'un voyageur par `traveller-goods-documents`, un achat pour une activité
+par `commercial-import-intake` ; un acte de la douane déjà reçu est lu par
+`customs-notice-review`.
 
 ## Préparer un envoi entre la métropole et l'outre-mer (DOU-002)
 
@@ -108,6 +109,38 @@ douanes recodifié et l'annexe IV du CGI (art. 50 octies, 10°), lus le
 19 octobre 2026 ; les règles d'accises, de santé, d'espèces protégées et
 d'argent liquide ne sont pas étudiées au-delà de leur détection.
 
+## Qualifier une importation commerciale ordinaire (DOU-004)
+
+`/judge-fr-eu-customs-legal:commercial-import-intake` aide un professionnel
+qui importe, pour son activité ou la revente, des marchandises expédiées d'un
+pays tiers vers la France métropolitaine pour y rester : carte des rôles
+(vendeur, acheteur, importateur porté sur la déclaration, déclarant,
+représentant en douane et type de représentation, débiteur) et des pièces,
+opération et régime envisagé à confirmer, inconnues de classement, d'origine
+et de valeur, questions au représentant, au vendeur ou à la douane, séparées
+des engagements du contrat.
+
+Le déclarant, le représentant et le débiteur ne sont jamais déduits d'un
+Incoterm ni d'une promesse « tout compris » : ils restent réservés tant que
+la déclaration ou le mandat manque. EORI, numéro de TVA, enregistrement du
+représentant et autorisations sont distingués ; le calendrier annoncé pour
+les numéros EORI est cité comme guide daté. Aucun code tarifaire, origine,
+valeur, taux, montant ni déclaration n'est produit, et aucune clause n'est
+rédigée. Réparation puis renvoi, retour, transit, entrepôt, produits
+réglementés, TVA à l'importation et activité outre-mer sont détectés et
+orientés.
+
+Exemple : « Votre fournisseur chinois promet une livraison tout compris,
+mais rien ne dit qui a déposé la déclaration ni avec quel mandat. Voici les
+pièces à demander au transitaire avant de savoir qui doit les droits. »
+
+La [méthode d'importation commerciale et ses sources](references/qualification-import-professionnel.md)
+s'appuie sur le CDU, le règlement délégué 2015/2446 (EORI, données de la
+déclaration), la directive TVA et le Code des douanes recodifié
+(représentation, mandat, responsabilité), lus le 19 octobre 2026 ; les
+règles Incoterms, le CGI et les réglementations propres aux produits ne sont
+pas lus.
+
 ## Lire un document de la douane déjà reçu (DOU-009)
 
 `/judge-fr-eu-customs-legal:customs-notice-review` aide la personne qui a
@@ -138,10 +171,10 @@ sa publication au Journal officiel du 11 avril 2026 ; la ratification et les
 corrections annoncées restent à suivre. Un acte antérieur au 1er mai 2026 ou
 d'un autre État relève d'une version ou d'un régime à rechercher.
 
-## Commun aux quatre skills
+## Commun aux cinq skills
 
-Les suites DOU-004 à DOU-008 et DOU-010 à DOU-012 restent proposées, sans
+Les suites DOU-005 à DOU-008 et DOU-010 à DOU-012 restent proposées, sans
 commande livrée ici. Les contrôles de structure, de schéma, d'exécution et de
 compréhension réelle sont distingués dans les bilans DOU-001, DOU-002,
-DOU-003 et DOU-009. Les réserves de sources et contrôles non exécutés ne valent pas validation
+DOU-003, DOU-004 et DOU-009. Les réserves de sources et contrôles non exécutés ne valent pas validation
 juridique.

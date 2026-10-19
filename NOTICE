@@ -1102,3 +1102,34 @@ the story runner gains the DOU-003 fixtures.
   customs-legal/skills/import-document-checklist/SKILL.md
   customs-legal/skills/overseas-shipment-documents/SKILL.md
   customs-legal/skills/traveller-goods-documents/SKILL.md
+
+DOU-004 changes (2026-10-19): customs-legal 0.5.0 adds
+commercial-import-intake, qualifying an ordinary commercial import from a
+third country into metropolitan France (map of roles and documents,
+envisaged procedure to be confirmed, unknowns of classification, origin
+and value, questions) without inferring the declarant or the debtor from an
+Incoterm, declaring, computing or drafting clauses.
+qualification-import-professionnel.md 1.0.0 with dated readings of the
+Union Customs Code, Delegated Regulation 2015/2446, the VAT Directive and
+the recodified French Customs Code; qualification-douanes.md 1.4.0,
+biens-voyageur.md 1.0.1 and envoi-outre-mer.md 1.0.2 route business
+imports to it. Marketplace and isolation counts updated to 145 skills; the
+story runner gains the DOU-004 fixtures.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  scripts/recette-stories.py
+  scripts/test-base008-isolation.py
+  customs-legal/.claude-plugin/plugin.json
+  customs-legal/CLAUDE.md
+  customs-legal/NOTICE
+  customs-legal/README.md
+  customs-legal/references/biens-voyageur.md
+  customs-legal/references/envoi-outre-mer.md
+  customs-legal/references/qualification-douanes.md
+  customs-legal/references/qualification-import-professionnel.md
+  customs-legal/skills/commercial-import-intake/SKILL.md
+  customs-legal/skills/import-document-checklist/SKILL.md
+  customs-legal/skills/overseas-shipment-documents/SKILL.md
+  customs-legal/skills/traveller-goods-documents/SKILL.md
