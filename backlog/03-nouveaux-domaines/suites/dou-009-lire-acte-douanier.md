@@ -1,7 +1,7 @@
 ---
 id: DOU-009
 titre: "Lire un contrôle ou avis douanier déjà notifié"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: implementation
 dependances: [DOM-009, PILOTE-003, BASE-005, BASE-006, BASE-008, DOU-001]
@@ -71,12 +71,12 @@ une source inaccessible qu'après une tentative réelle. Aucun corpus validé ic
 
 ## Critères d'acceptation
 
-- [ ] Le résultat propre à cette tâche, décrit ci-dessus, est produit sur le cas normal avec pièces et inconnues visibles.
-- [ ] Les cas limites gardent les distinctions et exclusions métier indiquées ; aucune conclusion dépendante n'est complétée de mémoire.
-- [ ] Chaque règle ou formalité retenue a une source lue et un champ territorial/temporel établi ; sans source, la fiche factuelle reste utile.
-- [ ] Le paquet détaché fonctionne seul, sans profil préalable ni autre plugin ; recette BASE-006 consignée par couche, invocation et sorties observées conservées.
-- [ ] La sortie se termine par la phrase BASE-013 avec professionnel adapté ; renfort en tête si acte notifié, échéance ou risque immédiat.
-- [ ] Aucun envoi, déclaration, paiement ou dépôt n'est réalisé ; versions, métadonnées et NOTICE sont cohérents avec les tâches effectivement livrées.
+- [x] Le résultat propre à cette tâche, décrit ci-dessus, est produit sur le cas normal avec pièces et inconnues visibles.
+- [x] Les cas limites gardent les distinctions et exclusions métier indiquées ; aucune conclusion dépendante n'est complétée de mémoire.
+- [x] Chaque règle ou formalité retenue a une source lue et un champ territorial/temporel établi ; sans source, la fiche factuelle reste utile.
+- [x] Le paquet détaché fonctionne seul, sans profil préalable ni autre plugin ; recette BASE-006 consignée par couche, invocation et sorties observées conservées.
+- [x] La sortie se termine par la phrase BASE-013 avec professionnel adapté ; renfort en tête si acte notifié, échéance ou risque immédiat.
+- [x] Aucun envoi, déclaration, paiement ou dépôt n'est réalisé ; versions, métadonnées et NOTICE sont cohérents avec les tâches effectivement livrées.
 
 ## Vérification
 
@@ -110,3 +110,45 @@ le routage documentaire, pas sur l'exécution de ces scénarios.
 Points 19 et 59–70, 73–75 : qualifier projet/contrôle, décision de dette, PV, transaction, retenue PI, saisie/confiscation et décision de garanties ; demander acte complet, annexes et réception. Relever les échéances annoncées comme mentions à vérifier, sans adopter les durées du guide. C10/C12–C17/C25 portent les tâches futures d'observations/recours/sursis/garanties/silence ; PV/transaction et défense pénale restent un découpage DOM-002 avec avocat douanier. Cas : projet sans annexes ; retenue PI avec destruction annoncée ; AMR et frais privés mêlés. Aucun recours, accord à destruction ou signature produit par cette seule lecture.
 
 Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).
+
+## Implémentation — 19 octobre 2026
+
+La demande « poursuivons l'implémentation sur le thème de la douane »
+sélectionne cette tranche, de rang 2 et relais déjà nommé par DOU-001 pour
+tout acte notifié. L'état de proposition ci-dessus reste un historique.
+`customs-legal` passe à `0.2.0` avec le skill `customs-notice-review`, sans
+profil, stockage, calcul, recours, signature ni envoi ; marketplace et
+isolation à 18 paquets / 142 skills.
+
+Ressources : `lecture-acte-douanier.md 1.0.0` (typologie des actes, règle
+« reproduire, jamais calculer » les échéances, pièces, questions, modèle de
+sortie, six repères relus le 19 octobre 2026) ; `qualification-douanes.md`
+passe en `1.1.0` pour les seules lignes de disponibilité, et
+`import-document-checklist` route désormais les actes notifiés vers le
+nouveau skill. Lecture principale : le Code des douanes recodifié (ordonnance
+n° 2026-265 et décret n° 2026-266 du 8 avril 2026, en vigueur le 1er mai
+2026) lu dans sa publication au JORF du 11 avril 2026 via la DILA — droit
+d'être entendu national, AMR, contestation et sursis, poursuites et
+garanties, procès-verbaux, saisie, retenue et audition, transaction — avec
+le CDU, l'art. 8 du règl. délégué 2015/2446 et le règl. 608/2013. Version
+consolidée, ratification annoncée et anciens articles restent réservés.
+
+Recette : dix cas fictifs D01–D10 exécutés dans le client réel sur paquet
+détaché, deux fois. Première série : 8 conformes ; D01 et D05 présentaient
+comme court le délai de contestation d'un AMR, et D05 comptait les jours
+écoulés, car la référence omettait la durée lue de L. 331-1. Après
+correction de la référence et du skill, série finale 10/10 conformes selon
+la relecture du rédacteur, D10 avec une réserve de formulation. Preuves :
+[vérification par couche](dou-009-annexes/verification.md),
+[fixtures](dou-009-annexes/fixtures.json), [verdicts](dou-009-annexes/resultats.json),
+[sources](dou-009-annexes/sources/lectures.md),
+[contrôle du paquet](dou-009-annexes/controle-paquet.txt) et
+[contrôles techniques](dou-009-annexes/controles-techniques.txt).
+
+Les critères sont cochés sur ces observations ; aucun scénario avec
+recherche web pendant la réponse n'a été exécuté. Observations, contestation,
+sursis, garanties, défense pénale, remboursement (DOU-010) et remise
+(DOU-011) restent proposés. La relecture juridique et de compréhension par
+un lecteur réel est prise en charge par l'utilisateur selon les consignes du
+17 octobre 2026 ; elle n'est pas déclarée effectuée et ne maintient pas la
+story ouverte.

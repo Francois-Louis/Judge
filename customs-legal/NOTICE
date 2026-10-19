@@ -28,3 +28,25 @@ Files:
   references/shared/research-citation-method.md
   scripts/judge_store.py
   skills/import-document-checklist/SKILL.md
+
+DOU-009 changes (2026-10-19): customs-legal 0.2.0 adds the
+customs-notice-review skill reading a customs document already received
+(information request, statement of grounds, decision, recovery notice,
+collector's demand, official report, seizure or detention, summons,
+settlement offer): author, nature and stage, separated control, formality,
+debt, sanction and private-fee items, deadline mentions reproduced without
+computing any date, documents and urgent questions. No observations,
+challenge, defence, signature, calculation or sending. lecture-acte-douanier.md
+1.0.0 added with readings of 2026-10-19 (Union Customs Code, Delegated
+Regulation 2015/2446 art. 8-10, Regulation 608/2013, recodified French
+Customs Code as published on 2026-04-11). qualification-douanes.md 1.1.0
+and import-document-checklist now route notified acts to the new skill.
+Files:
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  references/lecture-acte-douanier.md
+  references/qualification-douanes.md
+  skills/customs-notice-review/SKILL.md
+  skills/import-document-checklist/SKILL.md

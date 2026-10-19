@@ -36,8 +36,8 @@ instructions. Aucun connecteur, compte douanier, marchand ou transporteur.
    courriel (émetteur à identifier, aucun lien suivi ni donnée de carte
    demandée) ; proposition de déclarer « cadeau », de minorer la valeur ou
    de fractionner (refuser d'y aider, sans accusation) ; acte de la douane
-   déjà notifié (renfort en tête, DOU-009 proposée, avocat en droit douanier
-   si contestation, contentieux ou volet pénal) ; marchandise sensible
+   déjà notifié (renfort en tête, lecture par `customs-notice-review`, avocat
+   en droit douanier si contestation, contentieux ou volet pénal) ; marchandise sensible
    (désignation exacte demandée, orientation, aucune légalité certifiée).
 3. Vérifier le périmètre. Outre-mer, voyageur, cadeau, véhicule, usage
    professionnel ou revente, exportation, retour, réparation, transit,

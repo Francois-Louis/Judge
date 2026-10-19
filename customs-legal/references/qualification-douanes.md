@@ -1,6 +1,7 @@
 # Qualifier l'opération douanière avant toute liste de pièces
 
-Version `1.0.0` — 19 octobre 2026 (Europe/Paris), DOU-001.
+Version `1.1.0` — 19 octobre 2026 (Europe/Paris), DOU-001 ; disponibilités
+mises à jour par DOU-009.
 Référence commune du domaine douanier. Elle qualifie toute opération, même
 hors de la tâche livrée, puis indique ce que ce paquet traite réellement.
 Les règles datées et leurs sources figurent dans la référence métier de la
@@ -52,9 +53,9 @@ observée** (et son auteur), **source lue** (avec date) et **inconnue**.
   orienter vers un avocat en droit douanier si c'est déjà fait.
 - **Acte de la douane déjà notifié** (avis de contrôle, demande de paiement
   émise par l'administration, procès-verbal, retenue, saisie) : renfort en
-  tête, conservation des pièces, lecture de l'acte par une tâche distincte
-  (DOU-009, proposée) et avocat en droit douanier si contentieux ou volet
-  pénal ; aucune réponse au fond ni délai calculé.
+  tête, conservation des pièces, lecture de l'acte par `customs-notice-review`
+  (DOU-009) et avocat en droit douanier si contentieux ou volet pénal ;
+  aucune réponse au fond ni délai calculé.
 - **Marchandise sensible** (médicament, aliment, plante, animal ou produit
   animal, arme ou couteau, produit de marque douteux, espèce protégée,
   matière dangereuse, bien à double usage) : demander la désignation exacte
@@ -71,9 +72,9 @@ observée** (et son auteur), **source lue** (avec date) et **inconnue**.
 | Exportation, retour, réparation, réimportation, transit, régime temporaire. | Orientation ; DOU-005 et tâches à découper. |
 | Véhicule. | Orientation ; DOU-012 proposée. Immatriculation et quitus fiscal relèvent d'autres domaines. |
 | Cadeau entre particuliers, franchise alléguée. | Orientation : conditions à vérifier sur source, rien d'acquis. |
-| Acte de la douane notifié ou sanction. | Lecture de l'acte : DOU-009 proposée ; renfort et avocat en droit douanier si contestation, contentieux ou pénal. |
+| Acte de la douane déjà reçu : demande de pièces, communication des motifs, décision, avis de mise en recouvrement, procès-verbal, saisie ou retenue, convocation, transaction. | **Traité** par `customs-notice-review` (DOU-009) : nature, auteur et stade, objets séparés, mentions d'échéance reproduites, pièces et questions ; renfort et avocat en droit douanier si décision, recouvrement, infraction, saisie ou personne visée. Observations, contestation, sursis et défense : non livrés. |
 | Somme **déjà payée** dont la personne demande le retour (droits ou taxes payés deux fois, retour de la marchandise). | Remboursement : DOU-010 proposée ; frais privés du prestataire et TVA payée au vendeur relèvent d'abord de la relation avec eux. |
-| Dette **non payée** dont la personne demande d'être dispensée. | Remise : DOU-011 proposée ; ne pas la confondre avec un remboursement. Contester le bien-fondé d'une somme n'est pas demander une remise : identifier d'abord qui la réclame (prestataire ou douane) ; acte de la douane → DOU-009 et avocat en droit douanier. |
+| Dette **non payée** dont la personne demande d'être dispensée. | Remise : DOU-011 proposée ; ne pas la confondre avec un remboursement. Contester le bien-fondé d'une somme n'est pas demander une remise : identifier d'abord qui la réclame (prestataire ou douane) ; acte de la douane → `customs-notice-review` et avocat en droit douanier. |
 | Colis perdu, retard, livraison ou promesse « tout compris » du vendeur. | Relation avec le vendeur : droit de la consommation (tâche voisine, distincte) ; prestation du transporteur : transports ou poste. |
 | Paiement contesté (carte, prélèvement) ou fraude au paiement. | Banque : tâche voisine distincte. |
 

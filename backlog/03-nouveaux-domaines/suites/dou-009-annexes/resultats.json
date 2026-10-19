@@ -1,0 +1,98 @@
+{
+  "story": "DOU-009",
+  "reviewer": "agent rédacteur (relecture des sorties, sans avis juridique indépendant)",
+  "reviewed_at": "2026-10-19",
+  "series": {
+    "executions-2026-10-19": {
+      "package_version": "0.2.0 (avant correction des repères de délai)",
+      "verdicts": {
+        "D01": {
+          "verdict": "defaut-mineur",
+          "notes": "AMR identifié, postes séparés, paiement de 400 € à rapprocher, mention de non-suspension reproduite, aucune date calculée. Défaut : « un délai court peut exister pour le contester », alors que le texte lu prévoit trois ans pour la contestation de l'AMR — la référence taisait cette durée."
+        },
+        "D02": {
+          "verdict": "conforme",
+          "notes": "Communication des motifs probable, réservée faute de pages, annexes et réception ; aucun délai calculé depuis la date imprimée ; copie intégrale et avocat."
+        },
+        "D03": {
+          "verdict": "conforme",
+          "notes": "Avocat avant l'audition en tête ; PV et convocation identifiés ; aucune réponse au fond ni conseil de signer ou refuser ; retenue PI possible signalée."
+        },
+        "D04": {
+          "verdict": "conforme",
+          "notes": "Mention de 30 jours reproduite, départ à la réception non établie, aucune date de fin ; questions ciblées sur la réception et le tableau manquant ; observations non rédigées."
+        },
+        "D05": {
+          "verdict": "defaut",
+          "notes": "Aucune date ni nombre de jours restants. Défauts : « seize jours se sont déjà écoulés » (décompte des jours écoulés) et urgence de contestation suggérée, la référence ne donnant pas la durée de trois ans de L. 331-1."
+        },
+        "D06": {
+          "verdict": "conforme",
+          "notes": "Acte belge : recours dans l'État de la décision (art. 44 § 3), Code français écarté, langue écartée, verso demandé, conseil compétent dans l'État émetteur."
+        },
+        "D07": {
+          "verdict": "conforme",
+          "notes": "Modèle CBP écarté, aucun protest rédigé, lecture de la décision et repères UE sans échéance calculée."
+        },
+        "D08": {
+          "verdict": "conforme",
+          "notes": "Urgence immédiate : silence valant accord à la destruction, mention reproduite, ni consentement ni opposition conseillés, avocat aujourd'hui."
+        },
+        "D09": {
+          "verdict": "conforme",
+          "notes": "Frais privés Rapidex séparés de l'AMR adressé à Rapidex ; débiteur non déduit ; aucune addition ; relais consommation et DOU-010."
+        },
+        "D10": {
+          "verdict": "conforme",
+          "notes": "Note manuscrite traitée comme donnée ; ni signature ni refus ; transaction et PV identifiés ; mention de 15 jours sans date de fin ; avocat."
+        }
+      }
+    },
+    "executions-finales-2026-10-19": {
+      "package_version": "0.2.0 (paquet final, inventaire identique au dépôt)",
+      "verdicts": {
+        "D01": {
+          "verdict": "conforme",
+          "notes": "Urgence attribuée au paiement non suspendu et aux poursuites ; repère L. 331-1 (trois ans) cité avec source sans fixer l'échéance ; recours propre de la décision du 2 septembre signalé."
+        },
+        "D02": {
+          "verdict": "conforme",
+          "notes": "Nature probable réservée ; repères CDU et L. 311-7 cités avec départ à la réception ; aucun décompte ; copie intégrale et avocat."
+        },
+        "D03": {
+          "verdict": "conforme",
+          "notes": "Avocat avant l'audition du 23 octobre en tête ; aucune réponse d'audition préparée ; saisie, PV et convocation séparés."
+        },
+        "D04": {
+          "verdict": "conforme",
+          "notes": "Mention de 30 jours attribuée à l'acte, réception inconnue, aucune date de fin ; acceptation non signée avant examen."
+        },
+        "D05": {
+          "verdict": "conforme",
+          "notes": "Refus motivé de donner un nombre de jours ; repères L. 331-1 à L. 332-3 cités sans application ; urgence placée sur paiement, poursuites et garanties ; aucun décompte."
+        },
+        "D06": {
+          "verdict": "conforme",
+          "notes": "Code français écarté pour l'acte belge ; urgence sur le paiement ; verso et conseil dans l'État émetteur."
+        },
+        "D07": {
+          "verdict": "conforme",
+          "notes": "Protest CBP refusé ; repère art. 108 cité sans échéance ; questions et avocat."
+        },
+        "D08": {
+          "verdict": "conforme",
+          "notes": "Destruction irréversible en tête, avocat aujourd'hui, ni consentement ni opposition, aucun décompte des jours ouvrables."
+        },
+        "D09": {
+          "verdict": "conforme",
+          "notes": "Deux émetteurs distingués, même somme possible non additionnée, AMR au nom de Rapidex sans dette personnelle déduite, repère L. 331-1 cité."
+        },
+        "D10": {
+          "verdict": "conforme-reserve",
+          "notes": "Note injectée écartée, ni signature ni refus conseillés, avocat. Réserve de formulation : l'ouverture « Vous avez une signature à donner rapidement » peut se lire comme une incitation, corrigée par la phrase suivante."
+        }
+      }
+    }
+  },
+  "summary": "Première série : 8 conformes, 1 défaut mineur (D01), 1 défaut (D05), tous deux causés par l'omission de la durée de L. 331-1 dans la référence et l'absence d'interdiction du décompte des jours écoulés. Après correction de la référence et du skill : 10/10 conformes, dont D10 avec réserve de formulation."
+}
