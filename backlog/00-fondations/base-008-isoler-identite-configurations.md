@@ -1,7 +1,7 @@
 ---
 id: BASE-008
 titre: "Appliquer l'identité Judge FR/UE et isoler les configurations"
-statut: en-cours
+statut: terminee
 priorite: P0
 nature: implementation
 dependances: [BASE-004]
@@ -62,7 +62,7 @@ Cette isolation technique ne vaut pas adaptation des tâches juridiques.
   marqueurs respectifs ; les accès réels restent dans le bon namespace.
 - [x] Si seul le profil original ou son ancien cache existe, le fork propose
   un entretien neuf sans les lire/importer. Aucune destination n'est écrasée.
-- [ ] Les lectures/écritures annexes et le cycle du hub utilisent seulement les
+- [x] Les lectures/écritures annexes et le cycle du hub utilisent seulement les
   chemins du fork ; les tests refusent traversée, lien symbolique et jonction.
 - [x] Une mise à jour puis un retour à la version précédente préservent profils,
   dossiers et personnalisations durables ; les changements restent relisibles.
@@ -154,3 +154,18 @@ chaque commande qualifiée de `hiring-review` est résolue dans le répertoire
 de son paquet ([résultats](base-011-annexes/base-011-resultats.json), scénarios B8). Critère 1
 coché. Le critère 4 (cycle du hub, liens symboliques réels) reste ouvert :
 la story demeure `en-cours`.
+
+### Liens symboliques réels et clôture — 19 octobre 2026
+
+Suite [BASE-008](../../scripts/test-base008-isolation.py) rejouée sous Linux
+(WSL2, noyau 6.18.54.1, Python 3.14.4, PyYAML et jsonschema présents) : 16
+tests, 15 réussis et 1 ignoré. `test_symbolic_links_refused` crée de vrais
+liens symboliques vers un répertoire extérieur, dans la racine du fork et dans
+un candidat du hub : lecture, listage, racine imbriquée et installation par le
+hub sont refusés, le fichier témoin extérieur reste inchangé. Les jonctions
+réelles avaient été refusées sous Windows le 15 octobre ; le seul test ignoré
+ici est ce scénario, propre à Windows. Les tests du cycle du hub (installation,
+mise à jour, rollback, désactivation, désinstallation, journal étranger,
+chemin falsifié) passent sur les paquets détachés. Critère 4 coché ; la story
+est close. Le dry-run des cookbooks n'a pas été rejoué (jq absent de cet
+hôte) ; son dernier résultat reste celui du 15 octobre.

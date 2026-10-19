@@ -102,6 +102,12 @@ Rejeu du 15 octobre 2026 après BASE-009, avec jq **1.8.1** et jsonschema
 temporaires : 16 tests BASE-008, 15 réussis et 1 ignoré (lien symbolique) ;
 dry-run des cinq cookbooks réussi ; 11 fixtures du contrôleur réussies.
 
+Rejeu du 19 octobre 2026 sous Linux (WSL2, Python 3.14.4, PyYAML et
+jsonschema) : 16 tests BASE-008, 15 réussis et 1 ignoré (jonction, propre à
+Windows). Les liens symboliques réels sont créés et refusés par le stockage et
+par le hub, témoin extérieur inchangé. Dry-run des cookbooks non rejoué (jq
+absent).
+
 ## Client officiel jetable
 
 La CLI a ensuite été installée **localement dans le répertoire temporaire** :

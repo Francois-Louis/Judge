@@ -1003,3 +1003,8 @@ story runner gains the DOU-001 fixtures.
   customs-legal/references/shared/research-citation-method.md
   customs-legal/scripts/judge_store.py
   customs-legal/skills/import-document-checklist/SKILL.md
+
+BASE-008 closure (2026-10-19): record the real symbolic-link refusal observed
+on Linux (16 tests, 15 passed, Windows junction scenario skipped); no plugin
+or runtime content changed.
+  references/base008-validation.md

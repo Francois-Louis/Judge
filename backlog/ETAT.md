@@ -4,22 +4,20 @@
 
 | Statut | Stories |
 | --- | ---: |
-| En cours | 1 |
+| En cours | 0 |
 | À vérifier | 7 |
 | Bloquée | 0 |
-| Terminée | 58 |
+| Terminée | 59 |
 | Prête | 0 |
 | À faire | 664 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 177 |
+| dont prêtes à démarrer | 199 |
 | Total | 753 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
 ## En cours, à vérifier ou bloquées
 
-- [BASE-008](00-fondations/base-008-isoler-identite-configurations.md) — **En cours** · P0 · Appliquer l'identité Judge FR/UE et isoler les configurations
-  <br>Annexes : [base-008-inventaire-apres.tsv](00-fondations/base-008-annexes/base-008-inventaire-apres.tsv) · [base-008-inventaire-avant.tsv](00-fondations/base-008-annexes/base-008-inventaire-avant.tsv) · [base-008-residus.tsv](00-fondations/base-008-annexes/base-008-residus.tsv) · [base-008-resultats-client.json](00-fondations/base-008-annexes/base-008-resultats-client.json)
 - [BNK-001](03-nouveaux-domaines/suites/bnk-001-contester-paiement.md) — **À vérifier** · P2 · Qualifier un paiement contesté et préparer la réclamation au prestataire
   <br>Annexes : [P01-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P01-errors.txt) · [P01.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P01.jsonl) · [P01.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P01.md) · [P02-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P02-errors.txt) · [P02.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P02.jsonl) · [P02.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P02.md) · [P03-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P03-errors.txt) · [P03.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P03.jsonl) · [P03.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P03.md) · [P04-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P04-errors.txt) · [P04.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P04.jsonl) · [P04.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P04.md) · [P05-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P05-errors.txt) · [P05.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P05.jsonl) · [P05.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P05.md) · [P06-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P06-errors.txt) · [P06.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P06.jsonl) · [P06.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P06.md) · [P07-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P07-errors.txt) · [P07.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P07.jsonl) · [P07.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P07.md) · [P08-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P08-errors.txt) · [P08.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P08.jsonl) · [P08.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P08.md) · [P09-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P09-errors.txt) · [P09.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P09.jsonl) · [P09.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P09.md) · [P10-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P10-errors.txt) · [P10.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P10.jsonl) · [P10.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P10.md) · [P11-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P11-errors.txt) · [P11.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P11.jsonl) · [P11.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P11.md) · [P12-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P12-errors.txt) · [P12.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P12.jsonl) · [P12.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions/P12.md) · [package.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions/package.json) · [results.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions/results.json) · [P01-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions-corrections-2026-10-17/P01-errors.txt) · [P01.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions-corrections-2026-10-17/P01.jsonl) · [P01.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions-corrections-2026-10-17/P01.md) · [P02-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions-corrections-2026-10-17/P02-errors.txt) · [P02.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions-corrections-2026-10-17/P02.jsonl) · [P02.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions-corrections-2026-10-17/P02.md) · [P03-errors.txt](03-nouveaux-domaines/suites/bnk-001-annexes/executions-corrections-2026-10-17/P03-errors.txt) · [P03.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions-corrections-2026-10-17/P03.jsonl) · [P03.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions-corrections-2026-10-17/P03.md) · [integrity.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions-corrections-2026-10-17/integrity.json) · [package.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions-corrections-2026-10-17/package.json) · [results.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions-corrections-2026-10-17/results.json) · [checks-final.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions-reprise-2026-10-17/checks-final.json) · [checks-integration.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions-reprise-2026-10-17/checks-integration.json) · [checks.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions-reprise-2026-10-17/checks.json) · [integrity.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions-reprise-2026-10-17/integrity.json) · [package.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions-reprise-2026-10-17/package.json) · [results.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions-reprise-2026-10-17/results.json) · [P01.jsonl](03-nouveaux-domaines/suites/bnk-001-annexes/executions-sonde-2026-10-17/P01.jsonl) · [P01.md](03-nouveaux-domaines/suites/bnk-001-annexes/executions-sonde-2026-10-17/P01.md) · [results.json](03-nouveaux-domaines/suites/bnk-001-annexes/executions-sonde-2026-10-17/results.json) · [fixtures.json](03-nouveaux-domaines/suites/bnk-001-annexes/fixtures.json) · [recette.py](03-nouveaux-domaines/suites/bnk-001-annexes/recette.py) · [validation.json](03-nouveaux-domaines/suites/bnk-001-annexes/validation.json) · [verification.md](03-nouveaux-domaines/suites/bnk-001-annexes/verification.md)
 - [COM-001](02-plugins-existants/suites/com-001-orientation-contrat.md) — **À vérifier** · P2 · Qualifier et orienter une demande sur un contrat
@@ -81,7 +79,16 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOM-042](03-nouveaux-domaines/dom-042-artistes-spectacle.md) | Cadrer un plugin artistes-auteurs et intermittents du spectacle | P2 | cadrage |
 | [DOM-043](03-nouveaux-domaines/dom-043-medias-expression.md) | Cadrer un plugin médias et expression publique | P2 | cadrage |
 | [DOM-044](03-nouveaux-domaines/dom-044-militaires-anciens-combattants.md) | Cadrer un plugin militaires, réservistes et anciens combattants | P2 | cadrage |
+| [DOU-002](03-nouveaux-domaines/suites/dou-002-envoi-outre-mer.md) | Préparer le dossier d'un envoi vers un territoire ultramarin | P2 | implementation |
+| [DOU-003](03-nouveaux-domaines/suites/dou-003-biens-voyageur.md) | Préparer les pièces de biens accompagnant un voyageur | P2 | implementation |
+| [DOU-004](03-nouveaux-domaines/suites/dou-004-qualifier-import-professionnel.md) | Qualifier une importation commerciale ordinaire | P2 | implementation |
+| [DOU-006](03-nouveaux-domaines/suites/dou-006-preparer-classement.md) | Préparer un dossier de classement tarifaire | P2 | implementation |
+| [DOU-007](03-nouveaux-domaines/suites/dou-007-preparer-origine.md) | Préparer les preuves d'origine d'une marchandise | P2 | implementation |
+| [DOU-008](03-nouveaux-domaines/suites/dou-008-preparer-valeur.md) | Préparer les éléments d'une valeur en douane | P2 | implementation |
+| [DOU-009](03-nouveaux-domaines/suites/dou-009-lire-acte-douanier.md) | Lire un contrôle ou avis douanier déjà notifié | P2 | implementation |
+| [DOU-012](03-nouveaux-domaines/suites/dou-012-dossier-vehicule.md) | Préparer le dossier douanier d'un véhicule de particulier | P2 | implementation |
 | [ETU-001](02-plugins-existants/suites/etu-001-qualifier-exercice.md) | Qualifier la consigne et le cadre d’un exercice | P2 | implementation |
+| [HUB-001](02-plugins-existants/suites/hub-001-identite-provenance.md) | Identifier l’origine et la version d’un skill | P2 | implementation |
 | [IA-001](02-plugins-existants/suites/ia-001-inventaire-factuel.md) | Inventorier un système IA sans le classer | P2 | implementation |
 | [IA-012](02-plugins-existants/suites/ia-012-cartographie-contrat-fournisseur.md) | Cartographier les engagements d'une chaîne fournisseur IA | P2 | implementation |
 | [IA-014](02-plugins-existants/suites/ia-014-politique-assistant-interne.md) | Préparer une politique pour un assistant rédactionnel interne | P2 | implementation |
@@ -93,6 +100,8 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [IA-022](02-plugins-existants/suites/ia-022-pouvoirs-agent.md) | Examiner les pouvoirs délégués à un agent IA | P2 | implementation |
 | [IA-023](02-plugins-existants/suites/ia-023-fiche-incident.md) | Préparer la fiche de traitement d'un incident IA | P2 | implementation |
 | [IA-024](02-plugins-existants/suites/ia-024-allegations-fournisseur.md) | Confronter une allégation IA aux justificatifs du fournisseur | P2 | implementation |
+| [IND-001](03-nouveaux-domaines/suites/ind-001-courrier-urssaf.md) | Lire un courrier Urssaf et préparer les pièces | P2 | implementation |
+| [LOG-001](03-nouveaux-domaines/suites/log-001-depot-garantie.md) | Contester une retenue sur dépôt après une location privée vide | P2 | implementation |
 | [PDT-001](02-plugins-existants/suites/pdt-001-qualifier-lancement.md) | Qualifier un lancement B2C en France | P2 | implementation |
 | [PDT-003](02-plugins-existants/suites/pdt-003-evolution-fonctionnalite.md) | Décrire les effets d'une évolution de fonctionnalité | P2 | implementation |
 | [PDT-005](02-plugins-existants/suites/pdt-005-inventorier-allegations.md) | Inventorier les allégations d'un support publicitaire | P2 | implementation |
@@ -139,6 +148,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [PRV-033](02-plugins-existants/suites/prv-033-contester-reponse-droits.md) | Préparer une relance face à une réponse incomplète à une demande de droits | P2 | implementation |
 | [PRV-034](02-plugins-existants/suites/prv-034-dossier-plainte-cnil.md) | Préparer les pièces d'une plainte à la CNIL | P2 | implementation |
 | [PRV-035](02-plugins-existants/suites/prv-035-opposition-hors-prospection.md) | Préparer une opposition à un traitement hors prospection | P2 | implementation |
+| [SAN-001](03-nouveaux-domaines/suites/san-001-acces-dossier-patient.md) | Préparer une demande d'accès au dossier médical par le patient | P2 | implementation |
 | [SOC-001](02-plugins-existants/suites/soc-001-qualifier-decision-sociale.md) | Qualifier l'organe et la modalité d'une décision sociale | P2 | implementation |
 | [SOC-004](02-plugins-existants/suites/soc-004-initialiser-formalites.md) | Créer le registre des formalités identifiées d'une société | P2 | implementation |
 | [SOC-007](02-plugins-existants/suites/soc-007-audit-pieces-societes.md) | Repérer les pièces manquantes d'un dossier de société | P2 | implementation |
@@ -154,6 +164,9 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [SOC-025](02-plugins-existants/suites/soc-025-pieces-depot-comptes.md) | Rapprocher les pièces d'un dépôt de comptes et d'une demande de confidentialité | P2 | implementation |
 | [SOC-026](02-plugins-existants/suites/soc-026-qualifier-fermeture-solvable.md) | Préparer les questions d'une fermeture volontaire de société | P2 | implementation |
 | [SOC-027](02-plugins-existants/suites/soc-027-cadrage-entreprises-difficulte.md) | Découper l'aide aux entreprises en difficulté et ses frontières | P2 | cadrage |
+| [SUC-001](03-nouveaux-domaines/suites/suc-001-courrier-notaire.md) | Décrypter un courrier de règlement de succession | P2 | implementation |
+| [TEL-001](03-nouveaux-domaines/suites/tel-001-frais-resiliation.md) | Préparer une réclamation sur des frais de résiliation télécoms | P2 | implementation |
+| [TPT-001](03-nouveaux-domaines/suites/tpt-001-annulation-vol-direct.md) | Préparer une réclamation pour un vol direct annulé | P2 | implementation |
 | [TRAV-003](01-pilote-travail/suites/trav-003-heures-supplementaires.md) | Relire un décompte d'heures supplémentaires | P2 | implementation |
 | [TRAV-004](01-pilote-travail/suites/trav-004-licenciement-personnel.md) | Lire les pièces d'un licenciement individuel pour motif personnel | P2 | implementation |
 | [TRAV-005](01-pilote-travail/suites/trav-005-rupture-conventionnelle.md) | Expliquer un projet de rupture conventionnelle individuelle | P2 | implementation |
@@ -208,16 +221,23 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [TRAV-059](01-pilote-travail/suites/trav-059-ecart-salarial.md) | Documenter un écart de rémunération entre salariés comparables | P2 | implementation |
 | [TRAV-060](01-pilote-travail/suites/trav-060-compteur-rtt-repos.md) | Relire un compteur de RTT ou de repos conventionnel | P2 | implementation |
 | [TRAV-061](01-pilote-travail/suites/trav-061-rupture-aux-torts-decoupage.md) | Découper les demandes de rupture aux torts de l'employeur | P2 | cadrage |
+| [UTI-001](03-nouveaux-domaines/suites/uti-001-regularisation-electricite.md) | Lire une régularisation d'électricité et demander ses justificatifs | P2 | implementation |
+| [VEH-001](03-nouveaux-domaines/suites/veh-001-facture-garage.md) | Comparer une facture de garage aux travaux autorisés | P2 | implementation |
 | [VEI-001](02-plugins-existants/suites/vei-001-qualifier-publication.md) | Qualifier une publication fournie | P2 | implementation |
 | [VEI-002](02-plugins-existants/suites/vei-002-capacite-source.md) | Vérifier la capacité d’une source de veille | P2 | implementation |
 | [VEI-017](02-plugins-existants/suites/vei-017-preferences-veille.md) | Gérer des préférences de veille volontaires | P2 | implementation |
 | [VEI-018](02-plugins-existants/suites/vei-018-dossier-veille.md) | Isoler un dossier de veille ou consultation | P2 | implementation |
 | [VEI-021](02-plugins-existants/suites/vei-021-veille-references-plugins.md) | Signaler les textes modifiés qui touchent les références d'un plugin livré | P2 | implementation |
+| [ANM-001](03-nouveaux-domaines/suites/anm-001-acquisition-chien-documents.md) | Lire les documents d'acquisition d'un chien en France | P3 | implementation |
+| [CHP-001](03-nouveaux-domaines/suites/chp-001-lecture-acte-controle.md) | Lire un acte reçu après un contrôle de chasse ou de pêche | P3 | implementation |
 | [DOM-010](03-nouveaux-domaines/dom-010-administratif.md) | Cadrer un plugin de droit administratif | P3 | cadrage |
 | [DOM-011](03-nouveaux-domaines/dom-011-fiscalite.md) | Cadrer un plugin de fiscalité | P3 | cadrage |
 | [DOM-019](03-nouveaux-domaines/dom-019-urbanisme-foncier.md) | Cadrer un plugin urbanisme et foncier | P3 | cadrage |
 | [DOM-030](03-nouveaux-domaines/dom-030-environnement-pollutions.md) | Cadrer un plugin environnement et pollutions | P3 | cadrage |
 | [DOM-032](03-nouveaux-domaines/dom-032-associations-adherents.md) | Cadrer un plugin associations et droits des adhérents | P3 | cadrage |
+| [DOU-005](03-nouveaux-domaines/suites/dou-005-preparer-exportation.md) | Préparer les pièces d'une exportation définitive ordinaire | P3 | implementation |
+| [DOU-010](03-nouveaux-domaines/suites/dou-010-demande-remboursement.md) | Préparer une demande de remboursement douanier | P3 | implementation |
+| [DOU-011](03-nouveaux-domaines/suites/dou-011-demande-remise.md) | Préparer une demande de remise d'une dette douanière | P3 | implementation |
 
 ## Terminées
 
@@ -235,6 +255,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [base-005-verification-methode.md](00-fondations/base-005-annexes/base-005-verification-methode.md)
 - [BASE-006](00-fondations/base-006-controles-paquetage.md) — Définir les contrôles d'une adaptation de skill
 - [BASE-007](00-fondations/base-007-cla-contributions-fork.md) — Retirer le contrôle CLA hérité et préciser les contributions au fork
+- [BASE-008](00-fondations/base-008-isoler-identite-configurations.md) — Appliquer l'identité Judge FR/UE et isoler les configurations
+  <br>Annexes : [base-008-inventaire-apres.tsv](00-fondations/base-008-annexes/base-008-inventaire-apres.tsv) · [base-008-inventaire-avant.tsv](00-fondations/base-008-annexes/base-008-inventaire-avant.tsv) · [base-008-residus.tsv](00-fondations/base-008-annexes/base-008-residus.tsv) · [base-008-resultats-client.json](00-fondations/base-008-annexes/base-008-resultats-client.json)
 - [BASE-009](00-fondations/base-009-corrections-retrospective.md) — Appliquer les corrections issues de la rétrospective des fondations
 - [BASE-010](00-fondations/base-010-acces-sources-officielles.md) — Rétablir la lecture des sources officielles sans souscription API
   <br>Annexes : [base-010-resultats-acces.json](00-fondations/base-010-annexes/base-010-resultats-acces.json)
@@ -542,30 +564,30 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>HUB</b> — Gestion des skills (02 — Plugins existants) : 20 à faire, 0 prêtes</summary>
+<summary><b>HUB</b> — Gestion des skills (02 — Plugins existants) : 20 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [HUB-001](02-plugins-existants/suites/hub-001-identite-provenance.md) | Identifier l’origine et la version d’un skill | P2 | BASE-008 |
-| [HUB-002](02-plugins-existants/suites/hub-002-politique-confiance.md) | Unifier la politique de confiance du hub | P2 | BASE-008, HUB-001 |
-| [HUB-003](02-plugins-existants/suites/hub-003-registres-cache.md) | Gérer les registres surveillés et leur cache | P2 | BASE-008, HUB-001, HUB-002 |
-| [HUB-004](02-plugins-existants/suites/hub-004-decouverte-portee.md) | Afficher la portée des skills découverts | P2 | BASE-008, HUB-001, HUB-003 |
-| [HUB-005](02-plugins-existants/suites/hub-005-suggestions-contextuelles.md) | Borner les suggestions aux données autorisées | P2 | BASE-008, HUB-003, HUB-004 |
-| [HUB-006](02-plugins-existants/suites/hub-006-profil-hub.md) | Configurer un profil minimal de gestion des skills | P2 | BASE-008, HUB-001, HUB-002, HUB-004 |
-| [HUB-007](02-plugins-existants/suites/hub-007-personnaliser-preferences.md) | Modifier les préférences sans affaiblir les contrôles | P2 | BASE-008, HUB-002, HUB-003, HUB-006, HUB-010 |
-| [HUB-008](02-plugins-existants/suites/hub-008-preparer-candidat.md) | Préparer un candidat exact pour la revue | P2 | BASE-008, HUB-001, HUB-002, HUB-009, HUB-010, HUB-011, HUB-012 |
-| [HUB-009](02-plugins-existants/suites/hub-009-licence-provenance.md) | Documenter la licence d’un candidat | P2 | BASE-008, HUB-001, HUB-002 |
-| [HUB-010](02-plugins-existants/suites/hub-010-qa-securite.md) | Rendre cohérents les verdicts de sécurité | P2 | BASE-008, HUB-001, HUB-002 |
-| [HUB-011](02-plugins-existants/suites/hub-011-qa-pertinence-fr-ue.md) | Évaluer séparément la pertinence France et UE | P2 | BASE-008, HUB-001, HUB-004, HUB-010 |
-| [HUB-012](02-plugins-existants/suites/hub-012-fraicheur-references.md) | Distinguer fraîcheur du code et des références | P2 | BASE-008, HUB-001, HUB-002 |
-| [HUB-013](02-plugins-existants/suites/hub-013-installer-candidat-revu.md) | Installer uniquement le candidat communautaire revu | P2 | BASE-008, HUB-008, HUB-019 |
-| [HUB-014](02-plugins-existants/suites/hub-014-mise-a-jour-personnalisee.md) | Préserver les adaptations lors d’une mise à jour | P2 | BASE-008, HUB-001, HUB-008, HUB-019 |
-| [HUB-015](02-plugins-existants/suites/hub-015-restaurer-version.md) | Restaurer une sauvegarde communautaire identifiée | P2 | BASE-008, HUB-010, HUB-012, HUB-019 |
-| [HUB-016](02-plugins-existants/suites/hub-016-desactiver-reactiver.md) | Désactiver et réactiver un skill suivi | P2 | BASE-008, HUB-001, HUB-019 |
-| [HUB-017](02-plugins-existants/suites/hub-017-desinstaller-skill-suivi.md) | Désinstaller uniquement le skill communautaire suivi | P2 | BASE-008, HUB-001, HUB-019 |
-| [HUB-018](02-plugins-existants/suites/hub-018-sync-notifications.md) | Séparer synchronisation et notifications | P2 | BASE-008, HUB-003, HUB-004, HUB-007 |
-| [HUB-019](02-plugins-existants/suites/hub-019-journal-projections.md) | Conserver le journal comme seule autorité de gestion | P2 | BASE-008, HUB-001 |
-| [HUB-020](02-plugins-existants/suites/hub-020-documentation-capacites.md) | Documenter les capacités réellement livrées du hub | P2 | BASE-008, HUB-001, HUB-002, HUB-004, HUB-010, HUB-011, HUB-018, HUB-019 |
+| [HUB-001](02-plugins-existants/suites/hub-001-identite-provenance.md) | Identifier l’origine et la version d’un skill | P2 | ✅ |
+| [HUB-002](02-plugins-existants/suites/hub-002-politique-confiance.md) | Unifier la politique de confiance du hub | P2 | HUB-001 |
+| [HUB-003](02-plugins-existants/suites/hub-003-registres-cache.md) | Gérer les registres surveillés et leur cache | P2 | HUB-001, HUB-002 |
+| [HUB-004](02-plugins-existants/suites/hub-004-decouverte-portee.md) | Afficher la portée des skills découverts | P2 | HUB-001, HUB-003 |
+| [HUB-005](02-plugins-existants/suites/hub-005-suggestions-contextuelles.md) | Borner les suggestions aux données autorisées | P2 | HUB-003, HUB-004 |
+| [HUB-006](02-plugins-existants/suites/hub-006-profil-hub.md) | Configurer un profil minimal de gestion des skills | P2 | HUB-001, HUB-002, HUB-004 |
+| [HUB-007](02-plugins-existants/suites/hub-007-personnaliser-preferences.md) | Modifier les préférences sans affaiblir les contrôles | P2 | HUB-002, HUB-003, HUB-006, HUB-010 |
+| [HUB-008](02-plugins-existants/suites/hub-008-preparer-candidat.md) | Préparer un candidat exact pour la revue | P2 | HUB-001, HUB-002, HUB-009, HUB-010, HUB-011, HUB-012 |
+| [HUB-009](02-plugins-existants/suites/hub-009-licence-provenance.md) | Documenter la licence d’un candidat | P2 | HUB-001, HUB-002 |
+| [HUB-010](02-plugins-existants/suites/hub-010-qa-securite.md) | Rendre cohérents les verdicts de sécurité | P2 | HUB-001, HUB-002 |
+| [HUB-011](02-plugins-existants/suites/hub-011-qa-pertinence-fr-ue.md) | Évaluer séparément la pertinence France et UE | P2 | HUB-001, HUB-004, HUB-010 |
+| [HUB-012](02-plugins-existants/suites/hub-012-fraicheur-references.md) | Distinguer fraîcheur du code et des références | P2 | HUB-001, HUB-002 |
+| [HUB-013](02-plugins-existants/suites/hub-013-installer-candidat-revu.md) | Installer uniquement le candidat communautaire revu | P2 | HUB-008, HUB-019 |
+| [HUB-014](02-plugins-existants/suites/hub-014-mise-a-jour-personnalisee.md) | Préserver les adaptations lors d’une mise à jour | P2 | HUB-001, HUB-008, HUB-019 |
+| [HUB-015](02-plugins-existants/suites/hub-015-restaurer-version.md) | Restaurer une sauvegarde communautaire identifiée | P2 | HUB-010, HUB-012, HUB-019 |
+| [HUB-016](02-plugins-existants/suites/hub-016-desactiver-reactiver.md) | Désactiver et réactiver un skill suivi | P2 | HUB-001, HUB-019 |
+| [HUB-017](02-plugins-existants/suites/hub-017-desinstaller-skill-suivi.md) | Désinstaller uniquement le skill communautaire suivi | P2 | HUB-001, HUB-019 |
+| [HUB-018](02-plugins-existants/suites/hub-018-sync-notifications.md) | Séparer synchronisation et notifications | P2 | HUB-003, HUB-004, HUB-007 |
+| [HUB-019](02-plugins-existants/suites/hub-019-journal-projections.md) | Conserver le journal comme seule autorité de gestion | P2 | HUB-001 |
+| [HUB-020](02-plugins-existants/suites/hub-020-documentation-capacites.md) | Documenter les capacités réellement livrées du hub | P2 | HUB-001, HUB-002, HUB-004, HUB-010, HUB-011, HUB-018, HUB-019 |
 
 </details>
 
@@ -781,17 +803,17 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>ANM</b> — Animaux et responsabilités (03 — Nouveaux domaines) : 7 à faire, 0 prêtes</summary>
+<summary><b>ANM</b> — Animaux et responsabilités (03 — Nouveaux domaines) : 7 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [ANM-001](03-nouveaux-domaines/suites/anm-001-acquisition-chien-documents.md) | Lire les documents d'acquisition d'un chien en France | P3 | BASE-008 |
-| [ANM-002](03-nouveaux-domaines/suites/anm-002-adoption-chat-association.md) | Lire une convention d'adoption de chat avec une association | P3 | BASE-008, ANM-001 |
-| [ANM-003](03-nouveaux-domaines/suites/anm-003-facture-pension-chien.md) | Vérifier une facture de pension professionnelle pour un chien | P3 | BASE-008, ANM-001 |
-| [ANM-004](03-nouveaux-domaines/suites/anm-004-dommage-garde-privee.md) | Documenter un dommage matériel pendant une garde privée de chien | P3 | BASE-008, ANM-001 |
-| [ANM-005](03-nouveaux-domaines/suites/anm-005-etat-chien-apres-vente.md) | Préparer un dossier sur l'état allégué d'un chien après vente | P3 | BASE-008, ANM-001 |
-| [ANM-006](03-nouveaux-domaines/suites/anm-006-incident-signalement-chien.md) | Orienter un incident ou signalement concernant un chien | P3 | BASE-008, ANM-001 |
-| [ANM-007](03-nouveaux-domaines/suites/anm-007-cession-autre-espece.md) | Qualifier les pièces d'une cession pour une autre espèce | P3 | BASE-008, ANM-001 |
+| [ANM-001](03-nouveaux-domaines/suites/anm-001-acquisition-chien-documents.md) | Lire les documents d'acquisition d'un chien en France | P3 | ✅ |
+| [ANM-002](03-nouveaux-domaines/suites/anm-002-adoption-chat-association.md) | Lire une convention d'adoption de chat avec une association | P3 | ANM-001 |
+| [ANM-003](03-nouveaux-domaines/suites/anm-003-facture-pension-chien.md) | Vérifier une facture de pension professionnelle pour un chien | P3 | ANM-001 |
+| [ANM-004](03-nouveaux-domaines/suites/anm-004-dommage-garde-privee.md) | Documenter un dommage matériel pendant une garde privée de chien | P3 | ANM-001 |
+| [ANM-005](03-nouveaux-domaines/suites/anm-005-etat-chien-apres-vente.md) | Préparer un dossier sur l'état allégué d'un chien après vente | P3 | ANM-001 |
+| [ANM-006](03-nouveaux-domaines/suites/anm-006-incident-signalement-chien.md) | Orienter un incident ou signalement concernant un chien | P3 | ANM-001 |
+| [ANM-007](03-nouveaux-domaines/suites/anm-007-cession-autre-espece.md) | Qualifier les pièces d'une cession pour une autre espèce | P3 | ANM-001 |
 
 </details>
 
@@ -822,17 +844,17 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>CHP</b> — Chasse et pêche de loisir (03 — Nouveaux domaines) : 7 à faire, 0 prêtes</summary>
+<summary><b>CHP</b> — Chasse et pêche de loisir (03 — Nouveaux domaines) : 7 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [CHP-001](03-nouveaux-domaines/suites/chp-001-lecture-acte-controle.md) | Lire un acte reçu après un contrôle de chasse ou de pêche | P3 | BASE-008 |
-| [CHP-002](03-nouveaux-domaines/suites/chp-002-documents-chasse.md) | Rapprocher les documents de chasse d'une pratique située | P3 | BASE-008, CHP-001 |
-| [CHP-003](03-nouveaux-domaines/suites/chp-003-documents-peche-eau-douce.md) | Lire une carte de pêche et les documents du secteur en eau douce | P3 | BASE-008, CHP-001 |
-| [CHP-004](03-nouveaux-domaines/suites/chp-004-formalites-peche-maritime.md) | Identifier les formalités d'une pêche maritime de loisir située | P3 | BASE-008, CHP-001 |
-| [CHP-005](03-nouveaux-domaines/suites/chp-005-droit-chasse-terrain.md) | Préparer les questions d'un propriétaire sur la chasse sur son terrain | P3 | BASE-008, CHP-001 |
-| [CHP-006](03-nouveaux-domaines/suites/chp-006-droit-peche-terrain.md) | Préparer les questions sur le droit de pêche d'un riverain ou propriétaire | P3 | BASE-008, CHP-001 |
-| [CHP-007](03-nouveaux-domaines/suites/chp-007-degats-gibier.md) | Documenter des dégâts de gibier et préparer les questions d'indemnisation | P3 | BASE-008, CHP-001 |
+| [CHP-001](03-nouveaux-domaines/suites/chp-001-lecture-acte-controle.md) | Lire un acte reçu après un contrôle de chasse ou de pêche | P3 | ✅ |
+| [CHP-002](03-nouveaux-domaines/suites/chp-002-documents-chasse.md) | Rapprocher les documents de chasse d'une pratique située | P3 | CHP-001 |
+| [CHP-003](03-nouveaux-domaines/suites/chp-003-documents-peche-eau-douce.md) | Lire une carte de pêche et les documents du secteur en eau douce | P3 | CHP-001 |
+| [CHP-004](03-nouveaux-domaines/suites/chp-004-formalites-peche-maritime.md) | Identifier les formalités d'une pêche maritime de loisir située | P3 | CHP-001 |
+| [CHP-005](03-nouveaux-domaines/suites/chp-005-droit-chasse-terrain.md) | Préparer les questions d'un propriétaire sur la chasse sur son terrain | P3 | CHP-001 |
+| [CHP-006](03-nouveaux-domaines/suites/chp-006-droit-peche-terrain.md) | Préparer les questions sur le droit de pêche d'un riverain ou propriétaire | P3 | CHP-001 |
+| [CHP-007](03-nouveaux-domaines/suites/chp-007-degats-gibier.md) | Documenter des dégâts de gibier et préparer les questions d'indemnisation | P3 | CHP-001 |
 
 </details>
 
@@ -931,21 +953,21 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOU</b> — Douanes et import-export (03 — Nouveaux domaines) : 11 à faire, 0 prêtes</summary>
+<summary><b>DOU</b> — Douanes et import-export (03 — Nouveaux domaines) : 11 à faire, 11 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [DOU-002](03-nouveaux-domaines/suites/dou-002-envoi-outre-mer.md) | Préparer le dossier d'un envoi vers un territoire ultramarin | P2 | BASE-008 |
-| [DOU-003](03-nouveaux-domaines/suites/dou-003-biens-voyageur.md) | Préparer les pièces de biens accompagnant un voyageur | P2 | BASE-008 |
-| [DOU-004](03-nouveaux-domaines/suites/dou-004-qualifier-import-professionnel.md) | Qualifier une importation commerciale ordinaire | P2 | BASE-008 |
-| [DOU-005](03-nouveaux-domaines/suites/dou-005-preparer-exportation.md) | Préparer les pièces d'une exportation définitive ordinaire | P3 | BASE-008 |
-| [DOU-006](03-nouveaux-domaines/suites/dou-006-preparer-classement.md) | Préparer un dossier de classement tarifaire | P2 | BASE-008 |
-| [DOU-007](03-nouveaux-domaines/suites/dou-007-preparer-origine.md) | Préparer les preuves d'origine d'une marchandise | P2 | BASE-008 |
-| [DOU-008](03-nouveaux-domaines/suites/dou-008-preparer-valeur.md) | Préparer les éléments d'une valeur en douane | P2 | BASE-008 |
-| [DOU-009](03-nouveaux-domaines/suites/dou-009-lire-acte-douanier.md) | Lire un contrôle ou avis douanier déjà notifié | P2 | BASE-008 |
-| [DOU-010](03-nouveaux-domaines/suites/dou-010-demande-remboursement.md) | Préparer une demande de remboursement douanier | P3 | BASE-008 |
-| [DOU-011](03-nouveaux-domaines/suites/dou-011-demande-remise.md) | Préparer une demande de remise d'une dette douanière | P3 | BASE-008 |
-| [DOU-012](03-nouveaux-domaines/suites/dou-012-dossier-vehicule.md) | Préparer le dossier douanier d'un véhicule de particulier | P2 | BASE-008 |
+| [DOU-002](03-nouveaux-domaines/suites/dou-002-envoi-outre-mer.md) | Préparer le dossier d'un envoi vers un territoire ultramarin | P2 | ✅ |
+| [DOU-003](03-nouveaux-domaines/suites/dou-003-biens-voyageur.md) | Préparer les pièces de biens accompagnant un voyageur | P2 | ✅ |
+| [DOU-004](03-nouveaux-domaines/suites/dou-004-qualifier-import-professionnel.md) | Qualifier une importation commerciale ordinaire | P2 | ✅ |
+| [DOU-005](03-nouveaux-domaines/suites/dou-005-preparer-exportation.md) | Préparer les pièces d'une exportation définitive ordinaire | P3 | ✅ |
+| [DOU-006](03-nouveaux-domaines/suites/dou-006-preparer-classement.md) | Préparer un dossier de classement tarifaire | P2 | ✅ |
+| [DOU-007](03-nouveaux-domaines/suites/dou-007-preparer-origine.md) | Préparer les preuves d'origine d'une marchandise | P2 | ✅ |
+| [DOU-008](03-nouveaux-domaines/suites/dou-008-preparer-valeur.md) | Préparer les éléments d'une valeur en douane | P2 | ✅ |
+| [DOU-009](03-nouveaux-domaines/suites/dou-009-lire-acte-douanier.md) | Lire un contrôle ou avis douanier déjà notifié | P2 | ✅ |
+| [DOU-010](03-nouveaux-domaines/suites/dou-010-demande-remboursement.md) | Préparer une demande de remboursement douanier | P3 | ✅ |
+| [DOU-011](03-nouveaux-domaines/suites/dou-011-demande-remise.md) | Préparer une demande de remise d'une dette douanière | P3 | ✅ |
+| [DOU-012](03-nouveaux-domaines/suites/dou-012-dossier-vehicule.md) | Préparer le dossier douanier d'un véhicule de particulier | P2 | ✅ |
 
 </details>
 
@@ -981,67 +1003,67 @@ Stories à faire dont toutes les dépendances sont terminées.
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [FUN-002](03-nouveaux-domaines/suites/fun-002-facture-prestations.md) | Comparer une facture funéraire au devis et préparer une réclamation sur des prestations non demandées | P2 | BASE-008, FUN-001 |
-| [FUN-003](03-nouveaux-domaines/suites/fun-003-volonte-decision.md) | Organiser volontés du défunt et qualité pour décider en cas de désaccord entre proches | P2 | BASE-008, FUN-001 |
-| [FUN-004](03-nouveaux-domaines/suites/fun-004-demande-paiement.md) | Répondre à un opérateur funéraire qui réclame un paiement quand les signataires ne sont pas identifiés | P2 | BASE-008, FUN-002, FUN-005 |
-| [FUN-005](03-nouveaux-domaines/suites/fun-005-prise-en-charge-frais.md) | Identifier les financements à interroger et les questions de prise en charge des frais d'obsèques | P2 | BASE-008, FUN-001 |
-| [FUN-006](03-nouveaux-domaines/suites/fun-006-contrat-obseques.md) | Comparer les prestations d'un contrat obsèques au devis d'exécution de l'opérateur | P2 | BASE-008, FUN-001 |
-| [FUN-007](03-nouveaux-domaines/suites/fun-007-concession.md) | Lire un titre de concession funéraire et préparer les questions à la commune | P2 | BASE-008, FUN-003 |
-| [FUN-008](03-nouveaux-domaines/suites/fun-008-premieres-demarches.md) | Organiser les démarches et pièces des premiers jours après un décès | P2 | BASE-008, FUN-001 |
-| [FUN-009](03-nouveaux-domaines/suites/fun-009-volontes-anticipees.md) | Préparer l'expression écrite de ses propres volontés funéraires | P3 | BASE-008, FUN-003 |
-| [FUN-010](03-nouveaux-domaines/suites/fun-010-monument-marbrerie.md) | Comparer les travaux d'un marbrier au devis et préparer une réclamation | P2 | BASE-008, FUN-002 |
-| [FUN-011](03-nouveaux-domaines/suites/fun-011-destination-cendres.md) | Préparer les questions et la demande sur la destination des cendres | P2 | BASE-008, FUN-003 |
-| [FUN-012](03-nouveaux-domaines/suites/fun-012-exhumation-transfert.md) | Préparer une demande d'exhumation ou de transfert d'un corps ou d'une urne | P3 | BASE-008, FUN-007 |
+| [FUN-002](03-nouveaux-domaines/suites/fun-002-facture-prestations.md) | Comparer une facture funéraire au devis et préparer une réclamation sur des prestations non demandées | P2 | FUN-001 |
+| [FUN-003](03-nouveaux-domaines/suites/fun-003-volonte-decision.md) | Organiser volontés du défunt et qualité pour décider en cas de désaccord entre proches | P2 | FUN-001 |
+| [FUN-004](03-nouveaux-domaines/suites/fun-004-demande-paiement.md) | Répondre à un opérateur funéraire qui réclame un paiement quand les signataires ne sont pas identifiés | P2 | FUN-002, FUN-005 |
+| [FUN-005](03-nouveaux-domaines/suites/fun-005-prise-en-charge-frais.md) | Identifier les financements à interroger et les questions de prise en charge des frais d'obsèques | P2 | FUN-001 |
+| [FUN-006](03-nouveaux-domaines/suites/fun-006-contrat-obseques.md) | Comparer les prestations d'un contrat obsèques au devis d'exécution de l'opérateur | P2 | FUN-001 |
+| [FUN-007](03-nouveaux-domaines/suites/fun-007-concession.md) | Lire un titre de concession funéraire et préparer les questions à la commune | P2 | FUN-003 |
+| [FUN-008](03-nouveaux-domaines/suites/fun-008-premieres-demarches.md) | Organiser les démarches et pièces des premiers jours après un décès | P2 | FUN-001 |
+| [FUN-009](03-nouveaux-domaines/suites/fun-009-volontes-anticipees.md) | Préparer l'expression écrite de ses propres volontés funéraires | P3 | FUN-003 |
+| [FUN-010](03-nouveaux-domaines/suites/fun-010-monument-marbrerie.md) | Comparer les travaux d'un marbrier au devis et préparer une réclamation | P2 | FUN-002 |
+| [FUN-011](03-nouveaux-domaines/suites/fun-011-destination-cendres.md) | Préparer les questions et la demande sur la destination des cendres | P2 | FUN-003 |
+| [FUN-012](03-nouveaux-domaines/suites/fun-012-exhumation-transfert.md) | Préparer une demande d'exhumation ou de transfert d'un corps ou d'une urne | P3 | FUN-007 |
 
 </details>
 
 <details>
-<summary><b>IND</b> — Micro-entreprise et travail indépendant (03 — Nouveaux domaines) : 42 à faire, 0 prêtes</summary>
+<summary><b>IND</b> — Micro-entreprise et travail indépendant (03 — Nouveaux domaines) : 42 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [IND-001](03-nouveaux-domaines/suites/ind-001-courrier-urssaf.md) | Lire un courrier Urssaf et préparer les pièces | P2 | BASE-008 |
-| [IND-002](03-nouveaux-domaines/suites/ind-002-stade-formalite.md) | Lire le stade d'une formalité d'entreprise individuelle | P2 | BASE-008, IND-001 |
-| [IND-003](03-nouveaux-domaines/suites/ind-003-pieces-regularisation.md) | Préparer les pièces d'une régularisation de formalité EI | P2 | BASE-008, IND-001, IND-002 |
-| [IND-004](03-nouveaux-domaines/suites/ind-004-donnee-registre.md) | Qualifier une donnée de registre EI à corriger | P2 | BASE-008, IND-001 |
-| [IND-005](03-nouveaux-domaines/suites/ind-005-questions-statut.md) | Préparer les questions sur statut et régime de l'indépendant | P2 | BASE-008, IND-001 |
-| [IND-006](03-nouveaux-domaines/suites/ind-006-prerequis-activite.md) | Préparer la vérification des prérequis d'une activité indépendante | P2 | BASE-008, IND-001 |
-| [IND-007](03-nouveaux-domaines/suites/ind-007-acre-demande.md) | Préparer un dossier de demande ACRE | P2 | BASE-008, IND-001 |
-| [IND-008](03-nouveaux-domaines/suites/ind-008-acre-decision.md) | Lire une réponse Urssaf sur l'ACRE | P2 | BASE-008, IND-001, IND-007 |
-| [IND-009](03-nouveaux-domaines/suites/ind-009-calcul-acre.md) | Vérifier l'application chiffrée de l'ACRE sur une période | P3 | BASE-008, IND-001, IND-008, IND-042 |
-| [IND-010](03-nouveaux-domaines/suites/ind-010-declaration-ca.md) | Rapprocher une déclaration sociale des encaissements | P2 | BASE-008, IND-001 |
-| [IND-011](03-nouveaux-domaines/suites/ind-011-correction-declaration.md) | Préparer une correction de déclaration sociale ciblée | P2 | BASE-008, IND-001, IND-010 |
-| [IND-012](03-nouveaux-domaines/suites/ind-012-calendrier-social.md) | Établir l'échéance d'une déclaration sociale identifiée | P2 | BASE-008, IND-001 |
-| [IND-013](03-nouveaux-domaines/suites/ind-013-declaration-zero.md) | Lire une anomalie de déclaration sociale à zéro | P2 | BASE-008, IND-001, IND-010 |
-| [IND-014](03-nouveaux-domaines/suites/ind-014-seuil-micro.md) | Vérifier un franchissement de plafond micro | P2 | BASE-008, IND-001 |
-| [IND-015](03-nouveaux-domaines/suites/ind-015-franchise-tva.md) | Vérifier la franchise TVA et la date d'un dépassement | P2 | BASE-008, IND-001 |
-| [IND-016](03-nouveaux-domaines/suites/ind-016-option-micro-fiscale.md) | Lire une option fiscale de l'entreprise individuelle | P2 | BASE-008, IND-001 |
-| [IND-017](03-nouveaux-domaines/suites/ind-017-declaration-annuelle-activite.md) | Préparer les pièces de la déclaration fiscale annuelle de l'activité | P2 | BASE-008, IND-001 |
-| [IND-018](03-nouveaux-domaines/suites/ind-018-option-versement-liberatoire.md) | Vérifier les pièces d'une option pour le versement libératoire | P2 | BASE-008, IND-001 |
-| [IND-019](03-nouveaux-domaines/suites/ind-019-calcul-versement-liberatoire.md) | Vérifier un versement libératoire pour une période | P3 | BASE-008, IND-001, IND-018 |
-| [IND-020](03-nouveaux-domaines/suites/ind-020-compte-dedie.md) | Vérifier les faits déclenchant un compte dédié | P2 | BASE-008, IND-001 |
-| [IND-021](03-nouveaux-domaines/suites/ind-021-pieces-livres-archivage.md) | Dresser l'inventaire des pièces et livres de l'indépendant | P2 | BASE-008, IND-001 |
-| [IND-022](03-nouveaux-domaines/suites/ind-022-inactivite.md) | Qualifier une période sans activité de l'entreprise individuelle | P2 | BASE-008, IND-001 |
-| [IND-023](03-nouveaux-domaines/suites/ind-023-cfe-initiale.md) | Préparer les pièces d'une déclaration initiale CFE | P2 | BASE-008, IND-001 |
-| [IND-024](03-nouveaux-domaines/suites/ind-024-avis-cfe.md) | Lire un avis CFE de l'indépendant | P2 | BASE-008, IND-001 |
-| [IND-025](03-nouveaux-domaines/suites/ind-025-conditions-exoneration-cfe.md) | Préparer l'examen d'une exonération ou réduction CFE | P2 | BASE-008, IND-001 |
-| [IND-026](03-nouveaux-domaines/suites/ind-026-tva-operation-france.md) | Préparer les pièces TVA d'une opération intérieure | P2 | BASE-008, IND-001, IND-015 |
-| [IND-027](03-nouveaux-domaines/suites/ind-027-tva-internationale.md) | Qualifier une opération internationale de l'indépendant pour la TVA | P2 | BASE-008, IND-001 |
-| [IND-028](03-nouveaux-domaines/suites/ind-028-cessation-ei.md) | Préparer les pièces d'une cessation définitive d'EI | P2 | BASE-008, IND-001 |
-| [IND-029](03-nouveaux-domaines/suites/ind-029-dernieres-declarations-sociales.md) | Préparer la dernière déclaration sociale de l'indépendant | P2 | BASE-008, IND-001, IND-028 |
-| [IND-030](03-nouveaux-domaines/suites/ind-030-dernieres-pieces-fiscales.md) | Préparer les pièces d'une dernière obligation fiscale de l'activité | P2 | BASE-008, IND-001, IND-028 |
-| [IND-031](03-nouveaux-domaines/suites/ind-031-regularisation-apres-cessation.md) | Lire une régularisation de cotisations après cessation | P2 | BASE-008, IND-001, IND-028 |
-| [IND-032](03-nouveaux-domaines/suites/ind-032-avis-controle.md) | Lire un avis de contrôle Urssaf adressé à un indépendant | P2 | BASE-008, IND-001 |
-| [IND-033](03-nouveaux-domaines/suites/ind-033-lettre-observations.md) | Préparer une réponse factuelle à une lettre d'observations Urssaf | P2 | BASE-008, IND-001, IND-032 |
-| [IND-034](03-nouveaux-domaines/suites/ind-034-recours-cra.md) | Préparer un recours CRA contre une décision Urssaf de l'indépendant | P2 | BASE-008, IND-001 |
-| [IND-035](03-nouveaux-domaines/suites/ind-035-opposition-contrainte.md) | Préparer le dossier d'opposition à une contrainte Urssaf | P2 | BASE-008, IND-001 |
-| [IND-036](03-nouveaux-domaines/suites/ind-036-remise-majorations.md) | Préparer une demande de remise de majorations Urssaf | P2 | BASE-008, IND-001 |
-| [IND-037](03-nouveaux-domaines/suites/ind-037-echeancier-urssaf.md) | Préparer une demande d'échéancier Urssaf | P2 | BASE-008, IND-001 |
-| [IND-038](03-nouveaux-domaines/suites/ind-038-mediation-urssaf.md) | Préparer une saisine du médiateur Urssaf de l'indépendant | P2 | BASE-008, IND-001 |
-| [IND-039](03-nouveaux-domaines/suites/ind-039-non-diffusion-sirene.md) | Préparer une demande sur le statut de diffusion Sirene d'une EI | P2 | BASE-008, IND-001 |
-| [IND-040](03-nouveaux-domaines/suites/ind-040-occultation-rne.md) | Préparer une demande d'occultation d'une donnée ou d'un acte RNE | P2 | BASE-008, IND-001 |
-| [IND-041](03-nouveaux-domaines/suites/ind-041-questions-cumul.md) | Préparer les questions sur le cumul activité indépendante et autres statuts | P2 | BASE-008, IND-001 |
-| [IND-042](03-nouveaux-domaines/suites/ind-042-calcul-cotisations.md) | Vérifier un calcul de cotisations micro-sociales pour une période | P3 | BASE-008, IND-001 |
+| [IND-001](03-nouveaux-domaines/suites/ind-001-courrier-urssaf.md) | Lire un courrier Urssaf et préparer les pièces | P2 | ✅ |
+| [IND-002](03-nouveaux-domaines/suites/ind-002-stade-formalite.md) | Lire le stade d'une formalité d'entreprise individuelle | P2 | IND-001 |
+| [IND-003](03-nouveaux-domaines/suites/ind-003-pieces-regularisation.md) | Préparer les pièces d'une régularisation de formalité EI | P2 | IND-001, IND-002 |
+| [IND-004](03-nouveaux-domaines/suites/ind-004-donnee-registre.md) | Qualifier une donnée de registre EI à corriger | P2 | IND-001 |
+| [IND-005](03-nouveaux-domaines/suites/ind-005-questions-statut.md) | Préparer les questions sur statut et régime de l'indépendant | P2 | IND-001 |
+| [IND-006](03-nouveaux-domaines/suites/ind-006-prerequis-activite.md) | Préparer la vérification des prérequis d'une activité indépendante | P2 | IND-001 |
+| [IND-007](03-nouveaux-domaines/suites/ind-007-acre-demande.md) | Préparer un dossier de demande ACRE | P2 | IND-001 |
+| [IND-008](03-nouveaux-domaines/suites/ind-008-acre-decision.md) | Lire une réponse Urssaf sur l'ACRE | P2 | IND-001, IND-007 |
+| [IND-009](03-nouveaux-domaines/suites/ind-009-calcul-acre.md) | Vérifier l'application chiffrée de l'ACRE sur une période | P3 | IND-001, IND-008, IND-042 |
+| [IND-010](03-nouveaux-domaines/suites/ind-010-declaration-ca.md) | Rapprocher une déclaration sociale des encaissements | P2 | IND-001 |
+| [IND-011](03-nouveaux-domaines/suites/ind-011-correction-declaration.md) | Préparer une correction de déclaration sociale ciblée | P2 | IND-001, IND-010 |
+| [IND-012](03-nouveaux-domaines/suites/ind-012-calendrier-social.md) | Établir l'échéance d'une déclaration sociale identifiée | P2 | IND-001 |
+| [IND-013](03-nouveaux-domaines/suites/ind-013-declaration-zero.md) | Lire une anomalie de déclaration sociale à zéro | P2 | IND-001, IND-010 |
+| [IND-014](03-nouveaux-domaines/suites/ind-014-seuil-micro.md) | Vérifier un franchissement de plafond micro | P2 | IND-001 |
+| [IND-015](03-nouveaux-domaines/suites/ind-015-franchise-tva.md) | Vérifier la franchise TVA et la date d'un dépassement | P2 | IND-001 |
+| [IND-016](03-nouveaux-domaines/suites/ind-016-option-micro-fiscale.md) | Lire une option fiscale de l'entreprise individuelle | P2 | IND-001 |
+| [IND-017](03-nouveaux-domaines/suites/ind-017-declaration-annuelle-activite.md) | Préparer les pièces de la déclaration fiscale annuelle de l'activité | P2 | IND-001 |
+| [IND-018](03-nouveaux-domaines/suites/ind-018-option-versement-liberatoire.md) | Vérifier les pièces d'une option pour le versement libératoire | P2 | IND-001 |
+| [IND-019](03-nouveaux-domaines/suites/ind-019-calcul-versement-liberatoire.md) | Vérifier un versement libératoire pour une période | P3 | IND-001, IND-018 |
+| [IND-020](03-nouveaux-domaines/suites/ind-020-compte-dedie.md) | Vérifier les faits déclenchant un compte dédié | P2 | IND-001 |
+| [IND-021](03-nouveaux-domaines/suites/ind-021-pieces-livres-archivage.md) | Dresser l'inventaire des pièces et livres de l'indépendant | P2 | IND-001 |
+| [IND-022](03-nouveaux-domaines/suites/ind-022-inactivite.md) | Qualifier une période sans activité de l'entreprise individuelle | P2 | IND-001 |
+| [IND-023](03-nouveaux-domaines/suites/ind-023-cfe-initiale.md) | Préparer les pièces d'une déclaration initiale CFE | P2 | IND-001 |
+| [IND-024](03-nouveaux-domaines/suites/ind-024-avis-cfe.md) | Lire un avis CFE de l'indépendant | P2 | IND-001 |
+| [IND-025](03-nouveaux-domaines/suites/ind-025-conditions-exoneration-cfe.md) | Préparer l'examen d'une exonération ou réduction CFE | P2 | IND-001 |
+| [IND-026](03-nouveaux-domaines/suites/ind-026-tva-operation-france.md) | Préparer les pièces TVA d'une opération intérieure | P2 | IND-001, IND-015 |
+| [IND-027](03-nouveaux-domaines/suites/ind-027-tva-internationale.md) | Qualifier une opération internationale de l'indépendant pour la TVA | P2 | IND-001 |
+| [IND-028](03-nouveaux-domaines/suites/ind-028-cessation-ei.md) | Préparer les pièces d'une cessation définitive d'EI | P2 | IND-001 |
+| [IND-029](03-nouveaux-domaines/suites/ind-029-dernieres-declarations-sociales.md) | Préparer la dernière déclaration sociale de l'indépendant | P2 | IND-001, IND-028 |
+| [IND-030](03-nouveaux-domaines/suites/ind-030-dernieres-pieces-fiscales.md) | Préparer les pièces d'une dernière obligation fiscale de l'activité | P2 | IND-001, IND-028 |
+| [IND-031](03-nouveaux-domaines/suites/ind-031-regularisation-apres-cessation.md) | Lire une régularisation de cotisations après cessation | P2 | IND-001, IND-028 |
+| [IND-032](03-nouveaux-domaines/suites/ind-032-avis-controle.md) | Lire un avis de contrôle Urssaf adressé à un indépendant | P2 | IND-001 |
+| [IND-033](03-nouveaux-domaines/suites/ind-033-lettre-observations.md) | Préparer une réponse factuelle à une lettre d'observations Urssaf | P2 | IND-001, IND-032 |
+| [IND-034](03-nouveaux-domaines/suites/ind-034-recours-cra.md) | Préparer un recours CRA contre une décision Urssaf de l'indépendant | P2 | IND-001 |
+| [IND-035](03-nouveaux-domaines/suites/ind-035-opposition-contrainte.md) | Préparer le dossier d'opposition à une contrainte Urssaf | P2 | IND-001 |
+| [IND-036](03-nouveaux-domaines/suites/ind-036-remise-majorations.md) | Préparer une demande de remise de majorations Urssaf | P2 | IND-001 |
+| [IND-037](03-nouveaux-domaines/suites/ind-037-echeancier-urssaf.md) | Préparer une demande d'échéancier Urssaf | P2 | IND-001 |
+| [IND-038](03-nouveaux-domaines/suites/ind-038-mediation-urssaf.md) | Préparer une saisine du médiateur Urssaf de l'indépendant | P2 | IND-001 |
+| [IND-039](03-nouveaux-domaines/suites/ind-039-non-diffusion-sirene.md) | Préparer une demande sur le statut de diffusion Sirene d'une EI | P2 | IND-001 |
+| [IND-040](03-nouveaux-domaines/suites/ind-040-occultation-rne.md) | Préparer une demande d'occultation d'une donnée ou d'un acte RNE | P2 | IND-001 |
+| [IND-041](03-nouveaux-domaines/suites/ind-041-questions-cumul.md) | Préparer les questions sur le cumul activité indépendante et autres statuts | P2 | IND-001 |
+| [IND-042](03-nouveaux-domaines/suites/ind-042-calcul-cotisations.md) | Vérifier un calcul de cotisations micro-sociales pour une période | P3 | IND-001 |
 
 </details>
 
@@ -1074,11 +1096,11 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>LOG</b> — Logement locatif et habitat (03 — Nouveaux domaines) : 23 à faire, 0 prêtes</summary>
+<summary><b>LOG</b> — Logement locatif et habitat (03 — Nouveaux domaines) : 23 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [LOG-001](03-nouveaux-domaines/suites/log-001-depot-garantie.md) | Contester une retenue sur dépôt après une location privée vide | P2 | BASE-008 |
+| [LOG-001](03-nouveaux-domaines/suites/log-001-depot-garantie.md) | Contester une retenue sur dépôt après une location privée vide | P2 | ✅ |
 | [LOG-002](03-nouveaux-domaines/suites/log-002-charges-locatives.md) | Comprendre une régularisation de charges et demander les justificatifs | P2 | LOG-001 |
 | [LOG-003](03-nouveaux-domaines/suites/log-003-revue-bail.md) | Relire un bail vide de résidence principale avant signature | P2 | LOG-001 |
 | [LOG-004](03-nouveaux-domaines/suites/log-004-reparations.md) | Préparer une demande de réparation au bailleur | P2 | LOG-001 |
@@ -1105,159 +1127,159 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>SAN</b> — Santé et droits des patients (03 — Nouveaux domaines) : 19 à faire, 0 prêtes</summary>
+<summary><b>SAN</b> — Santé et droits des patients (03 — Nouveaux domaines) : 19 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [SAN-001](03-nouveaux-domaines/suites/san-001-acces-dossier-patient.md) | Préparer une demande d'accès au dossier médical par le patient | P2 | BASE-008 |
-| [SAN-002](03-nouveaux-domaines/suites/san-002-acces-representant.md) | Vérifier la qualité d'un proche ou d'un représentant avant une demande d'accès | P2 | BASE-008, SAN-001 |
-| [SAN-003](03-nouveaux-domaines/suites/san-003-acces-ayant-droit.md) | Préparer la demande d'un ayant droit au dossier d'un patient décédé | P2 | BASE-008, SAN-001 |
-| [SAN-004](03-nouveaux-domaines/suites/san-004-relancer-acces-dossier.md) | Relancer ou contester une communication tardive, incomplète ou refusée du dossier médical | P2 | BASE-008, SAN-001 |
-| [SAN-005](03-nouveaux-domaines/suites/san-005-reclamation-etablissement.md) | Préparer une réclamation sur une prise en charge auprès d'un établissement | P2 | BASE-008, SAN-001 |
-| [SAN-006](03-nouveaux-domaines/suites/san-006-orienter-dommage-soins.md) | Orienter une demande d'indemnisation d'un dommage lié aux soins | P2 | BASE-008, SAN-005 |
-| [SAN-007](03-nouveaux-domaines/suites/san-007-plainte-ordre.md) | Préparer une plainte auprès de l'ordre d'un professionnel de santé | P2 | BASE-008, SAN-005 |
-| [SAN-008](03-nouveaux-domaines/suites/san-008-signalement-ars.md) | Préparer un signalement à l'agence régionale de santé | P2 | BASE-008, SAN-005 |
-| [SAN-009](03-nouveaux-domaines/suites/san-009-information-consentement.md) | Préparer les questions et la demande d'information sur un acte de soins | P2 | BASE-008, SAN-001 |
-| [SAN-010](03-nouveaux-domaines/suites/san-010-soins-sans-consentement.md) | Lire une mesure de soins psychiatriques sans consentement | P2 | BASE-008, SAN-001 |
-| [SAN-011](03-nouveaux-domaines/suites/san-011-frais-soins.md) | Comparer une facture de soins à l'information reçue sur les frais | P2 | BASE-008, SAN-001 |
-| [SAN-012](03-nouveaux-domaines/suites/san-012-directives-anticipees.md) | Préparer des directives anticipées et la désignation d'une personne de confiance | P3 | BASE-008, SAN-001 |
-| [SAN-013](03-nouveaux-domaines/suites/san-013-acces-continuite-soins.md) | Préparer une demande d'accès ou de continuité des soins | P2 | BASE-008, SAN-005 |
-| [SAN-014](03-nouveaux-domaines/suites/san-014-anomalies-facturation.md) | Préparer une demande de rectification d'une facturation de soins | P2 | BASE-008, SAN-011 |
-| [SAN-015](03-nouveaux-domaines/suites/san-015-devis-dispositif-soins.md) | Lire un devis dentaire, optique ou auditif avant engagement | P2 | BASE-008, SAN-011 |
-| [SAN-016](03-nouveaux-domaines/suites/san-016-demande-pharmacie.md) | Préparer une demande d'explication à une pharmacie | P2 | BASE-008, SAN-009 |
-| [SAN-017](03-nouveaux-domaines/suites/san-017-droits-soins-medico-social.md) | Préparer une réclamation sur les soins en établissement médico-social | P2 | BASE-008, SAN-005 |
-| [SAN-018](03-nouveaux-domaines/suites/san-018-dossier-cci.md) | Préparer les pièces d'une demande d'indemnisation auprès d'une CCI | P2 | BASE-008, SAN-006 |
-| [SAN-019](03-nouveaux-domaines/suites/san-019-observations-expertise-soins.md) | Préparer des observations sur une expertise amiable de soins | P2 | BASE-008, SAN-006 |
+| [SAN-001](03-nouveaux-domaines/suites/san-001-acces-dossier-patient.md) | Préparer une demande d'accès au dossier médical par le patient | P2 | ✅ |
+| [SAN-002](03-nouveaux-domaines/suites/san-002-acces-representant.md) | Vérifier la qualité d'un proche ou d'un représentant avant une demande d'accès | P2 | SAN-001 |
+| [SAN-003](03-nouveaux-domaines/suites/san-003-acces-ayant-droit.md) | Préparer la demande d'un ayant droit au dossier d'un patient décédé | P2 | SAN-001 |
+| [SAN-004](03-nouveaux-domaines/suites/san-004-relancer-acces-dossier.md) | Relancer ou contester une communication tardive, incomplète ou refusée du dossier médical | P2 | SAN-001 |
+| [SAN-005](03-nouveaux-domaines/suites/san-005-reclamation-etablissement.md) | Préparer une réclamation sur une prise en charge auprès d'un établissement | P2 | SAN-001 |
+| [SAN-006](03-nouveaux-domaines/suites/san-006-orienter-dommage-soins.md) | Orienter une demande d'indemnisation d'un dommage lié aux soins | P2 | SAN-005 |
+| [SAN-007](03-nouveaux-domaines/suites/san-007-plainte-ordre.md) | Préparer une plainte auprès de l'ordre d'un professionnel de santé | P2 | SAN-005 |
+| [SAN-008](03-nouveaux-domaines/suites/san-008-signalement-ars.md) | Préparer un signalement à l'agence régionale de santé | P2 | SAN-005 |
+| [SAN-009](03-nouveaux-domaines/suites/san-009-information-consentement.md) | Préparer les questions et la demande d'information sur un acte de soins | P2 | SAN-001 |
+| [SAN-010](03-nouveaux-domaines/suites/san-010-soins-sans-consentement.md) | Lire une mesure de soins psychiatriques sans consentement | P2 | SAN-001 |
+| [SAN-011](03-nouveaux-domaines/suites/san-011-frais-soins.md) | Comparer une facture de soins à l'information reçue sur les frais | P2 | SAN-001 |
+| [SAN-012](03-nouveaux-domaines/suites/san-012-directives-anticipees.md) | Préparer des directives anticipées et la désignation d'une personne de confiance | P3 | SAN-001 |
+| [SAN-013](03-nouveaux-domaines/suites/san-013-acces-continuite-soins.md) | Préparer une demande d'accès ou de continuité des soins | P2 | SAN-005 |
+| [SAN-014](03-nouveaux-domaines/suites/san-014-anomalies-facturation.md) | Préparer une demande de rectification d'une facturation de soins | P2 | SAN-011 |
+| [SAN-015](03-nouveaux-domaines/suites/san-015-devis-dispositif-soins.md) | Lire un devis dentaire, optique ou auditif avant engagement | P2 | SAN-011 |
+| [SAN-016](03-nouveaux-domaines/suites/san-016-demande-pharmacie.md) | Préparer une demande d'explication à une pharmacie | P2 | SAN-009 |
+| [SAN-017](03-nouveaux-domaines/suites/san-017-droits-soins-medico-social.md) | Préparer une réclamation sur les soins en établissement médico-social | P2 | SAN-005 |
+| [SAN-018](03-nouveaux-domaines/suites/san-018-dossier-cci.md) | Préparer les pièces d'une demande d'indemnisation auprès d'une CCI | P2 | SAN-006 |
+| [SAN-019](03-nouveaux-domaines/suites/san-019-observations-expertise-soins.md) | Préparer des observations sur une expertise amiable de soins | P2 | SAN-006 |
 
 </details>
 
 <details>
-<summary><b>SUC</b> — Successions et donations (03 — Nouveaux domaines) : 25 à faire, 0 prêtes</summary>
+<summary><b>SUC</b> — Successions et donations (03 — Nouveaux domaines) : 25 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [SUC-001](03-nouveaux-domaines/suites/suc-001-courrier-notaire.md) | Décrypter un courrier de règlement de succession | P2 | BASE-008 |
-| [SUC-002](03-nouveaux-domaines/suites/suc-002-actif-passif.md) | Organiser les avoirs et dettes avant une décision successorale | P2 | BASE-008, SUC-001 |
-| [SUC-003](03-nouveaux-domaines/suites/suc-003-option-sommation.md) | Lire une demande d’option ou une sommation successorale | P2 | BASE-008, SUC-001 |
-| [SUC-004](03-nouveaux-domaines/suites/suc-004-actes-acceptation.md) | Documenter les actes susceptibles d’affecter l’option successorale | P2 | BASE-008, SUC-001 |
-| [SUC-005](03-nouveaux-domaines/suites/suc-005-acceptation-actif-net.md) | Préparer le suivi des formalités d’acceptation à concurrence de l’actif net | P2 | BASE-008, SUC-001 |
-| [SUC-006](03-nouveaux-domaines/suites/suc-006-renonciation-descendants.md) | Préparer les pièces d’une renonciation et ses suites pour les descendants | P2 | BASE-008, SUC-001 |
-| [SUC-007](03-nouveaux-domaines/suites/suc-007-creance-reclamee.md) | Lire une créance réclamée au titre d’une succession | P2 | BASE-008, SUC-001 |
-| [SUC-008](03-nouveaux-domaines/suites/suc-008-dette-decouverte.md) | Préparer un dossier de dette découverte après acceptation | P2 | BASE-008, SUC-001 |
-| [SUC-009](03-nouveaux-domaines/suites/suc-009-frais-bancaires.md) | Lire un décompte de frais bancaires successoraux | P2 | BASE-008, SUC-001 |
-| [SUC-010](03-nouveaux-domaines/suites/suc-010-recherche-comptes.md) | Préparer une recherche de comptes et avoirs oubliés d’un défunt | P2 | BASE-008, SUC-001 |
-| [SUC-011](03-nouveaux-domaines/suites/suc-011-paiement-obseques.md) | Préparer une demande bancaire de règlement d’une facture d’obsèques | P2 | BASE-008, SUC-001 |
-| [SUC-012](03-nouveaux-domaines/suites/suc-012-fonctionnement-comptes.md) | Lire une réponse bancaire sur les comptes après décès | P2 | BASE-008, SUC-001 |
-| [SUC-013](03-nouveaux-domaines/suites/suc-013-preuve-qualite.md) | Lire une demande de preuve d’héritier dans une petite succession | P2 | BASE-008, SUC-001 |
-| [SUC-014](03-nouveaux-domaines/suites/suc-014-effets-inventaire.md) | Préparer l’inventaire et la remise des effets du défunt | P2 | BASE-008, SUC-001 |
-| [SUC-015](03-nouveaux-domaines/suites/suc-015-testament-donations.md) | Documenter un testament ou des donations omis du dossier | P2 | BASE-008, SUC-001 |
-| [SUC-016](03-nouveaux-domaines/suites/suc-016-evaluations.md) | Comparer des évaluations d’un bien successoral | P2 | BASE-008, SUC-001 |
-| [SUC-017](03-nouveaux-domaines/suites/suc-017-comptes-indivision.md) | Organiser les recettes et dépenses d’une indivision successorale | P2 | BASE-008, SUC-001 |
-| [SUC-018](03-nouveaux-domaines/suites/suc-018-occupation-indivise.md) | Préparer les questions sur l’occupation d’un bien indivis successoral | P2 | BASE-008, SUC-001 |
-| [SUC-019](03-nouveaux-domaines/suites/suc-019-vente-bien-indivis.md) | Lire un projet d’acte portant sur un bien indivis successoral | P2 | BASE-008, SUC-001 |
-| [SUC-020](03-nouveaux-domaines/suites/suc-020-projet-partage.md) | Préparer la lecture des comptes d’un projet de partage | P2 | BASE-008, SUC-001 |
-| [SUC-021](03-nouveaux-domaines/suites/suc-021-contestation-partage.md) | Préparer un dossier de contestation d’un partage signé | P2 | BASE-008, SUC-001 |
-| [SUC-022](03-nouveaux-domaines/suites/suc-022-logement-survivant.md) | Préparer les pièces sur les droits au logement du survivant | P2 | BASE-008, SUC-001 |
-| [SUC-023](03-nouveaux-domaines/suites/suc-023-contrat-genealogiste.md) | Lire un contrat de révélation de succession proposé par un généalogiste | P2 | BASE-008, SUC-001 |
-| [SUC-024](03-nouveaux-domaines/suites/suc-024-projet-donation.md) | Préparer les questions sur un projet de donation | P2 | BASE-008, SUC-001 |
-| [SUC-025](03-nouveaux-domaines/suites/suc-025-element-etranger.md) | Qualifier les pièces d’une succession comportant un élément étranger | P2 | BASE-008, SUC-001 |
+| [SUC-001](03-nouveaux-domaines/suites/suc-001-courrier-notaire.md) | Décrypter un courrier de règlement de succession | P2 | ✅ |
+| [SUC-002](03-nouveaux-domaines/suites/suc-002-actif-passif.md) | Organiser les avoirs et dettes avant une décision successorale | P2 | SUC-001 |
+| [SUC-003](03-nouveaux-domaines/suites/suc-003-option-sommation.md) | Lire une demande d’option ou une sommation successorale | P2 | SUC-001 |
+| [SUC-004](03-nouveaux-domaines/suites/suc-004-actes-acceptation.md) | Documenter les actes susceptibles d’affecter l’option successorale | P2 | SUC-001 |
+| [SUC-005](03-nouveaux-domaines/suites/suc-005-acceptation-actif-net.md) | Préparer le suivi des formalités d’acceptation à concurrence de l’actif net | P2 | SUC-001 |
+| [SUC-006](03-nouveaux-domaines/suites/suc-006-renonciation-descendants.md) | Préparer les pièces d’une renonciation et ses suites pour les descendants | P2 | SUC-001 |
+| [SUC-007](03-nouveaux-domaines/suites/suc-007-creance-reclamee.md) | Lire une créance réclamée au titre d’une succession | P2 | SUC-001 |
+| [SUC-008](03-nouveaux-domaines/suites/suc-008-dette-decouverte.md) | Préparer un dossier de dette découverte après acceptation | P2 | SUC-001 |
+| [SUC-009](03-nouveaux-domaines/suites/suc-009-frais-bancaires.md) | Lire un décompte de frais bancaires successoraux | P2 | SUC-001 |
+| [SUC-010](03-nouveaux-domaines/suites/suc-010-recherche-comptes.md) | Préparer une recherche de comptes et avoirs oubliés d’un défunt | P2 | SUC-001 |
+| [SUC-011](03-nouveaux-domaines/suites/suc-011-paiement-obseques.md) | Préparer une demande bancaire de règlement d’une facture d’obsèques | P2 | SUC-001 |
+| [SUC-012](03-nouveaux-domaines/suites/suc-012-fonctionnement-comptes.md) | Lire une réponse bancaire sur les comptes après décès | P2 | SUC-001 |
+| [SUC-013](03-nouveaux-domaines/suites/suc-013-preuve-qualite.md) | Lire une demande de preuve d’héritier dans une petite succession | P2 | SUC-001 |
+| [SUC-014](03-nouveaux-domaines/suites/suc-014-effets-inventaire.md) | Préparer l’inventaire et la remise des effets du défunt | P2 | SUC-001 |
+| [SUC-015](03-nouveaux-domaines/suites/suc-015-testament-donations.md) | Documenter un testament ou des donations omis du dossier | P2 | SUC-001 |
+| [SUC-016](03-nouveaux-domaines/suites/suc-016-evaluations.md) | Comparer des évaluations d’un bien successoral | P2 | SUC-001 |
+| [SUC-017](03-nouveaux-domaines/suites/suc-017-comptes-indivision.md) | Organiser les recettes et dépenses d’une indivision successorale | P2 | SUC-001 |
+| [SUC-018](03-nouveaux-domaines/suites/suc-018-occupation-indivise.md) | Préparer les questions sur l’occupation d’un bien indivis successoral | P2 | SUC-001 |
+| [SUC-019](03-nouveaux-domaines/suites/suc-019-vente-bien-indivis.md) | Lire un projet d’acte portant sur un bien indivis successoral | P2 | SUC-001 |
+| [SUC-020](03-nouveaux-domaines/suites/suc-020-projet-partage.md) | Préparer la lecture des comptes d’un projet de partage | P2 | SUC-001 |
+| [SUC-021](03-nouveaux-domaines/suites/suc-021-contestation-partage.md) | Préparer un dossier de contestation d’un partage signé | P2 | SUC-001 |
+| [SUC-022](03-nouveaux-domaines/suites/suc-022-logement-survivant.md) | Préparer les pièces sur les droits au logement du survivant | P2 | SUC-001 |
+| [SUC-023](03-nouveaux-domaines/suites/suc-023-contrat-genealogiste.md) | Lire un contrat de révélation de succession proposé par un généalogiste | P2 | SUC-001 |
+| [SUC-024](03-nouveaux-domaines/suites/suc-024-projet-donation.md) | Préparer les questions sur un projet de donation | P2 | SUC-001 |
+| [SUC-025](03-nouveaux-domaines/suites/suc-025-element-etranger.md) | Qualifier les pièces d’une succession comportant un élément étranger | P2 | SUC-001 |
 
 </details>
 
 <details>
-<summary><b>TEL</b> — Télécoms et services postaux (03 — Nouveaux domaines) : 9 à faire, 0 prêtes</summary>
+<summary><b>TEL</b> — Télécoms et services postaux (03 — Nouveaux domaines) : 9 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [TEL-001](03-nouveaux-domaines/suites/tel-001-frais-resiliation.md) | Préparer une réclamation sur des frais de résiliation télécoms | P2 | BASE-008 |
-| [TEL-002](03-nouveaux-domaines/suites/tel-002-materiel-restitue.md) | Préparer une contestation de matériel télécoms facturé après retour | P2 | BASE-008, TEL-001 |
-| [TEL-003](03-nouveaux-domaines/suites/tel-003-facturation-options.md) | Préparer une réclamation de facturation ou d'option télécoms | P2 | BASE-008, TEL-001 |
-| [TEL-004](03-nouveaux-domaines/suites/tel-004-non-installation.md) | Préparer une réclamation pour un accès télécoms non installé | P2 | BASE-008, TEL-001 |
-| [TEL-005](03-nouveaux-domaines/suites/tel-005-interruption-service.md) | Préparer une réclamation pour interruption d'un service télécoms | P2 | BASE-008, TEL-001 |
-| [TEL-006](03-nouveaux-domaines/suites/tel-006-reclamation-envoi.md) | Qualifier une perte ou un dommage postal et préparer une réclamation | P2 | BASE-008, TEL-001 |
-| [TEL-007](03-nouveaux-domaines/suites/tel-007-mediation-telecoms.md) | Préparer un dossier de médiation télécoms sans présumer sa recevabilité | P3 | BASE-008, TEL-001 |
-| [TEL-008](03-nouveaux-domaines/suites/tel-008-mediation-postale.md) | Préparer un dossier de médiation postale pour un prestataire identifié | P3 | BASE-008, TEL-001 |
-| [TEL-009](03-nouveaux-domaines/suites/tel-009-signalement-regulateur.md) | Préparer un signalement télécoms ou postal au régulateur | P3 | BASE-008, TEL-001 |
+| [TEL-001](03-nouveaux-domaines/suites/tel-001-frais-resiliation.md) | Préparer une réclamation sur des frais de résiliation télécoms | P2 | ✅ |
+| [TEL-002](03-nouveaux-domaines/suites/tel-002-materiel-restitue.md) | Préparer une contestation de matériel télécoms facturé après retour | P2 | TEL-001 |
+| [TEL-003](03-nouveaux-domaines/suites/tel-003-facturation-options.md) | Préparer une réclamation de facturation ou d'option télécoms | P2 | TEL-001 |
+| [TEL-004](03-nouveaux-domaines/suites/tel-004-non-installation.md) | Préparer une réclamation pour un accès télécoms non installé | P2 | TEL-001 |
+| [TEL-005](03-nouveaux-domaines/suites/tel-005-interruption-service.md) | Préparer une réclamation pour interruption d'un service télécoms | P2 | TEL-001 |
+| [TEL-006](03-nouveaux-domaines/suites/tel-006-reclamation-envoi.md) | Qualifier une perte ou un dommage postal et préparer une réclamation | P2 | TEL-001 |
+| [TEL-007](03-nouveaux-domaines/suites/tel-007-mediation-telecoms.md) | Préparer un dossier de médiation télécoms sans présumer sa recevabilité | P3 | TEL-001 |
+| [TEL-008](03-nouveaux-domaines/suites/tel-008-mediation-postale.md) | Préparer un dossier de médiation postale pour un prestataire identifié | P3 | TEL-001 |
+| [TEL-009](03-nouveaux-domaines/suites/tel-009-signalement-regulateur.md) | Préparer un signalement télécoms ou postal au régulateur | P3 | TEL-001 |
 
 </details>
 
 <details>
-<summary><b>TPT</b> — Transports et voyages (03 — Nouveaux domaines) : 22 à faire, 0 prêtes</summary>
+<summary><b>TPT</b> — Transports et voyages (03 — Nouveaux domaines) : 22 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [TPT-001](03-nouveaux-domaines/suites/tpt-001-annulation-vol-direct.md) | Préparer une réclamation pour un vol direct annulé | P2 | BASE-008 |
-| [TPT-002](03-nouveaux-domaines/suites/tpt-002-annulation-correspondance.md) | Qualifier une annulation aérienne avec correspondance | P2 | BASE-008, TPT-001 |
-| [TPT-003](03-nouveaux-domaines/suites/tpt-003-retard-aerien.md) | Préparer une réclamation pour un retard aérien | P2 | BASE-008, TPT-001 |
-| [TPT-004](03-nouveaux-domaines/suites/tpt-004-incident-ferroviaire.md) | Préparer une réclamation pour un incident ferroviaire | P2 | BASE-008, TPT-001 |
-| [TPT-005](03-nouveaux-domaines/suites/tpt-005-bagage-aerien.md) | Préparer une réclamation pour un bagage aérien | P2 | BASE-008, TPT-001 |
-| [TPT-006](03-nouveaux-domaines/suites/tpt-006-reclamation-forfait.md) | Préparer une réclamation relative à un forfait touristique | P2 | BASE-008, TPT-001 |
-| [TPT-007](03-nouveaux-domaines/suites/tpt-007-relance-transporteur.md) | Préparer une relance après une réclamation de transport | P2 | BASE-008, TPT-001 |
-| [TPT-008](03-nouveaux-domaines/suites/tpt-008-incident-autocar.md) | Préparer une réclamation pour un trajet en autocar perturbé | P2 | BASE-008, TPT-001 |
-| [TPT-009](03-nouveaux-domaines/suites/tpt-009-incident-maritime.md) | Préparer une réclamation pour un trajet maritime ou fluvial perturbé | P2 | BASE-008, TPT-001 |
-| [TPT-010](03-nouveaux-domaines/suites/tpt-010-orienter-fret.md) | Qualifier un incident de transport de marchandises avant orientation | P3 | BASE-008, TPT-001 |
-| [TPT-011](03-nouveaux-domaines/suites/tpt-011-billet-ferroviaire.md) | Préparer une réclamation sur un billet ferroviaire | P2 | BASE-008, TPT-001 |
-| [TPT-012](03-nouveaux-domaines/suites/tpt-012-contester-pv-transport.md) | Préparer un dossier de contestation de PV de transport | P2 | BASE-008, TPT-001 |
-| [TPT-013](03-nouveaux-domaines/suites/tpt-013-service-titre-urbain.md) | Préparer une réclamation sur un titre ou un service urbain | P2 | BASE-008, TPT-001 |
-| [TPT-014](03-nouveaux-domaines/suites/tpt-014-billet-aerien-frais.md) | Préparer une contestation de frais de billetterie aérienne | P2 | BASE-008, TPT-001 |
-| [TPT-015](03-nouveaux-domaines/suites/tpt-015-refus-embarquement-aerien.md) | Préparer une réclamation après refus d’embarquement aérien | P2 | BASE-008, TPT-001 |
-| [TPT-016](03-nouveaux-domaines/suites/tpt-016-reclamation-taxi-vtc.md) | Préparer une réclamation sur une course taxi ou VTC | P2 | BASE-008, TPT-001 |
-| [TPT-017](03-nouveaux-domaines/suites/tpt-017-reclamation-covoiturage.md) | Préparer une réclamation après un incident de covoiturage | P2 | BASE-008, TPT-001 |
-| [TPT-018](03-nouveaux-domaines/suites/tpt-018-facturation-libre-service.md) | Préparer une contestation de facturation en libre-service | P2 | BASE-008, TPT-001 |
-| [TPT-019](03-nouveaux-domaines/suites/tpt-019-assistance-pmr-transport.md) | Préparer une demande d’assistance PMR liée à un trajet | P2 | BASE-008, TPT-001 |
-| [TPT-020](03-nouveaux-domaines/suites/tpt-020-bagage-autocar.md) | Préparer une réclamation pour un bagage d’autocar | P2 | BASE-008, TPT-001 |
-| [TPT-021](03-nouveaux-domaines/suites/tpt-021-dommage-bien-maritime.md) | Préparer une réclamation pour un bien endommagé en traversée | P2 | BASE-008, TPT-001 |
-| [TPT-022](03-nouveaux-domaines/suites/tpt-022-taxes-vol-non-effectue.md) | Préparer une demande de taxes pour un vol non effectué | P2 | BASE-008, TPT-001 |
+| [TPT-001](03-nouveaux-domaines/suites/tpt-001-annulation-vol-direct.md) | Préparer une réclamation pour un vol direct annulé | P2 | ✅ |
+| [TPT-002](03-nouveaux-domaines/suites/tpt-002-annulation-correspondance.md) | Qualifier une annulation aérienne avec correspondance | P2 | TPT-001 |
+| [TPT-003](03-nouveaux-domaines/suites/tpt-003-retard-aerien.md) | Préparer une réclamation pour un retard aérien | P2 | TPT-001 |
+| [TPT-004](03-nouveaux-domaines/suites/tpt-004-incident-ferroviaire.md) | Préparer une réclamation pour un incident ferroviaire | P2 | TPT-001 |
+| [TPT-005](03-nouveaux-domaines/suites/tpt-005-bagage-aerien.md) | Préparer une réclamation pour un bagage aérien | P2 | TPT-001 |
+| [TPT-006](03-nouveaux-domaines/suites/tpt-006-reclamation-forfait.md) | Préparer une réclamation relative à un forfait touristique | P2 | TPT-001 |
+| [TPT-007](03-nouveaux-domaines/suites/tpt-007-relance-transporteur.md) | Préparer une relance après une réclamation de transport | P2 | TPT-001 |
+| [TPT-008](03-nouveaux-domaines/suites/tpt-008-incident-autocar.md) | Préparer une réclamation pour un trajet en autocar perturbé | P2 | TPT-001 |
+| [TPT-009](03-nouveaux-domaines/suites/tpt-009-incident-maritime.md) | Préparer une réclamation pour un trajet maritime ou fluvial perturbé | P2 | TPT-001 |
+| [TPT-010](03-nouveaux-domaines/suites/tpt-010-orienter-fret.md) | Qualifier un incident de transport de marchandises avant orientation | P3 | TPT-001 |
+| [TPT-011](03-nouveaux-domaines/suites/tpt-011-billet-ferroviaire.md) | Préparer une réclamation sur un billet ferroviaire | P2 | TPT-001 |
+| [TPT-012](03-nouveaux-domaines/suites/tpt-012-contester-pv-transport.md) | Préparer un dossier de contestation de PV de transport | P2 | TPT-001 |
+| [TPT-013](03-nouveaux-domaines/suites/tpt-013-service-titre-urbain.md) | Préparer une réclamation sur un titre ou un service urbain | P2 | TPT-001 |
+| [TPT-014](03-nouveaux-domaines/suites/tpt-014-billet-aerien-frais.md) | Préparer une contestation de frais de billetterie aérienne | P2 | TPT-001 |
+| [TPT-015](03-nouveaux-domaines/suites/tpt-015-refus-embarquement-aerien.md) | Préparer une réclamation après refus d’embarquement aérien | P2 | TPT-001 |
+| [TPT-016](03-nouveaux-domaines/suites/tpt-016-reclamation-taxi-vtc.md) | Préparer une réclamation sur une course taxi ou VTC | P2 | TPT-001 |
+| [TPT-017](03-nouveaux-domaines/suites/tpt-017-reclamation-covoiturage.md) | Préparer une réclamation après un incident de covoiturage | P2 | TPT-001 |
+| [TPT-018](03-nouveaux-domaines/suites/tpt-018-facturation-libre-service.md) | Préparer une contestation de facturation en libre-service | P2 | TPT-001 |
+| [TPT-019](03-nouveaux-domaines/suites/tpt-019-assistance-pmr-transport.md) | Préparer une demande d’assistance PMR liée à un trajet | P2 | TPT-001 |
+| [TPT-020](03-nouveaux-domaines/suites/tpt-020-bagage-autocar.md) | Préparer une réclamation pour un bagage d’autocar | P2 | TPT-001 |
+| [TPT-021](03-nouveaux-domaines/suites/tpt-021-dommage-bien-maritime.md) | Préparer une réclamation pour un bien endommagé en traversée | P2 | TPT-001 |
+| [TPT-022](03-nouveaux-domaines/suites/tpt-022-taxes-vol-non-effectue.md) | Préparer une demande de taxes pour un vol non effectué | P2 | TPT-001 |
 
 </details>
 
 <details>
-<summary><b>UTI</b> — Énergie, eau et services essentiels (03 — Nouveaux domaines) : 14 à faire, 0 prêtes</summary>
+<summary><b>UTI</b> — Énergie, eau et services essentiels (03 — Nouveaux domaines) : 14 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [UTI-001](03-nouveaux-domaines/suites/uti-001-regularisation-electricite.md) | Lire une régularisation d'électricité et demander ses justificatifs | P2 | BASE-008 |
-| [UTI-002](03-nouveaux-domaines/suites/uti-002-regularisation-gaz.md) | Lire une régularisation de gaz naturel et demander ses justificatifs | P2 | BASE-008, UTI-001 |
-| [UTI-003](03-nouveaux-domaines/suites/uti-003-facture-eau.md) | Lire une facture d'eau et préparer une demande de justification | P2 | BASE-008, UTI-001 |
-| [UTI-004](03-nouveaux-domaines/suites/uti-004-surconsommation-eau.md) | Préparer une demande sur une surconsommation d'eau et un plafonnement allégué | P2 | BASE-008, UTI-001 |
-| [UTI-005](03-nouveaux-domaines/suites/uti-005-souscription-energie.md) | Préparer une réclamation sur une souscription d'énergie contestée | P2 | BASE-008, UTI-001 |
-| [UTI-006](03-nouveaux-domaines/suites/uti-006-modification-energie.md) | Préparer une réclamation sur une modification d'un contrat d'énergie | P2 | BASE-008, UTI-001 |
-| [UTI-007](03-nouveaux-domaines/suites/uti-007-cloture-energie.md) | Préparer une réclamation sur une clôture de contrat d'énergie | P2 | BASE-008, UTI-001 |
-| [UTI-008](03-nouveaux-domaines/suites/uti-008-souscription-eau.md) | Préparer une réclamation sur une souscription au service d'eau | P2 | BASE-008, UTI-001 |
-| [UTI-009](03-nouveaux-domaines/suites/uti-009-modification-eau.md) | Préparer une demande sur une modification des conditions du service d'eau | P2 | BASE-008, UTI-001 |
-| [UTI-010](03-nouveaux-domaines/suites/uti-010-cloture-eau.md) | Préparer une réclamation sur une clôture d'abonnement d'eau | P2 | BASE-008, UTI-001 |
-| [UTI-011](03-nouveaux-domaines/suites/uti-011-urgence-electricite.md) | Lire une menace de réduction ou de coupure d'électricité pour impayé | P2 | BASE-008, UTI-001 |
-| [UTI-012](03-nouveaux-domaines/suites/uti-012-urgence-gaz.md) | Lire une menace de coupure de gaz naturel pour impayé | P2 | BASE-008, UTI-001 |
-| [UTI-013](03-nouveaux-domaines/suites/uti-013-urgence-eau.md) | Lire une menace d'interruption d'eau liée à un impayé | P2 | BASE-008, UTI-001 |
-| [UTI-014](03-nouveaux-domaines/suites/uti-014-interruption-reseau.md) | Qualifier une interruption de service hors impayé et préparer un signalement | P2 | BASE-008, UTI-001 |
+| [UTI-001](03-nouveaux-domaines/suites/uti-001-regularisation-electricite.md) | Lire une régularisation d'électricité et demander ses justificatifs | P2 | ✅ |
+| [UTI-002](03-nouveaux-domaines/suites/uti-002-regularisation-gaz.md) | Lire une régularisation de gaz naturel et demander ses justificatifs | P2 | UTI-001 |
+| [UTI-003](03-nouveaux-domaines/suites/uti-003-facture-eau.md) | Lire une facture d'eau et préparer une demande de justification | P2 | UTI-001 |
+| [UTI-004](03-nouveaux-domaines/suites/uti-004-surconsommation-eau.md) | Préparer une demande sur une surconsommation d'eau et un plafonnement allégué | P2 | UTI-001 |
+| [UTI-005](03-nouveaux-domaines/suites/uti-005-souscription-energie.md) | Préparer une réclamation sur une souscription d'énergie contestée | P2 | UTI-001 |
+| [UTI-006](03-nouveaux-domaines/suites/uti-006-modification-energie.md) | Préparer une réclamation sur une modification d'un contrat d'énergie | P2 | UTI-001 |
+| [UTI-007](03-nouveaux-domaines/suites/uti-007-cloture-energie.md) | Préparer une réclamation sur une clôture de contrat d'énergie | P2 | UTI-001 |
+| [UTI-008](03-nouveaux-domaines/suites/uti-008-souscription-eau.md) | Préparer une réclamation sur une souscription au service d'eau | P2 | UTI-001 |
+| [UTI-009](03-nouveaux-domaines/suites/uti-009-modification-eau.md) | Préparer une demande sur une modification des conditions du service d'eau | P2 | UTI-001 |
+| [UTI-010](03-nouveaux-domaines/suites/uti-010-cloture-eau.md) | Préparer une réclamation sur une clôture d'abonnement d'eau | P2 | UTI-001 |
+| [UTI-011](03-nouveaux-domaines/suites/uti-011-urgence-electricite.md) | Lire une menace de réduction ou de coupure d'électricité pour impayé | P2 | UTI-001 |
+| [UTI-012](03-nouveaux-domaines/suites/uti-012-urgence-gaz.md) | Lire une menace de coupure de gaz naturel pour impayé | P2 | UTI-001 |
+| [UTI-013](03-nouveaux-domaines/suites/uti-013-urgence-eau.md) | Lire une menace d'interruption d'eau liée à un impayé | P2 | UTI-001 |
+| [UTI-014](03-nouveaux-domaines/suites/uti-014-interruption-reseau.md) | Qualifier une interruption de service hors impayé et préparer un signalement | P2 | UTI-001 |
 
 </details>
 
 <details>
-<summary><b>VEH</b> — Véhicules, garages et réparations (03 — Nouveaux domaines) : 20 à faire, 0 prêtes</summary>
+<summary><b>VEH</b> — Véhicules, garages et réparations (03 — Nouveaux domaines) : 20 à faire, 1 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
-| [VEH-001](03-nouveaux-domaines/suites/veh-001-facture-garage.md) | Comparer une facture de garage aux travaux autorisés | P2 | BASE-008 |
-| [VEH-002](03-nouveaux-domaines/suites/veh-002-gardiennage-retention.md) | Lire des frais de gardiennage et s'orienter face à un véhicule retenu par le garage | P2 | BASE-008, VEH-001 |
-| [VEH-003](03-nouveaux-domaines/suites/veh-003-reparation-defaillante.md) | Préparer une réclamation après une réparation défaillante ou une détérioration au garage | P2 | BASE-008, VEH-001 |
-| [VEH-004](03-nouveaux-domaines/suites/veh-004-occasion-vendeur-pro.md) | Documenter un défaut après l'achat d'un véhicule auprès d'un professionnel | P2 | BASE-008, VEH-001 |
-| [VEH-005](03-nouveaux-domaines/suites/veh-005-occasion-vendeur-particulier.md) | Documenter une panne après l'achat d'un véhicule à un particulier | P2 | BASE-008, VEH-004 |
-| [VEH-006](03-nouveaux-domaines/suites/veh-006-location-dommages-retour.md) | Répondre à un loueur qui réclame des dommages au retour du véhicule | P2 | BASE-008, VEH-001 |
-| [VEH-007](03-nouveaux-domaines/suites/veh-007-revue-avant-achat.md) | Préparer la revue d'une annonce, d'un bon de commande et des garanties alléguées avant l'achat d'un véhicule | P2 | BASE-008, VEH-004 |
-| [VEH-008](03-nouveaux-domaines/suites/veh-008-commande-vehicule-neuf.md) | Préparer une demande après un litige de commande de véhicule auprès d'un professionnel | P2 | BASE-008, VEH-004 |
-| [VEH-009](03-nouveaux-domaines/suites/veh-009-restitution-location-longue.md) | Comparer les frais de fin de location longue durée ou avec option d'achat au contrat | P2 | BASE-008, VEH-006 |
-| [VEH-010](03-nouveaux-domaines/suites/veh-010-expertise-amiable.md) | Conserver l'état d'un véhicule et préparer une expertise amiable | P2 | BASE-008, VEH-001 |
-| [VEH-011](03-nouveaux-domaines/suites/veh-011-garantie-constructeur.md) | Préparer une demande au constructeur après un refus de garantie ou un rappel | P2 | BASE-008, VEH-004 |
-| [VEH-012](03-nouveaux-domaines/suites/veh-012-vendeur-particulier-reponse.md) | Préparer la réponse d'un vendeur particulier à la réclamation de l'acheteur du véhicule | P3 | BASE-008, VEH-005 |
-| [VEH-013](03-nouveaux-domaines/suites/veh-013-preparer-depot-garage.md) | Préparer le dépôt d'un véhicule et borner les travaux autorisés | P2 | BASE-008, VEH-001 |
-| [VEH-014](03-nouveaux-domaines/suites/veh-014-retard-immobilisation.md) | Préparer une demande de calendrier après une immobilisation prolongée au garage | P2 | BASE-008, VEH-001 |
-| [VEH-015](03-nouveaux-domaines/suites/veh-015-facture-depannage.md) | Examiner une facture de dépannage ou de remorquage | P2 | BASE-008, VEH-001 |
-| [VEH-016](03-nouveaux-domaines/suites/veh-016-controle-technique.md) | Préparer une réclamation à un centre de contrôle technique | P2 | BASE-008, VEH-001 |
-| [VEH-017](03-nouveaux-domaines/suites/veh-017-frais-location-courte.md) | Examiner les frais et prestations contestés d'une location courte durée | P2 | BASE-008, VEH-006 |
-| [VEH-018](03-nouveaux-domaines/suites/veh-018-revue-contrat-lld.md) | Lire les engagements d'une location longue durée sans option d'achat | P2 | BASE-008, VEH-006 |
-| [VEH-019](03-nouveaux-domaines/suites/veh-019-achat-mandataire-import.md) | Préparer une demande contractuelle pour un achat de véhicule par mandataire ou à l'étranger | P2 | BASE-008, VEH-004 |
-| [VEH-020](03-nouveaux-domaines/suites/veh-020-retractation-achat-distance.md) | Préparer une demande de rétractation après un achat de véhicule à distance | P2 | BASE-008, VEH-004 |
+| [VEH-001](03-nouveaux-domaines/suites/veh-001-facture-garage.md) | Comparer une facture de garage aux travaux autorisés | P2 | ✅ |
+| [VEH-002](03-nouveaux-domaines/suites/veh-002-gardiennage-retention.md) | Lire des frais de gardiennage et s'orienter face à un véhicule retenu par le garage | P2 | VEH-001 |
+| [VEH-003](03-nouveaux-domaines/suites/veh-003-reparation-defaillante.md) | Préparer une réclamation après une réparation défaillante ou une détérioration au garage | P2 | VEH-001 |
+| [VEH-004](03-nouveaux-domaines/suites/veh-004-occasion-vendeur-pro.md) | Documenter un défaut après l'achat d'un véhicule auprès d'un professionnel | P2 | VEH-001 |
+| [VEH-005](03-nouveaux-domaines/suites/veh-005-occasion-vendeur-particulier.md) | Documenter une panne après l'achat d'un véhicule à un particulier | P2 | VEH-004 |
+| [VEH-006](03-nouveaux-domaines/suites/veh-006-location-dommages-retour.md) | Répondre à un loueur qui réclame des dommages au retour du véhicule | P2 | VEH-001 |
+| [VEH-007](03-nouveaux-domaines/suites/veh-007-revue-avant-achat.md) | Préparer la revue d'une annonce, d'un bon de commande et des garanties alléguées avant l'achat d'un véhicule | P2 | VEH-004 |
+| [VEH-008](03-nouveaux-domaines/suites/veh-008-commande-vehicule-neuf.md) | Préparer une demande après un litige de commande de véhicule auprès d'un professionnel | P2 | VEH-004 |
+| [VEH-009](03-nouveaux-domaines/suites/veh-009-restitution-location-longue.md) | Comparer les frais de fin de location longue durée ou avec option d'achat au contrat | P2 | VEH-006 |
+| [VEH-010](03-nouveaux-domaines/suites/veh-010-expertise-amiable.md) | Conserver l'état d'un véhicule et préparer une expertise amiable | P2 | VEH-001 |
+| [VEH-011](03-nouveaux-domaines/suites/veh-011-garantie-constructeur.md) | Préparer une demande au constructeur après un refus de garantie ou un rappel | P2 | VEH-004 |
+| [VEH-012](03-nouveaux-domaines/suites/veh-012-vendeur-particulier-reponse.md) | Préparer la réponse d'un vendeur particulier à la réclamation de l'acheteur du véhicule | P3 | VEH-005 |
+| [VEH-013](03-nouveaux-domaines/suites/veh-013-preparer-depot-garage.md) | Préparer le dépôt d'un véhicule et borner les travaux autorisés | P2 | VEH-001 |
+| [VEH-014](03-nouveaux-domaines/suites/veh-014-retard-immobilisation.md) | Préparer une demande de calendrier après une immobilisation prolongée au garage | P2 | VEH-001 |
+| [VEH-015](03-nouveaux-domaines/suites/veh-015-facture-depannage.md) | Examiner une facture de dépannage ou de remorquage | P2 | VEH-001 |
+| [VEH-016](03-nouveaux-domaines/suites/veh-016-controle-technique.md) | Préparer une réclamation à un centre de contrôle technique | P2 | VEH-001 |
+| [VEH-017](03-nouveaux-domaines/suites/veh-017-frais-location-courte.md) | Examiner les frais et prestations contestés d'une location courte durée | P2 | VEH-006 |
+| [VEH-018](03-nouveaux-domaines/suites/veh-018-revue-contrat-lld.md) | Lire les engagements d'une location longue durée sans option d'achat | P2 | VEH-006 |
+| [VEH-019](03-nouveaux-domaines/suites/veh-019-achat-mandataire-import.md) | Préparer une demande contractuelle pour un achat de véhicule par mandataire ou à l'étranger | P2 | VEH-004 |
+| [VEH-020](03-nouveaux-domaines/suites/veh-020-retractation-achat-distance.md) | Préparer une demande de rétractation après un achat de véhicule à distance | P2 | VEH-004 |
 
 </details>
 
