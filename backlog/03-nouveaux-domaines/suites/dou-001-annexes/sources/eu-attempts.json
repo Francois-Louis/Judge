@@ -1,0 +1,253 @@
+[
+  {
+    "repere": "U1 texte initial 2013",
+    "reference": "32013R0952",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013R0952",
+        "attempted_at": "2026-10-19T09:31:28.412075+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013R0952",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/32013R0952",
+        "attempted_at": "2026-10-19T09:31:28.518014+00:00",
+        "http_status": 200,
+        "final_url": "https://publications.europa.eu/resource/cellar/80502785-3178-11e3-8d1c-01aa75ed71a1.0010.03/DOC_1",
+        "content_type": "application/xhtml+xml",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-19T09:31:29.115332+00:00",
+        "bytes": 1322950,
+        "sha256": "383572c079241f2c03e5efd30922900b8ef1531a2f56b844602057b6c569a88e"
+      }
+    ]
+  },
+  {
+    "repere": "U1 consolidé 12.12.2022",
+    "reference": "02013R0952-20221212",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02013R0952-20221212",
+        "attempted_at": "2026-10-19T09:31:40.174974+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02013R0952-20221212",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02013R0952-20221212",
+        "attempted_at": "2026-10-19T09:31:40.243516+00:00",
+        "http_status": 200,
+        "final_url": "https://publications.europa.eu/resource/cellar/1c0f12d9-8b8e-11ed-999b-01aa75ed71a1.0011.02/DOC_2",
+        "content_type": "application/xhtml+xml",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-19T09:31:40.754724+00:00",
+        "bytes": 1071657,
+        "sha256": "a44f4b191734ce2d2db999dfc45504eb6154e9de99559f49e5503ec2b9708e2f"
+      }
+    ]
+  },
+  {
+    "repere": "U1 consolidation 17.01.2025 (inexistante)",
+    "reference": "02013R0952-20250117",
+    "state": "unavailable",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02013R0952-20250117",
+        "attempted_at": "2026-10-19T09:31:40.825771+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02013R0952-20250117",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02013R0952-20250117",
+        "attempted_at": "2026-10-19T09:31:40.889800+00:00",
+        "state": "http-error",
+        "http_status": 404
+      }
+    ]
+  },
+  {
+    "repere": "U2",
+    "reference": "02009R1186-20260701",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02009R1186-20260701",
+        "attempted_at": "2026-10-19T09:33:00.561914+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02009R1186-20260701",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02009R1186-20260701",
+        "attempted_at": "2026-10-19T09:33:00.674013+00:00",
+        "http_status": 200,
+        "final_url": "https://publications.europa.eu/resource/cellar/42f72519-53c2-11f1-b3e2-01aa75ed71a1.0010.02/DOC_1",
+        "content_type": "application/xhtml+xml",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-19T09:33:01.176160+00:00",
+        "bytes": 352116,
+        "sha256": "2c506d4d71eae9e447c52eb65fe59f5a82e826926767c92947d00aaa4139c6c2"
+      }
+    ]
+  },
+  {
+    "repere": "U3",
+    "reference": "32026R0382",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R0382",
+        "attempted_at": "2026-10-19T09:33:21.878332+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R0382",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/32026R0382",
+        "attempted_at": "2026-10-19T09:33:21.947709+00:00",
+        "http_status": 200,
+        "final_url": "https://publications.europa.eu/resource/cellar/2ae65d0b-0c6b-11f1-8870-01aa75ed71a1.0009.03/DOC_1",
+        "content_type": "application/xhtml+xml",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-19T09:33:22.313660+00:00",
+        "bytes": 26962,
+        "sha256": "16f0551fec2b1abeaaf0e4628a026f5281662d6514abdfdc2bbad16a214ae2e5"
+      }
+    ]
+  },
+  {
+    "repere": "U4",
+    "reference": "02006L0112-20250414",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02006L0112-20250414",
+        "attempted_at": "2026-10-19T09:33:35.270806+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02006L0112-20250414",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02006L0112-20250414",
+        "attempted_at": "2026-10-19T09:33:35.332953+00:00",
+        "http_status": 200,
+        "final_url": "https://publications.europa.eu/resource/cellar/03c42d77-512a-11f0-a9d0-01aa75ed71a1.0011.02/DOC_1",
+        "content_type": "application/xhtml+xml",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-19T09:33:35.889998+00:00",
+        "bytes": 1933755,
+        "sha256": "3c14548595c996f64e9d90a8c29789956a6239c72e7a24610967ceaaf19b0040"
+      }
+    ]
+  },
+  {
+    "repere": "U5 consolidé 01.07.2026",
+    "reference": "02015R2446-20260701",
+    "state": "unavailable",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02015R2446-20260701",
+        "attempted_at": "2026-10-19T09:35:20.034196+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02015R2446-20260701",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02015R2446-20260701",
+        "attempted_at": "2026-10-19T09:35:20.127626+00:00",
+        "state": "transport-error",
+        "reason": "ValueError"
+      }
+    ]
+  },
+  {
+    "repere": "U5 consolidé 25.02.2025",
+    "reference": "02015R2446-20250225",
+    "state": "unavailable",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02015R2446-20250225",
+        "attempted_at": "2026-10-19T09:35:28.636062+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02015R2446-20250225",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02015R2446-20250225",
+        "attempted_at": "2026-10-19T09:35:28.708801+00:00",
+        "state": "transport-error",
+        "reason": "ValueError"
+      }
+    ]
+  },
+  {
+    "repere": "U6",
+    "reference": "32026R1200",
+    "state": "retrieved",
+    "documentary_status": "non-verifie",
+    "applicability": "a-etablir",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R1200",
+        "attempted_at": "2026-10-19T09:37:15.326801+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R1200",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/32026R1200",
+        "attempted_at": "2026-10-19T09:37:15.428122+00:00",
+        "http_status": 200,
+        "final_url": "https://publications.europa.eu/resource/cellar/561ed35f-62d6-11f1-9b18-01aa75ed71a1.0010.03/DOC_1",
+        "content_type": "application/xhtml+xml",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-19T09:37:15.834187+00:00",
+        "bytes": 62479,
+        "sha256": "d9cf920f635d3067160aa97eb425ea621295bd0d55d0ff857cc9d2182885b212"
+      }
+    ]
+  },
+  {
+    "repere": "CELLAR SPARQL",
+    "note": "Consolidations listées le 2026-10-19 : 02013R0952 jusqu'au 20221212 ; 02009R1186-20260701 ; 02006L0112 jusqu'au 20250414 ; 02015R2446 jusqu'au 20260701. Actes modifiant 32013R0952 : 32016R2339, 32019R0474, 32019R0632, 32022R2399 ; modifiant 32009R1186 : 32026R0382.",
+    "endpoint": "https://publications.europa.eu/webapi/rdf/sparql"
+  }
+]

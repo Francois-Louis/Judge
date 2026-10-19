@@ -1,0 +1,8 @@
+{
+  "name": "judge-fr-eu-customs-legal",
+  "version": "0.1.0",
+  "description": "Judge FR/UE 0.1.0 : préparer le dossier d'un achat privé expédié d'un pays tiers vers la France métropolitaine — fiche marchandise, personnes, territoires et dates, pièces reçues ou manquantes, questions à la douane ou au transporteur (DOU-001). Un skill sans profil, stockage, calcul, déclaration ni envoi ; sources datées et réserves.",
+  "author": {
+    "name": "Judge FR/UE maintainers"
+  }
+}

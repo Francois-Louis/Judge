@@ -1,0 +1,30 @@
+Judge FR/UE — customs-legal
+Copyright 2026 Judge FR/UE maintainers
+Licensed under the Apache License, Version 2.0; see LICENSE.
+Shared resources derive from the Judge FR/UE fork of Claude for Legal
+(Anthropic); upstream copyright notices are preserved in those resources.
+
+DOU-001 changes (2026-10-19): new standalone customs-legal 0.1.0 package,
+one import-document-checklist skill preparing the file of a private purchase
+shipped from a third country to metropolitan France: goods, persons,
+territories, origin/provenance, price/fees and dates, received or missing
+documents and targeted questions. No profile, durable storage, calculation,
+declaration or sending. qualification-douanes.md 1.0.0 and
+dossier-achat-pays-tiers.md 1.0.0 added, with dated EU readings (Union
+Customs Code, VAT directive, Regulation 1186/2009 and Regulation 2026/382)
+and reserved sources. Shared method BASE-005 1.3.0, BASE-008
+helper/boundary/templates and repository LICENSE copied unchanged.
+Files:
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  LICENSE
+  NOTICE
+  README.md
+  references/company-profile-template.md
+  references/dashboard-template.md
+  references/dossier-achat-pays-tiers.md
+  references/isolation.md
+  references/qualification-douanes.md
+  references/shared/research-citation-method.md
+  scripts/judge_store.py
+  skills/import-document-checklist/SKILL.md

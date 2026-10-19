@@ -36,6 +36,9 @@ réserves de sources et validation détaillées dans le paquet.
 `insurance-legal:claim-denial-review` 0.1.0 prépare la fiche du refus de
 garantie et une demande à l'assureur (INS-001), sans profil, stockage, calcul
 ni envoi ; sources et validation bornées dans le paquet.
+`customs-legal:import-document-checklist` 0.1.0 prépare le dossier d'un achat
+privé expédié d'un pays tiers vers la métropole (DOU-001) : fiche, pièces et
+questions, sans profil, calcul, déclaration ni envoi ; réserves dans le paquet.
 Voir le [démarrage du fork](QUICKSTART.md), les [preuves et limites de validation](references/base008-validation.md),
 la [licence](LICENSE) et les [fichiers modifiés](NOTICE).
 Les intégrations Cowork/Office et l'exécution distante décrites ci-dessous
@@ -75,6 +78,7 @@ Each agent is named for the workflow it runs. They're the most common surface �
 | **Lire une convocation** | Mentions, qualité inconnue ou indiquée, authenticité et questions ; CRIM-001, sans profil ni stockage | `criminal-legal` | `/judge-fr-eu-criminal-legal:summons-reading` |
 | **Commande non livrée** | Fiche, chronologie, pièces et brouillon au vendeur ; CONSO-001, sans profil ni envoi | `consumer-legal` | `/judge-fr-eu-consumer-legal:non-delivery-claim` |
 | **Refus de garantie** | Motif invoqué, clause, pièces et demande de réexamen ; INS-001 | `insurance-legal` | `/judge-fr-eu-insurance-legal:claim-denial-review` |
+| **Colis venant d'un pays tiers** | Fiche, pièces reçues ou manquantes et questions au transporteur ; DOU-001 | `customs-legal` | `/judge-fr-eu-customs-legal:import-document-checklist` |
 | **Devis funéraire** | Postes, trois qualités et demande d'explication ; FUN-001 | `funeral-legal` | `/judge-fr-eu-funeral-legal:funeral-quote-review` |
 | **Acte de recouvrement ou d’exécution reçu** | Lecture, authenticité, urgence, fiche et questions ; ENF-001 | `enforcement-legal` | `/judge-fr-eu-enforcement-legal:enforcement-act-reading` |
 | **Orientation contractuelle** | Qualifie contrat/récit, domaine, achat/vente, pièces et suite ; COM-001, sans profil obligatoire | `commercial-legal` | `/judge-fr-eu-commercial-legal:review` |
@@ -234,7 +238,7 @@ After install, skills fire automatically when relevant, slash commands are avail
 ```
 
 **Run the cold-start interview first for inherited workflows.** CONSO-001
-(`consumer-legal`), funeral quote review (`funeral-legal`) and claim denial review (`insurance-legal`) require no profile or setup. Every other inherited skill in a plugin reads from the practice profile it writes. Skipping setup is the single most common reason a skill produces generic output. The interview takes 10–20 minutes per plugin and will ask you to point at seed documents (a signed MSA, a playbook, a prior review memo — whatever fits the plugin). More seed material is better; a **quick start** option is available if you want to be productive in 2 minutes and refine later.
+(`consumer-legal`), funeral quote review (`funeral-legal`) claim denial review (`insurance-legal`) and the import document checklist (`customs-legal`) require no profile or setup. Every other inherited skill in a plugin reads from the practice profile it writes. Skipping setup is the single most common reason a skill produces generic output. The interview takes 10–20 minutes per plugin and will ask you to point at seed documents (a signed MSA, a playbook, a prior review memo — whatever fits the plugin). More seed material is better; a **quick start** option is available if you want to be productive in 2 minutes and refine later.
 
 **Start by connecting a research tool.** Everything else is better with one, and citations are unverified without one. See [MCP Connectors](#mcp-connectors) below for the full list — CourtListener, Trellis, Descrybe, and Solve Intelligence are the research tools the citation guardrails look for.
 
@@ -285,6 +289,7 @@ narrative, without a profile or interview.
 | **[consumer-legal](./consumer-legal)** | CONSO-001 : fiche, chronologie, pièces et brouillon de réclamation pour un bien commandé à distance et non reçu. Un skill sans profil ni envoi ; validation client et lecteur à compléter. |
 | **[banking-legal](./banking-legal)** | BNK-001 `0.1.1` : qualifier un paiement contesté et préparer la réclamation pour une opération non autorisée sur un compte personnel ; tromperie et litige commercial orientés. Un skill, sans profil ni stockage ; [recette partielle et limites](backlog/03-nouveaux-domaines/suites/bnk-001-annexes/verification.md). |
 | **[insurance-legal](./insurance-legal)** | INS-001 `0.1.0` : refus de garantie, motif invoqué et pièces, demande d'explication ou de réexamen. Un skill sans profil, stockage, calcul ni envoi ; [recette et limites](backlog/03-nouveaux-domaines/suites/ins-001-annexes/verification.md). |
+| **[customs-legal](./customs-legal)** | DOU-001 `0.1.0` : dossier d'un achat privé expédié d'un pays tiers vers la métropole, pièces et questions. Un skill sans profil, calcul, déclaration ni envoi ; [recette et limites](backlog/03-nouveaux-domaines/suites/dou-001-annexes/verification.md). |
 | **[funeral-legal](./funeral-legal)** | FUN-001 `0.1.0` : lecture de devis, rapprochement des postes à besoins identiques et brouillon à l'opérateur. Un skill sans profil, stockage ni envoi ; règles non relues réservées. |
 | **[enforcement-legal](./enforcement-legal)** | ENF-001 `0.1.0` : lire un acte reçu, vérifier l'authenticité, repérer l'urgence et préparer les questions. Un skill sans profil, calcul de délai ni envoi ; [recette et limites](backlog/03-nouveaux-domaines/suites/enf-001-annexes/verification.md). |
 | **[commercial-legal](./commercial-legal)** | Orientation contractuelle COM-001 sans profil obligatoire. Revues, avenants, registres, escalades et agents hérités non adaptés France/UE. |
@@ -427,6 +432,12 @@ The consumer and criminal plugins require no setup.
 | Command | Skill | Description |
 |---|---|---|
 | `/judge-fr-eu-insurance-legal:claim-denial-review` | claim-denial-review | Comprendre un refus de garantie et préparer une demande à l'assureur |
+
+### Douanes — DOU-001
+
+| Command | Skill | Description |
+|---|---|---|
+| `/judge-fr-eu-customs-legal:import-document-checklist` | import-document-checklist | Préparer les pièces d'un achat privé expédié d'un pays tiers |
 
 ### ai-governance-legal
 

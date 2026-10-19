@@ -87,10 +87,10 @@ class MigratedPackages(unittest.TestCase):
         (path / "agents/worker.md").write_text("fixture", encoding="utf-8")
         return path
 
-    def test_manifest_contract_and_140_skill_names(self):
+    def test_manifest_contract_and_141_skill_names(self):
         self.assertEqual(MARKET["name"], "judge-fr-eu")
         self.assertEqual(MARKET["owner"]["name"], "Judge FR/UE maintainers")
-        self.assertEqual(len(MARKET["plugins"]), 17)
+        self.assertEqual(len(MARKET["plugins"]), 18)
         count = 0
         for entry in MARKET["plugins"]:
             domain = entry["source"][2:]
@@ -99,10 +99,10 @@ class MigratedPackages(unittest.TestCase):
             for field in ("name", "description", "author"):
                 self.assertEqual(entry[field], manifest[field])
             self.assertEqual(manifest["name"], "judge-fr-eu-" + domain)
-            expected_author = "Judge FR/UE maintainers" if domain in {"banking-legal", "consumer-legal", "enforcement-legal", "criminal-legal", "funeral-legal", "insurance-legal"} else "Anthropic"
+            expected_author = "Judge FR/UE maintainers" if domain in {"banking-legal", "consumer-legal", "enforcement-legal", "criminal-legal", "funeral-legal", "insurance-legal", "customs-legal"} else "Anthropic"
             self.assertEqual(manifest["author"]["name"], expected_author)
             expected_version = {"employment-legal": "0.4.0", "commercial-legal": "0.2.4",
-                                "banking-legal": "0.1.3", "consumer-legal": "0.1.2", "enforcement-legal": "0.1.1", "criminal-legal": "0.1.2", "funeral-legal": "0.1.1", "insurance-legal": "0.1.1"}.get(domain, "0.1.3")
+                                "banking-legal": "0.1.3", "consumer-legal": "0.1.2", "enforcement-legal": "0.1.1", "criminal-legal": "0.1.2", "funeral-legal": "0.1.1", "insurance-legal": "0.1.1", "customs-legal": "0.1.0"}.get(domain, "0.1.3")
             self.assertEqual(manifest["version"], expected_version)
             self.assertEqual((package / "LICENSE").read_bytes(), (ROOT / "LICENSE").read_bytes())
             self.assertTrue((package / "NOTICE").is_file())
@@ -115,7 +115,7 @@ class MigratedPackages(unittest.TestCase):
             for path in skills:
                 data = self.checker.yaml.safe_load(path.read_text(encoding="utf-8").split("---", 2)[1])
                 self.assertEqual(data["name"], path.parent.name)
-        self.assertEqual(count, 140)
+        self.assertEqual(count, 141)
 
     def test_detached_package_structure(self):
         for domain, package in self.packages.items():
@@ -145,14 +145,15 @@ class MigratedPackages(unittest.TestCase):
                 self.assertNotRegex(text, r"plugins/(config|cache)/claude-for-legal/")
                 self.assertNotRegex(text, r"(?<!judge-fr-eu-)\b" + re.escape(domain) + r":")
             setup_path = package / "skills/cold-start-interview/SKILL.md"
-            if domain in {"banking-legal", "consumer-legal", "enforcement-legal", "criminal-legal", "funeral-legal", "insurance-legal"}:
+            if domain in {"banking-legal", "consumer-legal", "enforcement-legal", "criminal-legal", "funeral-legal", "insurance-legal", "customs-legal"}:
                 self.assertFalse(setup_path.exists())
                 self.assertEqual({p.parent.name for p in package.glob("skills/*/SKILL.md")},
                                  {{"banking-legal": "payment-dispute", "consumer-legal": "non-delivery-claim",
                                    "enforcement-legal": "enforcement-act-reading",
                                    "criminal-legal": "summons-reading",
                                    "funeral-legal": "funeral-quote-review",
-                                   "insurance-legal": "claim-denial-review"}[domain]})
+                                   "insurance-legal": "claim-denial-review",
+                                   "customs-legal": "import-document-checklist"}[domain]})
                 continue  # First domain slices have no setup or durable storage workflow.
             setup = setup_path.read_text(encoding="utf-8")
             self.assertIn("Judge FR/UE setup boundary", setup)

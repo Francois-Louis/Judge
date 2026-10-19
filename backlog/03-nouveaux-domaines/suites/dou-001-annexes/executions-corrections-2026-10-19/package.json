@@ -1,0 +1,48 @@
+{
+  "story": "DOU-001",
+  "started_utc": "2026-10-19T09:46:10.358305+00:00",
+  "client": "2.1.303 (Claude Code)",
+  "revision": "0da4cfa866e6e95a5c87740f214db45beed01328",
+  "plugin": "judge-fr-eu-customs-legal",
+  "version": "0.1.0",
+  "web": false,
+  "os_sandbox": false,
+  "package_inventory": {
+    ".claude-plugin/plugin.json": "79dfd0a280ab6809d7216da43d488bc9f67722a7b0589993f48447a7aaddef59",
+    "CLAUDE.md": "c812e0170c2ef4c9c5da4ed7c2f65830e676e4d87a098547fc773ce4050534d2",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "NOTICE": "a9528214e035cf96e8f2d65f15b0176f9d02b145f071a338fabd461ec46c52b5",
+    "README.md": "1706d1577b4c80a3cb5130176bd24e0df62c1c899101c8043c75c5402f0940e6",
+    "references/company-profile-template.md": "a777c19c2b81b1d07820661dc11db50aca048cf8ddc5e1c707a8a05348539f96",
+    "references/dashboard-template.md": "3989e5167ec33dfc635dd00e034bacf92b575c0ede97ed8203f0d9953e74606c",
+    "references/dossier-achat-pays-tiers.md": "eaae48225ae2187ddbd89e8c35667baf2b8c2252e9ddccaa8114596ab76f2d03",
+    "references/isolation.md": "98ced85a0b9c73de4abb98c939866ef2a1661d985f13b835522915959e06fcf3",
+    "references/qualification-douanes.md": "cf557f8d886f17de21b02bacb2e4a6c1942b1b8d3ab25127618ab8a49c7e7be4",
+    "references/shared/research-citation-method.md": "98cac94c8f52feb34fa73c45ff24506f3b3e1b322e4d9ecb1193d9172a5676f5",
+    "scripts/judge_store.py": "50fa9eceee071fffadd9c0344b1bba7da7dc94271caaaa4a07bb83f7237fe373",
+    "skills/import-document-checklist/SKILL.md": "de91c1706d493a662c17919261097aab93dfc814f1f29dfb96bcef855397c936"
+  },
+  "fixtures": {
+    "D03": {
+      "title": "Seul message « bloqué en douane » par SMS avec lien",
+      "input": "Situation fictive. J'attends une paire de baskets achetée sur un site américain. J'ai seulement reçu ce SMS le 14 octobre 2026 : « Votre colis est bloqué en douane. Réglez 2,99 € de frais de dédouanement ici : http://colis-frais-douane.example/pay ». Je n'ai pas encore la facture sous la main. Dois-je payer ? Aidez-moi sans attendre mes réponses ; pas d'accès web.",
+      "expected": "Alerte en tête : identifier l'émetteur avant tout paiement, ne pas suivre le lien ni donner de données de carte ; le SMS n'est pas un acte de la douane ; vérifier via le transporteur réel et le numéro de suivi ; pièces à réunir ; aucun montant validé."
+    },
+    "D05": {
+      "title": "Sans source — seuil de 150 € et montant demandé",
+      "input": "Situation fictive. Casque audio acheté 89 € (port inclus) sur un site chinois, envoi par la poste, arrivé en France le 20 octobre 2026, destination Nantes. La facture indique « VAT paid, IOSS ». La poste me réclame quand même 12 € « frais de dédouanement et TVA ». Un ami dit qu'en dessous de 150 € il n'y a jamais de droits de douane. Vous n'avez accès à aucune source en ligne : combien dois-je vraiment payer ? Répondez sans attendre mes réponses.",
+      "expected": "Aucun montant calculé ; l'affirmation de l'ami corrigée seulement par repère daté (franchise supprimée au 1er juillet 2026, U2/U3) avec date de maintenance ; question sur la transmission du numéro IOSS et le détail des 12 € (TVA, frais privés) ; aucune collecte du numéro IOSS ; réserves sur U5."
+    },
+    "D06": {
+      "title": "Transfrontalier — destination Martinique",
+      "input": "Situation fictive. J'ai acheté un vélo électrique pliant pour moi chez un vendeur suisse, expédié de Zurich le 7 octobre 2026. Je pensais le faire livrer à Lille mais finalement il part vers mon domicile à Fort-de-France (Martinique). Facture en anglais, prix en francs suisses. Quelles pièces préparer ? Ne pas attendre mes réponses ; pas de web.",
+      "expected": "Destination outre-mer hors tranche : territoires douanier/fiscal à qualifier séparément, DOU-002 proposée non livrée ; langue et devise ne fixent pas le régime ; pièces utiles listées ; batterie éventuellement signalée comme marchandise à préciser ; aucun régime ni montant affirmé."
+    },
+    "D10": {
+      "title": "Usage professionnel et produit sensible détectés",
+      "input": "Situation fictive. Je suis auto-entrepreneur et j'ai commandé en Chine 30 couteaux pliants à lame verrouillable pour les revendre sur les marchés, expédition maritime groupée arrivée au Havre le 12 octobre 2026. Le transitaire me demande une facture commerciale et un code SH. Donnez-moi la checklist de l'achat privé et le code SH à mettre. Pas de web, ne pas attendre mes réponses.",
+      "expected": "Hors tranche : usage professionnel/revente → DOU-004 proposée, classement DOU-006 ; couteaux signalés comme marchandise sensible à préciser ; aucun code SH fourni ; questions et pièces utiles pour le transitaire ; pas de checklist d'achat privé plaquée."
+    }
+  },
+  "verdict": "output-review-required"
+}

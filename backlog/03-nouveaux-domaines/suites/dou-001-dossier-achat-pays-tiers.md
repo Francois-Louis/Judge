@@ -1,7 +1,7 @@
 ---
 id: DOU-001
 titre: "Préparer le dossier d'un achat privé expédié d'un pays tiers"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: implementation
 dependances: [DOM-009, PILOTE-003, BASE-005, BASE-006, BASE-008]
@@ -81,12 +81,12 @@ une source inaccessible qu'après une tentative réelle. Aucun corpus validé ic
 
 ## Critères d'acceptation
 
-- [ ] Le résultat propre à cette tâche, décrit ci-dessus, est produit sur le cas normal avec pièces et inconnues visibles.
-- [ ] Les cas limites gardent les distinctions et exclusions métier indiquées ; aucune conclusion dépendante n'est complétée de mémoire.
-- [ ] Chaque règle ou formalité retenue a une source lue et un champ territorial/temporel établi ; sans source, la fiche factuelle reste utile.
-- [ ] Le paquet détaché fonctionne seul, sans profil préalable ni autre plugin ; recette BASE-006 consignée par couche, invocation et sorties observées conservées.
-- [ ] La sortie se termine par la phrase BASE-013 avec professionnel adapté ; renfort en tête si acte notifié, échéance ou risque immédiat.
-- [ ] Aucun envoi, déclaration, paiement ou dépôt n'est réalisé ; versions, métadonnées et NOTICE sont cohérents avec les tâches effectivement livrées.
+- [x] Le résultat propre à cette tâche, décrit ci-dessus, est produit sur le cas normal avec pièces et inconnues visibles.
+- [x] Les cas limites gardent les distinctions et exclusions métier indiquées ; aucune conclusion dépendante n'est complétée de mémoire.
+- [x] Chaque règle ou formalité retenue a une source lue et un champ territorial/temporel établi ; sans source, la fiche factuelle reste utile.
+- [x] Le paquet détaché fonctionne seul, sans profil préalable ni autre plugin ; recette BASE-006 consignée par couche, invocation et sorties observées conservées.
+- [x] La sortie se termine par la phrase BASE-013 avec professionnel adapté ; renfort en tête si acte notifié, échéance ou risque immédiat.
+- [x] Aucun envoi, déclaration, paiement ou dépôt n'est réalisé ; versions, métadonnées et NOTICE sont cohérents avec les tâches effectivement livrées.
 
 ## Vérification
 
@@ -120,3 +120,40 @@ le routage documentaire, pas sur l'exécution de ces scénarios.
 Points 1–11 et 13–17 de la matrice : inventorier facture, paiement, postes TVA/droits/honoraires, déclaration disponible et demandes de pièces avec dates. Un suivi « douane » n'est pas un acte officiel ; identifier auteur et motif. La mention Gift, une valeur minorée ou un fractionnement ne deviennent pas des solutions. Détecter IOSS et seuils allégués sans collecter de secret IOSS ni calculer une taxation. C01/C02 et V01/V04 restent à découper ; aucun élargissement au recours ou à la déclaration.
 
 Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).
+
+## Implémentation — 19 octobre 2026
+
+La demande « poursuivons l'implémentation pour le thème de la douane »
+sélectionne cette première tranche DOM-009 et autorise la création du paquet,
+son inscription au marketplace et le passage à 18 paquets / 141 skills.
+L'état de proposition ci-dessus reste un historique. Le paquet autonome
+`customs-legal` `0.1.0` contient le seul skill `import-document-checklist`,
+sans profil, stockage, calcul, déclaration ni envoi. Les suites DOU-002 à
+DOU-012 restent proposées et sont seulement nommées comme relais.
+
+Ressources : `qualification-douanes.md 1.0.0` (questionnaire commun,
+alertes, relais), `dossier-achat-pays-tiers.md 1.0.0` (distinctions, pièces,
+modèle de sortie, onze repères relus le 19 octobre 2026), méthode BASE-005
+`1.3.0` et copies BASE-008 identiques. Lecture principale : la franchise de
+droits des envois jusqu'à 150 € est supprimée depuis le 1er juillet 2026
+(règl. (UE) 2026/382) ; le droit temporaire qui la remplace est cité sans
+être appliqué à un colis. Règl. délégué 2015/2446, Code des douanes recodifié,
+taxe nationale sur les petits colis et redevance annoncée au 1er novembre
+2026 restent réservés.
+
+Recette : dix cas fictifs D01–D10 exécutés dans le client réel sur paquet
+détaché ; quatre défauts de la première série (orientation remboursement/
+remise, éléments cités de mémoire, absence d'acte affirmée, paraphrase du
+règlement) corrigés dans la qualification et le skill, puis 10/10 conformes
+sur le paquet final selon la relecture du rédacteur. Preuves :
+[vérification par couche](dou-001-annexes/verification.md),
+[fixtures](dou-001-annexes/fixtures.json), [verdicts](dou-001-annexes/resultats.json),
+[sources](dou-001-annexes/sources/lectures.md),
+[contrôle du paquet](dou-001-annexes/controle-paquet.txt) et
+[contrôles techniques](dou-001-annexes/controles-techniques.txt).
+
+Les critères sont cochés sur ces observations ; aucun scénario avec
+recherche web pendant la réponse n'a été exécuté. La relecture juridique et
+de compréhension par un lecteur réel est prise en charge par l'utilisateur
+selon les consignes du 17 octobre 2026 ; elle n'est pas déclarée effectuée et
+ne maintient pas la story ouverte.

@@ -34,6 +34,7 @@ STORIES = {
     'BNK-001': ('banking-legal', 'payment-dispute', DOM / 'bnk-001-annexes', 'fixtures.json'),
     'INS-001': ('insurance-legal', 'claim-denial-review', DOM / 'ins-001-annexes', 'fixtures.json'),
     'FUN-001': ('funeral-legal', 'funeral-quote-review', DOM / 'fun-001-annexes', 'fixtures.json'),
+    'DOU-001': ('customs-legal', 'import-document-checklist', DOM / 'dou-001-annexes', 'fixtures.json'),
 }
 
 
