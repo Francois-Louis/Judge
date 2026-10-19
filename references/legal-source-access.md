@@ -82,14 +82,15 @@ python scripts/legal_sources.py dila-read https://echanges.dila.gouv.fr/OPENDATA
 `ID`, restitue XML et texte, et conserve les empreintes de l'archive et du
 document. Aucun membre de l'archive n'est extrait sur le disque. Limites :
 archive compressée de 8 Mio maximum, membre XML de 2 Mio, balayage de 128 Mio
-décompressés/100 000 membres. Les fonds JORF, INCA, JADE, CONSTIT, CNIL et ACCO
-sont aussi sélectionnables dans l'outil ; **pas de test réseau réalisé ici**
-pour ces fonds. Les schémas et contenus utiles devront être contrôlés.
+décompressés/100 000 membres. Les fonds JORF, INCA, CAPP, JADE, CONSTIT, CNIL et
+ACCO sont aussi sélectionnables dans l'outil ; **pas de test réseau `dila-read`
+réalisé ici** pour ces fonds. Les schémas et contenus utiles devront être contrôlés.
 
 Un fichier quotidien est un **lot de changements**, pas une base complète.
 Un identifiant absent de ce lot ne signifie pas que le texte n'existe pas.
-L'outil ne choisit pas automatiquement l'archive contenant une référence :
-la retrouver dans le fonds approprié, puis contrôler le document et sa version.
+`dila-read` ne choisit pas l'archive contenant une référence : pour une
+décision de justice, utiliser `juri-read` (section suivante) ; pour un article
+du Code du travail, `legi-versions`. Contrôler ensuite le document et sa version.
 Une recherche plein texte de l'ensemble du droit français demanderait un
 import du stock complet et des mises à jour dans un index local ; **cet index
 n'est pas livré ici**. Ne pas présenter les trois extractions de recette
@@ -98,6 +99,63 @@ comme une couverture exhaustive ou à jour de ces fonds.
 Les données consolidées et les reproductions ne remplacent pas une publication
 authentifiée lorsqu'elle est nécessaire : conserver les métadonnées, relations
 et références de publication. La récupération n'établit pas l'applicabilité.
+
+## Lire une décision de justice par son identifiant
+
+Ajout du 19 octobre 2026 (BASE-018). **Voie de maintenance** : elle sert au
+mainteneur qui relit une décision citée par une référence embarquée lorsque
+Légifrance refuse l'outil (HTTP 403). Elle n'est **pas** une dépendance des
+plugins installés ni une voie à employer pendant la réponse d'un skill ;
+l'exécution suit la [méthode commune](research-citation-method.md).
+
+```powershell
+python scripts/legal_sources.py --timeout 60 juri-read CASS JURITEXT000007046365
+python scripts/legal_sources.py --timeout 60 juri-read JADE CETATEXT000054978981 --max-minutes 240
+```
+
+Fonds et identifiants : `CASS` (Cour de cassation, décisions publiées),
+`INCA` (Cour de cassation, inédits) et `CAPP` (cours d'appel) pour
+`JURITEXT…` ; `JADE` (juridictions administratives) pour `CETATEXT…` ;
+`CONSTIT` (Conseil constitutionnel) pour `CONSTEXT…`. Un même préfixe
+`JURITEXT` couvre trois fonds : choisir celui qu'indique la publication (un
+arrêt « publié au bulletin » est dans CASS, un inédit dans INCA). Un identifiant
+d'une autre famille est refusé sans appel réseau.
+
+Sans `--archive`, l'outil lit la liste officielle du fonds, prend le **dernier
+stock complet** (`Freemium_<fonds>_global_*`, du 13 juillet 2025 au 19 octobre
+2026 : CASS 248 Mo, INCA 655 Mo, CAPP 279 Mo, JADE 1,2 Go, CONSTIT 12 Mo
+compressés) puis **tous les lots quotidiens publiés après lui**, dans l'ordre.
+Chaque archive est lue en flux ; rien n'est écrit sur le disque. Le membre
+retenu est celui dont le nom de fichier est l'identifiant ; son champ `ID`
+est contrôlé. La publication la plus récente l'emporte (un lot republie une
+décision corrigée) ; une liste `liste_suppression_*.dat` la retire si le même
+lot ne la republie pas. Aucune liste de ce type n'a été observée dans les lots
+CASS, CAPP, CONSTIT, INCA et JADE examinés le 19 octobre 2026.
+
+Le JSON restitue `decision` (identifiant, nature, titre, juridiction,
+formation, date, numéro, numéros d'affaire, ECLI, solution, publication,
+décision attaquée, archive et membre retenus, SHA-256 de l'archive et du XML),
+le texte de la décision (`text`, sauts de ligne conservés), le XML complet et
+toutes les occurrences rencontrées. Le sommaire et les analyses, s'ils
+existent, sont dans `sommaire` : ce sont des ajouts éditoriaux, à ne pas citer
+comme motifs. Statuts : `lu` (seul succès), `absent-des-archives-lues`,
+`lecture-incomplete` (archive en échec ou borne dépassée : aucune décision
+restituée, un lot manquant pouvant cacher une correction ou un retrait),
+`copies-divergentes` (deux XML différents du même identifiant dans un lot) et
+`xml-invalide`. Le code de sortie n'est 0 que pour `lu`.
+
+Bornes : celles de `legi-versions` par archive (4 Gio compressés, 128 Gio
+décompressés, 20 millions de membres, 2 Mio par XML, 64 Mio par liste de
+suppression) et une durée totale de 180 minutes par défaut (`--max-minutes`,
+1 à 600). `--timeout` borne chaque opération réseau. `--archive` (répétable,
+dans l'ordre) restreint la lecture, mais la couverture est alors à justifier.
+
+Portée : une décision non encore intégrée par la DILA n'est pas couverte, et
+l'open data est une reproduction, non une copie authentifiée.
+Le résultat établit l'identité et le texte lus, pas la portée de la décision
+ni son applicabilité : la fiche de la référence reste à établir selon la
+méthode commune. Recherche plein texte, index local et API Judilibre ne sont
+pas livrés.
 
 ## Versions futures et fin de vigueur d'un article du Code du travail
 
@@ -195,15 +253,24 @@ documentaire partielle. Les tests OAuth emploient des réponses fictives.
 
 ## Recette observée
 
-- `python scripts/test-legal-sources.py` : 30 tests hors ligne réussis
+- `python scripts/test-legal-sources.py` : 38 tests hors ligne réussis
   (repli, mauvais article, format, corps vide, réseau, redirections, paramètres
   CELLAR, extraction XML ciblée et absence de fuite des secrets dans les résultats testés ;
   pour `legi-versions` : version future, fin de vigueur, autre code, suppression,
-  lot manquant, choix du stock et des lots, URL refusées et limite de flux).
+  lot manquant, choix du stock et des lots, URL refusées et limite de flux ;
+  pour `juri-read` : dernière publication, métadonnées, texte et sommaire séparés,
+  identifiant absent, lot en échec, bornes de membres et de durée, suppression,
+  copies divergentes, identité XML, fonds/identifiant/archive refusés, choix
+  du stock et des lots CAPP).
 - Réseau réel : Légifrance `403` → L2261-2 obtenu sur CDTN (`200`) ; EUR-Lex
   `202` avec écran JavaScript → Rome I obtenu sur CELLAR (`200`).
 - DILA : listes LEGI/KALI/CASS et XML `LEGIARTI000049945125`,
   `KALIARTI000050051847`, `JURITEXT000054167571` récupérés sans souscription.
+- `juri-read`, 19 octobre 2026 : `JURITEXT000007046365` (Cass. soc., 10 juillet
+  2002, cité par `employment-legal`) lu dans le stock CASS puis 55 lots, 61 s,
+  passages cités retrouvés dans le texte ; `CONSTEXT000054148611` lu dans le
+  stock CONSTIT puis 22 lots, 7 s. [Preuve JSON](../backlog/00-fondations/suites/base-018-annexes/base-018-lecture-reseau.json).
+  Fonds INCA, CAPP et JADE : tests hors ligne seulement.
 - PISTE : ancien test sans secrets `needs-credentials`, aucun appel réseau ;
   souscription signalée refusée ensuite, accès réel non testé.
 - [Preuve JSON](../backlog/00-fondations/base-010-annexes/base-010-resultats-acces.json) : URL,

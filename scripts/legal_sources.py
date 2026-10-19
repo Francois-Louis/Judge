@@ -18,6 +18,7 @@ from pathlib import Path
 import re
 import sys
 import tarfile
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -32,12 +33,23 @@ HOSTS = {
     "sandbox-oauth.piste.gouv.fr", "sandbox-api.piste.gouv.fr",
     "echanges.dila.gouv.fr",
 }
-FUNDS = ("LEGI", "KALI", "JORF", "CASS", "INCA", "JADE", "CONSTIT", "CNIL", "ACCO")
+FUNDS = ("LEGI", "KALI", "JORF", "CASS", "INCA", "CAPP", "JADE", "CONSTIT", "CNIL", "ACCO")
 CODE_TRAVAIL = "LEGITEXT000006072050"
 OPEN_END = "2999-01-01"
 INACTIVE = {"MODIFIE_MORT_NE", "ANNULE", "DISJOINT"}  # never in force on their dates
-LEGI_ARCHIVE = re.compile(r"https://echanges\.dila\.gouv\.fr/OPENDATA/LEGI/"
-                          r"(?:Freemium_legi_global_|LEGI_)(\d{8}-\d{6})\.tar\.gz")
+
+
+def fund_archive(fund):
+    """Complete stock (Freemium_<fund>_global_*) or daily delta (<FUND>_*) of one fund."""
+    return re.compile(rf"https://echanges\.dila\.gouv\.fr/OPENDATA/{fund}/"
+                      rf"(?:Freemium_{fund.lower()}_global_|{fund}_)(\d{{8}}-\d{{6}})\.tar\.gz")
+
+
+LEGI_ARCHIVE = fund_archive("LEGI")
+# Case-law funds readable by identifier, with the identifier family each one holds.
+JURI_FUNDS = {"CASS": "JURITEXT", "INCA": "JURITEXT", "CAPP": "JURITEXT",
+              "JADE": "CETATEXT", "CONSTIT": "CONSTEXT"}
+JURI_MAX_MINUTES = 180
 LABOUR_ARTICLE = re.compile(r"[LRD]\d+(?:-\d+)+")
 # Streaming bounds for the complete LEGI stock (about 1.1 GB compressed in 2025).
 STREAM_LIMITS = {"compressed": 4 * 1024 ** 3, "members": 20_000_000,
@@ -301,18 +313,24 @@ def open_stream(url, *, timeout=20, opener=None):
     return response
 
 
-def legi_archives(*, transport=request, timeout=20):
-    """Latest complete LEGI stock, then every daily delta published after it."""
-    listing = dila_list("LEGI", timeout=timeout, transport=transport)
-    stamped = [(LEGI_ARCHIVE.fullmatch(a["url"]), a["url"]) for a in listing.get("archives", [])]
+def fund_archives(fund, *, transport=request, timeout=20):
+    """Latest complete stock of a fund, then every daily delta published after it."""
+    listing = dila_list(fund, timeout=timeout, transport=transport)
+    pattern = fund_archive(fund)
+    stamped = [(pattern.fullmatch(a["url"]), a["url"]) for a in listing.get("archives", [])]
     stamped = [(m.group(1), "Freemium" in url, url) for m, url in stamped if m]
     stocks = sorted(s for s in stamped if s[1])
     if not stocks:
-        listing["attempts"][0].setdefault("reason", "No complete LEGI stock in the official listing")
+        listing["attempts"][0].setdefault("reason", f"No complete {fund} stock in the official listing")
         return listing["attempts"][0], []
     stock = stocks[-1]
     deltas = sorted(s for s in stamped if not s[1] and s[0] > stock[0])
     return listing["attempts"][0], [stock[2]] + [url for _, _, url in deltas]
+
+
+def legi_archives(*, transport=request, timeout=20):
+    """Latest complete LEGI stock, then every daily delta published after it."""
+    return fund_archives("LEGI", transport=transport, timeout=timeout)
 
 
 def article_record(xml):
@@ -461,6 +479,169 @@ def legi_versions(numbers, *, archives=None, on=None, timeout=20, transport=requ
     return output
 
 
+def block_text(element):
+    """Text of an XML block, keeping <br/> line breaks of DILA case-law content."""
+    if element is None:
+        return ""
+    def flatten(node):
+        parts = [node.text or ""]
+        for child in node:
+            parts.append("\n" if child.tag.lower() == "br" else flatten(child))
+            parts.append(child.tail or "")
+        return "".join(parts)
+    lines = [" ".join(line.split()) for line in flatten(element).splitlines()]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
+
+
+def decision_record(xml, identifier):
+    """Identity, metadata and text of one DILA case-law XML whose ID is checked."""
+    root = ET.fromstring(xml)
+    if not root.tag.startswith("TEXTE_JURI_"):
+        raise ValueError("Not a DILA case-law document")
+    if root.findtext("META/META_COMMUN/ID", "").strip() != identifier:
+        raise ValueError("XML identity mismatch")
+    juri = root.find("META/META_SPEC/META_JURI")
+    spec = next((child for child in root.iterfind("META/META_SPEC/*") if child.tag != "META_JURI"), None)
+    def field(node, key):
+        return (node.findtext(key, "") if node is not None else "").strip()
+    record = {
+        "id": identifier, "document": root.tag,
+        "nature": field(root.find("META/META_COMMUN"), "NATURE"),
+        "titre": field(juri, "TITRE"), "juridiction": field(juri, "JURIDICTION"),
+        "date": field(juri, "DATE_DEC"), "numero": field(juri, "NUMERO"),
+        "solution": field(juri, "SOLUTION"),
+        "numeros_affaires": [n.text.strip() for n in (spec.iterfind("NUMEROS_AFFAIRES/NUMERO_AFFAIRE") if spec is not None else [])
+                             if n.text and n.text.strip()],
+        "ecli": field(spec, "ECLI"), "formation": field(spec, "FORMATION"),
+    }
+    bulletin = spec.find("PUBLI_BULL") if spec is not None else None
+    record["publication"] = (f"bulletin: {bulletin.get('publie')}" if bulletin is not None
+                             else field(spec, "PUBLI_RECUEIL") and f"recueil: {field(spec, 'PUBLI_RECUEIL')}")
+    if field(spec, "FORM_DEC_ATT") or field(spec, "DATE_DEC_ATT"):
+        record["decision_attaquee"] = {"juridiction": field(spec, "FORM_DEC_ATT"), "date": field(spec, "DATE_DEC_ATT")}
+    text = "\n\n".join(filter(None, (block_text(b) for b in root.iterfind("TEXTE/BLOC_TEXTUEL/CONTENU"))))
+    if not text:
+        raise ValueError("Decision XML without text")
+    # Headings (SCT), analyses (ANA) and related decisions (CITATION_JP) are editorial.
+    summary = "\n\n".join(filter(None, [block_text(n) for n in root.iterfind("TEXTE/SOMMAIRE/*")]
+                                + [block_text(n) for n in root.iterfind("TEXTE/CITATION_JP")]))
+    return record, text, summary
+
+
+def scan_juri_archive(url, identifier, *, timeout=20, stream=open_stream, deadline=None):
+    """Find one decision ID in one archive; return (attempt, [(member, xml)], deleted)."""
+    attempt = {"url": url, "attempted_at": now()}
+    found, deleted = [], False
+    try:
+        with stream(url, timeout=timeout) as response:
+            reader = HashingReader(response, STREAM_LIMITS["compressed"])
+            members, scanned = 0, 0
+            with tarfile.open(fileobj=io.BufferedReader(reader, 1024 * 1024), mode="r|gz") as archive:
+                for member in archive:
+                    members += 1
+                    scanned += member.size
+                    if members > STREAM_LIMITS["members"] or scanned > STREAM_LIMITS["scanned"]:
+                        raise ValueError("Archive scan limit exceeded")
+                    if deadline is not None and time.monotonic() > deadline:
+                        raise TimeoutError("Duration limit exceeded")
+                    if members % 10000 == 0:
+                        archive.members.clear()  # stream mode would keep every header in memory
+                    name = member.name.rsplit("/", 1)[-1]
+                    if member.isfile() and re.fullmatch(r"liste_suppression_[a-z]+\.dat", name):
+                        if member.size > 64 * 1024 * 1024:
+                            raise ValueError("Oversized deletion list")
+                        with archive.extractfile(member) as source:
+                            lines = source.read().decode("utf-8").splitlines()
+                        deleted |= any(line.strip().rsplit("/", 1)[-1].removesuffix(".xml") == identifier
+                                       for line in lines)
+                    elif name == identifier + ".xml":
+                        if not member.isfile() or member.size > STREAM_LIMITS["xml"]:
+                            raise ValueError("Expected a bounded regular XML member")
+                        with archive.extractfile(member) as source:
+                            found.append((member.name, source.read()))
+            attempt.update(state="retrieved", http_status=200, retrieved_at=now(),
+                           bytes=reader.size, sha256=reader.digest.hexdigest(),
+                           members=members, matched=len(found), deleted=deleted)
+    except urllib.error.HTTPError as exc:
+        attempt.update(state="http-error", http_status=exc.code)
+    except (OSError, ValueError, EOFError, tarfile.TarError, UnicodeError) as exc:
+        attempt.update(state="transport-error", reason=type(exc).__name__)
+    return attempt, found, deleted
+
+
+def juri_read(fund, identifier, *, archives=None, timeout=20, transport=request,
+              stream=open_stream, max_minutes=JURI_MAX_MINUTES, progress=None):
+    """Read one decision by identifier from a case-law fund's stock and later deltas."""
+    if fund not in JURI_FUNDS:
+        raise ValueError("Expected a case-law fund: " + ", ".join(JURI_FUNDS))
+    if not re.fullmatch(JURI_FUNDS[fund] + r"\d{12}", identifier):
+        raise ValueError(f"Expected a {JURI_FUNDS[fund]} identifier for {fund}")
+    if not 1 <= max_minutes <= 600:
+        raise ValueError("Duration limit must be between 1 and 600 minutes")
+    deadline = time.monotonic() + max_minutes * 60
+    attempts = []
+    if archives is None:
+        listing, archives = fund_archives(fund, transport=transport, timeout=timeout)
+        attempts.append(listing)
+        selection = f"Dernier stock {fund} complet et tous les lots quotidiens publiés après lui"
+        if not archives:
+            return result("dila-juri", identifier, attempts, None)
+    else:
+        selection = "Archives choisies par l'appelant ; couverture à justifier"
+    pattern = fund_archive(fund)
+    if not archives or not all(pattern.fullmatch(url) for url in archives):
+        raise ValueError(f"Expected official {fund} archive URLs")
+    occurrences, current, read = [], None, 0
+    for url in archives:
+        attempt, found, deleted = scan_juri_archive(url, identifier, timeout=timeout,
+                                                    stream=stream, deadline=deadline)
+        attempts.append(attempt)
+        if progress:
+            progress(f"{read + 1}/{len(archives)} {url.rsplit('/', 1)[-1]} {attempt['state']}")
+        if attempt["state"] != "retrieved":
+            break  # a missing delta could hide a later version or a withdrawal: no partial answer
+        read += 1
+        name = url.rsplit("/", 1)[-1]
+        for member, xml in found:
+            occurrences.append({"archive": name, "archive_sha256": attempt["sha256"], "member": member,
+                                "xml_sha256": hashlib.sha256(xml).hexdigest()})
+        if found:
+            # The most recent publication wins; distinct copies in one archive are not resolved.
+            current = (name, found) if len({xml for _, xml in found}) == 1 else (name, None)
+        elif deleted:
+            current = None
+            occurrences.append({"archive": name, "archive_sha256": attempt["sha256"], "deleted": True})
+    output = result("dila-juri", identifier, attempts, None)
+    output.update(
+        fund=fund, selection=selection, occurrences=occurrences,
+        coverage=("Décisions publiées dans les archives lues seulement ; une décision non encore "
+                  "intégrée par la DILA, ou publiée après le dernier lot, n'est pas couverte."),
+        version_warning="Reproduction open data ; contrôler identité, formation, date et texte avant de citer.",
+    )
+    if read != len(archives):
+        output.update(statut="lecture-incomplete")
+        return output
+    if current is None:
+        output.update(statut="absent-des-archives-lues")
+        return output
+    name, found = current
+    if found is None:
+        output.update(statut="copies-divergentes")
+        return output
+    member, xml = found[-1]
+    try:
+        record, text, summary = decision_record(xml, identifier)
+    except (ValueError, ET.ParseError) as exc:
+        output.update(statut="xml-invalide", reason=type(exc).__name__)
+        return output
+    record.update(archive=name, archive_member=member, xml_sha256=hashlib.sha256(xml).hexdigest(),
+                  archive_sha256=next(o["archive_sha256"] for o in occurrences if o["archive"] == name))
+    output.update(state="retrieved", statut="lu", decision=record, text=text, xml=xml.decode("utf-8"))
+    if summary:
+        output.update(sommaire=summary, sommaire_warning="Sommaire et analyses éditoriaux : ne pas les citer comme motifs.")
+    return output
+
+
 def piste(endpoint, body=None, *, sandbox=False, timeout=20, transport=request):
     """Read-only API calls, including POST searches. No tokens on CLI/stdout."""
     if endpoint not in ("search", "consult/getArticle", "consult/legiPart", "list/ping"):
@@ -525,6 +706,11 @@ def main():
     archive = commands.add_parser("dila-read", help="Read one exact XML ID from an official archive up to 8 MiB")
     archive.add_argument("url")
     archive.add_argument("identifier")
+    juri = commands.add_parser("juri-read", help="One decision by identifier from a DILA case-law stock and later deltas")
+    juri.add_argument("fund", choices=tuple(JURI_FUNDS))
+    juri.add_argument("identifier", help="JURITEXT (CASS, INCA, CAPP), CETATEXT (JADE) or CONSTEXT (CONSTIT)")
+    juri.add_argument("--archive", action="append", help="Official archive of the fund, in order (default: latest stock and later deltas)")
+    juri.add_argument("--max-minutes", type=int, default=JURI_MAX_MINUTES, choices=range(1, 601), metavar="1..600")
     versions = commands.add_parser("legi-versions", help="Code du travail: future versions and end dates from the LEGI stock and deltas")
     versions.add_argument("articles", nargs="*", help="Article numbers, e.g. L1221-19")
     versions.add_argument("--reference", action="append", default=[], type=Path,
@@ -541,6 +727,10 @@ def main():
             output = dila_list(args.fund, timeout=args.timeout)
         elif args.kind == "dila-read":
             output = dila_read(args.url, args.identifier, timeout=args.timeout)
+        elif args.kind == "juri-read":
+            output = juri_read(args.fund, args.identifier, archives=args.archive, timeout=args.timeout,
+                               max_minutes=args.max_minutes,
+                               progress=lambda line: print(line, file=sys.stderr, flush=True))
         elif args.kind == "legi-versions":
             numbers = list(args.articles)
             for path in args.reference:

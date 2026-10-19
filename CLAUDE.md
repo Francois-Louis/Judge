@@ -70,7 +70,9 @@ stock and every later daily delta (about 3 GB, run in the background). Record ea
 transport success does not certify legal applicability. For other French
 sources, `dila-list <FUND>` and `dila-read <archive-url> <exact-id>` provide
 public DILA archives/XML without an API subscription (bounded single-archive
-reads, not a complete corpus search). PISTE is optional and the user reports
+reads, not a complete corpus search). `juri-read <CASS|INCA|CAPP|JADE|CONSTIT>
+<id>` reads one decision by identifier from that fund's stock and later deltas
+(maintenance only, BASE-018). PISTE is optional and the user reports
 subscription is unavailable; do not make research depend on it. This is a maintenance tool,
 not a runtime dependency of installed plugins. Do not use inherited approval
 prompts to request repeated permission for an already-authorized official-source

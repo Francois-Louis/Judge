@@ -1,0 +1,953 @@
+{
+  "story": "BASE-018",
+  "hote": "Linux WSL2, Python 3.14.4, sans compte ni API",
+  "portee": "Lecture de maintenance de l'identité et du texte ; ni portée juridique ni applicabilité établies. Texte intégral et XML non recopiés ici : rejouer la commande pour les relire.",
+  "lectures": [
+    {
+      "commande": "python scripts/legal_sources.py --timeout 60 juri-read CASS JURITEXT000007046365",
+      "date": "2026-10-19T10:25:02.694929+00:00",
+      "duree_secondes": 61,
+      "code_sortie": 0,
+      "state": "retrieved",
+      "statut": "lu",
+      "selection": "Dernier stock CASS complet et tous les lots quotidiens publiés après lui",
+      "coverage": "Décisions publiées dans les archives lues seulement ; une décision non encore intégrée par la DILA, ou publiée après le dernier lot, n'est pas couverte.",
+      "documentary_status": "non-verifie",
+      "applicability": "a-etablir",
+      "decision": {
+        "id": "JURITEXT000007046365",
+        "document": "TEXTE_JURI_JUDI",
+        "nature": "ARRET",
+        "titre": "Cour de Cassation, Chambre sociale, du 10 juillet 2002, 00-45.135, Publié au bulletin",
+        "juridiction": "Cour de cassation",
+        "date": "2002-07-10",
+        "numero": "",
+        "solution": "Cassation partielle",
+        "numeros_affaires": [
+          "00-45135"
+        ],
+        "ecli": "",
+        "formation": "CHAMBRE_SOCIALE",
+        "publication": "bulletin: oui",
+        "decision_attaquee": {
+          "juridiction": "Cour d'appel de Reims, 2000-06-28",
+          "date": "2000-06-28"
+        },
+        "archive": "Freemium_cass_global_20250713-140000.tar.gz",
+        "archive_member": "cass/global/sociale/JURI/TEXT/00/00/07/04/63/JURITEXT000007046365.xml",
+        "xml_sha256": "128a3da2cde8133b8a911f0e3bb22195f1e10aec660261c3296ef3e5e3f59622",
+        "archive_sha256": "18658ed203e3cf9cd7f5e61aae7bbfe5d19895eddaa9cb41ecf2aa5dd44ee960"
+      },
+      "occurrences": [
+        {
+          "archive": "Freemium_cass_global_20250713-140000.tar.gz",
+          "archive_sha256": "18658ed203e3cf9cd7f5e61aae7bbfe5d19895eddaa9cb41ecf2aa5dd44ee960",
+          "member": "cass/global/sociale/JURI/TEXT/00/00/07/04/63/JURITEXT000007046365.xml",
+          "xml_sha256": "128a3da2cde8133b8a911f0e3bb22195f1e10aec660261c3296ef3e5e3f59622"
+        }
+      ],
+      "texte": {
+        "caracteres": 2861,
+        "sha256": "1ea686e22b82c6a027d627960e4ba179601229bbdf1fa62b85e5da60c863bebf",
+        "debut": "LA COUR DE CASSATION, CHAMBRE SOCIALE, a rendu l'arrêt suivant :\n\nAttendu que M. X... est entré au service de la société"
+      },
+      "sommaire_separe": true,
+      "archives_lues": 56,
+      "octets_compresses": 271534866,
+      "attempts": [
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 9643,
+          "sha256": "29acf761d42d13d18d929bfebf90456dd1c86b3d777f6351d2129d645bea4ba5"
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/Freemium_cass_global_20250713-140000.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 260063213,
+          "sha256": "18658ed203e3cf9cd7f5e61aae7bbfe5d19895eddaa9cb41ecf2aa5dd44ee960",
+          "members": 158975,
+          "matched": 1,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20250721-212334.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 380521,
+          "sha256": "6ceaa4c6b1f59598f82a12dc54b980861702270f03d4fd978659da531f937500",
+          "members": 244,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20250728-212443.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 142550,
+          "sha256": "23deb70383f05a4b2995fcd89f1f64726e0b8081c11f4d62cf38a6b25ce792fa",
+          "members": 118,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20250804-215726.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 88932,
+          "sha256": "19a9f2376cede7b14f37476821cc9e9eb16df19f8be55027914e31080bc06a7d",
+          "members": 93,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20250811-210141.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 41798,
+          "sha256": "3a793ddc48dbd8b0ee98dbd3a7131b15da930166c729f6a7fe58ae6e742966a1",
+          "members": 55,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20250818-211522.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 36563,
+          "sha256": "9fa68e1f3e27c277c275887e18395799685608491ebf311cdf38dc607933bd6a",
+          "members": 45,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20250922-205012.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 393903,
+          "sha256": "01a2894b735ca8213336d2a43c17b016e0b18caf4ea904fc3489bf42cfe64170",
+          "members": 270,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20250929-211717.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 171686,
+          "sha256": "30621acc377a24dadb8d0f42de71e52b211a7486930e44921d4f60ef812bde70",
+          "members": 120,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20251006-211801.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 329871,
+          "sha256": "a77cf434268661b29611327d6c61e992bc138742cb6e611616c3eaf77ff9b20e",
+          "members": 198,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20251013-205930.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 289382,
+          "sha256": "3ccb26d9e9868bfdf7795da0a1dc0bc6b6ebe9498e84c3ff5ec7f91111535a53",
+          "members": 194,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20251020-203554.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 216062,
+          "sha256": "80016663d077105fd163ae4f88246ca7d95aff649061d551f461d04052d6eb7d",
+          "members": 156,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20251027-211613.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 10249,
+          "sha256": "861a9b8e0c7b39cbbbe2ffb45fca4e30e072beefbcc15b93e0ceb79b3677abb4",
+          "members": 18,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20251103-213357.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 290404,
+          "sha256": "eb30d64188bcd36ee00a15b32431c739681db54774b715fa6eb182ef587cac82",
+          "members": 196,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20251110-211525.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 186922,
+          "sha256": "f7635ab08cd5ded0be70b7ac6b29119dfdea4684b3a86174d0141b8b3a586f0e",
+          "members": 145,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20251117-210231.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 270514,
+          "sha256": "c062b352cf4e65fa439028aef860fd66f947b928234c05528108d65c46477cf2",
+          "members": 176,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20251124-213422.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 279023,
+          "sha256": "fa5615bca935d4795bd707ce7c5ffd704b624511d79187827b7b376c77d54539",
+          "members": 195,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20251201-212627.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 237700,
+          "sha256": "0bb01742e45eef7d9cfbcd9b417ca64fdf490e87d301708f40ba3b5cd1c5be5a",
+          "members": 148,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20251215-210751.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 495971,
+          "sha256": "5b35ecea239d00dbe662039a8bffeeab51ed014724af3eb2c02699e6eb7b7f91",
+          "members": 279,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20251222-215837.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 283875,
+          "sha256": "fd5825942789547aab75a7b40f6066c302f5ca56e4db752232277ce7294f4110",
+          "members": 188,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20251229-225156.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 192567,
+          "sha256": "3f435fb2c5a09e0d2b3557f0e943d18e82bfe595821d698eac5d5991e30bcffc",
+          "members": 131,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260105-213447.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 13310,
+          "sha256": "f572b06271d313997704c08113bc0475d24e325529bdbb32eaaa674ec8755d27",
+          "members": 25,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260112-212754.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 233345,
+          "sha256": "e7995f194855de2b8de50f41845fe7f0a571afce52e730a7f0891dfd4d12d354",
+          "members": 169,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260119-211610.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 306858,
+          "sha256": "5dbf2b551e643484e336a1e962ddfa4f8cce604a9cae6e71bb119ab42ad4b0ff",
+          "members": 208,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260126-211407.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 276217,
+          "sha256": "5988bb8c269967e5b2bf87f505e0a8fddd23cc1cd28529f93f9a5c10aed92635",
+          "members": 202,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260202-213906.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 281944,
+          "sha256": "6a36328aaf9d79de46c6cb8610f454e73da23f7167c2fcf536d26cf34bff176b",
+          "members": 188,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260209-211306.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 238363,
+          "sha256": "8b2aa0f42a56550a4bd98cf9c1f8dfd409220f6d41710d68868e39fd6a0b3b8c",
+          "members": 181,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260216-213927.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 281568,
+          "sha256": "3a34cf336f7498933ddc5bed0b4ecd5786d083101af63f987e7e14604d7a3ea9",
+          "members": 203,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260223-224003.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 230837,
+          "sha256": "6d372cee1ce04f82f4ab8b401f93642def72022972341ac426866b400585e2f4",
+          "members": 162,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260302-213830.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 18997,
+          "sha256": "bfc5e7fca14fb8c50220a207816f4b31d32640f1d897587171a1e2ce74a6db13",
+          "members": 26,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260309-211112.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 238556,
+          "sha256": "b5f91bd8ca51949964ace7612ef998606d2d43e074ec92237bfe14aa384cdbbf",
+          "members": 187,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260316-213019.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 68990,
+          "sha256": "d342d599686ec23a583e2316e467f64bc77ac5179b80ebbe2abd98096c6b206f",
+          "members": 72,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260330-213449.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 5870,
+          "sha256": "23c063d2b14a72bac0810298b109f841bab7a00aaf52b08218285c4c610132da",
+          "members": 14,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260406-200945.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 432771,
+          "sha256": "7c5647b457aa697dd6ba5f133c856a6519b97460f223746adcd16d8cd89e6497",
+          "members": 301,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260413-220055.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 370246,
+          "sha256": "4c97e9d6f77f0736ad973d76a28f204e95bbcf9218e5b2e362185bfded121955",
+          "members": 271,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260420-214116.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 232772,
+          "sha256": "a3a4ad26c9cecdbbb4c44631d4cd0f5ae3a8e3afa85def52ae63affa8b44191d",
+          "members": 186,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260427-212938.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 50515,
+          "sha256": "a1c7af0dbc8f1f7431910d6c34fda367ed100f84b57f9abf5ff0f31e910ddaaa",
+          "members": 71,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260504-212959.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 194622,
+          "sha256": "fae55a9d23535de91b927086d0b5ebef62017c3533a93650da1c2a08a5dd8665",
+          "members": 173,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260511-222130.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 131811,
+          "sha256": "43862a8c5b162332980341ccb180cfb6c6d60642d89b704e0f5f76e1dd507545",
+          "members": 113,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260518-211450.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 201270,
+          "sha256": "f7a2261e04b7fa09fed4b8a0e6f31777d69de7e772fc5b8acca1434bb7a2ca60",
+          "members": 133,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260601-220831.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 331722,
+          "sha256": "b06a833818d5172b1e1e3e88aa0c9f6e5a916bc944488df8d8b60b2274319463",
+          "members": 221,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260608-213910.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 247021,
+          "sha256": "d25a024191cc6c94a165410cb7e1f22ab0d28d8640879bd3d7d68fc328f641b5",
+          "members": 186,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260615-221231.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 325350,
+          "sha256": "a23e38b7dca73e442dac47788344bd7cca8516828e543af069ca0364d35d8981",
+          "members": 187,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260622-213822.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 276694,
+          "sha256": "20854c047a130a0b5531142cd9a1a6e86d807af48f3419833a2a146b0fc6aab7",
+          "members": 180,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260629-223234.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 201496,
+          "sha256": "9927f96f7b3ecd24b2196df7ed6b62a39d3ec2eabda80de51b0ad3435c0ad72a",
+          "members": 154,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260706-211216.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 278182,
+          "sha256": "7f5d71998d2acb7123769e1ebec57efed5da859e5db435094134dca1bd2df4a0",
+          "members": 177,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260713-212510.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 297554,
+          "sha256": "e4327fb4526c3aa6c2d136e56feda0427d1b415d692add6ce2dbb6a5d49f66dd",
+          "members": 186,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260720-210701.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 195729,
+          "sha256": "3619787defe629c41e1ee04becdf7fd5d2401a01e02e32d24b16fac50c773dd8",
+          "members": 150,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260727-214936.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 227356,
+          "sha256": "e8d917b4a1d3233982028ff0a33179477fb5934b6f3a493704f1b9e62f8e8c08",
+          "members": 161,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260803-212828.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 135262,
+          "sha256": "668537288a3410aa5ac39a42ba3ca21eb55d757fa01d333184a3504d7a08ac46",
+          "members": 131,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260810-213209.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 125224,
+          "sha256": "e6d4b939d8b8b753c51506f528698ccd502ac018b656213ab97cd2cdb7910e06",
+          "members": 118,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260817-212752.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 41567,
+          "sha256": "6308e71a6d9b19db8b17e15d6c3babb22940f118c3cc058fea7060ad158b61b6",
+          "members": 54,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260824-213520.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 13928,
+          "sha256": "d3f10fbd18598c4206f2bf2ededa6f25ca656bab465ddf4f46459b05965852ec",
+          "members": 34,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260907-214720.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 125176,
+          "sha256": "ff4d93ad00e81d656a986e1b9cc73714636ba97c5bbb2b14c2731eaef5921ad9",
+          "members": 121,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260914-210916.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 136078,
+          "sha256": "59bb4a014477294ae3eff57c946235a14677294136b39975af579ecafd8f266e",
+          "members": 118,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260921-220149.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 7750,
+          "sha256": "5fa74c41e678ff8c23b866776571f2bbc516815abeb3bbcd58e07756e3ae8289",
+          "members": 13,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260930-215413.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 358209,
+          "sha256": "3e9749126d2467ea380d12bae6ee7e58c8be7ac92c72e79e9030f57ac2c5024a",
+          "members": 249,
+          "matched": 0,
+          "deleted": false
+        }
+      ],
+      "reference": "employment-legal/references/hiring-review-fr.md (Cass. soc., 10 juillet 2002, n° 00-45.135)",
+      "passages_cites_dans_le_texte": [
+        {
+          "passage": "une clause de non-concurrence n'est licite que si elle est indispensable à la protection des intérêts légitimes",
+          "present": true
+        },
+        {
+          "passage": "de l'entreprise, limitée dans le temps et dans l'espace, qu'elle tient compte des spécificités de l'emploi du salarié",
+          "present": true
+        },
+        {
+          "passage": "et comporte l'obligation pour l'employeur de verser au salarié une contrepartie financière",
+          "present": true
+        },
+        {
+          "passage": "CASSE ET ANNULE, mais seulement en sa disposition rejetant la demande de dommages-intérêts pour clause de non-concurrence",
+          "present": true
+        },
+        {
+          "passage": "L. 120-2",
+          "present": true
+        }
+      ],
+      "fiche_comparee": {
+        "ecli": "non affiché dans la fiche ; champ ECLI vide dans le XML",
+        "solution": "cassation partielle (fiche) ; Cassation partielle (XML)",
+        "decision_attaquee": "CA Reims, 28 juin 2000 (fiche) ; Cour d'appel de Reims, 2000-06-28 (XML)"
+      }
+    },
+    {
+      "commande": "python scripts/legal_sources.py --timeout 60 juri-read CONSTIT CONSTEXT000054148611",
+      "date": "2026-10-19T10:26:03.438920+00:00",
+      "duree_secondes": 7,
+      "code_sortie": 0,
+      "state": "retrieved",
+      "statut": "lu",
+      "selection": "Dernier stock CONSTIT complet et tous les lots quotidiens publiés après lui",
+      "coverage": "Décisions publiées dans les archives lues seulement ; une décision non encore intégrée par la DILA, ou publiée après le dernier lot, n'est pas couverte.",
+      "documentary_status": "non-verifie",
+      "applicability": "a-etablir",
+      "decision": {
+        "id": "CONSTEXT000054148611",
+        "document": "TEXTE_JURI_CONSTIT",
+        "nature": "QPC",
+        "titre": "M. Yves F. [Expropriation de biens déclarés en état d’abandon manifeste]",
+        "juridiction": "Conseil constitutionnel",
+        "date": "2026-05-22",
+        "numero": "2026-1200",
+        "solution": "Conformité",
+        "numeros_affaires": [],
+        "ecli": "ECLI:FR:CC:2026:2026.1200.QPC",
+        "formation": "",
+        "publication": "",
+        "archive": "CONSTIT_20261005-214539.tar.gz",
+        "archive_member": "20261005-214539/constit/global/CONS/TEXT/00/00/54/14/86/CONSTEXT000054148611.xml",
+        "xml_sha256": "caa5b49e61c0c139eb70fac37ac357ebcabf6399f2d00095b4a360f8cc119c56",
+        "archive_sha256": "820ac04bcee1b26c780130b1dcdb7f7319b0eaf01daa37c5e547850405bb9639"
+      },
+      "occurrences": [
+        {
+          "archive": "CONSTIT_20260528-212842.tar.gz",
+          "archive_sha256": "538c4491c1dbd75ba5dd4af8e0a75f7069a4ee428d84a03e359790ab639cba1a",
+          "member": "20260528-212842/constit/global/CONS/TEXT/00/00/54/14/86/CONSTEXT000054148611.xml",
+          "xml_sha256": "d32c6950079a6fe84ac9006d2292551fd0f3a1fd97e13ec8f01674723eaa03ab"
+        },
+        {
+          "archive": "CONSTIT_20260622-213822.tar.gz",
+          "archive_sha256": "7abfcfc04c3151489f294224fb66475130f7c19939d37a4d10ef1f41597423e0",
+          "member": "20260622-213822/constit/global/CONS/TEXT/00/00/54/14/86/CONSTEXT000054148611.xml",
+          "xml_sha256": "95e6ca3bee2f0a840f7a037c9bfcfa2c51e44ba1a060355ad56f6addb9178e6e"
+        },
+        {
+          "archive": "CONSTIT_20261005-214539.tar.gz",
+          "archive_sha256": "820ac04bcee1b26c780130b1dcdb7f7319b0eaf01daa37c5e547850405bb9639",
+          "member": "20261005-214539/constit/global/CONS/TEXT/00/00/54/14/86/CONSTEXT000054148611.xml",
+          "xml_sha256": "caa5b49e61c0c139eb70fac37ac357ebcabf6399f2d00095b4a360f8cc119c56"
+        }
+      ],
+      "texte": {
+        "caracteres": 24036,
+        "sha256": "9181c7086ac9b6fbc42cd9eb59034de346b883d83fe08c78df44651504c1041b",
+        "debut": "LE CONSEIL CONSTITUTIONNEL A ÉTÉ SAISI le 2 mars 2026 par le Conseil d'État (décision n°&nbsp;510442 du 27 février 2026)"
+      },
+      "sommaire_separe": false,
+      "archives_lues": 23,
+      "octets_compresses": 14703084,
+      "attempts": [
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 4461,
+          "sha256": "aec38e4fc45297b0fe37ff9a8f43c761621f4586fb59352a31ee98b51f523ed0"
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/Freemium_constit_global_20250713-140000.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 12511366,
+          "sha256": "67270556060b481ec139f21436244af913cccd3eb6e074c65d6600f48596f627",
+          "members": 7872,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20250716-211907.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 59012,
+          "sha256": "7f5e3da34d5609ddfff484b7e2ddb7e677677b2b9651a7597ca8bc007baa6678",
+          "members": 115,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20250724-212607.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 34846,
+          "sha256": "b52367bd8e53e31d9819138c1ab2a46e65aa601abff15bd525d39437256669fa",
+          "members": 51,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20250725-221340.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 58799,
+          "sha256": "198d7136c1661686909a07f01e5e6942895aec14b994068acbb64a9abf5fb778",
+          "members": 11,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20250812-214714.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 99505,
+          "sha256": "887e17fc68f5effd79907c67bb7d9ab70f37ea8b9add8d2dfd2dd737b59f74e8",
+          "members": 37,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20250829-210649.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 14089,
+          "sha256": "57cfa95e404014d4c8c3b0a5583e98e7f612a1e5bdbb3907d8bf1c8618b14f5d",
+          "members": 15,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20251007-212923.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 765300,
+          "sha256": "4032de5983f7d02f925e88cbfa818c22c1ba47b49c6eeae954e8180c6b88fd40",
+          "members": 190,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20251008-211500.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 40103,
+          "sha256": "ac7961ae63b635a065bd5134369f979deb28022ecd0691eebf1491ee530fd5d6",
+          "members": 22,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20251110-211525.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 92804,
+          "sha256": "1bdc72216634bde5601b01c5d61be083a26adc6d364b9a60e718b641e29c2654",
+          "members": 57,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20251208-211633.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 150834,
+          "sha256": "344c779fb9276bd13df1a8fa2a34b73caa034618d27a2d29ab4af72dfef3544b",
+          "members": 49,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20260116-213855.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 60750,
+          "sha256": "b5a3618715ecbe18168eeda45d9def41657e05df02fecc373334622d9b8f29e1",
+          "members": 43,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20260205-212615.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 116359,
+          "sha256": "4a295f716eb6b7d0e4506b859f1e95484464ded010fe3cb96bead7b6551ccb0c",
+          "members": 69,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20260305-214718.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 99612,
+          "sha256": "3edabd2d6b44e0cee2e3769b53f01d0f4c7874b2ac56b1b79f4a592acad4f667",
+          "members": 57,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20260316-213019.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 22963,
+          "sha256": "8547cf1ce8a5ad6ba3761df83286321b4ad3d3c1cc099d0fcd73cb4eff7514a3",
+          "members": 28,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20260420-214116.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 139190,
+          "sha256": "ee25df9c92e81464c311fadde228e4fa9e34b7efc04a58b7ac1f29a0ef75be39",
+          "members": 72,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20260512-214003.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 6234,
+          "sha256": "9a8789dd8b17664a01bda7edaed8750f64b220dabc04d56cb2b2a9ffc34b30f7",
+          "members": 12,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20260515-205921.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 30786,
+          "sha256": "2e1a9dcb17fec4749c69d358a5e8627877fed8a1899e15925e7c7b2d045f7d21",
+          "members": 27,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20260528-212842.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 33646,
+          "sha256": "538c4491c1dbd75ba5dd4af8e0a75f7069a4ee428d84a03e359790ab639cba1a",
+          "members": 20,
+          "matched": 1,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20260622-213822.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 67568,
+          "sha256": "7abfcfc04c3151489f294224fb66475130f7c19939d37a4d10ef1f41597423e0",
+          "members": 36,
+          "matched": 1,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20260623-205747.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 8092,
+          "sha256": "14c314ea58233bf157e3d26e90278309b6b08ad842086bae78062b6f534faca7",
+          "members": 12,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20260708-215132.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 39715,
+          "sha256": "9f0e156d233c9069095f121c4cf3b2c5f525f9ce5ef9593038b284cded0db260",
+          "members": 17,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20260804-220219.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 64440,
+          "sha256": "4faf053441360ef490a7c24067c3184a5366acafa325a7b17bbf5c809e904d1e",
+          "members": 30,
+          "matched": 0,
+          "deleted": false
+        },
+        {
+          "url": "https://echanges.dila.gouv.fr/OPENDATA/CONSTIT/CONSTIT_20261005-214539.tar.gz",
+          "state": "retrieved",
+          "http_status": 200,
+          "bytes": 187071,
+          "sha256": "820ac04bcee1b26c780130b1dcdb7f7319b0eaf01daa37c5e547850405bb9639",
+          "members": 36,
+          "matched": 1,
+          "deleted": false
+        }
+      ]
+    }
+  ]
+}

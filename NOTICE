@@ -1008,3 +1008,16 @@ BASE-008 closure (2026-10-19): record the real symbolic-link refusal observed
 on Linux (16 tests, 15 passed, Windows junction scenario skipped); no plugin
 or runtime content changed.
   references/base008-validation.md
+
+BASE-018 changes (2026-10-19): maintenance tool legal_sources.py adds the
+CAPP fund and juri-read, which reads one court decision by identifier from
+the latest DILA case-law stock (CASS, INCA, CAPP, JADE, CONSTIT) and every
+later delta, streamed, with identity, metadata, text, hashes and explicit
+failure states; editorial summaries are kept apart from the decision text.
+Eight offline tests added; access procedure and repository CLAUDE.md
+document it as maintenance only. No plugin or runtime content changed.
+  CLAUDE.md
+  NOTICE
+  references/legal-source-access.md
+  scripts/legal_sources.py
+  scripts/test-legal-sources.py

@@ -307,6 +307,114 @@ class OfficialSourcesTests(unittest.TestCase):
         self.assertIn("L1221-19", numbers)
         self.assertTrue(all(sources.LABOUR_ARTICLE.fullmatch(n) for n in numbers))
 
+    CASS_STOCK = "https://echanges.dila.gouv.fr/OPENDATA/CASS/Freemium_cass_global_20250713-140000.tar.gz"
+    CASS_DELTA = "https://echanges.dila.gouv.fr/OPENDATA/CASS/CASS_20260930-215413.tar.gz"
+    DECISION = "JURITEXT000007046365"
+
+    @staticmethod
+    def decision(identifier, solution="Cassation partielle", text="Attendu que la clause<br/>est nulle ;", summary=""):
+        sommaire = (f'<SOMMAIRE><SCT ID="8A" TYPE="PRINCIPAL">CONTRAT DE TRAVAIL</SCT><ANA ID="8A">{summary}</ANA>'
+                    f'</SOMMAIRE><CITATION_JP><CONTENU>A RAPPROCHER : Soc., 1998-04-07</CONTENU></CITATION_JP>') if summary else ""
+        return (f'<TEXTE_JURI_JUDI><META><META_COMMUN><ID>{identifier}</ID><NATURE>ARRET</NATURE></META_COMMUN>'
+                f'<META_SPEC><META_JURI><TITRE>Cour de cassation, chambre sociale, 10 juillet 2002, 00-45.135</TITRE>'
+                f'<DATE_DEC>2002-07-10</DATE_DEC><JURIDICTION>Cour de cassation</JURIDICTION><NUMERO>50202723</NUMERO>'
+                f'<SOLUTION>{solution}</SOLUTION></META_JURI><META_JURI_JUDI><NUMEROS_AFFAIRES>'
+                f'<NUMERO_AFFAIRE>00-45135</NUMERO_AFFAIRE></NUMEROS_AFFAIRES><PUBLI_BULL publie="oui"/>'
+                f'<FORMATION>CHAMBRE_SOCIALE</FORMATION><FORM_DEC_ATT>Cour d\'appel de Reims</FORM_DEC_ATT>'
+                f'<DATE_DEC_ATT>2000-06-28</DATE_DEC_ATT><ECLI>ECLI:FR:CCASS:2002:SO02723</ECLI></META_JURI_JUDI>'
+                f'</META_SPEC></META><TEXTE><BLOC_TEXTUEL><CONTENU>{text}</CONTENU></BLOC_TEXTUEL>{sommaire}</TEXTE>'
+                f'</TEXTE_JURI_JUDI>').encode()
+
+    @staticmethod
+    def juri_path(identifier, root="x/juri/cass/global/sociale"):
+        return f"{root}/JURI/TEXT/00/00/07/04/63/{identifier}.xml"
+
+    def juri(self, archives, **kwargs):
+        return sources.juri_read("CASS", self.DECISION, archives=list(archives),
+                                 stream=self.streams(archives), **kwargs)
+
+    def test_juri_reads_latest_publication_with_identity_text_and_hashes(self):
+        stock = self.legi_archive([(self.juri_path(self.DECISION), self.decision(self.DECISION, solution="Rejet"))])
+        delta = self.legi_archive([(self.juri_path(self.DECISION), self.decision(self.DECISION, summary="Analyse éditoriale"))])
+        output = self.juri({self.CASS_STOCK: stock, self.CASS_DELTA: delta})
+        self.assertEqual((output["state"], output["statut"]), ("retrieved", "lu"))
+        decision = output["decision"]
+        self.assertEqual(decision["solution"], "Cassation partielle")
+        self.assertEqual(decision["archive"], self.CASS_DELTA.rsplit("/", 1)[-1])
+        self.assertEqual((decision["date"], decision["ecli"], decision["numeros_affaires"]),
+                         ("2002-07-10", "ECLI:FR:CCASS:2002:SO02723", ["00-45135"]))
+        self.assertEqual(decision["decision_attaquee"], {"juridiction": "Cour d'appel de Reims", "date": "2000-06-28"})
+        self.assertEqual(decision["publication"], "bulletin: oui")
+        self.assertEqual(output["text"], "Attendu que la clause\nest nulle ;")
+        self.assertEqual(output["sommaire"], "CONTRAT DE TRAVAIL\n\nAnalyse éditoriale\n\nA RAPPROCHER : Soc., 1998-04-07")
+        self.assertNotIn("Analyse", output["text"])
+        self.assertNotIn("RAPPROCHER", output["text"])
+        self.assertEqual(len(output["occurrences"]), 2)
+        self.assertEqual(len(decision["xml_sha256"]), 64)
+        self.assertEqual(len(decision["archive_sha256"]), 64)
+        self.assertEqual((output["documentary_status"], output["applicability"]), ("non-verifie", "a-etablir"))
+
+    def test_juri_absent_identifier_is_not_a_success(self):
+        stock = self.legi_archive([(self.juri_path("JURITEXT000000000001"), self.decision("JURITEXT000000000001"))])
+        output = self.juri({self.CASS_STOCK: stock})
+        self.assertEqual((output["state"], output["statut"]), ("unavailable", "absent-des-archives-lues"))
+        self.assertNotIn("decision", output)
+
+    def test_juri_failed_archive_gives_no_partial_answer(self):
+        stock = self.legi_archive([(self.juri_path(self.DECISION), self.decision(self.DECISION))])
+        output = self.juri({self.CASS_STOCK: stock, self.CASS_DELTA: None})
+        self.assertEqual((output["state"], output["statut"]), ("unavailable", "lecture-incomplete"))
+        self.assertNotIn("decision", output)
+        self.assertIsNone(output["text"])
+        self.assertEqual(output["attempts"][-1]["state"], "transport-error")
+
+    def test_juri_member_and_duration_limits_are_not_successes(self):
+        stock = self.legi_archive([("x/a.xml", b"<a/>"), (self.juri_path(self.DECISION), self.decision(self.DECISION))])
+        with patch.dict(sources.STREAM_LIMITS, {"members": 1}):
+            output = self.juri({self.CASS_STOCK: stock})
+        self.assertEqual((output["state"], output["statut"]), ("unavailable", "lecture-incomplete"))
+        clock = iter([0, 0, 120, 120, 120])
+        with patch.object(sources.time, "monotonic", lambda: next(clock)):
+            output = self.juri({self.CASS_STOCK: stock}, max_minutes=1)
+        self.assertEqual((output["state"], output["statut"]), ("unavailable", "lecture-incomplete"))
+        self.assertEqual(output["attempts"][0]["reason"], "TimeoutError")
+
+    def test_juri_deletion_list_withdraws_decision(self):
+        stock = self.legi_archive([(self.juri_path(self.DECISION), self.decision(self.DECISION))])
+        delta = self.legi_archive([("x/liste_suppression_cass.dat",
+                                    ("juri/cass/global/sociale/JURI/TEXT/00/00/07/04/63/" + self.DECISION + "\n").encode())])
+        output = self.juri({self.CASS_STOCK: stock, self.CASS_DELTA: delta})
+        self.assertEqual(output["statut"], "absent-des-archives-lues")
+        self.assertTrue(output["attempts"][-1]["deleted"])
+
+    def test_juri_divergent_copies_and_wrong_identity_are_refused(self):
+        stock = self.legi_archive([(self.juri_path(self.DECISION), self.decision(self.DECISION)),
+                                   (self.juri_path(self.DECISION, "x/juri/cass/global"), self.decision(self.DECISION, solution="Rejet"))])
+        self.assertEqual(self.juri({self.CASS_STOCK: stock})["statut"], "copies-divergentes")
+        stock = self.legi_archive([(self.juri_path(self.DECISION), self.decision("JURITEXT000000000001"))])
+        output = self.juri({self.CASS_STOCK: stock})
+        self.assertEqual((output["state"], output["statut"]), ("unavailable", "xml-invalide"))
+
+    def test_juri_refuses_wrong_fund_identifier_and_archives(self):
+        for fund, identifier, archives in (("LEGI", self.DECISION, [self.CASS_STOCK]),
+                                           ("JADE", self.DECISION, None),
+                                           ("CASS", "JURITEXT00000704636", [self.CASS_STOCK]),
+                                           ("CASS", self.DECISION, [self.CASS_STOCK.replace("CASS/", "CAPP/")]),
+                                           ("CASS", self.DECISION, ["https://example.com/CASS_20260930-215413.tar.gz"]),
+                                           ("CASS", self.DECISION, [])):
+            with self.subTest(fund=fund, identifier=identifier, archives=archives), self.assertRaises(ValueError):
+                sources.juri_read(fund, identifier, archives=archives, transport=lambda *a, **k: self.fail("network call"),
+                                  stream=lambda *a, **k: self.fail("network call"))
+
+    def test_juri_selects_fund_stock_and_later_deltas(self):
+        html = "".join(f'<a href="{n}">{n}</a>' for n in (
+            "Freemium_capp_global_20250713-140000.tar.gz", "CAPP_20250707-210159.tar.gz",
+            "CAPP_20261008-213853.tar.gz", "Freemium_cass_global_20250713-140000.tar.gz"))
+        self.assertIn("CAPP", sources.FUNDS)
+        _, archives = sources.fund_archives("CAPP", transport=lambda *a, **k: response(html))
+        self.assertEqual([a.rsplit("/", 1)[-1] for a in archives],
+                         ["Freemium_capp_global_20250713-140000.tar.gz", "CAPP_20261008-213853.tar.gz"])
+
     def test_hidden_scripts_do_not_supply_expected_passage(self):
         text, _ = sources.extract_text("<script>fake law</script><p>real content</p>")
         self.assertEqual(text, "real content")

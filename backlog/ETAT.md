@@ -7,11 +7,11 @@
 | En cours | 0 |
 | À vérifier | 7 |
 | Bloquée | 0 |
-| Terminée | 59 |
+| Terminée | 60 |
 | Prête | 0 |
-| À faire | 664 |
+| À faire | 663 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 199 |
+| dont prêtes à démarrer | 198 |
 | Total | 753 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
@@ -39,7 +39,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 
 | Story | Titre | Priorité | Nature |
 | --- | --- | --- | --- |
-| [BASE-018](00-fondations/suites/base-018-lecture-decisions-dila.md) | Lire une décision par son identifiant dans les fonds de jurisprudence DILA | P2 | implementation |
 | [COM-013](02-plugins-existants/suites/com-013-preferences-commerciales.md) | Créer et modifier des préférences commerciales volontaires | P2 | implementation |
 | [COM-019](02-plugins-existants/suites/com-019-demande-paiement-suspecte.md) | Lire une demande de paiement présentée comme une obligation administrative | P2 | implementation |
 | [COM-020](02-plugins-existants/suites/com-020-abonnement-mandat-formalites.md) | Expliquer un abonnement ou mandat lié aux formalités d'entreprise | P2 | implementation |
@@ -273,6 +272,8 @@ Stories à faire dont toutes les dépendances sont terminées.
   <br>Annexes : [base-016-verification.md](00-fondations/suites/base-016-annexes/base-016-verification.md)
 - [BASE-017](00-fondations/suites/base-017-recette-jurisprudence-runtime.md) — Recetter la recherche de jurisprudence d'un skill dans un client isolé
   <br>Annexes : [base-017-pieces-fictives.md](00-fondations/suites/base-017-annexes/base-017-pieces-fictives.md) · [base-017-recette.py](00-fondations/suites/base-017-annexes/base-017-recette.py) · [base-017-resultats.json](00-fondations/suites/base-017-annexes/base-017-resultats.json)
+- [BASE-018](00-fondations/suites/base-018-lecture-decisions-dila.md) — Lire une décision par son identifiant dans les fonds de jurisprudence DILA
+  <br>Annexes : [base-018-lecture-reseau.json](00-fondations/suites/base-018-annexes/base-018-lecture-reseau.json)
 - [BASE-019](00-fondations/suites/base-019-lu-ou-fiche-embarquee.md) — Distinguer, dans le corps d'une note, décision lue et fiche embarquée
   <br>Annexes : [base-019-resultats.json](00-fondations/suites/base-019-annexes/base-019-resultats.json)
 - Autres documents : [retrospective-fondations.md](00-fondations/retrospective-fondations.md)
@@ -378,15 +379,6 @@ Stories à faire dont toutes les dépendances sont terminées.
 ## À faire, par famille
 
 ✅ = prête à démarrer. Sinon, la colonne indique les dépendances non terminées.
-
-<details>
-<summary><b>BASE</b> — Fondations (00 — Fondations) : 1 à faire, 1 prêtes</summary>
-
-| Story | Titre | Priorité | Bloquée par |
-| --- | --- | --- | --- |
-| [BASE-018](00-fondations/suites/base-018-lecture-decisions-dila.md) | Lire une décision par son identifiant dans les fonds de jurisprudence DILA | P2 | ✅ |
-
-</details>
 
 <details>
 <summary><b>TRAV</b> — Travail (suites du pilote) (01 — Pilote travail) : 59 à faire, 54 prêtes</summary>
