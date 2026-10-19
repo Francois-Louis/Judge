@@ -201,3 +201,26 @@ contrat et preuve de sortie. Le calendrier D01–D15 et les réflexes R01–R10
 du guide sont des exigences de recherche/sortie, pas du droit validé. Les
 relevés du cadrage initial à douze propositions restent historiques ;
 [contrôles et portée du complément](dom-009-frictions-verification.md).
+
+## Suites export coutellerie — 19 octobre 2026
+
+À la demande de l'utilisateur, dont l'entreprise exporte des couteaux vers de
+nombreux pays tiers, sept candidats sont découpés en stories `proposee`. Ces
+stories ne livrent aucun skill et ne lancent aucune tranche.
+
+| Rang | Story | Skill proposé | Sortie bornée | Candidats repris |
+|---|---|---|---|---|
+| 2 | [DOU-013](../suites/dou-013-calendrier-declaration-export.md) | `export-declaration-timeline` | Calendrier d'une déclaration d'exportation déposée à l'avance | K05, points 34/38/39 |
+| 2 | [DOU-014](../suites/dou-014-admissibilite-couteau-destination.md) | `knife-destination-check` | Admissibilité d'un couteau par pays, fiches pays datées | C24, K01, points 53/58 |
+| 2 | [DOU-015](../suites/dou-015-matieres-naturelles-export.md) | `knife-materials-check` | Contrôles CITES et biosécurité des matières naturelles | C22, K02, point 55 |
+| 2 | [DOU-016](../suites/dou-016-origine-preferentielle-export.md) | `export-origin-statement` | Preuve d'origine préférentielle par accord | K04, C19, points 28–31 |
+| 2 | [DOU-017](../suites/dou-017-fiche-pays-export.md) | `destination-market-file` | Fiche pays d'une vente vers un pays tiers | K05, points 35–39/53 |
+| 4 | [DOU-018](../suites/dou-018-retour-sav-hors-ue.md) | `return-repair-documents` | Retour pour réparation d'un produit vendu hors UE | K03, C04, C05, points 47/48 |
+| 4 | [DOU-019](../suites/dou-019-echantillons-salon-hors-ue.md) | `trade-show-samples` | Sortie temporaire d'échantillons pour un salon | C07, point 50 |
+
+DOU-017 assemble les autres volets et garde en question explicite tout volet
+dont la tâche n'est pas livrée. C21 (restrictions d'exportation et double
+usage) reste un candidat : aucun indice ne le rattache aux couteaux ordinaires
+des pays demandés. Les pistes relevées lors du découpage (article 171 du CDU
+lu sur EUR-Lex ; autres pistes de sources secondaires) sont consignées dans
+chaque story et restent à vérifier à l'implémentation.

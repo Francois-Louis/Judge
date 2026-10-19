@@ -9,10 +9,10 @@
 | Bloquée | 0 |
 | Terminée | 62 |
 | Prête | 0 |
-| À faire | 661 |
+| À faire | 668 |
 | Abandonnée | 23 |
-| dont prêtes à démarrer | 196 |
-| Total | 753 |
+| dont prêtes à démarrer | 200 |
+| Total | 760 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -84,6 +84,9 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOU-007](03-nouveaux-domaines/suites/dou-007-preparer-origine.md) | Préparer les preuves d'origine d'une marchandise | P2 | implementation |
 | [DOU-008](03-nouveaux-domaines/suites/dou-008-preparer-valeur.md) | Préparer les éléments d'une valeur en douane | P2 | implementation |
 | [DOU-012](03-nouveaux-domaines/suites/dou-012-dossier-vehicule.md) | Préparer le dossier douanier d'un véhicule de particulier | P2 | implementation |
+| [DOU-013](03-nouveaux-domaines/suites/dou-013-calendrier-declaration-export.md) | Établir le calendrier d'une déclaration d'exportation déposée à l'avance | P2 | implementation |
+| [DOU-014](03-nouveaux-domaines/suites/dou-014-admissibilite-couteau-destination.md) | Vérifier l'admissibilité d'un couteau dans un pays de destination | P2 | implementation |
+| [DOU-015](03-nouveaux-domaines/suites/dou-015-matieres-naturelles-export.md) | Identifier les contrôles liés aux matières naturelles d'un couteau exporté | P2 | implementation |
 | [ETU-001](02-plugins-existants/suites/etu-001-qualifier-exercice.md) | Qualifier la consigne et le cadre d’un exercice | P2 | implementation |
 | [HUB-001](02-plugins-existants/suites/hub-001-identite-provenance.md) | Identifier l’origine et la version d’un skill | P2 | implementation |
 | [IA-001](02-plugins-existants/suites/ia-001-inventaire-factuel.md) | Inventorier un système IA sans le classer | P2 | implementation |
@@ -235,6 +238,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOU-005](03-nouveaux-domaines/suites/dou-005-preparer-exportation.md) | Préparer les pièces d'une exportation définitive ordinaire | P3 | implementation |
 | [DOU-010](03-nouveaux-domaines/suites/dou-010-demande-remboursement.md) | Préparer une demande de remboursement douanier | P3 | implementation |
 | [DOU-011](03-nouveaux-domaines/suites/dou-011-demande-remise.md) | Préparer une demande de remise d'une dette douanière | P3 | implementation |
+| [DOU-019](03-nouveaux-domaines/suites/dou-019-echantillons-salon-hors-ue.md) | Préparer la sortie temporaire d'échantillons pour un salon hors de l'Union | P3 | implementation |
 
 ## Terminées
 
@@ -947,7 +951,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>DOU</b> — Douanes et import-export (03 — Nouveaux domaines) : 9 à faire, 9 prêtes</summary>
+<summary><b>DOU</b> — Douanes et import-export (03 — Nouveaux domaines) : 16 à faire, 13 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -960,6 +964,13 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [DOU-010](03-nouveaux-domaines/suites/dou-010-demande-remboursement.md) | Préparer une demande de remboursement douanier | P3 | ✅ |
 | [DOU-011](03-nouveaux-domaines/suites/dou-011-demande-remise.md) | Préparer une demande de remise d'une dette douanière | P3 | ✅ |
 | [DOU-012](03-nouveaux-domaines/suites/dou-012-dossier-vehicule.md) | Préparer le dossier douanier d'un véhicule de particulier | P2 | ✅ |
+| [DOU-013](03-nouveaux-domaines/suites/dou-013-calendrier-declaration-export.md) | Établir le calendrier d'une déclaration d'exportation déposée à l'avance | P2 | ✅ |
+| [DOU-014](03-nouveaux-domaines/suites/dou-014-admissibilite-couteau-destination.md) | Vérifier l'admissibilité d'un couteau dans un pays de destination | P2 | ✅ |
+| [DOU-015](03-nouveaux-domaines/suites/dou-015-matieres-naturelles-export.md) | Identifier les contrôles liés aux matières naturelles d'un couteau exporté | P2 | ✅ |
+| [DOU-016](03-nouveaux-domaines/suites/dou-016-origine-preferentielle-export.md) | Préparer l'attestation d'origine préférentielle d'une vente à l'export | P2 | DOU-007 |
+| [DOU-017](03-nouveaux-domaines/suites/dou-017-fiche-pays-export.md) | Établir la fiche pays d'une vente de produits vers un pays tiers | P2 | DOU-005 |
+| [DOU-018](03-nouveaux-domaines/suites/dou-018-retour-sav-hors-ue.md) | Préparer le retour pour réparation d'un produit vendu hors de l'Union | P3 | DOU-005 |
+| [DOU-019](03-nouveaux-domaines/suites/dou-019-echantillons-salon-hors-ue.md) | Préparer la sortie temporaire d'échantillons pour un salon hors de l'Union | P3 | ✅ |
 
 </details>
 
