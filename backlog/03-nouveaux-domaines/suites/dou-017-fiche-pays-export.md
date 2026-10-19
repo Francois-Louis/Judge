@@ -68,6 +68,9 @@ Signalement des régimes instables (droits de douane américains modifiés en
   de chiffre d'affaires du vendeur) ; suspension américaine de l'exemption de
   faible valeur depuis août 2025 et régime tarifaire applicable aux biens de
   l'Union après la décision de la Cour suprême du 20 février 2026.
+- Signaler les obligations de responsabilité élargie du producteur pour les
+  emballages dans le pays de destination et renvoyer leur qualification à
+  PDT-027 (`product-legal`), sans les traiter dans cette fiche.
 - Séparer contrat (V03), fiscalité française de l'export (V04), formalités
   douanières UE et droit du pays de destination.
 - Ne présenter aucun taux, seuil ou régime étranger sans source officielle

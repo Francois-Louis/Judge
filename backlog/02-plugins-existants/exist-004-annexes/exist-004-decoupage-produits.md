@@ -134,3 +134,16 @@ La [matrice des 140 frictions](exist-004-frictions-utilisateurs.md) ajoute PDT-0
 PDT-020 possède la fiche flux/pays/filière/rôle REP ; PDT-021 consomme cette fiche ou son équivalent manuel et possède le rapprochement de déclaration ; PDT-022 possède la preuve d’identification et de communication. PDT-023 possède la revue de marquage d’une maquette pour un marché. PDT-024 possède la nomenclature, les usages et les rôles PPWR ; PDT-025 possède le calendrier par disposition et ses conditions, sans double qualification REP. Le calendrier métier est embarqué chez produit ; la veille ne remplace pas ces références.
 
 Les huit ajouts sont proposés et ne changent pas la première tranche suggérée PDT-001. Les bilans et empreintes historiques couvrent les 17 propositions initiales ; portée et contrôles de l’ajout dans le [relevé dédié](exist-004-frictions-verification.md).
+
+## Complément emballages export — 19 octobre 2026
+
+Sur remarque de l'utilisateur, exportateur de couteaux, trois stories
+`proposee` complètent PDT-020 à PDT-025 sans implémentation :
+
+| Story | Sortie bornée | Dépendance |
+|---|---|---|
+| [PDT-026](../suites/pdt-026-fabricant-emballage-ppwr.md) | Rôle de fabricant PPWR d'une boîte à son nom ou sa marque et obligations documentaires | PDT-024 |
+| [PDT-027](../suites/pdt-027-rep-emballages-autres-pays.md) | REP emballages d'une vente directe dans un autre État membre ou un pays tiers | PDT-020 |
+| [PDT-028](../suites/pdt-028-ventiler-emballages-export.md) | Ventilation des emballages déclarés entre France, Union et export | PDT-020, PDT-021 |
+
+Le volet emballages de la fiche pays douanière DOU-017 renvoie à PDT-027.

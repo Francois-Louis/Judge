@@ -9,10 +9,10 @@
 | Bloquée | 0 |
 | Terminée | 62 |
 | Prête | 0 |
-| À faire | 668 |
+| À faire | 671 |
 | Abandonnée | 23 |
 | dont prêtes à démarrer | 200 |
-| Total | 760 |
+| Total | 763 |
 
 Sommaire : [en cours](#en-cours-à-vérifier-ou-bloquées) · [prêtes](#prêtes-à-démarrer) · [terminées](#terminées) · [à faire](#à-faire-par-famille)
 
@@ -622,7 +622,7 @@ Stories à faire dont toutes les dépendances sont terminées.
 </details>
 
 <details>
-<summary><b>PDT</b> — Produits et publicité (02 — Plugins existants) : 25 à faire, 11 prêtes</summary>
+<summary><b>PDT</b> — Produits et publicité (02 — Plugins existants) : 28 à faire, 11 prêtes</summary>
 
 | Story | Titre | Priorité | Bloquée par |
 | --- | --- | --- | --- |
@@ -651,6 +651,9 @@ Stories à faire dont toutes les dépendances sont terminées.
 | [PDT-023](02-plugins-existants/suites/pdt-023-marquage-emballage.md) | Examiner le marquage d’un emballage pour un marché | P2 | ✅ |
 | [PDT-024](02-plugins-existants/suites/pdt-024-dossier-emballage-ppwr.md) | Constituer la fiche factuelle d’un emballage PPWR | P2 | ✅ |
 | [PDT-025](02-plugins-existants/suites/pdt-025-calendrier-ppwr.md) | Préparer le calendrier PPWR d’un emballage identifié | P2 | PDT-024 |
+| [PDT-026](02-plugins-existants/suites/pdt-026-fabricant-emballage-ppwr.md) | Déterminer si une entreprise est fabricant d'un emballage au sens du PPWR | P2 | PDT-024 |
+| [PDT-027](02-plugins-existants/suites/pdt-027-rep-emballages-autres-pays.md) | Cartographier la REP emballages d'une vente directe dans un autre pays | P2 | PDT-020 |
+| [PDT-028](02-plugins-existants/suites/pdt-028-ventiler-emballages-export.md) | Ventiler les emballages déclarés entre France, Union et export | P2 | PDT-020, PDT-021 |
 
 </details>
 
