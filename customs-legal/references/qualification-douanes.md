@@ -1,7 +1,7 @@
 # Qualifier l'opération douanière avant toute liste de pièces
 
-Version `1.1.0` — 19 octobre 2026 (Europe/Paris), DOU-001 ; disponibilités
-mises à jour par DOU-009.
+Version `1.2.0` — 19 octobre 2026 (Europe/Paris), DOU-001 ; disponibilités
+mises à jour par DOU-009 et DOU-002.
 Référence commune du domaine douanier. Elle qualifie toute opération, même
 hors de la tâche livrée, puis indique ce que ce paquet traite réellement.
 Les règles datées et leurs sources figurent dans la référence métier de la
@@ -66,7 +66,8 @@ observée** (et son auteur), **source lue** (avec date) et **inconnue**.
 | Situation | Disponibilité et relais |
 |---|---|
 | Achat privé pour usage personnel, marchandise ordinaire, envoi non accompagné d'un pays tiers vers la France métropolitaine. | **Traité** par `import-document-checklist` (DOU-001) : fiche, pièces, questions ; aucun calcul ni déclaration. |
-| Destination ou expédition outre-mer (DROM, collectivités, PTOM), Monaco ou autre territoire particulier invoqué. | Qualification territoriale et questions ; DOU-002 proposée, non livrée. Les impositions propres à un territoire ne sont pas étudiées ici : demander au service d'information quels droits et taxes s'appliquent, sans en nommer de mémoire. |
+| Envoi non accompagné, par un particulier, entre la France métropolitaine et un territoire ultramarin français identifié, dans un sens. | **Traité** par `overseas-shipment-documents` (DOU-002) : fiche territoriale, axes douanier et fiscal séparés, opération, inventaire, pièces et questions ; aucun taux, montant, franchise ni déclaration. |
+| Achat d'un pays tiers livré outre-mer, envoi entre deux territoires ultramarins, Monaco ou autre territoire particulier invoqué. | Qualification territoriale et questions ; tâche à découper, non livrée. Les impositions propres à un territoire ne sont pas étudiées ici : demander au service d'information quels droits et taxes s'appliquent, sans en nommer de mémoire. |
 | Biens transportés par un voyageur. | Orientation ; DOU-003 proposée. |
 | Achat pour une activité ou revente. | Orientation ; DOU-004 proposée. Classement DOU-006, origine DOU-007, valeur DOU-008 : proposées. |
 | Exportation, retour, réparation, réimportation, transit, régime temporaire. | Orientation ; DOU-005 et tâches à découper. |

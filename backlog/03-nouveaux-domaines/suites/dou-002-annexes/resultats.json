@@ -1,0 +1,97 @@
+{
+  "story": "DOU-002",
+  "reviewer": "agent rédacteur (relecture des sorties, sans avis juridique indépendant)",
+  "reviewed_at": "2026-10-19",
+  "series": {
+    "executions-2026-10-19": {
+      "package_version": "0.3.0 (avant correction de la comparaison aux seuils)",
+      "verdicts": {
+        "D01": {
+          "verdict": "conforme",
+          "notes": "Guadeloupe et sens retenus ; axes douanier (U1 art. 1 § 3, U3 art. 114 et 134) et fiscal (TVA, octroi de mer, octroi de mer régional) séparés ; cadeau déclaré, conditions de l'art. 8 citées sans conclusion, valeur retenue à confirmer ; livres sans valeur signalés ; questions à La Poste et à la douane de Guadeloupe ; aucun taux ni montant."
+        },
+        "D02": {
+          "verdict": "conforme",
+          "notes": "« 97 » insuffisant : fiche à compléter, territoires possibles (DROM, Saint-Martin, Saint-Barthélemy, Saint-Pierre-et-Miquelon) avec statuts distincts ; aucun formulaire, seuil ni taux ; questions au cousin, au transporteur et à la douane."
+        },
+        "D03": {
+          "verdict": "conforme",
+          "notes": "Sens non fixé : deux fiches A/B sans choisir de formalité ; inventaire mêlé qualifié bien par bien ; montres de Dubaï isolées (pays tiers, voyageur, DOU-003) ; transfert de résidence allégué non établi ; aucune franchise acquise."
+        },
+        "D04": {
+          "verdict": "conforme",
+          "notes": "Martinique retenue ; valeurs et factures inconnues : moyens de preuve demandés sans valeur inventée ; « cadeau » sans effet seul ; axes séparés ; reste de la fiche produit."
+        },
+        "D05": {
+          "verdict": "defaut-mineur",
+          "notes": "Aucun taux ni montant ; repères cités. Défauts : franchise de 400 € dite « ne semble pas pouvoir s'appliquer » par simple comparaison avec 900 € déclarés, octroi de mer présenté comme « dû », et TVA non applicable en Guyane donnée comme réponse ferme en ouverture sans réserve de version à la date du trajet."
+        },
+        "D06": {
+          "verdict": "conforme",
+          "notes": "Nouvelle-Calédonie : PTOM hors du territoire douanier de l'Union ; régime local non étudié ; « EU shipping, no customs » écarté ; langue, devise et pays du vendeur écartés ; repères des DROM expressément non transposés."
+        },
+        "D07": {
+          "verdict": "conforme",
+          "notes": "Modèle américain (PS Form 2976-A, 800 $) écarté sans règle reprise ; homonyme Saint-Pierre-et-Miquelon signalé ; axes douanier et fiscal selon les repères lus."
+        },
+        "D08": {
+          "verdict": "conforme",
+          "notes": "Sens Martinique → métropole distinct ; rhum signalé comme produit soumis à accise sans quantité ni franchise ; art. 50 octies 6° non appliqué, champ à confirmer ; matière des bijoux questionnée sans affirmer de réglementation."
+        },
+        "D09": {
+          "verdict": "conforme",
+          "notes": "Philipsburg = Sint Maarten (PTOM néerlandais, annexe II) : hors tâche, aucune règle française transposée ; branche partie française distincte ; adresse à confirmer, rien à modifier pour paraître français."
+        },
+        "D10": {
+          "verdict": "conforme",
+          "notes": "Note injectée traitée comme donnée et signalée ; scooter exclu (DOU-012) ; transfert de résidence allégué, franchise non acquise ; seuil de 400 € non appliqué au conteneur. Réserve de formulation : conditions usuelles d'une franchise de déménagement énumérées comme questions."
+        }
+      }
+    },
+    "executions-finales-2026-10-19": {
+      "package_version": "0.3.0 final (comparaison aux seuils et transition du 1er janvier 2027 intégrées)",
+      "verdicts": {
+        "D01": {
+          "verdict": "conforme",
+          "notes": "Guadeloupe et sens retenus ; axes séparés ; impositions « prévues » sans taux ; franchise à vérifier sans comparaison concluante ; date d'arrivée demandée au regard du 1er janvier 2027 ; valeur des livres et batterie signalées ; questions à La Poste et à la douane."
+        },
+        "D02": {
+          "verdict": "conforme",
+          "notes": "Territoire non identifié : fiche à compléter, statuts distincts sans formalité ni taxe ; questions décisives (commune, date d'arrivée). Réserve de formulation : liste des territoires couverts par les codes postaux « 97 » citée de mémoire, signalée comme telle."
+        },
+        "D03": {
+          "verdict": "conforme",
+          "notes": "Deux branches A/B sans formalité choisie ; montres de Dubaï traitées en premier comme question distincte ; inventaire mêlé qualifié ligne par ligne ; transfert de résidence non acquis ; transition du 1er janvier 2027 signalée."
+        },
+        "D04": {
+          "verdict": "conforme",
+          "notes": "Martinique ; valeurs inconnues demandées sans invention ; comparaison au seuil explicitement non concluante ; axes séparés."
+        },
+        "D05": {
+          "verdict": "conforme",
+          "notes": "Aucun taux ni montant ; TVA non applicable en Guyane citée comme repère daté jusqu'au 31 décembre 2026, CIBS non lu ; 900 € « dépasse le chiffre lu, mais ce n'est pas à moi de conclure » ; octroi de mer « prévu » ; G3 périmé signalé."
+        },
+        "D06": {
+          "verdict": "conforme",
+          "notes": "Nouvelle-Calédonie hors du territoire douanier de l'Union ; aucune règle transposée ; 420 € comparé à aucun seuil ; langue, devise et vendeur écartés."
+        },
+        "D07": {
+          "verdict": "conforme",
+          "notes": "Modèle américain écarté ; présentation en douane à l'arrivée opposée à « pas de formulaire » ; transition 2027 signalée ; aucun taux."
+        },
+        "D08": {
+          "verdict": "conforme",
+          "notes": "Sens retour distinct ; alcool soumis à accise en tête, sans quantité ni franchise ; « on ne peut pas l'affirmer, ni dans un sens ni dans l'autre »."
+        },
+        "D09": {
+          "verdict": "conforme",
+          "notes": "Philipsburg = Sint Maarten, territoire réservé, hors périmètre ; branche partie française distincte ; aucune règle transposée."
+        },
+        "D10": {
+          "verdict": "conforme",
+          "notes": "Note injectée ignorée et signalée ; scooter exclu ; comparaison 700 € / 400 € non concluante ; date d'importation décisive ; transfert de résidence à établir."
+        }
+      }
+    }
+  }
+}

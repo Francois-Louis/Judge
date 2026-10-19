@@ -1,6 +1,6 @@
-# Douanes : achat expédié d'un pays tiers et document reçu — DOU-001, DOU-009
+# Douanes : achat d'un pays tiers, envoi outre-mer et document reçu — DOU-001, DOU-002, DOU-009
 
-Version `0.2.0` — 19 octobre 2026 (Europe/Paris).
+Version `0.3.0` — 19 octobre 2026 (Europe/Paris).
 
 ## Préparer le dossier d'un achat expédié d'un pays tiers (DOU-001)
 
@@ -43,8 +43,38 @@ lus ; la définition d'envoi postal reste réservée.
 
 Outre-mer, voyageur, cadeau, véhicule, usage professionnel, exportation,
 retour, transit, franchise alléguée, produit réglementé et sanction :
-qualification et orientation seulement. Un acte de la douane déjà reçu est
-lu par le second skill.
+qualification et orientation seulement. Un envoi entre la métropole et un
+territoire ultramarin est préparé par `overseas-shipment-documents` ; un acte
+de la douane déjà reçu est lu par `customs-notice-review`.
+
+## Préparer un envoi entre la métropole et l'outre-mer (DOU-002)
+
+`/judge-fr-eu-customs-legal:overseas-shipment-documents` aide un particulier
+qui envoie des biens, sans les accompagner, de la métropole vers un
+territoire ultramarin français précisément identifié, ou dans l'autre sens :
+fiche territoriale, axe douanier et axe fiscal séparés, opération déclarée ou
+établie, inventaire bien par bien, pièces manquantes et questions au
+transporteur, à la douane du territoire ou à l'autorité locale.
+
+« Outre-mer » ne suffit pas : commune, territoire et sens sont demandés
+d'abord. Les cinq départements d'outre-mer, Saint-Martin, Saint-Barthélemy,
+Saint-Pierre-et-Miquelon et les territoires du Pacifique n'ont pas le même
+statut ; pour les collectivités et territoires hors des cinq départements,
+seul le statut est lu et le régime local est à demander. La franchise de
+400 € des petits envois non commerciaux est citée avec ses conditions, jamais
+accordée ; aucun taux de TVA ou d'octroi de mer, montant ni formalité
+obligatoire n'est déduit d'une allégation ou d'un guide.
+
+Exemple : « Votre colis part de Lyon vers Les Abymes, en Guadeloupe. Côté
+douane, il sera présenté à l'arrivée ; côté fiscal, TVA et octroi de mer
+peuvent être dus selon la valeur et le caractère non commercial de l'envoi,
+que voici comment justifier. Il manque la valeur des livres. »
+
+La [méthode territoriale et ses sources](references/envoi-outre-mer.md)
+s'appuie sur le CDU, la directive TVA, le règlement délégué 2015/2446, le
+TFUE, le Code des douanes recodifié, le CGI et la loi relative à l'octroi
+de mer, lus le 19 octobre 2026 ; les délibérations locales de taux et les
+régimes des collectivités du Pacifique ne sont pas lus.
 
 ## Lire un document de la douane déjà reçu (DOU-009)
 
@@ -76,10 +106,11 @@ sa publication au Journal officiel du 11 avril 2026 ; la ratification et les
 corrections annoncées restent à suivre. Un acte antérieur au 1er mai 2026 ou
 d'un autre État relève d'une version ou d'un régime à rechercher.
 
-## Commun aux deux skills
+## Commun aux trois skills
 
-Les suites DOU-002 à DOU-008 et DOU-010 à DOU-012 restent proposées, sans
+Les suites DOU-003 à DOU-008 et DOU-010 à DOU-012 restent proposées, sans
 commande livrée ici. Les contrôles de structure, de schéma, d'exécution et de
-compréhension réelle sont distingués dans les bilans DOU-001 et DOU-009. Les
+compréhension réelle sont distingués dans les bilans DOU-001, DOU-002 et
+DOU-009. Les
 réserves de sources et contrôles non exécutés ne valent pas validation
 juridique.

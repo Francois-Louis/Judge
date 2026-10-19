@@ -162,7 +162,7 @@
     },
     {
       "name": "judge-fr-eu-customs-legal",
-      "description": "Judge FR/UE 0.2.0 : douanes pour particuliers et petites entreprises — préparer le dossier d'un achat privé expédié d'un pays tiers vers la France métropolitaine (DOU-001) et lire un document de la douane déjà reçu : nature, auteur, stade, objets séparés, mentions d'échéance reproduites, pièces et questions urgentes (DOU-009). Deux skills sans profil, stockage, calcul, recours, déclaration ni envoi ; sources datées et réserves.",
+      "description": "Judge FR/UE 0.3.0 : douanes pour particuliers et petites entreprises — préparer le dossier d'un achat privé expédié d'un pays tiers vers la France métropolitaine (DOU-001), d'un envoi entre la métropole et un territoire ultramarin identifié : fiche territoriale, axes douanier et fiscal séparés, inventaire et questions (DOU-002), et lire un document de la douane déjà reçu : nature, auteur, stade, mentions d'échéance reproduites, pièces et questions urgentes (DOU-009). Trois skills sans profil, stockage, calcul, recours, déclaration ni envoi ; sources datées et réserves.",
       "author": {
         "name": "Judge FR/UE maintainers"
       },
