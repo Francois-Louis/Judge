@@ -33,7 +33,7 @@ agents, hooks), plugin metadata, or cookbook config — not application code.
 
 BASE-008 uses `judge-fr-eu-<domain>` as every published identifier; source
 directories and the 134 inherited skill names stay unchanged; CONSO-001,
-BNK-001, ENF-001, CRIM-001, FUN-001, INS-001, DOU-001, DOU-002 and DOU-009 add one skill each (143 total). Only the fork config root is
+BNK-001, ENF-001, CRIM-001, FUN-001, INS-001, DOU-001, DOU-002, DOU-003 and DOU-009 add one skill each (144 total). Only the fork config root is
 active. Every entry point loads the packaged storage contract. Sync
 `scripts/judge_store.py` and `references/isolation.md` byte-for-byte into all
 eighteen packages after changes, and include LICENSE/NOTICE. The vendor source

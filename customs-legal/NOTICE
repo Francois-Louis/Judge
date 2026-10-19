@@ -76,3 +76,34 @@ Files:
   references/qualification-douanes.md
   skills/import-document-checklist/SKILL.md
   skills/overseas-shipment-documents/SKILL.md
+
+DOU-003 changes (2026-10-19): customs-legal 0.4.0 adds the
+traveller-goods-documents skill preparing the documents for ordinary goods
+carried by an adult traveller, for private use, arriving in metropolitan
+France from a third country or a fiscally third territory: journey and
+traveller sheet (stops, connections, likely place of controls, age,
+residence), item-by-item inventory (bought during the trip, received as a
+gift, already owned), questions on the non-commercial character, the
+possible allowance and the declaration, missing documents. No allowance
+granted or refused, no amount, conversion, declaration or sending; minors,
+removals, vehicles, resale and regulated goods are detected and routed.
+biens-voyageur.md 1.0.0 added with readings of 2026-10-19 (Directive
+2007/74/EC, Regulation 1186/2009 art. 41, Delegated Regulation 2015/2446,
+Implementing Regulation 2015/2447 on luggage controls and Union status,
+Union Customs Code art. 15, 158 and 203, Regulation 2018/1672, recodified
+French Customs Code as published on 2026-04-11, French tax code Annex IV
+art. 50 octies, Code des impositions sur les biens et services art.
+L. 213-33 in force on 2027-01-01, customs guidance pages). qualification-douanes.md 1.3.0,
+envoi-outre-mer.md 1.0.1, import-document-checklist and
+overseas-shipment-documents route travellers to the new skill.
+Files:
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  references/biens-voyageur.md
+  references/envoi-outre-mer.md
+  references/qualification-douanes.md
+  skills/import-document-checklist/SKILL.md
+  skills/overseas-shipment-documents/SKILL.md
+  skills/traveller-goods-documents/SKILL.md

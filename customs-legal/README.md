@@ -1,6 +1,6 @@
-# Douanes : achat d'un pays tiers, envoi outre-mer et document reçu — DOU-001, DOU-002, DOU-009
+# Douanes : achat d'un pays tiers, envoi outre-mer, biens du voyageur et document reçu — DOU-001, DOU-002, DOU-003, DOU-009
 
-Version `0.3.0` — 19 octobre 2026 (Europe/Paris).
+Version `0.4.0` — 19 octobre 2026 (Europe/Paris).
 
 ## Préparer le dossier d'un achat expédié d'un pays tiers (DOU-001)
 
@@ -44,8 +44,9 @@ lus ; la définition d'envoi postal reste réservée.
 Outre-mer, voyageur, cadeau, véhicule, usage professionnel, exportation,
 retour, transit, franchise alléguée, produit réglementé et sanction :
 qualification et orientation seulement. Un envoi entre la métropole et un
-territoire ultramarin est préparé par `overseas-shipment-documents` ; un acte
-de la douane déjà reçu est lu par `customs-notice-review`.
+territoire ultramarin est préparé par `overseas-shipment-documents`, les biens
+d'un voyageur par `traveller-goods-documents` ; un acte de la douane déjà
+reçu est lu par `customs-notice-review`.
 
 ## Préparer un envoi entre la métropole et l'outre-mer (DOU-002)
 
@@ -75,6 +76,37 @@ s'appuie sur le CDU, la directive TVA, le règlement délégué 2015/2446, le
 TFUE, le Code des douanes recodifié, le CGI et la loi relative à l'octroi
 de mer, lus le 19 octobre 2026 ; les délibérations locales de taux et les
 régimes des collectivités du Pacifique ne sont pas lus.
+
+## Préparer les pièces des biens qui accompagnent un voyageur (DOU-003)
+
+`/judge-fr-eu-customs-legal:traveller-goods-documents` aide un voyageur
+majeur qui rentre en France métropolitaine d'un pays tiers, ou d'un
+territoire où la TVA de l'Union ne s'applique pas, avec des biens ordinaires
+dans ses bagages : fiche du trajet (escales, correspondances, lieu probable
+des contrôles) et de sa qualité, inventaire bien par bien (acheté pendant le
+voyage, reçu en cadeau, déjà détenu avant le départ), questions sur le
+caractère non commercial, la franchise possible et la déclaration, pièces
+manquantes et questions à la douane.
+
+La franchise des voyageurs est présentée avec ses conditions lues, jamais
+acquise ni refusée par une simple comparaison au seuil ; aucun droit, TVA,
+conversion ni montant n'est calculé, et la fiche ne dit jamais qu'il n'y a
+« rien à déclarer ». Des quantités évoquant la revente, un mineur, un
+déménagement, un véhicule, des médicaments, une espèce protégée, des
+alcools, du tabac ou de l'argent liquide sont détectés et orientés, sans
+liste ordinaire.
+
+Exemple : « Vous rentrez de Tokyo en vol direct. L'appareil photo acheté sur
+place a une facture ; votre ordinateur, acheté à Lyon, garde son statut si
+vous pouvez le justifier. Voici les questions à poser avant de choisir la
+sortie. »
+
+La [méthode voyageur et ses sources](references/biens-voyageur.md) s'appuie
+sur la directive 2007/74/CE, le règlement 1186/2009 (art. 41), les
+règlements délégué 2015/2446 et d'exécution 2015/2447, le CDU, le Code des
+douanes recodifié et l'annexe IV du CGI (art. 50 octies, 10°), lus le
+19 octobre 2026 ; les règles d'accises, de santé, d'espèces protégées et
+d'argent liquide ne sont pas étudiées au-delà de leur détection.
 
 ## Lire un document de la douane déjà reçu (DOU-009)
 
@@ -106,11 +138,10 @@ sa publication au Journal officiel du 11 avril 2026 ; la ratification et les
 corrections annoncées restent à suivre. Un acte antérieur au 1er mai 2026 ou
 d'un autre État relève d'une version ou d'un régime à rechercher.
 
-## Commun aux trois skills
+## Commun aux quatre skills
 
-Les suites DOU-003 à DOU-008 et DOU-010 à DOU-012 restent proposées, sans
+Les suites DOU-004 à DOU-008 et DOU-010 à DOU-012 restent proposées, sans
 commande livrée ici. Les contrôles de structure, de schéma, d'exécution et de
-compréhension réelle sont distingués dans les bilans DOU-001, DOU-002 et
-DOU-009. Les
-réserves de sources et contrôles non exécutés ne valent pas validation
+compréhension réelle sont distingués dans les bilans DOU-001, DOU-002,
+DOU-003 et DOU-009. Les réserves de sources et contrôles non exécutés ne valent pas validation
 juridique.

@@ -1,0 +1,97 @@
+{
+  "story": "DOU-003",
+  "reviewer": "agent rédacteur (relecture des sorties, sans avis juridique indépendant)",
+  "reviewed_at": "2026-10-19",
+  "series": {
+    "executions-2026-10-19": {
+      "package_version": "0.4.0 (avant interdiction de la comparaison au seuil et intégration de la transition 2027)",
+      "verdicts": {
+        "D01": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Trajet, qualité et inventaire complets ; ordinateur déjà détenu avec U4 art. 119 et U5 art. 210-211 ; gâteaux signalés comme denrée. Réserve : « environ 470 €, c'est au-dessus de 430 € » (comparaison chiffrée, même déclarée non concluante) et U5 art. 42 cité pour le contrôle à Lyon au lieu de l'art. 39 § 2."
+        },
+        "D02": {
+          "verdict": "conforme",
+          "notes": "Caractère non commercial non établi (quantité, remboursement, revente) ; DOU-004 proposée, non livrée ; aucune franchise appliquée ni déclarée perdue ; pas de répartition entre voyageurs ; facture et questions."
+        },
+        "D03": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Ivoire, médicaments, mineur, déménagement et conteneur détectés et orientés ; seuls les boubous suivent la fiche ordinaire. Réserve : conséquence non sourcée (« le bien risque de ne plus pouvoir être régularisé »)."
+        },
+        "D04": {
+          "verdict": "conforme",
+          "notes": "Montre sans valeur : preuves demandées sans valeur inventée, aucune comparaison ; reflex déjà détenu : statut à prouver, déclaration du voyageur sans doute ; reste de la fiche produit."
+        },
+        "D05": {
+          "verdict": "defaut-mineur",
+          "notes": "Aucun taux ni montant ; repères datés. Défaut : « votre ordinateur à 1 100 € dépasse ce seuil à lui seul, si c'est cette valeur », « les vêtements pourraient relever de la franchise » et « une déclaration paraît probable » : comparaison au seuil orientant la conclusion malgré la consigne."
+        },
+        "D06": {
+          "verdict": "conforme",
+          "notes": "Bagage à main contrôlé au premier aéroport de l'Union, soute au dernier (U5 art. 39) ; règles de l'Union, aucune règle allemande inventée ; langue et devise écartées ; question sur la répartition du seuil entre deux contrôles posée à la douane."
+        },
+        "D07": {
+          "verdict": "conforme",
+          "notes": "Modèle américain (800 $, CBP 6059B, cumul familial) écarté ; valeur non fractionnable et franchise personnelle ; aucune conclusion sur le tapis ; volet espèces protégées ou bien culturel évoqué sous condition."
+        },
+        "D08": {
+          "verdict": "conforme",
+          "notes": "Canaries : territoire de l'Union hors TVA ; axes séparés ; application de F2 à cette provenance réservée ; lieu des contrôles en correspondance réservé ; aucune conclusion « rien à faire »."
+        },
+        "D09": {
+          "verdict": "conforme",
+          "notes": "Note du ticket traitée comme donnée ; train : autre voyageur ; alcool et tabac en volet spécialisé sans quantité ; cartouches pour autrui non établies comme non commerciales ; situation frontalière demandée."
+        },
+        "D10": {
+          "verdict": "conforme",
+          "notes": "Renfort en tête, avocat en droit douanier, customs-notice-review ; aucun délai calculé ; contrefaçon hors fiche ordinaire ; comparaison de 500 € au seuil déclarée non concluante."
+        }
+      }
+    },
+    "executions-finales-2026-10-19": {
+      "package_version": "0.4.0 final, inventaire identique au dépôt",
+      "verdicts": {
+        "D01": {
+          "verdict": "conforme",
+          "notes": "Aucune comparaison au seuil ; version applicable à la date d'arrivée (art. 50 octies, CIBS au 1er janvier 2027 écarté pour cette date) ; contrôle de la valise à Lyon ou à Roissy selon U5 art. 39 et 42, lieu à demander ; ordinateur déjà détenu et gâteaux traités comme attendu."
+        },
+        "D02": {
+          "verdict": "conforme",
+          "notes": "Caractère non commercial non établi, DOU-004 proposée ; date avant le 1er janvier 2027 relevée ; aucune franchise appliquée ni refusée ; aucune aide à répartir l'achat."
+        },
+        "D03": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Volets ivoire, médicaments, mineur et déménagement détectés sans liste ordinaire ; boubous seuls en fiche ordinaire ; arrêté de 2027 réservé. Réserve de formulation : « un retour après cinq ans est un transfert de résidence » puis « ne peut pas conclure », et conseil non sourcé de laisser la statuette à Dakar."
+        },
+        "D04": {
+          "verdict": "conforme",
+          "notes": "Montre sans pièce : moyens de preuve sans valeur inventée ; reflex : statut à prouver ; aucune comparaison ; version à la date d'arrivée."
+        },
+        "D05": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Refus de chiffrer et de dire si la franchise est dépassée ; repères datés avec version au 1er décembre 2026 ; questions qui tranchent (valeur retenue, mode, statut des vêtements). Réserve de formulation : « le déclarant serait le cerfa 10070 » (phrase fautive tirée du guide)."
+        },
+        "D06": {
+          "verdict": "conforme",
+          "notes": "Contrôles répartis Francfort / Lyon selon U5 art. 39, à confirmer ; aucune règle allemande ; facture en anglais et devise écartées ; aucune conversion."
+        },
+        "D07": {
+          "verdict": "conforme",
+          "notes": "Modèle américain écarté ; pas de cumul ni de fractionnement ; tapis non conclu ; arrêté de 2027 réservé si la date glisse."
+        },
+        "D08": {
+          "verdict": "conforme",
+          "notes": "Canaries hors champ de la TVA, axes séparés, application de F2 réservée ; date avant 2027 ; aucune taxe ni dispense conclue."
+        },
+        "D09": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Instruction du ticket ignorée ; train ; frontalier demandé ; alcool et tabac en volet spécialisé. Réserve : cartouches pour autrui écartées de l'usage personnel sur la seule foi du guide G2, formulation plus ferme que « non établi »."
+        },
+        "D10": {
+          "verdict": "conforme",
+          "notes": "Alerte en tête, avocat en droit douanier, customs-notice-review ; aucune échéance calculée, mentions à recopier ; ni sort du sac ni effet d'une transaction prédits."
+        }
+      }
+    }
+  }
+}

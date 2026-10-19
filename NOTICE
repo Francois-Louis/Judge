@@ -1072,3 +1072,33 @@ DOU-002 fixtures.
   customs-legal/references/qualification-douanes.md
   customs-legal/skills/import-document-checklist/SKILL.md
   customs-legal/skills/overseas-shipment-documents/SKILL.md
+
+DOU-003 changes (2026-10-19): customs-legal 0.4.0 adds
+traveller-goods-documents, preparing the documents for ordinary goods
+carried by an adult traveller arriving in metropolitan France from a third
+country (journey and traveller sheet, inventory, questions on the regime)
+without granting an allowance, computing an amount, declaring or sending.
+biens-voyageur.md 1.0.0 with dated readings of EU law (Directive
+2007/74/EC, Regulation 1186/2009, Delegated and Implementing Regulations
+2015/2446 and 2015/2447, Union Customs Code, Regulation 2018/1672), the
+recodified French Customs Code, the French tax code Annex IV and the
+2027 VAT recodification (CIBS art. L. 213-33);
+qualification-douanes.md 1.3.0 and envoi-outre-mer.md 1.0.1 route
+travellers to it. Marketplace and isolation counts updated to 144 skills;
+the story runner gains the DOU-003 fixtures.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  scripts/recette-stories.py
+  scripts/test-base008-isolation.py
+  customs-legal/.claude-plugin/plugin.json
+  customs-legal/CLAUDE.md
+  customs-legal/NOTICE
+  customs-legal/README.md
+  customs-legal/references/biens-voyageur.md
+  customs-legal/references/envoi-outre-mer.md
+  customs-legal/references/qualification-douanes.md
+  customs-legal/skills/import-document-checklist/SKILL.md
+  customs-legal/skills/overseas-shipment-documents/SKILL.md
+  customs-legal/skills/traveller-goods-documents/SKILL.md

@@ -1,6 +1,7 @@
 # Envoi de biens entre la métropole et un territoire ultramarin
 
-Version `1.0.0` — 19 octobre 2026 (Europe/Paris), DOU-002.
+Version `1.0.1` — 19 octobre 2026 (Europe/Paris), DOU-002 ; relais voyageur
+mis à jour par DOU-003.
 Méthode métier, repères datés et modèle de sortie pour un particulier qui
 prépare les pièces d'un envoi non accompagné (colis, fret, conteneur) entre
 la France métropolitaine et un territoire ultramarin français précisément
@@ -17,13 +18,13 @@ territoriale, opération déclarée ou établie, inventaire, pièces et
 questions ciblées.
 
 **Exclus** : véhicule (DOU-012), achat pour une activité ou revente
-(DOU-004), biens accompagnant un voyageur (DOU-003), achat d'un pays tiers
-livré outre-mer, envoi entre deux territoires ultramarins, régimes
-particuliers (entrepôt, admission temporaire, perfectionnement), calcul de
-droits ou taxes, demande de franchise ou d'exonération, acte de la douane
-déjà notifié (`customs-notice-review`), déclaration, dépôt, paiement et
-conseil fiscal général (domaine fiscal DOM-011, proposé). Leur détection
-est incluse, leur traitement non.
+(DOU-004), biens accompagnant un voyageur (`traveller-goods-documents`),
+achat d'un pays tiers livré outre-mer, envoi entre deux territoires
+ultramarins, régimes particuliers (entrepôt, admission temporaire,
+perfectionnement), calcul de droits ou taxes, demande de franchise ou
+d'exonération, acte de la douane déjà notifié (`customs-notice-review`),
+déclaration, dépôt, paiement et conseil fiscal général (domaine fiscal
+DOM-011, proposé). Leur détection est incluse, leur traitement non.
 
 ## 1. Fixer le territoire et le sens
 
@@ -175,9 +176,10 @@ le transporteur sur ses frais et les pièces qu'il demande ; la collectivité
 sur ses propres impositions. Aucun n'est le conseil de la personne. Conseil :
 avocat en droit douanier pour un contentieux, un contrôle ou un volet pénal ;
 conseil fiscal pour une question fiscale autonome. Relais proposés, non
-livrés : DOU-003 (voyageur), DOU-004 (activité), DOU-012 (véhicule),
-domaine fiscal DOM-011. Acte reçu : `customs-notice-review`. Ne jamais
-présenter une tâche proposée comme une commande disponible.
+livrés : DOU-004 (activité), DOU-012 (véhicule), domaine fiscal DOM-011.
+Biens accompagnant un voyageur : `traveller-goods-documents`. Acte reçu :
+`customs-notice-review`. Ne jamais présenter une tâche proposée comme une
+commande disponible.
 
 ## Modèle de sortie
 
