@@ -26,6 +26,22 @@
 - Si le commit ou le push échoue, signaler le blocage et ce qui reste à faire.
   Ne pas forcer le push ni écraser l'historique distant.
 
+## Économie : aller à l'essentiel
+
+- Recette payante (`scripts/recette-stories.py`, appel réel au client
+  `claude`, workflow ou agents en parallèle) : jamais sans accord explicite de
+  l'utilisateur, avec le nombre de cas et une estimation (environ 0,50 USD
+  par cas). Une seule série complète ; après correction, rejouer seulement
+  les cas en défaut (`--case`), sauf défaut touchant presque tous les cas.
+  Indiquer le coût réellement dépensé dans le récapitulatif.
+- Lectures minimales : ne pas réétudier la story précédente (diffs complets,
+  `ETAT.md`, journaux) ; un seul exemple ciblé suffit pour le gabarit.
+- Sources volumineuses filtrées localement ; seuls les passages utiles entrent
+  dans le contexte. Sorties de commande bornées, jamais de dump de dizaines
+  de Ko, pas de relecture d'un fichier déjà lu ou venant d'être écrit.
+- Sorties de recette : recherche ciblée des défauts connus et des points
+  obligatoires d'abord, lecture complète des seuls cas suspects.
+
 Guidance for working on this repo. `judge-fr-eu` is the fork Claude Code plugin
 marketplace — eighteen internal legal plugins and five
 managed-agent cookbooks. Most work here is editing prompt content (skills,
