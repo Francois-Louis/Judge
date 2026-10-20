@@ -172,3 +172,38 @@ Files:
   references/qualification-import-professionnel.md
   skills/export-document-preparation/SKILL.md
   skills/import-document-checklist/SKILL.md
+
+DOU-006 changes (2026-10-20): customs-legal 0.7.0 adds the
+tariff-classification-dossier skill preparing the classification file of one
+good in the Union nomenclature, for import or export: structured product
+sheet (description, materials and proportions, function, use, mechanism,
+presentation, condition), missing technical attributes linked to the
+document that would establish them, reasoned questions raised by a code
+proposed by a seller, forwarder, carrier or tool, check of a binding tariff
+information decision supplied (holder, goods, date of effect, scope) and
+the official information route. The general interpretative rules are used
+as a questionnaire, not a verdict; a composite set without established
+proportions or main function keeps its classification reserved; a decision
+for another holder or a neighbouring product is never transposed. No code
+is settled, no rate, measure or amount is given and no request is filled
+in or filed; origin and value stay separate.
+dossier-classement.md 1.0.0 added with readings of 2026-10-20 (Regulation
+2658/87 consolidated on 2026-01-01 with the 2026 Combined Nomenclature,
+CN explanatory notes 2019/C 119/01, Union Customs Code, Delegated
+Regulation 2015/2446, Implementing Regulation 2015/2447, recodified French
+Customs Code regulatory part as published on 2026-04-11, customs guidance
+pages, TARIC, EBTI and Access2Markets as tools). qualification-douanes.md
+1.6.0, qualification-import-professionnel.md 1.0.2,
+preparation-exportation.md 1.0.1 and commercial-import-intake route
+classification to the new skill.
+Files:
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  references/dossier-classement.md
+  references/preparation-exportation.md
+  references/qualification-douanes.md
+  references/qualification-import-professionnel.md
+  skills/commercial-import-intake/SKILL.md
+  skills/tariff-classification-dossier/SKILL.md

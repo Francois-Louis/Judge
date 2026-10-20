@@ -39,6 +39,7 @@ STORIES = {
     'DOU-003': ('customs-legal', 'traveller-goods-documents', DOM / 'dou-003-annexes', 'fixtures.json'),
     'DOU-004': ('customs-legal', 'commercial-import-intake', DOM / 'dou-004-annexes', 'fixtures.json'),
     'DOU-005': ('customs-legal', 'export-document-preparation', DOM / 'dou-005-annexes', 'fixtures.json'),
+    'DOU-006': ('customs-legal', 'tariff-classification-dossier', DOM / 'dou-006-annexes', 'fixtures.json'),
     'DOU-009': ('customs-legal', 'customs-notice-review', DOM / 'dou-009-annexes', 'fixtures.json'),
 }
 

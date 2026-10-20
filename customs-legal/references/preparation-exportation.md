@@ -1,6 +1,7 @@
 # Préparer les pièces d'une exportation définitive ordinaire
 
-Version `1.0.0` — 20 octobre 2026 (Europe/Paris), DOU-005.
+Version `1.0.1` — 20 octobre 2026 (Europe/Paris), DOU-005 ; relais du
+classement mis à jour par DOU-006.
 Méthode métier, repères datés et modèle de sortie pour un professionnel
 (entreprise, artisan, commerçant, micro-entrepreneur) qui prépare le dossier
 documentaire d'une seule exportation définitive de marchandises de l'Union,
@@ -141,7 +142,7 @@ expliquer l'enjeu d'une vérification, jamais à attribuer une faute.
 
 | Inconnue | Repère lu | Ce qui fait avancer | Tâche |
 |---|---|---|---|
-| Classement tarifaire | Il conditionne les mesures et restrictions repérées dans TARIC (T1, G7). | Fiche technique, composition, fonction ; code du fabricant ou du transitaire seulement comme indice. | DOU-006 proposée. |
+| Classement tarifaire | Il conditionne les mesures et restrictions repérées dans TARIC (T1, G7). | Fiche technique, composition, fonction ; code du fabricant ou du transitaire seulement comme indice. | `tariff-classification-dossier` (DOU-006). |
 | Origine | Un document prouvant l'origine peut être délivré selon les règles du pays de destination (U1 art. 61 § 3) ; préférence selon l'accord, non lue. | Lieu de fabrication, matières et fournisseurs, attestations. Aucune mention « origine France » improvisée. | DOU-007, DOU-016 proposées. |
 | Valeur | Valeur statistique et valeur de facture non étudiées. | Facture, Incoterm et lieu, frais facturés. | Hors tâche. |
 
@@ -267,7 +268,8 @@ clauses ; expert-comptable ou service des impôts pour la TVA. Relais
 proposés, non livrés : DOU-013 (calendrier de déclaration), DOU-014
 (couteaux), DOU-015 (matières naturelles), DOU-016 (origine préférentielle),
 DOU-017 (fiche pays), DOU-018 (retour SAV), DOU-019 (échantillons de
-salon), DOU-006 (classement), DOU-007 (origine), domaine fiscal (DOM-011).
+salon), DOU-007 (origine), domaine fiscal (DOM-011). Classement :
+`tariff-classification-dossier`.
 Ne jamais présenter une tâche proposée comme une commande disponible.
 
 ## Sources et relecture de maintenance

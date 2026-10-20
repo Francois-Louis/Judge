@@ -1174,3 +1174,34 @@ runtime content changed.
   NOTICE
   scripts/legal_sources.py
   scripts/test-legal-sources.py
+
+DOU-006 changes (2026-10-20): customs-legal 0.7.0 adds
+tariff-classification-dossier, preparing the file needed to examine the
+tariff classification of one good in the Union nomenclature (structured
+product sheet, missing technical attributes, reasoned questions raised by a
+proposed code, check of a binding tariff information decision supplied,
+official information route) without settling a code, giving a rate or
+filing a request. dossier-classement.md 1.0.0 with dated readings of
+Regulation 2658/87 and the 2026 Combined Nomenclature, the 2019 CN
+explanatory notes, the Union Customs Code, Delegated Regulation 2015/2446,
+Implementing Regulation 2015/2447 and the recodified French Customs Code;
+qualification-douanes.md 1.6.0, qualification-import-professionnel.md
+1.0.2, preparation-exportation.md 1.0.1 and commercial-import-intake route
+classification to it. Marketplace and isolation counts updated to 147
+skills; the story runner gains the DOU-006 fixtures.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  scripts/recette-stories.py
+  scripts/test-base008-isolation.py
+  customs-legal/.claude-plugin/plugin.json
+  customs-legal/CLAUDE.md
+  customs-legal/NOTICE
+  customs-legal/README.md
+  customs-legal/references/dossier-classement.md
+  customs-legal/references/preparation-exportation.md
+  customs-legal/references/qualification-douanes.md
+  customs-legal/references/qualification-import-professionnel.md
+  customs-legal/skills/commercial-import-intake/SKILL.md
+  customs-legal/skills/tariff-classification-dossier/SKILL.md

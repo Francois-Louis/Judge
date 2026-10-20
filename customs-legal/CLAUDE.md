@@ -8,6 +8,6 @@ n'est pas chargé automatiquement comme contexte du plugin.
 
 Les skills `import-document-checklist`, `overseas-shipment-documents`,
 `traveller-goods-documents`, `commercial-import-intake`,
-`export-document-preparation` et `customs-notice-review` utilisent les
-seules pièces utiles à la réponse en cours. Aucun profil, historique ou
-dossier n'est créé par défaut.
+`export-document-preparation`, `tariff-classification-dossier` et
+`customs-notice-review` utilisent les seules pièces utiles à la réponse en
+cours. Aucun profil, historique ou dossier n'est créé par défaut.

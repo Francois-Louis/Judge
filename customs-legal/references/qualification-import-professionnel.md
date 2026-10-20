@@ -1,7 +1,7 @@
 # Qualifier une importation commerciale ordinaire
 
-Version `1.0.1` — 20 octobre 2026 (Europe/Paris), DOU-004 ; relais de
-l'exportation mis à jour par DOU-005.
+Version `1.0.2` — 20 octobre 2026 (Europe/Paris), DOU-004 ; relais de
+l'exportation mis à jour par DOU-005, du classement par DOU-006.
 Méthode métier, repères datés et modèle de sortie pour un professionnel
 (entreprise, commerçant, artisan, micro-entrepreneur) qui veut comprendre
 qui fait quoi dans une importation définitive ordinaire de marchandises
@@ -21,7 +21,8 @@ valeur, questions au représentant en douane ou à la douane, séparées des
 engagements du contrat.
 
 **Exclus** : déclaration prête à déposer, choix d'un code tarifaire, d'une
-origine ou d'une valeur (DOU-006, DOU-007, DOU-008 : proposées, non
+origine ou d'une valeur (dossier de classement :
+`tariff-classification-dossier` ; DOU-007, DOU-008 : proposées, non
 livrées), optimisation, fiscalité générale et déclaration de TVA, Incoterms
 au fond et rédaction de clauses, autorisations réglementées (produits
 soumis à prohibition, restriction ou licence), régimes particuliers
@@ -99,7 +100,7 @@ avec le représentant ou la douane.
 
 | Inconnue | Repère lu | Ce qui fait avancer | Tâche |
 |---|---|---|---|
-| Classement tarifaire | Les droits et d'autres mesures reposent sur le tarif douanier commun et le classement (U1 art. 56, 57). | Fiche technique, composition, fonction, photos ; code proposé par le vendeur seulement comme indice. Outil TARIC (T1) : consultation par code, origine et date, sans valeur de décision. | DOU-006 proposée. |
+| Classement tarifaire | Les droits et d'autres mesures reposent sur le tarif douanier commun et le classement (U1 art. 56, 57). | Fiche technique, composition, fonction, photos ; code proposé par le vendeur seulement comme indice. Outil TARIC (T1) : consultation par code, origine et date, sans valeur de décision. | `tariff-classification-dossier` (DOU-006). |
 | Origine | Origine non préférentielle : pays d'obtention entière ou de dernière transformation substantielle (U1 art. 59, 60). Une préférence s'applique à la demande du déclarant si ses conditions sont remplies (U1 art. 56 § 3). Aucun accord, union douanière ni préférence avec un pays n'a été lu : n'en nommer aucun de mémoire. | Lieu de fabrication et sa preuve, attestation ou déclaration d'origine du fournisseur. Access2Markets (T2) pour orienter, sans valeur de règle. | DOU-007 proposée. |
 | Valeur en douane | Base première : prix payé ou à payer pour la vente à l'exportation vers l'Union, après ajustements, sous conditions (liens entre parties, restrictions, reversements) (U1 art. 70). | Facture, conditions de paiement, frais de transport et d'assurance facturés, redevances, liens entre acheteur et vendeur. | DOU-008 proposée. |
 
@@ -229,8 +230,9 @@ Aucun n'est présenté comme le conseil de l'entreprise. Conseil : avocat en
 droit douanier pour un contrôle, une contestation, un contentieux, une
 responsabilité du représentant ou un volet pénal ; conseil en droit des
 contrats pour l'Incoterm et les clauses ; expert-comptable ou service des
-impôts pour la TVA. Exportation : `export-document-preparation`.
-Relais proposés, non livrés : DOU-006 (classement), DOU-007 (origine),
+impôts pour la TVA. Exportation : `export-document-preparation` ;
+classement : `tariff-classification-dossier`.
+Relais proposés, non livrés : DOU-007 (origine),
 DOU-008 (valeur), DOU-010 (remboursement), DOU-011 (remise), régimes particuliers et rectification
 (tâches à découper), domaine fiscal (DOM-011). Ne jamais présenter une
 tâche proposée comme une commande disponible.

@@ -82,8 +82,8 @@ transporteur ou du vendeur ; aucun code ni identifiant d'accès demandé.
    (« a priori aucune », « rien ne bloque ») : dire que la question est à
    poser au représentant ou au service compétent.
 7. Nommer les inconnues de classement, d'origine et de valeur avec la
-   pièce qui fait avancer et la tâche proposée (DOU-006, DOU-007, DOU-008,
-   non livrées). Ne proposer aucun code, origine, valeur ou taux, même
+   pièce qui fait avancer ; dossier de classement : `tariff-classification-dossier` ;
+   origine et valeur : DOU-007, DOU-008, non livrées. Ne proposer aucun code, origine, valeur ou taux, même
    indicatif ; un code donné par le vendeur reste un indice.
 8. Lire les sources officielles utiles si un outil de lecture est
    disponible, vérifier la version à la date des faits et citer lien,

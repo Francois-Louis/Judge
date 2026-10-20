@@ -56,6 +56,10 @@ exportation définitive ordinaire de la métropole vers un pays tiers
 (DOU-005) : carte des acteurs, pièces de vente, de transport et de sortie,
 points à vérifier pour le produit, la destination et l'usage final, sans
 déclaration, autorisation ni exonération de TVA certifiée.
+`customs-legal:tariff-classification-dossier` 0.7.0 prépare un dossier de
+classement tarifaire (DOU-006) : fiche produit, attributs manquants,
+questions soulevées par un code proposé et contrôle d'une décision RTC
+fournie, sans code arrêté, taux ni demande déposée.
 `customs-legal:customs-notice-review` 0.2.0 lit un document de la douane déjà
 reçu (DOU-009) : nature, auteur, stade, mentions d'échéance reproduites,
 pièces et questions urgentes, sans recours rédigé ni délai calculé.
@@ -103,6 +107,7 @@ Each agent is named for the workflow it runs. They're the most common surface �
 | **Retour de voyage avec des achats** | Fiche trajet et qualité, inventaire, questions sur le régime ; DOU-003 | `customs-legal` | `/judge-fr-eu-customs-legal:traveller-goods-documents` |
 | **Importation pour son entreprise** | Carte des rôles et des pièces, régime à confirmer, inconnues de classement, d'origine et de valeur ; DOU-004 | `customs-legal` | `/judge-fr-eu-customs-legal:commercial-import-intake` |
 | **Exportation vers un pays tiers** | Carte des acteurs, pièces de vente, de transport et de sortie, points produit, destination et usage final ; DOU-005 | `customs-legal` | `/judge-fr-eu-customs-legal:export-document-preparation` |
+| **Code tarifaire à vérifier** | Fiche produit, attributs manquants, questions sur le code proposé, contrôle d'un RTC fourni ; DOU-006 | `customs-legal` | `/judge-fr-eu-customs-legal:tariff-classification-dossier` |
 | **Document de la douane reçu** | Nature, auteur, stade, mentions d'échéance, pièces et questions urgentes ; DOU-009 | `customs-legal` | `/judge-fr-eu-customs-legal:customs-notice-review` |
 | **Devis funéraire** | Postes, trois qualités et demande d'explication ; FUN-001 | `funeral-legal` | `/judge-fr-eu-funeral-legal:funeral-quote-review` |
 | **Acte de recouvrement ou d’exécution reçu** | Lecture, authenticité, urgence, fiche et questions ; ENF-001 | `enforcement-legal` | `/judge-fr-eu-enforcement-legal:enforcement-act-reading` |
@@ -263,7 +268,7 @@ After install, skills fire automatically when relevant, slash commands are avail
 ```
 
 **Run the cold-start interview first for inherited workflows.** CONSO-001
-(`consumer-legal`), funeral quote review (`funeral-legal`) claim denial review (`insurance-legal`) and the six customs skills (`customs-legal`) require no profile or setup. Every other inherited skill in a plugin reads from the practice profile it writes. Skipping setup is the single most common reason a skill produces generic output. The interview takes 10–20 minutes per plugin and will ask you to point at seed documents (a signed MSA, a playbook, a prior review memo — whatever fits the plugin). More seed material is better; a **quick start** option is available if you want to be productive in 2 minutes and refine later.
+(`consumer-legal`), funeral quote review (`funeral-legal`) claim denial review (`insurance-legal`) and the seven customs skills (`customs-legal`) require no profile or setup. Every other inherited skill in a plugin reads from the practice profile it writes. Skipping setup is the single most common reason a skill produces generic output. The interview takes 10–20 minutes per plugin and will ask you to point at seed documents (a signed MSA, a playbook, a prior review memo — whatever fits the plugin). More seed material is better; a **quick start** option is available if you want to be productive in 2 minutes and refine later.
 
 **Start by connecting a research tool.** Everything else is better with one, and citations are unverified without one. See [MCP Connectors](#mcp-connectors) below for the full list — CourtListener, Trellis, Descrybe, and Solve Intelligence are the research tools the citation guardrails look for.
 
@@ -314,7 +319,7 @@ narrative, without a profile or interview.
 | **[consumer-legal](./consumer-legal)** | CONSO-001 : fiche, chronologie, pièces et brouillon de réclamation pour un bien commandé à distance et non reçu. Un skill sans profil ni envoi ; validation client et lecteur à compléter. |
 | **[banking-legal](./banking-legal)** | BNK-001 `0.1.1` : qualifier un paiement contesté et préparer la réclamation pour une opération non autorisée sur un compte personnel ; tromperie et litige commercial orientés. Un skill, sans profil ni stockage ; [recette partielle et limites](backlog/03-nouveaux-domaines/suites/bnk-001-annexes/verification.md). |
 | **[insurance-legal](./insurance-legal)** | INS-001 `0.1.0` : refus de garantie, motif invoqué et pièces, demande d'explication ou de réexamen. Un skill sans profil, stockage, calcul ni envoi ; [recette et limites](backlog/03-nouveaux-domaines/suites/ins-001-annexes/verification.md). |
-| **[customs-legal](./customs-legal)** | `0.6.0` : dossier d'un achat privé expédié d'un pays tiers vers la métropole (DOU-001), d'un envoi entre la métropole et un territoire ultramarin (DOU-002), pièces des biens accompagnant un voyageur (DOU-003), qualification d'une importation commerciale ordinaire (DOU-004), pièces d'une exportation définitive ordinaire (DOU-005) et lecture d'un document de la douane déjà reçu (DOU-009). Six skills sans profil, calcul, recours, déclaration ni envoi ; recettes et limites [DOU-001](backlog/03-nouveaux-domaines/suites/dou-001-annexes/verification.md), [DOU-002](backlog/03-nouveaux-domaines/suites/dou-002-annexes/verification.md), [DOU-003](backlog/03-nouveaux-domaines/suites/dou-003-annexes/verification.md), [DOU-004](backlog/03-nouveaux-domaines/suites/dou-004-annexes/verification.md), [DOU-005](backlog/03-nouveaux-domaines/suites/dou-005-annexes/verification.md) et [DOU-009](backlog/03-nouveaux-domaines/suites/dou-009-annexes/verification.md). |
+| **[customs-legal](./customs-legal)** | `0.7.0` : dossier d'un achat privé expédié d'un pays tiers vers la métropole (DOU-001), d'un envoi entre la métropole et un territoire ultramarin (DOU-002), pièces des biens accompagnant un voyageur (DOU-003), qualification d'une importation commerciale ordinaire (DOU-004), pièces d'une exportation définitive ordinaire (DOU-005), dossier de classement tarifaire (DOU-006) et lecture d'un document de la douane déjà reçu (DOU-009). Sept skills sans profil, calcul, recours, déclaration ni envoi ; recettes et limites [DOU-001](backlog/03-nouveaux-domaines/suites/dou-001-annexes/verification.md), [DOU-002](backlog/03-nouveaux-domaines/suites/dou-002-annexes/verification.md), [DOU-003](backlog/03-nouveaux-domaines/suites/dou-003-annexes/verification.md), [DOU-004](backlog/03-nouveaux-domaines/suites/dou-004-annexes/verification.md), [DOU-005](backlog/03-nouveaux-domaines/suites/dou-005-annexes/verification.md), [DOU-006](backlog/03-nouveaux-domaines/suites/dou-006-annexes/verification.md) et [DOU-009](backlog/03-nouveaux-domaines/suites/dou-009-annexes/verification.md). |
 | **[funeral-legal](./funeral-legal)** | FUN-001 `0.1.0` : lecture de devis, rapprochement des postes à besoins identiques et brouillon à l'opérateur. Un skill sans profil, stockage ni envoi ; règles non relues réservées. |
 | **[enforcement-legal](./enforcement-legal)** | ENF-001 `0.1.0` : lire un acte reçu, vérifier l'authenticité, repérer l'urgence et préparer les questions. Un skill sans profil, calcul de délai ni envoi ; [recette et limites](backlog/03-nouveaux-domaines/suites/enf-001-annexes/verification.md). |
 | **[commercial-legal](./commercial-legal)** | Orientation contractuelle COM-001 sans profil obligatoire. Revues, avenants, registres, escalades et agents hérités non adaptés France/UE. |
@@ -458,7 +463,7 @@ The consumer and criminal plugins require no setup.
 |---|---|---|
 | `/judge-fr-eu-insurance-legal:claim-denial-review` | claim-denial-review | Comprendre un refus de garantie et préparer une demande à l'assureur |
 
-### Douanes — DOU-001, DOU-002, DOU-003, DOU-004, DOU-005, DOU-009
+### Douanes — DOU-001, DOU-002, DOU-003, DOU-004, DOU-005, DOU-006, DOU-009
 
 | Command | Skill | Description |
 |---|---|---|
@@ -467,6 +472,7 @@ The consumer and criminal plugins require no setup.
 | `/judge-fr-eu-customs-legal:traveller-goods-documents` | traveller-goods-documents | Préparer les pièces des biens qu'un voyageur rapporte d'un pays tiers |
 | `/judge-fr-eu-customs-legal:commercial-import-intake` | commercial-import-intake | Qualifier une importation commerciale ordinaire d'un pays tiers |
 | `/judge-fr-eu-customs-legal:export-document-preparation` | export-document-preparation | Préparer les pièces d'une exportation définitive ordinaire vers un pays tiers |
+| `/judge-fr-eu-customs-legal:tariff-classification-dossier` | tariff-classification-dossier | Préparer le dossier de classement tarifaire d'une marchandise, sans code arrêté |
 | `/judge-fr-eu-customs-legal:customs-notice-review` | customs-notice-review | Comprendre un document de la douane déjà reçu et préparer les questions urgentes |
 
 ### ai-governance-legal

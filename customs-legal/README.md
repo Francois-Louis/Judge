@@ -1,6 +1,6 @@
-# Douanes : achat d'un pays tiers, envoi outre-mer, biens du voyageur, importation commerciale, exportation et document reçu — DOU-001, DOU-002, DOU-003, DOU-004, DOU-005, DOU-009
+# Douanes : achat d'un pays tiers, envoi outre-mer, biens du voyageur, importation commerciale, exportation, classement et document reçu — DOU-001, DOU-002, DOU-003, DOU-004, DOU-005, DOU-006, DOU-009
 
-Version `0.6.0` — 20 octobre 2026 (Europe/Paris).
+Version `0.7.0` — 20 octobre 2026 (Europe/Paris).
 
 ## Préparer le dossier d'un achat expédié d'un pays tiers (DOU-001)
 
@@ -47,8 +47,9 @@ qualification et orientation seulement. Un envoi entre la métropole et un
 territoire ultramarin est préparé par `overseas-shipment-documents`, les biens
 d'un voyageur par `traveller-goods-documents`, un achat pour une activité
 par `commercial-import-intake`, une exportation par un professionnel par
-`export-document-preparation` ; un acte de la douane déjà reçu est lu par
-`customs-notice-review`.
+`export-document-preparation`, le dossier de classement d'une marchandise
+par `tariff-classification-dossier` ; un acte de la douane déjà reçu est lu
+par `customs-notice-review`.
 
 ## Préparer un envoi entre la métropole et l'outre-mer (DOU-002)
 
@@ -179,6 +180,43 @@ restrictives et le Code des douanes recodifié, lus le 20 octobre 2026 ; les
 règles Incoterms, le CGI, l'annexe I du double usage et le droit des pays de
 destination ne sont pas lus.
 
+## Préparer un dossier de classement tarifaire (DOU-006)
+
+`/judge-fr-eu-customs-legal:tariff-classification-dossier` aide la personne
+qui doit faire examiner le classement d'une marchandise dans la nomenclature
+de l'Union, à l'importation comme à l'exportation : fiche produit
+structurée (désignation, matières et proportions, fonction, usage,
+mécanisme, présentation, état), attributs techniques manquants reliés à la
+pièce qui les établit, questions soulevées par un code proposé par le
+vendeur, le transitaire, le transporteur ou un outil, contrôle d'une
+décision de renseignement tarifaire contraignant (RTC) fournie et voie
+officielle de renseignement.
+
+Un nom commercial, un code du vendeur, un code d'un tarif étranger ou une
+ancienne déclaration ne suffisent jamais : les règles générales
+interprétatives servent de questionnaire, pas de verdict. Un ensemble
+composite sans proportions ni fonction principale établies garde un
+classement réservé. Un RTC ne lie que son titulaire, pour la marchandise
+décrite et pendant sa validité : une décision sur un produit voisin ou
+d'un autre titulaire ne se transpose pas. Aucun code n'est arrêté, aucun
+taux, droit, mesure ni montant n'est donné, aucune demande de RTC n'est
+remplie ni déposée ; origine et valeur restent séparées.
+
+Exemple : « Le transporteur a déclaré vos couteaux comme « metal tool ».
+Pour leur classement, ce qui compte d'abord est la matière de la lame, le
+mécanisme (lame fixe ou pliante) et la présentation en assortiment : voici
+les pièces à réunir et la copie de déclaration à demander. »
+
+La [méthode de classement et ses sources](references/dossier-classement.md)
+s'appuie sur le règlement 2658/87 et la nomenclature combinée de 2026
+(règles générales interprétatives, notes de chapitre), les notes
+explicatives de la nomenclature combinée de 2019, le CDU (art. 22, 33, 34,
+56, 57), les règlements délégué 2015/2446 et d'exécution 2015/2447 sur les
+RTC et le Code des douanes recodifié, lus le 20 octobre 2026 ; les notes
+explicatives et avis de l'OMD, les notes de la nomenclature publiées depuis
+2019, les règlements de classement propres à un produit et la nomenclature
+de 2027 ne sont pas lus.
+
 ## Lire un document de la douane déjà reçu (DOU-009)
 
 `/judge-fr-eu-customs-legal:customs-notice-review` aide la personne qui a
@@ -209,10 +247,10 @@ sa publication au Journal officiel du 11 avril 2026 ; la ratification et les
 corrections annoncées restent à suivre. Un acte antérieur au 1er mai 2026 ou
 d'un autre État relève d'une version ou d'un régime à rechercher.
 
-## Commun aux six skills
+## Commun aux sept skills
 
-Les suites DOU-006 à DOU-008 et DOU-010 à DOU-019 restent proposées, sans
+Les suites DOU-007, DOU-008 et DOU-010 à DOU-019 restent proposées, sans
 commande livrée ici. Les contrôles de structure, de schéma, d'exécution et de
 compréhension réelle sont distingués dans les bilans DOU-001, DOU-002,
-DOU-003, DOU-004, DOU-005 et DOU-009. Les réserves de sources et contrôles
+DOU-003, DOU-004, DOU-005, DOU-006 et DOU-009. Les réserves de sources et contrôles
 non exécutés ne valent pas validation juridique.
