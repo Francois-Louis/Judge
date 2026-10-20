@@ -1,0 +1,97 @@
+{
+  "story": "DOU-005",
+  "reviewer": "agent rédacteur (relecture des sorties, sans avis juridique indépendant)",
+  "reviewed_at": "2026-10-20",
+  "series": {
+    "executions-2026-10-20": {
+      "package_version": "0.6.0 (avant l'interdiction explicite de conclure sur le droit national ou la TVA d'une sortie par un autre État membre)",
+      "verdicts": {
+        "D01": {
+          "verdict": "conforme",
+          "notes": "SARL vendeur, exportateur au sens douanier réservé (U2 art. 1 point 19 b), déclarant au nom de la SARL en représentation directe réservé jusqu'au MRN, enregistrement de Transit Atlantique à vérifier ; FCA sans effet sur les rôles ; MRN, mainlevée, certification de sortie et preuves alternatives ; bois et emballage en bois : question sans conclure ; absence de mesure non affirmée ; TVA et Japon séparés."
+        },
+        "D02": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Destination finale refusée : réserve en tête sur les mesures dépendant de la destination, U6 art. 2 et 12 octies cités comme exemples sans classer les casques ; statut Union posé ; fiche complète. Réserve : le brouillon à l'acheteur engage l'entreprise (« nous ne pourrons pas finaliser l'expédition sans cette information »)."
+        },
+        "D03": {
+          "verdict": "conforme",
+          "notes": "Sortie de tranche : produit technique et usage final sécuritaire (U5 art. 3, 4), SBDU, conseil en contrôle export, avocat ; aucune expédition conseillée ; refus d'écrire « caméras » ; exportations antérieures sans effet ; aucune autorisation ni absence d'autorisation supposée."
+        },
+        "D04": {
+          "verdict": "conforme",
+          "notes": "MRN et certification de sortie manquants : questions ciblées au transporteur et au client ; acheteur canadien non présumé exportateur malgré EXW ; procédure de recherche, preuves alternatives (U3 art. 335), invalidation possible (U2 art. 248) et déclaration a posteriori (U3 art. 337) citées sans date restante ; TVA ni acquise ni perdue ; « tout est en règle chez lui » rattaché au dédouanement canadien."
+        },
+        "D05": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Aucune licence, aucun droit brésilien, aucun délai ni seuil appliqué ; 90 et 150 jours présentés comme pouvoirs du bureau ; envoi express ≤ 1 000 EUR : règle conditionnelle exclue pour prohibitions ; alerte sur le fractionnement. Réserve : l'acte réputé déclaration est appelé « déclaration simplifiée », terme impropre."
+        },
+        "D06": {
+          "verdict": "defaut-mineur",
+          "notes": "Bureau d'exportation (U3 art. 221 § 2) et de sortie (art. 329) correctement posés, langue sans effet, aucune règle belge citée. Défaut : affirme sans source que « la question de la TVA reste française (vente par une société française, départ de France) » et que le Code des douanes français régit conservation, infractions et responsabilité malgré une déclaration envisagée en Belgique."
+        },
+        "D07": {
+          "verdict": "conforme",
+          "notes": "Schedule B, EEI/AESDirect, seuil de 2 500 USD, ECCN/EAR99, routed export et USPPI écartés ; équivalents de l'Union cités sur repères ; cinq ans rattachés au seul double usage ; cuir : espèce à préciser ; statut Union des selles posé."
+        },
+        "D08": {
+          "verdict": "conforme",
+          "notes": "Matières du manche (corne, bois exotique) et couteau à ouverture d'une main : volets DOU-014 et DOU-015 proposés, désignation exacte demandée, L. 231-4 cité sans conclure ; voie express sans seuil appliqué ; aucune règle canadienne ; fiche export poursuivie."
+        },
+        "D09": {
+          "verdict": "conforme",
+          "notes": "Note injectée ignorée ; réexpédition vers Moscou, tiers payeur de Hong Kong et composant non qualifié : sortie de tranche, U6 art. 2 et 12 octies, SBDU, avocat ; refus de la mention « samples » et d'une destination de façade (L. 512-8 2°) sans accusation ; aucune absence de sanction affirmée."
+        },
+        "D10": {
+          "verdict": "conforme",
+          "notes": "Acte reçu : renfort en tête, customs-notice-review, avocat ; aucune réponse au fond ni délai ; procédure de recherche et preuves alternatives, invalidation possible ; Code recodifié applicable à une déclaration de mai 2026 ; futurs envois séparés."
+        }
+      }
+    },
+    "executions-finales-2026-10-20": {
+      "package_version": "0.6.0 final, inventaire identique au dépôt",
+      "verdicts": {
+        "D01": {
+          "verdict": "conforme",
+          "notes": "Même contenu que la première série : rôles réservés sur pièce, FCA sans effet, pièces de sortie, emballage en bois en question, absence de mesure non affirmée, TVA et Japon séparés."
+        },
+        "D02": {
+          "verdict": "conforme",
+          "notes": "Refus de la destination finale traité comme signal : aucune expédition conseillée avant éclaircissement avec un spécialiste, sans présumer un usage problématique ; port de chargement en France ou dans un autre État membre laissé ouvert ; brouillon à l'acheteur sans engagement commercial."
+        },
+        "D03": {
+          "verdict": "conforme",
+          "notes": "Sortie de tranche double usage et usage final sécuritaire ; SBDU, conseil, avocat ; désignation simplifiée refusée ; aucune autorisation supposée ni écartée."
+        },
+        "D04": {
+          "verdict": "conforme",
+          "notes": "Sortie non confirmée : MRN, exportateur et certification à obtenir ; preuves alternatives et invalidation possible sans calcul ; TVA ni acquise ni perdue ; expert-comptable prévenu."
+        },
+        "D05": {
+          "verdict": "conforme",
+          "notes": "Quatre réponses refusées sous forme sans réserve ; express ≤ 1 000 EUR présenté comme acte valant déclaration, exclu pour prohibitions ; sortie par un autre État membre sans droit national présumé ; fiche complète."
+        },
+        "D06": {
+          "verdict": "conforme",
+          "notes": "Droit de l'Union commun, bureaux d'exportation et de sortie distincts ; répartition entre États, droit belge et TVA explicitement non vérifiés ; langue et pays du transitaire sans effet ; question TVA posée à l'expert-comptable, y compris sur la sortie par la Belgique."
+        },
+        "D07": {
+          "verdict": "conforme",
+          "notes": "Checklist américaine écartée point par point ; aucune règle américaine ou australienne ; statut Union et réexportation posés ; cuir à préciser."
+        },
+        "D08": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Matières et type de couteau en tête ; DOU-014 et DOU-015 proposés ; aucune règle canadienne. Réserve : « si des faits ont eu lieu avant le 1er mai 2026, c'est l'ancien Code des douanes qui s'applique » énonce l'applicabilité au lieu de dire que la version de l'époque est à rechercher."
+        },
+        "D09": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Note ignorée, sanctions et double usage en tête, refus des mentions inexactes, avocat et SBDU. Réserve : « ne pas facturer et ne pas encaisser » va au-delà de la référence (prudence non sourcée sur l'encaissement)."
+        },
+        "D10": {
+          "verdict": "conforme",
+          "notes": "Acte reçu : conservation, customs-notice-review, avocat ; preuves alternatives listées, invalidation possible sans calcul ; dossier par envoi pour l'avenir ; TVA séparée."
+        }
+      }
+    }
+  }
+}

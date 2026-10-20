@@ -1,7 +1,7 @@
 # Qualifier l'opération douanière avant toute liste de pièces
 
-Version `1.4.0` — 19 octobre 2026 (Europe/Paris), DOU-001 ; disponibilités
-mises à jour par DOU-009, DOU-002, DOU-003 et DOU-004.
+Version `1.5.0` — 20 octobre 2026 (Europe/Paris), DOU-001 ; disponibilités
+mises à jour par DOU-009, DOU-002, DOU-003, DOU-004 et DOU-005.
 Référence commune du domaine douanier. Elle qualifie toute opération, même
 hors de la tâche livrée, puis indique ce que ce paquet traite réellement.
 Les règles datées et leurs sources figurent dans la référence métier de la
@@ -70,7 +70,8 @@ observée** (et son auteur), **source lue** (avec date) et **inconnue**.
 | Achat d'un pays tiers livré outre-mer, envoi entre deux territoires ultramarins, Monaco ou autre territoire particulier invoqué. | Qualification territoriale et questions ; tâche à découper, non livrée. Les impositions propres à un territoire ne sont pas étudiées ici : demander au service d'information quels droits et taxes s'appliquent, sans en nommer de mémoire. |
 | Biens ordinaires transportés dans ses bagages par un voyageur majeur, pour son usage privé, à l'arrivée en France métropolitaine d'un pays tiers ou d'un territoire fiscalement tiers. | **Traité** par `traveller-goods-documents` (DOU-003) : fiche trajet et qualité, inventaire, questions sur le régime et pièces ; aucune franchise garantie, calcul ni déclaration. Mineur, déménagement, véhicule et biens réglementés : détection et orientation. |
 | Marchandises achetées par un professionnel pour son activité ou la revente, expédiées d'un pays tiers vers la France métropolitaine pour y rester. | **Traité** par `commercial-import-intake` (DOU-004) : carte des rôles (importateur déclaré, déclarant, représentant, débiteur) et des pièces, régime envisagé à confirmer, inconnues de classement, d'origine et de valeur, questions ; aucune déclaration, code, taux ni montant. Classement DOU-006, origine DOU-007, valeur DOU-008 : proposées. Activité professionnelle entre la métropole et l'outre-mer : tâche à découper. |
-| Exportation, retour, réparation, réimportation, transit, régime temporaire. | Orientation ; DOU-005 et tâches à découper. |
+| Marchandises de l'Union vendues ou envoyées par un professionnel, au départ de la France métropolitaine, vers une destination identifiée hors de l'Union, pour y rester. | **Traité** par `export-document-preparation` (DOU-005) : carte des acteurs et de l'opération, pièces de vente, de transport et de sortie, points à vérifier pour le produit, la destination et l'usage final, questions ; aucune déclaration, autorisation, conformité export ni exonération de TVA certifiée. Double usage, sanctions et usage final sensible : réserve et orientation spécialisée. |
+| Réexportation, exportation temporaire ou échantillons, retour, réparation, réimportation, transit, régime temporaire ; exportation par un particulier ou vers l'outre-mer. | Orientation ; tâches proposées DOU-013 à DOU-019 selon le cas et tâches à découper. |
 | Véhicule. | Orientation ; DOU-012 proposée. Immatriculation et quitus fiscal relèvent d'autres domaines. |
 | Cadeau entre particuliers, franchise alléguée. | Orientation : conditions à vérifier sur source, rien d'acquis. |
 | Acte de la douane déjà reçu : demande de pièces, communication des motifs, décision, avis de mise en recouvrement, procès-verbal, saisie ou retenue, convocation, transaction. | **Traité** par `customs-notice-review` (DOU-009) : nature, auteur et stade, objets séparés, mentions d'échéance reproduites, pièces et questions ; renfort et avocat en droit douanier si décision, recouvrement, infraction, saisie ou personne visée. Observations, contestation, sursis et défense : non livrés. |

@@ -1,0 +1,337 @@
+[
+  {
+    "route": "scripts/legal_sources.py eu",
+    "reference": "02013R0952-20221212",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02013R0952-20221212",
+        "attempted_at": "2026-10-20T06:44:17.669642+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02013R0952-20221212",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02013R0952-20221212",
+        "attempted_at": "2026-10-20T06:44:17.766448+00:00",
+        "http_status": 200,
+        "final_url": "https://publications.europa.eu/resource/cellar/1c0f12d9-8b8e-11ed-999b-01aa75ed71a1.0011.02/DOC_2",
+        "content_type": "application/xhtml+xml",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-20T06:44:18.306514+00:00",
+        "bytes": 1071657,
+        "sha256": "a44f4b191734ce2d2db999dfc45504eb6154e9de99559f49e5503ec2b9708e2f"
+      }
+    ]
+  },
+  {
+    "route": "scripts/legal_sources.py eu",
+    "reference": "02006L0112-20250414",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02006L0112-20250414",
+        "attempted_at": "2026-10-20T06:46:56.988510+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02006L0112-20250414",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02006L0112-20250414",
+        "attempted_at": "2026-10-20T06:46:57.070554+00:00",
+        "http_status": 200,
+        "final_url": "https://publications.europa.eu/resource/cellar/03c42d77-512a-11f0-a9d0-01aa75ed71a1.0011.02/DOC_1",
+        "content_type": "application/xhtml+xml",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-20T06:46:57.621111+00:00",
+        "bytes": 1933755,
+        "sha256": "3c14548595c996f64e9d90a8c29789956a6239c72e7a24610967ceaaf19b0040"
+      }
+    ]
+  },
+  {
+    "route": "scripts/legal_sources.py eu",
+    "reference": "02021R0821-20260921",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02021R0821-20260921",
+        "attempted_at": "2026-10-20T06:45:31.160021+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02021R0821-20260921",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02021R0821-20260921",
+        "attempted_at": "2026-10-20T06:45:31.223769+00:00",
+        "http_status": 200,
+        "final_url": "https://publications.europa.eu/resource/cellar/14ce2965-b119-11f1-b9e5-01aa75ed71a1.0003.02/DOC_1",
+        "content_type": "application/xhtml+xml",
+        "state": "retrieved",
+        "retrieved_at": "2026-10-20T06:45:31.863200+00:00",
+        "bytes": 3428634,
+        "sha256": "12dd5574a38213e83fb966876fb2abf9c0b36f1233479c7f288d07ce6e55ca41"
+      }
+    ]
+  },
+  {
+    "route": "scripts/legal_sources.py eu",
+    "reference": "02015R2447-20260701",
+    "state": "unavailable",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02015R2447-20260701",
+        "attempted_at": "2026-10-20T06:45:30.440915+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02015R2447-20260701",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02015R2447-20260701",
+        "attempted_at": "2026-10-20T06:45:30.548661+00:00",
+        "state": "transport-error",
+        "reason": "ValueError"
+      }
+    ]
+  },
+  {
+    "route": "scripts/legal_sources.py eu",
+    "reference": "02014R0833-20260724",
+    "state": "unavailable",
+    "attempts": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02014R0833-20260724",
+        "attempted_at": "2026-10-20T06:49:10.333509+00:00",
+        "http_status": 202,
+        "final_url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02014R0833-20260724",
+        "content_type": "text/html",
+        "state": "blocked",
+        "reason": "Challenge/access restriction; not a legal document"
+      },
+      {
+        "url": "https://publications.europa.eu/resource/celex/02014R0833-20260724",
+        "attempted_at": "2026-10-20T06:49:10.443583+00:00",
+        "state": "transport-error",
+        "reason": "ValueError"
+      }
+    ]
+  },
+  {
+    "route": "CELLAR, téléchargement direct (Accept: application/xhtml+xml, Accept-Language: fra)",
+    "reference": "02015R2447-20260701",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://publications.europa.eu/resource/celex/02015R2447-20260701",
+        "attempted_at": "2026-10-20T06:45:47Z",
+        "http_status": 200,
+        "final_url": "http://publications.europa.eu/resource/cellar/29ee0635-8532-11f1-bf5e-01aa75ed71a1.0001.02/DOC_1",
+        "bytes": 42052126,
+        "sha256": "e09eac98fd6d1c2e72b86480a863240511ccd2af83bce7333529f368c2546f41",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "CELLAR, téléchargement direct (Accept: application/xhtml+xml, Accept-Language: fra)",
+    "reference": "02015R2446-20260701",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://publications.europa.eu/resource/celex/02015R2446-20260701",
+        "attempted_at": "2026-10-20T06:46:17Z",
+        "http_status": 200,
+        "final_url": "http://publications.europa.eu/resource/cellar/2e297d47-8125-11f1-bf5e-01aa75ed71a1.0016.02/DOC_1",
+        "bytes": 29618131,
+        "sha256": "16a2fb162dbb1ddaacc29f557f11a443d751d659c4d37dd776b48d5698425ab0",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "CELLAR, téléchargement direct (Accept: application/xhtml+xml, Accept-Language: fra)",
+    "reference": "02014R0833-20260724",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://publications.europa.eu/resource/celex/02014R0833-20260724",
+        "attempted_at": "2026-10-20T06:49:17Z",
+        "http_status": 200,
+        "final_url": "http://publications.europa.eu/resource/cellar/0492ea31-a0ce-11f1-b25c-01aa75ed71a1.0013.02/DOC_1",
+        "bytes": 14896184,
+        "sha256": "d661e4c29c73015419dd55fb2c96e3649d908872f38d42e5d01438ee0fd95a66",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "CELLAR SPARQL (publications.europa.eu/webapi/rdf/sparql)",
+    "reference": "liste des consolidations 02013R0952, 02006L0112, 02015R2446, 02015R2447, 02021R0821, 02014R0833",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://publications.europa.eu/webapi/rdf/sparql",
+        "attempted_at": "2026-10-20",
+        "http_status": 200,
+        "state": "retrieved",
+        "note": "dernières consolidations : 02013R0952-20221212, 02006L0112-20250414, 02015R2446-20260701, 02015R2447-20260701, 02021R0821-20260921, 02014R0833-20260724"
+      }
+    ]
+  },
+  {
+    "route": "DILA JORF, archive téléchargée et lue hors outil (tarfile, sans extraction)",
+    "reference": "JORF_20260411-003912 (JORFTEXT000053791010)",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20260411-003912.tar.gz",
+        "attempted_at": "2026-10-20T06:47:11Z",
+        "http_status": 200,
+        "bytes": 679825,
+        "sha256": "d09e9043819b4de4ed028d9e8dae773998c558473c883ca957918b33d7af27a7",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G1",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.douane.gouv.fr/fiche/formalites-lexportation-les-notions-essentielles",
+        "attempted_at": "2026-10-20",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G2",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.douane.gouv.fr/demarche/sassurer-de-la-sortie-effective-des-marchandises-du-territoire-douanier-de-lunion-une",
+        "attempted_at": "2026-10-20",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G3",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.douane.gouv.fr/demarche/beneficier-de-lexoneration-la-tva-lexportation",
+        "attempted_at": "2026-10-20",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G4",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.douane.gouv.fr/les-nouvelles-regles-incotermsr-2020-et-la-valeur-en-douane",
+        "attempted_at": "2026-10-20",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G5",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.douane.gouv.fr/demarche/exporter-des-biens-et-technologies-double-usage-vers-un-pays-tiers",
+        "attempted_at": "2026-10-20",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G6",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/mon-bien-est-il-double-usage",
+        "attempted_at": "2026-10-20",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "G7",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://www.tresor.economie.gouv.fr/services-aux-entreprises/sanctions-economiques/votre-bien-ou-votre-service-est-il-vise-par-des-interdictions-ou-des-restrictions-commerciales",
+        "attempted_at": "2026-10-20",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "T1",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=fr",
+        "attempted_at": "2026-10-20",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch, résumé du contenu, sans empreinte)",
+    "reference": "T2",
+    "state": "retrieved",
+    "attempts": [
+      {
+        "url": "https://trade.ec.europa.eu/access-to-markets/fr/home",
+        "attempted_at": "2026-10-20",
+        "state": "retrieved"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebFetch)",
+    "reference": "EU Sanctions Map",
+    "state": "unavailable",
+    "attempts": [
+      {
+        "url": "https://www.sanctionsmap.eu/",
+        "attempted_at": "2026-10-20",
+        "state": "empty",
+        "reason": "page JavaScript : seul « Please wait » restitué ; non lue"
+      }
+    ]
+  },
+  {
+    "route": "outil web (WebSearch, domaines douane.gouv.fr, entreprises.gouv.fr, tresor.economie.gouv.fr)",
+    "reference": "recherche de pages",
+    "state": "search-only",
+    "attempts": [
+      {
+        "attempted_at": "2026-10-20",
+        "state": "search-only",
+        "note": "résultats de moteur utilisés pour trouver des pages, non retenus comme textes lus"
+      }
+    ]
+  }
+]

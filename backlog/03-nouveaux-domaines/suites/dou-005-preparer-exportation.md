@@ -1,7 +1,7 @@
 ---
 id: DOU-005
 titre: "Préparer les pièces d'une exportation définitive ordinaire"
-statut: proposee
+statut: terminee
 priorite: P3
 nature: implementation
 dependances: [DOM-009, PILOTE-003, BASE-005, BASE-006, BASE-008, DOU-001]
@@ -71,12 +71,12 @@ une source inaccessible qu'après une tentative réelle. Aucun corpus validé ic
 
 ## Critères d'acceptation
 
-- [ ] Le résultat propre à cette tâche, décrit ci-dessus, est produit sur le cas normal avec pièces et inconnues visibles.
-- [ ] Les cas limites gardent les distinctions et exclusions métier indiquées ; aucune conclusion dépendante n'est complétée de mémoire.
-- [ ] Chaque règle ou formalité retenue a une source lue et un champ territorial/temporel établi ; sans source, la fiche factuelle reste utile.
-- [ ] Le paquet détaché fonctionne seul, sans profil préalable ni autre plugin ; recette BASE-006 consignée par couche, invocation et sorties observées conservées.
-- [ ] La sortie se termine par la phrase BASE-013 avec professionnel adapté ; renfort en tête si acte notifié, échéance ou risque immédiat.
-- [ ] Aucun envoi, déclaration, paiement ou dépôt n'est réalisé ; versions, métadonnées et NOTICE sont cohérents avec les tâches effectivement livrées.
+- [x] Le résultat propre à cette tâche, décrit ci-dessus, est produit sur le cas normal avec pièces et inconnues visibles.
+- [x] Les cas limites gardent les distinctions et exclusions métier indiquées ; aucune conclusion dépendante n'est complétée de mémoire.
+- [x] Chaque règle ou formalité retenue a une source lue et un champ territorial/temporel établi ; sans source, la fiche factuelle reste utile.
+- [x] Le paquet détaché fonctionne seul, sans profil préalable ni autre plugin ; recette BASE-006 consignée par couche, invocation et sorties observées conservées.
+- [x] La sortie se termine par la phrase BASE-013 avec professionnel adapté ; renfort en tête si acte notifié, échéance ou risque immédiat.
+- [x] Aucun envoi, déclaration, paiement ou dépôt n'est réalisé ; versions, métadonnées et NOTICE sont cohérents avec les tâches effectivement livrées.
 
 ## Vérification
 
@@ -110,3 +110,56 @@ le routage documentaire, pas sur l'exécution de ces scénarios.
 Points 32 et 35–39, 47–58 : documenter destination réelle, produit, rôle des acteurs, clause/version/lieu Incoterm, déclaration et preuve de sortie effectivement disponibles. Le volet preuve fiscale est V04, le contrat V03. Détecter temporaire, SAV/perfectionnement, matières réglementées, double usage et restrictions de destination ; C04–C08/C21–C24 demandent des tâches propres, sans autorisation export/import certifiée ici. Cas : couteau envoyé au Canada avec matière du manche inconnue ; export EXW sans preuve de sortie. Conserver l'exclusion des régimes particuliers.
 
 Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).
+
+## Implémentation — 20 octobre 2026
+
+La demande « implémente la story dou-005 » sélectionne cette tranche, de
+rang 4 dans le découpage DOM-009. L'état de proposition ci-dessus reste un
+historique. `customs-legal` passe à `0.6.0` avec le skill
+`export-document-preparation`, sans profil, stockage, calcul, déclaration ni
+envoi ; marketplace et isolation à 18 paquets / 146 skills.
+
+Ressources : `preparation-exportation.md 1.0.0` (qualification avant toute
+liste : exportation, réexportation, sortie temporaire, retour, autre État
+membre, outre-mer, sortie par un autre État membre, départ sans
+déclaration ; exportateur au sens douanier établi dans l'Union et jamais
+déduit d'un Incoterm, EXW compris ; étapes de la déclaration à la
+certification de sortie, procédure de recherche et preuves alternatives ;
+produit, destination et usage final avec sortie de tranche pour le double
+usage, les sanctions et l'usage final sensible ; TVA en axe séparé ;
+modèle de sortie ; seize repères relus le 20 octobre 2026) ;
+`qualification-douanes.md` passe en `1.5.0` et
+`qualification-import-professionnel.md` en `1.0.1` pour les relais ;
+`import-document-checklist` route l'exportation professionnelle vers le
+nouveau skill. Lectures : CDU, règl. délégué 2015/2446 (exportateur, envois
+postaux et express réputés déclarés, déclaration préalable à la sortie,
+invalidation après 150 jours), règl. d'exécution 2015/2447 (bureau
+d'exportation, bureau de sortie, certification, recherche et preuves,
+déclaration a posteriori), directive 2006/112/CE (art. 131, 146), règl.
+2021/821 (double usage), règl. 833/2014 (exemples de mesures directes ou
+indirectes) ; Code des douanes recodifié dans sa publication au JORF du
+11 avril 2026 (prohibitions, exportation sans déclaration, responsabilité) ;
+pages de la Douane, de la DGE et de la DG Trésor comme guides ; TARIC et
+Access2Markets comme outils.
+
+Recette : dix cas fictifs D01–D10 exécutés dans le client réel sur paquet
+détaché, deux fois. Première série : 9 conformes dont 2 avec réserve et 1
+défaut mineur (D06 affirmait sans source que la TVA « reste française » et
+que le droit français régissait une sortie déclarée en Belgique). Après
+correction du skill et de la référence, série finale 10/10 conformes selon
+la relecture du rédacteur, D08 et D09 avec une réserve de formulation.
+Preuves : [vérification par couche](dou-005-annexes/verification.md),
+[fixtures](dou-005-annexes/fixtures.json), [verdicts](dou-005-annexes/resultats.json),
+[sources](dou-005-annexes/sources/lectures.md),
+[contrôle du paquet](dou-005-annexes/controle-paquet.txt) et
+[contrôles techniques](dou-005-annexes/controles-techniques.txt).
+
+Les critères sont cochés sur ces observations ; aucun scénario avec
+recherche web pendant la réponse n'a été exécuté. Les règles Incoterms, le
+CGI et la doctrine fiscale, l'annexe I du double usage, les autres régimes
+de sanctions, le droit des pays de destination et des autres États membres
+et la version de l'ancien code pour des faits antérieurs au 1er mai 2026
+restent non étudiés au-delà de la détection. La relecture juridique et de
+compréhension par un lecteur réel est prise en charge par l'utilisateur
+selon les consignes du 17 octobre 2026 ; elle n'est pas déclarée effectuée
+et ne maintient pas la story ouverte.

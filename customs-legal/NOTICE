@@ -140,3 +140,35 @@ Files:
   skills/import-document-checklist/SKILL.md
   skills/overseas-shipment-documents/SKILL.md
   skills/traveller-goods-documents/SKILL.md
+
+DOU-005 changes (2026-10-20): customs-legal 0.6.0 adds the
+export-document-preparation skill preparing the documents of one ordinary
+definitive export of Union goods by a business from metropolitan France to
+an identified destination outside the Union: map of actors (seller, buyer,
+exporter in the customs sense, declarant, customs representative,
+carrier, consignee and end user) and of the operation, sale, transport and
+exit documents received or missing, points to check for the product, the
+destination and the end use, questions to the representative, the carrier,
+the buyer or customs. The exporter and declarant are never inferred from
+an Incoterm; an invoice without VAT or a transport document is not proof
+of exit; dual-use, sanctions and sensitive end use leave the slice and are
+routed; no declaration, licence, compliance, deadline, amount or VAT
+exemption is produced or certified.
+preparation-exportation.md 1.0.0 added with readings of 2026-10-20 (Union
+Customs Code, Delegated Regulation 2015/2446, Implementing Regulation
+2015/2447, VAT Directive 2006/112/EC, Dual-Use Regulation 2021/821,
+Regulation 833/2014, recodified French Customs Code legislative part as
+published on 2026-04-11, customs, DGE and Treasury guidance pages, TARIC and
+Access2Markets as tools). qualification-douanes.md 1.5.0,
+qualification-import-professionnel.md 1.0.1 and import-document-checklist
+route exports to the new skill.
+Files:
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  references/preparation-exportation.md
+  references/qualification-douanes.md
+  references/qualification-import-professionnel.md
+  skills/export-document-preparation/SKILL.md
+  skills/import-document-checklist/SKILL.md

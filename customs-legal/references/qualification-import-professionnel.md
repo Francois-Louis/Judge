@@ -1,6 +1,7 @@
 # Qualifier une importation commerciale ordinaire
 
-Version `1.0.0` — 19 octobre 2026 (Europe/Paris), DOU-004.
+Version `1.0.1` — 20 octobre 2026 (Europe/Paris), DOU-004 ; relais de
+l'exportation mis à jour par DOU-005.
 Méthode métier, repères datés et modèle de sortie pour un professionnel
 (entreprise, commerçant, artisan, micro-entrepreneur) qui veut comprendre
 qui fait quoi dans une importation définitive ordinaire de marchandises
@@ -25,7 +26,7 @@ livrées), optimisation, fiscalité générale et déclaration de TVA, Incoterms
 au fond et rédaction de clauses, autorisations réglementées (produits
 soumis à prohibition, restriction ou licence), régimes particuliers
 (retour, réparation, admission temporaire, transit, entrepôt), exportation
-(DOU-005), achat privé (`import-document-checklist`), biens d'un voyageur
+(`export-document-preparation`), achat privé (`import-document-checklist`), biens d'un voyageur
 (`traveller-goods-documents`), envoi entre la métropole et l'outre-mer
 (`overseas-shipment-documents` pour un particulier ; activité
 professionnelle outre-mer : tâche à découper), acte de la douane déjà reçu
@@ -87,8 +88,8 @@ avec le représentant ou la douane.
 | Signal dans le récit | Qualification | Suite |
 |---|---|---|
 | Stock, matières, équipement qui restent en France | Importation définitive ordinaire : mise en libre pratique envisagée (U1 art. 201). | Fiche complète. |
-| Biens à **réparer** puis à renvoyer, prototypes ou échantillons à retourner, matériel de salon | La réparation est une opération de transformation (U1 art. 5 point 37 d) ; perfectionnement actif (U1 art. 256) ou admission temporaire (U1 art. 250) : régimes particuliers sous autorisation (U1 art. 210, 211). | Hors importation définitive ordinaire : détecter, demander l'intention et la propriété, orienter (tâche à découper) ; aucune liste ordinaire. Le renvoi après réparation de marchandises non Union est une réexportation, pas l'exportation de marchandises de l'Union (DOU-005). |
-| Marchandises de l'Union exportées puis revenues (retour, échange sous garantie) | Marchandises en retour, exonération sous conditions dans les trois ans et dans le même état (U1 art. 203). | Régime distinct : orienter (DOU-005 et tâches à découper). |
+| Biens à **réparer** puis à renvoyer, prototypes ou échantillons à retourner, matériel de salon | La réparation est une opération de transformation (U1 art. 5 point 37 d) ; perfectionnement actif (U1 art. 256) ou admission temporaire (U1 art. 250) : régimes particuliers sous autorisation (U1 art. 210, 211). | Hors importation définitive ordinaire : détecter, demander l'intention et la propriété, orienter (tâche à découper) ; aucune liste ordinaire. Le renvoi après réparation de marchandises non Union est une réexportation, pas l'exportation de marchandises de l'Union (`export-document-preparation`). |
+| Marchandises de l'Union exportées puis revenues (retour, échange sous garantie) | Marchandises en retour, exonération sous conditions dans les trois ans et dans le même état (U1 art. 203). | Régime distinct : orienter (DOU-018 proposée et tâches à découper). |
 | Marchandises qui ne font que traverser, ou acheminées sous transit jusqu'à un autre bureau | Transit (U1 art. 210 a, 226). | Livraison ≠ apurement du transit : demander le document et sa fin. |
 | Marchandises en attente au port, à l'aéroport ou chez le transporteur | Dépôt temporaire dès la présentation (U1 art. 144) ; placement sous un régime ou réexportation dans les 90 jours (U1 art. 149) ; stockage dans un lieu autorisé (U1 art. 147). | Date de présentation et lieu à demander ; les « jours gratuits » ou le tarif de magasinage du prestataire ne sont pas la durée légale ; aucun délai restant calculé. |
 | Produit alimentaire, végétal, animal, chimique, électrique, cosmétique, jouet, arme ou couteau, bien à double usage, produit de marque, acier ou aluminium | Prohibitions ou restrictions appliquées à la mise en libre pratique (U1 art. 134, 201 § 2 c) ; mesures liées au classement et à l'origine (U1 art. 56 § 1). La douane liste un registre MACF parmi les démarches d'import (G7). | Volet réglementé détecté : désignation exacte, demande au représentant ou au service compétent ; aucune autorisation ni conformité certifiée. Hors de cette liste, ne pas affirmer l'absence de mesure : la question se pose pour tout produit. |
@@ -228,9 +229,9 @@ Aucun n'est présenté comme le conseil de l'entreprise. Conseil : avocat en
 droit douanier pour un contrôle, une contestation, un contentieux, une
 responsabilité du représentant ou un volet pénal ; conseil en droit des
 contrats pour l'Incoterm et les clauses ; expert-comptable ou service des
-impôts pour la TVA. Relais proposés, non livrés : DOU-005 (exportation),
-DOU-006 (classement), DOU-007 (origine), DOU-008 (valeur), DOU-010
-(remboursement), DOU-011 (remise), régimes particuliers et rectification
+impôts pour la TVA. Exportation : `export-document-preparation`.
+Relais proposés, non livrés : DOU-006 (classement), DOU-007 (origine),
+DOU-008 (valeur), DOU-010 (remboursement), DOU-011 (remise), régimes particuliers et rectification
 (tâches à découper), domaine fiscal (DOM-011). Ne jamais présenter une
 tâche proposée comme une commande disponible.
 

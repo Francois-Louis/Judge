@@ -1,6 +1,6 @@
-# Douanes : achat d'un pays tiers, envoi outre-mer, biens du voyageur, importation commerciale et document reçu — DOU-001, DOU-002, DOU-003, DOU-004, DOU-009
+# Douanes : achat d'un pays tiers, envoi outre-mer, biens du voyageur, importation commerciale, exportation et document reçu — DOU-001, DOU-002, DOU-003, DOU-004, DOU-005, DOU-009
 
-Version `0.5.0` — 19 octobre 2026 (Europe/Paris).
+Version `0.6.0` — 20 octobre 2026 (Europe/Paris).
 
 ## Préparer le dossier d'un achat expédié d'un pays tiers (DOU-001)
 
@@ -46,7 +46,8 @@ retour, transit, franchise alléguée, produit réglementé et sanction :
 qualification et orientation seulement. Un envoi entre la métropole et un
 territoire ultramarin est préparé par `overseas-shipment-documents`, les biens
 d'un voyageur par `traveller-goods-documents`, un achat pour une activité
-par `commercial-import-intake` ; un acte de la douane déjà reçu est lu par
+par `commercial-import-intake`, une exportation par un professionnel par
+`export-document-preparation` ; un acte de la douane déjà reçu est lu par
 `customs-notice-review`.
 
 ## Préparer un envoi entre la métropole et l'outre-mer (DOU-002)
@@ -141,6 +142,43 @@ déclaration), la directive TVA et le Code des douanes recodifié
 règles Incoterms, le CGI et les réglementations propres aux produits ne sont
 pas lus.
 
+## Préparer les pièces d'une exportation définitive ordinaire (DOU-005)
+
+`/judge-fr-eu-customs-legal:export-document-preparation` aide un
+professionnel qui vend ou envoie des marchandises de l'Union, au départ de
+la France métropolitaine, vers une destination identifiée hors de l'Union,
+pour qu'elles y restent : carte des acteurs (vendeur, acheteur, exportateur
+au sens douanier, déclarant, représentant, transporteur, destinataire et
+utilisateur final) et de l'opération, pièces de vente, de transport et de
+sortie reçues ou manquantes, points à vérifier pour le produit, la
+destination et l'usage final, questions au représentant, au transporteur, à
+l'acheteur ou à la douane.
+
+L'exportateur et le déclarant ne sont jamais déduits d'un Incoterm, EXW
+compris ; une facture hors taxes ou une lettre de transport ne prouvent pas
+la sortie. Un indice de bien à double usage, d'usage final sensible ou de
+sanction internationale fait sortir de la tranche : réserve et orientation
+vers le SBDU, un conseil en contrôle export ou un avocat, sans autorisation
+supposée. Une destination finale inconnue au-delà d'un intermédiaire réserve
+les restrictions et formalités dépendantes. Ni l'exonération de TVA ni le
+dédouanement à destination ne sont tranchés ; aucune déclaration, licence,
+date limite ni montant n'est produit. Réexportation, échantillons de salon,
+retour SAV, couteaux et matières naturelles sont détectés et orientés vers
+les tâches proposées.
+
+Exemple : « Votre client canadien a pris la marchandise en EXW et son
+transporteur est reparti, mais vous n'avez aucune certification de sortie.
+Voici qui détient le numéro de déclaration et les preuves à lui demander. »
+
+La [méthode d'exportation et ses sources](references/preparation-exportation.md)
+s'appuie sur le CDU, les règlements délégué 2015/2446 et d'exécution
+2015/2447 (exportateur, bureau de sortie, certification et preuves de
+sortie, invalidation), la directive TVA, le règlement 2021/821 sur les biens
+à double usage, le règlement 833/2014 pour la détection des mesures
+restrictives et le Code des douanes recodifié, lus le 20 octobre 2026 ; les
+règles Incoterms, le CGI, l'annexe I du double usage et le droit des pays de
+destination ne sont pas lus.
+
 ## Lire un document de la douane déjà reçu (DOU-009)
 
 `/judge-fr-eu-customs-legal:customs-notice-review` aide la personne qui a
@@ -171,10 +209,10 @@ sa publication au Journal officiel du 11 avril 2026 ; la ratification et les
 corrections annoncées restent à suivre. Un acte antérieur au 1er mai 2026 ou
 d'un autre État relève d'une version ou d'un régime à rechercher.
 
-## Commun aux cinq skills
+## Commun aux six skills
 
-Les suites DOU-005 à DOU-008 et DOU-010 à DOU-012 restent proposées, sans
+Les suites DOU-006 à DOU-008 et DOU-010 à DOU-019 restent proposées, sans
 commande livrée ici. Les contrôles de structure, de schéma, d'exécution et de
 compréhension réelle sont distingués dans les bilans DOU-001, DOU-002,
-DOU-003, DOU-004 et DOU-009. Les réserves de sources et contrôles non exécutés ne valent pas validation
-juridique.
+DOU-003, DOU-004, DOU-005 et DOU-009. Les réserves de sources et contrôles
+non exécutés ne valent pas validation juridique.

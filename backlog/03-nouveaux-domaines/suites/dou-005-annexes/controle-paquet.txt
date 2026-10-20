@@ -1,0 +1,17 @@
+A_RELIRE references/company-profile-template.md: modèle partagé : /cold-start-interview absent ; vérifier que le parcours ne charge pas ce modèle
+A_RELIRE references/dashboard-template.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/<domain>/outputs/dashboard-<topic>-<date>.html
+A_RELIRE references/isolation.md: chemin dynamique/profil à éprouver: ~/.claude/plugins/config/judge-fr-eu/
+STRUCTURE INCOMPLET: 19 fichiers Markdown; contrôle statique borné
+SCHEMA CLI: <home>/.local/bin/claude (--claude)
+Validating plugin manifest: <RECETTE>/customs-legal/.claude-plugin/plugin.json
+
+Validating plugin: <RECETTE>/customs-legal/CLAUDE.md
+
+⚠ Found 1 warning:
+
+  ❯ root: CLAUDE.md at the plugin root is not loaded as project context. To ship context with your plugin, use a skill (skills/<name>/SKILL.md) instead.
+
+✔ Validation passed with warnings
+SCHEMA OK: code 0
+EXECUTION_SKILL NON_EXECUTEE; COMPORTEMENT_JURIDIQUE NON_EVALUE
+exit=2
