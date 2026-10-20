@@ -1,0 +1,609 @@
+[
+  {
+    "case": "D01",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.5122826,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-customs-legal",
+        "path": "<workspace>/DOU-007/customs-legal",
+        "source": "judge-fr-eu-customs-legal@inline",
+        "version": "0.8.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/qualification-douanes.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/dossier-origine.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "D02",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.4699978,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-customs-legal",
+        "path": "<workspace>/DOU-007/customs-legal",
+        "source": "judge-fr-eu-customs-legal@inline",
+        "version": "0.8.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/qualification-douanes.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/dossier-origine.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "D03",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.4760678,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-customs-legal",
+        "path": "<workspace>/DOU-007/customs-legal",
+        "source": "judge-fr-eu-customs-legal@inline",
+        "version": "0.8.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/qualification-douanes.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/dossier-origine.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "D04",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.4818002,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-customs-legal",
+        "path": "<workspace>/DOU-007/customs-legal",
+        "source": "judge-fr-eu-customs-legal@inline",
+        "version": "0.8.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/qualification-douanes.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/dossier-origine.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "D05",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.4329442,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-customs-legal",
+        "path": "<workspace>/DOU-007/customs-legal",
+        "source": "judge-fr-eu-customs-legal@inline",
+        "version": "0.8.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/qualification-douanes.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/dossier-origine.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "D06",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.48212299999999997,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-customs-legal",
+        "path": "<workspace>/DOU-007/customs-legal",
+        "source": "judge-fr-eu-customs-legal@inline",
+        "version": "0.8.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/qualification-douanes.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/dossier-origine.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "D07",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.45706059999999993,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-customs-legal",
+        "path": "<workspace>/DOU-007/customs-legal",
+        "source": "judge-fr-eu-customs-legal@inline",
+        "version": "0.8.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/qualification-douanes.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/dossier-origine.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "D08",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.4745078,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-customs-legal",
+        "path": "<workspace>/DOU-007/customs-legal",
+        "source": "judge-fr-eu-customs-legal@inline",
+        "version": "0.8.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/qualification-douanes.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/dossier-origine.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "D09",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.4783449999999999,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-customs-legal",
+        "path": "<workspace>/DOU-007/customs-legal",
+        "source": "judge-fr-eu-customs-legal@inline",
+        "version": "0.8.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/qualification-douanes.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/dossier-origine.md"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  },
+  {
+    "case": "D10",
+    "execution_status": "completed",
+    "returncode": 0,
+    "subtype": "success",
+    "is_error": false,
+    "errors": [],
+    "cost_usd": 0.4486588,
+    "permission_denials": [],
+    "plugins": [
+      {
+        "name": "judge-fr-eu-customs-legal",
+        "path": "<workspace>/DOU-007/customs-legal",
+        "source": "judge-fr-eu-customs-legal@inline",
+        "version": "0.8.0"
+      },
+      {
+        "name": "cc-plugin-agents-md",
+        "path": "builtin",
+        "source": "cc-plugin-agents-md@builtin"
+      },
+      {
+        "name": "cc-plugin-telemetry",
+        "path": "builtin",
+        "source": "cc-plugin-telemetry@builtin"
+      },
+      {
+        "name": "cc-plugin-plugin-authoring",
+        "path": "builtin",
+        "source": "cc-plugin-plugin-authoring@builtin"
+      }
+    ],
+    "calls": [
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/isolation.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/shared/research-citation-method.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/qualification-douanes.md"
+        }
+      },
+      {
+        "name": "Read",
+        "input": {
+          "file_path": "<workspace>/DOU-007/customs-legal/references/dossier-origine.md"
+        }
+      },
+      {
+        "name": "Glob",
+        "input": {
+          "pattern": "**/*",
+          "path": "<workspace>/DOU-007/project"
+        }
+      }
+    ],
+    "verdict": "output-review-required"
+  }
+]

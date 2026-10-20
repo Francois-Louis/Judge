@@ -1205,3 +1205,36 @@ skills; the story runner gains the DOU-006 fixtures.
   customs-legal/references/qualification-import-professionnel.md
   customs-legal/skills/commercial-import-intake/SKILL.md
   customs-legal/skills/tariff-classification-dossier/SKILL.md
+
+DOU-007 changes (2026-10-20): customs-legal 0.8.0 adds goods-origin-dossier,
+preparing the facts and proofs for an origin question about one good and
+one identified operation (documented shipment, production and processing
+chain; provenance, non-preferential origin and alleged preference kept
+separate; scope and gaps of each proof supplied; questions to the supplier,
+representative and customs) without certifying an origin, granting a
+preference, giving a rate or filling in a proof. dossier-origine.md 1.0.0
+with dated readings of the Union Customs Code, Delegated Regulation
+2015/2446 (Articles 31 to 36, Annex 22-01), Implementing Regulation
+2015/2447, the EU-UK Trade and Cooperation Agreement as an example
+agreement and the recodified French Customs Code; qualification-douanes.md
+1.7.0, qualification-import-professionnel.md 1.0.3,
+preparation-exportation.md 1.0.2, dossier-classement.md 1.0.1 and
+commercial-import-intake route origin to it. Marketplace and isolation
+counts updated to 148 skills; the story runner gains the DOU-007 fixtures.
+  .claude-plugin/marketplace.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  scripts/recette-stories.py
+  scripts/test-base008-isolation.py
+  customs-legal/.claude-plugin/plugin.json
+  customs-legal/CLAUDE.md
+  customs-legal/NOTICE
+  customs-legal/README.md
+  customs-legal/references/dossier-classement.md
+  customs-legal/references/dossier-origine.md
+  customs-legal/references/preparation-exportation.md
+  customs-legal/references/qualification-douanes.md
+  customs-legal/references/qualification-import-professionnel.md
+  customs-legal/skills/commercial-import-intake/SKILL.md
+  customs-legal/skills/goods-origin-dossier/SKILL.md

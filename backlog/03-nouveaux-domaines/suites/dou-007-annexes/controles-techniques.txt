@@ -1,0 +1,36 @@
+## test-base008-isolation
+Ran 16 tests in 5.329s
+
+OK (skipped=1)
+## source_reviews
+{
+  "plugin": "customs-legal",
+  "depuis": "2026-10-19",
+  "errors": [],
+  "reviews": 104
+}
+## source_reviews dossier-origine (depuis 2026-10-20)
+{"errors_dossier_origine": [], "errors_total": 64, "reviews": 104}
+## marketplace
+✔ Validation passed
+## plugins
+validated=18 failed=0
+## lint-tool-scope
+  ✓ renewal-watcher          orchestrator tool scope clean
+## check-version-bump
+OK   customs-legal: 0.7.0 -> 0.8.0 (11 file(s) changed)
+Version bump check passed against origin/main.
+## json
+OK
+## copies
+identique references/isolation.md
+identique references/company-profile-template.md
+identique references/dashboard-template.md
+identique scripts/judge_store.py
+identique LICENSE
+identique research-citation-method.md ()
+## final package vs tested
+identique au paquet éprouvé: True
+## python
+Python 3.14.4
+2.1.303 (Claude Code)

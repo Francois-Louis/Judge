@@ -1,7 +1,7 @@
 ---
 id: DOU-007
 titre: "Préparer les preuves d'origine d'une marchandise"
-statut: proposee
+statut: terminee
 priorite: P2
 nature: implementation
 dependances: [DOM-009, PILOTE-003, BASE-005, BASE-006, BASE-008, DOU-001]
@@ -71,12 +71,12 @@ une source inaccessible qu'après une tentative réelle. Aucun corpus validé ic
 
 ## Critères d'acceptation
 
-- [ ] Le résultat propre à cette tâche, décrit ci-dessus, est produit sur le cas normal avec pièces et inconnues visibles.
-- [ ] Les cas limites gardent les distinctions et exclusions métier indiquées ; aucune conclusion dépendante n'est complétée de mémoire.
-- [ ] Chaque règle ou formalité retenue a une source lue et un champ territorial/temporel établi ; sans source, la fiche factuelle reste utile.
-- [ ] Le paquet détaché fonctionne seul, sans profil préalable ni autre plugin ; recette BASE-006 consignée par couche, invocation et sorties observées conservées.
-- [ ] La sortie se termine par la phrase BASE-013 avec professionnel adapté ; renfort en tête si acte notifié, échéance ou risque immédiat.
-- [ ] Aucun envoi, déclaration, paiement ou dépôt n'est réalisé ; versions, métadonnées et NOTICE sont cohérents avec les tâches effectivement livrées.
+- [x] Le résultat propre à cette tâche, décrit ci-dessus, est produit sur le cas normal avec pièces et inconnues visibles.
+- [x] Les cas limites gardent les distinctions et exclusions métier indiquées ; aucune conclusion dépendante n'est complétée de mémoire.
+- [x] Chaque règle ou formalité retenue a une source lue et un champ territorial/temporel établi ; sans source, la fiche factuelle reste utile.
+- [x] Le paquet détaché fonctionne seul, sans profil préalable ni autre plugin ; recette BASE-006 consignée par couche, invocation et sorties observées conservées.
+- [x] La sortie se termine par la phrase BASE-013 avec professionnel adapté ; renfort en tête si acte notifié, échéance ou risque immédiat.
+- [x] Aucun envoi, déclaration, paiement ou dépôt n'est réalisé ; versions, métadonnées et NOTICE sont cohérents avec les tâches effectivement livrées.
 
 ## Vérification
 
@@ -110,3 +110,52 @@ le routage documentaire, pas sur l'exécution de ces scénarios.
 Points 27–31 et 73, dossier coutellerie K04 : séparer pays d'expédition, origine non préférentielle, marquage et préférence selon accord. Documenter matières/fournisseurs, transformations, pièces et incohérences ; rechercher règle, formule, seuil éventuel et statut d'exportateur propres à l'accord. Aucun French origin ni seuil de 6 000 € universels. C19 reste une demande de RCO à découper. Cas : couteau fabriqué en France avec composants étrangers et preuve préférentielle absente ; matière attribuée à un fournisseur sans pièce probante.
 
 Exigences de la [matrice des 75 points](../dom-009-annexes/dom-009-frictions-utilisateurs.md), sans sélection de tranche ni capacité annoncée comme livrée. [Portée et contrôles](../dom-009-annexes/dom-009-frictions-verification.md).
+
+## Implémentation — 20 octobre 2026
+
+La demande « implémente la story dou-007 » sélectionne cette tranche, de
+rang 7 dans le découpage DOM-009. L'état de proposition ci-dessus reste un
+historique. `customs-legal` passe à `0.8.0` avec le skill
+`goods-origin-dossier`, sans profil, stockage, calcul, demande ni envoi ;
+marketplace et isolation à 18 paquets / 148 skills.
+
+Ressources : `dossier-origine.md 1.0.0` (provenance, origine non
+préférentielle, origine préférentielle et marquage séparés, valeur des
+textes, guides et outils, divergence sur le seuil de 6 000 €, chaîne
+documentée, questionnaire d'origine non préférentielle avec exemple de
+lecture du chapitre 82, identification du régime préférentiel avec
+l'accord UE–Royaume-Uni en exemple, portée et lacunes des preuves, signaux
+d'alerte, modèle de sortie, dix repères relus le 20 octobre 2026) ;
+`qualification-douanes.md` passe en `1.7.0`,
+`qualification-import-professionnel.md` en `1.0.3`,
+`preparation-exportation.md` en `1.0.2` et `dossier-classement.md` en
+`1.0.1` pour les relais ; `commercial-import-intake` route l'origine vers le
+nouveau skill. Lectures : CDU (RCO, mesures préférentielles, art. 59 à 68),
+règl. délégué 2015/2446 (art. 31 à 36, annexe 22-01), règl. d'exécution
+2015/2447 (déclarations du fournisseur, exportateur agréé, REX, seuils
+subsidiaires), accord UE–Royaume-Uni (chapitre « Règles d'origine »,
+annexes 3 et 7), Code des douanes recodifié (L. 231-3, R. 515-5) ; quatre
+pages de la Douane comme guides ; Access2Markets et ROSA comme outil.
+
+Recette : dix cas fictifs D01–D10 exécutés une fois dans le client réel sur
+paquet détaché, avec accord de l'utilisateur (coût réel 4,71 USD). 10/10
+conformes selon la relecture du rédacteur, D08 avec une réserve de
+formulation (marquage ramené à l'origine non préférentielle, page de la
+Douane dite fautive) ; aucune correction ni rejeu. Preuves :
+[vérification par couche](dou-007-annexes/verification.md),
+[fixtures](dou-007-annexes/fixtures.json), [verdicts](dou-007-annexes/resultats.json),
+[sources](dou-007-annexes/sources/lectures.md),
+[contrôle du paquet](dou-007-annexes/controle-paquet.txt) et
+[contrôles techniques](dou-007-annexes/controles-techniques.txt).
+
+Les critères sont cochés sur ces observations ; aucun scénario avec
+recherche web pendant la réponse n'a été exécuté. Les autres accords et
+protocoles d'origine (dont la convention pan-euro-méditerranéenne), le SPG,
+les règlements sur l'origine de marchandises particulières, les règles
+nationales de marquage, la jurisprudence et l'ancien Code des douanes pour
+des faits antérieurs au 1er mai 2026 restent non étudiés. La demande de RCO
+(C19) reste une tâche distincte, à découper ; l'attestation d'origine d'une
+vente à l'export relève de DOU-016. La relecture juridique et de
+compréhension par un lecteur réel est prise en charge par l'utilisateur
+selon les consignes du 17 octobre 2026 ; elle n'est pas déclarée effectuée
+et ne maintient pas la story ouverte.

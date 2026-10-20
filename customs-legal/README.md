@@ -1,6 +1,6 @@
-# Douanes : achat d'un pays tiers, envoi outre-mer, biens du voyageur, importation commerciale, exportation, classement et document reçu — DOU-001, DOU-002, DOU-003, DOU-004, DOU-005, DOU-006, DOU-009
+# Douanes : achat d'un pays tiers, envoi outre-mer, biens du voyageur, importation commerciale, exportation, classement, origine et document reçu — DOU-001, DOU-002, DOU-003, DOU-004, DOU-005, DOU-006, DOU-007, DOU-009
 
-Version `0.7.0` — 20 octobre 2026 (Europe/Paris).
+Version `0.8.0` — 20 octobre 2026 (Europe/Paris).
 
 ## Préparer le dossier d'un achat expédié d'un pays tiers (DOU-001)
 
@@ -217,6 +217,41 @@ explicatives et avis de l'OMD, les notes de la nomenclature publiées depuis
 2019, les règlements de classement propres à un produit et la nomenclature
 de 2027 ne sont pas lus.
 
+## Préparer les preuves d'origine d'une marchandise (DOU-007)
+
+`/judge-fr-eu-customs-legal:goods-origin-dossier` aide la personne qui doit
+établir ou vérifier l'origine d'une marchandise pour une opération
+identifiée : chaîne documentée d'expédition, de production et de
+transformation, trois qualifications séparées (provenance, origine non
+préférentielle, préférence alléguée selon un accord nommé), portée et
+lacunes de chaque preuve fournie et questions au fournisseur, au
+représentant et à la douane.
+
+Le pays d'expédition, l'adresse du vendeur ou la langue de la facture ne
+disent rien de l'origine. Une simple mention « origine UE » sur une facture,
+sans régime ni élément de production, laisse la préférence réservée ; un
+certificat d'origine non préférentiel ne prouve aucune préférence ; la
+règle par produit, la forme de la preuve, le statut d'exportateur et un
+éventuel seuil se lisent dans l'accord en cause, jamais par défaut. Sans
+classement établi, la règle qui en dépend reste réservée. Aucune origine
+n'est certifiée, aucune préférence acquise, aucun taux ni droit calculé,
+aucune preuve remplie ni demande de RCO déposée.
+
+Exemple : « Vos couteaux sont expédiés depuis l'Allemagne mais fabriqués en
+France avec des lames achetées au Japon : voici la chaîne à documenter, ce
+que la déclaration de votre fournisseur prouve et ce qu'elle ne dit pas, et
+les questions à poser avant d'invoquer une préférence. »
+
+La [méthode d'origine et ses sources](references/dossier-origine.md)
+s'appuie sur le CDU (art. 33, 56, 59 à 68), le règlement délégué 2015/2446
+(art. 31 à 36, annexe 22-01), le règlement d'exécution 2015/2447
+(déclarations du fournisseur, exportateur agréé, REX, seuils subsidiaires),
+l'accord UE–Royaume-Uni lu comme exemple d'accord et le Code des douanes
+recodifié (L. 231-3, R. 515-5), lus le 20 octobre 2026 ; les autres accords
+et protocoles (dont la convention pan-euro-méditerranéenne), les règles
+d'origine du SPG, les règles nationales de marquage et la jurisprudence ne
+sont pas lus.
+
 ## Lire un document de la douane déjà reçu (DOU-009)
 
 `/judge-fr-eu-customs-legal:customs-notice-review` aide la personne qui a
@@ -247,10 +282,10 @@ sa publication au Journal officiel du 11 avril 2026 ; la ratification et les
 corrections annoncées restent à suivre. Un acte antérieur au 1er mai 2026 ou
 d'un autre État relève d'une version ou d'un régime à rechercher.
 
-## Commun aux sept skills
+## Commun aux huit skills
 
-Les suites DOU-007, DOU-008 et DOU-010 à DOU-019 restent proposées, sans
+Les suites DOU-008 et DOU-010 à DOU-019 restent proposées, sans
 commande livrée ici. Les contrôles de structure, de schéma, d'exécution et de
 compréhension réelle sont distingués dans les bilans DOU-001, DOU-002,
-DOU-003, DOU-004, DOU-005, DOU-006 et DOU-009. Les réserves de sources et contrôles
-non exécutés ne valent pas validation juridique.
+DOU-003, DOU-004, DOU-005, DOU-006, DOU-007 et DOU-009. Les réserves de
+sources et contrôles non exécutés ne valent pas validation juridique.

@@ -1,6 +1,7 @@
 # Préparer un dossier de classement tarifaire
 
-Version `1.0.0` — 20 octobre 2026 (Europe/Paris), DOU-006.
+Version `1.0.1` — 20 octobre 2026 (Europe/Paris), DOU-006 ; relais de
+l'origine mis à jour par DOU-007.
 Méthode métier, repères datés et modèle de sortie pour une personne
 (professionnel le plus souvent, particulier possible) qui veut réunir les
 éléments nécessaires à l'examen du classement tarifaire d'une marchandise
@@ -22,7 +23,7 @@ officielle de renseignement à vérifier, sans code arrêté.
 
 **Exclus** : code garanti ou « le bon code », demande de RTC remplie ou
 déposée (tâche à découper), taux, droits, taxes ou montant, mesures TARIC
-appliquées au cas, origine (DOU-007 proposée) et valeur (DOU-008 proposée)
+appliquées au cas, origine (`goods-origin-dossier`) et valeur (DOU-008 proposée)
 arrêtées, expertise de laboratoire, contestation d'un classement retenu par
 la douane, rectification d'une déclaration, admissibilité ou transport d'un
 produit réglementé (couteau : DOU-014 proposée). Leur détection est incluse,
@@ -283,8 +284,8 @@ mandaté retient un code pour les déclarations qu'il dépose et répond de ses
 opérations ; le fabricant détient les données techniques. Aucun n'est le
 conseil de la personne. Conseil : avocat en droit douanier pour un
 contrôle, une contestation du classement retenu par la douane, un
-contentieux ou un volet pénal. Relais proposés, non livrés : DOU-007
-(origine), DOU-008 (valeur), DOU-014 (admissibilité d'un couteau à
+contentieux ou un volet pénal. Origine : `goods-origin-dossier`. Relais
+proposés, non livrés : DOU-008 (valeur), DOU-014 (admissibilité d'un couteau à
 destination), demande de RTC et rectification (tâches à découper). Ne
 jamais présenter une tâche proposée comme une commande disponible.
 

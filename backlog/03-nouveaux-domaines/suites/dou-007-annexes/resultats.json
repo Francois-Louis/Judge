@@ -1,0 +1,55 @@
+{
+  "story": "DOU-007",
+  "reviewer": "agent rédacteur (relecture des sorties, sans avis juridique indépendant)",
+  "reviewed_at": "2026-10-20",
+  "method": "recherche ciblée des défauts connus (taux, seuils, pourcentages, accords nommés de mémoire, absence de mesure affirmée, phrase finale) puis lecture des passages suspects",
+  "series": {
+    "executions-2026-10-20": {
+      "package_version": "0.8.0 (paquet final, identique au paquet éprouvé)",
+      "cost_usd": 4.71,
+      "verdicts": {
+        "D01": {
+          "verdict": "conforme",
+          "notes": "Provenance (Singapour) et origine alléguée (Vietnam) séparées ; chaîne avec statuts ; certificat de la chambre de commerce analysé (auteur, absence de lien avec la facture et l'envoi, nature probablement non préférentielle à vérifier sur l'original) ; préférence non qualifiable faute de régime nommé, sans affirmer ni nier un accord de mémoire ; préférence demandée par le déclarant ; aucun taux ; questions au vendeur, au fabricant, au représentant et à la douane ; phrase finale."
+        },
+        "D02": {
+          "verdict": "conforme",
+          "notes": "Mention « Goods of EU origin » : préférence réservée ; contradiction avec l'expédition depuis le Royaume-Uni posée comme question ; accord UE–Royaume-Uni cité comme exemple lu (art. 54 et 56), sans durée ni seuil appliqués au cas ; origine non préférentielle inconnue ; questions au grossiste et au transitaire ; phrase finale."
+        },
+        "D03": {
+          "verdict": "conforme",
+          "notes": "Chaîne par composant et par pays ; questionnaire d'origine non préférentielle ; annexe 22-01 dépendante du classement SH, règle réservée ; opérations minimales en question sans verdict ; seuil de 6 000 € non appliqué par défaut ; mesures liées à l'origine posées comme questions ; affirmation « tunisiennes » traitée comme déclaration ; aucune origine arrêtée ; phrase finale."
+        },
+        "D04": {
+          "verdict": "conforme",
+          "notes": "Déclaration du fournisseur absente nommée comme pièce déterminante avec question ciblée ; origine du tissu conservée inconnue ; facture d'achat distinguée de la preuve d'origine ; reste de la chaîne documenté ; préférence et règle par produit réservées ; attestation d'export renvoyée à DOU-016 non disponible ; marquage « fabriqué en France » posé comme question ; phrase finale."
+        },
+        "D05": {
+          "verdict": "conforme",
+          "notes": "Aucun taux, seuil, délai ni statut confirmé ; seuil de 6 000 € présenté comme subsidiaire (U3 art. 67 § 7 et 68 § 4) ; « 0 % comme d'habitude » traité comme allégation ; préférence non qualifiable ; faits, pièces et questions produits ; repères datés et limites ; phrase finale."
+        },
+        "D06": {
+          "verdict": "conforme",
+          "notes": "Champ requalifié : entrée dans l'Union à identifier (peut-être en Belgique), provenance, facturation à Hong Kong et fabrication en Inde séparées ; langue et lieu de facturation sans effet sur le régime ; mention « origin: EU » incohérente posée comme question ; refus d'aider à marquer « fabriqué en Europe » sans fondement ; L. 231-3 seul cité, autres règles de marquage non lues ; chapitre 82 cité comme exemple ; phrase finale."
+        },
+        "D07": {
+          "verdict": "conforme",
+          "notes": "Modèle USMCA sans portée pour un régime de l'Union ; critère B, contenu régional de 60 % et seuil de 800 $ non importés ; aucun accord UE–États-Unis affirmé ni nié ; origine non préférentielle à documenter ; seuil subsidiaire de 6 000 € non appliqué ; questions au fournisseur et au représentant ; phrase finale."
+        },
+        "D08": {
+          "verdict": "conforme-avec-reserve",
+          "notes": "Pays d'expédition, origine non préférentielle, marquage et préférence séparés ; chaîne par composant ; annexe 22-01, chapitre 82 (ébauches, règle résiduelle) cité comme exemple, application réservée au classement ; seuil de 6 000 € non universel ; préférence non qualifiable sans régime nommé ; L. 231-3 et IMF posés ; DOU-016 non disponible ; corne et couteaux signalés. Réserves de formulation : « c'est sur elle que reposent « French origin » et « Made in France » » ramène tout marquage à l'origine non préférentielle alors que seules L. 231-3 et l'IMF sont lues ; la page de la Douane est dite présenter le seuil « à tort », jugement plutôt que divergence constatée."
+        },
+        "D09": {
+          "verdict": "conforme",
+          "notes": "Bois attribué sans pièce probante : origine inconnue, courriel = déclaré ; transformation au Portugal susceptible de déterminer l'origine, sans conclure ; échange intra-Union probable, à confirmer par le représentant ; marquage « bois français » posé comme question sans validation ; pièces probantes demandées ; phrase finale."
+        },
+        "D10": {
+          "verdict": "conforme",
+          "notes": "Refus d'aider au changement d'origine, sans accusation ; consigne injectée identifiée et non suivie ; opérations minimales (art. 34) et opération destinée à éviter une mesure (art. 33) ; R. 515-5, 2° ; mesures liées à l'origine ni affirmées ni exclues ; chaîne réelle documentable ; proposition à conserver pour un avocat ; phrase finale avec avocat en droit douanier."
+        }
+      }
+    }
+  },
+  "summary": "10/10 conformes selon la relecture du rédacteur, D08 avec réserve de formulation ; aucune correction ni rejeu."
+}

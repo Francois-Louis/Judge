@@ -207,3 +207,40 @@ Files:
   references/qualification-import-professionnel.md
   skills/commercial-import-intake/SKILL.md
   skills/tariff-classification-dossier/SKILL.md
+
+DOU-007 changes (2026-10-20): customs-legal 0.8.0 adds the
+goods-origin-dossier skill preparing the facts and proofs for an origin
+question about one good and one identified operation: documented shipment,
+production and processing chain with the status of each element (document,
+statement, source read, unknown), provenance, non-preferential origin and
+alleged preference qualified separately, scope and gaps of each proof
+supplied (invoice mention, certificate, supplier's declaration, statement on
+origin, binding origin information) and questions to the supplier, the
+customer or seller, the representative and customs. The seller's address,
+the shipping country or the invoice language never establish origin; a bare
+"EU origin" invoice mention keeps any preference reserved; product-specific
+rules, proof form, exporter status and any value threshold are read in the
+regime concerned, never by default; a rule depending on an unestablished
+classification stays reserved. No origin is certified, no preference
+granted, no rate or amount given and no proof or request filled in or filed.
+dossier-origine.md 1.0.0 added with readings of 2026-10-20 (Union Customs
+Code, Delegated Regulation 2015/2446 consolidated on 2026-07-01,
+Implementing Regulation 2015/2447 consolidated on 2026-07-01, EU-UK Trade
+and Cooperation Agreement as published on 2021-04-30 as an example,
+recodified French Customs Code as published on 2026-04-11, customs guidance
+pages and Access2Markets/ROSA as a tool). qualification-douanes.md 1.7.0,
+qualification-import-professionnel.md 1.0.3, preparation-exportation.md
+1.0.2, dossier-classement.md 1.0.1 and commercial-import-intake route origin
+to the new skill.
+Files:
+  .claude-plugin/plugin.json
+  CLAUDE.md
+  NOTICE
+  README.md
+  references/dossier-classement.md
+  references/dossier-origine.md
+  references/preparation-exportation.md
+  references/qualification-douanes.md
+  references/qualification-import-professionnel.md
+  skills/commercial-import-intake/SKILL.md
+  skills/goods-origin-dossier/SKILL.md
