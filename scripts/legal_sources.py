@@ -181,9 +181,11 @@ def retrieve(kind, reference, *, legifrance_id=None, expected=(), timeout=20,
     elif kind == "eu":
         if not re.fullmatch(r"[0-9][0-9A-Z()_-]{5,60}", reference):
             raise ValueError("Expected an exact CELEX identifier, e.g. 32008R0593")
+        # CELLAR answers 404 to unencoded OJ C-series parentheses, e.g. 52019XC0329(02).
+        celex = urllib.parse.quote(reference, safe="")
         routes = [
-            (f"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:{reference}", None, None),
-            (f"https://publications.europa.eu/resource/celex/{reference}",
+            (f"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:{celex}", None, None),
+            (f"https://publications.europa.eu/resource/celex/{celex}",
              {"Accept": "application/xhtml+xml", "Accept-Language": "fra"}, None),
         ]
     else:

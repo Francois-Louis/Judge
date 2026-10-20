@@ -129,6 +129,18 @@ class OfficialSourcesTests(unittest.TestCase):
         self.assertEqual(result["state"], "retrieved")
         self.assertEqual(calls[1][1]["headers"], {"Accept": "application/xhtml+xml", "Accept-Language": "fra"})
 
+    def test_celex_parentheses_are_percent_encoded(self):
+        calls = []
+        def transport(url, **kwargs):
+            calls.append(url)
+            return response("", status=202)
+        result = sources.retrieve("eu", "52019XC0329(02)", transport=transport)
+        self.assertEqual(calls, [
+            "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:52019XC0329%2802%29",
+            "https://publications.europa.eu/resource/celex/52019XC0329%2802%29",
+        ])
+        self.assertEqual(result["reference"], "52019XC0329(02)")
+
     def test_timeout_records_failure_not_consultation(self):
         def transport(*args, **kwargs):
             raise TimeoutError("timed out")
